@@ -276,4 +276,42 @@ class TestGitHubPublisher:
         assert any("issues/101/comments" in u for u in called_urls)
         assert any("issues/101" in u for u in called_urls)
 
+    def test_proposal_notification_worker(self, monkeypatch):
+        from studio.h3h_studio.ui.main_window import ProposalNotificationWorker
+
+        mock_proposals = [
+            {"issue_number": 42, "title": "Add Zelda video", "data": {"titleId": "01007EF00011E000"}}
+        ]
+        monkeypatch.setattr(GitHubPublisher, "fetch_catalog_proposals", lambda token, repo: mock_proposals)
+
+        worker = ProposalNotificationWorker()
+        received = []
+        worker.proposals_found.connect(lambda p: received.extend(p))
+        worker.run()
+
+        assert len(received) == 1
+        assert received[0]["issue_number"] == 42
+        assert received[0]["data"]["titleId"] == "01007EF00011E000"
+
+    def test_main_window_proposals_banner_visibility(self):
+        from PySide6.QtWidgets import QApplication
+        from studio.h3h_studio.ui.main_window import MainWindow
+
+        app = QApplication.instance() or QApplication([])
+        win = MainWindow()
+        # When proposals are empty, banner is hidden
+        win._on_proposals_found([])
+        assert win.proposals_banner.isHidden() is True
+
+        # When proposals are found, banner is visible with text
+        sample_proposals = [
+            {"issue_number": 1, "title": "Game 1", "data": {}},
+            {"issue_number": 2, "title": "Game 2", "data": {}}
+        ]
+        win._on_proposals_found(sample_proposals)
+        assert win.proposals_banner.isHidden() is False
+        assert "2 видеофона ожидают" in win.proposals_banner_lbl.text()
+        win.close()
+
+
 

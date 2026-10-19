@@ -4,14 +4,14 @@ import threading
 from pathlib import Path
 from typing import Optional
 
-from PySide6.QtCore import Qt, QTimer, Signal, QObject
-from PySide6.QtGui import QFont, QIcon
+from PySide6.QtCore import Qt, QTimer, Signal, QObject, QThread
+from PySide6.QtGui import QFont, QIcon, QPixmap
 from PySide6.QtWidgets import (
     QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QTabWidget,
     QLabel, QPushButton, QFileDialog, QLineEdit, QComboBox,
     QSpinBox, QDoubleSpinBox, QCheckBox, QProgressBar, QTextEdit,
     QMessageBox, QGroupBox, QTableWidget, QTableWidgetItem, QHeaderView,
-    QInputDialog
+    QInputDialog, QFrame, QSystemTrayIcon
 )
 
 from ..core.analyzer import VideoAnalyzer, VideoAnalysis
@@ -20,11 +20,28 @@ from ..core.ken_burns import KenBurnsGenerator
 from ..core.pipeline import FFmpegPipeline
 from ..core.project import StudioProject
 from ..core.online_fetcher import OnlineFetcher
+from ..core.github_publisher import GitHubPublisher
 from .ffmpeg_log_dialog import FFmpegLogDialog
 from .online_search_dialog import OnlineSearchDialog
 from .github_publish_dialog import GitHubPublishDialog
 
 TITLE_ID_PATTERN = re.compile(r"^[0-9A-Fa-f]{16}$")
+
+
+class ProposalNotificationWorker(QThread):
+    proposals_found = Signal(list)
+
+    def __init__(self, token: Optional[str] = None, repo: str = GitHubPublisher.DEFAULT_REPO):
+        super().__init__()
+        self.token = token
+        self.repo = repo
+
+    def run(self):
+        try:
+            proposals = GitHubPublisher.fetch_catalog_proposals(self.token, self.repo)
+            self.proposals_found.emit(proposals)
+        except Exception:
+            self.proposals_found.emit([])
 
 
 class WorkerSignals(QObject):
@@ -49,8 +66,17 @@ class MainWindow(QMainWindow):
         self.current_analysis: Optional[VideoAnalysis] = None
         self.current_project = StudioProject()
 
+        self._proposal_worker: Optional[ProposalNotificationWorker] = None
+        self._proposals_timer = QTimer(self)
+        self._proposals_timer.setInterval(120000)  # check every 2 minutes
+        self._proposals_timer.timeout.connect(self._check_proposals)
+        self._proposals_timer.start()
+
         self._apply_theme()
         self._init_ui()
+
+        # Initial background check after 2 seconds
+        QTimer.singleShot(2000, self._check_proposals)
 
     def _apply_theme(self):
         self.setStyleSheet("""
@@ -194,6 +220,50 @@ class MainWindow(QMainWindow):
         header_layout.addWidget(log_btn)
 
         main_layout.addLayout(header_layout)
+
+        # Proposals Notification Banner
+        self.proposals_banner = QFrame(self)
+        self.proposals_banner.setStyleSheet("""
+            QFrame {
+                background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #1E293B, stop:1 #0F172A);
+                border: 1px solid #00E5FF;
+                border-radius: 6px;
+                padding: 4px 10px;
+            }
+        """)
+        banner_layout = QHBoxLayout(self.proposals_banner)
+        banner_layout.setContentsMargins(10, 6, 10, 6)
+        banner_layout.setSpacing(12)
+
+        self.proposals_banner_lbl = QLabel("🔔 <b>Новые заявки от авторов сообщества:</b> Ожидают вашего подтверждения!", self.proposals_banner)
+        self.proposals_banner_lbl.setStyleSheet("color: #FFFFFF; font-size: 13px;")
+        banner_layout.addWidget(self.proposals_banner_lbl, 1)
+
+        self.proposals_approve_btn = QPushButton("⚡ Одобрить в 1 клик", self.proposals_banner)
+        self.proposals_approve_btn.setStyleSheet("""
+            QPushButton {
+                background-color: #10B981;
+                color: #FFFFFF;
+                font-weight: bold;
+                padding: 6px 16px;
+                border-radius: 4px;
+                font-size: 12px;
+                border: none;
+            }
+            QPushButton:hover {
+                background-color: #059669;
+            }
+        """)
+        self.proposals_approve_btn.clicked.connect(self._open_proposals_moderation)
+        banner_layout.addWidget(self.proposals_approve_btn)
+
+        dismiss_btn = QPushButton("✕", self.proposals_banner)
+        dismiss_btn.setStyleSheet("background: transparent; color: #94A3B8; font-size: 14px; font-weight: bold; border: none; padding: 4px 8px;")
+        dismiss_btn.clicked.connect(lambda: self.proposals_banner.setVisible(False))
+        banner_layout.addWidget(dismiss_btn)
+
+        self.proposals_banner.setVisible(False)
+        main_layout.addWidget(self.proposals_banner)
 
         # Modes Tab Widget
         self.tabs = QTabWidget(self)
@@ -664,6 +734,34 @@ class MainWindow(QMainWindow):
         )
         dlg.exec()
 
+    def _check_proposals(self):
+        if self._proposal_worker and self._proposal_worker.isRunning():
+            return
+        token, _ = GitHubPublisher.get_stored_credentials()
+        self._proposal_worker = ProposalNotificationWorker(token=token)
+        self._proposal_worker.proposals_found.connect(self._on_proposals_found)
+        self._proposal_worker.start()
+
+    def _on_proposals_found(self, proposals: list):
+        if not proposals:
+            self.proposals_banner.setVisible(False)
+            return
+
+        count = len(proposals)
+        if count == 1:
+            txt = "🔔 <b>Новая заявка от сообщества:</b> 1 видеофон ожидает вашего одобрения!"
+        elif 2 <= count <= 4:
+            txt = f"🔔 <b>Новые заявки от сообщества:</b> {count} видеофона ожидают вашего одобрения!"
+        else:
+            txt = f"🔔 <b>Новые заявки от сообщества:</b> {count} видеофонов ожидают вашего одобрения!"
+
+        self.proposals_banner_lbl.setText(txt)
+        self.proposals_banner.setVisible(True)
+
+    def _open_proposals_moderation(self):
+        self._open_github_publish(initial_tab=4)
+        self._check_proposals()
+
     def _open_github_publish(self, initial_tab: int = 0):
         try:
             video_path_str = ""
@@ -686,7 +784,9 @@ class MainWindow(QMainWindow):
                 initial_tab=initial_tab,
                 parent=self
             )
+            dlg.proposals_updated.connect(self._check_proposals)
             dlg.exec()
+            self._check_proposals()
         except Exception as e:
             import traceback
             traceback.print_exc()

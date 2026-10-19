@@ -15,7 +15,7 @@ from PySide6.QtWidgets import (
     QDialog, QVBoxLayout, QHBoxLayout, QLineEdit, QPushButton,
     QLabel, QComboBox, QTextEdit, QProgressBar, QMessageBox,
     QFileDialog, QFrame, QGroupBox, QTabWidget, QTableWidget,
-    QTableWidgetItem, QHeaderView, QWidget, QInputDialog
+    QTableWidgetItem, QHeaderView, QWidget, QInputDialog, QRadioButton
 )
 
 from ..core.github_publisher import GitHubPublisher
@@ -349,6 +349,8 @@ class SubmitProposalWorkerThread(QThread):
 
 
 class GitHubPublishDialog(QDialog):
+    proposals_updated = Signal()
+
     def __init__(
         self,
         video_path: Optional[str] = None,
@@ -443,7 +445,10 @@ class GitHubPublishDialog(QDialog):
 
         gdrive_cfg = GoogleDriveHelper.get_stored_config()
         self.gdrive_token = gdrive_cfg.get("token", "")
-        self.gdrive_folder_id = gdrive_cfg.get("folder_id", "")
+        self.gdrive_project_folder_id = gdrive_cfg.get("project_folder_id", gdrive_cfg.get("folder_id", ""))
+        self.gdrive_personal_folder_id = gdrive_cfg.get("personal_folder_id", "")
+        self.gdrive_target_drive = gdrive_cfg.get("target_drive", "project")
+        self.gdrive_folder_id = self.gdrive_project_folder_id if self.gdrive_target_drive == "project" else (self.gdrive_personal_folder_id or self.gdrive_project_folder_id)
         self.gdrive_author = gdrive_cfg.get("author", self.default_user)
         self.gdrive_batch_scanned_items: List[Dict[str, Any]] = []
         self._gdrive_scan_worker: Optional[BatchScanWorkerThread] = None
@@ -1334,13 +1339,33 @@ class GitHubPublishDialog(QDialog):
         src_layout.addLayout(pick_row)
         layout.addWidget(src_box)
 
-        # Destination Folder
-        dest_row = QHBoxLayout()
-        dest_row.addWidget(QLabel("Целевая папка Google Диска (ID или ссылка):", widget))
-        self.gdrive_batch_folder_edit = QLineEdit(self.gdrive_folder_id, widget)
+        # Destination Folder & Storage Target Selector
+        dest_box = QGroupBox("2. Куда загружать видеофоны (Целевой Google Диск)", widget)
+        dest_layout = QVBoxLayout(dest_box)
+
+        target_row = QHBoxLayout()
+        target_row.addWidget(QLabel("<b>Целевое хранилище:</b>", dest_box))
+        self.gdrive_target_project_radio = QRadioButton("🏢 Официальный Диск проекта (диск владельца)", dest_box)
+        self.gdrive_target_personal_radio = QRadioButton("👤 Мой личный Google Диск", dest_box)
+        if self.gdrive_target_drive == "personal":
+            self.gdrive_target_personal_radio.setChecked(True)
+        else:
+            self.gdrive_target_project_radio.setChecked(True)
+
+        self.gdrive_target_project_radio.toggled.connect(self._on_gdrive_target_toggled)
+        target_row.addWidget(self.gdrive_target_project_radio)
+        target_row.addWidget(self.gdrive_target_personal_radio)
+        target_row.addStretch()
+        dest_layout.addLayout(target_row)
+
+        folder_row = QHBoxLayout()
+        folder_row.addWidget(QLabel("Папка загрузки (ID или ссылка):", dest_box))
+        self.gdrive_batch_folder_edit = QLineEdit(self.gdrive_folder_id, dest_box)
         self.gdrive_batch_folder_edit.setPlaceholderText("Вставьте ссылку на папку или ID (оставьте пустым для корня Диска)...")
-        dest_row.addWidget(self.gdrive_batch_folder_edit)
-        layout.addLayout(dest_row)
+        folder_row.addWidget(self.gdrive_batch_folder_edit)
+        dest_layout.addLayout(folder_row)
+
+        layout.addWidget(dest_box)
 
         # Table of Scanned Items
         self.gdrive_batch_table = QTableWidget(0, 6, widget)
@@ -1522,12 +1547,19 @@ class GitHubPublishDialog(QDialog):
         tok_layout.addWidget(self.gdrive_token_edit)
         b_layout.addLayout(tok_layout)
 
-        f_layout = QVBoxLayout()
-        f_layout.addWidget(QLabel("ID или ссылка на папку по умолчанию:", box))
-        self.gdrive_folder_cfg_edit = QLineEdit(self.gdrive_folder_id, box)
-        self.gdrive_folder_cfg_edit.setPlaceholderText("1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs")
-        f_layout.addWidget(self.gdrive_folder_cfg_edit)
-        b_layout.addLayout(f_layout)
+        f_proj_layout = QVBoxLayout()
+        f_proj_layout.addWidget(QLabel("ID или ссылка на официальную папку проекта (Диск владельца):", box))
+        self.gdrive_project_folder_cfg_edit = QLineEdit(self.gdrive_project_folder_id, box)
+        self.gdrive_project_folder_cfg_edit.setPlaceholderText("ID или ссылка на папку владельца...")
+        f_proj_layout.addWidget(self.gdrive_project_folder_cfg_edit)
+        b_layout.addLayout(f_proj_layout)
+
+        f_pers_layout = QVBoxLayout()
+        f_pers_layout.addWidget(QLabel("ID или ссылка на мою личную папку Google Диска:", box))
+        self.gdrive_personal_folder_cfg_edit = QLineEdit(self.gdrive_personal_folder_id, box)
+        self.gdrive_personal_folder_cfg_edit.setPlaceholderText("ID или ссылка на личную папку автора...")
+        f_pers_layout.addWidget(self.gdrive_personal_folder_cfg_edit)
+        b_layout.addLayout(f_pers_layout)
 
         author_layout = QVBoxLayout()
         author_layout.addWidget(QLabel("Имя автора по умолчанию:", box))
@@ -1982,16 +2014,41 @@ class GitHubPublishDialog(QDialog):
             QMessageBox.warning(self, "Ошибка подключения", f"Не удалось подключиться к Google Диску:\n\n{msg}")
 
     def _save_gdrive_account_config(self):
+        tok = self.gdrive_token_edit.text().strip()
+        proj_fid = self.gdrive_project_folder_cfg_edit.text().strip() if hasattr(self, "gdrive_project_folder_cfg_edit") else self.gdrive_project_folder_id
+        pers_fid = self.gdrive_personal_folder_cfg_edit.text().strip() if hasattr(self, "gdrive_personal_folder_cfg_edit") else self.gdrive_personal_folder_id
+        author = self.gdrive_author_cfg_edit.text().strip()
+
+        target = "personal" if (hasattr(self, "gdrive_target_personal_radio") and self.gdrive_target_personal_radio.isChecked()) else "project"
+        active_fid = pers_fid if target == "personal" else (proj_fid or pers_fid)
+
         cfg = {
-            "token": self.gdrive_token_edit.text().strip(),
-            "folder_id": self.gdrive_folder_cfg_edit.text().strip(),
-            "author": self.gdrive_author_cfg_edit.text().strip()
+            "token": tok,
+            "project_folder_id": proj_fid,
+            "personal_folder_id": pers_fid,
+            "folder_id": active_fid,
+            "default_folder_id": active_fid,
+            "target_drive": target,
+            "author": author
         }
         GoogleDriveHelper.save_stored_config(cfg)
-        self.gdrive_token = cfg["token"]
-        self.gdrive_folder_id = cfg["folder_id"]
-        self.gdrive_author = cfg["author"]
+        self.gdrive_token = tok
+        self.gdrive_project_folder_id = proj_fid
+        self.gdrive_personal_folder_id = pers_fid
+        self.gdrive_target_drive = target
+        self.gdrive_folder_id = active_fid
+        self.gdrive_author = author
+        if hasattr(self, "gdrive_batch_folder_edit"):
+            self.gdrive_batch_folder_edit.setText(active_fid)
         QMessageBox.information(self, "Сохранено", "Настройки Google Диска успешно сохранены в профиле!")
+
+    def _on_gdrive_target_toggled(self):
+        if hasattr(self, "gdrive_target_project_radio") and self.gdrive_target_project_radio.isChecked():
+            fid = self.gdrive_project_folder_id
+        else:
+            fid = self.gdrive_personal_folder_id or self.gdrive_project_folder_id
+        if hasattr(self, "gdrive_batch_folder_edit"):
+            self.gdrive_batch_folder_edit.setText(fid)
 
     def _show_gdrive_token_help(self):
         msg = (
@@ -2319,6 +2376,7 @@ class GitHubPublishDialog(QDialog):
                 "Видеофон успешно добавлен в онлайн-каталог catalog.json!\n\n"
                 "Заявка на GitHub закрыта с подтверждающим комментарием."
             )
+            self.proposals_updated.emit()
             self._refresh_proposals_table()
         else:
             self.status_lbl.setText("❌ Ошибка при одобрении заявки")
@@ -2368,6 +2426,7 @@ class GitHubPublishDialog(QDialog):
         if success:
             self.status_lbl.setText("Заявка отклонена и закрыта.")
             QMessageBox.information(self, "Заявка отклонена", "Заявка на GitHub успешно закрыта с указанием причины.")
+            self.proposals_updated.emit()
             self._refresh_proposals_table()
         else:
             self.status_lbl.setText("❌ Ошибка при отклонении заявки")
