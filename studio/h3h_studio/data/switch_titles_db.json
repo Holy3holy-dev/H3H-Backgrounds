@@ -65167,5 +65167,59 @@
     "format": "NSP",
     "genre": "Adventure",
     "isHomebrew": false
+  },
+  {
+    "title": "Dark Souls: Remastered (Update & 4IFIR Patch) [NSP][RUS/Multi9]",
+    "titleId": "01004AB00A260800",
+    "publisher": "BANDAI NAMCO Entertainment",
+    "artUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/5761068.jpg",
+    "format": "NSP",
+    "genre": "Action, RPG",
+    "isHomebrew": false
+  },
+  {
+    "title": "Tomodachi Life: Living the Dream [Mod/Port] [NSP][ENG]",
+    "titleId": "010051F0207B2000",
+    "publisher": "Community Modders",
+    "artUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010051F0207B2000.jpg",
+    "format": "NSP, Homebrew",
+    "genre": "Life Simulation, Social",
+    "isHomebrew": true
+  },
+  {
+    "title": "Super Mario Galaxy 2 (Switch Native Port) [NSP][RUS/Multi]",
+    "titleId": "0100FD8022DAA000",
+    "publisher": "Nintendo / Community Port",
+    "artUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FD8022DAA000.jpg",
+    "format": "NSP, Port",
+    "genre": "Platformer, Adventure",
+    "isHomebrew": true
+  },
+  {
+    "title": "Switch Homebrew Forwarder / Title (03DB117EE17B6000)",
+    "titleId": "03DB117EE17B6000",
+    "publisher": "Homebrew Community",
+    "artUrl": "",
+    "format": "Homebrew, Forwarder",
+    "genre": "Homebrew, Utility",
+    "isHomebrew": true
+  },
+  {
+    "title": "Doom 3 (dhewm3 Switch Source Port) [NRO][RUS/ENG]",
+    "titleId": "",
+    "publisher": "id Software / dhewm3 team",
+    "artUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/doom3.jpg",
+    "format": "NRO",
+    "genre": "FPS, Horror, Homebrew",
+    "isHomebrew": true
+  },
+  {
+    "title": "Return to Castle Wolfenstein (iortcw Port) [NRO][RUS/ENG]",
+    "titleId": "",
+    "publisher": "id Software / iortcw",
+    "artUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/rtcw.jpg",
+    "format": "NRO",
+    "genre": "FPS, Action, Homebrew",
+    "isHomebrew": true
   }
 ]

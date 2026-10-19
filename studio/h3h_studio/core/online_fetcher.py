@@ -62,9 +62,9 @@ class OnlineFetcher:
         return len(cls._load_db())
 
     @classmethod
-    def search_switch_games(cls, query: str, category: str = "all", limit: Optional[int] = 200) -> List[Dict[str, Any]]:
+    def search_switch_games(cls, query: str, category: str = "all", limit: Optional[int] = None) -> List[Dict[str, Any]]:
         """
-        Search 7,200+ Switch titles, Homebrew, and Ports.
+        Search 7,200+ Switch titles, Homebrew, and Ports without artificial truncation.
         category options: 'all', 'homebrew', 'official'
         """
         db = cls._load_db()
@@ -83,7 +83,7 @@ class OnlineFetcher:
 
             if not q_tokens:
                 results.append(item)
-                if limit and len(results) >= limit:
+                if limit is not None and len(results) >= limit:
                     break
                 continue
 
@@ -95,13 +95,18 @@ class OnlineFetcher:
             # Match all tokens
             matches = True
             for tok in q_tokens:
-                if not (tok in title_clean or tok in tid or tok in pub or tok in genre):
+                token_matched = (tok in title_clean or tok in tid or tok in pub or tok in genre)
+                if not token_matched and len(tok) == 16 and len(tid) == 16:
+                    # Base Title ID match (first 12 hex chars match e.g. base 0000 vs update 0800)
+                    if tok[:12] == tid[:12]:
+                        token_matched = True
+                if not token_matched:
                     matches = False
                     break
 
             if matches:
                 results.append(item)
-                if limit and len(results) >= limit:
+                if limit is not None and len(results) >= limit:
                     break
 
         return results

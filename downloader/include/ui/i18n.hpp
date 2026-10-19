@@ -34,6 +34,10 @@ struct StringTable {
     const char* actionDelete;
     const char* actionSelect;
     const char* actionBack;
+    const char* actionRefresh;
+    const char* actionRefreshCatalog;
+    const char* updateAppBtn;
+    const char* refreshCatalogBtn;
 
     // Dialogs
     const char* confirmRestoreTitle;
@@ -74,6 +78,10 @@ inline const StringTable& getStrings(Language lang) {
         "Удалить",
         "Выбрать",
         "Назад",
+        "Обновить",
+        "Обновить каталог",
+        "Обновить .NRO",
+        "[-] Обновить каталог",
 
         "Восстановление копии",
         "Восстановить предыдущий видеофон (.bak) для этой игры?",
@@ -111,6 +119,10 @@ inline const StringTable& getStrings(Language lang) {
         "Delete",
         "Select",
         "Back",
+        "Refresh",
+        "Refresh Catalog",
+        "Update .NRO",
+        "[-] Refresh Catalog",
 
         "Restore Backup",
         "Restore previous video cover (.bak) for this title?",

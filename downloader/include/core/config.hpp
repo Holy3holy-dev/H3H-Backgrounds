@@ -15,21 +15,14 @@ public:
     
     // Default remote catalog URL (GitHub CDN raw)
     static constexpr const char* DEFAULT_CATALOG_URL = 
-        "https://raw.githubusercontent.com/h3h-backgrounds/catalog/main/catalog/data/catalog.json";
+        "https://raw.githubusercontent.com/Holy3holy-dev/H3H-Backgrounds/main/catalog/data/catalog.json";
 
     // Safety buffer for free disk space checks (20 MB minimum reserve)
     static constexpr uint64_t STORAGE_SAFETY_BUFFER_BYTES = 20 * 1024 * 1024;
 
-    // Strict validation for Nintendo Switch Title ID (16 hex chars starting with 0100)
+    // Strict validation for Nintendo Switch Title ID (16 hex chars)
     static bool isValidTitleId(const std::string& titleId) {
         if (titleId.length() != 16) return false;
-        if (titleId.substr(0, 4) != "0100" && titleId.substr(0, 4) != "0100") {
-            // Check case-insensitively for 0100
-            if (std::tolower(titleId[0]) != '0' || std::tolower(titleId[1]) != '1' ||
-                std::tolower(titleId[2]) != '0' || std::tolower(titleId[3]) != '0') {
-                return false;
-            }
-        }
         for (char c : titleId) {
             if (!std::isxdigit(static_cast<unsigned char>(c))) {
                 return false;

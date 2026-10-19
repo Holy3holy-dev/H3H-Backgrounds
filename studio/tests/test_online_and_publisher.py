@@ -13,9 +13,11 @@ from studio.h3h_studio.core.github_publisher import GitHubPublisher
 class TestOnlineFetcher:
     def test_search_games_returns_large_catalog(self):
         total = OnlineFetcher.get_total_titles_count()
-        assert total > 5000
-        first_batch = OnlineFetcher.search_switch_games("", category="all")
-        assert len(first_batch) == 200
+        assert total > 7000
+        all_games = OnlineFetcher.search_switch_games("", category="all")
+        assert len(all_games) >= total
+        limited = OnlineFetcher.search_switch_games("", category="all", limit=50)
+        assert len(limited) == 50
 
     def test_search_homebrew_filter(self):
         hb_games = OnlineFetcher.search_switch_games("", category="homebrew")

@@ -55,6 +55,7 @@ public:
     void queueDownload(const InstalledTitle& title, const Variant& variant);
     void executeRestoreBackup(const std::string& titleId);
     void executeDeleteCover(const std::string& titleId);
+    void updateApplicationNro();
 
     // Render Passes
     void render();

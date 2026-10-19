@@ -102,7 +102,8 @@ class OnlineSearchDialog(QDialog):
 
         # Header
         top_bar = QHBoxLayout()
-        title_lbl = QLabel("🌐 База игр Nintendo Switch, портов и Homebrew (7 200+)", self)
+        total_count = OnlineFetcher.get_total_titles_count()
+        title_lbl = QLabel(f"🌐 База игр Nintendo Switch, портов и Homebrew ({total_count:,} записей)", self)
         title_lbl.setFont(QFont("Segoe UI", 15, QFont.Bold))
         top_bar.addWidget(title_lbl)
         top_bar.addStretch()
@@ -211,7 +212,7 @@ class OnlineSearchDialog(QDialog):
     def _trigger_search(self):
         query = self.search_input.text()
         cat = self.category_combo.currentData()
-        self.current_results = OnlineFetcher.search_switch_games(query, category=cat)
+        self.current_results = OnlineFetcher.search_switch_games(query, category=cat, limit=None)
         self.table.setRowCount(len(self.current_results))
 
         for row, item in enumerate(self.current_results):
@@ -233,7 +234,11 @@ class OnlineSearchDialog(QDialog):
 
             self.table.setItem(row, 3, QTableWidgetItem(item.get("publisher", "")))
 
-        self.status_lbl.setText(f"Найдено: {len(self.current_results)} записей")
+        total_db = OnlineFetcher.get_total_titles_count()
+        if not query.strip():
+            self.status_lbl.setText(f"Всего в базе: {len(self.current_results):,} игр и портов")
+        else:
+            self.status_lbl.setText(f"Найдено: {len(self.current_results):,} из {total_db:,} записей")
 
         if len(self.current_results) > 0:
             self.table.selectRow(0)

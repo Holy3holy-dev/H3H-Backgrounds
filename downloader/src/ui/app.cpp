@@ -33,14 +33,18 @@ bool App::init() {
 
     m_sysInfo = m_platform->getSystemInfo();
 
-    // Load initial catalog (from cache or remote)
+    // Load initial catalog (cache -> romfs -> local dev)
     std::string catError;
     if (!m_catalogManager.loadFromFile(m_platform->getAppDirectory() + "/cache.json", catError)) {
-        // Fallback to local catalog if in desktop dev environment
-        m_catalogManager.loadFromFile("catalog/data/catalog.json", catError);
+        if (!m_catalogManager.loadFromFile("romfs:/catalog.json", catError)) {
+            m_catalogManager.loadFromFile("catalog/data/catalog.json", catError);
+        }
     }
 
     refreshInstalledGames();
+
+    // Auto-fetch latest catalog from GitHub on launch
+    fetchRemoteCatalog();
 
 #ifdef HAS_SDL2
     if (SDL_Init(SDL_INIT_VIDEO | SDL_INIT_GAMECONTROLLER) != 0) {
@@ -132,22 +136,64 @@ void App::refreshInstalledGames() {
 }
 
 void App::fetchRemoteCatalog() {
+    m_statusNotification = (m_language == Language::Russian) ? "Загрузка каталога с GitHub..." : "Fetching catalog from GitHub...";
+    m_notificationFramesRemaining = 60;
+
     std::string jsonStr;
     std::string err;
     if (m_platform->fetchCatalog(Config::DEFAULT_CATALOG_URL, jsonStr, err)) {
         if (m_catalogManager.loadFromJsonString(jsonStr, err)) {
             m_catalogManager.saveToCacheFile(m_platform->getAppDirectory() + "/cache.json");
             m_catalogManager.matchInstalledTitles(m_installedGames);
-            m_statusNotification = "Каталог успешно обновлён (" + std::to_string(m_catalogManager.getGamesCount()) + " игр)";
+            m_statusNotification = (m_language == Language::Russian)
+                ? ("Каталог успешно обновлён (" + std::to_string(m_catalogManager.getGamesCount()) + " игр)")
+                : ("Catalog updated successfully (" + std::to_string(m_catalogManager.getGamesCount()) + " games)");
             m_notificationFramesRemaining = 180;
         } else {
-            m_statusNotification = "Ошибка структуры каталога: " + err;
+            m_statusNotification = (m_language == Language::Russian)
+                ? ("Ошибка структуры каталога: " + err)
+                : ("Catalog schema error: " + err);
             m_notificationFramesRemaining = 240;
         }
     } else {
-        m_statusNotification = "Ошибка загрузки: " + err;
+        m_statusNotification = (m_language == Language::Russian)
+            ? ("Ошибка сети: " + err)
+            : ("Network error: " + err);
         m_notificationFramesRemaining = 240;
     }
+}
+
+void App::updateApplicationNro() {
+    m_statusNotification = (m_language == Language::Russian)
+        ? "Загрузка обновления H3H-Backgrounds.nro..."
+        : "Downloading H3H-Backgrounds.nro update...";
+    m_notificationFramesRemaining = 120;
+
+    std::string nroUrl = "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.0.0/H3H-Backgrounds.nro";
+    std::string appDir = m_platform->getAppDirectory();
+    std::string tempNro = appDir + "/H3H-Backgrounds.nro.tmp";
+    std::string targetNro = appDir + "/H3H-Backgrounds.nro";
+
+    std::atomic<bool> cancel{false};
+    std::string err;
+    bool ok = m_platform->downloadFile(nroUrl, tempNro, nullptr, cancel, err);
+    if (ok) {
+        std::remove(targetNro.c_str());
+        if (std::rename(tempNro.c_str(), targetNro.c_str()) == 0) {
+            m_statusNotification = (m_language == Language::Russian)
+                ? "Приложение H3H-Backgrounds.nro успешно обновлено!"
+                : "H3H-Backgrounds.nro updated successfully!";
+        } else {
+            m_statusNotification = (m_language == Language::Russian)
+                ? "Ошибка замены файла H3H-Backgrounds.nro"
+                : "Failed to replace H3H-Backgrounds.nro";
+        }
+    } else {
+        m_statusNotification = (m_language == Language::Russian)
+            ? ("Ошибка обновления: " + err)
+            : ("Update failed: " + err);
+    }
+    m_notificationFramesRemaining = 240;
 }
 
 void App::queueDownload(const InstalledTitle& title, const Variant& variant) {
@@ -197,6 +243,33 @@ void App::handleInput() {
             m_running = false;
         } else if (event.type == SDL_CONTROLLERBUTTONDOWN) {
             onButtonPress(event.cbutton.button);
+        } else if (event.type == SDL_MOUSEBUTTONDOWN) {
+            // Touch / mouse support on Nintendo Switch
+            int mx = event.button.x;
+            int my = event.button.y;
+
+            // Top Header tabs: y in [10, 55]
+            if (my >= 10 && my <= 55) {
+                if (mx >= 340 && mx < 460) m_activeTab = Tab::Home;
+                else if (mx >= 460 && mx < 580) m_activeTab = Tab::MyGames;
+                else if (mx >= 580 && mx < 700) m_activeTab = Tab::Catalog;
+                else if (mx >= 700 && mx < 820) m_activeTab = Tab::Downloads;
+                else if (mx >= 820 && mx < 940) m_activeTab = Tab::Settings;
+            }
+            // Catalog Tab: top-right "[-] Обновить" button: x in [980, 1220], y in [95, 145]
+            else if (m_activeTab == Tab::Catalog && mx >= 980 && mx <= 1220 && my >= 95 && my <= 145) {
+                onButtonPress(4 /* Minus / Refresh */);
+            }
+            // Settings Tab: buttons at y in [300, 350]
+            else if (m_activeTab == Tab::Settings && my >= 300 && my <= 350) {
+                if (mx >= 60 && mx <= 340) onButtonPress(2 /* Clear Cache */);
+                else if (mx >= 370 && mx <= 690) onButtonPress(3 /* Refresh Catalog */);
+                else if (mx >= 720 && mx <= 1060) onButtonPress(6 /* Update NRO */);
+            }
+            // Footer bar click on refresh: y in [660, 720]
+            else if (my >= 660 && mx >= 1050) {
+                onButtonPress(4 /* Minus / Refresh */);
+            }
         } else if (event.type == SDL_KEYDOWN) {
             // Keyboard simulation on PC
             switch (event.key.keysym.sym) {
@@ -212,6 +285,12 @@ void App::handleInput() {
                 case SDLK_y:      onButtonPress(SDL_CONTROLLER_BUTTON_Y); break;
                 case SDLK_q:      onButtonPress(SDL_CONTROLLER_BUTTON_LEFTSHOULDER); break;
                 case SDLK_e:      onButtonPress(SDL_CONTROLLER_BUTTON_RIGHTSHOULDER); break;
+                case SDLK_MINUS:
+                case SDLK_m:
+                case SDLK_r:      onButtonPress(SDL_CONTROLLER_BUTTON_BACK); break; // Minus (Refresh)
+                case SDLK_EQUALS:
+                case SDLK_PLUS:
+                case SDLK_p:      onButtonPress(SDL_CONTROLLER_BUTTON_START); break; // Plus (Update NRO)
                 default: break;
             }
         }
@@ -246,6 +325,13 @@ void App::onButtonPress(int button) {
         return;
     }
 
+    // Universal Minus (-) button: Global Refresh
+    if (button == 4 /* SDL_CONTROLLER_BUTTON_BACK (Minus / -) */) {
+        fetchRemoteCatalog();
+        refreshInstalledGames();
+        return;
+    }
+
     // Tab switching with Shoulder buttons (L/R)
     if (button == 9 /* LEFTSHOULDER */) {
         int tabInt = static_cast<int>(m_activeTab);
@@ -261,7 +347,12 @@ void App::onButtonPress(int button) {
     }
 
     // View-specific input handling
-    if (m_activeTab == Tab::MyGames) {
+    if (m_activeTab == Tab::Home) {
+        if (button == 0 /* A */ || button == 2 /* X */) {
+            fetchRemoteCatalog();
+            refreshInstalledGames();
+        }
+    } else if (m_activeTab == Tab::MyGames) {
         if (button == 11 /* DPAD_UP */) {
             if (m_myGamesSelectedIndex > 0) {
                 m_myGamesSelectedIndex--;
@@ -317,6 +408,16 @@ void App::onButtonPress(int button) {
                 }
             }
         }
+    } else if (m_activeTab == Tab::Catalog) {
+        int totalGames = static_cast<int>(m_catalogManager.getAllGames().size());
+        if (button == 11 /* DPAD_UP */) {
+            if (m_catalogSelectedIndex > 0) m_catalogSelectedIndex--;
+        } else if (button == 12 /* DPAD_DOWN */) {
+            if (m_catalogSelectedIndex + 1 < totalGames) m_catalogSelectedIndex++;
+        } else if (button == 2 /* X */ || button == 0 /* A */ || button == 3 /* Y */) {
+            fetchRemoteCatalog();
+            refreshInstalledGames();
+        }
     } else if (m_activeTab == Tab::Settings) {
         if (button == 0 /* A */) {
             // Toggle language
@@ -328,6 +429,11 @@ void App::onButtonPress(int button) {
             refreshInstalledGames();
             m_statusNotification = getStrings(m_language).cacheClearedMsg;
             m_notificationFramesRemaining = 120;
+        } else if (button == 3 /* Y - Refresh Catalog */) {
+            fetchRemoteCatalog();
+            refreshInstalledGames();
+        } else if (button == 6 /* START / Plus - Update App NRO */) {
+            updateApplicationNro();
         }
     }
 }
@@ -401,13 +507,36 @@ void App::renderFooter() {
     drawRect(0, 670, Theme::SCREEN_WIDTH, 50, Theme::COLOR_BG_SURFACE);
     drawRect(0, 670, Theme::SCREEN_WIDTH, 1, Theme::COLOR_BORDER);
 
-    std::string hints = "[L/R] " + std::string(s.actionSelect) + "  "
-                        "[A] " + std::string(s.actionInstall) + "  "
-                        "[B] " + std::string(s.actionBack) + "  "
-                        "[X] " + std::string(s.actionRestore) + "  "
-                        "[Y] " + std::string(s.actionDelete);
+    std::string hints;
+    if (m_activeTab == Tab::MyGames) {
+        hints = "[L/R] " + std::string(s.actionSelect) + "  "
+                "[A] " + std::string(s.actionInstall) + "  "
+                "[B] " + std::string(s.actionBack) + "  "
+                "[X] " + std::string(s.actionRestore) + "  "
+                "[Y] " + std::string(s.actionDelete) + "  "
+                "[-] " + std::string(s.actionRefresh);
+    } else if (m_activeTab == Tab::Catalog) {
+        hints = "[L/R] " + std::string(s.actionSelect) + "  "
+                "[-] " + std::string(s.actionRefresh) + "  "
+                "[X/A] " + std::string(s.actionRefreshCatalog);
+    } else if (m_activeTab == Tab::Settings) {
+        hints = "[L/R] " + std::string(s.actionSelect) + "  "
+                "[A] Язык  "
+                "[X] " + std::string(s.clearCacheBtn) + "  "
+                "[-] / [Y] " + std::string(s.actionRefreshCatalog) + "  "
+                "[+] " + std::string(s.updateAppBtn);
+    } else {
+        hints = "[L/R] " + std::string(s.actionSelect) + "  "
+                "[A/X] " + std::string(s.actionRefresh) + "  "
+                "[-] " + std::string(s.actionRefresh);
+    }
 
     drawText(hints, 30, 685, Theme::COLOR_TEXT_MUTED, 14);
+
+    // Prominent "[-] Обновить" touch-button on the bottom right of footer
+    drawRect(1070, 675, 180, 38, Theme::COLOR_BG_ELEVATED);
+    drawRectOutline(1070, 675, 180, 38, Theme::COLOR_ACCENT, 1);
+    drawText("[-] " + std::string(s.actionRefresh), 1095, 686, Theme::COLOR_ACCENT, 14);
 }
 
 void App::renderTabHome() {
@@ -437,6 +566,7 @@ void App::renderTabHome() {
     drawRectOutline(860, 100, 360, 160, Theme::COLOR_BORDER, 1);
     drawText(s.statAvailableCatalog, 880, 120, Theme::COLOR_TEXT_MUTED, 16);
     drawText(std::to_string(catalogCount), 880, 160, Theme::COLOR_ACCENT, 42);
+    drawText("[-] " + std::string(s.actionRefreshCatalog), 880, 215, Theme::COLOR_FOCUS_RING, 13);
 
     // Applet Warning if applicable
     if (m_sysInfo.isAppletMode) {
@@ -453,9 +583,25 @@ void App::renderTabMyGames() {
     drawRect(30, 80, 450, 570, Theme::COLOR_BG_SURFACE);
     drawRectOutline(30, 80, 450, 570, Theme::COLOR_BORDER, 1);
 
-    int startY = 90;
-    for (size_t i = 0; i < m_installedGames.size() && i < 8; ++i) {
-        bool isSelected = (static_cast<int>(i) == m_myGamesSelectedIndex);
+    const int visibleCount = 8;
+    int totalCount = static_cast<int>(m_installedGames.size());
+
+    if (m_myGamesSelectedIndex < m_myGamesScrollOffset) {
+        m_myGamesScrollOffset = m_myGamesSelectedIndex;
+    }
+    if (m_myGamesSelectedIndex >= m_myGamesScrollOffset + visibleCount) {
+        m_myGamesScrollOffset = m_myGamesSelectedIndex - visibleCount + 1;
+    }
+
+    if (totalCount > 0) {
+        std::string posStr = std::to_string(m_myGamesSelectedIndex + 1) + " / " + std::to_string(totalCount);
+        drawText(posStr, 380, 84, Theme::COLOR_ACCENT, 12);
+    }
+
+    int startY = 105;
+    int endIdx = std::min(totalCount, m_myGamesScrollOffset + visibleCount);
+    for (int i = m_myGamesScrollOffset; i < endIdx; ++i) {
+        bool isSelected = (i == m_myGamesSelectedIndex);
         const auto& game = m_installedGames[i];
 
         if (isSelected) {
@@ -475,7 +621,7 @@ void App::renderTabMyGames() {
             drawText(s.statusNoCover, 392, startY + 22, Theme::COLOR_TEXT_MUTED, 11);
         }
 
-        startY += 68;
+        startY += 66;
     }
 
     // Right Details Pane (750px wide)
@@ -530,16 +676,45 @@ void App::renderTabMyGames() {
 }
 
 void App::renderTabCatalog() {
+    const auto& s = getStrings(m_language);
+
     drawRect(30, 80, 1220, 570, Theme::COLOR_BG_SURFACE);
     drawRectOutline(30, 80, 1220, 570, Theme::COLOR_BORDER, 1);
     drawText("Онлайн-каталог видеофонов H3H", 60, 110, Theme::COLOR_TEXT_PRIMARY, 20);
 
-    int y = 160;
+    // Refresh button on top right of Catalog tab
+    drawRect(980, 95, 240, 42, Theme::COLOR_BG_ELEVATED);
+    drawRectOutline(980, 95, 240, 42, Theme::COLOR_ACCENT, 1);
+    drawText("[-] " + std::string(s.actionRefreshCatalog), 1000, 107, Theme::COLOR_ACCENT, 14);
+
     const auto& allGames = m_catalogManager.getAllGames();
-    for (size_t i = 0; i < allGames.size() && i < 5; ++i) {
+    if (allGames.empty()) {
+        drawText("Каталог пуст или ещё не загружен.", 60, 180, Theme::COLOR_TEXT_MUTED, 16);
+        drawText("Нажмите кнопку [-] или [X], чтобы загрузить актуальный список видеофонов с GitHub.", 60, 215, Theme::COLOR_ACCENT, 15);
+        return;
+    }
+
+    const int visibleCount = 5;
+    int totalGames = static_cast<int>(allGames.size());
+
+    if (m_catalogSelectedIndex < m_catalogScrollOffset) {
+        m_catalogScrollOffset = m_catalogSelectedIndex;
+    }
+    if (m_catalogSelectedIndex >= m_catalogScrollOffset + visibleCount) {
+        m_catalogScrollOffset = m_catalogSelectedIndex - visibleCount + 1;
+    }
+
+    std::string pageInfo = "Игр в каталоге: " + std::to_string(totalGames) +
+                           "  (Выбрано: " + std::to_string(m_catalogSelectedIndex + 1) + " / " + std::to_string(totalGames) + ")";
+    drawText(pageInfo, 60, 135, Theme::COLOR_TEXT_MUTED, 13);
+
+    int y = 160;
+    int endIdx = std::min(totalGames, m_catalogScrollOffset + visibleCount);
+    for (int i = m_catalogScrollOffset; i < endIdx; ++i) {
+        bool isSelected = (i == m_catalogSelectedIndex);
         const auto& g = allGames[i];
-        drawRect(60, y, 1160, 80, Theme::COLOR_BG_ELEVATED);
-        drawRectOutline(60, y, 1160, 80, Theme::COLOR_BORDER, 1);
+        drawRect(60, y, 1160, 80, isSelected ? Theme::COLOR_FOCUS_FILL : Theme::COLOR_BG_ELEVATED);
+        drawRectOutline(60, y, 1160, 80, isSelected ? Theme::COLOR_FOCUS_RING : Theme::COLOR_BORDER, isSelected ? 2 : 1);
 
         drawText(g.title, 80, y + 15, Theme::COLOR_TEXT_PRIMARY, 16);
         drawText("Title ID: " + g.titleId + " | Вариантов: " + std::to_string(g.variants.size()),
@@ -587,9 +762,19 @@ void App::renderTabSettings() {
     drawText(storage, 60, 245, Theme::COLOR_TEXT_MUTED, 14);
 
     // Option 4: Clear Cache button
-    drawRect(60, 300, 300, 45, Theme::COLOR_BG_ELEVATED);
-    drawRectOutline(60, 300, 300, 45, Theme::COLOR_ACCENT, 1);
-    drawText("[X] Очистить кэш каталога", 80, 315, Theme::COLOR_TEXT_PRIMARY, 14);
+    drawRect(60, 300, 280, 45, Theme::COLOR_BG_ELEVATED);
+    drawRectOutline(60, 300, 280, 45, Theme::COLOR_BORDER, 1);
+    drawText("[X] " + std::string(s.clearCacheBtn), 75, 315, Theme::COLOR_TEXT_PRIMARY, 14);
+
+    // Option 5: Refresh Catalog button
+    drawRect(370, 300, 320, 45, Theme::COLOR_BG_ELEVATED);
+    drawRectOutline(370, 300, 320, 45, Theme::COLOR_ACCENT, 1);
+    drawText("[-] / [Y] " + std::string(s.actionRefreshCatalog), 390, 315, Theme::COLOR_ACCENT, 14);
+
+    // Option 6: Update Application NRO button
+    drawRect(720, 300, 340, 45, Theme::COLOR_BG_ELEVATED);
+    drawRectOutline(720, 300, 340, 45, Theme::COLOR_SUCCESS, 1);
+    drawText("[+] " + std::string(s.updateAppBtn), 740, 315, Theme::COLOR_SUCCESS, 14);
 }
 
 void App::renderDialog() {
