@@ -1,7 +1,233 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T14:02:36.785726+00:00",
-  "totalGames": 0,
-  "totalVariants": 0,
-  "games": []
+  "updatedAt": "2026-10-19T14:13:53.204732+00:00",
+  "totalGames": 9,
+  "totalVariants": 9,
+  "games": [
+    {
+      "titleId": "0100000000010000",
+      "title": "Super Mario Odyssey [NSP][RUS/Multi9]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "standard",
+          "name": "Standard",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nIFJHGealY_B6hlQK70Vl9BS0IwE8TaB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nIFJHGealY_B6hlQK70Vl9BS0IwE8TaB&sz=w640",
+          "sizeBytes": 16431618,
+          "sha256": "91258e48f4ac47553eb2b673b9fbccdf6a8f240b6755713183bf6c91a5385f1a",
+          "durationSec": 60.06,
+          "author": "Holy3holy-dev",
+          "codec": "hevc",
+          "width": 1920,
+          "height": 1080,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Google Drive Hosted (4IFIR: 1920x1080 @30fps)"
+        }
+      ]
+    },
+    {
+      "titleId": "0100152000022000",
+      "title": "Mario Kart 8 CTGP Deluxe Mod [NSZ+MSP][RUS/Multi11]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "standard",
+          "name": "Standard",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1j06zTSWO__FvEz5ezzi5QflClru39kKV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1j06zTSWO__FvEz5ezzi5QflClru39kKV&sz=w640",
+          "sizeBytes": 20385665,
+          "sha256": "1fe1faa6220797c4b841747391045558d45b554e9460e6d9e4112923b9f6a50c",
+          "durationSec": 60.06,
+          "author": "Holy3holy-dev",
+          "codec": "hevc",
+          "width": 1920,
+          "height": 1080,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Google Drive Hosted (4IFIR: 1920x1080 @30fps)"
+        }
+      ]
+    },
+    {
+      "titleId": "01001AE005166000",
+      "title": "Worms WMD [NSZ][RUS/Multi6]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "standard",
+          "name": "Standard",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-xmJ_5PsqPcDiJuy3jU_SQmjxAD6q3aT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-xmJ_5PsqPcDiJuy3jU_SQmjxAD6q3aT&sz=w640",
+          "sizeBytes": 20983084,
+          "sha256": "707130b7964fc2357679ec930862f2d817f77452c681fe0ac19723ecff7a79b6",
+          "durationSec": 82.92,
+          "author": "Holy3holy-dev",
+          "codec": "hevc",
+          "width": 1920,
+          "height": 1080,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Google Drive Hosted (4IFIR: 1920x1080 @30fps)"
+        }
+      ]
+    },
+    {
+      "titleId": "01003DC0144B6000",
+      "title": "Outer Wilds Archaeologist edition + DLC Echoes of the Eye [NSZ][RUS/Multi10]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "standard",
+          "name": "Standard",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TYCNYWq47a0f95MFMX2YUkMDqw3QpGVd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TYCNYWq47a0f95MFMX2YUkMDqw3QpGVd&sz=w640",
+          "sizeBytes": 11154896,
+          "sha256": "addb810dbf2cb0d89811ddcc32c0c030fd3922e1831692e0c6d1f8a7ba9b5b33",
+          "durationSec": 60.06,
+          "author": "Holy3holy-dev",
+          "codec": "hevc",
+          "width": 1920,
+          "height": 1080,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Google Drive Hosted (4IFIR: 1920x1080 @30fps)"
+        }
+      ]
+    },
+    {
+      "titleId": "01004200189F4000",
+      "title": "Factorio [NSP][RUS/Multi11]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "standard",
+          "name": "Standard",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13osyi6i4_AZ5QoskCJ9GsoTWRJ5R_Wq7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13osyi6i4_AZ5QoskCJ9GsoTWRJ5R_Wq7&sz=w640",
+          "sizeBytes": 18027960,
+          "sha256": "b4927815690648b4bbc06a1e213bcc69198613782e4e8b68eb89d70e70bf8dfd",
+          "durationSec": 59.99,
+          "author": "Holy3holy-dev",
+          "codec": "hevc",
+          "width": 1920,
+          "height": 1080,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Google Drive Hosted (4IFIR: 1920x1080 @30fps)"
+        }
+      ]
+    },
+    {
+      "titleId": "010051F0207B2000",
+      "title": "Tomodachi Life: Living the Dream [Mod/Port] [NSP][ENG]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "standard",
+          "name": "Standard",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1snsssvfu7o8TortUMMTRAvQI8Dkx7JRz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1snsssvfu7o8TortUMMTRAvQI8Dkx7JRz&sz=w640",
+          "sizeBytes": 4643107,
+          "sha256": "7b6aaeefe66072eae043e00eaf6057b0deb43157f17ea90ef6cb37eb21e628fa",
+          "durationSec": 60.06,
+          "author": "Holy3holy-dev",
+          "codec": "hevc",
+          "width": 1920,
+          "height": 1080,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Google Drive Hosted (4IFIR: 1920x1080 @30fps)"
+        }
+      ]
+    },
+    {
+      "titleId": "01005CA01580E000",
+      "title": "Persona 5 Royal (P5R) [NSZ][ENG]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "standard",
+          "name": "Standard",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ud4jAK77SqAyP0LIY4E4FVdbexvBD7DD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ud4jAK77SqAyP0LIY4E4FVdbexvBD7DD&sz=w640",
+          "sizeBytes": 6601553,
+          "sha256": "015e2d7c52156931986e7e6771efa762d1811db8f497e86a68197f1465a463ef",
+          "durationSec": 60.16,
+          "author": "Holy3holy-dev",
+          "codec": "hevc",
+          "width": 1920,
+          "height": 1080,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Google Drive Hosted (4IFIR: 1920x1080 @30fps)"
+        }
+      ]
+    },
+    {
+      "titleId": "01006A800016E000",
+      "title": "Super Smash Bros Ultimate (SSBU) + 99 DLC [NSZ][RUS/Multi10]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "standard",
+          "name": "Standard",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13L0QbHKRxLh3im4P3R6GBcLSvy2xnbZo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13L0QbHKRxLh3im4P3R6GBcLSvy2xnbZo&sz=w640",
+          "sizeBytes": 20562026,
+          "sha256": "2f039bb5a5e62af510890bc97c5bae12e940b1ab3baa932bad51c095ddb24247",
+          "durationSec": 60.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 60.0,
+          "hasAudio": true,
+          "notes": "Google Drive Hosted (4IFIR: 1280x720 @60fps)"
+        }
+      ]
+    },
+    {
+      "titleId": "01006BD001E06000",
+      "title": "Minecraft Nintendo Switch edition + 38 DLC [NSP][RUS/Multi9]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "standard",
+          "name": "Standard",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DdexpC3o3awNmEYSXUkPOKYs_-sktAa8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DdexpC3o3awNmEYSXUkPOKYs_-sktAa8&sz=w640",
+          "sizeBytes": 7366354,
+          "sha256": "52d97cb82aedc0ae63ebbaee209990cf271c1cd3df75525ba4ed38cda88b3119",
+          "durationSec": 30.0,
+          "author": "Holy3holy-dev",
+          "codec": "hevc",
+          "width": 1920,
+          "height": 1080,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Google Drive Hosted (4IFIR: 1920x1080 @30fps)"
+        }
+      ]
+    }
+  ]
 }

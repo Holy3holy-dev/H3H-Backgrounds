@@ -10,6 +10,8 @@ import base64
 import urllib.request
 import urllib.parse
 import urllib.error
+import time
+import socket
 from pathlib import Path
 from typing import Optional, Dict, Any, List, Tuple
 from datetime import datetime, timezone
@@ -527,10 +529,13 @@ class GoogleDriveClient:
         file_path: Path,
         folder_id: Optional[str],
         token: str,
-        progress_cb: Optional[callable] = None
+        progress_cb: Optional[callable] = None,
+        max_retries_per_chunk: int = 5
     ) -> Dict[str, Any]:
         """
         Resumable chunked upload of a local video file to Google Drive.
+        Features automatic retry backoff, socket timeout recovery, and
+        resumable state query (Google Drive v3 protocol).
         Automatically sets public read permissions upon completion.
         """
         if not token or not token.strip():
@@ -544,7 +549,7 @@ class GoogleDriveClient:
         if folder_id:
             clean_parent = GoogleDriveHelper.extract_folder_id(folder_id) or folder_id.strip()
 
-        # Step 1: Initiate resumable upload session
+        # Step 1: Initiate resumable upload session (with retry)
         init_url = "https://www.googleapis.com/upload/drive/v3/files?uploadType=resumable"
         metadata: Dict[str, Any] = {"name": p.name}
         if clean_parent:
@@ -563,17 +568,28 @@ class GoogleDriveClient:
             method="POST"
         )
 
-        with urllib.request.urlopen(init_req, timeout=30) as init_resp:
-            session_url = init_resp.headers.get("Location")
-            if not session_url:
-                raise RuntimeError("Google Drive API не вернул Location для сессии загрузки")
+        session_url = None
+        for init_attempt in range(1, 4):
+            try:
+                with urllib.request.urlopen(init_req, timeout=45) as init_resp:
+                    session_url = init_resp.headers.get("Location")
+                    if session_url:
+                        break
+            except Exception as e:
+                if init_attempt == 3:
+                    raise RuntimeError(f"Google Drive API не удалось инициализировать сессию загрузки: {e}")
+                time.sleep(1.5 * init_attempt)
 
-        # Step 2: Upload chunks
+        if not session_url:
+            raise RuntimeError("Google Drive API не вернул Location для сессии загрузки")
+
+        # Step 2: Upload chunks with resumable recovery & exponential backoff
         uploaded_bytes = 0
         file_info: Dict[str, Any] = {}
 
         with open(p, "rb") as f:
             while uploaded_bytes < total_bytes:
+                f.seek(uploaded_bytes)
                 chunk = f.read(cls.CHUNK_SIZE)
                 if not chunk:
                     break
@@ -581,37 +597,93 @@ class GoogleDriveClient:
                 start_byte = uploaded_bytes
                 end_byte = uploaded_bytes + chunk_len - 1
 
-                chunk_req = urllib.request.Request(
-                    session_url,
-                    data=chunk,
-                    headers={
-                        "Content-Length": str(chunk_len),
-                        "Content-Range": f"bytes {start_byte}-{end_byte}/{total_bytes}",
-                        "Content-Type": "video/mp4"
-                    },
-                    method="PUT"
-                )
+                chunk_success = False
+                last_chunk_err = None
 
-                try:
-                    with urllib.request.urlopen(chunk_req, timeout=60) as chunk_resp:
-                        uploaded_bytes += chunk_len
-                        pct = (uploaded_bytes / total_bytes) * 100 if total_bytes > 0 else 100.0
-                        if progress_cb:
-                            progress_cb(f"Загрузка {p.name}: {pct:.1f}% ({uploaded_bytes // (1024*1024)}/{total_bytes // (1024*1024)} MB)")
-                        if chunk_resp.status in (200, 201):
-                            resp_body = chunk_resp.read().decode("utf-8")
-                            if resp_body:
-                                file_info = json.loads(resp_body)
+                for attempt in range(1, max_retries_per_chunk + 1):
+                    chunk_req = urllib.request.Request(
+                        session_url,
+                        data=chunk,
+                        headers={
+                            "Content-Length": str(chunk_len),
+                            "Content-Range": f"bytes {start_byte}-{end_byte}/{total_bytes}",
+                            "Content-Type": "video/mp4"
+                        },
+                        method="PUT"
+                    )
+
+                    try:
+                        # 120s timeout per 5MB chunk to avoid premature socket timeout on slower links
+                        with urllib.request.urlopen(chunk_req, timeout=120) as chunk_resp:
+                            uploaded_bytes += chunk_len
+                            pct = (uploaded_bytes / total_bytes) * 100 if total_bytes > 0 else 100.0
+                            if progress_cb:
+                                progress_cb(f"Загрузка {p.name}: {pct:.1f}% ({uploaded_bytes // (1024*1024)}/{total_bytes // (1024*1024)} MB)")
+                            if chunk_resp.status in (200, 201):
+                                resp_body = chunk_resp.read().decode("utf-8")
+                                if resp_body:
+                                    file_info = json.loads(resp_body)
+                                chunk_success = True
+                                break
+                    except urllib.error.HTTPError as he:
+                        if he.code == 308:
+                            # 308 Resume Incomplete is expected for non-final chunks
+                            uploaded_bytes += chunk_len
+                            pct = (uploaded_bytes / total_bytes) * 100 if total_bytes > 0 else 100.0
+                            if progress_cb:
+                                progress_cb(f"Загрузка {p.name}: {pct:.1f}% ({uploaded_bytes // (1024*1024)}/{total_bytes // (1024*1024)} MB)")
+                            chunk_success = True
                             break
-                except urllib.error.HTTPError as he:
-                    if he.code == 308:
-                        # Resume Incomplete - expected for intermediate chunks
-                        uploaded_bytes += chunk_len
-                        pct = (uploaded_bytes / total_bytes) * 100 if total_bytes > 0 else 100.0
+                        elif he.code in (500, 502, 503, 504, 429):
+                            last_chunk_err = he
+                            wait_s = min(25, 2 ** attempt)
+                            if progress_cb:
+                                progress_cb(f"Сервер Google временно занят (HTTP {he.code}), повтор {attempt}/{max_retries_per_chunk} через {wait_s}с...")
+                            time.sleep(wait_s)
+                        else:
+                            raise he
+                    except (urllib.error.URLError, TimeoutError, socket.timeout, OSError, Exception) as net_err:
+                        last_chunk_err = net_err
+                        wait_s = min(25, 2 ** attempt)
                         if progress_cb:
-                            progress_cb(f"Загрузка {p.name}: {pct:.1f}% ({uploaded_bytes // (1024*1024)}/{total_bytes // (1024*1024)} MB)")
-                    else:
-                        raise he
+                            progress_cb(f"Пауза сети/таймаут ({net_err}), проверка статуса и повтор {attempt}/{max_retries_per_chunk} через {wait_s}с...")
+                        time.sleep(wait_s)
+
+                        # Query upload status to check where Google actually got up to (Resumable protocol)
+                        try:
+                            q_req = urllib.request.Request(
+                                session_url,
+                                headers={"Content-Range": f"bytes */{total_bytes}"},
+                                method="PUT"
+                            )
+                            with urllib.request.urlopen(q_req, timeout=30) as q_resp:
+                                if q_resp.status in (200, 201):
+                                    resp_body = q_resp.read().decode("utf-8")
+                                    if resp_body:
+                                        file_info = json.loads(resp_body)
+                                    uploaded_bytes = total_bytes
+                                    chunk_success = True
+                                    break
+                        except urllib.error.HTTPError as q_he:
+                            if q_he.code == 308:
+                                rng = q_he.headers.get("Range")
+                                if rng and rng.startswith("bytes=0-"):
+                                    server_last = int(rng.split("-")[1])
+                                    if server_last >= end_byte:
+                                        # Chunk was successfully received despite socket read timeout!
+                                        uploaded_bytes = server_last + 1
+                                        chunk_success = True
+                                        break
+                                    elif server_last >= start_byte:
+                                        # Partially received, resume from server_last + 1
+                                        uploaded_bytes = server_last + 1
+                                        chunk_success = True
+                                        break
+                        except Exception:
+                            pass
+
+                if not chunk_success and uploaded_bytes < total_bytes:
+                    raise RuntimeError(f"Не удалось передать фрагмент видеофайла {p.name}: {last_chunk_err}")
 
         file_id = file_info.get("id")
         if not file_id:
@@ -645,6 +717,7 @@ class GoogleDriveClient:
         """
         Scans an archive/folder, uploads each selected video to Google Drive,
         and registers each into the catalog.
+        Skips re-uploading files already present on Google Drive to save bandwidth.
         """
         if selected_items is None:
             selected_items = GitHubPublisher.scan_archive_or_folder(source_path, progress_cb=progress_cb)
@@ -657,6 +730,17 @@ class GoogleDriveClient:
         else:
             catalog_path = Path(catalog_path)
 
+        # Pre-scan remote folder to avoid re-uploading existing files
+        remote_files: Dict[str, Dict[str, Any]] = {}
+        if folder_id:
+            try:
+                for rf in cls.list_folder_files(folder_id, token):
+                    rf_name = rf.get("name", "")
+                    if rf_name:
+                        remote_files[rf_name] = rf
+            except Exception as e:
+                print(f"[-] Note: could not pre-list remote folder files: {e}")
+
         results = []
         total = len(selected_items)
         for idx, item in enumerate(selected_items, 1):
@@ -667,16 +751,48 @@ class GoogleDriveClient:
 
             tid = item.get("titleId", "").strip().upper()
             title = item.get("gameTitle", "") or (OnlineFetcher.get_title_by_id(tid) if tid else fpath.stem)
+            fname = item.get("filename", fpath.name)
 
-            if progress_cb:
-                progress_cb(f"[{idx}/{total}] Загрузка на Google Диск: {item.get('filename', fpath.name)}...")
+            # Check if file is already present on Google Drive
+            existing_remote = remote_files.get(fname) or remote_files.get(fpath.name)
+            if existing_remote and existing_remote.get("id"):
+                existing_id = existing_remote["id"]
+                if progress_cb:
+                    progress_cb(f"[{idx}/{total}] Файл уже на Google Диске (пропуск загрузки): {fname}...")
+                upload_res = {
+                    "id": existing_id,
+                    "name": existing_remote.get("name", fname),
+                    "size": existing_remote.get("size", fpath.stat().st_size),
+                    "directUrl": GoogleDriveHelper.to_direct_download_url(existing_id),
+                    "previewUrl": GoogleDriveHelper.to_preview_url(existing_id)
+                }
+                try:
+                    cls.make_public(existing_id, token)
+                except Exception:
+                    pass
+            else:
+                if progress_cb:
+                    progress_cb(f"[{idx}/{total}] Загрузка на Google Диск: {fname}...")
 
-            upload_res = cls.upload_file(
-                file_path=fpath,
-                folder_id=folder_id,
-                token=token,
-                progress_cb=progress_cb
-            )
+                upload_res = None
+                for file_attempt in range(1, 3):
+                    try:
+                        upload_res = cls.upload_file(
+                            file_path=fpath,
+                            folder_id=folder_id,
+                            token=token,
+                            progress_cb=progress_cb
+                        )
+                        break
+                    except Exception as upload_err:
+                        if file_attempt < 2:
+                            if progress_cb:
+                                progress_cb(f"Повтор загрузки {fname} после паузы...")
+                            time.sleep(3)
+                        else:
+                            raise upload_err
+
+                remote_files[upload_res["name"]] = {"id": upload_res["id"], "name": upload_res["name"], "size": upload_res["size"]}
 
             # Register in catalog
             reg_res = GoogleDriveHelper.register_drive_video(
