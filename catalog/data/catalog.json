@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T06:20:34.158363+00:00",
+  "updatedAt": "2026-10-19T06:25:12.919125+00:00",
   "totalGames": 19,
   "totalVariants": 19,
   "games": [
@@ -481,7 +481,7 @@
         {
           "id": "default",
           "name": "Default",
-          "style": "Gameplay",
+          "style": "Cinematic",
           "version": "1.0",
           "url": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.0.0/01004AB00A260000_default.mp4",
           "previewUrl": "",
@@ -494,7 +494,7 @@
           "height": 1080,
           "fps": 30.0,
           "hasAudio": true,
-          "notes": "Batch published: 1920x1080 @30fps"
+          "notes": "4IFIR verified: 1920x1080 @30fps"
         }
       ]
     }
