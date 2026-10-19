@@ -139,3 +139,141 @@ class TestGitHubPublisher:
         assert mock_catalog["totalVariants"] == 1
         assert temp_catalog_file.exists()
 
+    def test_check_repo_permissions_empty_token(self):
+        res = GitHubPublisher.check_repo_permissions(None)
+        assert res["has_push"] is False
+        assert res["role"] == "guest"
+
+    def test_create_proposal_markdown(self):
+        sample = {
+            "titleId": "01007EF00011E000",
+            "gameTitle": "Zelda BOTW",
+            "variantName": "Cinematic Loop",
+            "variantId": "cinematic-loop",
+            "style": "Cinematic",
+            "author": "Link",
+            "url": "https://drive.google.com/uc?export=download&id=test12345",
+            "sizeBytes": 15000000,
+            "sha256": "abcdef123456",
+            "durationSec": 30.0,
+            "codec": "hevc",
+            "width": 1920,
+            "height": 1080,
+            "fps": 30.0,
+            "hasAudio": True,
+            "notes": "4IFIR verified"
+        }
+        md = GitHubPublisher.create_proposal_markdown(sample)
+        assert "Zelda BOTW" in md
+        assert "01007EF00011E000" in md
+        assert "```json:h3h-proposal" in md
+        # Parse embedded json
+        import re, json
+        m = re.search(r"```json:h3h-proposal\s*(\{.*?\})\s*```", md, re.DOTALL)
+        assert m is not None
+        parsed = json.loads(m.group(1))
+        assert parsed["titleId"] == "01007EF00011E000"
+        assert parsed["variantId"] == "cinematic-loop"
+
+    def test_submit_catalog_proposal_fallback(self):
+        sample = {
+            "titleId": "01007EF00011E000",
+            "gameTitle": "Zelda BOTW",
+            "variantName": "Cinematic Loop"
+        }
+        res = GitHubPublisher.submit_catalog_proposal(sample, token=None)
+        assert res["success"] is True
+        assert res["manual"] is True
+        assert "https://github.com/Holy3holy-dev/H3H-Backgrounds/issues/new" in res["html_url"]
+
+    def test_approve_proposal_mocked(self, monkeypatch, tmp_path):
+        mock_catalog = {
+            "schemaVersion": 1,
+            "totalGames": 0,
+            "totalVariants": 0,
+            "games": []
+        }
+        monkeypatch.setattr(GitHubPublisher, "fetch_catalog", lambda token, repo: mock_catalog)
+
+        import urllib.request
+        class DummyResponse:
+            def __init__(self, data=b"{}"):
+                self.data = data
+            def read(self):
+                return self.data
+            def __enter__(self):
+                return self
+            def __exit__(self, exc_type, exc_val, exc_tb):
+                pass
+
+        def mock_urlopen(req, timeout=15):
+            url = req.full_url if hasattr(req, "full_url") else str(req)
+            if "contents/catalog" in url:
+                return DummyResponse(b'{"sha": "dummy_sha"}')
+            return DummyResponse(b"{}")
+
+        monkeypatch.setattr(urllib.request, "urlopen", mock_urlopen)
+
+        proposal_data = {
+            "titleId": "0100000000010000",
+            "gameTitle": "Super Mario Odyssey",
+            "variantName": "Main Theme",
+            "variantId": "main-theme",
+            "style": "Animated Art",
+            "url": "https://example.com/mario.mp4",
+            "sizeBytes": 12000000,
+            "sha256": "mario_sha",
+            "durationSec": 20.0,
+            "author": "MarioFan",
+            "codec": "h264",
+            "width": 1280,
+            "height": 720,
+            "fps": 30.0,
+            "hasAudio": True,
+            "notes": "Community proposal"
+        }
+
+        temp_catalog_file = tmp_path / "catalog.json"
+        ok = GitHubPublisher.approve_proposal(
+            issue_number=42,
+            proposal_data=proposal_data,
+            token="ghp_dummy",
+            local_catalog_path=temp_catalog_file
+        )
+        assert ok is True
+        assert mock_catalog["totalGames"] == 1
+        assert mock_catalog["totalVariants"] == 1
+        assert mock_catalog["games"][0]["titleId"] == "0100000000010000"
+        assert mock_catalog["games"][0]["variants"][0]["name"] == "Main Theme"
+        assert temp_catalog_file.exists()
+
+    def test_reject_proposal_mocked(self, monkeypatch):
+        import urllib.request
+        called_urls = []
+        class DummyResponse:
+            def __init__(self, data=b"{}"):
+                self.data = data
+            def read(self):
+                return self.data
+            def __enter__(self):
+                return self
+            def __exit__(self, exc_type, exc_val, exc_tb):
+                pass
+
+        def mock_urlopen(req, timeout=15):
+            url = req.full_url if hasattr(req, "full_url") else str(req)
+            called_urls.append(url)
+            return DummyResponse(b"{}")
+
+        monkeypatch.setattr(urllib.request, "urlopen", mock_urlopen)
+
+        ok = GitHubPublisher.reject_proposal(
+            issue_number=101,
+            reason="Low bitrate video",
+            token="ghp_dummy"
+        )
+        assert ok is True
+        assert any("issues/101/comments" in u for u in called_urls)
+        assert any("issues/101" in u for u in called_urls)
+
+

@@ -15,7 +15,7 @@ from PySide6.QtWidgets import (
     QDialog, QVBoxLayout, QHBoxLayout, QLineEdit, QPushButton,
     QLabel, QComboBox, QTextEdit, QProgressBar, QMessageBox,
     QFileDialog, QFrame, QGroupBox, QTabWidget, QTableWidget,
-    QTableWidgetItem, QHeaderView, QWidget
+    QTableWidgetItem, QHeaderView, QWidget, QInputDialog
 )
 
 from ..core.github_publisher import GitHubPublisher
@@ -241,6 +241,113 @@ class GoogleDriveTestWorker(QThread):
             self.finished.emit(False, {}, str(e))
 
 
+class CheckPermissionWorkerThread(QThread):
+    finished = Signal(bool, dict)
+
+    def __init__(self, token: str, repo: str):
+        super().__init__()
+        self.token = token
+        self.repo = repo
+
+    def run(self):
+        try:
+            info = GitHubPublisher.check_repo_permissions(self.token, self.repo)
+            self.finished.emit(True, info)
+        except Exception as e:
+            self.finished.emit(False, {"has_push": False, "role": "error", "error": str(e)})
+
+
+class FetchProposalsWorkerThread(QThread):
+    progress_status = Signal(str)
+    finished = Signal(bool, list, str)
+
+    def __init__(self, token: str, repo: str):
+        super().__init__()
+        self.token = token
+        self.repo = repo
+
+    def run(self):
+        try:
+            self.progress_status.emit("Загрузка заявок сообщества из GitHub...")
+            proposals = GitHubPublisher.fetch_catalog_proposals(self.token, self.repo)
+            self.finished.emit(True, proposals, "")
+        except Exception as e:
+            self.finished.emit(False, [], str(e))
+
+
+class ApproveProposalWorkerThread(QThread):
+    progress_status = Signal(str)
+    finished = Signal(bool, str)
+
+    def __init__(self, issue_number: int, proposal_data: Dict[str, Any], token: str, repo: str):
+        super().__init__()
+        self.issue_number = issue_number
+        self.proposal_data = proposal_data
+        self.token = token
+        self.repo = repo
+
+    def run(self):
+        try:
+            GitHubPublisher.approve_proposal(
+                issue_number=self.issue_number,
+                proposal_data=self.proposal_data,
+                token=self.token,
+                repo=self.repo,
+                progress_cb=self.progress_status.emit
+            )
+            self.finished.emit(True, "")
+        except Exception as e:
+            self.finished.emit(False, str(e))
+
+
+class RejectProposalWorkerThread(QThread):
+    progress_status = Signal(str)
+    finished = Signal(bool, str)
+
+    def __init__(self, issue_number: int, reason: str, token: str, repo: str):
+        super().__init__()
+        self.issue_number = issue_number
+        self.reason = reason
+        self.token = token
+        self.repo = repo
+
+    def run(self):
+        try:
+            GitHubPublisher.reject_proposal(
+                issue_number=self.issue_number,
+                reason=self.reason,
+                token=self.token,
+                repo=self.repo,
+                progress_cb=self.progress_status.emit
+            )
+            self.finished.emit(True, "")
+        except Exception as e:
+            self.finished.emit(False, str(e))
+
+
+class SubmitProposalWorkerThread(QThread):
+    progress_status = Signal(str)
+    finished = Signal(bool, dict, str)
+
+    def __init__(self, proposal_data: Dict[str, Any], token: Optional[str], repo: str):
+        super().__init__()
+        self.proposal_data = proposal_data
+        self.token = token
+        self.repo = repo
+
+    def run(self):
+        try:
+            self.progress_status.emit("Отправка заявки на модерацию в GitHub...")
+            res = GitHubPublisher.submit_catalog_proposal(
+                proposal_data=self.proposal_data,
+                token=self.token,
+                repo=self.repo
+            )
+            self.finished.emit(True, res, "")
+        except Exception as e:
+            self.finished.emit(False, {}, str(e))
+
+
 class GitHubPublishDialog(QDialog):
     def __init__(
         self,
@@ -350,6 +457,13 @@ class GitHubPublishDialog(QDialog):
         self._scan_worker: Optional[BatchScanWorkerThread] = None
         self.scanned_items: List[Dict[str, Any]] = []
         self.catalog_items: List[Dict[str, Any]] = []
+        self.proposals_items: List[Dict[str, Any]] = []
+        self.is_trusted_creator: bool = False
+        self._check_perm_worker: Optional[CheckPermissionWorkerThread] = None
+        self._fetch_proposals_worker: Optional[FetchProposalsWorkerThread] = None
+        self._approve_proposal_worker: Optional[ApproveProposalWorkerThread] = None
+        self._reject_proposal_worker: Optional[RejectProposalWorkerThread] = None
+        self._submit_proposal_worker: Optional[SubmitProposalWorkerThread] = None
 
         layout = QVBoxLayout(self)
         layout.setContentsMargins(18, 18, 18, 18)
@@ -360,7 +474,7 @@ class GitHubPublishDialog(QDialog):
         header.setFont(QFont("Segoe UI", 14, QFont.Bold))
         layout.addWidget(header)
 
-        # Tabs: Single Video vs Batch / Archive vs Manage
+        # Tabs: Single Video vs Batch / Archive vs Manage vs Google Drive vs Proposals
         self.tabs = QTabWidget(self)
 
         # Tab 1: Single Video
@@ -378,6 +492,10 @@ class GitHubPublishDialog(QDialog):
         # Tab 4: Google Drive (5 TB)
         gdrive_tab = self._create_gdrive_tab(video_path, title_id, game_title, style)
         self.tabs.addTab(gdrive_tab, "📁 Google Диск (5 ТБ)")
+
+        # Tab 5: Community Proposals & Moderation
+        proposals_tab = self._create_proposals_tab()
+        self.tabs.addTab(proposals_tab, "📥 Заявки сообщества")
 
         self.tabs.currentChanged.connect(self._on_tab_changed)
         if initial_tab != 0:
@@ -422,6 +540,14 @@ class GitHubPublishDialog(QDialog):
             tok_hint.setStyleSheet("color: #10B981; font-size: 11px;")
             tok_layout.addWidget(tok_hint)
 
+        # Role / Permission status banner
+        self.role_banner = QLabel("Проверка прав доступа к репозиторию...", git_box)
+        self.role_banner.setStyleSheet("padding: 6px 10px; border-radius: 4px; font-weight: bold; font-size: 12px; background-color: #1F242D; color: #94A3B8; border: 1px solid #334155;")
+        tok_layout.addWidget(self.role_banner)
+
+        self.token_edit.textChanged.connect(self._check_current_permissions)
+        self.repo_edit.textChanged.connect(self._check_current_permissions)
+
         git_layout.addLayout(tok_layout)
         layout.addWidget(git_box)
 
@@ -446,6 +572,8 @@ class GitHubPublishDialog(QDialog):
 
         if video_path:
             self._validate_selected_file(video_path)
+
+        self._check_current_permissions()
 
     def _create_single_tab(self, video_path: Optional[str], title_id: str, game_title: str, style: str) -> QWidget:
         widget = QWidget()
@@ -746,6 +874,24 @@ class GitHubPublishDialog(QDialog):
         author = self.common_author_edit.text().strip() or self.default_user
         desc = self.desc_edit.text().strip()
 
+        if not getattr(self, "is_trusted_creator", False):
+            choice = QMessageBox.question(
+                self,
+                "Режим предложения видеофона",
+                "У вас нет прямого ключа создателя на запись в репозиторий GitHub.\n\n"
+                "Чтобы предложить видеофон на модерацию в общий каталог, видео должно быть размещено в общедоступном облаке (Google Диск).\n\n"
+                "Перейти на вкладку '📁 Google Диск' для быстрой загрузки и автоматической отправки заявки?",
+                QMessageBox.Yes | QMessageBox.No
+            )
+            if choice == QMessageBox.Yes:
+                self.tabs.setCurrentIndex(3)
+                self.gdrive_video_edit.setText(str(video_p))
+                self.gdrive_tid_edit.setText(tid)
+                self.gdrive_title_edit.setText(game)
+                self.gdrive_var_edit.setText(var_name)
+                self.gdrive_style_combo.setCurrentText(style)
+            return
+
         self._set_ui_busy(True)
         self.status_lbl.setText("Подготовка к отправке...")
 
@@ -795,6 +941,15 @@ class GitHubPublishDialog(QDialog):
         token = self.token_edit.text().strip()
         if not token:
             QMessageBox.warning(self, "Ошибка", "Укажите GitHub Personal Access Token (PAT)!")
+            return
+
+        if not getattr(self, "is_trusted_creator", False):
+            QMessageBox.warning(
+                self,
+                "Ограничение доступа",
+                "Пакетная публикация в релизы GitHub доступна только для владельца или доверенных создателей (с ключом записи).\n\n"
+                "Используйте вкладку '📁 Google Диск' для пакетной загрузки архивов."
+            )
             return
 
         confirm = QMessageBox.question(
@@ -920,6 +1075,8 @@ class GitHubPublishDialog(QDialog):
     def _on_tab_changed(self, idx: int):
         if idx == 2 and not self.catalog_items:
             self._refresh_catalog_table()
+        elif idx == 4 and not self.proposals_items:
+            self._refresh_proposals_table()
 
     def _refresh_catalog_table(self):
         token = self.token_edit.text().strip()
@@ -1021,6 +1178,14 @@ class GitHubPublishDialog(QDialog):
         token = self.token_edit.text().strip()
         if not token:
             QMessageBox.warning(self, "Ошибка", "Не указан токен GitHub внизу окна для выполнения операции!")
+            return
+
+        if not getattr(self, "is_trusted_creator", False):
+            QMessageBox.warning(
+                self,
+                "Ограничение доступа",
+                "Удаление видеофонов из каталога доступно только владельцу или доверенным создателям с ключом записи."
+            )
             return
 
         # Prepare summary preview of items to delete
@@ -1447,6 +1612,55 @@ class GitHubPublishDialog(QDialog):
             QMessageBox.warning(self, "Внимание", "Укажите корректную ссылку на файл Google Диска!")
             return
 
+        if not getattr(self, "is_trusted_creator", False):
+            confirm = QMessageBox.question(
+                self,
+                "Отправка на модерацию",
+                f"Вы находитесь в режиме участника сообщества (без прямого ключа записи).\n\n"
+                f"Отправить видеофон '{title or tid}' [{vname}] на модерацию в общий каталог H3H-Backgrounds?",
+                QMessageBox.Yes | QMessageBox.No
+            )
+            if confirm != QMessageBox.Yes:
+                return
+
+            self._set_ui_busy(True)
+            self.status_lbl.setText("Формирование и отправка заявки...")
+
+            vp = Path(vpath_str)
+            comp = ComplianceValidator.validate_mp4(vp)
+            direct_url = GoogleDriveHelper.format_direct_download_url(GoogleDriveHelper.extract_file_id(url))
+            file_size = vp.stat().st_size
+            sha256_hash = GitHubPublisher.compute_sha256(vp)
+
+            proposal_data = {
+                "titleId": tid,
+                "gameTitle": title or f"Switch Game {tid}",
+                "variantName": vname,
+                "variantId": re.sub(r"[^a-zA-Z0-9_\-]", "", vname.lower().replace(" ", "-")) or "default",
+                "style": style,
+                "url": direct_url,
+                "sizeBytes": file_size,
+                "sha256": sha256_hash,
+                "durationSec": round(comp.duration_sec, 2),
+                "author": author,
+                "codec": comp.codec or "h264",
+                "width": comp.width,
+                "height": comp.height,
+                "fps": round(comp.fps, 1),
+                "hasAudio": comp.has_audio,
+                "notes": "Submitted via H3H Studio (Google Drive)"
+            }
+
+            self._submit_proposal_worker = SubmitProposalWorkerThread(
+                proposal_data=proposal_data,
+                token=self.token_edit.text().strip() or None,
+                repo=self.repo_edit.text().strip()
+            )
+            self._submit_proposal_worker.progress_status.connect(self.status_lbl.setText)
+            self._submit_proposal_worker.finished.connect(self._on_proposal_submitted)
+            self._submit_proposal_worker.start()
+            return
+
         catalog_path = Path("catalog/data/catalog.json")
         try:
             res = GoogleDriveHelper.register_drive_video(
@@ -1819,4 +2033,369 @@ class GitHubPublishDialog(QDialog):
             QMessageBox.information(self, "Успех", "Обновлённый catalog.json успешно опубликован на GitHub!")
         except Exception as e:
             QMessageBox.critical(self, "Ошибка", f"Не удалось отправить каталог на GitHub:\n{e}")
+
+    def _create_proposals_tab(self) -> QWidget:
+        widget = QWidget()
+        layout = QVBoxLayout(widget)
+        layout.setContentsMargins(14, 14, 14, 14)
+        layout.setSpacing(10)
+
+        top_row = QHBoxLayout()
+        desc_lbl = QLabel(
+            "<b>Заявки от участников сообщества:</b> "
+            "Здесь отображаются видеофоны, предложенные другими пользователями. "
+            "Вы можете просмотреть видео по ссылке и одобрить добавление в общий каталог в 1 клик.",
+            widget
+        )
+        desc_lbl.setStyleSheet("color: #E2E8F0; font-size: 12px;")
+        desc_lbl.setWordWrap(True)
+        top_row.addWidget(desc_lbl, 1)
+
+        refresh_btn = QPushButton("🔄 Обновить заявки", widget)
+        refresh_btn.setStyleSheet("background-color: #252B35; color: #00E5FF; font-weight: bold; padding: 8px 14px;")
+        refresh_btn.clicked.connect(self._refresh_proposals_table)
+        top_row.addWidget(refresh_btn)
+        layout.addLayout(top_row)
+
+        self.proposals_table = QTableWidget(0, 8, widget)
+        self.proposals_table.setHorizontalHeaderLabels([
+            "№", "Title ID", "Название игры", "Вариант", "Стиль", "Автор", "Размер", "Дата"
+        ])
+        self.proposals_table.horizontalHeader().setSectionResizeMode(0, QHeaderView.ResizeToContents)
+        self.proposals_table.horizontalHeader().setSectionResizeMode(1, QHeaderView.ResizeToContents)
+        self.proposals_table.horizontalHeader().setSectionResizeMode(2, QHeaderView.Stretch)
+        self.proposals_table.horizontalHeader().setSectionResizeMode(3, QHeaderView.Interactive)
+        self.proposals_table.horizontalHeader().setSectionResizeMode(4, QHeaderView.ResizeToContents)
+        self.proposals_table.horizontalHeader().setSectionResizeMode(5, QHeaderView.ResizeToContents)
+        self.proposals_table.horizontalHeader().setSectionResizeMode(6, QHeaderView.ResizeToContents)
+        self.proposals_table.horizontalHeader().setSectionResizeMode(7, QHeaderView.Interactive)
+        self.proposals_table.setSelectionBehavior(QTableWidget.SelectRows)
+        self.proposals_table.setSelectionMode(QTableWidget.SingleSelection)
+        self.proposals_table.itemSelectionChanged.connect(self._on_proposal_selection_changed)
+        layout.addWidget(self.proposals_table, 2)
+
+        self.proposal_detail_box = QGroupBox("Параметры выбранной заявки", widget)
+        det_layout = QVBoxLayout(self.proposal_detail_box)
+        det_layout.setSpacing(6)
+
+        self.proposal_info_lbl = QLabel("Выберите заявку из таблицы выше для просмотра параметров и ссылок.", self.proposal_detail_box)
+        self.proposal_info_lbl.setStyleSheet("color: #CBD5E1; font-size: 12px; line-height: 1.4;")
+        self.proposal_info_lbl.setWordWrap(True)
+        det_layout.addWidget(self.proposal_info_lbl)
+
+        links_row = QHBoxLayout()
+        self.open_video_url_btn = QPushButton("🌐 Открыть видео по ссылке", self.proposal_detail_box)
+        self.open_video_url_btn.setEnabled(False)
+        self.open_video_url_btn.clicked.connect(self._open_selected_proposal_video)
+        links_row.addWidget(self.open_video_url_btn)
+
+        self.open_issue_url_btn = QPushButton("🔗 Открыть заявку на GitHub", self.proposal_detail_box)
+        self.open_issue_url_btn.setEnabled(False)
+        self.open_issue_url_btn.clicked.connect(self._open_selected_proposal_issue)
+        links_row.addWidget(self.open_issue_url_btn)
+        links_row.addStretch()
+        det_layout.addLayout(links_row)
+
+        layout.addWidget(self.proposal_detail_box, 1)
+
+        action_row = QHBoxLayout()
+        self.proposals_stats_lbl = QLabel("Заявки не загружены", widget)
+        self.proposals_stats_lbl.setStyleSheet("color: #00E5FF; font-weight: bold;")
+        action_row.addWidget(self.proposals_stats_lbl)
+        action_row.addStretch()
+
+        self.reject_proposal_btn = QPushButton("✗ Отклонить заявку", widget)
+        self.reject_proposal_btn.setStyleSheet("background-color: #EF4444; color: #FFFFFF; font-weight: bold; padding: 10px 18px;")
+        self.reject_proposal_btn.setEnabled(False)
+        self.reject_proposal_btn.clicked.connect(self._reject_selected_proposal)
+        action_row.addWidget(self.reject_proposal_btn)
+
+        self.approve_proposal_btn = QPushButton("✓ Одобрить и добавить в каталог", widget)
+        self.approve_proposal_btn.setStyleSheet("background-color: #10B981; color: #FFFFFF; font-weight: bold; padding: 10px 22px;")
+        self.approve_proposal_btn.setEnabled(False)
+        self.approve_proposal_btn.clicked.connect(self._approve_selected_proposal)
+        action_row.addWidget(self.approve_proposal_btn)
+
+        layout.addLayout(action_row)
+        return widget
+
+    def _check_current_permissions(self):
+        token = self.token_edit.text().strip()
+        repo = self.repo_edit.text().strip()
+        if not repo:
+            repo = GitHubPublisher.DEFAULT_REPO
+
+        self.role_banner.setText("Проверка прав доступа к репозиторию...")
+        self.role_banner.setStyleSheet("padding: 6px 10px; border-radius: 4px; font-weight: bold; font-size: 12px; background-color: #1F242D; color: #94A3B8; border: 1px solid #334155;")
+
+        self._check_perm_worker = CheckPermissionWorkerThread(token=token, repo=repo)
+        self._check_perm_worker.finished.connect(self._on_check_permissions_finished)
+        self._check_perm_worker.start()
+
+    def _on_check_permissions_finished(self, success: bool, info: dict):
+        has_push = info.get("has_push", False)
+        role = info.get("role", "none")
+        login = info.get("login", "")
+        self.is_trusted_creator = has_push
+
+        if has_push:
+            self.role_banner.setText(f"🟢 Режим: Доверенный создатель / Владелец ({login or 'Ключ мейкера'}) — Прямая публикация на Switch")
+            self.role_banner.setStyleSheet("padding: 6px 10px; border-radius: 4px; font-weight: bold; font-size: 12px; background-color: #064E3B; color: #10B981; border: 1px solid #059669;")
+            self.single_publish_btn.setText("🚀 Опубликовать видеофон на GitHub")
+            self.single_publish_btn.setStyleSheet("background-color: #00E5FF; color: #121418; font-weight: bold; padding: 11px 24px; font-size: 13px;")
+        else:
+            label_text = f"🟡 Режим: Участник сообщества ({login or 'Гость'}) — Публикация через модерацию заявок"
+            self.role_banner.setText(label_text)
+            self.role_banner.setStyleSheet("padding: 6px 10px; border-radius: 4px; font-weight: bold; font-size: 12px; background-color: #78350F; color: #FBBF24; border: 1px solid #D97706;")
+            self.single_publish_btn.setText("📤 Отправить на модерацию в H3H")
+            self.single_publish_btn.setStyleSheet("background-color: #F59E0B; color: #121418; font-weight: bold; padding: 11px 24px; font-size: 13px;")
+
+    def _refresh_proposals_table(self):
+        token = self.token_edit.text().strip()
+        repo = self.repo_edit.text().strip()
+        self.proposals_stats_lbl.setText("Загрузка заявок сообщества из GitHub...")
+        self._set_ui_busy(True)
+
+        self._fetch_proposals_worker = FetchProposalsWorkerThread(token=token, repo=repo)
+        self._fetch_proposals_worker.progress_status.connect(self.status_lbl.setText)
+        self._fetch_proposals_worker.finished.connect(self._on_fetch_proposals_finished)
+        self._fetch_proposals_worker.start()
+
+    def _on_fetch_proposals_finished(self, success: bool, proposals: list, err: str):
+        self._set_ui_busy(False)
+        if not success:
+            self.proposals_stats_lbl.setText("❌ Ошибка загрузки заявок")
+            QMessageBox.warning(self, "Ошибка загрузки заявок", f"Не удалось загрузить заявки из GitHub:\n\n{err}")
+            return
+
+        self.proposals_items = proposals
+        self.proposals_table.setRowCount(len(proposals))
+
+        for row, prop in enumerate(proposals):
+            num = prop.get("issue_number", 0)
+            data = prop.get("data", {})
+            tid = data.get("titleId", "")
+            gtitle = data.get("gameTitle", prop.get("title", ""))
+            vname = data.get("variantName", "")
+            style = data.get("style", "")
+            author = data.get("author", prop.get("submitter", ""))
+            sz_mb = data.get("sizeBytes", 0) / (1024 * 1024)
+            created = prop.get("created_at", "")[:10]
+
+            self.proposals_table.setItem(row, 0, QTableWidgetItem(f"#{num}"))
+            self.proposals_table.setItem(row, 1, QTableWidgetItem(tid))
+            self.proposals_table.setItem(row, 2, QTableWidgetItem(gtitle))
+            self.proposals_table.setItem(row, 3, QTableWidgetItem(vname))
+            self.proposals_table.setItem(row, 4, QTableWidgetItem(style))
+            self.proposals_table.setItem(row, 5, QTableWidgetItem(author))
+            self.proposals_table.setItem(row, 6, QTableWidgetItem(f"{sz_mb:.2f} MB" if sz_mb > 0 else "—"))
+            self.proposals_table.setItem(row, 7, QTableWidgetItem(created))
+
+        count = len(proposals)
+        self.proposals_stats_lbl.setText(f"Активных заявок на модерации: {count}")
+        if count > 0:
+            self.proposals_table.selectRow(0)
+        else:
+            self._on_proposal_selection_changed()
+
+    def _on_proposal_selection_changed(self):
+        sel = self.proposals_table.selectedIndexes()
+        if not sel:
+            self.proposal_info_lbl.setText("Выберите заявку из таблицы выше для просмотра параметров и ссылок.")
+            self.open_video_url_btn.setEnabled(False)
+            self.open_issue_url_btn.setEnabled(False)
+            self.approve_proposal_btn.setEnabled(False)
+            self.reject_proposal_btn.setEnabled(False)
+            return
+
+        row = sel[0].row()
+        if not (0 <= row < len(self.proposals_items)):
+            return
+
+        prop = self.proposals_items[row]
+        data = prop.get("data", {})
+        num = prop.get("issue_number", 0)
+        tid = data.get("titleId", "—")
+        gtitle = data.get("gameTitle", prop.get("title", "—"))
+        vname = data.get("variantName", "Default")
+        style = data.get("style", "Gameplay")
+        author = data.get("author", prop.get("submitter", "Anonymous"))
+        w = data.get("width", "—")
+        h = data.get("height", "—")
+        fps = data.get("fps", "—")
+        codec = data.get("codec", "—")
+        audio = "Да" if data.get("hasAudio") else "Нет"
+        url = data.get("url", "")
+        notes = data.get("notes", "—")
+
+        self.proposal_info_lbl.setText(
+            f"<b>Заявка #{num}: {gtitle} ({tid})</b><br>"
+            f"• <b>Вариант:</b> {vname} | <b>Стиль:</b> {style} | <b>Автор:</b> {author}<br>"
+            f"• <b>Видео:</b> {w}x{h} @{fps}fps | <b>Кодек:</b> {codec} | <b>Звук:</b> {audio}<br>"
+            f"• <b>Ссылка на видео:</b> <a href='{url}' style='color:#00E5FF;'>{url or 'Нет ссылки'}</a><br>"
+            f"• <b>Примечания:</b> {notes}"
+        )
+
+        has_url = bool(url)
+        self.open_video_url_btn.setEnabled(has_url)
+        self.open_issue_url_btn.setEnabled(True)
+        can_moderate = getattr(self, "is_trusted_creator", False)
+        self.approve_proposal_btn.setEnabled(can_moderate and bool(data))
+        self.reject_proposal_btn.setEnabled(can_moderate)
+
+    def _open_selected_proposal_video(self):
+        sel = self.proposals_table.selectedIndexes()
+        if not sel:
+            return
+        row = sel[0].row()
+        if 0 <= row < len(self.proposals_items):
+            url = self.proposals_items[row].get("data", {}).get("url", "")
+            if url:
+                QDesktopServices.openUrl(QUrl(url))
+
+    def _open_selected_proposal_issue(self):
+        sel = self.proposals_table.selectedIndexes()
+        if not sel:
+            return
+        row = sel[0].row()
+        if 0 <= row < len(self.proposals_items):
+            url = self.proposals_items[row].get("html_url", "")
+            if url:
+                QDesktopServices.openUrl(QUrl(url))
+
+    def _approve_selected_proposal(self):
+        sel = self.proposals_table.selectedIndexes()
+        if not sel:
+            return
+        row = sel[0].row()
+        if not (0 <= row < len(self.proposals_items)):
+            return
+
+        token = self.token_edit.text().strip()
+        if not token:
+            QMessageBox.warning(self, "Ошибка", "Укажите GitHub PAT с правами на запись!")
+            return
+
+        prop = self.proposals_items[row]
+        num = prop.get("issue_number")
+        data = prop.get("data", {})
+        if not data:
+            QMessageBox.warning(self, "Ошибка", "У этой заявки отсутствуют распознанные структурированные данные!")
+            return
+
+        confirm = QMessageBox.question(
+            self,
+            "Подтверждение одобрения",
+            f"Вы действительно хотите одобрить заявку #{num}?\n\n"
+            f"• Игра: {data.get('gameTitle')} ({data.get('titleId')})\n"
+            f"• Вариант: {data.get('variantName')} ({data.get('style')})\n"
+            f"• Автор: {data.get('author')}\n\n"
+            f"Видеофон будет добавлен в онлайн-каталог catalog.json и появится у всех на Switch!",
+            QMessageBox.Yes | QMessageBox.No
+        )
+        if confirm != QMessageBox.Yes:
+            return
+
+        self._set_ui_busy(True)
+        self.status_lbl.setText(f"Одобрение заявки #{num}...")
+
+        self._approve_proposal_worker = ApproveProposalWorkerThread(
+            issue_number=num,
+            proposal_data=data,
+            token=token,
+            repo=self.repo_edit.text().strip()
+        )
+        self._approve_proposal_worker.progress_status.connect(self.status_lbl.setText)
+        self._approve_proposal_worker.finished.connect(self._on_approve_proposal_finished)
+        self._approve_proposal_worker.start()
+
+    def _on_approve_proposal_finished(self, success: bool, err: str):
+        self._set_ui_busy(False)
+        if success:
+            self.status_lbl.setText("✓ Заявка успешно одобрена и добавлена в каталог!")
+            QMessageBox.information(
+                self,
+                "Успех",
+                "Видеофон успешно добавлен в онлайн-каталог catalog.json!\n\n"
+                "Заявка на GitHub закрыта с подтверждающим комментарием."
+            )
+            self._refresh_proposals_table()
+        else:
+            self.status_lbl.setText("❌ Ошибка при одобрении заявки")
+            QMessageBox.critical(self, "Ошибка", f"Не удалось одобрить заявку:\n\n{err}")
+
+    def _reject_selected_proposal(self):
+        sel = self.proposals_table.selectedIndexes()
+        if not sel:
+            return
+        row = sel[0].row()
+        if not (0 <= row < len(self.proposals_items)):
+            return
+
+        token = self.token_edit.text().strip()
+        if not token:
+            QMessageBox.warning(self, "Ошибка", "Укажите GitHub PAT!")
+            return
+
+        prop = self.proposals_items[row]
+        num = prop.get("issue_number")
+
+        reason, ok = QInputDialog.getText(
+            self,
+            "Отклонение заявки",
+            f"Укажите причину отклонения заявки #{num} (будет добавлена в комментарий):",
+            QLineEdit.Normal,
+            "Видеофайл не соответствует требованиям 4IFIR или ссылка недоступна."
+        )
+        if not ok:
+            return
+
+        self._set_ui_busy(True)
+        self.status_lbl.setText(f"Отклонение заявки #{num}...")
+
+        self._reject_proposal_worker = RejectProposalWorkerThread(
+            issue_number=num,
+            reason=reason,
+            token=token,
+            repo=self.repo_edit.text().strip()
+        )
+        self._reject_proposal_worker.progress_status.connect(self.status_lbl.setText)
+        self._reject_proposal_worker.finished.connect(self._on_reject_proposal_finished)
+        self._reject_proposal_worker.start()
+
+    def _on_reject_proposal_finished(self, success: bool, err: str):
+        self._set_ui_busy(False)
+        if success:
+            self.status_lbl.setText("Заявка отклонена и закрыта.")
+            QMessageBox.information(self, "Заявка отклонена", "Заявка на GitHub успешно закрыта с указанием причины.")
+            self._refresh_proposals_table()
+        else:
+            self.status_lbl.setText("❌ Ошибка при отклонении заявки")
+            QMessageBox.critical(self, "Ошибка", f"Не удалось отклонить заявку:\n\n{err}")
+
+    def _on_proposal_submitted(self, success: bool, res: dict, err: str):
+        self._set_ui_busy(False)
+        if success:
+            if res.get("manual"):
+                web_url = res.get("html_url", "")
+                QDesktopServices.openUrl(QUrl(web_url))
+                QMessageBox.information(
+                    self,
+                    "Заявка сформирована",
+                    "В браузере открыта предзаполненная форма заявки на GitHub.\n\n"
+                    "Нажмите 'Submit new issue' для отправки на модерацию в H3H-Backgrounds!"
+                )
+            else:
+                num = res.get("issue_number")
+                self.status_lbl.setText(f"✓ Заявка #{num} успешно отправлена на модерацию!")
+                QMessageBox.information(
+                    self,
+                    "Успех",
+                    f"Ваша заявка #{num} успешно отправлена на модерацию в H3H-Backgrounds!\n\n"
+                    f"После подтверждения владельцем репозитория видеофон появится у всех пользователей Switch."
+                )
+        else:
+            self.status_lbl.setText("❌ Ошибка отправки заявки")
+            QMessageBox.critical(self, "Ошибка", f"Не удалось отправить заявку:\n\n{err}")
+
 

@@ -16,7 +16,7 @@ import urllib.request
 from ctypes import wintypes
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, Any, Optional, Tuple
+from typing import Dict, Any, Optional, Tuple, List
 
 from .compliance import ComplianceValidator
 
@@ -907,3 +907,400 @@ class GitHubPublisher:
             progress_cb=progress_cb
         )
         return count > 0
+
+    @classmethod
+    def check_repo_permissions(cls, token: Optional[str], repo: str = DEFAULT_REPO) -> Dict[str, Any]:
+        """
+        Checks whether the provided GitHub token has push/write permissions on the target repository.
+        Returns {'has_push': bool, 'role': str, 'login': str, 'error': Optional[str]}.
+        """
+        if not token:
+            return {"has_push": False, "role": "guest", "login": "", "error": "Токен не указан"}
+
+        headers = {
+            "Authorization": f"Bearer {token}",
+            "Accept": "application/vnd.github.v3+json",
+            "User-Agent": "H3H-Background-Studio"
+        }
+
+        login = ""
+        try:
+            u_req = urllib.request.Request("https://api.github.com/user", headers=headers)
+            with urllib.request.urlopen(u_req, timeout=10) as u_resp:
+                u_info = json.loads(u_resp.read().decode("utf-8"))
+                login = u_info.get("login", "")
+        except Exception:
+            pass
+
+        try:
+            r_req = urllib.request.Request(f"https://api.github.com/repos/{repo}", headers=headers)
+            with urllib.request.urlopen(r_req, timeout=10) as r_resp:
+                r_info = json.loads(r_resp.read().decode("utf-8"))
+                perms = r_info.get("permissions", {})
+                has_push = bool(perms.get("push", False) or perms.get("admin", False))
+                role = "admin" if perms.get("admin") else ("write" if perms.get("push") else "read")
+                return {"has_push": has_push, "role": role, "login": login, "error": None}
+        except urllib.error.HTTPError as he:
+            return {"has_push": False, "role": "none", "login": login, "error": f"HTTP {he.code}"}
+        except Exception as e:
+            return {"has_push": False, "role": "error", "login": login, "error": str(e)}
+
+    @classmethod
+    def create_proposal_markdown(cls, proposal_data: Dict[str, Any]) -> str:
+        """Formats a proposal issue markdown body containing embedded JSON payload."""
+        gtitle = proposal_data.get("gameTitle", "Unknown Game")
+        tid = proposal_data.get("titleId", "").upper()
+        vname = proposal_data.get("variantName", "Default")
+        vid = proposal_data.get("variantId", "default")
+        style = proposal_data.get("style", "Gameplay")
+        author = proposal_data.get("author", "Anonymous")
+        url = proposal_data.get("url", "")
+        size_mb = proposal_data.get("sizeBytes", 0) / (1024 * 1024)
+        codec = proposal_data.get("codec", "h264")
+        w = proposal_data.get("width", 1280)
+        h = proposal_data.get("height", 720)
+        fps = proposal_data.get("fps", 30)
+        audio_str = "Да" if proposal_data.get("hasAudio") else "Нет"
+        notes = proposal_data.get("notes", "")
+
+        json_block = json.dumps(proposal_data, ensure_ascii=False, indent=2)
+
+        return (
+            f"### 🎬 Заявка на добавление видеофона в H3H-Backgrounds\n\n"
+            f"- **Игра:** {gtitle} (`{tid}`)\n"
+            f"- **Вариант:** {vname} (`{vid}`)\n"
+            f"- **Стиль:** {style}\n"
+            f"- **Автор:** {author}\n"
+            f"- **Разрешение:** {w}x{h} @{fps}fps | **Кодек:** {codec} | **Звук:** {audio_str}\n"
+            f"- **Размер:** {size_mb:.2f} MB\n"
+            f"- **Ссылка на скачивание:** [{url}]({url})\n"
+            f"- **Примечания:** {notes}\n\n"
+            f"```json:h3h-proposal\n{json_block}\n```\n"
+        )
+
+    @classmethod
+    def submit_catalog_proposal(
+        cls,
+        proposal_data: Dict[str, Any],
+        token: Optional[str] = None,
+        repo: str = DEFAULT_REPO
+    ) -> Dict[str, Any]:
+        """
+        Submits a proposal to the GitHub repository as an issue labeled 'catalog-proposal'.
+        If token is provided, submits via GitHub API.
+        If no token, returns a web URL for manual 1-click opening in browser.
+        """
+        tid = proposal_data.get("titleId", "").upper()
+        gtitle = proposal_data.get("gameTitle", "Switch Game")
+        vname = proposal_data.get("variantName", "Default")
+        title = f"[Proposal] {tid} - {gtitle} ({vname})"
+        body = cls.create_proposal_markdown(proposal_data)
+
+        if token:
+            headers = {
+                "Authorization": f"Bearer {token}",
+                "Accept": "application/vnd.github.v3+json",
+                "Content-Type": "application/json",
+                "User-Agent": "H3H-Background-Studio"
+            }
+            payload = {
+                "title": title,
+                "body": body,
+                "labels": ["catalog-proposal"]
+            }
+            req = urllib.request.Request(
+                f"https://api.github.com/repos/{repo}/issues",
+                data=json.dumps(payload).encode("utf-8"),
+                headers=headers,
+                method="POST"
+            )
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                created = json.loads(resp.read().decode("utf-8"))
+                return {
+                    "success": True,
+                    "issue_number": created.get("number"),
+                    "html_url": created.get("html_url"),
+                    "manual": False
+                }
+
+        # Fallback: Web URL for opening in browser
+        params = urllib.parse.urlencode({
+            "title": title,
+            "body": body,
+            "labels": "catalog-proposal"
+        })
+        web_url = f"https://github.com/{repo}/issues/new?{params}"
+        return {
+            "success": True,
+            "issue_number": None,
+            "html_url": web_url,
+            "manual": True
+        }
+
+    @classmethod
+    def fetch_catalog_proposals(
+        cls,
+        token: Optional[str] = None,
+        repo: str = DEFAULT_REPO
+    ) -> List[Dict[str, Any]]:
+        """
+        Fetches all open issues with the label 'catalog-proposal'.
+        Parses their embedded JSON metadata into structured dictionaries.
+        """
+        headers = {
+            "Accept": "application/vnd.github.v3+json",
+            "User-Agent": "H3H-Background-Studio"
+        }
+        if token:
+            headers["Authorization"] = f"Bearer {token}"
+
+        url = f"https://api.github.com/repos/{repo}/issues?labels=catalog-proposal&state=open&per_page=100"
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            issues = json.loads(resp.read().decode("utf-8"))
+
+        proposals = []
+        for iss in issues:
+            if "pull_request" in iss:
+                continue
+
+            body = iss.get("body", "") or ""
+            # Search for ```json:h3h-proposal ... ``` or generic ```json ... ```
+            m = re.search(r"```(?:json:h3h-proposal|json)\s*(\{.*?\})\s*```", body, re.DOTALL)
+            parsed_data = {}
+            if m:
+                try:
+                    parsed_data = json.loads(m.group(1))
+                except Exception:
+                    pass
+
+            proposals.append({
+                "issue_number": iss["number"],
+                "html_url": iss["html_url"],
+                "created_at": iss.get("created_at", ""),
+                "submitter": iss.get("user", {}).get("login", "Unknown"),
+                "title": iss.get("title", ""),
+                "data": parsed_data
+            })
+
+        return proposals
+
+    @classmethod
+    def approve_proposal(
+        cls,
+        issue_number: int,
+        proposal_data: Dict[str, Any],
+        token: str,
+        repo: str = DEFAULT_REPO,
+        progress_cb: Optional[callable] = None,
+        local_catalog_path: Optional[Path] = None
+    ) -> bool:
+        """
+        Approves a community proposal by appending the variant to catalog.json,
+        committing it to GitHub in a single atomic transaction, and closing the issue.
+        """
+        if not proposal_data:
+            raise ValueError("Данные заявки пусты или повреждены")
+
+        clean_tid = proposal_data.get("titleId", "").strip().upper()
+        if not clean_tid or len(clean_tid) != 16:
+            raise ValueError(f"Некорректный Title ID: {clean_tid}")
+
+        if progress_cb:
+            progress_cb("Загрузка текущего каталога...")
+
+        cat_data = cls.fetch_catalog(token, repo)
+        game_entry = None
+        for g in cat_data.get("games", []):
+            if g.get("titleId", "").upper() == clean_tid:
+                game_entry = g
+                break
+
+        if not game_entry:
+            game_entry = {
+                "titleId": clean_tid,
+                "title": proposal_data.get("gameTitle", f"Switch Title {clean_tid}"),
+                "publisher": "Nintendo Switch",
+                "iconUrl": f"https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/{clean_tid}.jpg",
+                "variants": []
+            }
+            cat_data.setdefault("games", []).append(game_entry)
+
+        v_name = proposal_data.get("variantName", "Default")
+        safe_vid = proposal_data.get("variantId") or re.sub(r"[^a-zA-Z0-9_\-]", "", v_name.lower().replace(" ", "-"))
+        if not safe_vid:
+            safe_vid = "default"
+
+        new_variant = {
+            "id": safe_vid,
+            "name": v_name,
+            "style": proposal_data.get("style", "Gameplay"),
+            "version": proposal_data.get("version", "1.0"),
+            "url": proposal_data.get("url", ""),
+            "previewUrl": proposal_data.get("previewUrl", ""),
+            "sizeBytes": proposal_data.get("sizeBytes", 0),
+            "sha256": proposal_data.get("sha256", ""),
+            "durationSec": round(float(proposal_data.get("durationSec", 15.0)), 2),
+            "author": proposal_data.get("author", "Community"),
+            "codec": proposal_data.get("codec", "h264"),
+            "width": int(proposal_data.get("width", 1280)),
+            "height": int(proposal_data.get("height", 720)),
+            "fps": round(float(proposal_data.get("fps", 30.0)), 1),
+            "hasAudio": bool(proposal_data.get("hasAudio", False)),
+            "notes": proposal_data.get("notes", f"Approved proposal #{issue_number}")
+        }
+
+        # Replace or append variant
+        existing_idx = -1
+        for idx, var in enumerate(game_entry.get("variants", [])):
+            if var.get("id") == safe_vid:
+                existing_idx = idx
+                break
+
+        if existing_idx >= 0:
+            game_entry["variants"][existing_idx] = new_variant
+        else:
+            game_entry.setdefault("variants", []).append(new_variant)
+
+        cat_data["updatedAt"] = datetime.now(timezone.utc).isoformat()
+        cat_data["totalGames"] = len(cat_data["games"])
+        cat_data["totalVariants"] = sum(len(g.get("variants", [])) for g in cat_data["games"])
+
+        # Save local catalog
+        target_path = local_catalog_path or (Path(__file__).parent.parent.parent.parent / "catalog" / "data" / "catalog.json")
+        try:
+            target_path.parent.mkdir(parents=True, exist_ok=True)
+            with open(target_path, "w", encoding="utf-8") as cf:
+                json.dump(cat_data, cf, ensure_ascii=False, indent=2)
+        except Exception:
+            pass
+
+        # Commit to GitHub
+        if progress_cb:
+            progress_cb("Фиксация изменений catalog.json в GitHub...")
+
+        headers = {
+            "Authorization": f"Bearer {token}",
+            "Accept": "application/vnd.github.v3+json",
+            "Content-Type": "application/json",
+            "User-Agent": "H3H-Background-Studio"
+        }
+
+        content_url = f"https://api.github.com/repos/{repo}/contents/catalog/data/catalog.json"
+        c_get_req = urllib.request.Request(content_url, headers=headers)
+        file_sha = None
+        try:
+            with urllib.request.urlopen(c_get_req, timeout=15) as cg_resp:
+                c_info = json.loads(cg_resp.read().decode("utf-8"))
+                file_sha = c_info.get("sha")
+        except Exception:
+            pass
+
+        raw_cat_bytes = json.dumps(cat_data, ensure_ascii=False, indent=2).encode("utf-8")
+        b64_content = base64.b64encode(raw_cat_bytes).decode("ascii")
+
+        put_payload = {
+            "message": f"feat(catalog): approve proposal #{issue_number} - {clean_tid} ({safe_vid})",
+            "content": b64_content
+        }
+        if file_sha:
+            put_payload["sha"] = file_sha
+
+        put_req = urllib.request.Request(
+            content_url,
+            data=json.dumps(put_payload).encode("utf-8"),
+            headers=headers,
+            method="PUT"
+        )
+        with urllib.request.urlopen(put_req, timeout=15):
+            pass
+
+        # Post approval comment and close issue
+        if progress_cb:
+            progress_cb("Закрытие заявки на GitHub...")
+
+        try:
+            comment_payload = {
+                "body": f"✓ **Заявка одобрена!**\nВидеофон успешно добавлен в онлайн-каталог `catalog.json`.\nСпасибо за вклад в сообщество H3H!"
+            }
+            com_req = urllib.request.Request(
+                f"https://api.github.com/repos/{repo}/issues/{issue_number}/comments",
+                data=json.dumps(comment_payload).encode("utf-8"),
+                headers=headers,
+                method="POST"
+            )
+            with urllib.request.urlopen(com_req, timeout=10):
+                pass
+        except Exception:
+            pass
+
+        try:
+            close_payload = {"state": "closed"}
+            close_req = urllib.request.Request(
+                f"https://api.github.com/repos/{repo}/issues/{issue_number}",
+                data=json.dumps(close_payload).encode("utf-8"),
+                headers=headers,
+                method="PATCH"
+            )
+            with urllib.request.urlopen(close_req, timeout=10):
+                pass
+        except Exception:
+            pass
+
+        if progress_cb:
+            progress_cb("✓ Заявка успешно одобрена и добавлена в каталог!")
+
+        return True
+
+    @classmethod
+    def reject_proposal(
+        cls,
+        issue_number: int,
+        reason: str,
+        token: str,
+        repo: str = DEFAULT_REPO,
+        progress_cb: Optional[callable] = None
+    ) -> bool:
+        """
+        Rejects a community proposal by adding a reason comment and closing the issue.
+        """
+        headers = {
+            "Authorization": f"Bearer {token}",
+            "Accept": "application/vnd.github.v3+json",
+            "Content-Type": "application/json",
+            "User-Agent": "H3H-Background-Studio"
+        }
+
+        if progress_cb:
+            progress_cb(f"Отклонение заявки #{issue_number}...")
+
+        try:
+            comment_text = f"❌ **Заявка отклонена модератором.**\n\n**Причина:** {reason.strip() if reason.strip() else 'Не соответствует требованиям качества / формата.'}"
+            com_req = urllib.request.Request(
+                f"https://api.github.com/repos/{repo}/issues/{issue_number}/comments",
+                data=json.dumps({"body": comment_text}).encode("utf-8"),
+                headers=headers,
+                method="POST"
+            )
+            with urllib.request.urlopen(com_req, timeout=10):
+                pass
+        except Exception:
+            pass
+
+        try:
+            close_req = urllib.request.Request(
+                f"https://api.github.com/repos/{repo}/issues/{issue_number}",
+                data=json.dumps({"state": "closed"}).encode("utf-8"),
+                headers=headers,
+                method="PATCH"
+            )
+            with urllib.request.urlopen(close_req, timeout=10):
+                pass
+        except Exception as e:
+            raise RuntimeError(f"Не удалось закрыть заявку: {e}")
+
+        if progress_cb:
+            progress_cb("Заявка отклонена и закрыта.")
+
+        return True
+
