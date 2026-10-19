@@ -1,35 +1,9 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T06:25:12.919125+00:00",
-  "totalGames": 19,
-  "totalVariants": 19,
+  "updatedAt": "2026-10-19T08:44:42.969416+00:00",
+  "totalGames": 18,
+  "totalVariants": 18,
   "games": [
-    {
-      "titleId": "0100000000010000",
-      "title": "Super Mario Odyssey [NSP][RUS/Multi9]",
-      "publisher": "Nintendo Switch",
-      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100000000010000.jpg",
-      "variants": [
-        {
-          "id": "default",
-          "name": "Default",
-          "style": "Gameplay",
-          "version": "1.0",
-          "url": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.0.0/0100000000010000_default.mp4",
-          "previewUrl": "",
-          "sizeBytes": 16431618,
-          "sha256": "91258e48f4ac47553eb2b673b9fbccdf6a8f240b6755713183bf6c91a5385f1a",
-          "durationSec": 60.06,
-          "author": "Holy3holy-dev",
-          "codec": "hevc",
-          "width": 1920,
-          "height": 1080,
-          "fps": 30.0,
-          "hasAudio": true,
-          "notes": "Batch published: 1920x1080 @30fps"
-        }
-      ]
-    },
     {
       "titleId": "0100152000022000",
       "title": "Mario Kart 8 CTGP Deluxe Mod [NSZ+MSP][RUS/Multi11]",
