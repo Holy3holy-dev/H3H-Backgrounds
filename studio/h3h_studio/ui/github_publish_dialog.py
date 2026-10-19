@@ -103,6 +103,43 @@ class BatchPublishWorkerThread(QThread):
             self.finished.emit(False, [], str(e))
 
 
+class DeleteWorkerThread(QThread):
+    progress_status = Signal(str)
+    finished = Signal(bool, str)
+
+    def __init__(
+        self,
+        title_id: str,
+        variant_id: str,
+        token: str,
+        repo: str,
+        release_tag: str
+    ):
+        super().__init__()
+        self.title_id = title_id
+        self.variant_id = variant_id
+        self.token = token
+        self.repo = repo
+        self.release_tag = release_tag
+
+    def run(self):
+        try:
+            ok = GitHubPublisher.delete_published_variant(
+                title_id=self.title_id,
+                variant_id=self.variant_id,
+                token=self.token,
+                repo=self.repo,
+                release_tag=self.release_tag,
+                progress_cb=self.progress_status.emit
+            )
+            if ok:
+                self.finished.emit(True, "")
+            else:
+                self.finished.emit(False, "Запись не найдена в каталоге")
+        except Exception as e:
+            self.finished.emit(False, str(e))
+
+
 class GitHubPublishDialog(QDialog):
     def __init__(
         self,
@@ -196,18 +233,20 @@ class GitHubPublishDialog(QDialog):
         self.default_user = user or "Holy3holy-dev"
         self._worker: Optional[PublishWorkerThread] = None
         self._batch_worker: Optional[BatchPublishWorkerThread] = None
+        self._delete_worker: Optional[DeleteWorkerThread] = None
         self.scanned_items: List[Dict[str, Any]] = []
+        self.catalog_items: List[Dict[str, Any]] = []
 
         layout = QVBoxLayout(self)
         layout.setContentsMargins(18, 18, 18, 18)
         layout.setSpacing(12)
 
         # Header
-        header = QLabel("🚀 Публикация видеофонов в GitHub Releases и онлайн-каталог", self)
+        header = QLabel("🚀 Публикация и управление видеофонами на GitHub", self)
         header.setFont(QFont("Segoe UI", 14, QFont.Bold))
         layout.addWidget(header)
 
-        # Tabs: Single Video vs Batch / Archive
+        # Tabs: Single Video vs Batch / Archive vs Manage
         self.tabs = QTabWidget(self)
 
         # Tab 1: Single Video
@@ -217,6 +256,11 @@ class GitHubPublishDialog(QDialog):
         # Tab 2: Batch / Archive
         batch_tab = self._create_batch_tab()
         self.tabs.addTab(batch_tab, "📦 Пакетная публикация (Архив / Папка)")
+
+        # Tab 3: Manage & Delete
+        manage_tab = self._create_manage_tab()
+        self.tabs.addTab(manage_tab, "🗑 Управление каталогом и удаление")
+        self.tabs.currentChanged.connect(self._on_tab_changed)
 
         layout.addWidget(self.tabs)
 
@@ -675,3 +719,155 @@ class GitHubPublishDialog(QDialog):
         else:
             self.status_lbl.setText("❌ Ошибка при пакетной публикации")
             QMessageBox.critical(self, "Ошибка пакетной публикации", f"Произошла ошибка при пакетной публикации:\n\n{err}")
+
+    def _create_manage_tab(self) -> QWidget:
+        widget = QWidget()
+        layout = QVBoxLayout(widget)
+        layout.setContentsMargins(14, 14, 14, 14)
+        layout.setSpacing(10)
+
+        info_lbl = QLabel(
+            "Список всех опубликованных видеофонов в онлайн-каталоге. "
+            "Вы можете выбрать любой видеофон и удалить его из каталога и GitHub Releases.",
+            widget
+        )
+        info_lbl.setStyleSheet("color: #A0AEC0; font-size: 12px;")
+        layout.addWidget(info_lbl)
+
+        self.manage_table = QTableWidget(0, 6, widget)
+        self.manage_table.setHorizontalHeaderLabels([
+            "Title ID", "Название игры", "Вариант", "Стиль", "Размер", "Автор"
+        ])
+        self.manage_table.horizontalHeader().setSectionResizeMode(0, QHeaderView.ResizeToContents)
+        self.manage_table.horizontalHeader().setSectionResizeMode(1, QHeaderView.Stretch)
+        self.manage_table.horizontalHeader().setSectionResizeMode(2, QHeaderView.Interactive)
+        self.manage_table.horizontalHeader().setSectionResizeMode(3, QHeaderView.ResizeToContents)
+        self.manage_table.horizontalHeader().setSectionResizeMode(4, QHeaderView.ResizeToContents)
+        self.manage_table.horizontalHeader().setSectionResizeMode(5, QHeaderView.Interactive)
+        self.manage_table.setSelectionBehavior(QTableWidget.SelectRows)
+        self.manage_table.setSelectionMode(QTableWidget.SingleSelection)
+        layout.addWidget(self.manage_table)
+
+        btn_row = QHBoxLayout()
+        refresh_btn = QPushButton("🔄 Обновить список из каталога", widget)
+        refresh_btn.clicked.connect(self._refresh_catalog_table)
+        btn_row.addWidget(refresh_btn)
+
+        self.manage_stats_lbl = QLabel("Фоны не загружены", widget)
+        self.manage_stats_lbl.setStyleSheet("color: #00E5FF;")
+        btn_row.addWidget(self.manage_stats_lbl)
+
+        btn_row.addStretch()
+
+        self.delete_btn = QPushButton("🗑 Удалить выбранный видеофон с GitHub", widget)
+        self.delete_btn.setStyleSheet("background-color: #EF4444; color: #FFFFFF; font-weight: bold; padding: 10px 20px;")
+        self.delete_btn.clicked.connect(self._delete_selected_catalog_item)
+        btn_row.addWidget(self.delete_btn)
+
+        layout.addLayout(btn_row)
+        return widget
+
+    def _on_tab_changed(self, idx: int):
+        if idx == 2 and not self.catalog_items:
+            self._refresh_catalog_table()
+
+    def _refresh_catalog_table(self):
+        token = self.token_edit.text().strip()
+        repo = self.repo_edit.text().strip()
+        self.manage_stats_lbl.setText("Загрузка каталога с GitHub...")
+        cat = GitHubPublisher.fetch_catalog(token, repo)
+
+        self.catalog_items = []
+        for g in cat.get("games", []):
+            tid = g.get("titleId", "")
+            title = g.get("title", "")
+            for v in g.get("variants", []):
+                self.catalog_items.append({
+                    "titleId": tid,
+                    "gameTitle": title,
+                    "variantId": v.get("id", ""),
+                    "variantName": v.get("name", ""),
+                    "style": v.get("style", ""),
+                    "sizeBytes": v.get("sizeBytes", 0),
+                    "author": v.get("author", ""),
+                    "url": v.get("url", "")
+                })
+
+        self.manage_table.setRowCount(len(self.catalog_items))
+        for row, it in enumerate(self.catalog_items):
+            tid_item = QTableWidgetItem(it["titleId"])
+            tid_item.setFont(QFont("Consolas", 10))
+            tid_item.setForeground(Qt.cyan)
+            self.manage_table.setItem(row, 0, tid_item)
+
+            self.manage_table.setItem(row, 1, QTableWidgetItem(it["gameTitle"]))
+            self.manage_table.setItem(row, 2, QTableWidgetItem(f"{it['variantName']} ({it['variantId']})"))
+            self.manage_table.setItem(row, 3, QTableWidgetItem(it["style"]))
+
+            sz_mb = it["sizeBytes"] / (1024 * 1024)
+            self.manage_table.setItem(row, 4, QTableWidgetItem(f"{sz_mb:.2f} MB"))
+            self.manage_table.setItem(row, 5, QTableWidgetItem(it["author"]))
+
+        self.manage_stats_lbl.setText(f"Всего в каталоге: {len(self.catalog_items)} видеофонов")
+        if self.catalog_items:
+            self.manage_table.selectRow(0)
+
+    def _delete_selected_catalog_item(self):
+        sel = self.manage_table.selectedIndexes()
+        if not sel:
+            QMessageBox.warning(self, "Внимание", "Выберите видеофон из таблицы для удаления!")
+            return
+
+        row = sel[0].row()
+        if not (0 <= row < len(self.catalog_items)):
+            return
+
+        it = self.catalog_items[row]
+        tid = it["titleId"]
+        vid = it["variantId"]
+        vname = it["variantName"]
+        gtitle = it["gameTitle"]
+
+        confirm = QMessageBox.question(
+            self,
+            "Подтверждение удаления",
+            f"Вы действительно хотите удалить видеофон '{vname}' для игры '{gtitle}' ({tid})?\n\n"
+            f"• Видеофайл будет удалён из GitHub Releases.\n"
+            f"• Запись будет удалена из онлайн-каталога catalog.json.\n\n"
+            f"Это действие необратимо!",
+            QMessageBox.Yes | QMessageBox.No
+        )
+        if confirm != QMessageBox.Yes:
+            return
+
+        token = self.token_edit.text().strip()
+        if not token:
+            QMessageBox.warning(self, "Ошибка", "Не указан токен GitHub для выполнения операции!")
+            return
+
+        self._set_ui_busy(True)
+        self.status_lbl.setText(f"Удаление фона '{vname}'...")
+
+        self._delete_worker = DeleteWorkerThread(
+            title_id=tid,
+            variant_id=vid,
+            token=token,
+            repo=self.repo_edit.text().strip(),
+            release_tag=self.tag_edit.text().strip()
+        )
+        self._delete_worker.progress_status.connect(self._on_worker_progress)
+        self._delete_worker.finished.connect(self._on_delete_worker_finished)
+        self._delete_worker.start()
+
+    def _on_delete_worker_finished(self, success: bool, err: str):
+        self._set_ui_busy(False)
+        if success:
+            self.status_lbl.setText("✓ Видеофон успешно удалён!")
+            QMessageBox.information(
+                self, "Успех",
+                "Видеофон успешно удалён из GitHub Releases и онлайн-каталога!"
+            )
+            self._refresh_catalog_table()
+        else:
+            self.status_lbl.setText("❌ Ошибка при удалении")
+            QMessageBox.critical(self, "Ошибка удаления", f"Не удалось удалить видеофон:\n\n{err}")

@@ -625,3 +625,162 @@ class GitHubPublisher:
             progress_cb(f"Успешно опубликовано {len(results)} видеофонов!")
 
         return results
+
+    @classmethod
+    def fetch_catalog(cls, token: Optional[str] = None, repo: str = DEFAULT_REPO) -> Dict[str, Any]:
+        """Fetches the latest catalog either from GitHub or local file fallback."""
+        if token:
+            headers = {
+                "Authorization": f"Bearer {token}",
+                "Accept": "application/vnd.github.v3+json",
+                "User-Agent": "H3H-Background-Studio"
+            }
+            content_url = f"https://api.github.com/repos/{repo}/contents/catalog/data/catalog.json"
+            try:
+                req = urllib.request.Request(content_url, headers=headers)
+                with urllib.request.urlopen(req, timeout=10) as resp:
+                    c_info = json.loads(resp.read().decode("utf-8"))
+                    content_b64 = c_info.get("content", "")
+                    content_bytes = base64.b64decode(content_b64)
+                    return json.loads(content_bytes.decode("utf-8"))
+            except Exception:
+                pass
+
+        catalog_path = Path(__file__).parent.parent.parent.parent / "catalog" / "data" / "catalog.json"
+        if catalog_path.exists():
+            try:
+                with open(catalog_path, "r", encoding="utf-8") as cf:
+                    return json.load(cf)
+            except Exception:
+                pass
+
+        return {"schemaVersion": 1, "games": []}
+
+    @classmethod
+    def delete_published_variant(
+        cls,
+        title_id: str,
+        variant_id: str,
+        token: str,
+        repo: str = DEFAULT_REPO,
+        release_tag: str = DEFAULT_TAG,
+        progress_cb: Optional[callable] = None
+    ) -> bool:
+        """
+        Deletes a video background asset from GitHub Releases and removes its entry from catalog.json.
+        """
+        clean_tid = title_id.strip().upper()
+        clean_vid = variant_id.strip()
+
+        headers = {
+            "Authorization": f"Bearer {token}",
+            "Accept": "application/vnd.github.v3+json",
+            "User-Agent": "H3H-Background-Studio"
+        }
+
+        if progress_cb:
+            progress_cb("Поиск ассета в релизе GitHub...")
+
+        # 1. Look up release and delete asset
+        try:
+            rel_url = f"https://api.github.com/repos/{repo}/releases/tags/{release_tag}"
+            req = urllib.request.Request(rel_url, headers=headers)
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                rel_data = json.loads(resp.read().decode("utf-8"))
+
+            target_asset_names = [
+                f"{clean_tid}_{clean_vid}.mp4",
+                f"{clean_tid}.mp4"
+            ]
+            for asset in rel_data.get("assets", []):
+                aname = asset.get("name", "")
+                if aname in target_asset_names or (clean_tid in aname and clean_vid in aname):
+                    if progress_cb:
+                        progress_cb(f"Удаление ассета {aname} из GitHub Releases...")
+                    del_req = urllib.request.Request(asset["url"], headers=headers, method="DELETE")
+                    try:
+                        with urllib.request.urlopen(del_req, timeout=15):
+                            pass
+                    except Exception:
+                        pass
+                    break
+        except Exception as e:
+            print(f"[-] Asset deletion warning: {e}")
+
+        # 2. Update catalog.json
+        if progress_cb:
+            progress_cb("Обновление каталога catalog.json...")
+
+        cat_data = cls.fetch_catalog(token, repo)
+        updated_games = []
+        removed = False
+
+        for g in cat_data.get("games", []):
+            if g.get("titleId", "").upper() == clean_tid:
+                new_variants = [v for v in g.get("variants", []) if v.get("id") != clean_vid]
+                if len(new_variants) != len(g.get("variants", [])):
+                    removed = True
+                if new_variants:
+                    g["variants"] = new_variants
+                    updated_games.append(g)
+            else:
+                updated_games.append(g)
+
+        if not removed:
+            if progress_cb:
+                progress_cb("Вариант не найден в каталоге.")
+            return False
+
+        cat_data["games"] = updated_games
+        cat_data["updatedAt"] = datetime.now(timezone.utc).isoformat()
+        cat_data["totalGames"] = len(updated_games)
+        cat_data["totalVariants"] = sum(len(g.get("variants", [])) for g in updated_games)
+
+        # Save local catalog
+        catalog_path = Path(__file__).parent.parent.parent.parent / "catalog" / "data" / "catalog.json"
+        try:
+            catalog_path.parent.mkdir(parents=True, exist_ok=True)
+            with open(catalog_path, "w", encoding="utf-8") as cf:
+                json.dump(cat_data, cf, ensure_ascii=False, indent=2)
+        except Exception:
+            pass
+
+        # Commit to GitHub
+        if progress_cb:
+            progress_cb("Фиксация изменений catalog.json в GitHub...")
+
+        try:
+            content_url = f"https://api.github.com/repos/{repo}/contents/catalog/data/catalog.json"
+            c_get_req = urllib.request.Request(content_url, headers=headers)
+            file_sha = None
+            try:
+                with urllib.request.urlopen(c_get_req, timeout=15) as cg_resp:
+                    c_info = json.loads(cg_resp.read().decode("utf-8"))
+                    file_sha = c_info.get("sha")
+            except Exception:
+                pass
+
+            raw_cat_bytes = json.dumps(cat_data, ensure_ascii=False, indent=2).encode("utf-8")
+            b64_content = base64.b64encode(raw_cat_bytes).decode("ascii")
+
+            put_payload = {
+                "message": f"feat(catalog): delete background {clean_tid} ({clean_vid})",
+                "content": b64_content
+            }
+            if file_sha:
+                put_payload["sha"] = file_sha
+
+            put_req = urllib.request.Request(
+                content_url,
+                data=json.dumps(put_payload).encode("utf-8"),
+                headers={**headers, "Content-Type": "application/json"},
+                method="PUT"
+            )
+            with urllib.request.urlopen(put_req, timeout=15):
+                pass
+        except Exception as e:
+            print(f"[-] Warning: Failed to commit deleted catalog item to GitHub: {e}")
+
+        if progress_cb:
+            progress_cb("Удаление успешно завершено!")
+        return True
