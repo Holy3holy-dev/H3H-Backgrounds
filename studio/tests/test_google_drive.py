@@ -116,3 +116,47 @@ class TestGoogleDriveClient:
         assert len(files) == 1
         assert files[0]["name"] == "01007EF00011E000.mp4"
 
+    def test_compliance_result_is_compliant_property(self):
+        from studio.h3h_studio.core.compliance import ComplianceResult
+
+        cr_valid = ComplianceResult(is_valid=True)
+        assert cr_valid.is_valid is True
+        assert cr_valid.is_compliant is True
+
+        cr_invalid = ComplianceResult(is_valid=False, errors=["Too high FPS"])
+        assert cr_invalid.is_valid is False
+        assert cr_invalid.is_compliant is False
+
+    def test_register_drive_video_with_compliance(self, tmp_path, monkeypatch):
+        from studio.h3h_studio.core.compliance import ComplianceResult, ComplianceValidator
+        from studio.h3h_studio.core.github_publisher import GitHubPublisher
+
+        dummy_video = tmp_path / "01007EF00011E000.mp4"
+        dummy_video.write_bytes(b"dummy video content" * 100)
+
+        dummy_cat = tmp_path / "catalog.json"
+
+        mock_cr = ComplianceResult(
+            is_valid=True,
+            width=1280,
+            height=720,
+            fps=30.0,
+            duration_sec=15.0,
+            codec="h264",
+            has_audio=False
+        )
+        monkeypatch.setattr(ComplianceValidator, "validate", lambda p: mock_cr)
+        monkeypatch.setattr(GitHubPublisher, "compute_sha256", lambda p: "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855")
+
+        res = GoogleDriveHelper.register_drive_video(
+            catalog_path=dummy_cat,
+            video_path=dummy_video,
+            drive_url_or_id="1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs",
+            title_id="01007EF00011E000",
+            game_title="Zelda TOTK"
+        )
+        assert res["success"] is True
+        assert res["titleId"] == "01007EF00011E000"
+        assert dummy_cat.exists()
+
+

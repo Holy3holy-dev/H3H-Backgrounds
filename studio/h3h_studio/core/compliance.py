@@ -22,6 +22,10 @@ class ComplianceResult:
     duration_sec: float = 0.0
     has_audio: bool = False
 
+    @property
+    def is_compliant(self) -> bool:
+        return self.is_valid
+
 
 class ComplianceValidator:
     """Validates MP4 files against 4IFIR Tegra X1 hardware decoder capabilities."""

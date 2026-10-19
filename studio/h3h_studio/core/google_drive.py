@@ -198,7 +198,7 @@ class GoogleDriveHelper:
             progress_cb("Проверка соответствия стандартам 4IFIR...")
 
         comp = ComplianceValidator.validate(vpath)
-        if not comp.is_compliant:
+        if not comp.is_valid:
             err_details = "; ".join(comp.errors)
             raise ValueError(f"Видео не соответствует требованиям 4IFIR: {err_details}")
 
