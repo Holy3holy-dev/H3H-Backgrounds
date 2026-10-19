@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T06:17:53.059920+00:00",
-  "totalGames": 18,
-  "totalVariants": 18,
+  "updatedAt": "2026-10-19T06:20:34.158363+00:00",
+  "totalGames": 19,
+  "totalVariants": 19,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -468,6 +468,32 @@
           "height": 1080,
           "fps": 30.0,
           "hasAudio": false,
+          "notes": "Batch published: 1920x1080 @30fps"
+        }
+      ]
+    },
+    {
+      "titleId": "01004AB00A260000",
+      "title": "Switch Title (01004AB00A260800)",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004AB00A260000.jpg",
+      "variants": [
+        {
+          "id": "default",
+          "name": "Default",
+          "style": "Gameplay",
+          "version": "1.0",
+          "url": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.0.0/01004AB00A260000_default.mp4",
+          "previewUrl": "",
+          "sizeBytes": 13307180,
+          "sha256": "efe2a65db7be3c97c7929b777c7b28afd50914edb6930d61fc778f0cd8a2ef73",
+          "durationSec": 60.06,
+          "author": "Holy3holy-dev",
+          "codec": "hevc",
+          "width": 1920,
+          "height": 1080,
+          "fps": 30.0,
+          "hasAudio": true,
           "notes": "Batch published: 1920x1080 @30fps"
         }
       ]
