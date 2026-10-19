@@ -1,7 +1,476 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T05:56:00Z",
-  "totalGames": 0,
-  "totalVariants": 0,
-  "games": []
+  "updatedAt": "2026-10-19T06:17:53.059920+00:00",
+  "totalGames": 18,
+  "totalVariants": 18,
+  "games": [
+    {
+      "titleId": "0100000000010000",
+      "title": "Super Mario Odyssey [NSP][RUS/Multi9]",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100000000010000.jpg",
+      "variants": [
+        {
+          "id": "default",
+          "name": "Default",
+          "style": "Gameplay",
+          "version": "1.0",
+          "url": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.0.0/0100000000010000_default.mp4",
+          "previewUrl": "",
+          "sizeBytes": 16431618,
+          "sha256": "91258e48f4ac47553eb2b673b9fbccdf6a8f240b6755713183bf6c91a5385f1a",
+          "durationSec": 60.06,
+          "author": "Holy3holy-dev",
+          "codec": "hevc",
+          "width": 1920,
+          "height": 1080,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Batch published: 1920x1080 @30fps"
+        }
+      ]
+    },
+    {
+      "titleId": "0100152000022000",
+      "title": "Mario Kart 8 CTGP Deluxe Mod [NSZ+MSP][RUS/Multi11]",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100152000022000.jpg",
+      "variants": [
+        {
+          "id": "default",
+          "name": "Default",
+          "style": "Gameplay",
+          "version": "1.0",
+          "url": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.0.0/0100152000022000_default.mp4",
+          "previewUrl": "",
+          "sizeBytes": 20385665,
+          "sha256": "1fe1faa6220797c4b841747391045558d45b554e9460e6d9e4112923b9f6a50c",
+          "durationSec": 60.06,
+          "author": "Holy3holy-dev",
+          "codec": "hevc",
+          "width": 1920,
+          "height": 1080,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Batch published: 1920x1080 @30fps"
+        }
+      ]
+    },
+    {
+      "titleId": "01001AE005166000",
+      "title": "Worms WMD [NSZ][RUS/Multi6]",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001AE005166000.jpg",
+      "variants": [
+        {
+          "id": "default",
+          "name": "Default",
+          "style": "Gameplay",
+          "version": "1.0",
+          "url": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.0.0/01001AE005166000_default.mp4",
+          "previewUrl": "",
+          "sizeBytes": 20983084,
+          "sha256": "707130b7964fc2357679ec930862f2d817f77452c681fe0ac19723ecff7a79b6",
+          "durationSec": 82.92,
+          "author": "Holy3holy-dev",
+          "codec": "hevc",
+          "width": 1920,
+          "height": 1080,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Batch published: 1920x1080 @30fps"
+        }
+      ]
+    },
+    {
+      "titleId": "01003DC0144B6000",
+      "title": "Outer Wilds Archaeologist edition + DLC Echoes of the Eye [NSZ][RUS/Multi10]",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003DC0144B6000.jpg",
+      "variants": [
+        {
+          "id": "default",
+          "name": "Default",
+          "style": "Gameplay",
+          "version": "1.0",
+          "url": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.0.0/01003DC0144B6000_default.mp4",
+          "previewUrl": "",
+          "sizeBytes": 11154896,
+          "sha256": "addb810dbf2cb0d89811ddcc32c0c030fd3922e1831692e0c6d1f8a7ba9b5b33",
+          "durationSec": 60.06,
+          "author": "Holy3holy-dev",
+          "codec": "hevc",
+          "width": 1920,
+          "height": 1080,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Batch published: 1920x1080 @30fps"
+        }
+      ]
+    },
+    {
+      "titleId": "01004200189F4000",
+      "title": "Factorio [NSP][RUS/Multi11]",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004200189F4000.jpg",
+      "variants": [
+        {
+          "id": "default",
+          "name": "Default",
+          "style": "Gameplay",
+          "version": "1.0",
+          "url": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.0.0/01004200189F4000_default.mp4",
+          "previewUrl": "",
+          "sizeBytes": 18027960,
+          "sha256": "b4927815690648b4bbc06a1e213bcc69198613782e4e8b68eb89d70e70bf8dfd",
+          "durationSec": 59.99,
+          "author": "Holy3holy-dev",
+          "codec": "hevc",
+          "width": 1920,
+          "height": 1080,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Batch published: 1920x1080 @30fps"
+        }
+      ]
+    },
+    {
+      "titleId": "01004AB00A260800",
+      "title": "Switch Title (01004AB00A260800)",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004AB00A260800.jpg",
+      "variants": [
+        {
+          "id": "default",
+          "name": "Default",
+          "style": "Gameplay",
+          "version": "1.0",
+          "url": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.0.0/01004AB00A260800_default.mp4",
+          "previewUrl": "",
+          "sizeBytes": 13307180,
+          "sha256": "efe2a65db7be3c97c7929b777c7b28afd50914edb6930d61fc778f0cd8a2ef73",
+          "durationSec": 60.06,
+          "author": "Holy3holy-dev",
+          "codec": "hevc",
+          "width": 1920,
+          "height": 1080,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Batch published: 1920x1080 @30fps"
+        }
+      ]
+    },
+    {
+      "titleId": "010051F0207B2000",
+      "title": "Switch Title (010051F0207B2000)",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010051F0207B2000.jpg",
+      "variants": [
+        {
+          "id": "default",
+          "name": "Default",
+          "style": "Gameplay",
+          "version": "1.0",
+          "url": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.0.0/010051F0207B2000_default.mp4",
+          "previewUrl": "",
+          "sizeBytes": 4643107,
+          "sha256": "7b6aaeefe66072eae043e00eaf6057b0deb43157f17ea90ef6cb37eb21e628fa",
+          "durationSec": 60.06,
+          "author": "Holy3holy-dev",
+          "codec": "hevc",
+          "width": 1920,
+          "height": 1080,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Batch published: 1920x1080 @30fps"
+        }
+      ]
+    },
+    {
+      "titleId": "01005CA01580E000",
+      "title": "Persona 5 Royal (P5R) [NSZ][ENG]",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005CA01580E000.jpg",
+      "variants": [
+        {
+          "id": "default",
+          "name": "Default",
+          "style": "Gameplay",
+          "version": "1.0",
+          "url": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.0.0/01005CA01580E000_default.mp4",
+          "previewUrl": "",
+          "sizeBytes": 6601553,
+          "sha256": "015e2d7c52156931986e7e6771efa762d1811db8f497e86a68197f1465a463ef",
+          "durationSec": 60.16,
+          "author": "Holy3holy-dev",
+          "codec": "hevc",
+          "width": 1920,
+          "height": 1080,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Batch published: 1920x1080 @30fps"
+        }
+      ]
+    },
+    {
+      "titleId": "01006A800016E000",
+      "title": "Super Smash Bros Ultimate (SSBU) + 99 DLC [NSZ][RUS/Multi10]",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006A800016E000.jpg",
+      "variants": [
+        {
+          "id": "default",
+          "name": "Default",
+          "style": "Gameplay",
+          "version": "1.0",
+          "url": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.0.0/01006A800016E000_default.mp4",
+          "previewUrl": "",
+          "sizeBytes": 20562026,
+          "sha256": "2f039bb5a5e62af510890bc97c5bae12e940b1ab3baa932bad51c095ddb24247",
+          "durationSec": 60.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 60.0,
+          "hasAudio": true,
+          "notes": "Batch published: 1280x720 @60fps"
+        }
+      ]
+    },
+    {
+      "titleId": "01006BD001E06000",
+      "title": "Minecraft Nintendo Switch edition + 38 DLC [NSP][RUS/Multi9]",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006BD001E06000.jpg",
+      "variants": [
+        {
+          "id": "default",
+          "name": "Default",
+          "style": "Gameplay",
+          "version": "1.0",
+          "url": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.0.0/01006BD001E06000_default.mp4",
+          "previewUrl": "",
+          "sizeBytes": 7366354,
+          "sha256": "52d97cb82aedc0ae63ebbaee209990cf271c1cd3df75525ba4ed38cda88b3119",
+          "durationSec": 30.0,
+          "author": "Holy3holy-dev",
+          "codec": "hevc",
+          "width": 1920,
+          "height": 1080,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Batch published: 1920x1080 @30fps"
+        }
+      ]
+    },
+    {
+      "titleId": "01006F8002326000",
+      "title": "Animal Crossing: New Horizons + DLC Happy Home Paradise [NSP][RUS/Multi10]",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006F8002326000.jpg",
+      "variants": [
+        {
+          "id": "default",
+          "name": "Default",
+          "style": "Gameplay",
+          "version": "1.0",
+          "url": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.0.0/01006F8002326000_default.mp4",
+          "previewUrl": "",
+          "sizeBytes": 10603109,
+          "sha256": "4e9f9a907bf08d28687dc9703c8870c5aebadbd08edb5036c22d145b9fd3d5b6",
+          "durationSec": 60.06,
+          "author": "Holy3holy-dev",
+          "codec": "hevc",
+          "width": 1920,
+          "height": 1080,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Batch published: 1920x1080 @30fps"
+        }
+      ]
+    },
+    {
+      "titleId": "0100750001C70000",
+      "title": "Duck Game [NSP][ENG]",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100750001C70000.jpg",
+      "variants": [
+        {
+          "id": "default",
+          "name": "Default",
+          "style": "Gameplay",
+          "version": "1.0",
+          "url": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.0.0/0100750001C70000_default.mp4",
+          "previewUrl": "",
+          "sizeBytes": 16092486,
+          "sha256": "78a8871c24a62d6154850810a700c3e45a368117008d90aec9cf37bd304cb952",
+          "durationSec": 60.06,
+          "author": "Holy3holy-dev",
+          "codec": "hevc",
+          "width": 1920,
+          "height": 1080,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Batch published: 1920x1080 @30fps"
+        }
+      ]
+    },
+    {
+      "titleId": "01007EF00011E000",
+      "title": "The Legend of Zelda: Breath of the Wild + The Master Trials & The Champions Ballad [NSP][RUS/Multi10]",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007EF00011E000.jpg",
+      "variants": [
+        {
+          "id": "default",
+          "name": "Default",
+          "style": "Gameplay",
+          "version": "1.0",
+          "url": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.0.0/01007EF00011E000_default.mp4",
+          "previewUrl": "",
+          "sizeBytes": 19866158,
+          "sha256": "9633b288744741e1165253146d17af82e921e479cf6a90885c17492803daccc8",
+          "durationSec": 60.06,
+          "author": "Holy3holy-dev",
+          "codec": "hevc",
+          "width": 1920,
+          "height": 1080,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Batch published: 1920x1080 @30fps"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EA6014BB8000",
+      "title": "Just Dance JD Legacy Mod (1400+ песен Decades of Hits, Unlimited, Now, 2026 и др.) [NSP][ENG]",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EA6014BB8000.jpg",
+      "variants": [
+        {
+          "id": "default",
+          "name": "Default",
+          "style": "Gameplay",
+          "version": "1.0",
+          "url": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.0.0/0100EA6014BB8000_default.mp4",
+          "previewUrl": "",
+          "sizeBytes": 16642481,
+          "sha256": "f557ed32c72dda873e4fae53856e4e2f31d7f386b619da74006fc8ca8e1c759c",
+          "durationSec": 60.06,
+          "author": "Holy3holy-dev",
+          "codec": "hevc",
+          "width": 1920,
+          "height": 1080,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Batch published: 1920x1080 @30fps"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F2C0115B6000",
+      "title": "The Legend of Zelda: Tears of the Kingdom [NSP][RUS/Multi10]",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F2C0115B6000.jpg",
+      "variants": [
+        {
+          "id": "default",
+          "name": "Default",
+          "style": "Gameplay",
+          "version": "1.0",
+          "url": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.0.0/0100F2C0115B6000_default.mp4",
+          "previewUrl": "",
+          "sizeBytes": 16179030,
+          "sha256": "e27f1937ccfd322809378ec35ba43cd027144227fd9e412584e98ff84e396575",
+          "durationSec": 60.06,
+          "author": "Holy3holy-dev",
+          "codec": "hevc",
+          "width": 1920,
+          "height": 1080,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Batch published: 1920x1080 @30fps"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FD8022DAA000",
+      "title": "Switch Title (0100FD8022DAA000)",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FD8022DAA000.jpg",
+      "variants": [
+        {
+          "id": "default",
+          "name": "Default",
+          "style": "Gameplay",
+          "version": "1.0",
+          "url": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.0.0/0100FD8022DAA000_default.mp4",
+          "previewUrl": "",
+          "sizeBytes": 10209315,
+          "sha256": "226cdcb09f1779b35f2d5eb3d6f77d2e12acf956ff168878db3a94b3ebb74f94",
+          "durationSec": 38.77,
+          "author": "Holy3holy-dev",
+          "codec": "hevc",
+          "width": 1920,
+          "height": 1080,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Batch published: 1920x1080 @30fps"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CD801CE5E000",
+      "title": "Balatro [NSZ][RUS (Mod.)/ENG]",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CD801CE5E000.jpg",
+      "variants": [
+        {
+          "id": "default",
+          "name": "Default",
+          "style": "Gameplay",
+          "version": "1.0",
+          "url": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.0.0/0100CD801CE5E000_default.mp4",
+          "previewUrl": "",
+          "sizeBytes": 9215831,
+          "sha256": "2e9b4cd3cfc9cc83dacb9e650986653021f1d2f921082a8e56f2260485eca814",
+          "durationSec": 60.0,
+          "author": "Holy3holy-dev",
+          "codec": "hevc",
+          "width": 1280,
+          "height": 720,
+          "fps": 60.0,
+          "hasAudio": true,
+          "notes": "Batch published: 1280x720 @60fps"
+        }
+      ]
+    },
+    {
+      "titleId": "03DB117EE17B6000",
+      "title": "Switch Title (03DB117EE17B6000)",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/03DB117EE17B6000.jpg",
+      "variants": [
+        {
+          "id": "default",
+          "name": "Default",
+          "style": "Gameplay",
+          "version": "1.0",
+          "url": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.0.0/03DB117EE17B6000_default.mp4",
+          "previewUrl": "",
+          "sizeBytes": 5316848,
+          "sha256": "91b1c086bd1b0ca7e59f11123cf02e55368962eeafbee5eab611474c97284bc5",
+          "durationSec": 30.0,
+          "author": "Holy3holy-dev",
+          "codec": "hevc",
+          "width": 1920,
+          "height": 1080,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Batch published: 1920x1080 @30fps"
+        }
+      ]
+    }
+  ]
 }
