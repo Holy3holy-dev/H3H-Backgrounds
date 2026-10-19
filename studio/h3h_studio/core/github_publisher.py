@@ -743,20 +743,21 @@ class GitHubPublisher:
         return {"schemaVersion": 1, "games": []}
 
     @classmethod
-    def delete_published_variant(
+    def delete_published_variants(
         cls,
-        title_id: str,
-        variant_id: str,
+        items: List[Dict[str, str]],
         token: str,
         repo: str = DEFAULT_REPO,
         release_tag: str = DEFAULT_TAG,
-        progress_cb: Optional[callable] = None
-    ) -> bool:
+        progress_cb: Optional[callable] = None,
+        local_catalog_path: Optional[Path] = None
+    ) -> int:
         """
-        Deletes a video background asset from GitHub Releases and removes its entry from catalog.json.
+        Deletes multiple video background assets from GitHub Releases and removes
+        their entries from catalog.json in a single atomic commit.
         """
-        clean_tid = title_id.strip().upper()
-        clean_vid = variant_id.strip()
+        if not items:
+            return 0
 
         headers = {
             "Authorization": f"Bearer {token}",
@@ -764,58 +765,71 @@ class GitHubPublisher:
             "User-Agent": "H3H-Background-Studio"
         }
 
-        if progress_cb:
-            progress_cb("Поиск ассета в релизе GitHub...")
-
-        # 1. Look up release and delete asset
+        # 1. Fetch release assets once
+        rel_assets = []
         try:
             rel_url = f"https://api.github.com/repos/{repo}/releases/tags/{release_tag}"
             req = urllib.request.Request(rel_url, headers=headers)
             with urllib.request.urlopen(req, timeout=15) as resp:
                 rel_data = json.loads(resp.read().decode("utf-8"))
+                rel_assets = rel_data.get("assets", [])
+        except Exception as e:
+            print(f"[-] Release fetch warning during batch delete: {e}")
+
+        # Delete matched assets from GitHub Release
+        deleted_assets_count = 0
+        total_items = len(items)
+
+        for idx, it in enumerate(items, 1):
+            clean_tid = it.get("titleId", "").strip().upper()
+            clean_vid = it.get("variantId", "").strip()
+            if not clean_tid or not clean_vid:
+                continue
 
             target_asset_names = [
                 f"{clean_tid}_{clean_vid}.mp4",
                 f"{clean_tid}.mp4"
             ]
-            for asset in rel_data.get("assets", []):
+            for asset in rel_assets:
                 aname = asset.get("name", "")
                 if aname in target_asset_names or (clean_tid in aname and clean_vid in aname):
                     if progress_cb:
-                        progress_cb(f"Удаление ассета {aname} из GitHub Releases...")
+                        progress_cb(f"[{idx}/{total_items}] Удаление {aname} из GitHub Releases...")
                     del_req = urllib.request.Request(asset["url"], headers=headers, method="DELETE")
                     try:
                         with urllib.request.urlopen(del_req, timeout=15):
-                            pass
+                            deleted_assets_count += 1
                     except Exception:
                         pass
                     break
-        except Exception as e:
-            print(f"[-] Asset deletion warning: {e}")
 
         # 2. Update catalog.json
         if progress_cb:
             progress_cb("Обновление каталога catalog.json...")
 
         cat_data = cls.fetch_catalog(token, repo)
+        items_to_remove = {(it.get("titleId", "").strip().upper(), it.get("variantId", "").strip()) for it in items}
+
         updated_games = []
-        removed = False
+        removed_variants_count = 0
 
         for g in cat_data.get("games", []):
-            if g.get("titleId", "").upper() == clean_tid:
-                new_variants = [v for v in g.get("variants", []) if v.get("id") != clean_vid]
-                if len(new_variants) != len(g.get("variants", [])):
-                    removed = True
-                if new_variants:
-                    g["variants"] = new_variants
-                    updated_games.append(g)
-            else:
+            g_tid = g.get("titleId", "").strip().upper()
+            keep_variants = []
+            for v in g.get("variants", []):
+                v_id = v.get("id", "").strip()
+                if (g_tid, v_id) in items_to_remove:
+                    removed_variants_count += 1
+                else:
+                    keep_variants.append(v)
+            if keep_variants:
+                g["variants"] = keep_variants
                 updated_games.append(g)
 
-        if not removed:
+        if removed_variants_count == 0:
             if progress_cb:
-                progress_cb("Вариант не найден в каталоге.")
-            return False
+                progress_cb("Выбранные варианты не найдены в каталоге.")
+            return 0
 
         cat_data["games"] = updated_games
         cat_data["updatedAt"] = datetime.now(timezone.utc).isoformat()
@@ -823,17 +837,17 @@ class GitHubPublisher:
         cat_data["totalVariants"] = sum(len(g.get("variants", [])) for g in updated_games)
 
         # Save local catalog
-        catalog_path = Path(__file__).parent.parent.parent.parent / "catalog" / "data" / "catalog.json"
+        target_path = local_catalog_path or (Path(__file__).parent.parent.parent.parent / "catalog" / "data" / "catalog.json")
         try:
-            catalog_path.parent.mkdir(parents=True, exist_ok=True)
-            with open(catalog_path, "w", encoding="utf-8") as cf:
+            target_path.parent.mkdir(parents=True, exist_ok=True)
+            with open(target_path, "w", encoding="utf-8") as cf:
                 json.dump(cat_data, cf, ensure_ascii=False, indent=2)
         except Exception:
             pass
 
-        # Commit to GitHub
+        # 3. Commit to GitHub in single atomic transaction
         if progress_cb:
-            progress_cb("Фиксация изменений catalog.json в GitHub...")
+            progress_cb(f"Фиксация удаления {removed_variants_count} видеофонов в GitHub...")
 
         try:
             content_url = f"https://api.github.com/repos/{repo}/contents/catalog/data/catalog.json"
@@ -850,7 +864,7 @@ class GitHubPublisher:
             b64_content = base64.b64encode(raw_cat_bytes).decode("ascii")
 
             put_payload = {
-                "message": f"feat(catalog): delete background {clean_tid} ({clean_vid})",
+                "message": f"feat(catalog): batch delete {removed_variants_count} background(s)",
                 "content": b64_content
             }
             if file_sha:
@@ -865,8 +879,31 @@ class GitHubPublisher:
             with urllib.request.urlopen(put_req, timeout=15):
                 pass
         except Exception as e:
-            print(f"[-] Warning: Failed to commit deleted catalog item to GitHub: {e}")
+            print(f"[-] Warning: Failed to commit deleted catalog items to GitHub: {e}")
 
         if progress_cb:
-            progress_cb("Удаление успешно завершено!")
-        return True
+            progress_cb(f"Удаление {removed_variants_count} видеофонов успешно завершено!")
+
+        return removed_variants_count
+
+    @classmethod
+    def delete_published_variant(
+        cls,
+        title_id: str,
+        variant_id: str,
+        token: str,
+        repo: str = DEFAULT_REPO,
+        release_tag: str = DEFAULT_TAG,
+        progress_cb: Optional[callable] = None
+    ) -> bool:
+        """
+        Deletes a single video background asset from GitHub Releases and removes its entry from catalog.json.
+        """
+        count = cls.delete_published_variants(
+            items=[{"titleId": title_id, "variantId": variant_id}],
+            token=token,
+            repo=repo,
+            release_tag=release_tag,
+            progress_cb=progress_cb
+        )
+        return count > 0
