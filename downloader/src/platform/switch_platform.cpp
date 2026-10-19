@@ -33,6 +33,9 @@ public:
         rc = nifmInitialize(NifmServiceType_User);
         (void)rc;
 
+        rc = socketInitializeDefault();
+        (void)rc;
+
         rc = plInitialize(PlServiceType_User);
         (void)rc;
 
@@ -49,6 +52,7 @@ public:
         romfsExit();
         plExit();
         curl_global_cleanup();
+        socketExit();
         nifmExit();
         psmExit();
         nsExit();
@@ -217,8 +221,8 @@ public:
         std::string responseBuffer;
 
         curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
-        curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 1L);
-        curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 2L);
+        curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);
+        curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);
         curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
         curl_easy_setopt(curl, CURLOPT_TIMEOUT, 15L);
         curl_easy_setopt(curl, CURLOPT_USERAGENT, "H3H-Backgrounds-Downloader/1.0 (Nintendo Switch)");
@@ -297,8 +301,8 @@ public:
 
         curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
         curl_easy_setopt(curl, CURLOPT_WRITEDATA, fp);
-        curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 1L);
-        curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 2L);
+        curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);
+        curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);
         curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
         curl_easy_setopt(curl, CURLOPT_USERAGENT, "H3H-Backgrounds-Downloader/1.0 (Nintendo Switch)");
         curl_easy_setopt(curl, CURLOPT_XFERINFOFUNCTION, xferCallback);
