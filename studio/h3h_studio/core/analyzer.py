@@ -138,14 +138,14 @@ class VideoAnalyzer:
     def _evaluate_compliance(cls, a: VideoAnalysis):
         compliant = True
 
-        # 1. Codec check (H.264 is standard for 4IFIR)
-        if a.codec != "h264":
+        # 1. Codec check (H.264 and HEVC are supported by Tegra X1 on 4IFIR)
+        if a.codec not in ("h264", "hevc", "h265"):
             compliant = False
-            a.issues.append(f"Non-compliant codec: '{a.codec}'. 4IFIR requires H.264 (AVC) for low CPU usage.")
-            a.recommendations.append("Transcode to H.264 (AVC).")
+            a.issues.append(f"Non-compliant codec: '{a.codec}'. 4IFIR requires H.264 or HEVC.")
+            a.recommendations.append("Transcode to H.264 (AVC) or HEVC.")
 
         # 2. Pixel format check
-        if a.pixel_format != "yuv420p":
+        if a.pixel_format not in ("yuv420p", "yuvj420p"):
             compliant = False
             a.issues.append(
                 f"Incompatible pixel format: '{a.pixel_format}'. 10-bit or non-4:2:0 chroma causes hardware decode dropouts on Tegra X1."
@@ -156,7 +156,7 @@ class VideoAnalyzer:
         if a.width > 1920 or a.height > 1080:
             compliant = False
             a.issues.append(f"Excessive resolution: {a.width}x{a.height}. Exceeds 1080p maximum limit.")
-            a.recommendations.append("Downscale to 1280x720 (optimal for handheld display).")
+            a.recommendations.append("Downscale to 1280x720 or 1920x1080.")
         elif a.width > 1280 or a.height > 720:
             a.recommendations.append("Consider 1280x720 downscale to conserve ~60% video RAM bandwidth.")
 
@@ -166,9 +166,8 @@ class VideoAnalyzer:
             a.issues.append(f"Container '{a.container}' is not MP4.")
             a.recommendations.append("Remux or transcode into standard .mp4 container.")
 
-        # 5. Faststart check
+        # 5. Faststart recommendation
         if not a.is_faststart:
-            a.issues.append("File lacks faststart flag (moov atom at end of file).")
             a.recommendations.append("Enable +faststart flag for instant menu playback.")
 
         # 6. Framerate check

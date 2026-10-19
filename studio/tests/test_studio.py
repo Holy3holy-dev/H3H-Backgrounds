@@ -44,11 +44,25 @@ class TestStudioCore(unittest.TestCase):
         self.assertFalse(a.is_compliant)
         self.assertTrue(any("pixel format" in issue.lower() for issue in a.issues))
 
-    def test_compliance_evaluation_reject_hevc(self):
+    def test_compliance_evaluation_accept_hevc(self):
         a = VideoAnalysis(
             file_path="sample_hevc.mp4",
             container="mp4",
             codec="hevc",
+            width=1920,
+            height=1080,
+            fps=30.0,
+            pixel_format="yuv420p",
+            is_faststart=True
+        )
+        VideoAnalyzer._evaluate_compliance(a)
+        self.assertTrue(a.is_compliant)
+
+    def test_compliance_evaluation_reject_unsupported_codec(self):
+        a = VideoAnalysis(
+            file_path="sample_vp9.mp4",
+            container="mp4",
+            codec="vp9",
             width=1280,
             height=720,
             fps=30.0,

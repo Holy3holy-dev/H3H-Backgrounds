@@ -24,7 +24,7 @@ from .ffmpeg_log_dialog import FFmpegLogDialog
 from .online_search_dialog import OnlineSearchDialog
 from .github_publish_dialog import GitHubPublishDialog
 
-TITLE_ID_PATTERN = re.compile(r"^0100[0-9A-Fa-f]{12}$")
+TITLE_ID_PATTERN = re.compile(r"^[0-9A-Fa-f]{16}$")
 
 
 class WorkerSignals(QObject):
@@ -516,7 +516,7 @@ class MainWindow(QMainWindow):
             self.tid_badge.setText("Ожидание ввода")
             self.tid_badge.setStyleSheet("color: #9AA4B2; font-size: 11px;")
         else:
-            self.tid_badge.setText("✗ Ошибка (16 hex, начинается с 0100)")
+            self.tid_badge.setText("✗ Ошибка (16 hex-символов)")
             self.tid_badge.setStyleSheet("color: #EF4444; font-weight: bold; font-size: 11px;")
 
     def _start_export(self):

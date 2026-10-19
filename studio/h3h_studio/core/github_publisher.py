@@ -109,8 +109,8 @@ class GitHubPublisher:
 
         # Validate Title ID
         clean_tid = title_id.strip().upper()
-        if not re.match(r"^0100[0-9A-F]{12}$", clean_tid):
-            raise ValueError(f"Invalid Title ID format '{clean_tid}'. Must be 16 hexadecimal chars starting with 0100.")
+        if not re.match(r"^[0-9A-Fa-f]{16}$", clean_tid):
+            raise ValueError(f"Invalid Title ID format '{clean_tid}'. Must be 16 hexadecimal characters.")
 
         if progress_cb:
             progress_cb("Проверка соответствия стандартам 4IFIR...")
@@ -332,12 +332,13 @@ class GitHubPublisher:
     @classmethod
     def scan_archive_or_folder(cls, source_path: Path, progress_cb: Optional[callable] = None) -> List[Dict[str, Any]]:
         """
-        Scans a .zip/.7z/.rar archive or directory for MP4 videos, extracts Title IDs from filenames,
-        and matches them against the 7,200+ Switch database.
+        Scans a .zip/.7z/.rar archive or directory for MP4 videos, extracts Title IDs from filenames
+        or subfolder paths, and matches them against the Switch database.
         """
         import zipfile
         import tempfile
         import shutil
+        import subprocess
         from .online_fetcher import OnlineFetcher
 
         source = Path(source_path)
@@ -349,50 +350,55 @@ class GitHubPublisher:
 
         if source.is_file():
             ext = source.suffix.lower()
-            extract_dir = Path(tempfile.gettempdir()) / f"h3h_batch_{source.stem}"
-            extract_dir.mkdir(parents=True, exist_ok=True)
+            extract_dir = Path(tempfile.mkdtemp(prefix=f"h3h_batch_{source.stem}_"))
             base_scan_dir = extract_dir
 
-            if ext == ".zip":
-                if progress_cb:
-                    progress_cb("Чтение структуры и подпапок ZIP-архива...")
-                with zipfile.ZipFile(source, "r") as zf:
-                    video_extensions = (".mp4", ".m4v", ".mov", ".mkv")
-                    all_members = [
-                        m for m in zf.infolist()
-                        if not m.is_dir()
-                        and not m.filename.startswith("__MACOSX")
-                        and not Path(m.filename).name.startswith("._")
-                    ]
-                    # Filter video files in any subfolder
-                    video_members = [
-                        m for m in all_members
-                        if m.filename.lower().endswith(video_extensions)
-                    ]
-                    target_members = video_members if video_members else all_members
-                    total_extract = len(target_members)
-
-                    for idx, member in enumerate(target_members):
-                        norm_rel = member.filename.replace("\\", "/").strip("/")
-                        dest_file = extract_dir / Path(norm_rel)
-                        dest_file.parent.mkdir(parents=True, exist_ok=True)
-
-                        if progress_cb:
-                            progress_cb(f"Извлечение [{idx+1}/{total_extract}]: {norm_rel}...")
-
-                        with zf.open(member) as src_f, open(dest_file, "wb") as dst_f:
-                            shutil.copyfileobj(src_f, dst_f)
-
-                search_dirs.append(extract_dir)
-            elif ext in [".7z", ".rar", ".tar", ".gz", ".bz2", ".xz"]:
+            extracted_successfully = False
+            tar_cmd = shutil.which("tar")
+            if tar_cmd:
                 if progress_cb:
                     progress_cb(f"Распаковка архива {source.name} со всеми подпапками...")
-                tar_cmd = shutil.which("tar")
-                if tar_cmd:
-                    subprocess.run([tar_cmd, "-xf", str(source), "-C", str(extract_dir)], capture_output=True)
-                search_dirs.append(extract_dir)
-            else:
-                return []
+                try:
+                    res = subprocess.run([tar_cmd, "-xf", str(source), "-C", str(extract_dir)], capture_output=True)
+                    if res.returncode == 0:
+                        extracted_successfully = True
+                except Exception as e:
+                    print(f"[-] tar extraction error: {e}")
+
+            if not extracted_successfully and ext == ".zip":
+                if progress_cb:
+                    progress_cb("Чтение структуры и подпапок ZIP-архива...")
+                try:
+                    with zipfile.ZipFile(source, "r") as zf:
+                        video_extensions = (".mp4", ".m4v", ".mov", ".mkv")
+                        all_members = [
+                            m for m in zf.infolist()
+                            if not m.is_dir()
+                            and not m.filename.startswith("__MACOSX")
+                            and not Path(m.filename).name.startswith("._")
+                        ]
+                        video_members = [
+                            m for m in all_members
+                            if m.filename.lower().endswith(video_extensions)
+                        ]
+                        target_members = video_members if video_members else all_members
+                        total_extract = len(target_members)
+
+                        for idx, member in enumerate(target_members):
+                            norm_rel = member.filename.replace("\\", "/").strip("/")
+                            dest_file = extract_dir / Path(norm_rel)
+                            dest_file.parent.mkdir(parents=True, exist_ok=True)
+
+                            if progress_cb:
+                                progress_cb(f"Извлечение [{idx+1}/{total_extract}]: {norm_rel}...")
+
+                            with zf.open(member) as src_f, open(dest_file, "wb") as dst_f:
+                                shutil.copyfileobj(src_f, dst_f)
+                    extracted_successfully = True
+                except Exception as ze:
+                    print(f"[-] zipfile fallback error: {ze}")
+
+            search_dirs.append(extract_dir)
         elif source.is_dir():
             search_dirs.append(source)
             base_scan_dir = source
@@ -400,48 +406,54 @@ class GitHubPublisher:
             return []
 
         if progress_cb:
-            progress_cb("Рекурсивный поиск видеофайлов во всех папках...")
+            progress_cb("Рекурсивный поиск видеофайлов во всех папках архива...")
 
-        mp4_files = []
+        video_extensions = {".mp4", ".m4v", ".mov", ".mkv"}
+        found_videos = []
         for d in search_dirs:
             for p in d.rglob("*"):
-                if p.is_file() and p.suffix.lower() == ".mp4" and not p.name.startswith("._"):
-                    mp4_files.append(p)
+                if p.is_file() and p.suffix.lower() in video_extensions and not p.name.startswith("._"):
+                    found_videos.append(p)
 
-        if not mp4_files:
+        if not found_videos:
             return []
 
         if progress_cb:
-            progress_cb(f"Найдено {len(mp4_files)} видеофайлов. Загрузка базы Switch...")
+            progress_cb(f"Найдено {len(found_videos)} видеофайлов. Загрузка базы Switch...")
 
         db = OnlineFetcher._load_db()
         db_by_tid = {item["titleId"].upper(): item for item in db if item.get("titleId")}
 
         results = []
-        total = len(mp4_files)
-        generic_names = {"video", "cover", "background", "loop", "main", "intro", "out", "output", "recording", "gameplay"}
+        total = len(found_videos)
+        generic_names = {"video", "cover", "background", "loop", "main", "intro", "out", "output", "recording", "recordings", "covers", "gameplay"}
 
-        for idx, vid in enumerate(sorted(mp4_files, key=lambda x: x.name)):
+        for idx, vid in enumerate(sorted(found_videos, key=lambda x: x.name)):
             fname = vid.name
             rel_str = str(vid.relative_to(base_scan_dir if base_scan_dir else vid.parent)).replace("\\", "/")
 
             if progress_cb:
                 progress_cb(f"Анализ видео [{idx+1}/{total}]: {rel_str}...")
 
-            # 1. Search Title ID in filename
-            m = re.search(r"0100[0-9A-Fa-f]{12}", fname)
-            # 2. If not found in filename, search in full relative path (folder names)
+            # 1. Search Title ID in filename (prefer 0100..., but accept any 16-hex chars)
+            m = re.search(r"\b(0100[0-9A-Fa-f]{12})\b", fname, re.IGNORECASE)
             if not m:
-                m = re.search(r"0100[0-9A-Fa-f]{12}", rel_str)
+                m = re.search(r"\b([0-9A-Fa-f]{16})\b", fname)
+            # 2. If not found in filename, search in relative path (folder names like recordings/covers/...)
+            if not m:
+                m = re.search(r"\b(0100[0-9A-Fa-f]{12})\b", rel_str, re.IGNORECASE)
+            if not m:
+                m = re.search(r"\b([0-9A-Fa-f]{16})\b", rel_str)
 
-            tid = m.group(0).upper() if m else ""
+            matched_id = m.group(1) if m else ""
+            tid = matched_id.upper() if matched_id else ""
 
             # Determine variant name
             base_no_ext = vid.stem
             variant_name = "Default"
             if tid:
-                if m.group(0) in fname:
-                    rem = base_no_ext.replace(m.group(0), "").strip(" _-[]()")
+                if matched_id in fname:
+                    rem = base_no_ext.replace(matched_id, "").strip(" _-[]()")
                     if rem and rem.lower() not in generic_names:
                         variant_name = rem.replace("_", " ").title()
                 else:

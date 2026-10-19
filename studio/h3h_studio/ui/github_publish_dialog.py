@@ -504,9 +504,9 @@ class GitHubPublishDialog(QDialog):
             self.file_edit.setText(f)
             # Try to infer Title ID from filename if empty
             fname = Path(f).name
-            m = re.search(r"0100[0-9A-Fa-f]{12}", fname)
+            m = re.search(r"\b(0100[0-9A-Fa-f]{12})\b", fname, re.IGNORECASE) or re.search(r"\b([0-9A-Fa-f]{16})\b", fname)
             if m and not self.tid_edit.text():
-                self.tid_edit.setText(m.group(0).upper())
+                self.tid_edit.setText(m.group(1).upper())
 
     def _browse_zip_archive(self):
         f, _ = QFileDialog.getOpenFileName(
@@ -625,8 +625,8 @@ class GitHubPublishDialog(QDialog):
             return
 
         tid = self.tid_edit.text().strip().upper()
-        if not tid or len(tid) != 16 or not tid.startswith("0100"):
-            QMessageBox.warning(self, "Ошибка", "Title ID должен состоять из 16 шестнадцатеричных символов и начинаться с 0100!")
+        if not tid or len(tid) != 16 or not re.match(r"^[0-9A-Fa-f]{16}$", tid):
+            QMessageBox.warning(self, "Ошибка", "Title ID должен состоять из 16 шестнадцатеричных символов!")
             return
 
         game = self.game_edit.text().strip()
