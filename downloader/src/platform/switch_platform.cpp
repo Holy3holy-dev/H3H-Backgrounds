@@ -33,6 +33,12 @@ public:
         rc = nifmInitialize(NifmServiceType_User);
         (void)rc;
 
+        rc = plInitialize(PlServiceType_User);
+        (void)rc;
+
+        rc = romfsInit();
+        (void)rc;
+
         curl_global_init(CURL_GLOBAL_DEFAULT);
         m_initialized = true;
         return true;
@@ -40,6 +46,8 @@ public:
 
     void shutdown() override {
         if (!m_initialized) return;
+        romfsExit();
+        plExit();
         curl_global_cleanup();
         nifmExit();
         psmExit();

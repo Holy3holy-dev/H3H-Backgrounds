@@ -5,6 +5,10 @@
 #include <sstream>
 #include <cmath>
 
+#ifdef __SWITCH__
+#include <switch.h>
+#endif
+
 #ifdef HAS_SDL2
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_ttf.h>
@@ -48,6 +52,18 @@ bool App::init() {
         std::cerr << "[-] TTF_Init failed: " << TTF_GetError() << std::endl;
     }
 
+#ifdef __SWITCH__
+    PlFontData fontData;
+    Result rc = plGetSharedFontByType(&fontData, PlSharedFontType_Standard);
+    if (R_SUCCEEDED(rc) && fontData.address && fontData.size > 0) {
+        m_fontMemBuffer = fontData.address;
+        m_fontMemSize = fontData.size;
+        std::cout << "[+] Loaded Switch Horizon shared font (" << fontData.size << " bytes)" << std::endl;
+    } else {
+        std::cerr << "[-] plGetSharedFontByType returned 0x" << std::hex << rc << std::endl;
+    }
+#endif
+
     m_window = SDL_CreateWindow(
         "H3H Backgrounds",
         SDL_WINDOWPOS_CENTERED,
@@ -87,6 +103,13 @@ bool App::init() {
 
 void App::shutdown() {
 #ifdef HAS_SDL2
+    for (auto& pair : m_fonts) {
+        if (pair.second) {
+            TTF_CloseFont(pair.second);
+        }
+    }
+    m_fonts.clear();
+
     if (m_renderer) {
         SDL_DestroyRenderer(m_renderer);
         m_renderer = nullptr;
@@ -627,12 +650,89 @@ void App::drawRectOutline(int x, int y, int w, int h, Color color, int thickness
 #endif
 }
 
+TTF_Font* App::getFont(int sizePx) {
+#ifdef HAS_SDL2
+    auto it = m_fonts.find(sizePx);
+    if (it != m_fonts.end()) {
+        return it->second;
+    }
+
+#ifdef __SWITCH__
+    if (m_fontMemBuffer && m_fontMemSize > 0) {
+        SDL_RWops* rw = SDL_RWFromMem(const_cast<void*>(m_fontMemBuffer), static_cast<int>(m_fontMemSize));
+        if (rw) {
+            TTF_Font* font = TTF_OpenFontRW(rw, 1, sizePx);
+            if (font) {
+                m_fonts[sizePx] = font;
+                return font;
+            }
+        }
+    }
+#endif
+
+    const char* fontCandidates[] = {
+        "romfs:/font.ttf",
+        "sdmc:/switch/H3H-Backgrounds/font.ttf",
+        "sdmc:/switch/font.ttf",
+        "C:/Windows/Fonts/segoeui.ttf",
+        "C:/Windows/Fonts/arial.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
+    };
+
+    for (const char* path : fontCandidates) {
+        TTF_Font* font = TTF_OpenFont(path, sizePx);
+        if (font) {
+            m_fonts[sizePx] = font;
+            return font;
+        }
+    }
+#endif
+    (void)sizePx;
+    return nullptr;
+}
+
 void App::drawText(const std::string& text, int x, int y, Color color, int sizePx) {
 #ifdef HAS_SDL2
-    // Placeholder rendering or TTF rendering when TTF font loaded
-    (void)text; (void)x; (void)y; (void)color; (void)sizePx;
+    if (text.empty() || !m_renderer) return;
+
+    TTF_Font* font = getFont(sizePx);
+    if (font) {
+        SDL_Color sdlColor = {color.r, color.g, color.b, color.a};
+        SDL_Surface* surf = TTF_RenderUTF8_Blended(font, text.c_str(), sdlColor);
+        if (surf) {
+            SDL_Texture* tex = SDL_CreateTextureFromSurface(m_renderer, surf);
+            if (tex) {
+                SDL_Rect dstRect = {x, y, surf->w, surf->h};
+                SDL_RenderCopy(m_renderer, tex, nullptr, &dstRect);
+                SDL_DestroyTexture(tex);
+            }
+            SDL_FreeSurface(surf);
+            return;
+        }
+    }
+
+    drawBitmapTextFallback(text, x, y, color);
 #else
     (void)text; (void)x; (void)y; (void)color; (void)sizePx;
+#endif
+}
+
+void App::drawBitmapTextFallback(const std::string& text, int x, int y, Color color) {
+#ifdef HAS_SDL2
+    if (!m_renderer) return;
+    SDL_SetRenderDrawColor(m_renderer, color.r, color.g, color.b, color.a);
+    int curX = x;
+    for (char c : text) {
+        if (c >= 32 && c <= 126) {
+            SDL_Rect r{curX, y + 2, 7, 12};
+            SDL_RenderDrawRect(m_renderer, &r);
+            curX += 9;
+        } else {
+            curX += 5;
+        }
+    }
+#else
+    (void)text; (void)x; (void)y; (void)color;
 #endif
 }
 

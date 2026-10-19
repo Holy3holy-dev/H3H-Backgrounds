@@ -11,6 +11,7 @@
 #include <vector>
 #include <string>
 #include <atomic>
+#include <map>
 
 struct SDL_Window;
 struct SDL_Renderer;
@@ -70,6 +71,8 @@ public:
     void drawRect(int x, int y, int w, int h, Color color);
     void drawRectOutline(int x, int y, int w, int h, Color color, int thickness = 2);
     void drawText(const std::string& text, int x, int y, Color color, int sizePx = 16);
+    void drawBitmapTextFallback(const std::string& text, int x, int y, Color color);
+    TTF_Font* getFont(int sizePx);
 
 private:
     std::unique_ptr<IPlatform> m_platform;
@@ -78,8 +81,9 @@ private:
     // Window and Renderer
     SDL_Window* m_window{nullptr};
     SDL_Renderer* m_renderer{nullptr};
-    TTF_Font* m_fontRegular{nullptr};
-    TTF_Font* m_fontBold{nullptr};
+    std::map<int, TTF_Font*> m_fonts;
+    const void* m_fontMemBuffer{nullptr};
+    size_t m_fontMemSize{0};
 
     // State
     bool m_running{true};

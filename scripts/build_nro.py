@@ -148,12 +148,16 @@ def build():
     # Convert ELF to NRO
     target_nro = os.path.join(SRC_DIR, "H3H-Backgrounds.nro")
     print(f"[*] Packaging to {target_nro}...")
+    romfs_dir = os.path.join(SRC_DIR, "romfs")
     nro_cmd = [
         ELF2NRO,
         elf_path,
         target_nro,
         f"--nacp={nacp_path}"
     ]
+    if os.path.exists(romfs_dir):
+        nro_cmd.append(f"--romfsdir={romfs_dir}")
+
     res = subprocess.run(nro_cmd, env=env, capture_output=True, text=True)
     if res.returncode != 0:
         print("elf2nro error:")
