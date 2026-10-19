@@ -140,6 +140,26 @@ class DeleteWorkerThread(QThread):
             self.finished.emit(False, str(e))
 
 
+class BatchScanWorkerThread(QThread):
+    progress_status = Signal(str)
+    finished = Signal(list)
+
+    def __init__(self, source_path: Path):
+        super().__init__()
+        self.source_path = source_path
+
+    def run(self):
+        try:
+            items = GitHubPublisher.scan_archive_or_folder(
+                self.source_path,
+                progress_cb=self.progress_status.emit
+            )
+            self.finished.emit(items)
+        except Exception as e:
+            print(f"[-] Scan worker error: {e}")
+            self.finished.emit([])
+
+
 class GitHubPublishDialog(QDialog):
     def __init__(
         self,
@@ -234,6 +254,7 @@ class GitHubPublishDialog(QDialog):
         self._worker: Optional[PublishWorkerThread] = None
         self._batch_worker: Optional[BatchPublishWorkerThread] = None
         self._delete_worker: Optional[DeleteWorkerThread] = None
+        self._scan_worker: Optional[BatchScanWorkerThread] = None
         self.scanned_items: List[Dict[str, Any]] = []
         self.catalog_items: List[Dict[str, Any]] = []
 
@@ -488,7 +509,10 @@ class GitHubPublishDialog(QDialog):
                 self.tid_edit.setText(m.group(0).upper())
 
     def _browse_zip_archive(self):
-        f, _ = QFileDialog.getOpenFileName(self, "Выберите ZIP-архив с видеофонами", "", "ZIP Archives (*.zip)")
+        f, _ = QFileDialog.getOpenFileName(
+            self, "Выберите архив с видеофонами", "",
+            "Архивы (*.zip *.7z *.rar *.tar);;Все файлы (*.*)"
+        )
         if f:
             self._load_batch_source(Path(f))
 
@@ -498,19 +522,34 @@ class GitHubPublishDialog(QDialog):
             self._load_batch_source(Path(d))
 
     def _load_batch_source(self, source_path: Path):
-        self.batch_src_lbl.setText(f"Сканирование: {source_path.name}...")
+        self.batch_src_lbl.setText(f"Подготовка к сканированию: {source_path.name}...")
         self.batch_src_lbl.setStyleSheet("color: #00E5FF;")
-        self.scanned_items = GitHubPublisher.scan_archive_or_folder(source_path)
+        self.status_lbl.setText(f"Сканирование: {source_path.name}...")
+        self.progress_bar.setVisible(True)
+        self.batch_publish_btn.setEnabled(False)
 
+        self._scan_worker = BatchScanWorkerThread(source_path)
+        self._scan_worker.progress_status.connect(self._on_scan_progress)
+        self._scan_worker.finished.connect(self._on_scan_finished)
+        self._scan_worker.start()
+
+    def _on_scan_progress(self, msg: str):
+        self.batch_src_lbl.setText(msg)
+        self.status_lbl.setText(msg)
+
+    def _on_scan_finished(self, items: list):
+        self.progress_bar.setVisible(False)
+        self.scanned_items = items
         if not self.scanned_items:
-            self.batch_src_lbl.setText(f"В '{source_path.name}' не найдено MP4 видеофайлов.")
+            self.batch_src_lbl.setText("В выбранном источнике не найдено видеофайлов MP4.")
             self.batch_src_lbl.setStyleSheet("color: #EF4444;")
             self.batch_table.setRowCount(0)
             self.batch_publish_btn.setEnabled(False)
             return
 
-        self.batch_src_lbl.setText(f"Источник: {source_path} (обнаружено {len(self.scanned_items)} MP4)")
+        self.batch_src_lbl.setText(f"✓ Загружено {len(self.scanned_items)} видеофонов.")
         self.batch_src_lbl.setStyleSheet("color: #10B981; font-weight: bold;")
+        self.status_lbl.setText(f"Найдено {len(self.scanned_items)} видеофонов, готовых к публикации.")
         self._populate_batch_table()
 
     def _populate_batch_table(self):

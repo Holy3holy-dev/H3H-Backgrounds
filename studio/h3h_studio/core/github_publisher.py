@@ -330,13 +330,14 @@ class GitHubPublisher:
         }
 
     @classmethod
-    def scan_archive_or_folder(cls, source_path: Path) -> List[Dict[str, Any]]:
+    def scan_archive_or_folder(cls, source_path: Path, progress_cb: Optional[callable] = None) -> List[Dict[str, Any]]:
         """
-        Scans a .zip archive or directory for MP4 videos, extracts Title IDs from filenames,
+        Scans a .zip/.7z/.rar archive or directory for MP4 videos, extracts Title IDs from filenames,
         and matches them against the 7,200+ Switch database.
         """
         import zipfile
         import tempfile
+        import shutil
         from .online_fetcher import OnlineFetcher
 
         source = Path(source_path)
@@ -344,29 +345,63 @@ class GitHubPublisher:
             return []
 
         search_dirs = []
-        if source.is_file() and source.suffix.lower() == ".zip":
+        if source.is_file():
+            ext = source.suffix.lower()
             extract_dir = Path(tempfile.gettempdir()) / f"h3h_batch_{source.stem}"
             extract_dir.mkdir(parents=True, exist_ok=True)
-            with zipfile.ZipFile(source, "r") as zf:
-                zf.extractall(extract_dir)
-            search_dirs.append(extract_dir)
+
+            if ext == ".zip":
+                if progress_cb:
+                    progress_cb("Чтение оглавления ZIP-архива...")
+                with zipfile.ZipFile(source, "r") as zf:
+                    all_names = zf.namelist()
+                    mp4_names = [n for n in all_names if n.lower().endswith(".mp4") and not n.startswith("__MACOSX")]
+                    target_names = mp4_names if mp4_names else all_names
+                    total_extract = len(target_names)
+                    for idx, n in enumerate(target_names):
+                        if progress_cb:
+                            progress_cb(f"Извлечение из архива [{idx+1}/{total_extract}]: {Path(n).name}...")
+                        zf.extract(n, extract_dir)
+                search_dirs.append(extract_dir)
+            elif ext in [".7z", ".rar", ".tar", ".gz", ".bz2", ".xz"]:
+                if progress_cb:
+                    progress_cb(f"Распаковка архива {source.name} через системный декомпрессор...")
+                tar_cmd = shutil.which("tar")
+                if tar_cmd:
+                    subprocess.run([tar_cmd, "-xf", str(source), "-C", str(extract_dir)], capture_output=True)
+                search_dirs.append(extract_dir)
+            else:
+                return []
         elif source.is_dir():
             search_dirs.append(source)
         else:
             return []
 
+        if progress_cb:
+            progress_cb("Поиск видеофайлов MP4...")
+
         mp4_files = []
         for d in search_dirs:
             for p in d.rglob("*"):
-                if p.is_file() and p.suffix.lower() == ".mp4":
+                if p.is_file() and p.suffix.lower() == ".mp4" and not p.name.startswith("._"):
                     mp4_files.append(p)
+
+        if not mp4_files:
+            return []
+
+        if progress_cb:
+            progress_cb(f"Найдено {len(mp4_files)} видео. Загрузка базы игр...")
 
         db = OnlineFetcher._load_db()
         db_by_tid = {item["titleId"].upper(): item for item in db if item.get("titleId")}
 
         results = []
-        for vid in sorted(mp4_files, key=lambda x: x.name):
+        total = len(mp4_files)
+        for idx, vid in enumerate(sorted(mp4_files, key=lambda x: x.name)):
             fname = vid.name
+            if progress_cb:
+                progress_cb(f"Анализ видео [{idx+1}/{total}]: {fname}...")
+
             m = re.search(r"0100[0-9A-Fa-f]{12}", fname)
             tid = m.group(0).upper() if m else ""
 
@@ -401,6 +436,9 @@ class GitHubPublisher:
                 "hasAudio": comp.has_audio,
                 "codec": comp.codec,
             })
+
+        if progress_cb:
+            progress_cb(f"Сканирование завершено: {len(results)} видео готово.")
 
         return results
 
