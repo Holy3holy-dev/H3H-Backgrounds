@@ -134,7 +134,7 @@ class GoogleDriveHelper:
           - https://drive.google.com/file/d/xxxx/view (if containing Title ID or standalone)
         """
         results = []
-        tid_regex = re.compile(r"\b([0-9A-Fa-f]{16})\b", re.IGNORECASE)
+        tid_regex = re.compile(r"(?<![0-9A-Za-z])([0-9A-Fa-f]{16})(?![0-9A-Za-z])", re.IGNORECASE)
 
         for line in text.strip().splitlines():
             line = line.strip()
@@ -832,7 +832,7 @@ class GoogleDriveClient:
             progress_cb("Запрос списка файлов из папки Google Диска...")
 
         files = cls.list_folder_files(folder_id, token)
-        tid_regex = re.compile(r"\b([0-9A-Fa-f]{16})\b", re.IGNORECASE)
+        tid_regex = re.compile(r"(?<![0-9A-Za-z])([0-9A-Fa-f]{16})(?![0-9A-Za-z])", re.IGNORECASE)
 
         # Filter video files or files containing Title ID
         video_candidates = []

@@ -737,7 +737,7 @@ class GitHubPublishDialog(QDialog):
             self.file_edit.setText(f)
             # Try to infer Title ID from filename if empty
             fname = Path(f).name
-            m = re.search(r"\b(0100[0-9A-Fa-f]{12})\b", fname, re.IGNORECASE) or re.search(r"\b([0-9A-Fa-f]{16})\b", fname)
+            m = re.search(r"(?<![0-9A-Za-z])(0100[0-9A-Fa-f]{12})(?![0-9A-Za-z])", fname, re.IGNORECASE) or re.search(r"(?<![0-9A-Za-z])([0-9A-Fa-f]{16})(?![0-9A-Za-z])", fname)
             if m and not self.tid_edit.text():
                 self.tid_edit.setText(m.group(1).upper())
 
@@ -1598,7 +1598,7 @@ class GitHubPublishDialog(QDialog):
         if fpath:
             self.gdrive_video_edit.setText(fpath)
             name = Path(fpath).stem
-            tid_m = re.search(r"\b(0100[0-9A-Fa-f]{12})\b", name, re.IGNORECASE) or re.search(r"\b([0-9A-Fa-f]{16})\b", name)
+            tid_m = re.search(r"(?<![0-9A-Za-z])(0100[0-9A-Fa-f]{12})(?![0-9A-Za-z])", name, re.IGNORECASE) or re.search(r"(?<![0-9A-Za-z])([0-9A-Fa-f]{16})(?![0-9A-Za-z])", name)
             if tid_m and not self.gdrive_tid_edit.text().strip():
                 self.gdrive_tid_edit.setText(tid_m.group(1).upper())
 

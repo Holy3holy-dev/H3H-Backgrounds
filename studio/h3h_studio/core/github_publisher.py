@@ -435,15 +435,15 @@ class GitHubPublisher:
             if progress_cb:
                 progress_cb(f"Анализ видео [{idx+1}/{total}]: {rel_str}...")
 
-            # 1. Search Title ID in filename (prefer 0100..., but accept any 16-hex chars)
-            m = re.search(r"\b(0100[0-9A-Fa-f]{12})\b", fname, re.IGNORECASE)
+            # 1. Search Title ID in filename (prefer 0100..., but accept any 16-hex chars, supports _ and -)
+            m = re.search(r"(?<![0-9A-Za-z])(0100[0-9A-Fa-f]{12})(?![0-9A-Za-z])", fname, re.IGNORECASE)
             if not m:
-                m = re.search(r"\b([0-9A-Fa-f]{16})\b", fname)
+                m = re.search(r"(?<![0-9A-Za-z])([0-9A-Fa-f]{16})(?![0-9A-Za-z])", fname)
             # 2. If not found in filename, search in relative path (folder names like recordings/covers/...)
             if not m:
-                m = re.search(r"\b(0100[0-9A-Fa-f]{12})\b", rel_str, re.IGNORECASE)
+                m = re.search(r"(?<![0-9A-Za-z])(0100[0-9A-Fa-f]{12})(?![0-9A-Za-z])", rel_str, re.IGNORECASE)
             if not m:
-                m = re.search(r"\b([0-9A-Fa-f]{16})\b", rel_str)
+                m = re.search(r"(?<![0-9A-Za-z])([0-9A-Fa-f]{16})(?![0-9A-Za-z])", rel_str)
 
             matched_id = m.group(1) if m else ""
             tid = matched_id.upper() if matched_id else ""
