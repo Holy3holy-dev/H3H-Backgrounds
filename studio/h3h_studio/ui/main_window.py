@@ -179,6 +179,11 @@ class MainWindow(QMainWindow):
         online_search_btn.clicked.connect(self._open_online_search)
         header_layout.addWidget(online_search_btn)
 
+        gdrive_publish_btn = QPushButton("📁 Google Диск (5 ТБ)", self)
+        gdrive_publish_btn.setStyleSheet("background-color: #10B981; color: #FFFFFF; font-weight: bold; padding: 6px 14px; border: none; border-radius: 4px;")
+        gdrive_publish_btn.clicked.connect(lambda: self._open_github_publish(initial_tab=3))
+        header_layout.addWidget(gdrive_publish_btn)
+
         github_publish_btn = QPushButton("🚀 Опубликовать на GitHub", self)
         github_publish_btn.setStyleSheet("background-color: #3B82F6; color: #FFFFFF; font-weight: bold; padding: 6px 14px; border: none; border-radius: 4px;")
         github_publish_btn.clicked.connect(self._open_github_publish)
@@ -625,15 +630,18 @@ class MainWindow(QMainWindow):
             box.setWindowTitle("Видеофон готов")
             box.setText(
                 f"Видеофон успешно сохранён:\n{msg}\n\n"
-                f"Хотите сразу опубликовать его в онлайн-библиотеку GitHub?"
+                f"Куда вы хотите опубликовать видеофон?"
             )
-            pub_btn = box.addButton("🚀 Опубликовать на GitHub", QMessageBox.ActionRole)
+            gdrive_btn = box.addButton("📁 Google Диск (5 ТБ)", QMessageBox.ActionRole)
+            pub_btn = box.addButton("🚀 GitHub", QMessageBox.ActionRole)
             open_btn = box.addButton("Открыть папку", QMessageBox.ActionRole)
             box.addButton("Закрыть", QMessageBox.RejectRole)
             box.exec()
 
-            if box.clickedButton() == pub_btn:
-                self._open_github_publish()
+            if box.clickedButton() == gdrive_btn:
+                self._open_github_publish(initial_tab=3)
+            elif box.clickedButton() == pub_btn:
+                self._open_github_publish(initial_tab=0)
             elif box.clickedButton() == open_btn:
                 import os
                 try:
@@ -656,7 +664,7 @@ class MainWindow(QMainWindow):
         )
         dlg.exec()
 
-    def _open_github_publish(self):
+    def _open_github_publish(self, initial_tab: int = 0):
         try:
             video_path_str = ""
             if hasattr(self, "last_exported_video") and self.last_exported_video and self.last_exported_video.exists():
@@ -675,6 +683,7 @@ class MainWindow(QMainWindow):
                 title_id=self.tid_input.text().strip().upper(),
                 game_title=self.game_title_input.text().strip(),
                 style=self.style_combo.currentText(),
+                initial_tab=initial_tab,
                 parent=self
             )
             dlg.exec()

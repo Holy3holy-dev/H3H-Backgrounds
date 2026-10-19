@@ -44,3 +44,75 @@ class TestGoogleDriveHelper:
         assert items[0]["directUrl"].startswith("https://drive.google.com/uc?export=download")
         assert items[1]["titleId"] == "0100000000010000"
         assert items[1]["driveId"] == "2CyjNWt1YSB6oGNeLwCeCakhVVrqumct"
+
+    def test_extract_folder_id(self):
+        folder_urls = [
+            ("https://drive.google.com/drive/folders/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs", "1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs"),
+            ("https://drive.google.com/drive/u/0/folders/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs?usp=sharing", "1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs"),
+            ("https://drive.google.com/drive/u/1/folders/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs", "1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs"),
+            ("https://drive.google.com/open?id=1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs", "1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs"),
+            ("1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs", "1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs"),
+        ]
+        for url, expected in folder_urls:
+            assert GoogleDriveHelper.extract_folder_id(url) == expected
+
+
+class TestGoogleDriveClient:
+    def test_test_connection_no_token(self):
+        from studio.h3h_studio.core.google_drive import GoogleDriveClient
+        with pytest.raises(ValueError, match="не указан"):
+            GoogleDriveClient.test_connection("")
+
+    def test_test_connection_mock(self, monkeypatch):
+        from studio.h3h_studio.core.google_drive import GoogleDriveClient
+        import urllib.request
+        from io import BytesIO
+
+        mock_payload = {
+            "user": {"displayName": "Switch User", "emailAddress": "user@gmail.com"},
+            "storageQuota": {
+                "limit": str(5 * 1024 * 1024 * 1024 * 1024),  # 5 TB
+                "usage": str(500 * 1024 * 1024 * 1024)        # 500 GB
+            }
+        }
+
+        class MockResponse:
+            def __enter__(self):
+                return self
+            def __exit__(self, *args):
+                pass
+            def read(self):
+                return json.dumps(mock_payload).encode("utf-8")
+
+        monkeypatch.setattr(urllib.request, "urlopen", lambda req, timeout=15: MockResponse())
+        res = GoogleDriveClient.test_connection("dummy_token")
+        assert res["ok"] is True
+        assert res["displayName"] == "Switch User"
+        assert res["emailAddress"] == "user@gmail.com"
+        assert res["limit_gb"] == 5120.0
+        assert res["usage_gb"] == 500.0
+        assert "5120.0 ГБ" in res["quota_str"]
+
+    def test_list_folder_files_mock(self, monkeypatch):
+        from studio.h3h_studio.core.google_drive import GoogleDriveClient
+        import urllib.request
+
+        mock_files = {
+            "files": [
+                {"id": "file123", "name": "01007EF00011E000.mp4", "size": "15000000", "mimeType": "video/mp4"}
+            ]
+        }
+
+        class MockResponse:
+            def __enter__(self):
+                return self
+            def __exit__(self, *args):
+                pass
+            def read(self):
+                return json.dumps(mock_files).encode("utf-8")
+
+        monkeypatch.setattr(urllib.request, "urlopen", lambda req, timeout=20: MockResponse())
+        files = GoogleDriveClient.list_folder_files("folder123", "dummy_token")
+        assert len(files) == 1
+        assert files[0]["name"] == "01007EF00011E000.mp4"
+

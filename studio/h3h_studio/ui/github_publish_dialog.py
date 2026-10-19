@@ -4,11 +4,13 @@ Supports single background publishing and batch publishing from ZIP archives or 
 """
 
 import re
+import json
 from pathlib import Path
 from typing import Optional, List, Dict, Any
+from datetime import datetime, timezone
 
-from PySide6.QtCore import Qt, QThread, Signal
-from PySide6.QtGui import QFont, QColor
+from PySide6.QtCore import Qt, QThread, Signal, QUrl
+from PySide6.QtGui import QFont, QColor, QDesktopServices
 from PySide6.QtWidgets import (
     QDialog, QVBoxLayout, QHBoxLayout, QLineEdit, QPushButton,
     QLabel, QComboBox, QTextEdit, QProgressBar, QMessageBox,
@@ -18,7 +20,7 @@ from PySide6.QtWidgets import (
 
 from ..core.github_publisher import GitHubPublisher
 from ..core.compliance import ComplianceValidator
-from ..core.google_drive import GoogleDriveHelper
+from ..core.google_drive import GoogleDriveHelper, GoogleDriveClient
 from ..core.online_fetcher import OnlineFetcher
 
 
@@ -162,6 +164,89 @@ class BatchScanWorkerThread(QThread):
             self.finished.emit([])
 
 
+class GoogleDriveBatchUploadWorker(QThread):
+    progress_status = Signal(str)
+    finished = Signal(bool, list, str)
+
+    def __init__(
+        self,
+        source_path: Path,
+        folder_id: str,
+        token: str,
+        author: str,
+        catalog_path: Path,
+        selected_items: Optional[List[Dict[str, Any]]] = None
+    ):
+        super().__init__()
+        self.source_path = source_path
+        self.folder_id = folder_id
+        self.token = token
+        self.author = author
+        self.catalog_path = catalog_path
+        self.selected_items = selected_items
+
+    def run(self):
+        try:
+            results = GoogleDriveClient.upload_batch_archive(
+                source_path=self.source_path,
+                folder_id=self.folder_id,
+                token=self.token,
+                author=self.author,
+                catalog_path=self.catalog_path,
+                progress_cb=self.progress_status.emit,
+                selected_items=self.selected_items
+            )
+            self.finished.emit(True, results, "")
+        except Exception as e:
+            self.finished.emit(False, [], str(e))
+
+
+class GoogleDriveFolderScanWorker(QThread):
+    progress_status = Signal(str)
+    finished = Signal(bool, list, str)
+
+    def __init__(
+        self,
+        folder_id: str,
+        token: str,
+        author: str,
+        catalog_path: Path
+    ):
+        super().__init__()
+        self.folder_id = folder_id
+        self.token = token
+        self.author = author
+        self.catalog_path = catalog_path
+
+    def run(self):
+        try:
+            results = GoogleDriveClient.scan_and_register_remote_folder(
+                folder_id=self.folder_id,
+                token=self.token,
+                author=self.author,
+                catalog_path=self.catalog_path,
+                progress_cb=self.progress_status.emit
+            )
+            self.finished.emit(True, results, "")
+        except Exception as e:
+            self.finished.emit(False, [], str(e))
+
+
+class GoogleDriveTestWorker(QThread):
+    finished = Signal(bool, dict, str)
+
+    def __init__(self, token: str):
+        super().__init__()
+        self.token = token
+
+    def run(self):
+        try:
+            res = GoogleDriveClient.test_connection(self.token)
+            self.finished.emit(True, res, "")
+        except Exception as e:
+            self.finished.emit(False, {}, str(e))
+
+
 class GitHubPublishDialog(QDialog):
     def __init__(
         self,
@@ -169,6 +254,7 @@ class GitHubPublishDialog(QDialog):
         title_id: str = "",
         game_title: str = "",
         style: str = "Animated Art",
+        initial_tab: int = 0,
         parent=None
     ):
         super().__init__(parent)
@@ -253,6 +339,17 @@ class GitHubPublishDialog(QDialog):
         token, user = GitHubPublisher.get_stored_credentials()
         self.default_token = token or ""
         self.default_user = user or "Holy3holy-dev"
+
+        gdrive_cfg = GoogleDriveHelper.get_stored_config()
+        self.gdrive_token = gdrive_cfg.get("token", "")
+        self.gdrive_folder_id = gdrive_cfg.get("folder_id", "")
+        self.gdrive_author = gdrive_cfg.get("author", self.default_user)
+        self.gdrive_batch_scanned_items: List[Dict[str, Any]] = []
+        self._gdrive_scan_worker: Optional[BatchScanWorkerThread] = None
+        self._gdrive_batch_upload_worker: Optional[GoogleDriveBatchUploadWorker] = None
+        self._gdrive_folder_scan_worker: Optional[GoogleDriveFolderScanWorker] = None
+        self._gdrive_test_worker: Optional[GoogleDriveTestWorker] = None
+
         self._worker: Optional[PublishWorkerThread] = None
         self._batch_worker: Optional[BatchPublishWorkerThread] = None
         self._delete_worker: Optional[DeleteWorkerThread] = None
@@ -289,6 +386,8 @@ class GitHubPublishDialog(QDialog):
         self.tabs.addTab(gdrive_tab, "📁 Google Диск (5 ТБ)")
 
         self.tabs.currentChanged.connect(self._on_tab_changed)
+        if initial_tab != 0:
+            self.tabs.setCurrentIndex(initial_tab)
 
         layout.addWidget(self.tabs)
 
@@ -920,112 +1019,53 @@ class GitHubPublishDialog(QDialog):
 
     def _create_gdrive_tab(self, video_path: Optional[str], title_id: str, game_title: str, style: str) -> QWidget:
         widget = QWidget()
-        scroll_layout = QVBoxLayout(widget)
-        scroll_layout.setContentsMargins(12, 12, 12, 12)
-        scroll_layout.setSpacing(10)
+        layout = QVBoxLayout(widget)
+        layout.setContentsMargins(12, 12, 12, 12)
+        layout.setSpacing(10)
 
-        # Informational banner
-        banner = QLabel(
-            "📁 <b>Хранение видеофонов на Google Диске (до 5 ТБ)</b><br>"
-            "<span style='color: #A0AEC0; font-size: 11px;'>"
-            "Загрузите видео на ваш Google Диск и скопируйте ссылку «Поделиться». "
-            "Студия автоматически сформирует прямую ссылку прямого скачивания для Switch без лимитов GitHub."
-            "</span>",
-            widget
-        )
-        banner.setStyleSheet("background-color: #1A2332; border: 1px solid #00E5FF; border-radius: 6px; padding: 10px;")
-        scroll_layout.addWidget(banner)
+        # Top Account Connection Banner / Quick Actions
+        conn_bar = QFrame(widget)
+        conn_bar.setStyleSheet("background-color: #1A2332; border: 1px solid #2D3540; border-radius: 6px; padding: 6px;")
+        conn_layout = QHBoxLayout(conn_bar)
+        conn_layout.setContentsMargins(10, 4, 10, 4)
 
-        # Sub-sections in Tab
-        sub_tabs = QTabWidget(widget)
+        self.gdrive_top_status_lbl = QLabel("Google Диск: ⚪ Токен не проверен", conn_bar)
+        self.gdrive_top_status_lbl.setStyleSheet("color: #A0AEC0; font-weight: bold; font-size: 12px;")
+        conn_layout.addWidget(self.gdrive_top_status_lbl)
+        conn_layout.addStretch()
 
-        # Sub-tab 1: Single file link
-        single_gdrive = QWidget()
-        s_layout = QVBoxLayout(single_gdrive)
-        s_layout.setSpacing(8)
+        open_browser_btn = QPushButton("🌐 Открыть Диск в браузере", conn_bar)
+        open_browser_btn.setStyleSheet("background-color: #252B35; color: #FFFFFF; font-size: 11px; padding: 5px 12px;")
+        open_browser_btn.clicked.connect(self._open_drive_browser)
+        conn_layout.addWidget(open_browser_btn)
 
-        # Video file selector
-        v_box = QHBoxLayout()
-        self.gdrive_video_edit = QLineEdit(video_path or "", single_gdrive)
-        self.gdrive_video_edit.setPlaceholderText("Путь к локальному .mp4 файлу (для расчёта SHA-256 и проверки 4IFIR)")
-        v_browse = QPushButton("Обзор...", single_gdrive)
-        v_browse.clicked.connect(self._browse_gdrive_video)
-        v_box.addWidget(self.gdrive_video_edit)
-        v_box.addWidget(v_browse)
-        s_layout.addLayout(v_box)
+        account_cfg_btn = QPushButton("🔑 Настройки подключения", conn_bar)
+        account_cfg_btn.setStyleSheet("background-color: #3B82F6; color: #FFFFFF; font-size: 11px; padding: 5px 12px;")
+        account_cfg_btn.clicked.connect(lambda: self.gdrive_sub_tabs.setCurrentIndex(3))
+        conn_layout.addWidget(account_cfg_btn)
 
-        # Title ID and Game Title
-        tid_row = QHBoxLayout()
-        self.gdrive_tid_edit = QLineEdit(title_id or "", single_gdrive)
-        self.gdrive_tid_edit.setPlaceholderText("Title ID (например, 01005CA01580E000)")
-        self.gdrive_tid_edit.textChanged.connect(self._on_gdrive_tid_changed)
-        tid_row.addWidget(QLabel("Title ID:", single_gdrive))
-        tid_row.addWidget(self.gdrive_tid_edit)
+        layout.addWidget(conn_bar)
 
-        self.gdrive_title_edit = QLineEdit(game_title or "", single_gdrive)
-        self.gdrive_title_edit.setPlaceholderText("Название игры")
-        tid_row.addWidget(QLabel("Игра:", single_gdrive))
-        tid_row.addWidget(self.gdrive_title_edit)
-        s_layout.addLayout(tid_row)
+        # 4 Sub-Tabs
+        self.gdrive_sub_tabs = QTabWidget(widget)
 
-        # Variant & Style
-        var_row = QHBoxLayout()
-        self.gdrive_var_edit = QLineEdit("Standard", single_gdrive)
-        self.gdrive_var_edit.setPlaceholderText("Название варианта (например, Standard, 60fps, Loop)")
-        var_row.addWidget(QLabel("Вариант:", single_gdrive))
-        var_row.addWidget(self.gdrive_var_edit)
+        # Subtab 1: Direct archive/folder upload
+        tab1_batch = self._create_gdrive_batch_upload_subtab()
+        self.gdrive_sub_tabs.addTab(tab1_batch, "📦 Пакетная загрузка на Диск")
 
-        self.gdrive_style_combo = QComboBox(single_gdrive)
-        for st in ["Animated Art", "Cinematic", "Gameplay", "Minimal", "Dark", "Retro", "Music"]:
-            self.gdrive_style_combo.addItem(st)
-        var_row.addWidget(QLabel("Стиль:", single_gdrive))
-        var_row.addWidget(self.gdrive_style_combo)
-        s_layout.addLayout(var_row)
+        # Subtab 2: Browser workflow
+        tab2_browser = self._create_gdrive_browser_subtab()
+        self.gdrive_sub_tabs.addTab(tab2_browser, "🌐 Браузерный режим (Папка Диска)")
 
-        # Google Drive Link input
-        s_layout.addWidget(QLabel("<b>Ссылка на файл Google Диска:</b>", single_gdrive))
-        self.gdrive_url_edit = QLineEdit(single_gdrive)
-        self.gdrive_url_edit.setPlaceholderText("Вставьте ссылку на файл: https://drive.google.com/file/d/.../view?usp=sharing")
-        self.gdrive_url_edit.textChanged.connect(self._on_gdrive_url_changed)
-        s_layout.addWidget(self.gdrive_url_edit)
+        # Subtab 3: Single & Batch links
+        tab3_links = self._create_gdrive_links_subtab(video_path, title_id, game_title, style)
+        self.gdrive_sub_tabs.addTab(tab3_links, "🔗 Ссылки (Одиночная / Список)")
 
-        self.gdrive_preview_lbl = QLabel("Прямая ссылка для консоли: (ожидание ввода ссылки)", single_gdrive)
-        self.gdrive_preview_lbl.setStyleSheet("color: #10B981; font-size: 11px;")
-        s_layout.addWidget(self.gdrive_preview_lbl)
+        # Subtab 4: Account & Token Card
+        tab4_account = self._create_gdrive_account_subtab()
+        self.gdrive_sub_tabs.addTab(tab4_account, "🔑 Аккаунт и токен Google")
 
-        # Save button
-        gdrive_save_btn = QPushButton("⚡ Сохранить в catalog.json", single_gdrive)
-        gdrive_save_btn.setStyleSheet("background-color: #00E5FF; color: #000000; font-weight: bold; padding: 10px;")
-        gdrive_save_btn.clicked.connect(self._save_single_gdrive_entry)
-        s_layout.addWidget(gdrive_save_btn)
-        s_layout.addStretch()
-
-        sub_tabs.addTab(single_gdrive, "🔗 Одиночная ссылка")
-
-        # Sub-tab 2: Batch Links Importer
-        batch_gdrive = QWidget()
-        b_layout = QVBoxLayout(batch_gdrive)
-        b_layout.setSpacing(8)
-
-        b_layout.addWidget(QLabel(
-            "Вставьте список ссылок (формат: <code>01005CA01580E000 https://drive.google.com/file/d/...</code>):",
-            batch_gdrive
-        ))
-        self.gdrive_batch_text = QTextEdit(batch_gdrive)
-        self.gdrive_batch_text.setPlaceholderText(
-            "01005CA01580E000 https://drive.google.com/file/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs/view\n"
-            "0100000000010000 https://drive.google.com/open?id=2CyjNWt1YSB6oGNeLwCeCakhVVrqumct\n"
-        )
-        b_layout.addWidget(self.gdrive_batch_text)
-
-        batch_btn = QPushButton("📦 Импортировать список ссылок в catalog.json", batch_gdrive)
-        batch_btn.setStyleSheet("background-color: #3B82F6; color: #FFFFFF; font-weight: bold; padding: 10px;")
-        batch_btn.clicked.connect(self._import_batch_gdrive_links)
-        b_layout.addWidget(batch_btn)
-
-        sub_tabs.addTab(batch_gdrive, "📋 Пакетный импорт ссылок")
-
-        scroll_layout.addWidget(sub_tabs)
+        layout.addWidget(self.gdrive_sub_tabs)
 
         # Sync catalog to GitHub button
         sync_box = QGroupBox("Синхронизация каталога с сервером", widget)
@@ -1039,7 +1079,267 @@ class GitHubPublishDialog(QDialog):
         sync_btn.clicked.connect(self._sync_catalog_to_github)
         sync_layout.addWidget(sync_btn)
 
-        scroll_layout.addWidget(sync_box)
+        layout.addWidget(sync_box)
+        return widget
+
+    def _open_drive_browser(self):
+        import webbrowser
+        webbrowser.open("https://drive.google.com")
+
+    def _create_gdrive_batch_upload_subtab(self) -> QWidget:
+        widget = QWidget()
+        layout = QVBoxLayout(widget)
+        layout.setSpacing(8)
+
+        # Source Selection
+        src_box = QGroupBox("1. Выбор архива или папки с видеофонами", widget)
+        src_layout = QVBoxLayout(src_box)
+        pick_row = QHBoxLayout()
+        self.gdrive_src_edit = QLineEdit(widget)
+        self.gdrive_src_edit.setPlaceholderText("Выберите ZIP-архив (.zip) или папку с видеофайлами...")
+        pick_row.addWidget(self.gdrive_src_edit)
+
+        zip_btn = QPushButton("Обзор архива (.zip)...", widget)
+        zip_btn.clicked.connect(self._browse_gdrive_batch_archive)
+        pick_row.addWidget(zip_btn)
+
+        folder_btn = QPushButton("Обзор папки...", widget)
+        folder_btn.clicked.connect(self._browse_gdrive_batch_folder)
+        pick_row.addWidget(folder_btn)
+
+        scan_btn = QPushButton("🔍 Сканировать", widget)
+        scan_btn.setStyleSheet("background-color: #00E5FF; color: #000000; font-weight: bold;")
+        scan_btn.clicked.connect(self._scan_gdrive_batch)
+        pick_row.addWidget(scan_btn)
+
+        src_layout.addLayout(pick_row)
+        layout.addWidget(src_box)
+
+        # Destination Folder
+        dest_row = QHBoxLayout()
+        dest_row.addWidget(QLabel("Целевая папка Google Диска (ID или ссылка):", widget))
+        self.gdrive_batch_folder_edit = QLineEdit(self.gdrive_folder_id, widget)
+        self.gdrive_batch_folder_edit.setPlaceholderText("Вставьте ссылку на папку или ID (оставьте пустым для корня Диска)...")
+        dest_row.addWidget(self.gdrive_batch_folder_edit)
+        layout.addLayout(dest_row)
+
+        # Table of Scanned Items
+        self.gdrive_batch_table = QTableWidget(0, 6, widget)
+        self.gdrive_batch_table.setHorizontalHeaderLabels([
+            "Выбор", "Имя файла", "Title ID", "Игра", "Соответствие 4IFIR", "Размер"
+        ])
+        self.gdrive_batch_table.horizontalHeader().setSectionResizeMode(0, QHeaderView.ResizeToContents)
+        self.gdrive_batch_table.horizontalHeader().setSectionResizeMode(1, QHeaderView.Interactive)
+        self.gdrive_batch_table.horizontalHeader().setSectionResizeMode(2, QHeaderView.ResizeToContents)
+        self.gdrive_batch_table.horizontalHeader().setSectionResizeMode(3, QHeaderView.Stretch)
+        self.gdrive_batch_table.horizontalHeader().setSectionResizeMode(4, QHeaderView.Interactive)
+        self.gdrive_batch_table.horizontalHeader().setSectionResizeMode(5, QHeaderView.ResizeToContents)
+        layout.addWidget(self.gdrive_batch_table)
+
+        # Bottom row of batch
+        ctrl_row = QHBoxLayout()
+        all_btn = QPushButton("✓ Выбрать все", widget)
+        all_btn.clicked.connect(lambda: self._set_all_gdrive_checks(True))
+        ctrl_row.addWidget(all_btn)
+
+        none_btn = QPushButton("✗ Снять все", widget)
+        none_btn.clicked.connect(lambda: self._set_all_gdrive_checks(False))
+        ctrl_row.addWidget(none_btn)
+
+        self.gdrive_batch_stats_lbl = QLabel("Видео не выбраны", widget)
+        self.gdrive_batch_stats_lbl.setStyleSheet("color: #00E5FF; font-weight: bold;")
+        ctrl_row.addWidget(self.gdrive_batch_stats_lbl)
+        ctrl_row.addStretch()
+
+        self.gdrive_batch_upload_btn = QPushButton("🚀 Загрузить выбранные видео на Google Диск и добавить в каталог", widget)
+        self.gdrive_batch_upload_btn.setStyleSheet("background-color: #10B981; color: #FFFFFF; font-weight: bold; padding: 10px 20px;")
+        self.gdrive_batch_upload_btn.setEnabled(False)
+        self.gdrive_batch_upload_btn.clicked.connect(self._start_gdrive_batch_upload)
+        ctrl_row.addWidget(self.gdrive_batch_upload_btn)
+        layout.addLayout(ctrl_row)
+
+        return widget
+
+    def _create_gdrive_browser_subtab(self) -> QWidget:
+        widget = QWidget()
+        layout = QVBoxLayout(widget)
+        layout.setSpacing(10)
+
+        info_box = QGroupBox("🌐 Браузерный режим (без установки сторонних программ)", widget)
+        info_layout = QVBoxLayout(info_box)
+        info_lbl = QLabel(
+            "<b>Как использовать ваш Google Диск (5 ТБ) через браузер:</b><br>"
+            "1. Откройте Google Диск в вашем любимом браузере (Chrome, Edge, Firefox, Opera).<br>"
+            "2. Создайте папку для видеофонов (например, <i>Switch Backgrounds</i>) и перетащите туда видео.<br>"
+            "3. Рекомендуется называть файлы по Title ID игры (например: <code>01007EF00011E000.mp4</code> или <code>Zelda [01007EF00011E000].mp4</code>).<br>"
+            "4. В Google Диске нажмите «Поделиться» -> «Все, у кого есть ссылка» (Читатель).<br>"
+            "5. Скопируйте ссылку на папку из браузера, вставьте её ниже и нажмите «Сканировать папку».",
+            widget
+        )
+        info_lbl.setStyleSheet("color: #E2E8F0; font-size: 12px; line-height: 1.4;")
+        info_layout.addWidget(info_lbl)
+        layout.addWidget(info_box)
+
+        input_row = QHBoxLayout()
+        input_row.addWidget(QLabel("<b>Ссылка на папку в браузере:</b>", widget))
+        self.gdrive_browser_folder_edit = QLineEdit(self.gdrive_folder_id, widget)
+        self.gdrive_browser_folder_edit.setPlaceholderText("https://drive.google.com/drive/folders/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs?usp=sharing")
+        input_row.addWidget(self.gdrive_browser_folder_edit)
+
+        scan_folder_btn = QPushButton("📥 Сканировать папку Google Диска", widget)
+        scan_folder_btn.setStyleSheet("background-color: #3B82F6; color: #FFFFFF; font-weight: bold; padding: 8px 16px;")
+        scan_folder_btn.clicked.connect(self._start_gdrive_remote_scan)
+        input_row.addWidget(scan_folder_btn)
+        layout.addLayout(input_row)
+
+        self.gdrive_remote_table = QTableWidget(0, 5, widget)
+        self.gdrive_remote_table.setHorizontalHeaderLabels([
+            "Title ID", "Название игры", "Имя файла", "Прямая ссылка", "Размер"
+        ])
+        self.gdrive_remote_table.horizontalHeader().setSectionResizeMode(0, QHeaderView.ResizeToContents)
+        self.gdrive_remote_table.horizontalHeader().setSectionResizeMode(1, QHeaderView.Stretch)
+        self.gdrive_remote_table.horizontalHeader().setSectionResizeMode(2, QHeaderView.Interactive)
+        self.gdrive_remote_table.horizontalHeader().setSectionResizeMode(3, QHeaderView.Interactive)
+        self.gdrive_remote_table.horizontalHeader().setSectionResizeMode(4, QHeaderView.ResizeToContents)
+        layout.addWidget(self.gdrive_remote_table)
+
+        self.gdrive_remote_stats_lbl = QLabel("Ожидание ссылки на папку Google Диска...", widget)
+        self.gdrive_remote_stats_lbl.setStyleSheet("color: #00E5FF;")
+        layout.addWidget(self.gdrive_remote_stats_lbl)
+
+        return widget
+
+    def _create_gdrive_links_subtab(self, video_path: Optional[str], title_id: str, game_title: str, style: str) -> QWidget:
+        widget = QWidget()
+        layout = QVBoxLayout(widget)
+        layout.setSpacing(10)
+
+        # Single video box
+        s_box = QGroupBox("Одиночная ссылка на видеофайл", widget)
+        s_layout = QVBoxLayout(s_box)
+        s_layout.setSpacing(8)
+
+        v_box = QHBoxLayout()
+        self.gdrive_video_edit = QLineEdit(video_path or "", s_box)
+        self.gdrive_video_edit.setPlaceholderText("Путь к локальному .mp4 файлу...")
+        v_browse = QPushButton("Обзор...", s_box)
+        v_browse.clicked.connect(self._browse_gdrive_video)
+        v_box.addWidget(self.gdrive_video_edit)
+        v_box.addWidget(v_browse)
+        s_layout.addLayout(v_box)
+
+        tid_row = QHBoxLayout()
+        self.gdrive_tid_edit = QLineEdit(title_id or "", s_box)
+        self.gdrive_tid_edit.setPlaceholderText("Title ID (например, 01005CA01580E000)")
+        self.gdrive_tid_edit.textChanged.connect(self._on_gdrive_tid_changed)
+        tid_row.addWidget(QLabel("Title ID:", s_box))
+        tid_row.addWidget(self.gdrive_tid_edit)
+
+        self.gdrive_title_edit = QLineEdit(game_title or "", s_box)
+        self.gdrive_title_edit.setPlaceholderText("Название игры")
+        tid_row.addWidget(QLabel("Игра:", s_box))
+        tid_row.addWidget(self.gdrive_title_edit)
+        s_layout.addLayout(tid_row)
+
+        var_row = QHBoxLayout()
+        self.gdrive_var_edit = QLineEdit("Standard", s_box)
+        self.gdrive_var_edit.setPlaceholderText("Название варианта")
+        var_row.addWidget(QLabel("Вариант:", s_box))
+        var_row.addWidget(self.gdrive_var_edit)
+
+        self.gdrive_style_combo = QComboBox(s_box)
+        for st in ["Animated Art", "Cinematic", "Gameplay", "Minimal", "Dark", "Retro", "Music"]:
+            self.gdrive_style_combo.addItem(st)
+        var_row.addWidget(QLabel("Стиль:", s_box))
+        var_row.addWidget(self.gdrive_style_combo)
+        s_layout.addLayout(var_row)
+
+        s_layout.addWidget(QLabel("<b>Ссылка на файл Google Диска:</b>", s_box))
+        self.gdrive_url_edit = QLineEdit(s_box)
+        self.gdrive_url_edit.setPlaceholderText("https://drive.google.com/file/d/.../view?usp=sharing")
+        self.gdrive_url_edit.textChanged.connect(self._on_gdrive_url_changed)
+        s_layout.addWidget(self.gdrive_url_edit)
+
+        self.gdrive_preview_lbl = QLabel("Прямая ссылка для консоли: (ожидание ввода ссылки)", s_box)
+        self.gdrive_preview_lbl.setStyleSheet("color: #10B981; font-size: 11px;")
+        s_layout.addWidget(self.gdrive_preview_lbl)
+
+        gdrive_save_btn = QPushButton("⚡ Сохранить одиночный видеофон в catalog.json", s_box)
+        gdrive_save_btn.setStyleSheet("background-color: #00E5FF; color: #000000; font-weight: bold; padding: 8px;")
+        gdrive_save_btn.clicked.connect(self._save_single_gdrive_entry)
+        s_layout.addWidget(gdrive_save_btn)
+        layout.addWidget(s_box)
+
+        # Batch text import box
+        b_box = QGroupBox("Пакетный текстовый импорт ссылок", widget)
+        b_layout = QVBoxLayout(b_box)
+        b_layout.addWidget(QLabel("Вставьте список (формат: <code>01005CA01580E000 https://drive.google.com/file/d/...</code>):", b_box))
+        self.gdrive_batch_text = QTextEdit(b_box)
+        self.gdrive_batch_text.setFixedHeight(90)
+        self.gdrive_batch_text.setPlaceholderText("01005CA01580E000 https://drive.google.com/file/d/...\n0100000000010000 https://drive.google.com/open?id=...")
+        b_layout.addWidget(self.gdrive_batch_text)
+
+        batch_btn = QPushButton("📋 Импортировать список ссылок в catalog.json", b_box)
+        batch_btn.setStyleSheet("background-color: #3B82F6; color: #FFFFFF; font-weight: bold; padding: 8px;")
+        batch_btn.clicked.connect(self._import_batch_gdrive_links)
+        b_layout.addWidget(batch_btn)
+        layout.addWidget(b_box)
+
+        return widget
+
+    def _create_gdrive_account_subtab(self) -> QWidget:
+        widget = QWidget()
+        layout = QVBoxLayout(widget)
+        layout.setSpacing(10)
+
+        box = QGroupBox("Параметры авторизации Google Диска (5 ТБ)", widget)
+        b_layout = QVBoxLayout(box)
+
+        tok_layout = QVBoxLayout()
+        tok_layout.addWidget(QLabel("Google Drive OAuth2 Access Token (Bearer):", box))
+        self.gdrive_token_edit = QLineEdit(self.gdrive_token, box)
+        self.gdrive_token_edit.setEchoMode(QLineEdit.Password)
+        self.gdrive_token_edit.setPlaceholderText("ya29.a0AfH6SM...")
+        tok_layout.addWidget(self.gdrive_token_edit)
+        b_layout.addLayout(tok_layout)
+
+        f_layout = QVBoxLayout()
+        f_layout.addWidget(QLabel("ID или ссылка на папку по умолчанию:", box))
+        self.gdrive_folder_cfg_edit = QLineEdit(self.gdrive_folder_id, box)
+        self.gdrive_folder_cfg_edit.setPlaceholderText("1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs")
+        f_layout.addWidget(self.gdrive_folder_cfg_edit)
+        b_layout.addLayout(f_layout)
+
+        author_layout = QVBoxLayout()
+        author_layout.addWidget(QLabel("Имя автора по умолчанию:", box))
+        self.gdrive_author_cfg_edit = QLineEdit(self.gdrive_author, box)
+        author_layout.addWidget(self.gdrive_author_cfg_edit)
+        b_layout.addLayout(author_layout)
+
+        btn_row = QHBoxLayout()
+        test_btn = QPushButton("🔌 Проверить подключение и квоту", box)
+        test_btn.setStyleSheet("background-color: #3B82F6; color: #FFFFFF; font-weight: bold; padding: 8px 14px;")
+        test_btn.clicked.connect(self._test_gdrive_connection)
+        btn_row.addWidget(test_btn)
+
+        save_btn = QPushButton("💾 Сохранить настройки", box)
+        save_btn.setStyleSheet("background-color: #10B981; color: #FFFFFF; font-weight: bold; padding: 8px 14px;")
+        save_btn.clicked.connect(self._save_gdrive_account_config)
+        btn_row.addWidget(save_btn)
+
+        help_btn = QPushButton("❓ Как получить токен", box)
+        help_btn.clicked.connect(self._show_gdrive_token_help)
+        btn_row.addWidget(help_btn)
+
+        btn_row.addStretch()
+        b_layout.addLayout(btn_row)
+
+        self.gdrive_quota_lbl = QLabel("", box)
+        self.gdrive_quota_lbl.setStyleSheet("color: #10B981; font-weight: bold; font-size: 13px;")
+        b_layout.addWidget(self.gdrive_quota_lbl)
+
+        layout.addWidget(box)
+        layout.addStretch()
         return widget
 
     def _browse_gdrive_video(self):
@@ -1203,6 +1503,249 @@ class GitHubPublishDialog(QDialog):
             f"Успешно обработано и добавлено {added_count} видеофонов в catalog.json!"
         )
         self._refresh_catalog_table()
+
+    def _browse_gdrive_batch_archive(self):
+        fpath, _ = QFileDialog.getOpenFileName(self, "Выберите архив с видеофонами", "", "Архивы (*.zip *.7z *.rar *.tar *.gz)")
+        if fpath:
+            self.gdrive_src_edit.setText(fpath)
+            self._scan_gdrive_batch()
+
+    def _browse_gdrive_batch_folder(self):
+        fdir = QFileDialog.getExistingDirectory(self, "Выберите папку с видеофайлами MP4")
+        if fdir:
+            self.gdrive_src_edit.setText(fdir)
+            self._scan_gdrive_batch()
+
+    def _scan_gdrive_batch(self):
+        src = self.gdrive_src_edit.text().strip()
+        if not src or not Path(src).exists():
+            QMessageBox.warning(self, "Ошибка", "Укажите существующий архив или папку!")
+            return
+
+        self._set_ui_busy(True)
+        self.status_lbl.setText("Сканирование архива/папки...")
+
+        self._gdrive_scan_worker = BatchScanWorkerThread(Path(src))
+        self._gdrive_scan_worker.progress_status.connect(self._on_worker_progress)
+        self._gdrive_scan_worker.finished.connect(self._on_gdrive_batch_scanned)
+        self._gdrive_scan_worker.start()
+
+    def _on_gdrive_batch_scanned(self, items: list):
+        self._set_ui_busy(False)
+        self.gdrive_batch_scanned_items = items
+        self.gdrive_batch_table.setRowCount(len(items))
+
+        valid_count = 0
+        for row, it in enumerate(items):
+            chk_item = QTableWidgetItem()
+            chk_item.setCheckState(Qt.Checked if it.get("isValid", True) else Qt.Unchecked)
+            self.gdrive_batch_table.setItem(row, 0, chk_item)
+
+            self.gdrive_batch_table.setItem(row, 1, QTableWidgetItem(it.get("filename", "")))
+
+            tid_item = QTableWidgetItem(it.get("titleId", ""))
+            tid_item.setFont(QFont("Consolas", 10))
+            tid_item.setForeground(Qt.cyan)
+            self.gdrive_batch_table.setItem(row, 2, tid_item)
+
+            self.gdrive_batch_table.setItem(row, 3, QTableWidgetItem(it.get("gameTitle", "")))
+
+            comp_text = "✓ Совместимо" if it.get("isValid", True) else "⚠ Внимание"
+            comp_item = QTableWidgetItem(comp_text)
+            comp_item.setForeground(Qt.green if it.get("isValid", True) else Qt.yellow)
+            self.gdrive_batch_table.setItem(row, 4, comp_item)
+
+            sz_mb = it.get("sizeBytes", 0) / (1024 * 1024)
+            self.gdrive_batch_table.setItem(row, 5, QTableWidgetItem(f"{sz_mb:.2f} MB"))
+            if it.get("isValid", True):
+                valid_count += 1
+
+        self.gdrive_batch_stats_lbl.setText(f"Найдено: {len(items)} видео | Готово к загрузке: {valid_count}")
+        self.gdrive_batch_upload_btn.setEnabled(len(items) > 0)
+
+    def _set_all_gdrive_checks(self, checked: bool):
+        st = Qt.Checked if checked else Qt.Unchecked
+        for row in range(self.gdrive_batch_table.rowCount()):
+            it = self.gdrive_batch_table.item(row, 0)
+            if it:
+                it.setCheckState(st)
+
+    def _start_gdrive_batch_upload(self):
+        selected = []
+        for row in range(self.gdrive_batch_table.rowCount()):
+            chk = self.gdrive_batch_table.item(row, 0)
+            if chk and chk.checkState() == Qt.Checked:
+                it = dict(self.gdrive_batch_scanned_items[row])
+                tid_cell = self.gdrive_batch_table.item(row, 2)
+                if tid_cell and tid_cell.text():
+                    it["titleId"] = tid_cell.text().strip().upper()
+                name_cell = self.gdrive_batch_table.item(row, 3)
+                if name_cell and name_cell.text():
+                    it["gameTitle"] = name_cell.text().strip()
+                selected.append(it)
+
+        if not selected:
+            QMessageBox.warning(self, "Внимание", "Не выбрано ни одного видео для загрузки!")
+            return
+
+        token = self.gdrive_token_edit.text().strip() if hasattr(self, "gdrive_token_edit") else self.gdrive_token
+        if not token:
+            QMessageBox.warning(self, "Требуется токен", "Укажите Google Drive OAuth токен во вкладке «Аккаунт и токен Google»!")
+            self.gdrive_sub_tabs.setCurrentIndex(3)
+            return
+
+        folder = self.gdrive_batch_folder_edit.text().strip()
+        folder_id = GoogleDriveHelper.extract_folder_id(folder) or folder
+
+        self._set_ui_busy(True)
+        self.status_lbl.setText(f"Запуск загрузки {len(selected)} видео на Google Диск...")
+
+        catalog_path = Path("catalog/data/catalog.json")
+        self._gdrive_batch_upload_worker = GoogleDriveBatchUploadWorker(
+            source_path=Path(self.gdrive_src_edit.text().strip()),
+            folder_id=folder_id,
+            token=token,
+            author=self.common_author_edit.text().strip() or self.default_user,
+            catalog_path=catalog_path,
+            selected_items=selected
+        )
+        self._gdrive_batch_upload_worker.progress_status.connect(self._on_worker_progress)
+        self._gdrive_batch_upload_worker.finished.connect(self._on_gdrive_batch_upload_finished)
+        self._gdrive_batch_upload_worker.start()
+
+    def _on_gdrive_batch_upload_finished(self, success: bool, results: list, err: str):
+        self._set_ui_busy(False)
+        if success:
+            self.status_lbl.setText(f"✓ Успешно загружено {len(results)} видео на Google Диск!")
+            QMessageBox.information(
+                self, "Загрузка завершена",
+                f"Успешно загружено {len(results)} видеофонов на ваш Google Диск!\n\n"
+                f"Каталог catalog.json обновлён прямыми ссылками для Nintendo Switch.\n"
+                f"Нажмите «Отправить catalog.json на GitHub», чтобы синхронизировать онлайн-базу."
+            )
+            self._refresh_catalog_table()
+        else:
+            self.status_lbl.setText("❌ Ошибка при загрузке на Google Диск")
+            QMessageBox.critical(self, "Ошибка загрузки", f"Не удалось завершить загрузку на Google Диск:\n\n{err}")
+
+    def _start_gdrive_remote_scan(self):
+        folder_url = self.gdrive_browser_folder_edit.text().strip()
+        folder_id = GoogleDriveHelper.extract_folder_id(folder_url) or folder_url
+        if not folder_id:
+            QMessageBox.warning(self, "Внимание", "Вставьте ссылку на папку Google Диска!")
+            return
+
+        token = self.gdrive_token_edit.text().strip() if hasattr(self, "gdrive_token_edit") else self.gdrive_token
+        if not token:
+            QMessageBox.warning(self, "Требуется токен", "Для чтения файлов из папки укажите токен во вкладке «Аккаунт и токен Google»!")
+            self.gdrive_sub_tabs.setCurrentIndex(3)
+            return
+
+        self._set_ui_busy(True)
+        self.status_lbl.setText("Сканирование папки Google Диска...")
+
+        catalog_path = Path("catalog/data/catalog.json")
+        self._gdrive_folder_scan_worker = GoogleDriveFolderScanWorker(
+            folder_id=folder_id,
+            token=token,
+            author=self.common_author_edit.text().strip() or "GoogleDrive",
+            catalog_path=catalog_path
+        )
+        self._gdrive_folder_scan_worker.progress_status.connect(self._on_worker_progress)
+        self._gdrive_folder_scan_worker.finished.connect(self._on_gdrive_remote_scan_finished)
+        self._gdrive_folder_scan_worker.start()
+
+    def _on_gdrive_remote_scan_finished(self, success: bool, results: list, err: str):
+        self._set_ui_busy(False)
+        if success:
+            self.gdrive_remote_table.setRowCount(len(results))
+            for row, it in enumerate(results):
+                self.gdrive_remote_table.setItem(row, 0, QTableWidgetItem(it.get("titleId", "")))
+                self.gdrive_remote_table.setItem(row, 1, QTableWidgetItem(it.get("gameTitle", "")))
+                self.gdrive_remote_table.setItem(row, 2, QTableWidgetItem(it.get("filename", "")))
+                self.gdrive_remote_table.setItem(row, 3, QTableWidgetItem(it.get("directUrl", "")))
+                sz_mb = it.get("sizeBytes", 0) / (1024 * 1024)
+                self.gdrive_remote_table.setItem(row, 4, QTableWidgetItem(f"{sz_mb:.2f} MB"))
+
+            self.gdrive_remote_stats_lbl.setText(f"✓ Зарегистрировано в каталоге: {len(results)} видеофонов")
+            QMessageBox.information(
+                self, "Сканирование завершено",
+                f"Найдено и добавлено в catalog.json: {len(results)} видеофонов из Google Диска!\n\n"
+                f"Нажмите «Отправить catalog.json на GitHub» для обновления базы консоли."
+            )
+            self._refresh_catalog_table()
+        else:
+            self.status_lbl.setText("❌ Ошибка при сканировании Google Диска")
+            QMessageBox.critical(self, "Ошибка сканирования", f"Не удалось просканировать папку Google Диска:\n\n{err}")
+
+    def _test_gdrive_connection(self):
+        token = self.gdrive_token_edit.text().strip()
+        if not token:
+            QMessageBox.warning(self, "Внимание", "Введите Google Drive OAuth токен!")
+            return
+
+        self._set_ui_busy(True)
+        self.status_lbl.setText("Проверка подключения к Google Диску...")
+
+        self._gdrive_test_worker = GoogleDriveTestWorker(token)
+        self._gdrive_test_worker.finished.connect(self._on_gdrive_test_finished)
+        self._gdrive_test_worker.start()
+
+    def _on_gdrive_test_finished(self, success: bool, res: dict, err: str):
+        self._set_ui_busy(False)
+        if success and res.get("ok"):
+            name = res.get("displayName", "")
+            email = res.get("emailAddress", "")
+            quota = res.get("quota_str", "")
+            self.gdrive_top_status_lbl.setText(f"Google Диск: 🟢 {name} ({email})")
+            self.gdrive_top_status_lbl.setStyleSheet("color: #10B981; font-weight: bold; font-size: 12px;")
+            self.gdrive_quota_lbl.setText(f"✓ Подключено: {name} ({email})\nХранилище: {quota}")
+            QMessageBox.information(
+                self, "Успешное подключение",
+                f"Связь с Google Диском установлена!\n\n"
+                f"Пользователь: {name} ({email})\n"
+                f"Квота хранилища: {quota}"
+            )
+        else:
+            msg = res.get("error") if res else err
+            self.gdrive_top_status_lbl.setText("Google Диск: 🔴 Ошибка подключения")
+            self.gdrive_top_status_lbl.setStyleSheet("color: #EF4444; font-weight: bold; font-size: 12px;")
+            self.gdrive_quota_lbl.setText(f"⚠ Ошибка: {msg}")
+            QMessageBox.warning(self, "Ошибка подключения", f"Не удалось подключиться к Google Диску:\n\n{msg}")
+
+    def _save_gdrive_account_config(self):
+        cfg = {
+            "token": self.gdrive_token_edit.text().strip(),
+            "folder_id": self.gdrive_folder_cfg_edit.text().strip(),
+            "author": self.gdrive_author_cfg_edit.text().strip()
+        }
+        GoogleDriveHelper.save_stored_config(cfg)
+        self.gdrive_token = cfg["token"]
+        self.gdrive_folder_id = cfg["folder_id"]
+        self.gdrive_author = cfg["author"]
+        QMessageBox.information(self, "Сохранено", "Настройки Google Диска успешно сохранены в профиле!")
+
+    def _show_gdrive_token_help(self):
+        msg = (
+            "<b>Как получить токен Google Диска:</b><br><br>"
+            "1. Перейдите на официальный сервис Google OAuth Playground:<br>"
+            "   <b>https://developers.google.com/oauthplayground</b><br><br>"
+            "2. В списке «Step 1 Select & authorize APIs» выберите:<br>"
+            "   <b>Drive API v3</b> -> отметьте <code>https://www.googleapis.com/auth/drive</code><br><br>"
+            "3. Нажмите кнопку <b>«Authorize APIs»</b> и войдите в свой Google аккаунт (где 5 ТБ).<br><br>"
+            "4. В «Step 2» нажмите <b>«Exchange authorization code for tokens»</b>.<br><br>"
+            "5. Скопируйте <b>Access token</b> (начинается с <code>ya29...</code>) и вставьте его в поле токена в Студии.<br><br>"
+            "Нажмите «Сохранить настройки» — и вы сможете загружать архивы напрямую!"
+        )
+        box = QMessageBox(self)
+        box.setWindowTitle("Инструкция по токену Google")
+        box.setText(msg)
+        open_btn = box.addButton("🌐 Открыть OAuth Playground", QMessageBox.ActionRole)
+        box.addButton("Понятно", QMessageBox.AcceptRole)
+        box.exec()
+        if box.clickedButton() == open_btn:
+            import webbrowser
+            webbrowser.open("https://developers.google.com/oauthplayground/#step1&apisSelect=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive")
 
     def _sync_catalog_to_github(self):
         token = self.token_edit.text().strip()

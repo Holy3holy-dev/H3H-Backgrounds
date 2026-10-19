@@ -41,3 +41,5 @@ class ComplianceValidator:
             duration_sec=analysis.duration_sec,
             has_audio=analysis.has_audio,
         )
+
+    validate = validate_mp4
