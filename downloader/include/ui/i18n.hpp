@@ -30,6 +30,7 @@ struct StringTable {
     const char* statusNoCover;
     const char* statusHasBackup;
     const char* actionInstall;
+    const char* actionInstallAll;
     const char* actionRestore;
     const char* actionDelete;
     const char* actionSelect;
@@ -46,6 +47,8 @@ struct StringTable {
     const char* confirmDeleteMsg;
     const char* confirmInstallTitle;
     const char* confirmInstallMsg;
+    const char* confirmInstallAllTitle;
+    const char* confirmInstallAllMsg;
 
     // Settings
     const char* catalogUrlLabel;
@@ -74,6 +77,7 @@ inline const StringTable& getStrings(Language lang) {
         "Нет фона",
         "Есть копия",
         "Установить",
+        "Установить все",
         "Восстановить",
         "Удалить",
         "Выбрать",
@@ -89,6 +93,8 @@ inline const StringTable& getStrings(Language lang) {
         "Вы уверены, что хотите удалить видеофон этой игры?",
         "Установка видеофона",
         "Загрузить и установить выбранный видеофон на SD-карту?",
+        "Установка всех недостающих",
+        "Загрузить и установить видеофоны для всех игр без обложки?",
 
         "Источник каталога",
         "Очистить кэш каталога",
@@ -115,6 +121,7 @@ inline const StringTable& getStrings(Language lang) {
         "No Cover",
         "Backup Avail",
         "Install",
+        "Install All",
         "Restore",
         "Delete",
         "Select",
@@ -130,6 +137,8 @@ inline const StringTable& getStrings(Language lang) {
         "Are you sure you want to delete the video cover for this title?",
         "Install Cover",
         "Download and install the selected video cover to SD card?",
+        "Install All Missing",
+        "Download and install video covers for all games without covers?",
 
         "Catalog Source URL",
         "Clear Catalog Cache",

@@ -11,6 +11,7 @@
 #include <iomanip>
 #include <sstream>
 #include <chrono>
+#include <filesystem>
 
 namespace h3h {
 
@@ -343,6 +344,16 @@ public:
         if (!m_socketInitialized) {
             outError = "Сетевой сервис не доступен (нет инициализации сокетов)";
             return false;
+        }
+
+        // Ensure parent directories exist before opening file
+        size_t lastSlash = destPath.find_last_of("/\\");
+        if (lastSlash != std::string::npos) {
+            std::string parentDir = destPath.substr(0, lastSlash);
+            if (!parentDir.empty()) {
+                std::error_code ec;
+                std::filesystem::create_directories(parentDir, ec);
+            }
         }
 
         FILE* fp = fopen(destPath.c_str(), "wb");

@@ -33,6 +33,7 @@ enum class Tab {
 enum class DialogType {
     None,
     ConfirmInstall,
+    ConfirmInstallAll,
     ConfirmRestore,
     ConfirmDelete,
     MessageAlert
@@ -55,6 +56,8 @@ public:
     // Business Logic
     void refreshInstalledGames();
     void fetchRemoteCatalog();
+    void installAllMissing();
+    int getMissingCoversCount() const;
     void queueDownload(const InstalledTitle& title, const Variant& variant);
     void executeRestoreBackup(const std::string& titleId);
     void executeDeleteCover(const std::string& titleId);
@@ -133,6 +136,15 @@ private:
     std::string m_nroUpdateError;
     bool m_nroUpdateSuccess{false};
     std::mutex m_nroMutex;
+
+    // Thread-safe async download queue processing
+    void processSingleDownloadTask(int taskIdx);
+    std::thread m_queueThread;
+    std::atomic<bool> m_isProcessingQueue{false};
+    std::atomic<bool> m_cancelQueue{false};
+    std::atomic<bool> m_queueTaskFinished{false};
+    std::mutex m_queueMutex;
+    int m_downloadsScrollOffset{0};
 
     // Input debounce for analog sticks
     uint32_t m_lastStickScrollTime{0};

@@ -90,8 +90,35 @@ bool App::init() {
         return false;
     }
 
-    // Initialize GameController
+    // Register 1:1 physical Switch button mapping in SDL2 GameController database:
+    // Physical Joy-Con / Pro Controller layout:
+    // A = Button 0 (East / Right) -> SDL_CONTROLLER_BUTTON_A
+    // B = Button 1 (South / Bottom) -> SDL_CONTROLLER_BUTTON_B
+    // X = Button 2 (North / Top) -> SDL_CONTROLLER_BUTTON_X
+    // Y = Button 3 (West / Left) -> SDL_CONTROLLER_BUTTON_Y
+    //
+    // By default, devkitPro SDL2 uses Xbox-style layout: a:b1, b:b0, x:b3, y:b2
+    // which inverts A <-> B and X <-> Y.
+    // Registering 1:1 mappings ensures that physical button A confirms/installs,
+    // and physical button B cancels/returns.
+    const char* switchGuid = "000038f853776974636820436f6e7400";
+    std::string defaultSwitchMapping = std::string(switchGuid) + ",Switch Controller,"
+        "a:b0,b:b1,back:b11,dpdown:b15,dpleft:b12,dpright:b14,dpup:b13,"
+        "leftshoulder:b6,leftstick:b4,lefttrigger:b8,leftx:a0,lefty:a1,"
+        "rightshoulder:b7,rightstick:b5,righttrigger:b9,rightx:a2,righty:a3,"
+        "start:b10,x:b2,y:b3,";
+    SDL_GameControllerAddMapping(defaultSwitchMapping.c_str());
+
     for (int i = 0; i < SDL_NumJoysticks(); ++i) {
+        SDL_JoystickGUID guid = SDL_JoystickGetDeviceGUID(i);
+        char guidStr[64];
+        SDL_JoystickGetGUIDString(guid, guidStr, sizeof(guidStr));
+        std::string customMapping = std::string(guidStr) + ",Switch Controller,"
+            "a:b0,b:b1,back:b11,dpdown:b15,dpleft:b12,dpright:b14,dpup:b13,"
+            "leftshoulder:b6,leftstick:b4,lefttrigger:b8,leftx:a0,lefty:a1,"
+            "rightshoulder:b7,rightstick:b5,righttrigger:b9,rightx:a2,righty:a3,"
+            "start:b10,x:b2,y:b3,";
+        SDL_GameControllerAddMapping(customMapping.c_str());
         if (SDL_IsGameController(i)) {
             SDL_GameControllerOpen(i);
         }
@@ -103,6 +130,10 @@ bool App::init() {
 }
 
 void App::shutdown() {
+    m_cancelQueue.store(true);
+    if (m_queueThread.joinable()) {
+        m_queueThread.join();
+    }
     if (m_catalogThread.joinable()) {
         m_catalogThread.join();
     }
@@ -279,6 +310,152 @@ void App::update() {
         }
         m_notificationFramesRemaining = 240;
     }
+
+    // Process background queue task completion
+    if (m_queueTaskFinished.exchange(false)) {
+        refreshInstalledGames();
+    }
+
+    // Process next pending download task in background
+    if (!m_isProcessingQueue.load()) {
+        if (m_queueThread.joinable()) {
+            m_queueThread.join();
+        }
+
+        int nextPendingIdx = -1;
+        {
+            std::lock_guard<std::mutex> lock(m_queueMutex);
+            for (size_t i = 0; i < m_downloadQueue.size(); ++i) {
+                if (m_downloadQueue[i].state == TaskState::Pending) {
+                    nextPendingIdx = static_cast<int>(i);
+                    break;
+                }
+            }
+        }
+
+        if (nextPendingIdx != -1) {
+            m_isProcessingQueue.store(true);
+            m_queueThread = std::thread([this, nextPendingIdx]() {
+                processSingleDownloadTask(nextPendingIdx);
+            });
+        }
+    }
+}
+
+int App::getMissingCoversCount() const {
+    int count = 0;
+    for (const auto& g : m_installedGames) {
+        if (!g.hasInstalledCover && g.hasCatalogMatch && !g.catalogEntry.variants.empty()) {
+            bool alreadyInQueue = false;
+            for (const auto& task : m_downloadQueue) {
+                if (task.titleId == g.titleId && task.state != TaskState::Failed) {
+                    alreadyInQueue = true;
+                    break;
+                }
+            }
+            if (!alreadyInQueue) {
+                count++;
+            }
+        }
+    }
+    return count;
+}
+
+void App::installAllMissing() {
+    int missing = getMissingCoversCount();
+    if (missing == 0) {
+        m_statusNotification = (m_language == Language::Russian)
+            ? "Все доступные видеофоны уже установлены или находятся в очереди!"
+            : "All available video covers are already installed or in queue!";
+        m_notificationFramesRemaining = 180;
+        return;
+    }
+
+    m_activeDialog = DialogType::ConfirmInstallAll;
+    m_dialogTitle = (m_language == Language::Russian)
+        ? "Установка всех недостающих"
+        : "Install All Missing Covers";
+    m_dialogMessage = (m_language == Language::Russian)
+        ? ("Найдено игр без видеофона: " + std::to_string(missing) + ".\nЗагрузить и установить видеофоны для всех?")
+        : ("Found " + std::to_string(missing) + " games without covers.\nDownload and install covers for all?");
+    m_dialogFocus = 0;
+}
+
+void App::processSingleDownloadTask(int taskIdx) {
+    DownloadTask currentTask;
+    {
+        std::lock_guard<std::mutex> lock(m_queueMutex);
+        if (taskIdx < 0 || taskIdx >= static_cast<int>(m_downloadQueue.size())) {
+            m_isProcessingQueue.store(false);
+            return;
+        }
+        m_downloadQueue[taskIdx].state = TaskState::Downloading;
+        currentTask = m_downloadQueue[taskIdx];
+    }
+
+    std::string err;
+    auto progressCb = [this, taskIdx](uint64_t bytesDownloaded, uint64_t totalBytes, double speedBps) {
+        std::lock_guard<std::mutex> lock(m_queueMutex);
+        if (taskIdx >= 0 && taskIdx < static_cast<int>(m_downloadQueue.size())) {
+            m_downloadQueue[taskIdx].bytesDownloaded = bytesDownloaded;
+            if (totalBytes > 0) {
+                m_downloadQueue[taskIdx].totalBytes = totalBytes;
+                m_downloadQueue[taskIdx].progressPercent = (static_cast<double>(bytesDownloaded) / totalBytes) * 100.0;
+            }
+            m_downloadQueue[taskIdx].downloadSpeedBps = speedBps;
+        }
+    };
+
+    bool ok = m_platform->downloadFile(
+        currentTask.variant.url,
+        currentTask.tempFilePath,
+        progressCb,
+        m_cancelQueue,
+        err
+    );
+
+    if (!ok) {
+        std::lock_guard<std::mutex> lock(m_queueMutex);
+        if (taskIdx >= 0 && taskIdx < static_cast<int>(m_downloadQueue.size())) {
+            m_downloadQueue[taskIdx].state = TaskState::Failed;
+            m_downloadQueue[taskIdx].errorMessage = err;
+        }
+        m_queueTaskFinished.store(true);
+        m_isProcessingQueue.store(false);
+        return;
+    }
+
+    {
+        std::lock_guard<std::mutex> lock(m_queueMutex);
+        if (taskIdx >= 0 && taskIdx < static_cast<int>(m_downloadQueue.size())) {
+            m_downloadQueue[taskIdx].state = TaskState::Verifying;
+        }
+    }
+
+    InstallResult res = Installer::installVariant(
+        m_platform->getCoversDirectory(),
+        currentTask.titleId,
+        currentTask.tempFilePath,
+        currentTask.variant.sha256,
+        currentTask.variant.sizeBytes,
+        true
+    );
+
+    {
+        std::lock_guard<std::mutex> lock(m_queueMutex);
+        if (taskIdx >= 0 && taskIdx < static_cast<int>(m_downloadQueue.size())) {
+            if (res.success) {
+                m_downloadQueue[taskIdx].state = TaskState::Completed;
+                m_downloadQueue[taskIdx].progressPercent = 100.0;
+            } else {
+                m_downloadQueue[taskIdx].state = TaskState::Failed;
+                m_downloadQueue[taskIdx].errorMessage = res.message;
+            }
+        }
+    }
+
+    m_queueTaskFinished.store(true);
+    m_isProcessingQueue.store(false);
 }
 
 void App::queueDownload(const InstalledTitle& title, const Variant& variant) {
@@ -293,8 +470,13 @@ void App::queueDownload(const InstalledTitle& title, const Variant& variant) {
     task.state = TaskState::Pending;
     task.totalBytes = variant.sizeBytes;
 
-    m_downloadQueue.push_back(std::move(task));
-    m_statusNotification = "Добавлено в очередь загрузки: " + variant.name;
+    {
+        std::lock_guard<std::mutex> lock(m_queueMutex);
+        m_downloadQueue.push_back(std::move(task));
+    }
+    m_statusNotification = (m_language == Language::Russian)
+        ? ("Добавлено в очередь: " + title.name + " (" + variant.name + ")")
+        : ("Added to queue: " + title.name + " (" + variant.name + ")");
     m_notificationFramesRemaining = 180;
 }
 
@@ -364,6 +546,25 @@ void App::handleInput() {
             int mx = event.button.x;
             int my = event.button.y;
 
+            // If dialog is open, handle direct taps on dialog buttons
+            if (m_activeDialog != DialogType::None) {
+                // Confirm button: x in [440, 610], y in [400, 450]
+                if (my >= 400 && my <= 450 && mx >= 440 && mx <= 610) {
+                    m_dialogFocus = 0;
+                    onButtonPress(0 /* A - Confirm */);
+                }
+                // Cancel button: x in [650, 820], y in [400, 450]
+                else if (my >= 400 && my <= 450 && mx >= 650 && mx <= 820) {
+                    m_dialogFocus = 1;
+                    onButtonPress(1 /* B - Cancel */);
+                }
+                // Outside dialog: dismiss
+                else if (mx < 315 || mx > 965 || my < 235 || my > 485) {
+                    m_activeDialog = DialogType::None;
+                }
+                continue;
+            }
+
             // Top Header tabs: y in [10, 55]
             if (my >= 10 && my <= 55) {
                 if (mx >= 340 && mx < 460) m_activeTab = Tab::Home;
@@ -372,16 +573,23 @@ void App::handleInput() {
                 else if (mx >= 700 && mx < 820) m_activeTab = Tab::Downloads;
                 else if (mx >= 820 && mx < 940) m_activeTab = Tab::Settings;
             }
-            // Catalog Tab: top-right "[-] Обновить" button: x in [980, 1220], y in [95, 145]
-            else if (m_activeTab == Tab::Catalog && mx >= 980 && mx <= 1220 && my >= 95 && my <= 145) {
-                onButtonPress(4 /* Minus / Refresh */);
+            // Home Tab: click on Action Card "Установить все недостающие" (y in [260, 380])
+            else if (m_activeTab == Tab::Home && mx >= 60 && mx <= 1220 && my >= 260 && my <= 380) {
+                installAllMissing();
             }
-            // Catalog Tab: click directly on an item in the list
-            else if (m_activeTab == Tab::Catalog && mx >= 60 && mx <= 1220 && my >= 160 && my <= 640) {
-                int clickedIndex = m_catalogScrollOffset + (my - 160) / 95;
-                if (clickedIndex >= 0 && clickedIndex < static_cast<int>(m_catalogManager.getAllGames().size())) {
-                    m_catalogSelectedIndex = clickedIndex;
-                }
+            // Home Tab: click on Metric Cards
+            else if (m_activeTab == Tab::Home && my >= 100 && my <= 240) {
+                if (mx >= 60 && mx <= 820) m_activeTab = Tab::MyGames;
+                else if (mx >= 860 && mx <= 1220) fetchRemoteCatalog();
+            }
+            // Home Tab: quick navigation cards at y in [400, 490]
+            else if (m_activeTab == Tab::Home && my >= 400 && my <= 490) {
+                if (mx >= 60 && mx <= 620) m_activeTab = Tab::MyGames;
+                else if (mx >= 660 && mx <= 1220) fetchRemoteCatalog();
+            }
+            // MyGames Tab: top-right "Установить все" button: x in [950, 1230], y in [95, 140]
+            else if (m_activeTab == Tab::MyGames && mx >= 950 && mx <= 1230 && my >= 95 && my <= 140) {
+                installAllMissing();
             }
             // MyGames Tab: click directly on an item in left list
             else if (m_activeTab == Tab::MyGames && mx >= 30 && mx <= 480 && my >= 105 && my <= 640) {
@@ -389,6 +597,25 @@ void App::handleInput() {
                 if (clickedIndex >= 0 && clickedIndex < static_cast<int>(m_installedGames.size())) {
                     m_myGamesSelectedIndex = clickedIndex;
                     m_selectedVariantIndex = 0;
+                }
+            }
+            // MyGames Tab: click on variant install button in right pane
+            else if (m_activeTab == Tab::MyGames && mx >= 1050 && mx <= 1220 && my >= 285 && my <= 600) {
+                onButtonPress(0 /* A - Install */);
+            }
+            // Catalog Tab: top-right "[-] Обновить" button: x in [980, 1220], y in [95, 145]
+            else if (m_activeTab == Tab::Catalog && mx >= 980 && mx <= 1220 && my >= 95 && my <= 145) {
+                onButtonPress(4 /* Minus / Refresh */);
+            }
+            // Catalog Tab: top-right "Установить недостающие" button: x in [680, 960], y in [95, 145]
+            else if (m_activeTab == Tab::Catalog && mx >= 680 && mx <= 960 && my >= 95 && my <= 145) {
+                installAllMissing();
+            }
+            // Catalog Tab: click directly on an item in the list
+            else if (m_activeTab == Tab::Catalog && mx >= 60 && mx <= 1220 && my >= 160 && my <= 640) {
+                int clickedIndex = m_catalogScrollOffset + (my - 160) / 95;
+                if (clickedIndex >= 0 && clickedIndex < static_cast<int>(m_catalogManager.getAllGames().size())) {
+                    m_catalogSelectedIndex = clickedIndex;
                 }
             }
             // Settings Tab: buttons at y in [300, 350]
@@ -432,7 +659,7 @@ void App::handleInput() {
 void App::onButtonPress(int button) {
     // If Dialog is active, route all input to dialog
     if (m_activeDialog != DialogType::None) {
-        if (button == 11 /* DPAD_LEFT */ || button == 12 /* DPAD_RIGHT */) {
+        if (button == 13 /* DPAD_LEFT */ || button == 14 /* DPAD_RIGHT */) {
             m_dialogFocus = 1 - m_dialogFocus;
         } else if (button == 0 /* A - Confirm */) {
             if (m_dialogFocus == 0) { // Yes / Confirm
@@ -443,6 +670,22 @@ void App::onButtonPress(int button) {
                             break;
                         }
                     }
+                } else if (m_activeDialog == DialogType::ConfirmInstallAll) {
+                    for (const auto& g : m_installedGames) {
+                        if (!g.hasInstalledCover && g.hasCatalogMatch && !g.catalogEntry.variants.empty()) {
+                            bool alreadyInQueue = false;
+                            for (const auto& task : m_downloadQueue) {
+                                if (task.titleId == g.titleId && task.state != TaskState::Failed) {
+                                    alreadyInQueue = true;
+                                    break;
+                                }
+                            }
+                            if (!alreadyInQueue) {
+                                queueDownload(g, g.catalogEntry.variants[0]);
+                            }
+                        }
+                    }
+                    m_activeTab = Tab::Downloads;
                 } else if (m_activeDialog == DialogType::ConfirmRestore) {
                     executeRestoreBackup(m_pendingActionTitleId);
                 } else if (m_activeDialog == DialogType::ConfirmDelete) {
@@ -462,6 +705,14 @@ void App::onButtonPress(int button) {
         return;
     }
 
+    // Standard Nintendo Switch [B] button: Return to Home tab from any view
+    if (button == 1 /* B - Back */) {
+        if (m_activeTab != Tab::Home) {
+            m_activeTab = Tab::Home;
+            return;
+        }
+    }
+
     // Tab switching with Shoulder buttons (L/R)
     if (button == 9 /* LEFTSHOULDER */) {
         int tabInt = static_cast<int>(m_activeTab);
@@ -478,7 +729,11 @@ void App::onButtonPress(int button) {
 
     // View-specific input handling
     if (m_activeTab == Tab::Home) {
-        if (button == 0 /* A */ || button == 2 /* X */) {
+        if (button == 0 /* A - Enter My Games */) {
+            m_activeTab = Tab::MyGames;
+        } else if (button == 3 /* Y - Install all missing */) {
+            installAllMissing();
+        } else if (button == 2 /* X - Refresh */) {
             fetchRemoteCatalog();
         }
     } else if (m_activeTab == Tab::MyGames) {
@@ -525,7 +780,7 @@ void App::onButtonPress(int button) {
                     m_dialogFocus = 0;
                 }
             }
-        } else if (button == 3 /* Y - Delete Cover */) {
+        } else if (button == 3 /* Y - Delete Cover or Install All Missing */) {
             if (m_myGamesSelectedIndex >= 0 && m_myGamesSelectedIndex < static_cast<int>(m_installedGames.size())) {
                 const auto& g = m_installedGames[m_myGamesSelectedIndex];
                 if (g.hasInstalledCover) {
@@ -534,7 +789,11 @@ void App::onButtonPress(int button) {
                     m_dialogTitle = getStrings(m_language).confirmDeleteTitle;
                     m_dialogMessage = getStrings(m_language).confirmDeleteMsg;
                     m_dialogFocus = 0;
+                } else {
+                    installAllMissing();
                 }
+            } else {
+                installAllMissing();
             }
         }
     } else if (m_activeTab == Tab::Catalog) {
@@ -543,8 +802,18 @@ void App::onButtonPress(int button) {
             if (m_catalogSelectedIndex > 0) m_catalogSelectedIndex--;
         } else if (button == 12 /* DPAD_DOWN */) {
             if (m_catalogSelectedIndex + 1 < totalGames) m_catalogSelectedIndex++;
-        } else if (button == 2 /* X */ || button == 0 /* A */ || button == 3 /* Y */) {
+        } else if (button == 2 /* X */ || button == 0 /* A */) {
             fetchRemoteCatalog();
+        } else if (button == 3 /* Y - Install all missing */) {
+            installAllMissing();
+        }
+    } else if (m_activeTab == Tab::Downloads) {
+        if (button == 11 /* DPAD_UP */) {
+            if (m_downloadsScrollOffset > 0) m_downloadsScrollOffset--;
+        } else if (button == 12 /* DPAD_DOWN */) {
+            if (m_downloadsScrollOffset + 5 < static_cast<int>(m_downloadQueue.size())) m_downloadsScrollOffset++;
+        } else if (button == 3 /* Y - Install all missing */) {
+            installAllMissing();
         }
     } else if (m_activeTab == Tab::Settings) {
         if (button == 0 /* A */) {
@@ -635,27 +904,16 @@ void App::renderFooter() {
     drawRect(0, 670, Theme::SCREEN_WIDTH, 1, Theme::COLOR_BORDER);
 
     std::string hints;
-    if (m_activeTab == Tab::MyGames) {
-        hints = "[L/R] " + std::string(s.actionSelect) + "  "
-                "[A] " + std::string(s.actionInstall) + "  "
-                "[B] " + std::string(s.actionBack) + "  "
-                "[X] " + std::string(s.actionRestore) + "  "
-                "[Y] " + std::string(s.actionDelete) + "  "
-                "[-] " + std::string(s.actionRefresh);
+    if (m_activeTab == Tab::Home) {
+        hints = "[L/R] Вкладки   [A] Мои игры   [Y] Установить все недостающие   [X] Обновить   [-] GitHub";
+    } else if (m_activeTab == Tab::MyGames) {
+        hints = "[L/R] Вкладки   [A] Установить   [B] Назад   [X] Восстановить   [Y] Удалить / Все   [-] Обновить";
     } else if (m_activeTab == Tab::Catalog) {
-        hints = "[L/R] " + std::string(s.actionSelect) + "  "
-                "[-] " + std::string(s.actionRefresh) + "  "
-                "[X/A] " + std::string(s.actionRefreshCatalog);
+        hints = "[L/R] Вкладки   [B] Назад   [-] / [X] Обновить каталог   [Y] Установить недостающие";
+    } else if (m_activeTab == Tab::Downloads) {
+        hints = "[L/R] Вкладки   [B] Назад   [-] Обновить каталог";
     } else if (m_activeTab == Tab::Settings) {
-        hints = "[L/R] " + std::string(s.actionSelect) + "  "
-                "[A] Язык  "
-                "[X] " + std::string(s.clearCacheBtn) + "  "
-                "[-] / [Y] " + std::string(s.actionRefreshCatalog) + "  "
-                "[+] " + std::string(s.updateAppBtn);
-    } else {
-        hints = "[L/R] " + std::string(s.actionSelect) + "  "
-                "[A/X] " + std::string(s.actionRefresh) + "  "
-                "[-] " + std::string(s.actionRefresh);
+        hints = "[L/R] Вкладки   [A] Язык   [B] Назад   [X] " + std::string(s.clearCacheBtn) + "   [-] / [Y] Обновить   [+] " + std::string(s.updateAppBtn);
     }
 
     drawText(hints, 30, 685, Theme::COLOR_TEXT_MUTED, 14);
@@ -675,31 +933,74 @@ void App::renderTabHome() {
         if (g.hasInstalledCover) installedCovers++;
     }
     size_t catalogCount = m_catalogManager.getGamesCount();
+    int missing = getMissingCoversCount();
 
     // Metric Card 1: Detected Games
-    drawRect(60, 100, 360, 160, Theme::COLOR_BG_SURFACE);
-    drawRectOutline(60, 100, 360, 160, Theme::COLOR_BORDER, 1);
-    drawText(s.statDetectedGames, 80, 120, Theme::COLOR_TEXT_MUTED, 16);
-    drawText(std::to_string(detected), 80, 160, Theme::COLOR_TEXT_PRIMARY, 42);
+    drawRect(60, 95, 360, 145, Theme::COLOR_BG_SURFACE);
+    drawRectOutline(60, 95, 360, 145, Theme::COLOR_BORDER, 1);
+    drawText(s.statDetectedGames, 80, 115, Theme::COLOR_TEXT_MUTED, 16);
+    drawText(std::to_string(detected), 80, 150, Theme::COLOR_TEXT_PRIMARY, 42);
+    drawText("[A] Перейти в Мои игры", 80, 205, Theme::COLOR_FOCUS_RING, 13);
 
     // Metric Card 2: Installed Covers
-    drawRect(460, 100, 360, 160, Theme::COLOR_BG_SURFACE);
-    drawRectOutline(460, 100, 360, 160, Theme::COLOR_BORDER, 1);
-    drawText(s.statInstalledCovers, 480, 120, Theme::COLOR_TEXT_MUTED, 16);
-    drawText(std::to_string(installedCovers), 480, 160, Theme::COLOR_SUCCESS, 42);
+    drawRect(460, 95, 360, 145, Theme::COLOR_BG_SURFACE);
+    drawRectOutline(460, 95, 360, 145, Theme::COLOR_BORDER, 1);
+    drawText(s.statInstalledCovers, 480, 115, Theme::COLOR_TEXT_MUTED, 16);
+    drawText(std::to_string(installedCovers), 480, 150, Theme::COLOR_SUCCESS, 42);
+    int missingInstalled = (detected > installedCovers) ? static_cast<int>(detected - installedCovers) : 0;
+    drawText(std::to_string(missingInstalled) + " без видеофона", 480, 205, Theme::COLOR_TEXT_MUTED, 13);
 
     // Metric Card 3: Available in Catalog
-    drawRect(860, 100, 360, 160, Theme::COLOR_BG_SURFACE);
-    drawRectOutline(860, 100, 360, 160, Theme::COLOR_BORDER, 1);
-    drawText(s.statAvailableCatalog, 880, 120, Theme::COLOR_TEXT_MUTED, 16);
-    drawText(std::to_string(catalogCount), 880, 160, Theme::COLOR_ACCENT, 42);
-    drawText("[-] " + std::string(s.actionRefreshCatalog), 880, 215, Theme::COLOR_FOCUS_RING, 13);
+    drawRect(860, 95, 360, 145, Theme::COLOR_BG_SURFACE);
+    drawRectOutline(860, 95, 360, 145, Theme::COLOR_BORDER, 1);
+    drawText(s.statAvailableCatalog, 880, 115, Theme::COLOR_TEXT_MUTED, 16);
+    drawText(std::to_string(catalogCount), 880, 150, Theme::COLOR_ACCENT, 42);
+    drawText("[-] " + std::string(s.actionRefreshCatalog), 880, 205, Theme::COLOR_FOCUS_RING, 13);
+
+    // Prominent Action Card: Install All Missing Covers
+    int cardY = 260;
+    int cardH = 120;
+    drawRect(60, cardY, 1160, cardH, Theme::COLOR_BG_SURFACE);
+    if (missing > 0) {
+        drawRectOutline(60, cardY, 1160, cardH, Theme::COLOR_ACCENT, 2);
+
+        // Badge
+        drawRect(80, cardY + 18, 175, 26, Theme::COLOR_FOCUS_FILL);
+        drawRectOutline(80, cardY + 18, 175, 26, Theme::COLOR_ACCENT, 1);
+        drawText("ТРЕБУЕТСЯ ДЕЙСТВИЕ", 90, cardY + 24, Theme::COLOR_FOCUS_RING, 12);
+
+        std::string titleStr = "[Y]  Установить все недостающие видеофоны (" + std::to_string(missing) + " игр)";
+        drawText(titleStr, 80, cardY + 54, Theme::COLOR_TEXT_PRIMARY, 20);
+
+        std::string descStr = "Автоматически добавить все игры без видеофонов в очередь загрузки и установить в 4IFIR.";
+        drawText(descStr, 80, cardY + 86, Theme::COLOR_TEXT_MUTED, 13);
+
+        // Action button on the right
+        drawRect(910, cardY + 35, 280, 50, Theme::COLOR_ACCENT);
+        drawText("[Y] Установить все", 955, cardY + 50, Theme::COLOR_TEXT_PRIMARY, 16);
+    } else {
+        drawRectOutline(60, cardY, 1160, cardH, Theme::COLOR_SUCCESS, 1);
+        drawText("✔ Все видеофоны установлены", 80, cardY + 35, Theme::COLOR_SUCCESS, 20);
+        drawText("Все Ваши игры на консоли уже имеют установленные видеофоны 4IFIR.", 80, cardY + 70, Theme::COLOR_TEXT_MUTED, 14);
+    }
+
+    // Quick Action Cards
+    int navY = 405;
+    drawRect(60, navY, 560, 95, Theme::COLOR_BG_SURFACE);
+    drawRectOutline(60, navY, 560, 95, Theme::COLOR_BORDER, 1);
+    drawText("[A] Перейти к списку 'Мои игры'", 85, navY + 22, Theme::COLOR_TEXT_PRIMARY, 16);
+    drawText("Просмотр установленных игр, выбор вариантов обложек и ручная установка", 85, navY + 55, Theme::COLOR_TEXT_MUTED, 13);
+
+    drawRect(660, navY, 560, 95, Theme::COLOR_BG_SURFACE);
+    drawRectOutline(660, navY, 560, 95, Theme::COLOR_BORDER, 1);
+    drawText("[-] Обновить каталог видеофонов", 685, navY + 22, Theme::COLOR_ACCENT, 16);
+    drawText("Загрузить новейшую базу видеофонов с официального репозитория GitHub", 685, navY + 55, Theme::COLOR_TEXT_MUTED, 13);
 
     // Applet Warning if applicable
     if (m_sysInfo.isAppletMode) {
-        drawRect(60, 300, 1160, 60, Theme::COLOR_BG_ELEVATED);
-        drawRectOutline(60, 300, 1160, 60, Theme::COLOR_WARNING, 2);
-        drawText(s.appletWarning, 80, 320, Theme::COLOR_WARNING, 15);
+        drawRect(60, 525, 1160, 50, Theme::COLOR_BG_ELEVATED);
+        drawRectOutline(60, 525, 1160, 50, Theme::COLOR_WARNING, 2);
+        drawText(s.appletWarning, 80, 542, Theme::COLOR_WARNING, 14);
     }
 }
 
@@ -761,6 +1062,13 @@ void App::renderTabMyGames() {
         drawText(selGame.name, 530, 110, Theme::COLOR_TEXT_PRIMARY, 22);
         drawText("Title ID: " + selGame.titleId + "  |  " + selGame.author, 530, 145, Theme::COLOR_TEXT_MUTED, 14);
 
+        int missing = getMissingCoversCount();
+        if (missing > 0) {
+            drawRect(950, 95, 280, 40, Theme::COLOR_BG_ELEVATED);
+            drawRectOutline(950, 95, 280, 40, Theme::COLOR_ACCENT, 1);
+            drawText("[Y] Установить все (" + std::to_string(missing) + ")", 970, 107, Theme::COLOR_ACCENT, 14);
+        }
+
         // Status details
         std::string coverInfo = selGame.hasInstalledCover ?
             "Установлен: " + Config::getTargetCoverFileName(selGame.titleId) + " (" +
@@ -814,6 +1122,13 @@ void App::renderTabCatalog() {
     drawRectOutline(980, 95, 240, 42, Theme::COLOR_ACCENT, 1);
     drawText("[-] " + std::string(s.actionRefreshCatalog), 1000, 107, Theme::COLOR_ACCENT, 14);
 
+    int missing = getMissingCoversCount();
+    if (missing > 0) {
+        drawRect(680, 95, 280, 42, Theme::COLOR_BG_ELEVATED);
+        drawRectOutline(680, 95, 280, 42, Theme::COLOR_ACCENT, 1);
+        drawText("[Y] Установить все (" + std::to_string(missing) + ")", 700, 107, Theme::COLOR_ACCENT, 14);
+    }
+
     const auto& allGames = m_catalogManager.getAllGames();
     if (allGames.empty()) {
         drawText("Каталог пуст или ещё не загружен.", 60, 180, Theme::COLOR_TEXT_MUTED, 16);
@@ -854,18 +1169,91 @@ void App::renderTabCatalog() {
 void App::renderTabDownloads() {
     drawRect(30, 80, 1220, 570, Theme::COLOR_BG_SURFACE);
     drawRectOutline(30, 80, 1220, 570, Theme::COLOR_BORDER, 1);
-    drawText("Очередь загрузки", 60, 110, Theme::COLOR_TEXT_PRIMARY, 20);
+    drawText("Очередь загрузки видеофонов", 60, 110, Theme::COLOR_TEXT_PRIMARY, 20);
 
-    if (m_downloadQueue.empty()) {
-        drawText("Очередь пуста. Выберите видеофон в разделе 'Мои игры' для загрузки.", 60, 160, Theme::COLOR_TEXT_MUTED, 15);
-    } else {
-        int y = 160;
-        for (const auto& task : m_downloadQueue) {
-            drawRect(60, y, 1160, 70, Theme::COLOR_BG_ELEVATED);
-            drawText(task.gameTitle + " - " + task.variant.name, 80, y + 12, Theme::COLOR_TEXT_PRIMARY, 15);
-            drawText("Статус: Ожидание / Проверка свободного места", 80, y + 38, Theme::COLOR_ACCENT, 13);
-            y += 85;
+    std::vector<DownloadTask> tasksCopy;
+    {
+        std::lock_guard<std::mutex> lock(m_queueMutex);
+        tasksCopy = m_downloadQueue;
+    }
+
+    if (tasksCopy.empty()) {
+        drawText("Очередь пуста. Выберите видеофон в разделе 'Мои игры' или установите все недостающие.", 60, 160, Theme::COLOR_TEXT_MUTED, 15);
+        drawText("Нажмите [Y] на главной вкладке, чтобы автоматически установить все недостающие видеофоны.", 60, 195, Theme::COLOR_ACCENT, 14);
+        return;
+    }
+
+    const int visibleTasks = 5;
+    int totalTasks = static_cast<int>(tasksCopy.size());
+    if (m_downloadsScrollOffset < 0) m_downloadsScrollOffset = 0;
+    if (m_downloadsScrollOffset + visibleTasks > totalTasks) {
+        m_downloadsScrollOffset = std::max(0, totalTasks - visibleTasks);
+    }
+
+    std::string summary = "Задач в очереди: " + std::to_string(totalTasks) +
+        "  (Показаны " + std::to_string(m_downloadsScrollOffset + 1) + " - " +
+        std::to_string(std::min(totalTasks, m_downloadsScrollOffset + visibleTasks)) + ")";
+    drawText(summary, 360, 114, Theme::COLOR_TEXT_MUTED, 13);
+
+    int y = 160;
+    int endIdx = std::min(totalTasks, m_downloadsScrollOffset + visibleTasks);
+    for (int i = m_downloadsScrollOffset; i < endIdx; ++i) {
+        const auto& task = tasksCopy[i];
+        drawRect(60, y, 1160, 80, Theme::COLOR_BG_ELEVATED);
+        drawRectOutline(60, y, 1160, 80, Theme::COLOR_BORDER, 1);
+
+        // Title and variant
+        drawText(task.gameTitle + "  [" + task.variant.name + "]", 80, y + 12, Theme::COLOR_TEXT_PRIMARY, 16);
+
+        if (task.state == TaskState::Downloading) {
+            // Progress bar
+            int barW = 500;
+            int barH = 10;
+            drawRect(80, y + 44, barW, barH, Theme::COLOR_BG_SURFACE);
+            int fillW = static_cast<int>(barW * std::clamp(task.progressPercent / 100.0, 0.0, 1.0));
+            drawRect(80, y + 44, fillW, barH, Theme::COLOR_FOCUS_RING);
+
+            std::string progStr = std::to_string(static_cast<int>(task.progressPercent)) + "% (" +
+                std::to_string(task.bytesDownloaded / (1024 * 1024)) + " / " +
+                std::to_string(task.totalBytes / (1024 * 1024)) + " MB)";
+            drawText(progStr, 600, y + 42, Theme::COLOR_ACCENT, 13);
+
+            double speedKb = task.downloadSpeedBps / 1024.0;
+            std::string speedStr;
+            if (speedKb >= 1024.0) {
+                speedStr = std::to_string(static_cast<int>(speedKb / 1024.0)) + "." +
+                    std::to_string(static_cast<int>((speedKb / 102.4)) % 10) + " MB/s";
+            } else {
+                speedStr = std::to_string(static_cast<int>(speedKb)) + " KB/s";
+            }
+            drawText(speedStr, 760, y + 42, Theme::COLOR_TEXT_MUTED, 13);
+
+            drawRect(1010, y + 25, 180, 32, Theme::COLOR_FOCUS_FILL);
+            drawRectOutline(1010, y + 25, 180, 32, Theme::COLOR_FOCUS_RING, 1);
+            drawText("Загрузка...", 1055, y + 32, Theme::COLOR_FOCUS_RING, 13);
+        } else if (task.state == TaskState::Verifying) {
+            drawText("Проверка SHA-256 и установка в 4IFIR...", 80, y + 42, Theme::COLOR_WARNING, 14);
+            drawRect(1010, y + 25, 180, 32, Theme::COLOR_BG_SURFACE);
+            drawRectOutline(1010, y + 25, 180, 32, Theme::COLOR_WARNING, 1);
+            drawText("Установка...", 1050, y + 32, Theme::COLOR_WARNING, 13);
+        } else if (task.state == TaskState::Completed) {
+            drawText("Успешно установлен в sdmc:/recordings/covers/", 80, y + 42, Theme::COLOR_SUCCESS, 14);
+            drawRect(1010, y + 25, 180, 32, Theme::COLOR_BG_SURFACE);
+            drawRectOutline(1010, y + 25, 180, 32, Theme::COLOR_SUCCESS, 1);
+            drawText("✔ Установлен", 1045, y + 32, Theme::COLOR_SUCCESS, 13);
+        } else if (task.state == TaskState::Failed) {
+            drawText("Ошибка: " + task.errorMessage, 80, y + 42, Theme::COLOR_DANGER, 13);
+            drawRect(1010, y + 25, 180, 32, Theme::COLOR_BG_SURFACE);
+            drawRectOutline(1010, y + 25, 180, 32, Theme::COLOR_DANGER, 1);
+            drawText("✖ Ошибка", 1060, y + 32, Theme::COLOR_DANGER, 13);
+        } else { // Pending
+            drawText("В очереди ожидания...", 80, y + 42, Theme::COLOR_TEXT_MUTED, 14);
+            drawRect(1010, y + 25, 180, 32, Theme::COLOR_BG_SURFACE);
+            drawRectOutline(1010, y + 25, 180, 32, Theme::COLOR_BORDER, 1);
+            drawText("Ожидание", 1060, y + 32, Theme::COLOR_TEXT_MUTED, 13);
         }
+
+        y += 92;
     }
 }
 
@@ -918,7 +1306,15 @@ void App::renderDialog() {
     drawRectOutline(dx, dy, dw, dh, Theme::COLOR_FOCUS_RING, 2);
 
     drawText(m_dialogTitle, dx + 30, dy + 25, Theme::COLOR_TEXT_PRIMARY, 20);
-    drawText(m_dialogMessage, dx + 30, dy + 75, Theme::COLOR_TEXT_MUTED, 14);
+
+    // Render multi-line message
+    std::stringstream ss(m_dialogMessage);
+    std::string line;
+    int msgY = dy + 75;
+    while (std::getline(ss, line, '\n')) {
+        drawText(line, dx + 30, msgY, Theme::COLOR_TEXT_MUTED, 14);
+        msgY += 24;
+    }
 
     // Action buttons
     int btnW = 160;
