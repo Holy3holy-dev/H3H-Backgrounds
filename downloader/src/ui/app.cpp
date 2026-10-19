@@ -220,7 +220,7 @@ void App::updateApplicationNro() {
     }
 
     m_nroUpdateThread = std::thread([this]() {
-        std::string nroUrl = "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.0.0/H3H-Backgrounds.nro";
+        std::string nroUrl = "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/latest/download/H3H-Backgrounds.nro";
         std::string appDir = m_platform->getAppDirectory();
         std::string tempNro = appDir + "/H3H-Backgrounds.nro.tmp";
         std::string targetNro = appDir + "/H3H-Backgrounds.nro";

@@ -74,8 +74,24 @@ public:
             m_nifmInitialized = true;
         }
 
-        // Initialize BSD socket service (standard BsdServiceType_User for homebrew)
-        rc = socketInitializeDefault();
+        // Initialize BSD socket service with high-performance buffer configuration
+        // (Uses 1 MB rx / 2 MB max rx window, matching DBI & Tinfoil network performance)
+        SocketInitConfig sockConf = {
+            .tcp_tx_buf_size = 0x40000,          // 256 KB
+            .tcp_rx_buf_size = 0x100000,         // 1 MB
+            .tcp_tx_buf_max_size = 0x200000,     // 2 MB
+            .tcp_rx_buf_max_size = 0x200000,     // 2 MB
+            .udp_tx_buf_size = 0x2400,
+            .udp_rx_buf_size = 0xA500,
+            .sb_efficiency = 4,
+            .num_bsd_sessions = 3,
+            .bsd_service_type = BsdServiceType_Auto,
+        };
+        rc = socketInitialize(&sockConf);
+        if (R_FAILED(rc)) {
+            // Fallback to default if memory allocation fails in restricted modes
+            rc = socketInitializeDefault();
+        }
         if (R_SUCCEEDED(rc)) {
             m_socketInitialized = true;
         }
@@ -306,9 +322,11 @@ public:
         curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);
         curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);
         curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
-        curl_easy_setopt(curl, CURLOPT_CONNECTTIMEOUT, 8L);
-        curl_easy_setopt(curl, CURLOPT_TIMEOUT, 15L);
-        curl_easy_setopt(curl, CURLOPT_USERAGENT, "H3H-Backgrounds-Downloader/1.0 (Nintendo Switch)");
+        curl_easy_setopt(curl, CURLOPT_CONNECTTIMEOUT, 10L);
+        curl_easy_setopt(curl, CURLOPT_TIMEOUT, 20L);
+        curl_easy_setopt(curl, CURLOPT_BUFFERSIZE, 64 * 1024L);
+        curl_easy_setopt(curl, CURLOPT_TCP_NODELAY, 1L);
+        curl_easy_setopt(curl, CURLOPT_USERAGENT, "Mozilla/5.0 (Nintendo Switch; ShareApplet) AppleWebKit/609.4 (KHTML, like Gecko) NF/6.0.2.22.5 NintendoBrowser/5.1.0.22474");
 
         typedef size_t (*CurlWriteFn)(char*, size_t, size_t, void*);
         CurlWriteFn writeFn = curlStringWriteCallback;
@@ -362,6 +380,10 @@ public:
             return false;
         }
 
+        // 256 KB memory buffer for MicroSD block writes (eliminates FAT32 SD-card write stalls)
+        std::vector<char> fileBuffer(256 * 1024);
+        setvbuf(fp, fileBuffer.data(), _IOFBF, fileBuffer.size());
+
         CURL* curl = curl_easy_init();
         if (!curl) {
             fclose(fp);
@@ -380,8 +402,12 @@ public:
         curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);
         curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);
         curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
-        curl_easy_setopt(curl, CURLOPT_CONNECTTIMEOUT, 10L);
-        curl_easy_setopt(curl, CURLOPT_USERAGENT, "H3H-Backgrounds-Downloader/1.0 (Nintendo Switch)");
+        curl_easy_setopt(curl, CURLOPT_MAXREDIRS, 10L);
+        curl_easy_setopt(curl, CURLOPT_CONNECTTIMEOUT, 15L);
+        curl_easy_setopt(curl, CURLOPT_BUFFERSIZE, 256 * 1024L); // 256 KB curl receive buffer
+        curl_easy_setopt(curl, CURLOPT_TCP_NODELAY, 1L);         // Disable Nagle algorithm
+        curl_easy_setopt(curl, CURLOPT_TCP_KEEPALIVE, 1L);
+        curl_easy_setopt(curl, CURLOPT_USERAGENT, "Mozilla/5.0 (Nintendo Switch; ShareApplet) AppleWebKit/609.4 (KHTML, like Gecko) NF/6.0.2.22.5 NintendoBrowser/5.1.0.22474");
         curl_easy_setopt(curl, CURLOPT_XFERINFOFUNCTION, xferFn);
         curl_easy_setopt(curl, CURLOPT_XFERINFODATA, &ctx);
         curl_easy_setopt(curl, CURLOPT_NOPROGRESS, 0L);
@@ -390,6 +416,7 @@ public:
         long httpCode = 0;
         curl_easy_getinfo(curl, CURLINFO_RESPONSE_CODE, &httpCode);
 
+        fflush(fp);
         fclose(fp);
         curl_easy_cleanup(curl);
 
