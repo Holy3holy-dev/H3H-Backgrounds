@@ -345,27 +345,48 @@ class GitHubPublisher:
             return []
 
         search_dirs = []
+        base_scan_dir = None
+
         if source.is_file():
             ext = source.suffix.lower()
             extract_dir = Path(tempfile.gettempdir()) / f"h3h_batch_{source.stem}"
             extract_dir.mkdir(parents=True, exist_ok=True)
+            base_scan_dir = extract_dir
 
             if ext == ".zip":
                 if progress_cb:
-                    progress_cb("Чтение оглавления ZIP-архива...")
+                    progress_cb("Чтение структуры и подпапок ZIP-архива...")
                 with zipfile.ZipFile(source, "r") as zf:
-                    all_names = zf.namelist()
-                    mp4_names = [n for n in all_names if n.lower().endswith(".mp4") and not n.startswith("__MACOSX")]
-                    target_names = mp4_names if mp4_names else all_names
-                    total_extract = len(target_names)
-                    for idx, n in enumerate(target_names):
+                    video_extensions = (".mp4", ".m4v", ".mov", ".mkv")
+                    all_members = [
+                        m for m in zf.infolist()
+                        if not m.is_dir()
+                        and not m.filename.startswith("__MACOSX")
+                        and not Path(m.filename).name.startswith("._")
+                    ]
+                    # Filter video files in any subfolder
+                    video_members = [
+                        m for m in all_members
+                        if m.filename.lower().endswith(video_extensions)
+                    ]
+                    target_members = video_members if video_members else all_members
+                    total_extract = len(target_members)
+
+                    for idx, member in enumerate(target_members):
+                        norm_rel = member.filename.replace("\\", "/").strip("/")
+                        dest_file = extract_dir / Path(norm_rel)
+                        dest_file.parent.mkdir(parents=True, exist_ok=True)
+
                         if progress_cb:
-                            progress_cb(f"Извлечение из архива [{idx+1}/{total_extract}]: {Path(n).name}...")
-                        zf.extract(n, extract_dir)
+                            progress_cb(f"Извлечение [{idx+1}/{total_extract}]: {norm_rel}...")
+
+                        with zf.open(member) as src_f, open(dest_file, "wb") as dst_f:
+                            shutil.copyfileobj(src_f, dst_f)
+
                 search_dirs.append(extract_dir)
             elif ext in [".7z", ".rar", ".tar", ".gz", ".bz2", ".xz"]:
                 if progress_cb:
-                    progress_cb(f"Распаковка архива {source.name} через системный декомпрессор...")
+                    progress_cb(f"Распаковка архива {source.name} со всеми подпапками...")
                 tar_cmd = shutil.which("tar")
                 if tar_cmd:
                     subprocess.run([tar_cmd, "-xf", str(source), "-C", str(extract_dir)], capture_output=True)
@@ -374,11 +395,12 @@ class GitHubPublisher:
                 return []
         elif source.is_dir():
             search_dirs.append(source)
+            base_scan_dir = source
         else:
             return []
 
         if progress_cb:
-            progress_cb("Поиск видеофайлов MP4...")
+            progress_cb("Рекурсивный поиск видеофайлов во всех папках...")
 
         mp4_files = []
         for d in search_dirs:
@@ -390,27 +412,41 @@ class GitHubPublisher:
             return []
 
         if progress_cb:
-            progress_cb(f"Найдено {len(mp4_files)} видео. Загрузка базы игр...")
+            progress_cb(f"Найдено {len(mp4_files)} видеофайлов. Загрузка базы Switch...")
 
         db = OnlineFetcher._load_db()
         db_by_tid = {item["titleId"].upper(): item for item in db if item.get("titleId")}
 
         results = []
         total = len(mp4_files)
+        generic_names = {"video", "cover", "background", "loop", "main", "intro", "out", "output", "recording", "gameplay"}
+
         for idx, vid in enumerate(sorted(mp4_files, key=lambda x: x.name)):
             fname = vid.name
-            if progress_cb:
-                progress_cb(f"Анализ видео [{idx+1}/{total}]: {fname}...")
+            rel_str = str(vid.relative_to(base_scan_dir if base_scan_dir else vid.parent)).replace("\\", "/")
 
+            if progress_cb:
+                progress_cb(f"Анализ видео [{idx+1}/{total}]: {rel_str}...")
+
+            # 1. Search Title ID in filename
             m = re.search(r"0100[0-9A-Fa-f]{12}", fname)
+            # 2. If not found in filename, search in full relative path (folder names)
+            if not m:
+                m = re.search(r"0100[0-9A-Fa-f]{12}", rel_str)
+
             tid = m.group(0).upper() if m else ""
 
-            variant_name = "Default"
+            # Determine variant name
             base_no_ext = vid.stem
+            variant_name = "Default"
             if tid:
-                rem = base_no_ext.replace(m.group(0), "").strip(" _-[]()")
-                if rem:
-                    variant_name = rem.replace("_", " ").title()
+                if m.group(0) in fname:
+                    rem = base_no_ext.replace(m.group(0), "").strip(" _-[]()")
+                    if rem and rem.lower() not in generic_names:
+                        variant_name = rem.replace("_", " ").title()
+                else:
+                    if base_no_ext.lower() not in generic_names:
+                        variant_name = base_no_ext.replace("_", " ").title()
 
             db_entry = db_by_tid.get(tid, {}) if tid else {}
             game_title = db_entry.get("title", "")
@@ -421,7 +457,7 @@ class GitHubPublisher:
 
             results.append({
                 "path": str(vid),
-                "filename": vid.name,
+                "filename": rel_str if "/" in rel_str else vid.name,
                 "titleId": tid,
                 "gameTitle": game_title,
                 "variantName": variant_name,
@@ -438,7 +474,7 @@ class GitHubPublisher:
             })
 
         if progress_cb:
-            progress_cb(f"Сканирование завершено: {len(results)} видео готово.")
+            progress_cb(f"Сканирование завершено: найдено {len(results)} видео.")
 
         return results
 
