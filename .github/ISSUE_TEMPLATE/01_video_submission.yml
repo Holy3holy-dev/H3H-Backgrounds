@@ -1,0 +1,81 @@
+name: Заявка на добавление видеофона (Submission)
+description: Предложить новый видеофон для игры Nintendo Switch (4IFIR)
+title: "[SUBMISSION]: <Название игры> (<Title ID>)"
+labels: ["submission", "pending-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Заявка на добавление видеофона в H3H Backgrounds
+        Каждая заявка проходит автоматическую проверку FFprobe и ручную модерацию.
+        Публикация несовместимых или вредоносных файлов исключена.
+
+  - type: input
+    id: game_title
+    attributes:
+      label: Название игры
+      description: Полное официальное название игры на Nintendo Switch
+      placeholder: "Teenage Mutant Ninja Turtles: Shredder's Revenge"
+    validations:
+      required: true
+
+  - type: input
+    id: title_id
+    attributes:
+      label: 16-значный Title ID игры
+      description: Должен состоять строго из 16 шестнадцатеричных символов и начинаться с 0100
+      placeholder: "01005CA01580E000"
+    validations:
+      required: true
+
+  - type: input
+    id: variant_name
+    attributes:
+      label: Название варианта видеофона
+      description: Краткое описание темы (например, "Opening Intro Loop" или "Boss Fight")
+      placeholder: "Opening Intro Loop"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: style
+    attributes:
+      label: Категория (стиль)
+      options:
+        - Cinematic
+        - Gameplay
+        - Animated Art
+        - Minimal
+        - Dark
+        - Retro
+        - Music
+    validations:
+      required: true
+
+  - type: input
+    id: video_url
+    attributes:
+      label: Прямая HTTPS ссылка на MP4 файл
+      description: Файл должен быть закодирован по стандарту (H.264 High 4.1, 720p 30fps, faststart)
+      placeholder: "https://github.com/username/repo/releases/download/.../video.mp4"
+    validations:
+      required: true
+
+  - type: input
+    id: author
+    attributes:
+      label: Автор / Никнейм
+      description: Укажите ваше имя или никнейм для отображения в каталоге
+      placeholder: "PixelArtist"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: copyright_terms
+    attributes:
+      label: Подтверждение авторских прав и стандартов
+      options:
+        - label: "Я подтверждаю, что видеофон закодирован по профилю 4IFIR (H.264, yuv420p, 720p/1080p, <= 60fps, faststart)."
+          required: true
+        - label: "Я подтверждаю, что материал не содержит вредоносного контента и может быть удалён по первому запросу правообладателя."
+          required: true

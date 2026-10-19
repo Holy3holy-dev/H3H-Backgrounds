@@ -1,0 +1,35 @@
+name: Validate Catalog & Data Integrity
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'catalog/**'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'catalog/**'
+
+jobs:
+  validate-schema:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run Schema Validator Unit Tests
+        run: |
+          python catalog/schema/test_validate_catalog.py
+
+      - name: Validate Production Catalog
+        run: |
+          python catalog/schema/validate_catalog.py catalog/data/catalog.json
+
+      - name: Validate Fixture Catalog
+        run: |
+          python catalog/schema/validate_catalog.py catalog/fixtures/test_catalog.json

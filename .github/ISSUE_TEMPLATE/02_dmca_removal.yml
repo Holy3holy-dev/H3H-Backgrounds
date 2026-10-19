@@ -1,0 +1,42 @@
+name: Запрос на удаление материала (DMCA / Copyright Removal)
+description: Запрос правообладателя на удаление видеофона из онлайн-каталога
+title: "[REMOVAL]: <Название игры> (<Title ID>)"
+labels: ["dmca", "urgent-removal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Запрос правообладателя на удаление материала
+        Мы уважаем интеллектуальную собственность. По запросу законного правообладателя или его уполномоченного представителя материал будет немедленно исключён из каталога.
+
+  - type: input
+    id: claimant
+    attributes:
+      label: Правообладатель / Организация
+      placeholder: "Publisher / Studio Name"
+    validations:
+      required: true
+
+  - type: input
+    id: title_id
+    attributes:
+      label: Title ID игры
+      placeholder: "01005CA01580E000"
+    validations:
+      required: true
+
+  - type: input
+    id: variant_id
+    attributes:
+      label: Идентификатор варианта (или "Все варианты")
+      placeholder: "shredders-intro-loop"
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Описание и контактные данные
+      placeholder: "Укажите подтверждающие данные и контактный адрес электронной почты"
+    validations:
+      required: true
