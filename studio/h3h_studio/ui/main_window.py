@@ -657,25 +657,31 @@ class MainWindow(QMainWindow):
         dlg.exec()
 
     def _open_github_publish(self):
-        video_path_str = ""
-        if hasattr(self, "last_exported_video") and self.last_exported_video and self.last_exported_video.exists():
-            video_path_str = str(self.last_exported_video)
-        else:
-            out_dir = Path(self.project.output_dir)
-            tid = self.tid_input.text().strip().upper()
-            if tid:
-                cand = out_dir / f"{tid}.mp4"
-                if cand.exists():
-                    video_path_str = str(cand)
+        try:
+            video_path_str = ""
+            if hasattr(self, "last_exported_video") and self.last_exported_video and self.last_exported_video.exists():
+                video_path_str = str(self.last_exported_video)
+            else:
+                tid = self.tid_input.text().strip().upper()
+                if tid:
+                    for candidate_dir in [Path.cwd(), Path.home() / "Downloads"]:
+                        cand = candidate_dir / f"{tid}.mp4"
+                        if cand.exists():
+                            video_path_str = str(cand)
+                            break
 
-        dlg = GitHubPublishDialog(
-            video_path=video_path_str,
-            title_id=self.tid_input.text().strip().upper(),
-            game_title=self.game_title_input.text().strip(),
-            style=self.style_combo.currentText(),
-            parent=self
-        )
-        dlg.exec()
+            dlg = GitHubPublishDialog(
+                video_path=video_path_str,
+                title_id=self.tid_input.text().strip().upper(),
+                game_title=self.game_title_input.text().strip(),
+                style=self.style_combo.currentText(),
+                parent=self
+            )
+            dlg.exec()
+        except Exception as e:
+            import traceback
+            traceback.print_exc()
+            QMessageBox.critical(self, "Ошибка открытия публикации", f"Не удалось открыть окно публикации:\n{e}")
 
     def _update_art_preview(self, path_str: str):
         p = Path(path_str.strip())

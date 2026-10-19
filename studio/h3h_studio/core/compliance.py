@@ -20,6 +20,7 @@ class ComplianceResult:
     codec: str = ""
     bitrate_kbps: int = 0
     duration_sec: float = 0.0
+    has_audio: bool = False
 
 
 class ComplianceValidator:
@@ -38,4 +39,5 @@ class ComplianceValidator:
             codec=analysis.codec,
             bitrate_kbps=analysis.bitrate_kbps,
             duration_sec=analysis.duration_sec,
+            has_audio=analysis.has_audio,
         )
