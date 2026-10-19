@@ -5,7 +5,7 @@ a = Analysis(
     ['run_studio.py'],
     pathex=['studio'],
     binaries=[],
-    datas=[],
+    datas=[('studio/h3h_studio/data/switch_titles_db.json', 'h3h_studio/data')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},

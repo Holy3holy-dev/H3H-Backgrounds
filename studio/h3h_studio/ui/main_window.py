@@ -22,6 +22,7 @@ from ..core.project import StudioProject
 from ..core.online_fetcher import OnlineFetcher
 from .ffmpeg_log_dialog import FFmpegLogDialog
 from .online_search_dialog import OnlineSearchDialog
+from .github_publish_dialog import GitHubPublishDialog
 
 TITLE_ID_PATTERN = re.compile(r"^0100[0-9A-Fa-f]{12}$")
 
@@ -174,9 +175,14 @@ class MainWindow(QMainWindow):
         header_layout.addStretch()
 
         online_search_btn = QPushButton("🌐 Найти игру в интернете", self)
-        online_search_btn.setStyleSheet("background-color: #00E5FF; color: #121418; font-weight: bold; padding: 6px 14px; border: none;")
+        online_search_btn.setStyleSheet("background-color: #00E5FF; color: #121418; font-weight: bold; padding: 6px 14px; border: none; border-radius: 4px;")
         online_search_btn.clicked.connect(self._open_online_search)
         header_layout.addWidget(online_search_btn)
+
+        github_publish_btn = QPushButton("🚀 Опубликовать на GitHub", self)
+        github_publish_btn.setStyleSheet("background-color: #3B82F6; color: #FFFFFF; font-weight: bold; padding: 6px 14px; border: none; border-radius: 4px;")
+        github_publish_btn.clicked.connect(self._open_github_publish)
+        header_layout.addWidget(github_publish_btn)
 
         log_btn = QPushButton("Журнал FFmpeg", self)
         log_btn.clicked.connect(self._show_ffmpeg_logs)
@@ -259,6 +265,15 @@ class MainWindow(QMainWindow):
         form_layout.addLayout(vignette_layout)
 
         layout.addLayout(form_layout)
+
+        # Artwork Preview
+        self.art_preview_lbl = QLabel(widget)
+        self.art_preview_lbl.setAlignment(Qt.AlignCenter)
+        self.art_preview_lbl.setFixedHeight(150)
+        self.art_preview_lbl.setStyleSheet("background-color: #121418; border: 1px dashed #2A303C; border-radius: 6px; color: #718096; font-size: 12px;")
+        self.art_preview_lbl.setText("Превью выбранного арта появится здесь")
+        self.art_file_edit.textChanged.connect(self._update_art_preview)
+        layout.addWidget(self.art_preview_lbl)
 
         info_lbl = QLabel(
             "★ Математическое циклическое сглаживание: начальный и конечный кадры совпадают с точностью до пикселя, "
@@ -425,6 +440,12 @@ class MainWindow(QMainWindow):
         # Export row
         export_row = QHBoxLayout()
         export_row.addStretch()
+
+        self.publish_btn = QPushButton("🚀 Опубликовать на GitHub", box)
+        self.publish_btn.setStyleSheet("background-color: #3B82F6; color: #FFFFFF; font-weight: bold; padding: 10px 18px; border-radius: 6px; font-size: 13px;")
+        self.publish_btn.setFixedHeight(40)
+        self.publish_btn.clicked.connect(self._open_github_publish)
+        export_row.addWidget(self.publish_btn)
 
         self.export_btn = QPushButton("Экспортировать видеофон (<TITLEID>.mp4)", box)
         self.export_btn.setObjectName("primaryBtn")
@@ -597,11 +618,28 @@ class MainWindow(QMainWindow):
     def _on_finished(self, success: bool, msg: str):
         self.export_btn.setEnabled(True)
         if success:
+            self.last_exported_video = Path(msg)
             self.status_label.setText(f"✓ Успешно экспортировано: {msg}")
-            QMessageBox.information(
-                self, "Успех",
-                f"Видеофон успешно сохранён:\n{msg}\n\nМетаданные каталога также экспортированы рядом."
+
+            box = QMessageBox(self)
+            box.setWindowTitle("Видеофон готов")
+            box.setText(
+                f"Видеофон успешно сохранён:\n{msg}\n\n"
+                f"Хотите сразу опубликовать его в онлайн-библиотеку GitHub?"
             )
+            pub_btn = box.addButton("🚀 Опубликовать на GitHub", QMessageBox.ActionRole)
+            open_btn = box.addButton("Открыть папку", QMessageBox.ActionRole)
+            box.addButton("Закрыть", QMessageBox.RejectRole)
+            box.exec()
+
+            if box.clickedButton() == pub_btn:
+                self._open_github_publish()
+            elif box.clickedButton() == open_btn:
+                import os
+                try:
+                    os.startfile(Path(msg).parent)
+                except Exception:
+                    pass
         else:
             self.status_label.setText("✗ Ошибка экспорта")
             QMessageBox.critical(self, "Ошибка", msg)
@@ -618,10 +656,44 @@ class MainWindow(QMainWindow):
         )
         dlg.exec()
 
+    def _open_github_publish(self):
+        video_path_str = ""
+        if hasattr(self, "last_exported_video") and self.last_exported_video and self.last_exported_video.exists():
+            video_path_str = str(self.last_exported_video)
+        else:
+            out_dir = Path(self.project.output_dir)
+            tid = self.tid_input.text().strip().upper()
+            if tid:
+                cand = out_dir / f"{tid}.mp4"
+                if cand.exists():
+                    video_path_str = str(cand)
+
+        dlg = GitHubPublishDialog(
+            video_path=video_path_str,
+            title_id=self.tid_input.text().strip().upper(),
+            game_title=self.game_title_input.text().strip(),
+            style=self.style_combo.currentText(),
+            parent=self
+        )
+        dlg.exec()
+
+    def _update_art_preview(self, path_str: str):
+        p = Path(path_str.strip())
+        if p.exists() and p.is_file():
+            pm = QPixmap(str(p))
+            if not pm.isNull():
+                self.art_preview_lbl.setPixmap(pm.scaled(300, 140, Qt.KeepAspectRatio, Qt.SmoothTransformation))
+                self.art_preview_lbl.setStyleSheet("background-color: #121418; border: 1px solid #10B981; border-radius: 6px;")
+                return
+        self.art_preview_lbl.setPixmap(QPixmap())
+        self.art_preview_lbl.setText("Превью выбранного арта появится здесь")
+        self.art_preview_lbl.setStyleSheet("background-color: #121418; border: 1px dashed #2A303C; border-radius: 6px; color: #718096; font-size: 12px;")
+
     def _on_online_artwork_selected(self, image_path: str, title_id: str, game_title: str):
         self.art_file_edit.setText(image_path)
         self.tid_input.setText(title_id)
         self.game_title_input.setText(game_title)
+        self.style_combo.setCurrentText("Animated Art")
         self.tabs.setCurrentIndex(0)  # Switch to Mode A
 
     def _on_online_title_id_selected(self, title_id: str, game_title: str):
