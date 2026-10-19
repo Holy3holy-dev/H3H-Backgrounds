@@ -36,9 +36,15 @@ class TestCatalogValidation(unittest.TestCase):
             validate_catalog_data(data)
         self.assertIn("invalid Title ID", str(ctx.exception))
 
-    def test_reject_invalid_title_id_non_standard_prefix(self):
+    def test_accept_homebrew_title_id(self):
         data = copy.deepcopy(self.valid_data)
-        data["games"][0]["titleId"] = "02005CA01580E000"  # doesn't start with 0100
+        data["games"][0]["titleId"] = "03DB117EE17B6000"  # Homebrew forwarder
+        games, variants = validate_catalog_data(data)
+        self.assertEqual(games, 2)
+
+    def test_reject_invalid_title_id_length(self):
+        data = copy.deepcopy(self.valid_data)
+        data["games"][0]["titleId"] = "01005CA01580E0000"  # 17 chars
         with self.assertRaises(ValidationError) as ctx:
             validate_catalog_data(data)
         self.assertIn("invalid Title ID", str(ctx.exception))

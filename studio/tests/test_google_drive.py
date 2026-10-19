@@ -159,4 +159,35 @@ class TestGoogleDriveClient:
         assert res["titleId"] == "01007EF00011E000"
         assert dummy_cat.exists()
 
+    def test_register_drive_video_homebrew_title_id(self, tmp_path, monkeypatch):
+        from studio.h3h_studio.core.compliance import ComplianceResult, ComplianceValidator
+        from studio.h3h_studio.core.github_publisher import GitHubPublisher
+
+        dummy_video = tmp_path / "03DB117EE17B6000.mp4"
+        dummy_video.write_bytes(b"dummy video content" * 100)
+        dummy_cat = tmp_path / "catalog.json"
+
+        mock_cr = ComplianceResult(is_valid=True)
+        monkeypatch.setattr(ComplianceValidator, "validate", lambda p: mock_cr)
+        monkeypatch.setattr(GitHubPublisher, "compute_sha256", lambda p: "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855")
+
+        # Homebrew forwarder Title ID (starts with 03..., not 0100...)
+        res = GoogleDriveHelper.register_drive_video(
+            catalog_path=dummy_cat,
+            video_path=dummy_video,
+            drive_url_or_id="1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs",
+            title_id="03DB117EE17B6000",
+            game_title="Homebrew App"
+        )
+        assert res["success"] is True
+        assert res["titleId"] == "03DB117EE17B6000"
+        assert dummy_cat.exists()
+
+    def test_parse_batch_links_homebrew(self):
+        raw = "03DB117EE17B6000 https://drive.google.com/file/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs/view"
+        items = GoogleDriveHelper.parse_batch_links(raw)
+        assert len(items) == 1
+        assert items[0]["titleId"] == "03DB117EE17B6000"
+        assert items[0]["driveId"] == "1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs"
+
 

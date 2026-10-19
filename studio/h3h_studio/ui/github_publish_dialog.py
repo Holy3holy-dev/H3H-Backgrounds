@@ -1598,15 +1598,15 @@ class GitHubPublishDialog(QDialog):
         if fpath:
             self.gdrive_video_edit.setText(fpath)
             name = Path(fpath).stem
-            tid_m = re.search(r"0100[0-9A-Fa-f]{12}", name)
+            tid_m = re.search(r"\b(0100[0-9A-Fa-f]{12})\b", name, re.IGNORECASE) or re.search(r"\b([0-9A-Fa-f]{16})\b", name)
             if tid_m and not self.gdrive_tid_edit.text().strip():
-                self.gdrive_tid_edit.setText(tid_m.group(0).upper())
+                self.gdrive_tid_edit.setText(tid_m.group(1).upper())
 
     def _on_gdrive_tid_changed(self, text: str):
         cleaned = text.strip().upper()
-        if re.match(r"^0100[0-9A-Fa-f]{12}$", cleaned):
+        if re.match(r"^[0-9A-Fa-f]{16}$", cleaned):
             title = OnlineFetcher.get_title_by_id(cleaned)
-            if title and (not self.gdrive_title_edit.text().strip() or self.gdrive_title_edit.text().startswith("Game 0100")):
+            if title and (not self.gdrive_title_edit.text().strip() or self.gdrive_title_edit.text().startswith("Game ")):
                 self.gdrive_title_edit.setText(title)
 
     def _on_gdrive_url_changed(self, text: str):
@@ -1636,8 +1636,8 @@ class GitHubPublishDialog(QDialog):
             QMessageBox.warning(self, "Внимание", "Укажите существующий локальный .mp4 файл для расчёта SHA-256 и параметров видео!")
             return
 
-        if not re.match(r"^0100[0-9A-Fa-f]{12}$", tid):
-            QMessageBox.warning(self, "Внимание", "Введите корректный Title ID (16 hex-символов, начиная с 0100)!")
+        if not re.match(r"^[0-9A-Fa-f]{16}$", tid):
+            QMessageBox.warning(self, "Внимание", "Введите корректный Title ID (16 hex-символов)!")
             return
 
         if not GoogleDriveHelper.extract_file_id(url):

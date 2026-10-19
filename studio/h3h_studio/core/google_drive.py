@@ -134,7 +134,7 @@ class GoogleDriveHelper:
           - https://drive.google.com/file/d/xxxx/view (if containing Title ID or standalone)
         """
         results = []
-        tid_regex = re.compile(r"(0100[0-9A-Fa-f]{12})", re.IGNORECASE)
+        tid_regex = re.compile(r"\b([0-9A-Fa-f]{16})\b", re.IGNORECASE)
 
         for line in text.strip().splitlines():
             line = line.strip()
@@ -189,8 +189,8 @@ class GoogleDriveHelper:
         preview_url = cls.to_preview_url(drive_id)
 
         clean_tid = title_id.strip().upper()
-        if not re.match(r"^0100[0-9A-Fa-f]{12}$", clean_tid):
-            raise ValueError(f"Некорректный Title ID: '{clean_tid}' (должен быть 16 hex-символов, начиная с 0100)")
+        if not re.match(r"^[0-9A-Fa-f]{16}$", clean_tid):
+            raise ValueError(f"Некорректный Title ID: '{clean_tid}' (должен содержать 16 hex-символов)")
 
         vpath = Path(video_path)
         if not vpath.exists():
@@ -239,7 +239,7 @@ class GoogleDriveHelper:
             }
             cat_data.setdefault("games", []).append(game_entry)
         else:
-            if game_title and (game_entry.get("title", "").startswith("Game 0100") or not game_entry.get("title")):
+            if game_title and (game_entry.get("title", "").startswith("Game ") or not game_entry.get("title")):
                 game_entry["title"] = game_title
 
         safe_variant_id = re.sub(r"[^a-z0-9_-]", "-", variant_name.lower()).strip("-")
@@ -832,7 +832,7 @@ class GoogleDriveClient:
             progress_cb("Запрос списка файлов из папки Google Диска...")
 
         files = cls.list_folder_files(folder_id, token)
-        tid_regex = re.compile(r"\b(0100[0-9A-Fa-f]{12})\b", re.IGNORECASE)
+        tid_regex = re.compile(r"\b([0-9A-Fa-f]{16})\b", re.IGNORECASE)
 
         # Filter video files or files containing Title ID
         video_candidates = []
@@ -898,7 +898,7 @@ class GoogleDriveClient:
                 }
                 cat_data.setdefault("games", []).append(game_entry)
             else:
-                if game_title and (game_entry.get("title", "").startswith("Game 0100") or not game_entry.get("title")):
+                if game_title and (game_entry.get("title", "").startswith("Game ") or not game_entry.get("title")):
                     game_entry["title"] = game_title
 
             variant_name = "Standard (Google Drive)"

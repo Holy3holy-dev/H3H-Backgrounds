@@ -11,7 +11,7 @@ import sys
 from pathlib import Path
 from typing import Dict, Any, List, Tuple
 
-TITLE_ID_REGEX = re.compile(r"^0100[0-9A-Fa-f]{12}$")
+TITLE_ID_REGEX = re.compile(r"^[0-9A-Fa-f]{16}$")
 SHA256_REGEX = re.compile(r"^[0-9a-fA-F]{64}$")
 ALLOWED_STYLES = {"Cinematic", "Gameplay", "Animated Art", "Minimal", "Dark", "Retro", "Music"}
 ALLOWED_CODECS = {"h264", "hevc"}
@@ -55,7 +55,7 @@ def validate_catalog_data(data: Dict[str, Any]) -> Tuple[int, int]:
         # Enforce Title ID pattern
         if not TITLE_ID_REGEX.match(title_id):
             raise ValidationError(
-                f"Game {idx}: invalid Title ID '{title_id}'. Must be 16 hex chars starting with 0100"
+                f"Game {idx}: invalid Title ID '{title_id}'. Must be 16 hex chars"
             )
 
         norm_title_id = title_id.upper()

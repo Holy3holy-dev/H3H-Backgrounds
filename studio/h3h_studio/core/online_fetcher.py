@@ -150,7 +150,7 @@ class OnlineFetcher:
             candidates.append(url)
 
         # GameTDB candidate if titleId is valid
-        if re.match(r"^0100[0-9A-Fa-f]{12}$", filename_prefix):
+        if re.match(r"^[0-9A-Fa-f]{16}$", filename_prefix):
             candidates.append(f"https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/{filename_prefix}.jpg")
 
         for cand_url in candidates:
