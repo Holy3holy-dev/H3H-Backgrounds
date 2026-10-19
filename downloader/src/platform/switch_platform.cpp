@@ -14,6 +14,41 @@
 
 namespace h3h {
 
+namespace {
+
+size_t curlStringWriteCallback(char* ptr, size_t size, size_t nmemb, void* userdata) {
+    if (!userdata || !ptr) return 0;
+    auto* buf = static_cast<std::string*>(userdata);
+    size_t totalBytes = size * nmemb;
+    buf->append(ptr, totalBytes);
+    return totalBytes;
+}
+
+struct DownloadProgressContext {
+    ProgressCallback callback;
+    const std::atomic<bool>* cancel;
+    std::chrono::steady_clock::time_point startTime;
+};
+
+int curlXferProgressCallback(void* clientp, curl_off_t dltotal, curl_off_t dlnow, curl_off_t, curl_off_t) {
+    auto* ctx = static_cast<DownloadProgressContext*>(clientp);
+    if (!ctx) return 0;
+
+    if (ctx->cancel && ctx->cancel->load()) {
+        return 1; // Abort transfer
+    }
+
+    if (ctx->callback && dlnow > 0) {
+        auto now = std::chrono::steady_clock::now();
+        double elapsedSec = std::chrono::duration<double>(now - ctx->startTime).count();
+        double speed = elapsedSec > 0.0 ? static_cast<double>(dlnow) / elapsedSec : 0.0;
+        ctx->callback(static_cast<uint64_t>(dlnow), static_cast<uint64_t>(dltotal), speed);
+    }
+    return 0;
+}
+
+} // namespace
+
 class SwitchPlatform : public IPlatform {
 public:
     SwitchPlatform() = default;
@@ -230,9 +265,14 @@ public:
         }
 
         // Network
-        u32 nifmState = 0;
-        if (R_SUCCEEDED(nifmGetInternetConnectionStatus(nullptr, &nifmState, nullptr))) {
-            info.isNetworkConnected = (nifmState != 0);
+        NifmInternetConnectionType connType = NifmInternetConnectionType_WiFi;
+        u32 wifiStrength = 0;
+        NifmInternetConnectionStatus connStatus = NifmInternetConnectionStatus_ConnectingUnknown1;
+        if (R_SUCCEEDED(nifmGetInternetConnectionStatus(&connType, &wifiStrength, &connStatus))) {
+            info.isNetworkConnected = (connStatus == NifmInternetConnectionStatus_Connected);
+        } else {
+            // If nifm check fails, assume true so curl can attempt connection
+            info.isNetworkConnected = true;
         }
 
         return info;
@@ -269,13 +309,9 @@ public:
         curl_easy_setopt(curl, CURLOPT_TIMEOUT, 15L);
         curl_easy_setopt(curl, CURLOPT_USERAGENT, "H3H-Backgrounds-Downloader/1.0 (Nintendo Switch)");
 
-        auto writeCallback = [](char* ptr, size_t size, size_t nmemb, void* userdata) -> size_t {
-            auto* buf = static_cast<std::string*>(userdata);
-            buf->append(ptr, size * nmemb);
-            return size * nmemb;
-        };
-
-        curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, writeCallback);
+        typedef size_t (*CurlWriteFn)(char*, size_t, size_t, void*);
+        CurlWriteFn writeFn = curlStringWriteCallback;
+        curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, writeFn);
         curl_easy_setopt(curl, CURLOPT_WRITEDATA, &responseBuffer);
 
         CURLcode res = curl_easy_perform(curl);
@@ -322,29 +358,10 @@ public:
             return false;
         }
 
-        struct ProgressContext {
-            ProgressCallback callback;
-            const std::atomic<bool>* cancel;
-            std::chrono::steady_clock::time_point startTime;
-            uint64_t lastBytes{0};
-        };
+        DownloadProgressContext ctx{progress, &cancelRequested, std::chrono::steady_clock::now()};
 
-        ProgressContext ctx{progress, &cancelRequested, std::chrono::steady_clock::now(), 0};
-
-        auto xferCallback = [](void* clientp, curl_off_t dltotal, curl_off_t dlnow, curl_off_t, curl_off_t) -> int {
-            auto* c = static_cast<ProgressContext*>(clientp);
-            if (c->cancel && c->cancel->load()) {
-                return 1; // Abort transfer
-            }
-
-            if (c->callback && dlnow > 0) {
-                auto now = std::chrono::steady_clock::now();
-                double elapsedSec = std::chrono::duration<double>(now - c->startTime).count();
-                double speed = elapsedSec > 0 ? static_cast<double>(dlnow) / elapsedSec : 0.0;
-                c->callback(static_cast<uint64_t>(dlnow), static_cast<uint64_t>(dltotal), speed);
-            }
-            return 0;
-        };
+        typedef int (*CurlXferFn)(void*, curl_off_t, curl_off_t, curl_off_t, curl_off_t);
+        CurlXferFn xferFn = curlXferProgressCallback;
 
         curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
         curl_easy_setopt(curl, CURLOPT_WRITEDATA, fp);
@@ -354,7 +371,7 @@ public:
         curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
         curl_easy_setopt(curl, CURLOPT_CONNECTTIMEOUT, 10L);
         curl_easy_setopt(curl, CURLOPT_USERAGENT, "H3H-Backgrounds-Downloader/1.0 (Nintendo Switch)");
-        curl_easy_setopt(curl, CURLOPT_XFERINFOFUNCTION, xferCallback);
+        curl_easy_setopt(curl, CURLOPT_XFERINFOFUNCTION, xferFn);
         curl_easy_setopt(curl, CURLOPT_XFERINFODATA, &ctx);
         curl_easy_setopt(curl, CURLOPT_NOPROGRESS, 0L);
 

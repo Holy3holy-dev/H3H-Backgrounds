@@ -12,6 +12,7 @@
 #include <string>
 #include <atomic>
 #include <thread>
+#include <mutex>
 #include <map>
 
 struct SDL_Window;
@@ -46,8 +47,9 @@ public:
     void run();
     void shutdown();
 
-    // Event handling
+    // Event handling & Frame update
     void handleInput();
+    void update();
     void onButtonPress(int button);
 
     // Business Logic
@@ -114,7 +116,26 @@ private:
 
     std::string m_statusNotification;
     int m_notificationFramesRemaining{0};
+
+    // Thread-safe async catalog fetching
+    std::thread m_catalogThread;
     std::atomic<bool> m_isFetchingCatalog{false};
+    std::atomic<bool> m_catalogFetchDone{false};
+    std::string m_fetchedJson;
+    std::string m_fetchError;
+    bool m_fetchSuccess{false};
+    std::mutex m_catalogMutex;
+
+    // Thread-safe async NRO updating
+    std::thread m_nroUpdateThread;
+    std::atomic<bool> m_isUpdatingNro{false};
+    std::atomic<bool> m_nroUpdateDone{false};
+    std::string m_nroUpdateError;
+    bool m_nroUpdateSuccess{false};
+    std::mutex m_nroMutex;
+
+    // Input debounce for analog sticks
+    uint32_t m_lastStickScrollTime{0};
 };
 
 } // namespace ui

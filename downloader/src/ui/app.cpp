@@ -103,6 +103,13 @@ bool App::init() {
 }
 
 void App::shutdown() {
+    if (m_catalogThread.joinable()) {
+        m_catalogThread.join();
+    }
+    if (m_nroUpdateThread.joinable()) {
+        m_nroUpdateThread.join();
+    }
+
 #ifdef HAS_SDL2
     for (auto& pair : m_fonts) {
         if (pair.second) {
@@ -134,56 +141,54 @@ void App::refreshInstalledGames() {
 
 void App::fetchRemoteCatalog() {
     if (m_isFetchingCatalog.load()) {
-        return;
-    }
-
-    m_sysInfo = m_platform->getSystemInfo();
-    if (!m_sysInfo.isNetworkConnected) {
         m_statusNotification = (m_language == Language::Russian)
-            ? "Офлайн: сеть недоступна. Используется встроенный каталог."
-            : "Offline: network unavailable. Using bundled catalog.";
-        m_notificationFramesRemaining = 180;
+            ? "Каталог уже загружается..."
+            : "Catalog download is already in progress...";
+        m_notificationFramesRemaining = 90;
         return;
     }
 
-    m_statusNotification = (m_language == Language::Russian) ? "Загрузка каталога с GitHub..." : "Fetching catalog from GitHub...";
+    m_statusNotification = (m_language == Language::Russian)
+        ? "Загрузка каталога с GitHub..."
+        : "Fetching catalog from GitHub...";
     m_notificationFramesRemaining = 120;
     m_isFetchingCatalog = true;
 
-    std::thread([this]() {
+    if (m_catalogThread.joinable()) {
+        m_catalogThread.join();
+    }
+
+    m_catalogThread = std::thread([this]() {
         std::string jsonStr;
         std::string err;
-        if (m_platform->fetchCatalog(Config::DEFAULT_CATALOG_URL, jsonStr, err)) {
-            if (m_catalogManager.loadFromJsonString(jsonStr, err)) {
-                m_catalogManager.saveToCacheFile(m_platform->getAppDirectory() + "/cache.json");
-                m_catalogManager.matchInstalledTitles(m_installedGames);
-                m_statusNotification = (m_language == Language::Russian)
-                    ? ("Каталог успешно обновлён (" + std::to_string(m_catalogManager.getGamesCount()) + " игр)")
-                    : ("Catalog updated successfully (" + std::to_string(m_catalogManager.getGamesCount()) + " games)");
-                m_notificationFramesRemaining = 180;
-            } else {
-                m_statusNotification = (m_language == Language::Russian)
-                    ? ("Ошибка структуры каталога: " + err)
-                    : ("Catalog schema error: " + err);
-                m_notificationFramesRemaining = 240;
-            }
-        } else {
-            m_statusNotification = (m_language == Language::Russian)
-                ? ("Ошибка сети: " + err)
-                : ("Network error: " + err);
-            m_notificationFramesRemaining = 240;
+        bool ok = m_platform->fetchCatalog(Config::DEFAULT_CATALOG_URL, jsonStr, err);
+        {
+            std::lock_guard<std::mutex> lock(m_catalogMutex);
+            m_fetchedJson = std::move(jsonStr);
+            m_fetchError = std::move(err);
+            m_fetchSuccess = ok;
         }
-        m_isFetchingCatalog = false;
-    }).detach();
+        m_catalogFetchDone.store(true);
+        m_isFetchingCatalog.store(false);
+    });
 }
 
 void App::updateApplicationNro() {
+    if (m_isUpdatingNro.load()) {
+        return;
+    }
+
     m_statusNotification = (m_language == Language::Russian)
         ? "Загрузка обновления H3H-Backgrounds.nro..."
         : "Downloading H3H-Backgrounds.nro update...";
     m_notificationFramesRemaining = 120;
+    m_isUpdatingNro = true;
 
-    std::thread([this]() {
+    if (m_nroUpdateThread.joinable()) {
+        m_nroUpdateThread.join();
+    }
+
+    m_nroUpdateThread = std::thread([this]() {
         std::string nroUrl = "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.0.0/H3H-Backgrounds.nro";
         std::string appDir = m_platform->getAppDirectory();
         std::string tempNro = appDir + "/H3H-Backgrounds.nro.tmp";
@@ -192,24 +197,88 @@ void App::updateApplicationNro() {
         std::atomic<bool> cancel{false};
         std::string err;
         bool ok = m_platform->downloadFile(nroUrl, tempNro, nullptr, cancel, err);
+        bool success = false;
         if (ok) {
             std::remove(targetNro.c_str());
             if (std::rename(tempNro.c_str(), targetNro.c_str()) == 0) {
+                success = true;
+            } else {
+                err = "Failed to replace H3H-Backgrounds.nro file";
+            }
+        }
+        {
+            std::lock_guard<std::mutex> lock(m_nroMutex);
+            m_nroUpdateError = std::move(err);
+            m_nroUpdateSuccess = success;
+        }
+        m_nroUpdateDone.store(true);
+        m_isUpdatingNro.store(false);
+    });
+}
+
+void App::update() {
+    // Process background catalog fetch result safely on the main thread
+    if (m_catalogFetchDone.exchange(false)) {
+        std::string jsonStr;
+        std::string err;
+        bool ok = false;
+        {
+            std::lock_guard<std::mutex> lock(m_catalogMutex);
+            jsonStr = std::move(m_fetchedJson);
+            err = std::move(m_fetchError);
+            ok = m_fetchSuccess;
+        }
+        if (m_catalogThread.joinable()) {
+            m_catalogThread.join();
+        }
+
+        if (ok && !jsonStr.empty()) {
+            std::string parseErr;
+            if (m_catalogManager.loadFromJsonString(jsonStr, parseErr)) {
+                m_catalogManager.saveToCacheFile(m_platform->getAppDirectory() + "/cache.json");
+                m_catalogManager.matchInstalledTitles(m_installedGames);
                 m_statusNotification = (m_language == Language::Russian)
-                    ? "Приложение H3H-Backgrounds.nro успешно обновлено!"
-                    : "H3H-Backgrounds.nro updated successfully!";
+                    ? ("Каталог успешно обновлён (" + std::to_string(m_catalogManager.getGamesCount()) + " игр)")
+                    : ("Catalog updated successfully (" + std::to_string(m_catalogManager.getGamesCount()) + " games)");
+                m_notificationFramesRemaining = 180;
             } else {
                 m_statusNotification = (m_language == Language::Russian)
-                    ? "Ошибка замены файла H3H-Backgrounds.nro"
-                    : "Failed to replace H3H-Backgrounds.nro";
+                    ? ("Ошибка структуры каталога: " + parseErr)
+                    : ("Catalog schema error: " + parseErr);
+                m_notificationFramesRemaining = 240;
             }
+        } else {
+            m_statusNotification = (m_language == Language::Russian)
+                ? ("Ошибка сети: " + err)
+                : ("Network error: " + err);
+            m_notificationFramesRemaining = 240;
+        }
+    }
+
+    // Process background NRO update result safely on the main thread
+    if (m_nroUpdateDone.exchange(false)) {
+        std::string err;
+        bool ok = false;
+        {
+            std::lock_guard<std::mutex> lock(m_nroMutex);
+            err = std::move(m_nroUpdateError);
+            ok = m_nroUpdateSuccess;
+        }
+        if (m_nroUpdateThread.joinable()) {
+            m_nroUpdateThread.join();
+        }
+
+        if (ok) {
+            m_statusNotification = (m_language == Language::Russian)
+                ? "Приложение H3H-Backgrounds.nro успешно обновлено!"
+                : "H3H-Backgrounds.nro updated successfully!";
         } else {
             m_statusNotification = (m_language == Language::Russian)
                 ? ("Ошибка обновления: " + err)
                 : ("Update failed: " + err);
         }
         m_notificationFramesRemaining = 240;
-    }).detach();
+    }
 }
 
 void App::queueDownload(const InstalledTitle& title, const Variant& variant) {
@@ -259,6 +328,37 @@ void App::handleInput() {
             m_running = false;
         } else if (event.type == SDL_CONTROLLERBUTTONDOWN) {
             onButtonPress(event.cbutton.button);
+        } else if (event.type == SDL_CONTROLLERAXISMOTION) {
+            // Analog stick scrolling (Left Stick Y / X)
+            if (event.caxis.axis == SDL_CONTROLLER_AXIS_LEFTY) {
+                uint32_t now = SDL_GetTicks();
+                if (now - m_lastStickScrollTime > 160) {
+                    if (event.caxis.value > 16000) {
+                        onButtonPress(12 /* DPAD_DOWN */);
+                        m_lastStickScrollTime = now;
+                    } else if (event.caxis.value < -16000) {
+                        onButtonPress(11 /* DPAD_UP */);
+                        m_lastStickScrollTime = now;
+                    }
+                }
+            } else if (event.caxis.axis == SDL_CONTROLLER_AXIS_LEFTX) {
+                uint32_t now = SDL_GetTicks();
+                if (now - m_lastStickScrollTime > 200) {
+                    if (event.caxis.value > 18000) {
+                        onButtonPress(14 /* DPAD_RIGHT */);
+                        m_lastStickScrollTime = now;
+                    } else if (event.caxis.value < -18000) {
+                        onButtonPress(13 /* DPAD_LEFT */);
+                        m_lastStickScrollTime = now;
+                    }
+                }
+            }
+        } else if (event.type == SDL_MOUSEWHEEL) {
+            if (event.wheel.y > 0) {
+                onButtonPress(11 /* DPAD_UP */);
+            } else if (event.wheel.y < 0) {
+                onButtonPress(12 /* DPAD_DOWN */);
+            }
         } else if (event.type == SDL_MOUSEBUTTONDOWN) {
             // Touch / mouse support on Nintendo Switch
             int mx = event.button.x;
@@ -275,6 +375,21 @@ void App::handleInput() {
             // Catalog Tab: top-right "[-] Обновить" button: x in [980, 1220], y in [95, 145]
             else if (m_activeTab == Tab::Catalog && mx >= 980 && mx <= 1220 && my >= 95 && my <= 145) {
                 onButtonPress(4 /* Minus / Refresh */);
+            }
+            // Catalog Tab: click directly on an item in the list
+            else if (m_activeTab == Tab::Catalog && mx >= 60 && mx <= 1220 && my >= 160 && my <= 640) {
+                int clickedIndex = m_catalogScrollOffset + (my - 160) / 95;
+                if (clickedIndex >= 0 && clickedIndex < static_cast<int>(m_catalogManager.getAllGames().size())) {
+                    m_catalogSelectedIndex = clickedIndex;
+                }
+            }
+            // MyGames Tab: click directly on an item in left list
+            else if (m_activeTab == Tab::MyGames && mx >= 30 && mx <= 480 && my >= 105 && my <= 640) {
+                int clickedIndex = m_myGamesScrollOffset + (my - 105) / 66;
+                if (clickedIndex >= 0 && clickedIndex < static_cast<int>(m_installedGames.size())) {
+                    m_myGamesSelectedIndex = clickedIndex;
+                    m_selectedVariantIndex = 0;
+                }
             }
             // Settings Tab: buttons at y in [300, 350]
             else if (m_activeTab == Tab::Settings && my >= 300 && my <= 350) {
@@ -344,7 +459,6 @@ void App::onButtonPress(int button) {
     // Universal Minus (-) button: Global Refresh
     if (button == 4 /* SDL_CONTROLLER_BUTTON_BACK (Minus / -) */) {
         fetchRemoteCatalog();
-        refreshInstalledGames();
         return;
     }
 
@@ -366,7 +480,6 @@ void App::onButtonPress(int button) {
     if (m_activeTab == Tab::Home) {
         if (button == 0 /* A */ || button == 2 /* X */) {
             fetchRemoteCatalog();
-            refreshInstalledGames();
         }
     } else if (m_activeTab == Tab::MyGames) {
         if (button == 11 /* DPAD_UP */) {
@@ -432,7 +545,6 @@ void App::onButtonPress(int button) {
             if (m_catalogSelectedIndex + 1 < totalGames) m_catalogSelectedIndex++;
         } else if (button == 2 /* X */ || button == 0 /* A */ || button == 3 /* Y */) {
             fetchRemoteCatalog();
-            refreshInstalledGames();
         }
     } else if (m_activeTab == Tab::Settings) {
         if (button == 0 /* A */) {
@@ -447,7 +559,6 @@ void App::onButtonPress(int button) {
             m_notificationFramesRemaining = 120;
         } else if (button == 3 /* Y - Refresh Catalog */) {
             fetchRemoteCatalog();
-            refreshInstalledGames();
         } else if (button == 6 /* START / Plus - Update App NRO */) {
             updateApplicationNro();
         }
@@ -940,6 +1051,7 @@ void App::drawBitmapTextFallback(const std::string& text, int x, int y, Color co
 void App::run() {
     while (m_running) {
         handleInput();
+        update();
         render();
 #ifdef HAS_SDL2
         SDL_Delay(16); // ~60 FPS cap
