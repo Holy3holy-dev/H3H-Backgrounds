@@ -179,7 +179,7 @@ class MainWindow(QMainWindow):
         online_search_btn.clicked.connect(self._open_online_search)
         header_layout.addWidget(online_search_btn)
 
-        gdrive_publish_btn = QPushButton("📁 Google Диск (5 ТБ)", self)
+        gdrive_publish_btn = QPushButton("📁 Google Диск", self)
         gdrive_publish_btn.setStyleSheet("background-color: #10B981; color: #FFFFFF; font-weight: bold; padding: 6px 14px; border: none; border-radius: 4px;")
         gdrive_publish_btn.clicked.connect(lambda: self._open_github_publish(initial_tab=3))
         header_layout.addWidget(gdrive_publish_btn)
@@ -632,7 +632,7 @@ class MainWindow(QMainWindow):
                 f"Видеофон успешно сохранён:\n{msg}\n\n"
                 f"Куда вы хотите опубликовать видеофон?"
             )
-            gdrive_btn = box.addButton("📁 Google Диск (5 ТБ)", QMessageBox.ActionRole)
+            gdrive_btn = box.addButton("📁 Google Диск", QMessageBox.ActionRole)
             pub_btn = box.addButton("🚀 GitHub", QMessageBox.ActionRole)
             open_btn = box.addButton("Открыть папку", QMessageBox.ActionRole)
             box.addButton("Закрыть", QMessageBox.RejectRole)

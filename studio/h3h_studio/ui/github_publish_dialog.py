@@ -489,9 +489,9 @@ class GitHubPublishDialog(QDialog):
         manage_tab = self._create_manage_tab()
         self.tabs.addTab(manage_tab, "🗑 Управление каталогом и удаление")
 
-        # Tab 4: Google Drive (5 TB)
+        # Tab 4: Google Drive
         gdrive_tab = self._create_gdrive_tab(video_path, title_id, game_title, style)
-        self.tabs.addTab(gdrive_tab, "📁 Google Диск (5 ТБ)")
+        self.tabs.addTab(gdrive_tab, "📁 Google Диск")
 
         # Tab 5: Community Proposals & Moderation
         proposals_tab = self._create_proposals_tab()
@@ -1387,7 +1387,7 @@ class GitHubPublishDialog(QDialog):
         info_box = QGroupBox("🌐 Браузерный режим (без установки сторонних программ)", widget)
         info_layout = QVBoxLayout(info_box)
         info_lbl = QLabel(
-            "<b>Как использовать ваш Google Диск (5 ТБ) через браузер:</b><br>"
+            "<b>Как использовать Google Диск через браузер:</b><br>"
             "1. Откройте Google Диск в вашем любимом браузере (Chrome, Edge, Firefox, Opera).<br>"
             "2. Создайте папку для видеофонов (например, <i>Switch Backgrounds</i>) и перетащите туда видео.<br>"
             "3. Рекомендуется называть файлы по Title ID игры (например: <code>01007EF00011E000.mp4</code> или <code>Zelda [01007EF00011E000].mp4</code>).<br>"
@@ -1511,7 +1511,7 @@ class GitHubPublishDialog(QDialog):
         layout = QVBoxLayout(widget)
         layout.setSpacing(10)
 
-        box = QGroupBox("Параметры авторизации Google Диска (5 ТБ)", widget)
+        box = QGroupBox("Параметры авторизации Google Диска", widget)
         b_layout = QVBoxLayout(box)
 
         tok_layout = QVBoxLayout()
@@ -2000,7 +2000,7 @@ class GitHubPublishDialog(QDialog):
             "   <b>https://developers.google.com/oauthplayground</b><br><br>"
             "2. В списке «Step 1 Select & authorize APIs» выберите:<br>"
             "   <b>Drive API v3</b> -> отметьте <code>https://www.googleapis.com/auth/drive</code><br><br>"
-            "3. Нажмите кнопку <b>«Authorize APIs»</b> и войдите в свой Google аккаунт (где 5 ТБ).<br><br>"
+            "3. Нажмите кнопку <b>«Authorize APIs»</b> и войдите в свой Google аккаунт.<br><br>"
             "4. В «Step 2» нажмите <b>«Exchange authorization code for tokens»</b>.<br><br>"
             "5. Скопируйте <b>Access token</b> (начинается с <code>ya29...</code>) и вставьте его в поле токена в Студии.<br><br>"
             "Нажмите «Сохранить настройки» — и вы сможете загружать архивы напрямую!"
