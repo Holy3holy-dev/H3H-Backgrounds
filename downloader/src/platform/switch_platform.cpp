@@ -26,36 +26,87 @@ public:
         if (R_FAILED(rc)) {
             return false;
         }
+        m_nsInitialized = true;
 
         rc = psmInitialize();
-        (void)rc; // Non-fatal if psm fails
+        if (R_SUCCEEDED(rc)) {
+            m_psmInitialized = true;
+        }
 
         rc = nifmInitialize(NifmServiceType_User);
-        (void)rc;
+        if (R_SUCCEEDED(rc)) {
+            m_nifmInitialized = true;
+        }
 
-        rc = socketInitializeDefault();
-        (void)rc;
+        // Initialize BSD socket service with auto-type fallback for Atmosphere / Horizon
+        SocketInitConfig sockConf = {
+            .tcp_tx_buf_size = 0x8000,
+            .tcp_rx_buf_size = 0x10000,
+            .tcp_tx_buf_max_size = 0x20000,
+            .tcp_rx_buf_max_size = 0x20000,
+            .udp_tx_buf_size = 0x2400,
+            .udp_rx_buf_size = 0xA500,
+            .sb_efficiency = 2,
+            .num_bsd_sessions = 3,
+            .bsd_service_type = BsdServiceType_Auto,
+        };
+        rc = socketInitialize(&sockConf);
+        if (R_SUCCEEDED(rc)) {
+            m_socketInitialized = true;
+        } else {
+            rc = socketInitializeDefault();
+            if (R_SUCCEEDED(rc)) {
+                m_socketInitialized = true;
+            }
+        }
 
         rc = plInitialize(PlServiceType_User);
-        (void)rc;
+        if (R_SUCCEEDED(rc)) {
+            m_plInitialized = true;
+        }
 
         rc = romfsInit();
-        (void)rc;
+        if (R_SUCCEEDED(rc)) {
+            m_romfsInitialized = true;
+        }
 
-        curl_global_init(CURL_GLOBAL_DEFAULT);
+        if (curl_global_init(CURL_GLOBAL_DEFAULT) == CURLE_OK) {
+            m_curlInitialized = true;
+        }
+
         m_initialized = true;
         return true;
     }
 
     void shutdown() override {
-        if (!m_initialized) return;
-        romfsExit();
-        plExit();
-        curl_global_cleanup();
-        socketExit();
-        nifmExit();
-        psmExit();
-        nsExit();
+        if (m_curlInitialized) {
+            curl_global_cleanup();
+            m_curlInitialized = false;
+        }
+        if (m_romfsInitialized) {
+            romfsExit();
+            m_romfsInitialized = false;
+        }
+        if (m_plInitialized) {
+            plExit();
+            m_plInitialized = false;
+        }
+        if (m_socketInitialized) {
+            socketExit();
+            m_socketInitialized = false;
+        }
+        if (m_nifmInitialized) {
+            nifmExit();
+            m_nifmInitialized = false;
+        }
+        if (m_psmInitialized) {
+            psmExit();
+            m_psmInitialized = false;
+        }
+        if (m_nsInitialized) {
+            nsExit();
+            m_nsInitialized = false;
+        }
         m_initialized = false;
     }
 
@@ -93,29 +144,29 @@ public:
                 title.name = "Unknown Game";
                 title.author = "Unknown Publisher";
 
-                // Load NACP metadata
-                NsApplicationControlData controlData;
+                // Load NACP metadata (heap-allocated to prevent Switch stack overflow)
+                auto controlData = std::make_unique<NsApplicationControlData>();
                 size_t actualSize = 0;
                 rc = nsGetApplicationControlData(
                     NsApplicationControlSource_Storage,
                     appId,
-                    &controlData,
-                    sizeof(controlData),
+                    controlData.get(),
+                    sizeof(NsApplicationControlData),
                     &actualSize
                 );
 
                 if (R_SUCCEEDED(rc)) {
                     NacpLanguageEntry* langEntry = nullptr;
-                    rc = nacpGetLanguageEntry(&controlData.nacp, &langEntry);
+                    rc = nacpGetLanguageEntry(&controlData->nacp, &langEntry);
                     if (R_SUCCEEDED(rc) && langEntry) {
                         title.name = langEntry->name;
                         title.author = langEntry->author;
                     }
 
                     // Extract icon (256x256 JPEG)
-                    if (actualSize > sizeof(controlData.nacp)) {
-                        size_t iconSize = actualSize - sizeof(controlData.nacp);
-                        title.iconBytes.assign(controlData.icon, controlData.icon + iconSize);
+                    if (actualSize > sizeof(controlData->nacp)) {
+                        size_t iconSize = actualSize - sizeof(controlData->nacp);
+                        title.iconBytes.assign(controlData->icon, controlData->icon + iconSize);
                     }
                 }
 
@@ -151,19 +202,19 @@ public:
     }
 
     bool loadTitleIcon(uint64_t titleIdNumeric, std::vector<uint8_t>& outJpeg) override {
-        NsApplicationControlData controlData;
+        auto controlData = std::make_unique<NsApplicationControlData>();
         size_t actualSize = 0;
         Result rc = nsGetApplicationControlData(
             NsApplicationControlSource_Storage,
             titleIdNumeric,
-            &controlData,
-            sizeof(controlData),
+            controlData.get(),
+            sizeof(NsApplicationControlData),
             &actualSize
         );
 
-        if (R_SUCCEEDED(rc) && actualSize > sizeof(controlData.nacp)) {
-            size_t iconSize = actualSize - sizeof(controlData.nacp);
-            outJpeg.assign(controlData.icon, controlData.icon + iconSize);
+        if (R_SUCCEEDED(rc) && actualSize > sizeof(controlData->nacp)) {
+            size_t iconSize = actualSize - sizeof(controlData->nacp);
+            outJpeg.assign(controlData->icon, controlData->icon + iconSize);
             return true;
         }
         return false;
@@ -212,6 +263,11 @@ public:
     }
 
     bool fetchCatalog(const std::string& url, std::string& outJson, std::string& outError) override {
+        if (!m_socketInitialized) {
+            outError = "Сетевой сервис не инициализирован (проверьте настройки сети / Wi-Fi)";
+            return false;
+        }
+
         CURL* curl = curl_easy_init();
         if (!curl) {
             outError = "Failed to initialize CURL context";
@@ -221,9 +277,11 @@ public:
         std::string responseBuffer;
 
         curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
+        curl_easy_setopt(curl, CURLOPT_NOSIGNAL, 1L);
         curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);
         curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);
         curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
+        curl_easy_setopt(curl, CURLOPT_CONNECTTIMEOUT, 8L);
         curl_easy_setopt(curl, CURLOPT_TIMEOUT, 15L);
         curl_easy_setopt(curl, CURLOPT_USERAGENT, "H3H-Backgrounds-Downloader/1.0 (Nintendo Switch)");
 
@@ -262,6 +320,11 @@ public:
         const std::atomic<bool>& cancelRequested,
         std::string& outError
     ) override {
+        if (!m_socketInitialized) {
+            outError = "Сетевой сервис не доступен (нет инициализации сокетов)";
+            return false;
+        }
+
         FILE* fp = fopen(destPath.c_str(), "wb");
         if (!fp) {
             outError = "Could not open target file for writing: " + destPath;
@@ -301,9 +364,11 @@ public:
 
         curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
         curl_easy_setopt(curl, CURLOPT_WRITEDATA, fp);
+        curl_easy_setopt(curl, CURLOPT_NOSIGNAL, 1L);
         curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);
         curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);
         curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
+        curl_easy_setopt(curl, CURLOPT_CONNECTTIMEOUT, 10L);
         curl_easy_setopt(curl, CURLOPT_USERAGENT, "H3H-Backgrounds-Downloader/1.0 (Nintendo Switch)");
         curl_easy_setopt(curl, CURLOPT_XFERINFOFUNCTION, xferCallback);
         curl_easy_setopt(curl, CURLOPT_XFERINFODATA, &ctx);
@@ -339,6 +404,13 @@ public:
 
 private:
     bool m_initialized{false};
+    bool m_nsInitialized{false};
+    bool m_psmInitialized{false};
+    bool m_nifmInitialized{false};
+    bool m_socketInitialized{false};
+    bool m_plInitialized{false};
+    bool m_romfsInitialized{false};
+    bool m_curlInitialized{false};
 };
 
 std::unique_ptr<IPlatform> createPlatform() {

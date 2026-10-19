@@ -43,9 +43,6 @@ bool App::init() {
 
     refreshInstalledGames();
 
-    // Auto-fetch latest catalog from GitHub on launch
-    fetchRemoteCatalog();
-
 #ifdef HAS_SDL2
     if (SDL_Init(SDL_INIT_VIDEO | SDL_INIT_GAMECONTROLLER) != 0) {
         std::cerr << "[-] SDL_Init failed: " << SDL_GetError() << std::endl;
@@ -136,6 +133,15 @@ void App::refreshInstalledGames() {
 }
 
 void App::fetchRemoteCatalog() {
+    m_sysInfo = m_platform->getSystemInfo();
+    if (!m_sysInfo.isNetworkConnected) {
+        m_statusNotification = (m_language == Language::Russian)
+            ? "Офлайн: сеть недоступна. Используется встроенный каталог."
+            : "Offline: network unavailable. Using bundled catalog.";
+        m_notificationFramesRemaining = 180;
+        return;
+    }
+
     m_statusNotification = (m_language == Language::Russian) ? "Загрузка каталога с GitHub..." : "Fetching catalog from GitHub...";
     m_notificationFramesRemaining = 60;
 
@@ -922,9 +928,21 @@ void App::drawBitmapTextFallback(const std::string& text, int x, int y, Color co
 }
 
 void App::run() {
+    bool initialOnlineCheckDone = false;
+
     while (m_running) {
         handleInput();
         render();
+
+        if (!initialOnlineCheckDone) {
+            initialOnlineCheckDone = true;
+            // First frame is displayed on screen, now safely check online catalog if connected
+            if (m_sysInfo.isNetworkConnected) {
+                fetchRemoteCatalog();
+                render();
+            }
+        }
+
 #ifdef HAS_SDL2
         SDL_Delay(16); // ~60 FPS cap
 #else
