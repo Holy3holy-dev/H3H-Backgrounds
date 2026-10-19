@@ -133,6 +133,10 @@ void App::refreshInstalledGames() {
 }
 
 void App::fetchRemoteCatalog() {
+    if (m_isFetchingCatalog.load()) {
+        return;
+    }
+
     m_sysInfo = m_platform->getSystemInfo();
     if (!m_sysInfo.isNetworkConnected) {
         m_statusNotification = (m_language == Language::Russian)
@@ -143,30 +147,34 @@ void App::fetchRemoteCatalog() {
     }
 
     m_statusNotification = (m_language == Language::Russian) ? "Загрузка каталога с GitHub..." : "Fetching catalog from GitHub...";
-    m_notificationFramesRemaining = 60;
+    m_notificationFramesRemaining = 120;
+    m_isFetchingCatalog = true;
 
-    std::string jsonStr;
-    std::string err;
-    if (m_platform->fetchCatalog(Config::DEFAULT_CATALOG_URL, jsonStr, err)) {
-        if (m_catalogManager.loadFromJsonString(jsonStr, err)) {
-            m_catalogManager.saveToCacheFile(m_platform->getAppDirectory() + "/cache.json");
-            m_catalogManager.matchInstalledTitles(m_installedGames);
-            m_statusNotification = (m_language == Language::Russian)
-                ? ("Каталог успешно обновлён (" + std::to_string(m_catalogManager.getGamesCount()) + " игр)")
-                : ("Catalog updated successfully (" + std::to_string(m_catalogManager.getGamesCount()) + " games)");
-            m_notificationFramesRemaining = 180;
+    std::thread([this]() {
+        std::string jsonStr;
+        std::string err;
+        if (m_platform->fetchCatalog(Config::DEFAULT_CATALOG_URL, jsonStr, err)) {
+            if (m_catalogManager.loadFromJsonString(jsonStr, err)) {
+                m_catalogManager.saveToCacheFile(m_platform->getAppDirectory() + "/cache.json");
+                m_catalogManager.matchInstalledTitles(m_installedGames);
+                m_statusNotification = (m_language == Language::Russian)
+                    ? ("Каталог успешно обновлён (" + std::to_string(m_catalogManager.getGamesCount()) + " игр)")
+                    : ("Catalog updated successfully (" + std::to_string(m_catalogManager.getGamesCount()) + " games)");
+                m_notificationFramesRemaining = 180;
+            } else {
+                m_statusNotification = (m_language == Language::Russian)
+                    ? ("Ошибка структуры каталога: " + err)
+                    : ("Catalog schema error: " + err);
+                m_notificationFramesRemaining = 240;
+            }
         } else {
             m_statusNotification = (m_language == Language::Russian)
-                ? ("Ошибка структуры каталога: " + err)
-                : ("Catalog schema error: " + err);
+                ? ("Ошибка сети: " + err)
+                : ("Network error: " + err);
             m_notificationFramesRemaining = 240;
         }
-    } else {
-        m_statusNotification = (m_language == Language::Russian)
-            ? ("Ошибка сети: " + err)
-            : ("Network error: " + err);
-        m_notificationFramesRemaining = 240;
-    }
+        m_isFetchingCatalog = false;
+    }).detach();
 }
 
 void App::updateApplicationNro() {
@@ -175,31 +183,33 @@ void App::updateApplicationNro() {
         : "Downloading H3H-Backgrounds.nro update...";
     m_notificationFramesRemaining = 120;
 
-    std::string nroUrl = "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.0.0/H3H-Backgrounds.nro";
-    std::string appDir = m_platform->getAppDirectory();
-    std::string tempNro = appDir + "/H3H-Backgrounds.nro.tmp";
-    std::string targetNro = appDir + "/H3H-Backgrounds.nro";
+    std::thread([this]() {
+        std::string nroUrl = "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.0.0/H3H-Backgrounds.nro";
+        std::string appDir = m_platform->getAppDirectory();
+        std::string tempNro = appDir + "/H3H-Backgrounds.nro.tmp";
+        std::string targetNro = appDir + "/H3H-Backgrounds.nro";
 
-    std::atomic<bool> cancel{false};
-    std::string err;
-    bool ok = m_platform->downloadFile(nroUrl, tempNro, nullptr, cancel, err);
-    if (ok) {
-        std::remove(targetNro.c_str());
-        if (std::rename(tempNro.c_str(), targetNro.c_str()) == 0) {
-            m_statusNotification = (m_language == Language::Russian)
-                ? "Приложение H3H-Backgrounds.nro успешно обновлено!"
-                : "H3H-Backgrounds.nro updated successfully!";
+        std::atomic<bool> cancel{false};
+        std::string err;
+        bool ok = m_platform->downloadFile(nroUrl, tempNro, nullptr, cancel, err);
+        if (ok) {
+            std::remove(targetNro.c_str());
+            if (std::rename(tempNro.c_str(), targetNro.c_str()) == 0) {
+                m_statusNotification = (m_language == Language::Russian)
+                    ? "Приложение H3H-Backgrounds.nro успешно обновлено!"
+                    : "H3H-Backgrounds.nro updated successfully!";
+            } else {
+                m_statusNotification = (m_language == Language::Russian)
+                    ? "Ошибка замены файла H3H-Backgrounds.nro"
+                    : "Failed to replace H3H-Backgrounds.nro";
+            }
         } else {
             m_statusNotification = (m_language == Language::Russian)
-                ? "Ошибка замены файла H3H-Backgrounds.nro"
-                : "Failed to replace H3H-Backgrounds.nro";
+                ? ("Ошибка обновления: " + err)
+                : ("Update failed: " + err);
         }
-    } else {
-        m_statusNotification = (m_language == Language::Russian)
-            ? ("Ошибка обновления: " + err)
-            : ("Update failed: " + err);
-    }
-    m_notificationFramesRemaining = 240;
+        m_notificationFramesRemaining = 240;
+    }).detach();
 }
 
 void App::queueDownload(const InstalledTitle& title, const Variant& variant) {
@@ -928,21 +938,9 @@ void App::drawBitmapTextFallback(const std::string& text, int x, int y, Color co
 }
 
 void App::run() {
-    bool initialOnlineCheckDone = false;
-
     while (m_running) {
         handleInput();
         render();
-
-        if (!initialOnlineCheckDone) {
-            initialOnlineCheckDone = true;
-            // First frame is displayed on screen, now safely check online catalog if connected
-            if (m_sysInfo.isNetworkConnected) {
-                fetchRemoteCatalog();
-                render();
-            }
-        }
-
 #ifdef HAS_SDL2
         SDL_Delay(16); // ~60 FPS cap
 #else

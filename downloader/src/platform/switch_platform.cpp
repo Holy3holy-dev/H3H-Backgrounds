@@ -38,26 +38,10 @@ public:
             m_nifmInitialized = true;
         }
 
-        // Initialize BSD socket service with auto-type fallback for Atmosphere / Horizon
-        SocketInitConfig sockConf = {
-            .tcp_tx_buf_size = 0x8000,
-            .tcp_rx_buf_size = 0x10000,
-            .tcp_tx_buf_max_size = 0x20000,
-            .tcp_rx_buf_max_size = 0x20000,
-            .udp_tx_buf_size = 0x2400,
-            .udp_rx_buf_size = 0xA500,
-            .sb_efficiency = 2,
-            .num_bsd_sessions = 3,
-            .bsd_service_type = BsdServiceType_Auto,
-        };
-        rc = socketInitialize(&sockConf);
+        // Initialize BSD socket service (standard BsdServiceType_User for homebrew)
+        rc = socketInitializeDefault();
         if (R_SUCCEEDED(rc)) {
             m_socketInitialized = true;
-        } else {
-            rc = socketInitializeDefault();
-            if (R_SUCCEEDED(rc)) {
-                m_socketInitialized = true;
-            }
         }
 
         rc = plInitialize(PlServiceType_User);

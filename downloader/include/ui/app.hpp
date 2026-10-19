@@ -11,6 +11,7 @@
 #include <vector>
 #include <string>
 #include <atomic>
+#include <thread>
 #include <map>
 
 struct SDL_Window;
@@ -113,6 +114,7 @@ private:
 
     std::string m_statusNotification;
     int m_notificationFramesRemaining{0};
+    std::atomic<bool> m_isFetchingCatalog{false};
 };
 
 } // namespace ui
