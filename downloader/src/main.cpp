@@ -1,0 +1,30 @@
+#include "ui/app.hpp"
+#include "platform/platform_interface.hpp"
+#include <iostream>
+
+int main(int argc, char* argv[]) {
+    (void)argc;
+    (void)argv;
+
+    std::cout << "========================================" << std::endl;
+    std::cout << "  H3H Backgrounds — 4IFIR Downloader    " << std::endl;
+    std::cout << "========================================" << std::endl;
+
+    auto platform = h3h::createPlatform();
+    if (!platform) {
+        std::cerr << "[-] Error: Failed to create platform instance." << std::endl;
+        return 1;
+    }
+
+    h3h::ui::App app(std::move(platform));
+    if (!app.init()) {
+        std::cerr << "[-] Error: Application initialization failed." << std::endl;
+        return 1;
+    }
+
+    std::cout << "[*] Starting main application loop..." << std::endl;
+    app.run();
+
+    std::cout << "[*] Exiting cleanly." << std::endl;
+    return 0;
+}

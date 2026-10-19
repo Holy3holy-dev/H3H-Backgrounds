@@ -1,0 +1,35 @@
+name: Build Nintendo Switch NRO
+
+on:
+  push:
+    branches: [ main ]
+    tags: [ 'v*' ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-nro:
+    runs-on: ubuntu-latest
+    container:
+      image: devkitpro/devkita64:latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install Switch Dependencies
+        run: |
+          dkp-pacman -Syu --noconfirm
+          dkp-pacman -S --noconfirm switch-sdl2 switch-sdl2_image switch-sdl2_ttf switch-curl switch-libjpeg-turbo switch-libpng
+
+      - name: Build H3H-Backgrounds.nro
+        run: |
+          cd downloader
+          make -j$(nproc)
+
+      - name: Upload NRO Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: H3H-Backgrounds-nro
+          path: downloader/H3H-Backgrounds.nro
+          retention-days: 14

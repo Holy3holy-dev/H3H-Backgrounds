@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-19T04:00:00Z",
+  "totalGames": 2,
+  "totalVariants": 3,
+  "games": [
+    {
+      "titleId": "01005CA01580E000",
+      "title": "TMNT Shredder's Revenge Test",
+      "publisher": "Dotemu",
+      "iconUrl": "https://example.com/icons/tmnt.jpg",
+      "variants": [
+        {
+          "id": "test-variant-1",
+          "name": "Standard Test Loop",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://example.com/videos/test1.mp4",
+          "previewUrl": "https://example.com/previews/test1.webp",
+          "sizeBytes": 204800,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "durationSec": 10.0,
+          "author": "Tester",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false
+        },
+        {
+          "id": "test-variant-2",
+          "name": "Action Cut",
+          "style": "Gameplay",
+          "version": "1.0",
+          "url": "https://example.com/videos/test2.mp4",
+          "previewUrl": "https://example.com/previews/test2.webp",
+          "sizeBytes": 409600,
+          "sha256": "f2ca1bb6c7e907d06dafe4687e579fce76b37e4e93b7605022da52e6ccc26fd2",
+          "durationSec": 15.0,
+          "author": "Tester",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 60.0,
+          "hasAudio": false
+        }
+      ]
+    },
+    {
+      "titleId": "0100000000010000",
+      "title": "Super Mario Odyssey Test",
+      "publisher": "Nintendo",
+      "iconUrl": "https://example.com/icons/mario.jpg",
+      "variants": [
+        {
+          "id": "test-mario-loop",
+          "name": "Odyssey Loop",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://example.com/videos/mario.mp4",
+          "previewUrl": "https://example.com/previews/mario.webp",
+          "sizeBytes": 512000,
+          "sha256": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+          "durationSec": 12.0,
+          "author": "Tester",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false
+        }
+      ]
+    }
+  ]
+}

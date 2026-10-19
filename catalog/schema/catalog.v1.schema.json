@@ -1,0 +1,194 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/h3h-backgrounds/catalog/main/schema/catalog.v1.schema.json",
+  "title": "H3HBackgroundsCatalogV1",
+  "description": "Unified JSON schema for H3H Backgrounds (4IFIR video backgrounds ecosystem)",
+  "type": "object",
+  "required": ["schemaVersion", "updatedAt", "games"],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "const": 1,
+      "description": "Version of the schema format"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO-8601 timestamp of when the catalog was generated/updated"
+    },
+    "totalGames": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Total count of registered games in the catalog"
+    },
+    "totalVariants": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Total count of video variants across all games"
+    },
+    "games": {
+      "type": "array",
+      "description": "List of games with video backgrounds",
+      "items": {
+        "$ref": "#/$defs/Game"
+      }
+    }
+  },
+  "$defs": {
+    "Game": {
+      "type": "object",
+      "required": ["titleId", "title", "variants"],
+      "additionalProperties": false,
+      "properties": {
+        "titleId": {
+          "type": "string",
+          "pattern": "^0100[0-9A-Fa-f]{12}$",
+          "description": "Nintendo Switch Title ID (16 hex characters, standard base game)"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200,
+          "description": "Official or recognized display title of the game"
+        },
+        "publisher": {
+          "type": "string",
+          "description": "Publisher or developer name"
+        },
+        "iconUrl": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https?://.+",
+          "description": "Optional remote URL to high-res boxart or icon"
+        },
+        "variants": {
+          "type": "array",
+          "minItems": 1,
+          "description": "List of available video background variants for this title",
+          "items": {
+            "$ref": "#/$defs/Variant"
+          }
+        }
+      }
+    },
+    "Variant": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "style",
+        "version",
+        "url",
+        "previewUrl",
+        "sizeBytes",
+        "sha256",
+        "durationSec",
+        "author",
+        "codec",
+        "width",
+        "height",
+        "fps"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9_-]{3,64}$",
+          "description": "Unique identifier for this variant (slug format)"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100,
+          "description": "Human-readable variant title (e.g. 'Opening Intro Loop', 'Pixel Action')"
+        },
+        "style": {
+          "type": "string",
+          "enum": [
+            "Cinematic",
+            "Gameplay",
+            "Animated Art",
+            "Minimal",
+            "Dark",
+            "Retro",
+            "Music"
+          ],
+          "description": "Visual theme and mood category"
+        },
+        "version": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+(\\.[0-9]+)?$",
+          "description": "Semantic version of the video asset"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://.+",
+          "description": "HTTPS direct download link for the .mp4 file"
+        },
+        "previewUrl": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://.+",
+          "description": "HTTPS link to web-optimized preview (webm/mp4/gif/jpg)"
+        },
+        "sizeBytes": {
+          "type": "integer",
+          "minimum": 1024,
+          "maximum": 104857600,
+          "description": "Exact file size in bytes (max 100 MB safe limit)"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-fA-F]{64}$",
+          "description": "SHA-256 hexadecimal checksum for integrity validation"
+        },
+        "durationSec": {
+          "type": "number",
+          "minimum": 1.0,
+          "maximum": 300.0,
+          "description": "Video duration in seconds"
+        },
+        "author": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100,
+          "description": "Creator or contributor handle/credits"
+        },
+        "codec": {
+          "type": "string",
+          "enum": ["h264", "hevc"],
+          "description": "Video codec name (h264 recommended for 4IFIR)"
+        },
+        "width": {
+          "type": "integer",
+          "minimum": 640,
+          "maximum": 1920,
+          "description": "Video frame width in pixels"
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 360,
+          "maximum": 1080,
+          "description": "Video frame height in pixels"
+        },
+        "fps": {
+          "type": "number",
+          "minimum": 15.0,
+          "maximum": 60.0,
+          "description": "Frame rate in frames per second"
+        },
+        "hasAudio": {
+          "type": "boolean",
+          "default": false,
+          "description": "Whether the video contains an active audio track"
+        },
+        "notes": {
+          "type": "string",
+          "description": "Optional notes or source attribution"
+        }
+      }
+    }
+  }
+}
