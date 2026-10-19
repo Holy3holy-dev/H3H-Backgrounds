@@ -10,7 +10,8 @@ from PySide6.QtWidgets import (
     QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QTabWidget,
     QLabel, QPushButton, QFileDialog, QLineEdit, QComboBox,
     QSpinBox, QDoubleSpinBox, QCheckBox, QProgressBar, QTextEdit,
-    QMessageBox, QGroupBox, QTableWidget, QTableWidgetItem, QHeaderView
+    QMessageBox, QGroupBox, QTableWidget, QTableWidgetItem, QHeaderView,
+    QInputDialog
 )
 
 from ..core.analyzer import VideoAnalyzer, VideoAnalysis
@@ -18,7 +19,9 @@ from ..core.encoder import Encoder, PROFILES, EncodingProfile
 from ..core.ken_burns import KenBurnsGenerator
 from ..core.pipeline import FFmpegPipeline
 from ..core.project import StudioProject
+from ..core.online_fetcher import OnlineFetcher
 from .ffmpeg_log_dialog import FFmpegLogDialog
+from .online_search_dialog import OnlineSearchDialog
 
 TITLE_ID_PATTERN = re.compile(r"^0100[0-9A-Fa-f]{12}$")
 
@@ -170,6 +173,11 @@ class MainWindow(QMainWindow):
         header_layout.addWidget(cfw_badge)
         header_layout.addStretch()
 
+        online_search_btn = QPushButton("🌐 Найти игру в интернете", self)
+        online_search_btn.setStyleSheet("background-color: #00E5FF; color: #121418; font-weight: bold; padding: 6px 14px; border: none;")
+        online_search_btn.clicked.connect(self._open_online_search)
+        header_layout.addWidget(online_search_btn)
+
         log_btn = QPushButton("Журнал FFmpeg", self)
         log_btn.clicked.connect(self._show_ffmpeg_logs)
         header_layout.addWidget(log_btn)
@@ -274,8 +282,12 @@ class MainWindow(QMainWindow):
         self.gameplay_file_edit.setPlaceholderText("Выберите исходный видеофайл (.mp4, .mkv, .mov)...")
         browse_btn = QPushButton("Обзор...", widget)
         browse_btn.clicked.connect(self._browse_gameplay)
+        online_dl_btn = QPushButton("🎬 Скачать видео по URL...", widget)
+        online_dl_btn.setStyleSheet("background-color: #3B82F6; color: #FFFFFF;")
+        online_dl_btn.clicked.connect(self._download_online_video)
         file_layout.addWidget(self.gameplay_file_edit)
         file_layout.addWidget(browse_btn)
+        file_layout.addWidget(online_dl_btn)
         layout.addLayout(file_layout)
 
         # Trim and loop settings
@@ -597,3 +609,52 @@ class MainWindow(QMainWindow):
     def _show_ffmpeg_logs(self):
         dlg = FFmpegLogDialog(self.pipeline.logs, self)
         dlg.exec()
+
+    def _open_online_search(self):
+        dlg = OnlineSearchDialog(
+            on_select_artwork=self._on_online_artwork_selected,
+            on_select_title_id=self._on_online_title_id_selected,
+            parent=self
+        )
+        dlg.exec()
+
+    def _on_online_artwork_selected(self, image_path: str, title_id: str, game_title: str):
+        self.art_file_edit.setText(image_path)
+        self.tid_input.setText(title_id)
+        self.game_title_input.setText(game_title)
+        self.tabs.setCurrentIndex(0)  # Switch to Mode A
+
+    def _on_online_title_id_selected(self, title_id: str, game_title: str):
+        self.tid_input.setText(title_id)
+        self.game_title_input.setText(game_title)
+
+    def _download_online_video(self):
+        url, ok = QInputDialog.getText(
+            self, "Скачивание онлайн-видео",
+            "Вставьте прямую ссылку на MP4 или ссылку на видео/трейлер в YouTube:"
+        )
+        if not ok or not url.strip():
+            return
+
+        url = url.strip()
+        title_id = self.tid_input.text().strip().upper() or "ONLINE_VIDEO"
+        import tempfile
+        temp_dir = Path(tempfile.gettempdir()) / "h3h_studio_videos"
+
+        self.status_label.setText(f"Загрузка видео с {url}...")
+        self.export_btn.setEnabled(False)
+
+        def dl_thread():
+            video_file = OnlineFetcher.download_video_stream(url, temp_dir, title_id)
+            if video_file and video_file.exists():
+                QTimer.singleShot(0, lambda: self._on_video_downloaded(str(video_file)))
+            else:
+                QTimer.singleShot(0, lambda: QMessageBox.critical(self, "Ошибка", "Не удалось скачать видео по указанной ссылке."))
+            QTimer.singleShot(0, lambda: self.export_btn.setEnabled(True))
+
+        threading.Thread(target=dl_thread, daemon=True).start()
+
+    def _on_video_downloaded(self, video_path: str):
+        self.gameplay_file_edit.setText(video_path)
+        self.status_label.setText(f"✓ Онлайн-видео успешно загружено: {Path(video_path).name}")
+        self.tabs.setCurrentIndex(1)  # Switch to Mode B
