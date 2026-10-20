@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-10-20T17:05:53.994960+00:00",
-  "totalGames": 676,
-  "totalVariants": 724,
+  "totalGames": 679,
+  "totalVariants": 727,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -1009,7 +1009,7 @@
       "publisher": "Unknown",
       "variants": [
         {
-          "id": "red-dead-redemption",
+          "id": "rdr-clean-motion-hero",
           "name": "Red Dead Redemption",
           "style": "Animated Art",
           "version": "1.0",
@@ -2225,7 +2225,7 @@
       "publisher": "Unknown",
       "variants": [
         {
-          "id": "cuphead-jazz",
+          "id": "cuphead-clean-motion",
           "name": "Cuphead Jazz",
           "style": "Animated Art",
           "version": "1.0",
@@ -17759,7 +17759,82 @@
           "notes": "SteamGridDB Animated Grid: 01004150200CE000_Faith_the_Unholy_Trinity.mp4"
         }
       ]
+    },
+    {
+      "titleId": "010067F0179C2000",
+      "title": "Saint Kotar [NSZ][RUS/Multi12]",
+      "publisher": "SOEDESCO",
+      "variants": [
+        {
+          "id": "var-1y5iReK_",
+          "name": "Saint Kotar",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1y5iReK_0D5PhKL8TDGZkTzDl91pFnLYZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1y5iReK_0D5PhKL8TDGZkTzDl91pFnLYZ&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 010067F0179C2000_Saint_Kotar.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010010B00DDA2000",
+      "title": "Raji An Ancient Epic Enhanced edition [NSP][RUS/Multi9]",
+      "publisher": "Supercom",
+      "variants": [
+        {
+          "id": "var-1ZvRXlXE",
+          "name": "Raji An Ancient Epic Enhanced",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZvRXlXEMDGcv_HufywnH3qyoNdPBuPiL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZvRXlXEMDGcv_HufywnH3qyoNdPBuPiL&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 010010B00DDA2000_Raji_An_Ancient_Epic_Enhanced.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010084202447E000",
+      "title": "Doki Monsters Quest (Dokimon) [NSZ][ENG]",
+      "publisher": "RedDeerGames",
+      "variants": [
+        {
+          "id": "var-10kiz0N3",
+          "name": "Doki Monsters Quest",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10kiz0N3rK0qz4zas0SLl2eJQMXqt9Q45",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10kiz0N3rK0qz4zas0SLl2eJQMXqt9Q45&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 010084202447E000_Doki_Monsters_Quest.mp4"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-10-20T22:13:37.899282+00:00"
+  "lastUpdated": "2026-10-20T22:59:22.699587+00:00"
 }

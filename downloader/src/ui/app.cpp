@@ -286,8 +286,8 @@ void App::updateApplicationNro() {
             ? ("Загрузка обновления v" + latestVer)
             : ("Downloading update v" + latestVer);
         m_dialogMessage = (m_language == Language::Russian)
-            ? ("Загрузка H3H-Backgrounds.nro с GitHub (" + releaseNotes + ")...")
-            : ("Downloading new release from GitHub...");
+            ? "Загрузка H3H-Backgrounds.nro с GitHub..."
+            : "Downloading H3H-Backgrounds.nro from GitHub...";
 
         std::string nroUrl = "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/latest/download/H3H-Backgrounds.nro";
         std::string appDir = m_platform->getAppDirectory();
@@ -1428,11 +1428,11 @@ void App::renderTabMyGames() {
 
                 // Variant Title & Style (bounded so it never overlaps install button)
                 std::string vTitle = std::to_string(vIdx + 1) + ". " + v.name + " (" + styleToString(v.style) + ")";
-                drawText(vTitle, 545, vY + 12, isVarSelected ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 16, 510);
+                drawText(vTitle, 545, vY + 12, isVarSelected ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 16, 450);
 
-                // Tech Specs Line
-                std::string meta = "Автор: " + v.author + "  |  " + std::to_string(v.width) + "x" +
-                                   std::to_string(v.height) + " @" + std::to_string(static_cast<int>(v.fps)) + "fps  |  " +
+                // Tech Specs Line (Width capped at 230 to avoid overlap with badges)
+                std::string meta = std::to_string(v.width) + "x" + std::to_string(v.height) + " @" +
+                                   std::to_string(static_cast<int>(v.fps)) + "fps  |  " +
                                    ([&]() {
                     double mb = static_cast<double>(v.sizeBytes) / (1024.0 * 1024.0);
                     char buf[16];
@@ -1440,7 +1440,7 @@ void App::renderTabMyGames() {
                     else snprintf(buf, sizeof(buf), "~3.5 MB");
                     return std::string(buf);
                 })();
-                drawText(meta, 545, vY + 40, Theme::COLOR_TEXT_MUTED, 12, 420);
+                drawText(meta, 545, vY + 41, Theme::COLOR_TEXT_MUTED, 12, 230);
 
                 // Active installed background badge
                 bool isActiveOnConsole = false;
@@ -1450,26 +1450,27 @@ void App::renderTabMyGames() {
                     }
                 }
                 if (isActiveOnConsole) {
-                    drawRect(845, vY + 38, 120, 20, {0x10, 0xB9, 0x81, 0x44});
-                    drawRectOutline(845, vY + 38, 120, 20, Theme::COLOR_SUCCESS, 1);
-                    drawText("УСТАНОВЛЕН", 858, vY + 42, Theme::COLOR_SUCCESS, 10);
+                    drawRect(785, vY + 38, 105, 22, {0x10, 0xB9, 0x81, 0x44});
+                    drawRectOutline(785, vY + 38, 105, 22, Theme::COLOR_SUCCESS, 1);
+                    drawText("УСТАНОВЛЕН", 797, vY + 43, Theme::COLOR_SUCCESS, 10);
                 }
 
                 // Audio Status Pill
                 if (v.hasAudio) {
-                    drawRect(975, vY + 38, 80, 20, {0x10, 0xB9, 0x81, 0x33});
-                    drawRectOutline(975, vY + 38, 80, 20, Theme::COLOR_SUCCESS, 1);
-                    drawText("ЗВУК", 998, vY + 42, Theme::COLOR_SUCCESS, 10);
+                    drawRect(905, vY + 38, 70, 22, {0x10, 0xB9, 0x81, 0x33});
+                    drawRectOutline(905, vY + 38, 70, 22, Theme::COLOR_SUCCESS, 1);
+                    drawText("ЗВУК", 924, vY + 43, Theme::COLOR_SUCCESS, 10);
                 } else {
-                    drawRect(975, vY + 38, 80, 20, {0x28, 0x33, 0x47, 0x44});
-                    drawRectOutline(975, vY + 38, 80, 20, Theme::COLOR_BORDER, 1);
-                    drawText("БЕЗ ЗВУКА", 982, vY + 42, Theme::COLOR_TEXT_MUTED, 10);
+                    drawRect(905, vY + 38, 85, 22, {0x28, 0x33, 0x47, 0x44});
+                    drawRectOutline(905, vY + 38, 85, 22, Theme::COLOR_BORDER, 1);
+                    drawText("БЕЗ ЗВУКА", 916, vY + 43, Theme::COLOR_TEXT_MUTED, 10);
                 }
 
                 if (isVarSelected) {
-                    drawRect(1070, vY + 18, 140, 36, Theme::COLOR_FOCUS_FILL);
-                    drawRectOutline(1070, vY + 18, 140, 36, Theme::COLOR_FOCUS_CYAN, 1);
-                    drawText("[A] Установить", 1085, vY + 27, Theme::COLOR_FOCUS_CYAN, 13);
+                    drawRect(1005, vY + 18, 205, 36, Theme::COLOR_FOCUS_FILL);
+                    drawRectOutline(1005, vY + 18, 205, 36, Theme::COLOR_FOCUS_CYAN, 1);
+                    std::string btnText = isActiveOnConsole ? "[A] Переустановить" : "[A] Установить";
+                    drawText(btnText, 1025, vY + 27, Theme::COLOR_FOCUS_CYAN, 13);
                 }
 
                 vY += 80;
@@ -1658,7 +1659,7 @@ void App::renderTabSettings() {
 
     std::string freeGb = std::to_string(m_sysInfo.freeStorageBytes / (1024 * 1024 * 1024)) + " GB свободно";
     std::vector<SettingRow> rows = {
-        {"Обновление приложения (NRO)", "Проверить и установить новую версию H3H-Backgrounds.nro с GitHub", "v1.0.3 [A - Обновить]", Theme::COLOR_FOCUS_CYAN},
+        {"Обновление приложения (NRO)", "Проверить и установить новую версию H3H-Backgrounds.nro с GitHub", std::string("v") + Config::APP_VERSION + " [A - Обновить]", Theme::COLOR_FOCUS_CYAN},
         {"Обновление каталога видеофонов", "Загрузить новейший каталог игр и обложек без обновления NRO", "GitHub Releases [A]", Theme::COLOR_FOCUS_CYAN},
         {"Язык интерфейса / Language", "Выбор языка отображения меню и подсказок управления", (m_language == Language::Russian ? "Русский [A]" : "English [A]"), Theme::COLOR_TEXT_PRIMARY},
         {"Очистить локальный кэш каталога", "Сбросить локальный файл cache.json и пересканировать игры", "[A / X] Сброс", Theme::COLOR_WARNING},
@@ -1679,11 +1680,11 @@ void App::renderTabSettings() {
         }
 
         // Title and description
-        drawText(rows[i].title, 75, rowY + 14, isFocused ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 17);
-        drawText(rows[i].desc, 75, rowY + 42, Theme::COLOR_TEXT_MUTED, 13);
+        drawText(rows[i].title, 75, rowY + 14, isFocused ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 17, 850);
+        drawText(rows[i].desc, 75, rowY + 42, Theme::COLOR_TEXT_MUTED, 13, 850);
 
         // Right value pill
-        drawText(rows[i].value, 950, rowY + 26, rows[i].valColor, 15);
+        drawText(rows[i].value, 950, rowY + 26, rows[i].valColor, 15, 260);
 
         rowY += 84;
     }
@@ -1711,7 +1712,8 @@ void App::renderDialog() {
 
     // Specialized dialog: Update Progress with Capsule Bar
     if (m_activeDialog == DialogType::UpdateProgress) {
-        drawText(m_dialogMessage, dx + 35, dy + 70, Theme::COLOR_TEXT_PRIMARY, 15);
+        drawText(m_dialogTitle, dx + 35, dy + 25, Theme::COLOR_FOCUS_CYAN, 20, dw - 70);
+        drawText(m_dialogMessage, dx + 35, dy + 70, Theme::COLOR_TEXT_PRIMARY, 15, dw - 70);
 
         uint64_t bytes = m_nroUpdateBytesDownloaded.load();
         uint64_t total = m_nroUpdateTotalBytes.load();
@@ -1726,7 +1728,7 @@ void App::renderDialog() {
                               std::to_string((total / (1024 * 102)) % 10) + " MB  (" +
                               std::to_string(static_cast<int>(pct)) + "%)";
         drawText(progStr, dx + 35, dy + 150, Theme::COLOR_FOCUS_CYAN, 14);
-        drawText("Обновление безопасно заменяет файл на SD карте без перезаписи в Horizon OS", dx + 35, dy + 185, Theme::COLOR_TEXT_MUTED, 12);
+        drawText("Обновление безопасно заменяет файл на SD карте без перезаписи в Horizon OS", dx + 35, dy + 185, Theme::COLOR_TEXT_MUTED, 12, dw - 70);
         drawText("[B] Скрыть окно в фон", dx + 490, dy + 225, Theme::COLOR_TEXT_MUTED, 13);
         return;
     }
@@ -2064,7 +2066,8 @@ void App::renderFullscreenPreview() {
     int hudY = 585;
     int hudW = 1200;
     int hudH = 105;
-    drawGlassCard(hudX, hudY, hudW, hudH, false, true);
+    // Solid dark obsidian to prevent underlying video text/artifacts from bleeding through
+    drawRect(hudX, hudY, hudW, hudH, {0x0D, 0x11, 0x1A, 0xF6});
     drawNeonGradientOutline(hudX, hudY, hudW, hudH, 2);
 
     if (m_myGamesSelectedIndex >= 0 && m_myGamesSelectedIndex < static_cast<int>(m_installedGames.size())) {
@@ -2079,7 +2082,7 @@ void App::renderFullscreenPreview() {
 
             // Variant Name & Style (Left middle)
             std::string varTitle = std::to_string(curV + 1) + ". " + v.name + " (" + styleToString(v.style) + ")";
-            drawText(varTitle, hudX + 25, hudY + 40, Theme::COLOR_FOCUS_CYAN, 16, 580);
+            drawText(varTitle, hudX + 25, hudY + 38, Theme::COLOR_FOCUS_CYAN, 16, 580);
 
             // Tech specs + Audio pill (Left bottom)
             double mb = static_cast<double>(v.sizeBytes) / (1024.0 * 1024.0);
@@ -2089,16 +2092,16 @@ void App::renderFullscreenPreview() {
 
             std::string specs = "1280x720 @30fps  |  " + std::string(mbBuf) +
                                 "  |  Вариант " + std::to_string(curV + 1) + " из " + std::to_string(totalV);
-            drawText(specs, hudX + 25, hudY + 68, Theme::COLOR_TEXT_MUTED, 13);
+            drawText(specs, hudX + 25, hudY + 68, Theme::COLOR_TEXT_MUTED, 13, 390);
 
             if (v.hasAudio) {
-                drawRect(hudX + 480, hudY + 66, 75, 20, {0x10, 0xB9, 0x81, 0x33});
-                drawRectOutline(hudX + 480, hudY + 66, 75, 20, Theme::COLOR_SUCCESS, 1);
-                drawText("ЗВУК", hudX + 501, hudY + 70, Theme::COLOR_SUCCESS, 10);
+                drawRect(hudX + 430, hudY + 66, 75, 22, {0x10, 0xB9, 0x81, 0x33});
+                drawRectOutline(hudX + 430, hudY + 66, 75, 22, Theme::COLOR_SUCCESS, 1);
+                drawText("ЗВУК", hudX + 451, hudY + 70, Theme::COLOR_SUCCESS, 10);
             } else {
-                drawRect(hudX + 480, hudY + 66, 75, 20, {0x28, 0x33, 0x47, 0x44});
-                drawRectOutline(hudX + 480, hudY + 66, 75, 20, Theme::COLOR_BORDER, 1);
-                drawText("БЕЗ ЗВУКА", hudX + 488, hudY + 70, Theme::COLOR_TEXT_MUTED, 10);
+                drawRect(hudX + 430, hudY + 66, 85, 22, {0x28, 0x33, 0x47, 0x44});
+                drawRectOutline(hudX + 430, hudY + 66, 85, 22, Theme::COLOR_BORDER, 1);
+                drawText("БЕЗ ЗВУКА", hudX + 439, hudY + 70, Theme::COLOR_TEXT_MUTED, 10);
             }
 
             bool isActiveVariant = false;
@@ -2109,26 +2112,26 @@ void App::renderFullscreenPreview() {
             }
 
             if (isActiveVariant) {
-                drawRect(hudX + 570, hudY + 66, 175, 20, {0x10, 0xB9, 0x81, 0x33});
-                drawRectOutline(hudX + 570, hudY + 66, 175, 20, Theme::COLOR_SUCCESS, 1);
-                drawText("УСТАНОВЛЕН НА SWITCH", hudX + 582, hudY + 70, Theme::COLOR_SUCCESS, 10);
+                drawRect(hudX + 530, hudY + 66, 185, 22, {0x10, 0xB9, 0x81, 0x33});
+                drawRectOutline(hudX + 530, hudY + 66, 185, 22, Theme::COLOR_SUCCESS, 1);
+                drawText("УСТАНОВЛЕН НА SWITCH", hudX + 542, hudY + 70, Theme::COLOR_SUCCESS, 10);
             }
 
             // Right side buttons
             if (isActiveVariant) {
-                drawRect(hudX + 900, hudY + 16, 270, 36, {0x10, 0xB9, 0x81, 0x33});
-                drawRectOutline(hudX + 900, hudY + 16, 270, 36, Theme::COLOR_SUCCESS, 1);
-                drawText("[A] Переустановить", hudX + 950, hudY + 25, Theme::COLOR_SUCCESS, 14);
+                drawRect(hudX + 900, hudY + 14, 270, 38, {0x10, 0xB9, 0x81, 0x33});
+                drawRectOutline(hudX + 900, hudY + 14, 270, 38, Theme::COLOR_SUCCESS, 1);
+                drawText("[A] Переустановить", hudX + 950, hudY + 24, Theme::COLOR_SUCCESS, 14);
             } else {
-                drawRect(hudX + 900, hudY + 16, 270, 36, Theme::COLOR_FOCUS_FILL);
-                drawRectOutline(hudX + 900, hudY + 16, 270, 36, Theme::COLOR_FOCUS_CYAN, 1);
-                drawText("[A] Установить видеофон", hudX + 930, hudY + 25, Theme::COLOR_FOCUS_CYAN, 14);
+                drawRect(hudX + 900, hudY + 14, 270, 38, Theme::COLOR_FOCUS_FILL);
+                drawRectOutline(hudX + 900, hudY + 14, 270, 38, Theme::COLOR_FOCUS_CYAN, 1);
+                drawText("[A] Установить видеофон", hudX + 930, hudY + 24, Theme::COLOR_FOCUS_CYAN, 14);
             }
 
             if (totalV > 1) {
-                drawText("[◀ / ▶ D-Pad] Варианты на лету", hudX + 900, hudY + 62, Theme::COLOR_FOCUS_PINK, 13);
+                drawText("[◀ / ▶ D-Pad] Варианты на лету", hudX + 880, hudY + 68, Theme::COLOR_FOCUS_PINK, 12);
             }
-            drawText("[B] Закрыть", hudX + 1115, hudY + 62, Theme::COLOR_TEXT_MUTED, 13);
+            drawText("[B] Закрыть", hudX + 1100, hudY + 68, Theme::COLOR_TEXT_MUTED, 13);
         }
     }
 #endif
@@ -2168,9 +2171,21 @@ void App::loadPreviewTexture(const std::string& titleId, const Variant& variant)
     if (isActiveInstalled && !installedCoverPath.empty() && std::filesystem::exists(installedCoverPath, ec)) {
         // Play directly from SD card with 0 network delay!
         m_videoPlayer.open(installedCoverPath, m_renderer);
-    } else if (std::filesystem::exists(vidFile, ec) && std::filesystem::file_size(vidFile, ec) > 50000) {
-        // Play directly from cached MP4!
-        m_videoPlayer.open(vidFile, m_renderer);
+    } else if (std::filesystem::exists(vidFile, ec)) {
+        uint64_t cachedSz = std::filesystem::file_size(vidFile, ec);
+        bool isCachedValid = false;
+        if (variant.sizeBytes > 0 && std::abs((int64_t)cachedSz - (int64_t)variant.sizeBytes) <= 4096) {
+            isCachedValid = true;
+        } else if (variant.sizeBytes == 0 && cachedSz > 50000) {
+            isCachedValid = true;
+        } else {
+            // Stale cache from older version -> remove so fresh clean video is downloaded
+            std::filesystem::remove(vidFile, ec);
+            std::filesystem::remove(thumbFile, ec);
+        }
+        if (isCachedValid) {
+            m_videoPlayer.open(vidFile, m_renderer);
+        }
     }
 
     // 2. Load static image if exists

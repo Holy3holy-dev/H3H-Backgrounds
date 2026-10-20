@@ -1,4 +1,17 @@
+import os
+import sys
+import json
+import time
+import re
+import argparse
+import tempfile
 import subprocess
+from datetime import datetime, timezone
+from pathlib import Path
+from typing import Dict, Any, List, Optional, Tuple
+
+sys.stdout.reconfigure(encoding='utf-8', line_buffering=True)
+sys.stderr.reconfigure(encoding='utf-8', line_buffering=True)
 
 def check_has_audio(file_path: Path) -> bool:
     try:
@@ -16,20 +29,6 @@ Downloads, converts to 4IFIR 720p 30fps MP4, uploads to Google Drive in batches 
 logs everything into catalog/data/steamgriddb_harvest_log.json,
 and pushes live catalog updates to GitHub.
 """
-
-import os
-import sys
-import json
-import time
-import re
-import argparse
-import tempfile
-from datetime import datetime, timezone
-from pathlib import Path
-from typing import Dict, Any, List, Optional, Tuple
-
-sys.stdout.reconfigure(encoding='utf-8', line_buffering=True)
-sys.stderr.reconfigure(encoding='utf-8', line_buffering=True)
 
 # Ensure studio is on path
 ROOT_DIR = Path(__file__).resolve().parent.parent
@@ -214,8 +213,7 @@ def atomic_save_game_to_catalog(game_tid: str, title: str, publisher: str, varia
     cat_data["totalVariants"] = sum(len(g.get("variants", [])) for g in games_list)
     cat_data["lastUpdated"] = datetime.now(timezone.utc).isoformat()
 
-    with open(CATALOG_PATH, "w", encoding="utf-8") as f:
-        json.dump(cat_data, f, ensure_ascii=False, indent=2)
+    safe_write_json(CATALOG_PATH, cat_data)
 
     return cat_data
 
@@ -284,11 +282,37 @@ def init_harvest_log(cat_data: Dict[str, Any]) -> Dict[str, Any]:
     return log_data
 
 
+def safe_write_json(path: Path, data: Any) -> None:
+    """Atomically writes JSON to disk via a temporary file with retry for Windows file locking."""
+    path = Path(path).resolve()
+    tmp_path = path.with_name(f"{path.name}.{os.getpid()}.tmp")
+    text_data = json.dumps(data, ensure_ascii=False, indent=2)
+    
+    with open(tmp_path, "w", encoding="utf-8") as f:
+        f.write(text_data)
+        f.flush()
+
+    for attempt in range(5):
+        try:
+            os.replace(tmp_path, path)
+            return
+        except OSError:
+            if attempt == 4:
+                with open(path, "w", encoding="utf-8") as f:
+                    f.write(text_data)
+                try:
+                    tmp_path.unlink(missing_ok=True)
+                except Exception:
+                    pass
+                return
+            time.sleep(0.15)
+
+
 def save_harvest_log(log_data: Dict[str, Any]) -> None:
     log_data["lastUpdated"] = datetime.now(timezone.utc).isoformat()
     log_data["totalHarvested"] = sum(1 for v in log_data.get("items", {}).values() if v.get("status") == "published")
-    with open(LOG_PATH, "w", encoding="utf-8") as f:
-        json.dump(log_data, f, ensure_ascii=False, indent=2)
+    safe_write_json(LOG_PATH, log_data)
+
 
 
 def sync_all_to_github(cat_data: Dict[str, Any], log_data: Dict[str, Any]) -> bool:
