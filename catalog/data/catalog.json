@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "updatedAt": "2026-10-20T17:05:53.994960+00:00",
   "totalGames": 305,
-  "totalVariants": 352,
+  "totalVariants": 353,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -7464,6 +7464,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "SteamGridDB Animated Hero: 0100ABA02501A000_Clover_Pit_Unholy.mp4"
+        },
+        {
+          "id": "var-1-ImTiX7",
+          "name": "Clover Pit Unholy edition",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-ImTiX79c2k0F1jawcPBYqwB827M_onF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-ImTiX79c2k0F1jawcPBYqwB827M_onF&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100ABA02501A000_Clover_Pit_Unholy_edition.mp4"
         }
       ]
     },
