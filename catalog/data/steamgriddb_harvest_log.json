@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-10-20T20:36:15.415891+00:00",
-  "totalHarvested": 618,
+  "lastUpdated": "2026-10-20T20:36:23.712752+00:00",
+  "totalHarvested": 619,
   "items": {
     "0100000000010000": {
       "titleId": "0100000000010000",
@@ -25608,6 +25608,28 @@
       "sgdbName": "SpongeBob SquarePants: The Patrick Star Game",
       "status": "no_animated_art",
       "timestamp": "2026-10-20T20:36:15.415866+00:00"
+    },
+    "0100AC20128AC000": {
+      "titleId": "0100AC20128AC000",
+      "gameTitle": "Chrono Cross The Radical Dreamers edition [NSZ][RUS (Mod.)/ENG]",
+      "cleanTitle": "Chrono Cross The Radical Dreamers",
+      "sgdbGameId": 5319766,
+      "sgdbName": "CHRONO CROSS: THE RADICAL DREAMERS EDITION",
+      "assetType": "grid",
+      "assetUrl": "https://cdn2.steamgriddb.com/grid/d584ebb215a0c98d173f9eec031625f1.webp",
+      "driveFileId": "1HGggDz5xwsvPj42ExFvho1-BgIs01CYR",
+      "downloadUrl": "https://drive.google.com/uc?export=download&id=1HGggDz5xwsvPj42ExFvho1-BgIs01CYR",
+      "fileSizeBytes": 1727718,
+      "status": "published",
+      "timestamp": "2026-10-20T20:36:22.325148+00:00"
+    },
+    "0100FF301B18C000": {
+      "titleId": "0100FF301B18C000",
+      "gameTitle": "Bud Spencer and Terence Hill: Slaps and Beans 1-2 [NSZ][ENG,RUS]",
+      "sgdbGameId": 15582,
+      "sgdbName": "Bud Spencer & Terence Hill - Slaps And Beans",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-20T20:36:23.712735+00:00"
     }
   }
 }

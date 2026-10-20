@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-10-20T20:00:00.000000+00:00",
-  "totalGames": 619,
-  "totalVariants": 668,
+  "totalGames": 620,
+  "totalVariants": 669,
   "games": [
     {
       "titleId": "01007BB00FC8A000",
@@ -2445,6 +2445,31 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "SteamGridDB Animated Grid: 01002DE00C250000_Children_of_Morta___Paws_and_Claws__Anci.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AC20128AC000",
+      "title": "Chrono Cross The Radical Dreamers edition [NSZ][RUS (Mod.)/ENG]",
+      "publisher": "Square Enix",
+      "variants": [
+        {
+          "id": "var-1HGggDz5",
+          "name": "Chrono Cross The Radical Dreamers",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HGggDz5xwsvPj42ExFvho1-BgIs01CYR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HGggDz5xwsvPj42ExFvho1-BgIs01CYR&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100AC20128AC000_Chrono_Cross_The_Radical_Dreamers.mp4"
         }
       ]
     },
