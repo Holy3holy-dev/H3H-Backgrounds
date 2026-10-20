@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-10-20T17:57:45.457805+00:00",
-  "totalHarvested": 303,
+  "lastUpdated": "2026-10-20T18:04:51.610627+00:00",
+  "totalHarvested": 305,
   "items": {
     "0100000000010000": {
       "titleId": "0100000000010000",
@@ -5945,6 +5945,66 @@
       "sgdbName": "Descenders",
       "status": "no_animated_art",
       "timestamp": "2026-10-20T17:57:45.457792+00:00"
+    },
+    "01001E1017F9A000": {
+      "titleId": "01001E1017F9A000",
+      "gameTitle": "Anton Blast (AntonBlast the Dynamite) [NSZ][ENG]",
+      "sgdbGameId": 5328994,
+      "sgdbName": "Antonblast",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-20T18:04:29.572742+00:00"
+    },
+    "0100F5102672C000": {
+      "titleId": "0100F5102672C000",
+      "gameTitle": "Rune Dice [NSZ][RUS/Multi10]",
+      "sgdbGameId": 5479929,
+      "sgdbName": "Rune Dice",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-20T18:04:30.513423+00:00"
+    },
+    "010030B01DC52000": {
+      "titleId": "010030B01DC52000",
+      "gameTitle": "Constance [NSP][RUS/Multi16]",
+      "sgdbGameId": 5409439,
+      "sgdbName": "Constance",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-20T18:04:31.483894+00:00"
+    },
+    "010025400AECE000": {
+      "titleId": "010025400AECE000",
+      "gameTitle": "Fortnite (онлайн с tagNX v37.50) [NSP][RUS/Multi14]",
+      "cleanTitle": "Fortnite",
+      "sgdbGameId": 36136,
+      "sgdbName": "Fortnite",
+      "assetType": "hero",
+      "assetUrl": "https://cdn2.steamgriddb.com/hero/8b153b9a0ea56c71cde2f517c9db1fa3.webp",
+      "driveFileId": "1OCTFjK6cCRKNlhw7ym0yQybnNk6jRn8Y",
+      "downloadUrl": "https://drive.google.com/uc?export=download&id=1OCTFjK6cCRKNlhw7ym0yQybnNk6jRn8Y",
+      "fileSizeBytes": 4681233,
+      "status": "published",
+      "timestamp": "2026-10-20T18:04:40.794625+00:00"
+    },
+    "0100DFC01D57A000": {
+      "titleId": "0100DFC01D57A000",
+      "gameTitle": "Worms Armageddon Anniversary edition [NSP][RUS/Multi9]",
+      "sgdbGameId": 5500674,
+      "sgdbName": "Worms Armageddon: Anniversary Edition",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-20T18:04:41.795688+00:00"
+    },
+    "010095300B6A4000": {
+      "titleId": "010095300B6A4000",
+      "gameTitle": "South Park: The Stick of Truth / Южный парк: Палка истины (US-версия без цензуры с переводом) [RePack][NSP][RUS]",
+      "cleanTitle": "South Park: The Stick of Truth",
+      "sgdbGameId": 2089,
+      "sgdbName": "South Park: The Stick of Truth",
+      "assetType": "hero",
+      "assetUrl": "https://cdn2.steamgriddb.com/hero/ce4e9f7f98186a05f04d68d575b61dd0.webp",
+      "driveFileId": "1qB_Cp11HUV0ehB7K2FP_O9QYtmEyVpr0",
+      "downloadUrl": "https://drive.google.com/uc?export=download&id=1qB_Cp11HUV0ehB7K2FP_O9QYtmEyVpr0",
+      "fileSizeBytes": 721066,
+      "status": "published",
+      "timestamp": "2026-10-20T18:04:51.575480+00:00"
     }
   }
 }
