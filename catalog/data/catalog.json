@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20T13:10:20.608007+00:00",
-  "totalGames": 122,
-  "totalVariants": 139,
+  "updatedAt": "2026-10-20T13:36:18.012441+00:00",
+  "totalGames": 141,
+  "totalVariants": 158,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -3357,6 +3357,481 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 01000670068D0000_Terraria.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010000000000100D",
+      "title": "Need For Speed Carbon (хоумбрю NFS:C) [NRO][RUS]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "retroarch",
+          "name": "RetroArch",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OJKu4Luw_cmjpIl2F_2mWXQiDNZLivJT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OJKu4Luw_cmjpIl2F_2mWXQiDNZLivJT&sz=w640",
+          "sizeBytes": 936244,
+          "sha256": "5bd7d1359e2ac35e7988a055bafee7be1b386a7495581dcc2304e4d90e9af64a",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 010000000000100D_RetroArch.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100525443570000",
+      "title": "Game 0100525443570000",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "return-to-castle-wolfenstein",
+          "name": "Return to Castle Wolfenstein",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14L5m5dRBUlTgIPLOoqwapEOVDp4t2f45",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14L5m5dRBUlTgIPLOoqwapEOVDp4t2f45&sz=w640",
+          "sizeBytes": 4041427,
+          "sha256": "62617a68cd1f2d5d7bdca3e1dddf8ea82245dc22f6c73bc814e2700365efb256",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100525443570000_Return_to_Castle_Wolfenstein.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010046414C4C3100",
+      "title": "Game 010046414C4C3100",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "fallout-1-2",
+          "name": "Fallout 1 2",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1h8jIrxZerNLTc2mCoZB2b8mjw08rh3y8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1h8jIrxZerNLTc2mCoZB2b8mjw08rh3y8&sz=w640",
+          "sizeBytes": 1024350,
+          "sha256": "f4cc752fe1427a6d9b20fe6bf29f552d0c0601900681cb03c18ff3cfeaec3661",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 010046414C4C3100_Fallout_1_2.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100444941423100",
+      "title": "Game 0100444941423100",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "diablo-1-tristram",
+          "name": "Diablo 1 Tristram",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TUf94zpOJo0zs6OC2MfRepS0MOzngHjp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TUf94zpOJo0zs6OC2MfRepS0MOzngHjp&sz=w640",
+          "sizeBytes": 313627,
+          "sha256": "0c76ebdb084f996356043410cb5b3da321ebe611dc843a54ff6c1910290ef17c",
+          "durationSec": 20.03,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100444941423100_Diablo_1_Tristram.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100485A44000000",
+      "title": "Game 0100485A44000000",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "horizon-zero-dawn",
+          "name": "Horizon Zero Dawn",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MrcdTAhRhFeP_a3SWIwem2QtHSX8fuMi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MrcdTAhRhFeP_a3SWIwem2QtHSX8fuMi&sz=w640",
+          "sizeBytes": 1282898,
+          "sha256": "05ce36ae2f9edba4d04dcf5334c6524ad72c9a8f689a33a7bd9c736eb31314e5",
+          "durationSec": 13.53,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100485A44000000_Horizon_Zero_Dawn.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100554E43480000",
+      "title": "Game 0100554E43480000",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "uncharted",
+          "name": "Uncharted",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15CG4yl7b6872PC_khmQskG5iCpPXKShJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15CG4yl7b6872PC_khmQskG5iCpPXKShJ&sz=w640",
+          "sizeBytes": 9023850,
+          "sha256": "0d96d73dfd7055cd54324cd8b1e9ccb8ba18d3b73ef8d28710c564779b4473d7",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100554E43480000_Uncharted.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100535049440000",
+      "title": "Game 0100535049440000",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "marvels-spider-man",
+          "name": "Marvels Spider Man",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1w2a47MgdNJ7-yKBpxn-eqzHaQtAeNCaR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1w2a47MgdNJ7-yKBpxn-eqzHaQtAeNCaR&sz=w640",
+          "sizeBytes": 695008,
+          "sha256": "3965669f3fd78414947569c69299296d92236bb32653005b477d9fac088d9c3b",
+          "durationSec": 14.8,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100535049440000_Marvels_Spider_Man.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100544C4F550000",
+      "title": "Game 0100544C4F550000",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "the-last-of-us",
+          "name": "The Last of Us",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Q8gElhavER-0YVQ5RuOwlKniAsI_HBTT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Q8gElhavER-0YVQ5RuOwlKniAsI_HBTT&sz=w640",
+          "sizeBytes": 4404219,
+          "sha256": "aa642549905fb65a0bbc55b6d1ac7eeefbfedbe146a455d83def402da790a08f",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100544C4F550000_The_Last_of_Us.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01006B00126EC000",
+      "title": "Shovel Knight: Dig / Treasure Trove (Shovel of Hope, Plague of Shadows, Specter of Torment, King of Cards, Showdown) / Pocket Dungeon [NSZ][RUS/Multi7]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "shovel-knight",
+          "name": "Shovel Knight",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ix6rFzHftVcBEKUTONbKIZGU9xdsKUOx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ix6rFzHftVcBEKUTONbKIZGU9xdsKUOx&sz=w640",
+          "sizeBytes": 1464519,
+          "sha256": "828ade9d413cbb29f6e397ca81ea1e06bd926a1ea22a1ca1c8f06e343bcd3962",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 01006B00126EC000_Shovel_Knight.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A55003B5C000",
+      "title": "Cave Story Plus / Cave Story's Secret Santa [NSZ][ENG, RUS (Mod.)]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "cave-story",
+          "name": "Cave Story",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=114W7Rda8u8HdDHcN3RDC1jSP5gpo8c99",
+          "previewUrl": "https://drive.google.com/thumbnail?id=114W7Rda8u8HdDHcN3RDC1jSP5gpo8c99&sz=w640",
+          "sizeBytes": 1375287,
+          "sha256": "e68a102609974747bf0002b0999f0f9652bed134ce8d033bf5fa472be0eba7a6",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100A55003B5C000_Cave_Story.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010029D00E740000",
+      "title": "Doom I / Doom II (2) / Doom 3 + Resurrection of Evil, The Lost Missions + аддоны [NSZ][RUS (Mod.)/ENG]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "doom-3",
+          "name": "Doom 3",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BLh1jp6X5yIJqayaqIpcwme6PaSjmbv1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BLh1jp6X5yIJqayaqIpcwme6PaSjmbv1&sz=w640",
+          "sizeBytes": 2589259,
+          "sha256": "bc9a2db1eee7567f7b9be4f7cc7f41e20d5d729301e4367729eee914a4fa9524",
+          "durationSec": 20.03,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 010029D00E740000_Doom_3.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BA5012E54000",
+      "title": "Quake + Dawn of the Machine + 11 DLC + 37 кастомных модов [NSZ][RUS/Multi6]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "quake-1",
+          "name": "Quake 1",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cZHy_xw6HpyPEV7q75PjGUvi8lHA7tko",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cZHy_xw6HpyPEV7q75PjGUvi8lHA7tko&sz=w640",
+          "sizeBytes": 1489685,
+          "sha256": "f3dfce8295677edbaad5e888f649ebbdaf43ae431542b5cfc3485b8f5a2ea34e",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100BA5012E54000_Quake_1.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010024601BB16000",
+      "title": "Tomb Raider I-III (+ Unfinished Business) / TR II (2) The Dagger of Xian + Golden Mask / TombRaider III (3) Adventures of Starring Lara Croft + The Lost Artifact Remastered [NSZ][RUS/Multi18]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "tomb-raider",
+          "name": "Tomb Raider",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1a0m-ufqgmLfogeonxxP8rwfJ8GEMbmYq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1a0m-ufqgmLfogeonxxP8rwfJ8GEMbmYq&sz=w640",
+          "sizeBytes": 3316890,
+          "sha256": "85a9c4a09823e1662a7cc157c9fba670ef537670d6c75b2bd4a1b401cdcb3e9b",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 010024601BB16000_Tomb_Raider.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E1400BA96000",
+      "title": "Darksiders: Warmastered Edition [NSP][RUS/Multi9]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "darksiders-warmastered",
+          "name": "Darksiders Warmastered",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14rAbYRTMmgqtx8XRxBqiSQb7MdnXME7f",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14rAbYRTMmgqtx8XRxBqiSQb7MdnXME7f&sz=w640",
+          "sizeBytes": 3435404,
+          "sha256": "599bea2c52ea9f01a2f884cc436c8c667faafe6392aec9bc541caa849c4b5bf8",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100E1400BA96000_Darksiders_Warmastered.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BF00112C0000",
+      "title": "Catherine Full Body [NSP][ENG]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "catherine-full-body",
+          "name": "Catherine Full Body",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1t2uyq31x5bwc3k26dXVlBVj6whoBigD0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1t2uyq31x5bwc3k26dXVlBVj6whoBigD0&sz=w640",
+          "sizeBytes": 192465,
+          "sha256": "7e605897de3b614c19281a7610dba0298ac4b670f412be519e65376bf6cc7aa2",
+          "durationSec": 20.03,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100BF00112C0000_Catherine_Full_Body.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01009040091E0000",
+      "title": "Wolfenstein II (2): The New Colossus [NSP][RUS/Multi6]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "wolfenstein-2",
+          "name": "Wolfenstein 2",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1j9noSCM4lnKtazeTCHY-QGgAHcFdWuh9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1j9noSCM4lnKtazeTCHY-QGgAHcFdWuh9&sz=w640",
+          "sizeBytes": 547063,
+          "sha256": "3abe3946e146d5a4b67f11772bbd0f64af5030d04d63dfbcd177adef70884522",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 01009040091E0000_Wolfenstein_2.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100650018FE0000",
+      "title": "Kingdom Come Deliverance Royal edition [NSZ][RUS/Multi12]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "kingdom-come-deliverance",
+          "name": "Kingdom Come Deliverance",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AiAZRfXxclednnvpEPWyn4c8zZghRcxx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AiAZRfXxclednnvpEPWyn4c8zZghRcxx&sz=w640",
+          "sizeBytes": 9015013,
+          "sha256": "a5d2127bb471c7aa0aa0ce79f778e08abdc9567e3c6042cd0302d9f8792e937e",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100650018FE0000_Kingdom_Come_Deliverance.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100830004FB6000",
+      "title": "L.A. Noire [NSZ][RUS/Multi6]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "la-noire",
+          "name": "LA Noire",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1j6YLKtK8KpfAwQMf_e4HFtPO9nIySjlw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1j6YLKtK8KpfAwQMf_e4HFtPO9nIySjlw&sz=w640",
+          "sizeBytes": 9059462,
+          "sha256": "03905d699287c4ccec753b94fb40a2afad43877bd4449e4c97f3caf2b78b723b",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100830004FB6000_LA_Noire.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100853015E86000",
+      "title": "No Man's Sky + 23 экспедиции [NSP][RUS/Multi11]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "no-mans-sky",
+          "name": "No Mans Sky",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fhIFpwyX4y8eQNT5WXnbb2fXvOKPcX2I",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fhIFpwyX4y8eQNT5WXnbb2fXvOKPcX2I&sz=w640",
+          "sizeBytes": 6427942,
+          "sha256": "d86d0a865a28e565a9ea5556a22b29f06362eab85478036670498dfa6174106e",
+          "durationSec": 19.5,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100853015E86000_No_Mans_Sky.mp4"
         }
       ]
     }
