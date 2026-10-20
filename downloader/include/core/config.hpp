@@ -15,7 +15,7 @@ public:
     
     // Default remote catalog URL (GitHub CDN raw)
         // Application Version
-    static constexpr const char* APP_VERSION = "1.0.6";
+    static constexpr const char* APP_VERSION = "1.0.7";
     static constexpr const char* VERSION_CHECK_URL =
         "https://raw.githubusercontent.com/Holy3holy-dev/H3H-Backgrounds/main/version.json";
 
