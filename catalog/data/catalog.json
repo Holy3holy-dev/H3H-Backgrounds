@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20T14:11:41.565130+00:00",
-  "totalGames": 243,
-  "totalVariants": 273,
+  "updatedAt": "2026-10-20T17:05:53.994960+00:00",
+  "totalGames": 244,
+  "totalVariants": 276,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -574,6 +574,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 0100F2C0115B6000_Zelda_TOTK.mp4"
+        },
+        {
+          "id": "standard",
+          "name": "Standard",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PvndmUD9GmcYe7DUvHQ4xNJfnZMDlUc-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PvndmUD9GmcYe7DUvHQ4xNJfnZMDlUc-&sz=w640",
+          "sizeBytes": 16148840,
+          "sha256": "50f3eb42fb0880aaca56a46c077331befd9236624bac714381bc88944c089a11",
+          "durationSec": 60.65,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1920,
+          "height": 1080,
+          "fps": 60.0,
+          "hasAudio": true,
+          "notes": "Google Drive Hosted (4IFIR: 1920x1080 @60fps)"
         }
       ]
     },
@@ -5657,6 +5675,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 01008DD013200000_Ori_and_the_Will_of_the_Wisps.mp4"
+        },
+        {
+          "id": "standard",
+          "name": "Standard",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lTlxhgb3jkOPnEJT8J47B4vyxO3fBIKM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lTlxhgb3jkOPnEJT8J47B4vyxO3fBIKM&sz=w640",
+          "sizeBytes": 8481899,
+          "sha256": "b96fac04b3c801ae8aa6ddcd98b68170e04525f141403b4c61810e4015746d63",
+          "durationSec": 67.92,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Google Drive Hosted (4IFIR: 1280x720 @30fps)"
         }
       ]
     },
@@ -6608,6 +6644,31 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 0100B1A00D8CE000_DOOM_Eternal.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C49025D3E000",
+      "title": "EA Sports FC 27 [NSP][RUS/Multi11]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "standard",
+          "name": "Standard",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=129k8pK6ZPHICrIzbewBQhl8lpnsCC5N0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=129k8pK6ZPHICrIzbewBQhl8lpnsCC5N0&sz=w640",
+          "sizeBytes": 2469399,
+          "sha256": "9d97e8f24c09e63b65bc09a35db78a07e05ba05866f06e772e99778ba99e329b",
+          "durationSec": 5.02,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1920,
+          "height": 1080,
+          "fps": 60.0,
+          "hasAudio": true,
+          "notes": "Google Drive Hosted (4IFIR: 1920x1080 @60fps)"
         }
       ]
     }
