@@ -5,6 +5,7 @@
 #include "platform/platform_interface.hpp"
 #include "ui/theme.hpp"
 #include "ui/i18n.hpp"
+#include "ui/video_player.hpp"
 #include <memory>
 #include <vector>
 #include <string>
@@ -175,6 +176,11 @@ private:
     std::thread m_previewThread;
     std::atomic<bool> m_cancelPreview{false};
     std::mutex m_previewMutex;
+
+    // Live Video Playback inside Fullscreen Preview
+    VideoPlayer m_videoPlayer;
+    std::string m_pendingVideoToOpen;
+    std::atomic<bool> m_videoDownloading{false};
 
     uint32_t m_lastStickScrollTime{0};
 };

@@ -27,6 +27,7 @@ SOURCES = [
     "src/platform/switch_platform.cpp",
     "src/platform/desktop_platform.cpp",
     "src/platform/webp_stub.cpp",
+    "src/ui/video_player.cpp",
     "src/ui/app.cpp",
 ]
 
@@ -49,6 +50,12 @@ LIBS = [
     "-lSDL2_ttf",
     "-lSDL2_image",
     "-lSDL2",
+    "-lavformat",
+    "-lavcodec",
+    "-lswscale",
+    "-lavutil",
+    "-lswresample",
+    "-ldav1d",
     "-lEGL",
     "-lglapi",
     "-ldrm_nouveau",
