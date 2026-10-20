@@ -1,3 +1,4 @@
+import time
 """
 SteamGridDB API v2 Client and 4IFIR Video Background Converter.
 Allows searching games, fetching community-created animated heroes/grids,
@@ -29,46 +30,43 @@ class SteamGridDBClient:
             "User-Agent": "H3H-Studio/1.0"
         }
 
+    def _fetch_json_with_retry(self, url: str, retries: int = 2) -> Optional[Dict[str, Any]]:
+        req = urllib.request.Request(url, headers=self._get_headers())
+        for attempt in range(retries + 1):
+            try:
+                with urllib.request.urlopen(req, timeout=25) as resp:
+                    return json.loads(resp.read().decode("utf-8"))
+            except Exception as e:
+                if attempt == retries:
+                    logger.warning("SteamGridDB request failed after %d retries: %s (%s)", retries, url, e)
+                time.sleep(1)
+        return None
+
     def search_game(self, query: str) -> List[Dict[str, Any]]:
         """Search SteamGridDB for games matching query string."""
         if not query or not query.strip():
             return []
-        term = urllib.parse.quote(query.strip())
+        term = urllib.parse.quote(query.strip(), safe='')
         url = f"{self.BASE_URL}/search/autocomplete/{term}"
-        req = urllib.request.Request(url, headers=self._get_headers())
-        try:
-            with urllib.request.urlopen(req, timeout=10) as resp:
-                data = json.loads(resp.read().decode("utf-8"))
-                if data.get("success"):
-                    return data.get("data", [])
-        except Exception as e:
-            logger.error("SteamGridDB search error for '%s': %s", query, e)
+        data = self._fetch_json_with_retry(url)
+        if data and data.get("success"):
+            return data.get("data", [])
         return []
 
     def get_animated_heroes(self, game_id: int) -> List[Dict[str, Any]]:
         """Get animated hero artworks (wide banners) for a game."""
         url = f"{self.BASE_URL}/heroes/game/{game_id}?types=animated"
-        req = urllib.request.Request(url, headers=self._get_headers())
-        try:
-            with urllib.request.urlopen(req, timeout=10) as resp:
-                data = json.loads(resp.read().decode("utf-8"))
-                if data.get("success"):
-                    return data.get("data", [])
-        except Exception as e:
-            logger.error("SteamGridDB get_animated_heroes error for %s: %s", game_id, e)
+        data = self._fetch_json_with_retry(url)
+        if data and data.get("success"):
+            return data.get("data", [])
         return []
 
     def get_animated_grids(self, game_id: int) -> List[Dict[str, Any]]:
         """Get animated grid artworks (covers) for a game."""
         url = f"{self.BASE_URL}/grids/game/{game_id}?types=animated"
-        req = urllib.request.Request(url, headers=self._get_headers())
-        try:
-            with urllib.request.urlopen(req, timeout=10) as resp:
-                data = json.loads(resp.read().decode("utf-8"))
-                if data.get("success"):
-                    return data.get("data", [])
-        except Exception as e:
-            logger.error("SteamGridDB get_animated_grids error for %s: %s", game_id, e)
+        data = self._fetch_json_with_retry(url)
+        if data and data.get("success"):
+            return data.get("data", [])
         return []
 
     def download_and_convert(
@@ -93,9 +91,16 @@ class SteamGridDBClient:
 
         try:
             req = urllib.request.Request(art_url, headers={"User-Agent": "H3H-Studio/1.0"})
-            with urllib.request.urlopen(req, timeout=30) as resp:
-                with open(tmp_in_path, "wb") as f:
-                    f.write(resp.read())
+            try:
+                with urllib.request.urlopen(req, timeout=30) as resp:
+                    with open(tmp_in_path, "wb") as f:
+                        f.write(resp.read())
+            except urllib.error.HTTPError as he:
+                logger.warning("HTTP error downloading %s: %s", art_url, he)
+                return False
+            except Exception as e:
+                logger.warning("Network error downloading %s: %s", art_url, e)
+                return False
 
             if not tmp_in_path.exists() or tmp_in_path.stat().st_size < 1000:
                 logger.error("Downloaded asset is empty or too small: %s", art_url)

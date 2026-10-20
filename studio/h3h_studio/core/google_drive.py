@@ -61,6 +61,41 @@ class GoogleDriveHelper:
         return None
 
     @classmethod
+    def refresh_access_token(cls, refresh_token: str) -> Optional[str]:
+        """
+        Refreshes access token via OAuth Playground refresh endpoint.
+        Returns the new 'ya29...' access token or None.
+        """
+        if not refresh_token or not refresh_token.strip():
+            return None
+        url = "https://developers.google.com/oauthplayground/refreshAccessToken"
+        payload = {
+            "token_uri": "https://oauth2.googleapis.com/token",
+            "refresh_token": refresh_token.strip()
+        }
+        req = urllib.request.Request(
+            url,
+            data=json.dumps(payload).encode("utf-8"),
+            headers={
+                "Content-Type": "application/json",
+                "User-Agent": "Mozilla/5.0"
+            }
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+                msg_b64 = data.get("Response", {}).get("message-body", "")
+                if msg_b64:
+                    body_str = base64.b64decode(msg_b64).decode("utf-8")
+                    token_data = json.loads(body_str)
+                    new_tok = token_data.get("access_token")
+                    if new_tok and new_tok.startswith("ya29."):
+                        return new_tok
+        except Exception as e:
+            print(f"[-] Auto-refresh error: {e}")
+        return None
+
+    @classmethod
     def get_stored_config(cls) -> Dict[str, Any]:
         """
         Loads persisted Google Drive configuration (token, default folder, author).
@@ -360,6 +395,63 @@ class GoogleDriveHelper:
 
         return True
 
+    @classmethod
+    def sync_file_to_github(
+        cls,
+        file_path: Path,
+        repo_path: str,
+        token: str,
+        repo: str = "Holy3holy-dev/H3H-Backgrounds",
+        commit_message: str = "chore: sync file to repository",
+        progress_cb: None = None
+    ) -> bool:
+        """
+        Commits any local file (such as harvest log or catalog) directly to GitHub repository via REST API.
+        """
+        file_path = Path(file_path)
+        if not file_path.exists():
+            raise FileNotFoundError(f"Файл не найден: {file_path}")
+
+        raw_bytes = file_path.read_bytes()
+        headers = {
+            "Authorization": f"Bearer {token}",
+            "Accept": "application/vnd.github.v3+json",
+            "User-Agent": "H3H-Studio"
+        }
+
+        content_url = f"https://api.github.com/repos/{repo}/contents/{repo_path.lstrip('/')}"
+        c_get_req = urllib.request.Request(content_url, headers=headers)
+        file_sha = None
+        try:
+            with urllib.request.urlopen(c_get_req, timeout=15) as cg_resp:
+                c_info = json.loads(cg_resp.read().decode("utf-8"))
+                file_sha = c_info.get("sha")
+        except urllib.error.HTTPError as e:
+            if e.code != 404:
+                raise e
+
+        b64_content = base64.b64encode(raw_bytes).decode("ascii")
+        put_payload = {
+            "message": commit_message,
+            "content": b64_content
+        }
+        if file_sha:
+            put_payload["sha"] = file_sha
+
+        put_req = urllib.request.Request(
+            content_url,
+            data=json.dumps(put_payload).encode("utf-8"),
+            headers={**headers, "Content-Type": "application/json"},
+            method="PUT"
+        )
+        with urllib.request.urlopen(put_req, timeout=15):
+            pass
+
+        if progress_cb:
+            progress_cb(f"Файл {repo_path} успешно синхронизирован с GitHub!")
+
+        return True
+
 
 class GoogleDriveClient:
     """
@@ -386,32 +478,37 @@ class GoogleDriveClient:
                 "Accept": "application/json"
             }
         )
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            data = json.loads(resp.read().decode("utf-8"))
-            user_data = data.get("user", {})
-            quota_data = data.get("storageQuota", {})
-            limit = int(quota_data.get("limit", 0))
-            usage = int(quota_data.get("usage", 0))
-            limit_gb = limit / (1024 ** 3)
-            usage_gb = usage / (1024 ** 3)
-            free_gb = max(0.0, limit_gb - usage_gb) if limit > 0 else 0.0
-            quota_str = f"Занято {usage_gb:.1f} ГБ из {limit_gb:.1f} ГБ (свободно {free_gb:.1f} ГБ)" if limit > 0 else f"Занято {usage_gb:.1f} ГБ"
-            return {
-                "success": True,
-                "ok": True,
-                "user": user_data.get("displayName", "Google User"),
-                "displayName": user_data.get("displayName", "Google User"),
-                "email": user_data.get("emailAddress", ""),
-                "emailAddress": user_data.get("emailAddress", ""),
-                "limit": limit,
-                "limit_gb": limit_gb,
-                "usage": usage,
-                "usage_gb": usage_gb,
-                "usageInDrive": int(quota_data.get("usageInDrive", 0)),
-                "free": max(0, limit - usage) if limit > 0 else 0,
-                "free_gb": free_gb,
-                "quota_str": quota_str
-            }
+        try:
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+                user_data = data.get("user", {})
+                quota_data = data.get("storageQuota", {})
+                limit = int(quota_data.get("limit", 0))
+                usage = int(quota_data.get("usage", 0))
+                limit_gb = limit / (1024 ** 3)
+                usage_gb = usage / (1024 ** 3)
+                free_gb = max(0.0, limit_gb - usage_gb) if limit > 0 else 0.0
+                quota_str = f"Занято {usage_gb:.1f} ГБ из {limit_gb:.1f} ГБ (свободно {free_gb:.1f} ГБ)" if limit > 0 else f"Занято {usage_gb:.1f} ГБ"
+                return {
+                    "success": True,
+                    "ok": True,
+                    "user": user_data.get("displayName", "Google User"),
+                    "displayName": user_data.get("displayName", "Google User"),
+                    "email": user_data.get("emailAddress", ""),
+                    "emailAddress": user_data.get("emailAddress", ""),
+                    "limit": limit,
+                    "limit_gb": limit_gb,
+                    "usage": usage,
+                    "usage_gb": usage_gb,
+                    "usageInDrive": int(quota_data.get("usageInDrive", 0)),
+                    "free": max(0, limit - usage) if limit > 0 else 0,
+                    "free_gb": free_gb,
+                    "quota_str": quota_str
+                }
+        except urllib.error.HTTPError as he:
+            return {"success": False, "ok": False, "error": f"HTTP Error {he.code}: {he.reason}"}
+        except Exception as e:
+            return {"success": False, "ok": False, "error": str(e)}
 
     @classmethod
     def list_folder_files(cls, folder_id: str, token: str) -> List[Dict[str, Any]]:

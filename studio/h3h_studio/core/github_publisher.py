@@ -42,15 +42,39 @@ class GitHubPublisher:
     DEFAULT_REPO = "Holy3holy-dev/H3H-Backgrounds"
     DEFAULT_TAG = "v1.0.0"
 
+    CONFIG_FILE = Path.home() / ".h3h_github.json"
+
+    @classmethod
+    def save_stored_credentials(cls, token: str, user: str = "Holy3holy-dev", repo: str = DEFAULT_REPO) -> None:
+        """Saves GitHub credentials to ~/.h3h_github.json."""
+        try:
+            data = {"token": token.strip(), "user": user.strip(), "repo": repo.strip()}
+            cls.CONFIG_FILE.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+        except Exception as e:
+            print(f"[-] Failed to save GitHub credentials to {cls.CONFIG_FILE}: {e}")
+
     @classmethod
     def get_stored_credentials(cls) -> Tuple[Optional[str], Optional[str]]:
         """
-        Attempts to read GitHub credentials from Windows Credential Manager or environment.
+        Attempts to read GitHub credentials from ~/.h3h_github.json, environment, or Windows Credential Manager.
         """
+        # 1. Check local persistent config file
+        if cls.CONFIG_FILE.exists():
+            try:
+                data = json.loads(cls.CONFIG_FILE.read_text(encoding="utf-8"))
+                tok = data.get("token")
+                usr = data.get("user", "Holy3holy-dev")
+                if tok and tok.strip():
+                    return tok.strip(), usr
+            except Exception:
+                pass
+
+        # 2. Check environment variable
         token = os.environ.get("GITHUB_TOKEN")
         if token:
             return token, os.environ.get("GITHUB_USER", "Holy3holy-dev")
 
+        # 3. Check Windows Credential Manager
         try:
             advapi32 = ctypes.WinDLL("advapi32.dll")
             CredReadW = advapi32.CredReadW
@@ -916,6 +940,9 @@ class GitHubPublisher:
         """
         if not token:
             return {"has_push": False, "role": "guest", "login": "", "error": "Токен не указан"}
+
+        if not repo or "/" not in repo:
+            repo = cls.DEFAULT_REPO
 
         headers = {
             "Authorization": f"Bearer {token}",
