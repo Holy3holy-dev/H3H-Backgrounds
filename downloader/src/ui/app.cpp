@@ -1444,9 +1444,13 @@ void App::renderTabMyGames() {
 
                 // Active installed background badge
                 bool isActiveOnConsole = false;
-                if (selGame.hasInstalledCover && selGame.installedCoverSizeBytes > 0 && v.sizeBytes > 0) {
-                    if (std::abs((int64_t)v.sizeBytes - (int64_t)selGame.installedCoverSizeBytes) <= 2048) {
+                if (selGame.hasInstalledCover) {
+                    if (selGame.catalogEntry.variants.size() == 1) {
                         isActiveOnConsole = true;
+                    } else if (selGame.installedCoverSizeBytes > 0 && v.sizeBytes > 0) {
+                        if (std::abs((int64_t)v.sizeBytes - (int64_t)selGame.installedCoverSizeBytes) <= 65536) {
+                            isActiveOnConsole = true;
+                        }
                     }
                 }
                 if (isActiveOnConsole) {
@@ -2046,6 +2050,10 @@ void App::renderFullscreenPreview() {
             drawRect(30, 20, 270, 32, {0x0F, 0x17, 0x2A, 0xDD});
             drawRectOutline(30, 20, 270, 32, Theme::COLOR_FOCUS_CYAN, 1);
             drawText("▶ Буферизация ролика...", 45, 28, Theme::COLOR_FOCUS_CYAN, 13);
+        } else {
+            drawRect(30, 20, 290, 32, {0x0F, 0x17, 0x2A, 0xDD});
+            drawRectOutline(30, 20, 290, 32, Theme::COLOR_BORDER, 1);
+            drawText("▶ Предпросмотр (Статичный кадр)", 45, 28, Theme::COLOR_TEXT_MUTED, 13);
         }
     } else {
         // Fallback canvas with subtle Cyber-Glass animated glow
@@ -2105,9 +2113,13 @@ void App::renderFullscreenPreview() {
             }
 
             bool isActiveVariant = false;
-            if (g.hasInstalledCover && g.installedCoverSizeBytes > 0 && v.sizeBytes > 0) {
-                if (std::abs((int64_t)v.sizeBytes - (int64_t)g.installedCoverSizeBytes) <= 2048) {
+            if (g.hasInstalledCover) {
+                if (g.catalogEntry.variants.size() == 1) {
                     isActiveVariant = true;
+                } else if (g.installedCoverSizeBytes > 0 && v.sizeBytes > 0) {
+                    if (std::abs((int64_t)v.sizeBytes - (int64_t)g.installedCoverSizeBytes) <= 65536) {
+                        isActiveVariant = true;
+                    }
                 }
             }
 
@@ -2160,10 +2172,15 @@ void App::loadPreviewTexture(const std::string& titleId, const Variant& variant)
     std::string installedCoverPath;
     if (m_myGamesSelectedIndex >= 0 && m_myGamesSelectedIndex < static_cast<int>(m_installedGames.size())) {
         const auto& g = m_installedGames[m_myGamesSelectedIndex];
-        if (g.hasInstalledCover && g.titleId == titleId && g.installedCoverSizeBytes > 0 && variant.sizeBytes > 0) {
-            if (std::abs((int64_t)variant.sizeBytes - (int64_t)g.installedCoverSizeBytes) <= 2048) {
+        if (g.hasInstalledCover && g.titleId == titleId) {
+            if (g.catalogEntry.variants.size() == 1) {
                 isActiveInstalled = true;
                 installedCoverPath = g.installedCoverPath;
+            } else if (g.installedCoverSizeBytes > 0 && variant.sizeBytes > 0) {
+                if (std::abs((int64_t)variant.sizeBytes - (int64_t)g.installedCoverSizeBytes) <= 65536) {
+                    isActiveInstalled = true;
+                    installedCoverPath = g.installedCoverPath;
+                }
             }
         }
     }
@@ -2173,18 +2190,14 @@ void App::loadPreviewTexture(const std::string& titleId, const Variant& variant)
         m_videoPlayer.open(installedCoverPath, m_renderer);
     } else if (std::filesystem::exists(vidFile, ec)) {
         uint64_t cachedSz = std::filesystem::file_size(vidFile, ec);
-        bool isCachedValid = false;
-        if (variant.sizeBytes > 0 && std::abs((int64_t)cachedSz - (int64_t)variant.sizeBytes) <= 4096) {
-            isCachedValid = true;
-        } else if (variant.sizeBytes == 0 && cachedSz > 50000) {
-            isCachedValid = true;
+        if (cachedSz > 50000) {
+            if (!m_videoPlayer.open(vidFile, m_renderer)) {
+                // If corrupted cache, purge so it can redownload
+                std::filesystem::remove(vidFile, ec);
+                std::filesystem::remove(thumbFile, ec);
+            }
         } else {
-            // Stale cache from older version -> remove so fresh clean video is downloaded
             std::filesystem::remove(vidFile, ec);
-            std::filesystem::remove(thumbFile, ec);
-        }
-        if (isCachedValid) {
-            m_videoPlayer.open(vidFile, m_renderer);
         }
     }
 
@@ -2203,6 +2216,8 @@ void App::loadPreviewTexture(const std::string& titleId, const Variant& variant)
 
     // 3. If video is already playing, no need to download
     if (m_videoPlayer.isPlaying()) {
+        m_previewLoading = false;
+        m_videoDownloading = false;
         return;
     }
 

@@ -6,6 +6,47 @@
 namespace h3h {
 namespace ui {
 
+namespace {
+
+// Custom AVIO read packet callback wrapping standard C fread
+static int avioReadPacket(void* opaque, uint8_t* buf, int buf_size) {
+    FILE* f = static_cast<FILE*>(opaque);
+    if (!f) return AVERROR_EOF;
+    size_t r = fread(buf, 1, static_cast<size_t>(buf_size), f);
+    if (r == 0) {
+        if (feof(f)) return AVERROR_EOF;
+        return AVERROR(EIO);
+    }
+    return static_cast<int>(r);
+}
+
+// Custom AVIO seek packet callback wrapping standard C fseek/ftell
+static int64_t avioSeekPacket(void* opaque, int64_t offset, int whence) {
+    FILE* f = static_cast<FILE*>(opaque);
+    if (!f) return -1;
+
+    if (whence == AVSEEK_SIZE) {
+        // Return file size without changing position
+        long current = ftell(f);
+        if (fseek(f, 0, SEEK_END) != 0) return -1;
+        long size = ftell(f);
+        fseek(f, current, SEEK_SET);
+        return static_cast<int64_t>(size);
+    }
+
+    int fseek_whence = SEEK_SET;
+    if (whence == SEEK_CUR) fseek_whence = SEEK_CUR;
+    else if (whence == SEEK_END) fseek_whence = SEEK_END;
+    else if (whence == SEEK_SET) fseek_whence = SEEK_SET;
+
+    if (fseek(f, static_cast<long>(offset), fseek_whence) != 0) {
+        return -1;
+    }
+    return static_cast<int64_t>(ftell(f));
+}
+
+} // anonymous namespace
+
 VideoPlayer::VideoPlayer() {}
 
 VideoPlayer::~VideoPlayer() {
@@ -13,8 +54,6 @@ VideoPlayer::~VideoPlayer() {
 }
 
 void VideoPlayer::close() {
-    if (!m_isOpen) return;
-
     if (m_texture) {
         SDL_DestroyTexture(m_texture);
         m_texture = nullptr;
@@ -47,9 +86,23 @@ void VideoPlayer::close() {
         avformat_close_input(&m_formatCtx);
         m_formatCtx = nullptr;
     }
+    if (m_avioCtx) {
+        // avio_context_free frees both m_avioCtx and the buffer allocated with av_malloc
+        avio_context_free(&m_avioCtx);
+        m_avioCtx = nullptr;
+        m_avioBuffer = nullptr;
+    } else if (m_avioBuffer) {
+        av_freep(&m_avioBuffer);
+        m_avioBuffer = nullptr;
+    }
+    if (m_fileHandle) {
+        fclose(m_fileHandle);
+        m_fileHandle = nullptr;
+    }
 
     m_videoStream = -1;
     m_isOpen = false;
+    m_hasDecodedFirstFrame = false;
     m_filepath.clear();
 }
 
@@ -58,15 +111,52 @@ bool VideoPlayer::open(const std::string& filepath, SDL_Renderer* renderer) {
 
     if (!renderer || filepath.empty()) return false;
 
-    m_formatCtx = avformat_alloc_context();
-    if (!m_formatCtx) return false;
+    // Open file using standard C fopen - works cleanly across devkitPro libnx devoptab (sdmc:/...)
+    m_fileHandle = fopen(filepath.c_str(), "rb");
+    if (!m_fileHandle) {
+        std::cerr << "[VideoPlayer] Failed to fopen: " << filepath << std::endl;
+        return false;
+    }
 
-    if (avformat_open_input(&m_formatCtx, filepath.c_str(), nullptr, nullptr) != 0) {
+    constexpr size_t AVIO_BUFFER_SIZE = 64 * 1024;
+    m_avioBuffer = static_cast<uint8_t*>(av_malloc(AVIO_BUFFER_SIZE));
+    if (!m_avioBuffer) {
+        close();
+        return false;
+    }
+
+    m_avioCtx = avio_alloc_context(
+        m_avioBuffer,
+        AVIO_BUFFER_SIZE,
+        0, // read-only
+        m_fileHandle,
+        &avioReadPacket,
+        nullptr,
+        &avioSeekPacket
+    );
+    if (!m_avioCtx) {
+        close();
+        return false;
+    }
+
+    m_formatCtx = avformat_alloc_context();
+    if (!m_formatCtx) {
+        close();
+        return false;
+    }
+
+    m_formatCtx->pb = m_avioCtx;
+    m_formatCtx->flags |= AVFMT_FLAG_CUSTOM_IO;
+
+    // Use a generic mp4 extension hint so FFmpeg does not attempt protocol resolution on "sdmc:/"
+    if (avformat_open_input(&m_formatCtx, "video.mp4", nullptr, nullptr) != 0) {
+        std::cerr << "[VideoPlayer] avformat_open_input failed with custom AVIO for: " << filepath << std::endl;
         close();
         return false;
     }
 
     if (avformat_find_stream_info(m_formatCtx, nullptr) < 0) {
+        std::cerr << "[VideoPlayer] avformat_find_stream_info failed for: " << filepath << std::endl;
         close();
         return false;
     }
@@ -161,7 +251,31 @@ bool VideoPlayer::open(const std::string& filepath, SDL_Renderer* renderer) {
 
     m_filepath = filepath;
     m_isOpen = true;
+    m_hasDecodedFirstFrame = false;
     m_lastFrameTime = SDL_GetTicks();
+
+    // Immediately decode the first frame so the texture is immediately ready for display
+    int attempts = 0;
+    while (attempts < 60 && !m_hasDecodedFirstFrame) {
+        attempts++;
+        int ret = av_read_frame(m_formatCtx, m_packet);
+        if (ret < 0) break;
+
+        if (m_packet->stream_index == m_videoStream) {
+            if (avcodec_send_packet(m_codecCtx, m_packet) == 0) {
+                if (avcodec_receive_frame(m_codecCtx, m_frame) == 0) {
+                    sws_scale(m_swsCtx, static_cast<const uint8_t* const*>(m_frame->data),
+                              m_frame->linesize, 0, m_height,
+                              m_frameRGB->data, m_frameRGB->linesize);
+
+                    SDL_UpdateTexture(m_texture, nullptr, m_frameRGB->data[0], m_frameRGB->linesize[0]);
+                    m_hasDecodedFirstFrame = true;
+                }
+            }
+        }
+        av_packet_unref(m_packet);
+    }
+
     return true;
 }
 
@@ -175,7 +289,7 @@ void VideoPlayer::update() {
     m_lastFrameTime = now;
 
     int attempts = 0;
-    while (attempts < 10) {
+    while (attempts < 60) {
         attempts++;
         int ret = av_read_frame(m_formatCtx, m_packet);
         if (ret < 0) {

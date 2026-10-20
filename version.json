@@ -1,6 +1,6 @@
 {
-  "latestVersion": "1.0.7",
+  "latestVersion": "1.0.8",
   "minRequiredVersion": "1.0.0",
   "downloadUrl": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/latest/download/H3H-Backgrounds.nro",
-  "releaseNotes": "Pixel-perfect UI layout, clean 30fps player, and version indicator fix"
+  "releaseNotes": "Fix Switch libnx sdmc: video playback via custom AVIO & instant live preview"
 }

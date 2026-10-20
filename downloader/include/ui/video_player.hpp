@@ -2,6 +2,7 @@
 
 #include <string>
 #include <cstdint>
+#include <cstdio>
 
 #ifdef HAS_SDL2
 #include <SDL2/SDL.h>
@@ -9,6 +10,7 @@
 extern "C" {
 #include <libavcodec/avcodec.h>
 #include <libavformat/avformat.h>
+#include <libavformat/avio.h>
 #include <libswscale/swscale.h>
 #include <libavutil/imgutils.h>
 #include <libavutil/time.h>
@@ -36,11 +38,16 @@ public:
 private:
     std::string m_filepath;
     bool m_isOpen{false};
+    bool m_hasDecodedFirstFrame{false};
     int m_width{0};
     int m_height{0};
     double m_fps{30.0};
     int64_t m_frameIntervalMs{33};
     uint32_t m_lastFrameTime{0};
+
+    FILE* m_fileHandle{nullptr};
+    uint8_t* m_avioBuffer{nullptr};
+    AVIOContext* m_avioCtx{nullptr};
 
     AVFormatContext* m_formatCtx{nullptr};
     AVCodecContext* m_codecCtx{nullptr};
