@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20T13:36:18.012441+00:00",
-  "totalGames": 141,
-  "totalVariants": 158,
+  "updatedAt": "2026-10-20T13:41:13.617955+00:00",
+  "totalGames": 143,
+  "totalVariants": 160,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -3832,6 +3832,56 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 0100853015E86000_No_Mans_Sky.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010032C00AC58000",
+      "title": "Dragon's Dogma: Dark Arisen [NSP][ENG]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "dragons-dogma",
+          "name": "Dragons Dogma",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16sJ5zV5k0nPKpasKL3KhMV0heatDnTFa",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16sJ5zV5k0nPKpasKL3KhMV0heatDnTFa&sz=w640",
+          "sizeBytes": 5591513,
+          "sha256": "a9b87c0df30ef82a668f0750b817de46f9fb156a1f253081ed266f77b19c8081",
+          "durationSec": 20.03,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 010032C00AC58000_Dragons_Dogma.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01007EF00CB88000",
+      "title": "Duke Nukem 3D 20th Anniversary World Tour [NSZ][RUS/Multi8]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "duke-nukem-3d",
+          "name": "Duke Nukem 3D",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VLzQ1k6x3_Zm08dSpjwfJtDy6pWgIrtV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VLzQ1k6x3_Zm08dSpjwfJtDy6pWgIrtV&sz=w640",
+          "sizeBytes": 7189514,
+          "sha256": "0897baff664397aeff43706a0ebcec7cb99c309063e5793473d13cf2c1e559a8",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 01007EF00CB88000_Duke_Nukem_3D.mp4"
         }
       ]
     }
