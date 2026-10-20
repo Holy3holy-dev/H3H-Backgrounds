@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-10-20T14:11:41.565130+00:00",
-  "totalGames": 179,
-  "totalVariants": 196,
+  "totalGames": 185,
+  "totalVariants": 202,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -629,7 +629,7 @@
     },
     {
       "titleId": "0100C0D400000000",
-      "title": "Switch Game 0100C0D400000000",
+      "title": "Call of Duty 4: Modern Warfare",
       "publisher": "Unknown",
       "variants": [
         {
@@ -929,7 +929,7 @@
     },
     {
       "titleId": "0100366014020000",
-      "title": "Switch Game 0100366014020000",
+      "title": "Grand Theft Auto: Vice City",
       "publisher": "Unknown",
       "variants": [
         {
@@ -1040,7 +1040,7 @@
     },
     {
       "titleId": "0100434152420000",
-      "title": "Switch Game 0100434152420000",
+      "title": "Need for Speed: Carbon (CARB)",
       "publisher": "Unknown",
       "variants": [
         {
@@ -1065,7 +1065,7 @@
     },
     {
       "titleId": "0100554732000000",
-      "title": "Switch Game 0100554732000000",
+      "title": "Need for Speed: Underground 2 (UG2)",
       "publisher": "Unknown",
       "variants": [
         {
@@ -1090,7 +1090,7 @@
     },
     {
       "titleId": "0100000000000005",
-      "title": "Need For Speed Carbon (хоумбрю NFS:C) [NRO][RUS]",
+      "title": "Need for Speed: Carbon (Homebrew Port)",
       "publisher": "Unknown",
       "variants": [
         {
@@ -1201,7 +1201,7 @@
     },
     {
       "titleId": "01004D5700000000",
-      "title": "Switch Game 01004D5700000000",
+      "title": "Need for Speed: Most Wanted (MW)",
       "publisher": "Unknown",
       "variants": [
         {
@@ -1226,7 +1226,7 @@
     },
     {
       "titleId": "0100000000000001",
-      "title": "Need For Speed Carbon (хоумбрю NFS:C) [NRO][RUS]",
+      "title": "Need for Speed: Most Wanted (Homebrew Port)",
       "publisher": "Unknown",
       "variants": [
         {
@@ -1301,7 +1301,7 @@
     },
     {
       "titleId": "0100B61019056000",
-      "title": "Switch Game 0100B61019056000",
+      "title": "Vampire Survivors",
       "publisher": "Unknown",
       "variants": [
         {
@@ -2437,7 +2437,7 @@
     },
     {
       "titleId": "01005A4F4F540000",
-      "title": "Game 01005A4F4F540000",
+      "title": "The Legend of Zelda: Ocarina of Time",
       "publisher": "Unknown",
       "variants": [
         {
@@ -3337,7 +3337,7 @@
     },
     {
       "titleId": "01000670068D0000",
-      "title": "Game 01000670068D0000",
+      "title": "Terraria",
       "publisher": "Unknown",
       "variants": [
         {
@@ -4782,6 +4782,150 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 010000000000100A_DBI_Installer.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100554731000000",
+      "title": "Need for Speed: Underground (UG1)",
+      "publisher": "EA / Homebrew",
+      "variants": [
+        {
+          "id": "var-standard",
+          "name": "NFS Underground 1 Intro",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14dK76hI0buCZ5pvSFwdG9nRJEzj4DW3o",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14dK76hI0buCZ5pvSFwdG9nRJEzj4DW3o&sz=w640",
+          "sizeBytes": 5000000,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false
+        }
+      ]
+    },
+    {
+      "titleId": "0100000000000002",
+      "title": "Need for Speed: Underground (Homebrew)",
+      "publisher": "EA / Homebrew",
+      "variants": [
+        {
+          "id": "var-standard",
+          "name": "NFS Underground 1 Intro",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14dK76hI0buCZ5pvSFwdG9nRJEzj4DW3o",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14dK76hI0buCZ5pvSFwdG9nRJEzj4DW3o&sz=w640",
+          "sizeBytes": 5000000,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false
+        }
+      ]
+    },
+    {
+      "titleId": "01004E4653550000",
+      "title": "Need for Speed: Underground (NFSU)",
+      "publisher": "EA / Homebrew",
+      "variants": [
+        {
+          "id": "var-standard",
+          "name": "NFS Underground 1 Intro",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14dK76hI0buCZ5pvSFwdG9nRJEzj4DW3o",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14dK76hI0buCZ5pvSFwdG9nRJEzj4DW3o&sz=w640",
+          "sizeBytes": 5000000,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false
+        }
+      ]
+    },
+    {
+      "titleId": "0100000000000003",
+      "title": "Need for Speed: Underground 2 (Homebrew)",
+      "publisher": "EA / Homebrew",
+      "variants": [
+        {
+          "id": "var-standard",
+          "name": "NFS Underground 2",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1U9ptkHphttvy6_z1FkH4RmjiI9hj3Vha",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1U9ptkHphttvy6_z1FkH4RmjiI9hj3Vha&sz=w640",
+          "sizeBytes": 5000000,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false
+        }
+      ]
+    },
+    {
+      "titleId": "0100000000000004",
+      "title": "Need for Speed: Most Wanted (Homebrew)",
+      "publisher": "EA / Homebrew",
+      "variants": [
+        {
+          "id": "var-standard",
+          "name": "NFS Most Wanted",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FsdxfgiWtZn5FZULpVsGXxmBMcK4IE4_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FsdxfgiWtZn5FZULpVsGXxmBMcK4IE4_&sz=w640",
+          "sizeBytes": 5000000,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false
+        }
+      ]
+    },
+    {
+      "titleId": "0100000000000000",
+      "title": "Need for Speed: Carbon (antoxa2584x)",
+      "publisher": "EA / Homebrew",
+      "variants": [
+        {
+          "id": "var-standard",
+          "name": "NFS Carbon",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rtpcqdJ9baYlrTlIY7nW-VBgpOVGOdlA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rtpcqdJ9baYlrTlIY7nW-VBgpOVGOdlA&sz=w640",
+          "sizeBytes": 5000000,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false
         }
       ]
     }
