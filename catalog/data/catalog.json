@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-10-20T17:05:53.994960+00:00",
-  "totalGames": 262,
-  "totalVariants": 309,
+  "totalGames": 264,
+  "totalVariants": 311,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -7391,6 +7391,57 @@
           "notes": "Google Drive: 0100086017A72000_Sonic_Superstars.mp4"
         }
       ]
+    },
+    {
+      "titleId": "0100CD7028862000",
+      "title": "Tenebris Somnia [RePack][NSP][RUS (Mod.)/ENG]",
+      "publisher": "New Blood Interactive",
+      "variants": [
+        {
+          "id": "var-1uPbAM4n",
+          "name": "Tenebris Somnia",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1uPbAM4n06hc-Gw4VfBoc090Ys96V8AOv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1uPbAM4n06hc-Gw4VfBoc090Ys96V8AOv&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100CD7028862000_Tenebris_Somnia.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01003EC027CC8000",
+      "title": "Deep Rock Galactic Survivor [NSZ][RUS/Multi10]",
+      "publisher": "Ghost Ship Publishing",
+      "variants": [
+        {
+          "id": "var-1A3QrTPe",
+          "name": "Deep Rock Galactic Survivor",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1A3QrTPeeASonO6BjwHP6zEZrGLEJ04FF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1A3QrTPeeASonO6BjwHP6zEZrGLEJ04FF&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 01003EC027CC8000_Deep_Rock_Galactic_Survivor.mp4"
+        }
+      ]
     }
-  ]
+  ],
+  "lastUpdated": "2026-10-20T17:19:01.576913+00:00"
 }
