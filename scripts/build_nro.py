@@ -131,12 +131,23 @@ def build():
     # Generate NACP metadata
     nacp_path = os.path.join(BUILD_DIR, "H3H-Backgrounds.nacp")
     print("[*] Generating NACP metadata...")
+    # Read version dynamically from version.json or config.hpp
+    app_version = "1.0.3"
+    v_file = os.path.join(ROOT_DIR, "version.json")
+    if os.path.exists(v_file):
+        try:
+            import json
+            with open(v_file, "r", encoding="utf-8") as vf:
+                app_version = json.load(vf).get("latestVersion", "1.0.3")
+        except Exception:
+            pass
+
     nacp_cmd = [
         NACPTOOL,
         "--create",
         "H3H Backgrounds (4IFIR)",
         "H3H Team",
-        "1.0.0",
+        app_version,
         nacp_path
     ]
     res = subprocess.run(nacp_cmd, env=env, capture_output=True, text=True)

@@ -14,6 +14,12 @@ public:
     static constexpr const char* DEFAULT_SWITCH_APP_DIR    = "sdmc:/switch/H3H-Backgrounds";
     
     // Default remote catalog URL (GitHub CDN raw)
+        // Application Version
+    static constexpr const char* APP_VERSION = "1.0.3";
+    static constexpr const char* VERSION_CHECK_URL =
+        "https://raw.githubusercontent.com/Holy3holy-dev/H3H-Backgrounds/main/version.json";
+
+    // Default remote catalog URL (GitHub CDN raw)
     static constexpr const char* DEFAULT_CATALOG_URL = 
         "https://raw.githubusercontent.com/Holy3holy-dev/H3H-Backgrounds/main/catalog/data/catalog.json";
 

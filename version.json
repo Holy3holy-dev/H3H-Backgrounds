@@ -1,7 +1,6 @@
 {
-  "version": "1.0.2",
-  "name": "H3H-Backgrounds",
-  "releaseNotes": "Fix: отключена строгая проверка размера файлов, устранена ошибка filesize mismatch, поддержка любых homebrew портов",
-  "downloadUrl": "https://raw.githubusercontent.com/Holy3holy-dev/H3H-Backgrounds/main/downloader/H3H-Backgrounds.nro",
-  "minSwitchFirmware": "16.0.0"
+  "latestVersion": "1.0.3",
+  "minRequiredVersion": "1.0.0",
+  "downloadUrl": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/latest/download/H3H-Backgrounds.nro",
+  "releaseNotes": "4IFIR Cyber-Glass design, vertical variant scrolling, in-app self-updating"
 }
