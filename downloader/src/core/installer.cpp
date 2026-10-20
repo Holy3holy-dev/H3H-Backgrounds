@@ -131,21 +131,23 @@ InstallResult Installer::installVariant(
         return result;
     }
 
-    // 4. Verify SHA-256 checksum
-    std::string computedHash;
-    if (!SHA256::hashFile(tempFilePath, computedHash)) {
-        fs::remove(tempFilePath, ec);
-        result.success = false;
-        result.message = "Failed to compute SHA-256 of downloaded file";
-        return result;
-    }
+    // 4. Verify SHA-256 checksum (if provided)
+    if (!expectedSha256.empty()) {
+        std::string computedHash;
+        if (!SHA256::hashFile(tempFilePath, computedHash)) {
+            fs::remove(tempFilePath, ec);
+            result.success = false;
+            result.message = "Failed to compute SHA-256 of downloaded file";
+            return result;
+        }
 
-    if (!caseInsensitiveCompare(computedHash, expectedSha256)) {
-        fs::remove(tempFilePath, ec);
-        result.success = false;
-        result.message = "SHA-256 integrity verification failed! (computed: " + computedHash +
-                         ", expected: " + expectedSha256 + ")";
-        return result;
+        if (!caseInsensitiveCompare(computedHash, expectedSha256)) {
+            fs::remove(tempFilePath, ec);
+            result.success = false;
+            result.message = "SHA-256 integrity verification failed! (computed: " + computedHash +
+                             ", expected: " + expectedSha256 + ")";
+            return result;
+        }
     }
 
     // 5. Deterministic target path (always uppercase TITLEID.mp4)
