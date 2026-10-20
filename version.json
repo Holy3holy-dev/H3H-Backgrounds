@@ -1,7 +1,7 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "name": "H3H-Backgrounds",
-  "releaseNotes": "Поддержка 179 игр и 196 видеофонов, 4IFIR 720p 30fps, онлайн-синхронизация с Google Drive",
+  "releaseNotes": "Fix: отключена строгая проверка размера файлов, устранена ошибка filesize mismatch, поддержка любых homebrew портов",
   "downloadUrl": "https://raw.githubusercontent.com/Holy3holy-dev/H3H-Backgrounds/main/downloader/H3H-Backgrounds.nro",
   "minSwitchFirmware": "16.0.0"
 }

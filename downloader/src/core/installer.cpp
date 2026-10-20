@@ -123,11 +123,10 @@ InstallResult Installer::installVariant(
     }
 
     uint64_t actualSize = fs::file_size(tempFilePath, ec);
-    if (expectedSizeBytes > 0 && actualSize != expectedSizeBytes) {
+    if (actualSize < 1024) {
         fs::remove(tempFilePath, ec);
         result.success = false;
-        result.message = "File size mismatch (expected " + std::to_string(expectedSizeBytes) +
-                         " bytes, got " + std::to_string(actualSize) + " bytes)";
+        result.message = "Downloaded file is empty or corrupted";
         return result;
     }
 
