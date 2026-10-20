@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-10-20T19:59:49.819296+00:00",
-  "totalHarvested": 555,
+  "lastUpdated": "2026-10-20T20:02:07.664697+00:00",
+  "totalHarvested": 556,
   "items": {
     "0100000000010000": {
       "titleId": "0100000000010000",
@@ -20031,6 +20031,100 @@
       "fileSizeBytes": 4925588,
       "status": "published",
       "timestamp": "2026-10-20T19:59:49.753455+00:00"
+    },
+    "0100E6F018D10000": {
+      "titleId": "0100E6F018D10000",
+      "gameTitle": "Doraemon Nobita's Brain Exercise Adventure (ドラThink のび太のわくわく頭脳アドベンチャ) [NSZ][ENG]",
+      "sgdbGameId": 5332774,
+      "sgdbName": "Doraemon: Nobita no Kyouryuu 2006 DS",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-20T20:00:01.576622+00:00"
+    },
+    "0100261015BE2000": {
+      "titleId": "0100261015BE2000",
+      "gameTitle": "Yu-Gi-Oh! Rush Duel Dawn of the Battle Royale [NSZ][ENG]",
+      "sgdbGameId": 5348194,
+      "sgdbName": "Yu-Gi-Oh! Rush Duel: Dawn of the Battle Royale",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-20T20:00:55.124765+00:00"
+    },
+    "01002D60188DE000": {
+      "titleId": "01002D60188DE000",
+      "gameTitle": "Yu-Gi-Oh! Rush Duel Saikyo Battle Royale Let's Go Go Rush Special edition [NSZ][ENG (Mod.)/JAP]",
+      "sgdbGameId": null,
+      "status": "no_animated_art",
+      "timestamp": "2026-10-20T20:00:59.052195+00:00"
+    },
+    "0100E6200D56E000": {
+      "titleId": "0100E6200D56E000",
+      "gameTitle": "The World Next Door [NSZ][ENG]",
+      "sgdbGameId": null,
+      "status": "no_animated_art",
+      "timestamp": "2026-10-20T20:01:03.058815+00:00"
+    },
+    "0100D6B00CD88000": {
+      "titleId": "0100D6B00CD88000",
+      "gameTitle": "Yume Nikki Dream Diary [NSZ][RUS/Multi10]",
+      "sgdbGameId": null,
+      "status": "no_animated_art",
+      "timestamp": "2026-10-20T20:01:23.038770+00:00"
+    },
+    "010088100DD42000": {
+      "titleId": "010088100DD42000",
+      "gameTitle": "Roof Rage [NSP][RUS/Multi10]",
+      "sgdbGameId": null,
+      "status": "no_animated_art",
+      "timestamp": "2026-10-20T20:01:26.984461+00:00"
+    },
+    "0100787024044000": {
+      "titleId": "0100787024044000",
+      "gameTitle": "The Legend of Heroes: Trails Beyond the Horizon + 16 DLC [NSZ][ENG]",
+      "sgdbGameId": null,
+      "status": "no_animated_art",
+      "timestamp": "2026-10-20T20:01:34.911139+00:00"
+    },
+    "010082901D6F2000": {
+      "titleId": "010082901D6F2000",
+      "gameTitle": "Hyperdimension Neptunia Game Maker R:Evolution [NSP][ENG]",
+      "sgdbGameId": null,
+      "status": "no_animated_art",
+      "timestamp": "2026-10-20T20:01:42.849683+00:00"
+    },
+    "0100FF501DF18000": {
+      "titleId": "0100FF501DF18000",
+      "gameTitle": "True Fear Forsaken Souls ч. 1-2-3 [NSZ][RUS/Multi8]",
+      "sgdbGameId": null,
+      "status": "no_animated_art",
+      "timestamp": "2026-10-20T20:01:46.799305+00:00"
+    },
+    "010067C010F88000": {
+      "titleId": "010067C010F88000",
+      "gameTitle": "Goblin Sword [NSZ][ENG]",
+      "sgdbGameId": null,
+      "status": "no_animated_art",
+      "timestamp": "2026-10-20T20:01:50.778153+00:00"
+    },
+    "0100960015201000": {
+      "titleId": "0100960015201000",
+      "gameTitle": "Fallen Knight + DLC Rebellion and Rise of the Fallen [NSZ][RUS/Multi10]",
+      "sgdbGameId": 5265464,
+      "sgdbName": "Fallen Knight",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-20T20:01:53.087667+00:00"
+    },
+    "0100C3A017834000": {
+      "titleId": "0100C3A017834000",
+      "gameTitle": "Prodeus [NSZ][RUS/Multi9]",
+      "cleanTitle": "Prodeus",
+      "sgdbGameId": 32324,
+      "sgdbName": "Prodeus",
+      "assetType": "hero",
+      "assetUrl": "https://cdn2.steamgriddb.com/hero/808d45ab3ba50fe7576f6974f18244d3.webp",
+      "driveFileId": "1zwYdXVfgyW_EHn7ZyAdu7reNQ9MYWa-H",
+      "downloadUrl": "https://drive.google.com/uc?export=download&id=1zwYdXVfgyW_EHn7ZyAdu7reNQ9MYWa-H",
+      "fileSizeBytes": 2153597,
+      "status": "published",
+      "timestamp": "2026-10-20T20:02:07.664683+00:00"
     }
   }
 }

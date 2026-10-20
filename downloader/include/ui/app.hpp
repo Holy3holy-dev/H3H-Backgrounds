@@ -2,18 +2,16 @@
 
 #include "core/types.hpp"
 #include "core/catalog_manager.hpp"
-#include "core/installer.hpp"
 #include "platform/platform_interface.hpp"
 #include "ui/theme.hpp"
 #include "ui/i18n.hpp"
-
 #include <memory>
 #include <vector>
 #include <string>
-#include <atomic>
+#include <map>
 #include <thread>
 #include <mutex>
-#include <map>
+#include <atomic>
 
 struct SDL_Window;
 struct SDL_Renderer;
@@ -36,7 +34,9 @@ enum class DialogType {
     ConfirmInstallAll,
     ConfirmRestore,
     ConfirmDelete,
-    MessageAlert
+    MessageAlert,
+    UpdateProgress,
+    UpdateSuccess
 };
 
 class App {
@@ -47,6 +47,7 @@ public:
     bool init();
     void run();
     void shutdown();
+    void setRunningNroPath(const std::string& path) { m_runningNroPath = path; }
 
     // Event handling & Frame update
     void handleInput();
@@ -74,9 +75,12 @@ public:
     void renderTabSettings();
     void renderDialog();
 
-    // Drawing helpers
+    // Drawing helpers (4IFIR Glass Theme)
     void drawRect(int x, int y, int w, int h, Color color);
     void drawRectOutline(int x, int y, int w, int h, Color color, int thickness = 2);
+    void drawNeonGradientOutline(int x, int y, int w, int h, int thickness = 2);
+    void drawGlassCard(int x, int y, int w, int h, bool isFocused, bool isElevated = false);
+    void drawCapsuleProgressBar(int x, int y, int w, int h, double percent);
     void drawText(const std::string& text, int x, int y, Color color, int sizePx = 16);
     void drawBitmapTextFallback(const std::string& text, int x, int y, Color color);
     TTF_Font* getFont(int sizePx);
@@ -100,14 +104,18 @@ private:
     std::vector<InstalledTitle> m_installedGames;
     std::vector<DownloadTask> m_downloadQueue;
     SystemInfo m_sysInfo;
+    std::string m_runningNroPath;
 
     // Selection & Scroll state
     int m_myGamesSelectedIndex{0};
     int m_myGamesScrollOffset{0};
     int m_selectedVariantIndex{0};
+    int m_variantScrollOffset{0};
 
     int m_catalogSelectedIndex{0};
     int m_catalogScrollOffset{0};
+
+    int m_settingsSelectedIndex{0};
 
     // Dialog state
     DialogType m_activeDialog{DialogType::None};
@@ -136,6 +144,8 @@ private:
     std::string m_nroUpdateError;
     bool m_nroUpdateSuccess{false};
     std::mutex m_nroMutex;
+    std::atomic<uint64_t> m_nroUpdateBytesDownloaded{0};
+    std::atomic<uint64_t> m_nroUpdateTotalBytes{0};
 
     // Thread-safe async download queue processing
     void processSingleDownloadTask(int taskIdx);
@@ -146,7 +156,6 @@ private:
     std::mutex m_queueMutex;
     int m_downloadsScrollOffset{0};
 
-    // Input debounce for analog sticks
     uint32_t m_lastStickScrollTime{0};
 };
 

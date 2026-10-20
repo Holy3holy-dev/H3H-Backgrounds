@@ -23,6 +23,10 @@ public:
     virtual bool listInstalledTitles(std::vector<InstalledTitle>& outTitles) = 0;
     virtual bool loadTitleIcon(uint64_t titleIdNumeric, std::vector<uint8_t>& outJpeg) = 0;
 
+    // RomFS release for self-updating
+    virtual void releaseRomfs() {}
+    virtual void restoreRomfs() {}
+
     // System diagnostics
     virtual SystemInfo getSystemInfo() = 0;
     virtual std::string getCoversDirectory() = 0;

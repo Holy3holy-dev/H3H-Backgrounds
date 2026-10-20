@@ -145,6 +145,8 @@ bool CatalogManager::loadFromFile(const std::string& filePath, std::string& outE
 
 bool CatalogManager::saveToCacheFile(const std::string& cacheFilePath) const {
     if (m_rawJson.empty()) return false;
+    std::error_code ec;
+    std::filesystem::create_directories(std::filesystem::path(cacheFilePath).parent_path(), ec);
     std::ofstream file(cacheFilePath, std::ios::trunc);
     if (!file.is_open()) return false;
     file << m_rawJson;

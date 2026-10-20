@@ -1,8 +1,11 @@
 #include "ui/app.hpp"
 #include "core/config.hpp"
+#include "core/installer.hpp"
 #include <iostream>
 #include <iomanip>
 #include <sstream>
+#include <fstream>
+#include <filesystem>
 #include <cmath>
 
 #ifdef __SWITCH__
@@ -102,6 +105,9 @@ bool App::init() {
         std::cerr << "[-] SDL_CreateRenderer failed: " << SDL_GetError() << std::endl;
         return false;
     }
+
+    // Enable high-quality alpha blending for 4IFIR frosted glass effects
+    SDL_SetRenderDrawBlendMode(m_renderer, SDL_BLENDMODE_BLEND);
 
     // Register 1:1 physical Switch button mapping in SDL2 GameController database:
     // Physical Joy-Con / Pro Controller layout:
@@ -222,10 +228,13 @@ void App::updateApplicationNro() {
         return;
     }
 
-    m_statusNotification = (m_language == Language::Russian)
-        ? "Загрузка обновления H3H-Backgrounds.nro..."
-        : "Downloading H3H-Backgrounds.nro update...";
-    m_notificationFramesRemaining = 120;
+    m_nroUpdateBytesDownloaded.store(0);
+    m_nroUpdateTotalBytes.store(10549492); // ~10.5 MB default expected
+    m_activeDialog = DialogType::UpdateProgress;
+    m_dialogTitle = (m_language == Language::Russian) ? "Обновление системы H3H" : "H3H System Update";
+    m_dialogMessage = (m_language == Language::Russian)
+        ? "Загрузка новой версии H3H-Backgrounds.nro с GitHub..."
+        : "Downloading new H3H-Backgrounds.nro from GitHub...";
     m_isUpdatingNro = true;
 
     if (m_nroUpdateThread.joinable()) {
@@ -236,20 +245,58 @@ void App::updateApplicationNro() {
         std::string nroUrl = "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/latest/download/H3H-Backgrounds.nro";
         std::string appDir = m_platform->getAppDirectory();
         std::string tempNro = appDir + "/H3H-Backgrounds.nro.tmp";
-        std::string targetNro = appDir + "/H3H-Backgrounds.nro";
+        
+        std::vector<std::string> targetNros = {
+            appDir + "/H3H-Backgrounds.nro",
+            "sdmc:/switch/H3H-Backgrounds/H3H-Backgrounds.nro",
+            "sdmc:/switch/H3H-Backgrounds.nro"
+        };
+        if (!m_runningNroPath.empty()) {
+            targetNros.insert(targetNros.begin(), m_runningNroPath);
+        }
 
         std::atomic<bool> cancel{false};
         std::string err;
-        bool ok = m_platform->downloadFile(nroUrl, tempNro, nullptr, cancel, err);
+        auto progressCb = [this](uint64_t bytesDownloaded, uint64_t totalBytes, double speedBps) {
+            (void)speedBps;
+            m_nroUpdateBytesDownloaded.store(bytesDownloaded);
+            if (totalBytes > 0) m_nroUpdateTotalBytes.store(totalBytes);
+        };
+
+        bool ok = m_platform->downloadFile(nroUrl, tempNro, progressCb, cancel, err);
         bool success = false;
         if (ok) {
-            std::remove(targetNro.c_str());
-            if (std::rename(tempNro.c_str(), targetNro.c_str()) == 0) {
-                success = true;
-                // Automatically delete duplicate old NRO from root /switch/ folder
-                std::remove("sdmc:/switch/H3H-Backgrounds.nro");
-                std::remove("sdmc:/switch/H3H-Backgrounds.nro.tmp");
-            } else {
+            // Release romfs handle so Horizon OS FAT32 unlocks the executing .nro file
+            m_platform->releaseRomfs();
+
+            for (const auto& targetNro : targetNros) {
+                std::error_code ec;
+                std::filesystem::create_directories(std::filesystem::path(targetNro).parent_path(), ec);
+
+                // 1. Try atomic rename
+                std::remove(targetNro.c_str());
+                if (std::rename(tempNro.c_str(), targetNro.c_str()) == 0) {
+                    success = true;
+                    break;
+                }
+
+                // 2. Binary stream copy fallback (overwrites existing open FAT32 files safely)
+                std::ifstream src(tempNro, std::ios::binary);
+                if (src.is_open()) {
+                    std::ofstream dst(targetNro, std::ios::binary | std::ios::trunc);
+                    if (dst.is_open()) {
+                        dst << src.rdbuf();
+                        dst.flush();
+                        success = true;
+                        break;
+                    }
+                }
+            }
+
+            std::remove(tempNro.c_str());
+            m_platform->restoreRomfs();
+
+            if (!success) {
                 err = "Failed to replace H3H-Backgrounds.nro file";
             }
         }
@@ -316,13 +363,21 @@ void App::update() {
         }
 
         if (ok) {
-            m_statusNotification = (m_language == Language::Russian)
-                ? "Приложение H3H-Backgrounds.nro успешно обновлено!"
-                : "H3H-Backgrounds.nro updated successfully!";
+            m_activeDialog = DialogType::UpdateSuccess;
+            m_dialogTitle = (m_language == Language::Russian) ? "Обновление завершено!" : "Update Complete!";
+            m_dialogMessage = (m_language == Language::Russian)
+                ? "Приложение H3H-Backgrounds.nro успешно обновлено до актуальной версии!\nНажмите [A], чтобы перезапустить сейчас, или [B] для продолжения."
+                : "H3H-Backgrounds.nro updated successfully!\nPress [A] to restart now, or [B] to continue.";
+            m_dialogFocus = 0;
+            m_statusNotification = (m_language == Language::Russian) ? "Приложение обновлено!" : "Updated!";
         } else {
-            m_statusNotification = (m_language == Language::Russian)
-                ? ("Ошибка обновления: " + err)
-                : ("Update failed: " + err);
+            m_activeDialog = DialogType::MessageAlert;
+            m_dialogTitle = (m_language == Language::Russian) ? "Ошибка обновления" : "Update Error";
+            m_dialogMessage = (m_language == Language::Russian)
+                ? ("Не удалось применить обновление: " + err)
+                : ("Failed to apply update: " + err);
+            m_dialogFocus = 0;
+            m_statusNotification = (m_language == Language::Russian) ? ("Ошибка: " + err) : ("Error: " + err);
         }
         m_notificationFramesRemaining = 240;
     }
@@ -683,6 +738,28 @@ void App::handleInput() {
 void App::onButtonPress(int button) {
     // If Dialog is active, route all input to dialog
     if (m_activeDialog != DialogType::None) {
+        if (m_activeDialog == DialogType::UpdateProgress) {
+            // While downloading, allow B to hide modal to background
+            if (button == 1 /* B */) {
+                m_activeDialog = DialogType::None;
+            }
+            return;
+        }
+        if (m_activeDialog == DialogType::UpdateSuccess) {
+            if (button == 0 /* A - Restart App */) {
+                m_running = false; // Exit to hbmenu so user launches newly updated NRO
+            } else if (button == 1 /* B - Continue */) {
+                m_activeDialog = DialogType::None;
+            }
+            return;
+        }
+        if (m_activeDialog == DialogType::MessageAlert) {
+            if (button == 0 || button == 1) {
+                m_activeDialog = DialogType::None;
+            }
+            return;
+        }
+
         if (button == 13 /* DPAD_LEFT */ || button == 14 /* DPAD_RIGHT */) {
             m_dialogFocus = 1 - m_dialogFocus;
         } else if (button == 0 /* A - Confirm */) {
@@ -765,11 +842,13 @@ void App::onButtonPress(int button) {
             if (m_myGamesSelectedIndex > 0) {
                 m_myGamesSelectedIndex--;
                 m_selectedVariantIndex = 0;
+                m_variantScrollOffset = 0;
             }
         } else if (button == 12 /* DPAD_DOWN */) {
             if (m_myGamesSelectedIndex + 1 < static_cast<int>(m_installedGames.size())) {
                 m_myGamesSelectedIndex++;
                 m_selectedVariantIndex = 0;
+                m_variantScrollOffset = 0;
             }
         } else if (button == 13 /* DPAD_LEFT */ || button == 14 /* DPAD_RIGHT */) {
             if (m_myGamesSelectedIndex >= 0 && m_myGamesSelectedIndex < static_cast<int>(m_installedGames.size())) {
@@ -778,6 +857,13 @@ void App::onButtonPress(int button) {
                     int vCount = static_cast<int>(g.catalogEntry.variants.size());
                     if (button == 14) m_selectedVariantIndex = (m_selectedVariantIndex + 1) % vCount;
                     else m_selectedVariantIndex = (m_selectedVariantIndex == 0) ? vCount - 1 : m_selectedVariantIndex - 1;
+
+                    // Keep active variant visible inside the 4-variant window
+                    if (m_selectedVariantIndex < m_variantScrollOffset) {
+                        m_variantScrollOffset = m_selectedVariantIndex;
+                    } else if (m_selectedVariantIndex >= m_variantScrollOffset + 4) {
+                        m_variantScrollOffset = m_selectedVariantIndex - 4 + 1;
+                    }
                 }
             }
         } else if (button == 0 /* A - Install Selected Variant */) {
@@ -840,11 +926,35 @@ void App::onButtonPress(int button) {
             installAllMissing();
         }
     } else if (m_activeTab == Tab::Settings) {
-        if (button == 0 /* A */) {
-            // Toggle language
-            m_language = (m_language == Language::Russian) ? Language::English : Language::Russian;
-            m_statusNotification = (m_language == Language::Russian) ? "Язык: Русский" : "Language: English";
-            m_notificationFramesRemaining = 120;
+        if (button == 11 /* DPAD_UP */) {
+            if (m_settingsSelectedIndex > 0) m_settingsSelectedIndex--;
+        } else if (button == 12 /* DPAD_DOWN */) {
+            if (m_settingsSelectedIndex < 4) m_settingsSelectedIndex++;
+        } else if (button == 0 /* A - Activate Selected Setting */) {
+            switch (m_settingsSelectedIndex) {
+                case 0: // Check & Update NRO
+                    updateApplicationNro();
+                    break;
+                case 1: // Refresh Catalog
+                    fetchRemoteCatalog();
+                    break;
+                case 2: // Toggle Language
+                    m_language = (m_language == Language::Russian) ? Language::English : Language::Russian;
+                    m_statusNotification = (m_language == Language::Russian) ? "Язык интерфейса: Русский" : "Interface language: English";
+                    m_notificationFramesRemaining = 120;
+                    break;
+                case 3: // Clear Cache
+                    m_catalogManager.loadFromJsonString("{\"schemaVersion\":1,\"updatedAt\":\"\",\"games\":[]}", m_statusNotification);
+                    refreshInstalledGames();
+                    m_statusNotification = getStrings(m_language).cacheClearedMsg;
+                    m_notificationFramesRemaining = 120;
+                    break;
+                case 4: // Storage refresh
+                    m_sysInfo = m_platform->getSystemInfo();
+                    m_statusNotification = "Память MicroSD обновлена";
+                    m_notificationFramesRemaining = 90;
+                    break;
+            }
         } else if (button == 2 /* X - Clear Cache */) {
             m_catalogManager.loadFromJsonString("{\"schemaVersion\":1,\"updatedAt\":\"\",\"games\":[]}", m_statusNotification);
             refreshInstalledGames();
@@ -1134,28 +1244,56 @@ void App::renderTabMyGames() {
         }
 
         // Available variants from catalog
-        drawText("Доступные варианты видеофона:", 530, 250, Theme::COLOR_TEXT_PRIMARY, 16);
+        int totalVariants = selGame.hasCatalogMatch ? static_cast<int>(selGame.catalogEntry.variants.size()) : 0;
+        std::string varHeader = "Доступные варианты видеофона (" + std::to_string(totalVariants) + "):";
+        drawText(varHeader, 530, 250, Theme::COLOR_TEXT_PRIMARY, 16);
 
-        if (selGame.hasCatalogMatch && !selGame.catalogEntry.variants.empty()) {
-            int vY = 285;
-            for (size_t vIdx = 0; vIdx < selGame.catalogEntry.variants.size(); ++vIdx) {
+        if (totalVariants > 0) {
+            const int visibleVariants = 4;
+            if (m_variantScrollOffset < 0) m_variantScrollOffset = 0;
+            if (m_selectedVariantIndex < m_variantScrollOffset) {
+                m_variantScrollOffset = m_selectedVariantIndex;
+            } else if (m_selectedVariantIndex >= m_variantScrollOffset + visibleVariants) {
+                m_variantScrollOffset = m_selectedVariantIndex - visibleVariants + 1;
+            }
+
+            // Scroll indicator ABOVE
+            if (m_variantScrollOffset > 0) {
+                drawText("▲ Еще варианты выше (используйте D-Pad Влево)", 780, 252, Theme::COLOR_FOCUS_CYAN, 12);
+            }
+
+            int vY = 280;
+            int endVIdx = std::min(totalVariants, m_variantScrollOffset + visibleVariants);
+            for (int vIdx = m_variantScrollOffset; vIdx < endVIdx; ++vIdx) {
                 const auto& v = selGame.catalogEntry.variants[vIdx];
-                bool isVarSelected = (static_cast<int>(vIdx) == m_selectedVariantIndex);
+                bool isVarSelected = (vIdx == m_selectedVariantIndex);
 
-                drawRect(530, vY, 690, 70, isVarSelected ? Theme::COLOR_FOCUS_FILL : Theme::COLOR_BG_ELEVATED);
-                drawRectOutline(530, vY, 690, 70, isVarSelected ? Theme::COLOR_FOCUS_RING : Theme::COLOR_BORDER, isVarSelected ? 2 : 1);
+                // 4IFIR Cyber-Glass variant card
+                drawGlassCard(525, vY, 700, 72, isVarSelected, false);
 
-                drawText(v.name + " (" + styleToString(v.style) + ")", 550, vY + 12, Theme::COLOR_TEXT_PRIMARY, 15);
-                std::string meta = "Автор: " + v.author + " | " + std::to_string(v.width) + "x" +
-                                   std::to_string(v.height) + " @" + std::to_string(static_cast<int>(v.fps)) + "fps | " +
+                // Variant Title & Style
+                std::string vTitle = std::to_string(vIdx + 1) + ". " + v.name + " (" + styleToString(v.style) + ")";
+                drawText(vTitle, 545, vY + 12, isVarSelected ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 16);
+
+                // Tech Specs Line
+                std::string meta = "Автор: " + v.author + "  |  " + std::to_string(v.width) + "x" +
+                                   std::to_string(v.height) + " @" + std::to_string(static_cast<int>(v.fps)) + "fps  |  " +
                                    std::to_string(v.sizeBytes / (1024 * 1024)) + " MB";
-                drawText(meta, 550, vY + 38, Theme::COLOR_TEXT_MUTED, 12);
+                drawText(meta, 545, vY + 40, Theme::COLOR_TEXT_MUTED, 12);
 
                 if (isVarSelected) {
-                    drawText("[A] Установить", 1100, vY + 25, Theme::COLOR_FOCUS_RING, 14);
+                    drawRect(1070, vY + 18, 140, 36, Theme::COLOR_FOCUS_FILL);
+                    drawRectOutline(1070, vY + 18, 140, 36, Theme::COLOR_FOCUS_CYAN, 1);
+                    drawText("[A] Установить", 1085, vY + 27, Theme::COLOR_FOCUS_CYAN, 13);
                 }
 
                 vY += 80;
+            }
+
+            // Scroll indicator BELOW
+            if (endVIdx < totalVariants) {
+                std::string belowStr = "▼ Еще варианты ниже: " + std::to_string(totalVariants - endVIdx) + " шт. (используйте D-Pad Вправо)";
+                drawText(belowStr, 720, vY + 6, Theme::COLOR_FOCUS_PINK, 12);
             }
         } else {
             drawText("Для этой игры пока нет вариантов в онлайн-библиотеке.", 530, 290, Theme::COLOR_TEXT_MUTED, 14);
@@ -1312,79 +1450,157 @@ void App::renderTabDownloads() {
 
 void App::renderTabSettings() {
     const auto& s = getStrings(m_language);
+    (void)s;
 
-    drawRect(30, 80, 1220, 570, Theme::COLOR_BG_SURFACE);
-    drawRectOutline(30, 80, 1220, 570, Theme::COLOR_BORDER, 1);
+    // Main 4IFIR Frosted Glass Container
+    drawGlassCard(30, 80, 1220, 570, false, false);
 
-    drawText("Настройки системы H3H", 60, 110, Theme::COLOR_TEXT_PRIMARY, 20);
+    drawText("4IFIR System Settings  |  H3H Backgrounds", 60, 105, Theme::COLOR_TEXT_PRIMARY, 22);
+    drawText("Настройки системы, прямое обновление NRO и управление локальным хранилищем", 60, 135, Theme::COLOR_TEXT_MUTED, 13);
 
-    // Option 1: Language
-    drawText("Язык интерфейса / Language: " + std::string(m_language == Language::Russian ? "Русский" : "English") + " [Нажмите A для переключения]",
-             60, 160, Theme::COLOR_TEXT_PRIMARY, 15);
+    // Settings list options
+    struct SettingRow {
+        std::string title;
+        std::string desc;
+        std::string value;
+        Color valColor;
+    };
 
-    // Option 2: Catalog URL
-    drawText("Источник каталога: " + std::string(Config::DEFAULT_CATALOG_URL), 60, 205, Theme::COLOR_TEXT_MUTED, 13);
+    std::string freeGb = std::to_string(m_sysInfo.freeStorageBytes / (1024 * 1024 * 1024)) + " GB свободно";
+    std::vector<SettingRow> rows = {
+        {"Обновление приложения (NRO)", "Проверить и установить новую версию H3H-Backgrounds.nro с GitHub", "v1.0.3 [A - Обновить]", Theme::COLOR_FOCUS_CYAN},
+        {"Обновление каталога видеофонов", "Загрузить новейший каталог игр и обложек без обновления NRO", "GitHub Releases [A]", Theme::COLOR_FOCUS_CYAN},
+        {"Язык интерфейса / Language", "Выбор языка отображения меню и подсказок управления", (m_language == Language::Russian ? "Русский [A]" : "English [A]"), Theme::COLOR_TEXT_PRIMARY},
+        {"Очистить локальный кэш каталога", "Сбросить локальный файл cache.json и пересканировать игры", "[A / X] Сброс", Theme::COLOR_WARNING},
+        {"Память на карте MicroSD", "Доступное свободное пространство для загрузки видеофонов", freeGb, Theme::COLOR_SUCCESS}
+    };
 
-    // Option 3: Storage
-    std::string storage = "Свободно на SD: " + std::to_string(m_sysInfo.freeStorageBytes / (1024 * 1024 * 1024)) + " GB";
-    drawText(storage, 60, 245, Theme::COLOR_TEXT_MUTED, 14);
+    int rowY = 175;
+    for (size_t i = 0; i < rows.size(); ++i) {
+        bool isFocused = (static_cast<int>(i) == m_settingsSelectedIndex);
 
-    // Option 4: Clear Cache button
-    drawRect(60, 300, 280, 45, Theme::COLOR_BG_ELEVATED);
-    drawRectOutline(60, 300, 280, 45, Theme::COLOR_BORDER, 1);
-    drawText("[X] " + std::string(s.clearCacheBtn), 75, 315, Theme::COLOR_TEXT_PRIMARY, 14);
+        // Row background
+        if (isFocused) {
+            drawRect(50, rowY, 1180, 72, Theme::COLOR_FOCUS_FILL);
+            drawNeonGradientOutline(50, rowY, 1180, 72, 2);
+        } else {
+            drawRect(50, rowY, 1180, 72, Theme::COLOR_BG_SURFACE);
+            drawRectOutline(50, rowY, 1180, 72, Theme::COLOR_BORDER, 1);
+        }
 
-    // Option 5: Refresh Catalog button
-    drawRect(370, 300, 320, 45, Theme::COLOR_BG_ELEVATED);
-    drawRectOutline(370, 300, 320, 45, Theme::COLOR_ACCENT, 1);
-    drawText("[-] / [Y] " + std::string(s.actionRefreshCatalog), 390, 315, Theme::COLOR_ACCENT, 14);
+        // Title and description
+        drawText(rows[i].title, 75, rowY + 14, isFocused ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 17);
+        drawText(rows[i].desc, 75, rowY + 42, Theme::COLOR_TEXT_MUTED, 13);
 
-    // Option 6: Update Application NRO button
-    drawRect(720, 300, 340, 45, Theme::COLOR_BG_ELEVATED);
-    drawRectOutline(720, 300, 340, 45, Theme::COLOR_SUCCESS, 1);
-    drawText("[+] " + std::string(s.updateAppBtn), 740, 315, Theme::COLOR_SUCCESS, 14);
+        // Right value pill
+        drawText(rows[i].value, 950, rowY + 26, rows[i].valColor, 15);
+
+        rowY += 84;
+    }
+
+    // Bottom Help Banner
+    drawRect(50, 600, 1180, 36, Theme::COLOR_BG_BASE);
+    drawRectOutline(50, 600, 1180, 36, Theme::COLOR_BORDER, 1);
+    drawText("Навигация: [D-Pad Вверх/Вниз] - выбор пункта   |   [A] - применить / обновить   |   [B] - главная", 75, 610, Theme::COLOR_TEXT_MUTED, 13);
 }
 
 void App::renderDialog() {
     // Dim background overlay
-    drawRect(0, 0, Theme::SCREEN_WIDTH, Theme::SCREEN_HEIGHT, {0x00, 0x00, 0x00, 0xBB});
+    drawRect(0, 0, Theme::SCREEN_WIDTH, Theme::SCREEN_HEIGHT, {0x00, 0x00, 0x00, 0xCC});
 
-    // Dialog Box
-    int dw = 650;
-    int dh = 250;
+    // 4IFIR Obsidian Glass Modal
+    int dw = 700;
+    int dh = 270;
     int dx = (Theme::SCREEN_WIDTH - dw) / 2;
     int dy = (Theme::SCREEN_HEIGHT - dh) / 2;
 
-    drawRect(dx, dy, dw, dh, Theme::COLOR_BG_ELEVATED);
-    drawRectOutline(dx, dy, dw, dh, Theme::COLOR_FOCUS_RING, 2);
+    drawRect(dx, dy, dw, dh, Theme::COLOR_BG_MODAL);
+    drawNeonGradientOutline(dx, dy, dw, dh, 2);
 
-    drawText(m_dialogTitle, dx + 30, dy + 25, Theme::COLOR_TEXT_PRIMARY, 20);
+    drawText(m_dialogTitle, dx + 35, dy + 25, Theme::COLOR_FOCUS_CYAN, 20);
 
-    // Render multi-line message
+    // Specialized dialog: Update Progress with Capsule Bar
+    if (m_activeDialog == DialogType::UpdateProgress) {
+        drawText(m_dialogMessage, dx + 35, dy + 70, Theme::COLOR_TEXT_PRIMARY, 15);
+
+        uint64_t bytes = m_nroUpdateBytesDownloaded.load();
+        uint64_t total = m_nroUpdateTotalBytes.load();
+        double pct = (total > 0) ? (static_cast<double>(bytes) / total * 100.0) : 0.0;
+
+        // Sleek Capsule Progress Bar
+        drawCapsuleProgressBar(dx + 35, dy + 115, dw - 70, 22, pct);
+
+        std::string progStr = std::to_string(bytes / (1024 * 1024)) + "." +
+                              std::to_string((bytes / (1024 * 102)) % 10) + " MB / " +
+                              std::to_string(total / (1024 * 1024)) + "." +
+                              std::to_string((total / (1024 * 102)) % 10) + " MB  (" +
+                              std::to_string(static_cast<int>(pct)) + "%)";
+        drawText(progStr, dx + 35, dy + 150, Theme::COLOR_FOCUS_CYAN, 14);
+        drawText("Обновление безопасно заменяет файл на SD карте без перезаписи в Horizon OS", dx + 35, dy + 185, Theme::COLOR_TEXT_MUTED, 12);
+        drawText("[B] Скрыть окно в фон", dx + 490, dy + 225, Theme::COLOR_TEXT_MUTED, 13);
+        return;
+    }
+
+    // Specialized dialog: Update Success
+    if (m_activeDialog == DialogType::UpdateSuccess) {
+        std::stringstream ss(m_dialogMessage);
+        std::string line;
+        int msgY = dy + 70;
+        while (std::getline(ss, line, '\n')) {
+            drawText(line, dx + 35, msgY, Theme::COLOR_TEXT_PRIMARY, 15);
+            msgY += 26;
+        }
+
+        int btnW = 200;
+        int btnH = 44;
+        int btnY = dy + 195;
+        drawRect(dx + 250, btnY, btnW, btnH, Theme::COLOR_FOCUS_FILL);
+        drawNeonGradientOutline(dx + 250, btnY, btnW, btnH, 2);
+        drawText("[A] Перезапустить", dx + 275, btnY + 13, Theme::COLOR_FOCUS_CYAN, 15);
+        return;
+    }
+
+    // Specialized dialog: Alert
+    if (m_activeDialog == DialogType::MessageAlert) {
+        std::stringstream ss(m_dialogMessage);
+        std::string line;
+        int msgY = dy + 70;
+        while (std::getline(ss, line, '\n')) {
+            drawText(line, dx + 35, msgY, Theme::COLOR_WARNING, 15);
+            msgY += 26;
+        }
+
+        int btnW = 160;
+        int btnH = 40;
+        int btnY = dy + 195;
+        drawRect(dx + 270, btnY, btnW, btnH, Theme::COLOR_BG_SURFACE);
+        drawRectOutline(dx + 270, btnY, btnW, btnH, Theme::COLOR_BORDER, 1);
+        drawText("[A] Закрыть", dx + 310, btnY + 12, Theme::COLOR_TEXT_PRIMARY, 14);
+        return;
+    }
+
+    // Standard Confirmation Dialogs
     std::stringstream ss(m_dialogMessage);
     std::string line;
-    int msgY = dy + 75;
+    int msgY = dy + 70;
     while (std::getline(ss, line, '\n')) {
-        drawText(line, dx + 30, msgY, Theme::COLOR_TEXT_MUTED, 14);
+        drawText(line, dx + 35, msgY, Theme::COLOR_TEXT_MUTED, 14);
         msgY += 24;
     }
 
-    // Action buttons
-    int btnW = 160;
-    int btnH = 40;
-    int btnY = dy + 170;
+    int btnW = 180;
+    int btnH = 42;
+    int btnY = dy + 190;
 
     // Confirm button
     bool focusConfirm = (m_dialogFocus == 0);
-    drawRect(dx + 130, btnY, btnW, btnH, focusConfirm ? Theme::COLOR_FOCUS_FILL : Theme::COLOR_BG_SURFACE);
-    drawRectOutline(dx + 130, btnY, btnW, btnH, focusConfirm ? Theme::COLOR_FOCUS_RING : Theme::COLOR_BORDER, focusConfirm ? 2 : 1);
-    drawText("[A] Подтвердить", dx + 145, btnY + 12, Theme::COLOR_TEXT_PRIMARY, 14);
+    drawGlassCard(dx + 130, btnY, btnW, btnH, focusConfirm, false);
+    drawText("[A] Подтвердить", dx + 155, btnY + 12, focusConfirm ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 14);
 
     // Cancel button
     bool focusCancel = (m_dialogFocus == 1);
-    drawRect(dx + 340, btnY, btnW, btnH, focusCancel ? Theme::COLOR_FOCUS_FILL : Theme::COLOR_BG_SURFACE);
-    drawRectOutline(dx + 340, btnY, btnW, btnH, focusCancel ? Theme::COLOR_FOCUS_RING : Theme::COLOR_BORDER, focusCancel ? 2 : 1);
-    drawText("[B] Отмена", dx + 375, btnY + 12, Theme::COLOR_TEXT_PRIMARY, 14);
+    drawGlassCard(dx + 390, btnY, btnW, btnH, focusCancel, false);
+    drawText("[B] Отмена", dx + 435, btnY + 12, focusCancel ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 14);
 }
 
 void App::drawRect(int x, int y, int w, int h, Color color) {
@@ -1408,6 +1624,75 @@ void App::drawRectOutline(int x, int y, int w, int h, Color color, int thickness
     }
 #else
     (void)x; (void)y; (void)w; (void)h; (void)color; (void)thickness;
+#endif
+}
+
+void App::drawNeonGradientOutline(int x, int y, int w, int h, int thickness) {
+#ifdef HAS_SDL2
+    if (!m_renderer) return;
+    // Signature 4IFIR Cyber-Glow: Vertical Gradient from Electric Cyan (#00E5FF) to Neon Magenta (#EC4899)
+    for (int t = 0; t < thickness; ++t) {
+        int curX = x + t;
+        int curY = y + t;
+        int curW = w - 2 * t;
+        int curH = h - 2 * t;
+        if (curW <= 0 || curH <= 0) break;
+
+        // Top horizontal edge: Electric Cyan
+        SDL_SetRenderDrawColor(m_renderer, 0x00, 0xE5, 0xFF, 0xFF);
+        SDL_RenderDrawLine(m_renderer, curX, curY, curX + curW - 1, curY);
+
+        // Bottom horizontal edge: Neon Magenta
+        SDL_SetRenderDrawColor(m_renderer, 0xEC, 0x48, 0x99, 0xFF);
+        SDL_RenderDrawLine(m_renderer, curX, curY + curH - 1, curX + curW - 1, curY + curH - 1);
+
+        // Vertical edges: smooth linear color interpolation
+        for (int row = 0; row < curH; ++row) {
+            float factor = static_cast<float>(row) / static_cast<float>(std::max(1, curH - 1));
+            uint8_t r = static_cast<uint8_t>(0x00 + factor * 0xEC);
+            uint8_t g = static_cast<uint8_t>(0xE5 + factor * (0x48 - 0xE5));
+            uint8_t b = static_cast<uint8_t>(0xFF + factor * (0x99 - 0xFF));
+            SDL_SetRenderDrawColor(m_renderer, r, g, b, 0xFF);
+            SDL_RenderDrawPoint(m_renderer, curX, curY + row);
+            SDL_RenderDrawPoint(m_renderer, curX + curW - 1, curY + row);
+        }
+    }
+#else
+    (void)x; (void)y; (void)w; (void)h; (void)thickness;
+#endif
+}
+
+void App::drawGlassCard(int x, int y, int w, int h, bool isFocused, bool isElevated) {
+#ifdef HAS_SDL2
+    if (!m_renderer) return;
+    Color bg = isElevated ? Theme::COLOR_BG_ELEVATED : Theme::COLOR_BG_SURFACE;
+    drawRect(x, y, w, h, bg);
+
+    if (isFocused) {
+        drawRect(x, y, w, h, Theme::COLOR_FOCUS_FILL);
+        drawNeonGradientOutline(x, y, w, h, 2);
+    } else {
+        drawRectOutline(x, y, w, h, Theme::COLOR_BORDER, 1);
+    }
+#else
+    (void)x; (void)y; (void)w; (void)h; (void)isFocused; (void)isElevated;
+#endif
+}
+
+void App::drawCapsuleProgressBar(int x, int y, int w, int h, double percent) {
+#ifdef HAS_SDL2
+    if (!m_renderer) return;
+    // Dark track background
+    drawRect(x, y, w, h, {0x1C, 0x22, 0x30, 0xFF});
+    drawRectOutline(x, y, w, h, {0x2D, 0x37, 0x48, 0xFF}, 1);
+
+    // Cyan filled portion
+    int fillW = static_cast<int>(w * std::clamp(percent / 100.0, 0.0, 1.0));
+    if (fillW > 0) {
+        drawRect(x, y, fillW, h, Theme::COLOR_FOCUS_CYAN);
+    }
+#else
+    (void)x; (void)y; (void)w; (void)h; (void)percent;
 #endif
 }
 

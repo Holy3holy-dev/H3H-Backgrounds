@@ -3,9 +3,6 @@
 #include <iostream>
 
 int main(int argc, char* argv[]) {
-    (void)argc;
-    (void)argv;
-
     std::cout << "========================================" << std::endl;
     std::cout << "  H3H Backgrounds — 4IFIR Downloader    " << std::endl;
     std::cout << "========================================" << std::endl;
@@ -18,6 +15,10 @@ int main(int argc, char* argv[]) {
         }
 
         h3h::ui::App app(std::move(platform));
+        if (argc > 0 && argv[0] != nullptr) {
+            app.setRunningNroPath(argv[0]);
+        }
+
         if (!app.init()) {
             std::cerr << "[-] Error: Application initialization failed." << std::endl;
             return 1;

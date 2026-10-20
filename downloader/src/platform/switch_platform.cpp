@@ -146,6 +146,22 @@ public:
         m_initialized = false;
     }
 
+    void releaseRomfs() override {
+        if (m_romfsInitialized) {
+            romfsExit();
+            m_romfsInitialized = false;
+        }
+    }
+
+    void restoreRomfs() override {
+        if (!m_romfsInitialized) {
+            Result rc = romfsInit();
+            if (R_SUCCEEDED(rc)) {
+                m_romfsInitialized = true;
+            }
+        }
+    }
+
     bool listInstalledTitles(std::vector<InstalledTitle>& outTitles) override {
         outTitles.clear();
         s32 offset = 0;

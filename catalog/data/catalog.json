@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-10-20T17:05:53.994960+00:00",
-  "totalGames": 555,
-  "totalVariants": 603,
+  "totalGames": 556,
+  "totalVariants": 604,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -14734,7 +14734,32 @@
           "notes": "SteamGridDB Animated Grid: 010073700E412000_Doraemon_Story_of_Seasons.mp4"
         }
       ]
+    },
+    {
+      "titleId": "0100C3A017834000",
+      "title": "Prodeus [NSZ][RUS/Multi9]",
+      "publisher": "Humble Games",
+      "variants": [
+        {
+          "id": "var-1zwYdXVf",
+          "name": "Prodeus",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zwYdXVfgyW_EHn7ZyAdu7reNQ9MYWa-H",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zwYdXVfgyW_EHn7ZyAdu7reNQ9MYWa-H&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 0100C3A017834000_Prodeus.mp4"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-10-20T19:59:49.803892+00:00"
+  "lastUpdated": "2026-10-20T20:02:07.687046+00:00"
 }
