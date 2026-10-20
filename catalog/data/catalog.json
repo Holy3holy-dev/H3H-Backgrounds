@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-10-20T14:11:41.565130+00:00",
-  "totalGames": 185,
-  "totalVariants": 202,
+  "totalGames": 187,
+  "totalVariants": 204,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -4917,6 +4917,54 @@
           "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1rtpcqdJ9baYlrTlIY7nW-VBgpOVGOdlA",
           "previewUrl": "https://drive.google.com/thumbnail?id=1rtpcqdJ9baYlrTlIY7nW-VBgpOVGOdlA&sz=w640",
+          "sizeBytes": 5000000,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false
+        }
+      ]
+    },
+    {
+      "titleId": "05DDE5B45EF3E000",
+      "title": "Need for Speed Underground 1",
+      "publisher": "Electronic Arts",
+      "variants": [
+        {
+          "id": "var-standard",
+          "name": "NFS Underground 1 Intro",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1U9ptkHphttvy6_z1FkH4RmjiI9hj3Vha",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1U9ptkHphttvy6_z1FkH4RmjiI9hj3Vha&sz=w640",
+          "sizeBytes": 5000000,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false
+        }
+      ]
+    },
+    {
+      "titleId": "03DB18EF71F2C000",
+      "title": "Need for Speed Most Wanted",
+      "publisher": "Electronic Arts",
+      "variants": [
+        {
+          "id": "var-standard",
+          "name": "NFS Most Wanted",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FsdxfgiWtZn5FZULpVsGXxmBMcK4IE4_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FsdxfgiWtZn5FZULpVsGXxmBMcK4IE4_&sz=w640",
           "sizeBytes": 5000000,
           "sha256": "",
           "durationSec": 20.0,
