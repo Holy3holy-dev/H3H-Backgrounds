@@ -41,6 +41,19 @@ bool App::init() {
         }
     }
 
+    // Clean up duplicate legacy NRO at sdmc:/switch/H3H-Backgrounds.nro if we are running in subfolder
+    FILE* checkOld = fopen("sdmc:/switch/H3H-Backgrounds.nro", "rb");
+    FILE* checkNew = fopen("sdmc:/switch/H3H-Backgrounds/H3H-Backgrounds.nro", "rb");
+    if (checkOld && checkNew) {
+        fclose(checkOld);
+        fclose(checkNew);
+        std::remove("sdmc:/switch/H3H-Backgrounds.nro");
+        std::cout << "[+] Cleaned up duplicate legacy sdmc:/switch/H3H-Backgrounds.nro" << std::endl;
+    } else {
+        if (checkOld) fclose(checkOld);
+        if (checkNew) fclose(checkNew);
+    }
+
     refreshInstalledGames();
 
 #ifdef HAS_SDL2
@@ -233,6 +246,9 @@ void App::updateApplicationNro() {
             std::remove(targetNro.c_str());
             if (std::rename(tempNro.c_str(), targetNro.c_str()) == 0) {
                 success = true;
+                // Automatically delete duplicate old NRO from root /switch/ folder
+                std::remove("sdmc:/switch/H3H-Backgrounds.nro");
+                std::remove("sdmc:/switch/H3H-Backgrounds.nro.tmp");
             } else {
                 err = "Failed to replace H3H-Backgrounds.nro file";
             }
