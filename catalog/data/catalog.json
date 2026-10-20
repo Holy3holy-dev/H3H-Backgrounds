@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-10-20T17:05:53.994960+00:00",
-  "totalGames": 305,
-  "totalVariants": 353,
+  "totalGames": 355,
+  "totalVariants": 403,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -8484,7 +8484,1257 @@
           "notes": "SteamGridDB Animated Hero: 010095300B6A4000_South_Park__The_Stick_of_Truth.mp4"
         }
       ]
+    },
+    {
+      "titleId": "010099C022B96000",
+      "title": "Super Mario Galaxy 1+2 [NSZ][RUS (Mod.)/ENG]",
+      "publisher": "Nintendo",
+      "variants": [
+        {
+          "id": "var-19ylRFfY",
+          "name": "Super Mario Galaxy 1+2",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19ylRFfYTEMSfQ2_pGKr6WxQao3JU1UYu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19ylRFfYTEMSfQ2_pGKr6WxQao3JU1UYu&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 010099C022B96000_Super_Mario_Galaxy_1_2.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100651014DBA000",
+      "title": "Sherlock Holmes: Crimes and Punishments (Шерлок Холмс: Преступления и наказания) [NSZ][RUS/Multi9]",
+      "publisher": "Focus Home Interactive",
+      "variants": [
+        {
+          "id": "var-1t9FVpIS",
+          "name": "Sherlock Holmes: Crimes and Punishments",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1t9FVpISMyNRyqAcADuEd3T360a4W-CwN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1t9FVpISMyNRyqAcADuEd3T360a4W-CwN&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100651014DBA000_Sherlock_Holmes__Crimes_and_Punishments.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B51020B68000",
+      "title": "Terminator 2D No Fate [NSZ][RUS/Multi13]",
+      "publisher": "Reef Entertainment, StudioCanal S.A.S.",
+      "variants": [
+        {
+          "id": "var-1jpka-ff",
+          "name": "Terminator 2D No Fate",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jpka-ffDoeQhIpqF-3YGIJbNNj1CoKOT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jpka-ffDoeQhIpqF-3YGIJbNNj1CoKOT&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 0100B51020B68000_Terminator_2D_No_Fate.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B9400FA38000",
+      "title": "Atom RPG [NSZ][RUS/Multi5]",
+      "publisher": "ATENT GAMES",
+      "variants": [
+        {
+          "id": "var-1L89nRj4",
+          "name": "Atom RPG",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1L89nRj4ZV3pxIbWcs49NlsQZufCFXiW-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1L89nRj4ZV3pxIbWcs49NlsQZufCFXiW-&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100B9400FA38000_Atom_RPG.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100781020710000",
+      "title": "Ninja Gaiden Ragebound [NSZ][RUS/Multi11]",
+      "publisher": "Joystick, DotEmu SAS",
+      "variants": [
+        {
+          "id": "var-1QxN9xSk",
+          "name": "Ninja Gaiden Ragebound",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QxN9xSkVVnDG9up0mO_BVJyIGF84j46p",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QxN9xSkVVnDG9up0mO_BVJyIGF84j46p&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100781020710000_Ninja_Gaiden_Ragebound.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01004890117B2000",
+      "title": "A Short Hike [NSZ][RUS (Mod.)/ENG]",
+      "publisher": "adamgryu",
+      "variants": [
+        {
+          "id": "var-17imeCrV",
+          "name": "A Short Hike",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17imeCrVroXcg-KXnDq7lplb37PmR5niD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17imeCrVroXcg-KXnDq7lplb37PmR5niD&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 01004890117B2000_A_Short_Hike.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01001A500E8B4000",
+      "title": "Superhot [NSZ][RUS/Multi10]",
+      "publisher": "SUPERHOT Team",
+      "variants": [
+        {
+          "id": "var-1eNxDrQr",
+          "name": "Superhot",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eNxDrQrqfapS5PwiLwQX1hoCTDOR4EER",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eNxDrQrqfapS5PwiLwQX1hoCTDOR4EER&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 01001A500E8B4000_Superhot.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C31011C24000",
+      "title": "Postal Redux [NSP][ENG]",
+      "publisher": "MD GAMES",
+      "variants": [
+        {
+          "id": "var-1apnQoEh",
+          "name": "Postal Redux",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1apnQoEhiGOd9z1YXA1QKmlUgdOG7V3aO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1apnQoEhiGOd9z1YXA1QKmlUgdOG7V3aO&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100C31011C24000_Postal_Redux.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100542021D40000",
+      "title": "Shinobi Art of Vengeance + DLC Villains Stage [NSP][RUS/Multi10]",
+      "publisher": "SEGA",
+      "variants": [
+        {
+          "id": "var-19zgjqwo",
+          "name": "Shinobi Art of Vengeance + Villains Stage",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19zgjqwoNWup0WUCVIuxbA1gMkjxwafC9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19zgjqwoNWup0WUCVIuxbA1gMkjxwafC9&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 0100542021D40000_Shinobi_Art_of_Vengeance___Villains_Stag.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01001A800D6BC000",
+      "title": "Castlevania Anniversary Collection: 8 игр [NSP][ENG]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "var-1Z9iDDFD",
+          "name": "Castlevania Anniversary Collection: 8 игр",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Z9iDDFDaTc3Dnu5nLHil_dVG4rND4ti6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Z9iDDFDaTc3Dnu5nLHil_dVG4rND4ti6&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 01001A800D6BC000_Castlevania_Anniversary_Collection__8___.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010086500D3C8000",
+      "title": "VA-11 Hall-A: Cyberpunk Bartender Action [NSP][RUS (Mod.)/ENG]",
+      "publisher": "Ysbryd Games",
+      "variants": [
+        {
+          "id": "var-1cRrmsvr",
+          "name": "VA-11 Hall-A: Cyberpunk Bartender Action",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cRrmsvrNh8wDMqxv5T9u4swRNJsdYaXf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cRrmsvrNh8wDMqxv5T9u4swRNJsdYaXf&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 010086500D3C8000_VA-11_Hall-A__Cyberpunk_Bartender_Action.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010059D020C26000",
+      "title": "Marvel Cosmic Invasion + DLC [NSZ][RUS/Multi8]",
+      "publisher": "DotEmu SAS",
+      "variants": [
+        {
+          "id": "var-1hE86-7f",
+          "name": "Marvel Cosmic Invasion +",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hE86-7f0uMWPtGo4r4uqQZFOcfC3OJ6f",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hE86-7f0uMWPtGo4r4uqQZFOcfC3OJ6f&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 010059D020C26000_Marvel_Cosmic_Invasion__.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010026F0153C2000",
+      "title": "Easy Red 2 + DLC Stalingrad, Normandy, Ardennes 1940-1944, Shanghai Nanking, Blood on the Danube [NSZ][RUS/Multi8]",
+      "publisher": "Corvostudio",
+      "variants": [
+        {
+          "id": "var-1gmTxsZ7",
+          "name": "Easy Red 2 + Stalingrad, Normandy, Ardennes 1940-1944, Shanghai Nanking, Blood on the Danube",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gmTxsZ7qMU9TeeI9wFk7XzIGEuh2Qdw4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gmTxsZ7qMU9TeeI9wFk7XzIGEuh2Qdw4&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 010026F0153C2000_Easy_Red_2___Stalingrad__Normandy__Arden.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CD901E498000",
+      "title": "System Shock 2 [NSZ][RUS (Mod.)/ENG]",
+      "publisher": "Nightdive Studios",
+      "variants": [
+        {
+          "id": "var-1gYk967K",
+          "name": "System Shock 2",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gYk967KKZPAcvFZMcjdjEEq59SrfFG3J",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gYk967KKZPAcvFZMcjdjEEq59SrfFG3J&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 0100CD901E498000_System_Shock_2.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F18023E72000",
+      "title": "System Shock Remake [NSZ][RUS/Multi11]",
+      "publisher": "Atari, Prime Matter",
+      "variants": [
+        {
+          "id": "var-1X9vgRJ5",
+          "name": "System Shock Remake",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1X9vgRJ5GLx4HIfJ-wq7-46BpSf71iuKz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1X9vgRJ5GLx4HIfJ-wq7-46BpSf71iuKz&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100F18023E72000_System_Shock_Remake.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010034501225D000",
+      "title": "Sword Art Online (SAO): Alicization Lycoris + 3 DLC [NSZ][RUS/Multi6]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "var-1ZzssZg3",
+          "name": "Sword Art Online : Alicization Lycoris + 3",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZzssZg3tvvW0q_xY1dy2K_P2F7evXxBw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZzssZg3tvvW0q_xY1dy2K_P2F7evXxBw&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 010034501225D000_Sword_Art_Online___Alicization_Lycoris__.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010019A01E2F2000",
+      "title": "Metroid Prime 4 Beyond [NSZ][ENG]",
+      "publisher": "Nintendo",
+      "variants": [
+        {
+          "id": "var-1zIyc7T0",
+          "name": "Metroid Prime 4 Beyond",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zIyc7T0U5x7yKlGZO-IfVdMBOhLOn_Vy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zIyc7T0U5x7yKlGZO-IfVdMBOhLOn_Vy&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 010019A01E2F2000_Metroid_Prime_4_Beyond.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01000BD00CE64000",
+      "title": "Vampyr [NSP][RUS/Multi8]",
+      "publisher": "Focus Home Interactive",
+      "variants": [
+        {
+          "id": "var-1Sc9Dy7B",
+          "name": "Vampyr",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Sc9Dy7BehMS59ZJoFF1nuTMW3SQTnNJk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Sc9Dy7BehMS59ZJoFF1nuTMW3SQTnNJk&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 01000BD00CE64000_Vampyr.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010089D018D18000",
+      "title": "Katamari Damacy Reroll / We Love Katamari Reroll Plus Royal Reverie + 3 DLC [NSZ][ENG]",
+      "publisher": "Bandai Namco Entertainment",
+      "variants": [
+        {
+          "id": "var-1JCGGOTB",
+          "name": "Katamari Damacy Reroll",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1JCGGOTBuBU3sBQOxbsrGsF-Xz9xSVJsr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1JCGGOTBuBU3sBQOxbsrGsF-Xz9xSVJsr&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 010089D018D18000_Katamari_Damacy_Reroll.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C2500FC20000",
+      "title": "Splatoon 3 + DLC Side Order, Inkopolis [NSP][RUS/Multi7]",
+      "publisher": "Nintendo",
+      "variants": [
+        {
+          "id": "var-1-wr1aa3",
+          "name": "Splatoon 3 + Side Order, Inkopolis",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-wr1aa33eyfJmyQq2zM12xnmVWYkul1O",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-wr1aa33eyfJmyQq2zM12xnmVWYkul1O&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100C2500FC20000_Splatoon_3___Side_Order__Inkopolis.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FAA00B168000",
+      "title": "Hello Neighbor / Hello Neighbor Hide and Seek [NSP][RUS/Multi7]",
+      "publisher": "tinyBuild Games",
+      "variants": [
+        {
+          "id": "var-1s98Uo2P",
+          "name": "Hello Neighbor",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1s98Uo2Pf7mRF0s_a7jDAfrxEDOcUtHGZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1s98Uo2Pf7mRF0s_a7jDAfrxEDOcUtHGZ&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100FAA00B168000_Hello_Neighbor.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100726014352000",
+      "title": "Diablo II (2): Resurrected Infernal edition + DLC Reign of the Warlock [NSP][RUS/Multi10]",
+      "publisher": "Blizzard Entertainment",
+      "variants": [
+        {
+          "id": "var-1PEmN1Qi",
+          "name": "Diablo II : Resurrected Infernal + Reign of the Warlock",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PEmN1Qi8hTyjVpyPZ-yRZyLeQMvlGApb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PEmN1Qi8hTyjVpyPZ-yRZyLeQMvlGApb&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 0100726014352000_Diablo_II___Resurrected_Infernal___Reign.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DCD01F306000",
+      "title": "Mina the Hollower [NSP][RUS/Multi10]",
+      "publisher": "Yacht Club Games",
+      "variants": [
+        {
+          "id": "var-1CmAzDU-",
+          "name": "Mina the Hollower",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CmAzDU-FkbeavfCq0iNi5vKBdW9i58xI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CmAzDU-FkbeavfCq0iNi5vKBdW9i58xI&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100DCD01F306000_Mina_the_Hollower.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01008D4007A1E000",
+      "title": "Outlast Bundle of Terror + Whistleblower / Outlast 2 [NSZ][RUS (Voice Mod.)/Multi8]",
+      "publisher": "Red Barrels",
+      "variants": [
+        {
+          "id": "var-17ddbo8D",
+          "name": "Outlast Bundle of Terror + Whistleblower",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17ddbo8D7hLPV9QRI3IfsVQobZg78aEYg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17ddbo8D7hLPV9QRI3IfsVQobZg78aEYg&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 01008D4007A1E000_Outlast_Bundle_of_Terror___Whistleblower.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010073C01AF34000",
+      "title": "LEGO Horizon Adventures + 2 DLC [NSP][RUS/Multi16]",
+      "publisher": "Sony Interactive Entertainment",
+      "variants": [
+        {
+          "id": "var-1eXo5tZs",
+          "name": "LEGO Horizon Adventures + 2",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eXo5tZs-4DKSSd_p27b4f9pgOzo_J58g",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eXo5tZs-4DKSSd_p27b4f9pgOzo_J58g&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 010073C01AF34000_LEGO_Horizon_Adventures___2.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010065A014024000",
+      "title": "Grand Theft Auto: The Trilogy – The Definitive Edition: GTA III (3) / Vice City (VC) / San Andreas (SA) [NSP][RUS/Multi10]",
+      "publisher": "Rockstar Games",
+      "variants": [
+        {
+          "id": "var-1mSg_qCT",
+          "name": "Grand Theft Auto: The Trilogy – The Definitive : GTA III",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mSg_qCTI5vHZh_2X-zHAud_E4f-TkoJO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mSg_qCTI5vHZh_2X-zHAud_E4f-TkoJO&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 010065A014024000_Grand_Theft_Auto__The_Trilogy___The_Defi.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01008A0014A92000",
+      "title": "FAR Changing Tides [NSZ][RUS/Multi11]",
+      "publisher": "Frontier",
+      "variants": [
+        {
+          "id": "var-1R6Fo1RS",
+          "name": "FAR Changing Tides",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1R6Fo1RSMKH8VhUcuokmmcl7oApGbv4NE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1R6Fo1RSMKH8VhUcuokmmcl7oApGbv4NE&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 01008A0014A92000_FAR_Changing_Tides.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D58012E12000",
+      "title": "Gang Beasts [NSZ][RUS (Mod.)/ENG]",
+      "publisher": "Boneloaf",
+      "variants": [
+        {
+          "id": "var-1knTOl0B",
+          "name": "Gang Beasts",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1knTOl0BObJfHnijcw3agXvvJnI4GSo0C",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1knTOl0BObJfHnijcw3agXvvJnI4GSo0C&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100D58012E12000_Gang_Beasts.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CDF02813A000",
+      "title": "Turnip Mountain [NSZ][ENG]",
+      "publisher": "JanduSoft",
+      "variants": [
+        {
+          "id": "var-1cJYFGx8",
+          "name": "Turnip Mountain",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cJYFGx88DF24Slqs02g_mjbs1LqygtuZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cJYFGx88DF24Slqs02g_mjbs1LqygtuZ&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 0100CDF02813A000_Turnip_Mountain.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B4001F81C000",
+      "title": "Citizen Sleeper / Citizen Sleeper 2 Starward Vector [NSZ][ENG]",
+      "publisher": "Fellow Traveller",
+      "variants": [
+        {
+          "id": "var-199-9xtO",
+          "name": "Citizen Sleeper",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=199-9xtOVWs29-x3qlReMK24GvKvu22py",
+          "previewUrl": "https://drive.google.com/thumbnail?id=199-9xtOVWs29-x3qlReMK24GvKvu22py&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100B4001F81C000_Citizen_Sleeper.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01007A700A87C000",
+      "title": "The Long Dark + DLC Tales from the Far Territory [NSZ][RUS/Multi10]",
+      "publisher": "Hinterland Studio",
+      "variants": [
+        {
+          "id": "var-1EQo6gNP",
+          "name": "The Long Dark + Tales from the Far Territory",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1EQo6gNPm_3cUT4aYO-i47_2d6ZmVAg59",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1EQo6gNPm_3cUT4aYO-i47_2d6ZmVAg59&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 01007A700A87C000_The_Long_Dark___Tales_from_the_Far_Terri.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D2C64DBA6000",
+      "title": "Inertial Drift + DLC [NSZ][RUS/Multi6]",
+      "publisher": "PQube Limited",
+      "variants": [
+        {
+          "id": "var-1xCBcAya",
+          "name": "Inertial Drift +",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xCBcAyaRacbH5aaln7OJg_c5K3G7aBD2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xCBcAyaRacbH5aaln7OJg_c5K3G7aBD2&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100D2C64DBA6000_Inertial_Drift__.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100846018258000",
+      "title": "Anno Mutationem [NSZ][RUS/Multi8]",
+      "publisher": "Lightning Games",
+      "variants": [
+        {
+          "id": "var-1koP1po5",
+          "name": "Anno Mutationem",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1koP1po5YhBqBsbjpMvfjyNX8MGTMRnbT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1koP1po5YhBqBsbjpMvfjyNX8MGTMRnbT&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100846018258000_Anno_Mutationem.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D0F01D938000",
+      "title": "MazM: Jekyll and Hyde / The Phantom of the Opera / Pechka (Джекил и Хайд, Призрак оперы, Печка) [NSZ][RUS/Multi9]",
+      "publisher": "CFK",
+      "variants": [
+        {
+          "id": "var-14u9buXZ",
+          "name": "MazM: Jekyll and Hyde",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14u9buXZPsKolX1WSYy1DWK9EPrMfbCD3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14u9buXZPsKolX1WSYy1DWK9EPrMfbCD3&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100D0F01D938000_MazM__Jekyll_and_Hyde.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100353370030000",
+      "title": "Alien Quest Eve (хоумбрю) [NSZ][ENG]",
+      "publisher": "Axibug",
+      "variants": [
+        {
+          "id": "var-1cMhP5Un",
+          "name": "Alien Quest Eve",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cMhP5UnXP3i6dd0txXHoIZdLmWhZMW7S",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cMhP5UnXP3i6dd0txXHoIZdLmWhZMW7S&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100353370030000_Alien_Quest_Eve.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DCA00DA7E000",
+      "title": "Contra Anniversary Collection [NSP][ENG]",
+      "publisher": "Konami",
+      "variants": [
+        {
+          "id": "var-1AcB7vQH",
+          "name": "Contra Anniversary Collection",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AcB7vQHZK-7izhw7qnQvF6lZs15w36r3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AcB7vQHZK-7izhw7qnQvF6lZs15w36r3&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100DCA00DA7E000_Contra_Anniversary_Collection.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01002A000CD48000",
+      "title": "Resident Evil 6 (Обитель зла 6) [RePack][NSP][RUS (Voice Mod.)/Multi7]",
+      "publisher": "Capcom",
+      "variants": [
+        {
+          "id": "var-1c4LaLim",
+          "name": "Resident Evil 6",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1c4LaLimQJOYTzIkNnKC8FhuvoB8_cona",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1c4LaLimQJOYTzIkNnKC8FhuvoB8_cona&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 01002A000CD48000_Resident_Evil_6.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01008CB01E52E000",
+      "title": "DOOM + DOOM II (2) Enhanced edition + Legacy of Rust + ещё 18 WAD [NSP][RUS/Multi10]",
+      "publisher": "Bethesda Softworks",
+      "variants": [
+        {
+          "id": "var-1koiMc3H",
+          "name": "DOOM + DOOM II Enhanced + Legacy of Rust + ещё 18 WAD",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1koiMc3HlSEooqPqetytNiUpQSMNzPYgg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1koiMc3HlSEooqPqetytNiUpQSMNzPYgg&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 01008CB01E52E000_DOOM___DOOM_II_Enhanced___Legacy_of_Rust.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010071C013390000",
+      "title": "Blue Reflection Second Light + 22 DLC [NSZ][ENG]",
+      "publisher": "KOEI TECMO AMERICA",
+      "variants": [
+        {
+          "id": "var-1k35EvYU",
+          "name": "Blue Reflection Second Light + 22",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1k35EvYUoV9nmQRL3daLC0KI0YDpcyKFc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1k35EvYUoV9nmQRL3daLC0KI0YDpcyKFc&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 010071C013390000_Blue_Reflection_Second_Light___22.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B31015AF8000",
+      "title": "Death's Door [NSZ][RUS/Multi9]",
+      "publisher": "Devolver Digital",
+      "variants": [
+        {
+          "id": "var-1DuQ-lKs",
+          "name": "Death's Door",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DuQ-lKs_DAP7Eo7uZyJqCxlREIyDlUzW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DuQ-lKs_DAP7Eo7uZyJqCxlREIyDlUzW&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100B31015AF8000_Death_s_Door.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010061D00DB74000",
+      "title": "Ori and the Blind Forest: Definitive edition [NSP][RUS/Multi9]",
+      "publisher": "Microsoft Studios",
+      "variants": [
+        {
+          "id": "var-1ItSVjOj",
+          "name": "Ori and the Blind Forest: Definitive",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ItSVjOjt-uPQRawT6xBUZK6zTbuitoIz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ItSVjOjt-uPQRawT6xBUZK6zTbuitoIz&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 010061D00DB74000_Ori_and_the_Blind_Forest__Definitive.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01004F000B716000",
+      "title": "Edna and Harvey: The Breakout / Harvey's New Eyes [NSP][RUS/Multi4]",
+      "publisher": "Daedalic GmbH",
+      "variants": [
+        {
+          "id": "var-1oxU-iST",
+          "name": "Edna and Harvey: The Breakout",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oxU-iSTmyfgz8u9Ao5FBASUARws8l2V0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oxU-iSTmyfgz8u9Ao5FBASUARws8l2V0&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 01004F000B716000_Edna_and_Harvey__The_Breakout.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01007740160D4000",
+      "title": "Dusk [NSZ][ENG]",
+      "publisher": "New Blood",
+      "variants": [
+        {
+          "id": "var-1o9Bk72Y",
+          "name": "Dusk",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1o9Bk72YGL4g516a4AdnoMPhyVRe4MNHi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1o9Bk72YGL4g516a4AdnoMPhyVRe4MNHi&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 01007740160D4000_Dusk.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EC9010258000",
+      "title": "Streets of Rage 4 (Bare Knuckle IV) [NSP][RUS/Multi7]",
+      "publisher": "DotEmu",
+      "variants": [
+        {
+          "id": "var-1pzvd3cC",
+          "name": "Streets of Rage 4",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pzvd3cCo4YmfDhKyVbI353ArXNy8NKah",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pzvd3cCo4YmfDhKyVbI353ArXNy8NKah&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100EC9010258000_Streets_of_Rage_4.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A760232D3000",
+      "title": "LEGO Party [NSP][RUS (Mod.)/ENG]",
+      "publisher": "Fictions",
+      "variants": [
+        {
+          "id": "var-1aCNhK54",
+          "name": "LEGO Party",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1aCNhK54s63zrDjxJibnAGqjXsiYWD0J_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1aCNhK54s63zrDjxJibnAGqjXsiYWD0J_&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 0100A760232D3000_LEGO_Party.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E870163CA000",
+      "title": "Batman Arkham Asylum [RePack][NSP][RUS (Voice Mod.)]",
+      "publisher": "Warner Bros., DC Studios",
+      "variants": [
+        {
+          "id": "var-1hy2NQ50",
+          "name": "Batman Arkham Asylum",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hy2NQ50tBUongG-YmyDcHtQeieCZpBAo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hy2NQ50tBUongG-YmyDcHtQeieCZpBAo&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 0100E870163CA000_Batman_Arkham_Asylum.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100309016E7A000",
+      "title": "Demon Slayer the Hinokami Chronicles Kimetsu no Yaiba (Клинок, рассекающий демонов) + 10 DLC [NSP][ENG]",
+      "publisher": "SEGA",
+      "variants": [
+        {
+          "id": "var-1XKTigfo",
+          "name": "Demon Slayer the Hinokami Chronicles Kimetsu no Yaiba + 10",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XKTigfocylvwqODAEUshAIsf4VrgVNNV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XKTigfocylvwqODAEUshAIsf4VrgVNNV&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 0100309016E7A000_Demon_Slayer_the_Hinokami_Chronicles_Kim.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01000BF0152FA000",
+      "title": "Zombie Army 4 Dead War + 19 DLC [NSP][RUS/Multi9]",
+      "publisher": "Rebellion Interact",
+      "variants": [
+        {
+          "id": "var-1f-7BrWp",
+          "name": "Zombie Army 4 Dead War + 19",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1f-7BrWpd8fy1SvoGt45M0ziCnJu9_9qq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1f-7BrWpd8fy1SvoGt45M0ziCnJu9_9qq&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 01000BF0152FA000_Zombie_Army_4_Dead_War___19.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01009970122E4000",
+      "title": "Borderlands 3 Ultimate edition [NSP][RUS/Multi10]",
+      "publisher": "Take-Two Interactive, 2K",
+      "variants": [
+        {
+          "id": "var-1rsh6WH0",
+          "name": "Borderlands 3 Ultimate",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rsh6WH0in1yJ5IPbs6WSFGoa96gfxSRV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rsh6WH0in1yJ5IPbs6WSFGoa96gfxSRV&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 01009970122E4000_Borderlands_3_Ultimate.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100024008310000",
+      "title": "Street Fighter: 30th Anniversary Collection (Street Fighter / II (2) / III / Alpha и др.) [NSP][ENG]",
+      "publisher": "Capcom",
+      "variants": [
+        {
+          "id": "var-15rbvWVc",
+          "name": "Street Fighter: 30th Anniversary Collection",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15rbvWVcCtLtRPDbK4JnB7yuDDNj-kmhd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15rbvWVcCtLtRPDbK4JnB7yuDDNj-kmhd&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100024008310000_Street_Fighter__30th_Anniversary_Collect.mp4"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-10-20T18:04:51.600949+00:00"
+  "lastUpdated": "2026-10-20T18:21:58.379180+00:00"
 }
