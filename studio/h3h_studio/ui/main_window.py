@@ -826,7 +826,7 @@ class MainWindow(QMainWindow):
         url = url.strip()
         title_id = self.tid_input.text().strip().upper() or "ONLINE_VIDEO"
         import tempfile
-        temp_dir = Path(tempfile.gettempdir()) / "h3h_studio_videos"
+        temp_dir = Path(r"H:\H3H_Backgrounds\temp") if Path(r"H:\H3H_Backgrounds\temp").exists() else (Path(tempfile.gettempdir()) / "h3h_studio_videos")
 
         self.status_label.setText(f"Загрузка видео с {url}...")
         self.export_btn.setEnabled(False)

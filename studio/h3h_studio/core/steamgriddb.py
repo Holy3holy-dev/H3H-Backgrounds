@@ -86,7 +86,9 @@ class SteamGridDBClient:
         if ext not in ["webp", "webm", "gif", "mp4", "png"]:
             ext = "webp"
 
-        with tempfile.NamedTemporaryFile(suffix=f".{ext}", delete=False) as tmp_in:
+        temp_base = Path(r"H:\H3H_Backgrounds\temp")
+        custom_dir = str(temp_base) if temp_base.exists() else None
+        with tempfile.NamedTemporaryFile(suffix=f".{ext}", dir=custom_dir, delete=False) as tmp_in:
             tmp_in_path = Path(tmp_in.name)
 
         try:
@@ -112,7 +114,7 @@ class SteamGridDBClient:
                 "-vf", "scale=1280:720:force_original_aspect_ratio=increase,crop=1280:720,fps=30,format=yuv420p",
                 "-c:v", "libx264", "-preset", "fast", "-profile:v", "high", "-level", "4.1",
                 "-crf", "20", "-maxrate", "3500k", "-bufsize", "7000k",
-                "-an", str(output_mp4_path)
+                "-map", "0:v:0", "-map", "0:a?", "-c:a", "aac", "-b:a", "128k", "-ar", "48000", "-ac", "2", str(output_mp4_path)
             ]
             res = subprocess.run(cmd, capture_output=True, text=True, stdin=subprocess.DEVNULL)
             if res.returncode == 0 and output_mp4_path.exists() and output_mp4_path.stat().st_size > 50000:

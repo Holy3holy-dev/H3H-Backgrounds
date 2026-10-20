@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-10-20T17:05:53.994960+00:00",
-  "totalGames": 642,
-  "totalVariants": 690,
+  "totalGames": 675,
+  "totalVariants": 723,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -590,7 +590,7 @@
           "width": 1920,
           "height": 1080,
           "fps": 60.0,
-          "hasAudio": true,
+          "hasAudio": false,
           "notes": "Google Drive Hosted (4IFIR: 1920x1080 @60fps)"
         }
       ]
@@ -2229,9 +2229,9 @@
           "name": "Cuphead Jazz",
           "style": "Animated Art",
           "version": "1.0",
-          "url": "https://drive.google.com/uc?export=download&id=1Xno4wMtirGF1sfc2Gp9kDHCT4Rd3TNS0",
-          "previewUrl": "https://drive.google.com/thumbnail?id=1Xno4wMtirGF1sfc2Gp9kDHCT4Rd3TNS0&sz=w640",
-          "sizeBytes": 6836584,
+          "url": "https://drive.google.com/uc?export=download&id=1HZLaN5gSxNpPEFkCPXVdH0HVs1GLEHZg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HZLaN5gSxNpPEFkCPXVdH0HVs1GLEHZg&sz=w640",
+          "sizeBytes": 6137558,
           "sha256": "",
           "durationSec": 20.0,
           "author": "Holy3holy-dev",
@@ -2240,7 +2240,7 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 0100A5C00D162000_Cuphead_Jazz.mp4"
+          "notes": "Google Drive: 0100A5C00D162000_Cuphead_Jazz.mp4 (Clean - no Windows taskbar)"
         }
       ]
     },
@@ -5943,7 +5943,7 @@
           "width": 1280,
           "height": 720,
           "fps": 30.0,
-          "hasAudio": true,
+          "hasAudio": false,
           "notes": "Google Drive Hosted (4IFIR: 1280x720 @30fps)"
         }
       ]
@@ -6937,7 +6937,7 @@
           "width": 1920,
           "height": 1080,
           "fps": 60.0,
-          "hasAudio": true,
+          "hasAudio": false,
           "notes": "Google Drive Hosted (4IFIR: 1920x1080 @60fps)"
         }
       ]
@@ -16909,7 +16909,832 @@
           "notes": "SteamGridDB Animated Grid: 01005CA019E58000_Nightmare_Reaper.mp4"
         }
       ]
+    },
+    {
+      "titleId": "010020F014DBE000",
+      "title": "Sherlock Holmes: The Devil's Daughter (Шерлок Холмс: Дочь дьявола) [NSZ][RUS/Multi10]",
+      "publisher": "Focus Home Interactive",
+      "variants": [
+        {
+          "id": "var-1zgGM9be",
+          "name": "Sherlock Holmes: The Devil's Daughter",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zgGM9beUUesw5rPsEn2bGwOg7TflGKyO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zgGM9beUUesw5rPsEn2bGwOg7TflGKyO&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 010020F014DBE000_Sherlock_Holmes__The_Devil_s_Daughter.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01006DF014682000",
+      "title": "In Sound Mind [NSZ][RUS/Multi10]",
+      "publisher": "Modus Games",
+      "variants": [
+        {
+          "id": "var-1113f67o",
+          "name": "In Sound Mind",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1113f67oYNXtTc-aKuSfTEOGXcIx4sbVw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1113f67oYNXtTc-aKuSfTEOGXcIx4sbVw&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 01006DF014682000_In_Sound_Mind.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BE500BEA2000",
+      "title": "Transistor [NSP][RUS (Voice Mod.)]",
+      "publisher": "Supergiant Games",
+      "variants": [
+        {
+          "id": "var-1gcxzKZE",
+          "name": "Transistor",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gcxzKZEnNLFfvb7t3qPskpAYB_HeSxZk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gcxzKZEnNLFfvb7t3qPskpAYB_HeSxZk&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 0100BE500BEA2000_Transistor.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FF201999C000",
+      "title": "Turnip Boy Commits Tax Evasion / Turnip Boy Robs a Bank [NSZ][ENG,RUS]",
+      "publisher": "Graffiti Games",
+      "variants": [
+        {
+          "id": "var-1rQDSR1-",
+          "name": "Turnip Boy Commits Tax Evasion",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rQDSR1-CVHk1VJzRyQiIOdd2iYij1VxX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rQDSR1-CVHk1VJzRyQiIOdd2iYij1VxX&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 0100FF201999C000_Turnip_Boy_Commits_Tax_Evasion.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01000F400435A000",
+      "title": "Immortal Redneck [NSZ][RUS/Multi9]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "var-191i6LbD",
+          "name": "Immortal Redneck",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=191i6LbDWbxycA9KcUu8L4y_l-KqD4rvM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=191i6LbDWbxycA9KcUu8L4y_l-KqD4rvM&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 01000F400435A000_Immortal_Redneck.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100307004B4C000",
+      "title": "Flinthook [NSP][ENG]",
+      "publisher": "Tribute Games Inc.",
+      "variants": [
+        {
+          "id": "var-15qVjqZy",
+          "name": "Flinthook",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15qVjqZyeM9yTcdA61OLDx4LVj5o6gADS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15qVjqZyeM9yTcdA61OLDx4LVj5o6gADS&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100307004B4C000_Flinthook.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100990011866000",
+      "title": "Aokana Four Rhythms Across the Blue [NSP][ENG]",
+      "publisher": "Pqube",
+      "variants": [
+        {
+          "id": "var-1bzytcvd",
+          "name": "Aokana Four Rhythms Across the Blue",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bzytcvdB4BGDnG47AR4swyjZ4iRxXOz7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bzytcvdB4BGDnG47AR4swyjZ4iRxXOz7&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100990011866000_Aokana_Four_Rhythms_Across_the_Blue.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E1E00CF1A000",
+      "title": "Power Rangers Battle for the Grid Super edition + 24 DLC [NSP][ENG]",
+      "publisher": "nWay",
+      "variants": [
+        {
+          "id": "var-1af8T3Ql",
+          "name": "Power Rangers Battle for the Grid Super + 24",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1af8T3QldtVFPNHQO4L3pfxITBDoFpZ3Y",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1af8T3QldtVFPNHQO4L3pfxITBDoFpZ3Y&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100E1E00CF1A000_Power_Rangers_Battle_for_the_Grid_Super_.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01004B200DF76000",
+      "title": "7th Sector [NSZ][RUS/Multi7]",
+      "publisher": "Sometimes You",
+      "variants": [
+        {
+          "id": "var-1uthyHs3",
+          "name": "7th Sector",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1uthyHs3Pp2OS9x1TkDMwpK-HpQ6sHkw5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1uthyHs3Pp2OS9x1TkDMwpK-HpQ6sHkw5&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 01004B200DF76000_7th_Sector.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010022400BE5A000",
+      "title": "Yu-Gi-Oh! Legacy of the Duelist Link Evolution [NSP][ENG]",
+      "publisher": "Konami",
+      "variants": [
+        {
+          "id": "var-16COzHyA",
+          "name": "Yu-Gi-Oh! Legacy of the Duelist Link Evolution",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16COzHyA1z7Px-QZR8vC2GHR-a5CMuo9x",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16COzHyA1z7Px-QZR8vC2GHR-a5CMuo9x&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 010022400BE5A000_Yu-Gi-Oh__Legacy_of_the_Duelist_Link_Evo.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C4E018A24000",
+      "title": "Front Mission 2 (Second) Remake [NSZ][RUS (Mod.)/ENG]",
+      "publisher": "Forever Entertainment SA, TA Publishing, Square Enix",
+      "variants": [
+        {
+          "id": "var-1iauHfsT",
+          "name": "Front Mission 2 Remake",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1iauHfsTOdqTVPPFdm-OQoLV9nH36_zp1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1iauHfsTOdqTVPPFdm-OQoLV9nH36_zp1&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100C4E018A24000_Front_Mission_2_Remake.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010070A00A5F4000",
+      "title": "Armello Complete edition [NSZ][RUS/Multi11]",
+      "publisher": "League of Geeks",
+      "variants": [
+        {
+          "id": "var-1_IIO-oW",
+          "name": "Armello",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_IIO-oW5F8eeOWsodW15WBVBLkEjC-CK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_IIO-oW5F8eeOWsodW15WBVBLkEjC-CK&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 010070A00A5F4000_Armello.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BCF00E970000",
+      "title": "The Vanishing of Ethan Carter (Исчезновение Итана Картера) [NSP][RUS (Mod.)/ENG]",
+      "publisher": "The Astronauts",
+      "variants": [
+        {
+          "id": "var-1lmSYvUh",
+          "name": "The Vanishing of Ethan Carter",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lmSYvUhTsOttxkIH4rhm95iHXdsy-i75",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lmSYvUhTsOttxkIH4rhm95iHXdsy-i75&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100BCF00E970000_The_Vanishing_of_Ethan_Carter.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01003BB00B08E000",
+      "title": "Hidden Folks [NSZ][RUS/Multi11]",
+      "publisher": "Adriaan de Jongh",
+      "variants": [
+        {
+          "id": "var-1riO8aBr",
+          "name": "Hidden Folks",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1riO8aBrUSffVV4Q5Yci1KfDs7gJmBOfA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1riO8aBrUSffVV4Q5Yci1KfDs7gJmBOfA&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 01003BB00B08E000_Hidden_Folks.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100129014FA8000",
+      "title": "The Wild at Heart [NSZ][ENG]",
+      "publisher": "Humble Games",
+      "variants": [
+        {
+          "id": "var-1iYDtgkK",
+          "name": "The Wild at Heart",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1iYDtgkKfgpHNSYTbxEXSFrNOKlxP_dmw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1iYDtgkKfgpHNSYTbxEXSFrNOKlxP_dmw&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100129014FA8000_The_Wild_at_Heart.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010076801929B000",
+      "title": "Story of Seasons: A Wonderful Life + 7 DLC [NSZ][ENG]",
+      "publisher": "Marvelous (XSEED)",
+      "variants": [
+        {
+          "id": "var-1asrlQwU",
+          "name": "Story of Seasons: A Wonderful Life + 7",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1asrlQwUPPGkG5SiLss340jRPE8xWmN9Y",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1asrlQwUPPGkG5SiLss340jRPE8xWmN9Y&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 010076801929B000_Story_of_Seasons__A_Wonderful_Life___7.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010012301932A000",
+      "title": "Melatonin [NSZ][ENG]",
+      "publisher": "Half Asleep",
+      "variants": [
+        {
+          "id": "var-18K-zoe2",
+          "name": "Melatonin",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18K-zoe2lHXiEfxHKT_PvbxDGsuxoNcnB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18K-zoe2lHXiEfxHKT_PvbxDGsuxoNcnB&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 010012301932A000_Melatonin.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CA901AA9C000",
+      "title": "Penny's Big Breakaway [NSP][RUS/Multi10]",
+      "publisher": "Private Division",
+      "variants": [
+        {
+          "id": "var-18rMTwdR",
+          "name": "Penny's Big Breakaway",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18rMTwdRR5NTsk3NsRYDFsV-T-0GzLfuk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18rMTwdRR5NTsk3NsRYDFsV-T-0GzLfuk&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100CA901AA9C000_Penny_s_Big_Breakaway.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F1400B0D6000",
+      "title": "Silence [NSZ][RUS/Multi10]",
+      "publisher": "Daedalic Entertainment",
+      "variants": [
+        {
+          "id": "var-1F7pcbyi",
+          "name": "Silence",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1F7pcbyiZ9-fvhsGSvzEI9r8_C-45x58c",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1F7pcbyiZ9-fvhsGSvzEI9r8_C-45x58c&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100F1400B0D6000_Silence.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01004C1019C7C000",
+      "title": "Papetura [NSZ][Multi]",
+      "publisher": "Feardemic",
+      "variants": [
+        {
+          "id": "var-12rFl5Bd",
+          "name": "Papetura",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12rFl5BdQ4lbL3SQw7XleDsZxZJrocCy6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12rFl5BdQ4lbL3SQw7XleDsZxZJrocCy6&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 01004C1019C7C000_Papetura.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01005B100C268000",
+      "title": "Ape Out [NSZ][RUS/Multi9]",
+      "publisher": "Devolver Digital",
+      "variants": [
+        {
+          "id": "var-1oYUCITc",
+          "name": "Ape Out",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oYUCITcnFLeQig_Gzn3R7glKyDjHlt_G",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oYUCITcnFLeQig_Gzn3R7glKyDjHlt_G&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 01005B100C268000_Ape_Out.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01008FE00E2F7000",
+      "title": "One Piece Pirate Warriors 4 + 25 DLC [NSZ][ENG]",
+      "publisher": "BANDAI NAMCO Entertainment",
+      "variants": [
+        {
+          "id": "var-1BisRdAd",
+          "name": "One Piece Pirate Warriors 4 + 25",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BisRdAdzyI10dADkJOLMTmPWUEzh_X5V",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BisRdAdzyI10dADkJOLMTmPWUEzh_X5V&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 01008FE00E2F7000_One_Piece_Pirate_Warriors_4___25.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FE400EBBC000",
+      "title": "Do Not Feed the Monkeys [NSZ][RUS/Multi6]",
+      "publisher": "Alawar Premium",
+      "variants": [
+        {
+          "id": "var-1ea3m8T8",
+          "name": "Do Not Feed the Monkeys",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ea3m8T8weRT-G30hd3IGJIoPOZzczzSM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ea3m8T8weRT-G30hd3IGJIoPOZzczzSM&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100FE400EBBC000_Do_Not_Feed_the_Monkeys.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BA400E2F4000",
+      "title": "One Piece: Pirate Warriors 4 + 13 DLC / Pirate Warriors 3 / Unlimited World Red Deluxe Edition [ENG,RUS]",
+      "publisher": "BANDAI NAMCO Entertainment",
+      "variants": [
+        {
+          "id": "var-1h9DZUiG",
+          "name": "One Piece: Pirate Warriors 4 + 13",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1h9DZUiGbsNLbrzJ21DFR1nLXcC5qc7_U",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1h9DZUiGbsNLbrzJ21DFR1nLXcC5qc7_U&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 0100BA400E2F4000_One_Piece__Pirate_Warriors_4___13.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D360098B6000",
+      "title": "Will a Wonderful World [NSP][RUS/Multi5]",
+      "publisher": "CIRCLE Ent.",
+      "variants": [
+        {
+          "id": "var-1tJGnaDj",
+          "name": "Will a Wonderful World",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tJGnaDjgC5fY_pmnDoQZ8PJgh2dTvBBM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tJGnaDjgC5fY_pmnDoQZ8PJgh2dTvBBM&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100D360098B6000_Will_a_Wonderful_World.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A12011CC8000",
+      "title": "Fire Emblem Shadow Dragon and the Blade of Light [NSZ][ENG]",
+      "publisher": "Nintendo",
+      "variants": [
+        {
+          "id": "var-1IphuO0Y",
+          "name": "Fire Emblem Shadow Dragon and the Blade of Light",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IphuO0YReWp-MDjOlWiWXjUCpeBHWVdL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IphuO0YReWp-MDjOlWiWXjUCpeBHWVdL&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100A12011CC8000_Fire_Emblem_Shadow_Dragon_and_the_Blade_.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010075A016A3A000",
+      "title": "Persona 4 Arena Ultimax (P4AU) [NSZ][ENG]",
+      "publisher": "SEGA",
+      "variants": [
+        {
+          "id": "var-1OdON-vm",
+          "name": "Persona 4 Arena Ultimax",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OdON-vmdbkm3l6BhhghTg3-vqcjAWpfd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OdON-vmdbkm3l6BhhghTg3-vqcjAWpfd&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 010075A016A3A000_Persona_4_Arena_Ultimax.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01003D601014A000",
+      "title": "Jump King [NSZ][RUS/Multi7]",
+      "publisher": "Ukiyo Publishing",
+      "variants": [
+        {
+          "id": "var-1dDglVj8",
+          "name": "Jump King",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dDglVj8GjMUrE9DOSVmC1BctVdipGXX4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dDglVj8GjMUrE9DOSVmC1BctVdipGXX4&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 01003D601014A000_Jump_King.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01006FB00EBE0000",
+      "title": "Golf with Your Friends + 17 DLC [NSZ][RUS/Multi9]",
+      "publisher": "Team17",
+      "variants": [
+        {
+          "id": "var-1QxnuxxP",
+          "name": "Golf with Your Friends + 17",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QxnuxxPLUajdOgkS9NoS8TrKgtZqsEic",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QxnuxxPLUajdOgkS9NoS8TrKgtZqsEic&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 01006FB00EBE0000_Golf_with_Your_Friends___17.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010024000C852000",
+      "title": "Deponia / Chaos on Deponia / Goodbye Deponia / Deponia Doomsday [NSP][RUS/Multi]",
+      "publisher": "Daedalic GmbH",
+      "variants": [
+        {
+          "id": "var-1d6lQx4_",
+          "name": "Deponia",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1d6lQx4_rNdHKh0OXCGxv3T-lLaTeGOIA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1d6lQx4_rNdHKh0OXCGxv3T-lLaTeGOIA&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 010024000C852000_Deponia.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CC2001C6C000",
+      "title": "Battle Chef Brigade [NSZ][RUS/Multi7]",
+      "publisher": "Adult Swim Games",
+      "variants": [
+        {
+          "id": "var-1VF8oekn",
+          "name": "Battle Chef Brigade",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VF8oekn01me7vl1qbvIhx-KwlNidV0HU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VF8oekn01me7vl1qbvIhx-KwlNidV0HU&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100CC2001C6C000_Battle_Chef_Brigade.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B1300FF08000",
+      "title": "The Wonderful 101 Remastered + 4 DLC (After School Hero) [NSZ][RUS (Mod.)/ENG]",
+      "publisher": "PlatinumGames",
+      "variants": [
+        {
+          "id": "var-1xzxGb7i",
+          "name": "The Wonderful 101 Remastered + 4",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xzxGb7itp80mulrZbMuT-ZnLmpL4SpKR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xzxGb7itp80mulrZbMuT-ZnLmpL4SpKR&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100B1300FF08000_The_Wonderful_101_Remastered___4.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01003AB00983C000",
+      "title": "Lethal League Blaze + 12 DLC [NSZ][RUS/Multi9]",
+      "publisher": "Team Reptile",
+      "variants": [
+        {
+          "id": "var-10tYkLtq",
+          "name": "Lethal League Blaze + 12",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10tYkLtqfozkL-nCgh3o2Inrd67usP2MG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10tYkLtqfozkL-nCgh3o2Inrd67usP2MG&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 01003AB00983C000_Lethal_League_Blaze___12.mp4"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-10-20T21:33:38.534774+00:00"
+  "lastUpdated": "2026-10-20T22:11:14.982360+00:00"
 }

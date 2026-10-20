@@ -15,6 +15,7 @@
 
 struct SDL_Window;
 struct SDL_Renderer;
+struct SDL_Texture;
 typedef struct _TTF_Font TTF_Font;
 
 namespace h3h {
@@ -26,6 +27,11 @@ enum class Tab {
     Catalog = 2,
     Downloads = 3,
     Settings = 4
+};
+
+enum class MyGamesPane {
+    GamesList,
+    VariantsList
 };
 
 enum class DialogType {
@@ -74,6 +80,9 @@ public:
     void renderTabDownloads();
     void renderTabSettings();
     void renderDialog();
+    void renderFullscreenPreview();
+    void loadPreviewTexture(const std::string& titleId, const Variant& variant);
+    void closeFullscreenPreview();
 
     // Drawing helpers (4IFIR Glass Theme)
     void drawRect(int x, int y, int w, int h, Color color);
@@ -81,7 +90,7 @@ public:
     void drawNeonGradientOutline(int x, int y, int w, int h, int thickness = 2);
     void drawGlassCard(int x, int y, int w, int h, bool isFocused, bool isElevated = false);
     void drawCapsuleProgressBar(int x, int y, int w, int h, double percent);
-    void drawText(const std::string& text, int x, int y, Color color, int sizePx = 16);
+    void drawText(const std::string& text, int x, int y, Color color, int sizePx = 16, int maxWidth = 0);
     void drawBitmapTextFallback(const std::string& text, int x, int y, Color color);
     TTF_Font* getFont(int sizePx);
 
@@ -155,6 +164,17 @@ private:
     std::atomic<bool> m_queueTaskFinished{false};
     std::mutex m_queueMutex;
     int m_downloadsScrollOffset{0};
+
+    // MyGames two-pane navigation & Fullscreen Preview
+    MyGamesPane m_myGamesActivePane{MyGamesPane::GamesList};
+    bool m_isFullscreenPreview{false};
+    SDL_Texture* m_previewTexture{nullptr};
+    std::string m_previewCurrentVariantId;
+    std::string m_pendingPreviewFileToLoad;
+    std::atomic<bool> m_previewLoading{false};
+    std::thread m_previewThread;
+    std::atomic<bool> m_cancelPreview{false};
+    std::mutex m_previewMutex;
 
     uint32_t m_lastStickScrollTime{0};
 };

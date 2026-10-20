@@ -26,6 +26,7 @@ SOURCES = [
     "src/core/sha256.cpp",
     "src/platform/switch_platform.cpp",
     "src/platform/desktop_platform.cpp",
+    "src/platform/webp_stub.cpp",
     "src/ui/app.cpp",
 ]
 

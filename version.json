@@ -1,6 +1,6 @@
 {
-  "latestVersion": "1.0.4",
+  "latestVersion": "1.0.5",
   "minRequiredVersion": "1.0.0",
   "downloadUrl": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/latest/download/H3H-Backgrounds.nro",
-  "releaseNotes": "1280x720 Fullscreen Preview on [X], Two-pane intuitive D-Pad navigation, Safe Delete button, Accurate file sizes, Fixed text bounds"
+  "releaseNotes": "Fix crash on [X] preview (thread-safe loader & canonical paths), clean Cuphead without Windows taskbar, [B] returns to games column, accurate variant sizes"
 }
