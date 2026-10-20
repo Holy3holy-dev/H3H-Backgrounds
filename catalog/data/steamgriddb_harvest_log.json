@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-10-20T20:02:25.908640+00:00",
-  "totalHarvested": 556,
+  "lastUpdated": "2026-10-20T20:02:35.624221+00:00",
+  "totalHarvested": 557,
   "items": {
     "0100000000010000": {
       "titleId": "0100000000010000",
@@ -20141,6 +20141,44 @@
       "sgdbName": "Rakuen",
       "status": "no_animated_art",
       "timestamp": "2026-10-20T20:02:25.908627+00:00"
+    },
+    "0100622009FB0000": {
+      "titleId": "0100622009FB0000",
+      "gameTitle": "Stick Fight: The Game [NSZ][ENG]",
+      "cleanTitle": "Stick Fight: The Game",
+      "sgdbGameId": 19980,
+      "sgdbName": "Stick Fight: The Game",
+      "assetType": "grid",
+      "assetUrl": "https://cdn2.steamgriddb.com/grid/cf4c1642ffd07ee0f0574c6a65a16d34.png",
+      "driveFileId": "1EEwyJHkTN3gTceMceIoIZLQpcDJNYd7M",
+      "downloadUrl": "https://drive.google.com/uc?export=download&id=1EEwyJHkTN3gTceMceIoIZLQpcDJNYd7M",
+      "fileSizeBytes": 173952,
+      "status": "published",
+      "timestamp": "2026-10-20T20:02:32.152816+00:00"
+    },
+    "01006CF00CFA4000": {
+      "titleId": "01006CF00CFA4000",
+      "gameTitle": "Operencia the Stolen Sun [NSP][RUS/Multi7]",
+      "sgdbGameId": 33092,
+      "sgdbName": "Operencia: The Stolen Sun",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-20T20:02:33.201869+00:00"
+    },
+    "0100811017B48000": {
+      "titleId": "0100811017B48000",
+      "gameTitle": "Labyrinth of Zangetsu + 4 DLC [NSZ][ENG]",
+      "sgdbGameId": 5347362,
+      "sgdbName": "Labyrinth of Zangetsu",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-20T20:02:34.220631+00:00"
+    },
+    "01004EB0119AC000": {
+      "titleId": "01004EB0119AC000",
+      "gameTitle": "Moero Chronicle Hyper / Moero Crystal H [NSZ][ENG]",
+      "sgdbGameId": 18427,
+      "sgdbName": "Moero Chronicle",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-20T20:02:35.624199+00:00"
     }
   }
 }
