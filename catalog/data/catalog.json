@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-10-20T17:05:53.994960+00:00",
-  "totalGames": 726,
-  "totalVariants": 774,
+  "totalGames": 727,
+  "totalVariants": 775,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -19009,7 +19009,32 @@
           "notes": "SteamGridDB Animated Grid: 0100E44019620000_Spooky_s_Jump_Scare_Mansion_HD_Renovatio.mp4"
         }
       ]
+    },
+    {
+      "titleId": "01006D601F594000",
+      "title": "Silver Axe the Honest Elf [NSZ][ENG]",
+      "publisher": "Happy Player, Milk Bottle Studio",
+      "variants": [
+        {
+          "id": "var-1LDV58SO",
+          "name": "Silver Axe the Honest Elf",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LDV58SOv_s_gWWy6qHbQnah_9Vj8p7OH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LDV58SOv_s_gWWy6qHbQnah_9Vj8p7OH&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 01006D601F594000_Silver_Axe_the_Honest_Elf.mp4"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-10-20T23:53:15.607816+00:00"
+  "lastUpdated": "2026-10-20T23:57:13.987800+00:00"
 }

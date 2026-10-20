@@ -290,10 +290,11 @@ void App::updateApplicationNro() {
     }
 
     m_nroUpdateThread = std::thread([this]() {
-        // Step 1: Check remote version without downloading NRO
+        // Step 1: Check remote version without downloading NRO (with cache-buster query)
         std::string versionJsonStr;
         std::string checkErr;
-        bool checkOk = m_platform->fetchCatalog(Config::VERSION_CHECK_URL, versionJsonStr, checkErr);
+        std::string checkUrl = std::string(Config::VERSION_CHECK_URL) + "?t=" + std::to_string(std::chrono::system_clock::now().time_since_epoch().count());
+        bool checkOk = m_platform->fetchCatalog(checkUrl, versionJsonStr, checkErr);
 
         std::string latestVer = Config::APP_VERSION;
         std::string releaseNotes = "Пакет улучшений 4IFIR Cyber-Glass";

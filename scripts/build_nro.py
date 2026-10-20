@@ -168,12 +168,15 @@ def build():
     target_nro = os.path.join(SRC_DIR, "H3H-Backgrounds.nro")
     print(f"[*] Packaging to {target_nro}...")
     romfs_dir = os.path.join(SRC_DIR, "romfs")
+    icon_path = os.path.join(SRC_DIR, "icon.jpg")
     nro_cmd = [
         ELF2NRO,
         elf_path,
         target_nro,
         f"--nacp={nacp_path}"
     ]
+    if os.path.exists(icon_path):
+        nro_cmd.append(f"--icon={icon_path}")
     if os.path.exists(romfs_dir):
         nro_cmd.append(f"--romfsdir={romfs_dir}")
 
