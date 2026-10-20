@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-10-20T17:05:53.994960+00:00",
-  "totalGames": 616,
-  "totalVariants": 664,
+  "totalGames": 618,
+  "totalVariants": 666,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -16236,6 +16236,56 @@
       ]
     },
     {
+      "titleId": "010097D006DEA000",
+      "title": "Pikuniku [NSZ][RUS/Multi10]",
+      "publisher": "Devolver Digital",
+      "variants": [
+        {
+          "id": "var-1V8pzwOA",
+          "name": "Pikuniku",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1V8pzwOAK2Ss6xUo1QgARstgVRK8Z5aqS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1V8pzwOAK2Ss6xUo1QgARstgVRK8Z5aqS&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 010097D006DEA000_Pikuniku.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010038900DFE0000",
+      "title": "What Remains of Edith Finch [NSP][RUS/Multi10]",
+      "publisher": "Annapurna Interactive",
+      "variants": [
+        {
+          "id": "var-1clRFbM9",
+          "name": "What Remains of Edith Finch",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1clRFbM9aJtUckPRpClFMd17Qn79ptcPd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1clRFbM9aJtUckPRpClFMd17Qn79ptcPd&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 010038900DFE0000_What_Remains_of_Edith_Finch.mp4"
+        }
+      ]
+    },
+    {
       "titleId": "01B7F96B70C31000",
       "title": "Call of Duty 4: Modern Warfare",
       "publisher": "Activision",
@@ -16261,5 +16311,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-20T20:34:07.647986+00:00"
+  "lastUpdated": "2026-10-20T20:34:56.084425+00:00"
 }
