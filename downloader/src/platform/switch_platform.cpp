@@ -164,12 +164,6 @@ public:
             for (s32 i = 0; i < count; ++i) {
                 uint64_t appId = records[i].application_id;
 
-                // Filter out non-base applications (DLCs have offset >= 1, Updates have 0x800)
-                // Base application Title IDs strictly have lower 13 bits as 0
-                if ((appId & 0x1FFF) != 0) {
-                    continue;
-                }
-
                 std::ostringstream ss;
                 ss << std::hex << std::uppercase << std::setfill('0') << std::setw(16) << appId;
                 std::string titleIdStr = ss.str();
