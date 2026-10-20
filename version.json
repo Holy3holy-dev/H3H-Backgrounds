@@ -1,6 +1,6 @@
 {
-  "latestVersion": "1.0.8",
+  "latestVersion": "1.0.9",
   "minRequiredVersion": "1.0.0",
   "downloadUrl": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/latest/download/H3H-Backgrounds.nro",
-  "releaseNotes": "Fix Switch libnx sdmc: video playback via custom AVIO & instant live preview"
+  "releaseNotes": "Live preview for any catalog game + exact installed variant tracking and dynamic variant frame switching"
 }

@@ -83,6 +83,8 @@ public:
     void renderDialog();
     void renderFullscreenPreview();
     void loadPreviewTexture(const std::string& titleId, const Variant& variant);
+    void openFullscreenPreviewForGame(const InstalledTitle& g, int variantIndex);
+    void openFullscreenPreviewForCatalogGame(const GameCatalogEntry& entry, int variantIndex);
     void closeFullscreenPreview();
 
     // Drawing helpers (4IFIR Glass Theme)
@@ -181,6 +183,17 @@ private:
     VideoPlayer m_videoPlayer;
     std::string m_pendingVideoToOpen;
     std::atomic<bool> m_videoDownloading{false};
+
+    // Unified Fullscreen Preview metadata (for both MyGames & Catalog tabs)
+    std::string m_previewTitleId;
+    std::string m_previewGameName;
+    std::vector<Variant> m_previewVariants;
+    int m_previewVariantIndex{0};
+    bool m_previewIsGameInstalled{false};
+    bool m_previewHasInstalledCover{false};
+    std::string m_previewInstalledVariantId;
+    uint64_t m_previewInstalledCoverSizeBytes{0};
+    std::string m_previewInstalledCoverPath;
 
     uint32_t m_lastStickScrollTime{0};
 };

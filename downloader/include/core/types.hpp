@@ -89,6 +89,7 @@ struct InstalledTitle {
     bool hasInstalledCover{false};
     std::string installedCoverPath;
     uint64_t installedCoverSizeBytes{0};
+    std::string installedVariantId;
     bool hasBackup{false};
     std::string backupPath;
     uint64_t backupSizeBytes{0};

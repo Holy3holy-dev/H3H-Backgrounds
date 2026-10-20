@@ -1,4 +1,5 @@
 #include "ui/app.hpp"
+#include "core/installed_registry.hpp"
 #include "core/config.hpp"
 #include "core/installer.hpp"
 #include "core/json.hpp"
@@ -193,6 +194,47 @@ void App::shutdown() {
 void App::refreshInstalledGames() {
     m_platform->listInstalledTitles(m_installedGames);
     m_catalogManager.matchInstalledTitles(m_installedGames);
+
+    // Resolve exact installed variant IDs from persistent registry
+    InstalledRegistry::instance().load(m_platform->getAppDirectory());
+    for (auto& game : m_installedGames) {
+        if (game.hasInstalledCover) {
+            std::string regVarId = InstalledRegistry::instance().getVariantId(game.titleId);
+            if (!regVarId.empty()) {
+                for (const auto& v : game.catalogEntry.variants) {
+                    if (v.id == regVarId) {
+                        game.installedVariantId = regVarId;
+                        break;
+                    }
+                }
+            }
+
+            // If not found in registry (e.g. initial scan), match closest size
+            if (game.installedVariantId.empty() && !game.catalogEntry.variants.empty()) {
+                if (game.catalogEntry.variants.size() == 1) {
+                    game.installedVariantId = game.catalogEntry.variants[0].id;
+                } else {
+                    int64_t bestDiff = INT64_MAX;
+                    std::string bestId;
+                    for (const auto& v : game.catalogEntry.variants) {
+                        if (v.sizeBytes > 0 && game.installedCoverSizeBytes > 0) {
+                            int64_t diff = std::abs((int64_t)v.sizeBytes - (int64_t)game.installedCoverSizeBytes);
+                            if (diff < bestDiff) {
+                                bestDiff = diff;
+                                bestId = v.id;
+                            }
+                        }
+                    }
+                    if (!bestId.empty()) {
+                        game.installedVariantId = bestId;
+                    } else {
+                        game.installedVariantId = game.catalogEntry.variants[0].id;
+                    }
+                }
+                InstalledRegistry::instance().setVariantId(m_platform->getAppDirectory(), game.titleId, game.installedVariantId);
+            }
+        }
+    }
 }
 
 void App::fetchRemoteCatalog() {
@@ -604,6 +646,11 @@ void App::processSingleDownloadTask(int taskIdx) {
         std::lock_guard<std::mutex> lock(m_queueMutex);
         if (taskIdx >= 0 && taskIdx < static_cast<int>(m_downloadQueue.size())) {
             if (res.success) {
+                InstalledRegistry::instance().setVariantId(
+                    m_platform->getAppDirectory(),
+                    currentTask.titleId,
+                    currentTask.variant.id
+                );
                 m_downloadQueue[taskIdx].state = TaskState::Completed;
                 m_downloadQueue[taskIdx].progressPercent = 100.0;
             } else {
@@ -653,6 +700,7 @@ void App::executeRestoreBackup(const std::string& titleId) {
 void App::executeDeleteCover(const std::string& titleId) {
     bool deleted = Installer::deleteCover(m_platform->getCoversDirectory(), titleId, false);
     if (deleted) {
+        InstalledRegistry::instance().remove(m_platform->getAppDirectory(), titleId);
         m_statusNotification = "Видеофон удалён (копия .bak сохранена)";
     } else {
         m_statusNotification = "Видеофон не найден";
@@ -780,9 +828,16 @@ void App::handleInput() {
             }
             // Catalog Tab: click directly on an item in the list
             else if (m_activeTab == Tab::Catalog && mx >= 60 && mx <= 1220 && my >= 160 && my <= 640) {
-                int clickedIndex = m_catalogScrollOffset + (my - 160) / 95;
-                if (clickedIndex >= 0 && clickedIndex < static_cast<int>(m_catalogManager.getAllGames().size())) {
-                    m_catalogSelectedIndex = clickedIndex;
+                int clickedIndex = m_catalogScrollOffset + (my - 160) / 94;
+                const auto& allGames = m_catalogManager.getAllGames();
+                int totalGames = static_cast<int>(allGames.size());
+                if (clickedIndex >= 0 && clickedIndex < totalGames) {
+                    if (m_catalogSelectedIndex == clickedIndex || mx >= 950) {
+                        m_catalogSelectedIndex = clickedIndex;
+                        openFullscreenPreviewForCatalogGame(allGames[clickedIndex], 0);
+                    } else {
+                        m_catalogSelectedIndex = clickedIndex;
+                    }
                 }
             }
             // Settings Tab: buttons at y in [300, 350]
@@ -830,29 +885,32 @@ void App::onButtonPress(int button) {
             closeFullscreenPreview();
             return;
         }
-        if (m_myGamesSelectedIndex >= 0 && m_myGamesSelectedIndex < static_cast<int>(m_installedGames.size())) {
-            const auto& g = m_installedGames[m_myGamesSelectedIndex];
-            if (g.hasCatalogMatch && !g.catalogEntry.variants.empty()) {
-                int vCount = static_cast<int>(g.catalogEntry.variants.size());
-                if (button == 13 /* DPAD_LEFT */) {
-                    m_selectedVariantIndex = (m_selectedVariantIndex == 0) ? vCount - 1 : m_selectedVariantIndex - 1;
-                    loadPreviewTexture(g.titleId, g.catalogEntry.variants[m_selectedVariantIndex]);
-                    return;
-                } else if (button == 14 /* DPAD_RIGHT */) {
-                    m_selectedVariantIndex = (m_selectedVariantIndex + 1) % vCount;
-                    loadPreviewTexture(g.titleId, g.catalogEntry.variants[m_selectedVariantIndex]);
-                    return;
-                } else if (button == 0 /* A - Install */) {
-                    closeFullscreenPreview();
-                    m_pendingActionTitleId = g.titleId;
-                    m_pendingActionVariant = g.catalogEntry.variants[m_selectedVariantIndex];
-                    m_activeDialog = DialogType::ConfirmInstall;
-                    m_dialogTitle = getStrings(m_language).confirmInstallTitle;
+        if (!m_previewVariants.empty()) {
+            int vCount = static_cast<int>(m_previewVariants.size());
+            if (button == 13 /* DPAD_LEFT */) {
+                m_previewVariantIndex = (m_previewVariantIndex == 0) ? vCount - 1 : m_previewVariantIndex - 1;
+                loadPreviewTexture(m_previewTitleId, m_previewVariants[m_previewVariantIndex]);
+                return;
+            } else if (button == 14 /* DPAD_RIGHT */) {
+                m_previewVariantIndex = (m_previewVariantIndex + 1) % vCount;
+                loadPreviewTexture(m_previewTitleId, m_previewVariants[m_previewVariantIndex]);
+                return;
+            } else if (button == 0 /* A - Install / Save */) {
+                closeFullscreenPreview();
+                m_pendingActionTitleId = m_previewTitleId;
+                m_pendingActionVariant = m_previewVariants[m_previewVariantIndex];
+                m_activeDialog = DialogType::ConfirmInstall;
+                m_dialogTitle = getStrings(m_language).confirmInstallTitle;
+                if (m_previewIsGameInstalled) {
                     m_dialogMessage = "Установить вариант '" + m_pendingActionVariant.name + "' (" +
-                                      styleToString(m_pendingActionVariant.style) + ") для " + g.name + "?";
-                    m_dialogFocus = 0;
-                    return;
+                                      styleToString(m_pendingActionVariant.style) + ") для игры " + m_previewGameName + "?";
+                } else {
+                    m_dialogMessage = "Игра " + m_previewGameName + " пока не установлена на Switch.\n\n"
+                                      "Сохранить видеофон '" + m_pendingActionVariant.name +
+                                      "' в recordings/covers заранее, чтобы он активировался при установке игры?";
                 }
+                m_dialogFocus = 0;
+                return;
             }
         }
         return;
@@ -887,11 +945,20 @@ void App::onButtonPress(int button) {
         } else if (button == 0 /* A - Confirm */) {
             if (m_dialogFocus == 0) { // Yes / Confirm
                 if (m_activeDialog == DialogType::ConfirmInstall) {
+                    bool queued = false;
                     for (const auto& g : m_installedGames) {
                         if (g.titleId == m_pendingActionTitleId) {
                             queueDownload(g, m_pendingActionVariant);
+                            queued = true;
                             break;
                         }
+                    }
+                    if (!queued) {
+                        InstalledTitle dummy;
+                        dummy.titleId = m_pendingActionTitleId;
+                        dummy.name = m_previewGameName;
+                        dummy.hasCatalogMatch = true;
+                        queueDownload(dummy, m_pendingActionVariant);
                     }
                 } else if (m_activeDialog == DialogType::ConfirmInstallAll) {
                     for (const auto& g : m_installedGames) {
@@ -991,8 +1058,7 @@ void App::onButtonPress(int button) {
                 if (m_myGamesSelectedIndex >= 0 && m_myGamesSelectedIndex < static_cast<int>(m_installedGames.size())) {
                     const auto& g = m_installedGames[m_myGamesSelectedIndex];
                     if (g.hasCatalogMatch && !g.catalogEntry.variants.empty()) {
-                        m_isFullscreenPreview = true;
-                        loadPreviewTexture(g.titleId, g.catalogEntry.variants[m_selectedVariantIndex]);
+                        openFullscreenPreviewForGame(g, m_selectedVariantIndex);
                     }
                 }
             } else if (button == 3 /* Y - Delete / Install Missing */) {
@@ -1040,8 +1106,7 @@ void App::onButtonPress(int button) {
                                       styleToString(m_pendingActionVariant.style) + ") для " + g.name + "?";
                     m_dialogFocus = 0;
                 } else if (button == 2 /* X - Fullscreen Preview */) {
-                    m_isFullscreenPreview = true;
-                    loadPreviewTexture(g.titleId, g.catalogEntry.variants[m_selectedVariantIndex]);
+                    openFullscreenPreviewForGame(g, m_selectedVariantIndex);
                 } else if (button == 3 /* Y - Delete */) {
                     if (g.hasInstalledCover) {
                         m_pendingActionTitleId = g.titleId;
@@ -1054,15 +1119,21 @@ void App::onButtonPress(int button) {
             }
         }
     } else if (m_activeTab == Tab::Catalog) {
-        int totalGames = static_cast<int>(m_catalogManager.getAllGames().size());
+        const auto& allGames = m_catalogManager.getAllGames();
+        int totalGames = static_cast<int>(allGames.size());
         if (button == 11 /* DPAD_UP */) {
             if (m_catalogSelectedIndex > 0) m_catalogSelectedIndex--;
         } else if (button == 12 /* DPAD_DOWN */) {
             if (m_catalogSelectedIndex + 1 < totalGames) m_catalogSelectedIndex++;
         } else if (button == 2 /* X */ || button == 0 /* A */) {
-            fetchRemoteCatalog();
+            if (m_catalogSelectedIndex >= 0 && m_catalogSelectedIndex < totalGames) {
+                const auto& entry = allGames[m_catalogSelectedIndex];
+                openFullscreenPreviewForCatalogGame(entry, 0);
+            }
         } else if (button == 3 /* Y - Install all missing */) {
             installAllMissing();
+        } else if (button == 4 /* MINUS */) {
+            fetchRemoteCatalog();
         }
     } else if (m_activeTab == Tab::Downloads) {
         if (button == 11 /* DPAD_UP */) {
@@ -1211,7 +1282,7 @@ void App::renderFooter() {
             hints = "[A] Select   [X] Fullscreen   [Y] Delete   [B] Back   [L/R] Tabs   [-] Catalog";
         }
     } else if (m_activeTab == Tab::Catalog) {
-        hints = "[L/R] Вкладки   [B] Назад   [-] / [X] Обновить каталог   [Y] Установить недостающие";
+        hints = "[L/R] Вкладки   [D-Pad Вверх/Вниз] Выбор игры   [X / A] Смотреть видео   [-] Обновить   [Y] Установить все";
     } else if (m_activeTab == Tab::Downloads) {
         hints = "[L/R] Вкладки   [B] Назад   [-] Обновить каталог";
     } else if (m_activeTab == Tab::Settings) {
@@ -1442,17 +1513,8 @@ void App::renderTabMyGames() {
                 })();
                 drawText(meta, 545, vY + 41, Theme::COLOR_TEXT_MUTED, 12, 230);
 
-                // Active installed background badge
-                bool isActiveOnConsole = false;
-                if (selGame.hasInstalledCover) {
-                    if (selGame.catalogEntry.variants.size() == 1) {
-                        isActiveOnConsole = true;
-                    } else if (selGame.installedCoverSizeBytes > 0 && v.sizeBytes > 0) {
-                        if (std::abs((int64_t)v.sizeBytes - (int64_t)selGame.installedCoverSizeBytes) <= 65536) {
-                            isActiveOnConsole = true;
-                        }
-                    }
-                }
+                // Active installed background badge - EXACT MATCH ONLY
+                bool isActiveOnConsole = (selGame.hasInstalledCover && v.id == selGame.installedVariantId);
                 if (isActiveOnConsole) {
                     drawRect(785, vY + 38, 105, 22, {0x10, 0xB9, 0x81, 0x44});
                     drawRectOutline(785, vY + 38, 105, 22, Theme::COLOR_SUCCESS, 1);
@@ -1539,14 +1601,49 @@ void App::renderTabCatalog() {
         // 4IFIR Frosted Card for each catalog entry
         drawGlassCard(60, y, 1160, 80, isSelected, false);
 
-        drawText(g.title, 85, y + 16, isSelected ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 17, 960);
-        std::string meta = "Title ID: " + g.titleId + "   |   Доступных стилей: " + std::to_string(g.variants.size());
+        // Title
+        drawText(g.title, 85, y + 16, isSelected ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 17, 680);
+
+        // Check if game is installed on console
+        bool isInstalledOnSwitch = false;
+        bool hasActiveCover = false;
+        for (const auto& ig : m_installedGames) {
+            if (ig.titleId == g.titleId) {
+                isInstalledOnSwitch = true;
+                hasActiveCover = ig.hasInstalledCover;
+                break;
+            }
+        }
+
+        std::string meta = "Title ID: " + g.titleId + "   |   Вариантов фона: " + std::to_string(g.variants.size());
         drawText(meta, 85, y + 44, Theme::COLOR_TEXT_MUTED, 13);
 
+        // Status badges on card
+        if (isInstalledOnSwitch) {
+            if (hasActiveCover) {
+                drawRect(730, y + 40, 185, 22, {0x10, 0xB9, 0x81, 0x33});
+                drawRectOutline(730, y + 40, 185, 22, Theme::COLOR_SUCCESS, 1);
+                drawText("НА SWITCH (ФОН ЕСТЬ)", 740, y + 44, Theme::COLOR_SUCCESS, 10);
+            } else {
+                drawRect(730, y + 40, 165, 22, {0x02, 0x84, 0xC7, 0x33});
+                drawRectOutline(730, y + 40, 165, 22, Theme::COLOR_FOCUS_CYAN, 1);
+                drawText("УСТАНОВЛЕНА НА SWITCH", 740, y + 44, Theme::COLOR_FOCUS_CYAN, 10);
+            }
+        } else {
+            drawRect(730, y + 40, 140, 22, {0x28, 0x33, 0x47, 0x44});
+            drawRectOutline(730, y + 40, 140, 22, Theme::COLOR_BORDER, 1);
+            drawText("В ОНЛАЙН-КАТАЛОГЕ", 740, y + 44, Theme::COLOR_TEXT_MUTED, 10);
+        }
+
+        // Action button on right
         if (isSelected) {
-            drawRect(1070, y + 22, 130, 36, Theme::COLOR_FOCUS_FILL);
-            drawRectOutline(1070, y + 22, 130, 36, Theme::COLOR_FOCUS_CYAN, 1);
-            drawText("В библиотеке", 1085, y + 31, Theme::COLOR_FOCUS_CYAN, 12);
+            drawRect(935, y + 22, 265, 36, Theme::COLOR_FOCUS_FILL);
+            drawNeonGradientOutline(935, y + 22, 265, 36, 1);
+            drawText("[X / A] Смотреть видео", 975, y + 31, Theme::COLOR_FOCUS_CYAN, 13);
+        } else {
+            drawRect(975, y + 22, 225, 36, {0x16, 0x20, 0x32, 0x88});
+            drawRectOutline(975, y + 22, 225, 36, Theme::COLOR_BORDER, 1);
+            drawText("Смотреть видео", 1025, y + 31, Theme::COLOR_TEXT_MUTED, 13);
         }
 
         y += 94;
@@ -2078,74 +2175,121 @@ void App::renderFullscreenPreview() {
     drawRect(hudX, hudY, hudW, hudH, {0x0D, 0x11, 0x1A, 0xF6});
     drawNeonGradientOutline(hudX, hudY, hudW, hudH, 2);
 
-    if (m_myGamesSelectedIndex >= 0 && m_myGamesSelectedIndex < static_cast<int>(m_installedGames.size())) {
-        const auto& g = m_installedGames[m_myGamesSelectedIndex];
-        if (g.hasCatalogMatch && !g.catalogEntry.variants.empty()) {
-            int totalV = static_cast<int>(g.catalogEntry.variants.size());
-            int curV = std::clamp(m_selectedVariantIndex, 0, totalV - 1);
-            const auto& v = g.catalogEntry.variants[curV];
+    if (!m_previewVariants.empty()) {
+        int totalV = static_cast<int>(m_previewVariants.size());
+        int curV = std::clamp(m_previewVariantIndex, 0, totalV - 1);
+        const auto& v = m_previewVariants[curV];
 
-            // Game Name (Left top)
-            drawText(g.name, hudX + 25, hudY + 12, Theme::COLOR_TEXT_PRIMARY, 19, 580);
+        // Game Name (Left top)
+        drawText(m_previewGameName, hudX + 25, hudY + 12, Theme::COLOR_TEXT_PRIMARY, 19, 580);
 
-            // Variant Name & Style (Left middle)
-            std::string varTitle = std::to_string(curV + 1) + ". " + v.name + " (" + styleToString(v.style) + ")";
-            drawText(varTitle, hudX + 25, hudY + 38, Theme::COLOR_FOCUS_CYAN, 16, 580);
+        // Variant Name & Style (Left middle)
+        std::string varTitle = std::to_string(curV + 1) + ". " + v.name + " (" + styleToString(v.style) + ")";
+        drawText(varTitle, hudX + 25, hudY + 38, Theme::COLOR_FOCUS_CYAN, 16, 580);
 
-            // Tech specs + Audio pill (Left bottom)
-            double mb = static_cast<double>(v.sizeBytes) / (1024.0 * 1024.0);
-            char mbBuf[16];
-            if (mb >= 0.1) snprintf(mbBuf, sizeof(mbBuf), "%.1f MB", mb);
-            else snprintf(mbBuf, sizeof(mbBuf), "~3.5 MB");
+        // Tech specs + Audio pill (Left bottom)
+        double mb = static_cast<double>(v.sizeBytes) / (1024.0 * 1024.0);
+        char mbBuf[16];
+        if (mb >= 0.1) snprintf(mbBuf, sizeof(mbBuf), "%.1f MB", mb);
+        else snprintf(mbBuf, sizeof(mbBuf), "~3.5 MB");
 
-            std::string specs = "1280x720 @30fps  |  " + std::string(mbBuf) +
-                                "  |  Вариант " + std::to_string(curV + 1) + " из " + std::to_string(totalV);
-            drawText(specs, hudX + 25, hudY + 68, Theme::COLOR_TEXT_MUTED, 13, 390);
+        std::string specs = "1280x720 @30fps  |  " + std::string(mbBuf) +
+                            "  |  Вариант " + std::to_string(curV + 1) + " из " + std::to_string(totalV);
+        drawText(specs, hudX + 25, hudY + 68, Theme::COLOR_TEXT_MUTED, 13, 390);
 
-            if (v.hasAudio) {
-                drawRect(hudX + 430, hudY + 66, 75, 22, {0x10, 0xB9, 0x81, 0x33});
-                drawRectOutline(hudX + 430, hudY + 66, 75, 22, Theme::COLOR_SUCCESS, 1);
-                drawText("ЗВУК", hudX + 451, hudY + 70, Theme::COLOR_SUCCESS, 10);
-            } else {
-                drawRect(hudX + 430, hudY + 66, 85, 22, {0x28, 0x33, 0x47, 0x44});
-                drawRectOutline(hudX + 430, hudY + 66, 85, 22, Theme::COLOR_BORDER, 1);
-                drawText("БЕЗ ЗВУКА", hudX + 439, hudY + 70, Theme::COLOR_TEXT_MUTED, 10);
-            }
+        if (v.hasAudio) {
+            drawRect(hudX + 430, hudY + 66, 75, 22, {0x10, 0xB9, 0x81, 0x33});
+            drawRectOutline(hudX + 430, hudY + 66, 75, 22, Theme::COLOR_SUCCESS, 1);
+            drawText("ЗВУК", hudX + 451, hudY + 70, Theme::COLOR_SUCCESS, 10);
+        } else {
+            drawRect(hudX + 430, hudY + 66, 85, 22, {0x28, 0x33, 0x47, 0x44});
+            drawRectOutline(hudX + 430, hudY + 66, 85, 22, Theme::COLOR_BORDER, 1);
+            drawText("БЕЗ ЗВУКА", hudX + 439, hudY + 70, Theme::COLOR_TEXT_MUTED, 10);
+        }
 
-            bool isActiveVariant = false;
-            if (g.hasInstalledCover) {
-                if (g.catalogEntry.variants.size() == 1) {
-                    isActiveVariant = true;
-                } else if (g.installedCoverSizeBytes > 0 && v.sizeBytes > 0) {
-                    if (std::abs((int64_t)v.sizeBytes - (int64_t)g.installedCoverSizeBytes) <= 65536) {
-                        isActiveVariant = true;
-                    }
-                }
-            }
+        // Active variant identification: exactly matches the installed variant
+        bool isActiveVariant = (m_previewHasInstalledCover && v.id == m_previewInstalledVariantId);
 
-            if (isActiveVariant) {
-                drawRect(hudX + 530, hudY + 66, 185, 22, {0x10, 0xB9, 0x81, 0x33});
-                drawRectOutline(hudX + 530, hudY + 66, 185, 22, Theme::COLOR_SUCCESS, 1);
-                drawText("УСТАНОВЛЕН НА SWITCH", hudX + 542, hudY + 70, Theme::COLOR_SUCCESS, 10);
-            }
+        if (isActiveVariant) {
+            drawRect(hudX + 530, hudY + 66, 185, 22, {0x10, 0xB9, 0x81, 0x33});
+            drawRectOutline(hudX + 530, hudY + 66, 185, 22, Theme::COLOR_SUCCESS, 1);
+            drawText("УСТАНОВЛЕН НА SWITCH", hudX + 542, hudY + 70, Theme::COLOR_SUCCESS, 10);
+        } else if (!m_previewIsGameInstalled) {
+            drawRect(hudX + 530, hudY + 66, 185, 22, {0x1E, 0x29, 0x3B, 0xAA});
+            drawRectOutline(hudX + 530, hudY + 66, 185, 22, Theme::COLOR_BORDER, 1);
+            drawText("ИГРА НЕ УСТАНОВЛЕНА", hudX + 542, hudY + 70, Theme::COLOR_TEXT_MUTED, 10);
+        }
 
-            // Right side buttons
-            if (isActiveVariant) {
-                drawRect(hudX + 900, hudY + 14, 270, 38, {0x10, 0xB9, 0x81, 0x33});
-                drawRectOutline(hudX + 900, hudY + 14, 270, 38, Theme::COLOR_SUCCESS, 1);
-                drawText("[A] Переустановить", hudX + 950, hudY + 24, Theme::COLOR_SUCCESS, 14);
-            } else {
-                drawRect(hudX + 900, hudY + 14, 270, 38, Theme::COLOR_FOCUS_FILL);
-                drawRectOutline(hudX + 900, hudY + 14, 270, 38, Theme::COLOR_FOCUS_CYAN, 1);
-                drawText("[A] Установить видеофон", hudX + 930, hudY + 24, Theme::COLOR_FOCUS_CYAN, 14);
-            }
+        // Right side buttons
+        if (isActiveVariant) {
+            drawRect(hudX + 900, hudY + 14, 270, 38, {0x10, 0xB9, 0x81, 0x33});
+            drawRectOutline(hudX + 900, hudY + 14, 270, 38, Theme::COLOR_SUCCESS, 1);
+            drawText("[A] Переустановить", hudX + 950, hudY + 24, Theme::COLOR_SUCCESS, 14);
+        } else if (m_previewIsGameInstalled) {
+            drawRect(hudX + 900, hudY + 14, 270, 38, Theme::COLOR_FOCUS_FILL);
+            drawRectOutline(hudX + 900, hudY + 14, 270, 38, Theme::COLOR_FOCUS_CYAN, 1);
+            drawText("[A] Установить видеофон", hudX + 930, hudY + 24, Theme::COLOR_FOCUS_CYAN, 14);
+        } else {
+            drawRect(hudX + 900, hudY + 14, 270, 38, {0x16, 0x20, 0x32, 0xAA});
+            drawRectOutline(hudX + 900, hudY + 14, 270, 38, Theme::COLOR_BORDER, 1);
+            drawText("[A] Скачать заранее", hudX + 942, hudY + 24, Theme::COLOR_TEXT_MUTED, 14);
+        }
 
-            if (totalV > 1) {
-                drawText("[◀ / ▶ D-Pad] Варианты на лету", hudX + 880, hudY + 68, Theme::COLOR_FOCUS_PINK, 12);
-            }
-            drawText("[B] Закрыть", hudX + 1100, hudY + 68, Theme::COLOR_TEXT_MUTED, 13);
+        if (totalV > 1) {
+            drawText("[◀ / ▶ D-Pad] Варианты на лету", hudX + 880, hudY + 68, Theme::COLOR_FOCUS_PINK, 12);
+        }
+        drawText("[B] Закрыть", hudX + 1100, hudY + 68, Theme::COLOR_TEXT_MUTED, 13);
+    }
+#endif
+}
+
+void App::openFullscreenPreviewForGame(const InstalledTitle& g, int variantIndex) {
+#ifdef HAS_SDL2
+    if (!g.hasCatalogMatch || g.catalogEntry.variants.empty()) return;
+
+    m_previewTitleId = g.titleId;
+    m_previewGameName = g.name;
+    m_previewVariants = g.catalogEntry.variants;
+    m_previewVariantIndex = std::clamp(variantIndex, 0, static_cast<int>(m_previewVariants.size()) - 1);
+    m_previewIsGameInstalled = true;
+    m_previewHasInstalledCover = g.hasInstalledCover;
+    m_previewInstalledVariantId = g.installedVariantId;
+    m_previewInstalledCoverSizeBytes = g.installedCoverSizeBytes;
+    m_previewInstalledCoverPath = g.installedCoverPath;
+
+    m_isFullscreenPreview = true;
+    loadPreviewTexture(m_previewTitleId, m_previewVariants[m_previewVariantIndex]);
+#endif
+}
+
+void App::openFullscreenPreviewForCatalogGame(const GameCatalogEntry& entry, int variantIndex) {
+#ifdef HAS_SDL2
+    if (entry.variants.empty()) return;
+
+    m_previewTitleId = entry.titleId;
+    m_previewGameName = entry.title;
+    m_previewVariants = entry.variants;
+    m_previewVariantIndex = std::clamp(variantIndex, 0, static_cast<int>(m_previewVariants.size()) - 1);
+
+    m_previewIsGameInstalled = false;
+    m_previewHasInstalledCover = false;
+    m_previewInstalledVariantId.clear();
+    m_previewInstalledCoverSizeBytes = 0;
+    m_previewInstalledCoverPath.clear();
+
+    for (const auto& g : m_installedGames) {
+        if (g.titleId == entry.titleId) {
+            m_previewIsGameInstalled = true;
+            m_previewHasInstalledCover = g.hasInstalledCover;
+            m_previewInstalledVariantId = g.installedVariantId;
+            m_previewInstalledCoverSizeBytes = g.installedCoverSizeBytes;
+            m_previewInstalledCoverPath = g.installedCoverPath;
+            break;
         }
     }
+
+    m_isFullscreenPreview = true;
+    loadPreviewTexture(m_previewTitleId, m_previewVariants[m_previewVariantIndex]);
 #endif
 }
 
@@ -2167,32 +2311,20 @@ void App::loadPreviewTexture(const std::string& titleId, const Variant& variant)
     std::string thumbFile = thumbDir + "/" + cacheKey + ".jpg";
     std::string vidFile = thumbDir + "/" + cacheKey + ".mp4";
 
-    // 1. Check if this is the active cover installed on console
-    bool isActiveInstalled = false;
-    std::string installedCoverPath;
-    if (m_myGamesSelectedIndex >= 0 && m_myGamesSelectedIndex < static_cast<int>(m_installedGames.size())) {
-        const auto& g = m_installedGames[m_myGamesSelectedIndex];
-        if (g.hasInstalledCover && g.titleId == titleId) {
-            if (g.catalogEntry.variants.size() == 1) {
-                isActiveInstalled = true;
-                installedCoverPath = g.installedCoverPath;
-            } else if (g.installedCoverSizeBytes > 0 && variant.sizeBytes > 0) {
-                if (std::abs((int64_t)variant.sizeBytes - (int64_t)g.installedCoverSizeBytes) <= 65536) {
-                    isActiveInstalled = true;
-                    installedCoverPath = g.installedCoverPath;
-                }
-            }
-        }
-    }
+    // 1. Check if THIS SPECIFIC VARIANT is the active installed cover on console
+    bool isThisVariantInstalled = (m_previewHasInstalledCover &&
+                                   variant.id == m_previewInstalledVariantId &&
+                                   !m_previewInstalledCoverPath.empty() &&
+                                   std::filesystem::exists(m_previewInstalledCoverPath, ec));
 
-    if (isActiveInstalled && !installedCoverPath.empty() && std::filesystem::exists(installedCoverPath, ec)) {
+    if (isThisVariantInstalled) {
         // Play directly from SD card with 0 network delay!
-        m_videoPlayer.open(installedCoverPath, m_renderer);
+        m_videoPlayer.open(m_previewInstalledCoverPath, m_renderer);
     } else if (std::filesystem::exists(vidFile, ec)) {
         uint64_t cachedSz = std::filesystem::file_size(vidFile, ec);
         if (cachedSz > 50000) {
             if (!m_videoPlayer.open(vidFile, m_renderer)) {
-                // If corrupted cache, purge so it can redownload
+                // Corrupted cache -> purge so it can redownload cleanly
                 std::filesystem::remove(vidFile, ec);
                 std::filesystem::remove(thumbFile, ec);
             }
@@ -2282,6 +2414,10 @@ void App::closeFullscreenPreview() {
         m_previewTexture = nullptr;
     }
     m_previewCurrentVariantId.clear();
+    m_previewTitleId.clear();
+    m_previewGameName.clear();
+    m_previewVariants.clear();
+    m_previewVariantIndex = 0;
 #endif
 }
 

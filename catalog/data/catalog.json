@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-10-20T17:05:53.994960+00:00",
-  "totalGames": 704,
-  "totalVariants": 752,
+  "totalGames": 717,
+  "totalVariants": 765,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -18459,7 +18459,332 @@
           "notes": "SteamGridDB Animated Grid: 01002B7015A40000_Spin_Rhythm_XD___2.mp4"
         }
       ]
+    },
+    {
+      "titleId": "0100D95012C0A000",
+      "title": "Gibbous A Cthulhu Adventure [NSZ][RUS/Multi7]",
+      "publisher": "Stuck In Attic",
+      "variants": [
+        {
+          "id": "var-1CQLgizT",
+          "name": "Gibbous A Cthulhu Adventure",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CQLgizTrc0yCBTlCMaqSp9Ee-FhURiBf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CQLgizTrc0yCBTlCMaqSp9Ee-FhURiBf&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100D95012C0A000_Gibbous_A_Cthulhu_Adventure.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F03010C72000",
+      "title": "Sludge Life [NSZ][RUS/Multi10]",
+      "publisher": "Devolver Digital",
+      "variants": [
+        {
+          "id": "var-1uOsnXFH",
+          "name": "Sludge Life",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1uOsnXFHOhPqpaLxr2ShGsHJngT8YMUzP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1uOsnXFHOhPqpaLxr2ShGsHJngT8YMUzP&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 0100F03010C72000_Sludge_Life.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01009AB00BDFE000",
+      "title": "The Stillness of the Wind [NSP][RUS/Multi8]",
+      "publisher": "Fellow Traveller",
+      "variants": [
+        {
+          "id": "var-1b6f1j2l",
+          "name": "The Stillness of the Wind",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1b6f1j2lUn0HxB-5JDBxZKeQ4gWwLMThf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1b6f1j2lUn0HxB-5JDBxZKeQ4gWwLMThf&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 01009AB00BDFE000_The_Stillness_of_the_Wind.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010015A00AF1E000",
+      "title": "Whispering Willows [NSZ][RUS/Multi7]",
+      "publisher": "Akupara Games",
+      "variants": [
+        {
+          "id": "var-1Wt7jV6O",
+          "name": "Whispering Willows",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Wt7jV6OD9qajwpSQjOHBqeylsv7Pz9U6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Wt7jV6OD9qajwpSQjOHBqeylsv7Pz9U6&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 010015A00AF1E000_Whispering_Willows.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A6B01900E000",
+      "title": "Ark Dinosaur Discovery [NSP][ENG]",
+      "publisher": "Snail Games USA",
+      "variants": [
+        {
+          "id": "var-1rVqrGuM",
+          "name": "Ark Dinosaur Discovery",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rVqrGuM3p66EYJkjPDKsPjIgP0SVyzZa",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rVqrGuM3p66EYJkjPDKsPjIgP0SVyzZa&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100A6B01900E000_Ark_Dinosaur_Discovery.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100750014426000",
+      "title": "1912 Titanic Mystery [NSZ][ENG]",
+      "publisher": "Ocean Media",
+      "variants": [
+        {
+          "id": "var-1ceKJKp0",
+          "name": "1912 Titanic Mystery",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ceKJKp0WIoIOTGLApqu3hcTSeOljB68H",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ceKJKp0WIoIOTGLApqu3hcTSeOljB68H&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100750014426000_1912_Titanic_Mystery.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FF401640C000",
+      "title": "Gerda a Flame in Winter + DLC Liva's Story [NSZ][RUS/Multi7]",
+      "publisher": "Don't Nod",
+      "variants": [
+        {
+          "id": "var-166qaslZ",
+          "name": "Gerda a Flame in Winter + Liva's Story",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=166qaslZneP2MhyY2oI77jAlNo2_b65x7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=166qaslZneP2MhyY2oI77jAlNo2_b65x7&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100FF401640C000_Gerda_a_Flame_in_Winter___Liva_s_Story.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100340009736000",
+      "title": "Jotun: Valhalla Edition [NSZ][RUS/Multi9]",
+      "publisher": "Thunder Lotus Games",
+      "variants": [
+        {
+          "id": "var-1Xa44TLx",
+          "name": "Jotun: Valhalla",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Xa44TLxq7cBAVCU5xsuKnqu06noV-ihc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Xa44TLxq7cBAVCU5xsuKnqu06noV-ihc&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100340009736000_Jotun__Valhalla.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B3601926A000",
+      "title": "Killer Frequency [NSZ][RUS/Multi10]",
+      "publisher": "Team17 Digital",
+      "variants": [
+        {
+          "id": "var-11QiM3KW",
+          "name": "Killer Frequency",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11QiM3KW0S51n4cm19Zk6YovT0gTS9sKs",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11QiM3KW0S51n4cm19Zk6YovT0gTS9sKs&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 0100B3601926A000_Killer_Frequency.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01008A901890C000",
+      "title": "In Stars and Time [NSZ][ENG]",
+      "publisher": "Armor Games Studios",
+      "variants": [
+        {
+          "id": "var-1HTLaUcI",
+          "name": "In Stars and Time",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HTLaUcIGxn8It7GmmPf78EcojzSBx_gy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HTLaUcIGxn8It7GmmPf78EcojzSBx_gy&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 01008A901890C000_In_Stars_and_Time.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DA700879C000",
+      "title": "Last Day of June [NSZ][RUS/Multi10]",
+      "publisher": "505 Games",
+      "variants": [
+        {
+          "id": "var-1Wn_bRyj",
+          "name": "Last Day of June",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Wn_bRyjZro9QXWjnT_ljGI1X8ByiBjDY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Wn_bRyjZro9QXWjnT_ljGI1X8ByiBjDY&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100DA700879C000_Last_Day_of_June.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010086501BC88000",
+      "title": "Undying [NSZ][RUS/Multi10]",
+      "publisher": "Skystone Games",
+      "variants": [
+        {
+          "id": "var-12EkNrQT",
+          "name": "Undying",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12EkNrQTFcNqF7G1PEgHwVeKDsChVrzOm",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12EkNrQTFcNqF7G1PEgHwVeKDsChVrzOm&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 010086501BC88000_Undying.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01005730128C2000",
+      "title": "Verdict Guilty [NSZ][ENG]",
+      "publisher": "Pixel Heart",
+      "variants": [
+        {
+          "id": "var-1FTp0Hny",
+          "name": "Verdict Guilty",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FTp0Hnyd4w1n3gPGONjzQZeSQco3RoSa",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FTp0Hnyd4w1n3gPGONjzQZeSQco3RoSa&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 01005730128C2000_Verdict_Guilty.mp4"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-10-20T23:22:32.631160+00:00"
+  "lastUpdated": "2026-10-20T23:39:26.603273+00:00"
 }
