@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T19:58:27.619437+00:00",
-  "totalGames": 17,
-  "totalVariants": 17,
+  "updatedAt": "2026-10-20T12:21:23.084902+00:00",
+  "totalGames": 48,
+  "totalVariants": 56,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -10,23 +10,22 @@
       "publisher": "Unknown",
       "variants": [
         {
-          "id": "standard",
+          "id": "var-standard",
           "name": "Standard",
           "style": "Animated Art",
           "version": "1.0",
-          "url": "https://drive.google.com/uc?export=download&id=1VOePFspJ7BBScL9v_vNpr6kC0Qx4bAV_",
-          "previewUrl": "https://drive.google.com/thumbnail?id=1VOePFspJ7BBScL9v_vNpr6kC0Qx4bAV_&sz=w640",
-          "sizeBytes": 16431618,
-          "sha256": "f64f4a13ab8f7c7c71a67f9635dfd41b652c527faf9b46e941eff49de18db892",
+          "url": "https://drive.google.com/uc?export=download&id=1nIFJHGealY_B6hlQK70Vl9BS0IwE8TaB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nIFJHGealY_B6hlQK70Vl9BS0IwE8TaB&sz=w640",
+          "sizeBytes": 3073003,
+          "sha256": "5a110e566495f5db189501ac96aac42af42c4cc859bc927ff30d3bb022a07c06",
           "durationSec": 20.0,
           "author": "Holy3holy-dev",
-          "codec": "hevc",
+          "codec": "h264",
           "width": 1280,
           "height": 720,
           "fps": 30.0,
-          "hasAudio": true,
-          "notes": "Google Drive Hosted (4IFIR: 1920x1080 @30fps)",
-          "updatedAt": "2026-10-19T19:58:27.619418+00:00"
+          "hasAudio": false,
+          "notes": "Google Drive: 0100000000010000.mp4"
         }
       ]
     },
@@ -62,23 +61,22 @@
       "publisher": "Unknown",
       "variants": [
         {
-          "id": "standard",
+          "id": "var-standard",
           "name": "Standard",
           "style": "Animated Art",
           "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1-xmJ_5PsqPcDiJuy3jU_SQmjxAD6q3aT",
           "previewUrl": "https://drive.google.com/thumbnail?id=1-xmJ_5PsqPcDiJuy3jU_SQmjxAD6q3aT&sz=w640",
-          "sizeBytes": 20983084,
-          "sha256": "9a8936a715eacb2674bcb406b23d9a769a91c29b379236984dc6b2fe530b295d",
+          "sizeBytes": 0,
+          "sha256": "",
           "durationSec": 20.0,
           "author": "Holy3holy-dev",
-          "codec": "hevc",
+          "codec": "h264",
           "width": 1280,
           "height": 720,
           "fps": 30.0,
-          "hasAudio": true,
-          "notes": "Google Drive Hosted (4IFIR: 1920x1080 @30fps)",
-          "updatedAt": "2026-10-19T19:58:25.482666+00:00"
+          "hasAudio": false,
+          "notes": "Google Drive: 01001AE005166000.mp4"
         }
       ]
     },
@@ -88,23 +86,22 @@
       "publisher": "Unknown",
       "variants": [
         {
-          "id": "standard",
+          "id": "var-standard",
           "name": "Standard",
           "style": "Animated Art",
           "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1TYCNYWq47a0f95MFMX2YUkMDqw3QpGVd",
           "previewUrl": "https://drive.google.com/thumbnail?id=1TYCNYWq47a0f95MFMX2YUkMDqw3QpGVd&sz=w640",
-          "sizeBytes": 11154896,
-          "sha256": "fd809495c3a95e493a8ad1ec4f7a3d3e16d6399496f2c83f2a54b2d21c3ff7b6",
+          "sizeBytes": 2272117,
+          "sha256": "0b1e65e3c725009a50d03e3a5c6e188e86c43abe8063e878391bd335777ef3ac",
           "durationSec": 20.0,
           "author": "Holy3holy-dev",
-          "codec": "hevc",
+          "codec": "h264",
           "width": 1280,
           "height": 720,
           "fps": 30.0,
-          "hasAudio": true,
-          "notes": "Google Drive Hosted (4IFIR: 1920x1080 @30fps)",
-          "updatedAt": "2026-10-19T19:58:24.946636+00:00"
+          "hasAudio": false,
+          "notes": "Google Drive: 01003DC0144B6000.mp4"
         }
       ]
     },
@@ -114,23 +111,22 @@
       "publisher": "Unknown",
       "variants": [
         {
-          "id": "standard",
+          "id": "var-standard",
           "name": "Standard",
           "style": "Animated Art",
           "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=13osyi6i4_AZ5QoskCJ9GsoTWRJ5R_Wq7",
           "previewUrl": "https://drive.google.com/thumbnail?id=13osyi6i4_AZ5QoskCJ9GsoTWRJ5R_Wq7&sz=w640",
-          "sizeBytes": 18027960,
-          "sha256": "4d2d2fe077e268076a345e98642a95a7126a48c8dc4ad3d025def4c09a910df2",
+          "sizeBytes": 0,
+          "sha256": "",
           "durationSec": 20.0,
           "author": "Holy3holy-dev",
-          "codec": "hevc",
+          "codec": "h264",
           "width": 1280,
           "height": 720,
           "fps": 30.0,
-          "hasAudio": true,
-          "notes": "Google Drive Hosted (4IFIR: 1920x1080 @30fps)",
-          "updatedAt": "2026-10-19T19:58:24.109929+00:00"
+          "hasAudio": false,
+          "notes": "Google Drive: 01004200189F4000.mp4"
         }
       ]
     },
@@ -140,23 +136,22 @@
       "publisher": "Unknown",
       "variants": [
         {
-          "id": "standard",
+          "id": "var-standard",
           "name": "Standard",
           "style": "Animated Art",
           "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1snsssvfu7o8TortUMMTRAvQI8Dkx7JRz",
           "previewUrl": "https://drive.google.com/thumbnail?id=1snsssvfu7o8TortUMMTRAvQI8Dkx7JRz&sz=w640",
-          "sizeBytes": 4643107,
-          "sha256": "2c4f896528eefcbe5abe7b1e0688c1adcb8b0669e3b39488c1758ea2cf06007b",
+          "sizeBytes": 0,
+          "sha256": "",
           "durationSec": 20.0,
           "author": "Holy3holy-dev",
-          "codec": "hevc",
+          "codec": "h264",
           "width": 1280,
           "height": 720,
           "fps": 30.0,
-          "hasAudio": true,
-          "notes": "Google Drive Hosted (4IFIR: 1920x1080 @30fps)",
-          "updatedAt": "2026-10-19T19:58:23.532621+00:00"
+          "hasAudio": false,
+          "notes": "Google Drive: 010051F0207B2000.mp4"
         }
       ]
     },
@@ -166,28 +161,28 @@
       "publisher": "Unknown",
       "variants": [
         {
-          "id": "standard",
+          "id": "var-standard",
           "name": "Standard",
           "style": "Animated Art",
           "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1Ud4jAK77SqAyP0LIY4E4FVdbexvBD7DD",
           "previewUrl": "https://drive.google.com/thumbnail?id=1Ud4jAK77SqAyP0LIY4E4FVdbexvBD7DD&sz=w640",
-          "sizeBytes": 6601553,
-          "sha256": "796b9a39a683c2bf8091d37c9fac6fc17c7954933d8d9cf48df2ebd5c2bb8583",
+          "sizeBytes": 4469821,
+          "sha256": "91c353b9b5dfdf952587f05cf8d11c8d297628a03d499659986bdcadc9ad1f8c",
           "durationSec": 20.0,
           "author": "Holy3holy-dev",
-          "codec": "hevc",
+          "codec": "h264",
           "width": 1280,
           "height": 720,
           "fps": 30.0,
-          "hasAudio": true,
-          "notes": "Google Drive Hosted (4IFIR: 1920x1080 @30fps)",
-          "updatedAt": "2026-10-19T19:58:22.682279+00:00"
+          "hasAudio": false,
+          "notes": "Google Drive: 01005CA01580E000.mp4"
         },
         {
           "id": "persona-5-royal",
           "name": "Persona 5 Royal",
           "style": "Animated Art",
+          "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1m6eAiH4S0Dr8b5iryXbzkJ8lONa80Lg6",
           "previewUrl": "https://drive.google.com/thumbnail?id=1m6eAiH4S0Dr8b5iryXbzkJ8lONa80Lg6&sz=w640",
           "sizeBytes": 1034553,
@@ -199,13 +194,7 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "tags": [
-            "1080p-scaled",
-            "4ifir-compliant",
-            "gdrive"
-          ],
-          "createdAt": "2026-10-19T19:58:10.689286+00:00",
-          "updatedAt": "2026-10-19T19:58:10.689292+00:00"
+          "notes": "Google Drive: 01005CA01580E000_Persona_5_Royal.mp4"
         }
       ]
     },
@@ -215,23 +204,22 @@
       "publisher": "Unknown",
       "variants": [
         {
-          "id": "standard",
+          "id": "var-standard",
           "name": "Standard",
           "style": "Animated Art",
           "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=13L0QbHKRxLh3im4P3R6GBcLSvy2xnbZo",
           "previewUrl": "https://drive.google.com/thumbnail?id=13L0QbHKRxLh3im4P3R6GBcLSvy2xnbZo&sz=w640",
-          "sizeBytes": 20562026,
-          "sha256": "45f8a9657808ed05625339ae0eabec07ca0457c7da0d9d209a0424d75d0119f1",
+          "sizeBytes": 5762988,
+          "sha256": "169d5bdc01700da898ff57ab65230f410f7250115d6ce09ebfec977d1f0cbb3c",
           "durationSec": 20.0,
           "author": "Holy3holy-dev",
           "codec": "h264",
           "width": 1280,
           "height": 720,
           "fps": 30.0,
-          "hasAudio": true,
-          "notes": "Google Drive Hosted (4IFIR: 1280x720 @60fps)",
-          "updatedAt": "2026-10-19T19:58:21.795814+00:00"
+          "hasAudio": false,
+          "notes": "Google Drive: 01006A800016E000.mp4"
         }
       ]
     },
@@ -241,23 +229,22 @@
       "publisher": "Unknown",
       "variants": [
         {
-          "id": "standard",
+          "id": "var-standard",
           "name": "Standard",
           "style": "Animated Art",
           "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1DdexpC3o3awNmEYSXUkPOKYs_-sktAa8",
           "previewUrl": "https://drive.google.com/thumbnail?id=1DdexpC3o3awNmEYSXUkPOKYs_-sktAa8&sz=w640",
-          "sizeBytes": 7366354,
-          "sha256": "105e717c1134369e025f63c503f8cde8f2ea605a51236f2da618803cf1dd1bbc",
+          "sizeBytes": 0,
+          "sha256": "",
           "durationSec": 20.0,
           "author": "Holy3holy-dev",
-          "codec": "hevc",
+          "codec": "h264",
           "width": 1280,
           "height": 720,
           "fps": 30.0,
-          "hasAudio": true,
-          "notes": "Google Drive Hosted (4IFIR: 1920x1080 @30fps)",
-          "updatedAt": "2026-10-19T19:58:21.206257+00:00"
+          "hasAudio": false,
+          "notes": "Google Drive: 01006BD001E06000.mp4"
         }
       ]
     },
@@ -267,28 +254,28 @@
       "publisher": "Unknown",
       "variants": [
         {
-          "id": "standard",
+          "id": "var-standard",
           "name": "Standard",
           "style": "Animated Art",
           "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1IszJH7CMc0IMUwGBVvoVNKTnOF2MFzqL",
           "previewUrl": "https://drive.google.com/thumbnail?id=1IszJH7CMc0IMUwGBVvoVNKTnOF2MFzqL&sz=w640",
-          "sizeBytes": 13307180,
-          "sha256": "4cbb9f862d9c3d31ca33761eb5e78043e03ff0a2aeb2ea5545dbaa3b8e412947",
+          "sizeBytes": 4436946,
+          "sha256": "e395cb50c67cccb0e4daa4348a06e8b2a431b555db42b32248a072eca945e1c0",
           "durationSec": 20.0,
           "author": "Holy3holy-dev",
-          "codec": "hevc",
+          "codec": "h264",
           "width": 1280,
           "height": 720,
           "fps": 30.0,
-          "hasAudio": true,
-          "notes": "Google Drive Hosted (4IFIR: 1920x1080 @30fps)",
-          "updatedAt": "2026-10-19T19:58:20.668698+00:00"
+          "hasAudio": false,
+          "notes": "Google Drive: 01004AB00A260000.mp4"
         },
         {
           "id": "dark-souls-bonfire",
           "name": "Dark Souls Bonfire",
           "style": "Animated Art",
+          "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1mdTnq5PD_sPkGyJBfWMqTt0zQH6-S6vr",
           "previewUrl": "https://drive.google.com/thumbnail?id=1mdTnq5PD_sPkGyJBfWMqTt0zQH6-S6vr&sz=w640",
           "sizeBytes": 4436946,
@@ -300,13 +287,7 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "tags": [
-            "1080p-scaled",
-            "4ifir-compliant",
-            "gdrive"
-          ],
-          "createdAt": "2026-10-19T19:57:54.352075+00:00",
-          "updatedAt": "2026-10-19T19:57:54.352083+00:00"
+          "notes": "Google Drive: 01004AB00A260000_Dark_Souls_Bonfire.mp4"
         }
       ]
     },
@@ -316,23 +297,22 @@
       "publisher": "Unknown",
       "variants": [
         {
-          "id": "standard",
+          "id": "var-standard",
           "name": "Standard",
           "style": "Animated Art",
           "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1tfqe5f5p7i8zrQsiO5Ju15IxekBmoxjG",
           "previewUrl": "https://drive.google.com/thumbnail?id=1tfqe5f5p7i8zrQsiO5Ju15IxekBmoxjG&sz=w640",
-          "sizeBytes": 10603109,
-          "sha256": "93ee9f7a486035597328227d9eddda40ef41b7bd3ffa7efaaf0c358a773197d1",
-          "durationSec": 20.0,
+          "sizeBytes": 1513902,
+          "sha256": "c4a1b8778f531a7cad6c426a4c48cfed7aa71c90c3e2d669597ef868cd10ae71",
+          "durationSec": 20.03,
           "author": "Holy3holy-dev",
-          "codec": "hevc",
+          "codec": "h264",
           "width": 1280,
           "height": 720,
           "fps": 30.0,
-          "hasAudio": true,
-          "notes": "Google Drive Hosted (4IFIR: 1920x1080 @30fps)",
-          "updatedAt": "2026-10-19T19:58:20.172636+00:00"
+          "hasAudio": false,
+          "notes": "Google Drive: 01006F8002326000.mp4"
         }
       ]
     },
@@ -342,23 +322,22 @@
       "publisher": "Unknown",
       "variants": [
         {
-          "id": "standard",
+          "id": "var-standard",
           "name": "Standard",
           "style": "Animated Art",
           "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1D9pKCNo4s2v3MSosry3OAv0eeRxYzRh1",
           "previewUrl": "https://drive.google.com/thumbnail?id=1D9pKCNo4s2v3MSosry3OAv0eeRxYzRh1&sz=w640",
-          "sizeBytes": 16092486,
-          "sha256": "0ded7c44029bcc3b0919493c00905674fb1728f3f9d263805115b21b708b78a2",
+          "sizeBytes": 0,
+          "sha256": "",
           "durationSec": 20.0,
           "author": "Holy3holy-dev",
-          "codec": "hevc",
+          "codec": "h264",
           "width": 1280,
           "height": 720,
           "fps": 30.0,
-          "hasAudio": true,
-          "notes": "Google Drive Hosted (4IFIR: 1920x1080 @30fps)",
-          "updatedAt": "2026-10-19T19:58:19.322809+00:00"
+          "hasAudio": false,
+          "notes": "Google Drive: 0100750001C70000.mp4"
         }
       ]
     },
@@ -368,23 +347,22 @@
       "publisher": "Unknown",
       "variants": [
         {
-          "id": "standard",
+          "id": "var-standard",
           "name": "Standard",
           "style": "Animated Art",
           "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1QHnHwbIO1GD4D-rfA4-MAD-o0JElkeH-",
           "previewUrl": "https://drive.google.com/thumbnail?id=1QHnHwbIO1GD4D-rfA4-MAD-o0JElkeH-&sz=w640",
-          "sizeBytes": 19866158,
-          "sha256": "edcc07b06a15f473d11c2cac91ccb28b1fa0b28ef7555accb27ddc304d4ead39",
+          "sizeBytes": 2137545,
+          "sha256": "b3a1581022945b5fd16bb78b0e3bccb69d852c2f4dab48fd6e9b21d640308389",
           "durationSec": 20.0,
           "author": "Holy3holy-dev",
-          "codec": "hevc",
+          "codec": "h264",
           "width": 1280,
           "height": 720,
           "fps": 30.0,
-          "hasAudio": true,
-          "notes": "Google Drive Hosted (4IFIR: 1920x1080 @30fps)",
-          "updatedAt": "2026-10-19T19:58:18.765323+00:00"
+          "hasAudio": false,
+          "notes": "Google Drive: 01007EF00011E000.mp4"
         }
       ]
     },
@@ -394,23 +372,22 @@
       "publisher": "Unknown",
       "variants": [
         {
-          "id": "standard",
+          "id": "var-standard",
           "name": "Standard",
           "style": "Animated Art",
           "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1ce7aOHrX9zGxefSk2Z3IbBA0p7MdnKLv",
           "previewUrl": "https://drive.google.com/thumbnail?id=1ce7aOHrX9zGxefSk2Z3IbBA0p7MdnKLv&sz=w640",
-          "sizeBytes": 16642481,
-          "sha256": "4946b0d7b68bdbbc3b3272bd0a10185741258dd023f26250739f86eb5a22a3a4",
+          "sizeBytes": 0,
+          "sha256": "",
           "durationSec": 20.0,
           "author": "Holy3holy-dev",
-          "codec": "hevc",
+          "codec": "h264",
           "width": 1280,
           "height": 720,
           "fps": 30.0,
-          "hasAudio": true,
-          "notes": "Google Drive Hosted (4IFIR: 1920x1080 @30fps)",
-          "updatedAt": "2026-10-19T19:58:18.196240+00:00"
+          "hasAudio": false,
+          "notes": "Google Drive: 0100EA6014BB8000.mp4"
         }
       ]
     },
@@ -420,23 +397,22 @@
       "publisher": "Unknown",
       "variants": [
         {
-          "id": "standard",
+          "id": "var-standard",
           "name": "Standard",
           "style": "Animated Art",
           "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1PvndmUD9GmcYe7DUvHQ4xNJfnZMDlUc-",
           "previewUrl": "https://drive.google.com/thumbnail?id=1PvndmUD9GmcYe7DUvHQ4xNJfnZMDlUc-&sz=w640",
-          "sizeBytes": 16179030,
-          "sha256": "fa216a7118cbf3d4b6991813415bc3200b7bca28d0114c446f0eca2996e2afd1",
+          "sizeBytes": 4227671,
+          "sha256": "ff7766624a8ba7f216857c01223364d858065552205b32a6a2bd641d41575066",
           "durationSec": 20.0,
           "author": "Holy3holy-dev",
-          "codec": "hevc",
+          "codec": "h264",
           "width": 1280,
           "height": 720,
           "fps": 30.0,
-          "hasAudio": true,
-          "notes": "Google Drive Hosted (4IFIR: 1920x1080 @30fps)",
-          "updatedAt": "2026-10-19T19:58:17.303144+00:00"
+          "hasAudio": false,
+          "notes": "Google Drive: 0100F2C0115B6000.mp4"
         }
       ]
     },
@@ -446,23 +422,22 @@
       "publisher": "Unknown",
       "variants": [
         {
-          "id": "standard",
+          "id": "var-standard",
           "name": "Standard",
           "style": "Animated Art",
           "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1k2DXB4MAsQgXrSw5HqMV0aBgC_Djn3iS",
           "previewUrl": "https://drive.google.com/thumbnail?id=1k2DXB4MAsQgXrSw5HqMV0aBgC_Djn3iS&sz=w640",
-          "sizeBytes": 10209315,
-          "sha256": "5d7357e4f54ed282bf58b3458584adbf5be0cfa040a81dbd82dfdaf3aa2fd45d",
+          "sizeBytes": 0,
+          "sha256": "",
           "durationSec": 20.0,
           "author": "Holy3holy-dev",
-          "codec": "hevc",
+          "codec": "h264",
           "width": 1280,
           "height": 720,
           "fps": 30.0,
-          "hasAudio": true,
-          "notes": "Google Drive Hosted (4IFIR: 1920x1080 @30fps)",
-          "updatedAt": "2026-10-19T19:58:16.462051+00:00"
+          "hasAudio": false,
+          "notes": "Google Drive: 0100FD8022DAA000.mp4"
         }
       ]
     },
@@ -472,23 +447,22 @@
       "publisher": "Unknown",
       "variants": [
         {
-          "id": "standard",
+          "id": "var-standard",
           "name": "Standard",
           "style": "Animated Art",
           "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1Ej-yNKSkySXCSqK2YxvAmz2FftFsAH0o",
           "previewUrl": "https://drive.google.com/thumbnail?id=1Ej-yNKSkySXCSqK2YxvAmz2FftFsAH0o&sz=w640",
-          "sizeBytes": 9215831,
-          "sha256": "35f7131ea9f32838aa365962551fe7c98644beffc7274c70c922220272a98cf3",
+          "sizeBytes": 5003778,
+          "sha256": "b7aa1d360f03603e0501fa3d3a27468edcb13b941b1bd0eea79d26bd711a4e23",
           "durationSec": 20.0,
           "author": "Holy3holy-dev",
-          "codec": "hevc",
+          "codec": "h264",
           "width": 1280,
           "height": 720,
           "fps": 30.0,
-          "hasAudio": true,
-          "notes": "Google Drive Hosted (4IFIR: 1280x720 @60fps)",
-          "updatedAt": "2026-10-19T19:58:15.614187+00:00"
+          "hasAudio": false,
+          "notes": "Google Drive: 0100cd801ce5e000.mp4"
         }
       ]
     },
@@ -501,6 +475,7 @@
           "id": "call-of-duty-4-mw",
           "name": "Call of Duty 4 MW",
           "style": "Animated Art",
+          "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1de2HUBh5hsAdld-pfjTRLjzO3lqvq7gL",
           "previewUrl": "https://drive.google.com/thumbnail?id=1de2HUBh5hsAdld-pfjTRLjzO3lqvq7gL&sz=w640",
           "sizeBytes": 5018418,
@@ -512,13 +487,7 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "tags": [
-            "1080p-scaled",
-            "4ifir-compliant",
-            "gdrive"
-          ],
-          "createdAt": "2026-10-19T19:57:46.160583+00:00",
-          "updatedAt": "2026-10-19T19:57:46.160590+00:00"
+          "notes": "Google Drive: 0100C0D400000000_Call_of_Duty_4_MW.mp4"
         }
       ]
     },
@@ -531,6 +500,7 @@
           "id": "nier-automata",
           "name": "NieR Automata",
           "style": "Animated Art",
+          "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1nncktQTEVJnnjW1BWCtDHuFXTXwPY9lM",
           "previewUrl": "https://drive.google.com/thumbnail?id=1nncktQTEVJnnjW1BWCtDHuFXTXwPY9lM&sz=w640",
           "sizeBytes": 2339901,
@@ -542,13 +512,7 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "tags": [
-            "1080p-scaled",
-            "4ifir-compliant",
-            "gdrive"
-          ],
-          "createdAt": "2026-10-19T19:57:46.744933+00:00",
-          "updatedAt": "2026-10-19T19:57:46.744942+00:00"
+          "notes": "Google Drive: 0100B8E016F76000_NieR_Automata.mp4"
         }
       ]
     },
@@ -561,6 +525,7 @@
           "id": "hollow-knight",
           "name": "Hollow Knight",
           "style": "Animated Art",
+          "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1R7m5F8VYbve0qXEMMenX0rUpc8Q_0c7O",
           "previewUrl": "https://drive.google.com/thumbnail?id=1R7m5F8VYbve0qXEMMenX0rUpc8Q_0c7O&sz=w640",
           "sizeBytes": 2359343,
@@ -572,13 +537,7 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "tags": [
-            "1080p-scaled",
-            "4ifir-compliant",
-            "gdrive"
-          ],
-          "createdAt": "2026-10-19T19:57:47.335962+00:00",
-          "updatedAt": "2026-10-19T19:57:47.335969+00:00"
+          "notes": "Google Drive: 0100633007D48000_Hollow_Knight.mp4"
         }
       ]
     },
@@ -591,6 +550,7 @@
           "id": "doom-2016",
           "name": "DOOM 2016",
           "style": "Animated Art",
+          "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1ufjV-QuVZW4oRAlFs8wfeCydVvNqsAND",
           "previewUrl": "https://drive.google.com/thumbnail?id=1ufjV-QuVZW4oRAlFs8wfeCydVvNqsAND&sz=w640",
           "sizeBytes": 2373781,
@@ -602,13 +562,7 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "tags": [
-            "1080p-scaled",
-            "4ifir-compliant",
-            "gdrive"
-          ],
-          "createdAt": "2026-10-19T19:57:47.960883+00:00",
-          "updatedAt": "2026-10-19T19:57:47.960888+00:00"
+          "notes": "Google Drive: 0100416004C00000_DOOM_2016.mp4"
         }
       ]
     },
@@ -621,6 +575,7 @@
           "id": "portal-2",
           "name": "Portal 2",
           "style": "Animated Art",
+          "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1TQdixWxZmmJgCKf_OrMsb-9AwOuhNweT",
           "previewUrl": "https://drive.google.com/thumbnail?id=1TQdixWxZmmJgCKf_OrMsb-9AwOuhNweT&sz=w640",
           "sizeBytes": 1230088,
@@ -632,13 +587,7 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "tags": [
-            "1080p-scaled",
-            "4ifir-compliant",
-            "gdrive"
-          ],
-          "createdAt": "2026-10-19T19:57:48.808639+00:00",
-          "updatedAt": "2026-10-19T19:57:48.808646+00:00"
+          "notes": "Google Drive: 0100ABD01785C000_Portal_2.mp4"
         }
       ]
     },
@@ -651,6 +600,7 @@
           "id": "resident-evil-4",
           "name": "Resident Evil 4",
           "style": "Animated Art",
+          "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=12zsFbezoxvDiaejnY8dpn9DmCL5EyrRi",
           "previewUrl": "https://drive.google.com/thumbnail?id=12zsFbezoxvDiaejnY8dpn9DmCL5EyrRi&sz=w640",
           "sizeBytes": 2367715,
@@ -662,13 +612,7 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "tags": [
-            "1080p-scaled",
-            "4ifir-compliant",
-            "gdrive"
-          ],
-          "createdAt": "2026-10-19T19:57:49.398511+00:00",
-          "updatedAt": "2026-10-19T19:57:49.398518+00:00"
+          "notes": "Google Drive: 010099A00BC1E000_Resident_Evil_4.mp4"
         }
       ]
     },
@@ -681,6 +625,7 @@
           "id": "burnout-paradise",
           "name": "Burnout Paradise",
           "style": "Animated Art",
+          "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1m2EIf-YZH31pQ4_dg-QK20J_tybH7tmn",
           "previewUrl": "https://drive.google.com/thumbnail?id=1m2EIf-YZH31pQ4_dg-QK20J_tybH7tmn&sz=w640",
           "sizeBytes": 2289694,
@@ -692,13 +637,7 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "tags": [
-            "1080p-scaled",
-            "4ifir-compliant",
-            "gdrive"
-          ],
-          "createdAt": "2026-10-19T19:57:50.564518+00:00",
-          "updatedAt": "2026-10-19T19:57:50.564525+00:00"
+          "notes": "Google Drive: 0100DBF01000A000_Burnout_Paradise.mp4"
         }
       ]
     },
@@ -711,6 +650,7 @@
           "id": "metro-2033-redux",
           "name": "Metro 2033 Redux",
           "style": "Animated Art",
+          "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1U9B9n8diSUp8rzyRqd1Z07JvxzObOf_O",
           "previewUrl": "https://drive.google.com/thumbnail?id=1U9B9n8diSUp8rzyRqd1Z07JvxzObOf_O&sz=w640",
           "sizeBytes": 2140448,
@@ -722,13 +662,7 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "tags": [
-            "1080p-scaled",
-            "4ifir-compliant",
-            "gdrive"
-          ],
-          "createdAt": "2026-10-19T19:57:51.526655+00:00",
-          "updatedAt": "2026-10-19T19:57:51.526661+00:00"
+          "notes": "Google Drive: 0100D4900E82C000_Metro_2033_Redux.mp4"
         }
       ]
     },
@@ -741,6 +675,7 @@
           "id": "batman-arkham",
           "name": "Batman Arkham",
           "style": "Animated Art",
+          "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1TyYN1S6dWWjMGOaPQ6ykctnVhWh4fwba",
           "previewUrl": "https://drive.google.com/thumbnail?id=1TyYN1S6dWWjMGOaPQ6ykctnVhWh4fwba&sz=w640",
           "sizeBytes": 3561532,
@@ -752,13 +687,7 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "tags": [
-            "1080p-scaled",
-            "4ifir-compliant",
-            "gdrive"
-          ],
-          "createdAt": "2026-10-19T19:57:52.596411+00:00",
-          "updatedAt": "2026-10-19T19:57:52.596417+00:00"
+          "notes": "Google Drive: 01003F00163CE000_Batman_Arkham.mp4"
         }
       ]
     },
@@ -771,6 +700,7 @@
           "id": "bioshock-rapture",
           "name": "BioShock Rapture",
           "style": "Animated Art",
+          "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1Em-w0K3HJEwBTa8F_JIZyoOsrPdKXU2A",
           "previewUrl": "https://drive.google.com/thumbnail?id=1Em-w0K3HJEwBTa8F_JIZyoOsrPdKXU2A&sz=w640",
           "sizeBytes": 1462829,
@@ -782,13 +712,7 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "tags": [
-            "1080p-scaled",
-            "4ifir-compliant",
-            "gdrive"
-          ],
-          "createdAt": "2026-10-19T19:57:53.462385+00:00",
-          "updatedAt": "2026-10-19T19:57:53.462391+00:00"
+          "notes": "Google Drive: 0100D560102C8000_BioShock_Rapture.mp4"
         }
       ]
     },
@@ -801,6 +725,7 @@
           "id": "red-dead-redemption",
           "name": "Red Dead Redemption",
           "style": "Animated Art",
+          "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1tqRoRo3ifOlMSFB-bJZLDWVa2YqvBsLJ",
           "previewUrl": "https://drive.google.com/thumbnail?id=1tqRoRo3ifOlMSFB-bJZLDWVa2YqvBsLJ&sz=w640",
           "sizeBytes": 1657462,
@@ -812,13 +737,7 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "tags": [
-            "1080p-scaled",
-            "4ifir-compliant",
-            "gdrive"
-          ],
-          "createdAt": "2026-10-19T19:57:55.269774+00:00",
-          "updatedAt": "2026-10-19T19:57:55.269781+00:00"
+          "notes": "Google Drive: 01007820196A6000_Red_Dead_Redemption.mp4"
         }
       ]
     },
@@ -831,6 +750,7 @@
           "id": "tes-skyrim",
           "name": "TES Skyrim",
           "style": "Animated Art",
+          "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1Yoky7nMRlxlUtkxKoMb7_ejw3cDxy8Lt",
           "previewUrl": "https://drive.google.com/thumbnail?id=1Yoky7nMRlxlUtkxKoMb7_ejw3cDxy8Lt&sz=w640",
           "sizeBytes": 4598754,
@@ -842,13 +762,7 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "tags": [
-            "1080p-scaled",
-            "4ifir-compliant",
-            "gdrive"
-          ],
-          "createdAt": "2026-10-19T19:57:55.879665+00:00",
-          "updatedAt": "2026-10-19T19:57:55.879671+00:00"
+          "notes": "Google Drive: 01000A10041EA000_TES_Skyrim.mp4"
         }
       ]
     },
@@ -921,6 +835,7 @@
           "id": "gta-5-los-santos",
           "name": "GTA 5 Los Santos",
           "style": "Animated Art",
+          "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1JjyxK5dPYisc85a8kJns5ty-e1Hjqysn",
           "previewUrl": "https://drive.google.com/thumbnail?id=1JjyxK5dPYisc85a8kJns5ty-e1Hjqysn&sz=w640",
           "sizeBytes": 3154183,
@@ -932,18 +847,13 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "tags": [
-            "1080p-scaled",
-            "4ifir-compliant",
-            "gdrive"
-          ],
-          "createdAt": "2026-10-19T19:57:58.291239+00:00",
-          "updatedAt": "2026-10-19T19:57:58.291246+00:00"
+          "notes": "Google Drive: 0100B00B51230000_GTA_5_Los_Santos.mp4"
         },
         {
           "id": "cyberpunk-2077-rogue-ai",
           "name": "Cyberpunk 2077 Rogue AI",
           "style": "Animated Art",
+          "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=11wH6FgpCc3KQvp3dmYY48JVNUMJmjNxf",
           "previewUrl": "https://drive.google.com/thumbnail?id=11wH6FgpCc3KQvp3dmYY48JVNUMJmjNxf&sz=w640",
           "sizeBytes": 2471900,
@@ -955,18 +865,13 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "tags": [
-            "1080p-scaled",
-            "4ifir-compliant",
-            "gdrive"
-          ],
-          "createdAt": "2026-10-19T19:58:03.155903+00:00",
-          "updatedAt": "2026-10-19T19:58:03.155909+00:00"
+          "notes": "Google Drive: 0100B00B51230000_Cyberpunk_2077_Rogue_AI.mp4"
         },
         {
           "id": "cyberpunk-2077-consumerism",
           "name": "Cyberpunk 2077 Consumerism",
           "style": "Animated Art",
+          "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1tYh_RrTaQbx8uGnywh_4DGdnKvZnUZ9K",
           "previewUrl": "https://drive.google.com/thumbnail?id=1tYh_RrTaQbx8uGnywh_4DGdnKvZnUZ9K&sz=w640",
           "sizeBytes": 2903010,
@@ -978,13 +883,7 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "tags": [
-            "1080p-scaled",
-            "4ifir-compliant",
-            "gdrive"
-          ],
-          "createdAt": "2026-10-19T19:58:04.033642+00:00",
-          "updatedAt": "2026-10-19T19:58:04.033653+00:00"
+          "notes": "Google Drive: 0100B00B51230000_Cyberpunk_2077_Consumerism.mp4"
         }
       ]
     },
@@ -1057,6 +956,7 @@
           "id": "elden-ring-ranni",
           "name": "Elden Ring Ranni",
           "style": "Animated Art",
+          "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1DOPO7lmhk2fjeq2LUWhwZp-9guL7vf3c",
           "previewUrl": "https://drive.google.com/thumbnail?id=1DOPO7lmhk2fjeq2LUWhwZp-9guL7vf3c&sz=w640",
           "sizeBytes": 1661076,
@@ -1068,13 +968,7 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "tags": [
-            "1080p-scaled",
-            "4ifir-compliant",
-            "gdrive"
-          ],
-          "createdAt": "2026-10-19T19:58:00.896181+00:00",
-          "updatedAt": "2026-10-19T19:58:00.896187+00:00"
+          "notes": "Google Drive: 0100000000000005_Elden_Ring_Ranni.mp4"
         }
       ]
     },
@@ -1087,6 +981,7 @@
           "id": "hades-2-princess",
           "name": "Hades 2 Princess",
           "style": "Animated Art",
+          "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1Oak27lKAHlydG-1fHgHBF7eKcY2qHdtA",
           "previewUrl": "https://drive.google.com/thumbnail?id=1Oak27lKAHlydG-1fHgHBF7eKcY2qHdtA&sz=w640",
           "sizeBytes": 999209,
@@ -1098,13 +993,7 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "tags": [
-            "1080p-scaled",
-            "4ifir-compliant",
-            "gdrive"
-          ],
-          "createdAt": "2026-10-19T19:58:01.741918+00:00",
-          "updatedAt": "2026-10-19T19:58:01.741926+00:00"
+          "notes": "Google Drive: 0100A00019DE0000_Hades_2_Princess.mp4"
         }
       ]
     },
@@ -1117,6 +1006,7 @@
           "id": "witcher-3-campfire",
           "name": "Witcher 3 Campfire",
           "style": "Animated Art",
+          "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1HnW58D2Mz44iUygrctx6JswVAyloBmMD",
           "previewUrl": "https://drive.google.com/thumbnail?id=1HnW58D2Mz44iUygrctx6JswVAyloBmMD&sz=w640",
           "sizeBytes": 1255461,
@@ -1128,18 +1018,13 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "tags": [
-            "1080p-scaled",
-            "4ifir-compliant",
-            "gdrive"
-          ],
-          "createdAt": "2026-10-19T19:58:02.526810+00:00",
-          "updatedAt": "2026-10-19T19:58:02.526816+00:00"
+          "notes": "Google Drive: 01003D100E9C6000_Witcher_3_Campfire.mp4"
         },
         {
           "id": "witcher-3-white-frost",
           "name": "Witcher 3 White Frost",
           "style": "Animated Art",
+          "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=142_ggw5crDNI9blAnNpsEnrXjcEl4lXB",
           "previewUrl": "https://drive.google.com/thumbnail?id=142_ggw5crDNI9blAnNpsEnrXjcEl4lXB&sz=w640",
           "sizeBytes": 386036,
@@ -1151,18 +1036,13 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "tags": [
-            "1080p-scaled",
-            "4ifir-compliant",
-            "gdrive"
-          ],
-          "createdAt": "2026-10-19T19:58:12.448764+00:00",
-          "updatedAt": "2026-10-19T19:58:12.448771+00:00"
+          "notes": "Google Drive: 01003D100E9C6000_Witcher_3_White_Frost.mp4"
         },
         {
           "id": "witcher-3-kaer-morhen",
           "name": "Witcher 3 Kaer Morhen",
           "style": "Animated Art",
+          "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1GmwvbgzrdlZ9OsCsPtiL0-YB0z_fIz9s",
           "previewUrl": "https://drive.google.com/thumbnail?id=1GmwvbgzrdlZ9OsCsPtiL0-YB0z_fIz9s&sz=w640",
           "sizeBytes": 763645,
@@ -1174,13 +1054,7 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "tags": [
-            "1080p-scaled",
-            "4ifir-compliant",
-            "gdrive"
-          ],
-          "createdAt": "2026-10-19T19:58:13.345976+00:00",
-          "updatedAt": "2026-10-19T19:58:13.345986+00:00"
+          "notes": "Google Drive: 01003D100E9C6000_Witcher_3_Kaer_Morhen.mp4"
         }
       ]
     },
@@ -1193,6 +1067,7 @@
           "id": "nfs-most-wanted",
           "name": "NFS Most Wanted",
           "style": "Animated Art",
+          "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1vkXU_2eWSjAVAlYEYIZGFBMKINUUsAM-",
           "previewUrl": "https://drive.google.com/thumbnail?id=1vkXU_2eWSjAVAlYEYIZGFBMKINUUsAM-&sz=w640",
           "sizeBytes": 9043759,
@@ -1204,13 +1079,7 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "tags": [
-            "1080p-scaled",
-            "4ifir-compliant",
-            "gdrive"
-          ],
-          "createdAt": "2026-10-19T19:58:04.766731+00:00",
-          "updatedAt": "2026-10-19T19:58:04.766737+00:00"
+          "notes": "Google Drive: 01004D5700000000_NFS_Most_Wanted.mp4"
         }
       ]
     },
@@ -1223,6 +1092,7 @@
           "id": "nfs-most-wanted",
           "name": "NFS Most Wanted",
           "style": "Animated Art",
+          "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=185FEVgKFc4lp9sxh3Xz0Dqh-YKDytjnJ",
           "previewUrl": "https://drive.google.com/thumbnail?id=185FEVgKFc4lp9sxh3Xz0Dqh-YKDytjnJ&sz=w640",
           "sizeBytes": 9043759,
@@ -1234,13 +1104,7 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "tags": [
-            "1080p-scaled",
-            "4ifir-compliant",
-            "gdrive"
-          ],
-          "createdAt": "2026-10-19T19:58:05.335227+00:00",
-          "updatedAt": "2026-10-19T19:58:05.335234+00:00"
+          "notes": "Google Drive: 0100000000000001_NFS_Most_Wanted.mp4"
         }
       ]
     },
@@ -1253,6 +1117,7 @@
           "id": "nfs-most-wanted",
           "name": "NFS Most Wanted",
           "style": "Animated Art",
+          "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1PhhoQiuu8b9edT_EMAhVl6jrT7E0LU1s",
           "previewUrl": "https://drive.google.com/thumbnail?id=1PhhoQiuu8b9edT_EMAhVl6jrT7E0LU1s&sz=w640",
           "sizeBytes": 9043759,
@@ -1264,13 +1129,7 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "tags": [
-            "1080p-scaled",
-            "4ifir-compliant",
-            "gdrive"
-          ],
-          "createdAt": "2026-10-19T19:58:05.968231+00:00",
-          "updatedAt": "2026-10-19T19:58:05.968237+00:00"
+          "notes": "Google Drive: 010029B0118E8000_NFS_Most_Wanted.mp4"
         }
       ]
     },
@@ -1283,6 +1142,7 @@
           "id": "brotato-new-dawn",
           "name": "Brotato New Dawn",
           "style": "Animated Art",
+          "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1MgOHMaqfmfRdO17Hzqzu3hBGTpde6pGt",
           "previewUrl": "https://drive.google.com/thumbnail?id=1MgOHMaqfmfRdO17Hzqzu3hBGTpde6pGt&sz=w640",
           "sizeBytes": 802474,
@@ -1294,13 +1154,7 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "tags": [
-            "1080p-scaled",
-            "4ifir-compliant",
-            "gdrive"
-          ],
-          "createdAt": "2026-10-19T19:58:06.779849+00:00",
-          "updatedAt": "2026-10-19T19:58:06.779855+00:00"
+          "notes": "Google Drive: 01002EF01A316000_Brotato_New_Dawn.mp4"
         }
       ]
     },
@@ -1313,6 +1167,7 @@
           "id": "vampire-survivors",
           "name": "Vampire Survivors",
           "style": "Animated Art",
+          "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1if5SaMtnGFuf7cXYyQU40_nLHatVjSO3",
           "previewUrl": "https://drive.google.com/thumbnail?id=1if5SaMtnGFuf7cXYyQU40_nLHatVjSO3&sz=w640",
           "sizeBytes": 3062973,
@@ -1324,13 +1179,7 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "tags": [
-            "1080p-scaled",
-            "4ifir-compliant",
-            "gdrive"
-          ],
-          "createdAt": "2026-10-19T19:58:07.394681+00:00",
-          "updatedAt": "2026-10-19T19:58:07.394691+00:00"
+          "notes": "Google Drive: 0100B61019056000_Vampire_Survivors.mp4"
         }
       ]
     },
@@ -1343,6 +1192,7 @@
           "id": "risk-of-rain-2-commando",
           "name": "Risk of Rain 2 Commando",
           "style": "Animated Art",
+          "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1jCjQ5C38Qz7Z1jqMiS0CuiKhckUuY8iL",
           "previewUrl": "https://drive.google.com/thumbnail?id=1jCjQ5C38Qz7Z1jqMiS0CuiKhckUuY8iL&sz=w640",
           "sizeBytes": 109006,
@@ -1354,13 +1204,7 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "tags": [
-            "1080p-scaled",
-            "4ifir-compliant",
-            "gdrive"
-          ],
-          "createdAt": "2026-10-19T19:58:07.998941+00:00",
-          "updatedAt": "2026-10-19T19:58:07.998949+00:00"
+          "notes": "Google Drive: 0100AAA00ACBE000_Risk_of_Rain_2_Commando.mp4"
         }
       ]
     },
@@ -1373,6 +1217,7 @@
           "id": "dave-the-diver-quiet-night",
           "name": "Dave the Diver Quiet Night",
           "style": "Animated Art",
+          "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1jgqv8RzFAkuR5H9LNfVTKH6AOc3WNvpI",
           "previewUrl": "https://drive.google.com/thumbnail?id=1jgqv8RzFAkuR5H9LNfVTKH6AOc3WNvpI&sz=w640",
           "sizeBytes": 532104,
@@ -1384,18 +1229,13 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "tags": [
-            "1080p-scaled",
-            "4ifir-compliant",
-            "gdrive"
-          ],
-          "createdAt": "2026-10-19T19:58:08.911232+00:00",
-          "updatedAt": "2026-10-19T19:58:08.911239+00:00"
+          "notes": "Google Drive: 010097F018538000_Dave_the_Diver_Quiet_Night.mp4"
         },
         {
           "id": "dave-the-diver-secret-lake",
           "name": "Dave the Diver Secret Lake",
           "style": "Animated Art",
+          "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1S8aAn5CekqY84KxibUX8_1LOp6d1Zhyf",
           "previewUrl": "https://drive.google.com/thumbnail?id=1S8aAn5CekqY84KxibUX8_1LOp6d1Zhyf&sz=w640",
           "sizeBytes": 622432,
@@ -1407,13 +1247,7 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "tags": [
-            "1080p-scaled",
-            "4ifir-compliant",
-            "gdrive"
-          ],
-          "createdAt": "2026-10-19T19:58:09.424748+00:00",
-          "updatedAt": "2026-10-19T19:58:09.424755+00:00"
+          "notes": "Google Drive: 010097F018538000_Dave_the_Diver_Secret_Lake.mp4"
         }
       ]
     },
@@ -1426,6 +1260,7 @@
           "id": "cult-of-the-lamb",
           "name": "Cult of the Lamb",
           "style": "Animated Art",
+          "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1mvgQY3ZX2MyUgTyolL5MLw4VcRSKk29w",
           "previewUrl": "https://drive.google.com/thumbnail?id=1mvgQY3ZX2MyUgTyolL5MLw4VcRSKk29w&sz=w640",
           "sizeBytes": 1520931,
@@ -1437,13 +1272,7 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "tags": [
-            "1080p-scaled",
-            "4ifir-compliant",
-            "gdrive"
-          ],
-          "createdAt": "2026-10-19T19:58:09.985743+00:00",
-          "updatedAt": "2026-10-19T19:58:09.985750+00:00"
+          "notes": "Google Drive: 01002E7016C46000_Cult_of_the_Lamb.mp4"
         }
       ]
     },
@@ -1456,6 +1285,7 @@
           "id": "dead-cells-undying-shores",
           "name": "Dead Cells Undying Shores",
           "style": "Animated Art",
+          "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=19B2eEeygGF8DeODLz7odqRkkZNvx0QHP",
           "previewUrl": "https://drive.google.com/thumbnail?id=19B2eEeygGF8DeODLz7odqRkkZNvx0QHP&sz=w640",
           "sizeBytes": 1016784,
@@ -1467,18 +1297,13 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "tags": [
-            "1080p-scaled",
-            "4ifir-compliant",
-            "gdrive"
-          ],
-          "createdAt": "2026-10-19T19:58:11.217359+00:00",
-          "updatedAt": "2026-10-19T19:58:11.217366+00:00"
+          "notes": "Google Drive: 0100646009FBE000_Dead_Cells_Undying_Shores.mp4"
         },
         {
           "id": "dead-cells-promenade",
           "name": "Dead Cells Promenade",
           "style": "Animated Art",
+          "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=13bYV9Pdb3t1_chFxaTBBxnsR9yrr5V9S",
           "previewUrl": "https://drive.google.com/thumbnail?id=13bYV9Pdb3t1_chFxaTBBxnsR9yrr5V9S&sz=w640",
           "sizeBytes": 1080690,
@@ -1490,13 +1315,7 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "tags": [
-            "1080p-scaled",
-            "4ifir-compliant",
-            "gdrive"
-          ],
-          "createdAt": "2026-10-19T19:58:11.801134+00:00",
-          "updatedAt": "2026-10-19T19:58:11.801141+00:00"
+          "notes": "Google Drive: 0100646009FBE000_Dead_Cells_Promenade.mp4"
         }
       ]
     },
@@ -1536,13 +1355,14 @@
       "publisher": "Unknown",
       "variants": [
         {
-          "id": "standard",
+          "id": "var-standard",
           "name": "Standard",
           "style": "Animated Art",
+          "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1WJMLBwt8zhZy0DF5uWTtWjyHfnKviEvf",
           "previewUrl": "https://drive.google.com/thumbnail?id=1WJMLBwt8zhZy0DF5uWTtWjyHfnKviEvf&sz=w640",
-          "sizeBytes": 5316848,
-          "sha256": "5fd7524f446644d1dc4f472ba477b9fee80ac73f92dd146301c261e3acd79be9",
+          "sizeBytes": 0,
+          "sha256": "",
           "durationSec": 20.0,
           "author": "Holy3holy-dev",
           "codec": "h264",
@@ -1550,13 +1370,7 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "tags": [
-            "1080p-scaled",
-            "4ifir-compliant",
-            "gdrive"
-          ],
-          "createdAt": "2026-10-19T19:58:15.010324+00:00",
-          "updatedAt": "2026-10-19T19:58:15.010332+00:00"
+          "notes": "Google Drive: 03DB117EE17B6000.mp4"
         }
       ]
     }
