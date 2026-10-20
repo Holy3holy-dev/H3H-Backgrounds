@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-10-20T17:05:53.994960+00:00",
-  "totalGames": 303,
-  "totalVariants": 350,
+  "totalGames": 305,
+  "totalVariants": 352,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -8416,7 +8416,57 @@
           "notes": "SteamGridDB Animated: Snowrunner + 43"
         }
       ]
+    },
+    {
+      "titleId": "010025400AECE000",
+      "title": "Fortnite (онлайн с tagNX v37.50) [NSP][RUS/Multi14]",
+      "publisher": "Epic Games",
+      "variants": [
+        {
+          "id": "var-1OCTFjK6",
+          "name": "Fortnite",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OCTFjK6cCRKNlhw7ym0yQybnNk6jRn8Y",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OCTFjK6cCRKNlhw7ym0yQybnNk6jRn8Y&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 010025400AECE000_Fortnite.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010095300B6A4000",
+      "title": "South Park: The Stick of Truth / Южный парк: Палка истины (US-версия без цензуры с переводом) [RePack][NSP][RUS]",
+      "publisher": "Ubisoft",
+      "variants": [
+        {
+          "id": "var-1qB_Cp11",
+          "name": "South Park: The Stick of Truth",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qB_Cp11HUV0ehB7K2FP_O9QYtmEyVpr0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qB_Cp11HUV0ehB7K2FP_O9QYtmEyVpr0&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 010095300B6A4000_South_Park__The_Stick_of_Truth.mp4"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-10-20T17:26:09.176368+00:00"
+  "lastUpdated": "2026-10-20T18:04:51.600949+00:00"
 }
