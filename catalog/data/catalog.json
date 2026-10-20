@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-10-20T17:05:53.994960+00:00",
-  "totalGames": 675,
-  "totalVariants": 723,
+  "totalGames": 676,
+  "totalVariants": 724,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -1013,18 +1013,18 @@
           "name": "Red Dead Redemption",
           "style": "Animated Art",
           "version": "1.0",
-          "url": "https://drive.google.com/uc?export=download&id=1tqRoRo3ifOlMSFB-bJZLDWVa2YqvBsLJ",
-          "previewUrl": "https://drive.google.com/thumbnail?id=1tqRoRo3ifOlMSFB-bJZLDWVa2YqvBsLJ&sz=w640",
-          "sizeBytes": 1657462,
+          "url": "https://drive.google.com/uc?export=download&id=1fKlEUC-vn8166tUdNJRBe7A5r9zXC-nP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fKlEUC-vn8166tUdNJRBe7A5r9zXC-nP&sz=w640",
+          "sizeBytes": 5396374,
           "sha256": "",
-          "durationSec": 20.0,
+          "durationSec": 23.0,
           "author": "Holy3holy-dev",
           "codec": "h264",
           "width": 1280,
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 01007820196A6000_Red_Dead_Redemption.mp4"
+          "notes": "SteamGridDB Animated Hero: Clean without PS3 XMB icons"
         }
       ]
     },
@@ -17734,7 +17734,32 @@
           "notes": "SteamGridDB Animated Grid: 01003AB00983C000_Lethal_League_Blaze___12.mp4"
         }
       ]
+    },
+    {
+      "titleId": "01004150200CE000",
+      "title": "Faith the Unholy Trinity [NSZ][ENG]",
+      "publisher": "New Blood Interactive, Airdorf Games",
+      "variants": [
+        {
+          "id": "var-1sj8p2zg",
+          "name": "Faith the Unholy Trinity",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1sj8p2zgx8ZvvKC3XJvzoAtlWhABCYyLf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1sj8p2zgx8ZvvKC3XJvzoAtlWhABCYyLf&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 01004150200CE000_Faith_the_Unholy_Trinity.mp4"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-10-20T22:11:14.982360+00:00"
+  "lastUpdated": "2026-10-20T22:13:37.899282+00:00"
 }

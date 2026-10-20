@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-10-20T17:05:53.994960+00:00",
-  "totalGames": 669,
-  "totalVariants": 717,
+  "totalGames": 676,
+  "totalVariants": 724,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -1013,18 +1013,18 @@
           "name": "Red Dead Redemption",
           "style": "Animated Art",
           "version": "1.0",
-          "url": "https://drive.google.com/uc?export=download&id=1tqRoRo3ifOlMSFB-bJZLDWVa2YqvBsLJ",
-          "previewUrl": "https://drive.google.com/thumbnail?id=1tqRoRo3ifOlMSFB-bJZLDWVa2YqvBsLJ&sz=w640",
-          "sizeBytes": 1657462,
+          "url": "https://drive.google.com/uc?export=download&id=1fKlEUC-vn8166tUdNJRBe7A5r9zXC-nP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fKlEUC-vn8166tUdNJRBe7A5r9zXC-nP&sz=w640",
+          "sizeBytes": 5396374,
           "sha256": "",
-          "durationSec": 20.0,
+          "durationSec": 23.0,
           "author": "Holy3holy-dev",
           "codec": "h264",
           "width": 1280,
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 01007820196A6000_Red_Dead_Redemption.mp4"
+          "notes": "SteamGridDB Animated Hero: Clean without PS3 XMB icons"
         }
       ]
     },
@@ -17584,7 +17584,182 @@
           "notes": "SteamGridDB Animated Grid: 010075A016A3A000_Persona_4_Arena_Ultimax.mp4"
         }
       ]
+    },
+    {
+      "titleId": "01003D601014A000",
+      "title": "Jump King [NSZ][RUS/Multi7]",
+      "publisher": "Ukiyo Publishing",
+      "variants": [
+        {
+          "id": "var-1dDglVj8",
+          "name": "Jump King",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dDglVj8GjMUrE9DOSVmC1BctVdipGXX4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dDglVj8GjMUrE9DOSVmC1BctVdipGXX4&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 01003D601014A000_Jump_King.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01006FB00EBE0000",
+      "title": "Golf with Your Friends + 17 DLC [NSZ][RUS/Multi9]",
+      "publisher": "Team17",
+      "variants": [
+        {
+          "id": "var-1QxnuxxP",
+          "name": "Golf with Your Friends + 17",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QxnuxxPLUajdOgkS9NoS8TrKgtZqsEic",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QxnuxxPLUajdOgkS9NoS8TrKgtZqsEic&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 01006FB00EBE0000_Golf_with_Your_Friends___17.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010024000C852000",
+      "title": "Deponia / Chaos on Deponia / Goodbye Deponia / Deponia Doomsday [NSP][RUS/Multi]",
+      "publisher": "Daedalic GmbH",
+      "variants": [
+        {
+          "id": "var-1d6lQx4_",
+          "name": "Deponia",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1d6lQx4_rNdHKh0OXCGxv3T-lLaTeGOIA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1d6lQx4_rNdHKh0OXCGxv3T-lLaTeGOIA&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 010024000C852000_Deponia.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CC2001C6C000",
+      "title": "Battle Chef Brigade [NSZ][RUS/Multi7]",
+      "publisher": "Adult Swim Games",
+      "variants": [
+        {
+          "id": "var-1VF8oekn",
+          "name": "Battle Chef Brigade",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VF8oekn01me7vl1qbvIhx-KwlNidV0HU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VF8oekn01me7vl1qbvIhx-KwlNidV0HU&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100CC2001C6C000_Battle_Chef_Brigade.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B1300FF08000",
+      "title": "The Wonderful 101 Remastered + 4 DLC (After School Hero) [NSZ][RUS (Mod.)/ENG]",
+      "publisher": "PlatinumGames",
+      "variants": [
+        {
+          "id": "var-1xzxGb7i",
+          "name": "The Wonderful 101 Remastered + 4",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xzxGb7itp80mulrZbMuT-ZnLmpL4SpKR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xzxGb7itp80mulrZbMuT-ZnLmpL4SpKR&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100B1300FF08000_The_Wonderful_101_Remastered___4.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01003AB00983C000",
+      "title": "Lethal League Blaze + 12 DLC [NSZ][RUS/Multi9]",
+      "publisher": "Team Reptile",
+      "variants": [
+        {
+          "id": "var-10tYkLtq",
+          "name": "Lethal League Blaze + 12",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10tYkLtqfozkL-nCgh3o2Inrd67usP2MG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10tYkLtqfozkL-nCgh3o2Inrd67usP2MG&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 01003AB00983C000_Lethal_League_Blaze___12.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01004150200CE000",
+      "title": "Faith the Unholy Trinity [NSZ][ENG]",
+      "publisher": "New Blood Interactive, Airdorf Games",
+      "variants": [
+        {
+          "id": "var-1sj8p2zg",
+          "name": "Faith the Unholy Trinity",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1sj8p2zgx8ZvvKC3XJvzoAtlWhABCYyLf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1sj8p2zgx8ZvvKC3XJvzoAtlWhABCYyLf&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 01004150200CE000_Faith_the_Unholy_Trinity.mp4"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-10-20T22:03:15.536606+00:00"
+  "lastUpdated": "2026-10-20T22:13:37.899282+00:00"
 }
