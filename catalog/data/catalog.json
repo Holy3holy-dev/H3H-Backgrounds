@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-10-20T17:05:53.994960+00:00",
-  "totalGames": 605,
-  "totalVariants": 653,
+  "totalGames": 616,
+  "totalVariants": 664,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -666,12 +666,12 @@
     {
       "titleId": "0100C0D400000000",
       "title": "Call of Duty 4: Modern Warfare",
-      "publisher": "Unknown",
+      "publisher": "Activision",
       "variants": [
         {
-          "id": "call-of-duty-4-mw",
-          "name": "Call of Duty 4 MW",
-          "style": "Animated Art",
+          "id": "cod4-mw-classic",
+          "name": "Call of Duty 4 MW: Intro & Action",
+          "style": "Cinematic",
           "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1de2HUBh5hsAdld-pfjTRLjzO3lqvq7gL",
           "previewUrl": "https://drive.google.com/thumbnail?id=1de2HUBh5hsAdld-pfjTRLjzO3lqvq7gL&sz=w640",
@@ -684,7 +684,7 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 0100C0D400000000_Call_of_Duty_4_MW.mp4"
+          "notes": "Classic CoD4 Modern Warfare Video Background"
         }
       ]
     },
@@ -15984,7 +15984,282 @@
           "notes": "SteamGridDB Animated Grid: 010022E013A1A000_Hoa.mp4"
         }
       ]
+    },
+    {
+      "titleId": "010063B012DC6000",
+      "title": "Shin Megami Tensei V (SMT 5) + 9 DLC [NSP][ENG]",
+      "publisher": "SEGA",
+      "variants": [
+        {
+          "id": "var-1qJPM8ak",
+          "name": "Shin Megami Tensei V + 9",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qJPM8akBAfuFSeroiv4nSxY0tmCgOp5Z",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qJPM8akBAfuFSeroiv4nSxY0tmCgOp5Z&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 010063B012DC6000_Shin_Megami_Tensei_V___9.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100634008266000",
+      "title": "YIIK a PostModern RPG [NSZ][ENG]",
+      "publisher": "Ysbryd Games",
+      "variants": [
+        {
+          "id": "var-19455Pmu",
+          "name": "YIIK a PostModern RPG",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19455Pmu3IingEQ8ZaNYDWleIGdfUFtI4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19455Pmu3IingEQ8ZaNYDWleIGdfUFtI4&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100634008266000_YIIK_a_PostModern_RPG.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01008C9012F4A000",
+      "title": "When the Past was Around [NSZ][RUS/Multi10]",
+      "publisher": "Chorus Worldwide Games",
+      "variants": [
+        {
+          "id": "var-1GaBYcAz",
+          "name": "When the Past was Around",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GaBYcAzakOs3Im8cTaVgrZYIJXLh0LuW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GaBYcAzakOs3Im8cTaVgrZYIJXLh0LuW&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 01008C9012F4A000_When_the_Past_was_Around.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100327005C94000",
+      "title": "Kentucky Route Zero [NSZ][RUS/Multi8]",
+      "publisher": "Annapurna Interactive",
+      "variants": [
+        {
+          "id": "var-1bfDIix0",
+          "name": "Kentucky Route Zero",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bfDIix0sNR91u8K4Tw48_UKu4Cf_oeh8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bfDIix0sNR91u8K4Tw48_UKu4Cf_oeh8&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100327005C94000_Kentucky_Route_Zero.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A3F00C536000",
+      "title": "Kill la Kill If [NSZ][ENG]",
+      "publisher": "Arc System Works",
+      "variants": [
+        {
+          "id": "var-1byaaDbD",
+          "name": "Kill la Kill If",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1byaaDbDOR1i6VnfPAJ_CGlQkchYXfoFM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1byaaDbDOR1i6VnfPAJ_CGlQkchYXfoFM&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100A3F00C536000_Kill_la_Kill_If.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010002401AE94000",
+      "title": "Tiny Thor [NSZ][RUS (Mod.)/ENG]",
+      "publisher": "Gameforge 4D",
+      "variants": [
+        {
+          "id": "var-1sMZxpvi",
+          "name": "Tiny Thor",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1sMZxpvi_CF6y-62j3RrwEbvoGxNX-vmD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1sMZxpvi_CF6y-62j3RrwEbvoGxNX-vmD&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 010002401AE94000_Tiny_Thor.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01004C701479C000",
+      "title": "The Darkest Tales [NSZ][RUS/Multi10]",
+      "publisher": "101XP",
+      "variants": [
+        {
+          "id": "var-1ebGnGhL",
+          "name": "The Darkest Tales",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ebGnGhLyeDKko-97xKQiC8qSvCRHUL6c",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ebGnGhLyeDKko-97xKQiC8qSvCRHUL6c&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 01004C701479C000_The_Darkest_Tales.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01000BA01D500000",
+      "title": "Touhou Mystia's Izakaya [NSZ][ENG]",
+      "publisher": "Two Color Purple Butterfly",
+      "variants": [
+        {
+          "id": "var-1Nml3seb",
+          "name": "Touhou Mystia's Izakaya",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Nml3sebgvkaoQ_0x0oAY-LofZLlARGK5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Nml3sebgvkaoQ_0x0oAY-LofZLlARGK5&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 01000BA01D500000_Touhou_Mystia_s_Izakaya.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E95010F6A000",
+      "title": "Game Dev Tycoon [NSZ][RUS/Multi9]",
+      "publisher": "Greenheart Games",
+      "variants": [
+        {
+          "id": "var-1PAC6uBD",
+          "name": "Game Dev Tycoon",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PAC6uBDpYVGonIwb0tSb7UpCQuR1kl2j",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PAC6uBDpYVGonIwb0tSb7UpCQuR1kl2j&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 0100E95010F6A000_Game_Dev_Tycoon.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100274004052000",
+      "title": "PayDay 2 [NSP][RUS]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "var-10rfHXJc",
+          "name": "PayDay 2",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10rfHXJcD-NFBGViS4w2BSkSf8sUCnHfV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10rfHXJcD-NFBGViS4w2BSkSf8sUCnHfV&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 0100274004052000_PayDay_2.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01B7F96B70C31000",
+      "title": "Call of Duty 4: Modern Warfare",
+      "publisher": "Activision",
+      "variants": [
+        {
+          "id": "cod4-mw-classic",
+          "name": "Call of Duty 4 MW: Intro & Action",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1de2HUBh5hsAdld-pfjTRLjzO3lqvq7gL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1de2HUBh5hsAdld-pfjTRLjzO3lqvq7gL&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Classic CoD4 Modern Warfare Video Background"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-10-20T20:26:36.213371+00:00"
+  "lastUpdated": "2026-10-20T20:34:07.647986+00:00"
 }
