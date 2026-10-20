@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-10-20T14:11:41.565130+00:00",
-  "totalGames": 233,
-  "totalVariants": 251,
+  "totalGames": 243,
+  "totalVariants": 273,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -892,6 +892,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 0100D560102C8000_BioShock_Rapture.mp4"
+        },
+        {
+          "id": "var-1Gb0OBIQ",
+          "name": "BioShock The Collection",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Gb0OBIQemuHYTX9v5k1tWEsM4FTfRNr1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Gb0OBIQemuHYTX9v5k1tWEsM4FTfRNr1&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100D560102C8000_BioShock_The_Collection.mp4"
+        },
+        {
+          "id": "var-1T1hCIG6",
+          "name": "BioShock The Collection",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1T1hCIG6V2UBt1c7FILH0pnAja6lhPa3U",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1T1hCIG6V2UBt1c7FILH0pnAja6lhPa3U&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100D560102C8000_BioShock_The_Collection.mp4"
         }
       ]
     },
@@ -1153,6 +1189,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 0100A00019DE0000_Hades_2_Princess.mp4"
+        },
+        {
+          "id": "var-1DClf6nk",
+          "name": "Hades",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DClf6nkTUwvE2zaxqKT9uanZjzJSoA76",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DClf6nkTUwvE2zaxqKT9uanZjzJSoA76&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100A00019DE0000_Hades.mp4"
         }
       ]
     },
@@ -1693,6 +1747,24 @@
           "sizeBytes": 0,
           "sha256": "",
           "durationSec": 12.7,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100E65002BB8000_Stardew_Valley.mp4"
+        },
+        {
+          "id": "var-1MrvTjAz",
+          "name": "Stardew Valley",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MrvTjAzirQyT_xGdvfoE3hrK1aqE9lVV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MrvTjAzirQyT_xGdvfoE3hrK1aqE9lVV&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
           "author": "Holy3holy-dev",
           "codec": "h264",
           "width": 1280,
@@ -4175,6 +4247,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 010064800F66A000_Borderlands_Legendary_Collection.mp4"
+        },
+        {
+          "id": "var-13PMpKqA",
+          "name": "Borderlands Legendary Collection",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13PMpKqAUBag1K6-Uh1wwwRGM1wFg7RTD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13PMpKqAUBag1K6-Uh1wwwRGM1wFg7RTD&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 010064800F66A000_Borderlands_Legendary_Collection.mp4"
         }
       ]
     },
@@ -6142,6 +6232,382 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 010015100B514000_Super_Mario_Bros._Wonder.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100770008DD8000",
+      "title": "Monster Hunter Generations Ultimate + доп. контент [NSZ][ENG]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "var-1ATMNukk",
+          "name": "Monster Hunter Generations Ultimate",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ATMNukkz6FNxolSQN4ZqkjvGYxOUaYJm",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ATMNukkz6FNxolSQN4ZqkjvGYxOUaYJm&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100770008DD8000_Monster_Hunter_Generations_Ultimate.mp4"
+        },
+        {
+          "id": "var-1w7qtAtq",
+          "name": "Monster Hunter Generations Ultimate",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1w7qtAtqoUiGNzD8pIWTrv06Pt8Tb68vs",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1w7qtAtqoUiGNzD8pIWTrv06Pt8Tb68vs&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100770008DD8000_Monster_Hunter_Generations_Ultimate.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FA501AF90000",
+      "title": "Castlevania Dominus Collection: Dawn of Sorrow / Portrait of Ruin / Order of Ecclesia / Haunted Castle [NSP][RUS (Mod.)/ENG]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "var-1c_ISrp0",
+          "name": "Castlevania Dominus Collection",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1c_ISrp0OYX8L_mRjmkDOWMQ3W_zUcnpV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1c_ISrp0OYX8L_mRjmkDOWMQ3W_zUcnpV&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100FA501AF90000_Castlevania_Dominus_Collection.mp4"
+        },
+        {
+          "id": "var-1n-YrrcX",
+          "name": "Castlevania Dominus Collection",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1n-YrrcXUzVcIwk6hOv0G6pB53PlM-WJW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1n-YrrcXUzVcIwk6hOv0G6pB53PlM-WJW&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100FA501AF90000_Castlevania_Dominus_Collection.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E46006708000",
+      "title": "Terraria [NSZ][RUS/Multi7]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "var-1AgHJ-3q",
+          "name": "Terraria",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AgHJ-3qMKn5uQ8r0zCDJMcWjkBmJrlip",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AgHJ-3qMKn5uQ8r0zCDJMcWjkBmJrlip&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100E46006708000_Terraria.mp4"
+        },
+        {
+          "id": "var-1oWQRZNF",
+          "name": "Terraria",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oWQRZNFmQjavhh0ITfW1CPZW4x1yR6MV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oWQRZNFmQjavhh0ITfW1CPZW4x1yR6MV&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100E46006708000_Terraria.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100344012028000",
+      "title": "Subnautica",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "var-1-KUfk9p",
+          "name": "Subnautica",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-KUfk9pzpKI22MKSHiAmw3hLbwE41htc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-KUfk9pzpKI22MKSHiAmw3hLbwE41htc&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100344012028000_Subnautica.mp4"
+        },
+        {
+          "id": "var-1R3Gpwmt",
+          "name": "Subnautica",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1R3GpwmtGgkPrEPJdNB9_Cy22S84IhcVy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1R3GpwmtGgkPrEPJdNB9_Cy22S84IhcVy&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100344012028000_Subnautica.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CB000A142000",
+      "title": "Phoenix Wright Ace Attorney Trilogy, Justice for All, Trials and Tribulations [NSZ][RUS (Mod.)/ENG]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "var-1yCWvpsW",
+          "name": "Phoenix Wright Ace Attorney Trilogy",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yCWvpsWBLAUxqk_PHhq9sOWE-WSDlhrk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yCWvpsWBLAUxqk_PHhq9sOWE-WSDlhrk&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100CB000A142000_Phoenix_Wright_Ace_Attorney_Trilogy.mp4"
+        },
+        {
+          "id": "var-1b6Yb0qh",
+          "name": "Phoenix Wright Ace Attorney Trilogy",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1b6Yb0qhi6qnjJwskNUHPRmr6r2iG3_42",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1b6Yb0qhi6qnjJwskNUHPRmr6r2iG3_42&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100CB000A142000_Phoenix_Wright_Ace_Attorney_Trilogy.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010086B00B41E000",
+      "title": "Resident Evil 4",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "var-1ZJ_Rz6c",
+          "name": "Resident Evil 4",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZJ_Rz6coPQ_IPti4_VfvaACo20dZScRy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZJ_Rz6coPQ_IPti4_VfvaACo20dZScRy&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 010086B00B41E000_Resident_Evil_4.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010050F00BC1A000",
+      "title": "Resident Evil HD [NSP][ENG]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "var-1Zkm8XD6",
+          "name": "Resident Evil HD Remaster",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Zkm8XD6NNVoD4V11bTyT08ZYlV7AN9zM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Zkm8XD6NNVoD4V11bTyT08ZYlV7AN9zM&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 010050F00BC1A000_Resident_Evil_HD_Remaster.mp4"
+        },
+        {
+          "id": "var-1W2VJQVa",
+          "name": "Resident Evil HD Remaster",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1W2VJQVadTfr1grxzD4rjKY_O4tta8KcE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1W2VJQVadTfr1grxzD4rjKY_O4tta8KcE&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 010050F00BC1A000_Resident_Evil_HD_Remaster.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01006560184E6000",
+      "title": "Mortal Kombat 1 (MK 1) Premium Definitive edition + DLC (вкл. T-1000, Мадам Бо) [NSZ][RUS/Multi8]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "var-1CoYgb4q",
+          "name": "Mortal Kombat 1",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CoYgb4qZZPiQ22HE0ruFd7p3WzuWWD_s",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CoYgb4qZZPiQ22HE0ruFd7p3WzuWWD_s&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 01006560184E6000_Mortal_Kombat_1.mp4"
+        },
+        {
+          "id": "var-1wUnSdda",
+          "name": "Mortal Kombat 1",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wUnSddarQQI-CUmhu68bEWnqSwq983l-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wUnSddarQQI-CUmhu68bEWnqSwq983l-&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 01006560184E6000_Mortal_Kombat_1.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010021C000B6A000",
+      "title": "The Binding of Isaac: Afterbirth Plus / Repentance (плюс оригинальная музыка) [NSZ][RUS/Multi7]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "var-1mztfiUe",
+          "name": "The Binding of Isaac Repentance",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mztfiUengH2vYK_4J85jHobzz2wgFuu5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mztfiUengH2vYK_4J85jHobzz2wgFuu5&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 010021C000B6A000_The_Binding_of_Isaac_Repentance.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B1A00D8CE000",
+      "title": "DOOM Eternal + DLC The Ancient Gods Deluxe edition [NSZ][RUS/Multi10]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "var-1u8dF5cd",
+          "name": "DOOM Eternal",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1u8dF5cdfcYbXCZO7OLPaasNWKLQLL7Ar",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1u8dF5cdfcYbXCZO7OLPaasNWKLQLL7Ar&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100B1A00D8CE000_DOOM_Eternal.mp4"
         }
       ]
     }
