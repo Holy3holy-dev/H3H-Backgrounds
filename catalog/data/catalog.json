@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20T14:01:28.705751+00:00",
-  "totalGames": 143,
-  "totalVariants": 160,
+  "updatedAt": "2026-10-20T14:11:41.565130+00:00",
+  "totalGames": 179,
+  "totalVariants": 196,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -102,7 +102,7 @@
           "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1-xmJ_5PsqPcDiJuy3jU_SQmjxAD6q3aT",
           "previewUrl": "https://drive.google.com/thumbnail?id=1-xmJ_5PsqPcDiJuy3jU_SQmjxAD6q3aT&sz=w640",
-          "sizeBytes": 0,
+          "sizeBytes": 20983084,
           "sha256": "",
           "durationSec": 20.0,
           "author": "Holy3holy-dev",
@@ -503,7 +503,7 @@
           "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1ce7aOHrX9zGxefSk2Z3IbBA0p7MdnKLv",
           "previewUrl": "https://drive.google.com/thumbnail?id=1ce7aOHrX9zGxefSk2Z3IbBA0p7MdnKLv&sz=w640",
-          "sizeBytes": 0,
+          "sizeBytes": 16642481,
           "sha256": "",
           "durationSec": 20.0,
           "author": "Holy3holy-dev",
@@ -571,7 +571,7 @@
           "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1k2DXB4MAsQgXrSw5HqMV0aBgC_Djn3iS",
           "previewUrl": "https://drive.google.com/thumbnail?id=1k2DXB4MAsQgXrSw5HqMV0aBgC_Djn3iS&sz=w640",
-          "sizeBytes": 0,
+          "sizeBytes": 10209315,
           "sha256": "",
           "durationSec": 20.0,
           "author": "Holy3holy-dev",
@@ -1497,7 +1497,7 @@
           "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1WJMLBwt8zhZy0DF5uWTtWjyHfnKviEvf",
           "previewUrl": "https://drive.google.com/thumbnail?id=1WJMLBwt8zhZy0DF5uWTtWjyHfnKviEvf&sz=w640",
-          "sizeBytes": 0,
+          "sizeBytes": 5316848,
           "sha256": "",
           "durationSec": 20.0,
           "author": "Holy3holy-dev",
@@ -3882,6 +3882,906 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 01007EF00CB88000_Duke_Nukem_3D.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D5300B29E000",
+      "title": "Game 0100D5300B29E000",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "south-park-stick-of-truth",
+          "name": "South Park Stick of Truth",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PsV3fdJP2IamfMK_izntorW3K-0UUrQc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PsV3fdJP2IamfMK_izntorW3K-0UUrQc&sz=w640",
+          "sizeBytes": 3808289,
+          "sha256": "2534f7e925ca8036f248d062883f36ee9a9243c86f426011def1a032db7b7ebe",
+          "durationSec": 20.03,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100D5300B29E000_South_Park_Stick_of_Truth.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D1B006744000",
+      "title": "Crash Bandicoot N. Sane Trilogy [NSP][RUS (Voice)/ENG]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "crash-bandicoot-n-sane-trilogy",
+          "name": "Crash Bandicoot N Sane Trilogy",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XHmbzBnS6m-63es2hdkuKjA-TdifmfVD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XHmbzBnS6m-63es2hdkuKjA-TdifmfVD&sz=w640",
+          "sizeBytes": 8487763,
+          "sha256": "7ebd7d986f52025be3cbe5ea3e50fecd8f6476066ee1105eed6619229a661050",
+          "durationSec": 20.03,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100D1B006744000_Crash_Bandicoot_N_Sane_Trilogy.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CC00102B4000",
+      "title": "Tony Hawk's Pro Skater 1+2 [NSZ][ENG]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "tony-hawks-pro-skater-1-2",
+          "name": "Tony Hawks Pro Skater 1 2",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19dhSYq3-PivDuclN537IuqKQUzqdk3lq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19dhSYq3-PivDuclN537IuqKQUzqdk3lq&sz=w640",
+          "sizeBytes": 8870680,
+          "sha256": "fec4c3472092afc10c4e2b9109670c53b9d5f11e79311028510c441ee5fada5e",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100CC00102B4000_Tony_Hawks_Pro_Skater_1_2.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01009AA00B9CE000",
+      "title": "Game 01009AA00B9CE000",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "bulletstorm",
+          "name": "Bulletstorm",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GLBjcAivrIXiXqcYAsvLyogYitcCWrGw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GLBjcAivrIXiXqcYAsvLyogYitcCWrGw&sz=w640",
+          "sizeBytes": 1280088,
+          "sha256": "c0a4ebf6ffe632961c444b14961ef747a41408115d7ed26e0d208ca46e1a6fa4",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 01009AA00B9CE000_Bulletstorm.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01008D100D43E000",
+      "title": "Saints Row 3: The Third - The Full Package / Saints Row IV (4): Re-Elected [NSZ][RUS/Multi7]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "saints-row-the-third",
+          "name": "Saints Row The Third",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17F7gKXMeIuU18IesXIfNj_A14qzT3hHe",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17F7gKXMeIuU18IesXIfNj_A14qzT3hHe&sz=w640",
+          "sizeBytes": 7255343,
+          "sha256": "7f2310a8a3eda5b8115d09bda3ed3753161d358ec6822c9a01c85c68e203ef07",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 01008D100D43E000_Saints_Row_The_Third.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01008C8012920000",
+      "title": "Dying Light Definitive Edition [NSZ][RUS/Multi11]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "dying-light",
+          "name": "Dying Light",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1phb9i1evIE-eG0fAXDiFadSh5o5Q9RIj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1phb9i1evIE-eG0fAXDiFadSh5o5Q9RIj&sz=w640",
+          "sizeBytes": 8233091,
+          "sha256": "764af34a68825fa46f89faabd1ddc6023667a15ee1c857230b51db38ffe47732",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 01008C8012920000_Dying_Light.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01008C3015CF2000",
+      "title": "Game 01008C3015CF2000",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "star-wars-force-unleashed",
+          "name": "Star Wars Force Unleashed",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10Vc6eoOmjYgLoeCYg-lhYrUUX4wqSeHQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10Vc6eoOmjYgLoeCYg-lhYrUUX4wqSeHQ&sz=w640",
+          "sizeBytes": 7469581,
+          "sha256": "6600e7dd63ad38be5981e341a71703c51a92891a42f9616c258889e50e35f558",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 01008C3015CF2000_Star_Wars_Force_Unleashed.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010073401175E000",
+      "title": "Crash Bandicoot: 4 It's About Time [NSZ][RUS/Multi7]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "crash-bandicoot-4",
+          "name": "Crash Bandicoot 4",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1aQ_pvbzhOscI2A5Ar3i47VhLdpbEUhKE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1aQ_pvbzhOscI2A5Ar3i47VhLdpbEUhKE&sz=w640",
+          "sizeBytes": 9058475,
+          "sha256": "dd1fcf07c3b08a39c327892420a1b0902c76d08e6f158a1bc29e3f8b68c4c1c4",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 010073401175E000_Crash_Bandicoot_4.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01006C300E9F0000",
+      "title": "Dragon Quest XI (11) S Echoes of an Elusive Age Definitive Edition + DLC [NSZ][RUS (Mod.)/ENG]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "dragon-quest-xi-s",
+          "name": "Dragon Quest XI S",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dqUGpiXlwUzeeSiBLt9GvIEQaLmDTzVk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dqUGpiXlwUzeeSiBLt9GvIEQaLmDTzVk&sz=w640",
+          "sizeBytes": 6823611,
+          "sha256": "912e2b9b596cb7cbe60c733bd9e2a0170f9932dc82c2ff610025fbb03b712049",
+          "durationSec": 20.03,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 01006C300E9F0000_Dragon_Quest_XI_S.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01006BF0173A0000",
+      "title": "Game 01006BF0173A0000",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "star-wars-kotor-2",
+          "name": "Star Wars KOTOR 2",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18WGuJtytrD_2v1aSNhfafDperJ6Q1ged",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18WGuJtytrD_2v1aSNhfafDperJ6Q1ged&sz=w640",
+          "sizeBytes": 5624281,
+          "sha256": "398be6ac76b3eccfc83eea24bd05d7dd680d2eaac9684450dba87acc5f34f3aa",
+          "durationSec": 20.03,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 01006BF0173A0000_Star_Wars_KOTOR_2.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010064800F66A000",
+      "title": "Borderlands Legendary Collection [RePack][NSP][RUS (Mod.)]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "borderlands-legendary-collection",
+          "name": "Borderlands Legendary Collection",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17BEC3he5tgKNYP4DoTBJ-9Q4EMh1RxAK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17BEC3he5tgKNYP4DoTBJ-9Q4EMh1RxAK&sz=w640",
+          "sizeBytes": 6194247,
+          "sha256": "46936a880f8d11b26a464335deab7b83ed6d0e94d845c73b03bcbda30669263a",
+          "durationSec": 20.03,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 010064800F66A000_Borderlands_Legendary_Collection.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100534849500000",
+      "title": "Game 0100534849500000",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "zelda-ocarina-of-time-soh",
+          "name": "Zelda Ocarina of Time SoH",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ur9FiS5Z4rq3GZ5b9ACyzSMlw9UPuK3r",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ur9FiS5Z4rq3GZ5b9ACyzSMlw9UPuK3r&sz=w640",
+          "sizeBytes": 8667046,
+          "sha256": "78061998088a385be073ecd63a7486eca78b904400a66c9394bd407ff4629a63",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100534849500000_Zelda_Ocarina_of_Time_SoH.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100524532520000",
+      "title": "Game 0100524532520000",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "resident-evil-2-remake",
+          "name": "Resident Evil 2 Remake",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dPbNYKcaaupgP_l-l4uAFATWYUEFysxs",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dPbNYKcaaupgP_l-l4uAFATWYUEFysxs&sz=w640",
+          "sizeBytes": 3038843,
+          "sha256": "150b6807dc328e9ec8d06349f9f945163b6b978353987cd4e22e695ad611213d",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100524532520000_Resident_Evil_2_Remake.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100505053530000",
+      "title": "Game 0100505053530000",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "ppsspp",
+          "name": "PPSSPP",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13ILnSTrGlWJBUUlQMzMSps1o_sejk5fj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13ILnSTrGlWJBUUlQMzMSps1o_sejk5fj&sz=w640",
+          "sizeBytes": 605567,
+          "sha256": "90fb887b3678a1f9d8f0fa2eb436df446bad561063cfef0f8a2b1b6a538cb538",
+          "durationSec": 8.73,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100505053530000_PPSSPP.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01004F504D570000",
+      "title": "Game 01004F504D570000",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "openmw-morrowind",
+          "name": "OpenMW Morrowind",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=146Hv1bugWBPIlZx-fx-ljGHkxNJvwHFy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=146Hv1bugWBPIlZx-fx-ljGHkxNJvwHFy&sz=w640",
+          "sizeBytes": 1151839,
+          "sha256": "78a0d878bbeee3d5e676c5fca0def921fe38672e01b3c7e728d542232c8bb8b4",
+          "durationSec": 20.03,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 01004F504D570000_OpenMW_Morrowind.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01004E46534D0000",
+      "title": "Game 01004E46534D0000",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "need-for-speed-most-wanted",
+          "name": "Need for Speed Most Wanted",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FsdxfgiWtZn5FZULpVsGXxmBMcK4IE4_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FsdxfgiWtZn5FZULpVsGXxmBMcK4IE4_&sz=w640",
+          "sizeBytes": 6644889,
+          "sha256": "6eebc9b35d1f68a90c4b30f8b59019de4789c1b865f3f9f50e791aa709b3493c",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 01004E46534D0000_Need_for_Speed_Most_Wanted.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01004DC00E346000",
+      "title": "Game 01004DC00E346000",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "call-of-juarez-gunslinger",
+          "name": "Call of Juarez Gunslinger",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1J914nB-mQkI28Lav0nUZqD8Mu2Lb0XBw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1J914nB-mQkI28Lav0nUZqD8Mu2Lb0XBw&sz=w640",
+          "sizeBytes": 8385830,
+          "sha256": "c2f67ffbceabee5b0c81e5b24a001c392ff7b12a8f0062fe6434990c4d46c4ae",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 01004DC00E346000_Call_of_Juarez_Gunslinger.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01004D4F4F4E0000",
+      "title": "Game 01004D4F4F4E0000",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "moonlight-switch",
+          "name": "Moonlight Switch",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1M2P-DPiXdrOlhV__KDxdH5XKoKNKzHZR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1M2P-DPiXdrOlhV__KDxdH5XKoKNKzHZR&sz=w640",
+          "sizeBytes": 4906511,
+          "sha256": "ea78cb56e0c901b9082432665bdd5d902a502ca1d1e77d2d58114c1aa7bd96b2",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 01004D4F4F4E0000_Moonlight_Switch.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01004D4753350000",
+      "title": "Game 01004D4753350000",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "metal-gear-solid-v",
+          "name": "Metal Gear Solid V",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zMdnrB90U_xGUFUKHQalupq3DeAPWRF4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zMdnrB90U_xGUFUKHQalupq3DeAPWRF4&sz=w640",
+          "sizeBytes": 5814852,
+          "sha256": "d65e6bc61b6ba6b6fb8a37339c04ba7854d1c5570ef468651d4f9419abbe08b4",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 01004D4753350000_Metal_Gear_Solid_V.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01004D4742410000",
+      "title": "Game 01004D4742410000",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "mgba",
+          "name": "mGBA",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11jSQeCjd_1dc3Wq32VsE956kw_flXL4u",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11jSQeCjd_1dc3Wq32VsE956kw_flXL4u&sz=w640",
+          "sizeBytes": 545730,
+          "sha256": "d1d412d48a2ced5ccd1bab910cc8314326a63e5024734cf0b002de3e68584c79",
+          "durationSec": 11.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 01004D4742410000_mGBA.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01004C4152410000",
+      "title": "Game 01004C4152410000",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "openlara",
+          "name": "OpenLara",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QzGOEP4OS9EpjZcjjW9Plg00I7M8l0Ib",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QzGOEP4OS9EpjZcjjW9Plg00I7M8l0Ib&sz=w640",
+          "sizeBytes": 7286758,
+          "sha256": "0a7dc038e6058531181d3e8f22f25077331877d0fb1055be4518c4084e222549",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 01004C4152410000_OpenLara.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100475441340000",
+      "title": "Game 0100475441340000",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "gta-4",
+          "name": "GTA 4",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13Cxa6NM3__ufJdAHhDD7bqVJg-8bEzhA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13Cxa6NM3__ufJdAHhDD7bqVJg-8bEzhA&sz=w640",
+          "sizeBytes": 8350765,
+          "sha256": "eca58465222364554a7a29f7a9fb31ad04f6aacb7c647da9ef6e2b84dfb5b6f6",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100475441340000_GTA_4.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100474541520000",
+      "title": "Game 0100474541520000",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "gears-of-war",
+          "name": "Gears of War",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jyH8ZZ17Ja-R4VoJxKhoPrdvA1KJnVFp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jyH8ZZ17Ja-R4VoJxKhoPrdvA1KJnVFp&sz=w640",
+          "sizeBytes": 4272394,
+          "sha256": "b8426400cc4dee99af71b2bc24b527527eacd5466fd2306c616160460a5a6c64",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100474541520000_Gears_of_War.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100464C59430000",
+      "title": "Game 0100464C59430000",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "flycast",
+          "name": "Flycast",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1icq8ofPlgKVULv9P6tDrmxkenoLHWDWj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1icq8ofPlgKVULv9P6tDrmxkenoLHWDWj&sz=w640",
+          "sizeBytes": 94204,
+          "sha256": "b1178c3fd603b4118c7ec219643dd5d8cbaeacf2f7979c1e7cffcb292a9124d1",
+          "durationSec": 12.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100464C59430000_Flycast.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010046414C4C3300",
+      "title": "Game 010046414C4C3300",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "fallout-3",
+          "name": "Fallout 3",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19xEsPxGFo7uTddUHCrWdYHBxOg-6YGyw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19xEsPxGFo7uTddUHCrWdYHBxOg-6YGyw&sz=w640",
+          "sizeBytes": 5758396,
+          "sha256": "d7b7adf6d2ee847d83412eb98bc1d434480447bb98b83feb111c218b883072b6",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 010046414C4C3300_Fallout_3.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100454C444E0000",
+      "title": "Game 0100454C444E0000",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "elden-ring",
+          "name": "Elden Ring",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19zwL3bnyIWtYmAhZGQ1ffHBCuT57VoRa",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19zwL3bnyIWtYmAhZGQ1ffHBCuT57VoRa&sz=w640",
+          "sizeBytes": 6025859,
+          "sha256": "8bb696dddbac899669f0b03996bbad3b2ae7805cd456bcaef984f881fc3303ea",
+          "durationSec": 16.9,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100454C444E0000_Elden_Ring.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100435942450000",
+      "title": "Game 0100435942450000",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "cyberpunk-2077",
+          "name": "Cyberpunk 2077",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1sqBtZS-D_WT8UrkrHNnfgWhIVgNiABuS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1sqBtZS-D_WT8UrkrHNnfgWhIVgNiABuS&sz=w640",
+          "sizeBytes": 2804265,
+          "sha256": "fa230d9af86ec214741d4d55bdce9fcedf6596d1450dcdfc35f450edf0bbbf26",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100435942450000_Cyberpunk_2077.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100434849410000",
+      "title": "Game 0100434849410000",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "chiaki",
+          "name": "Chiaki",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kZywsGjTuAv3sxsZ19eBZBxlT2Oo56sS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kZywsGjTuAv3sxsZ19eBZBxlT2Oo56sS&sz=w640",
+          "sizeBytes": 5642257,
+          "sha256": "8ba71ee1831e711e814eeb682f53430406d28c71366663e532c326241edd5250",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100434849410000_Chiaki.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100414D32520000",
+      "title": "Game 0100414D32520000",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "am2r",
+          "name": "AM2R",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lHBGdsSxgHPbiruvKDfWHSmkVQus_kXQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lHBGdsSxgHPbiruvKDfWHSmkVQus_kXQ&sz=w640",
+          "sizeBytes": 3213904,
+          "sha256": "9093cef499deabdc25df311c7d09869bce79e570c95c2da2d281bb007596e4c0",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100414D32520000_AM2R.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01003290076AE000",
+      "title": "Game 01003290076AE000",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "hellblade-senuas-sacrifice",
+          "name": "Hellblade Senuas Sacrifice",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qOROy5hFdRpKBgIpfrmOwdLdSHrs0xOb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qOROy5hFdRpKBgIpfrmOwdLdSHrs0xOb&sz=w640",
+          "sizeBytes": 4079530,
+          "sha256": "dcaf8fb7225ea788b977ffb48c154021c7fd4537cc193620293eba276b3d8e78",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 01003290076AE000_Hellblade_Senuas_Sacrifice.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100325348490000",
+      "title": "Game 0100325348490000",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "zelda-majoras-mask-2ship",
+          "name": "Zelda Majoras Mask 2Ship",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RUweYSSWohIVWhjQWpnKJDjIR-7NZquf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RUweYSSWohIVWhjQWpnKJDjIR-7NZquf&sz=w640",
+          "sizeBytes": 8607868,
+          "sha256": "7d9fa47a02605e9033d1853b88b00d2de26966a79755d50a5d3fcc58b0ad6b23",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100325348490000_Zelda_Majoras_Mask_2Ship.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01001E800AD68000",
+      "title": "Game 01001E800AD68000",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "red-faction-guerrilla",
+          "name": "Red Faction Guerrilla",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FqoF6pxxYH5rtZ4vsALRbixpiUc9ndKh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FqoF6pxxYH5rtZ4vsALRbixpiUc9ndKh&sz=w640",
+          "sizeBytes": 5653426,
+          "sha256": "936374e6ebbf30be2302668703ccb7b630cab688046a327fafc9b7e89f21b46b",
+          "durationSec": 20.03,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 01001E800AD68000_Red_Faction_Guerrilla.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01000B0006CA6000",
+      "title": "Game 01000B0006CA6000",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "outlast",
+          "name": "Outlast",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ql3JFzEfahPKLkrWjeyEyGJPGsk-EjaI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ql3JFzEfahPKLkrWjeyEyGJPGsk-EjaI&sz=w640",
+          "sizeBytes": 1969430,
+          "sha256": "99ab7fa8045c86ce4060e25e0a244afa35324bb2f0b5ef7cd0c4f2a5f86cf30b",
+          "durationSec": 20.03,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 01000B0006CA6000_Outlast.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010007B010FCD000",
+      "title": "Sniper Elite 4 + 13 DLC [NSP][RUS/Multi8]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "sniper-elite-4",
+          "name": "Sniper Elite 4",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gIwxf8t6MP0-BczrK0OMfyfv07PXwJDB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gIwxf8t6MP0-BczrK0OMfyfv07PXwJDB&sz=w640",
+          "sizeBytes": 8016514,
+          "sha256": "f8c73db492ce9c54bce3f4c9f53a2b53ff2f56b80f3f5f9ea062317b433f8dc0",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 010007B010FCD000_Sniper_Elite_4.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010000000000100C",
+      "title": "Need For Speed Carbon (хоумбрю NFS:C) [NRO][RUS]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "tinfoil",
+          "name": "Tinfoil",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1D0ON8CbGmCOXY8isdBEWtuB7hVKDobmM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1D0ON8CbGmCOXY8isdBEWtuB7hVKDobmM&sz=w640",
+          "sizeBytes": 5856714,
+          "sha256": "57ac561c48a9e7c6f3a7e42df2212bc701e92a59f8fe306b6c0caecd1c5847ff",
+          "durationSec": 19.5,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 010000000000100C_Tinfoil.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010000000000100A",
+      "title": "Need For Speed Carbon (хоумбрю NFS:C) [NRO][RUS]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "dbi-installer",
+          "name": "DBI Installer",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1l2DvTPGMxf9vCDNtavRvlBNN2sWoGoU4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1l2DvTPGMxf9vCDNtavRvlBNN2sWoGoU4&sz=w640",
+          "sizeBytes": 477759,
+          "sha256": "b5b251a3d35b47a3ed9d8f1adf579efc070e6d2a5d1953c65c7b710490f93f3a",
+          "durationSec": 14.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 010000000000100A_DBI_Installer.mp4"
         }
       ]
     }
