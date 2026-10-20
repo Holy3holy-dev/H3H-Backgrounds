@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-10-20T17:05:53.994960+00:00",
-  "totalGames": 405,
-  "totalVariants": 453,
+  "totalGames": 439,
+  "totalVariants": 512,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -1381,13 +1381,31 @@
     },
     {
       "titleId": "01004D5700000000",
-      "title": "Need for Speed: Most Wanted (MW)",
+      "title": "Need for Speed: Most Wanted",
       "publisher": "Unknown",
       "variants": [
         {
-          "id": "nfs-most-wanted",
-          "name": "NFS Most Wanted",
-          "style": "Animated Art",
+          "id": "var-mw-intro",
+          "name": "NFS MW: BMW M3 GTR Intro",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FsdxfgiWtZn5FZULpVsGXxmBMcK4IE4_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FsdxfgiWtZn5FZULpVsGXxmBMcK4IE4_&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Classic M3 GTR Cutscene Intro"
+        },
+        {
+          "id": "var-mw-blacklist",
+          "name": "NFS MW: Blacklist Pursuit",
+          "style": "Cinematic",
           "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1vkXU_2eWSjAVAlYEYIZGFBMKINUUsAM-",
           "previewUrl": "https://drive.google.com/thumbnail?id=1vkXU_2eWSjAVAlYEYIZGFBMKINUUsAM-&sz=w640",
@@ -1400,19 +1418,12 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 01004D5700000000_NFS_Most_Wanted.mp4"
-        }
-      ]
-    },
-    {
-      "titleId": "0100000000000001",
-      "title": "Need for Speed: Most Wanted (Homebrew Port)",
-      "publisher": "Unknown",
-      "variants": [
+          "notes": "Rockport Blacklist Pursuit"
+        },
         {
-          "id": "nfs-most-wanted",
-          "name": "NFS Most Wanted",
-          "style": "Animated Art",
+          "id": "var-mw-highway",
+          "name": "NFS MW: Rockport Highway",
+          "style": "Gameplay",
           "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=185FEVgKFc4lp9sxh3Xz0Dqh-YKDytjnJ",
           "previewUrl": "https://drive.google.com/thumbnail?id=185FEVgKFc4lp9sxh3Xz0Dqh-YKDytjnJ&sz=w640",
@@ -1425,7 +1436,176 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 0100000000000001_NFS_Most_Wanted.mp4"
+          "notes": "High Speed Police Evade"
+        },
+        {
+          "id": "var-mw-chase",
+          "name": "NFS MW: Police Chase Action",
+          "style": "Action",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PhhoQiuu8b9edT_EMAhVl6jrT7E0LU1s",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PhhoQiuu8b9edT_EMAhVl6jrT7E0LU1s&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Heat Level 5 Police Pursuit"
+        },
+        {
+          "id": "var-mw-sgdb1",
+          "name": "NFS MW: Animated Artwork Hero",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yVobmkpATD3qlcYMLC4KwtQD63G2izSN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yVobmkpATD3qlcYMLC4KwtQD63G2izSN&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: NFS MW: Animated Artwork Hero"
+        },
+        {
+          "id": "var-mw-sgdb2",
+          "name": "NFS MW: City Skyline Neon",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lk9egNMEqbj3dpqwGuBtHZ8QdS2sW0RM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lk9egNMEqbj3dpqwGuBtHZ8QdS2sW0RM&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: NFS MW: City Skyline Neon"
+        }
+      ]
+    },
+    {
+      "titleId": "0100000000000001",
+      "title": "Need for Speed: Most Wanted",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "var-mw-intro",
+          "name": "NFS MW: BMW M3 GTR Intro",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FsdxfgiWtZn5FZULpVsGXxmBMcK4IE4_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FsdxfgiWtZn5FZULpVsGXxmBMcK4IE4_&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Classic M3 GTR Cutscene Intro"
+        },
+        {
+          "id": "var-mw-blacklist",
+          "name": "NFS MW: Blacklist Pursuit",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vkXU_2eWSjAVAlYEYIZGFBMKINUUsAM-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vkXU_2eWSjAVAlYEYIZGFBMKINUUsAM-&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Rockport Blacklist Pursuit"
+        },
+        {
+          "id": "var-mw-highway",
+          "name": "NFS MW: Rockport Highway",
+          "style": "Gameplay",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=185FEVgKFc4lp9sxh3Xz0Dqh-YKDytjnJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=185FEVgKFc4lp9sxh3Xz0Dqh-YKDytjnJ&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "High Speed Police Evade"
+        },
+        {
+          "id": "var-mw-chase",
+          "name": "NFS MW: Police Chase Action",
+          "style": "Action",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PhhoQiuu8b9edT_EMAhVl6jrT7E0LU1s",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PhhoQiuu8b9edT_EMAhVl6jrT7E0LU1s&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Heat Level 5 Police Pursuit"
+        },
+        {
+          "id": "var-mw-sgdb1",
+          "name": "NFS MW: Animated Artwork Hero",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yVobmkpATD3qlcYMLC4KwtQD63G2izSN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yVobmkpATD3qlcYMLC4KwtQD63G2izSN&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: NFS MW: Animated Artwork Hero"
+        },
+        {
+          "id": "var-mw-sgdb2",
+          "name": "NFS MW: City Skyline Neon",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lk9egNMEqbj3dpqwGuBtHZ8QdS2sW0RM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lk9egNMEqbj3dpqwGuBtHZ8QdS2sW0RM&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: NFS MW: City Skyline Neon"
         }
       ]
     },
@@ -4622,13 +4802,13 @@
     },
     {
       "titleId": "01004E46534D0000",
-      "title": "Need for Speed: Most Wanted (2005)",
+      "title": "Need for Speed: Most Wanted",
       "publisher": "Unknown",
       "variants": [
         {
-          "id": "need-for-speed-most-wanted",
-          "name": "Need for Speed Most Wanted",
-          "style": "Animated Art",
+          "id": "var-mw-intro",
+          "name": "NFS MW: BMW M3 GTR Intro",
+          "style": "Cinematic",
           "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1FsdxfgiWtZn5FZULpVsGXxmBMcK4IE4_",
           "previewUrl": "https://drive.google.com/thumbnail?id=1FsdxfgiWtZn5FZULpVsGXxmBMcK4IE4_&sz=w640",
@@ -4641,7 +4821,97 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 01004E46534D0000_Need_for_Speed_Most_Wanted.mp4"
+          "notes": "Classic M3 GTR Cutscene Intro"
+        },
+        {
+          "id": "var-mw-blacklist",
+          "name": "NFS MW: Blacklist Pursuit",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vkXU_2eWSjAVAlYEYIZGFBMKINUUsAM-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vkXU_2eWSjAVAlYEYIZGFBMKINUUsAM-&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Rockport Blacklist Pursuit"
+        },
+        {
+          "id": "var-mw-highway",
+          "name": "NFS MW: Rockport Highway",
+          "style": "Gameplay",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=185FEVgKFc4lp9sxh3Xz0Dqh-YKDytjnJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=185FEVgKFc4lp9sxh3Xz0Dqh-YKDytjnJ&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "High Speed Police Evade"
+        },
+        {
+          "id": "var-mw-chase",
+          "name": "NFS MW: Police Chase Action",
+          "style": "Action",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PhhoQiuu8b9edT_EMAhVl6jrT7E0LU1s",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PhhoQiuu8b9edT_EMAhVl6jrT7E0LU1s&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Heat Level 5 Police Pursuit"
+        },
+        {
+          "id": "var-mw-sgdb1",
+          "name": "NFS MW: Animated Artwork Hero",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yVobmkpATD3qlcYMLC4KwtQD63G2izSN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yVobmkpATD3qlcYMLC4KwtQD63G2izSN&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: NFS MW: Animated Artwork Hero"
+        },
+        {
+          "id": "var-mw-sgdb2",
+          "name": "NFS MW: City Skyline Neon",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lk9egNMEqbj3dpqwGuBtHZ8QdS2sW0RM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lk9egNMEqbj3dpqwGuBtHZ8QdS2sW0RM&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: NFS MW: City Skyline Neon"
         }
       ]
     },
@@ -5243,13 +5513,13 @@
     },
     {
       "titleId": "0100000000000004",
-      "title": "Need for Speed: Most Wanted (Homebrew)",
+      "title": "Need for Speed: Most Wanted",
       "publisher": "EA / Homebrew",
       "variants": [
         {
-          "id": "var-standard",
-          "name": "NFS Most Wanted",
-          "style": "Animated Art",
+          "id": "var-mw-intro",
+          "name": "NFS MW: BMW M3 GTR Intro",
+          "style": "Cinematic",
           "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1FsdxfgiWtZn5FZULpVsGXxmBMcK4IE4_",
           "previewUrl": "https://drive.google.com/thumbnail?id=1FsdxfgiWtZn5FZULpVsGXxmBMcK4IE4_&sz=w640",
@@ -5261,7 +5531,98 @@
           "width": 1280,
           "height": 720,
           "fps": 30.0,
-          "hasAudio": false
+          "hasAudio": false,
+          "notes": "Classic M3 GTR Cutscene Intro"
+        },
+        {
+          "id": "var-mw-blacklist",
+          "name": "NFS MW: Blacklist Pursuit",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vkXU_2eWSjAVAlYEYIZGFBMKINUUsAM-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vkXU_2eWSjAVAlYEYIZGFBMKINUUsAM-&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Rockport Blacklist Pursuit"
+        },
+        {
+          "id": "var-mw-highway",
+          "name": "NFS MW: Rockport Highway",
+          "style": "Gameplay",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=185FEVgKFc4lp9sxh3Xz0Dqh-YKDytjnJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=185FEVgKFc4lp9sxh3Xz0Dqh-YKDytjnJ&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "High Speed Police Evade"
+        },
+        {
+          "id": "var-mw-chase",
+          "name": "NFS MW: Police Chase Action",
+          "style": "Action",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PhhoQiuu8b9edT_EMAhVl6jrT7E0LU1s",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PhhoQiuu8b9edT_EMAhVl6jrT7E0LU1s&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Heat Level 5 Police Pursuit"
+        },
+        {
+          "id": "var-mw-sgdb1",
+          "name": "NFS MW: Animated Artwork Hero",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yVobmkpATD3qlcYMLC4KwtQD63G2izSN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yVobmkpATD3qlcYMLC4KwtQD63G2izSN&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: NFS MW: Animated Artwork Hero"
+        },
+        {
+          "id": "var-mw-sgdb2",
+          "name": "NFS MW: City Skyline Neon",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lk9egNMEqbj3dpqwGuBtHZ8QdS2sW0RM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lk9egNMEqbj3dpqwGuBtHZ8QdS2sW0RM&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: NFS MW: City Skyline Neon"
         }
       ]
     },
@@ -5315,13 +5676,13 @@
     },
     {
       "titleId": "03DB18EF71F2C000",
-      "title": "Need for Speed Most Wanted",
+      "title": "Need for Speed: Most Wanted",
       "publisher": "Electronic Arts",
       "variants": [
         {
-          "id": "var-standard",
-          "name": "NFS Most Wanted",
-          "style": "Animated Art",
+          "id": "var-mw-intro",
+          "name": "NFS MW: BMW M3 GTR Intro",
+          "style": "Cinematic",
           "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1FsdxfgiWtZn5FZULpVsGXxmBMcK4IE4_",
           "previewUrl": "https://drive.google.com/thumbnail?id=1FsdxfgiWtZn5FZULpVsGXxmBMcK4IE4_&sz=w640",
@@ -5333,7 +5694,98 @@
           "width": 1280,
           "height": 720,
           "fps": 30.0,
-          "hasAudio": false
+          "hasAudio": false,
+          "notes": "Classic M3 GTR Cutscene Intro"
+        },
+        {
+          "id": "var-mw-blacklist",
+          "name": "NFS MW: Blacklist Pursuit",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vkXU_2eWSjAVAlYEYIZGFBMKINUUsAM-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vkXU_2eWSjAVAlYEYIZGFBMKINUUsAM-&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Rockport Blacklist Pursuit"
+        },
+        {
+          "id": "var-mw-highway",
+          "name": "NFS MW: Rockport Highway",
+          "style": "Gameplay",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=185FEVgKFc4lp9sxh3Xz0Dqh-YKDytjnJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=185FEVgKFc4lp9sxh3Xz0Dqh-YKDytjnJ&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "High Speed Police Evade"
+        },
+        {
+          "id": "var-mw-chase",
+          "name": "NFS MW: Police Chase Action",
+          "style": "Action",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PhhoQiuu8b9edT_EMAhVl6jrT7E0LU1s",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PhhoQiuu8b9edT_EMAhVl6jrT7E0LU1s&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Heat Level 5 Police Pursuit"
+        },
+        {
+          "id": "var-mw-sgdb1",
+          "name": "NFS MW: Animated Artwork Hero",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yVobmkpATD3qlcYMLC4KwtQD63G2izSN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yVobmkpATD3qlcYMLC4KwtQD63G2izSN&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: NFS MW: Animated Artwork Hero"
+        },
+        {
+          "id": "var-mw-sgdb2",
+          "name": "NFS MW: City Skyline Neon",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lk9egNMEqbj3dpqwGuBtHZ8QdS2sW0RM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lk9egNMEqbj3dpqwGuBtHZ8QdS2sW0RM&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: NFS MW: City Skyline Neon"
         }
       ]
     },
@@ -10984,7 +11436,857 @@
           "notes": "SteamGridDB Animated Hero: 01005D301EBA2000_Mullet_Madjack.mp4"
         }
       ]
+    },
+    {
+      "titleId": "010079901C898000",
+      "title": "Legacy of Kain: Soul Reaver 1 and 2 Remastered [NSZ][RUS/Multi8]",
+      "publisher": "Aspyr Media",
+      "variants": [
+        {
+          "id": "var-15kSM9IO",
+          "name": "Legacy of Kain: Soul Reaver 1 and 2 Remastered",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15kSM9IORoqqWzuiwdnz4kj4Yhbxg6fD3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15kSM9IORoqqWzuiwdnz4kj4Yhbxg6fD3&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 010079901C898000_Legacy_of_Kain__Soul_Reaver_1_and_2_Rema.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010048454C4C1000",
+      "title": "Helltaker (неофициальный нативный порт) [NSP, XCI][RUS/Multi5]",
+      "publisher": "D3fau4",
+      "variants": [
+        {
+          "id": "var-1UACFsxZ",
+          "name": "Helltaker",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UACFsxZ2LeGAFYNj4d5wVwCzGagG4hnT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UACFsxZ2LeGAFYNj4d5wVwCzGagG4hnT&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 010048454C4C1000_Helltaker.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F0B025506000",
+      "title": "Blood: Refreshed Supply + Death Wish, Plasma Pak, Cryptic Passage, Marrow [NSZ][ENG]",
+      "publisher": "Atari",
+      "variants": [
+        {
+          "id": "var-1-0jeFJe",
+          "name": "Blood: Refreshed Supply + Death Wish, Plasma Pak, Cryptic Passage, Marrow",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-0jeFJetnaFgZqFa9Cfz44QjQMMI6aiG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-0jeFJetnaFgZqFa9Cfz44QjQMMI6aiG&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 0100F0B025506000_Blood__Refreshed_Supply___Death_Wish__Pl.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A3900C3E2000",
+      "title": "Paper Mario The Origami King [NSP][ENG]",
+      "publisher": "Nintendo",
+      "variants": [
+        {
+          "id": "var-1cAA5R2A",
+          "name": "Paper Mario The Origami King",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cAA5R2AOnlC_GGRyd4x4AP-4wFo20QYF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cAA5R2AOnlC_GGRyd4x4AP-4wFo20QYF&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 0100A3900C3E2000_Paper_Mario_The_Origami_King.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010045800ED1E000",
+      "title": "Shin Megami Tensei III (SMT 3) Nocturne HD Remaster [NSZ][ENG]",
+      "publisher": "Atlus",
+      "variants": [
+        {
+          "id": "var-1jEdHmEl",
+          "name": "Shin Megami Tensei III Nocturne HD Remaster",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jEdHmElZlCxUwqJggvwDI87LJeuo1T4q",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jEdHmElZlCxUwqJggvwDI87LJeuo1T4q&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 010045800ED1E000_Shin_Megami_Tensei_III_Nocturne_HD_Remas.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010058600E531000",
+      "title": "Empire of Sin + 5 DLC [NSZ][RUS/Multi5]",
+      "publisher": "Paradox Interactive",
+      "variants": [
+        {
+          "id": "var-1hKlZYd6",
+          "name": "Empire of Sin + 5",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hKlZYd68wL4Zv9RukTXeIAeTl3g6kXTR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hKlZYd68wL4Zv9RukTXeIAeTl3g6kXTR&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 010058600E531000_Empire_of_Sin___5.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100927023A34000",
+      "title": "SOMA [NSZ][RUS (Voice Mod.)/Multi8]",
+      "publisher": "Abylight Barcelona",
+      "variants": [
+        {
+          "id": "var-1tuN5f2l",
+          "name": "SOMA",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tuN5f2lx5cQLZrAKtTmBWPoS7AGkKDXQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tuN5f2lx5cQLZrAKtTmBWPoS7AGkKDXQ&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 0100927023A34000_SOMA.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FD101186C000",
+      "title": "Life is Strange 2 [NSP][RUS/Multi8]",
+      "publisher": "Square Enix Europe, Ltd.",
+      "variants": [
+        {
+          "id": "var-1f3BJdC9",
+          "name": "Life is Strange 2",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1f3BJdC9FlajuXEQxSh45JuMyvgHXxRNu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1f3BJdC9FlajuXEQxSh45JuMyvgHXxRNu&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100FD101186C000_Life_is_Strange_2.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01006F301AE9C000",
+      "title": "Grounded [NSP][RUS/Multi11]",
+      "publisher": "Microsoft Studios, Xbox Game Studios",
+      "variants": [
+        {
+          "id": "var-1FRhMX5V",
+          "name": "Grounded",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FRhMX5VYwiQTWPlt1nN4ItQPUu5pczM4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FRhMX5VYwiQTWPlt1nN4ItQPUu5pczM4&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 01006F301AE9C000_Grounded.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010021E02095A000",
+      "title": "Rounds [NSZ][RUS/Multi8]",
+      "publisher": "Landfall Games AB",
+      "variants": [
+        {
+          "id": "var-1XKaMN8h",
+          "name": "Rounds",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XKaMN8hBnVxUT8tbdhi4fzn_hVT8HAN2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XKaMN8hBnVxUT8tbdhi4fzn_hVT8HAN2&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 010021E02095A000_Rounds.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01007C6025688000",
+      "title": "Rayman 30th Anniversary edition (6 игр) [NSP][ENG]",
+      "publisher": "Ubisoft Entertainment SA",
+      "variants": [
+        {
+          "id": "var-1WJKNEnn",
+          "name": "Rayman 30th Anniversary",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WJKNEnncynaeNaJBZUuH3oB7bWeIfHQJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WJKNEnncynaeNaJBZUuH3oB7bWeIfHQJ&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 01007C6025688000_Rayman_30th_Anniversary.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01000CA004DCA000",
+      "title": "Human Fall Flat + 2 DLC [NSZ][RUS/Multi5]",
+      "publisher": "Curve Digital",
+      "variants": [
+        {
+          "id": "var-1smAxjsM",
+          "name": "Human Fall Flat + 2",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1smAxjsMolwzm_Esh8YKcsOvfAH-y6QLg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1smAxjsMolwzm_Esh8YKcsOvfAH-y6QLg&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 01000CA004DCA000_Human_Fall_Flat___2.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01002DE00C250000",
+      "title": "Children of Morta + DLC Paws and Claws, Ancient Spirits [NSZ][RUS/Multi7]",
+      "publisher": "11 bit studios",
+      "variants": [
+        {
+          "id": "var-1abxQl53",
+          "name": "Children of Morta + Paws and Claws, Ancient Spirits",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1abxQl53pfIMtk3iHcGBimqvxsvGCZDKn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1abxQl53pfIMtk3iHcGBimqvxsvGCZDKn&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 01002DE00C250000_Children_of_Morta___Paws_and_Claws__Anci.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010029300E5C4000",
+      "title": "The Stanley Parable: Ultra Deluxe [NSZ][RUS/Multi6]",
+      "publisher": "Crows Crows Crows",
+      "variants": [
+        {
+          "id": "var-1DqWNwUR",
+          "name": "The Stanley Parable: Ultra Deluxe",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DqWNwURfkn__k5d8O6UUufLoFz2gP9u5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DqWNwURfkn__k5d8O6UUufLoFz2gP9u5&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 010029300E5C4000_The_Stanley_Parable__Ultra_Deluxe.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010032E00E6E2000",
+      "title": "Return of the Obra Dinn [NSZ][RUS/Multi10]",
+      "publisher": "3909",
+      "variants": [
+        {
+          "id": "var-1t-ZA28B",
+          "name": "Return of the Obra Dinn",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1t-ZA28BUG50PWNoMYCujDuwOfopFyK4x",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1t-ZA28BUG50PWNoMYCujDuwOfopFyK4x&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 010032E00E6E2000_Return_of_the_Obra_Dinn.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EE701494A000",
+      "title": "Tomb of the Mask [NSZ][RUS/Multi9]",
+      "publisher": "Playgendary",
+      "variants": [
+        {
+          "id": "var-1N1S_LmN",
+          "name": "Tomb of the Mask",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1N1S_LmNSguamnRJxojmx8yebD30xFGCO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1N1S_LmNSguamnRJxojmx8yebD30xFGCO&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 0100EE701494A000_Tomb_of_the_Mask.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01006C100EC08000",
+      "title": "Minecraft Dungeons + 7 DLC [NSZ][RUS/Multi9]",
+      "publisher": "Mojang",
+      "variants": [
+        {
+          "id": "var-188f6aWh",
+          "name": "Minecraft Dungeons + 7",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=188f6aWhQHEZDimKhUBKURYGA5Ia8Hnb6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=188f6aWhQHEZDimKhUBKURYGA5Ia8Hnb6&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 01006C100EC08000_Minecraft_Dungeons___7.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010051C0134F8000",
+      "title": "Dragon Ball Z Kakarot a New Power Awakens Set + 20 DLC [NSZ][RUS/Multi7]",
+      "publisher": "BANDAI NAMCO Entertainment",
+      "variants": [
+        {
+          "id": "var-1ivv-SNL",
+          "name": "Dragon Ball Z Kakarot a New Power Awakens Set + 20",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ivv-SNLR6K76RInQuQneOM3W1NQp_Zqd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ivv-SNLR6K76RInQuQneOM3W1NQp_Zqd&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 010051C0134F8000_Dragon_Ball_Z_Kakarot_a_New_Power_Awaken.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01005FE01291A000",
+      "title": "Lost in Random [NSP][ENG]",
+      "publisher": "Electronic Arts",
+      "variants": [
+        {
+          "id": "var-1Nb7t-oj",
+          "name": "Lost in Random",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Nb7t-ojINQJwXi1ig3lSsnByOQJwBj-N",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Nb7t-ojINQJwXi1ig3lSsnByOQJwBj-N&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 01005FE01291A000_Lost_in_Random.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010054001899E000",
+      "title": "Potion Craft [NSZ][RUS/Multi10]",
+      "publisher": "tinyBuild",
+      "variants": [
+        {
+          "id": "var-1biWWtOI",
+          "name": "Potion Craft",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1biWWtOI8KmO18B5iXXchlTVnKpuuMI0Z",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1biWWtOI8KmO18B5iXXchlTVnKpuuMI0Z&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 010054001899E000_Potion_Craft.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E9A00CB30000",
+      "title": "Dynasty Warriors 8 Xtreme Legends Definitive edition [NSP][ENG]",
+      "publisher": "KOEI TECMO AMERICA",
+      "variants": [
+        {
+          "id": "var-1rzenEPK",
+          "name": "Dynasty Warriors 8 Xtreme Legends Definitive",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rzenEPK1S6lRQ5o5saJlXcV4ne8tdeO3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rzenEPK1S6lRQ5o5saJlXcV4ne8tdeO3&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100E9A00CB30000_Dynasty_Warriors_8_Xtreme_Legends_Defini.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A6E01201C000",
+      "title": "Supraland [NSZ][RUS/Multi9]",
+      "publisher": "Humble Games",
+      "variants": [
+        {
+          "id": "var-1lJhFEV7",
+          "name": "Supraland",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lJhFEV7uCnc0tPvMnC30M_4GlcbxQR2u",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lJhFEV7uCnc0tPvMnC30M_4GlcbxQR2u&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100A6E01201C000_Supraland.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010017A0128C4000",
+      "title": "JoJo's Bizarre Adventure All-Star Battle R Deluxe edition + 12 DLC [NSZ][ENG]",
+      "publisher": "BANDAI NAMCO Entertainment",
+      "variants": [
+        {
+          "id": "var-1eqklT2c",
+          "name": "JoJo's Bizarre Adventure All-Star Battle R Deluxe + 12",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eqklT2cKs0LhxYKIKCJ4jCKDZyi3GF-L",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eqklT2cKs0LhxYKIKCJ4jCKDZyi3GF-L&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 010017A0128C4000_JoJo_s_Bizarre_Adventure_All-Star_Battle.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01000CE00CBB8000",
+      "title": "Plague Inc Evolved + The Cure DLC [NSZ][RUS/Multi8]",
+      "publisher": "Ndemic Creations",
+      "variants": [
+        {
+          "id": "var-1UBJ_lNj",
+          "name": "Plague Inc Evolved + The Cure",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UBJ_lNjN0nr90onOG9KZ53srUlUZzisH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UBJ_lNjN0nr90onOG9KZ53srUlUZzisH&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 01000CE00CBB8000_Plague_Inc_Evolved___The_Cure.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01005EA01C0FD000",
+      "title": "Sonic X Shadow Generations + 5 DLC [NSZ][RUS/Multi12]",
+      "publisher": "SEGA",
+      "variants": [
+        {
+          "id": "var-1Y-_iHaN",
+          "name": "Sonic X Shadow Generations + 5",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Y-_iHaNy3jYdvvFdOe2fnaRwLPN6qc18",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Y-_iHaNy3jYdvvFdOe2fnaRwLPN6qc18&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 01005EA01C0FD000_Sonic_X_Shadow_Generations___5.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010023001969A000",
+      "title": "Session Skate Sim [NSP][RUS/Multi10]",
+      "publisher": "Nacon",
+      "variants": [
+        {
+          "id": "var-1Xxhy9eL",
+          "name": "Session Skate Sim",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Xxhy9eL9YKl8Te4x_2jwDXgoOL6iQAdg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Xxhy9eL9YKl8Te4x_2jwDXgoOL6iQAdg&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 010023001969A000_Session_Skate_Sim.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100810012A1A000",
+      "title": "Carto [NSZ][RUS/Multi8]",
+      "publisher": "Humble Games",
+      "variants": [
+        {
+          "id": "var-1-EA4Vy6",
+          "name": "Carto",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-EA4Vy6znisoo0ScXHnS7GdkOLvRpUC-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-EA4Vy6znisoo0ScXHnS7GdkOLvRpUC-&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100810012A1A000_Carto.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CEE01D23C000",
+      "title": "Tchia [NSZ][RUS/Multi10]",
+      "publisher": "Kepler Interactive, Mataboo",
+      "variants": [
+        {
+          "id": "var-14HlR-bw",
+          "name": "Tchia",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14HlR-bwy0TG5fJoRhmkHyzVGLlUA-w9T",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14HlR-bwy0TG5fJoRhmkHyzVGLlUA-w9T&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100CEE01D23C000_Tchia.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C1500B82E000",
+      "title": "The World Ends with You: Final Remix (Этот мир без границ) [RePack][NSP][RUS (Mod.)]",
+      "publisher": "Nintendo",
+      "variants": [
+        {
+          "id": "var-1rNA_tSB",
+          "name": "The World Ends with You: Final Remix",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rNA_tSB7tFV-nKcsdchdU3cI_VSN2IXK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rNA_tSB7tFV-nKcsdchdU3cI_VSN2IXK&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100C1500B82E000_The_World_Ends_with_You__Final_Remix.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EC800800C000",
+      "title": "Naruto Shippuden: Ultimate Ninja Storm 1-2-3 Trilogy [NSP][RUS/ENG/Multi6]",
+      "publisher": "BANDAI NAMCO Entertainment",
+      "variants": [
+        {
+          "id": "var-11az7LQz",
+          "name": "Naruto Shippuden: Ultimate Ninja Storm 1-2-3 Trilogy",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11az7LQzoodoRvIU6T0xtlQpwDydcxyns",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11az7LQzoodoRvIU6T0xtlQpwDydcxyns&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100EC800800C000_Naruto_Shippuden__Ultimate_Ninja_Storm_1.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100947013122000",
+      "title": "Ruined King (A League of Legends Story) + 4 DLC [NSP][RUS/Multi10]",
+      "publisher": "Riot Forge",
+      "variants": [
+        {
+          "id": "var-1NEGsOF6",
+          "name": "Ruined King + 4",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NEGsOF6mLpg_r0Me-7MA9O6JdrfHgLQv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NEGsOF6mLpg_r0Me-7MA9O6JdrfHgLQv&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100947013122000_Ruined_King___4.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010043B013C5C000",
+      "title": "NEO The World Ends with You + 2 DLC [NSZ][ENG]",
+      "publisher": "SQUARE ENIX",
+      "variants": [
+        {
+          "id": "var-1aORW_Uh",
+          "name": "NEO The World Ends with You + 2",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1aORW_UhOb_IyztfXrhmzrx0zd8cMqzEa",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1aORW_UhOb_IyztfXrhmzrx0zd8cMqzEa&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 010043B013C5C000_NEO_The_World_Ends_with_You___2.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01004F8006A78000",
+      "title": "Super Meat Boy (+Original BGM) [NSP][RUS/Multi10]",
+      "publisher": "BlitWorks",
+      "variants": [
+        {
+          "id": "var-1PvzWFkj",
+          "name": "Super Meat Boy",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PvzWFkj4XOxNOq_1wEDv7tgYQoKFw3ef",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PvzWFkj4XOxNOq_1wEDv7tgYQoKFw3ef&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 01004F8006A78000_Super_Meat_Boy.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B2C016252000",
+      "title": "Star Wars Knights of the Old Republic II: The Sith Lords (KOTOR 2) [NSZ][ENG]",
+      "publisher": "Aspyr",
+      "variants": [
+        {
+          "id": "var-1casu1SA",
+          "name": "Star Wars Knights of the Old Republic II: The Sith Lords",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1casu1SA3t5MEk4hyAQGAXR8HpP-E4AHO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1casu1SA3t5MEk4hyAQGAXR8HpP-E4AHO&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100B2C016252000_Star_Wars_Knights_of_the_Old_Republic_II.mp4"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-10-20T18:41:35.535377+00:00"
+  "lastUpdated": "2026-10-20T18:51:26.134728+00:00"
 }
