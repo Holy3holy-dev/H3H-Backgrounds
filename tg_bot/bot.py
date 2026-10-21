@@ -181,6 +181,8 @@ def passthrough_switch_video(src_vid: Path, out_mp4: Path, out_thumb: Path, is_h
         "-i", str(src_vid),
         "-c:v", "copy",
         "-an",
+        "-sn",
+        "-dn",
         "-movflags", "+faststart"
     ]
     if is_hevc:
@@ -191,10 +193,11 @@ def passthrough_switch_video(src_vid: Path, out_mp4: Path, out_thumb: Path, is_h
 
     cmd_thumb = [
         "ffmpeg", "-y", "-nostdin",
+        "-threads", "1",
         "-ss", "1",
         "-i", str(out_mp4),
         "-vframes", "1",
-        "-vf", "scale=640:360:force_original_aspect_ratio=decrease,pad=640:360:(ow-iw)/2:(oh-ih)/2:black",
+        "-vf", "scale=640:360:force_original_aspect_ratio=decrease:flags=fast_bilinear,pad=640:360:(ow-iw)/2:(oh-ih)/2:black",
         "-f", "image2",
         str(out_thumb)
     ]
@@ -211,17 +214,23 @@ def transcode_to_switch_720p(src_vid: Path, out_mp4: Path, out_thumb: Path, code
 
     is_hevc = (codec.lower() in ("hevc", "h265"))
 
-    # Fast input seek + 30s limit to avoid decoding huge files
+    # Optimized for cloud containers (Render CPU quota):
+    # -threads 2 prevents CFS quota exhaustion & thread contention
+    # flags=fast_bilinear avoids heavy floating-point software scaling
+    # -crf 23 eliminates two-pass VBV buffer lookahead overhead
     cmd_ffmpeg = [
         "ffmpeg", "-y", "-nostdin",
+        "-threads", "2",
         "-ss", "0",
         "-t", "30",
         "-i", str(src_vid),
-        "-vf", "scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:black",
-        "-threads", "0",
+        "-vf", "scale=1280:720:force_original_aspect_ratio=decrease:flags=fast_bilinear,pad=1280:720:(ow-iw)/2:(oh-ih)/2:black",
+        "-threads", "2",
         "-r", "30",
         "-pix_fmt", "yuv420p",
         "-an",
+        "-sn",
+        "-dn",
         "-movflags", "+faststart"
     ]
 
@@ -230,10 +239,8 @@ def transcode_to_switch_720p(src_vid: Path, out_mp4: Path, out_thumb: Path, code
             "-c:v", "libx265",
             "-preset", "ultrafast",
             "-tune", "fastdecode",
-            "-x265-params", "fast-intra=1:no-info=1:no-open-gop=1:scenecut=0",
-            "-b:v", "1800k",
-            "-maxrate", "2400k",
-            "-bufsize", "4000k",
+            "-x265-params", "fast-intra=1:no-info=1:no-open-gop=1:scenecut=0:pools=2:frame-threads=2",
+            "-crf", "26",
             "-tag:v", "hvc1",
             str(out_mp4)
         ])
@@ -244,9 +251,9 @@ def transcode_to_switch_720p(src_vid: Path, out_mp4: Path, out_thumb: Path, code
             "-tune", "fastdecode",
             "-profile:v", "high",
             "-level", "4.1",
-            "-b:v", "2500k",
-            "-maxrate", "3000k",
-            "-bufsize", "5000k",
+            "-crf", "23",
+            "-maxrate", "3500k",
+            "-bufsize", "6000k",
             str(out_mp4)
         ])
 
@@ -265,10 +272,11 @@ def transcode_to_switch_720p(src_vid: Path, out_mp4: Path, out_thumb: Path, code
 
     cmd_thumb = [
         "ffmpeg", "-y", "-nostdin",
+        "-threads", "1",
         "-ss", "1",
         "-i", str(out_mp4),
         "-vframes", "1",
-        "-vf", "scale=640:360:force_original_aspect_ratio=decrease,pad=640:360:(ow-iw)/2:(oh-ih)/2:black",
+        "-vf", "scale=640:360:force_original_aspect_ratio=decrease:flags=fast_bilinear,pad=640:360:(ow-iw)/2:(oh-ih)/2:black",
         "-f", "image2",
         str(out_thumb)
     ]
