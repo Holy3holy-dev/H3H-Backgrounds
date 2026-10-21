@@ -27,7 +27,7 @@ class SteamGridDBClient:
     def _get_headers(self) -> Dict[str, str]:
         return {
             "Authorization": f"Bearer {self.api_key}",
-            "User-Agent": "H3H-Studio/1.0"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
         }
 
     def _fetch_json_with_retry(self, url: str, retries: int = 2) -> Optional[Dict[str, Any]]:
@@ -92,7 +92,7 @@ class SteamGridDBClient:
             tmp_in_path = Path(tmp_in.name)
 
         try:
-            req = urllib.request.Request(art_url, headers={"User-Agent": "H3H-Studio/1.0"})
+            req = urllib.request.Request(art_url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
             try:
                 with urllib.request.urlopen(req, timeout=30) as resp:
                     with open(tmp_in_path, "wb") as f:

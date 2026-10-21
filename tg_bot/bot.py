@@ -154,8 +154,11 @@ def probe_video_stream(video_path: Path) -> Dict[str, Any]:
 def is_switch_720p_ready(stream_info: Dict[str, Any]) -> Tuple[bool, str]:
     """Returns (is_ready, codec) if the video is already 1280x720 AVC or HEVC."""
     codec = stream_info.get("codec_name", "").lower()
-    width = stream_info.get("width", 0)
-    height = stream_info.get("height", 0)
+    try:
+        width = int(stream_info.get("width", 0))
+        height = int(stream_info.get("height", 0))
+    except (ValueError, TypeError):
+        width, height = 0, 0
 
     if width == 1280 and height == 720:
         if codec in ("h264", "avc1"):
@@ -204,26 +207,30 @@ def transcode_to_switch_720p(src_vid: Path, out_mp4: Path, out_thumb: Path, code
 
     is_hevc = (codec.lower() in ("hevc", "h265"))
 
+    # Fast input seek + 30s limit to avoid decoding huge files
     cmd_ffmpeg = [
         "ffmpeg", "-y", "-nostdin",
+        "-ss", "0",
         "-t", "30",
         "-i", str(src_vid),
         "-vf", "scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:black",
+        "-threads", "0",
+        "-r", "30",
+        "-pix_fmt", "yuv420p",
+        "-an",
+        "-movflags", "+faststart"
     ]
 
     if is_hevc:
         cmd_ffmpeg.extend([
             "-c:v", "libx265",
             "-preset", "ultrafast",
-            "-threads", "2",
-            "-pix_fmt", "yuv420p",
-            "-r", "30",
+            "-tune", "fastdecode",
+            "-x265-params", "fast-intra=1:no-info=1:no-open-gop=1:scenecut=0",
             "-b:v", "1800k",
             "-maxrate", "2400k",
             "-bufsize", "4000k",
-            "-an",
             "-tag:v", "hvc1",
-            "-movflags", "+faststart",
             str(out_mp4)
         ])
     else:
@@ -231,25 +238,22 @@ def transcode_to_switch_720p(src_vid: Path, out_mp4: Path, out_thumb: Path, code
             "-c:v", "libx264",
             "-preset", "ultrafast",
             "-tune", "fastdecode",
-            "-threads", "2",
             "-profile:v", "high",
             "-level", "4.1",
-            "-pix_fmt", "yuv420p",
-            "-r", "30",
             "-b:v", "2500k",
             "-maxrate", "3000k",
             "-bufsize", "5000k",
-            "-an",
-            "-movflags", "+faststart",
             str(out_mp4)
         ])
 
     try:
-        subprocess.run(cmd_ffmpeg, stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True, timeout=120)
+        subprocess.run(cmd_ffmpeg, stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True, timeout=300)
     except subprocess.TimeoutExpired:
-        raise RuntimeError("Конвертация FFmpeg превысила лимит времени (120с). Ролик слишком длинный или повреждён.")
+        if is_hevc:
+            print("[!] HEVC timed out on cloud CPU, auto-falling back to H.264 ultrafast...")
+            return transcode_to_switch_720p(src_vid, out_mp4, out_thumb, codec="h264")
+        raise RuntimeError("Конвертация FFmpeg превысила лимит времени (300с). Ролик слишком длинный или повреждён.")
     except subprocess.CalledProcessError as e:
-        # Graceful fallback to libx264 if libx265 fails
         if is_hevc:
             return transcode_to_switch_720p(src_vid, out_mp4, out_thumb, codec="h264")
         err = e.stderr.decode("utf-8", errors="ignore") if e.stderr else str(e)
