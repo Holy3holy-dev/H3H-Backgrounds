@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T19:38:02.034230+00:00",
+  "updatedAt": "2026-10-21T19:39:32.464097+00:00",
   "totalGames": 789,
-  "totalVariants": 920,
+  "totalVariants": 923,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -21638,6 +21638,60 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Ori And The Will Of The Wisps Swamp | ЗВУК"
+        },
+        {
+          "id": "v_c048652d",
+          "name": "Ori And The Will Of The Wisps",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ajC2X8CNfLLPcdhY6DCLSS61fr9FZIfL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ajC2X8CNfLLPcdhY6DCLSS61fr9FZIfL&sz=w640",
+          "sizeBytes": 4720492,
+          "sha256": "7BE1E43326EFF6C9F75E35438DDE246C88F2F83057DED3D3BC151635F23FD9D8",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ori And The Will Of The Wisps | ЗВУК"
+        },
+        {
+          "id": "v_f99d50fb",
+          "name": "Ori Running Ori And The Blind Forest",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1H_SJJoXqoEWcBJ9Ga5Y7LenoI5w_qdsC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1H_SJJoXqoEWcBJ9Ga5Y7LenoI5w_qdsC&sz=w640",
+          "sizeBytes": 2174595,
+          "sha256": "D72D96F01AB1BCC601D1AD6414CD8ACD6797C8CBC8BA8F05EC9CF99A2D2DAAD5",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ori Running Ori And The Blind Forest | ЗВУК"
+        },
+        {
+          "id": "v_97ac48a4",
+          "name": "Nibel Ori And The Blind Forest",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yYverFeSLC2ukqNTHEFaDnja43ayDtbV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yYverFeSLC2ukqNTHEFaDnja43ayDtbV&sz=w640",
+          "sizeBytes": 4778378,
+          "sha256": "D05BD65B7C9EB0CDD228222EBBFAEA2C617B2349CA7657D27DA56FC95CEAED4F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Nibel Ori And The Blind Forest | ЗВУК"
         }
       ]
     },
