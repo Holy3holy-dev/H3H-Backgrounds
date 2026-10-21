@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "name": "H3H After Dark (18+) Official Catalog",
-  "updatedAt": "2026-10-21T20:41:26.013120+00:00",
-  "totalGames": 9,
-  "totalVariants": 75,
+  "updatedAt": "2026-10-21T20:42:44.543943+00:00",
+  "totalGames": 11,
+  "totalVariants": 80,
   "games": [
     {
       "titleId": "0000000000000000",
@@ -1419,6 +1419,112 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Mythra Full Moon Starry Night Xenoblade | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "01005A7013EA0000",
+      "title": "Doki Doki Literature Club Plus!",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005A7013EA0000.jpg",
+      "variants": [
+        {
+          "id": "v_3f9a6d24",
+          "name": "Monika You Look Lonely",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ABZZeRTOYln--v9wdfcAv2SUkl3fG0MB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ABZZeRTOYln--v9wdfcAv2SUkl3fG0MB&sz=w640",
+          "sizeBytes": 4663925,
+          "sha256": "06327F68E01F21059D636F6DC91F6738DE1FBA909AF05E0BA1F64B6B68A6550A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Monika You Look Lonely | ЗВУК"
+        },
+        {
+          "id": "v_90499347",
+          "name": "Monika Cherry Blossom Doki Doki Literatu",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wQt-roYPaayhlQBpZzjSOxyf3bg7QsXO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wQt-roYPaayhlQBpZzjSOxyf3bg7QsXO&sz=w640",
+          "sizeBytes": 4722162,
+          "sha256": "3F907522B2BD80B8133EBDF5F305F5D198D4D13F5A12429E127BEA1A66FFDC41",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Monika Cherry Blossom Doki Doki Literatu | ЗВУК"
+        },
+        {
+          "id": "v_181855d6",
+          "name": "Monika Rainy Day At The Beach Doki Doki",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1D5Iepf0XwFZjzgHCowEF3yTLphGyuYlw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1D5Iepf0XwFZjzgHCowEF3yTLphGyuYlw&sz=w640",
+          "sizeBytes": 4711467,
+          "sha256": "942B5A864194D775AEB5B12048F7B41552D10DD23AD429BBB6D721BC98210993",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Monika Rainy Day At The Beach Doki Doki | ЗВУК"
+        },
+        {
+          "id": "v_43f10766",
+          "name": "Doki Doki Literature Club!",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12n2QvQt5taObbFkjOyxvMG6Mgta9gmBp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12n2QvQt5taObbFkjOyxvMG6Mgta9gmBp&sz=w640",
+          "sizeBytes": 4691674,
+          "sha256": "0CCFD3A1D154637B6211B402757A9DA9DF0460EBCA99CE38880F5C3D943B50A4",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Doki Doki Literature Club! | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A6301646E000",
+      "title": "Needy Streamer Overload",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A6301646E000.jpg",
+      "variants": [
+        {
+          "id": "v_3ae9053c",
+          "name": "KAngel Needy Girl Overdose",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kwjVSa6ZakcaJMUqtqLHBYsDjqjLr52t",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kwjVSa6ZakcaJMUqtqLHBYsDjqjLr52t&sz=w640",
+          "sizeBytes": 4737133,
+          "sha256": "DB42E4F036B4EE75ADB7A218093488E620FFC03C2F5EC0154A8979F550CC7FC8",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | KAngel Needy Girl Overdose | ЗВУК"
         }
       ]
     }
