@@ -3,16 +3,18 @@ H3H Automated Video Background Harvester Pipeline.
 Streamlined, continuous harvesting ("на поток") for both:
 1. Main Branch: High-quality, atmospheric, SFW gaming video backgrounds for Nintendo Switch.
    Sources: SteamGridDB (animated heroes/grids for Switch games) + MoeWalls (cinematic Switch exclusives).
-2. After Dark Branch: Mature, ecchi, 18+, anime/waifu video backgrounds.
-   Sources: MoeWalls (mature tags/waifus) + Community collections.
+2. After Dark Branch: Mature, ecchi, 18+, anime/waifu video backgrounds for Nintendo Switch games and collection.
+   Sources: MoeWalls (Switch games with adult/ecchi filters + waifus).
 
 Features:
 - Dual-source harvesting (SteamGridDB + MoeWalls)
+- Switch Title prioritization for BOTH Main and After Dark catalogs
+- Strict After Dark validation (only genuine adult, ecchi, sensual, waifu, swimsuit content)
 - Codec selection: AVC (H.264) or HEVC (H.265 with NVDEC hvc1 tag)
 - Continuous streaming loop mode (--continuous) with configurable intervals and batch sizes
 - Automatic Google Drive token refresh (runs indefinitely without auth expiry)
-- Atomic progress logging and duplicate prevention on H: drive
-- Automated GitHub catalog sync and branch pushing
+- Atomic progress logging and duplicate prevention
+- Automated GitHub catalog sync with --force push to after-dark branch
 """
 
 import os
@@ -60,7 +62,6 @@ HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 
 # Priority games queue for SteamGridDB harvesting (high yield of animated heroes & motion grids)
 PRIORITY_STEAMGRID_GAMES = [
-    # Top Action & Shooters
     ("01007820196A6000", "Red Dead Redemption", "Red Dead Redemption"),
     ("0100ABD01785C000", "Portal Companion Collection", "Portal"),
     ("01000B900D8B0000", "DOOM Eternal", "DOOM Eternal"),
@@ -100,35 +101,48 @@ PRIORITY_STEAMGRID_GAMES = [
     ("010086C00AF7C000", "Ori and the Will of the Wisps", "Ori and the Will of the Wisps")
 ]
 
-# Nintendo Switch games with mature / adult / ecchi / waifu content
+# Dedicated Nintendo Switch games for After Dark (with specific character and mature queries)
 MATURE_SWITCH_GAMES = [
     # Top Action & Mature RPGs on Switch
-    ("01005C000B2AE000", "NieR:Automata", ["nier automata 2b", "nier 2b", "nier a2", "2b ecchi"]),
-    ("010076F0049A2000", "Bayonetta", ["bayonetta", "bayonetta umbra witch", "bayonetta sexy"]),
+    ("01005C000B2AE000", "NieR:Automata", ["2b", "nier 2b", "nier a2", "2b ecchi", "2b swimsuit", "2b white"]),
+    ("0100A5B00BDC6000", "Final Fantasy VII", ["tifa", "tifa lockhart", "aerith", "tifa bikini", "aerith beach"]),
+    ("0100E95004038000", "Xenoblade Chronicles 2", ["pyra", "mythra", "xenoblade pyra", "xenoblade mythra"]),
+    ("010074600E9F2000", "Xenoblade Chronicles 3", ["xenoblade 3 mio", "xenoblade eunie", "xenoblade 3"]),
+    ("0100F2C0115B6000", "The Legend of Zelda: Tears of the Kingdom", ["zelda", "purah", "zelda tears of the kingdom"]),
+    ("01007EF00011E000", "The Legend of Zelda: Breath of the Wild", ["princess zelda", "zelda gerudo", "zelda breath of the wild"]),
+    ("010076F0049A2000", "Bayonetta", ["bayonetta", "cereza bayonetta", "bayonetta umbra"]),
     ("010076F0049A4000", "Bayonetta 2", ["bayonetta 2", "bayonetta jeanne"]),
     ("01004A4010DAA000", "Bayonetta 3", ["bayonetta 3", "bayonetta ceres"]),
-    ("0100E95004038000", "Xenoblade Chronicles 2", ["xenoblade pyra", "xenoblade mythra", "pyra mythra", "xenoblade nia"]),
-    ("010074600E9F2000", "Xenoblade Chronicles 3", ["xenoblade 3 mio", "xenoblade eunie"]),
+    ("010052300C3DC000", "Catherine: Full Body", ["catherine full body", "catherine rin", "catherine"]),
+    ("01005A7013EA0000", "Doki Doki Literature Club Plus!", ["monika", "doki doki monika", "ddlc monika"]),
+    ("0100A6301646E000", "Needy Streamer Overload", ["kangel", "needy streamer overload", "ame chan"]),
+    ("01002DA013484000", "Metroid Dread", ["samus", "samus aran", "zero suit samus"]),
+    ("0100000000010000", "Super Mario Odyssey", ["bowsette", "boosette", "princess peach", "rosalina"]),
+    ("0100E8B00BDC6000", "The Witcher 3: Wild Hunt", ["witcher yennefer", "witcher triss", "witcher ciri"]),
     ("010091200CDA4000", "Persona 5 Royal", ["persona 5 ann", "persona 5 makoto", "persona 5 kasumi", "persona 5 takemi"]),
-    ("0100908018CD6000", "Shin Megami Tensei V", ["shin megami tensei v", "smt v nahobino"]),
-    ("010052300C3DC000", "Catherine: Full Body", ["catherine full body", "catherine game", "catherine rin"]),
-    ("0100E8B00BDC6000", "The Witcher 3: Wild Hunt", ["witcher 3 yennefer", "witcher 3 triss", "witcher 3 ciri"]),
-
-    # Dedicated Ecchi & Waifu Switch Releases
-    ("010099400D28E000", "Senran Kagura Peach Ball", ["senran kagura", "senran kagura asuka", "senran kagura yumi"]),
+    ("010034B016912000", "Persona 4 Golden", ["persona 4 rise", "persona 4 chie", "persona 4 yukiko"]),
+    ("0100808016910000", "Persona 3 Portable", ["persona 3 mitsuru", "persona 3 yukari", "persona 3 aigis"]),
+    ("010034200B5B0000", "Dead or Alive Xtreme 3 Scarlet", ["dead or alive", "marie rose", "honoka dead or alive"]),
+    ("010099400D28E000", "Senran Kagura Peach Ball", ["senran kagura", "senran", "senran kagura asuka"]),
     ("0100914008272000", "Senran Kagura Reflexions", ["senran kagura reflexions", "senran kagura homura"]),
-    ("010034200B5B0000", "Dead or Alive Xtreme 3 Scarlet", ["dead or alive marie rose", "dead or alive honoka", "dead or alive xtreme"]),
-    ("01003AE007204000", "Gal*Gun 2", ["gal gun 2", "gal gun"]),
-    ("01002360155A6000", "Gal*Gun Double Peace", ["gal gun double peace"]),
-    ("0100A1900F3BA000", "Azur Lane: Crosswave", ["azur lane prinz eugen", "azur lane taihou", "azur lane akagi", "azur lane bikini"]),
-    ("0100A8900A4A0000", "Fate/EXTELLA LINK", ["fate nero claudius", "fate tamamo", "fate scathach"]),
-    ("01008D9017646000", "Seven Pirates H", ["seven pirates h"]),
-    ("0100EBF010190000", "Moero Crystal H", ["moero crystal h"]),
-    ("01005A7013EA0000", "Doki Doki Literature Club Plus!", ["doki doki monika", "ddlc yuri", "ddlc sayori"]),
-    ("0100A6301646E000", "Needy Streamer Overload", ["needy streamer overload", "kangel", "ame chan"]),
-    ("0100A5B00BDC6000", "Final Fantasy VII", ["tifa lockhart", "aerith gainsborough", "tifa bikini"]),
-    ("0100F2C0115B6000", "The Legend of Zelda: Tears of the Kingdom", ["zelda purah", "zelda totk bikini", "purah totk"]),
-    ("01007EF00011E000", "The Legend of Zelda: Breath of the Wild", ["princess zelda botw", "zelda gerudo"])
+    ("0100A1900F3BA000", "Azur Lane: Crosswave", ["azur lane", "prinz eugen", "taihou", "shinano azur lane", "atago azur lane"]),
+    ("0100A8900A4A0000", "Fate/EXTELLA LINK", ["fate nero", "fate scathach", "fate saber", "fate tamamo"]),
+    ("0100B7000B36E000", "Dragon Ball FighterZ", ["android 18", "android 21"]),
+    ("0100435942450000", "Cyberpunk 2077", ["lucy cyberpunk", "rebecca cyberpunk", "lucy edgerunners"]),
+    ("010055D009AA8000", "Fire Emblem: Three Houses", ["fire emblem edelgard", "fire emblem byleth", "fire emblem hilda"]),
+    ("010052300B254000", "Hades", ["aphrodite hades", "nyx hades", "megaera hades"]),
+    ("01003AE007204000", "Gal*Gun 2", ["gal gun", "gal gun 2"]),
+    ("01008D9017646000", "Seven Pirates H", ["seven pirates h", "seven pirates"]),
+    ("0100EBF010190000", "Moero Crystal H", ["moero crystal h", "moero crystal"])
+]
+
+# General mature / ecchi / waifu queries for After Dark collection
+AFTER_DARK_GENERAL_QUERIES = [
+    "bikini", "swimsuit", "bunny girl", "maid waifu", "beach anime", "lingerie waifu", "ecchi",
+    "nikke", "nikke bikini", "stellar blade eve", "blue archive", "blue archive swimsuit",
+    "genshin impact waifu", "raiden shogun", "yae miko", "ganyu", "hu tao", "furina",
+    "honkai star rail waifu", "kafka honkai", "firefly honkai", "acheron honkai",
+    "chainsaw man makima", "makima bikini", "zero two", "marin kitagawa", "yor forger"
 ]
 
 # Known popular Switch games & famous Homebrew ports for SFW Main catalog
@@ -143,6 +157,15 @@ POPULAR_SWITCH_SFW_GAMES = [
     ("01002DA013484000", "Metroid Dread", ["metroid dread", "samus aran dread"]),
     ("01003BC0000A0000", "Kirby and the Forgotten Land", ["kirby forgotten land", "kirby"]),
     ("0100559011540000", "Monster Hunter Rise", ["monster hunter rise", "monster hunter kamura"]),
+    ("0100BD0009ED6000", "Super Mario 3D World + Bowser's Fury", ["bowsers fury", "mario 3d world"]),
+    ("0100ABF008968000", "Luigi's Mansion 3", ["luigis mansion 3", "luigi mansion"]),
+    ("010055D009AA8000", "Fire Emblem: Three Houses", ["fire emblem three houses", "fire emblem edelgard"]),
+    ("0100E95004038000", "Xenoblade Chronicles 2", ["xenoblade chronicles 2", "xenoblade pyra"]),
+    ("010074600E9F2000", "Xenoblade Chronicles 3", ["xenoblade chronicles 3", "xenoblade 3"]),
+    ("01008C3005A66000", "Dead Cells", ["dead cells prisoner", "dead cells game"]),
+    ("010052300B254000", "Hades", ["hades game underworld", "zagreus hades"]),
+    ("0100CD801CE5E000", "Balatro", ["balatro game", "balatro cards"]),
+    ("010036500ECF2000", "Hollow Knight", ["hollow knight", "hallownest", "hollow knight silksong"]),
 
     # Famous Nintendo Switch Homebrew Ports & Legendary PC/Console Classics
     ("0100A6901170A000", "Need for Speed: Hot Pursuit Remastered", ["need for speed", "need for speed hot pursuit", "nfs police"]),
@@ -160,27 +183,15 @@ POPULAR_SWITCH_SFW_GAMES = [
     ("01000B900D8B0000", "DOOM Eternal", ["doom eternal slayer", "doom eternal fortress"]),
     ("01007E6002A54000", "Sonic Mania", ["sonic mania", "sonic green hill", "sonic the hedgehog"]),
     ("0100994017EE6000", "Sonic Frontiers", ["sonic frontiers", "sonic starfall"]),
-    ("010036500ECF2000", "Hollow Knight", ["hollow knight", "hallownest", "hollow knight silksong"]),
     ("0100E8B00BDC6000", "The Witcher 3: Wild Hunt", ["witcher 3 scenery", "geralt of rivia kaer morhen", "witcher 3 novigrad"]),
     ("01005C000B2AE000", "NieR:Automata", ["nier automata city ruins", "nier automata amusement park"]),
     ("01004AB00A260000", "Dark Souls: Remastered", ["dark souls bonfire", "dark souls anor londo", "dark souls firelink"]),
     ("010091200CDA4000", "Persona 5 Royal", ["persona 5 shibuya", "persona 5 royal phantom thieves"]),
-    ("010052300B254000", "Hades", ["hades game underworld", "zagreus hades"]),
     ("0100B9600AA90000", "Celeste", ["celeste mountain", "celeste game"]),
-    ("01008C3005A66000", "Dead Cells", ["dead cells prisoner", "dead cells game"]),
     ("010076F0049A2000", "Bayonetta", ["bayonetta action", "bayonetta umbra"]),
     ("010079C009494000", "Cuphead", ["cuphead boss", "cuphead game"]),
     ("010086C00AF7C000", "Ori and the Will of the Wisps", ["ori and the will of the wisps", "ori blind forest"]),
     ("010093800B8C8000", "Stardew Valley", ["stardew valley sunset", "stardew valley farm"])
-]
-
-# Queries specifically for After Dark (18+ / Ecchi / Mature / Anime Waifu)
-AFTER_DARK_QUERIES = [
-    "ecchi", "bikini", "swimsuit", "bunny girl",
-    "nier 2b", "nier a2", "tifa lockhart",
-    "nikke", "stellar blade eve", "azur lane",
-    "genshin impact", "honkai star rail", "blue archive",
-    "chainsaw man makima", "fate grand order"
 ]
 
 NSFW_KEYWORDS = [
@@ -220,10 +231,21 @@ class AutoVideoHarvester:
     def _load_log(self) -> Dict[str, Any]:
         if self.log_file.exists():
             try:
-                return json.loads(self.log_file.read_text(encoding="utf-8"))
+                data = json.loads(self.log_file.read_text(encoding="utf-8"))
+                data.setdefault("harvested_urls", {})
+                data.setdefault("total_harvested", len(data["harvested_urls"]))
+                data.setdefault("page_cursors", {})
+                data.setdefault("query_cursor", 0)
+                return data
             except Exception:
                 pass
-        return {"harvested_urls": {}, "total_harvested": 0, "last_updated": ""}
+        return {
+            "harvested_urls": {},
+            "total_harvested": 0,
+            "last_updated": "",
+            "page_cursors": {},
+            "query_cursor": 0
+        }
 
     def _save_log(self):
         self.log_data["last_updated"] = datetime.now(timezone.utc).isoformat()
@@ -250,8 +272,45 @@ class AutoVideoHarvester:
         t_low = text.lower()
         return any(kw in t_low for kw in NSFW_KEYWORDS)
 
-    def search_moewalls_articles(self, query: str, limit: int = 5) -> List[Dict[str, str]]:
-        url = f"https://moewalls.com/?s={urllib.parse.quote(query)}"
+    @staticmethod
+    def is_suitable_for_after_dark(title: str, query: str) -> bool:
+        """Strict validation: ensure wallpaper is genuine adult / ecchi / sensual / waifu content."""
+        t_low = title.lower()
+        q_low = query.lower()
+
+        # Reject obvious non-ecchi male shonen fighting or generic landscapes
+        if any(bad in t_low for bad in ["sasuke", "naruto", "goku", "vegeta", "luffy", "zoro", "male", "boy", "chidori", "rasengan"]):
+            return False
+
+        # Explicit sensual / ecchi / adult keywords
+        ecchi_keywords = [
+            "bikini", "swimsuit", "bunny", "ecchi", "nsfw", "18+", "erotic", "nude",
+            "naked", "cleavage", "lingerie", "boobs", "ass", "thighs", "waifu", "hentai",
+            "sensual", "undressing", "sexy", "maid", "beach", "summer", "bath", "shower",
+            "bed", "sleeping", "wet", "dress", "legs", "relaxing", "night", "flower"
+        ]
+        if any(k in t_low for k in ecchi_keywords):
+            return True
+
+        # Established iconic waifus
+        waifu_characters = [
+            "2b", "a2", "tifa", "aerith", "pyra", "mythra", "purah", "bowsette", "boosette",
+            "bayonetta", "catherine", "kangel", "monika", "prinz eugen", "taihou", "shinano",
+            "atago", "marie rose", "honoka", "asuka", "yumi", "android 18", "lucy", "rebecca",
+            "nikke", "stellar blade", "eve", "makima", "zero two", "marin kitagawa", "yor forger",
+            "raiden", "yae miko", "ganyu", "hu tao", "furina", "kafka", "firefly", "acheron",
+            "samus", "edelgard", "byleth", "aphrodite"
+        ]
+        if any(w in t_low or w in q_low for w in waifu_characters):
+            return True
+
+        return False
+
+    def search_moewalls_articles(self, query: str, limit: int = 5, page: int = 1) -> List[Dict[str, str]]:
+        if page > 1:
+            url = f"https://moewalls.com/page/{page}/?s={urllib.parse.quote(query)}"
+        else:
+            url = f"https://moewalls.com/?s={urllib.parse.quote(query)}"
         req = urllib.request.Request(url, headers=HEADERS)
         results = []
         try:
@@ -261,11 +320,14 @@ class AutoVideoHarvester:
                 clean_title = re.sub('<[^<]+?>', '', raw_title).strip()
                 if self.mode == "main" and self.is_nsfw_text(clean_title):
                     continue
+                if self.mode == "after_dark" and not self.is_suitable_for_after_dark(clean_title, query):
+                    continue
                 results.append({"title": clean_title, "page_url": page_url})
                 if len(results) >= limit:
                     break
         except Exception as e:
-            print(f"[!] Moewalls search error for '{query}': {e}")
+            if "404" not in str(e):
+                print(f"[!] Moewalls search error for '{query}' (p.{page}): {e}")
         return results
 
     def extract_direct_video_url(self, page_url: str) -> Optional[str]:
@@ -458,11 +520,8 @@ class AutoVideoHarvester:
     def harvest_from_steamgriddb(self, limit: int, catalog: Dict[str, Any], games_map: Dict[str, Any], gdrive_token: str) -> int:
         """Harvest animated heroes and motion art from SteamGridDB across Switch library."""
         harvested = 0
-
-        # Build prioritized list of targets
         targets: List[Tuple[str, str, str]] = list(PRIORITY_STEAMGRID_GAMES)
 
-        # Also load switch_titles_db.json for long-tail games
         db_path = PROJECT_ROOT / "studio" / "h3h_studio" / "data" / "switch_titles_db.json"
         if db_path.exists():
             try:
@@ -478,7 +537,6 @@ class AutoVideoHarvester:
             except Exception as e:
                 print(f"[!] Warning reading switch_titles_db: {e}")
 
-        # Prioritize games missing or with few variants in catalog
         targets.sort(key=lambda t: len(games_map.get(t[0].upper(), {}).get("variants", [])))
 
         for tid, full_game_name, search_query in targets:
@@ -499,7 +557,6 @@ class AutoVideoHarvester:
             if not sg_results:
                 continue
 
-            # Find best match
             matched_game = None
             q_low = search_query.lower()
             for cand in sg_results:
@@ -514,7 +571,6 @@ class AutoVideoHarvester:
             sg_id = matched_game["id"]
             sg_name = matched_game["name"]
 
-            # Check animated heroes first
             candidates = []
             try:
                 heroes = self.sgdb_client.get_animated_heroes(sg_id)
@@ -528,7 +584,6 @@ class AutoVideoHarvester:
             except Exception as e:
                 print(f"  [!] Hero fetch error: {e}")
 
-            # Check animated grids if no heroes found
             if not candidates:
                 try:
                     grids = self.sgdb_client.get_animated_grids(sg_id)
@@ -564,46 +619,67 @@ class AutoVideoHarvester:
         return harvested
 
     def harvest_from_moewalls(self, limit: int, catalog: Dict[str, Any], games_map: Dict[str, Any], gdrive_token: str) -> int:
-        """Harvest cinematic live video wallpapers from MoeWalls."""
+        """Harvest cinematic live video wallpapers from MoeWalls with targeted Switch titles & continuous pagination."""
         query_queue: List[Tuple[str, str, str]] = []  # (titleId, gameName, query)
+
         if self.mode == "main":
+            # Curated SFW gaming targets
             for tid, gname, qlist in POPULAR_SWITCH_SFW_GAMES:
                 for q in qlist:
                     query_queue.append((tid, gname, q))
+            # Games in catalog missing variants
+            for g in catalog.get("games", []):
+                tid = g.get("titleId", "").upper()
+                if tid not in ("0000000000000000", "0000000000000001") and len(g.get("variants", [])) < 3:
+                    c_title = clean_switch_title(g.get("title", ""))
+                    if 4 <= len(c_title) <= 28 and not self.is_nsfw_text(c_title):
+                        query_queue.append((tid, c_title, c_title))
         else:
-            # First query mature Switch games with exact Title IDs
+            # 1. Prioritize Switch games with mature / waifu / adult filters
             for tid, gname, qlist in MATURE_SWITCH_GAMES:
                 for q in qlist:
                     query_queue.append((tid, gname, q))
-            # Also append general After Dark waifu / anime collection queries
-            for q in AFTER_DARK_QUERIES:
+            # 2. General waifus and adult collections
+            for q in AFTER_DARK_GENERAL_QUERIES:
                 query_queue.append(("0000000000000000", "★ Коллекция After Dark (Свободный выбор)", q))
 
+        if not query_queue:
+            return 0
+
         harvested = 0
-        for tid, default_game_name, q in query_queue:
+        q_cursor = self.log_data.get("query_cursor", 0) % len(query_queue)
+        page_cursors = self.log_data.get("page_cursors", {})
+
+        queries_to_try = 15
+        for i in range(queries_to_try):
             if harvested >= limit:
                 break
+            idx = (q_cursor + i) % len(query_queue)
+            tid, default_game_name, q = query_queue[idx]
+            current_p = page_cursors.get(q, 1)
 
-            print(f"\n🔍 [MoeWalls] Searching for: '{q}' ({default_game_name})...")
-            articles = self.search_moewalls_articles(q, limit=3)
+            print(f"\n🔍 [MoeWalls] Searching: '{q}' (Target: {default_game_name}, Page: {current_p})...")
+            articles = self.search_moewalls_articles(q, limit=4, page=current_p)
+            found_any = False
+
             for art in articles:
                 if harvested >= limit:
                     break
-
                 page_url = art["page_url"]
                 if self.is_url_harvested(page_url):
                     continue
 
                 vid_url = self.extract_direct_video_url(page_url)
                 if not vid_url or self.is_url_harvested(vid_url):
+                    self.mark_harvested(page_url, {"page": True, "skipped": True})
                     continue
 
-                title = art["title"].replace("Live Wallpaper", "").strip(" -–")
-                clean_name = re.sub(r'\(.*?\)', '', title).strip()
+                raw_title = art["title"].replace("Live Wallpaper", "").strip(" -–")
+                clean_name = re.sub(r'\(.*?\)', '', raw_title).strip()
                 if len(clean_name) > 40:
                     clean_name = clean_name[:40].strip()
 
-                print(f"\n[*] Harvesting MoeWalls video: '{clean_name}' (Target: {default_game_name})")
+                print(f"\n[*] Harvesting MoeWalls video: '{clean_name}' (Target: {default_game_name} [{tid}])")
                 ok = self.process_and_upload_asset(
                     asset_url=vid_url,
                     title_id=tid,
@@ -618,7 +694,16 @@ class AutoVideoHarvester:
                 if ok:
                     self.mark_harvested(page_url, {"page": True, "vid": vid_url})
                     harvested += 1
+                    found_any = True
                     print(f"  [+] Success! ({harvested}/{limit}) Added {clean_name} to {default_game_name}")
+
+            # Advance page for this query if current page had no new items
+            if not articles or not found_any:
+                page_cursors[q] = current_p + 1 if current_p < 8 else 1
+
+        self.log_data["query_cursor"] = (q_cursor + queries_to_try) % len(query_queue)
+        self.log_data["page_cursors"] = page_cursors
+        self._save_log()
 
         return harvested
 
@@ -682,7 +767,7 @@ class AutoVideoHarvester:
             for push_att in range(1, 4):
                 try:
                     if self.mode == "after_dark":
-                        subprocess.run(["git", "push", repo_url, "HEAD:refs/heads/after-dark"], check=True)
+                        subprocess.run(["git", "push", "--force", repo_url, "HEAD:refs/heads/after-dark"], check=True)
                     subprocess.run(["git", "push", repo_url, "HEAD:refs/heads/main"], check=True)
                     print(f"[SUCCESS] Successfully pushed {harvested_count} new video backgrounds to GitHub!")
                     break
@@ -696,12 +781,12 @@ class AutoVideoHarvester:
 
 def main():
     parser = argparse.ArgumentParser(description="H3H Automated Video Harvester Pipeline")
-    parser.add_argument("--mode", choices=["main", "after-dark", "all"], default="main", help="Target catalog mode")
-    parser.add_argument("--source", choices=["all", "steamgriddb", "moewalls"], default="all", help="Source provider")
+    parser.add_argument("--mode", choices=["main", "after-dark", "all"], default="all", help="Target catalog mode")
+    parser.add_argument("--source", choices=["all", "steamgriddb", "moewalls"], default="moewalls", help="Source provider")
     parser.add_argument("--codec", choices=["h264", "hevc"], default="h264", help="Video codec (h264 or hevc)")
-    parser.add_argument("--limit", type=int, default=10, help="Number of backgrounds to harvest per batch")
+    parser.add_argument("--limit", type=int, default=5, help="Number of backgrounds to harvest per batch")
     parser.add_argument("--continuous", action="store_true", help="Run continuously in a loop ('на поток')")
-    parser.add_argument("--interval", type=int, default=60, help="Interval in seconds between continuous batches")
+    parser.add_argument("--interval", type=int, default=30, help="Interval in seconds between continuous batches")
     args = parser.parse_args()
 
     modes = ["main", "after-dark"] if args.mode == "all" else [args.mode]
@@ -710,8 +795,11 @@ def main():
     while True:
         print(f"\n>>> [BATCH {batch_num}] Starting harvesting stream at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} <<<")
         for m in modes:
-            h = AutoVideoHarvester(mode=m, codec=args.codec, source=args.source)
-            h.harvest_stream(limit=args.limit)
+            try:
+                h = AutoVideoHarvester(mode=m, codec=args.codec, source=args.source)
+                h.harvest_stream(limit=args.limit)
+            except Exception as ex:
+                print(f"[!] Harvester stream error in mode {m}: {ex}")
 
         if not args.continuous:
             break
