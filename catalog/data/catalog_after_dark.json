@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "name": "H3H After Dark (18+) Official Catalog",
-  "updatedAt": "2026-10-21T20:44:21.243116+00:00",
-  "totalGames": 12,
-  "totalVariants": 82,
+  "updatedAt": "2026-10-21T20:45:48.856212+00:00",
+  "totalGames": 13,
+  "totalVariants": 84,
   "games": [
     {
       "titleId": "0000000000000000",
@@ -1569,6 +1569,50 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Yukiko Amagi Persona 4 X Goddess of Vict"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A1900F3BA000",
+      "title": "Azur Lane: Crosswave",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A1900F3BA000.jpg",
+      "variants": [
+        {
+          "id": "v_c22daa36",
+          "name": "Weser x Peter Strasser Azur Lane",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_jIizmKBWuymWeSieMlvHIe0cYtSNVXf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_jIizmKBWuymWeSieMlvHIe0cYtSNVXf&sz=w640",
+          "sizeBytes": 4733721,
+          "sha256": "60A69DCA53EA92CD4E9120B053374D87FF309FE969246D5CEACFBB4B847CDE08",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Weser x Peter Strasser Azur Lane | ЗВУК"
+        },
+        {
+          "id": "v_1f353ed4",
+          "name": "Atago Umbrella Azur Lane",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13JXFxGqzK36LjXOdP7bq_atMVyvGPxSl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13JXFxGqzK36LjXOdP7bq_atMVyvGPxSl&sz=w640",
+          "sizeBytes": 4757677,
+          "sha256": "9553260177F5EE7D668E185023785BAE52861B497F5BBE2B54150C30F0FD8E64",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Atago Umbrella Azur Lane | ЗВУК"
         }
       ]
     }
