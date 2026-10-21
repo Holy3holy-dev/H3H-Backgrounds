@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "name": "H3H After Dark (18+) Official Catalog",
-  "updatedAt": "2026-10-21T20:37:47.106571+00:00",
-  "totalGames": 8,
-  "totalVariants": 73,
+  "updatedAt": "2026-10-21T20:41:26.013120+00:00",
+  "totalGames": 9,
+  "totalVariants": 75,
   "games": [
     {
       "titleId": "0000000000000000",
@@ -1254,6 +1254,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "H3H After Dark 18+ Animated Background"
+        },
+        {
+          "id": "v_fc036953",
+          "name": "Zelda Holy Knight The Legend Of Zelda",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_j92yb7ywh9sL1cq1mX2K_YHz6q64601",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_j92yb7ywh9sL1cq1mX2K_YHz6q64601&sz=w640",
+          "sizeBytes": 4734482,
+          "sha256": "069130A952DDCD86AFEB5718AEA58D735E4355DCD1887FFD94FB6CD81E674A9D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Zelda Holy Knight The Legend Of Zelda | ЗВУК"
         }
       ]
     },
@@ -1375,6 +1393,32 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps | Yennefer & Geralt: Midnight Embrace"
+        }
+      ]
+    },
+    {
+      "titleId": "010074600E9F2000",
+      "title": "Xenoblade Chronicles 3",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010074600E9F2000.jpg",
+      "variants": [
+        {
+          "id": "v_09262ef7",
+          "name": "Mythra Full Moon Starry Night Xenoblade",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HFHaXiHZksSZDuKKqxH_Tqe9TkUmrWRI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HFHaXiHZksSZDuKKqxH_Tqe9TkUmrWRI&sz=w640",
+          "sizeBytes": 4705696,
+          "sha256": "2E3FD3042DCB059FAEADDC30767DF18C48C9363C6E58716764087D8993C6467B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mythra Full Moon Starry Night Xenoblade | ЗВУК"
         }
       ]
     }
