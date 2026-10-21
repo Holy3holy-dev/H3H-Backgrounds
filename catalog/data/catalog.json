@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T19:35:34.922460+00:00",
-  "totalGames": 788,
-  "totalVariants": 915,
+  "updatedAt": "2026-10-21T19:38:02.034230+00:00",
+  "totalGames": 789,
+  "totalVariants": 920,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -467,6 +467,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Bonfire Dark Souls | ЗВУК"
+        },
+        {
+          "id": "v_a8a27151",
+          "name": "Dark Souls Firelink Shrine",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fzYfiElE1OXkg9AF-URJ0r9siKyKzFt7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fzYfiElE1OXkg9AF-URJ0r9siKyKzFt7&sz=w640",
+          "sizeBytes": 4647814,
+          "sha256": "4EBD8473E8CA371A4F431DA35221D92BA6AE803004BC6DC3D3EEA5DC5ABA7D00",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dark Souls Firelink Shrine | ЗВУК"
         }
       ]
     },
@@ -3013,6 +3031,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 010076F0049A2000_Bayonetta_2.mp4"
+        },
+        {
+          "id": "v_772e87f1",
+          "name": "Cereza Bayonetta",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GRzoYw9mffATVtwlbLSui58mAU4qXOHG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GRzoYw9mffATVtwlbLSui58mAU4qXOHG&sz=w640",
+          "sizeBytes": 4762153,
+          "sha256": "C842BCFB15BF255DB6714CFDFA84C973E3666E34F8F6F0CE9949A7E0111B92E3",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cereza Bayonetta | ЗВУК"
         }
       ]
     },
@@ -20907,6 +20943,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Hades Hero"
+        },
+        {
+          "id": "v_4437bf72",
+          "name": "Melinoe Underworld Princess Hades 2",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rtOVkbmSlFRQ6eQZ-TzVOcTiyq_xexIy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rtOVkbmSlFRQ6eQZ-TzVOcTiyq_xexIy&sz=w640",
+          "sizeBytes": 4723943,
+          "sha256": "60C8CE915A51985A37308060EB71828E8A693F9B63DC02565794AC7E58E73730",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Melinoe Underworld Princess Hades 2 | ЗВУК"
         }
       ]
     },
@@ -21566,6 +21620,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Ori and the Will of the Wisps Hero"
+        },
+        {
+          "id": "v_3e73656a",
+          "name": "Ori And The Will Of The Wisps Swamp",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1sAxnGs2KXo1KVU2ry6sqPWc7Vv3P1mGm",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1sAxnGs2KXo1KVU2ry6sqPWc7Vv3P1mGm&sz=w640",
+          "sizeBytes": 4683673,
+          "sha256": "9BC6CDDDEB9DD272C40C5732B3356CE912A040F188E2DED53FA0CC6C0E0A0B2B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ori And The Will Of The Wisps Swamp | ЗВУК"
         }
       ]
     },
@@ -22014,6 +22086,32 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | City Ruins NieR: Automata | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "010091200CDA4000",
+      "title": "Persona 5 Royal",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010091200CDA4000.jpg",
+      "variants": [
+        {
+          "id": "v_2b370bd9",
+          "name": "Ann Takamaki At Shibuya Station Persona",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17IF13Z8G1xngT8jDSGSu82qjcU4SUA49",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17IF13Z8G1xngT8jDSGSu82qjcU4SUA49&sz=w640",
+          "sizeBytes": 4743600,
+          "sha256": "4A2772F34844016BC6FAF515B153FB7292CAA62753E8A24408CEC012875D08AC",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ann Takamaki At Shibuya Station Persona | ЗВУК"
         }
       ]
     }
