@@ -284,10 +284,25 @@ class AutoVideoHarvester:
             print(f"[!] Video extraction error for {page_url}: {e}")
         return None
 
-    def transcode_video(self, raw_path: Path, out_mp4: Path, out_thumb: Path) -> bool:
+    def check_audio_stream(self, raw_path: Path) -> bool:
+        try:
+            cmd = [
+                "ffprobe", "-v", "error",
+                "-select_streams", "a:0",
+                "-show_entries", "stream=codec_name",
+                "-of", "default=noprint_wrappers=1:nokey=1",
+                str(raw_path)
+            ]
+            res = subprocess.run(cmd, capture_output=True, text=True, timeout=10)
+            return bool(res.stdout.strip())
+        except Exception:
+            return False
+
+    def transcode_video(self, raw_path: Path, out_mp4: Path, out_thumb: Path) -> tuple:
         out_mp4.parent.mkdir(parents=True, exist_ok=True)
         out_thumb.parent.mkdir(parents=True, exist_ok=True)
         is_hevc = (self.codec == "hevc")
+        has_audio = self.check_audio_stream(raw_path)
 
         cmd = [
             "ffmpeg", "-y", "-nostdin",
@@ -297,9 +312,12 @@ class AutoVideoHarvester:
             "-threads", "4",
             "-r", "30",
             "-pix_fmt", "yuv420p",
-            "-an",
             "-movflags", "+faststart"
         ]
+        if has_audio:
+            cmd.extend(["-c:a", "aac", "-b:a", "128k", "-ar", "44100", "-ac", "2"])
+        else:
+            cmd.append("-an")
         if is_hevc:
             cmd.extend([
                 "-c:v", "libx265",
@@ -321,7 +339,7 @@ class AutoVideoHarvester:
             subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=45)
         except Exception as e:
             print(f"[!] FFmpeg transcode error: {e}")
-            return False
+            return False, False
 
         # Thumbnail
         cmd_thumb = [
@@ -337,7 +355,7 @@ class AutoVideoHarvester:
         except Exception:
             pass
 
-        return True
+        return True, has_audio
 
     def process_and_upload_asset(
         self,
@@ -369,8 +387,8 @@ class AutoVideoHarvester:
                 print("  [!] Downloaded file is invalid or too small.")
                 return False
 
-            print(f"  -> Transcoding to 720p 30fps {self.codec.upper()}...")
-            ok = self.transcode_video(raw_file, out_mp4, out_thumb)
+            print(f"  -> Transcoding to 720p 30fps {self.codec.upper()} (with audio auto-detection)...")
+            ok, has_audio = self.transcode_video(raw_file, out_mp4, out_thumb)
             if not ok or not out_mp4.exists() or out_mp4.stat().st_size == 0:
                 return False
 
@@ -403,8 +421,8 @@ class AutoVideoHarvester:
                 "width": 1280,
                 "height": 720,
                 "fps": 30.0,
-                "hasAudio": False,
-                "notes": f"Switch 720p 30fps {self.codec.upper()} | {var_name}"
+                "hasAudio": has_audio,
+                "notes": f"Switch 720p 30fps {self.codec.upper()} | {var_name}" + (" | ЗВУК" if has_audio else "")
             }
 
             tid_upper = title_id.upper()
