@@ -96,6 +96,11 @@ public:
     void renderRecordingsBrowser();
     void executeInstallLocalRecording();
 
+    // Target Game Picker (Assign background to any installed game)
+    void openGamePicker(const Variant& variant, const std::string& sourceGameName);
+    void closeGamePicker();
+    void renderGamePicker();
+
     // Feature 5: Integrity Scanner
     void runIntegrityCheck();
     void executeDeleteCorruptedCovers();
@@ -219,6 +224,14 @@ private:
     std::string m_recordingsTargetGameName;
     std::string m_pendingRecordingToInstallPath;
     std::string m_pendingRecordingToInstallName;
+
+    // Game Picker state (Assign background to any installed game)
+    bool m_isGamePickerOpen{false};
+    int m_gamePickerSelectedIndex{0};
+    int m_gamePickerScrollOffset{0};
+    uint32_t m_gamePickerOpenedAt{0};
+    Variant m_gamePickerPendingVariant;
+    std::string m_gamePickerSourceGameName;
 
     // Integrity check state (Feature 5)
     std::vector<IntegrityIssue> m_detectedIntegrityIssues;

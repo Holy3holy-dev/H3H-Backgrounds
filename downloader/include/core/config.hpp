@@ -23,7 +23,7 @@ public:
 #endif
     
     // Application Version
-    static constexpr const char* APP_VERSION = "1.2.5";
+    static constexpr const char* APP_VERSION = "1.2.6";
     static constexpr const char* VERSION_CHECK_URL =
         "https://raw.githubusercontent.com/Holy3holy-dev/H3H-Backgrounds/main/version.json";
 

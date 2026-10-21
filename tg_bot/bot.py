@@ -132,6 +132,71 @@ def reset_session(chat_id: int):
 
 # --- Core Processing Helpers ---
 
+def probe_video_stream(video_path: Path) -> Dict[str, Any]:
+    """Inspects video stream with ffprobe for codec, dimensions, and duration."""
+    cmd = [
+        "ffprobe", "-v", "error",
+        "-select_streams", "v:0",
+        "-show_entries", "stream=codec_name,width,height,duration",
+        "-of", "json",
+        str(video_path)
+    ]
+    try:
+        res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, timeout=10)
+        info = json.loads(res.stdout)
+        streams = info.get("streams", [])
+        if streams:
+            return streams[0]
+    except Exception:
+        pass
+    return {}
+
+def is_switch_720p_ready(stream_info: Dict[str, Any]) -> Tuple[bool, str]:
+    """Returns (is_ready, codec) if the video is already 1280x720 AVC or HEVC."""
+    codec = stream_info.get("codec_name", "").lower()
+    width = stream_info.get("width", 0)
+    height = stream_info.get("height", 0)
+
+    if width == 1280 and height == 720:
+        if codec in ("h264", "avc1"):
+            return True, "h264"
+        elif codec in ("hevc", "h265", "hvc1"):
+            return True, "hevc"
+    return False, codec
+
+def passthrough_switch_video(src_vid: Path, out_mp4: Path, out_thumb: Path, is_hevc: bool = False) -> bool:
+    """Copies pre-encoded Switch video stream without lossy re-encoding and generates thumbnail."""
+    out_mp4.parent.mkdir(parents=True, exist_ok=True)
+    out_thumb.parent.mkdir(parents=True, exist_ok=True)
+
+    cmd_copy = [
+        "ffmpeg", "-y", "-nostdin",
+        "-i", str(src_vid),
+        "-c:v", "copy",
+        "-an",
+        "-movflags", "+faststart"
+    ]
+    if is_hevc:
+        cmd_copy.extend(["-tag:v", "hvc1"])
+    cmd_copy.append(str(out_mp4))
+
+    subprocess.run(cmd_copy, stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True, timeout=30)
+
+    cmd_thumb = [
+        "ffmpeg", "-y", "-nostdin",
+        "-ss", "1",
+        "-i", str(out_mp4),
+        "-vframes", "1",
+        "-vf", "scale=640:360:force_original_aspect_ratio=decrease,pad=640:360:(ow-iw)/2:(oh-ih)/2:black",
+        "-f", "image2",
+        str(out_thumb)
+    ]
+    try:
+        subprocess.run(cmd_thumb, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=20)
+    except Exception:
+        pass
+    return True
+
 def transcode_to_switch_720p(src_vid: Path, out_mp4: Path, out_thumb: Path, codec: str = "h264") -> bool:
     """Converts input video to Switch 720p 30fps H.264 or HEVC (+faststart) and extracts thumbnail."""
     out_mp4.parent.mkdir(parents=True, exist_ok=True)
@@ -343,8 +408,8 @@ def cmd_cancel(message: types.Message):
 @bot.message_handler(content_types=["video", "document", "animation"])
 def handle_file_upload(message: types.Message):
     chat_id = message.chat.id
-    sess = get_session(chat_id)
     reset_session(chat_id)
+    sess = get_session(chat_id)
 
     file_id = None
     file_name = f"upload_{uuid.uuid4().hex[:8]}.mp4"
@@ -404,6 +469,17 @@ def handle_file_upload(message: types.Message):
         sess["state"] = "AWAITING_CATEGORY"
         sess["author"] = message.from_user.username or message.from_user.first_name or "Community"
 
+        # Probe video format for direct Switch passthrough
+        v_info = probe_video_stream(target_path)
+        is_ready, det_codec = is_switch_720p_ready(v_info)
+        if is_ready:
+            sess["is_preencoded"] = True
+            sess["codec"] = det_codec
+            sess["direct_passthrough"] = True
+        else:
+            sess["is_preencoded"] = False
+            sess["direct_passthrough"] = False
+
         # Check for Title ID in filename or caption
         detected_tid = TitleIdResolver.extract_title_id(file_name)
         if not detected_tid and message.caption:
@@ -412,14 +488,26 @@ def handle_file_upload(message: types.Message):
         detected_game = None
         suggested_variant = None
         if detected_tid:
-            detected_game = resolver.resolve_by_title_id(detected_tid) or f"Игра ({detected_tid})"
+            detected_game = resolver.resolve_by_title_id(detected_tid)
+            if not detected_game and message.caption:
+                cap_no_tid = re.sub(r'(?i)[0-9a-f]{16}', '', message.caption).strip(" _-")
+                cap_match = re.match(r'^(.*?)\s*[\(\[]([^\)\]]+)[\)\]]\s*$', cap_no_tid)
+                if cap_match:
+                    detected_game = cap_match.group(1).strip()
+                    suggested_variant = cap_match.group(2).strip()
+                elif cap_no_tid:
+                    detected_game = cap_no_tid
+            if not detected_game:
+                detected_game = f"Игра ({detected_tid})"
             sess["title_id"] = detected_tid
             sess["game_name"] = detected_game
-            # Deduce variant name by stripping title ID from filename
-            stem = Path(file_name).stem
-            clean_stem = re.sub(r'(?i)[0-9a-f]{16}', '', stem).strip(" _-").replace('_', ' ').replace('-', ' ').title()
-            if len(clean_stem) >= 2:
-                suggested_variant = clean_stem
+
+            if not suggested_variant:
+                stem = Path(file_name).stem
+                clean_stem = re.sub(r'(?i)[0-9a-f]{16}', '', stem).strip(" _-").replace('_', ' ').replace('-', ' ').title()
+                if len(clean_stem) >= 2:
+                    suggested_variant = clean_stem
+            if suggested_variant:
                 sess["suggested_variant"] = suggested_variant
 
         bot.delete_message(chat_id, status_msg.message_id)
@@ -432,9 +520,12 @@ def handle_file_upload(message: types.Message):
 
         msg_lines = ["✅ <b>Видео получено!</b>\n"]
         if detected_tid:
-            msg_lines.append(f"🎯 <b>Определён Title ID из файла:</b> <code>{detected_tid}</code>")
-            msg_lines.append(f"🎮 <b>Игра:</b> {detected_game}\n")
-        msg_lines.append("<b>Шаг 1 из 3:</b> В какой каталог добавить этот видеофон?")
+            msg_lines.append(f"🎯 <b>Определён Title ID:</b> <code>{detected_tid}</code>")
+            msg_lines.append(f"🎮 <b>Игра:</b> {detected_game}")
+        if sess.get("is_preencoded"):
+            c_tag = "HEVC (H.265)" if sess.get("codec") == "hevc" else "H.264 (AVC)"
+            msg_lines.append(f"⚡ <b>Формат Switch распознан:</b> <code>1280x720 {c_tag}</code> (доступна прямая запись без перекодирования!)")
+        msg_lines.append("\n<b>Шаг 1 из 3:</b> В какой каталог добавить этот видеофон?")
 
         bot.send_message(chat_id, "\n".join(msg_lines), reply_markup=markup)
 
@@ -737,8 +828,15 @@ def prompt_publish_confirmation(chat_id: int, edit_msg_id: Optional[int] = None)
     cat_label = "Обычный каталог" if sess["category"] == "standard" else "🌸 After Dark (18+)"
     codec = sess.get("codec", "h264")
     codec_label = "🎬 H.264 (Стандарт)" if codec == "h264" else "⚡ HEVC / H.265 (High-Efficiency)"
+    is_pre = sess.get("is_preencoded", False)
+    direct_pt = sess.get("direct_passthrough", False)
 
     markup = types.InlineKeyboardMarkup(row_width=1)
+
+    if is_pre:
+        pt_btn = "🔄 Принудительно перекодировать" if direct_pt else "🚀 Включить прямую запись без потерь"
+        markup.add(types.InlineKeyboardButton(pt_btn, callback_data="toggle_passthrough"))
+
     toggle_target = "hevc" if codec == "h264" else "h264"
     toggle_text = "⚡ Переключить на HEVC (H.265)" if codec == "h264" else "🎬 Переключить на H.264 (AVC)"
 
@@ -748,6 +846,13 @@ def prompt_publish_confirmation(chat_id: int, edit_msg_id: Optional[int] = None)
         types.InlineKeyboardButton("❌ Отмена", callback_data="publish:cancel")
     )
 
+    if direct_pt:
+        mode_desc = f"🚀 <b>Режим:</b> <code>Прямая запись потока (-c copy, без перекодирования)</code>\n"
+        mode_hint = "💡 <i>Видео уже в точном стандарте Switch 720p — качество сохраняется на 100%, без артефактов перекодирования!</i>\n\n"
+    else:
+        mode_desc = f"⚙️ <b>Режим:</b> <code>Конвертация FFmpeg ({codec_label} 720p 30fps)</code>\n"
+        mode_hint = "💡 <i>HEVC (H.265) даёт меньший вес при том же качестве и аппаратно декодируется NVDEC на Switch. H.264 даёт максимальную совместимость.</i>\n\n"
+
     text = (
         "📋 <b>Проверьте данные перед публикацией:</b>\n\n"
         f"📁 <b>Категория:</b> {cat_label}\n"
@@ -755,9 +860,10 @@ def prompt_publish_confirmation(chat_id: int, edit_msg_id: Optional[int] = None)
         f"🆔 <b>Title ID:</b> <code>{sess['title_id']}</code>\n"
         f"🎬 <b>Название фона:</b> {sess['variant_name']}\n"
         f"⚙️ <b>Кодек:</b> <code>{codec_label}</code>\n"
+        f"{mode_desc}"
         f"👤 <b>Автор:</b> @{sess['author']}\n\n"
-        "💡 <i>HEVC (H.265) даёт меньший вес при том же качестве и аппаратно декодируется NVDEC на Switch. H.264 даёт максимальную совместимость.</i>\n\n"
-        "Нажмите <b>Запустить публикацию</b>, чтобы конвертировать видео, загрузить его на Google Диск и добавить на GitHub!"
+        f"{mode_hint}"
+        "Нажмите <b>Запустить публикацию</b>, чтобы отправить фон на Google Диск и добавить на GitHub!"
     )
 
     if edit_msg_id:
@@ -767,6 +873,19 @@ def prompt_publish_confirmation(chat_id: int, edit_msg_id: Optional[int] = None)
             pass
     else:
         bot.send_message(chat_id, text, reply_markup=markup, parse_mode="HTML")
+
+@bot.callback_query_handler(func=lambda call: call.data == "toggle_passthrough")
+def handle_toggle_passthrough(call: types.CallbackQuery):
+    chat_id = call.message.chat.id
+    sess = get_session(chat_id)
+    cur = sess.get("direct_passthrough", False)
+    sess["direct_passthrough"] = not cur
+    try:
+        status = "Прямая запись (-c copy)" if sess["direct_passthrough"] else "Перекодирование FFmpeg"
+        bot.answer_callback_query(call.id, f"Режим: {status}")
+    except Exception:
+        pass
+    prompt_publish_confirmation(chat_id, edit_msg_id=call.message.message_id)
 
 @bot.callback_query_handler(func=lambda call: call.data.startswith("codec:"))
 def handle_codec_toggle(call: types.CallbackQuery):
@@ -789,19 +908,33 @@ def _do_single_publish_async(chat_id: int, message_id: int, sess: dict):
     try:
         codec = sess.get("codec", "h264")
         codec_name = "HEVC (H.265)" if codec == "hevc" else "H.264"
-        bot.edit_message_text(
-            f"⏳ <b>Начинаю обработку ролика...</b>\n1/3: ⚙️ Быстрая конвертация FFmpeg ({codec_name} 720p 30fps)...",
-            chat_id=chat_id,
-            message_id=message_id,
-            parse_mode="HTML"
-        )
+        direct_pt = sess.get("direct_passthrough", False)
 
         src_vid = Path(sess["temp_vid"])
         out_mp4 = PROJECT_ROOT / TEMP_DIR / f"{sess['title_id']}_{uuid.uuid4().hex[:6]}.mp4"
         out_thumb = PROJECT_ROOT / TEMP_DIR / f"{sess['title_id']}_{uuid.uuid4().hex[:6]}.jpg"
 
-        # Step 1: Transcode
-        transcode_to_switch_720p(src_vid, out_mp4, out_thumb, codec=codec)
+        # Step 1: Process video
+        if direct_pt:
+            bot.edit_message_text(
+                f"⏳ <b>Обработка ролика...</b>\n1/3: 🚀 Прямая запись потока ({codec_name} 720p без потерь)...",
+                chat_id=chat_id,
+                message_id=message_id,
+                parse_mode="HTML"
+            )
+            try:
+                passthrough_switch_video(src_vid, out_mp4, out_thumb, is_hevc=(codec == "hevc"))
+            except Exception as e:
+                print(f"[!] Direct stream copy error: {e}, falling back to transcode")
+                transcode_to_switch_720p(src_vid, out_mp4, out_thumb, codec=codec)
+        else:
+            bot.edit_message_text(
+                f"⏳ <b>Начинаю обработку ролика...</b>\n1/3: ⚙️ Быстрая конвертация FFmpeg ({codec_name} 720p 30fps)...",
+                chat_id=chat_id,
+                message_id=message_id,
+                parse_mode="HTML"
+            )
+            transcode_to_switch_720p(src_vid, out_mp4, out_thumb, codec=codec)
 
         bot.edit_message_text(
             "⏳ <b>Обработка ролика...</b>\n"
@@ -991,7 +1124,15 @@ def process_batch_upload(chat_id: int, msg_id: int, items: List[Dict[str, Any]],
             out_mp4 = PROJECT_ROOT / TEMP_DIR / f"{item['title_id']}_{uuid.uuid4().hex[:6]}.mp4"
             out_thumb = PROJECT_ROOT / TEMP_DIR / f"{item['title_id']}_{uuid.uuid4().hex[:6]}.jpg"
 
-            transcode_to_switch_720p(src_vid, out_mp4, out_thumb, codec=codec)
+            # Check if video is already ready-made Switch 720p
+            v_info = probe_video_stream(src_vid)
+            is_ready, det_codec = is_switch_720p_ready(v_info)
+            if is_ready:
+                item_codec = det_codec
+                passthrough_switch_video(src_vid, out_mp4, out_thumb, is_hevc=(item_codec == "hevc"))
+            else:
+                item_codec = codec
+                transcode_to_switch_720p(src_vid, out_mp4, out_thumb, codec=item_codec)
 
             upload_res = GoogleDriveClient.upload_file(
                 file_path=out_mp4,
@@ -1013,7 +1154,7 @@ def process_batch_upload(chat_id: int, msg_id: int, items: List[Dict[str, Any]],
                 direct_url=direct_url,
                 preview_url=preview_url,
                 file_size=file_size,
-                codec=codec
+                codec=item_codec
             )
 
             success_count += 1

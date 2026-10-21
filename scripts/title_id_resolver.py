@@ -110,6 +110,26 @@ class TitleIdResolver:
         "byleth": "Fire Emblem Three Houses",
         "dimitri": "Fire Emblem Three Houses",
         "rhea": "Fire Emblem Three Houses",
+        "giselle": "The House in Fata Morgana",
+        "fata morgana": "The House in Fata Morgana",
+        "morgana": "The House in Fata Morgana",
+        "honoka": "Dead or Alive Xtreme",
+        "marie rose": "Dead or Alive Xtreme",
+    }
+
+    BUILTIN_TITLE_IDS = {
+        "010016101100A000": "The House in Fata Morgana: Dreams of the Revenants Edition",
+        "01007E100C4D0000": "Dead or Alive Xtreme 3 Scarlet",
+        "0100AC200ED5E000": "Azur Lane Crosswave",
+        "010079C009494000": "Senran Kagura Reflexions",
+        "0100E95004038000": "Xenoblade Chronicles 2",
+        "010074600E9F2000": "Xenoblade Chronicles 3",
+        "01005C000B2AE000": "NieR:Automata The End of YoRHa Edition",
+        "0100A5B00BDC6000": "Final Fantasy VII",
+        "0100F2C0115B6000": "The Legend of Zelda: Tears of the Kingdom",
+        "0100000000010000": "Super Mario Odyssey",
+        "0100E8B00BDC6000": "The Witcher 3: Wild Hunt - Complete Edition",
+        "010091200CDA4000": "Persona 5 Royal",
     }
 
     def __init__(self, catalog_path: str = "catalog/data/catalog.json"):
@@ -119,10 +139,30 @@ class TitleIdResolver:
         self.load_catalog()
 
     def load_catalog(self):
-        if not self.catalog_path.exists():
-            return
-        data = json.loads(self.catalog_path.read_text(encoding="utf-8"))
-        self.games = data.get("games", [])
+        paths = [
+            self.catalog_path,
+            self.catalog_path.parent / "catalog_after_dark.json"
+        ]
+        self.games = []
+        seen_tids = set()
+        for p in paths:
+            if p.exists():
+                try:
+                    data = json.loads(p.read_text(encoding="utf-8"))
+                    for g in data.get("games", []):
+                        tid = g.get("titleId", "")
+                        if tid and tid not in seen_tids:
+                            self.games.append(g)
+                            seen_tids.add(tid)
+                except Exception:
+                    pass
+
+        # Also add built-in common titles if not in catalog
+        for tid, name in self.BUILTIN_TITLE_IDS.items():
+            if tid not in seen_tids:
+                self.games.append({"titleId": tid, "title": name})
+                seen_tids.add(tid)
+
         self.normalized_games.clear()
         for g in self.games:
             tid = g.get("titleId", "")
