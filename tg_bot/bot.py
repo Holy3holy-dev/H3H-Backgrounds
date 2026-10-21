@@ -976,11 +976,23 @@ def _do_single_publish_async(chat_id: int, message_id: int, sess: dict):
     out_mp4 = None
     out_thumb = None
     try:
+        temp_vid_path = sess.get("temp_vid")
+        if not temp_vid_path or not Path(temp_vid_path).exists():
+            bot.edit_message_text(
+                "⚠️ <b>Сессия устарела или файл не найден на сервере.</b>\n\n"
+                "Пожалуйста, отправьте видеофайл заново сообщением.",
+                chat_id=chat_id,
+                message_id=message_id,
+                parse_mode="HTML"
+            )
+            reset_session(chat_id)
+            return
+
         codec = sess.get("codec", "h264")
         codec_name = "HEVC (H.265)" if codec == "hevc" else "H.264"
         direct_pt = sess.get("direct_passthrough", False)
 
-        src_vid = Path(sess["temp_vid"])
+        src_vid = Path(temp_vid_path)
         out_mp4 = PROJECT_ROOT / TEMP_DIR / f"{sess['title_id']}_{uuid.uuid4().hex[:6]}.mp4"
         out_thumb = PROJECT_ROOT / TEMP_DIR / f"{sess['title_id']}_{uuid.uuid4().hex[:6]}.jpg"
 
@@ -1137,6 +1149,18 @@ def handle_publish_decision(call: types.CallbackQuery):
     if action != "yes":
         reset_session(chat_id)
         bot.edit_message_text("❌ Публикация отменена.", chat_id=chat_id, message_id=call.message.message_id)
+        return
+
+    temp_vid_path = sess.get("temp_vid")
+    if not temp_vid_path or not Path(temp_vid_path).exists():
+        bot.edit_message_text(
+            "⚠️ <b>Сессия устарела или файл не найден на сервере.</b>\n\n"
+            "Пожалуйста, отправьте видеофайл заново сообщением.",
+            chat_id=chat_id,
+            message_id=call.message.message_id,
+            parse_mode="HTML"
+        )
+        reset_session(chat_id)
         return
 
     # Run heavy processing asynchronously in worker thread
