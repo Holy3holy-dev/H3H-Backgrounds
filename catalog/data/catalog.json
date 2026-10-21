@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T17:52:46.224834+00:00",
-  "totalGames": 762,
-  "totalVariants": 856,
+  "updatedAt": "2026-10-21T17:57:33.211182+00:00",
+  "totalGames": 765,
+  "totalVariants": 861,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -20745,6 +20745,120 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Hades Hero"
+        }
+      ]
+    },
+    {
+      "titleId": "010036500ECF2000",
+      "title": "Hollow Knight",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010036500ECF2000.jpg",
+      "variants": [
+        {
+          "id": "v_4fef76ff",
+          "name": "Hollow Knight Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xLpERnIG6Z2gHR5uA118h2eoujBlFVm5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xLpERnIG6Z2gHR5uA118h2eoujBlFVm5&sz=w640",
+          "sizeBytes": 1040128,
+          "sha256": "1ED0DDE51509CCCAE63E5FAAC5223B264B04EDA8A468A3479DA7857AC7A5C49E",
+          "durationSec": 30.0,
+          "author": "MachZero",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Hollow Knight Hero"
+        },
+        {
+          "id": "v_36a57126",
+          "name": "Hollow Knight Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1P1I-WxKEoZVNGSnQr2YZEFR3BBjU1QtR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1P1I-WxKEoZVNGSnQr2YZEFR3BBjU1QtR&sz=w640",
+          "sizeBytes": 1031963,
+          "sha256": "9D73EFDD3420434EF35AEE477454A38E7300A748B5346F22443F30AB58998E29",
+          "durationSec": 30.0,
+          "author": "TUFKAC",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Hollow Knight Hero"
+        }
+      ]
+    },
+    {
+      "titleId": "010074600E9F2000",
+      "title": "Xenoblade Chronicles 3",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010074600E9F2000.jpg",
+      "variants": [
+        {
+          "id": "v_09262ef7",
+          "name": "Mythra Full Moon Starry Night Xenoblade",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vMiZAFrP_9rE6k8nkKoS2IcXPQW-ydeB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vMiZAFrP_9rE6k8nkKoS2IcXPQW-ydeB&sz=w640",
+          "sizeBytes": 4691108,
+          "sha256": "DB3CF6325467828F3CAD0C1F4C4AD02DCF946A5F2D280880664E4F8500FC665E",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Mythra Full Moon Starry Night Xenoblade"
+        }
+      ]
+    },
+    {
+      "titleId": "01003BC0000A0000",
+      "title": "Kirby and the Forgotten Land",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003BC0000A0000.jpg",
+      "variants": [
+        {
+          "id": "v_5c0baf7e",
+          "name": "Sleeping Kirby",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tAqTbST2wXi8H2xUmW1WgrLQBC9rQ6io",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tAqTbST2wXi8H2xUmW1WgrLQBC9rQ6io&sz=w640",
+          "sizeBytes": 4671451,
+          "sha256": "D0E74EE4D5B5678008C4D671D29E89725B8D2AF271E03BB1336DEF198DFBDCDF",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Sleeping Kirby"
+        },
+        {
+          "id": "v_0f9f8640",
+          "name": "Kirby At Sea",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mW5sKhitrB1u0nHTr96rDBt75VmsuPnk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mW5sKhitrB1u0nHTr96rDBt75VmsuPnk&sz=w640",
+          "sizeBytes": 4697674,
+          "sha256": "8E420EF1C8FCA0D381040E128C89216630386EBECB39C29D70052727A47210A1",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Kirby At Sea"
         }
       ]
     }
