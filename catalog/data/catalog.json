@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T19:05:58.215085+00:00",
-  "totalGames": 782,
-  "totalVariants": 893,
+  "updatedAt": "2026-10-21T19:13:54.390760+00:00",
+  "totalGames": 783,
+  "totalVariants": 898,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -20563,6 +20563,60 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | DOOM Eternal Hero"
+        },
+        {
+          "id": "v_aa04841f",
+          "name": "Doom Slayer Boss Fight! DOOM Eternal",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1G36izcuqMrGCmOYuAPxVMa7yWvRHAyFu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1G36izcuqMrGCmOYuAPxVMa7yWvRHAyFu&sz=w640",
+          "sizeBytes": 4760329,
+          "sha256": "447BE97237230C6A04E82222E654D397E7AE65E6A7610E7214C119333BDEE69D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Doom Slayer Boss Fight! DOOM Eternal"
+        },
+        {
+          "id": "v_33cba190",
+          "name": "Doom Slayer DOOM Eternal",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xyp_QjyM-Ek9YwTrqFOIEU5IEEPh8IkA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xyp_QjyM-Ek9YwTrqFOIEU5IEEPh8IkA&sz=w640",
+          "sizeBytes": 4261963,
+          "sha256": "0267C4C88FFA1F45E3F2115C90F0F25B911C1D1F6C31A15F39C14EE930C11AC9",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Doom Slayer DOOM Eternal"
+        },
+        {
+          "id": "v_e83c825b",
+          "name": "Doom Slayer",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1j0MUTxzm7M9fOuEpo1PbjlrGTe_WNJDH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1j0MUTxzm7M9fOuEpo1PbjlrGTe_WNJDH&sz=w640",
+          "sizeBytes": 4716222,
+          "sha256": "ACAAA0E25AD63606106BA9D57945D68F8BC3C169DE140B3EC92332E3AD3B3FB0",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Doom Slayer"
         }
       ]
     },
@@ -21570,6 +21624,50 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | HITMAN Hero"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F7901118C000",
+      "title": "Five Nights at Freddy's (FNAF): 1, 2, 3, 4 / Secret of the Mimic / Into the Pit / Security Breach / Help Wanted 1-2 + Curse of Dreadbear / Sister Location / Freddy Fazbear's Pizzeria Simulator / Ultimate Custom Night [NSZ][ENG,RUS]",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F7901118C000.jpg",
+      "variants": [
+        {
+          "id": "v_7acaf943",
+          "name": "Five Nights at Freddy's Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bb29u_GzzceoyYrgji8nHIEglXXDKaPP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bb29u_GzzceoyYrgji8nHIEglXXDKaPP&sz=w640",
+          "sizeBytes": 410767,
+          "sha256": "AF7E952ABBABEAA2554C2A6542186903A48B7DE592CF84A18CBDA747F3E58F34",
+          "durationSec": 30.0,
+          "author": "PersonGuy",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Five Nights at Freddy's Hero"
+        },
+        {
+          "id": "v_0d2b4360",
+          "name": "Five Nights at Freddy's Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15Wj8cjiNIlU0zKKCtYlJHcxrZawLcv-e",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15Wj8cjiNIlU0zKKCtYlJHcxrZawLcv-e&sz=w640",
+          "sizeBytes": 840268,
+          "sha256": "E2F0ED3F1144316D81CBCAC6D36A60A75163BFD2402BA152E6565E5E0CB973D3",
+          "durationSec": 30.0,
+          "author": "Strik3rz",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Five Nights at Freddy's Hero"
         }
       ]
     }
