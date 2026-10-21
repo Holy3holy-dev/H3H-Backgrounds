@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "name": "H3H After Dark (18+) Official Catalog",
-  "updatedAt": "2026-10-21T18:22:11.869770+00:00",
+  "updatedAt": "2026-10-21T20:37:47.106571+00:00",
   "totalGames": 8,
-  "totalVariants": 72,
+  "totalVariants": 73,
   "games": [
     {
       "titleId": "0000000000000000",
@@ -1168,6 +1168,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps | A2: Lying on the Water"
+        },
+        {
+          "id": "v_3d0076bc",
+          "name": "2B Blindfold NieR: Automata",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XAA0w4_FExVRJ34XTf4Q0m_G5LjAq-JM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XAA0w4_FExVRJ34XTf4Q0m_G5LjAq-JM&sz=w640",
+          "sizeBytes": 4717501,
+          "sha256": "75D3CF341423ACA52DFACF067894FB69A364C3FDC207FC240441E2A6163B8B4A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | 2B Blindfold NieR: Automata"
         }
       ]
     },
