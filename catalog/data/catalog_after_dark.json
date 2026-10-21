@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "name": "H3H After Dark (18+) Official Catalog",
-  "updatedAt": "2026-10-21T20:55:22.521396+00:00",
-  "totalGames": 15,
-  "totalVariants": 107,
+  "updatedAt": "2026-10-21T21:00:53.621822+00:00",
+  "totalGames": 17,
+  "totalVariants": 112,
   "games": [
     {
       "titleId": "0000000000000000",
@@ -2043,6 +2043,112 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Samus Aran | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B7000B36E000",
+      "title": "Dragon Ball FighterZ",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B7000B36E000.jpg",
+      "variants": [
+        {
+          "id": "v_d72c209c",
+          "name": "Android 18 Listening To Music In The Car",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tvzzlCVzWj_mh3BX4CDdtj-xCsW2jgp4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tvzzlCVzWj_mh3BX4CDdtj-xCsW2jgp4&sz=w640",
+          "sizeBytes": 4607868,
+          "sha256": "E6FF1C8705C4F7643C436E877B7B11B3DA8232291D335447EF34F19C42AD54B4",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Android 18 Listening To Music In The Car | ЗВУК"
+        },
+        {
+          "id": "v_20344ede",
+          "name": "Android 18 Flying Dragon Ball",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rzgR3BBxd_frG4pTHDkDbdFmvTOQWYeO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rzgR3BBxd_frG4pTHDkDbdFmvTOQWYeO&sz=w640",
+          "sizeBytes": 4669368,
+          "sha256": "A09C5A3D4322331DC727C119E9BAB311EEABB860275219630FD684D3E65E5CD5",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Android 18 Flying Dragon Ball | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100435942450000",
+      "title": "Cyberpunk 2077",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100435942450000.jpg",
+      "variants": [
+        {
+          "id": "v_5a601bb2",
+          "name": "Lucy Cyberpunk: Edgerunners",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XhNbykNDWb1bnGpGN3e21v8kSpLfKjkG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XhNbykNDWb1bnGpGN3e21v8kSpLfKjkG&sz=w640",
+          "sizeBytes": 4737361,
+          "sha256": "71B2B8136CBC6FC3DB29E35656345DF8D3AAF018DD025EE99C760FD3DCCDCD62",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lucy Cyberpunk: Edgerunners | ЗВУК"
+        },
+        {
+          "id": "v_e3b61d7f",
+          "name": "David Kiss Lucy Cyberpunk: Edgerunners",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1e7ZsC5P5EcQkGqarxdGUjQ0df--mHAgM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1e7ZsC5P5EcQkGqarxdGUjQ0df--mHAgM&sz=w640",
+          "sizeBytes": 4713555,
+          "sha256": "0C17A47198029479DADE87C92C0D429AEBF8A0C172427D6642E29259F721726F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | David Kiss Lucy Cyberpunk: Edgerunners | ЗВУК"
+        },
+        {
+          "id": "v_9a57ea4e",
+          "name": "Lucy Cyberpunk: Edgerunners",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DbYTPqJy0wjVylnQOjmNdtCDBS-wgXvU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DbYTPqJy0wjVylnQOjmNdtCDBS-wgXvU&sz=w640",
+          "sizeBytes": 4727324,
+          "sha256": "AE0711E52951377846DF56EB33D26D95F51265AC277F4C4EA19E485D58F776BE",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lucy Cyberpunk: Edgerunners | ЗВУК"
         }
       ]
     }
