@@ -14,6 +14,7 @@ import os
 import sys
 import re
 import json
+import time
 import uuid
 import shutil
 import zipfile
@@ -944,7 +945,19 @@ def process_batch_upload(chat_id: int, msg_id: int, items: List[Dict[str, Any]],
 def main():
     print("[*] H3H Telegram Uploader Bot starting...")
     print(f"[*] Loaded {len(resolver.games)} games into TitleIdResolver.")
-    bot.infinity_polling(skip_pending=True)
+    while True:
+        try:
+            bot.infinity_polling(skip_pending=True, timeout=20, long_polling_timeout=20)
+        except telebot.apihelper.ApiTelegramException as e:
+            if getattr(e, 'error_code', None) == 409:
+                print("[!] 409 Conflict: Previous instance is terminating. Retrying in 6 seconds...")
+                time.sleep(6)
+            else:
+                print(f"[!] Telegram API error ({e}). Retrying in 5 seconds...")
+                time.sleep(5)
+        except Exception as e:
+            print(f"[!] Polling loop exception: {e}. Retrying in 5 seconds...")
+            time.sleep(5)
 
 if __name__ == "__main__":
     main()
