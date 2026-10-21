@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T20:41:59.584690+00:00",
-  "totalGames": 789,
-  "totalVariants": 926,
+  "updatedAt": "2026-10-21T20:44:01.025495+00:00",
+  "totalGames": 790,
+  "totalVariants": 928,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -21149,6 +21149,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Golden Sunset Hollow Knight Silksong | ЗВУК"
+        },
+        {
+          "id": "v_896ba274",
+          "name": "Moss Grotto Hollow Knight Silksong",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13pyIN63xYYU3u_4g9w7LBr0YfQ_e3qu9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13pyIN63xYYU3u_4g9w7LBr0YfQ_e3qu9&sz=w640",
+          "sizeBytes": 4694738,
+          "sha256": "786AFB39BF6D55FF05787AA0AC3407E747F6902230A99772FEFF0E46E92B30E2",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Moss Grotto Hollow Knight Silksong | ЗВУК"
         }
       ]
     },
@@ -22220,6 +22238,32 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Ann Takamaki At Shibuya Station Persona | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A6901170A000",
+      "title": "Need for Speed: Hot Pursuit Remastered",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A6901170A000.jpg",
+      "variants": [
+        {
+          "id": "v_f3abfaaf",
+          "name": "BMW M3 E46 Need For Speed",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1W97NjtYfCuc1cq58b5e2B5g4Rz-JxadF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1W97NjtYfCuc1cq58b5e2B5g4Rz-JxadF&sz=w640",
+          "sizeBytes": 4674462,
+          "sha256": "6562CC45CADC0B7C12E4F6A56CF253AE9D58107FC820F37E1D1C16B1F710A4D9",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | BMW M3 E46 Need For Speed"
         }
       ]
     }

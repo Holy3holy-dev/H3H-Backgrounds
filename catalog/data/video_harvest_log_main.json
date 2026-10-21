@@ -1327,10 +1327,38 @@
     "https://moewalls.com/games/monado-xenoblade-chronicles-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2021/monado-xenoblade-chronicles-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2025/moss-grotto-hollow-knight-silksong-preview.webm": {
+      "title": "Moss Grotto Hollow Knight Silksong",
+      "titleId": "010036500ECF2000",
+      "gameName": "Hollow Knight",
+      "varId": "v_896ba274",
+      "driveId": "13pyIN63xYYU3u_4g9w7LBr0YfQ_e3qu9",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/moss-grotto-hollow-knight-silksong-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2025/moss-grotto-hollow-knight-silksong-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2024/bmw-m3-e46-need-for-speed-preview.webm": {
+      "title": "BMW M3 E46 Need For Speed",
+      "titleId": "0100A6901170A000",
+      "gameName": "Need for Speed: Hot Pursuit Remastered",
+      "varId": "v_f3abfaaf",
+      "driveId": "1W97NjtYfCuc1cq58b5e2B5g4Rz-JxadF",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/vehicle/bmw-m3-e46-need-for-speed-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2024/bmw-m3-e46-need-for-speed-preview.webm"
     }
   },
-  "total_harvested": 175,
-  "last_updated": "2026-10-21T20:41:59.583646+00:00",
+  "total_harvested": 179,
+  "last_updated": "2026-10-21T20:44:01.024675+00:00",
   "page_cursors": {
     "super mario odyssey": 2,
     "mario odyssey": 2,
@@ -1358,7 +1386,20 @@
     "xenoblade chronicles 3": 2,
     "xenoblade 3": 2,
     "dead cells prisoner": 2,
-    "dead cells game": 2
+    "dead cells game": 2,
+    "hades game underworld": 2,
+    "zagreus hades": 2,
+    "balatro game": 2,
+    "balatro cards": 2,
+    "hollow knight": 2,
+    "hallownest": 2,
+    "need for speed hot pursuit": 2,
+    "nfs police": 2,
+    "need for speed underground": 2,
+    "nfs underground r34": 2,
+    "nfs underground": 2,
+    "need for speed most wanted": 2,
+    "nfs most wanted bmw m3": 2
   },
-  "query_cursor": 30
+  "query_cursor": 45
 }
