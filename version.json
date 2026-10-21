@@ -1,6 +1,6 @@
 {
-  "latestVersion": "1.2.4",
+  "latestVersion": "1.2.5",
   "minRequiredVersion": "1.0.0",
   "downloadUrl": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/latest/download/H3H-Backgrounds.nro",
-  "releaseNotes": "v1.2.4: Fix black screen on static preview and video via explicit SDL_Rect fullscreen coordinates, SDL_LockTexture direct GPU decode, and fopen/SDL_RWFromFP devoptab loading"
+  "releaseNotes": "v1.2.5: Fix black screen on video preview via 720p texture downscale, multi-packet decode buffering (up to 350 packets for HEVC/audio streams), 3-thread slice decoding, preserve preview thumbnails, and updated Super Mario Odyssey & Mario Kart 8 720p 30fps gameplay backgrounds"
 }

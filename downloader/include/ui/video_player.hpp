@@ -41,6 +41,8 @@ private:
     bool m_hasDecodedFirstFrame{false};
     int m_width{0};
     int m_height{0};
+    int m_targetWidth{1280};
+    int m_targetHeight{720};
     double m_fps{30.0};
     int64_t m_frameIntervalMs{33};
     uint32_t m_lastFrameTime{0};

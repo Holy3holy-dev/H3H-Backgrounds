@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-10-21T00:46:00.000000+00:00",
-  "totalGames": 735,
-  "totalVariants": 808,
+  "totalGames": 742,
+  "totalVariants": 814,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -10,13 +10,13 @@
       "publisher": "Unknown",
       "variants": [
         {
-          "id": "var-standard",
-          "name": "Standard",
-          "style": "Animated Art",
+          "id": "mario-odyssey-new-donk",
+          "name": "New Donk City (Gameplay)",
+          "style": "Cinematic Gameplay",
           "version": "1.0",
-          "url": "https://drive.google.com/uc?export=download&id=1VOePFspJ7BBScL9v_vNpr6kC0Qx4bAV_",
-          "previewUrl": "https://drive.google.com/thumbnail?id=1VOePFspJ7BBScL9v_vNpr6kC0Qx4bAV_&sz=w640",
-          "sizeBytes": 3073003,
+          "url": "https://drive.google.com/uc?export=download&id=1RSj17SlAuso-7l3BSZEdjColjt-cgGqq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RSj17SlAuso-7l3BSZEdjColjt-cgGqq&sz=w640",
+          "sizeBytes": 6179895,
           "sha256": "",
           "durationSec": 20.0,
           "author": "Holy3holy-dev",
@@ -25,12 +25,12 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 0100000000010000.mp4"
+          "notes": "Google Drive: Super Mario Odyssey New Donk City 720p H.264"
         },
         {
           "id": "super-mario-odyssey",
-          "name": "Super Mario Odyssey",
-          "style": "Animated Art",
+          "name": "Title Screen",
+          "style": "Official Theme",
           "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1MQa9RJbq1xD3PSdZhGakMg7Ha5FDniUR",
           "previewUrl": "https://drive.google.com/thumbnail?id=1MQa9RJbq1xD3PSdZhGakMg7Ha5FDniUR&sz=w640",
@@ -44,24 +44,6 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 0100000000010000_Super_Mario_Odyssey.mp4"
-        },
-        {
-          "id": "var-1nIFJHGe",
-          "name": "Standard",
-          "style": "Animated Art",
-          "version": "1.0",
-          "url": "https://drive.google.com/uc?export=download&id=1nIFJHGealY_B6hlQK70Vl9BS0IwE8TaB",
-          "previewUrl": "https://drive.google.com/thumbnail?id=1nIFJHGealY_B6hlQK70Vl9BS0IwE8TaB&sz=w640",
-          "sizeBytes": 3073003,
-          "sha256": "",
-          "durationSec": 20.0,
-          "author": "Holy3holy-dev",
-          "codec": "h264",
-          "width": 1280,
-          "height": 720,
-          "fps": 30.0,
-          "hasAudio": false,
-          "notes": "Google Drive: 0100000000010000.mp4"
         }
       ]
     },
@@ -71,27 +53,9 @@
       "publisher": "Unknown",
       "variants": [
         {
-          "id": "var-standard",
-          "name": "Standard",
-          "style": "Animated Art",
-          "version": "1.0",
-          "url": "https://drive.google.com/uc?export=download&id=1j06zTSWO__FvEz5ezzi5QflClru39kKV",
-          "previewUrl": "https://drive.google.com/thumbnail?id=1j06zTSWO__FvEz5ezzi5QflClru39kKV&sz=w640",
-          "sizeBytes": 9048143,
-          "sha256": "",
-          "durationSec": 20.0,
-          "author": "Holy3holy-dev",
-          "codec": "h264",
-          "width": 1280,
-          "height": 720,
-          "fps": 30.0,
-          "hasAudio": false,
-          "notes": "Google Drive: 0100152000022000.mp4"
-        },
-        {
           "id": "mario-kart-8-deluxe",
-          "name": "Mario Kart 8 Deluxe",
-          "style": "Animated Art",
+          "name": "Rainbow Road",
+          "style": "Cinematic Gameplay",
           "version": "1.0",
           "url": "https://drive.google.com/uc?export=download&id=1aZrWpw28vqW1shanjvbQuIrboinSLDCC",
           "previewUrl": "https://drive.google.com/thumbnail?id=1aZrWpw28vqW1shanjvbQuIrboinSLDCC&sz=w640",
@@ -105,6 +69,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 0100152000022000_Mario_Kart_8_Deluxe.mp4"
+        },
+        {
+          "id": "mario-kart-8-king-boo",
+          "name": "Twisted Mansion (King Boo)",
+          "style": "Action Drift",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rcCzaeSe3D0KawRUvvFfKkbtfLqLCwc8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rcCzaeSe3D0KawRUvvFfKkbtfLqLCwc8&sz=w640",
+          "sizeBytes": 6070467,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: Mario Kart 8 King Boo 720p H.264"
         }
       ]
     },
@@ -139,24 +121,6 @@
       "publisher": "Unknown",
       "variants": [
         {
-          "id": "var-standard",
-          "name": "Standard",
-          "style": "Animated Art",
-          "version": "1.0",
-          "url": "https://drive.google.com/uc?export=download&id=1TYCNYWq47a0f95MFMX2YUkMDqw3QpGVd",
-          "previewUrl": "https://drive.google.com/thumbnail?id=1TYCNYWq47a0f95MFMX2YUkMDqw3QpGVd&sz=w640",
-          "sizeBytes": 2272117,
-          "sha256": "",
-          "durationSec": 20.0,
-          "author": "Holy3holy-dev",
-          "codec": "h264",
-          "width": 1280,
-          "height": 720,
-          "fps": 30.0,
-          "hasAudio": false,
-          "notes": "Google Drive: 01003DC0144B6000.mp4"
-        },
-        {
           "id": "outer-wilds-campfire",
           "name": "Outer Wilds Campfire",
           "style": "Animated Art",
@@ -173,6 +137,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 01003DC0144B6000_Outer_Wilds_Campfire.mp4"
+        },
+        {
+          "id": "var-standard",
+          "name": "Standard",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TYCNYWq47a0f95MFMX2YUkMDqw3QpGVd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TYCNYWq47a0f95MFMX2YUkMDqw3QpGVd&sz=w640",
+          "sizeBytes": 2272117,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 01003DC0144B6000.mp4"
         }
       ]
     },
@@ -232,24 +214,6 @@
       "publisher": "Unknown",
       "variants": [
         {
-          "id": "var-standard",
-          "name": "Standard",
-          "style": "Animated Art",
-          "version": "1.0",
-          "url": "https://drive.google.com/uc?export=download&id=1Ud4jAK77SqAyP0LIY4E4FVdbexvBD7DD",
-          "previewUrl": "https://drive.google.com/thumbnail?id=1Ud4jAK77SqAyP0LIY4E4FVdbexvBD7DD&sz=w640",
-          "sizeBytes": 1034553,
-          "sha256": "",
-          "durationSec": 20.0,
-          "author": "Holy3holy-dev",
-          "codec": "h264",
-          "width": 1280,
-          "height": 720,
-          "fps": 30.0,
-          "hasAudio": false,
-          "notes": "Google Drive: 01005CA01580E000.mp4"
-        },
-        {
           "id": "persona-5-royal",
           "name": "Persona 5 Royal",
           "style": "Animated Art",
@@ -284,22 +248,15 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 01005CA01580E000_Ori_Will_of_Wisps.mp4"
-        }
-      ]
-    },
-    {
-      "titleId": "01006A800016E000",
-      "title": "Super Smash Bros Ultimate (SSBU) + 99 DLC [NSZ][RUS/Multi10]",
-      "publisher": "Unknown",
-      "variants": [
+        },
         {
           "id": "var-standard",
           "name": "Standard",
           "style": "Animated Art",
           "version": "1.0",
-          "url": "https://drive.google.com/uc?export=download&id=13L0QbHKRxLh3im4P3R6GBcLSvy2xnbZo",
-          "previewUrl": "https://drive.google.com/thumbnail?id=13L0QbHKRxLh3im4P3R6GBcLSvy2xnbZo&sz=w640",
-          "sizeBytes": 5762988,
+          "url": "https://drive.google.com/uc?export=download&id=1Ud4jAK77SqAyP0LIY4E4FVdbexvBD7DD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ud4jAK77SqAyP0LIY4E4FVdbexvBD7DD&sz=w640",
+          "sizeBytes": 1034553,
           "sha256": "",
           "durationSec": 20.0,
           "author": "Holy3holy-dev",
@@ -308,8 +265,15 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 01006A800016E000.mp4"
-        },
+          "notes": "Google Drive: 01005CA01580E000.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01006A800016E000",
+      "title": "Super Smash Bros Ultimate (SSBU) + 99 DLC [NSZ][RUS/Multi10]",
+      "publisher": "Unknown",
+      "variants": [
         {
           "id": "smash-bros-ultimate",
           "name": "Smash Bros Ultimate",
@@ -327,6 +291,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 01006A800016E000_Smash_Bros_Ultimate.mp4"
+        },
+        {
+          "id": "var-standard",
+          "name": "Standard",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13L0QbHKRxLh3im4P3R6GBcLSvy2xnbZo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13L0QbHKRxLh3im4P3R6GBcLSvy2xnbZo&sz=w640",
+          "sizeBytes": 5762988,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 01006A800016E000.mp4"
         }
       ]
     },
@@ -361,24 +343,6 @@
       "publisher": "Unknown",
       "variants": [
         {
-          "id": "var-standard",
-          "name": "Standard",
-          "style": "Animated Art",
-          "version": "1.0",
-          "url": "https://drive.google.com/uc?export=download&id=1IszJH7CMc0IMUwGBVvoVNKTnOF2MFzqL",
-          "previewUrl": "https://drive.google.com/thumbnail?id=1IszJH7CMc0IMUwGBVvoVNKTnOF2MFzqL&sz=w640",
-          "sizeBytes": 4436946,
-          "sha256": "",
-          "durationSec": 20.0,
-          "author": "Holy3holy-dev",
-          "codec": "h264",
-          "width": 1280,
-          "height": 720,
-          "fps": 30.0,
-          "hasAudio": false,
-          "notes": "Google Drive: 01004AB00A260000.mp4"
-        },
-        {
           "id": "dark-souls-bonfire",
           "name": "Dark Souls Bonfire",
           "style": "Animated Art",
@@ -395,6 +359,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 01004AB00A260000_Dark_Souls_Bonfire.mp4"
+        },
+        {
+          "id": "var-standard",
+          "name": "Standard",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IszJH7CMc0IMUwGBVvoVNKTnOF2MFzqL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IszJH7CMc0IMUwGBVvoVNKTnOF2MFzqL&sz=w640",
+          "sizeBytes": 4436946,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 01004AB00A260000.mp4"
         }
       ]
     },
@@ -403,24 +385,6 @@
       "title": "Animal Crossing: New Horizons + DLC Happy Home Paradise [NSP][RUS/Multi10]",
       "publisher": "Unknown",
       "variants": [
-        {
-          "id": "var-standard",
-          "name": "Standard",
-          "style": "Animated Art",
-          "version": "1.0",
-          "url": "https://drive.google.com/uc?export=download&id=1tfqe5f5p7i8zrQsiO5Ju15IxekBmoxjG",
-          "previewUrl": "https://drive.google.com/thumbnail?id=1tfqe5f5p7i8zrQsiO5Ju15IxekBmoxjG&sz=w640",
-          "sizeBytes": 1513902,
-          "sha256": "",
-          "durationSec": 20.03,
-          "author": "Holy3holy-dev",
-          "codec": "h264",
-          "width": 1280,
-          "height": 720,
-          "fps": 30.0,
-          "hasAudio": false,
-          "notes": "Google Drive: 01006F8002326000.mp4"
-        },
         {
           "id": "animal-crossing-nh",
           "name": "Animal Crossing NH",
@@ -438,6 +402,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 01006F8002326000_Animal_Crossing_NH.mp4"
+        },
+        {
+          "id": "var-standard",
+          "name": "Standard",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tfqe5f5p7i8zrQsiO5Ju15IxekBmoxjG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tfqe5f5p7i8zrQsiO5Ju15IxekBmoxjG&sz=w640",
+          "sizeBytes": 1513902,
+          "sha256": "",
+          "durationSec": 20.03,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 01006F8002326000.mp4"
         }
       ]
     },
@@ -472,24 +454,6 @@
       "publisher": "Unknown",
       "variants": [
         {
-          "id": "var-standard",
-          "name": "Standard",
-          "style": "Animated Art",
-          "version": "1.0",
-          "url": "https://drive.google.com/uc?export=download&id=1QHnHwbIO1GD4D-rfA4-MAD-o0JElkeH-",
-          "previewUrl": "https://drive.google.com/thumbnail?id=1QHnHwbIO1GD4D-rfA4-MAD-o0JElkeH-&sz=w640",
-          "sizeBytes": 2137545,
-          "sha256": "",
-          "durationSec": 20.0,
-          "author": "Holy3holy-dev",
-          "codec": "h264",
-          "width": 1280,
-          "height": 720,
-          "fps": 30.0,
-          "hasAudio": false,
-          "notes": "Google Drive: 01007EF00011E000.mp4"
-        },
-        {
           "id": "zelda-botw",
           "name": "Zelda BOTW",
           "style": "Animated Art",
@@ -506,6 +470,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 01007EF00011E000_Zelda_BOTW.mp4"
+        },
+        {
+          "id": "var-standard",
+          "name": "Standard",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QHnHwbIO1GD4D-rfA4-MAD-o0JElkeH-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QHnHwbIO1GD4D-rfA4-MAD-o0JElkeH-&sz=w640",
+          "sizeBytes": 2137545,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 01007EF00011E000.mp4"
         }
       ]
     },
@@ -539,24 +521,6 @@
       "title": "The Legend of Zelda: Tears of the Kingdom [NSP][RUS/Multi10]",
       "publisher": "Unknown",
       "variants": [
-        {
-          "id": "var-standard",
-          "name": "Standard",
-          "style": "Animated Art",
-          "version": "1.0",
-          "url": "https://drive.google.com/uc?export=download&id=1PvndmUD9GmcYe7DUvHQ4xNJfnZMDlUc-",
-          "previewUrl": "https://drive.google.com/thumbnail?id=1PvndmUD9GmcYe7DUvHQ4xNJfnZMDlUc-&sz=w640",
-          "sizeBytes": 4227671,
-          "sha256": "",
-          "durationSec": 20.0,
-          "author": "Holy3holy-dev",
-          "codec": "h264",
-          "width": 1280,
-          "height": 720,
-          "fps": 30.0,
-          "hasAudio": false,
-          "notes": "Google Drive: 0100F2C0115B6000.mp4"
-        },
         {
           "id": "zelda-totk",
           "name": "Zelda TOTK",
@@ -592,6 +556,24 @@
           "fps": 60.0,
           "hasAudio": false,
           "notes": "Google Drive Hosted (4IFIR: 1920x1080 @60fps)"
+        },
+        {
+          "id": "var-standard",
+          "name": "Standard",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PvndmUD9GmcYe7DUvHQ4xNJfnZMDlUc-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PvndmUD9GmcYe7DUvHQ4xNJfnZMDlUc-&sz=w640",
+          "sizeBytes": 4227671,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Google Drive: 0100F2C0115B6000.mp4"
         }
       ]
     },
@@ -19686,7 +19668,182 @@
           "notes": "SteamGridDB Animated Grid: 0100945012168000_Iris_Fall.mp4"
         }
       ]
+    },
+    {
+      "titleId": "0100D2700DE7C000",
+      "title": "Rivals of Aether [NSZ][ENG]",
+      "publisher": "Dan Fornace",
+      "variants": [
+        {
+          "id": "var-1WdoqUNl",
+          "name": "Rivals of Aether",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WdoqUNlQpo1nfko3eAP7pK1vK-SvjIWn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WdoqUNlQpo1nfko3eAP7pK1vK-SvjIWn&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100D2700DE7C000_Rivals_of_Aether.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01003F900E74E000",
+      "title": "Evan's Remains [NSP][RUS/Multi8]",
+      "publisher": "Whitethorn Digital",
+      "variants": [
+        {
+          "id": "var-1gEMyQFE",
+          "name": "Evan's Remains",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gEMyQFEUw8TdyzHAxqFfKenwIFIACxAo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gEMyQFEUw8TdyzHAxqFfKenwIFIACxAo&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 01003F900E74E000_Evan_s_Remains.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01007E600EEE6000",
+      "title": "140 (One Hundred Forty, Сто сорок) [NSZ][RUS/Multi11]",
+      "publisher": "Carlsen Games",
+      "variants": [
+        {
+          "id": "var-1yPvH3bN",
+          "name": "140",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yPvH3bN-KIQCJLBf0L-nxqx221EwUvdO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yPvH3bN-KIQCJLBf0L-nxqx221EwUvdO&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 01007E600EEE6000_140.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010006C0213EA000",
+      "title": "Thinking of You Beyond Time [NSZ][RUS/Multi9]",
+      "publisher": "Moesoft",
+      "variants": [
+        {
+          "id": "var-1i8GZcXU",
+          "name": "Thinking of You Beyond Time",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1i8GZcXUtzQ1YM2I6t_nSWQ-JMzaspxJb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1i8GZcXUtzQ1YM2I6t_nSWQ-JMzaspxJb&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 010006C0213EA000_Thinking_of_You_Beyond_Time.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D29019BE4000",
+      "title": "Sixtar Gate Startrail + 7 DLC [NSZ][ENG]",
+      "publisher": "CFK",
+      "variants": [
+        {
+          "id": "var-11QOWsiB",
+          "name": "Sixtar Gate Startrail + 7",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11QOWsiBCXDQ81rBDdINiRT0aJwcrzy6y",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11QOWsiBCXDQ81rBDdINiRT0aJwcrzy6y&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 0100D29019BE4000_Sixtar_Gate_Startrail___7.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010003C00B868000",
+      "title": "Ninjin Clash of Carrots [NSZ][ENG]",
+      "publisher": "Modus Games",
+      "variants": [
+        {
+          "id": "var-1ljMEyZC",
+          "name": "Ninjin Clash of Carrots",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ljMEyZCB6Z5wprCn7kkpnM3XK02RdM1r",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ljMEyZCB6Z5wprCn7kkpnM3XK02RdM1r&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 010003C00B868000_Ninjin_Clash_of_Carrots.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01001C2010D08000",
+      "title": "They Bleed Pixels [NSZ][ENG]",
+      "publisher": "Spooky Squid Games Incorporated",
+      "variants": [
+        {
+          "id": "var-15MNI1El",
+          "name": "They Bleed Pixels",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15MNI1ElNcIGkq6KH7iPdO-HUU-jZ9oj6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15MNI1ElNcIGkq6KH7iPdO-HUU-jZ9oj6&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Hero: 01001C2010D08000_They_Bleed_Pixels.mp4"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-10-21T00:46:00.000000+00:00"
+  "lastUpdated": "2026-10-21T01:52:47.859319+00:00"
 }

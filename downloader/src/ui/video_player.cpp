@@ -60,14 +60,7 @@ void VideoPlayer::close() {
         SDL_DestroyTexture(m_texture);
         m_texture = nullptr;
     }
-    if (m_rgbBuffer) {
-        av_free(m_rgbBuffer);
-        m_rgbBuffer = nullptr;
-    }
-    if (m_frameRGB) {
-        av_frame_free(&m_frameRGB);
-        m_frameRGB = nullptr;
-    }
+    
     if (m_frame) {
         av_frame_free(&m_frame);
         m_frame = nullptr;
@@ -195,8 +188,8 @@ bool VideoPlayer::open(const std::string& filepath, SDL_Renderer* renderer) {
     }
 
     // Multithreaded decoding for smooth 30-60 fps on Cortex-A57
-    m_codecCtx->thread_count = 2;
-    m_codecCtx->thread_type = FF_THREAD_FRAME | FF_THREAD_SLICE;
+    m_codecCtx->thread_count = 3;
+    m_codecCtx->thread_type = FF_THREAD_SLICE | FF_THREAD_FRAME;
 
     if (avcodec_open2(m_codecCtx, codec, nullptr) < 0) {
         close();
@@ -210,6 +203,10 @@ bool VideoPlayer::open(const std::string& filepath, SDL_Renderer* renderer) {
         return false;
     }
 
+    // Always downscale to native Switch handheld/docked target 1280x720 to conserve VRAM & CPU
+    m_targetWidth = (m_width > 1280 || m_height > 720) ? 1280 : m_width;
+    m_targetHeight = (m_width > 1280 || m_height > 720) ? 720 : m_height;
+
     AVRational rate = m_formatCtx->streams[m_videoStream]->r_frame_rate;
     if (rate.den > 0 && rate.num > 0) {
         m_fps = static_cast<double>(rate.num) / static_cast<double>(rate.den);
@@ -219,33 +216,22 @@ bool VideoPlayer::open(const std::string& filepath, SDL_Renderer* renderer) {
     m_frameIntervalMs = static_cast<int64_t>(1000.0 / (m_fps > 0 ? m_fps : 30.0));
 
     m_frame = av_frame_alloc();
-    m_frameRGB = av_frame_alloc();
     m_packet = av_packet_alloc();
-    if (!m_frame || !m_frameRGB || !m_packet) {
+    if (!m_frame || !m_packet) {
         close();
         return false;
     }
-
-    int numBytes = av_image_get_buffer_size(AV_PIX_FMT_RGBA, m_width, m_height, 1);
-    m_rgbBuffer = static_cast<uint8_t*>(av_malloc(numBytes * sizeof(uint8_t)));
-    if (!m_rgbBuffer) {
-        close();
-        return false;
-    }
-
-    av_image_fill_arrays(m_frameRGB->data, m_frameRGB->linesize, m_rgbBuffer,
-                         AV_PIX_FMT_RGBA, m_width, m_height, 1);
 
     m_swsCtx = sws_getContext(m_width, m_height, m_codecCtx->pix_fmt,
-                              m_width, m_height, AV_PIX_FMT_RGBA,
-                              SWS_BILINEAR, nullptr, nullptr, nullptr);
+                              m_targetWidth, m_targetHeight, AV_PIX_FMT_RGBA,
+                              SWS_FAST_BILINEAR, nullptr, nullptr, nullptr);
     if (!m_swsCtx) {
         close();
         return false;
     }
 
     m_texture = SDL_CreateTexture(renderer, SDL_PIXELFORMAT_RGBA32,
-                                  SDL_TEXTUREACCESS_STREAMING, m_width, m_height);
+                                  SDL_TEXTUREACCESS_STREAMING, m_targetWidth, m_targetHeight);
     if (!m_texture) {
         close();
         return false;
@@ -259,13 +245,15 @@ bool VideoPlayer::open(const std::string& filepath, SDL_Renderer* renderer) {
     m_lastFrameTime = SDL_GetTicks();
 
     // Immediately decode the first frame so the texture is immediately ready for display
-    int attempts = 0;
-    while (attempts < 80 && !m_hasDecodedFirstFrame) {
-        attempts++;
+    int totalPackets = 0;
+    int videoPackets = 0;
+    while (totalPackets < 350 && videoPackets < 100 && !m_hasDecodedFirstFrame) {
+        totalPackets++;
         int ret = av_read_frame(m_formatCtx, m_packet);
         if (ret < 0) break;
 
         if (m_packet->stream_index == m_videoStream) {
+            videoPackets++;
             if (avcodec_send_packet(m_codecCtx, m_packet) == 0) {
                 while (avcodec_receive_frame(m_codecCtx, m_frame) == 0) {
                     void* pixels = nullptr;
@@ -304,14 +292,33 @@ void VideoPlayer::update() {
     }
     m_lastFrameTime = now;
 
+    // Check if a frame is already decoded in codec buffers
     bool frameDecoded = false;
-    int attempts = 0;
-    while (attempts < 80 && !frameDecoded) {
-        attempts++;
+    while (avcodec_receive_frame(m_codecCtx, m_frame) == 0) {
+        void* pixels = nullptr;
+        int pitch = 0;
+        if (SDL_LockTexture(m_texture, nullptr, &pixels, &pitch) == 0) {
+            uint8_t* dstData[4] = { static_cast<uint8_t*>(pixels), nullptr, nullptr, nullptr };
+            int dstLinesize[4] = { pitch, 0, 0, 0 };
+            sws_scale(m_swsCtx, static_cast<const uint8_t* const*>(m_frame->data),
+                      m_frame->linesize, 0, m_height,
+                      dstData, dstLinesize);
+            SDL_UnlockTexture(m_texture);
+            frameDecoded = true;
+            m_hasDecodedFirstFrame = true;
+            break;
+        }
+    }
+
+    if (frameDecoded) return;
+
+    int totalPackets = 0;
+    while (totalPackets < 200 && !frameDecoded) {
+        totalPackets++;
         int ret = av_read_frame(m_formatCtx, m_packet);
         if (ret < 0) {
             // EOF reached: seek back to beginning for seamless loop
-            av_seek_frame(m_formatCtx, -1, 0, AVSEEK_FLAG_BACKWARD);
+            av_seek_frame(m_formatCtx, m_videoStream, 0, AVSEEK_FLAG_BACKWARD);
             avcodec_flush_buffers(m_codecCtx);
             continue;
         }

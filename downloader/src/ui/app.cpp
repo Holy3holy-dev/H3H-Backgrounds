@@ -2539,7 +2539,7 @@ void App::loadPreviewTexture(const std::string& titleId, const Variant& variant)
             if (!m_videoPlayer.open(vidFile, m_renderer)) {
                 // Corrupted cache -> purge so it can redownload cleanly
                 std::filesystem::remove(vidFile, ec);
-                std::filesystem::remove(thumbFile, ec);
+                // keep thumbFile intact
             }
         } else {
             std::filesystem::remove(vidFile, ec);
