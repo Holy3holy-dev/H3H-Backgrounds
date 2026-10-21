@@ -9,14 +9,19 @@ from pathlib import Path
 # Telegram Bot Token (obtained via @BotFather in Telegram)
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8930658933:AAEBml3fA4huJmEeSDPKxJJBpPJ_O77-HEI")
 
+# GitHub Personal Access Token (for auto-pushing updated catalogs)
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "")
+GITHUB_REPO = os.getenv("GITHUB_REPO", "Holy3holy-dev/H3H-Backgrounds")
+GITHUB_BRANCH = os.getenv("GITHUB_BRANCH", "main")
+
+# Google Drive storage settings
+GDRIVE_FOLDER_ID = os.getenv("GDRIVE_FOLDER_ID", "1hI1klJ6t2ymVoBwGA6IzY79QMjp5dTJC")
+GDRIVE_REFRESH_TOKEN = os.getenv("GDRIVE_REFRESH_TOKEN", "")
+
 # Admin Telegram user IDs (who can moderate / approve uploads, or empty list for public auto-upload)
 ADMIN_IDS = [
     # 123456789,
 ]
-
-# GitHub repository settings
-GITHUB_REPO = "Holy3holy-dev/H3H-Backgrounds"
-GITHUB_BRANCH = "main"
 
 # Target catalog paths relative to repository root
 CATALOG_PATH_STANDARD = Path("catalog/data/catalog.json")

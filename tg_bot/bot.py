@@ -28,6 +28,11 @@ sys.path.insert(0, str(PROJECT_ROOT / "studio"))
 
 from tg_bot.config import (
     BOT_TOKEN,
+    GITHUB_TOKEN,
+    GITHUB_REPO,
+    GITHUB_BRANCH,
+    GDRIVE_FOLDER_ID,
+    GDRIVE_REFRESH_TOKEN,
     ADMIN_IDS,
     CATALOG_PATH_STANDARD,
     CATALOG_PATH_AFTER_DARK,
@@ -409,9 +414,9 @@ def handle_publish_decision(call: types.CallbackQuery):
 
     # Step 2: Upload to Google Drive
     gdrive_cfg = GoogleDriveHelper.get_stored_config()
-    refresh_tok = gdrive_cfg.get("refresh_token")
+    refresh_tok = os.getenv("GDRIVE_REFRESH_TOKEN") or GDRIVE_REFRESH_TOKEN or gdrive_cfg.get("refresh_token")
     access_tok = GoogleDriveHelper.refresh_access_token(refresh_tok) or gdrive_cfg.get("token")
-    folder_id = gdrive_cfg.get("project_folder_id") or gdrive_cfg.get("folder_id")
+    folder_id = os.getenv("GDRIVE_FOLDER_ID") or GDRIVE_FOLDER_ID or gdrive_cfg.get("project_folder_id") or gdrive_cfg.get("folder_id")
 
     if not access_tok:
         bot.send_message(chat_id, "❌ Ошибка авторизации Google Drive (токен истёк). Обратитесь к администратору бота.")
@@ -493,8 +498,11 @@ def handle_publish_decision(call: types.CallbackQuery):
 
         # Step 4: Git commit and push to GitHub
         gh_token, _ = GitHubPublisher.get_stored_credentials()
+        if not gh_token:
+            gh_token = os.getenv("GITHUB_TOKEN") or GITHUB_TOKEN
         if gh_token:
-            repo_url = f"https://x-access-token:{gh_token}@github.com/{GitHubPublisher.get_repo_name()}.git"
+            repo_name = GITHUB_REPO or GitHubPublisher.get_repo_name()
+            repo_url = f"https://x-access-token:{gh_token}@github.com/{repo_name}.git"
             subprocess.run(["git", "-C", str(PROJECT_ROOT), "add", str(target_catalog_rel)], check=True)
             subprocess.run([
                 "git", "-C", str(PROJECT_ROOT), "commit", "-m",
