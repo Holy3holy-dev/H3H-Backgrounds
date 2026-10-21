@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "updatedAt": "2026-10-21T00:46:00.000000+00:00",
   "totalGames": 754,
-  "totalVariants": 826,
+  "totalVariants": 827,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -377,6 +377,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 01004AB00A260000.mp4"
+        },
+        {
+          "id": "var-119df20f",
+          "name": "Fire Keeper (Animated)",
+          "style": "Wallpaper Engine Animated",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1M4Agc6arJdBc7u6FBOe6DjeEBZfxKmkA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1M4Agc6arJdBc7u6FBOe6DjeEBZfxKmkA&sz=w640",
+          "sizeBytes": 7588593,
+          "sha256": "",
+          "durationSec": 25.0,
+          "author": "Wallpaper Engine",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Imported from Wallpaper Engine (1200562679)"
         }
       ]
     },
@@ -20145,5 +20163,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-21T02:35:50.835163+00:00"
+  "lastUpdated": "2026-10-21T15:59:30.092368+00:00"
 }
