@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T17:50:33.879755+00:00",
-  "totalGames": 761,
-  "totalVariants": 851,
+  "updatedAt": "2026-10-21T17:52:46.224834+00:00",
+  "totalGames": 762,
+  "totalVariants": 856,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -6345,6 +6345,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 0100ABF008968000_Pokemon_Sword.mp4"
+        },
+        {
+          "id": "v_bd06dff6",
+          "name": "Miraidon Legendary Pokemon Scarlet And V",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KIGCtyvdKO5cHtdCF0SD2ruh8oSqwIPW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KIGCtyvdKO5cHtdCF0SD2ruh8oSqwIPW&sz=w640",
+          "sizeBytes": 4681186,
+          "sha256": "74DF67AA5683DB8B3379769F677761966A12F25EDEEF8A6DEA273D9CF64C2B7D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Miraidon Legendary Pokemon Scarlet And V"
         }
       ]
     },
@@ -7038,6 +7056,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 01002DA013484000_The_Legend_of_Zelda_Skyward_Sword_HD.mp4"
+        },
+        {
+          "id": "v_18b16048",
+          "name": "Metroid Dread",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SD-TKTxDNyss433SDhfSum1LTCfQtZjR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SD-TKTxDNyss433SDhfSum1LTCfQtZjR&sz=w640",
+          "sizeBytes": 4661569,
+          "sha256": "70781B1963B011EA796B198BEE584BEA9C3A3D727AC8CD375277F9B5E845D4A4",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Metroid Dread"
+        },
+        {
+          "id": "v_afa9926c",
+          "name": "Samus Aran Charge Beam Metroid Dread",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nPf8rKTSYMfrJLF8I1Oo5F0zgyRs0sD8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nPf8rKTSYMfrJLF8I1Oo5F0zgyRs0sD8&sz=w640",
+          "sizeBytes": 4747085,
+          "sha256": "BB88E7A2E90901565AC428F3F2C83D84764F2BF9066A37D1358520A5681A1157",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Samus Aran Charge Beam Metroid Dread"
         }
       ]
     },
@@ -20647,6 +20701,50 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Cuphead Hero"
+        }
+      ]
+    },
+    {
+      "titleId": "010052300B254000",
+      "title": "Hades",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010052300B254000.jpg",
+      "variants": [
+        {
+          "id": "v_9f19a208",
+          "name": "Hades Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QuA7Xw1yicDaQNIsVuQG7Od9RMALlmSJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QuA7Xw1yicDaQNIsVuQG7Od9RMALlmSJ&sz=w640",
+          "sizeBytes": 1574171,
+          "sha256": "66253D8AA63A83C356E83E05D77C93B3CD0EF255FA27133536B0DE31EB934D1F",
+          "durationSec": 30.0,
+          "author": "TUFKAC",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Hades Hero"
+        },
+        {
+          "id": "v_d0ddf67a",
+          "name": "Hades Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ksfA1GTcsYSvNfhWuEiT_MSLPCoBSvDo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ksfA1GTcsYSvNfhWuEiT_MSLPCoBSvDo&sz=w640",
+          "sizeBytes": 290349,
+          "sha256": "B83C55C7AC60C703898D5646883305F419F62139F7962FC7B2F8E4D903D87D98",
+          "durationSec": 30.0,
+          "author": "excalibur",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Hades Hero"
         }
       ]
     }
