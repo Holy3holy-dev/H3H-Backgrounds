@@ -47,17 +47,19 @@ namespace ui {
 
 
 enum class Tab {
-
     Home = 0,
-
     MyGames = 1,
-
     Catalog = 2,
-
     Downloads = 3,
-
     Settings = 4
+};
 
+enum class CatalogSortMode {
+    Default = 0,
+    Alphabetical = 1,
+    VariantsCount = 2,
+    AudioOnly = 3,
+    InstalledOnly = 4
 };
 
 
@@ -206,12 +208,14 @@ public:
 
     // Collection / Variant Browser (Browse variants by name with static mini-previews)
     void openCollectionBrowser(const GameCatalogEntry& entry);
-
     void closeCollectionBrowser();
-
     void renderCollectionBrowser();
-
     void loadCollectionThumbnail(const Variant& variant);
+
+    // Catalog Filtering, Sorting & Search
+    void rebuildCatalogFilter();
+    void openCatalogKeyboard();
+    void cycleCatalogSortMode();
 
 
 
@@ -298,8 +302,10 @@ private:
 
 
     int m_catalogSelectedIndex{0};
-
     int m_catalogScrollOffset{0};
+    CatalogSortMode m_catalogSortMode{CatalogSortMode::Default};
+    std::string m_catalogSearchQuery;
+    std::vector<GameCatalogEntry> m_filteredCatalogGames;
 
 
 
