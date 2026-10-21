@@ -607,12 +607,26 @@ class AutoVideoHarvester:
             repo_url = f"https://x-access-token:{gh_token}@github.com/Holy3holy-dev/H3H-Backgrounds.git"
             rel_cat = str(self.catalog_path.relative_to(PROJECT_ROOT)).replace("\\", "/")
 
+            # Pull remote changes first to prevent collision with Telegram bot community uploads
+            try:
+                subprocess.run(["git", "pull", "--rebase", repo_url, "main"], check=False, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+            except Exception:
+                pass
+
             subprocess.run(["git", "add", rel_cat, str(self.log_file.relative_to(PROJECT_ROOT))], check=True)
             subprocess.run(["git", "commit", "-m", f"feat(harvest): automated batch harvest {harvested_count} {self.mode} video themes ({self.codec.upper()})"], check=True)
-            if self.mode == "after_dark":
-                subprocess.run(["git", "push", repo_url, "HEAD:refs/heads/after-dark"], check=True)
-            subprocess.run(["git", "push", repo_url, "HEAD:refs/heads/main"], check=True)
-            print(f"[SUCCESS] Successfully pushed {harvested_count} new video backgrounds to GitHub!")
+            
+            for push_att in range(1, 4):
+                try:
+                    if self.mode == "after_dark":
+                        subprocess.run(["git", "push", repo_url, "HEAD:refs/heads/after-dark"], check=True)
+                    subprocess.run(["git", "push", repo_url, "HEAD:refs/heads/main"], check=True)
+                    print(f"[SUCCESS] Successfully pushed {harvested_count} new video backgrounds to GitHub!")
+                    break
+                except Exception as pe:
+                    print(f"[!] Git push attempt {push_att}/3 failed: {pe}. Rebasing...")
+                    subprocess.run(["git", "pull", "--rebase", repo_url, "main"], check=False)
+                    time.sleep(2)
 
         return harvested_count
 

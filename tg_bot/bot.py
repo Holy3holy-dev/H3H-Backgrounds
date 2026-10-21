@@ -360,11 +360,13 @@ def append_variant_to_catalog(
 
 def push_catalog_to_github(catalog_rel: Path, commit_msg: str, branch: Optional[str] = None) -> bool:
     """Commits catalog changes and pushes to GitHub branch via GitHub REST API (rock-solid on Render/containers)."""
+    push_catalog_to_github.last_error = ""
     gh_token, _ = GitHubPublisher.get_stored_credentials()
     if not gh_token:
         gh_token = os.getenv("GITHUB_TOKEN") or GITHUB_TOKEN
     if not gh_token:
-        print("[!] No GitHub token available for pushing to remote.")
+        push_catalog_to_github.last_error = "Отсутствует GITHUB_TOKEN"
+        print(f"[!] No GitHub token available for pushing to remote.")
         return False
 
     target_branch = branch or GITHUB_BRANCH or "main"
@@ -1075,7 +1077,8 @@ def _do_single_publish_async(chat_id: int, message_id: int, sess: dict):
             commit_msg = f"feat(catalog): add '{sess['variant_name']}' for {sess['title_id']} by @{sess['author']} via TG Bot"
             push_ok = push_catalog_to_github(target_catalog_rel, commit_msg, branch=target_branch)
             if not push_ok:
-                raise RuntimeError("Не удалось опубликовать изменения в репозиторий GitHub.")
+                err_msg = getattr(push_catalog_to_github, "last_error", "") or "Ошибка API / прав доступа"
+                raise RuntimeError(f"Не удалось опубликовать изменения в репозиторий GitHub: {err_msg}")
 
         celebrate_text = (
             "🎉 <b>ВИДЕОФОН УСПЕШНО ОПУБЛИКОВАН!</b>\n\n"
