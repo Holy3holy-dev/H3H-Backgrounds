@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-10-21T17:57:33.211182+00:00",
-  "totalGames": 765,
-  "totalVariants": 861,
+  "totalGames": 766,
+  "totalVariants": 862,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -20861,7 +20861,32 @@
           "notes": "Switch 720p 30fps H264 | Kirby At Sea"
         }
       ]
+    },
+    {
+      "titleId": "010016101100A000",
+      "title": "The House in Fata Morgana: Dreams of the Revenants Edition",
+      "publisher": "Community",
+      "variants": [
+        {
+          "id": "var-96438a08",
+          "name": "Dynamic Theme",
+          "style": "Community Animated",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_ATAV4ywMyAnbDr-Pg13VBAIjaP8P7cy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_ATAV4ywMyAnbDr-Pg13VBAIjaP8P7cy&sz=w640",
+          "sizeBytes": 9487398,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "@HolyL0rd",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Submitted via Telegram by @HolyL0rd"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-10-21T15:59:30.092368+00:00"
+  "lastUpdated": "2026-10-21T18:20:51.601152+00:00"
 }
