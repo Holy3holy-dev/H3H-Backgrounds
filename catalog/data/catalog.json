@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T18:51:40.700742+00:00",
-  "totalGames": 772,
-  "totalVariants": 873,
+  "updatedAt": "2026-10-21T18:53:18.355338+00:00",
+  "totalGames": 775,
+  "totalVariants": 878,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -21130,6 +21130,120 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Ford Mustang GT GTA 5"
+        },
+        {
+          "id": "v_4cc017c9",
+          "name": "Grand Theft Auto VI",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19IHGUyVureGS-_62-gvX_BBmf8fUVVXe",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19IHGUyVureGS-_62-gvX_BBmf8fUVVXe&sz=w640",
+          "sizeBytes": 4739599,
+          "sha256": "FBA451A08E8F232189554C1BB5F0DBAADF2CF5AF3FB9101C9FC6F17E913CDC20",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Grand Theft Auto VI"
+        }
+      ]
+    },
+    {
+      "titleId": "010065000C3DE000",
+      "title": "BioShock Infinite",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010065000C3DE000.jpg",
+      "variants": [
+        {
+          "id": "v_003afee9",
+          "name": "BioShock Infinite Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=114r0iZD7L1ohdkaNXU6n66VgEiTIGywO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=114r0iZD7L1ohdkaNXU6n66VgEiTIGywO&sz=w640",
+          "sizeBytes": 4568913,
+          "sha256": "634B5706AC21864B748363EA9C7282123EEDEBC7C6940F6429FACFA6C0FC4DC1",
+          "durationSec": 30.0,
+          "author": "BaturaET",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | BioShock Infinite Hero"
+        }
+      ]
+    },
+    {
+      "titleId": "01000F900C404000",
+      "title": "Borderlands 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000F900C404000.jpg",
+      "variants": [
+        {
+          "id": "v_5616c72e",
+          "name": "Borderlands 2 Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1F1gjUxSZc313uGzD-22RU6MSmtZWX4ZT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1F1gjUxSZc313uGzD-22RU6MSmtZWX4ZT&sz=w640",
+          "sizeBytes": 983274,
+          "sha256": "B493A4BA934192FF80F1795DA7DAA65B8645BF58E8660E4D8B9C7610E50B1373",
+          "durationSec": 30.0,
+          "author": "Xayacatl",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Borderlands 2 Motion Cover"
+        }
+      ]
+    },
+    {
+      "titleId": "0100659013AEA000",
+      "title": "Grand Theft Auto: Vice City - Definitive",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100659013AEA000.jpg",
+      "variants": [
+        {
+          "id": "v_cc185770",
+          "name": "Grand Theft Auto Vice City",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kqwOK6IziXIykJcOHBnkg6NpK6o0ws2k",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kqwOK6IziXIykJcOHBnkg6NpK6o0ws2k&sz=w640",
+          "sizeBytes": 4584657,
+          "sha256": "0E3F57F7A9260F097EDB8874F8D47EBB0A182E64F6D5A8D5F0A45682B88453F2",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Grand Theft Auto Vice City"
+        },
+        {
+          "id": "v_84d71199",
+          "name": "John Wick In Vice City",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Pdv2dXd_fX0uHsMen9b2qmCSTEHn2Wvr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Pdv2dXd_fX0uHsMen9b2qmCSTEHn2Wvr&sz=w640",
+          "sizeBytes": 4587728,
+          "sha256": "DF1CC0C9CE064C947D8FF76474D517770F1A38D24EDAF4E15FEEC704EB68CE79",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | John Wick In Vice City"
         }
       ]
     }
