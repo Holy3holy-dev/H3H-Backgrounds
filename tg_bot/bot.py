@@ -126,41 +126,67 @@ def reset_session(chat_id: int):
         "batch_items": [],
         "zip_dir": None,
         "category": "standard",
-        "author": ""
+        "author": "",
+        "codec": "h264"
     }
 
 # --- Core Processing Helpers ---
 
-def transcode_to_switch_720p(src_vid: Path, out_mp4: Path, out_thumb: Path) -> bool:
-    """Converts input video to Switch 720p 30fps H.264 (+faststart) and extracts thumbnail."""
+def transcode_to_switch_720p(src_vid: Path, out_mp4: Path, out_thumb: Path, codec: str = "h264") -> bool:
+    """Converts input video to Switch 720p 30fps H.264 or HEVC (+faststart) and extracts thumbnail."""
     out_mp4.parent.mkdir(parents=True, exist_ok=True)
     out_thumb.parent.mkdir(parents=True, exist_ok=True)
+
+    is_hevc = (codec.lower() in ("hevc", "h265"))
 
     cmd_ffmpeg = [
         "ffmpeg", "-y", "-nostdin",
         "-t", "30",
         "-i", str(src_vid),
         "-vf", "scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:black",
-        "-c:v", "libx264",
-        "-preset", "ultrafast",
-        "-tune", "fastdecode",
-        "-threads", "2",
-        "-profile:v", "high",
-        "-level", "4.1",
-        "-pix_fmt", "yuv420p",
-        "-r", "30",
-        "-b:v", "2500k",
-        "-maxrate", "3000k",
-        "-bufsize", "5000k",
-        "-an",
-        "-movflags", "+faststart",
-        str(out_mp4)
     ]
+
+    if is_hevc:
+        cmd_ffmpeg.extend([
+            "-c:v", "libx265",
+            "-preset", "ultrafast",
+            "-threads", "2",
+            "-pix_fmt", "yuv420p",
+            "-r", "30",
+            "-b:v", "1800k",
+            "-maxrate", "2400k",
+            "-bufsize", "4000k",
+            "-an",
+            "-tag:v", "hvc1",
+            "-movflags", "+faststart",
+            str(out_mp4)
+        ])
+    else:
+        cmd_ffmpeg.extend([
+            "-c:v", "libx264",
+            "-preset", "ultrafast",
+            "-tune", "fastdecode",
+            "-threads", "2",
+            "-profile:v", "high",
+            "-level", "4.1",
+            "-pix_fmt", "yuv420p",
+            "-r", "30",
+            "-b:v", "2500k",
+            "-maxrate", "3000k",
+            "-bufsize", "5000k",
+            "-an",
+            "-movflags", "+faststart",
+            str(out_mp4)
+        ])
+
     try:
         subprocess.run(cmd_ffmpeg, stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True, timeout=120)
     except subprocess.TimeoutExpired:
         raise RuntimeError("Конвертация FFmpeg превысила лимит времени (120с). Ролик слишком длинный или повреждён.")
     except subprocess.CalledProcessError as e:
+        # Graceful fallback to libx264 if libx265 fails
+        if is_hevc:
+            return transcode_to_switch_720p(src_vid, out_mp4, out_thumb, codec="h264")
         err = e.stderr.decode("utf-8", errors="ignore") if e.stderr else str(e)
         raise RuntimeError(f"FFmpeg ошибка: {err[-250:].strip()}")
 
@@ -211,7 +237,8 @@ def append_variant_to_catalog(
     category: str,
     direct_url: str,
     preview_url: str,
-    file_size: int
+    file_size: int,
+    codec: str = "h264"
 ) -> Dict[str, Any]:
     """Adds a new background variant to catalog JSON file and updates metadata."""
     target_catalog_path = PROJECT_ROOT / catalog_rel
@@ -246,7 +273,7 @@ def append_variant_to_catalog(
         "sha256": "",
         "durationSec": 20.0,
         "author": author_tag,
-        "codec": "h264",
+        "codec": "hevc" if codec.lower() in ("hevc", "h265") else "h264",
         "width": 1280,
         "height": 720,
         "fps": 30.0,
@@ -507,12 +534,14 @@ def handle_zip_upload(message: types.Message, file_id: str, file_name: str):
     if len(batch_items) > 8:
         lines.append(f"... и ещё {len(batch_items) - 8} видео.")
 
-    lines.append("\n<b>Куда опубликовать все эти фоны?</b>")
+    lines.append("\n<b>Выберите категорию и кодек для пакета:</b>")
 
     markup = types.InlineKeyboardMarkup(row_width=1)
     markup.add(
-        types.InlineKeyboardButton("🎮 Опубликовать все в Обычный каталог", callback_data="batch_cat:standard"),
-        types.InlineKeyboardButton("🌸 Опубликовать все в After Dark (18+)", callback_data="batch_cat:after_dark"),
+        types.InlineKeyboardButton("🎮 В Обычный каталог (H.264)", callback_data="batch_cat:standard:h264"),
+        types.InlineKeyboardButton("⚡ В Обычный каталог (HEVC / H.265)", callback_data="batch_cat:standard:hevc"),
+        types.InlineKeyboardButton("🌸 В After Dark (18+) (H.264)", callback_data="batch_cat:after_dark:h264"),
+        types.InlineKeyboardButton("🔥 В After Dark (18+) (HEVC / H.265)", callback_data="batch_cat:after_dark:hevc"),
         types.InlineKeyboardButton("❌ Отмена", callback_data="batch_cat:cancel")
     )
 
@@ -706,8 +735,15 @@ def handle_variant_name_input(message: types.Message):
 def prompt_publish_confirmation(chat_id: int, edit_msg_id: Optional[int] = None):
     sess = get_session(chat_id)
     cat_label = "Обычный каталог" if sess["category"] == "standard" else "🌸 After Dark (18+)"
-    markup = types.InlineKeyboardMarkup(row_width=2)
-    markup.add(
+    codec = sess.get("codec", "h264")
+    codec_label = "🎬 H.264 (Стандарт)" if codec == "h264" else "⚡ HEVC / H.265 (High-Efficiency)"
+
+    markup = types.InlineKeyboardMarkup(row_width=1)
+    toggle_target = "hevc" if codec == "h264" else "h264"
+    toggle_text = "⚡ Переключить на HEVC (H.265)" if codec == "h264" else "🎬 Переключить на H.264 (AVC)"
+
+    markup.add(types.InlineKeyboardButton(toggle_text, callback_data=f"codec:{toggle_target}"))
+    markup.row(
         types.InlineKeyboardButton("🚀 Запустить публикацию!", callback_data="publish:yes"),
         types.InlineKeyboardButton("❌ Отмена", callback_data="publish:cancel")
     )
@@ -718,14 +754,32 @@ def prompt_publish_confirmation(chat_id: int, edit_msg_id: Optional[int] = None)
         f"🎮 <b>Игра:</b> {sess['game_name']}\n"
         f"🆔 <b>Title ID:</b> <code>{sess['title_id']}</code>\n"
         f"🎬 <b>Название фона:</b> {sess['variant_name']}\n"
+        f"⚙️ <b>Кодек:</b> <code>{codec_label}</code>\n"
         f"👤 <b>Автор:</b> @{sess['author']}\n\n"
+        "💡 <i>HEVC (H.265) даёт меньший вес при том же качестве и аппаратно декодируется NVDEC на Switch. H.264 даёт максимальную совместимость.</i>\n\n"
         "Нажмите <b>Запустить публикацию</b>, чтобы конвертировать видео, загрузить его на Google Диск и добавить на GitHub!"
     )
 
     if edit_msg_id:
-        bot.edit_message_text(text, chat_id=chat_id, message_id=edit_msg_id, reply_markup=markup)
+        try:
+            bot.edit_message_text(text, chat_id=chat_id, message_id=edit_msg_id, reply_markup=markup, parse_mode="HTML")
+        except Exception:
+            pass
     else:
-        bot.send_message(chat_id, text, reply_markup=markup)
+        bot.send_message(chat_id, text, reply_markup=markup, parse_mode="HTML")
+
+@bot.callback_query_handler(func=lambda call: call.data.startswith("codec:"))
+def handle_codec_toggle(call: types.CallbackQuery):
+    chat_id = call.message.chat.id
+    sess = get_session(chat_id)
+    new_codec = call.data.split(":")[1]
+    sess["codec"] = new_codec
+    try:
+        label = "HEVC (H.265)" if new_codec == "hevc" else "H.264 (AVC)"
+        bot.answer_callback_query(call.id, f"Выбран кодек: {label}")
+    except Exception:
+        pass
+    prompt_publish_confirmation(chat_id, edit_msg_id=call.message.message_id)
 
 # ----------------- Single Video Publishing -----------------
 
@@ -733,8 +787,10 @@ def _do_single_publish_async(chat_id: int, message_id: int, sess: dict):
     out_mp4 = None
     out_thumb = None
     try:
+        codec = sess.get("codec", "h264")
+        codec_name = "HEVC (H.265)" if codec == "hevc" else "H.264"
         bot.edit_message_text(
-            "⏳ <b>Начинаю обработку ролика...</b>\n1/3: ⚙️ Быстрая конвертация FFmpeg в 720p 30fps...",
+            f"⏳ <b>Начинаю обработку ролика...</b>\n1/3: ⚙️ Быстрая конвертация FFmpeg ({codec_name} 720p 30fps)...",
             chat_id=chat_id,
             message_id=message_id,
             parse_mode="HTML"
@@ -745,7 +801,7 @@ def _do_single_publish_async(chat_id: int, message_id: int, sess: dict):
         out_thumb = PROJECT_ROOT / TEMP_DIR / f"{sess['title_id']}_{uuid.uuid4().hex[:6]}.jpg"
 
         # Step 1: Transcode
-        transcode_to_switch_720p(src_vid, out_mp4, out_thumb)
+        transcode_to_switch_720p(src_vid, out_mp4, out_thumb, codec=codec)
 
         bot.edit_message_text(
             "⏳ <b>Обработка ролика...</b>\n"
@@ -799,7 +855,8 @@ def _do_single_publish_async(chat_id: int, message_id: int, sess: dict):
             category=category,
             direct_url=direct_url,
             preview_url=preview_url,
-            file_size=file_size
+            file_size=file_size,
+            codec=codec
         )
 
         commit_msg = f"feat(catalog): add '{sess['variant_name']}' for {sess['title_id']} by @{sess['author']} via TG Bot"
@@ -875,7 +932,14 @@ def handle_publish_decision(call: types.CallbackQuery):
 def handle_batch_category(call: types.CallbackQuery):
     chat_id = call.message.chat.id
     sess = get_session(chat_id)
-    choice = call.data.split(":")[1]
+    parts = call.data.split(":")
+    choice = parts[1]
+    batch_codec = parts[2] if len(parts) > 2 else "h264"
+
+    try:
+        bot.answer_callback_query(call.id)
+    except Exception:
+        pass
 
     if choice == "cancel":
         reset_session(chat_id)
@@ -894,11 +958,11 @@ def handle_batch_category(call: types.CallbackQuery):
 
     threading.Thread(
         target=process_batch_upload,
-        args=(chat_id, msg_id, items, target_category, author, zip_dir),
+        args=(chat_id, msg_id, items, target_category, author, zip_dir, batch_codec),
         daemon=True
     ).start()
 
-def process_batch_upload(chat_id: int, msg_id: int, items: List[Dict[str, Any]], category: str, author: str, zip_dir: Optional[str]):
+def process_batch_upload(chat_id: int, msg_id: int, items: List[Dict[str, Any]], category: str, author: str, zip_dir: Optional[str], codec: str = "h264"):
     total = len(items)
     success_count = 0
     target_catalog_rel = CATALOG_PATH_AFTER_DARK if category == "after_dark" else CATALOG_PATH_STANDARD
@@ -909,6 +973,7 @@ def process_batch_upload(chat_id: int, msg_id: int, items: List[Dict[str, Any]],
         return
 
     published_titles = []
+    codec_tag = "HEVC (H.265)" if codec == "hevc" else "H.264"
 
     for idx, item in enumerate(items, 1):
         try:
@@ -916,16 +981,17 @@ def process_batch_upload(chat_id: int, msg_id: int, items: List[Dict[str, Any]],
                 f"⏳ <b>Пакетная обработка ({idx}/{total}):</b>\n\n"
                 f"🎮 <b>{item['game_name']}</b>\n"
                 f"🎬 Вариант: <i>{item['variant_name']}</i>\n"
-                "⚙️ Конвертация 720p ➔ Загрузка на Google Диск...",
+                f"⚙️ Быстрая конвертация 720p ({codec_tag}) ➔ Google Диск...",
                 chat_id=chat_id,
-                message_id=msg_id
+                message_id=msg_id,
+                parse_mode="HTML"
             )
 
             src_vid = Path(item["path"])
             out_mp4 = PROJECT_ROOT / TEMP_DIR / f"{item['title_id']}_{uuid.uuid4().hex[:6]}.mp4"
             out_thumb = PROJECT_ROOT / TEMP_DIR / f"{item['title_id']}_{uuid.uuid4().hex[:6]}.jpg"
 
-            transcode_to_switch_720p(src_vid, out_mp4, out_thumb)
+            transcode_to_switch_720p(src_vid, out_mp4, out_thumb, codec=codec)
 
             upload_res = GoogleDriveClient.upload_file(
                 file_path=out_mp4,
@@ -946,7 +1012,8 @@ def process_batch_upload(chat_id: int, msg_id: int, items: List[Dict[str, Any]],
                 category=category,
                 direct_url=direct_url,
                 preview_url=preview_url,
-                file_size=file_size
+                file_size=file_size,
+                codec=codec
             )
 
             success_count += 1

@@ -18,11 +18,12 @@ class EncodingProfile:
     bufsize_kbps: int
     profile: str = "high"
     level: str = "4.1"
+    codec: str = "h264"
 
 
 PROFILES: Dict[str, EncodingProfile] = {
     "720p_30fps": EncodingProfile(
-        name="4IFIR 720p 30fps (Рекомендуемый)",
+        name="4IFIR 720p 30fps (Рекомендуемый H.264)",
         description="Оптимальный баланс: минимальная нагрузка на память Tegra X1, плавное воспроизведение, малый размер.",
         width=1280,
         height=720,
@@ -31,10 +32,24 @@ PROFILES: Dict[str, EncodingProfile] = {
         maxrate_kbps=3500,
         bufsize_kbps=7000,
         profile="high",
-        level="4.1"
+        level="4.1",
+        codec="h264"
+    ),
+    "720p_30fps_hevc": EncodingProfile(
+        name="4IFIR 720p 30fps (HEVC / H.265 Экономный)",
+        description="Аппаратное декодирование NVDEC: на 35-45% меньше размер файла при аналогичном качестве.",
+        width=1280,
+        height=720,
+        fps=30.0,
+        crf=22,
+        maxrate_kbps=2200,
+        bufsize_kbps=4500,
+        profile="main",
+        level="4.1",
+        codec="hevc"
     ),
     "720p_60fps": EncodingProfile(
-        name="4IFIR 720p 60fps (Плавный геймплей)",
+        name="4IFIR 720p 60fps (Плавный геймплей H.264)",
         description="Для динамичных экшен-фрагментов и быстрого геймплея.",
         width=1280,
         height=720,
@@ -43,10 +58,11 @@ PROFILES: Dict[str, EncodingProfile] = {
         maxrate_kbps=4500,
         bufsize_kbps=9000,
         profile="high",
-        level="4.1"
+        level="4.1",
+        codec="h264"
     ),
     "1080p_30fps": EncodingProfile(
-        name="4IFIR 1080p 30fps (ТВ режим)",
+        name="4IFIR 1080p 30fps (ТВ режим H.264)",
         description="Высокая чёткость для игры в док-станции на большом экране.",
         width=1920,
         height=1080,
@@ -55,7 +71,21 @@ PROFILES: Dict[str, EncodingProfile] = {
         maxrate_kbps=6000,
         bufsize_kbps=12000,
         profile="high",
-        level="4.1"
+        level="4.1",
+        codec="h264"
+    ),
+    "1080p_30fps_hevc": EncodingProfile(
+        name="4IFIR 1080p 30fps (ТВ режим HEVC / H.265)",
+        description="Full HD 1080p с пониженным битрейтом и аппаратным ускорением NVDEC.",
+        width=1920,
+        height=1080,
+        fps=30.0,
+        crf=23,
+        maxrate_kbps=3800,
+        bufsize_kbps=7500,
+        profile="main",
+        level="4.1",
+        codec="hevc"
     )
 }
 
@@ -110,19 +140,32 @@ class Encoder:
             cmd.extend(["-vf", scale_filter])
 
         # Codec configuration for 4IFIR
-        cmd.extend([
-            "-c:v", "libx264",
-            "-preset", "slow",
-            "-profile:v", profile.profile,
-            "-level", profile.level,
-            "-crf", str(profile.crf),
-            "-maxrate", f"{profile.maxrate_kbps}k",
-            "-bufsize", f"{profile.bufsize_kbps}k",
-            "-g", str(int(profile.fps * 2)),
-            "-keyint_min", str(int(profile.fps)),
-            "-sc_threshold", "0",
-            "-movflags", "+faststart"
-        ])
+        if getattr(profile, "codec", "h264") == "hevc":
+            cmd.extend([
+                "-c:v", "libx265",
+                "-preset", "medium",
+                "-crf", str(profile.crf),
+                "-maxrate", f"{profile.maxrate_kbps}k",
+                "-bufsize", f"{profile.bufsize_kbps}k",
+                "-g", str(int(profile.fps * 2)),
+                "-keyint_min", str(int(profile.fps)),
+                "-tag:v", "hvc1",
+                "-movflags", "+faststart"
+            ])
+        else:
+            cmd.extend([
+                "-c:v", "libx264",
+                "-preset", "slow",
+                "-profile:v", profile.profile,
+                "-level", profile.level,
+                "-crf", str(profile.crf),
+                "-maxrate", f"{profile.maxrate_kbps}k",
+                "-bufsize", f"{profile.bufsize_kbps}k",
+                "-g", str(int(profile.fps * 2)),
+                "-keyint_min", str(int(profile.fps)),
+                "-sc_threshold", "0",
+                "-movflags", "+faststart"
+            ])
 
         # Audio configuration
         if mute_audio:
@@ -174,7 +217,7 @@ class Encoder:
                     "sha256": sha256,
                     "durationSec": round(duration_sec, 1),
                     "author": author,
-                    "codec": "h264",
+                    "codec": getattr(profile, "codec", "h264"),
                     "width": profile.width,
                     "height": profile.height,
                     "fps": profile.fps,
