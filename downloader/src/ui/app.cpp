@@ -70,18 +70,7 @@ bool App::init() {
         }
     }
 
-    // Clean up duplicate legacy NRO at sdmc:/switch/H3H-Backgrounds.nro if we are running in subfolder
-    FILE* checkOld = fopen("sdmc:/switch/H3H-Backgrounds.nro", "rb");
-    FILE* checkNew = fopen("sdmc:/switch/H3H-Backgrounds/H3H-Backgrounds.nro", "rb");
-    if (checkOld && checkNew) {
-        fclose(checkOld);
-        fclose(checkNew);
-        std::remove("sdmc:/switch/H3H-Backgrounds.nro");
-        std::cout << "[+] Cleaned up duplicate legacy sdmc:/switch/H3H-Backgrounds.nro" << std::endl;
-    } else {
-        if (checkOld) fclose(checkOld);
-        if (checkNew) fclose(checkNew);
-    }
+    // Safe initialization - never delete running binary
 
     refreshInstalledGames();
 
@@ -176,7 +165,6 @@ bool App::init() {
 #endif
 
     std::cout << "[+] " << Config::APP_NAME << " App initialized successfully." << std::endl;
-    checkForUpdatesStartupAsync();
     return true;
 }
 
@@ -190,6 +178,9 @@ void App::shutdown() {
     }
     if (m_nroUpdateThread.joinable()) {
         m_nroUpdateThread.join();
+    }
+    if (m_startupUpdateThread.joinable()) {
+        m_startupUpdateThread.join();
     }
     m_videoPlayer.close();
     m_cancelPreview.store(true);
@@ -348,7 +339,7 @@ void App::updateApplicationNro() {
     }
 
     m_nroUpdateBytesDownloaded.store(0);
-    m_nroUpdateTotalBytes.store(10614212); // Expected release size
+    m_nroUpdateTotalBytes.store(25165824); // ~24 MB expected release size
     m_activeDialog = DialogType::UpdateProgress;
     m_dialogOpenedAt = SDL_GetTicks();
     m_dialogTitle = (m_language == Language::Russian) ? "Проверка обновлений..." : "Checking for updates...";
@@ -369,7 +360,7 @@ void App::updateApplicationNro() {
         bool checkOk = m_platform->fetchCatalog(checkUrl, versionJsonStr, checkErr);
 
         std::string latestVer = Config::APP_VERSION;
-        std::string releaseNotes = "Пакет улучшений 4IFIR Cyber-Glass";
+        std::string releaseNotes = "Пакет обновлений H3H Backgrounds";
         if (checkOk && !versionJsonStr.empty()) {
             try {
                 auto vJson = nlohmann::json::parse(versionJsonStr);
@@ -379,9 +370,7 @@ void App::updateApplicationNro() {
                 if (vJson.contains("releaseNotes")) {
                     releaseNotes = vJson["releaseNotes"].get<std::string>();
                 }
-            } catch (...) {
-                // Ignore parse errors, fallback to direct download if needed
-            }
+            } catch (...) {}
         }
 
         // If current version is already up to date, skip download completely
@@ -430,17 +419,22 @@ void App::updateApplicationNro() {
             } catch (...) {}
         }
 
-        std::string appDir = m_platform->getAppDirectory();
-        std::string tempNro = appDir + "/" + nroFileName + ".tmp";
-        
-        std::vector<std::string> targetNros = {
-            appDir + "/" + nroFileName,
-            "sdmc:/switch/" + targetSubdir + "/" + nroFileName,
-            "sdmc:/switch/" + nroFileName
-        };
-        if (!m_runningNroPath.empty()) {
-            targetNros.insert(targetNros.begin(), m_runningNroPath);
+        // Determine exact destination on MicroSD
+        std::string targetNro = m_runningNroPath;
+        if (targetNro.empty()) {
+            std::string appDir = m_platform->getAppDirectory();
+            targetNro = appDir + "/" + nroFileName;
         }
+
+        // Ensure target directory exists
+        {
+            std::error_code ec;
+            std::filesystem::create_directories(std::filesystem::path(targetNro).parent_path(), ec);
+        }
+
+        // Temporary download and backup paths in the EXACT same directory to guarantee atomic operations
+        std::string tempNro = targetNro + ".new";
+        std::string bakNro  = targetNro + ".bak";
 
         std::atomic<bool> cancel{false};
         std::string err;
@@ -450,43 +444,89 @@ void App::updateApplicationNro() {
             if (totalBytes > 0) m_nroUpdateTotalBytes.store(totalBytes);
         };
 
+        // Remove any stale temp download before starting
+        std::remove(tempNro.c_str());
+
         bool ok = m_platform->downloadFile(nroUrl, tempNro, progressCb, cancel, err);
         bool success = false;
+
         if (ok) {
-            // Release romfs handle so Horizon OS FAT32 unlocks the executing .nro file
-            m_platform->releaseRomfs();
-
-            for (const auto& targetNro : targetNros) {
-                std::error_code ec;
-                std::filesystem::create_directories(std::filesystem::path(targetNro).parent_path(), ec);
-
-                // 1. Try atomic rename
-                std::remove(targetNro.c_str());
-                if (std::rename(tempNro.c_str(), targetNro.c_str()) == 0) {
-                    success = true;
-                    break;
+            // CRITICAL STEP: Integrity Verification before touching existing binary
+            bool validNro = false;
+            FILE* fp = fopen(tempNro.c_str(), "rb");
+            if (fp) {
+                fseek(fp, 0, SEEK_END);
+                long fsize = ftell(fp);
+                // Minimum size for valid H3H NRO with FFmpeg is 15 MB
+                if (fsize >= 15 * 1024 * 1024) {
+                    fseek(fp, 0x10, SEEK_SET);
+                    char magic[4] = {0};
+                    if (fread(magic, 1, 4, fp) == 4) {
+                        if (magic[0] == 'N' && magic[1] == 'R' && magic[2] == 'O' && magic[3] == '0') {
+                            validNro = true;
+                        }
+                    }
                 }
+                fclose(fp);
+            }
 
-                // 2. Binary stream copy fallback (overwrites existing open FAT32 files safely)
-                std::ifstream src(tempNro, std::ios::binary);
-                if (src.is_open()) {
-                    std::ofstream dst(targetNro, std::ios::binary | std::ios::trunc);
-                    if (dst.is_open()) {
-                        dst << src.rdbuf();
-                        dst.flush();
-                        success = true;
-                        break;
+            if (!validNro) {
+                std::remove(tempNro.c_str());
+                err = (m_language == Language::Russian)
+                    ? "Ошибка проверки целостности: загруженный файл поврежден или неполон"
+                    : "Integrity check failed: downloaded NRO is incomplete or corrupted";
+            } else {
+                // Release RomFS so devoptab closes internal handle to argv[0]
+                m_platform->releaseRomfs();
+
+                // Safe swap:
+                // 1. Rename existing running NRO to .bak
+                std::remove(bakNro.c_str());
+                std::rename(targetNro.c_str(), bakNro.c_str());
+
+                // 2. Rename .new to targetNro
+                if (std::rename(tempNro.c_str(), targetNro.c_str()) == 0) {
+                    // Success! Remove backup
+                    std::remove(bakNro.c_str());
+                    success = true;
+                } else {
+                    // Rename failed (e.g. locked). Try chunked C stream copy
+                    FILE* fsrc = fopen(tempNro.c_str(), "rb");
+                    FILE* fdst = fopen(targetNro.c_str(), "wb");
+                    if (fsrc && fdst) {
+                        std::vector<char> buf(64 * 1024);
+                        size_t bytesRead;
+                        bool copyOk = true;
+                        while ((bytesRead = fread(buf.data(), 1, buf.size(), fsrc)) > 0) {
+                            if (fwrite(buf.data(), 1, bytesRead, fdst) != bytesRead) {
+                                copyOk = false;
+                                break;
+                            }
+                        }
+                        fflush(fdst);
+                        fclose(fdst);
+                        fclose(fsrc);
+                        if (copyOk) {
+                            std::remove(tempNro.c_str());
+                            std::remove(bakNro.c_str());
+                            success = true;
+                        }
+                    } else {
+                        if (fsrc) fclose(fsrc);
+                        if (fdst) fclose(fdst);
+                    }
+
+                    if (!success) {
+                        // Rollback from backup! Target is guaranteed intact!
+                        std::remove(targetNro.c_str());
+                        std::rename(bakNro.c_str(), targetNro.c_str());
+                        std::remove(tempNro.c_str());
+                        err = "Failed to swap NRO on MicroSD (original preserved)";
                     }
                 }
             }
-
-            std::remove(tempNro.c_str());
-            m_platform->restoreRomfs();
-
-            if (!success) {
-                err = "Failed to replace H3H-Backgrounds.nro file";
-            }
         }
+
         {
             std::lock_guard<std::mutex> lock(m_nroMutex);
             m_nroUpdateError = std::move(err);
@@ -577,6 +617,55 @@ void App::update() {
             m_statusNotification = (m_language == Language::Russian)
                 ? ("Ошибка сети: " + err)
                 : ("Network error: " + err);
+            m_notificationFramesRemaining = 240;
+        }
+    }
+
+    // Proactive background update check after UI has settled (after 2 seconds)
+    if (!m_startupUpdateChecked && SDL_GetTicks() > 2000) {
+        m_startupUpdateChecked = true;
+        if (!m_isCheckingUpdateStartup.load() && !m_isUpdatingNro.load()) {
+            m_isCheckingUpdateStartup.store(true);
+            if (m_startupUpdateThread.joinable()) {
+                m_startupUpdateThread.join();
+            }
+            m_startupUpdateThread = std::thread([this]() {
+                std::string versionJsonStr;
+                std::string checkErr;
+                std::string checkUrl = std::string(Config::VERSION_CHECK_URL) + "?t=" + std::to_string(std::chrono::system_clock::now().time_since_epoch().count());
+                bool checkOk = m_platform->fetchCatalog(checkUrl, versionJsonStr, checkErr);
+
+                if (checkOk && !versionJsonStr.empty()) {
+                    try {
+                        auto vJson = nlohmann::json::parse(versionJsonStr);
+                        if (vJson.contains("latestVersion")) {
+                            std::string latestVer = vJson["latestVersion"].get<std::string>();
+                            if (latestVer != Config::APP_VERSION) {
+                                std::lock_guard<std::mutex> lock(m_startupUpdateMutex);
+                                m_startupUpdateLatestVer = latestVer;
+                            }
+                        }
+                    } catch (...) {}
+                }
+                m_startupUpdateDone.store(true);
+                m_isCheckingUpdateStartup.store(false);
+            });
+        }
+    }
+
+    if (m_startupUpdateDone.exchange(false)) {
+        if (m_startupUpdateThread.joinable()) {
+            m_startupUpdateThread.join();
+        }
+        std::string newVer;
+        {
+            std::lock_guard<std::mutex> lock(m_startupUpdateMutex);
+            newVer = std::move(m_startupUpdateLatestVer);
+        }
+        if (!newVer.empty()) {
+            m_statusNotification = (m_language == Language::Russian)
+                ? ("✨ Обнаружено обновление v" + newVer + "! Нажмите [-] в Настройках")
+                : ("✨ New update v" + newVer + " detected! Press [-] in Settings");
             m_notificationFramesRemaining = 240;
         }
     }
@@ -3133,32 +3222,7 @@ void App::renderGamePicker() {
 // ----------------- Collection / Variant Browser Implementation -----------------
 
 
-void App::checkForUpdatesStartupAsync() {
-    std::thread([this]() {
-        // Sleep 1 second after startup so the main UI settles cleanly
-        std::this_thread::sleep_for(std::chrono::milliseconds(1000));
-        
-        std::string versionJsonStr;
-        std::string checkErr;
-        std::string checkUrl = std::string(Config::VERSION_CHECK_URL) + "?t=" + std::to_string(std::chrono::system_clock::now().time_since_epoch().count());
-        bool checkOk = m_platform->fetchCatalog(checkUrl, versionJsonStr, checkErr);
 
-        if (checkOk && !versionJsonStr.empty()) {
-            try {
-                auto vJson = nlohmann::json::parse(versionJsonStr);
-                if (vJson.contains("latestVersion")) {
-                    std::string latestVer = vJson["latestVersion"].get<std::string>();
-                    if (latestVer != Config::APP_VERSION) {
-                        m_statusNotification = (m_language == Language::Russian)
-                            ? ("✨ Обнаружено обновление v" + latestVer + "! Нажмите [-] в Настройках")
-                            : ("✨ New update v" + latestVer + " detected! Press [-] in Settings");
-                        m_notificationFramesRemaining = 240; // ~4 seconds toast at 60 FPS
-                    }
-                }
-            } catch (...) {}
-        }
-    }).detach();
-}
 
 void App::openCollectionBrowser(const GameCatalogEntry& entry) {
     if (entry.variants.empty()) return;

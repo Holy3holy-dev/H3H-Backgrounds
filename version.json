@@ -1,7 +1,7 @@
 {
-  "latestVersion": "1.2.7",
+  "latestVersion": "1.2.8",
   "minRequiredVersion": "1.0.0",
-  "downloadUrl": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.2.7/H3H-Backgrounds.nro",
-  "afterDarkDownloadUrl": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.2.7/H3H-AfterDark.nro",
-  "releaseNotes": "v1.2.7: Collection Browser with static mini-previews, Plus/B exit buttons, startup update notification, and expanded After Dark & Main catalogs"
+  "downloadUrl": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.2.8/H3H-Backgrounds.nro",
+  "afterDarkDownloadUrl": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.2.8/H3H-AfterDark.nro",
+  "releaseNotes": "v1.2.8: Critical fix for in-app updater (safe atomic replace, NRO integrity check, rollback safety, elimination of startup crash)"
 }

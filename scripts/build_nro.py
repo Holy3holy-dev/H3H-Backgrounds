@@ -99,6 +99,10 @@ def build():
 
     os.makedirs(BUILD_DIR, exist_ok=True)
     env = os.environ.copy()
+    tmp_dir = os.path.join(ROOT_DIR, 'tmp')
+    os.makedirs(tmp_dir, exist_ok=True)
+    env['TMP'] = tmp_dir
+    env['TEMP'] = tmp_dir
     env["DEVKITPRO"] = DKP
     env["PATH"] = f"{TOOLS_BIN};{A64_BIN};" + env.get("PATH", "")
 

@@ -205,8 +205,6 @@ public:
 
 
     // Collection / Variant Browser (Browse variants by name with static mini-previews)
-
-    void checkForUpdatesStartupAsync();
     void openCollectionBrowser(const GameCatalogEntry& entry);
 
     void closeCollectionBrowser();
@@ -350,22 +348,22 @@ private:
 
 
     // Thread-safe async NRO updating
-
     std::thread m_nroUpdateThread;
-
     std::atomic<bool> m_isUpdatingNro{false};
-
     std::atomic<bool> m_nroUpdateDone{false};
-
     std::string m_nroUpdateError;
-
     bool m_nroUpdateSuccess{false};
-
     std::mutex m_nroMutex;
-
     std::atomic<uint64_t> m_nroUpdateBytesDownloaded{0};
-
     std::atomic<uint64_t> m_nroUpdateTotalBytes{0};
+
+    // Thread-safe async startup update check
+    bool m_startupUpdateChecked{false};
+    std::thread m_startupUpdateThread;
+    std::atomic<bool> m_isCheckingUpdateStartup{false};
+    std::atomic<bool> m_startupUpdateDone{false};
+    std::string m_startupUpdateLatestVer;
+    std::mutex m_startupUpdateMutex;
 
 
 
