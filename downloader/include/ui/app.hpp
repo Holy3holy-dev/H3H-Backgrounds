@@ -223,6 +223,13 @@ private:
     // Integrity check state (Feature 5)
     std::vector<IntegrityIssue> m_detectedIntegrityIssues;
     int m_lastIntegrityTotalChecked{0};
+
+    // State transition debouncing to protect against rapid multi-dispatches
+    uint32_t m_previewOpenedAt{0};
+    uint32_t m_dialogOpenedAt{0};
+    uint32_t m_recordingsOpenedAt{0};
+    uint32_t m_lastTabSwitchTime{0};
+    uint32_t m_lastTriggerTime{0};
 };
 
 } // namespace ui

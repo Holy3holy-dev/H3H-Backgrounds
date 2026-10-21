@@ -304,6 +304,7 @@ void App::updateApplicationNro() {
     m_nroUpdateBytesDownloaded.store(0);
     m_nroUpdateTotalBytes.store(10614212); // Expected release size
     m_activeDialog = DialogType::UpdateProgress;
+    m_dialogOpenedAt = SDL_GetTicks();
     m_dialogTitle = (m_language == Language::Russian) ? "Проверка обновлений..." : "Checking for updates...";
     m_dialogMessage = (m_language == Language::Russian)
         ? "Связь с GitHub Releases и проверка версии..."
@@ -512,6 +513,7 @@ void App::update() {
 
         if (ok) {
             m_activeDialog = DialogType::UpdateSuccess;
+    m_dialogOpenedAt = SDL_GetTicks();
             m_dialogTitle = (m_language == Language::Russian) ? "Обновление завершено!" : "Update Complete!";
             m_dialogMessage = (m_language == Language::Russian)
                 ? "Приложение H3H-Backgrounds.nro успешно обновлено до актуальной версии!\nНажмите [A], чтобы перезапустить сейчас, или [B] для продолжения."
@@ -520,6 +522,7 @@ void App::update() {
             m_statusNotification = (m_language == Language::Russian) ? "Приложение обновлено!" : "Updated!";
         } else if (err == "ALREADY_UP_TO_DATE") {
             m_activeDialog = DialogType::MessageAlert;
+    m_dialogOpenedAt = SDL_GetTicks();
             m_dialogTitle = (m_language == Language::Russian) ? "Обновление не требуется" : "Up to date";
             m_dialogMessage = (m_language == Language::Russian)
                 ? ("У вас уже установлена актуальная версия:\nH3H-Backgrounds v" + std::string(Config::APP_VERSION) + ".\nНовых версий на сервере не найдено.")
@@ -528,6 +531,7 @@ void App::update() {
             m_statusNotification = (m_language == Language::Russian) ? "Установлена последняя версия" : "Up to date";
         } else {
             m_activeDialog = DialogType::MessageAlert;
+    m_dialogOpenedAt = SDL_GetTicks();
             m_dialogTitle = (m_language == Language::Russian) ? "Ошибка обновления" : "Update Error";
             m_dialogMessage = (m_language == Language::Russian)
                 ? ("Не удалось проверить или применить обновление: " + err)
@@ -599,6 +603,7 @@ void App::installAllMissing() {
     }
 
     m_activeDialog = DialogType::ConfirmInstallAll;
+    m_dialogOpenedAt = SDL_GetTicks();
     m_dialogTitle = (m_language == Language::Russian)
         ? "Установка всех недостающих"
         : "Install All Missing Covers";
@@ -743,27 +748,10 @@ void App::handleInput() {
             m_running = false;
         } else if (event.type == SDL_CONTROLLERBUTTONDOWN) {
             onButtonPress(event.cbutton.button);
-        } else if (event.type == SDL_JOYBUTTONDOWN) {
-            // Direct hardware fallback for Switch Joy-Cons and Pro Controllers
-            int btn = -1;
-            switch (event.jbutton.button) {
-                case 0: btn = 0; break;  // A
-                case 1: btn = 1; break;  // B
-                case 2: btn = 2; break;  // X
-                case 3: btn = 3; break;  // Y
-                case 10: btn = 6; break; // Plus (+) -> SDL_CONTROLLER_BUTTON_START (6)
-                case 11: btn = 4; break; // Minus (-) -> SDL_CONTROLLER_BUTTON_BACK (4)
-                case 6: btn = 9; break;  // L (LEFTSHOULDER)
-                case 7: btn = 10; break; // R (RIGHTSHOULDER)
-                case 4: btn = 7; break;  // Left stick click (L3)
-                case 5: btn = 8; break;  // Right stick click (R3)
-                case 13: btn = 11; break; // D-Pad Up
-                case 15: btn = 12; break; // D-Pad Down
-                case 12: btn = 13; break; // D-Pad Left
-                case 14: btn = 14; break; // D-Pad Right
-                default: break;
+        } else if (event.type == SDL_CONTROLLERDEVICEADDED) {
+            if (SDL_IsGameController(event.cdevice.which)) {
+                SDL_GameControllerOpen(event.cdevice.which);
             }
-            if (btn != -1) onButtonPress(btn);
         } else if (event.type == SDL_CONTROLLERAXISMOTION) {
             // Analog stick scrolling (Left Stick Y / X)
             if (event.caxis.axis == SDL_CONTROLLER_AXIS_LEFTY) {
@@ -787,6 +775,18 @@ void App::handleInput() {
                         onButtonPress(13 /* DPAD_LEFT */);
                         m_lastStickScrollTime = now;
                     }
+                }
+            } else if (event.caxis.axis == SDL_CONTROLLER_AXIS_TRIGGERLEFT) {
+                uint32_t now = SDL_GetTicks();
+                if (event.caxis.value > 16000 && (now - m_lastTriggerTime > 250)) {
+                    onButtonPress(9 /* LEFTSHOULDER / ZL */);
+                    m_lastTriggerTime = now;
+                }
+            } else if (event.caxis.axis == SDL_CONTROLLER_AXIS_TRIGGERRIGHT) {
+                uint32_t now = SDL_GetTicks();
+                if (event.caxis.value > 16000 && (now - m_lastTriggerTime > 250)) {
+                    onButtonPress(10 /* RIGHTSHOULDER / ZR */);
+                    m_lastTriggerTime = now;
                 }
             }
         } else if (event.type == SDL_MOUSEWHEEL) {
@@ -936,6 +936,9 @@ void App::handleInput() {
 void App::onButtonPress(int button) {
     // Local Recordings Browser Handler (Feature 3)
     if (m_isRecordingsBrowserOpen && m_activeDialog == DialogType::None && !m_isFullscreenPreview) {
+        if (SDL_GetTicks() - m_recordingsOpenedAt < 150) {
+            return;
+        }
         if (button == 1 /* B */) {
             closeRecordingsBrowser();
             return;
@@ -978,6 +981,7 @@ void App::onButtonPress(int button) {
                 m_pendingRecordingToInstallPath = rec.fullPath;
                 m_pendingRecordingToInstallName = rec.filename;
                 m_activeDialog = DialogType::ConfirmInstallLocalRecording;
+    m_dialogOpenedAt = SDL_GetTicks();
                 m_dialogTitle = "Установка видеофона";
                 m_dialogMessage = "Установить запись '" + rec.filename +
                                   "' в качестве видеофона для игры " + m_recordingsTargetGameName + "?";
@@ -990,6 +994,9 @@ void App::onButtonPress(int button) {
 
     // Fullscreen Preview Input Handler
     if (m_isFullscreenPreview) {
+        if (SDL_GetTicks() - m_previewOpenedAt < 200) {
+            return;
+        }
         if (button == 1 /* B */ || button == 2 /* X */) {
             closeFullscreenPreview();
             return;
@@ -1009,6 +1016,7 @@ void App::onButtonPress(int button) {
                 m_pendingActionTitleId = m_previewTitleId;
                 m_pendingActionVariant = m_previewVariants[m_previewVariantIndex];
                 m_activeDialog = DialogType::ConfirmInstall;
+    m_dialogOpenedAt = SDL_GetTicks();
                 m_dialogTitle = getStrings(m_language).confirmInstallTitle;
                 if (m_previewIsGameInstalled) {
                     m_dialogMessage = "Установить вариант '" + m_pendingActionVariant.name + "' (" +
@@ -1027,6 +1035,9 @@ void App::onButtonPress(int button) {
 
     // If Dialog is active, route all input to dialog
     if (m_activeDialog != DialogType::None) {
+        if (SDL_GetTicks() - m_dialogOpenedAt < 150) {
+            return;
+        }
         if (m_activeDialog == DialogType::UpdateProgress) {
             // While downloading, allow B to hide modal to background
             if (button == 1 /* B */) {
@@ -1142,21 +1153,29 @@ void App::onButtonPress(int button) {
 
     // Tab switching with Shoulder buttons (L/R)
     if (button == 9 /* LEFTSHOULDER */) {
-        int tabInt = static_cast<int>(m_activeTab);
-        tabInt = (tabInt == 0) ? 4 : tabInt - 1;
-        m_activeTab = static_cast<Tab>(tabInt);
+        uint32_t now = SDL_GetTicks();
+        if (now - m_lastTabSwitchTime > 150) {
+            int tabInt = static_cast<int>(m_activeTab);
+            tabInt = (tabInt == 0) ? 4 : tabInt - 1;
+            m_activeTab = static_cast<Tab>(tabInt);
+            m_lastTabSwitchTime = now;
+        }
         return;
     }
     if (button == 10 /* RIGHTSHOULDER */) {
-        int tabInt = static_cast<int>(m_activeTab);
-        tabInt = (tabInt == 4) ? 0 : tabInt + 1;
-        m_activeTab = static_cast<Tab>(tabInt);
+        uint32_t now = SDL_GetTicks();
+        if (now - m_lastTabSwitchTime > 150) {
+            int tabInt = static_cast<int>(m_activeTab);
+            tabInt = (tabInt == 4) ? 0 : tabInt + 1;
+            m_activeTab = static_cast<Tab>(tabInt);
+            m_lastTabSwitchTime = now;
+        }
         return;
     }
 
     // View-specific input handling
     if (m_activeTab == Tab::Home) {
-        if (button == 0 /* A - Enter My Games */) {
+        if (button == 0 /* A - Enter My Games */ || button == 6 /* Plus */) {
             m_activeTab = Tab::MyGames;
         } else if (button == 3 /* Y - Install all missing */) {
             installAllMissing();
@@ -1167,10 +1186,14 @@ void App::onButtonPress(int button) {
         // Feature 3: Plus (+) or L3 button opens 4IFIR SD Recordings browser immediately
         if (button == 6 /* SDL_CONTROLLER_BUTTON_START (Plus / +) */ ||
             button == 7 /* SDL_CONTROLLER_BUTTON_LEFTSTICK (L3) */) {
-            if (!m_installedGames.empty() && m_myGamesSelectedIndex >= 0 &&
-                m_myGamesSelectedIndex < static_cast<int>(m_installedGames.size())) {
-                const auto& g = m_installedGames[m_myGamesSelectedIndex];
+            if (!m_installedGames.empty()) {
+                int idx = std::clamp(m_myGamesSelectedIndex, 0, static_cast<int>(m_installedGames.size()) - 1);
+                const auto& g = m_installedGames[idx];
                 openRecordingsBrowser(g.titleId, g.name);
+                return;
+            } else {
+                m_statusNotification = "Нет установленных игр для привязки";
+                m_notificationFramesRemaining = 120;
                 return;
             }
         }
@@ -1211,6 +1234,7 @@ void App::onButtonPress(int button) {
                     if (g.hasInstalledCover) {
                         m_pendingActionTitleId = g.titleId;
                         m_activeDialog = DialogType::ConfirmDelete;
+    m_dialogOpenedAt = SDL_GetTicks();
                         m_dialogTitle = "Удаление активного фона";
                         m_dialogMessage = "Удалить установленный видеофон для игры " + g.name + "?\n\n(Фон будет удалён с консоли, а варианты в каталоге останутся доступны для повторной установки в любой момент)";
                         m_dialogFocus = 0;
@@ -1245,6 +1269,7 @@ void App::onButtonPress(int button) {
                     m_pendingActionTitleId = g.titleId;
                     m_pendingActionVariant = g.catalogEntry.variants[m_selectedVariantIndex];
                     m_activeDialog = DialogType::ConfirmInstall;
+    m_dialogOpenedAt = SDL_GetTicks();
                     m_dialogTitle = getStrings(m_language).confirmInstallTitle;
                     m_dialogMessage = "Установить вариант '" + m_pendingActionVariant.name + "' (" +
                                       styleToString(m_pendingActionVariant.style) + ") для " + g.name + "?";
@@ -1255,6 +1280,7 @@ void App::onButtonPress(int button) {
                     if (g.hasInstalledCover) {
                         m_pendingActionTitleId = g.titleId;
                         m_activeDialog = DialogType::ConfirmDelete;
+    m_dialogOpenedAt = SDL_GetTicks();
                         m_dialogTitle = "Удаление активного фона";
                         m_dialogMessage = "Удалить установленный видеофон для игры " + g.name + "?\n\n(Фон будет удалён с консоли, а варианты в каталоге останутся доступны для повторной установки в любой момент)";
                         m_dialogFocus = 0;
@@ -2413,6 +2439,7 @@ void App::openFullscreenPreviewForGame(const InstalledTitle& g, int variantIndex
     m_previewInstalledCoverSizeBytes = g.installedCoverSizeBytes;
     m_previewInstalledCoverPath = g.installedCoverPath;
 
+    m_previewOpenedAt = SDL_GetTicks();
     m_isFullscreenPreview = true;
     loadPreviewTexture(m_previewTitleId, m_previewVariants[m_previewVariantIndex]);
 #endif
@@ -2444,6 +2471,7 @@ void App::openFullscreenPreviewForCatalogGame(const GameCatalogEntry& entry, int
         }
     }
 
+    m_previewOpenedAt = SDL_GetTicks();
     m_isFullscreenPreview = true;
     loadPreviewTexture(m_previewTitleId, m_previewVariants[m_previewVariantIndex]);
 #endif
@@ -2594,6 +2622,7 @@ void App::openRecordingsBrowser(const std::string& titleId, const std::string& g
     m_localRecordings = Installer::listLocalRecordings(m_platform->getRecordingsDirectory());
     m_recordingsSelectedIndex = 0;
     m_recordingsScrollOffset = 0;
+    m_recordingsOpenedAt = SDL_GetTicks();
     m_isRecordingsBrowserOpen = true;
 }
 
@@ -2699,6 +2728,7 @@ void App::executeInstallLocalRecording() {
         m_dialogTitle = "Ошибка установки записи";
         m_dialogMessage = res.message;
         m_activeDialog = DialogType::MessageAlert;
+    m_dialogOpenedAt = SDL_GetTicks();
     }
 }
 
@@ -2708,6 +2738,7 @@ void App::runIntegrityCheck() {
 
     if (report.issues.empty()) {
         m_activeDialog = DialogType::IntegrityCheckResult;
+    m_dialogOpenedAt = SDL_GetTicks();
         m_dialogTitle = "Целостность видеофонов";
         if (report.totalChecked == 0) {
             m_dialogMessage = "В папке recordings/covers/ пока нет установленных видеофонов.";
@@ -2718,6 +2749,7 @@ void App::runIntegrityCheck() {
     } else {
         m_detectedIntegrityIssues = report.issues;
         m_activeDialog = DialogType::ConfirmDeleteCorrupted;
+    m_dialogOpenedAt = SDL_GetTicks();
         m_dialogTitle = "Обнаружены повреждённые видеофоны!";
         std::string msg = "Найдено повреждений: " + std::to_string(report.issues.size()) +
                           " из " + std::to_string(report.totalChecked) + " файлов:\n";
