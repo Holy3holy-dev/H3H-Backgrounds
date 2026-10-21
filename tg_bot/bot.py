@@ -46,6 +46,29 @@ if local_proxy:
     apihelper.proxy = {'http': local_proxy, 'https': local_proxy}
 
 bot = telebot.TeleBot(BOT_TOKEN, parse_mode="HTML")
+
+import threading
+from http.server import HTTPServer, BaseHTTPRequestHandler
+
+class HealthCheckHandler(BaseHTTPRequestHandler):
+    def do_GET(self):
+        self.send_response(200)
+        self.send_header('Content-Type', 'text/html; charset=utf-8')
+        self.end_headers()
+        self.wfile.write(b'<h1>H3H Backgrounds Telegram Bot is Live!</h1>')
+
+    def log_message(self, format, *args):
+        pass
+
+def start_health_server():
+    import os
+    port = int(os.getenv('PORT', 10000))
+    server = HTTPServer(('0.0.0.0', port), HealthCheckHandler)
+    print(f'[*] Health check server listening on 0.0.0.0:{port}')
+    server.serve_forever()
+
+threading.Thread(target=start_health_server, daemon=True).start()
+
 resolver = TitleIdResolver(str(PROJECT_ROOT / CATALOG_PATH_STANDARD))
 
 # User session state storage
