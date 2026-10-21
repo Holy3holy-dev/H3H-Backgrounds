@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T21:21:15.246605+00:00",
+  "updatedAt": "2026-10-21T21:22:12.961905+00:00",
   "totalGames": 790,
-  "totalVariants": 1003,
+  "totalVariants": 1005,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -15152,6 +15152,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "SteamGridDB Animated Hero: 01009C8009026000_Limbo.mp4"
+        },
+        {
+          "id": "v_c04251d6",
+          "name": "Rainy Dead Tree Limbo",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HIWfRdx0v2nLa6xXw4kGypVKD-IKlXAr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HIWfRdx0v2nLa6xXw4kGypVKD-IKlXAr&sz=w640",
+          "sizeBytes": 4752825,
+          "sha256": "ED2E9591B74545326E239C171279A82205634C71923839B58F409BB8EF380D16",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rainy Dead Tree Limbo | ЗВУК"
+        },
+        {
+          "id": "v_d55c1ecc",
+          "name": "Dark Forest Monochrome Limbo",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_5qJ9I977JUMsFqjLb0sFUOX5vuHG_WO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_5qJ9I977JUMsFqjLb0sFUOX5vuHG_WO&sz=w640",
+          "sizeBytes": 4708603,
+          "sha256": "01082D0119E5361499CEBB9271C367D1068CF2DED753AA253F8BDEEC2BDD6640",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dark Forest Monochrome Limbo | ЗВУК"
         }
       ]
     },
