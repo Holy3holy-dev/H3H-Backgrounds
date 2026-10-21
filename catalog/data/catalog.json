@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T19:00:32.813845+00:00",
-  "totalGames": 780,
-  "totalVariants": 888,
+  "updatedAt": "2026-10-21T19:05:58.215085+00:00",
+  "totalGames": 782,
+  "totalVariants": 893,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -21438,6 +21438,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Doom Marine"
+        },
+        {
+          "id": "v_c64ecba8",
+          "name": "Doom Marine Kills Demons In Hell",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-J23oDmmSYiloNuYHiVkHilfNuGd7KU2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-J23oDmmSYiloNuYHiVkHilfNuGd7KU2&sz=w640",
+          "sizeBytes": 4693291,
+          "sha256": "0C915381F5C86D2488FBF56954C0111E380F789CA9555CD34670EBBB363496B2",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Doom Marine Kills Demons In Hell"
         }
       ]
     },
@@ -21464,6 +21482,94 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | The Mark Of The Doom Slayer"
+        },
+        {
+          "id": "v_2338c17c",
+          "name": "Doomer Driving",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HFySBYFyl2HWUTIp0QEI8dYqDstxaNfB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HFySBYFyl2HWUTIp0QEI8dYqDstxaNfB&sz=w640",
+          "sizeBytes": 4678853,
+          "sha256": "C3523BBC0C412980D2B8AFE84C2AC3636CEDE43E9BB4762683E9617A468E603D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Doomer Driving"
+        },
+        {
+          "id": "v_fc633889",
+          "name": "Doomer Feels",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AUBT-i2TbR2peFFfn6UVnYFRX1dlSEhB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AUBT-i2TbR2peFFfn6UVnYFRX1dlSEhB&sz=w640",
+          "sizeBytes": 4676403,
+          "sha256": "0E83BB6079B32995368AF70EA228565CDEFCA3B7B4990614FEFC99A2184682A0",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Doomer Feels"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D1D027E96000",
+      "title": "Castlevania Belmont's Curse [NSP][RUS/Multi11]",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D1D027E96000.jpg",
+      "variants": [
+        {
+          "id": "v_3bcda772",
+          "name": "Castlevania Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bMVhJ1BJK-hSDQ6rIPaHwui_hU64PqRb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bMVhJ1BJK-hSDQ6rIPaHwui_hU64PqRb&sz=w640",
+          "sizeBytes": 1651515,
+          "sha256": "2093D8AC7C5316AB97E46D0994929AEF37E68767E28F1CDE4DB296A570DDBABB",
+          "durationSec": 30.0,
+          "author": "PAfro",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Castlevania Motion Cover"
+        }
+      ]
+    },
+    {
+      "titleId": "010083A018262000",
+      "title": "Hitman Blood Money Reprisal [NSZ][RUS/Multi8]",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010083A018262000.jpg",
+      "variants": [
+        {
+          "id": "v_0c98f258",
+          "name": "HITMAN Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1D6te2G34HIqFAuXjNqkai-qqwUUFae66",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1D6te2G34HIqFAuXjNqkai-qqwUUFae66&sz=w640",
+          "sizeBytes": 1524732,
+          "sha256": "827A6FEBD82EC2AD6846B3827C813C55D9B9984995C92044FC59BB78F580CF74",
+          "durationSec": 30.0,
+          "author": "BaturaET",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | HITMAN Hero"
         }
       ]
     }
