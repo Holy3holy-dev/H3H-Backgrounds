@@ -21,6 +21,7 @@
 #include <string>
 
 #include <map>
+#include <set>
 
 #include <thread>
 
@@ -59,7 +60,19 @@ enum class CatalogSortMode {
     Alphabetical = 1,
     VariantsCount = 2,
     AudioOnly = 3,
-    InstalledOnly = 4
+    InstalledOnly = 4,
+    FavoritesOnly = 5
+};
+
+struct StorageStats {
+    uint64_t totalSdBytes{0};
+    uint64_t freeSdBytes{0};
+    int coversCount{0};
+    uint64_t coversBytes{0};
+    int thumbsCount{0};
+    uint64_t thumbsBytes{0};
+    int vidCacheCount{0};
+    uint64_t vidCacheBytes{0};
 };
 
 
@@ -216,6 +229,26 @@ public:
     void rebuildCatalogFilter();
     void openCatalogKeyboard();
     void cycleCatalogSortMode();
+
+    // Feature 1: Favorites System
+    void loadFavorites();
+    void saveFavorites();
+    bool isVariantFavorite(const std::string& titleId, const std::string& variantId) const;
+    void toggleFavoriteVariant(const std::string& titleId, const Variant& variant);
+    bool hasGameFavorites(const std::string& titleId) const;
+
+    // Feature 6: Storage & Cache Manager
+    void refreshStorageStats();
+    void clearThumbnailCache();
+    void clearVideoPreviewCache();
+    const StorageStats& getStorageStats() const { return m_storageStats; }
+
+    // Feature 7: Batch Multi-Select Checklist
+    void toggleBatchSelection(const std::string& titleId);
+    void clearBatchSelection();
+    void installBatchSelected();
+    bool isBatchSelected(const std::string& titleId) const { return m_batchSelectedTitleIds.count(titleId) > 0; }
+    size_t getBatchSelectionCount() const { return m_batchSelectedTitleIds.size(); }
 
 
 
@@ -538,6 +571,15 @@ private:
     uint32_t m_lastTabSwitchTime{0};
 
     uint32_t m_lastTriggerTime{0};
+
+    // Feature 1: Favorites
+    std::set<std::string> m_favoriteKeys;
+
+    // Feature 6: Storage Stats
+    StorageStats m_storageStats;
+
+    // Feature 7: Batch Selection
+    std::set<std::string> m_batchSelectedTitleIds;
 
 };
 

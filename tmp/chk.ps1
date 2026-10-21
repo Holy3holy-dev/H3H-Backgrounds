@@ -1,0 +1,1 @@
+Get-CimInstance Win32_Process | Where-Object { .ProcessId -in @(11632, 22600, 47672) } | Select-Object ProcessId, CommandLine | ConvertTo-Json

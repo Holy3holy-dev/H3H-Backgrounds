@@ -122,10 +122,10 @@ def build():
             cmd.append(f"-I{inc.replace(os.sep, '/')}")
         cmd += ["-c", src_path.replace(os.sep, "/"), "-o", obj_path.replace(os.sep, "/")]
 
-        res = subprocess.run(cmd, env=env, capture_output=True, text=True)
+        res = subprocess.run(cmd, env=env, capture_output=True, text=True, encoding='utf-8', errors='replace')
         if res.returncode != 0:
             print(f"Compilation error in {src}:")
-            print(res.stderr)
+            print(res.stderr.encode('ascii', errors='replace').decode('ascii'))
             return 1
 
     elf_path = os.path.join(BUILD_DIR, "H3H-AfterDark.elf")
@@ -135,10 +135,10 @@ def build():
         link_cmd.append(f"-L{lp.replace(os.sep, '/')}")
     link_cmd += LIBS + ["-o", elf_path.replace(os.sep, "/")]
 
-    res = subprocess.run(link_cmd, env=env, capture_output=True, text=True)
+    res = subprocess.run(link_cmd, env=env, capture_output=True, text=True, encoding='utf-8', errors='replace')
     if res.returncode != 0:
         print("Linker error:")
-        print(res.stderr)
+        print(res.stderr.encode('ascii', errors='replace').decode('ascii'))
         return 1
 
     print(f"[*] ELF successfully generated ({os.path.getsize(elf_path)} bytes)")
@@ -156,10 +156,10 @@ def build():
         app_version,
         nacp_path
     ]
-    res = subprocess.run(nacp_cmd, env=env, capture_output=True, text=True)
+    res = subprocess.run(nacp_cmd, env=env, capture_output=True, text=True, encoding='utf-8', errors='replace')
     if res.returncode != 0:
         print("nacptool error:")
-        print(res.stderr)
+        print(res.stderr.encode('ascii', errors='replace').decode('ascii'))
         return 1
 
     # Convert ELF to NRO
@@ -181,10 +181,10 @@ def build():
     if os.path.exists(romfs_dir):
         nro_cmd.append(f"--romfsdir={romfs_dir}")
 
-    res = subprocess.run(nro_cmd, env=env, capture_output=True, text=True)
+    res = subprocess.run(nro_cmd, env=env, capture_output=True, text=True, encoding='utf-8', errors='replace')
     if res.returncode != 0:
         print("elf2nro error:")
-        print(res.stderr)
+        print(res.stderr.encode('ascii', errors='replace').decode('ascii'))
         return 1
 
     # Copy to workspace root and drive H:

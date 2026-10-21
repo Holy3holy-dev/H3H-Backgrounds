@@ -1,0 +1,4 @@
+downloader/src/ui/app.cpp: In member function 'void h3h::ui::App::renderTabMyGames()':
+downloader/src/ui/app.cpp:1935:17: warning: unused variable 's' [-Wunused-variable]
+ 1935 |     const auto& s = getStrings(m_language);
+      |                 ^
