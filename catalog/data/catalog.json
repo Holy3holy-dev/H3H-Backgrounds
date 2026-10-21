@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T17:57:33.211182+00:00",
-  "totalGames": 766,
-  "totalVariants": 862,
+  "updatedAt": "2026-10-21T18:42:20.037893+00:00",
+  "totalGames": 768,
+  "totalVariants": 867,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -20859,6 +20859,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Kirby At Sea"
+        },
+        {
+          "id": "v_1e5e19f7",
+          "name": "Yellow Kirby Floating On The Pond",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14auTTg9NvzhFYKMy1BSxDqV6F4wsfWu-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14auTTg9NvzhFYKMy1BSxDqV6F4wsfWu-&sz=w640",
+          "sizeBytes": 4693014,
+          "sha256": "CCE6900BEFDD7555BB89E223CA8D65522F89DBCD6C93329782CE66F195107AF4",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Yellow Kirby Floating On The Pond"
         }
       ]
     },
@@ -20884,6 +20902,94 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Submitted via Telegram by @HolyL0rd"
+        }
+      ]
+    },
+    {
+      "titleId": "010093800B8C8000",
+      "title": "Stardew Valley",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010093800B8C8000.jpg",
+      "variants": [
+        {
+          "id": "v_07edabf0",
+          "name": "Stardew Valley Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xotsKefx488U9OS88SEm_m-HTAidd4Ch",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xotsKefx488U9OS88SEm_m-HTAidd4Ch&sz=w640",
+          "sizeBytes": 2486191,
+          "sha256": "221F917850F2A22ADC69F491C201217F03243203C8A056350E476E22FE764F63",
+          "durationSec": 30.0,
+          "author": "Nosebeggar",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Stardew Valley Hero"
+        }
+      ]
+    },
+    {
+      "titleId": "0100559011540000",
+      "title": "Monster Hunter Rise",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100559011540000.jpg",
+      "variants": [
+        {
+          "id": "v_7dfabf8b",
+          "name": "Monster Hunter Rise Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1d03UMX-aCIsKpI1GAcNreT4VFv13mUiZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1d03UMX-aCIsKpI1GAcNreT4VFv13mUiZ&sz=w640",
+          "sizeBytes": 5763526,
+          "sha256": "B049F7A9BC90D880D4D276FF7BFC0C19291C50707648261E60C3B5EE57B75BC4",
+          "durationSec": 30.0,
+          "author": "EspiOwnage",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Monster Hunter Rise Hero"
+        },
+        {
+          "id": "v_f1d35ca5",
+          "name": "Afflicted Zinogre Monster Hunter Rise",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wKlNo-CknZodg9vq4w5WlCPmI3iTLbPN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wKlNo-CknZodg9vq4w5WlCPmI3iTLbPN&sz=w640",
+          "sizeBytes": 4657260,
+          "sha256": "69CEAB0FBCB3E9A105C5E954E152CD77A8A58B570992A0F3154CADF48282819A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Afflicted Zinogre Monster Hunter Rise"
+        },
+        {
+          "id": "v_865ce2a3",
+          "name": "Hinoa And Minoto Monster Hunter Rise",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dA52mtGXlVDVFs7vvDmN_gtyEaeD2DXH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dA52mtGXlVDVFs7vvDmN_gtyEaeD2DXH&sz=w640",
+          "sizeBytes": 4701958,
+          "sha256": "A20FA4D6075B96B9B3F2393631EFF1B72B09DAC9C61D723C35103EEE4C957FCE",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Hinoa And Minoto Monster Hunter Rise"
         }
       ]
     }
