@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "name": "H3H After Dark (18+) Official Catalog",
-  "updatedAt": "2026-10-21T17:24:22.428771+00:00",
+  "updatedAt": "2026-10-21T17:34:59.827892+00:00",
   "totalGames": 8,
-  "totalVariants": 30,
+  "totalVariants": 32,
   "games": [
     {
       "titleId": "0000000000000000",
@@ -315,6 +315,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps | Power: Blood Fiend (Chainsaw Man)"
+        },
+        {
+          "id": "v_bc36709b",
+          "name": "Arlecchino Crimson Moon Genshin Impact",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10Ho9fYgzM8SrnCOLsHOZE9oLedJUnzzV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10Ho9fYgzM8SrnCOLsHOZE9oLedJUnzzV&sz=w640",
+          "sizeBytes": 4742815,
+          "sha256": "EFFFAB68BDFD0DAB4DCD021A061DC8535EDA4E093AF00203A7609AAEA191A753",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Arlecchino Crimson Moon Genshin Impact"
+        },
+        {
+          "id": "v_4f75baf4",
+          "name": "Arlecchino Night Train Genshin Impact",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-1MRFF0Py6vGo0HEh7Ic6Y8GccCPHjqR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-1MRFF0Py6vGo0HEh7Ic6Y8GccCPHjqR&sz=w640",
+          "sizeBytes": 4700177,
+          "sha256": "9B21C23C24585B57FC0400B75D6A83EFEA7670765A61798F13DAA3FEE39A7A67",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Arlecchino Night Train Genshin Impact"
         }
       ]
     },
