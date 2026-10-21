@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T21:05:23.462569+00:00",
+  "updatedAt": "2026-10-21T21:07:07.135031+00:00",
   "totalGames": 790,
-  "totalVariants": 971,
+  "totalVariants": 975,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -8797,6 +8797,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 01007EF00B094000_Final_Fantasy_IX.mp4"
+        },
+        {
+          "id": "v_e0945e66",
+          "name": "Final Fantasy IX",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MpTXvKHhpEsWo0J1vlT_8710P0ZLkbSu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MpTXvKHhpEsWo0J1vlT_8710P0ZLkbSu&sz=w640",
+          "sizeBytes": 4688786,
+          "sha256": "1D963E1C28308C1BDD3EEDECE816FDCE32A78305F3C845321A88EE01E76D8697",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Final Fantasy IX | ЗВУК"
         }
       ]
     },
@@ -8897,6 +8915,60 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 010056E00853A000_A_Hat_in_Time.mp4"
+        },
+        {
+          "id": "v_d6576e44",
+          "name": "Rimuru Tempest That Time I Got Reincarna",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kX12ob1Dalwy9j9GWRubCeRJ3c4XM9cK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kX12ob1Dalwy9j9GWRubCeRJ3c4XM9cK&sz=w640",
+          "sizeBytes": 4741339,
+          "sha256": "73E581146FB2348EBE78C7B5727C0FA949E68FEF5AACF47641725F0B47AFC90F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rimuru Tempest That Time I Got Reincarna | ЗВУК"
+        },
+        {
+          "id": "v_28ac104e",
+          "name": "Rimuru Tempest Samurai That Time I Got R",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16R91RSE4JbtnydYqZuCWUa3zjBHVi2vI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16R91RSE4JbtnydYqZuCWUa3zjBHVi2vI&sz=w640",
+          "sizeBytes": 4692100,
+          "sha256": "85B83D8FD1C4B09589607B89843D73495F6FC398AA6D3764184EA1E4477D7D55",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rimuru Tempest Samurai That Time I Got R | ЗВУК"
+        },
+        {
+          "id": "v_844fa5d2",
+          "name": "Anime Girl Tea Time",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hMfAhn8tQO2luHY7ymelR3rv-qSrz00W",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hMfAhn8tQO2luHY7ymelR3rv-qSrz00W&sz=w640",
+          "sizeBytes": 4705917,
+          "sha256": "62F638146D18D11C8A63FF983D82A9E153699B7E4D0A073423FB3B241A024274",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Anime Girl Tea Time"
         }
       ]
     },
