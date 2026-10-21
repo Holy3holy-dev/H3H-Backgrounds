@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T21:12:01.868553+00:00",
+  "updatedAt": "2026-10-21T21:13:39.037598+00:00",
   "totalGames": 790,
-  "totalVariants": 987,
+  "totalVariants": 988,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -11753,6 +11753,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "SteamGridDB Animated Grid: 0100AD10102B2000_BioShock.mp4"
+        },
+        {
+          "id": "v_83a334bd",
+          "name": "Rapture City BioShock",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qht_Gfegpc4V_DrRY10v7v05qoTYKr9G",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qht_Gfegpc4V_DrRY10v7v05qoTYKr9G&sz=w640",
+          "sizeBytes": 4694523,
+          "sha256": "6A4617481E8CEA6209E80E50DCFA0DE19DF2D94860AEE6973DC72D8B2F064A1D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rapture City BioShock | ЗВУК"
         }
       ]
     },

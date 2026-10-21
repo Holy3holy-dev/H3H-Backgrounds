@@ -2185,10 +2185,24 @@
     "https://moewalls.com/games/welcome-to-raccoon-city-resident-evil-requiem-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2026/welcome-to-raccoon-city-resident-evil-requiem-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2021/rapture-city-bioshock-preview.webm": {
+      "title": "Rapture City BioShock",
+      "titleId": "0100AD10102B2000",
+      "gameName": "BioShock",
+      "varId": "v_83a334bd",
+      "driveId": "1qht_Gfegpc4V_DrRY10v7v05qoTYKr9G",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/rapture-city-bioshock-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2021/rapture-city-bioshock-preview.webm"
     }
   },
-  "total_harvested": 298,
-  "last_updated": "2026-10-21T21:12:01.867071+00:00",
+  "total_harvested": 300,
+  "last_updated": "2026-10-21T21:13:39.036265+00:00",
   "page_cursors": {
     "super mario odyssey": 2,
     "mario odyssey": 2,
@@ -2302,7 +2316,7 @@
     "Dragon's Dogma Dark Arisen": 2,
     "Tony Hawk's Pro Skater 1": 2,
     "PPSSPP": 2,
-    "Call of Juarez Gunslinger": 2,
+    "Call of Juarez Gunslinger": 3,
     "Sniper Elite 4": 2,
     "Tinfoil": 2,
     "DBI Installer": 2,
@@ -2390,7 +2404,20 @@
     "Turnip Mountain": 2,
     "Inertial Drift": 2,
     "Anno Mutationem": 2,
-    "Alien Quest Eve": 2
+    "Alien Quest Eve": 2,
+    "Sally Face": 2,
+    "The Messenger": 2,
+    "The Drifter": 2,
+    "Absolum": 2,
+    "Digimon Story Time Stranger": 2,
+    "Sonic Racing Crossworlds": 2,
+    "Horizon Chase Turbo": 2,
+    "A Little to the Left": 2,
+    "Bendy and the Ink Machine": 2,
+    "Astalon Tears of the Earth": 2,
+    "Company of Heroes Collection": 2,
+    "Darksiders III": 2,
+    "Darksiders Genesis": 2
   },
-  "query_cursor": 315
+  "query_cursor": 330
 }
