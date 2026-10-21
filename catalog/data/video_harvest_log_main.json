@@ -2539,10 +2539,38 @@
     "https://moewalls.com/sci-fi/no-file-ruiner-live-wallpaper/": {
       "page": true,
       "skipped": true
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2021/max-rockatansky-mad-max-fury-road-preview.webm": {
+      "title": "Max Rockatansky Mad Max: Fury Road",
+      "titleId": "010041C00D086000",
+      "gameName": "Ion Fury",
+      "varId": "v_f240046a",
+      "driveId": "1_QQ6XATP7hO2YJut4qGpm6W04JXS6gwC",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/movies/max-rockatansky-mad-max-fury-road-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2021/max-rockatansky-mad-max-fury-road-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/crosscode-preview.webm": {
+      "title": "CrossCode",
+      "titleId": "01003D90058FC000",
+      "gameName": "CrossCode",
+      "varId": "v_c4cd3b46",
+      "driveId": "10EWngzxIodlZebjE4c1PWlxK1tkiyG8V",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/crosscode-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/crosscode-preview.webm"
     }
   },
-  "total_harvested": 349,
-  "last_updated": "2026-10-21T21:27:02.866057+00:00",
+  "total_harvested": 353,
+  "last_updated": "2026-10-21T21:29:10.533827+00:00",
   "page_cursors": {
     "super mario odyssey": 2,
     "mario odyssey": 2,
@@ -2849,7 +2877,20 @@
     "Ministry of Broadcast": 2,
     "Sundered Eldritch Edition": 2,
     "Iron Meat": 2,
-    "Skul the Hero Slayer": 2
+    "Skul the Hero Slayer": 2,
+    "Ace Combat 7 Skies Unknown": 2,
+    "The Wandering Village": 2,
+    "This War of Mine": 2,
+    "Doraemon Story of Seasons": 2,
+    "Prodeus": 2,
+    "Stick Fight The Game": 2,
+    "Mercenary Kings Reloaded": 2,
+    "Remnant From the Ashes": 2,
+    "Invisible Inc": 2,
+    "Shadow Labyrinth": 2,
+    "CarX Drift Racing": 2,
+    "CarX Highway Racing": 2,
+    "Gravity Circuit": 2
   },
-  "query_cursor": 450
+  "query_cursor": 465
 }
