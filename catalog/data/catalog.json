@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T17:34:36.435228+00:00",
-  "totalGames": 755,
-  "totalVariants": 831,
+  "updatedAt": "2026-10-21T17:43:27.112342+00:00",
+  "totalGames": 756,
+  "totalVariants": 836,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -542,6 +542,60 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Link In Rivendell The Legend Of Zelda: Breath Of The Wild"
+        },
+        {
+          "id": "v_d902b23c",
+          "name": "Link And Zelda Legend Of Zelda: Breath O",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oxm4Nw6MrBRawNmkNw5hF6B6Wp14ThAp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oxm4Nw6MrBRawNmkNw5hF6B6Wp14ThAp&sz=w640",
+          "sizeBytes": 4635407,
+          "sha256": "7B7C03D592B3AD239E83904AB80FE715DF47FD03C62D629EF7735D7ECC65F847",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Link And Zelda Legend Of Zelda: Breath O"
+        },
+        {
+          "id": "v_0029a0ba",
+          "name": "Link Journey The Legend Of Zelda: Breath",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UpcJ9XlGXHQ6FFYYrV1LAUxlSPZFo7ts",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UpcJ9XlGXHQ6FFYYrV1LAUxlSPZFo7ts&sz=w640",
+          "sizeBytes": 4709612,
+          "sha256": "09AAE1FAC39913D31141B72D7577474E398C96077E31A5F4E6B0152A8E0BE6A1",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Link Journey The Legend Of Zelda: Breath"
+        },
+        {
+          "id": "v_1e30de7c",
+          "name": "Link And The Forest Temple BotW",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nxTljRJLCxx_UV2ZAXKSOTXh1Mk9agl0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nxTljRJLCxx_UV2ZAXKSOTXh1Mk9agl0&sz=w640",
+          "sizeBytes": 4568438,
+          "sha256": "C5BF75E6FA1EA6C2552F49720D6138752BD67B469351ED69AA1A6FB0FCB02202",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Link And The Forest Temple BotW"
         }
       ]
     },
@@ -20239,6 +20293,50 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | DOOM Eternal Hero"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BC0005C8A000",
+      "title": "DOOM (2016)",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BC0005C8A000.jpg",
+      "variants": [
+        {
+          "id": "v_88f62977",
+          "name": "Doom Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17ssXkimdFH9MtTvzXW35g1nLutW2tv5Y",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17ssXkimdFH9MtTvzXW35g1nLutW2tv5Y&sz=w640",
+          "sizeBytes": 283057,
+          "sha256": "9574ED76B6E5A236346EA179CAD74A06C9B996B39B429F5ABB03E530AA765917",
+          "durationSec": 30.0,
+          "author": "BrochachoTheBro",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Doom Motion Cover"
+        },
+        {
+          "id": "v_e0728a41",
+          "name": "Doom Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AYNsNimW77GoBmlwEKdCbfsfNC00A7Uh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AYNsNimW77GoBmlwEKdCbfsfNC00A7Uh&sz=w640",
+          "sizeBytes": 2649016,
+          "sha256": "42F53590362D5895317775C2A3ABA2FC448C407F7ACD58C79248F528DECA0C62",
+          "durationSec": 30.0,
+          "author": "Cxz1138",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Doom Motion Cover"
         }
       ]
     }
