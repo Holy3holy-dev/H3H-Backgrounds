@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "name": "H3H After Dark (18+) Official Catalog",
-  "updatedAt": "2026-10-21T20:42:44.543943+00:00",
-  "totalGames": 11,
-  "totalVariants": 80,
+  "updatedAt": "2026-10-21T20:44:21.243116+00:00",
+  "totalGames": 12,
+  "totalVariants": 82,
   "games": [
     {
       "titleId": "0000000000000000",
@@ -1367,6 +1367,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps | Kasumi Yoshizawa: Violet Blossom"
+        },
+        {
+          "id": "v_13cc58b0",
+          "name": "Ann Takamaki Summer Vacation Persona 5",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yttw_yJsxJHCxjd2cILfNXNo5gjvpuvN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yttw_yJsxJHCxjd2cILfNXNo5gjvpuvN&sz=w640",
+          "sizeBytes": 4680170,
+          "sha256": "1227F7F6992F7ACF536D001583CDA10E8DE807282B0E6D5BE694B6AF7D0C8B00",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ann Takamaki Summer Vacation Persona 5 | ЗВУК"
         }
       ]
     },
@@ -1525,6 +1543,32 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | KAngel Needy Girl Overdose | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "010034B016912000",
+      "title": "Persona 4 Golden",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010034B016912000.jpg",
+      "variants": [
+        {
+          "id": "v_e66c4e4d",
+          "name": "Yukiko Amagi Persona 4 X Goddess of Vict",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pPEUV1J_jYjV6JBUaS9o1NIkhekNIxW0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pPEUV1J_jYjV6JBUaS9o1NIkhekNIxW0&sz=w640",
+          "sizeBytes": 4700082,
+          "sha256": "632C262E32D2A989C8A0B7CC81F5E31CB60F26C2C43DCFD3C775F38912353977",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Yukiko Amagi Persona 4 X Goddess of Vict"
         }
       ]
     }
