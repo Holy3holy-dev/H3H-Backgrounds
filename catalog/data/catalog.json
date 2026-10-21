@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T20:45:29.443280+00:00",
+  "updatedAt": "2026-10-21T20:48:00.809770+00:00",
   "totalGames": 790,
-  "totalVariants": 929,
+  "totalVariants": 930,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -22160,6 +22160,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Chemical Plant Zone Vaporwave Sonic The"
+        },
+        {
+          "id": "v_d05bc35f",
+          "name": "Sonic Explosion",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ATJpJp6mVX4AgBAYYQWhqeLKa4OQ_IM0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ATJpJp6mVX4AgBAYYQWhqeLKa4OQ_IM0&sz=w640",
+          "sizeBytes": 4703782,
+          "sha256": "E8740BB342156B74F3D88169DB57A2EBFD25B51FE8BF4BC12830D69CC50E5EBB",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Sonic Explosion"
         }
       ]
     },
