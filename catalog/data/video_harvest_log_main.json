@@ -1355,10 +1355,28 @@
     "https://moewalls.com/vehicle/bmw-m3-e46-need-for-speed-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2024/bmw-m3-e46-need-for-speed-preview.webm"
+    },
+    "https://moewalls.com/games/grand-theft-auto-vi-2-live-wallpaper/": {
+      "page": true,
+      "skipped": true
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2024/space-portal-preview.webm": {
+      "title": "Space Portal",
+      "titleId": "0100ABD01785C000",
+      "gameName": "Portal Companion Collection",
+      "varId": "v_7b10833d",
+      "driveId": "1aab4qjEFes99ywr0cZTo_4gkdz8x2j2K",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/sci-fi/space-portal-3-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2024/space-portal-preview.webm"
     }
   },
-  "total_harvested": 179,
-  "last_updated": "2026-10-21T20:44:01.024675+00:00",
+  "total_harvested": 182,
+  "last_updated": "2026-10-21T20:45:29.442420+00:00",
   "page_cursors": {
     "super mario odyssey": 2,
     "mario odyssey": 2,
@@ -1399,7 +1417,21 @@
     "nfs underground r34": 2,
     "nfs underground": 2,
     "need for speed most wanted": 2,
-    "nfs most wanted bmw m3": 2
+    "nfs most wanted bmw m3": 2,
+    "nfs most wanted": 2,
+    "grand theft auto iii": 2,
+    "gta 3": 2,
+    "claude gta": 2,
+    "grand theft auto vice city": 2,
+    "gta vice city": 2,
+    "tommy vercetti": 2,
+    "grand theft auto san andreas": 2,
+    "gta san andreas": 2,
+    "cj san andreas": 2,
+    "portal aperture": 2,
+    "glados portal": 2,
+    "super mario 64": 2,
+    "mario 64 castle": 2
   },
-  "query_cursor": 45
+  "query_cursor": 60
 }
