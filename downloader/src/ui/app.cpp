@@ -1,3 +1,4 @@
+
 #include "ui/app.hpp"
 #include "core/installed_registry.hpp"
 #include "core/config.hpp"
@@ -22,6 +23,29 @@
 
 namespace h3h {
 namespace ui {
+
+#ifdef HAS_SDL2
+namespace {
+static SDL_Texture* loadTextureFromFile(SDL_Renderer* renderer, const std::string& path) {
+    if (!renderer || path.empty()) return nullptr;
+    FILE* fp = fopen(path.c_str(), "rb");
+    if (!fp) return nullptr;
+    SDL_RWops* rw = SDL_RWFromFP(fp, SDL_TRUE);
+    if (!rw) {
+        fclose(fp);
+        return nullptr;
+    }
+    SDL_Surface* surf = IMG_Load_RW(rw, 1);
+    if (!surf) return nullptr;
+    SDL_Texture* tex = SDL_CreateTextureFromSurface(renderer, surf);
+    SDL_FreeSurface(surf);
+    if (tex) {
+        SDL_SetTextureBlendMode(tex, SDL_BLENDMODE_NONE);
+    }
+    return tex;
+}
+} // anonymous namespace
+#endif
 
 App::App(std::unique_ptr<IPlatform> platform)
     : m_platform(std::move(platform)) {}
@@ -442,11 +466,10 @@ void App::update() {
         }
     }
     if (!previewPath.empty() && m_renderer) {
-        SDL_Texture* newTex = IMG_LoadTexture(m_renderer, previewPath.c_str());
+        SDL_Texture* newTex = loadTextureFromFile(m_renderer, previewPath);
         if (newTex) {
             if (m_previewTexture) SDL_DestroyTexture(m_previewTexture);
             m_previewTexture = newTex;
-            SDL_SetTextureBlendMode(m_previewTexture, SDL_BLENDMODE_NONE);
         }
     }
     if (!vidPath.empty() && m_renderer && m_isFullscreenPreview) {
@@ -1366,8 +1389,9 @@ void App::render() {
         return;
     }
 
-    // Clear background
-    drawRect(0, 0, Theme::SCREEN_WIDTH, Theme::SCREEN_HEIGHT, Theme::COLOR_BG_BASE);
+    // Clear background with hardware buffer clear
+    SDL_SetRenderDrawColor(m_renderer, Theme::COLOR_BG_BASE.r, Theme::COLOR_BG_BASE.g, Theme::COLOR_BG_BASE.b, 255);
+    SDL_RenderClear(m_renderer);
 
     renderHeader();
 
@@ -2312,16 +2336,21 @@ void App::renderFullscreenPreview() {
 #ifdef HAS_SDL2
     if (!m_renderer) return;
 
+    SDL_SetRenderDrawColor(m_renderer, 0, 0, 0, 255);
+    SDL_RenderClear(m_renderer);
+
+    SDL_Rect fullScreenRect = {0, 0, Theme::SCREEN_WIDTH, Theme::SCREEN_HEIGHT};
+
     // 1. Draw Live Motion Video or Static Background Image or Dark Frosted Canvas
     if (m_videoPlayer.isPlaying()) {
-        m_videoPlayer.render(m_renderer, nullptr);
+        m_videoPlayer.render(m_renderer, &fullScreenRect);
 
         // Status badge: LIVE VIDEO
         drawRect(30, 20, 280, 32, {0x0F, 0x17, 0x2A, 0xDD});
         drawRectOutline(30, 20, 280, 32, Theme::COLOR_SUCCESS, 1);
         drawText("▶ ЖИВОЙ ВИДЕОФОН (30 FPS)", 45, 28, Theme::COLOR_SUCCESS, 13);
     } else if (m_previewTexture) {
-        SDL_RenderCopy(m_renderer, m_previewTexture, nullptr, nullptr);
+        SDL_RenderCopy(m_renderer, m_previewTexture, nullptr, &fullScreenRect);
 
         if (m_videoDownloading) {
             drawRect(30, 20, 270, 32, {0x0F, 0x17, 0x2A, 0xDD});
@@ -2519,11 +2548,10 @@ void App::loadPreviewTexture(const std::string& titleId, const Variant& variant)
 
     // 2. Load static image if exists
     if (std::filesystem::exists(thumbFile, ec)) {
-        SDL_Texture* newTex = IMG_LoadTexture(m_renderer, thumbFile.c_str());
+        SDL_Texture* newTex = loadTextureFromFile(m_renderer, thumbFile);
         if (newTex) {
             if (m_previewTexture) SDL_DestroyTexture(m_previewTexture);
             m_previewTexture = newTex;
-            SDL_SetTextureBlendMode(m_previewTexture, SDL_BLENDMODE_NONE);
         }
     }
 

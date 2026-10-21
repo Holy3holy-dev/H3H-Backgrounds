@@ -151,7 +151,7 @@ bool VideoPlayer::open(const std::string& filepath, SDL_Renderer* renderer) {
     m_formatCtx->flags |= AVFMT_FLAG_CUSTOM_IO;
 
     // Use a generic mp4 extension hint so FFmpeg does not attempt protocol resolution on "sdmc:/"
-    if (avformat_open_input(&m_formatCtx, "video.mp4", nullptr, nullptr) != 0) {
+    if (avformat_open_input(&m_formatCtx, "", nullptr, nullptr) != 0) {
         std::cerr << "[VideoPlayer] avformat_open_input failed with custom AVIO for: " << filepath << std::endl;
         close();
         return false;
@@ -268,13 +268,18 @@ bool VideoPlayer::open(const std::string& filepath, SDL_Renderer* renderer) {
         if (m_packet->stream_index == m_videoStream) {
             if (avcodec_send_packet(m_codecCtx, m_packet) == 0) {
                 while (avcodec_receive_frame(m_codecCtx, m_frame) == 0) {
-                    sws_scale(m_swsCtx, static_cast<const uint8_t* const*>(m_frame->data),
-                              m_frame->linesize, 0, m_height,
-                              m_frameRGB->data, m_frameRGB->linesize);
-
-                    SDL_UpdateTexture(m_texture, nullptr, m_frameRGB->data[0], m_frameRGB->linesize[0]);
-                    m_hasDecodedFirstFrame = true;
-                    break;
+                    void* pixels = nullptr;
+                    int pitch = 0;
+                    if (SDL_LockTexture(m_texture, nullptr, &pixels, &pitch) == 0) {
+                        uint8_t* dstData[4] = { static_cast<uint8_t*>(pixels), nullptr, nullptr, nullptr };
+                        int dstLinesize[4] = { pitch, 0, 0, 0 };
+                        sws_scale(m_swsCtx, static_cast<const uint8_t* const*>(m_frame->data),
+                                  m_frame->linesize, 0, m_height,
+                                  dstData, dstLinesize);
+                        SDL_UnlockTexture(m_texture);
+                        m_hasDecodedFirstFrame = true;
+                        break;
+                    }
                 }
             }
         }
@@ -314,14 +319,19 @@ void VideoPlayer::update() {
         if (m_packet->stream_index == m_videoStream) {
             if (avcodec_send_packet(m_codecCtx, m_packet) == 0) {
                 while (avcodec_receive_frame(m_codecCtx, m_frame) == 0) {
-                    sws_scale(m_swsCtx, static_cast<const uint8_t* const*>(m_frame->data),
-                              m_frame->linesize, 0, m_height,
-                              m_frameRGB->data, m_frameRGB->linesize);
-
-                    SDL_UpdateTexture(m_texture, nullptr, m_frameRGB->data[0], m_frameRGB->linesize[0]);
-                    frameDecoded = true;
-                    m_hasDecodedFirstFrame = true;
-                    break;
+                    void* pixels = nullptr;
+                    int pitch = 0;
+                    if (SDL_LockTexture(m_texture, nullptr, &pixels, &pitch) == 0) {
+                        uint8_t* dstData[4] = { static_cast<uint8_t*>(pixels), nullptr, nullptr, nullptr };
+                        int dstLinesize[4] = { pitch, 0, 0, 0 };
+                        sws_scale(m_swsCtx, static_cast<const uint8_t* const*>(m_frame->data),
+                                  m_frame->linesize, 0, m_height,
+                                  dstData, dstLinesize);
+                        SDL_UnlockTexture(m_texture);
+                        frameDecoded = true;
+                        m_hasDecodedFirstFrame = true;
+                        break;
+                    }
                 }
             }
         }
@@ -331,7 +341,9 @@ void VideoPlayer::update() {
 
 void VideoPlayer::render(SDL_Renderer* renderer, const SDL_Rect* dstRect) {
     if (m_isOpen && m_texture && renderer) {
-        SDL_RenderCopy(renderer, m_texture, nullptr, dstRect);
+        SDL_Rect fullScreen = {0, 0, 1280, 720};
+        const SDL_Rect* r = dstRect ? dstRect : &fullScreen;
+        SDL_RenderCopy(renderer, m_texture, nullptr, r);
     }
 }
 

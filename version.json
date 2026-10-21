@@ -1,6 +1,6 @@
 {
-  "latestVersion": "1.2.3",
+  "latestVersion": "1.2.4",
   "minRequiredVersion": "1.0.0",
   "downloadUrl": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/latest/download/H3H-Backgrounds.nro",
-  "releaseNotes": "Fix controller double-dispatch (tab jumping & catalog preview controls), map ZL/ZR tabs, debounce preview transitions"
+  "releaseNotes": "v1.2.4: Fix black screen on static preview and video via explicit SDL_Rect fullscreen coordinates, SDL_LockTexture direct GPU decode, and fopen/SDL_RWFromFP devoptab loading"
 }
