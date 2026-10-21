@@ -960,6 +960,10 @@ def handle_codec_toggle(call: types.CallbackQuery):
         pass
     prompt_publish_confirmation(chat_id, edit_msg_id=call.message.message_id)
 
+# Concurrency limiters for multi-user community stability
+TRANSCODE_SEMAPHORE = threading.Semaphore(1)  # Process FFmpeg sequentially to avoid cloud CPU starvation
+CATALOG_LOCK = threading.Lock()               # Synchronize catalog modification & GitHub pushing
+
 # ----------------- Single Video Publishing -----------------
 
 def _do_single_publish_async(chat_id: int, message_id: int, sess: dict):
@@ -974,7 +978,7 @@ def _do_single_publish_async(chat_id: int, message_id: int, sess: dict):
         out_mp4 = PROJECT_ROOT / TEMP_DIR / f"{sess['title_id']}_{uuid.uuid4().hex[:6]}.mp4"
         out_thumb = PROJECT_ROOT / TEMP_DIR / f"{sess['title_id']}_{uuid.uuid4().hex[:6]}.jpg"
 
-        # Step 1: Process video
+        # Step 1: Process video (with multi-user queuing)
         if direct_pt:
             bot.edit_message_text(
                 f"⏳ <b>Обработка ролика...</b>\n1/3: 🚀 Прямая запись потока ({codec_name} 720p без потерь)...",
@@ -986,15 +990,30 @@ def _do_single_publish_async(chat_id: int, message_id: int, sess: dict):
                 passthrough_switch_video(src_vid, out_mp4, out_thumb, is_hevc=(codec == "hevc"))
             except Exception as e:
                 print(f"[!] Direct stream copy error: {e}, falling back to transcode")
-                transcode_to_switch_720p(src_vid, out_mp4, out_thumb, codec=codec)
+                with TRANSCODE_SEMAPHORE:
+                    transcode_to_switch_720p(src_vid, out_mp4, out_thumb, codec=codec)
         else:
-            bot.edit_message_text(
-                f"⏳ <b>Начинаю обработку ролика...</b>\n1/3: ⚙️ Быстрая конвертация FFmpeg ({codec_name} 720p 30fps)...",
-                chat_id=chat_id,
-                message_id=message_id,
-                parse_mode="HTML"
-            )
-            transcode_to_switch_720p(src_vid, out_mp4, out_thumb, codec=codec)
+            acquired = TRANSCODE_SEMAPHORE.acquire(blocking=False)
+            if not acquired:
+                bot.edit_message_text(
+                    "⏳ <b>Сервер обрабатывает предыдущий ролик...</b>\n"
+                    "Вы в очереди на конвертацию. Скоро начнем (~5-10 сек)!",
+                    chat_id=chat_id,
+                    message_id=message_id,
+                    parse_mode="HTML"
+                )
+                TRANSCODE_SEMAPHORE.acquire(blocking=True)
+
+            try:
+                bot.edit_message_text(
+                    f"⏳ <b>Начинаю обработку ролика...</b>\n1/3: ⚙️ Быстрая конвертация FFmpeg ({codec_name} 720p 30fps)...",
+                    chat_id=chat_id,
+                    message_id=message_id,
+                    parse_mode="HTML"
+                )
+                transcode_to_switch_720p(src_vid, out_mp4, out_thumb, codec=codec)
+            finally:
+                TRANSCODE_SEMAPHORE.release()
 
         bot.edit_message_text(
             "⏳ <b>Обработка ролика...</b>\n"
@@ -1035,27 +1054,28 @@ def _do_single_publish_async(chat_id: int, message_id: int, sess: dict):
             parse_mode="HTML"
         )
 
-        # Step 3: Register in catalog & Push to GitHub
+        # Step 3: Register in catalog & Push to GitHub (thread-safe lock)
         target_catalog_rel = CATALOG_PATH_AFTER_DARK if category == "after_dark" else CATALOG_PATH_STANDARD
         target_branch = GITHUB_BRANCH_AFTER_DARK if category == "after_dark" else GITHUB_BRANCH
 
-        append_variant_to_catalog(
-            catalog_rel=target_catalog_rel,
-            title_id=sess["title_id"],
-            game_name=sess["game_name"],
-            variant_name=sess["variant_name"],
-            author=sess["author"],
-            category=category,
-            direct_url=direct_url,
-            preview_url=preview_url,
-            file_size=file_size,
-            codec=codec
-        )
+        with CATALOG_LOCK:
+            append_variant_to_catalog(
+                catalog_rel=target_catalog_rel,
+                title_id=sess["title_id"],
+                game_name=sess["game_name"],
+                variant_name=sess["variant_name"],
+                author=sess["author"],
+                category=category,
+                direct_url=direct_url,
+                preview_url=preview_url,
+                file_size=file_size,
+                codec=codec
+            )
 
-        commit_msg = f"feat(catalog): add '{sess['variant_name']}' for {sess['title_id']} by @{sess['author']} via TG Bot"
-        push_ok = push_catalog_to_github(target_catalog_rel, commit_msg, branch=target_branch)
-        if not push_ok:
-            raise RuntimeError("Не удалось опубликовать изменения в репозиторий GitHub.")
+            commit_msg = f"feat(catalog): add '{sess['variant_name']}' for {sess['title_id']} by @{sess['author']} via TG Bot"
+            push_ok = push_catalog_to_github(target_catalog_rel, commit_msg, branch=target_branch)
+            if not push_ok:
+                raise RuntimeError("Не удалось опубликовать изменения в репозиторий GitHub.")
 
         celebrate_text = (
             "🎉 <b>ВИДЕОФОН УСПЕШНО ОПУБЛИКОВАН!</b>\n\n"
