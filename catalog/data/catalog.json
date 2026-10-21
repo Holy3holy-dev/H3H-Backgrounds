@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T21:24:49.840458+00:00",
+  "updatedAt": "2026-10-21T21:27:02.867427+00:00",
   "totalGames": 790,
-  "totalVariants": 1010,
+  "totalVariants": 1012,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -16653,6 +16653,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "SteamGridDB Animated Hero: 01006EC00F2CC000_Ruiner.mp4"
+        },
+        {
+          "id": "v_61d070fd",
+          "name": "Ruiner",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1K-ACUw3wNjR1FAbCN-Ftfbv_HCsiPa7D",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1K-ACUw3wNjR1FAbCN-Ftfbv_HCsiPa7D&sz=w640",
+          "sizeBytes": 4712984,
+          "sha256": "3F90B3BEC4148DF93F8D6A1421E911429BC21AF429D38D1AE0C68A441BE424B9",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ruiner | ЗВУК"
+        },
+        {
+          "id": "v_daa66ad6",
+          "name": "Her Ruiner",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1adhNCivqJzHyV4et2JFv3CoOUInKiFQg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1adhNCivqJzHyV4et2JFv3CoOUInKiFQg&sz=w640",
+          "sizeBytes": 4639130,
+          "sha256": "A6BD66C4EDC085CC285D06EC5EC36719EBAB6C2AB113825DCD5CCE1AF3DAA61B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Her Ruiner | ЗВУК"
         }
       ]
     },
