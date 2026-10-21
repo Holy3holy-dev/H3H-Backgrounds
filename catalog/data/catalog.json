@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T18:42:20.037893+00:00",
-  "totalGames": 768,
-  "totalVariants": 867,
+  "updatedAt": "2026-10-21T18:50:06.980861+00:00",
+  "totalGames": 769,
+  "totalVariants": 868,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -20990,6 +20990,32 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Hinoa And Minoto Monster Hunter Rise"
+        }
+      ]
+    },
+    {
+      "titleId": "010006700C7E2000",
+      "title": "Blasphemous",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010006700C7E2000.jpg",
+      "variants": [
+        {
+          "id": "v_50cbe1a1",
+          "name": "Blasphemous Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1T0ILnrUHxQJ28FUAH1L7Ga5hPPp2A2TK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1T0ILnrUHxQJ28FUAH1L7Ga5hPPp2A2TK&sz=w640",
+          "sizeBytes": 6172316,
+          "sha256": "C0C3745CB100545BFAFECCA2E71AAF9442531814E97408C756C081BCC7A2AE83",
+          "durationSec": 30.0,
+          "author": "??o",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Blasphemous Motion Cover"
         }
       ]
     }
