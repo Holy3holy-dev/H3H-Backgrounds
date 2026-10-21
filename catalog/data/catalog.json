@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T17:43:27.112342+00:00",
-  "totalGames": 756,
-  "totalVariants": 836,
+  "updatedAt": "2026-10-21T17:45:42.835564+00:00",
+  "totalGames": 758,
+  "totalVariants": 841,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -596,6 +596,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Link And The Forest Temple BotW"
+        },
+        {
+          "id": "v_d71405e7",
+          "name": "Breath Of The Wild",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GLUkyhCawrKx5sCK1G4EHYA21jMvEkXk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GLUkyhCawrKx5sCK1G4EHYA21jMvEkXk&sz=w640",
+          "sizeBytes": 4672805,
+          "sha256": "DB7B51D5434530C020ADD202282C87CD6D602753BE2ED3C34E379ADA68F4E33D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Breath Of The Wild"
+        },
+        {
+          "id": "v_a0291c74",
+          "name": "Link and Lynel Battle",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=187h0MOE3FOMlGpVXrHj_oSXaa6y6lk9T",
+          "previewUrl": "https://drive.google.com/thumbnail?id=187h0MOE3FOMlGpVXrHj_oSXaa6y6lk9T&sz=w640",
+          "sizeBytes": 4730067,
+          "sha256": "94120BB70125A30F76C94BD1157DE0B854488F5F96FDEBAB3818F0D860BDE170",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Link and Lynel Battle"
         }
       ]
     },
@@ -682,6 +718,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 0100F2C0115B6000.mp4"
+        },
+        {
+          "id": "v_2ce3d683",
+          "name": "Zelda Ultrahand Tears Of The Kingdom",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1p9956NbkxwgYdMlUjj5BvK_kss1XaEZ1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1p9956NbkxwgYdMlUjj5BvK_kss1XaEZ1&sz=w640",
+          "sizeBytes": 4707807,
+          "sha256": "3EA13803A1C93C792089464D5D3261415CD3C6C2865E1E182C53A62CB0DB18E7",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Zelda Ultrahand Tears Of The Kingdom"
         }
       ]
     },
@@ -20337,6 +20391,58 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Doom Motion Cover"
+        }
+      ]
+    },
+    {
+      "titleId": "010034400C3DA000",
+      "title": "Wolfenstein II: The New Colossus",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010034400C3DA000.jpg",
+      "variants": [
+        {
+          "id": "v_0d586d96",
+          "name": "Wolfenstein II: The New Colossus Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15M8AsttslZSfNRR3CHdCTi871ZHnXet6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15M8AsttslZSfNRR3CHdCTi871ZHnXet6&sz=w640",
+          "sizeBytes": 3869824,
+          "sha256": "3FA1740B494EA7FECA0A5715383C5C9E78A7E5C59DCC0FFF7192E41BC5748FAA",
+          "durationSec": 30.0,
+          "author": "TUFKAC",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Wolfenstein II: The New Colossus Hero"
+        }
+      ]
+    },
+    {
+      "titleId": "010014200B0D0000",
+      "title": "Metro 2033 Redux",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010014200B0D0000.jpg",
+      "variants": [
+        {
+          "id": "v_7b1bbea4",
+          "name": "Metro 2033 Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KH82gDUWk9C9n1lGKvhYd-765rZWM109",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KH82gDUWk9C9n1lGKvhYd-765rZWM109&sz=w640",
+          "sizeBytes": 4236844,
+          "sha256": "5C3761E40DD808002411434A2B3AFEA3F8FB6D8E09C7DCCC42FF5ABD6ECB2714",
+          "durationSec": 30.0,
+          "author": "иoha",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Metro 2033 Motion Cover"
         }
       ]
     }
