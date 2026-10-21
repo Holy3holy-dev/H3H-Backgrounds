@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T21:30:57.267505+00:00",
+  "updatedAt": "2026-10-21T21:33:18.979824+00:00",
   "totalGames": 790,
-  "totalVariants": 1019,
+  "totalVariants": 1022,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -18065,6 +18065,60 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "SteamGridDB Animated Grid: 0100E2600DBAA000_Haven.mp4"
+        },
+        {
+          "id": "v_b1420466",
+          "name": "Cherry Blossom Haven Minecraft",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yVm78-gJcVaynUv-ptifdk86GGvAaR3U",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yVm78-gJcVaynUv-ptifdk86GGvAaR3U&sz=w640",
+          "sizeBytes": 4557683,
+          "sha256": "2232E585DADBBA54777E1F4D8F057662DFB8E7DE553378132E41665A011DF47D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Cherry Blossom Haven Minecraft"
+        },
+        {
+          "id": "v_6f125c1b",
+          "name": "Brookhaven Hospital Silent Hill 2 Remake",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HEj9cIdwg_rEcKjJ0lNTrrJmHtQD2f5y",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HEj9cIdwg_rEcKjJ0lNTrrJmHtQD2f5y&sz=w640",
+          "sizeBytes": 4576897,
+          "sha256": "A0FD2A7BBE77AF83E7708DB643F28C0B0116AECBBD1AD99DE9E0889B8F2C752E",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Brookhaven Hospital Silent Hill 2 Remake"
+        },
+        {
+          "id": "v_90ff5d9a",
+          "name": "Squirrel Tree",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZJl_I56BvT1FjAXFo0fw9BipzL5yiPLB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZJl_I56BvT1FjAXFo0fw9BipzL5yiPLB&sz=w640",
+          "sizeBytes": 4545002,
+          "sha256": "550A25BCFDD5FA54E6892B1F31F78188A948386486C0AF00FB877138DEFAA6E9",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Squirrel Tree"
         }
       ]
     },
