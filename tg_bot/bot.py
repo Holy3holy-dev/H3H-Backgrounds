@@ -20,6 +20,7 @@ import shutil
 import zipfile
 import subprocess
 import threading
+import html
 from pathlib import Path
 from datetime import datetime, timezone
 from typing import Dict, Any, Optional, List, Tuple
@@ -38,6 +39,7 @@ from tg_bot.config import (
     GITHUB_TOKEN,
     GITHUB_REPO,
     GITHUB_BRANCH,
+    GITHUB_BRANCH_AFTER_DARK,
     GDRIVE_FOLDER_ID,
     GDRIVE_AFTER_DARK_FOLDER_ID,
     GDRIVE_REFRESH_TOKEN,
@@ -132,11 +134,17 @@ def reset_session(chat_id: int):
 def transcode_to_switch_720p(src_vid: Path, out_mp4: Path, out_thumb: Path) -> bool:
     """Converts input video to Switch 720p 30fps H.264 (+faststart) and extracts thumbnail."""
     out_mp4.parent.mkdir(parents=True, exist_ok=True)
+    out_thumb.parent.mkdir(parents=True, exist_ok=True)
+
     cmd_ffmpeg = [
-        "ffmpeg", "-y",
+        "ffmpeg", "-y", "-nostdin",
+        "-t", "30",
         "-i", str(src_vid),
         "-vf", "scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:black",
         "-c:v", "libx264",
+        "-preset", "ultrafast",
+        "-tune", "fastdecode",
+        "-threads", "2",
         "-profile:v", "high",
         "-level", "4.1",
         "-pix_fmt", "yuv420p",
@@ -146,21 +154,29 @@ def transcode_to_switch_720p(src_vid: Path, out_mp4: Path, out_thumb: Path) -> b
         "-bufsize", "5000k",
         "-an",
         "-movflags", "+faststart",
-        "-t", "25",
         str(out_mp4)
     ]
-    subprocess.run(cmd_ffmpeg, capture_output=True, check=True)
+    try:
+        subprocess.run(cmd_ffmpeg, stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True, timeout=120)
+    except subprocess.TimeoutExpired:
+        raise RuntimeError("Конвертация FFmpeg превысила лимит времени (120с). Ролик слишком длинный или повреждён.")
+    except subprocess.CalledProcessError as e:
+        err = e.stderr.decode("utf-8", errors="ignore") if e.stderr else str(e)
+        raise RuntimeError(f"FFmpeg ошибка: {err[-250:].strip()}")
 
     cmd_thumb = [
-        "ffmpeg", "-y",
-        "-ss", "2",
+        "ffmpeg", "-y", "-nostdin",
+        "-ss", "1",
         "-i", str(out_mp4),
         "-vframes", "1",
-        "-vf", "scale=640:360",
+        "-vf", "scale=640:360:force_original_aspect_ratio=decrease,pad=640:360:(ow-iw)/2:(oh-ih)/2:black",
         "-f", "image2",
         str(out_thumb)
     ]
-    subprocess.run(cmd_thumb, capture_output=True)
+    try:
+        subprocess.run(cmd_thumb, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=25)
+    except Exception:
+        pass
     return True
 
 def get_gdrive_auth(category: str = "standard") -> Tuple[Optional[str], Optional[str]]:
@@ -246,20 +262,23 @@ def append_variant_to_catalog(
     target_catalog_path.write_text(json.dumps(cat_data, indent=2, ensure_ascii=False), encoding="utf-8")
     return new_var
 
-def push_catalog_to_github(catalog_rel: Path, commit_msg: str) -> bool:
-    """Commits catalog changes and pushes to GitHub main branch."""
+def push_catalog_to_github(catalog_rel: Path, commit_msg: str, branch: Optional[str] = None) -> bool:
+    """Commits catalog changes and pushes to GitHub branch (main or after-dark)."""
     gh_token, _ = GitHubPublisher.get_stored_credentials()
     if not gh_token:
         gh_token = os.getenv("GITHUB_TOKEN") or GITHUB_TOKEN
     if not gh_token:
         print("[!] No GitHub token available for pushing to remote.")
         return False
+    target_branch = branch or GITHUB_BRANCH or "main"
     repo_name = GITHUB_REPO or GitHubPublisher.get_repo_name()
     repo_url = f"https://x-access-token:{gh_token}@github.com/{repo_name}.git"
     try:
         subprocess.run(["git", "-C", str(PROJECT_ROOT), "add", str(catalog_rel)], check=True)
         subprocess.run(["git", "-C", str(PROJECT_ROOT), "commit", "-m", commit_msg], check=True)
-        subprocess.run(["git", "-C", str(PROJECT_ROOT), "push", repo_url, GITHUB_BRANCH], check=True)
+        # Pull with rebase to prevent remote conflicts
+        subprocess.run(["git", "-C", str(PROJECT_ROOT), "pull", "--rebase", repo_url, target_branch], check=False)
+        subprocess.run(["git", "-C", str(PROJECT_ROOT), "push", repo_url, f"HEAD:{target_branch}"], check=True)
         return True
     except subprocess.CalledProcessError as e:
         print(f"[!] Git commit/push error: {e}")
@@ -710,85 +729,83 @@ def prompt_publish_confirmation(chat_id: int, edit_msg_id: Optional[int] = None)
 
 # ----------------- Single Video Publishing -----------------
 
-@bot.callback_query_handler(func=lambda call: call.data.startswith("publish:"))
-def handle_publish_decision(call: types.CallbackQuery):
-    chat_id = call.message.chat.id
-    sess = get_session(chat_id)
-    action = call.data.split(":")[1]
-
-    if action != "yes":
-        reset_session(chat_id)
-        bot.edit_message_text("❌ Публикация отменена.", chat_id=chat_id, message_id=call.message.message_id)
-        return
-
-    bot.edit_message_text("⏳ <b>Начинаю обработку ролика...</b>\n1/3: Конвертация FFmpeg в 720p 30fps...", chat_id=chat_id, message_id=call.message.message_id)
-
-    src_vid = Path(sess["temp_vid"])
-    out_mp4 = PROJECT_ROOT / TEMP_DIR / f"{sess['title_id']}_{uuid.uuid4().hex[:6]}.mp4"
-    out_thumb = PROJECT_ROOT / TEMP_DIR / f"{sess['title_id']}_{uuid.uuid4().hex[:6]}.jpg"
-
-    # Step 1: Transcode
+def _do_single_publish_async(chat_id: int, message_id: int, sess: dict):
+    out_mp4 = None
+    out_thumb = None
     try:
+        bot.edit_message_text(
+            "⏳ <b>Начинаю обработку ролика...</b>\n1/3: ⚙️ Быстрая конвертация FFmpeg в 720p 30fps...",
+            chat_id=chat_id,
+            message_id=message_id,
+            parse_mode="HTML"
+        )
+
+        src_vid = Path(sess["temp_vid"])
+        out_mp4 = PROJECT_ROOT / TEMP_DIR / f"{sess['title_id']}_{uuid.uuid4().hex[:6]}.mp4"
+        out_thumb = PROJECT_ROOT / TEMP_DIR / f"{sess['title_id']}_{uuid.uuid4().hex[:6]}.jpg"
+
+        # Step 1: Transcode
         transcode_to_switch_720p(src_vid, out_mp4, out_thumb)
-    except Exception as e:
-        bot.send_message(chat_id, f"❌ Ошибка конвертации FFmpeg: {e}")
-        reset_session(chat_id)
-        return
 
-    bot.edit_message_text(
-        "⏳ <b>Обработка ролика...</b>\n"
-        "2/3: Загрузка на Google Диск...",
-        chat_id=chat_id,
-        message_id=call.message.message_id
-    )
+        bot.edit_message_text(
+            "⏳ <b>Обработка ролика...</b>\n"
+            "2/3: ☁️ Загрузка на Google Диск...",
+            chat_id=chat_id,
+            message_id=message_id,
+            parse_mode="HTML"
+        )
 
-    # Step 2: Google Drive Upload
-    access_tok, folder_id = get_gdrive_auth(sess.get("category", "standard"))
-    if not access_tok:
-        bot.send_message(chat_id, "❌ Ошибка авторизации Google Drive (токен истёк). Обратитесь к администратору бота.")
-        reset_session(chat_id)
-        return
+        # Step 2: Google Drive Upload
+        category = sess.get("category", "standard")
+        access_tok, folder_id = get_gdrive_auth(category)
+        if not access_tok:
+            bot.edit_message_text(
+                "❌ <b>Ошибка авторизации Google Drive</b>\nТокен истёк или недоступен. Обратитесь к администратору бота.",
+                chat_id=chat_id,
+                message_id=message_id,
+                parse_mode="HTML"
+            )
+            reset_session(chat_id)
+            return
 
-    try:
         upload_res = GoogleDriveClient.upload_file(
             file_path=out_mp4,
             folder_id=folder_id,
             token=access_tok
         )
-    except Exception as e:
-        bot.send_message(chat_id, f"❌ Сбой загрузки на Google Диск: {e}")
-        reset_session(chat_id)
-        return
 
-    direct_url = upload_res.get("directUrl")
-    preview_url = upload_res.get("previewUrl")
-    file_size = upload_res.get("size", out_mp4.stat().st_size)
+        direct_url = upload_res.get("directUrl")
+        preview_url = upload_res.get("previewUrl")
+        file_size = upload_res.get("size", out_mp4.stat().st_size)
 
-    bot.edit_message_text(
-        "⏳ <b>Обработка ролика...</b>\n"
-        "3/3: Регистрация в каталоге и отправка на GitHub...",
-        chat_id=chat_id,
-        message_id=call.message.message_id
-    )
+        bot.edit_message_text(
+            "⏳ <b>Обработка ролика...</b>\n"
+            "3/3: 🚀 Регистрация в каталоге и отправка на GitHub...",
+            chat_id=chat_id,
+            message_id=message_id,
+            parse_mode="HTML"
+        )
 
-    # Step 3: Register in catalog & Push to GitHub
-    target_catalog_rel = CATALOG_PATH_AFTER_DARK if sess["category"] == "after_dark" else CATALOG_PATH_STANDARD
+        # Step 3: Register in catalog & Push to GitHub
+        target_catalog_rel = CATALOG_PATH_AFTER_DARK if category == "after_dark" else CATALOG_PATH_STANDARD
+        target_branch = GITHUB_BRANCH_AFTER_DARK if category == "after_dark" else GITHUB_BRANCH
 
-    try:
         append_variant_to_catalog(
             catalog_rel=target_catalog_rel,
             title_id=sess["title_id"],
             game_name=sess["game_name"],
             variant_name=sess["variant_name"],
             author=sess["author"],
-            category=sess["category"],
+            category=category,
             direct_url=direct_url,
             preview_url=preview_url,
             file_size=file_size
         )
 
         commit_msg = f"feat(catalog): add '{sess['variant_name']}' for {sess['title_id']} by @{sess['author']} via TG Bot"
-        push_catalog_to_github(target_catalog_rel, commit_msg)
+        push_ok = push_catalog_to_github(target_catalog_rel, commit_msg, branch=target_branch)
+        if not push_ok:
+            raise RuntimeError("Не удалось опубликовать изменения в репозиторий GitHub.")
 
         celebrate_text = (
             "🎉 <b>ВИДЕОФОН УСПЕШНО ОПУБЛИКОВАН!</b>\n\n"
@@ -796,26 +813,61 @@ def handle_publish_decision(call: types.CallbackQuery):
             f"🆔 <b>Title ID:</b> <code>{sess['title_id']}</code>\n"
             f"🎬 <b>Вариант:</b> {sess['variant_name']}\n"
             f"👤 <b>Автор:</b> @{sess['author']}\n"
-            f"📁 <b>Каталог:</b> {'Обычный H3H' if sess['category'] == 'standard' else '🌸 After Dark (18+)'}\n\n"
+            f"📁 <b>Каталог:</b> {'Обычный H3H' if category == 'standard' else '🌸 After Dark (18+)'}\n\n"
             "✨ <i>Каталог на GitHub обновлён! Фон уже доступен для установки всем пользователям в приложении на Nintendo Switch!</i>"
         )
 
-        if out_thumb.exists():
+        if out_thumb and out_thumb.exists():
             with open(out_thumb, "rb") as photo:
-                bot.send_photo(chat_id, photo, caption=celebrate_text)
+                bot.send_photo(chat_id, photo, caption=celebrate_text, parse_mode="HTML")
+            try:
+                bot.delete_message(chat_id, message_id)
+            except Exception:
+                pass
         else:
-            bot.send_message(chat_id, celebrate_text)
+            bot.edit_message_text(celebrate_text, chat_id=chat_id, message_id=message_id, parse_mode="HTML")
+
+        reset_session(chat_id)
 
     except Exception as e:
-        bot.send_message(chat_id, f"❌ Ошибка при публикации на GitHub/Каталоге: {e}")
-
-    finally:
-        try:
-            out_mp4.unlink(missing_ok=True)
-            out_thumb.unlink(missing_ok=True)
-        except Exception:
-            pass
+        safe_err = html.escape(str(e))
+        bot.edit_message_text(
+            f"❌ <b>Ошибка при обработке ролика:</b>\n\n<code>{safe_err}</code>\n\n"
+            "💡 <i>Попробуйте отправить ролик заново или проверьте его формат.</i>",
+            chat_id=chat_id,
+            message_id=message_id,
+            parse_mode="HTML"
+        )
         reset_session(chat_id)
+    finally:
+        # Cleanup temp transcode files
+        if out_mp4 and out_mp4.exists():
+            out_mp4.unlink(missing_ok=True)
+        if out_thumb and out_thumb.exists():
+            out_thumb.unlink(missing_ok=True)
+
+@bot.callback_query_handler(func=lambda call: call.data.startswith("publish:"))
+def handle_publish_decision(call: types.CallbackQuery):
+    chat_id = call.message.chat.id
+    sess = get_session(chat_id)
+    action = call.data.split(":")[1]
+
+    try:
+        bot.answer_callback_query(call.id)
+    except Exception:
+        pass
+
+    if action != "yes":
+        reset_session(chat_id)
+        bot.edit_message_text("❌ Публикация отменена.", chat_id=chat_id, message_id=call.message.message_id)
+        return
+
+    # Run heavy processing asynchronously in worker thread
+    threading.Thread(
+        target=_do_single_publish_async,
+        args=(chat_id, call.message.message_id, dict(sess)),
+        daemon=True
+    ).start()
 
 # ----------------- Batch ZIP Processing -----------------
 
@@ -914,7 +966,8 @@ def process_batch_upload(chat_id: int, msg_id: int, items: List[Dict[str, Any]],
             message_id=msg_id
         )
         commit_msg = f"feat(catalog): batch add {success_count} backgrounds by @{author} via TG Bot"
-        push_catalog_to_github(target_catalog_rel, commit_msg)
+        target_branch = GITHUB_BRANCH_AFTER_DARK if category == "after_dark" else GITHUB_BRANCH
+        push_catalog_to_github(target_catalog_rel, commit_msg, branch=target_branch)
 
     # Clean up unpacked zip directory
     if zip_dir and Path(zip_dir).exists():
