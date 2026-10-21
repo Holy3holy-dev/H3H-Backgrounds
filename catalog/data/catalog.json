@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T21:33:18.979824+00:00",
+  "updatedAt": "2026-10-21T21:35:23.453971+00:00",
   "totalGames": 790,
-  "totalVariants": 1022,
+  "totalVariants": 1023,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -18569,6 +18569,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "SteamGridDB Animated Grid: 0100844004CB6000_State_of_Mind.mp4"
+        },
+        {
+          "id": "v_e14e33f6",
+          "name": "State Of Mind Counter-Strike: Global Off",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QheTPOklBLtseDqdIgVEQpU2rkRjYT8c",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QheTPOklBLtseDqdIgVEQpU2rkRjYT8c&sz=w640",
+          "sizeBytes": 4870830,
+          "sha256": "F5A1467C129A787D42A983ADAE50ED3D5E613A31A769DF3F522D0C3D3CA7225D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | State Of Mind Counter-Strike: Global Off | ЗВУК"
         }
       ]
     },
