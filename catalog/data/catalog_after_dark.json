@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "name": "H3H After Dark (18+) Official Catalog",
-  "updatedAt": "2026-10-21T20:54:00.527085+00:00",
-  "totalGames": 14,
-  "totalVariants": 105,
+  "updatedAt": "2026-10-21T20:55:22.521396+00:00",
+  "totalGames": 15,
+  "totalVariants": 107,
   "games": [
     {
       "titleId": "0000000000000000",
@@ -1999,6 +1999,50 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Tamamo No Mae Sleeping Fate Grand Order | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "01002DA013484000",
+      "title": "Metroid Dread",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002DA013484000.jpg",
+      "variants": [
+        {
+          "id": "v_afa9926c",
+          "name": "Samus Aran Charge Beam Metroid Dread",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GUwaVfH3V9emWmQVLPIV2i7Q6fbvuYxU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GUwaVfH3V9emWmQVLPIV2i7Q6fbvuYxU&sz=w640",
+          "sizeBytes": 4760760,
+          "sha256": "8071AE64743FF2DEDBFCAA6057014DB99BBAE9AB438723D9CFB0774D0C09FA8B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Samus Aran Charge Beam Metroid Dread | ЗВУК"
+        },
+        {
+          "id": "v_5efc13f3",
+          "name": "Samus Aran",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wewjBo5G4MyMSrMw7lHw73CeZGQSnn-m",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wewjBo5G4MyMSrMw7lHw73CeZGQSnn-m&sz=w640",
+          "sizeBytes": 4605400,
+          "sha256": "66795176892A1D6CD6DEE9BD96F1AE2A3C06D798594739CF1F76A0DCD10A64F1",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Samus Aran | ЗВУК"
         }
       ]
     }
