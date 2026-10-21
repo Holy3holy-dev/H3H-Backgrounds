@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T00:46:00.000000+00:00",
+  "updatedAt": "2026-10-21T17:28:56.465827+00:00",
   "totalGames": 754,
-  "totalVariants": 827,
+  "totalVariants": 829,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -87,6 +87,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: Mario Kart 8 King Boo 720p H.264"
+        },
+        {
+          "id": "mv_2077e32b",
+          "name": "Mario Kart DS",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16sDsKCERTRkgO2UGrbqK-i5k87ikQm9a",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16sDsKCERTRkgO2UGrbqK-i5k87ikQm9a&sz=w640",
+          "sizeBytes": 4649414,
+          "sha256": "B27D52DC9165DBA2FA76BC51E2F71BB3F4250DF45A84AE73AF9FC90536A49E87",
+          "durationSec": 30.0,
+          "author": "Community / Moewalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Mario Kart DS"
         }
       ]
     },
@@ -506,6 +524,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 01007EF00011E000.mp4"
+        },
+        {
+          "id": "mv_980ef1be",
+          "name": "Link In Rivendell The Legend Of Zelda: B",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_t79BelavVxvVtMf1_vr-p4j2wL_KToY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_t79BelavVxvVtMf1_vr-p4j2wL_KToY&sz=w640",
+          "sizeBytes": 4533123,
+          "sha256": "58B4A5A7C30C82FC8D6C3C76F427FED35228F5D78867A478CB074898F183AF05",
+          "durationSec": 30.0,
+          "author": "Community / Moewalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Link In Rivendell The Legend Of Zelda: Breath Of The Wild"
         }
       ]
     },
