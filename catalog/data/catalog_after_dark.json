@@ -1,35 +1,15 @@
 {
   "schemaVersion": 1,
   "name": "H3H After Dark (18+) Official Catalog",
-  "updatedAt": "2026-10-21T14:44:35.966869+00:00",
-  "totalGames": 1,
-  "totalVariants": 1,
+  "updatedAt": "2026-10-21T16:20:00.000000+00:00",
+  "totalGames": 0,
+  "totalVariants": 0,
   "games": [
     {
       "titleId": "0000000000000000",
       "title": "★ Коллекция After Dark (Свободный выбор)",
       "publisher": "H3H Studio",
-      "variants": [
-        {
-          "id": "var-10528b14",
-          "name": "Anime Mix (Whatever It Takes)",
-          "style": "After Dark (18+)",
-          "version": "1.0",
-          "url": "https://drive.google.com/uc?export=download&id=1McCEwlqIjHqRcJB5MUwh2CfvDya3itC_",
-          "previewUrl": "https://drive.google.com/thumbnail?id=1McCEwlqIjHqRcJB5MUwh2CfvDya3itC_&sz=w640",
-          "sizeBytes": 7608711,
-          "sha256": "",
-          "durationSec": 25.0,
-          "author": "Wallpaper Engine",
-          "codec": "h264",
-          "width": 1280,
-          "height": 720,
-          "fps": 30.0,
-          "hasAudio": false,
-          "notes": "Imported from Wallpaper Engine (2279123602)"
-        }
-      ]
+      "variants": []
     }
-  ],
-  "lastUpdated": "2026-10-21T15:59:51.415958+00:00"
+  ]
 }

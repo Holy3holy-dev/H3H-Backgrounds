@@ -15,7 +15,7 @@ public:
 #ifdef H3H_AFTER_DARK
     static constexpr const char* DEFAULT_SWITCH_APP_DIR    = "sdmc:/switch/H3H-AfterDark";
     static constexpr const char* APP_NAME                  = "H3H After Dark (18+)";
-    static constexpr const char* DEFAULT_CATALOG_URL       = "https://raw.githubusercontent.com/Holy3holy-dev/H3H-Backgrounds/main/catalog/data/catalog_after_dark.json";
+    static constexpr const char* DEFAULT_CATALOG_URL       = "https://raw.githubusercontent.com/Holy3holy-dev/H3H-Backgrounds/after-dark/catalog/data/catalog_after_dark.json";
 #else
     static constexpr const char* DEFAULT_SWITCH_APP_DIR    = "sdmc:/switch/H3H-Backgrounds";
     static constexpr const char* APP_NAME                  = "H3H Backgrounds";

@@ -13,6 +13,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN", "8930658933:AAEBml3fA4huJmEeSDPKxJJBpPJ_O77-H
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "")
 GITHUB_REPO = os.getenv("GITHUB_REPO", "Holy3holy-dev/H3H-Backgrounds")
 GITHUB_BRANCH = os.getenv("GITHUB_BRANCH", "main")
+GITHUB_BRANCH_AFTER_DARK = os.getenv("GITHUB_BRANCH_AFTER_DARK", "after-dark")
 
 # Google Drive storage settings
 GDRIVE_FOLDER_ID = os.getenv("GDRIVE_FOLDER_ID", "1hI1klJ6t2ymVoBwGA6IzY79QMjp5dTJC")
