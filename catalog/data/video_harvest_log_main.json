@@ -1299,10 +1299,38 @@
     "https://moewalls.com/games/zelda-holy-knight-the-legend-of-zelda-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2023/zelda-holy-knight-the-legend-of-zelda-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/kirby-30th-anniversary-preview.webm": {
+      "title": "Kirby 30th Anniversary",
+      "titleId": "01003BC0000A0000",
+      "gameName": "Kirby and the Forgotten Land",
+      "varId": "v_5f4b3d68",
+      "driveId": "1jAthFFBJH8k9i7c6K9eb0JzEum9ceR1d",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/kirby-30th-anniversary-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/kirby-30th-anniversary-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2021/monado-xenoblade-chronicles-preview.webm": {
+      "title": "Monado Xenoblade Chronicles",
+      "titleId": "0100E95004038000",
+      "gameName": "Xenoblade Chronicles 2",
+      "varId": "v_c57d0cf0",
+      "driveId": "1ZKQdN_T8BF_zztswnGKsEl0EuUa4qGfQ",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/monado-xenoblade-chronicles-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2021/monado-xenoblade-chronicles-preview.webm"
     }
   },
-  "total_harvested": 171,
-  "last_updated": "2026-10-21T20:40:41.757324+00:00",
+  "total_harvested": 175,
+  "last_updated": "2026-10-21T20:41:59.583646+00:00",
   "page_cursors": {
     "super mario odyssey": 2,
     "mario odyssey": 2,
@@ -1317,7 +1345,20 @@
     "smash ultimate": 2,
     "metroid dread": 2,
     "samus aran dread": 2,
-    "kirby forgotten land": 2
+    "kirby forgotten land": 2,
+    "monster hunter rise": 2,
+    "monster hunter kamura": 2,
+    "bowsers fury": 2,
+    "mario 3d world": 2,
+    "luigis mansion 3": 2,
+    "luigi mansion": 2,
+    "fire emblem three houses": 2,
+    "fire emblem edelgard": 2,
+    "xenoblade pyra": 2,
+    "xenoblade chronicles 3": 2,
+    "xenoblade 3": 2,
+    "dead cells prisoner": 2,
+    "dead cells game": 2
   },
-  "query_cursor": 15
+  "query_cursor": 30
 }

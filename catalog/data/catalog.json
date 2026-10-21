@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T20:40:41.758397+00:00",
+  "updatedAt": "2026-10-21T20:41:59.584690+00:00",
   "totalGames": 789,
-  "totalVariants": 924,
+  "totalVariants": 926,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -2388,6 +2388,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 0100E95004038000_Xenoblade_Chronicles_2.mp4"
+        },
+        {
+          "id": "v_c57d0cf0",
+          "name": "Monado Xenoblade Chronicles",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZKQdN_T8BF_zztswnGKsEl0EuUa4qGfQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZKQdN_T8BF_zztswnGKsEl0EuUa4qGfQ&sz=w640",
+          "sizeBytes": 4771935,
+          "sha256": "49EFD16CB970FCF468F7DE161876658C3DB6DF7D6E72C457F9768DCC30C50C0D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Monado Xenoblade Chronicles | ЗВУК"
         }
       ]
     },
@@ -21219,6 +21237,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Yellow Kirby Floating On The Pond"
+        },
+        {
+          "id": "v_5f4b3d68",
+          "name": "Kirby 30th Anniversary",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jAthFFBJH8k9i7c6K9eb0JzEum9ceR1d",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jAthFFBJH8k9i7c6K9eb0JzEum9ceR1d&sz=w640",
+          "sizeBytes": 4605897,
+          "sha256": "E6824923EC08A8BAC555DE0B22310274E656DA4C8BE3CD75F54B5C336A3D57B3",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kirby 30th Anniversary | ЗВУК"
         }
       ]
     },
