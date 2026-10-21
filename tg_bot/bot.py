@@ -355,25 +355,81 @@ def append_variant_to_catalog(
     return new_var
 
 def push_catalog_to_github(catalog_rel: Path, commit_msg: str, branch: Optional[str] = None) -> bool:
-    """Commits catalog changes and pushes to GitHub branch (main or after-dark)."""
+    """Commits catalog changes and pushes to GitHub branch via GitHub REST API (rock-solid on Render/containers)."""
     gh_token, _ = GitHubPublisher.get_stored_credentials()
     if not gh_token:
         gh_token = os.getenv("GITHUB_TOKEN") or GITHUB_TOKEN
     if not gh_token:
         print("[!] No GitHub token available for pushing to remote.")
         return False
+
     target_branch = branch or GITHUB_BRANCH or "main"
     repo_name = GITHUB_REPO or GitHubPublisher.get_repo_name()
-    repo_url = f"https://x-access-token:{gh_token}@github.com/{repo_name}.git"
+    catalog_path = PROJECT_ROOT / catalog_rel
+
+    if not catalog_path.exists():
+        print(f"[!] Catalog file does not exist: {catalog_path}")
+        return False
+
+    headers = {
+        "Authorization": f"Bearer {gh_token}",
+        "Accept": "application/vnd.github.v3+json",
+        "User-Agent": "H3H-Background-Uploader-Bot"
+    }
+
+    rel_str = str(catalog_rel).replace("\\", "/")
+
+    # Primary: Push via GitHub REST API (Works everywhere without git binary, user email, or detached HEAD)
     try:
+        content_url = f"https://api.github.com/repos/{repo_name}/contents/{rel_str}?ref={target_branch}"
+        req_get = urllib.request.Request(content_url, headers=headers)
+        file_sha = None
+        try:
+            with urllib.request.urlopen(req_get, timeout=15) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+                file_sha = data.get("sha")
+        except urllib.error.HTTPError as e:
+            if e.code != 404:
+                print(f"[!] Warning checking file sha: {e}")
+
+        raw_bytes = catalog_path.read_bytes()
+        b64_content = base64.b64encode(raw_bytes).decode("ascii")
+
+        put_payload = {
+            "message": commit_msg,
+            "content": b64_content,
+            "branch": target_branch
+        }
+        if file_sha:
+            put_payload["sha"] = file_sha
+
+        put_url = f"https://api.github.com/repos/{repo_name}/contents/{rel_str}"
+        req_put = urllib.request.Request(
+            put_url,
+            data=json.dumps(put_payload).encode("utf-8"),
+            headers={**headers, "Content-Type": "application/json"},
+            method="PUT"
+        )
+        with urllib.request.urlopen(req_put, timeout=20) as resp:
+            put_res = json.loads(resp.read().decode("utf-8"))
+            commit_sha = put_res.get("commit", {}).get("sha", "")
+            print(f"[+] Successfully pushed {rel_str} to GitHub ({target_branch}) via REST API! Commit: {commit_sha[:8]}")
+
+        return True
+    except Exception as e:
+        print(f"[!] GitHub API push error: {e}")
+
+    # Fallback to local git CLI if API failed
+    try:
+        repo_url = f"https://x-access-token:{gh_token}@github.com/{repo_name}.git"
+        subprocess.run(["git", "-C", str(PROJECT_ROOT), "config", "user.name", "H3H Uploader Bot"], check=False)
+        subprocess.run(["git", "-C", str(PROJECT_ROOT), "config", "user.email", "bot@h3h-backgrounds.local"], check=False)
         subprocess.run(["git", "-C", str(PROJECT_ROOT), "add", str(catalog_rel)], check=True)
         subprocess.run(["git", "-C", str(PROJECT_ROOT), "commit", "-m", commit_msg], check=True)
-        # Pull with rebase to prevent remote conflicts
-        subprocess.run(["git", "-C", str(PROJECT_ROOT), "pull", "--rebase", repo_url, target_branch], check=False)
         subprocess.run(["git", "-C", str(PROJECT_ROOT), "push", repo_url, f"HEAD:{target_branch}"], check=True)
         return True
-    except subprocess.CalledProcessError as e:
-        print(f"[!] Git commit/push error: {e}")
+    except Exception as e2:
+        print(f"[!] Git CLI fallback error: {e2}")
         return False
 
 # ----------------- Commands -----------------
