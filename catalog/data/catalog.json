@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T19:13:54.390760+00:00",
-  "totalGames": 783,
-  "totalVariants": 898,
+  "updatedAt": "2026-10-21T19:21:38.761113+00:00",
+  "totalGames": 786,
+  "totalVariants": 903,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -21668,6 +21668,120 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Five Nights at Freddy's Hero"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DFC01D57A000",
+      "title": "Worms Armageddon Anniversary edition [NSP][RUS/Multi9]",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DFC01D57A000.jpg",
+      "variants": [
+        {
+          "id": "v_91a1a5e2",
+          "name": "Worms Armageddon Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LtzYPprd4yyCZjgrFtnwJ0ZE2EyPOFv7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LtzYPprd4yyCZjgrFtnwJ0ZE2EyPOFv7&sz=w640",
+          "sizeBytes": 1980586,
+          "sha256": "1AF5EB6FACEAE387157ACB38F3C967742F3F2C4EE80EBC44468AFAADF5529A61",
+          "durationSec": 30.0,
+          "author": "Kropfstein",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Worms Armageddon Motion Cover"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CF401A98E000",
+      "title": "Contra Operation Galuga [NSZ][RUS/Multi11]",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CF401A98E000.jpg",
+      "variants": [
+        {
+          "id": "v_15c8ad6f",
+          "name": "Contra Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rX2q3oqLFJSwSMQaTNOnku2J4cby8lel",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rX2q3oqLFJSwSMQaTNOnku2J4cby8lel&sz=w640",
+          "sizeBytes": 302936,
+          "sha256": "50DA50CB70AF27FFDAB01550C0795B82C16616C2B73AA45C79899FE8051FC868",
+          "durationSec": 30.0,
+          "author": "Scarlet Devil",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Contra Hero"
+        }
+      ]
+    },
+    {
+      "titleId": "01007E6002A54000",
+      "title": "Sonic Mania",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007E6002A54000.jpg",
+      "variants": [
+        {
+          "id": "v_4f3b6952",
+          "name": "Sonic The Hedgehog",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QbYV4Zr0VDH_qKESWTKtzftGAF6XtVq2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QbYV4Zr0VDH_qKESWTKtzftGAF6XtVq2&sz=w640",
+          "sizeBytes": 4708757,
+          "sha256": "27BE37C8779568FEADE7BC2CCA1BE019E7BBC6D6EBD7364FEF369C060FF24C06",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Sonic The Hedgehog"
+        },
+        {
+          "id": "v_a4c2afb7",
+          "name": "Sonic the Hedgehog",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Igf7mRCfC8BbMHVS3LUuHCqz9PN3rIpK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Igf7mRCfC8BbMHVS3LUuHCqz9PN3rIpK&sz=w640",
+          "sizeBytes": 4707225,
+          "sha256": "D6AB4F0C85A5F3ED9271655CE4AB885864ABE0B3BD5420D9659FBA312FFE35EA",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Sonic the Hedgehog"
+        },
+        {
+          "id": "v_617dc2d7",
+          "name": "Chemical Plant Zone Vaporwave Sonic The",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13-JEL99KTtjEwXpKy71hhD0KwGiFTuu9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13-JEL99KTtjEwXpKy71hhD0KwGiFTuu9&sz=w640",
+          "sizeBytes": 4701816,
+          "sha256": "051540BB008A0ACA67C5754472C7282126EE9B4C17CDCF1E6BA7777B49A4A79D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Chemical Plant Zone Vaporwave Sonic The"
         }
       ]
     }
