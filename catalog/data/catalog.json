@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T18:55:11.654434+00:00",
-  "totalGames": 777,
-  "totalVariants": 883,
+  "updatedAt": "2026-10-21T19:00:32.813845+00:00",
+  "totalGames": 780,
+  "totalVariants": 888,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -21350,6 +21350,120 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Ori and the Will of the Wisps Hero"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C6F01C4F8000",
+      "title": "Metal Gear Solid: Master Collection Edition, Vol. 2 (MGS 4 Guns of the Patriots / Peace Walker / Metal Gear Ghost Babel) [NSZ][ENG]",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C6F01C4F8000.jpg",
+      "variants": [
+        {
+          "id": "v_c4988a5e",
+          "name": "Metal Gear Solid Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1leGvlmu98a_JKOvqFk3UgbbJkybygqH_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1leGvlmu98a_JKOvqFk3UgbbJkybygqH_&sz=w640",
+          "sizeBytes": 2413824,
+          "sha256": "E9365BB1F933DEDDE97DC460D58C725D71016C0639D9C66DEB971A30D81A8C02",
+          "durationSec": 30.0,
+          "author": "иoha",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Metal Gear Solid Motion Cover"
+        },
+        {
+          "id": "v_3beaebf1",
+          "name": "Metal Gear Solid Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cg57IfzfuMFB0MfO2ZsnQMviCbbER1Q5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cg57IfzfuMFB0MfO2ZsnQMviCbbER1Q5&sz=w640",
+          "sizeBytes": 1745050,
+          "sha256": "96A1C38D591B97BF2F254EC594F0606AA1B4B8FDCCBECA16D7CA199DA85DA841",
+          "durationSec": 30.0,
+          "author": "cosminnicu",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Metal Gear Solid Motion Cover"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B9F00BD34000",
+      "title": "DOOM (Classic Port)",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B9F00BD34000.jpg",
+      "variants": [
+        {
+          "id": "v_b1814620",
+          "name": "Doom Marine Pixel",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_eb4Lg6AxgwsaRVpKUEmdseT2torSihk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_eb4Lg6AxgwsaRVpKUEmdseT2torSihk&sz=w640",
+          "sizeBytes": 4733512,
+          "sha256": "584D31D7820D692704FBEE6393BE92B7C969FEAE8ACA572BE8FEC2C5E321E9CC",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Doom Marine Pixel"
+        },
+        {
+          "id": "v_ad6b5cf7",
+          "name": "Doom Marine",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10UZdBR5udvrhf-uFrOY5AwRkwbzzk0TM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10UZdBR5udvrhf-uFrOY5AwRkwbzzk0TM&sz=w640",
+          "sizeBytes": 4697215,
+          "sha256": "7981F426F4DD99BCBD6FA13607F3FCAD0A14D6A24390B6C17AEDC32331B85CA9",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Doom Marine"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B9F00BD36000",
+      "title": "DOOM II (Classic Port)",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B9F00BD36000.jpg",
+      "variants": [
+        {
+          "id": "v_0760df0e",
+          "name": "The Mark Of The Doom Slayer",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gfuiYv86kTglu355Mvuau_N2jJsKe62-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gfuiYv86kTglu355Mvuau_N2jJsKe62-&sz=w640",
+          "sizeBytes": 1639336,
+          "sha256": "22AE40F8AFD5282882EDFAC1BE2A3856158DCD209B024AFFD444F44858E83183",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | The Mark Of The Doom Slayer"
         }
       ]
     }
