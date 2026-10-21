@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T21:07:07.135031+00:00",
+  "updatedAt": "2026-10-21T21:08:31.018514+00:00",
   "totalGames": 790,
-  "totalVariants": 975,
+  "totalVariants": 977,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -9612,6 +9612,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "SteamGridDB Animated: Clannad"
+        },
+        {
+          "id": "v_c2c79d33",
+          "name": "Ushio Smiling Clannad: After Story",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HhJwu0Mg9Y4i0iyz_EYhYwkIbOywCm3M",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HhJwu0Mg9Y4i0iyz_EYhYwkIbOywCm3M&sz=w640",
+          "sizeBytes": 4716960,
+          "sha256": "52676CA7B176C4561CEE6480CF76B48EB3F48F78E04D9AF766DA7B767DC0B7D7",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ushio Smiling Clannad: After Story | ЗВУК"
+        },
+        {
+          "id": "v_03e269cd",
+          "name": "Nagisa Hugging Ushio In The Flower Field",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lAlBlXSVf8McWa_-3NjgiMJCl2hHcuU_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lAlBlXSVf8McWa_-3NjgiMJCl2hHcuU_&sz=w640",
+          "sizeBytes": 4703049,
+          "sha256": "4E7AAFEA1D5AA72FE9C9E2791E7AD24BF89C050D5ACF7A74570A07754E924314",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Nagisa Hugging Ushio In The Flower Field | ЗВУК"
         }
       ]
     },
