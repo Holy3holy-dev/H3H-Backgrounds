@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T21:03:44.090731+00:00",
+  "updatedAt": "2026-10-21T21:05:23.462569+00:00",
   "totalGames": 790,
-  "totalVariants": 967,
+  "totalVariants": 971,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -8235,6 +8235,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 0100E46006708000_Terraria.mp4"
+        },
+        {
+          "id": "v_c4b2413a",
+          "name": "Stardust Dragon&#8217;s Summon Terraria",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1F8uQLhLcOq_5vLDV1ZuaOFJH-21a0fuk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1F8uQLhLcOq_5vLDV1ZuaOFJH-21a0fuk&sz=w640",
+          "sizeBytes": 4704025,
+          "sha256": "CA877421379315DCE2E3EEBECBFBD0DA95613067A2AAEBE757074EBAFDCFF98C",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Stardust Dragon&#8217;s Summon Terraria | ЗВУК"
+        },
+        {
+          "id": "v_08a04ad9",
+          "name": "The Corruption Terraria",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PKBPfNimwu51fyOCxvk6uOX-ei13c75V",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PKBPfNimwu51fyOCxvk6uOX-ei13c75V&sz=w640",
+          "sizeBytes": 4626643,
+          "sha256": "3E65782D4C250FF3D19D599E893EBCEB4EDAB70CD65AE546E77B0E5B8C19494E",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Corruption Terraria | ЗВУК"
         }
       ]
     },
@@ -8278,6 +8314,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 0100344012028000_Subnautica.mp4"
+        },
+        {
+          "id": "v_292238ef",
+          "name": "Monster Bones Under The Sea Subnautica",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1u0xkrP6NFGUUWzZgDfXgjbKDgigaxN7c",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1u0xkrP6NFGUUWzZgDfXgjbKDgigaxN7c&sz=w640",
+          "sizeBytes": 4421163,
+          "sha256": "2B871DCE0BE316C70BE16620F5A85B69E0A3D8A8E8474CA7DBD5D61297E2813A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Monster Bones Under The Sea Subnautica | ЗВУК"
+        },
+        {
+          "id": "v_d6e427eb",
+          "name": "Boneshark Encounter Subnautica",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zh8Nx3c-N7luLngb5WdMjpfeyjSja2cZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zh8Nx3c-N7luLngb5WdMjpfeyjSja2cZ&sz=w640",
+          "sizeBytes": 4681405,
+          "sha256": "2BD1FB2FD8FD52CC13BFF548E1BB1CB17343E473EB5AF07507319B033E54E256",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Boneshark Encounter Subnautica | ЗВУК"
         }
       ]
     },
