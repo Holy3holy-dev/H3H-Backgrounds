@@ -305,6 +305,10 @@ public:
         return info;
     }
 
+    std::string getRecordingsDirectory() override {
+        return Config::DEFAULT_SWITCH_RECORDINGS_DIR;
+    }
+
     std::string getCoversDirectory() override {
         return Config::DEFAULT_SWITCH_COVERS_DIR;
     }

@@ -2,6 +2,7 @@
 
 #include "core/types.hpp"
 #include <string>
+#include <vector>
 #include <functional>
 
 namespace h3h {
@@ -32,7 +33,7 @@ public:
         uint64_t& outSizeBytes
     );
 
-    // Full atomic installation pipeline with SHA-256 validation and automatic rollback
+    // Full atomic installation pipeline with validation and automatic rollback
     static InstallResult installVariant(
         const std::string& coversDir,
         const std::string& titleId,
@@ -53,6 +54,20 @@ public:
         const std::string& coversDir,
         const std::string& titleId,
         bool deleteBackup = false
+    );
+
+    // Feature 5: Video file validation & Integrity Scanner
+    static bool validateVideoFile(const std::string& filePath, std::string& outReason);
+    static IntegrityReport validateAllInstalledCovers(const std::string& coversDir);
+    static int deleteCorruptedCovers(const std::vector<IntegrityIssue>& issues);
+
+    // Feature 3: Local gameplay recordings from sdmc:/recordings/
+    static std::vector<LocalRecording> listLocalRecordings(const std::string& recordingsDir);
+    static InstallResult installLocalRecording(
+        const std::string& coversDir,
+        const std::string& titleId,
+        const std::string& sourceRecordingPath,
+        bool createBackup = true
     );
 };
 

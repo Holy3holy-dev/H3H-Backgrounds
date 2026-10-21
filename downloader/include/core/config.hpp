@@ -11,11 +11,12 @@ class Config {
 public:
     // Default 4IFIR recordings covers directory on SD card
     static constexpr const char* DEFAULT_SWITCH_COVERS_DIR = "sdmc:/recordings/covers";
+    static constexpr const char* DEFAULT_SWITCH_RECORDINGS_DIR = "sdmc:/recordings";
     static constexpr const char* DEFAULT_SWITCH_APP_DIR    = "sdmc:/switch/H3H-Backgrounds";
     
     // Default remote catalog URL (GitHub CDN raw)
         // Application Version
-    static constexpr const char* APP_VERSION = "1.1.0";
+    static constexpr const char* APP_VERSION = "1.2.0";
     static constexpr const char* VERSION_CHECK_URL =
         "https://raw.githubusercontent.com/Holy3holy-dev/H3H-Backgrounds/main/version.json";
 

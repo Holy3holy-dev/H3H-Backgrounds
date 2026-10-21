@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-10-20T17:05:53.994960+00:00",
-  "totalGames": 727,
-  "totalVariants": 775,
+  "totalGames": 730,
+  "totalVariants": 778,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -19034,7 +19034,82 @@
           "notes": "SteamGridDB Animated Grid: 01006D601F594000_Silver_Axe_the_Honest_Elf.mp4"
         }
       ]
+    },
+    {
+      "titleId": "0100D67017098000",
+      "title": "You Suck at Parking [NSZ][RUS/Multi12]",
+      "publisher": "Fireshine Games",
+      "variants": [
+        {
+          "id": "var-1AW65O1h",
+          "name": "You Suck at Parking",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AW65O1hFmEHP-TtkZtduF1-LjVw1CG-E",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AW65O1hFmEHP-TtkZtduF1-LjVw1CG-E&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100D67017098000_You_Suck_at_Parking.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "010025801A948000",
+      "title": "Tiny Dragon Story [NSP][ENG]",
+      "publisher": "RedDeer.Games",
+      "variants": [
+        {
+          "id": "var-1WcEbrJt",
+          "name": "Tiny Dragon Story",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WcEbrJtGyVq-1XT9pn0GfoB30L0qq5QT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WcEbrJtGyVq-1XT9pn0GfoB30L0qq5QT&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 010025801A948000_Tiny_Dragon_Story.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B5200BB7C000",
+      "title": "ToeJam and Earl Back in the Groove [NSZ][ENG]",
+      "publisher": "HumaNature Studios",
+      "variants": [
+        {
+          "id": "var-10oTX0ff",
+          "name": "ToeJam and Earl Back in the Groove",
+          "style": "Animated Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10oTX0ffSeEn83xmwXOhnKu5MQdGogHPD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10oTX0ffSeEn83xmwXOhnKu5MQdGogHPD&sz=w640",
+          "sizeBytes": 0,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "Holy3holy-dev",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "SteamGridDB Animated Grid: 0100B5200BB7C000_ToeJam_and_Earl_Back_in_the_Groove.mp4"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-10-20T23:57:13.987800+00:00"
+  "lastUpdated": "2026-10-21T00:29:50.200529+00:00"
 }

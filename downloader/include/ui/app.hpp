@@ -41,6 +41,9 @@ enum class DialogType {
     ConfirmInstallAll,
     ConfirmRestore,
     ConfirmDelete,
+    ConfirmInstallLocalRecording,
+    ConfirmDeleteCorrupted,
+    IntegrityCheckResult,
     MessageAlert,
     UpdateProgress,
     UpdateSuccess
@@ -86,6 +89,16 @@ public:
     void openFullscreenPreviewForGame(const InstalledTitle& g, int variantIndex);
     void openFullscreenPreviewForCatalogGame(const GameCatalogEntry& entry, int variantIndex);
     void closeFullscreenPreview();
+
+    // Feature 3: Local 4IFIR Recordings Browser
+    void openRecordingsBrowser(const std::string& titleId, const std::string& gameName);
+    void closeRecordingsBrowser();
+    void renderRecordingsBrowser();
+    void executeInstallLocalRecording();
+
+    // Feature 5: Integrity Scanner
+    void runIntegrityCheck();
+    void executeDeleteCorruptedCovers();
 
     // Drawing helpers (4IFIR Glass Theme)
     void drawRect(int x, int y, int w, int h, Color color);
@@ -196,6 +209,20 @@ private:
     std::string m_previewInstalledCoverPath;
 
     uint32_t m_lastStickScrollTime{0};
+
+    // Local recordings browser (Feature 3)
+    bool m_isRecordingsBrowserOpen{false};
+    std::vector<LocalRecording> m_localRecordings;
+    int m_recordingsSelectedIndex{0};
+    int m_recordingsScrollOffset{0};
+    std::string m_recordingsTargetTitleId;
+    std::string m_recordingsTargetGameName;
+    std::string m_pendingRecordingToInstallPath;
+    std::string m_pendingRecordingToInstallName;
+
+    // Integrity check state (Feature 5)
+    std::vector<IntegrityIssue> m_detectedIntegrityIssues;
+    int m_lastIntegrityTotalChecked{0};
 };
 
 } // namespace ui

@@ -117,6 +117,10 @@ public:
         return info;
     }
 
+    std::string getRecordingsDirectory() override {
+        return (fs::current_path() / "recordings").string();
+    }
+
     std::string getCoversDirectory() override {
         return "./recordings/covers";
     }

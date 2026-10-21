@@ -136,4 +136,28 @@ struct SystemInfo {
     std::string coversDir;
 };
 
+
+struct LocalRecording {
+    std::string filename;
+    std::string fullPath;
+    uint64_t sizeBytes{0};
+    std::string formattedSize;
+    std::string dateModified;
+};
+
+struct IntegrityIssue {
+    std::string titleId;
+    std::string filename;
+    std::string fullPath;
+    uint64_t sizeBytes{0};
+    std::string reason;
+};
+
+struct IntegrityReport {
+    int totalChecked{0};
+    int totalValid{0};
+    std::vector<IntegrityIssue> issues;
+};
+
 } // namespace h3h
+
