@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T17:28:56.465827+00:00",
-  "totalGames": 754,
-  "totalVariants": 829,
+  "updatedAt": "2026-10-21T17:34:36.435228+00:00",
+  "totalGames": 755,
+  "totalVariants": 831,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -20195,6 +20195,50 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "SteamGridDB Animated Grid: 01004AB00A260800_Dark_Souls__Remastered.mp4"
+        }
+      ]
+    },
+    {
+      "titleId": "01000B900D8B0000",
+      "title": "DOOM Eternal",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000B900D8B0000.jpg",
+      "variants": [
+        {
+          "id": "v_435d4415",
+          "name": "DOOM Eternal Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1U6i9fb8ZXBuFraIqhyPD2rmve5ZOn9ME",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1U6i9fb8ZXBuFraIqhyPD2rmve5ZOn9ME&sz=w640",
+          "sizeBytes": 1999106,
+          "sha256": "6D54FF7D75B154B33BA9DA455D56142A6202AAD54CF97876CFC0A8BCD1D151EC",
+          "durationSec": 30.0,
+          "author": "TUFKAC",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | DOOM Eternal Hero"
+        },
+        {
+          "id": "v_b920c508",
+          "name": "DOOM Eternal Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RRNZRRCR5J3vduQPRa4_4DiqAQPmpLWK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RRNZRRCR5J3vduQPRa4_4DiqAQPmpLWK&sz=w640",
+          "sizeBytes": 1852629,
+          "sha256": "EA3C844EAC95C3DB9A8AA0DA6D5666AE91796299DAF1A7E14EE8FAF38AD1BF38",
+          "durationSec": 30.0,
+          "author": "TUFKAC",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | DOOM Eternal Hero"
         }
       ]
     }
