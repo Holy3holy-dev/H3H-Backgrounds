@@ -12,17 +12,20 @@ public:
     // Default 4IFIR recordings covers directory on SD card
     static constexpr const char* DEFAULT_SWITCH_COVERS_DIR = "sdmc:/recordings/covers";
     static constexpr const char* DEFAULT_SWITCH_RECORDINGS_DIR = "sdmc:/recordings";
+#ifdef H3H_AFTER_DARK
+    static constexpr const char* DEFAULT_SWITCH_APP_DIR    = "sdmc:/switch/H3H-AfterDark";
+    static constexpr const char* APP_NAME                  = "H3H After Dark (18+)";
+    static constexpr const char* DEFAULT_CATALOG_URL       = "https://raw.githubusercontent.com/Holy3holy-dev/H3H-Backgrounds/main/catalog/data/catalog_after_dark.json";
+#else
     static constexpr const char* DEFAULT_SWITCH_APP_DIR    = "sdmc:/switch/H3H-Backgrounds";
+    static constexpr const char* APP_NAME                  = "H3H Backgrounds";
+    static constexpr const char* DEFAULT_CATALOG_URL       = "https://raw.githubusercontent.com/Holy3holy-dev/H3H-Backgrounds/main/catalog/data/catalog.json";
+#endif
     
-    // Default remote catalog URL (GitHub CDN raw)
-        // Application Version
+    // Application Version
     static constexpr const char* APP_VERSION = "1.2.5";
     static constexpr const char* VERSION_CHECK_URL =
         "https://raw.githubusercontent.com/Holy3holy-dev/H3H-Backgrounds/main/version.json";
-
-    // Default remote catalog URL (GitHub CDN raw)
-    static constexpr const char* DEFAULT_CATALOG_URL = 
-        "https://raw.githubusercontent.com/Holy3holy-dev/H3H-Backgrounds/main/catalog/data/catalog.json";
 
     // Safety buffer for free disk space checks (20 MB minimum reserve)
     static constexpr uint64_t STORAGE_SAFETY_BUFFER_BYTES = 20 * 1024 * 1024;

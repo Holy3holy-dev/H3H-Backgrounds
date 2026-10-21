@@ -113,7 +113,7 @@ bool App::init() {
 #endif
 
     m_window = SDL_CreateWindow(
-        "H3H Backgrounds",
+        Config::APP_NAME,
         SDL_WINDOWPOS_CENTERED,
         SDL_WINDOWPOS_CENTERED,
         Theme::SCREEN_WIDTH,
@@ -175,7 +175,7 @@ bool App::init() {
     }
 #endif
 
-    std::cout << "[+] H3H Backgrounds App initialized successfully." << std::endl;
+    std::cout << "[+] " << Config::APP_NAME << " App initialized successfully." << std::endl;
     return true;
 }
 
@@ -1950,7 +1950,7 @@ void App::renderTabSettings() {
     // Main 4IFIR Frosted Glass Container
     drawGlassCard(30, 80, 1220, 570, false, false);
 
-    drawText("4IFIR System Settings  |  H3H Backgrounds", 60, 105, Theme::COLOR_TEXT_PRIMARY, 22);
+    drawText(std::string("4IFIR System Settings  |  ") + Config::APP_NAME, 60, 105, Theme::COLOR_TEXT_PRIMARY, 22);
     drawText("Настройки системы, прямое обновление NRO и управление локальным хранилищем", 60, 135, Theme::COLOR_TEXT_MUTED, 13);
 
     // Settings list options

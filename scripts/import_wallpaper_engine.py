@@ -14,7 +14,9 @@ import argparse
 from pathlib import Path
 from typing import Optional, Dict, Any, List
 
-sys.path.insert(0, str(Path("studio").resolve()))
+PROJECT_ROOT = Path(__file__).parent.parent.resolve()
+sys.path.insert(0, str(PROJECT_ROOT))
+sys.path.insert(0, str(PROJECT_ROOT / "studio"))
 from scripts.title_id_resolver import TitleIdResolver
 
 FFMPEG_CMD = "ffmpeg"
