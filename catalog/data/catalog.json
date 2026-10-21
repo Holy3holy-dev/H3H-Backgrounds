@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T18:53:18.355338+00:00",
-  "totalGames": 775,
-  "totalVariants": 878,
+  "updatedAt": "2026-10-21T18:55:11.654434+00:00",
+  "totalGames": 777,
+  "totalVariants": 883,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -983,6 +983,60 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 0100ABD01785C000_Portal_2.mp4"
+        },
+        {
+          "id": "v_5d19ee6b",
+          "name": "Half Life 2 Portal Storm",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hMvY_IaJsEYJ15JNzjdfyh7UiKK95nXo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hMvY_IaJsEYJ15JNzjdfyh7UiKK95nXo&sz=w640",
+          "sizeBytes": 4632170,
+          "sha256": "5633142AF07D7F17BA62DDAE6FC3DBFA05EF0A5CEB34BE8CBC0C269C37D75C3F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Half Life 2 Portal Storm"
+        },
+        {
+          "id": "v_1a646ddf",
+          "name": "Rick And Morty Green Portal",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1z04w08wl9AMnimlO4LeMVLzHW_as_ID8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1z04w08wl9AMnimlO4LeMVLzHW_as_ID8&sz=w640",
+          "sizeBytes": 4673039,
+          "sha256": "D5C421A443BC88585C1780458A787BC9D90D9D8FE5DC978B6DD40EB0F6657802",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Rick And Morty Green Portal"
+        },
+        {
+          "id": "v_6c26ec58",
+          "name": "Portal In The Snowy Street Minecraft",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Z_rsuJQ0gOfUdBIE8oK0mxd5bPIZpYEO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Z_rsuJQ0gOfUdBIE8oK0mxd5bPIZpYEO&sz=w640",
+          "sizeBytes": 4630154,
+          "sha256": "CE2E27940528909B888B4915B1A1AD91D7610723E9424125C845C9A24D4DD39C",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Portal In The Snowy Street Minecraft"
         }
       ]
     },
@@ -21244,6 +21298,58 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | John Wick In Vice City"
+        }
+      ]
+    },
+    {
+      "titleId": "01005A300C3FA000",
+      "title": "Borderlands: The Pre-Sequel",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005A300C3FA000.jpg",
+      "variants": [
+        {
+          "id": "v_c7cf1f47",
+          "name": "Borderlands: The Pre-Sequel Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1p2pjTyrCecz3yZeSE0T7bVR4keoBkiFK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1p2pjTyrCecz3yZeSE0T7bVR4keoBkiFK&sz=w640",
+          "sizeBytes": 3090357,
+          "sha256": "AE6CF17C8481BDD07E3CD4734C4D99243A5DC32D9A0AE09E4B095E6DDD3EAC32",
+          "durationSec": 30.0,
+          "author": "deckxninja",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Borderlands: The Pre-Sequel Hero"
+        }
+      ]
+    },
+    {
+      "titleId": "010086C00AF7C000",
+      "title": "Ori and the Will of the Wisps",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010086C00AF7C000.jpg",
+      "variants": [
+        {
+          "id": "v_726a16a4",
+          "name": "Ori and the Will of the Wisps Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mrda_3pFO6iaUdtp7NVZrsdeESN6yjqv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mrda_3pFO6iaUdtp7NVZrsdeESN6yjqv&sz=w640",
+          "sizeBytes": 3099389,
+          "sha256": "45876021D1CBE888907EE3F322F12F56415E12812339F9C52D43EBD9DD368874",
+          "durationSec": 30.0,
+          "author": "TUFKAC",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Ori and the Will of the Wisps Hero"
         }
       ]
     }
