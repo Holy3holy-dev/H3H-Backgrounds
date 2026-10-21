@@ -1,74 +1,122 @@
 import json
 import re
+import difflib
 from pathlib import Path
 from typing import Optional, Tuple, List, Dict
 
 class TitleIdResolver:
     """
-    Intelligent title and character matcher that resolves Wallpaper Engine items
-    and 18+ animated backgrounds to official Nintendo Switch Title IDs.
+    Intelligent fuzzy title and character matcher that resolves user input,
+    typos, Russian slang, and character names to official Nintendo Switch Title IDs.
     """
+
+    RUSSIAN_ALIASES = {
+        'ведьмак': 'witcher',
+        'слезы королевства': 'tears of the kingdom',
+        'дыхание дикой природы': 'breath of the wild',
+        'ботва': 'breath of the wild',
+        'тотк': 'tears of the kingdom',
+        'ботв': 'breath of the wild',
+        'смеш': 'smash bros',
+        'сэш': 'smash bros',
+        'аид': 'hades',
+        'хейдис': 'hades',
+        'ниер': 'nier',
+        'нир': 'nier',
+        'персона': 'persona',
+        'дарк соулс': 'dark souls',
+        'темные души': 'dark souls',
+        'покемон': 'pokemon',
+        'покемоны': 'pokemon',
+        'метроид': 'metroid',
+        'байонетта': 'bayonetta',
+        'байонета': 'bayonetta',
+        'ксеноблейд': 'xenoblade',
+        'зеноблейд': 'xenoblade',
+        'марио': 'mario',
+        'соник': 'sonic',
+        'донки конг': 'donkey kong',
+        'мортал комбат': 'mortal kombat',
+        'доа': 'dead or alive',
+        'дед ор элайв': 'dead or alive',
+        'киберпанк': 'cyberpunk',
+        'финалка': 'final fantasy',
+        'файнал фэнтези': 'final fantasy',
+        'звёздные войны': 'star wars',
+        'звездные войны': 'star wars',
+        'одиссея': 'odyssey',
+        'одисея': 'odyssey',
+        'карт': 'kart',
+    }
+
+    CYRILLIC_TO_LATIN = {
+        'а': 'a', 'б': 'b', 'в': 'v', 'г': 'g', 'д': 'd', 'е': 'e', 'ё': 'e',
+        'ж': 'zh', 'з': 'z', 'и': 'i', 'й': 'y', 'к': 'k', 'л': 'l', 'м': 'm',
+        'н': 'n', 'о': 'o', 'п': 'p', 'р': 'r', 'с': 's', 'т': 't', 'у': 'u',
+        'ф': 'f', 'х': 'h', 'ц': 'ts', 'ч': 'ch', 'ш': 'sh', 'щ': 'sch',
+        'ъ': '', 'ы': 'y', 'ь': '', 'э': 'e', 'ю': 'yu', 'я': 'ya'
+    }
+
+    CHARACTER_MAPPINGS = {
+        "2b": "Nier Automata",
+        "a2": "Nier Automata",
+        "9s": "Nier Automata",
+        "yorha": "Nier Automata",
+        "pyra": "Xenoblade Chronicles 2",
+        "mythra": "Xenoblade Chronicles 2",
+        "homura": "Xenoblade Chronicles 2",
+        "hikari": "Xenoblade Chronicles 2",
+        "purah": "Tears of the Kingdom",
+        "zelda": "Breath of the Wild",
+        "midna": "Twilight Princess",
+        "mipha": "Breath of the Wild",
+        "urbosa": "Breath of the Wild",
+        "bowsette": "Super Mario Odyssey",
+        "peach": "Super Mario Odyssey",
+        "rosalina": "Super Mario Galaxy",
+        "pauline": "Super Mario Odyssey",
+        "boosette": "Luigi's Mansion 3",
+        "tifa": "Final Fantasy",
+        "aerith": "Final Fantasy",
+        "bayonetta": "Bayonetta",
+        "jeanne": "Bayonetta",
+        "makoto": "Persona 5 Royal",
+        "ann": "Persona 5 Royal",
+        "kasumi": "Persona 5 Royal",
+        "futaba": "Persona 5 Royal",
+        "mitsuru": "Persona 3 Portable",
+        "aigis": "Persona 3 Portable",
+        "samus": "Metroid Dread",
+        "zero suit samus": "Super Smash Bros Ultimate",
+        "chun li": "Street Fighter",
+        "cammy": "Street Fighter",
+        "juri": "Street Fighter",
+        "morrigan": "Capcom Fighting Collection",
+        "mai shiranui": "Fatal Fury",
+        "honoka": "Dead or Alive Xtreme",
+        "marie rose": "Dead or Alive Xtreme",
+        "kasumi doa": "Dead or Alive",
+        "asuka": "Senran Kagura",
+        "homura sk": "Senran Kagura",
+        "lucy": "Cyberpunk",
+        "rebecca": "Cyberpunk",
+        "yennefer": "Witcher 3",
+        "triss": "Witcher 3",
+        "ciri": "Witcher 3",
+        "aphrodite": "Hades",
+        "nyx": "Hades",
+        "megaera": "Hades",
+        "edelgard": "Fire Emblem Three Houses",
+        "byleth": "Fire Emblem Three Houses",
+        "dimitri": "Fire Emblem Three Houses",
+        "rhea": "Fire Emblem Three Houses",
+    }
+
     def __init__(self, catalog_path: str = "catalog/data/catalog.json"):
         self.catalog_path = Path(catalog_path)
         self.games: List[Dict] = []
         self.normalized_games: List[Tuple[str, str, List[str]]] = []
         self.load_catalog()
-
-        # Character -> Game Title associations for 18+ content
-        self.character_mappings = {
-            "2b": "Nier Automata",
-            "a2": "Nier Automata",
-            "9s": "Nier Automata",
-            "yorha": "Nier Automata",
-            "pyra": "Xenoblade Chronicles 2",
-            "mythra": "Xenoblade Chronicles 2",
-            "homura": "Xenoblade Chronicles 2",
-            "hikari": "Xenoblade Chronicles 2",
-            "purah": "Tears of the Kingdom",
-            "zelda": "Breath of the Wild",
-            "midna": "Twilight Princess",
-            "mipha": "Breath of the Wild",
-            "urbosa": "Breath of the Wild",
-            "bowsette": "Super Mario Odyssey",
-            "peach": "Super Mario Odyssey",
-            "rosalina": "Super Mario Galaxy",
-            "pauline": "Super Mario Odyssey",
-            "boosette": "Luigi's Mansion 3",
-            "tifa": "Final Fantasy",
-            "aerith": "Final Fantasy",
-            "bayonetta": "Bayonetta",
-            "jeanne": "Bayonetta",
-            "makoto": "Persona 5 Royal",
-            "ann": "Persona 5 Royal",
-            "kasumi": "Persona 5 Royal",
-            "futaba": "Persona 5 Royal",
-            "mitsuru": "Persona 3 Portable",
-            "aigis": "Persona 3 Portable",
-            "samus": "Metroid Dread",
-            "zero suit samus": "Super Smash Bros Ultimate",
-            "chun li": "Street Fighter",
-            "cammy": "Street Fighter",
-            "juri": "Street Fighter",
-            "morrigan": "Capcom Fighting Collection",
-            "mai shiranui": "Fatal Fury",
-            "honoka": "Dead or Alive Xtreme",
-            "marie rose": "Dead or Alive Xtreme",
-            "kasumi doa": "Dead or Alive",
-            "asuka": "Senran Kagura",
-            "homura sk": "Senran Kagura",
-            "lucy": "Cyberpunk",
-            "rebecca": "Cyberpunk",
-            "yennefer": "Witcher 3",
-            "triss": "Witcher 3",
-            "ciri": "Witcher 3",
-            "aphrodite": "Hades",
-            "nyx": "Hades",
-            "megaera": "Hades",
-            "edelgard": "Fire Emblem Three Houses",
-            "byleth": "Fire Emblem Three Houses",
-            "dimitri": "Fire Emblem Three Houses",
-            "rhea": "Fire Emblem Three Houses",
-        }
 
     def load_catalog(self):
         if not self.catalog_path.exists():
@@ -91,68 +139,109 @@ class TitleIdResolver:
         t = re.sub(r"[^\w\s\:\-\'\.]", " ", t)
         return " ".join(t.split())
 
+    @classmethod
+    def normalize_input(cls, query: str) -> str:
+        """Converts Russian aliases and transliterates Cyrillic to Latin."""
+        q = query.lower().strip()
+        # Replace known Russian slang/aliases
+        for ru, en in cls.RUSSIAN_ALIASES.items():
+            pattern = r"\b" + re.escape(ru) + r"\b"
+            q = re.sub(pattern, en, q)
+        # Transliterate any remaining Cyrillic letters
+        return "".join(cls.CYRILLIC_TO_LATIN.get(c, c) for c in q)
+
     def resolve(self, query: str) -> Optional[Tuple[str, str]]:
+        """Resolves to the single best matching (titleId, gameName)."""
+        candidates = self.resolve_multiple(query, limit=1)
+        if candidates:
+            return (candidates[0][0], candidates[0][1])
+        return None
+
+    def resolve_multiple(self, query: str, limit: int = 4) -> List[Tuple[str, str, float]]:
         """
-        Resolves a search query (e.g. 'NieR Automata 2B' or 'Purah Tears of the Kingdom')
-        to the best matching (titleId, gameName).
-        Returns None if no confident match is found.
+        Resolves query with typo-tolerance and transliteration.
+        Returns a list of tuples: [(titleId, cleanGameName, score), ...]
+        sorted by highest score first.
         """
         if not query or not query.strip():
-            return None
-        
-        q_lower = query.lower()
-        
-        # Check character mapping first
-        for char_name, mapped_game in self.character_mappings.items():
-            if re.search(r"\b" + re.escape(char_name) + r"\b", q_lower):
-                # Search using mapped game name
-                res = self._match_tokens(mapped_game)
-                if res:
-                    return res
+            return []
 
-        return self._match_tokens(query)
+        # 1. Normalize query
+        norm_query = self.normalize_input(query)
+        q_tokens = [t for t in re.split(r"[^a-z0-9]+", norm_query) if len(t) >= 2]
 
-    def _match_tokens(self, query: str) -> Optional[Tuple[str, str]]:
-        q_tokens = [t for t in re.split(r"[^a-z0-9]+", query.lower()) if len(t) >= 2]
-        if not q_tokens:
-            return None
+        # 2. Check character mapping
+        char_bonus_game = None
+        for char_name, mapped_game in self.CHARACTER_MAPPINGS.items():
+            if re.search(r"\b" + re.escape(char_name) + r"\b", norm_query):
+                char_bonus_game = mapped_game.lower()
+                break
 
-        best_score = 0
-        best_match = None
+        scored: List[Tuple[str, str, float]] = []
 
         for tid, clean_name, g_tokens in self.normalized_games:
-            score = 0
+            clean_lower = clean_name.lower()
+            score = 0.0
+
+            # Character match bonus
+            if char_bonus_game and char_bonus_game in clean_lower:
+                score += 50.0
+
+            # Substring match
+            if norm_query in clean_lower:
+                score += 40.0
+            
+            # Token matching with fuzzy typo tolerance
             for qt in q_tokens:
                 if qt in g_tokens:
-                    score += 10
-                elif any(qt in gt for gt in g_tokens):
-                    score += 5
-            
-            # Bonus for exact phrase inclusion
-            if query.lower() in clean_name.lower():
-                score += 25
+                    score += 15.0
+                else:
+                    # Check fuzzy match against each token in game title
+                    best_token_ratio = max([difflib.SequenceMatcher(None, qt, gt).ratio() for gt in g_tokens] + [0.0])
+                    if best_token_ratio >= 0.8:
+                        score += 12.0 * best_token_ratio
+                    elif best_token_ratio >= 0.65:
+                        score += 6.0 * best_token_ratio
 
-            if score > best_score:
-                best_score = score
-                best_match = (tid, clean_name)
+            # Whole-string sequence similarity bonus
+            full_ratio = difflib.SequenceMatcher(None, norm_query, clean_lower).ratio()
+            score += full_ratio * 20.0
 
-        if best_score >= 10:
-            return best_match
-        return None
+            if score >= 12.0:
+                scored.append((tid, clean_name, round(score, 2)))
+
+        # Sort descending by score
+        scored.sort(key=lambda x: x[2], reverse=True)
+
+        # Deduplicate by Title ID keeping highest score
+        seen = set()
+        deduped = []
+        for tid, name, sc in scored:
+            if tid not in seen:
+                seen.add(tid)
+                deduped.append((tid, name, sc))
+            if len(deduped) >= limit:
+                break
+
+        return deduped
 
 if __name__ == "__main__":
     resolver = TitleIdResolver()
     tests = [
-        "NieR Automata 2B Battle Scene",
-        "Purah Tears of the Kingdom",
-        "Xenoblade Chronicles 2 Pyra & Mythra",
-        "Super Smash Bros Ultimate",
-        "Witcher 3 Yennefer",
-        "Bowsette Super Mario",
-        "Hades Aphrodite Romance",
-        "Persona 5 Royal Makoto Niijima"
+        "марио одисея",       # Russian with typo
+        "зельда тотк",        # Russian slang
+        "ведьмак 3",          # Russian translation
+        "слезы королевства",  # Russian full translation
+        "ниер автомата 2б",   # Russian translit + character
+        "smash broz ultimte", # Multiple typos
+        "вайчер 3",           # Phonetic typo
+        "metroid dret",       # Typo
+        "ксеноблейд 2 пайра", # Russian translit + character
     ]
-    print(f"Loaded {len(resolver.games)} games from catalog.")
+    print(f"Loaded {len(resolver.games)} games from catalog.\n")
     for t in tests:
-        res = resolver.resolve(t)
-        print(f"Query: '{t}' -> Resolved: {res}")
+        res = resolver.resolve_multiple(t, limit=3)
+        print(f"Query: '{t}'")
+        for tid, name, sc in res:
+            print(f"   -> [{sc}] {name} ({tid})")
+        print()

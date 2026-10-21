@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  h3h-uploader-bot:
+    build:
+      context: ..
+      dockerfile: tg_bot/Dockerfile
+    container_name: h3h_tg_bot
+    restart: always
+    environment:
+      - BOT_TOKEN=${BOT_TOKEN}
+    volumes:
+      - ../catalog:/app/catalog
+      - /root/.h3h_google_drive.json:/root/.h3h_google_drive.json:ro
