@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T18:50:06.980861+00:00",
-  "totalGames": 769,
-  "totalVariants": 868,
+  "updatedAt": "2026-10-21T18:51:40.700742+00:00",
+  "totalGames": 772,
+  "totalVariants": 873,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -21016,6 +21016,120 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Blasphemous Motion Cover"
+        }
+      ]
+    },
+    {
+      "titleId": "010038800C3DC000",
+      "title": "BioShock Remastered",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010038800C3DC000.jpg",
+      "variants": [
+        {
+          "id": "v_f8b82ba2",
+          "name": "BioShock Remastered Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZI7A8PeZ3ELlbVhvwZ2YmVS5KGZNm7ab",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZI7A8PeZ3ELlbVhvwZ2YmVS5KGZNm7ab&sz=w640",
+          "sizeBytes": 1303042,
+          "sha256": "8D33BA3C3171912B44CFC303E2C9CD05E87DC1009C30912D97C4699A0DCD82D4",
+          "durationSec": 30.0,
+          "author": "BaturaET",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | BioShock Remastered Hero"
+        },
+        {
+          "id": "v_ed53008f",
+          "name": "BioShock Remastered Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16Ur53wX2m_H6oICVxRIqYfeN6F8S6uC9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16Ur53wX2m_H6oICVxRIqYfeN6F8S6uC9&sz=w640",
+          "sizeBytes": 5935844,
+          "sha256": "730BAB747B6AB0FDCA9C86577F5B8F9F098366328DAFD987AB537C23545A8CBB",
+          "durationSec": 30.0,
+          "author": "BaturaET",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | BioShock Remastered Hero"
+        }
+      ]
+    },
+    {
+      "titleId": "01004C800C3DC000",
+      "title": "Need for Speed: Most Wanted",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004C800C3DC000.jpg",
+      "variants": [
+        {
+          "id": "v_604a7c6a",
+          "name": "BMW M3 E46 Need for Speed: Most Wanted",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Jo1SsjzzcU3cjrJk2Pt82QY6lfVk8ixJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Jo1SsjzzcU3cjrJk2Pt82QY6lfVk8ixJ&sz=w640",
+          "sizeBytes": 4712787,
+          "sha256": "E4EABBD1BD19784889D6930E2FBB4283C2616FF6F0A783FF0CECF05AC077C38C",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | BMW M3 E46 Need for Speed: Most Wanted"
+        }
+      ]
+    },
+    {
+      "titleId": "0100658013AE8000",
+      "title": "Grand Theft Auto III - Definitive",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100658013AE8000.jpg",
+      "variants": [
+        {
+          "id": "v_038231a5",
+          "name": "Grand Theft Auto VI GTA 6",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1YtBd2jSeRddr6CxeKYr-0iAvUqpelgEo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1YtBd2jSeRddr6CxeKYr-0iAvUqpelgEo&sz=w640",
+          "sizeBytes": 4564488,
+          "sha256": "B16C133AA6D2FA4D11D7189E88E93C52EE8D7178DB051B6CE01F3354FF6FE078",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Grand Theft Auto VI GTA 6"
+        },
+        {
+          "id": "v_6fe66695",
+          "name": "Ford Mustang GT GTA 5",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Zc6sizMiOON_9j-BSGpRMemej04RFYfU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Zc6sizMiOON_9j-BSGpRMemej04RFYfU&sz=w640",
+          "sizeBytes": 4702831,
+          "sha256": "4B982C0E815D127AA7541B5512D069733E8A7669EC54159CF4D77806CEC40E57",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Ford Mustang GT GTA 5"
         }
       ]
     }
