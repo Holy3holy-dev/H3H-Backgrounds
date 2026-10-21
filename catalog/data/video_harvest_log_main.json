@@ -1277,8 +1277,47 @@
     "https://moewalls.com/landscape/nibel-ori-and-the-blind-forest-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2021/nibel-ori-and-the-blind-forest-preview.webm"
+    },
+    "https://moewalls.com/games/mario-kart-ds-live-wallpaper/": {
+      "page": true,
+      "skipped": true
+    },
+    "https://moewalls.com/games/link-in-rivendell-the-legend-of-zelda-breath-of-the-wild-live-wallpaper/": {
+      "page": true,
+      "skipped": true
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2023/zelda-holy-knight-the-legend-of-zelda-preview.webm": {
+      "title": "Zelda Holy Knight The Legend Of Zelda",
+      "titleId": "0100F2C0115B6000",
+      "gameName": "The Legend of Zelda: Tears of the Kingdom",
+      "varId": "v_fc036953",
+      "driveId": "1CLVSCm9AN4SK4_LKwyG09lXuwJPYmRW-",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/zelda-holy-knight-the-legend-of-zelda-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2023/zelda-holy-knight-the-legend-of-zelda-preview.webm"
     }
   },
-  "total_harvested": 167,
-  "last_updated": "2026-10-21T19:39:31.448835+00:00"
+  "total_harvested": 171,
+  "last_updated": "2026-10-21T20:40:41.757324+00:00",
+  "page_cursors": {
+    "super mario odyssey": 2,
+    "mario odyssey": 2,
+    "mario kart 8": 2,
+    "mario kart": 2,
+    "breath of the wild": 2,
+    "zelda botw": 2,
+    "zelda totk": 2,
+    "animal crossing new horizons": 2,
+    "animal crossing": 2,
+    "super smash bros ultimate": 2,
+    "smash ultimate": 2,
+    "metroid dread": 2,
+    "samus aran dread": 2,
+    "kirby forgotten land": 2
+  },
+  "query_cursor": 15
 }

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T19:39:32.464097+00:00",
+  "updatedAt": "2026-10-21T20:40:41.758397+00:00",
   "totalGames": 789,
-  "totalVariants": 923,
+  "totalVariants": 924,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -862,6 +862,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Link The Legend Of Zelda: Tears Of The K"
+        },
+        {
+          "id": "v_fc036953",
+          "name": "Zelda Holy Knight The Legend Of Zelda",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CLVSCm9AN4SK4_LKwyG09lXuwJPYmRW-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CLVSCm9AN4SK4_LKwyG09lXuwJPYmRW-&sz=w640",
+          "sizeBytes": 4734248,
+          "sha256": "7041F6DF326CDE54A677B6853601E59C8C888012271F3AF3C8206CCE5A195E1A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Zelda Holy Knight The Legend Of Zelda | ЗВУК"
         }
       ]
     },
