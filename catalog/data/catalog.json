@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T19:21:38.761113+00:00",
-  "totalGames": 786,
-  "totalVariants": 903,
+  "updatedAt": "2026-10-21T19:32:05.266340+00:00",
+  "totalGames": 787,
+  "totalVariants": 905,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -20897,6 +20897,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Hollow Knight Hero"
+        },
+        {
+          "id": "v_5ecf5cdb",
+          "name": "Ghost Midnight Hollow Knight",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1aAn-63Yd0jwF8M_J3CQBMcsFqgWcd2mo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1aAn-63Yd0jwF8M_J3CQBMcsFqgWcd2mo&sz=w640",
+          "sizeBytes": 4577125,
+          "sha256": "8EA4C1F7ADBB82F7F285FC34F788BF954CDF82E7D385E883C3D862B0A99E697F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Ghost Midnight Hollow Knight"
         }
       ]
     },
@@ -21782,6 +21800,32 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Chemical Plant Zone Vaporwave Sonic The"
+        }
+      ]
+    },
+    {
+      "titleId": "0100994017EE6000",
+      "title": "Sonic Frontiers",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100994017EE6000.jpg",
+      "variants": [
+        {
+          "id": "v_83a0c2fa",
+          "name": "Sonic Frontiers Starfall",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10HP58SXcXRzKD-5epp3qSs-x7D-ofykv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10HP58SXcXRzKD-5epp3qSs-x7D-ofykv&sz=w640",
+          "sizeBytes": 4682231,
+          "sha256": "C8FA6FF29D0D3969BAE0D0C82B3FFA099DC439486A7751CEC286BA6654D1808D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sonic Frontiers Starfall | ЗВУК"
         }
       ]
     }
