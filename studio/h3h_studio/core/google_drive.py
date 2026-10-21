@@ -100,13 +100,24 @@ class GoogleDriveHelper:
         """
         Loads persisted Google Drive configuration (token, default folder, author).
         """
+        cfg = {}
         if cls.CONFIG_FILE.exists():
             try:
                 with open(cls.CONFIG_FILE, "r", encoding="utf-8") as f:
-                    return json.load(f)
+                    cfg = json.load(f)
             except Exception as e:
                 print(f"[-] Warning reading {cls.CONFIG_FILE}: {e}")
-        return {}
+        
+        # Override / inject from environment variables (for Docker / Render cloud deployment)
+        import os
+        if os.getenv("GDRIVE_REFRESH_TOKEN"):
+            cfg["refresh_token"] = os.getenv("GDRIVE_REFRESH_TOKEN").strip()
+        if os.getenv("GDRIVE_TOKEN"):
+            cfg["token"] = os.getenv("GDRIVE_TOKEN").strip()
+        if os.getenv("GDRIVE_FOLDER_ID"):
+            cfg["folder_id"] = os.getenv("GDRIVE_FOLDER_ID").strip()
+            cfg["project_folder_id"] = os.getenv("GDRIVE_FOLDER_ID").strip()
+        return cfg
 
     @classmethod
     def save_stored_config(cls, data: Dict[str, Any]) -> bool:
