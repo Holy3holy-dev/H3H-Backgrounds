@@ -21,6 +21,10 @@ import zipfile
 import subprocess
 import threading
 import html
+import base64
+import urllib.request
+import urllib.parse
+import urllib.error
 from pathlib import Path
 from datetime import datetime, timezone
 from typing import Dict, Any, Optional, List, Tuple
