@@ -16,6 +16,7 @@ GITHUB_BRANCH = os.getenv("GITHUB_BRANCH", "main")
 
 # Google Drive storage settings
 GDRIVE_FOLDER_ID = os.getenv("GDRIVE_FOLDER_ID", "1hI1klJ6t2ymVoBwGA6IzY79QMjp5dTJC")
+GDRIVE_AFTER_DARK_FOLDER_ID = os.getenv("GDRIVE_AFTER_DARK_FOLDER_ID", "1SXWjp12pKxPPT6YRMZ7tle8cgZdrKkHk")
 GDRIVE_REFRESH_TOKEN = os.getenv("GDRIVE_REFRESH_TOKEN", "")
 
 # Admin Telegram user IDs (who can moderate / approve uploads, or empty list for public auto-upload)

@@ -150,6 +150,27 @@ class TitleIdResolver:
         # Transliterate any remaining Cyrillic letters
         return "".join(cls.CYRILLIC_TO_LATIN.get(c, c) for c in q)
 
+    def resolve_by_title_id(self, title_id: str) -> Optional[str]:
+        """Looks up a clean game title directly by its 16-hex Title ID."""
+        if not title_id:
+            return None
+        tid_upper = title_id.strip().upper()
+        for tid, clean_name, _ in self.normalized_games:
+            if tid.upper() == tid_upper:
+                return clean_name
+        return None
+
+    @staticmethod
+    def extract_title_id(text: str) -> Optional[str]:
+        """Extracts a 16-hex Nintendo Switch Title ID from a string, filename, or caption."""
+        if not text:
+            return None
+        # Match exactly 16 hexadecimal characters with non-hex boundaries
+        match = re.search(r'(?i)(?<![0-9a-f])([0-9a-f]{16})(?![0-9a-f])', text)
+        if match:
+            return match.group(1).upper()
+        return None
+
     def resolve(self, query: str) -> Optional[Tuple[str, str]]:
         """Resolves to the single best matching (titleId, gameName)."""
         candidates = self.resolve_multiple(query, limit=1)
