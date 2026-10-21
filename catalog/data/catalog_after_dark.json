@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "name": "H3H After Dark (18+) Official Catalog",
-  "updatedAt": "2026-10-21T20:45:48.856212+00:00",
-  "totalGames": 13,
-  "totalVariants": 84,
+  "updatedAt": "2026-10-21T20:47:17.278202+00:00",
+  "totalGames": 14,
+  "totalVariants": 89,
   "games": [
     {
       "titleId": "0000000000000000",
@@ -1613,6 +1613,104 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Atago Umbrella Azur Lane | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A8900A4A0000",
+      "title": "Fate/EXTELLA LINK",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A8900A4A0000.jpg",
+      "variants": [
+        {
+          "id": "v_d7565bbf",
+          "name": "Saber Excalibur Fate Stay Night",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FgfTEoPoUoOhCuctjM4RabrQtpDOEV_m",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FgfTEoPoUoOhCuctjM4RabrQtpDOEV_m&sz=w640",
+          "sizeBytes": 4721639,
+          "sha256": "D05D1E4E8AEB5AF26AB861051BF869261D020124D757FFB56EAC4AE93C22B9B3",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Saber Excalibur Fate Stay Night"
+        },
+        {
+          "id": "v_8e63314f",
+          "name": "Saber Excalibur Fate Stay Night",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vL9sLjSaxfh8xFdkK3VkUNVS3J64WjD0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vL9sLjSaxfh8xFdkK3VkUNVS3J64WjD0&sz=w640",
+          "sizeBytes": 4726207,
+          "sha256": "2B84DD09E42064EC82ACCAB7A7DF8EBD050701336C1E6A546979F8A6A3FD4455",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Saber Excalibur Fate Stay Night | ЗВУК"
+        },
+        {
+          "id": "v_c4b9567b",
+          "name": "Saber Alter Vs Berserker Fate Stay Night",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qVxWqt17dlySqueOnpMakOLTV4BPJxi_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qVxWqt17dlySqueOnpMakOLTV4BPJxi_&sz=w640",
+          "sizeBytes": 4718633,
+          "sha256": "C8B72AD404CB43BC770053B3CD90B0A520304E689F3B37B9369C023820DB5169",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Saber Alter Vs Berserker Fate Stay Night | ЗВУК"
+        },
+        {
+          "id": "v_1cb8a25b",
+          "name": "Chibi Saber Fate Stay Night Pixel",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vCDzXN5cdR7bLnk5u9e5IDm3wEJWNlkF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vCDzXN5cdR7bLnk5u9e5IDm3wEJWNlkF&sz=w640",
+          "sizeBytes": 1204966,
+          "sha256": "A9B1E1DA14E3F96D0EA4252597B178BBDB31B4D009E9F95F91B0CA1893BE4735",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Chibi Saber Fate Stay Night Pixel | ЗВУК"
+        },
+        {
+          "id": "v_78eeac7c",
+          "name": "Tamamo No Mae Sleeping Fate Grand Order",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ztG4A5jCATljE3f7xhWEcGNBlH1i7YCC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ztG4A5jCATljE3f7xhWEcGNBlH1i7YCC&sz=w640",
+          "sizeBytes": 4677608,
+          "sha256": "38110250960127A259A02ADF739C6F3830F30936237113141B0309C4C5F113A4",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tamamo No Mae Sleeping Fate Grand Order | ЗВУК"
         }
       ]
     }
