@@ -1415,10 +1415,80 @@
     "https://moewalls.com/games/kingdom-hearts-iii-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2022/kingdom-hearts-iii-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2023/resident-evil-4-title-screen-preview.webm": {
+      "title": "Resident Evil 4 Title Screen",
+      "titleId": "010099A00BC1E000",
+      "gameName": "Resident Evil 4",
+      "varId": "v_fe6937b3",
+      "driveId": "16btVmQu9uIsltrrXo10Id0Jw9MvSkp6e",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/resident-evil-4-title-screen-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2023/resident-evil-4-title-screen-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2023/leon-resident-evil-4-remake-preview.webm": {
+      "title": "Leon Resident Evil 4 Remake",
+      "titleId": "010099A00BC1E000",
+      "gameName": "Resident Evil 4",
+      "varId": "v_2ac6d30c",
+      "driveId": "1rqLtWu-UeQ-ERV7zml4WKidtfpsQz4fA",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/leon-resident-evil-4-remake-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2023/leon-resident-evil-4-remake-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2023/ada-wong-sniper-resident-evil-4-remake-preview.webm": {
+      "title": "Ada Wong Sniper Resident Evil 4 Remake",
+      "titleId": "010099A00BC1E000",
+      "gameName": "Resident Evil 4",
+      "varId": "v_8a9ea589",
+      "driveId": "1TM4O0x5gvRh4zOtAvZAV4bO4cXiuCswk",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/ada-wong-sniper-resident-evil-4-remake-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2023/ada-wong-sniper-resident-evil-4-remake-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2026/burning-cross-red-dead-redemption-2-preview.webm": {
+      "title": "Burning Cross Red Dead Redemption 2",
+      "titleId": "01007820196A6000",
+      "gameName": "Red Dead Redemption",
+      "varId": "v_90ada47c",
+      "driveId": "1phYBW2piwz8-vNvObKSALgJd1qHKF8iu",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/burning-cross-red-dead-redemption-2-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2026/burning-cross-red-dead-redemption-2-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2023/winter-house-red-dead-redemption-2-preview.webm": {
+      "title": "Winter House Red Dead Redemption 2",
+      "titleId": "01007820196A6000",
+      "gameName": "Red Dead Redemption",
+      "varId": "v_4abf4e73",
+      "driveId": "1VGV2MHryoMhH9-rCli9FoqntTAZ_RVIF",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/winter-house-red-dead-redemption-2-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2023/winter-house-red-dead-redemption-2-preview.webm"
     }
   },
-  "total_harvested": 188,
-  "last_updated": "2026-10-21T20:49:53.196332+00:00",
+  "total_harvested": 198,
+  "last_updated": "2026-10-21T20:52:01.654974+00:00",
   "page_cursors": {
     "super mario odyssey": 2,
     "mario odyssey": 2,
@@ -1516,7 +1586,10 @@
     "Factorio": 2,
     "Super Smash Bros Ultimate": 2,
     "Just Dance JD Legacy Mod": 2,
-    "Super Mario Galaxy 2": 2
+    "Super Mario Galaxy 2": 2,
+    "Hollow Knight": 2,
+    "Doom": 2,
+    "Burnout Paradise Remastered": 2
   },
-  "query_cursor": 105
+  "query_cursor": 120
 }
