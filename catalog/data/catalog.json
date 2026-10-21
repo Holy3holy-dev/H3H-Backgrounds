@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T17:48:27.683279+00:00",
-  "totalGames": 760,
-  "totalVariants": 846,
+  "updatedAt": "2026-10-21T17:50:33.879755+00:00",
+  "totalGames": 761,
+  "totalVariants": 851,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -1266,6 +1266,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 01000A10041EA000_The_Elder_Scrolls_V__Skyrim.mp4"
+        },
+        {
+          "id": "v_6dd6aa5a",
+          "name": "Super Mario Super Smash Bros.",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1T2IlpGwRwQp639ys9zGEmburnojBI5Sb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1T2IlpGwRwQp639ys9zGEmburnojBI5Sb&sz=w640",
+          "sizeBytes": 4690014,
+          "sha256": "11CFF9319259AAA8DE1BA6309FBDDAB1763DD2915F7BBF19EC966D8BE65F61B2",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Super Mario Super Smash Bros."
         }
       ]
     },
@@ -11732,6 +11750,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "SteamGridDB Animated Hero: 0100A3900C3E2000_Paper_Mario_The_Origami_King.mp4"
+        },
+        {
+          "id": "v_3f9af0d4",
+          "name": "Marnie Pokemon Sword And Shield",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WaNYsqKqiDs039cPaG6VnGrrBqKapXl5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WaNYsqKqiDs039cPaG6VnGrrBqKapXl5&sz=w640",
+          "sizeBytes": 4644929,
+          "sha256": "FF5239974277EC0E1862E96833F033388E324EFF0474BC2F4A82CAD9C8857013",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Marnie Pokemon Sword And Shield"
+        },
+        {
+          "id": "v_f14c327b",
+          "name": "Nessa With Milotic And Mantine Pokemon S",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15t0e6c2gWMOb9rhVDSozWi4RrZwbHMWo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15t0e6c2gWMOb9rhVDSozWi4RrZwbHMWo&sz=w640",
+          "sizeBytes": 4708651,
+          "sha256": "06AFF168954FB13C94C16F1FC79BB18B398753F62B7BE4371260C0006FE2A179",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Nessa With Milotic And Mantine Pokemon S"
         }
       ]
     },
@@ -20549,6 +20603,50 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Dead Cells Hero"
+        }
+      ]
+    },
+    {
+      "titleId": "010079C009494000",
+      "title": "Cuphead",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010079C009494000.jpg",
+      "variants": [
+        {
+          "id": "v_c6af14ef",
+          "name": "Cuphead Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=111AhppsISM8cXbBZAPCct9ov3gCkKU4S",
+          "previewUrl": "https://drive.google.com/thumbnail?id=111AhppsISM8cXbBZAPCct9ov3gCkKU4S&sz=w640",
+          "sizeBytes": 313827,
+          "sha256": "DA9ED1BA4BBC1BD55CB724E576548E430E5CB4093BAAE07C1D44EED00DE725D8",
+          "durationSec": 30.0,
+          "author": "BeninjaLIVE",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Cuphead Hero"
+        },
+        {
+          "id": "v_13c3c305",
+          "name": "Cuphead Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rn93bJCqa50roztRouSjfj8tVny_j_Rb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rn93bJCqa50roztRouSjfj8tVny_j_Rb&sz=w640",
+          "sizeBytes": 245662,
+          "sha256": "04E45DA297C353BA2E29A3F88EFD4DED6E82A4ACD97D6C782389B044CDFEBF4C",
+          "durationSec": 30.0,
+          "author": "eiltivntii2",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Cuphead Hero"
         }
       ]
     }
