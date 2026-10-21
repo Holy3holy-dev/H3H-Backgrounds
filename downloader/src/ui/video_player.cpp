@@ -25,8 +25,10 @@ static int64_t avioSeekPacket(void* opaque, int64_t offset, int whence) {
     FILE* f = static_cast<FILE*>(opaque);
     if (!f) return -1;
 
-    if (whence == AVSEEK_SIZE) {
-        // Return file size without changing position
+    // Mask out FFmpeg flags like AVSEEK_FORCE (0x20000)
+    int cleanWhence = whence & ~0x20000;
+
+    if (cleanWhence == AVSEEK_SIZE) {
         long current = ftell(f);
         if (fseek(f, 0, SEEK_END) != 0) return -1;
         long size = ftell(f);
@@ -35,9 +37,9 @@ static int64_t avioSeekPacket(void* opaque, int64_t offset, int whence) {
     }
 
     int fseek_whence = SEEK_SET;
-    if (whence == SEEK_CUR) fseek_whence = SEEK_CUR;
-    else if (whence == SEEK_END) fseek_whence = SEEK_END;
-    else if (whence == SEEK_SET) fseek_whence = SEEK_SET;
+    if (cleanWhence == SEEK_CUR) fseek_whence = SEEK_CUR;
+    else if (cleanWhence == SEEK_END) fseek_whence = SEEK_END;
+    else if (cleanWhence == SEEK_SET) fseek_whence = SEEK_SET;
 
     if (fseek(f, static_cast<long>(offset), fseek_whence) != 0) {
         return -1;
@@ -256,24 +258,31 @@ bool VideoPlayer::open(const std::string& filepath, SDL_Renderer* renderer) {
 
     // Immediately decode the first frame so the texture is immediately ready for display
     int attempts = 0;
-    while (attempts < 60 && !m_hasDecodedFirstFrame) {
+    while (attempts < 80 && !m_hasDecodedFirstFrame) {
         attempts++;
         int ret = av_read_frame(m_formatCtx, m_packet);
         if (ret < 0) break;
 
         if (m_packet->stream_index == m_videoStream) {
             if (avcodec_send_packet(m_codecCtx, m_packet) == 0) {
-                if (avcodec_receive_frame(m_codecCtx, m_frame) == 0) {
+                while (avcodec_receive_frame(m_codecCtx, m_frame) == 0) {
                     sws_scale(m_swsCtx, static_cast<const uint8_t* const*>(m_frame->data),
                               m_frame->linesize, 0, m_height,
                               m_frameRGB->data, m_frameRGB->linesize);
 
                     SDL_UpdateTexture(m_texture, nullptr, m_frameRGB->data[0], m_frameRGB->linesize[0]);
                     m_hasDecodedFirstFrame = true;
+                    break;
                 }
             }
         }
         av_packet_unref(m_packet);
+    }
+
+    if (!m_hasDecodedFirstFrame) {
+        // Could not decode video frame - close cleanly to avoid black texture render
+        close();
+        return false;
     }
 
     return true;
@@ -288,26 +297,28 @@ void VideoPlayer::update() {
     }
     m_lastFrameTime = now;
 
+    bool frameDecoded = false;
     int attempts = 0;
-    while (attempts < 60) {
+    while (attempts < 80 && !frameDecoded) {
         attempts++;
         int ret = av_read_frame(m_formatCtx, m_packet);
         if (ret < 0) {
             // EOF reached: seek back to beginning for seamless loop
-            av_seek_frame(m_formatCtx, m_videoStream, 0, AVSEEK_FLAG_BACKWARD);
+            av_seek_frame(m_formatCtx, -1, 0, AVSEEK_FLAG_BACKWARD);
             avcodec_flush_buffers(m_codecCtx);
             continue;
         }
 
         if (m_packet->stream_index == m_videoStream) {
             if (avcodec_send_packet(m_codecCtx, m_packet) == 0) {
-                if (avcodec_receive_frame(m_codecCtx, m_frame) == 0) {
+                while (avcodec_receive_frame(m_codecCtx, m_frame) == 0) {
                     sws_scale(m_swsCtx, static_cast<const uint8_t* const*>(m_frame->data),
                               m_frame->linesize, 0, m_height,
                               m_frameRGB->data, m_frameRGB->linesize);
 
                     SDL_UpdateTexture(m_texture, nullptr, m_frameRGB->data[0], m_frameRGB->linesize[0]);
-                    av_packet_unref(m_packet);
+                    frameDecoded = true;
+                    m_hasDecodedFirstFrame = true;
                     break;
                 }
             }

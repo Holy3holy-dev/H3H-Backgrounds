@@ -1,7 +1,7 @@
 {
   "version": "1.0",
-  "lastUpdated": "2026-10-21T00:31:03.481790+00:00",
-  "totalHarvested": 730,
+  "lastUpdated": "2026-10-21T00:45:56.109467+00:00",
+  "totalHarvested": 735,
   "items": {
     "0100000000010000": {
       "titleId": "0100000000010000",
@@ -46154,6 +46154,3143 @@
       "sgdbName": "Super Mario and the Monstrous Manor",
       "status": "no_animated_art",
       "timestamp": "2026-10-21T00:31:03.481762+00:00"
+    },
+    "01000AF019464000": {
+      "titleId": "01000AF019464000",
+      "gameTitle": "Kukoos Lost Pets [NSP][RUS/Multi11]",
+      "sgdbGameId": 5288694,
+      "sgdbName": "Kukoos - Lost Pets",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:31:36.512618+00:00"
+    },
+    "0100D20015C06000": {
+      "titleId": "0100D20015C06000",
+      "gameTitle": "Angelo and Deemon One Hell of a Quest [NSZ][RUS/Multi6]",
+      "sgdbGameId": 4572786,
+      "sgdbName": "Angelo and Deemon: One Hell of a Quest",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:31:37.862957+00:00"
+    },
+    "0100B5A0171CC000": {
+      "titleId": "0100B5A0171CC000",
+      "gameTitle": "Toodee and Topdee [NSP][RUS/Multi10]",
+      "sgdbGameId": 5261007,
+      "sgdbName": "Toodee and Topdee",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:31:54.887476+00:00"
+    },
+    "0100158022CC0000": {
+      "titleId": "0100158022CC0000",
+      "gameTitle": "Lorn's Lure [NSZ][RUS/Multi12]",
+      "cleanTitle": "Lorn's Lure",
+      "sgdbGameId": 5269797,
+      "sgdbName": "Lorn's Lure",
+      "assetType": "grid",
+      "assetUrl": "https://cdn2.steamgriddb.com/grid/e7c00f895443bfb52a6329ab01990512.webp",
+      "driveFileId": "1rIv6V5JGUEc2Vt-lCndTeA9Jx5eM03-O",
+      "downloadUrl": "https://drive.google.com/uc?export=download&id=1rIv6V5JGUEc2Vt-lCndTeA9Jx5eM03-O",
+      "fileSizeBytes": 342215,
+      "status": "published",
+      "timestamp": "2026-10-21T00:32:02.362211+00:00"
+    },
+    "01008F801398E000": {
+      "titleId": "01008F801398E000",
+      "gameTitle": "Rock N Racing Bundle Off Road & Grand Prix [NSZ][ENG]",
+      "sgdbGameId": 5256145,
+      "sgdbName": "Rock 'N Racing Off Road DX",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:32:03.741045+00:00"
+    },
+    "0100A580194DC000": {
+      "titleId": "0100A580194DC000",
+      "gameTitle": "Saga of Sins [NSZ][ENG]",
+      "sgdbGameId": 5347029,
+      "sgdbName": "Saga Of Sins",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:32:04.721720+00:00"
+    },
+    "0100698018A26000": {
+      "titleId": "0100698018A26000",
+      "gameTitle": "Rooten [NSZ][RUS/ENG]",
+      "sgdbGameId": 5281321,
+      "sgdbName": "Rooten",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:32:06.030852+00:00"
+    },
+    "0100644012F0C000": {
+      "titleId": "0100644012F0C000",
+      "gameTitle": "Rooftop Renegade [NSZ][RUS/Multi8]",
+      "sgdbGameId": 5267407,
+      "sgdbName": "Rooftop Renegade",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:32:07.037202+00:00"
+    },
+    "0100C7801C038000": {
+      "titleId": "0100C7801C038000",
+      "gameTitle": "RollerCoaster Tycoon Adventures Deluxe [NSZ][ENG]",
+      "sgdbGameId": 4963031,
+      "sgdbName": "RollerCoaster Tycoon Adventures",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:32:08.051097+00:00"
+    },
+    "01008130191B0000": {
+      "titleId": "01008130191B0000",
+      "gameTitle": "Rhythm Sprout: Sick Beats & Bad Sweets [NSZ][RUS/Multi10]",
+      "sgdbGameId": 5271834,
+      "sgdbName": "RHYTHM SPROUT",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:32:08.985838+00:00"
+    },
+    "0100381018AB0000": {
+      "titleId": "0100381018AB0000",
+      "gameTitle": "Remains [NSZ][RUS/Multi7]",
+      "sgdbGameId": 5270279,
+      "sgdbName": "Remains",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:32:09.975803+00:00"
+    },
+    "0100FA4019BD6000": {
+      "titleId": "0100FA4019BD6000",
+      "gameTitle": "Re Call [NSZ][ENG]",
+      "sgdbGameId": 5279083,
+      "sgdbName": "Re:Call",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:32:10.957394+00:00"
+    },
+    "0100E0001AED6000": {
+      "titleId": "0100E0001AED6000",
+      "gameTitle": "Rayland 1-2 [NSZ][RUS/Multi10]",
+      "sgdbGameId": 5294997,
+      "sgdbName": "Rayland",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:32:11.936901+00:00"
+    },
+    "010055B01E346000": {
+      "titleId": "010055B01E346000",
+      "gameTitle": "Railway Islands 1-2 [NSZ][RUS/Multi10]",
+      "sgdbGameId": 5302373,
+      "sgdbName": "Railway Islands - Puzzle",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:32:12.913026+00:00"
+    },
+    "0100FD101C028000": {
+      "titleId": "0100FD101C028000",
+      "gameTitle": "Raid on Taihoku [NSP][ENG]",
+      "sgdbGameId": 5320874,
+      "sgdbName": "台北大空襲 Raid on Taihoku",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:32:13.874636+00:00"
+    },
+    "010034901ACBA000": {
+      "titleId": "010034901ACBA000",
+      "gameTitle": "Project Dark / A Western Drama / The Vale Shadow of the Crown (аудио-игры) [NSP][ENG]",
+      "sgdbGameId": 5385710,
+      "sgdbName": "Project Dark",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:32:30.940019+00:00"
+    },
+    "0100FCD0193A0000": {
+      "titleId": "0100FCD0193A0000",
+      "gameTitle": "Project Blue [NSZ][ENG]",
+      "sgdbGameId": 5278808,
+      "sgdbName": "Project Blue Book: Hidden Mysteries",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:32:32.018087+00:00"
+    },
+    "0100AE00191C4000": {
+      "titleId": "0100AE00191C4000",
+      "gameTitle": "Picontier [NSP][ENG]",
+      "sgdbGameId": 5269447,
+      "sgdbName": "Picontier",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:32:33.029392+00:00"
+    },
+    "01003D70182C0000": {
+      "titleId": "01003D70182C0000",
+      "gameTitle": "Perseverance Complete edition (Part 1 / 2 / 3) [NSZ][ENG,RUS]",
+      "sgdbGameId": 5283055,
+      "sgdbName": "Perseverance",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:32:34.075407+00:00"
+    },
+    "01002A601ACD4000": {
+      "titleId": "01002A601ACD4000",
+      "gameTitle": "Passpartout The Starving Artist / Passpartout 2 The Lost Artist [NSZ][RUS (Mod.)/ENG]",
+      "sgdbGameId": 16371,
+      "sgdbName": "Passpartout: The Starving Artist",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:32:35.134362+00:00"
+    },
+    "010082A01ACE8000": {
+      "titleId": "010082A01ACE8000",
+      "gameTitle": "Paperman Adventure Delivered [NSP][ENG]",
+      "sgdbGameId": 5317849,
+      "sgdbName": "Paperman - Adventure Delivered",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:32:36.166450+00:00"
+    },
+    "0100C3701CEB0000": {
+      "titleId": "0100C3701CEB0000",
+      "gameTitle": "Orbital Cargo Division [NSZ][ENG]",
+      "sgdbGameId": 5361765,
+      "sgdbName": "Orbital Cargo Division",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:32:37.164754+00:00"
+    },
+    "0100F7F01BD72000": {
+      "titleId": "0100F7F01BD72000",
+      "gameTitle": "On Rusty Trails [NSP][RUS/Multi9]",
+      "sgdbGameId": 3814,
+      "sgdbName": "On Rusty Trails",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:32:38.153442+00:00"
+    },
+    "0100409016490000": {
+      "titleId": "0100409016490000",
+      "gameTitle": "Omen of Sorrow [NSP][ENG]",
+      "sgdbGameId": 5245301,
+      "sgdbName": "Omen of Sorrow",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:32:39.151286+00:00"
+    },
+    "0100A350188F8000": {
+      "titleId": "0100A350188F8000",
+      "gameTitle": "Omegabot (Omega Bot) [NSZ][ENG]",
+      "sgdbGameId": 5287603,
+      "sgdbName": "Omegabot",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:32:40.209162+00:00"
+    },
+    "0100B20016186000": {
+      "titleId": "0100B20016186000",
+      "gameTitle": "Oaken [NSZ][ENG]",
+      "sgdbGameId": 5294554,
+      "sgdbName": "Oaken",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:32:41.197459+00:00"
+    },
+    "010052001A2BA000": {
+      "titleId": "010052001A2BA000",
+      "gameTitle": "Noob the Factionless [NSZ][ENG]",
+      "sgdbGameId": 5446536,
+      "sgdbName": "The Noob Adventures: Fool For Love",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:32:58.543010+00:00"
+    },
+    "010045A01A39C000": {
+      "titleId": "010045A01A39C000",
+      "gameTitle": "No Son of Mine [NSP][ENG]",
+      "sgdbGameId": 5327000,
+      "sgdbName": "No Son Of Mine",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:32:59.572413+00:00"
+    },
+    "0100DA30189CA000": {
+      "titleId": "0100DA30189CA000",
+      "gameTitle": "NeverAwake (Never Awake) [NSZ][ENG]",
+      "sgdbGameId": 5293680,
+      "sgdbName": "NeverAwake",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:33:00.562184+00:00"
+    },
+    "0100D2801939C000": {
+      "titleId": "0100D2801939C000",
+      "gameTitle": "NEScape [NSZ][ENG]",
+      "sgdbGameId": 5486797,
+      "sgdbName": "NEScape!",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:33:01.663229+00:00"
+    },
+    "01007840167D2000": {
+      "titleId": "01007840167D2000",
+      "gameTitle": "Neon Blight [NSZ][ENG]",
+      "sgdbGameId": 5261773,
+      "sgdbName": "Neon Blight",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:33:02.697006+00:00"
+    },
+    "010080101759C000": {
+      "titleId": "010080101759C000",
+      "gameTitle": "Nefasto's Misadventure: Meeting Noeroze [NSZ][ENG]",
+      "sgdbGameId": 5272913,
+      "sgdbName": "Nefasto's Misadventure: Meeting Noeroze",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:33:03.712645+00:00"
+    },
+    "0100A62019380000": {
+      "titleId": "0100A62019380000",
+      "gameTitle": "Necroboy Path to Evilship [NSZ][ENG]",
+      "sgdbGameId": 5286296,
+      "sgdbName": "NecroBoy : Path to Evilship",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:33:20.800710+00:00"
+    },
+    "01005CB0182D2000": {
+      "titleId": "01005CB0182D2000",
+      "gameTitle": "Nadir a Grimdark Deckbuilder [NSZ][RUS/Multi7]",
+      "sgdbGameId": 5299346,
+      "sgdbName": "Nadir",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:33:21.882623+00:00"
+    },
+    "01006CD0194DA000": {
+      "titleId": "01006CD0194DA000",
+      "gameTitle": "Mythargia [NSZ][ENG]",
+      "sgdbGameId": 5344320,
+      "sgdbName": "Mythargia",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:33:22.979852+00:00"
+    },
+    "0100405016F20000": {
+      "titleId": "0100405016F20000",
+      "gameTitle": "Murderous Muses [NSP][ENG]",
+      "sgdbGameId": 5298627,
+      "sgdbName": "Murderous Muses",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:33:24.003645+00:00"
+    },
+    "0100D2501CAA6000": {
+      "titleId": "0100D2501CAA6000",
+      "gameTitle": "Murder is Game Over [NSP][ENG]",
+      "sgdbGameId": 5322530,
+      "sgdbName": "Murder Is Game Over",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:33:25.009890+00:00"
+    },
+    "0100883012F86000": {
+      "titleId": "0100883012F86000",
+      "gameTitle": "Princess Farmer [NSZ][ENG]",
+      "sgdbGameId": 5262247,
+      "sgdbName": "Princess Farmer",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:33:26.065358+00:00"
+    },
+    "0100648016520000": {
+      "titleId": "0100648016520000",
+      "gameTitle": "Exitman Deluxe [NSZ][RUS/Multi10]",
+      "sgdbGameId": null,
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:33:26.445989+00:00"
+    },
+    "0100CC7013F1A000": {
+      "titleId": "0100CC7013F1A000",
+      "gameTitle": "Cave Bad [NSZ][ENG]",
+      "sgdbGameId": 1732,
+      "sgdbName": "Cave Story+",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:33:27.447636+00:00"
+    },
+    "010065000D25C000": {
+      "titleId": "010065000D25C000",
+      "gameTitle": "Clan N [NSZ][ENG]",
+      "sgdbGameId": 32959,
+      "sgdbName": "Clan N",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:33:28.514174+00:00"
+    },
+    "0100B040128E6000": {
+      "titleId": "0100B040128E6000",
+      "gameTitle": "Candy Raid The Factory [NSZ][ENG]",
+      "sgdbGameId": 28506,
+      "sgdbName": "Candy Raid: The Factory",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:33:29.518761+00:00"
+    },
+    "010023F008204000": {
+      "titleId": "010023F008204000",
+      "gameTitle": "Haunted Dungeons Hyakki Castle [NSZ][ENG]",
+      "sgdbGameId": 20528,
+      "sgdbName": "Haunted Dungeons: Hyakki Castle",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:33:30.626444+00:00"
+    },
+    "0100D4F01ABF2000": {
+      "titleId": "0100D4F01ABF2000",
+      "gameTitle": "Princess Maker Faery Tales Come True / Go Go Princess / 2 Regeneration [NSZ][ENG]",
+      "sgdbGameId": 18779,
+      "sgdbName": "Princess Maker 3: Fairy Tales Come True",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:33:31.668380+00:00"
+    },
+    "0100236011B4C000": {
+      "titleId": "0100236011B4C000",
+      "gameTitle": "DreamWorks Spirit Lucky's Big Adventure [NSZ][ENG]",
+      "sgdbGameId": 5280241,
+      "sgdbName": "DreamWorks Spirit: Lucky's Big Adventure",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:33:32.778024+00:00"
+    },
+    "010088301A4A8000": {
+      "titleId": "010088301A4A8000",
+      "gameTitle": "Mugen Souls [NSP][ENG]",
+      "sgdbGameId": 8561,
+      "sgdbName": "Mugen Souls",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:33:49.842521+00:00"
+    },
+    "0100ACF01824A000": {
+      "titleId": "0100ACF01824A000",
+      "gameTitle": "Monster Loves You / Monster Loves You Too [NSZ][ENG]",
+      "sgdbGameId": 5282495,
+      "sgdbName": "Monster Loves You Too!",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:33:50.912380+00:00"
+    },
+    "0100D8601679A000": {
+      "titleId": "0100D8601679A000",
+      "gameTitle": "Monorail Stories [NSP][ENG]",
+      "sgdbGameId": 5259886,
+      "sgdbName": "Monorail Stories",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:33:52.129234+00:00"
+    },
+    "0100D6C01B47E000": {
+      "titleId": "0100D6C01B47E000",
+      "gameTitle": "Mondealy [NSZ][RUS/ENG]",
+      "sgdbGameId": 5283804,
+      "sgdbName": "Mondealy",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:33:53.095460+00:00"
+    },
+    "010037101A4CE000": {
+      "titleId": "010037101A4CE000",
+      "gameTitle": "Mon-Yu [NSP][ENG]",
+      "sgdbGameId": 5414880,
+      "sgdbName": "Mon-Yu",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:33:54.145437+00:00"
+    },
+    "01003CA0189A8000": {
+      "titleId": "01003CA0189A8000",
+      "gameTitle": "Molly Medusa Queen of Spit [NSZ][ENG]",
+      "sgdbGameId": 5402255,
+      "sgdbName": "Molly Medusa: Queen of Spit",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:33:55.147078+00:00"
+    },
+    "010046A01A8D2000": {
+      "titleId": "010046A01A8D2000",
+      "gameTitle": "Mirrored Souls [NSZ][ENG]",
+      "sgdbGameId": 5388874,
+      "sgdbName": "Mirrored Souls",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:33:56.149206+00:00"
+    },
+    "010082001A646000": {
+      "titleId": "010082001A646000",
+      "gameTitle": "Minabo a Walk Through Life [NSZ][RUS/Multi9]",
+      "sgdbGameId": 5305728,
+      "sgdbName": "Minabo - A walk through life",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:33:57.172890+00:00"
+    },
+    "0100BBD01A18A000": {
+      "titleId": "0100BBD01A18A000",
+      "gameTitle": "Midnight is Lost [NSZ][ENG]",
+      "sgdbGameId": 5278459,
+      "sgdbName": "Midnight is Lost",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:33:58.153501+00:00"
+    },
+    "01002B60177FC000": {
+      "titleId": "01002B60177FC000",
+      "gameTitle": "Memorrha [NSZ][RUS/Multi11]",
+      "sgdbGameId": 31936,
+      "sgdbName": "Memorrha",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:33:59.215718+00:00"
+    },
+    "0100F68019636000": {
+      "titleId": "0100F68019636000",
+      "gameTitle": "Melon Journey Bittersweet Memories [NSZ][ENG]",
+      "sgdbGameId": 5062840,
+      "sgdbName": "Melon Journey 2",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:34:00.169054+00:00"
+    },
+    "0100621017A7A000": {
+      "titleId": "0100621017A7A000",
+      "gameTitle": "Mayhem in Single Valley [NSZ][RUS/Multi10]",
+      "sgdbGameId": 2876522,
+      "sgdbName": "Mayhem in Single Valley",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:34:01.238507+00:00"
+    },
+    "0100534017DEC000": {
+      "titleId": "0100534017DEC000",
+      "gameTitle": "Match Ventures 1, 2 [NSZ][ENG]",
+      "sgdbGameId": 5402979,
+      "sgdbName": "MatchVentures",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:34:02.263931+00:00"
+    },
+    "01006B1016BF8000": {
+      "titleId": "01006B1016BF8000",
+      "gameTitle": "Mars Base [NSZ][ENG]",
+      "sgdbGameId": 5290220,
+      "sgdbName": "Mars Base",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:34:03.260696+00:00"
+    },
+    "01002A001B13E000": {
+      "titleId": "01002A001B13E000",
+      "gameTitle": "Mage and Monsters [NSZ][ENG]",
+      "sgdbGameId": 5325191,
+      "sgdbName": "Mage and Monsters",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:34:04.281399+00:00"
+    },
+    "0100B1B015ABA000": {
+      "titleId": "0100B1B015ABA000",
+      "gameTitle": "The Good Life + DLC [NSZ][ENG]",
+      "sgdbGameId": 4315,
+      "sgdbName": "The Good Life",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:34:05.317790+00:00"
+    },
+    "0100051018E4C000": {
+      "titleId": "0100051018E4C000",
+      "gameTitle": "Loop8 (loop 8) Summer of Gods + 5 DLC [NSZ][ENG]",
+      "sgdbGameId": 5380973,
+      "sgdbName": "Loop8: Summer of Gods",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:34:06.321340+00:00"
+    },
+    "0100C88019092000": {
+      "titleId": "0100C88019092000",
+      "gameTitle": "Loop [NSZ][ENG]",
+      "sgdbGameId": 5270449,
+      "sgdbName": "Loop",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:34:23.391462+00:00"
+    },
+    "01005DE019E4E000": {
+      "titleId": "01005DE019E4E000",
+      "gameTitle": "Local News with Cliff Rockslide [NSZ][ENG]",
+      "sgdbGameId": 5409667,
+      "sgdbName": "Local News with Cliff Rockslide",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:34:24.451192+00:00"
+    },
+    "01008C70147B0000": {
+      "titleId": "01008C70147B0000",
+      "gameTitle": "Heal: Console Edition [NSZ][RUS/Multi29]",
+      "sgdbGameId": 5245433,
+      "sgdbName": "Heal",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:34:25.398704+00:00"
+    },
+    "0100BA90174A8000": {
+      "titleId": "0100BA90174A8000",
+      "gameTitle": "Kickback Slug Cosmic Courier [NSZ][RUS/Multi7]",
+      "sgdbGameId": 5314247,
+      "sgdbName": "Kickback Slug: Cosmic Courier",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:34:26.479551+00:00"
+    },
+    "010058E017A82000": {
+      "titleId": "010058E017A82000",
+      "gameTitle": "KarmaZoo (Karma Zoo) [NSZ][RUS/Multi11]",
+      "sgdbGameId": 5396215,
+      "sgdbName": "KarmaZoo",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:34:27.455432+00:00"
+    },
+    "010065F01B5D2000": {
+      "titleId": "010065F01B5D2000",
+      "gameTitle": "Inhabit [NSZ][ENG]",
+      "sgdbGameId": 5346143,
+      "sgdbName": "inhabit",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:34:28.453187+00:00"
+    },
+    "0100B4001AAFE000": {
+      "titleId": "0100B4001AAFE000",
+      "gameTitle": "Infinite Guitars [NSZ][ENG]",
+      "sgdbGameId": 5259888,
+      "sgdbName": "Infinite Guitars",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:34:29.479292+00:00"
+    },
+    "010012A01B4E0000": {
+      "titleId": "010012A01B4E0000",
+      "gameTitle": "Inescapable: No Rules No Rescue [NSZ][ENG]",
+      "sgdbGameId": 4390,
+      "sgdbName": "Inescapable",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:34:30.513828+00:00"
+    },
+    "01005A5017C36000": {
+      "titleId": "01005A5017C36000",
+      "gameTitle": "IIN [NSZ][RUS/Multi25]",
+      "sgdbGameId": 25371,
+      "sgdbName": "IIN",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:34:31.523848+00:00"
+    },
+    "0100AC9017F28000": {
+      "titleId": "0100AC9017F28000",
+      "gameTitle": "Hundred Fires The Rising of Red Star [NSZ][ENG]",
+      "sgdbGameId": 5305206,
+      "sgdbName": "HUNDRED FIRES: The rising of red star - EPISODE 1",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:34:32.569451+00:00"
+    },
+    "0100AE501AC16000": {
+      "titleId": "0100AE501AC16000",
+      "gameTitle": "Hodgepodge Hunch + 2 DLC [NSZ][ENG]",
+      "sgdbGameId": 5253868,
+      "sgdbName": "Highscore Hunter Hodgepodge",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:34:33.547770+00:00"
+    },
+    "01005EF01A366000": {
+      "titleId": "01005EF01A366000",
+      "gameTitle": "Hello Goodboy [NSZ][ENG]",
+      "sgdbGameId": 5302388,
+      "sgdbName": "Hello Goodboy",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:34:34.544705+00:00"
+    },
+    "010050F018148000": {
+      "titleId": "010050F018148000",
+      "gameTitle": "Haunted House [NSZ][ENG]",
+      "sgdbGameId": 33423,
+      "sgdbName": "Haunted House",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:34:35.556671+00:00"
+    },
+    "0100D5B017C82000": {
+      "titleId": "0100D5B017C82000",
+      "gameTitle": "Gunman Tales [NSZ][ENG]",
+      "sgdbGameId": 23811,
+      "sgdbName": "Gunman Tales",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:34:36.957938+00:00"
+    },
+    "0100A5701AFC0000": {
+      "titleId": "0100A5701AFC0000",
+      "gameTitle": "Gruta [NSZ][ENG]",
+      "sgdbGameId": 5299539,
+      "sgdbName": "Gruta: Prologue of the Gloomy Whispers",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:34:38.015472+00:00"
+    },
+    "01004CC01AE36000": {
+      "titleId": "01004CC01AE36000",
+      "gameTitle": "Growth [NSZ][RUS/Multi10]",
+      "sgdbGameId": 5382091,
+      "sgdbName": "Growth",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:34:39.040364+00:00"
+    },
+    "010099C01896C000": {
+      "titleId": "010099C01896C000",
+      "gameTitle": "Gripper [NSP][RUS/Multi10]",
+      "sgdbGameId": 5263888,
+      "sgdbName": "Gripper",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:34:40.048134+00:00"
+    },
+    "010088901ABAA000": {
+      "titleId": "010088901ABAA000",
+      "gameTitle": "Gravity Oddity [NSZ][RUS/Multi9]",
+      "sgdbGameId": 5289789,
+      "sgdbName": "Gravity Oddity",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:34:41.059269+00:00"
+    },
+    "0100EC40181AC000": {
+      "titleId": "0100EC40181AC000",
+      "gameTitle": "Glitch Busters Stuck on You + DLC [NSP][ENG]",
+      "sgdbGameId": 5326138,
+      "sgdbName": "Glitch Busters",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:34:42.089864+00:00"
+    },
+    "01004B1019C7E000": {
+      "titleId": "01004B1019C7E000",
+      "gameTitle": "Ginnung [NSZ][ENG]",
+      "sgdbGameId": 5355415,
+      "sgdbName": "Ginnung",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:34:43.140478+00:00"
+    },
+    "010095D01C7D2000": {
+      "titleId": "010095D01C7D2000",
+      "gameTitle": "Geometric Sniper + Blood in Paris + Z [NSZ][ENG]",
+      "sgdbGameId": 5273541,
+      "sgdbName": "Geometric Sniper - Blood in Paris",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:35:00.196890+00:00"
+    },
+    "010051301BEC8000": {
+      "titleId": "010051301BEC8000",
+      "gameTitle": "Gensei Suikoden Plus (GenseiSuikoden) [NSZ][ENG]",
+      "sgdbGameId": 5465801,
+      "sgdbName": "Gensei Suikoden Plus",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:35:01.182443+00:00"
+    },
+    "01003FA0196D8000": {
+      "titleId": "01003FA0196D8000",
+      "gameTitle": "Frido [NSZ][ENG]",
+      "sgdbGameId": 5375438,
+      "sgdbName": "Frido",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:35:02.200643+00:00"
+    },
+    "0100EAE019288000": {
+      "titleId": "0100EAE019288000",
+      "gameTitle": "Frank and Drake [NSZ][ENG]",
+      "sgdbGameId": 5282025,
+      "sgdbName": "Frank and Drake",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:35:03.255631+00:00"
+    },
+    "0100F4100AF16000": {
+      "titleId": "0100F4100AF16000",
+      "gameTitle": "Back to Bed [NSP][RUS/Multi10]",
+      "cleanTitle": "Back to Bed",
+      "sgdbGameId": 4912,
+      "sgdbName": "Back to Bed",
+      "assetType": "grid",
+      "assetUrl": "https://cdn2.steamgriddb.com/grid/7155901fb071677c1847208a1b867ad4.png",
+      "driveFileId": "1o0NP4LRfE8hZzaeVxBKb2OA7Jn0838vD",
+      "downloadUrl": "https://drive.google.com/uc?export=download&id=1o0NP4LRfE8hZzaeVxBKb2OA7Jn0838vD",
+      "fileSizeBytes": 282669,
+      "status": "published",
+      "timestamp": "2026-10-21T00:35:10.360461+00:00"
+    },
+    "0100638016E26000": {
+      "titleId": "0100638016E26000",
+      "gameTitle": "Almost My Floor [NSZ][RUS/ENG]",
+      "sgdbGameId": 5259343,
+      "sgdbName": "Almost My Floor",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:35:11.728729+00:00"
+    },
+    "0100A2E01082E000": {
+      "titleId": "0100A2E01082E000",
+      "gameTitle": "A Place for the Unwilling [NSZ][ENG]",
+      "sgdbGameId": 4889160,
+      "sgdbName": "A Place for the Unwilling",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:35:12.766571+00:00"
+    },
+    "010046301503E000": {
+      "titleId": "010046301503E000",
+      "gameTitle": "A Guidebook of Babel [NSZ][ENG]",
+      "sgdbGameId": 5271510,
+      "sgdbName": "A Guidebook Of Babel",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:35:13.766738+00:00"
+    },
+    "0100CD501401E000": {
+      "titleId": "0100CD501401E000",
+      "gameTitle": "A Day Without Me [NSZ][ENG]",
+      "sgdbGameId": 5258355,
+      "sgdbName": "A Day Without Me",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:35:14.755663+00:00"
+    },
+    "01008AF0160C4000": {
+      "titleId": "01008AF0160C4000",
+      "gameTitle": "A Boy and His Blob [NSZ][ENG]",
+      "sgdbGameId": 3902,
+      "sgdbName": "A Boy and His Blob",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:35:15.822078+00:00"
+    },
+    "0100A760129A0000": {
+      "titleId": "0100A760129A0000",
+      "gameTitle": "In Rays of the Light (The Light Remake) [NSZ][RUS/Multi3]",
+      "sgdbGameId": 5538184,
+      "sgdbName": "IN",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:35:16.843890+00:00"
+    },
+    "010089D017A0A000": {
+      "titleId": "010089D017A0A000",
+      "gameTitle": "Soccer Story [NSZ][ENG]",
+      "sgdbGameId": 5345966,
+      "sgdbName": "Soccer Story",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:35:17.863353+00:00"
+    },
+    "0100FEE01B9DA000": {
+      "titleId": "0100FEE01B9DA000",
+      "gameTitle": "Dirt Trackin 2 / 3 / Dirt Tracking Sprint Cars [NSZ][ENG]",
+      "sgdbGameId": 1318,
+      "sgdbName": "DiRT",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:35:34.845620+00:00"
+    },
+    "010058C016092000": {
+      "titleId": "010058C016092000",
+      "gameTitle": "For a Vast Future / Pillars of Dust [NSZ][ENG]",
+      "sgdbGameId": 5278638,
+      "sgdbName": "For a Vast Future",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:35:35.873466+00:00"
+    },
+    "010022201D254000": {
+      "titleId": "010022201D254000",
+      "gameTitle": "Flooded [NSZ][ENG]",
+      "sgdbGameId": 5322566,
+      "sgdbName": "Flooded",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:35:36.865812+00:00"
+    },
+    "010079801CF12000": {
+      "titleId": "010079801CF12000",
+      "gameTitle": "Fireball Wizard [NSZ][RUS/Multi13]",
+      "sgdbGameId": 5307951,
+      "sgdbName": "Fireball Wizard",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:35:37.950538+00:00"
+    },
+    "010096201B80E000": {
+      "titleId": "010096201B80E000",
+      "gameTitle": "Evil Wizard [NSP][RUS/Multi12]",
+      "sgdbGameId": 5283584,
+      "sgdbName": "Evil Wizard",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:35:38.950976+00:00"
+    },
+    "0100E29019F56000": {
+      "titleId": "0100E29019F56000",
+      "gameTitle": "Egglien [NSZ][ENG]",
+      "sgdbGameId": 5331699,
+      "sgdbName": "Egglien",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:35:39.956242+00:00"
+    },
+    "010069001B820000": {
+      "titleId": "010069001B820000",
+      "gameTitle": "EarthX [NSZ][ENG]",
+      "sgdbGameId": 5168419,
+      "sgdbName": "EarthX",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:35:40.936027+00:00"
+    },
+    "010082E01B2A8000": {
+      "titleId": "010082E01B2A8000",
+      "gameTitle": "Dyschronia: Chronos Alternate Definitive edition [NSZ][ENG]",
+      "sgdbGameId": 5434422,
+      "sgdbName": "Dyschronia: Chronos Alternate - Dual Edition",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:35:41.991559+00:00"
+    },
+    "01009B6019CF0000": {
+      "titleId": "01009B6019CF0000",
+      "gameTitle": "Dyadic [NSZ][ENG]",
+      "sgdbGameId": 10674,
+      "sgdbName": "Dyadic",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:35:43.002992+00:00"
+    },
+    "010059D00BCAE000": {
+      "titleId": "010059D00BCAE000",
+      "gameTitle": "Swords & Soldiers + Swords and Soldiers 2 Shawarmageddon [NSP][ENG,RUS]",
+      "sgdbGameId": 21376,
+      "sgdbName": "Swords and Soldiers 2 Shawarmageddon",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:35:44.008871+00:00"
+    },
+    "01000CD0171D8000": {
+      "titleId": "01000CD0171D8000",
+      "gameTitle": "Itadaki Smash [NSZ][ENG]",
+      "sgdbGameId": 5282784,
+      "sgdbName": "Itadaki Smash",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:36:01.072743+00:00"
+    },
+    "01005F7011950000": {
+      "titleId": "01005F7011950000",
+      "gameTitle": "ScourgeBringer (Scourge Bringer) [NSP][RUS/Multi10]",
+      "sgdbGameId": 101847,
+      "sgdbName": "ScourgeBringer",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:36:02.086012+00:00"
+    },
+    "010088E00B816000": {
+      "titleId": "010088E00B816000",
+      "gameTitle": "Riot Civil Unrest [NSZ][RUS/Multi8]",
+      "sgdbGameId": 6336,
+      "sgdbName": "RIOT - Civil Unrest",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:36:03.152694+00:00"
+    },
+    "010086901425C000": {
+      "titleId": "010086901425C000",
+      "gameTitle": "The Colonists [NSZ][RUS/Multi8]",
+      "sgdbGameId": 20096,
+      "sgdbName": "The Colonists",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:36:04.243803+00:00"
+    },
+    "0100727015970000": {
+      "titleId": "0100727015970000",
+      "gameTitle": "Mutropolis [NSZ][RUS/Multi8]",
+      "sgdbGameId": 200238,
+      "sgdbName": "Mutropolis",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:36:05.221852+00:00"
+    },
+    "0100E6A00B960000": {
+      "titleId": "0100E6A00B960000",
+      "gameTitle": "The Princess Guide [NSZ][ENG]",
+      "sgdbGameId": 5275453,
+      "sgdbName": "The Princess Guide",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:36:06.228673+00:00"
+    },
+    "01001730152B0000": {
+      "titleId": "01001730152B0000",
+      "gameTitle": "Plunder Panic [NSZ][ENG]",
+      "sgdbGameId": 5281680,
+      "sgdbName": "Plunder Panic",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:36:07.242603+00:00"
+    },
+    "010007401287E000": {
+      "titleId": "010007401287E000",
+      "gameTitle": "Big Bobby Car the Big Race [NSZ][ENG]",
+      "sgdbGameId": 5266503,
+      "sgdbName": "BIG-Bobby-Car – The Big Race",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:36:08.259123+00:00"
+    },
+    "0100806017374000": {
+      "titleId": "0100806017374000",
+      "gameTitle": "Defend the Rook [NSZ][RUS (Mod.)/ENG]",
+      "sgdbGameId": 5277598,
+      "sgdbName": "Defend the Rook",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:36:09.322403+00:00"
+    },
+    "01008D4018260000": {
+      "titleId": "01008D4018260000",
+      "gameTitle": "Master Spy [NSZ][ENG]",
+      "sgdbGameId": 5772,
+      "sgdbName": "Master Spy",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:36:10.331999+00:00"
+    },
+    "01002BB013BF8000": {
+      "titleId": "01002BB013BF8000",
+      "gameTitle": "Stealth [NSZ][RUS/Multi3]",
+      "sgdbGameId": 5360426,
+      "sgdbName": "Stealth",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:36:11.355584+00:00"
+    },
+    "0100A70006B8A000": {
+      "titleId": "0100A70006B8A000",
+      "gameTitle": "Never Stop Sneaking [NSP][ENG]",
+      "sgdbGameId": 25259,
+      "sgdbName": "Never Stop Sneakin'",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:36:12.347761+00:00"
+    },
+    "010060201E0A4000": {
+      "titleId": "010060201E0A4000",
+      "gameTitle": "Blud [NSZ][ENG]",
+      "sgdbGameId": 5402237,
+      "sgdbName": "#BLUD",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:36:13.435991+00:00"
+    },
+    "0100FFD00FDF8000": {
+      "titleId": "0100FFD00FDF8000",
+      "gameTitle": "Tesla Force [NSZ][ENG]",
+      "sgdbGameId": 5249244,
+      "sgdbName": "Tesla Force",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:36:14.420160+00:00"
+    },
+    "01000DC00AF1C000": {
+      "titleId": "01000DC00AF1C000",
+      "gameTitle": "Desert Child [NSP][RUS/Multi9]",
+      "sgdbGameId": 27442,
+      "sgdbName": "Desert Child",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:36:15.461978+00:00"
+    },
+    "010024C017CF8000": {
+      "titleId": "010024C017CF8000",
+      "gameTitle": "Slaycation Paradise [NSZ][RUS/Multi7]",
+      "sgdbGameId": 5322572,
+      "sgdbName": "Slaycation Paradise",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:36:16.525396+00:00"
+    },
+    "0100D1301367A000": {
+      "titleId": "0100D1301367A000",
+      "gameTitle": "Kraken Academy [NSZ][RUS/Multi6]",
+      "sgdbGameId": 5249546,
+      "sgdbName": "Kraken Academy!!",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:36:17.585615+00:00"
+    },
+    "01009D701F16A000": {
+      "titleId": "01009D701F16A000",
+      "gameTitle": "Verne: The Shape of Fantasy [NSZ][ENG]",
+      "sgdbGameId": 5269254,
+      "sgdbName": "Verne: The Shape of Fantasy",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:36:18.549940+00:00"
+    },
+    "01005E2018FCC000": {
+      "titleId": "01005E2018FCC000",
+      "gameTitle": "Freud's Bones The Game [NSP][ENG]",
+      "sgdbGameId": 5275601,
+      "sgdbName": "Freud's Bones-the game",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:36:19.602557+00:00"
+    },
+    "0100761019082000": {
+      "titleId": "0100761019082000",
+      "gameTitle": "The Dark Prophecy [NSZ][RUS/ENG]",
+      "sgdbGameId": 5278994,
+      "sgdbName": "The Dark Prophecy",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:36:20.613630+00:00"
+    },
+    "01000CA018A54000": {
+      "titleId": "01000CA018A54000",
+      "gameTitle": "Cleo a Pirate's Tale [NSZ][ENG]",
+      "sgdbGameId": 5263839,
+      "sgdbName": "Cleo - a pirate's tale",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:36:21.672752+00:00"
+    },
+    "010026A013DD6000": {
+      "titleId": "010026A013DD6000",
+      "gameTitle": "Sumatra Fate of Yandi [NSZ][RUS (Mod.)/ENG]",
+      "sgdbGameId": 17458,
+      "sgdbName": "Sumatra: Fate of Yandi",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:36:22.669019+00:00"
+    },
+    "010044502088C000": {
+      "titleId": "010044502088C000",
+      "gameTitle": "Jewel Fever 2-3 (клон Bejeweled) [NSZ][ENG]",
+      "sgdbGameId": 5291163,
+      "sgdbName": "Jewel Fever 2",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:36:23.647180+00:00"
+    },
+    "010075000EE32000": {
+      "titleId": "010075000EE32000",
+      "gameTitle": "Milkmaid of the Milky Way [NSP][ENG]",
+      "cleanTitle": "Milkmaid of the Milky Way",
+      "sgdbGameId": 14768,
+      "sgdbName": "Milkmaid of the Milky Way",
+      "assetType": "grid",
+      "assetUrl": "https://cdn2.steamgriddb.com/grid/bc62909610a42a35303533f4edeefa9f.png",
+      "driveFileId": "1DFmS_xwlLPwvJhlAOacqArVtZeKUPw7F",
+      "downloadUrl": "https://drive.google.com/uc?export=download&id=1DFmS_xwlLPwvJhlAOacqArVtZeKUPw7F",
+      "fileSizeBytes": 215737,
+      "status": "published",
+      "timestamp": "2026-10-21T00:36:49.928453+00:00"
+    },
+    "010059500D070000": {
+      "titleId": "010059500D070000",
+      "gameTitle": "Lapis x Labyrinth [NSP][ENG]",
+      "sgdbGameId": 5275539,
+      "sgdbName": "Lapis x Labyrinth",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:36:51.033801+00:00"
+    },
+    "0100EAD007E98000": {
+      "titleId": "0100EAD007E98000",
+      "gameTitle": "Fuze 4 [NSZ][ENG]",
+      "sgdbGameId": null,
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:36:51.349939+00:00"
+    },
+    "010092601020A000": {
+      "titleId": "010092601020A000",
+      "gameTitle": "While True learn [NSZ][RUS/Multi3]",
+      "sgdbGameId": 17790,
+      "sgdbName": "while True: learn()",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:36:52.394056+00:00"
+    },
+    "010052B003A38000": {
+      "titleId": "010052B003A38000",
+      "gameTitle": "The Long Reach [NSZ][ENG]",
+      "sgdbGameId": 16436,
+      "sgdbName": "The Long Reach",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:36:53.447516+00:00"
+    },
+    "0100262011494000": {
+      "titleId": "0100262011494000",
+      "gameTitle": "Blackwind [NSZ][ENG]",
+      "sgdbGameId": 5289723,
+      "sgdbName": "Blackwind",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:36:54.493205+00:00"
+    },
+    "0100D9C012900000": {
+      "titleId": "0100D9C012900000",
+      "gameTitle": "Citizens Unite Earth x Space (Citizens of Space) [NSZ][ENG]",
+      "sgdbGameId": 5273909,
+      "sgdbName": "Citizens Unite!: Earth x Space",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:36:55.452167+00:00"
+    },
+    "0100A610167C4000": {
+      "titleId": "0100A610167C4000",
+      "gameTitle": "Dungeon Munchies [NSZ][ENG]",
+      "sgdbGameId": 25554,
+      "sgdbName": "Dungeon Munchies",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:36:56.449014+00:00"
+    },
+    "010092C013FB8000": {
+      "titleId": "010092C013FB8000",
+      "gameTitle": "Boris the Rocket [NSZ][RUS/Multi3]",
+      "sgdbGameId": 5265985,
+      "sgdbName": "BORIS THE ROCKET",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:36:57.449819+00:00"
+    },
+    "0100564025CD0000": {
+      "titleId": "0100564025CD0000",
+      "gameTitle": "Orwell: Keeping an Eye On You, Ignorance is Strength [NSZ][ENG,RUS]",
+      "sgdbGameId": 12486,
+      "sgdbName": "Orwell: Keeping an Eye On You",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:36:58.474627+00:00"
+    },
+    "01008BC012850000": {
+      "titleId": "01008BC012850000",
+      "gameTitle": "Ghostanoid [NSZ][RUS]",
+      "sgdbGameId": null,
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:36:58.845574+00:00"
+    },
+    "0100BA9012B36000": {
+      "titleId": "0100BA9012B36000",
+      "gameTitle": "Firework [NSZ][ENG]",
+      "sgdbGameId": 32659,
+      "sgdbName": "FIREWORK",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:36:59.854897+00:00"
+    },
+    "010035101F77E000": {
+      "titleId": "010035101F77E000",
+      "gameTitle": "Cats on Duty [NSZ][RUS/Multi11]",
+      "sgdbGameId": 5414377,
+      "sgdbName": "Cats on Duty",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:37:00.893443+00:00"
+    },
+    "010073C00BDB0000": {
+      "titleId": "010073C00BDB0000",
+      "gameTitle": "Elli [NSP][RUS (Mod.)/ENG]",
+      "sgdbGameId": 5262177,
+      "sgdbName": "Elli",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:37:01.944954+00:00"
+    },
+    "010005001B4DE000": {
+      "titleId": "010005001B4DE000",
+      "gameTitle": "Undergrave [NSP][ENG]",
+      "sgdbGameId": 5299136,
+      "sgdbName": "Undergrave",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:37:03.111214+00:00"
+    },
+    "01008EA01BF8C000": {
+      "titleId": "01008EA01BF8C000",
+      "gameTitle": "Savage Age [NSZ][RUS/Multi8]",
+      "sgdbGameId": 5341813,
+      "sgdbName": "Savage Age 蛮之纪",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:37:04.117859+00:00"
+    },
+    "0100F93004288000": {
+      "titleId": "0100F93004288000",
+      "gameTitle": "Puzzle Adventure Blockle [NSP][ENG]",
+      "sgdbGameId": 5442694,
+      "sgdbName": "Puzzle Adventure VR",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:37:05.193954+00:00"
+    },
+    "01000F801EC5A000": {
+      "titleId": "01000F801EC5A000",
+      "gameTitle": "Progress Orders [NSP][ENG]",
+      "sgdbGameId": 5471822,
+      "sgdbName": "PROGRESS ORDERS",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:37:22.360577+00:00"
+    },
+    "0100E0E00B108000": {
+      "titleId": "0100E0E00B108000",
+      "gameTitle": "Valley [NSZ][RUS (Mod.)/ENG]",
+      "sgdbGameId": 8063,
+      "sgdbName": "Valley",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:37:23.477938+00:00"
+    },
+    "010013F01E6D2000": {
+      "titleId": "010013F01E6D2000",
+      "gameTitle": "Passing By a Tailwind Journey [NSZ][ENG]",
+      "sgdbGameId": 5341662,
+      "sgdbName": "Passing By - A Tailwind Journey",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:37:24.468067+00:00"
+    },
+    "01002AC016752000": {
+      "titleId": "01002AC016752000",
+      "gameTitle": "Tyrant's Blessing [NSZ][RUS/Multi8]",
+      "sgdbGameId": 5275749,
+      "sgdbName": "Tyrant's Blessing",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:37:25.517639+00:00"
+    },
+    "0100B38013F66000": {
+      "titleId": "0100B38013F66000",
+      "gameTitle": "Neurodeck Psychological Deckbuilder [NSZ][RUS/Multi7]",
+      "sgdbGameId": 5256863,
+      "sgdbName": "Neurodeck",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:37:26.526825+00:00"
+    },
+    "0100C0B00D290000": {
+      "titleId": "0100C0B00D290000",
+      "gameTitle": "Buildings Have Feelings Too [NSZ][ENG]",
+      "sgdbGameId": 787542,
+      "sgdbName": "Buildings Have Feelings Too!",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:37:27.511317+00:00"
+    },
+    "0100CA1015B4C000": {
+      "titleId": "0100CA1015B4C000",
+      "gameTitle": "Hundred Days Winemaking simulator [NSZ][RUS/Multi9]",
+      "sgdbGameId": 5245685,
+      "sgdbName": "Hundred Days - Winemaking Simulator",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:37:28.539557+00:00"
+    },
+    "0100823012CA0000": {
+      "titleId": "0100823012CA0000",
+      "gameTitle": "Weaving Tides [NSZ][RUS/Multi7]",
+      "sgdbGameId": 4889482,
+      "sgdbName": "Weaving Tides",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:37:29.518326+00:00"
+    },
+    "0100E2D01F290000": {
+      "titleId": "0100E2D01F290000",
+      "gameTitle": "Kiki [NSZ][ENG]",
+      "sgdbGameId": 5375986,
+      "sgdbName": "Kiki",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:37:30.622183+00:00"
+    },
+    "0100A23015182000": {
+      "titleId": "0100A23015182000",
+      "gameTitle": "My Singing Monsters Playground [NSP][RUS/Multi7]",
+      "sgdbGameId": 5295864,
+      "sgdbName": "My Singing Monsters Playground",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:37:31.614799+00:00"
+    },
+    "01000670235CC000": {
+      "titleId": "01000670235CC000",
+      "gameTitle": "AirJet Fighter: Sky Assault, Air Jet Combat Europe Fly Plane Attack, Dominators Aerial [NSZ][ENG]",
+      "sgdbGameId": null,
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:37:32.317229+00:00"
+    },
+    "01003A701D982000": {
+      "titleId": "01003A701D982000",
+      "gameTitle": "Runner2 (Runner 2) Future Legend of Rhythm Alien [NSZ][ENG]",
+      "sgdbGameId": 2204,
+      "sgdbName": "BIT.TRIP Presents... Runner2: Future Legend of Rhythm Alien",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:37:33.389019+00:00"
+    },
+    "0100BAD013B6E000": {
+      "titleId": "0100BAD013B6E000",
+      "gameTitle": "Radio Commander [NSZ][RUS/Multi6]",
+      "sgdbGameId": 28628,
+      "sgdbName": "Radio Commander",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:37:34.431262+00:00"
+    },
+    "0100A6401B690000": {
+      "titleId": "0100A6401B690000",
+      "gameTitle": "Sowon the Toy Wonderland Dream Adventure [NSP][RUS/Multi10]",
+      "sgdbGameId": 4375,
+      "sgdbName": "Haegemonia: The Solon Heritage",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:37:35.412495+00:00"
+    },
+    "010039600E7AC000": {
+      "titleId": "010039600E7AC000",
+      "gameTitle": "Attack of the Toy Tanks [NSP][RUS/Multi5]",
+      "sgdbGameId": 5323367,
+      "sgdbName": "Attack of the Toy Tanks",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:37:36.497428+00:00"
+    },
+    "0100F2B0123AE000": {
+      "titleId": "0100F2B0123AE000",
+      "gameTitle": "L.O.L Surprise! Remix We Rule The World [NSZ][RUS]",
+      "sgdbGameId": 5329389,
+      "sgdbName": "L.O.L Surprise! B.B.s BORN TO TRAVEL™",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:37:37.459853+00:00"
+    },
+    "0100336016172000": {
+      "titleId": "0100336016172000",
+      "gameTitle": "Repentant [NSP][RUS/Multi4]",
+      "sgdbGameId": 28751,
+      "sgdbName": "Repentant",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:37:38.486118+00:00"
+    },
+    "0100C1700A9F0000": {
+      "titleId": "0100C1700A9F0000",
+      "gameTitle": "Streets of Red Devils Dare Deluxe [NSZ][ENG]",
+      "sgdbGameId": 31648,
+      "sgdbName": "Streets of Red : Devil's Dare Deluxe",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:37:39.496497+00:00"
+    },
+    "01005D501A5FE000": {
+      "titleId": "01005D501A5FE000",
+      "gameTitle": "Decarnation [NSZ][RUS (Mod.)/ENG]",
+      "sgdbGameId": 5290763,
+      "sgdbName": "Decarnation",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:37:40.563974+00:00"
+    },
+    "01005D102036C000": {
+      "titleId": "01005D102036C000",
+      "gameTitle": "Cats the Commander [NSZ][ENG]",
+      "sgdbGameId": 5448144,
+      "sgdbName": "HIDDEN CATS: The last of cats",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:37:41.614548+00:00"
+    },
+    "010076000F6B8000": {
+      "titleId": "010076000F6B8000",
+      "gameTitle": "Home Sheep Home Farmageddon Party edition [NSZ][ENG]",
+      "sgdbGameId": 3307,
+      "sgdbName": "Home Sheep Home: Farmageddon Party Edition",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:37:42.595576+00:00"
+    },
+    "0100DB500B17C000": {
+      "titleId": "0100DB500B17C000",
+      "gameTitle": "Solstice Chronicles MIA [NSZ][ENG]",
+      "sgdbGameId": 14135,
+      "sgdbName": "Solstice Chronicles: MIA",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:37:43.619207+00:00"
+    },
+    "0100D5D00DAF2000": {
+      "titleId": "0100D5D00DAF2000",
+      "gameTitle": "Story of a Gladiator [NSZ][ENG]",
+      "sgdbGameId": 5252177,
+      "sgdbName": "Story of a Gladiator",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:37:44.923863+00:00"
+    },
+    "0100277019E14000": {
+      "titleId": "0100277019E14000",
+      "gameTitle": "Drago Noka [NSZ][ENG]",
+      "sgdbGameId": 5330050,
+      "sgdbName": "Drago Noka",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:37:45.955398+00:00"
+    },
+    "0100AE301AD86000": {
+      "titleId": "0100AE301AD86000",
+      "gameTitle": "Dig Deep + 2 DLC [NSZ][RUS/Multi9]",
+      "sgdbGameId": 1032,
+      "sgdbName": "Dig Deep",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:37:47.034935+00:00"
+    },
+    "01008D101AB22000": {
+      "titleId": "01008D101AB22000",
+      "gameTitle": "Demonic Supremacy [NSZ][RUS/Multi9]",
+      "sgdbGameId": 5385964,
+      "sgdbName": "Demonic Supremacy",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:37:48.025100+00:00"
+    },
+    "0100F230145E2000": {
+      "titleId": "0100F230145E2000",
+      "gameTitle": "Dance of Death Du Lac & Fey [NSZ][RUS/Multi5]",
+      "sgdbGameId": 32736,
+      "sgdbName": "Dance of Death: Du Lac & Fey",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:37:49.017634+00:00"
+    },
+    "010011101B7BE000": {
+      "titleId": "010011101B7BE000",
+      "gameTitle": "CyberTD [NSZ][ENG]",
+      "sgdbGameId": 5356348,
+      "sgdbName": "CyberTD",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:38:06.009211+00:00"
+    },
+    "01002A3017DE2000": {
+      "titleId": "01002A3017DE2000",
+      "gameTitle": "Cramped Room of Death [NSZ][ENG]",
+      "sgdbGameId": 5265519,
+      "sgdbName": "Cramped Room of Death",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:38:07.387104+00:00"
+    },
+    "01003C700D0DE000": {
+      "titleId": "01003C700D0DE000",
+      "gameTitle": "Rain City [NSZ][ENG]",
+      "sgdbGameId": 5274488,
+      "sgdbName": "RainCity",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:38:08.442589+00:00"
+    },
+    "0100F4C019836000": {
+      "titleId": "0100F4C019836000",
+      "gameTitle": "Organ Trail Director's Cut Complete edition [NSZ][ENG]",
+      "sgdbGameId": 2578,
+      "sgdbName": "Organ Trail: Director's Cut",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:38:09.468250+00:00"
+    },
+    "0100F0F01161A000": {
+      "titleId": "0100F0F01161A000",
+      "gameTitle": "Alone With You [NSP][ENG]",
+      "sgdbGameId": 15612,
+      "sgdbName": "Alone With You",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:38:10.454756+00:00"
+    },
+    "010019D0126E2000": {
+      "titleId": "010019D0126E2000",
+      "gameTitle": "Thomas Was Alone [NSZ][ENG]",
+      "sgdbGameId": 2271,
+      "sgdbName": "Thomas Was Alone",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:38:11.453309+00:00"
+    },
+    "0100E680149DD000": {
+      "titleId": "0100E680149DD000",
+      "gameTitle": "Arcaea + 8 DLC [NSP][ENG]",
+      "sgdbGameId": 5328637,
+      "sgdbName": "Arcaea",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:38:12.466710+00:00"
+    },
+    "0100F7C010AF6000": {
+      "titleId": "0100F7C010AF6000",
+      "gameTitle": "Tin & Kuna [NSZ][RUS/Multi10]",
+      "sgdbGameId": 5263216,
+      "sgdbName": "Tin & Kuna",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:38:13.405153+00:00"
+    },
+    "010054700D680000": {
+      "titleId": "010054700D680000",
+      "gameTitle": "The Letter a Horror Visual Novel [NSP][ENG]",
+      "sgdbGameId": 5273090,
+      "sgdbName": "SEASON: A letter to the future",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:38:15.141302+00:00"
+    },
+    "010007C01B510000": {
+      "titleId": "010007C01B510000",
+      "gameTitle": "Ludo XXL (лудо, парчис) / DOG Takes the Hindmost / 4 in a Row / My Rummy / Yatzi [NSZ][ENG]",
+      "sgdbGameId": 5325010,
+      "sgdbName": "Ludo XXL",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:38:16.183123+00:00"
+    },
+    "010051B018D7A000": {
+      "titleId": "010051B018D7A000",
+      "gameTitle": "The Dragoness: Command of the Flame [NSZ][RUS/Multi6]",
+      "sgdbGameId": 5267191,
+      "sgdbName": "The Dragoness: Command of the Flame",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:38:17.556693+00:00"
+    },
+    "0100ADF01388C000": {
+      "titleId": "0100ADF01388C000",
+      "gameTitle": "Crazy Oce [NSZ][RUS]",
+      "sgdbGameId": 5249054,
+      "sgdbName": "Crazy Oce",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:38:18.643719+00:00"
+    },
+    "0100F25021116000": {
+      "titleId": "0100F25021116000",
+      "gameTitle": "Catching Spirits [NSZ][RUS (Mod.)/ENG]",
+      "sgdbGameId": 5371661,
+      "sgdbName": "Catching Spirits",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:38:19.739517+00:00"
+    },
+    "0100C9D015756000": {
+      "titleId": "0100C9D015756000",
+      "gameTitle": "The Pizza Delivery Boy who Saved the World [NSP][ENG]",
+      "sgdbGameId": 27830,
+      "sgdbName": "The Pizza Delivery Boy Who Saved the World",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:38:20.698784+00:00"
+    },
+    "010014F01539E000": {
+      "titleId": "010014F01539E000",
+      "gameTitle": "Starlight Shores [NSZ][ENG]",
+      "sgdbGameId": 5278375,
+      "sgdbName": "Starlight Shores",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:38:21.804525+00:00"
+    },
+    "01003FB017936000": {
+      "titleId": "01003FB017936000",
+      "gameTitle": "Path of Ra [NSZ][RUS/Multi10]",
+      "sgdbGameId": 5329527,
+      "sgdbName": "Path of Ra",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:38:22.762547+00:00"
+    },
+    "01004A6015FEE000": {
+      "titleId": "01004A6015FEE000",
+      "gameTitle": "Terror of Hemasaurus [NSZ][ENG]",
+      "sgdbGameId": 662,
+      "sgdbName": "Terror of Hemasaurus",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:38:24.095827+00:00"
+    },
+    "01001F901DC54000": {
+      "titleId": "01001F901DC54000",
+      "gameTitle": "Distant Bloom [NSZ][ENG]",
+      "sgdbGameId": 5347536,
+      "sgdbName": "Distant Bloom",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:38:25.077443+00:00"
+    },
+    "01003EB010008000": {
+      "titleId": "01003EB010008000",
+      "gameTitle": "Inbento [NSZ][RUS/Multi11]",
+      "sgdbGameId": 5281055,
+      "sgdbName": "inbento",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:38:42.128807+00:00"
+    },
+    "010096B01179A000": {
+      "titleId": "010096B01179A000",
+      "gameTitle": "Ponpu [NSZ][RUS/Multi9]",
+      "cleanTitle": "Ponpu",
+      "sgdbGameId": 5258312,
+      "sgdbName": "Ponpu",
+      "assetType": "grid",
+      "assetUrl": "https://cdn2.steamgriddb.com/grid/9795c2a4106f6477a9c1e2e2b5a7cbfc.webp",
+      "driveFileId": "1sl76XxPv6eWiGHlxhGBAwHotEQ2Q26Uz",
+      "downloadUrl": "https://drive.google.com/uc?export=download&id=1sl76XxPv6eWiGHlxhGBAwHotEQ2Q26Uz",
+      "fileSizeBytes": 1896101,
+      "status": "published",
+      "timestamp": "2026-10-21T00:38:50.186144+00:00"
+    },
+    "010086C00790C000": {
+      "titleId": "010086C00790C000",
+      "gameTitle": "Warlock's Tower [NSP][RUS/Multi6]",
+      "sgdbGameId": 14237,
+      "sgdbName": "Warlock's Tower",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:38:51.595380+00:00"
+    },
+    "01002C700C326000": {
+      "titleId": "01002C700C326000",
+      "gameTitle": "Demon's Tier Plus / Xenon Valkyrie Plus / Riddled Corpses EX [NSZ][ENG]",
+      "sgdbGameId": 21031,
+      "sgdbName": "DemonsTier",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:38:52.622065+00:00"
+    },
+    "01001770115C8000": {
+      "titleId": "01001770115C8000",
+      "gameTitle": "Dodo Peak [NSP][RUS/Multi11]",
+      "sgdbGameId": 5424331,
+      "sgdbName": "Dodo Peak",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:38:53.583210+00:00"
+    },
+    "0100909021106000": {
+      "titleId": "0100909021106000",
+      "gameTitle": "PicoMix by NuSan (Pico Mix, 20 игр) [NSZ][ENG]",
+      "sgdbGameId": 5469691,
+      "sgdbName": "PicoMix by NuSan",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:38:54.596585+00:00"
+    },
+    "0100D460144F2000": {
+      "titleId": "0100D460144F2000",
+      "gameTitle": "Street Cleaner [NSP][ENG]",
+      "sgdbGameId": 5258478,
+      "sgdbName": "Street Cleaner: The Video Game",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:38:55.588004+00:00"
+    },
+    "01006A800FA22000": {
+      "titleId": "01006A800FA22000",
+      "gameTitle": "Evolution Board Game + 4 DLC [NSZ][RUS/Multi9]",
+      "sgdbGameId": 8658,
+      "sgdbName": "Evolution",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:38:56.633018+00:00"
+    },
+    "0100EB6012FD2000": {
+      "titleId": "0100EB6012FD2000",
+      "gameTitle": "Poison Control [NSZ][ENG]",
+      "sgdbGameId": 5284209,
+      "sgdbName": "Poison Control",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:38:57.618390+00:00"
+    },
+    "01001D0003B96000": {
+      "titleId": "01001D0003B96000",
+      "gameTitle": "Inversus Deluxe [NSZ][RUS/Multi10]",
+      "sgdbGameId": 10301,
+      "sgdbName": "INVERSUS Deluxe",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:38:58.650264+00:00"
+    },
+    "0100DF3009730000": {
+      "titleId": "0100DF3009730000",
+      "gameTitle": "Catastronauts [NSZ][ENG]",
+      "sgdbGameId": 22854,
+      "sgdbName": "Catastronauts",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:38:59.691566+00:00"
+    },
+    "0100C0E01F41C000": {
+      "titleId": "0100C0E01F41C000",
+      "gameTitle": "Hololive Holo's Hanafuda Japanese Playing Cards (ханафуда) + 4 DLC [NSP][ENG]",
+      "sgdbGameId": 5476416,
+      "sgdbName": "hololive Holo's Hanafuda",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:39:00.686090+00:00"
+    },
+    "01006BC00B188000": {
+      "titleId": "01006BC00B188000",
+      "gameTitle": "The Journey Down: Chapter 1-3 [NSP][RUS (Mod.)/ENG]",
+      "sgdbGameId": 2258,
+      "sgdbName": "The Journey Down: Chapter One",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:39:01.761104+00:00"
+    },
+    "0100D6A01AF64000": {
+      "titleId": "0100D6A01AF64000",
+      "gameTitle": "The Master's Pupil [NSZ][Multi]",
+      "sgdbGameId": 5341246,
+      "sgdbName": "The Master's Pupil",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:39:02.860669+00:00"
+    },
+    "01002AD013C52000": {
+      "titleId": "01002AD013C52000",
+      "gameTitle": "Relicta [NSP][RUS/Multi10]",
+      "sgdbGameId": 31449,
+      "sgdbName": "Relicta",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:39:03.879365+00:00"
+    },
+    "0100046017F14000": {
+      "titleId": "0100046017F14000",
+      "gameTitle": "Forklift Extreme + 10 DLC [NSZ][RUS/Multi16]",
+      "sgdbGameId": 5350200,
+      "sgdbName": "Forklift Extreme",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:39:04.850376+00:00"
+    },
+    "0100D23023210000": {
+      "titleId": "0100D23023210000",
+      "gameTitle": "Teeny Tiny Trains the Enchanted Attic [NSZ][RUS/Multi10]",
+      "sgdbGameId": 5448900,
+      "sgdbName": "Teeny Tiny Trains",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:39:05.894406+00:00"
+    },
+    "010035A00D4E6000": {
+      "titleId": "010035A00D4E6000",
+      "gameTitle": "Warparty [NSZ][RUS/Multi11]",
+      "sgdbGameId": 24567,
+      "sgdbName": "Warparty",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:39:06.933874+00:00"
+    },
+    "0100331005E8E000": {
+      "titleId": "0100331005E8E000",
+      "gameTitle": "Super Putty Squad [NSZ][ENG]",
+      "sgdbGameId": 36372,
+      "sgdbName": "Super Putty",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:39:23.946900+00:00"
+    },
+    "010097E01E8EA000": {
+      "titleId": "010097E01E8EA000",
+      "gameTitle": "Tales from Toyotoki: Arrival of the Witch [NSZ][ENG]",
+      "sgdbGameId": 1879,
+      "sgdbName": "Tales from Space: Mutant Blobs Attack",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:39:24.979964+00:00"
+    },
+    "01002F401D67C000": {
+      "titleId": "01002F401D67C000",
+      "gameTitle": "Amairo Chocolate [NSZ][ENG]",
+      "sgdbGameId": 5255879,
+      "sgdbName": "Amairo Chocolate",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:39:26.007639+00:00"
+    },
+    "01001390140BC000": {
+      "titleId": "01001390140BC000",
+      "gameTitle": "Zorya the Celestial Sisters [NSP][ENG]",
+      "sgdbGameId": 17269,
+      "sgdbName": "Zarya and the Cursed Skull",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:39:27.033395+00:00"
+    },
+    "010047F012BE2000": {
+      "titleId": "010047F012BE2000",
+      "gameTitle": "Abyss of The Sacrifice [NSZ][ENG]",
+      "sgdbGameId": 5271389,
+      "sgdbName": "ABYSS OF THE SACRIFICE",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:39:28.047059+00:00"
+    },
+    "010007CB067B2000": {
+      "titleId": "010007CB067B2000",
+      "gameTitle": "Трилогия Ghost in the Pool / Weirdo / Concealed [NSZ][ENG/RUS (Mod.)]",
+      "sgdbGameId": null,
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:39:28.394618+00:00"
+    },
+    "010042000CA02000": {
+      "titleId": "010042000CA02000",
+      "gameTitle": "Super Life of Pixel [NSZ][ENG]",
+      "sgdbGameId": 5625,
+      "sgdbName": "Super Life of Pixel",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:39:29.424342+00:00"
+    },
+    "01006E400AE2A000": {
+      "titleId": "01006E400AE2A000",
+      "gameTitle": "Jeopardy! / Своя игра [NSZ][ENG]",
+      "sgdbGameId": 34354,
+      "sgdbName": "Jeopardy!",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:39:46.477326+00:00"
+    },
+    "0100BA5013E52000": {
+      "titleId": "0100BA5013E52000",
+      "gameTitle": "The Falconeer Warrior edition [NSZ][RUS/Multi8]",
+      "sgdbGameId": 5252128,
+      "sgdbName": "The Falconeer",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:39:47.563137+00:00"
+    },
+    "0100C5101E1C6000": {
+      "titleId": "0100C5101E1C6000",
+      "gameTitle": "Pool Together 1-2 (бильярд) [NSZ][ENG]",
+      "sgdbGameId": 5520383,
+      "sgdbName": "8 Ball Pool: Play Together",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:39:48.553984+00:00"
+    },
+    "01008D10115C2000": {
+      "titleId": "01008D10115C2000",
+      "gameTitle": "Hermitage Strange Case Files [NSZ][ENG]",
+      "sgdbGameId": 5255928,
+      "sgdbName": "Hermitage: Strange Case Files",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:39:49.531047+00:00"
+    },
+    "0100867011618000": {
+      "titleId": "0100867011618000",
+      "gameTitle": "Home Postmortem edition [NSP][ENG]",
+      "sgdbGameId": 2147,
+      "sgdbName": "Home",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:39:50.544572+00:00"
+    },
+    "0100C4C013688000": {
+      "titleId": "0100C4C013688000",
+      "gameTitle": "Retrace Memories of Death [NSZ][ENG]",
+      "sgdbGameId": 1623540,
+      "sgdbName": "Retrace",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:40:07.557609+00:00"
+    },
+    "010087F005DFE000": {
+      "titleId": "010087F005DFE000",
+      "gameTitle": "Escape Trick: 35 Fateful Enigmas [NSZ][ENG]",
+      "sgdbGameId": 5256478,
+      "sgdbName": "@Simple DL Series Vol. 1: Escape Trick: Behind Closed Doors",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:40:08.513862+00:00"
+    },
+    "0100276018002000": {
+      "titleId": "0100276018002000",
+      "gameTitle": "Chenso Club [NSZ][RUS/Multi9]",
+      "sgdbGameId": 5271954,
+      "sgdbName": "Chenso Club",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:40:09.560796+00:00"
+    },
+    "010004900D976000": {
+      "titleId": "010004900D976000",
+      "gameTitle": "Contraptions 1-2-3 ('The Incredible Machine', TIM) [NSP][ENG,RUS]",
+      "sgdbGameId": 5263537,
+      "sgdbName": "Fantastic Contraption Classic 1 & 2",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:40:10.577581+00:00"
+    },
+    "0100F5F016816000": {
+      "titleId": "0100F5F016816000",
+      "gameTitle": "New Terra / Terra Trilogy: Bomber, Lander 1-2 Rockslide Rescue [NSZ][ENG]",
+      "sgdbGameId": 5304807,
+      "sgdbName": "NEW TERRA",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:40:11.579986+00:00"
+    },
+    "01007650184FA000": {
+      "titleId": "01007650184FA000",
+      "gameTitle": "Colossal Cave [NSZ][RUS/Multi13]",
+      "sgdbGameId": 5365100,
+      "sgdbName": "Colossal Cave",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:40:12.602098+00:00"
+    },
+    "010095D01A3FC000": {
+      "titleId": "010095D01A3FC000",
+      "gameTitle": "Chronicles of Albian: The Magic Convention [NSZ][ENG]",
+      "sgdbGameId": 6019,
+      "sgdbName": "Chronicles of a Dark Lord: Episode 1 Tides of Fate Complete",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:40:13.570722+00:00"
+    },
+    "0100EB901AE40000": {
+      "titleId": "0100EB901AE40000",
+      "gameTitle": "Chronicles of 2 (Two) Heroes: Amaterasu's Wrath [NSP][RUS/Multi10]",
+      "sgdbGameId": 5297989,
+      "sgdbName": "Chronicles of 2 Heroes: Amaterasu's Wrath",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:40:14.636932+00:00"
+    },
+    "01001A602202C000": {
+      "titleId": "01001A602202C000",
+      "gameTitle": "Chaos Galaxy 1-2 [NSZ][ENG]",
+      "sgdbGameId": 5252546,
+      "sgdbName": "Chaos Galaxy",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:40:15.605126+00:00"
+    },
+    "0100336019D36000": {
+      "titleId": "0100336019D36000",
+      "gameTitle": "Cave of Past Sorrows [NSZ][ENG]",
+      "sgdbGameId": 5249534,
+      "sgdbName": "Cave of Illusions",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:40:16.611825+00:00"
+    },
+    "0100DCC01376E000": {
+      "titleId": "0100DCC01376E000",
+      "gameTitle": "Super Mombo Quest [NSZ][ENG]",
+      "sgdbGameId": 5259196,
+      "sgdbName": "Super Mombo Quest",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:40:17.617064+00:00"
+    },
+    "010079F018508000": {
+      "titleId": "010079F018508000",
+      "gameTitle": "Castle of the Underdogs Ep.1 [NSZ][ENG]",
+      "sgdbGameId": 5255153,
+      "sgdbName": "Castle of the Underdogs : Episode 1",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:40:18.607987+00:00"
+    },
+    "01006D801A45A000": {
+      "titleId": "01006D801A45A000",
+      "gameTitle": "Bumballon [NSZ][ENG]",
+      "sgdbGameId": 5296778,
+      "sgdbName": "Bumballon",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:40:19.614287+00:00"
+    },
+    "01002E50129DA000": {
+      "titleId": "01002E50129DA000",
+      "gameTitle": "Brightstone Mysteries Dilogy: Paranormal Hotel, The Others [NSZ][RUS/ENG]",
+      "sgdbGameId": 5418368,
+      "sgdbName": "Brightstone Mysteries: The Others",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:40:20.591512+00:00"
+    },
+    "010013A01B100000": {
+      "titleId": "010013A01B100000",
+      "gameTitle": "Boo Party [NSP][ENG]",
+      "sgdbGameId": 5292184,
+      "sgdbName": "Boo Party",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:40:21.615981+00:00"
+    },
+    "01008C001A070000": {
+      "titleId": "01008C001A070000",
+      "gameTitle": "Bone's Cafe [NSZ][ENG]",
+      "sgdbGameId": 5312303,
+      "sgdbName": "Bone's Cafe",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:40:22.635066+00:00"
+    },
+    "0100866017D32000": {
+      "titleId": "0100866017D32000",
+      "gameTitle": "Bit Orchard Animal Valley + 6 DLC [NSZ][ENG]",
+      "sgdbGameId": 5279508,
+      "sgdbName": "Bit Orchard",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:40:23.659326+00:00"
+    },
+    "0100B6D00C2DE000": {
+      "titleId": "0100B6D00C2DE000",
+      "gameTitle": "Tied Together [NSZ][ENG]",
+      "sgdbGameId": 5302807,
+      "sgdbName": "Tied by your Red",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:40:24.653148+00:00"
+    },
+    "010009501A22E000": {
+      "titleId": "010009501A22E000",
+      "gameTitle": "Belle Boomerang [NSZ][ENG]",
+      "sgdbGameId": 5285092,
+      "sgdbName": "Belle Boomerang",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:40:25.674064+00:00"
+    },
+    "010074F01C326000": {
+      "titleId": "010074F01C326000",
+      "gameTitle": "Before the Night [NSZ][ENG]",
+      "sgdbGameId": 5307625,
+      "sgdbName": "Before The Night",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:40:26.678973+00:00"
+    },
+    "0100C1901C444000": {
+      "titleId": "0100C1901C444000",
+      "gameTitle": "Anthology of Fear [NSZ][RUS/Multi10]",
+      "sgdbGameId": 5245659,
+      "sgdbName": "Anthology of Fear",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:40:27.721285+00:00"
+    },
+    "010059F019A42000": {
+      "titleId": "010059F019A42000",
+      "gameTitle": "Another Crusade [NSP][ENG]",
+      "sgdbGameId": 5332279,
+      "sgdbName": "Another Crusade",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:40:28.674314+00:00"
+    },
+    "01002BB01B8B6000": {
+      "titleId": "01002BB01B8B6000",
+      "gameTitle": "Annalynn [NSZ][ENG]",
+      "sgdbGameId": 5274085,
+      "sgdbName": "Annalynn",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:40:29.644217+00:00"
+    },
+    "0100E24018B68000": {
+      "titleId": "0100E24018B68000",
+      "gameTitle": "Alpha Particle [NSZ][ENG]",
+      "sgdbGameId": 5265047,
+      "sgdbName": "Alpha Particle",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:40:30.576728+00:00"
+    },
+    "0100A7401CCEA000": {
+      "titleId": "0100A7401CCEA000",
+      "gameTitle": "Alien Death Mob [NSP][RUS/Multi9]",
+      "sgdbGameId": 5279858,
+      "sgdbName": "Alien Death Mob",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:40:31.560895+00:00"
+    },
+    "010060101A6E0000": {
+      "titleId": "010060101A6E0000",
+      "gameTitle": "Alekon [NSP][ENG]",
+      "sgdbGameId": 5272351,
+      "sgdbName": "Alekon",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:40:32.634076+00:00"
+    },
+    "01002430155DA000": {
+      "titleId": "01002430155DA000",
+      "gameTitle": "Derpy Conga [NSZ][RUS/Multi9]",
+      "sgdbGameId": 5248016,
+      "sgdbName": "Derpy Conga",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:40:33.582789+00:00"
+    },
+    "0100F5E019300000": {
+      "titleId": "0100F5E019300000",
+      "gameTitle": "Paddles [NSZ][ENG]",
+      "sgdbGameId": 29277,
+      "sgdbName": "Proficient Paddles",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:40:34.546615+00:00"
+    },
+    "0100B53015A5E000": {
+      "titleId": "0100B53015A5E000",
+      "gameTitle": "Witchcrafty [NSZ][RUS/ENG]",
+      "sgdbGameId": 5245858,
+      "sgdbName": "Witchcrafty",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:40:35.555754+00:00"
+    },
+    "0100D940022F6000": {
+      "titleId": "0100D940022F6000",
+      "gameTitle": "Tiny Barbarian DX [NSZ][ENG]",
+      "sgdbGameId": 3125,
+      "sgdbName": "Tiny Barbarian DX",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:40:36.536090+00:00"
+    },
+    "0100F010146F2000": {
+      "titleId": "0100F010146F2000",
+      "gameTitle": "Hindsight [NSZ][RUS/Multi10]",
+      "sgdbGameId": 5282365,
+      "sgdbName": "Hindsight",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:40:37.606555+00:00"
+    },
+    "010049B016CF8000": {
+      "titleId": "010049B016CF8000",
+      "gameTitle": "8 and 9 Ball Pocket (бильярд) [NSZ][ENG]",
+      "sgdbGameId": 5447330,
+      "sgdbName": "Millie Megavolte 8: Millie and the Mole King",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:40:54.637417+00:00"
+    },
+    "0100C37022D7E000": {
+      "titleId": "0100C37022D7E000",
+      "gameTitle": "Hyperspaced [NSZ][RUS (Mod.)/ENG]",
+      "sgdbGameId": 5246991,
+      "sgdbName": "Hyperspaced",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:40:55.568889+00:00"
+    },
+    "010087201951E000": {
+      "titleId": "010087201951E000",
+      "gameTitle": "Afterthought [NSZ][ENG]",
+      "sgdbGameId": 5269162,
+      "sgdbName": "Afterthought",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:40:56.895639+00:00"
+    },
+    "0100F6001B738000": {
+      "titleId": "0100F6001B738000",
+      "gameTitle": "A Tiny Sticker Tale [NSZ][ENG]",
+      "sgdbGameId": 5394624,
+      "sgdbName": "A Tiny Sticker Tale",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:41:13.904440+00:00"
+    },
+    "01007FC0170FE000": {
+      "titleId": "01007FC0170FE000",
+      "gameTitle": "Zorro the Chronicles [NSZ][RUS/Multi9]",
+      "sgdbGameId": 5279621,
+      "sgdbName": "Zorro The Chronicles",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:41:15.221678+00:00"
+    },
+    "0100207007EB2000": {
+      "titleId": "0100207007EB2000",
+      "gameTitle": "Smoke and Sacrifice [NSZ][RUS/Multi5]",
+      "sgdbGameId": 20882,
+      "sgdbName": "Smoke and Sacrifice",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:41:16.235743+00:00"
+    },
+    "01001F7014F14000": {
+      "titleId": "01001F7014F14000",
+      "gameTitle": "Tokoyo Tower of Perpetuity [NSZ][ENG]",
+      "sgdbGameId": 5267462,
+      "sgdbName": "TOKOYO: The Tower of Perpetuity",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:41:17.286275+00:00"
+    },
+    "01005F10162CA000": {
+      "titleId": "01005F10162CA000",
+      "gameTitle": "Time on Frog Island [NSZ][RUS/Multi11]",
+      "sgdbGameId": 5293033,
+      "sgdbName": "Time on Frog Island",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:41:18.280874+00:00"
+    },
+    "010063E0104BE000": {
+      "titleId": "010063E0104BE000",
+      "gameTitle": "Is It Wrong to Try to Pick Up Girls in a Dungeon (DanMachi) Familia Myth Infinite Combate / Fullland of Water and Light [NSZ][ENG]",
+      "sgdbGameId": 5253260,
+      "sgdbName": "Is It Wrong to Try to Pick Up Girls in a Dungeon? Infinite Combate",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:41:19.285650+00:00"
+    },
+    "0100D9E016A7A000": {
+      "titleId": "0100D9E016A7A000",
+      "gameTitle": "Crossroads Inn a Fantasy Tavern Sim [NSZ][RUS/Multi5]",
+      "sgdbGameId": 28427,
+      "sgdbName": "Crossroads Inn Anniversary Edition",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:41:20.301047+00:00"
+    },
+    "0100A06011A48000": {
+      "titleId": "0100A06011A48000",
+      "gameTitle": "Unreal Life [NSZ][ENG]",
+      "sgdbGameId": 5268852,
+      "sgdbName": "UNREAL LIFE",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:41:37.657779+00:00"
+    },
+    "0100EC2011A80000": {
+      "titleId": "0100EC2011A80000",
+      "gameTitle": "Luxar [NSZ][RUS/Multi10]",
+      "sgdbGameId": 5253431,
+      "sgdbName": "Luxar",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:41:38.632315+00:00"
+    },
+    "010043C010AEA000": {
+      "titleId": "010043C010AEA000",
+      "gameTitle": "Across the Grooves [NSZ][ENG]",
+      "sgdbGameId": 5246985,
+      "sgdbName": "Across the Grooves",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:41:39.615730+00:00"
+    },
+    "0100FE1011400000": {
+      "titleId": "0100FE1011400000",
+      "gameTitle": "AntVentor [NSZ][RUS/Multi10]",
+      "sgdbGameId": 22909,
+      "sgdbName": "AntVentor",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:41:40.901419+00:00"
+    },
+    "0100EDD016562000": {
+      "titleId": "0100EDD016562000",
+      "gameTitle": "Duel Princess [NSZ][ENG]",
+      "sgdbGameId": 5315315,
+      "sgdbName": "Duel Princess",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:41:41.960835+00:00"
+    },
+    "010089B0155F8000": {
+      "titleId": "010089B0155F8000",
+      "gameTitle": "Smashing The Battle Ghost Soul [NSZ][ENG]",
+      "sgdbGameId": 5443684,
+      "sgdbName": "SMASHING THE BATTLE GHOST SOUL",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:41:42.925285+00:00"
+    },
+    "0100209019832000": {
+      "titleId": "0100209019832000",
+      "gameTitle": "Saturnalia [NSP][ENG]",
+      "sgdbGameId": 5361298,
+      "sgdbName": "Saturnalia",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:41:43.900096+00:00"
+    },
+    "0100FED01624C000": {
+      "titleId": "0100FED01624C000",
+      "gameTitle": "The Quest for Excalibur Puy du Fou [NSZ][ENG]",
+      "sgdbGameId": 5339544,
+      "sgdbName": "The Quest For Excalibur - Puy Du Fou",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:41:44.896867+00:00"
+    },
+    "010060E015FF2000": {
+      "titleId": "010060E015FF2000",
+      "gameTitle": "The Company Man [NSZ][ENG]",
+      "sgdbGameId": 5278317,
+      "sgdbName": "The Company Man",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:41:45.863525+00:00"
+    },
+    "01002B60178B4000": {
+      "titleId": "01002B60178B4000",
+      "gameTitle": "Tasomachi Behind the Twilight [NSP][ENG]",
+      "sgdbGameId": 5246512,
+      "sgdbName": "TASOMACHI: Behind the Twilight",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:41:46.904112+00:00"
+    },
+    "010038A016E92000": {
+      "titleId": "010038A016E92000",
+      "gameTitle": "Oxide Room 104 [NSP][RUS/Multi10]",
+      "sgdbGameId": 5308932,
+      "sgdbName": "Oxide Room 104",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:41:47.891914+00:00"
+    },
+    "01001ED012E84000": {
+      "titleId": "01001ED012E84000",
+      "gameTitle": "Onsen Master [NSZ][ENG]",
+      "sgdbGameId": 5261154,
+      "sgdbName": "Onsen Master",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:41:48.891035+00:00"
+    },
+    "0100410016E82000": {
+      "titleId": "0100410016E82000",
+      "gameTitle": "No Place for Bravery [NSZ][ENG]",
+      "sgdbGameId": 5262184,
+      "sgdbName": "No Place for Bravery",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:41:49.899755+00:00"
+    },
+    "01005A60162AA000": {
+      "titleId": "01005A60162AA000",
+      "gameTitle": "NHRA Championship Drag Racing Speed for All - Ultimate edition [NSP][ENG]",
+      "sgdbGameId": 5344965,
+      "sgdbName": "NHRA Championship Drag Racing: Speed For All",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:41:50.906470+00:00"
+    },
+    "0100F1F012734000": {
+      "titleId": "0100F1F012734000",
+      "gameTitle": "Mozart Requiem (The Last Secret, The Conspirators of Prague) [NSZ][ENG]",
+      "sgdbGameId": 5347243,
+      "sgdbName": "Mozart Requiem",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:41:52.102525+00:00"
+    },
+    "0100D540159DA000": {
+      "titleId": "0100D540159DA000",
+      "gameTitle": "Connectank (Connec Tank) [NSZ][ENG]",
+      "sgdbGameId": 5282270,
+      "sgdbName": "ConnecTank",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:41:53.080969+00:00"
+    },
+    "0100FBC007EAE000": {
+      "titleId": "0100FBC007EAE000",
+      "gameTitle": "Tesla vs. Lovecraft [NSZ][RUS/Multi9]",
+      "sgdbGameId": 18356,
+      "sgdbName": "Tesla vs Lovecraft",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:41:54.050855+00:00"
+    },
+    "010023F015110000": {
+      "titleId": "010023F015110000",
+      "gameTitle": "Monster Outbreak [NSZ][ENG]",
+      "sgdbGameId": 5278147,
+      "sgdbName": "Monster Outbreak",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:41:55.338958+00:00"
+    },
+    "0100CE301678E000": {
+      "titleId": "0100CE301678E000",
+      "gameTitle": "Letters a Written Adventure [NSZ][ENG]",
+      "sgdbGameId": 101834,
+      "sgdbName": "Letters - a written adventure",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:41:56.365882+00:00"
+    },
+    "0100810015412000": {
+      "titleId": "0100810015412000",
+      "gameTitle": "Bai Qu Hundreds of Melodies [NSP][RUS/Multi6]",
+      "sgdbGameId": 13681,
+      "sgdbName": "Bai Qu: Hundreds of Melodies",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:41:57.401754+00:00"
+    },
+    "01006EB01626E000": {
+      "titleId": "01006EB01626E000",
+      "gameTitle": "Vivid Knight [NSZ][RUS/Multi6]",
+      "sgdbGameId": 5284728,
+      "sgdbName": "Vivid Knight",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:41:58.454984+00:00"
+    },
+    "01007D600B70A000": {
+      "titleId": "01007D600B70A000",
+      "gameTitle": "Umihara Kawase Fresh / BaZooKa [NSZ][ENG]",
+      "sgdbGameId": 5259740,
+      "sgdbName": "Umihara Kawase Fresh!",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:41:59.465981+00:00"
+    },
+    "01009E300F83A000": {
+      "titleId": "01009E300F83A000",
+      "gameTitle": "Tobari Dream Ocean + Nightmare [NSZ][ENG]",
+      "sgdbGameId": 5263551,
+      "sgdbName": "Tobari 2: Dream Ocean",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:42:00.512259+00:00"
+    },
+    "010095900B436000": {
+      "titleId": "010095900B436000",
+      "gameTitle": "RemiLore: Lost Girl in the Lands of Lore [NSZ][ENG]",
+      "sgdbGameId": 101799,
+      "sgdbName": "RemiLore: Lost Girl in the Lands of Lore",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:42:01.504115+00:00"
+    },
+    "0100C510049E0000": {
+      "titleId": "0100C510049E0000",
+      "gameTitle": "Penny Punching Princess [NSZ][ENG]",
+      "sgdbGameId": 5275462,
+      "sgdbName": "Penny-Punching Princess",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:42:02.489257+00:00"
+    },
+    "01009E201F358000": {
+      "titleId": "01009E201F358000",
+      "gameTitle": "Bug and Seek + 2 DLC [NSZ][ENG]",
+      "sgdbGameId": 5260657,
+      "sgdbName": "Bug",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:42:03.501159+00:00"
+    },
+    "0100DA0006F50000": {
+      "titleId": "0100DA0006F50000",
+      "gameTitle": "DragonFangZ The Rose and Dungeon of Time [NSP][ENG]",
+      "sgdbGameId": 23362,
+      "sgdbName": "DragonFangZ",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:42:04.528919+00:00"
+    },
+    "010068A00DAFC000": {
+      "titleId": "010068A00DAFC000",
+      "gameTitle": "Brave Dungeon + Dark Witch Story Combat / The Meaning of Justice [NSZ][ENG]",
+      "sgdbGameId": 5292174,
+      "sgdbName": "Brave Dungeon + Dark Witch's Story:Combat",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:42:05.564491+00:00"
+    },
+    "0100FED0137FE000": {
+      "titleId": "0100FED0137FE000",
+      "gameTitle": "Boot Hill Bounties / Heroes [NSZ][ENG]",
+      "sgdbGameId": 22444,
+      "sgdbName": "Boot Hill Bounties",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:42:06.488587+00:00"
+    },
+    "01004D8007368000": {
+      "titleId": "01004D8007368000",
+      "gameTitle": "Vostok Inc [NSZ][ENG]",
+      "sgdbGameId": 19078,
+      "sgdbName": "Vostok Inc.",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:42:07.437764+00:00"
+    },
+    "0100CB5009A2C000": {
+      "titleId": "0100CB5009A2C000",
+      "gameTitle": "Razed [NSZ][RUS/Multi6]",
+      "sgdbGameId": 22413,
+      "sgdbName": "RAZED",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:42:08.451944+00:00"
+    },
+    "0100C9C0178A6000": {
+      "titleId": "0100C9C0178A6000",
+      "gameTitle": "Harmonia [NSP][ENG]",
+      "sgdbGameId": 9868,
+      "sgdbName": "Harmonia",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:42:09.496307+00:00"
+    },
+    "0100027017D4C000": {
+      "titleId": "0100027017D4C000",
+      "gameTitle": "Beasties [NSP][ENG]",
+      "sgdbGameId": 5281799,
+      "sgdbName": "Beasties",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:42:10.508308+00:00"
+    },
+    "0100BC8011E90000": {
+      "titleId": "0100BC8011E90000",
+      "gameTitle": "Land of Screens [NSZ][ENG]",
+      "sgdbGameId": 5265912,
+      "sgdbName": "Land of Screens",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:42:27.528529+00:00"
+    },
+    "0100F3E016D34000": {
+      "titleId": "0100F3E016D34000",
+      "gameTitle": "Kurokami-sama's Feast [NSZ][ENG]",
+      "sgdbGameId": 5312858,
+      "sgdbName": "Kurokami-sama's Feast",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:42:28.499405+00:00"
+    },
+    "0100844019F34000": {
+      "titleId": "0100844019F34000",
+      "gameTitle": "Kraino Origins [NSZ][ENG]",
+      "sgdbGameId": 5340389,
+      "sgdbName": "Kraino Origins",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:42:29.470403+00:00"
+    },
+    "010063E014E98000": {
+      "titleId": "010063E014E98000",
+      "gameTitle": "King of the Hat [NSZ][RUS/Multi10]",
+      "sgdbGameId": 5257816,
+      "sgdbName": "King of the Hat",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:42:30.548425+00:00"
+    },
+    "010024A019B64000": {
+      "titleId": "010024A019B64000",
+      "gameTitle": "Kamikaze Veggies [NSZ][RUS/Multi9]",
+      "sgdbGameId": 5286138,
+      "sgdbName": "Kamikaze Veggies",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:42:31.559396+00:00"
+    },
+    "01008E7017942000": {
+      "titleId": "01008E7017942000",
+      "gameTitle": "Roombo First Blood / Justice Sucks Tactical Vacuum Action [NSZ][RUS/Multi]",
+      "sgdbGameId": 277,
+      "sgdbName": "Roombo: First Blood - JUSTICE SUCKS",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:42:32.508304+00:00"
+    },
+    "0100A5A022B14000": {
+      "titleId": "0100A5A022B14000",
+      "gameTitle": "Fruitbus (Fruit Bus) [NSZ][RUS/Multi10]",
+      "sgdbGameId": 5416573,
+      "sgdbName": "Fruitbus",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:42:33.433201+00:00"
+    },
+    "0100FF401F79E000": {
+      "titleId": "0100FF401F79E000",
+      "gameTitle": "Meteorfall Krumit's Tale [NSZ][RUS/Multi6]",
+      "sgdbGameId": 5239529,
+      "sgdbName": "Meteorfall: Krumit's Tale",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:42:34.423035+00:00"
+    },
+    "010065D012FA0000": {
+      "titleId": "010065D012FA0000",
+      "gameTitle": "Azur Lane Crosswave [NSZ][ENG]",
+      "sgdbGameId": 5252864,
+      "sgdbName": "Azur Lane: Crosswave",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:42:51.443355+00:00"
+    },
+    "0100A8000E228000": {
+      "titleId": "0100A8000E228000",
+      "gameTitle": "Damascus Gear Operation: Tokyo, Osaka [NSP][ENG]",
+      "sgdbGameId": 18734,
+      "sgdbName": "Damascus Gear: Operation Tokyo - HD Edition",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:42:52.469613+00:00"
+    },
+    "010024F01607A000": {
+      "titleId": "010024F01607A000",
+      "gameTitle": "Inua a Story in Ice and Time [NSP][ENG]",
+      "sgdbGameId": 5304513,
+      "sgdbName": "INU - A Glimpse of Infinity",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:42:53.469795+00:00"
+    },
+    "0100D070158D4000": {
+      "titleId": "0100D070158D4000",
+      "gameTitle": "Ikai [NSP][RUS (Mod.)/ENG]",
+      "sgdbGameId": 5261262,
+      "sgdbName": "Ikai",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:42:54.454244+00:00"
+    },
+    "01006E90198A2000": {
+      "titleId": "01006E90198A2000",
+      "gameTitle": "Crush Crush / Hush Hush [NSZ][ENG]",
+      "sgdbGameId": 11425,
+      "sgdbName": "Crush Crush",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:42:55.504948+00:00"
+    },
+    "010022B01D488000": {
+      "titleId": "010022B01D488000",
+      "gameTitle": "Hirilun [NSZ][RUS/Multi6]",
+      "sgdbGameId": 5278726,
+      "sgdbName": "Hirilun",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:42:56.477885+00:00"
+    },
+    "01001D701C290000": {
+      "titleId": "01001D701C290000",
+      "gameTitle": "Chipmonk [NSZ][ENG]",
+      "sgdbGameId": 754,
+      "sgdbName": "Chipmonk!",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:42:57.524981+00:00"
+    },
+    "0100ED90143F8000": {
+      "titleId": "0100ED90143F8000",
+      "gameTitle": "Harmony's Odyssey [NSZ][RUS/Multi11]",
+      "sgdbGameId": 5277252,
+      "sgdbName": "Harmony's Odyssey",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:42:58.524837+00:00"
+    },
+    "0100BE901801C000": {
+      "titleId": "0100BE901801C000",
+      "gameTitle": "Gravitar Recharged [NSZ][RUS/Multi10]",
+      "sgdbGameId": 5325552,
+      "sgdbName": "Gravitar: Recharged",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:42:59.543117+00:00"
+    },
+    "01005FC019C00000": {
+      "titleId": "01005FC019C00000",
+      "gameTitle": "Flashout 3 [NSZ][RUS/Multi7]",
+      "sgdbGameId": 5325253,
+      "sgdbName": "FLASHOUT 3",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:43:00.522735+00:00"
+    },
+    "0100A780187C4000": {
+      "titleId": "0100A780187C4000",
+      "gameTitle": "Falling Out [NSZ][ENG]",
+      "sgdbGameId": 5263840,
+      "sgdbName": "Falling Out",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:43:01.619160+00:00"
+    },
+    "01004F50085F2000": {
+      "titleId": "01004F50085F2000",
+      "gameTitle": "She Remembered Caterpillars [NSZ][RUS/Multi10]",
+      "sgdbGameId": 11929,
+      "sgdbName": "She Remembered Caterpillars",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:43:02.657363+00:00"
+    },
+    "010064F00C212000": {
+      "titleId": "010064F00C212000",
+      "gameTitle": "Soul Axiom Rebooted [NSZ][RUS/Multi5]",
+      "sgdbGameId": 5456059,
+      "sgdbName": "Soul Axiom Rebooted",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:43:03.690009+00:00"
+    },
+    "010025B01585A000": {
+      "titleId": "010025B01585A000",
+      "gameTitle": "Deathrun TV [NSZ][ENG]",
+      "sgdbGameId": 5287676,
+      "sgdbName": "DEATHRUN TV",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:43:04.695176+00:00"
+    },
+    "01006590187FC000": {
+      "titleId": "01006590187FC000",
+      "gameTitle": "Dark Minute Kira's Adventure [NSZ][RUS/Multi9]",
+      "sgdbGameId": 5273031,
+      "sgdbName": "DARK MINUTE: Kira's Adventure",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:43:05.746052+00:00"
+    },
+    "0100C8F01C018000": {
+      "titleId": "0100C8F01C018000",
+      "gameTitle": "Crypto Miner Tycoon Simulator [NSZ][ENG]",
+      "sgdbGameId": 5316246,
+      "sgdbName": "Crypto Miner Tycoon Simulator",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:43:22.728653+00:00"
+    },
+    "0100D9501A2F4000": {
+      "titleId": "0100D9501A2F4000",
+      "gameTitle": "Crowns and Pawns Kingdom of Deceit [NSZ][RUS/Multi6]",
+      "sgdbGameId": 5246936,
+      "sgdbName": "Crowns and Pawns: Kingdom of Deceit",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:43:23.764340+00:00"
+    },
+    "0100AFC018700000": {
+      "titleId": "0100AFC018700000",
+      "gameTitle": "Brewmaster Beer Brewing Simulator [NSP][RUS/Multi7]",
+      "sgdbGameId": 5281118,
+      "sgdbName": "Brewmaster: Beer Brewing Simulator",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:43:24.856064+00:00"
+    },
+    "010042C018A3C000": {
+      "titleId": "010042C018A3C000",
+      "gameTitle": "Active DBG Brave's Rage [NSZ][ENG]",
+      "sgdbGameId": 6709,
+      "sgdbName": "Active Gaming advertising app",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:43:25.821035+00:00"
+    },
+    "01009CE0169DC000": {
+      "titleId": "01009CE0169DC000",
+      "gameTitle": "Best Month Ever [NSZ][RUS/Multi4]",
+      "sgdbGameId": 5293086,
+      "sgdbName": "Best Month Ever!",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:43:26.959521+00:00"
+    },
+    "010055C0213EC000": {
+      "titleId": "010055C0213EC000",
+      "gameTitle": "Fading Star Melody (Kie yuku hoshi no merodi, Мелодия угасающей звезды) [NSZ][RUS/Multi10]",
+      "sgdbGameId": 18464,
+      "sgdbName": "Fading",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:43:27.947364+00:00"
+    },
+    "010060A00F5E8000": {
+      "titleId": "010060A00F5E8000",
+      "gameTitle": "Pixel Gladiator [NSP][RUS/Multi5]",
+      "sgdbGameId": 14648,
+      "sgdbName": "Pixel Gladiator",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:43:28.979444+00:00"
+    },
+    "010056202072A000": {
+      "titleId": "010056202072A000",
+      "gameTitle": "The World of Kungfu: Dragon and Eagle [NSZ][ENG]",
+      "sgdbGameId": 28330,
+      "sgdbName": "The World of Labyrinths: Labyronia",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:43:30.002229+00:00"
+    },
+    "0100E4B0223AC000": {
+      "titleId": "0100E4B0223AC000",
+      "gameTitle": "Splatterbot (Splatter Bot) [NSZ][RUS/Multi10]",
+      "sgdbGameId": 5445256,
+      "sgdbName": "Splatterbot",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:43:30.956438+00:00"
+    },
+    "0100A7B00FFC2000": {
+      "titleId": "0100A7B00FFC2000",
+      "gameTitle": "Neon City Riders [NSZ][ENG]",
+      "sgdbGameId": 5253103,
+      "sgdbName": "Neon City Riders",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:43:32.046077+00:00"
+    },
+    "01006B4014564000": {
+      "titleId": "01006B4014564000",
+      "gameTitle": "Aztech Forgotten Gods [NSP][RUS/Multi6]",
+      "sgdbGameId": 5282379,
+      "sgdbName": "Aztech Forgotten Gods",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:43:33.056082+00:00"
+    },
+    "0100A5001ADEA000": {
+      "titleId": "0100A5001ADEA000",
+      "gameTitle": "Ashina the Red Witch [NSZ][RUS/Multi7]",
+      "sgdbGameId": 5263979,
+      "sgdbName": "Ashina: The Red Witch",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:43:34.425523+00:00"
+    },
+    "01008DE0154D8000": {
+      "titleId": "01008DE0154D8000",
+      "gameTitle": "Apico [NSP][ENG]",
+      "sgdbGameId": 5265014,
+      "sgdbName": "APICO",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:43:35.421969+00:00"
+    },
+    "010073A01401A000": {
+      "titleId": "010073A01401A000",
+      "gameTitle": "Anuchard [NSZ][ENG]",
+      "sgdbGameId": 5266684,
+      "sgdbName": "Anuchard",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:43:36.512044+00:00"
+    },
+    "010055701AFB4000": {
+      "titleId": "010055701AFB4000",
+      "gameTitle": "Air Twister [NSP][RUS/Multi11]",
+      "sgdbGameId": 5433267,
+      "sgdbName": "Air Twister",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:43:37.552560+00:00"
+    },
+    "01009CA01555E000": {
+      "titleId": "01009CA01555E000",
+      "gameTitle": "Abyss Memory: Fallen Angel and the Path of Magic [NSP][ENG]",
+      "sgdbGameId": 5351292,
+      "sgdbName": "Memory's Abyss",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:43:38.547463+00:00"
+    },
+    "0100C2F01B1AE000": {
+      "titleId": "0100C2F01B1AE000",
+      "gameTitle": "A Perfect Day [NSP][ENG]",
+      "sgdbGameId": 27427,
+      "sgdbName": "完美的一天 / A Perfect Day",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:43:39.580988+00:00"
+    },
+    "01006230222ED000": {
+      "titleId": "01006230222ED000",
+      "gameTitle": "Model Debut Nicola 1-2-3-4 (モデルデビュー ニコラ) [NSZ][JAP]",
+      "sgdbGameId": 5434220,
+      "sgdbName": "Model Debut 2 #nicola",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:43:40.545551+00:00"
+    },
+    "010035B012F28000": {
+      "titleId": "010035B012F28000",
+      "gameTitle": "Wing of Darkness [NSP][ENG]",
+      "sgdbGameId": 5253517,
+      "sgdbName": "有翼のフロイライン Wing of Darkness",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:43:41.589564+00:00"
+    },
+    "0100B8C00CFCE000": {
+      "titleId": "0100B8C00CFCE000",
+      "gameTitle": "Awesome Pea 1/2/3 [NSZ][ENG,RUS]",
+      "sgdbGameId": 30522,
+      "sgdbName": "Awesome Pea",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:43:42.606261+00:00"
+    },
+    "01009A401C1B0000": {
+      "titleId": "01009A401C1B0000",
+      "gameTitle": "Meta Meet Cute Plus [NSZ][ENG]",
+      "sgdbGameId": 5434236,
+      "sgdbName": "Meet a married woman at a hot spring",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:43:43.611378+00:00"
+    },
+    "0100FB701AD6C000": {
+      "titleId": "0100FB701AD6C000",
+      "gameTitle": "Tsugunohi / Evil God Korone / Tsugu No Hi Supernatural Supermarket / Zombie Scream (The Hexed Day) [NSZ][ENG]",
+      "sgdbGameId": 5260862,
+      "sgdbName": "Tsugunohi",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:43:44.681436+00:00"
+    },
+    "010085500B29A000": {
+      "titleId": "010085500B29A000",
+      "gameTitle": "Yet Another Zombie Defense HD [NSZ][RUS/Multi10]",
+      "sgdbGameId": 19970,
+      "sgdbName": "Yet Another Zombie Defense HD",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:43:45.675086+00:00"
+    },
+    "0100945012168000": {
+      "titleId": "0100945012168000",
+      "gameTitle": "Iris Fall [NSZ][RUS/Multi10]",
+      "cleanTitle": "Iris Fall",
+      "sgdbGameId": 30127,
+      "sgdbName": "Iris.Fall",
+      "assetType": "grid",
+      "assetUrl": "https://cdn2.steamgriddb.com/grid/aa76f2ea48f6bdbec1ac47897adc4ef9.webp",
+      "driveFileId": "13TO_NHoLNb0yXwZIJP7sqlFdHZnyDQIn",
+      "downloadUrl": "https://drive.google.com/uc?export=download&id=13TO_NHoLNb0yXwZIJP7sqlFdHZnyDQIn",
+      "fileSizeBytes": 781753,
+      "status": "published",
+      "timestamp": "2026-10-21T00:44:07.031435+00:00"
+    },
+    "0100D1600EEBC000": {
+      "titleId": "0100D1600EEBC000",
+      "gameTitle": "Littlewood [NSZ][ENG]",
+      "sgdbGameId": 29616,
+      "sgdbName": "Littlewood",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:44:08.159174+00:00"
+    },
+    "010061900F896000": {
+      "titleId": "010061900F896000",
+      "gameTitle": "The Eternal Castle [NSZ][ENG]",
+      "sgdbGameId": 32269,
+      "sgdbName": "The Eternal Castle [REMASTERED]",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:44:09.201351+00:00"
+    },
+    "0100A8A00E462000": {
+      "titleId": "0100A8A00E462000",
+      "gameTitle": "Real Drift Racing [NSP][ENG]",
+      "sgdbGameId": 5456543,
+      "sgdbName": "REAL CAR DRIFT RACING",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:44:10.169262+00:00"
+    },
+    "010043C012DB4000": {
+      "titleId": "010043C012DB4000",
+      "gameTitle": "The Unexpected Quest [NSZ][RUS/Multi4]",
+      "sgdbGameId": 5260181,
+      "sgdbName": "The Unexpected Quest",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:44:11.250245+00:00"
+    },
+    "0100CEA01A712000": {
+      "titleId": "0100CEA01A712000",
+      "gameTitle": "Pine a Story of Loss [NSZ][Multi]",
+      "sgdbGameId": 5450228,
+      "sgdbName": "Pine: A Story of Loss",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:44:12.274632+00:00"
+    },
+    "01008B200D748000": {
+      "titleId": "01008B200D748000",
+      "gameTitle": "Tardy [NSZ][RUS/ENG]",
+      "sgdbGameId": 26289,
+      "sgdbName": "Tardy",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:44:13.225785+00:00"
+    },
+    "010087200289A000": {
+      "titleId": "010087200289A000",
+      "gameTitle": "Riverbond [NSZ][RUS/Multi10]",
+      "sgdbGameId": 11410,
+      "sgdbName": "Riverbond",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:44:14.238901+00:00"
+    },
+    "0100E84014C72000": {
+      "titleId": "0100E84014C72000",
+      "gameTitle": "Connection Haunted / reHaunted [NSZ][RUS/Multi9]",
+      "sgdbGameId": 5256188,
+      "sgdbName": "Connection Haunted",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:44:15.242329+00:00"
+    },
+    "0100B55012216000": {
+      "titleId": "0100B55012216000",
+      "gameTitle": "Toolboy [NSP][RUS/Multi5]",
+      "sgdbGameId": 1950385,
+      "sgdbName": "Toolboy",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:44:16.299630+00:00"
+    },
+    "0100C1C00D01C000": {
+      "titleId": "0100C1C00D01C000",
+      "gameTitle": "Symmetry [NSZ][RUS/Multi10]",
+      "sgdbGameId": 14493,
+      "sgdbName": "SYMMETRY",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:44:17.313627+00:00"
+    },
+    "01004360045C8000": {
+      "titleId": "01004360045C8000",
+      "gameTitle": "Lichtspeer Double Speer edition [NSZ][RUS (Mod.)/ENG]",
+      "sgdbGameId": 5246341,
+      "sgdbName": "Lichtspeer: Double Speer Edition",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:44:18.321740+00:00"
+    },
+    "0100057011E50000": {
+      "titleId": "0100057011E50000",
+      "gameTitle": "Zengeon [NSZ][ENG]",
+      "sgdbGameId": 123,
+      "sgdbName": "Zengeon",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:44:19.362472+00:00"
+    },
+    "010075901E27C000": {
+      "titleId": "010075901E27C000",
+      "gameTitle": "Werewolf the Apocalypse - Heart of the Forest, Purgatory [NSZ][ENG]",
+      "sgdbGameId": 5264249,
+      "sgdbName": "Werewolf: The Apocalypse - Heart of the Forest",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:44:46.416650+00:00"
+    },
+    "0100F8F014080000": {
+      "titleId": "0100F8F014080000",
+      "gameTitle": "The Sisters Party of the Year + DLC [NSZ][ENG]",
+      "sgdbGameId": 5278110,
+      "sgdbName": "The Sisters - Party of the Year",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:44:47.394169+00:00"
+    },
+    "0100BFE014476000": {
+      "titleId": "0100BFE014476000",
+      "gameTitle": "Sunblaze [NSZ][ENG]",
+      "sgdbGameId": 5278438,
+      "sgdbName": "Sunblaze",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:44:48.349074+00:00"
+    },
+    "010000E0145BA000": {
+      "titleId": "010000E0145BA000",
+      "gameTitle": "Stonefly [NSZ][ENG]",
+      "sgdbGameId": 5278614,
+      "sgdbName": "Stonefly",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:44:49.700020+00:00"
+    },
+    "0100FEF00BE9C000": {
+      "titleId": "0100FEF00BE9C000",
+      "gameTitle": "Staxel [NSP][ENG]",
+      "sgdbGameId": 9258,
+      "sgdbName": "Staxel",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:44:50.741943+00:00"
+    },
+    "0100DCF0120D2000": {
+      "titleId": "0100DCF0120D2000",
+      "gameTitle": "Space Otter Charlie [NSZ][RUS/Multi7]",
+      "sgdbGameId": 5258396,
+      "sgdbName": "Space Otter Charlie",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:44:51.732651+00:00"
+    },
+    "0100957013E26000": {
+      "titleId": "0100957013E26000",
+      "gameTitle": "Ravensword Shadowlands [NSZ][ENG]",
+      "sgdbGameId": 3127,
+      "sgdbName": "Ravensword: Shadowlands",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:44:52.762667+00:00"
+    },
+    "01005EB013FBA000": {
+      "titleId": "01005EB013FBA000",
+      "gameTitle": "Persephone [NSZ][RUS/Multi11]",
+      "sgdbGameId": 5247429,
+      "sgdbName": "Persephone",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:44:53.829747+00:00"
+    },
+    "0100F150141DC000": {
+      "titleId": "0100F150141DC000",
+      "gameTitle": "Onirike [NSZ][RUS/Multi9]",
+      "sgdbGameId": 5255027,
+      "sgdbName": "Onirike",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:44:54.874525+00:00"
+    },
+    "01000A00135DC000": {
+      "titleId": "01000A00135DC000",
+      "gameTitle": "Nuts [NSZ][RUS/Multi11]",
+      "sgdbGameId": 5261692,
+      "sgdbName": "NUTS",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:44:55.857454+00:00"
+    },
+    "0100542012884000": {
+      "titleId": "0100542012884000",
+      "gameTitle": "Nongunz Doppelganger edition [NSZ][ENG]",
+      "sgdbGameId": 5261820,
+      "sgdbName": "Nongunz: Doppelganger Edition",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:45:12.939224+00:00"
+    },
+    "0100D0A012D0E000": {
+      "titleId": "0100D0A012D0E000",
+      "gameTitle": "Nerf Legends + 6 DLC [NSP][ENG]",
+      "sgdbGameId": 5300809,
+      "sgdbName": "Nerf Legends",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:45:13.918245+00:00"
+    },
+    "01004E001256A000": {
+      "titleId": "01004E001256A000",
+      "gameTitle": "Monster Harvest [NSZ][RUS/Multi8]",
+      "sgdbGameId": 5266118,
+      "sgdbName": "Monster Harvest",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:45:15.043467+00:00"
+    },
+    "01001B2012D5E000": {
+      "titleId": "01001B2012D5E000",
+      "gameTitle": "Marchen Forest Mylne and the Forest Gift [NSZ][ENG]",
+      "sgdbGameId": 27382,
+      "sgdbName": "Märchen Forest: Mylne and the Forest Gift",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:45:16.097124+00:00"
+    },
+    "0100807015FF4000": {
+      "titleId": "0100807015FF4000",
+      "gameTitle": "Love Choice (LoveChoice) [NSZ][RUS/Multi10]",
+      "sgdbGameId": 31377,
+      "sgdbName": "LoveChoice 拣爱",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:45:17.420425+00:00"
+    },
+    "010034F013552000": {
+      "titleId": "010034F013552000",
+      "gameTitle": "Little Kite [NSZ][RUS/Multi3]",
+      "sgdbGameId": 17427,
+      "sgdbName": "Little Kite",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:45:18.472429+00:00"
+    },
+    "0100CFA0111C9000": {
+      "titleId": "0100CFA0111C9000",
+      "gameTitle": "Gods Will Fall [NSZ][RUS/Multi7]",
+      "sgdbGameId": 5271875,
+      "sgdbName": "Gods Will Fall",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:45:19.499691+00:00"
+    },
+    "01004FC01EEA4000": {
+      "titleId": "01004FC01EEA4000",
+      "gameTitle": "Ginka [NSZ][ENG]",
+      "sgdbGameId": 5421110,
+      "sgdbName": "GINKA",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:45:20.515473+00:00"
+    },
+    "0100DBA011136000": {
+      "titleId": "0100DBA011136000",
+      "gameTitle": "Forward To The Sky [NSZ][ENG]",
+      "sgdbGameId": 5864,
+      "sgdbName": "Forward to the Sky",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:45:21.509523+00:00"
+    },
+    "0100193013AD0000": {
+      "titleId": "0100193013AD0000",
+      "gameTitle": "Evertried [NSP][RUS/Multi9]",
+      "sgdbGameId": 5290676,
+      "sgdbName": "Evertried",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:45:22.532797+00:00"
+    },
+    "0100EB9014722000": {
+      "titleId": "0100EB9014722000",
+      "gameTitle": "Cyberhive [NSZ][RUS/ENG]",
+      "sgdbGameId": 5264724,
+      "sgdbName": "CyberHive",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:45:23.514963+00:00"
+    },
+    "0100CE5014026000": {
+      "titleId": "0100CE5014026000",
+      "gameTitle": "Curved Space [NSZ][RUS/Multi10]",
+      "sgdbGameId": 5260792,
+      "sgdbName": "Curved Space",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:45:24.601030+00:00"
+    },
+    "0100B0400EBC4000": {
+      "titleId": "0100B0400EBC4000",
+      "gameTitle": "Cris Tales [NSP][RUS/Multi10]",
+      "sgdbGameId": 5168425,
+      "sgdbName": "Cris Tales",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:45:25.683898+00:00"
+    },
+    "0100EA501521A000": {
+      "titleId": "0100EA501521A000",
+      "gameTitle": "Centipede: Recharged [NSZ][RUS/Multi10]",
+      "sgdbGameId": 5294990,
+      "sgdbName": "Centipede: Recharged",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:45:42.768225+00:00"
+    },
+    "0100C7001526C000": {
+      "titleId": "0100C7001526C000",
+      "gameTitle": "Blitz Breaker [NSZ][ENG]",
+      "sgdbGameId": 9675,
+      "sgdbName": "Blitz Breaker",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:45:43.839836+00:00"
+    },
+    "01003E001DB78000": {
+      "titleId": "01003E001DB78000",
+      "gameTitle": "Avaris 3 (Avaris3) [NSP][ENG]",
+      "sgdbGameId": 5433208,
+      "sgdbName": "AVARIS3",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:45:44.876376+00:00"
+    },
+    "01004390255D6000": {
+      "titleId": "01004390255D6000",
+      "gameTitle": "The Days Without Gods (Zengyu Shenjia Yu Huangyan) [NSZ][ENG]",
+      "sgdbGameId": 5347267,
+      "sgdbName": "In The Days of My Life",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:45:45.841498+00:00"
+    },
+    "010052C025A40000": {
+      "titleId": "010052C025A40000",
+      "gameTitle": "Big Trouble in Little Chimney [NSZ][ENG]",
+      "sgdbGameId": 5457606,
+      "sgdbName": "Big Trouble in Little Chimney",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:45:46.970236+00:00"
+    },
+    "0100A78012A76000": {
+      "titleId": "0100A78012A76000",
+      "gameTitle": "Angry Alligator [NSZ][ENG]",
+      "sgdbGameId": 5328946,
+      "sgdbName": "Angry Alligator",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:45:48.035044+00:00"
+    },
+    "0100895013EE0000": {
+      "titleId": "0100895013EE0000",
+      "gameTitle": "Always Sometimes Monsters [NSZ][ENG]",
+      "sgdbGameId": 3744,
+      "sgdbName": "Always Sometimes Monsters",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:45:49.063986+00:00"
+    },
+    "010056F0186D0000": {
+      "titleId": "010056F0186D0000",
+      "gameTitle": "Alterity Experience [NSZ][ENG]",
+      "sgdbGameId": 5248819,
+      "sgdbName": "ALTERITY EXPERIENCE",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:45:50.063001+00:00"
+    },
+    "010010500390C000": {
+      "titleId": "010010500390C000",
+      "gameTitle": "Zero Zero Zero Zero / 0000 [NSZ][ENG]",
+      "sgdbGameId": 4975,
+      "sgdbName": "Zero Escape: Zero Time Dilemma",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:45:51.072233+00:00"
+    },
+    "010054900F51A000": {
+      "titleId": "010054900F51A000",
+      "gameTitle": "Warborn [NSZ][RUS/Multi7]",
+      "sgdbGameId": 30604,
+      "sgdbName": "Warborn",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:45:52.067399+00:00"
+    },
+    "0100E4C01D0DC000": {
+      "titleId": "0100E4C01D0DC000",
+      "gameTitle": "Vigour (не Vigor) [NSZ][ENG]",
+      "sgdbGameId": 5260945,
+      "sgdbName": "Vigor",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:45:53.073558+00:00"
+    },
+    "0100EA100F516000": {
+      "titleId": "0100EA100F516000",
+      "gameTitle": "The Turing Test [NSP][RUS (Mod.)/ENG]",
+      "sgdbGameId": 12837,
+      "sgdbName": "The Turing Test",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:45:54.138801+00:00"
+    },
+    "010051800E922000": {
+      "titleId": "010051800E922000",
+      "gameTitle": "The Dark Crystal Age of Resistance Tactics [NSZ][ENG]",
+      "sgdbGameId": 5173424,
+      "sgdbName": "The Dark Crystal: Age of Resistance Tactics",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:45:55.107705+00:00"
+    },
+    "0100A5A00B2AA000": {
+      "titleId": "0100A5A00B2AA000",
+      "gameTitle": "The Bluecoats North and South [NSZ][ENG]",
+      "sgdbGameId": 6569,
+      "sgdbName": "The Bluecoats: North vs South",
+      "status": "no_animated_art",
+      "timestamp": "2026-10-21T00:45:56.109448+00:00"
     }
   }
 }

@@ -29,7 +29,7 @@ public:
     void update();
     void render(SDL_Renderer* renderer, const SDL_Rect* dstRect = nullptr);
 
-    bool isPlaying() const { return m_isOpen; }
+    bool isPlaying() const { return m_isOpen && m_hasDecodedFirstFrame; }
     int getWidth() const { return m_width; }
     int getHeight() const { return m_height; }
     double getFps() const { return m_fps; }

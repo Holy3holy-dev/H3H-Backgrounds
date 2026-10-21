@@ -421,6 +421,9 @@ public:
         curl_easy_setopt(curl, CURLOPT_BUFFERSIZE, 256 * 1024L); // 256 KB curl receive buffer
         curl_easy_setopt(curl, CURLOPT_TCP_NODELAY, 1L);         // Disable Nagle algorithm
         curl_easy_setopt(curl, CURLOPT_TCP_KEEPALIVE, 1L);
+        curl_easy_setopt(curl, CURLOPT_COOKIEFILE, "");          // Enable cookie engine for Google Drive redirects
+        curl_easy_setopt(curl, CURLOPT_LOW_SPEED_LIMIT, 1024L);  // 1 KB/s minimum
+        curl_easy_setopt(curl, CURLOPT_LOW_SPEED_TIME, 10L);     // 10s stall timeout
         curl_easy_setopt(curl, CURLOPT_USERAGENT, "Mozilla/5.0 (Nintendo Switch; ShareApplet) AppleWebKit/609.4 (KHTML, like Gecko) NF/6.0.2.22.5 NintendoBrowser/5.1.0.22474");
         curl_easy_setopt(curl, CURLOPT_XFERINFOFUNCTION, xferFn);
         curl_easy_setopt(curl, CURLOPT_XFERINFODATA, &ctx);

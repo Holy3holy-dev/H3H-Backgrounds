@@ -447,7 +447,11 @@ void App::update() {
         }
     }
     if (!vidPath.empty() && m_renderer && m_isFullscreenPreview) {
-        m_videoPlayer.open(vidPath, m_renderer);
+        if (!m_videoPlayer.open(vidPath, m_renderer)) {
+            // Failed to open -> remove corrupted cache file so it won't hang on black screen
+            std::error_code ec;
+            std::filesystem::remove(vidPath, ec);
+        }
     }
     if (m_isFullscreenPreview && m_videoPlayer.isPlaying()) {
         m_videoPlayer.update();
@@ -822,6 +826,14 @@ void App::handleInput() {
             else if (m_activeTab == Tab::MyGames && mx >= 950 && mx <= 1230 && my >= 155 && my <= 200) {
                 onButtonPress(3 /* Y - Delete */);
             }
+            // MyGames Tab: "[+] Записи 4IFIR (SD)" button: x in [1000, 1230], y in [195, 240]
+            else if (m_activeTab == Tab::MyGames && mx >= 1000 && mx <= 1230 && my >= 195 && my <= 240) {
+                if (!m_installedGames.empty() && m_myGamesSelectedIndex >= 0 &&
+                    m_myGamesSelectedIndex < static_cast<int>(m_installedGames.size())) {
+                    const auto& g = m_installedGames[m_myGamesSelectedIndex];
+                    openRecordingsBrowser(g.titleId, g.name);
+                }
+            }
             // MyGames Tab: "Восстановить (.bak)" button: x in [950, 1230], y in [205, 250]
             else if (m_activeTab == Tab::MyGames && mx >= 950 && mx <= 1230 && my >= 205 && my <= 250) {
                 onButtonPress(2 /* X - Restore */);
@@ -1129,6 +1141,17 @@ void App::onButtonPress(int button) {
             fetchRemoteCatalog();
         }
     } else if (m_activeTab == Tab::MyGames) {
+        // Feature 3: Plus (+) or L3 button opens 4IFIR SD Recordings browser immediately
+        if (button == 6 /* SDL_CONTROLLER_BUTTON_START (Plus / +) */ ||
+            button == 7 /* SDL_CONTROLLER_BUTTON_LEFTSTICK (L3) */) {
+            if (!m_installedGames.empty() && m_myGamesSelectedIndex >= 0 &&
+                m_myGamesSelectedIndex < static_cast<int>(m_installedGames.size())) {
+                const auto& g = m_installedGames[m_myGamesSelectedIndex];
+                openRecordingsBrowser(g.titleId, g.name);
+                return;
+            }
+        }
+
         if (m_myGamesActivePane == MyGamesPane::GamesList) {
             // LEFT COLUMN: Games List navigation
             if (button == 11 /* DPAD_UP */) {
@@ -1555,7 +1578,12 @@ void App::renderTabMyGames() {
                 drawRectOutline(770, 202, 230, 32, Theme::COLOR_ACCENT, 1);
                 drawText("[R] Восстановить (.bak)", 785, 210, Theme::COLOR_ACCENT, 13);
             }
+
+            drawGlassCard(1015, 202, 210, 32, true, false);
+            drawText("[+] Записи 4IFIR (SD)", 1030, 210, Theme::COLOR_FOCUS_CYAN, 13);
         } else {
+            drawGlassCard(1015, 202, 210, 32, true, false);
+            drawText("[+] Записи 4IFIR (SD)", 1030, 210, Theme::COLOR_FOCUS_CYAN, 13);
             int missing = getMissingCoversCount();
             if (missing > 0) {
                 drawRect(530, 202, 250, 32, Theme::COLOR_BG_ELEVATED);
@@ -2488,14 +2516,26 @@ void App::loadPreviewTexture(const std::string& titleId, const Variant& variant)
             m_previewLoading = false;
         }
 
-        // Then download live video MP4
+        // Then download live video MP4 to temporary file first, validate before saving
         if (!m_cancelPreview.load() && !videoUrl.empty() && !std::filesystem::exists(vidFile, ec2)) {
             std::string err;
-            bool ok = m_platform->downloadFile(videoUrl, vidFile, nullptr, m_cancelPreview, err);
+            std::string tmpVid = vidFile + ".tmp";
+            bool ok = m_platform->downloadFile(videoUrl, tmpVid, nullptr, m_cancelPreview, err);
             m_videoDownloading = false;
-            if (ok && m_isFullscreenPreview && m_previewCurrentVariantId == key) {
-                std::lock_guard<std::mutex> lock(m_previewMutex);
-                m_pendingVideoToOpen = vidFile;
+            if (ok && std::filesystem::exists(tmpVid, ec2)) {
+                std::string valErr;
+                if (Installer::validateVideoFile(tmpVid, valErr)) {
+                    std::filesystem::rename(tmpVid, vidFile, ec2);
+                    if (m_isFullscreenPreview && m_previewCurrentVariantId == key) {
+                        std::lock_guard<std::mutex> lock(m_previewMutex);
+                        m_pendingVideoToOpen = vidFile;
+                    }
+                } else {
+                    // Corrupted or server error HTML -> purge so it does not poison cache
+                    std::filesystem::remove(tmpVid, ec2);
+                }
+            } else {
+                std::filesystem::remove(tmpVid, ec2);
             }
         } else {
             m_videoDownloading = false;
