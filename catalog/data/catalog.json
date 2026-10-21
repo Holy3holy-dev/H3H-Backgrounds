@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T17:45:42.835564+00:00",
-  "totalGames": 758,
-  "totalVariants": 841,
+  "updatedAt": "2026-10-21T17:48:27.683279+00:00",
+  "totalGames": 760,
+  "totalVariants": 846,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -456,6 +456,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 01006F8002326000.mp4"
+        },
+        {
+          "id": "v_9a41dc81",
+          "name": "Star Night Animal Crossing: New Horizons",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eWADBJJvOAc6XBxoBD4VVlZe8dV4UEXp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eWADBJJvOAc6XBxoBD4VVlZe8dV4UEXp&sz=w640",
+          "sizeBytes": 4603957,
+          "sha256": "BBAD5D71450448F1D7E69B7042F0518506473D6E3048CB2DBC6582BD28997EF8",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Star Night Animal Crossing: New Horizons"
         }
       ]
     },
@@ -736,6 +754,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Zelda Ultrahand Tears Of The Kingdom"
+        },
+        {
+          "id": "v_e928c33c",
+          "name": "Link And Zelda Tears Of The Kingdom Pixe",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jVDpFtCfNa2KD3Y6xVv_w5cIOWnUvHQG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jVDpFtCfNa2KD3Y6xVv_w5cIOWnUvHQG&sz=w640",
+          "sizeBytes": 4345692,
+          "sha256": "FD5825020F8D2F877991DF1A235F58C7ABA95D451DDEA1C3F412113B37EC161F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Link And Zelda Tears Of The Kingdom Pixe"
+        },
+        {
+          "id": "v_95206253",
+          "name": "Link The Legend Of Zelda: Tears Of The K",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10XYbttBZRaGPrXUzyvAiHPX4g6Xr78wv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10XYbttBZRaGPrXUzyvAiHPX4g6Xr78wv&sz=w640",
+          "sizeBytes": 4691443,
+          "sha256": "7410C2D1D0CBC61F00B7507521E2894B126EC190422B24F2ACCC25DDB418CD00",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Link The Legend Of Zelda: Tears Of The K"
         }
       ]
     },
@@ -20443,6 +20497,58 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Metro 2033 Motion Cover"
+        }
+      ]
+    },
+    {
+      "titleId": "01000F400B0D2000",
+      "title": "Metro: Last Light Redux",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000F400B0D2000.jpg",
+      "variants": [
+        {
+          "id": "v_b3019324",
+          "name": "Metro: Last Light Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1P0Hw3ay-cKC-_9S0YvCwW4Gp1Zcu7v4K",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1P0Hw3ay-cKC-_9S0YvCwW4Gp1Zcu7v4K&sz=w640",
+          "sizeBytes": 7934793,
+          "sha256": "C6E09DD45F13704A7A85AB45A9F794E464680E7FDDA35D3AAEF87FDB9FBF71DF",
+          "durationSec": 30.0,
+          "author": "WitheredVirusN100",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Metro: Last Light Motion Cover"
+        }
+      ]
+    },
+    {
+      "titleId": "01008C3005A66000",
+      "title": "Dead Cells",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008C3005A66000.jpg",
+      "variants": [
+        {
+          "id": "v_78a7f38a",
+          "name": "Dead Cells Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nGEjtxrIg6rz-OX-kAtXU4pEOmCqM3sd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nGEjtxrIg6rz-OX-kAtXU4pEOmCqM3sd&sz=w640",
+          "sizeBytes": 6205932,
+          "sha256": "1E198289F68A1BEF1587E239832D9A78D08B41ABD4E3957ABCBA609C306F1B74",
+          "durationSec": 30.0,
+          "author": "BaturaET",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Dead Cells Hero"
         }
       ]
     }
