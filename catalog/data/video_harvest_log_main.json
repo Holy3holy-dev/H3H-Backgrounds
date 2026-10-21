@@ -2567,10 +2567,80 @@
     "https://moewalls.com/games/crosscode-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2022/crosscode-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2021/remilia-scarlet-touhou-luna-nights-preview.webm": {
+      "title": "Remilia Scarlet Touhou Luna Nights",
+      "titleId": "0100D850131B0000",
+      "gameName": "Touhou Luna Nights",
+      "varId": "v_cb69e369",
+      "driveId": "1GbHW3jsZGPTjA9ksc0utuxmwhsYsF-jL",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/pixel-art/remilia-scarlet-touhou-luna-nights-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2021/remilia-scarlet-touhou-luna-nights-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2023/lilith-queen-of-hell-diablo-iv-preview.webm": {
+      "title": "Lilith Queen Of Hell Diablo IV",
+      "titleId": "0100573AB6818000",
+      "gameName": "Diablo I",
+      "varId": "v_56b8c48c",
+      "driveId": "1fCAgU1_8pZpHZg2GrbPW119AWyfqskn2",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/lilith-queen-of-hell-diablo-iv-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2023/lilith-queen-of-hell-diablo-iv-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2023/diablo-iv-lilith-preview.webm": {
+      "title": "Diablo IV Lilith",
+      "titleId": "0100573AB6818000",
+      "gameName": "Diablo I",
+      "varId": "v_7e0efcd5",
+      "driveId": "1y0z4sPEBX03joestlJJY7jQwRRFCc-Ly",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/diablo-iv-lilith-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2023/diablo-iv-lilith-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/lilith-diablo-iv-preview.webm": {
+      "title": "Lilith Diablo IV",
+      "titleId": "0100573AB6818000",
+      "gameName": "Diablo I",
+      "varId": "v_f3caf2e8",
+      "driveId": "1JrA681XsoKpqBmSSvIuyAcZSHTgrJnL2",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/lilith-diablo-iv-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/lilith-diablo-iv-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2023/lamborghini-diablo-gtr-green-neon-preview.webm": {
+      "title": "Lamborghini Diablo GTR Green Neon",
+      "titleId": "0100573AB6818000",
+      "gameName": "Diablo I",
+      "varId": "v_3dbc7d70",
+      "driveId": "1pTA167wsmorysEZvcMj5UGIwS1tgfJyV",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/vehicle/lamborghini-diablo-gtr-green-neon-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2023/lamborghini-diablo-gtr-green-neon-preview.webm"
     }
   },
-  "total_harvested": 353,
-  "last_updated": "2026-10-21T21:29:10.533827+00:00",
+  "total_harvested": 363,
+  "last_updated": "2026-10-21T21:30:57.266047+00:00",
   "page_cursors": {
     "super mario odyssey": 2,
     "mario odyssey": 2,
@@ -2890,7 +2960,14 @@
     "Shadow Labyrinth": 2,
     "CarX Drift Racing": 2,
     "CarX Highway Racing": 2,
-    "Gravity Circuit": 2
+    "Gravity Circuit": 2,
+    "Grim Fandango Remastered": 2,
+    "Tricky Towers": 2,
+    "Poker Night at the Inventory": 2,
+    "West of Dead": 2,
+    "Inmost": 2,
+    "Observer": 2,
+    "Layers of Fear Legacy": 2
   },
-  "query_cursor": 465
+  "query_cursor": 480
 }
