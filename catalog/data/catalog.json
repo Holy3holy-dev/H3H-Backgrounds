@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T20:48:00.809770+00:00",
+  "updatedAt": "2026-10-21T20:49:53.197257+00:00",
   "totalGames": 790,
-  "totalVariants": 930,
+  "totalVariants": 932,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -571,6 +571,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 0100750001C70000.mp4"
+        },
+        {
+          "id": "v_f0d571f1",
+          "name": "Littorio And Vittorio Veneto Azur Lane",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1sWqwb8vC1YW4MCd5_D4d-CSwi2c8uAaP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1sWqwb8vC1YW4MCd5_D4d-CSwi2c8uAaP&sz=w640",
+          "sizeBytes": 4666007,
+          "sha256": "7D50C217FC95E511584DD21D99F046E55A021F63F6DEE9A3550E0DD3B8EB8897",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Littorio And Vittorio Veneto Azur Lane | ЗВУК"
+        },
+        {
+          "id": "v_fb69395e",
+          "name": "Kingdom Hearts III",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zzYxIURthHTr2CwTT5A4K1R91_em3s2_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zzYxIURthHTr2CwTT5A4K1R91_em3s2_&sz=w640",
+          "sizeBytes": 4603869,
+          "sha256": "EF4664260B69D5804FA6AFCD14AC8191B4F1333A6EFA621041907C18ADAAD9E5",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kingdom Hearts III | ЗВУК"
         }
       ]
     },
