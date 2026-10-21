@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T19:33:25.959443+00:00",
-  "totalGames": 787,
-  "totalVariants": 910,
+  "updatedAt": "2026-10-21T19:35:34.922460+00:00",
+  "totalGames": 788,
+  "totalVariants": 915,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -413,6 +413,60 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Imported from Wallpaper Engine (1200562679)"
+        },
+        {
+          "id": "v_e445d7e3",
+          "name": "Dark Souls Bonfire",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RjnAVxskYlm1owv10Bbk7z71-as-yYX5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RjnAVxskYlm1owv10Bbk7z71-as-yYX5&sz=w640",
+          "sizeBytes": 4702183,
+          "sha256": "B7C3FBB51D776CD5C1E9EE2538383EFF93DBC038DC2E3CEDAE90FD204FA145F4",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dark Souls Bonfire | ЗВУК"
+        },
+        {
+          "id": "v_977a5cce",
+          "name": "Knight Bonfire Dark Souls",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RVsilQ_pJK9Zbg6OofL7QSqGfjjj2lX7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RVsilQ_pJK9Zbg6OofL7QSqGfjjj2lX7&sz=w640",
+          "sizeBytes": 4704337,
+          "sha256": "499C8F2183DE0CB9252416566BE41C09EA90C7CF0ED58BD899EF01AB0E585A50",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Knight Bonfire Dark Souls"
+        },
+        {
+          "id": "v_77d78c99",
+          "name": "Bonfire Dark Souls",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18tzKc962AhoffCqbPwM2v8NedPWbUo-0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18tzKc962AhoffCqbPwM2v8NedPWbUo-0&sz=w640",
+          "sizeBytes": 4568543,
+          "sha256": "9D2D1E82D80F827640AC402A2963B68B20F06AF768CDA67EC0916DC992A62AC2",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bonfire Dark Souls | ЗВУК"
         }
       ]
     },
@@ -21916,6 +21970,50 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Sonic Frontiers Starfall | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "01005C000B2AE000",
+      "title": "NieR:Automata",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005C000B2AE000.jpg",
+      "variants": [
+        {
+          "id": "v_03d3bc7f",
+          "name": "2B City Ruins Nier: Automata",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CEGzvXvw_AtqPx1UhGepITM9WSlNCJ55",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CEGzvXvw_AtqPx1UhGepITM9WSlNCJ55&sz=w640",
+          "sizeBytes": 4667623,
+          "sha256": "683C81996EC70F7A0A7F941F4A8ECFA1ECA26E05ABDDBEF912B8A6690FD4A659",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 2B City Ruins Nier: Automata | ЗВУК"
+        },
+        {
+          "id": "v_2d82628f",
+          "name": "City Ruins NieR: Automata",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13kJU487ji1VyJRnD4pxTk2qzgmp9pBLX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13kJU487ji1VyJRnD4pxTk2qzgmp9pBLX&sz=w640",
+          "sizeBytes": 4713918,
+          "sha256": "524B4B9EBED8E1DD01E595F5DE341AB951B5F564C9EF445C6E860F21A269B535",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | City Ruins NieR: Automata | ЗВУК"
         }
       ]
     }
