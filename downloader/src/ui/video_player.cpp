@@ -250,6 +250,8 @@ bool VideoPlayer::open(const std::string& filepath, SDL_Renderer* renderer) {
         close();
         return false;
     }
+    // Disable alpha blending so video frames render at 100% full opacity, eliminating black transparent textures
+    SDL_SetTextureBlendMode(m_texture, SDL_BLENDMODE_NONE);
 
     m_filepath = filepath;
     m_isOpen = true;

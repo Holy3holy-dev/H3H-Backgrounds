@@ -1,6 +1,6 @@
 {
-  "latestVersion": "1.2.1",
+  "latestVersion": "1.2.2",
   "minRequiredVersion": "1.0.0",
   "downloadUrl": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/latest/download/H3H-Backgrounds.nro",
-  "releaseNotes": "Fix Plus (+) recordings browser trigger, robust video buffer with Drive cookie support, all 6 NFS Most Wanted variants"
+  "releaseNotes": "Fix black screen on static preview and video playback via SDL_BLENDMODE_NONE & full SDL_JOYBUTTONDOWN mapping"
 }

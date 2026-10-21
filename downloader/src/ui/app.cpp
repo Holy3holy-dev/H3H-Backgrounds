@@ -71,6 +71,11 @@ bool App::init() {
         std::cerr << "[-] TTF_Init failed: " << TTF_GetError() << std::endl;
     }
 
+    int imgFlags = IMG_INIT_JPG | IMG_INIT_PNG;
+    if ((IMG_Init(imgFlags) & imgFlags) != imgFlags) {
+        std::cerr << "[-] IMG_Init warning: " << IMG_GetError() << std::endl;
+    }
+
 #ifdef __SWITCH__
     PlFontData fontData;
     Result rc = plGetSharedFontByType(&fontData, PlSharedFontType_Standard);
@@ -184,6 +189,7 @@ void App::shutdown() {
         m_window = nullptr;
     }
     TTF_Quit();
+    IMG_Quit();
     SDL_Quit();
 #endif
     if (m_platform) {
@@ -435,15 +441,11 @@ void App::update() {
         }
     }
     if (!previewPath.empty() && m_renderer) {
-        SDL_RWops* rw = SDL_RWFromFile(previewPath.c_str(), "rb");
-        if (rw) {
-            SDL_Surface* surf = IMG_LoadJPG_RW(rw);
-            if (surf) {
-                if (m_previewTexture) SDL_DestroyTexture(m_previewTexture);
-                m_previewTexture = SDL_CreateTextureFromSurface(m_renderer, surf);
-                SDL_FreeSurface(surf);
-            }
-            SDL_RWclose(rw);
+        SDL_Texture* newTex = IMG_LoadTexture(m_renderer, previewPath.c_str());
+        if (newTex) {
+            if (m_previewTexture) SDL_DestroyTexture(m_previewTexture);
+            m_previewTexture = newTex;
+            SDL_SetTextureBlendMode(m_previewTexture, SDL_BLENDMODE_NONE);
         }
     }
     if (!vidPath.empty() && m_renderer && m_isFullscreenPreview) {
@@ -741,6 +743,27 @@ void App::handleInput() {
             m_running = false;
         } else if (event.type == SDL_CONTROLLERBUTTONDOWN) {
             onButtonPress(event.cbutton.button);
+        } else if (event.type == SDL_JOYBUTTONDOWN) {
+            // Direct hardware fallback for Switch Joy-Cons and Pro Controllers
+            int btn = -1;
+            switch (event.jbutton.button) {
+                case 0: btn = 0; break;  // A
+                case 1: btn = 1; break;  // B
+                case 2: btn = 2; break;  // X
+                case 3: btn = 3; break;  // Y
+                case 10: btn = 6; break; // Plus (+) -> SDL_CONTROLLER_BUTTON_START (6)
+                case 11: btn = 4; break; // Minus (-) -> SDL_CONTROLLER_BUTTON_BACK (4)
+                case 6: btn = 9; break;  // L (LEFTSHOULDER)
+                case 7: btn = 10; break; // R (RIGHTSHOULDER)
+                case 4: btn = 7; break;  // Left stick click (L3)
+                case 5: btn = 8; break;  // Right stick click (R3)
+                case 13: btn = 11; break; // D-Pad Up
+                case 15: btn = 12; break; // D-Pad Down
+                case 12: btn = 13; break; // D-Pad Left
+                case 14: btn = 14; break; // D-Pad Right
+                default: break;
+            }
+            if (btn != -1) onButtonPress(btn);
         } else if (event.type == SDL_CONTROLLERAXISMOTION) {
             // Analog stick scrolling (Left Stick Y / X)
             if (event.caxis.axis == SDL_CONTROLLER_AXIS_LEFTY) {
@@ -2277,7 +2300,9 @@ void App::renderFullscreenPreview() {
         if (m_videoDownloading) {
             drawRect(30, 20, 270, 32, {0x0F, 0x17, 0x2A, 0xDD});
             drawRectOutline(30, 20, 270, 32, Theme::COLOR_FOCUS_CYAN, 1);
-            drawText("▶ Буферизация ролика...", 45, 28, Theme::COLOR_FOCUS_CYAN, 13);
+            int dotCount = (SDL_GetTicks() / 350) % 4;
+            std::string dots = std::string(dotCount, '.');
+            drawText("▶ Буферизация ролика" + dots, 45, 28, Theme::COLOR_FOCUS_CYAN, 13);
         } else {
             drawRect(30, 20, 290, 32, {0x0F, 0x17, 0x2A, 0xDD});
             drawRectOutline(30, 20, 290, 32, Theme::COLOR_BORDER, 1);
@@ -2466,14 +2491,11 @@ void App::loadPreviewTexture(const std::string& titleId, const Variant& variant)
 
     // 2. Load static image if exists
     if (std::filesystem::exists(thumbFile, ec)) {
-        SDL_RWops* rw = SDL_RWFromFile(thumbFile.c_str(), "rb");
-        if (rw) {
-            SDL_Surface* surf = IMG_LoadJPG_RW(rw);
-            if (surf) {
-                m_previewTexture = SDL_CreateTextureFromSurface(m_renderer, surf);
-                SDL_FreeSurface(surf);
-            }
-            SDL_RWclose(rw);
+        SDL_Texture* newTex = IMG_LoadTexture(m_renderer, thumbFile.c_str());
+        if (newTex) {
+            if (m_previewTexture) SDL_DestroyTexture(m_previewTexture);
+            m_previewTexture = newTex;
+            SDL_SetTextureBlendMode(m_previewTexture, SDL_BLENDMODE_NONE);
         }
     }
 
