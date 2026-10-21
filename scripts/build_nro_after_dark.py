@@ -142,7 +142,7 @@ def build():
     # Generate NACP metadata
     nacp_path = os.path.join(BUILD_DIR, "H3H-AfterDark.nacp")
     print("[*] Generating NACP metadata...")
-    app_version = "1.2.5"
+    app_version = "1.2.7"
 
     nacp_cmd = [
         NACPTOOL,

@@ -1084,32 +1084,6 @@ void App::onButtonPress(int button) {
         return;
     }
 
-    // Global Exit Handler: Plus (+) button exits to Homebrew Menu (universal Switch standard)
-    if (button == 6 /* SDL_CONTROLLER_BUTTON_START (Plus / +) */) {
-        if (m_isCollectionBrowserOpen) {
-            closeCollectionBrowser();
-            return;
-        }
-        if (m_isGamePickerOpen) {
-            closeGamePicker();
-            return;
-        }
-        if (m_isRecordingsBrowserOpen) {
-            closeRecordingsBrowser();
-            return;
-        }
-        if (m_isFullscreenPreview) {
-            closeFullscreenPreview();
-            return;
-        }
-        if (m_activeDialog != DialogType::None) {
-            m_activeDialog = DialogType::None;
-            return;
-        }
-        // Exit application cleanly to hbmenu
-        m_running = false;
-        return;
-    }
 
     // Target Game Picker Handler (Assign video theme to any installed game)
     if (m_isGamePickerOpen && m_activeDialog == DialogType::None && !m_isFullscreenPreview) {
@@ -1695,10 +1669,10 @@ void App::renderFooter() {
 
     std::string hints;
     if (m_activeTab == Tab::Home) {
-        hints = "[L/R] Вкладки   [A] Мои игры   [Y] Установить все недостающие   [X] Обновить   [-] GitHub";
+        hints = "[L/R] Вкладки   [A] Мои игры   [B] Выход из приложения   [Y] Установить все   [-] Обновить";
     } else if (m_activeTab == Tab::MyGames) {
         if (m_language == Language::Russian) {
-            hints = "[A] Выбрать   [X] На весь экран   [Y] Удалить фон   [B] Назад   [L/R] Вкладки   [-] Каталог";
+            hints = "[A] Выбрать   [X] Видео   [Y] Удалить   [B] Назад / Выход   [L/R] Вкладки   [-] Каталог";
         } else {
             hints = "[A] Select   [X] Fullscreen   [Y] Delete   [B] Back   [L/R] Tabs   [-] Catalog";
         }
