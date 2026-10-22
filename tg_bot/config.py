@@ -19,6 +19,8 @@ GITHUB_BRANCH_AFTER_DARK = os.getenv("GITHUB_BRANCH_AFTER_DARK", "after-dark")
 GDRIVE_FOLDER_ID = os.getenv("GDRIVE_FOLDER_ID", "1hI1klJ6t2ymVoBwGA6IzY79QMjp5dTJC")
 GDRIVE_AFTER_DARK_FOLDER_ID = os.getenv("GDRIVE_AFTER_DARK_FOLDER_ID", "1SXWjp12pKxPPT6YRMZ7tle8cgZdrKkHk")
 GDRIVE_REFRESH_TOKEN = os.getenv("GDRIVE_REFRESH_TOKEN", "")
+GDRIVE_CLIENT_ID = os.getenv("GDRIVE_CLIENT_ID", "")
+GDRIVE_CLIENT_SECRET = os.getenv("GDRIVE_CLIENT_SECRET", "")
 
 # Admin Telegram user IDs (who can moderate / approve uploads, or empty list for public auto-upload)
 ADMIN_IDS = [

@@ -61,13 +61,47 @@ class GoogleDriveHelper:
         return None
 
     @classmethod
-    def refresh_access_token(cls, refresh_token: str) -> Optional[str]:
+    def refresh_access_token(cls, refresh_token: str, client_id: Optional[str] = None, client_secret: Optional[str] = None) -> Optional[str]:
         """
-        Refreshes access token via OAuth Playground refresh endpoint.
+        Refreshes access token via direct Google OAuth2 token endpoint (if client_id and client_secret
+        are provided) or falls back to OAuth Playground refresh endpoint.
         Returns the new 'ya29...' access token or None.
         """
         if not refresh_token or not refresh_token.strip():
             return None
+
+        cfg = cls.get_stored_config()
+        import os
+        cid = (client_id or cfg.get("client_id") or os.getenv("GDRIVE_CLIENT_ID") or "").strip()
+        csec = (client_secret or cfg.get("client_secret") or os.getenv("GDRIVE_CLIENT_SECRET") or "").strip()
+
+        # 1. Direct standard Google OAuth2 refresh endpoint (when using own OAuth client - permanent!)
+        if cid and csec:
+            try:
+                data = urllib.parse.urlencode({
+                    "client_id": cid,
+                    "client_secret": csec,
+                    "refresh_token": refresh_token.strip(),
+                    "grant_type": "refresh_token"
+                }).encode("utf-8")
+                req = urllib.request.Request(
+                    "https://oauth2.googleapis.com/token",
+                    data=data,
+                    headers={
+                        "Content-Type": "application/x-www-form-urlencoded",
+                        "User-Agent": "H3H-Studio"
+                    },
+                    method="POST"
+                )
+                with urllib.request.urlopen(req, timeout=20) as resp:
+                    res_data = json.loads(resp.read().decode("utf-8"))
+                    new_tok = res_data.get("access_token")
+                    if new_tok and new_tok.startswith("ya29."):
+                        return new_tok
+            except Exception as e:
+                print(f"[-] Direct OAuth2 refresh error: {e}")
+
+        # 2. OAuth Playground fallback endpoint
         url = "https://developers.google.com/oauthplayground/refreshAccessToken"
         payload = {
             "token_uri": "https://oauth2.googleapis.com/token",
@@ -120,6 +154,10 @@ class GoogleDriveHelper:
         if os.getenv("GDRIVE_FOLDER_ID"):
             cfg["folder_id"] = os.getenv("GDRIVE_FOLDER_ID").strip()
             cfg["project_folder_id"] = os.getenv("GDRIVE_FOLDER_ID").strip()
+        if os.getenv("GDRIVE_CLIENT_ID"):
+            cfg["client_id"] = os.getenv("GDRIVE_CLIENT_ID").strip()
+        if os.getenv("GDRIVE_CLIENT_SECRET"):
+            cfg["client_secret"] = os.getenv("GDRIVE_CLIENT_SECRET").strip()
         return cfg
 
     @classmethod
