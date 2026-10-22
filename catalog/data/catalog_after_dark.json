@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "name": "H3H After Dark (18+) Official Catalog",
-  "updatedAt": "2026-10-22T14:24:16.014744+00:00",
-  "totalGames": 21,
-  "totalVariants": 176,
+  "updatedAt": "2026-10-22T14:25:35.625207+00:00",
+  "totalGames": 22,
+  "totalVariants": 181,
   "games": [
     {
       "titleId": "0000000000000000",
@@ -3333,6 +3333,104 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Moonlit Night Clouds | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "010023301E41C000",
+      "title": "Fate/Stay Night Remastered",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010023301E41C000.jpg",
+      "variants": [
+        {
+          "id": "v_3cbadc7d",
+          "name": "Emiya Archer Unlimited Blade Works Fate",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=175GuH5Qt77KnnokMfDiqZ_cawZqF7hK9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=175GuH5Qt77KnnokMfDiqZ_cawZqF7hK9&sz=w640",
+          "sizeBytes": 4730129,
+          "sha256": "97C160361B1CD419F78EA38A530F18A734D85A5F9F103574A3C4DD41F0B5F642",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Emiya Archer Unlimited Blade Works Fate | ЗВУК"
+        },
+        {
+          "id": "v_7b964686",
+          "name": "Rin And Archer Fishing Fate Stay Night",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12uE0gs7eaFvyFHm6eZz3CzicHtIa6txE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12uE0gs7eaFvyFHm6eZz3CzicHtIa6txE&sz=w640",
+          "sizeBytes": 4715525,
+          "sha256": "3C3608E60CA165C9E5EBDEDEA25A52F9B4C2AE861DD936B5F8ED46E35580C6F1",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rin And Archer Fishing Fate Stay Night | ЗВУК"
+        },
+        {
+          "id": "v_04fd3f72",
+          "name": "Shiki Ryougi Saber Fate Grand Order",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16NJdMGKmi2LvaKW2ynHmizsDWE4cQ47d",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16NJdMGKmi2LvaKW2ynHmizsDWE4cQ47d&sz=w640",
+          "sizeBytes": 4711426,
+          "sha256": "880B84AC199C05BEE711D1A695FF353EBC3A720610300E4887452E455E90A1C8",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Shiki Ryougi Saber Fate Grand Order | ЗВУК"
+        },
+        {
+          "id": "v_5cc84e5b",
+          "name": "Mysterious Heroine X Vs Saber Fate Grand",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FyFehQrbP8qv37k4w3E8Vejmb1Qd9Php",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FyFehQrbP8qv37k4w3E8Vejmb1Qd9Php&sz=w640",
+          "sizeBytes": 4729176,
+          "sha256": "59873D934FB7405AB98ACED9831CB29C2BFFD6EC8FA22903F03BD426F3E5FDDF",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mysterious Heroine X Vs Saber Fate Grand | ЗВУК"
+        },
+        {
+          "id": "v_351c5db6",
+          "name": "Saber Cloudy Vortex Fate Series",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IMSnzms_ybfJ8Yclslbi9oWajFNShN1U",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IMSnzms_ybfJ8Yclslbi9oWajFNShN1U&sz=w640",
+          "sizeBytes": 4740027,
+          "sha256": "1542586C7E2226AD94A9572E7A5428BF3B7AB4C30D3A09BE344C63484E84341C",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Saber Cloudy Vortex Fate Series | ЗВУК"
         }
       ]
     }
