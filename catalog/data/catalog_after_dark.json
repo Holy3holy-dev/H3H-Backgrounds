@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "name": "H3H After Dark (18+) Official Catalog",
-  "updatedAt": "2026-10-22T15:32:21.242086+00:00",
+  "updatedAt": "2026-10-22T15:35:17.510249+00:00",
   "totalGames": 32,
-  "totalVariants": 345,
+  "totalVariants": 346,
   "games": [
     {
       "titleId": "0000000000000000",
@@ -3501,6 +3501,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Firefly Honkai: Star Rail"
+        },
+        {
+          "id": "v_82545bd8",
+          "name": "Neko Nezuko Kimetsu No Yaiba",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LakaKniWfbglhnpDA5MK_8w4aw7DgzPR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LakaKniWfbglhnpDA5MK_8w4aw7DgzPR&sz=w640",
+          "sizeBytes": 4723085,
+          "sha256": "0036BBFC0EF56F096624C507485E93B91FFFFC2B5ED475B2C9AF8C70C957D364",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Neko Nezuko Kimetsu No Yaiba | ЗВУК"
         }
       ]
     },
