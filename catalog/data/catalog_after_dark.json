@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "name": "H3H After Dark (18+) Official Catalog",
-  "updatedAt": "2026-10-22T14:35:08.148347+00:00",
-  "totalGames": 24,
-  "totalVariants": 205,
+  "updatedAt": "2026-10-22T14:36:12.629393+00:00",
+  "totalGames": 26,
+  "totalVariants": 210,
   "games": [
     {
       "titleId": "0000000000000000",
@@ -3879,6 +3879,112 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Misaki Tobisawa Fireworks Aokana: Four R | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "010063F014170000",
+      "title": "Danganronpa Decadence",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010063F014170000.jpg",
+      "variants": [
+        {
+          "id": "v_90eb714d",
+          "name": "Chiaki Nanami Gamer Girl Danganronpa",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WT0vJAk-lzejqA2gaDpHKojNGb4kyzSr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WT0vJAk-lzejqA2gaDpHKojNGb4kyzSr&sz=w640",
+          "sizeBytes": 4604642,
+          "sha256": "9064B8E706A05ACE5C9CD53737C4C7B4FBE38866FAF4CD33CC048C1090C9D606",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Chiaki Nanami Gamer Girl Danganronpa | ЗВУК"
+        },
+        {
+          "id": "v_e8c2279a",
+          "name": "Chiaki Nanami Danganronpa",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12qOZmYPSfrGNe30U8fyKTPjTBoZTI_DD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12qOZmYPSfrGNe30U8fyKTPjTBoZTI_DD&sz=w640",
+          "sizeBytes": 4605101,
+          "sha256": "AD7A2DE18ED068544DB1BF939D71DA0292DFA2819DC43FEBF2C668D4A4302CE3",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Chiaki Nanami Danganronpa | ЗВУК"
+        },
+        {
+          "id": "v_2aa78082",
+          "name": "Celestia Ludenberg Danganronpa",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1P6Mk9Xez5gFRchZQRd97Jr9Wslvf1d8x",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1P6Mk9Xez5gFRchZQRd97Jr9Wslvf1d8x&sz=w640",
+          "sizeBytes": 4749156,
+          "sha256": "BAFE1598B497DACCA531627A32B96B553BC73EE71381BD9B75B8DA21E54FE775",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Celestia Ludenberg Danganronpa | ЗВУК"
+        },
+        {
+          "id": "v_991a3693",
+          "name": "Mukuro Ikusaba And Junko Enoshima Dangan",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SKXxo-Y6S4WvgZnMVdzDf1lWb4Uhnn8j",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SKXxo-Y6S4WvgZnMVdzDf1lWb4Uhnn8j&sz=w640",
+          "sizeBytes": 4720812,
+          "sha256": "3C5E0533CEAF29358419B0B60C6800C105E8767F9B9B01A428B4FECBE0394EC8",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mukuro Ikusaba And Junko Enoshima Dangan | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A3F00C536000",
+      "title": "Kill la Kill - IF",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A3F00C536000.jpg",
+      "variants": [
+        {
+          "id": "v_1bf36e04",
+          "name": "Ryuuko Matoi Scissor Blade Kill La Kill",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1K-TS7nM3IQSU3jk96fo0SdxjN-ibrOI9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1K-TS7nM3IQSU3jk96fo0SdxjN-ibrOI9&sz=w640",
+          "sizeBytes": 4701885,
+          "sha256": "15722ABBEEDFD9021E7BC3EDE92EAB39CA7202370D451A7CB99A0B913FC9A4A0",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ryuuko Matoi Scissor Blade Kill La Kill | ЗВУК"
         }
       ]
     }
