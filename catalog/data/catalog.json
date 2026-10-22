@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "updatedAt": "2026-10-21T21:35:23.453971+00:00",
   "totalGames": 790,
-  "totalVariants": 1023,
+  "totalVariants": 1024,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -1034,6 +1034,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 0100B8E016F76000_NieR_Automata.mp4"
+        },
+        {
+          "id": "var-1042b283",
+          "name": "Dynamic Theme",
+          "style": "Community Animated",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1H_5XRPE1oUtRWZcMAkoVGcMmlbux8iXU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1H_5XRPE1oUtRWZcMAkoVGcMmlbux8iXU&sz=w640",
+          "sizeBytes": 6013055,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "@HolyL0rd",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Submitted via Telegram by @HolyL0rd"
         }
       ]
     },
@@ -23978,5 +23996,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-21T18:20:51.601152+00:00"
+  "lastUpdated": "2026-10-22T18:53:02.145337+00:00"
 }
