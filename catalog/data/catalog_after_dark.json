@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "name": "H3H After Dark (18+) Official Catalog",
-  "updatedAt": "2026-10-21T21:34:18.759887+00:00",
-  "totalGames": 17,
-  "totalVariants": 168,
+  "updatedAt": "2026-10-22T14:23:09.275282+00:00",
+  "totalGames": 18,
+  "totalVariants": 171,
   "games": [
     {
       "titleId": "0000000000000000",
@@ -3157,6 +3157,68 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | David X Lucy Neon Afterglow Cyberpunk Ed | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "010045000E418000",
+      "title": "Nekopara (Vol. 1-4)",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010045000E418000.jpg",
+      "variants": [
+        {
+          "id": "v_2d28599f",
+          "name": "Vanilla Fraise Chocola NekoPara",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LyWSj62iiujSnnG9uEwmjd5y-a9839AK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LyWSj62iiujSnnG9uEwmjd5y-a9839AK&sz=w640",
+          "sizeBytes": 4744903,
+          "sha256": "D08E2FCE50EFA1EAFEE4DB6A44BF276904CA3BC80E33CB99276A9EFBED668FDA",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Vanilla Fraise Chocola NekoPara | ЗВУК"
+        },
+        {
+          "id": "v_87b3b1ee",
+          "name": "Vanilla And Maple And Cinnamon And Shigu",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ml4Z6YI7NORsfCE70xwMPlVF42B0tz9q",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ml4Z6YI7NORsfCE70xwMPlVF42B0tz9q&sz=w640",
+          "sizeBytes": 4628494,
+          "sha256": "959C97064A29ED771A8152291549FBC99F6CFB601F37119488FC920D8E7FF48B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Vanilla And Maple And Cinnamon And Shigu | ЗВУК"
+        },
+        {
+          "id": "v_8be93b93",
+          "name": "Keqing Chocolate Genshin Impact",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1aK6lrT5duUaFczfjRUl7GAw0meB5IRWg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1aK6lrT5duUaFczfjRUl7GAw0meB5IRWg&sz=w640",
+          "sizeBytes": 4725230,
+          "sha256": "2ABA77E83AE7F008A93A1A9B0D3A0105B6B717B98DD889693BF970442E7303F1",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Keqing Chocolate Genshin Impact | ЗВУК"
         }
       ]
     }
