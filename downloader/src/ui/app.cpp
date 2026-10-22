@@ -1179,6 +1179,26 @@ void App::onButtonPress(int button) {
             }
             return;
         }
+        if (button == 15 /* ZL - Fast Page Up 15 */) {
+            m_collectionSelectedIndex = std::max(0, m_collectionSelectedIndex - 15);
+            if (m_collectionSelectedIndex < m_collectionScrollOffset) {
+                m_collectionScrollOffset = m_collectionSelectedIndex;
+            }
+            if (!m_collectionVariants.empty()) {
+                loadCollectionThumbnail(m_collectionVariants[m_collectionSelectedIndex]);
+            }
+            return;
+        }
+        if (button == 16 /* ZR - Fast Page Down 15 */) {
+            m_collectionSelectedIndex = std::min(vCount - 1, m_collectionSelectedIndex + 15);
+            if (m_collectionSelectedIndex >= m_collectionScrollOffset + 5) {
+                m_collectionScrollOffset = std::max(0, m_collectionSelectedIndex - 5 + 1);
+            }
+            if (!m_collectionVariants.empty()) {
+                loadCollectionThumbnail(m_collectionVariants[m_collectionSelectedIndex]);
+            }
+            return;
+        }
         if (button == 0 /* A */ || button == 3 /* Y - Assign to game */) {
             if (!m_collectionVariants.empty() && m_collectionSelectedIndex >= 0 &&
                 m_collectionSelectedIndex < vCount) {
@@ -1315,7 +1335,6 @@ void App::onButtonPress(int button) {
         }
         if (button == 1 /* B */ || button == 2 /* X */) {
             closeFullscreenPreview();
-    closeCollectionBrowser();
             return;
         }
         if (!m_previewVariants.empty()) {
@@ -1549,6 +1568,18 @@ void App::onButtonPress(int button) {
                     m_selectedVariantIndex = 0;
                     m_variantScrollOffset = 0;
                 }
+            } else if (button == 15 /* ZL - Fast Page Up 10 */) {
+                m_myGamesSelectedIndex = std::max(0, m_myGamesSelectedIndex - 10);
+                m_selectedVariantIndex = 0;
+                m_variantScrollOffset = 0;
+                return;
+            } else if (button == 16 /* ZR - Fast Page Down 10 */) {
+                if (!m_installedGames.empty()) {
+                    m_myGamesSelectedIndex = std::min(static_cast<int>(m_installedGames.size()) - 1, m_myGamesSelectedIndex + 10);
+                    m_selectedVariantIndex = 0;
+                    m_variantScrollOffset = 0;
+                }
+                return;
             } else if (button == 14 /* DPAD_RIGHT */ || button == 0 /* A */) {
                 // Move focus to right variants column or open collection browser
                 if (m_myGamesSelectedIndex >= 0 && m_myGamesSelectedIndex < static_cast<int>(m_installedGames.size())) {
@@ -1558,6 +1589,11 @@ void App::onButtonPress(int button) {
                     } else if (g.hasCatalogMatch && !g.catalogEntry.variants.empty()) {
                         m_myGamesActivePane = MyGamesPane::VariantsList;
                         m_selectedVariantIndex = 0;
+                    } else {
+                        m_statusNotification = (m_language == Language::Russian)
+                            ? "Для этой игры пока нет видеофонов в каталоге"
+                            : "No video themes available for this game yet";
+                        m_notificationFramesRemaining = 120;
                     }
                 }
             } else if (button == 2 /* X - Fullscreen Preview */) {
@@ -1566,7 +1602,10 @@ void App::onButtonPress(int button) {
                     if (g.hasCatalogMatch && !g.catalogEntry.variants.empty()) {
                         openFullscreenPreviewForGame(g, m_selectedVariantIndex);
                     } else {
-                        m_activeTab = Tab::Catalog;
+                        m_statusNotification = (m_language == Language::Russian)
+                            ? "Нет доступных видео для предпросмотра"
+                            : "No video preview available";
+                        m_notificationFramesRemaining = 120;
                     }
                 }
             } else if (button == 3 /* Y - Delete / Install Missing */) {
@@ -1647,6 +1686,18 @@ void App::onButtonPress(int button) {
             m_catalogSelectedIndex = std::max(0, m_catalogSelectedIndex - 5);
         } else if (button == 14 /* DPAD_RIGHT - Page Down 5 */) {
             if (totalGames > 0) m_catalogSelectedIndex = std::min(totalGames - 1, m_catalogSelectedIndex + 5);
+        } else if (button == 15 /* ZL - Batch Install or Fast Scroll Up 15 */) {
+            if (!m_batchSelectedTitleIds.empty()) {
+                installBatchSelected();
+            } else {
+                m_catalogSelectedIndex = std::max(0, m_catalogSelectedIndex - 15);
+            }
+            return;
+        } else if (button == 16 /* ZR - Fast Scroll Down 15 */) {
+            if (totalGames > 0) {
+                m_catalogSelectedIndex = std::min(totalGames - 1, m_catalogSelectedIndex + 15);
+            }
+            return;
         } else if (button == 0 /* A - Enter Collection Browser */) {
             if (m_catalogSelectedIndex >= 0 && m_catalogSelectedIndex < totalGames) {
                 const auto& entry = m_filteredCatalogGames[m_catalogSelectedIndex];
@@ -1831,9 +1882,9 @@ void App::renderFooter() {
         if (!m_batchSelectedTitleIds.empty()) {
             hints = "[▲/▼] Выбор   [R3/L3] Чекбокс [✓]   [ZL] Установить (" + std::to_string(m_batchSelectedTitleIds.size()) + ")   [X] Сорт   [Y] Поиск   [B] Назад";
         } else if (!m_catalogSearchQuery.empty()) {
-            hints = "[▲/▼] Выбор   [◀/▶] ±5   [A] Фоны   [R3/L3] Чекбокс [✓]   [X] Сорт   [Y] Поиск   [-] Сброс   [B] Назад";
+            hints = "[▲/▼] Выбор   [ZL/ZR] ±15   [A] Фоны   [R3] Чекбокс   [X] Сорт   [Y] Поиск   [-] Сброс   [B] Назад";
         } else {
-            hints = "[▲/▼] Выбор   [◀/▶] ±5   [A] Фоны   [R3/L3] Чекбокс [✓]   [X] Сорт   [Y] Поиск   [-] Обновить   [B] Назад";
+            hints = "[▲/▼] Выбор   [ZL/ZR] ±15   [A] Фоны   [R3] Чекбокс   [X] Сорт   [Y] Поиск   [-] Обновить   [B] Назад";
         }
     } else if (m_activeTab == Tab::Downloads) {
         hints = "[L/R] Вкладки   [B] Назад в меню   [-] Обновить каталог";

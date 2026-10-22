@@ -1,8 +1,6 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-10-21T21:35:23.453971+00:00",
-  "totalGames": 790,
-  "totalVariants": 1026,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -2944,6 +2942,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 0100C1301A9C2000_MGS3_Snake_Eater.mp4"
+        },
+        {
+          "id": "v_45e3e304",
+          "name": "Solid Snake Shadow Moses",
+          "style": "Cinematic Gameplay",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18A0FOPD1DNTdAlGW9KJVCoqBn4s-Gccn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18A0FOPD1DNTdAlGW9KJVCoqBn4s-Gccn&sz=w640",
+          "sizeBytes": 4758505,
+          "sha256": "B303BC56904FC5230DFA529B6D87AA70817DF3BE1472954702D7486A493AC90E",
+          "durationSec": 30.0,
+          "author": "Moewalls Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Solid Snake Shadow Moses | ЗВУК"
+        },
+        {
+          "id": "v_730fcaf3",
+          "name": "Big Boss Naked Snake",
+          "style": "Atmospheric 2D",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19zUG6sqrHVIFnYvJZshFD3WfUIPgPGNW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19zUG6sqrHVIFnYvJZshFD3WfUIPgPGNW&sz=w640",
+          "sizeBytes": 4712095,
+          "sha256": "DCC61221713725C97AF77D95141CD629B0C40A537CDB4D8FE8F942CD788659AB",
+          "durationSec": 30.0,
+          "author": "Moewalls Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Big Boss Naked Snake | ЗВУК"
         }
       ]
     },
@@ -22380,7 +22414,6 @@
       "titleId": "01000B900D8B0000",
       "title": "DOOM Eternal",
       "publisher": "Nintendo Switch",
-      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000B900D8B0000.jpg",
       "variants": [
         {
           "id": "v_435d4415",
@@ -22478,7 +22511,6 @@
       "titleId": "0100BC0005C8A000",
       "title": "DOOM (2016)",
       "publisher": "Nintendo Switch",
-      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BC0005C8A000.jpg",
       "variants": [
         {
           "id": "v_88f62977",
@@ -22522,7 +22554,6 @@
       "titleId": "010034400C3DA000",
       "title": "Wolfenstein II: The New Colossus",
       "publisher": "Nintendo Switch",
-      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010034400C3DA000.jpg",
       "variants": [
         {
           "id": "v_0d586d96",
@@ -22548,7 +22579,6 @@
       "titleId": "010014200B0D0000",
       "title": "Metro 2033 Redux",
       "publisher": "Nintendo Switch",
-      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010014200B0D0000.jpg",
       "variants": [
         {
           "id": "v_7b1bbea4",
@@ -22574,7 +22604,6 @@
       "titleId": "01000F400B0D2000",
       "title": "Metro: Last Light Redux",
       "publisher": "Nintendo Switch",
-      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000F400B0D2000.jpg",
       "variants": [
         {
           "id": "v_b3019324",
@@ -22600,7 +22629,6 @@
       "titleId": "01008C3005A66000",
       "title": "Dead Cells",
       "publisher": "Nintendo Switch",
-      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008C3005A66000.jpg",
       "variants": [
         {
           "id": "v_78a7f38a",
@@ -22626,7 +22654,6 @@
       "titleId": "010079C009494000",
       "title": "Cuphead",
       "publisher": "Nintendo Switch",
-      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010079C009494000.jpg",
       "variants": [
         {
           "id": "v_c6af14ef",
@@ -22670,7 +22697,6 @@
       "titleId": "010052300B254000",
       "title": "Hades",
       "publisher": "Nintendo Switch",
-      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010052300B254000.jpg",
       "variants": [
         {
           "id": "v_9f19a208",
@@ -22732,7 +22758,6 @@
       "titleId": "010036500ECF2000",
       "title": "Hollow Knight",
       "publisher": "Nintendo Switch",
-      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010036500ECF2000.jpg",
       "variants": [
         {
           "id": "v_4fef76ff",
@@ -22902,7 +22927,6 @@
       "titleId": "010074600E9F2000",
       "title": "Xenoblade Chronicles 3",
       "publisher": "Nintendo Switch",
-      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010074600E9F2000.jpg",
       "variants": [
         {
           "id": "v_09262ef7",
@@ -22928,7 +22952,6 @@
       "titleId": "01003BC0000A0000",
       "title": "Kirby and the Forgotten Land",
       "publisher": "Nintendo Switch",
-      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003BC0000A0000.jpg",
       "variants": [
         {
           "id": "v_5c0baf7e",
@@ -23033,7 +23056,6 @@
       "titleId": "010093800B8C8000",
       "title": "Stardew Valley",
       "publisher": "Nintendo Switch",
-      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010093800B8C8000.jpg",
       "variants": [
         {
           "id": "v_07edabf0",
@@ -23059,7 +23081,6 @@
       "titleId": "0100559011540000",
       "title": "Monster Hunter Rise",
       "publisher": "Nintendo Switch",
-      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100559011540000.jpg",
       "variants": [
         {
           "id": "v_7dfabf8b",
@@ -23121,7 +23142,6 @@
       "titleId": "010006700C7E2000",
       "title": "Blasphemous",
       "publisher": "Nintendo Switch",
-      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010006700C7E2000.jpg",
       "variants": [
         {
           "id": "v_50cbe1a1",
@@ -23147,7 +23167,6 @@
       "titleId": "010038800C3DC000",
       "title": "BioShock Remastered",
       "publisher": "Nintendo Switch",
-      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010038800C3DC000.jpg",
       "variants": [
         {
           "id": "v_f8b82ba2",
@@ -23191,7 +23210,6 @@
       "titleId": "01004C800C3DC000",
       "title": "Need for Speed: Most Wanted",
       "publisher": "Nintendo Switch",
-      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004C800C3DC000.jpg",
       "variants": [
         {
           "id": "v_604a7c6a",
@@ -23217,7 +23235,6 @@
       "titleId": "0100658013AE8000",
       "title": "Grand Theft Auto III - Definitive",
       "publisher": "Nintendo Switch",
-      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100658013AE8000.jpg",
       "variants": [
         {
           "id": "v_038231a5",
@@ -23279,7 +23296,6 @@
       "titleId": "010065000C3DE000",
       "title": "BioShock Infinite",
       "publisher": "Nintendo Switch",
-      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010065000C3DE000.jpg",
       "variants": [
         {
           "id": "v_003afee9",
@@ -23305,7 +23321,6 @@
       "titleId": "01000F900C404000",
       "title": "Borderlands 2",
       "publisher": "Nintendo Switch",
-      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000F900C404000.jpg",
       "variants": [
         {
           "id": "v_5616c72e",
@@ -23331,7 +23346,6 @@
       "titleId": "0100659013AEA000",
       "title": "Grand Theft Auto: Vice City - Definitive",
       "publisher": "Nintendo Switch",
-      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100659013AEA000.jpg",
       "variants": [
         {
           "id": "v_cc185770",
@@ -23375,7 +23389,6 @@
       "titleId": "01005A300C3FA000",
       "title": "Borderlands: The Pre-Sequel",
       "publisher": "Nintendo Switch",
-      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005A300C3FA000.jpg",
       "variants": [
         {
           "id": "v_c7cf1f47",
@@ -23401,7 +23414,6 @@
       "titleId": "010086C00AF7C000",
       "title": "Ori and the Will of the Wisps",
       "publisher": "Nintendo Switch",
-      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010086C00AF7C000.jpg",
       "variants": [
         {
           "id": "v_726a16a4",
@@ -23499,7 +23511,6 @@
       "titleId": "0100C6F01C4F8000",
       "title": "Metal Gear Solid: Master Collection Edition, Vol. 2 (MGS 4 Guns of the Patriots / Peace Walker / Metal Gear Ghost Babel) [NSZ][ENG]",
       "publisher": "Nintendo Switch",
-      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C6F01C4F8000.jpg",
       "variants": [
         {
           "id": "v_c4988a5e",
@@ -23543,7 +23554,6 @@
       "titleId": "0100B9F00BD34000",
       "title": "DOOM (Classic Port)",
       "publisher": "Nintendo Switch",
-      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B9F00BD34000.jpg",
       "variants": [
         {
           "id": "v_b1814620",
@@ -23605,7 +23615,6 @@
       "titleId": "0100B9F00BD36000",
       "title": "DOOM II (Classic Port)",
       "publisher": "Nintendo Switch",
-      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B9F00BD36000.jpg",
       "variants": [
         {
           "id": "v_0760df0e",
@@ -23667,7 +23676,6 @@
       "titleId": "0100D1D027E96000",
       "title": "Castlevania Belmont's Curse [NSP][RUS/Multi11]",
       "publisher": "Nintendo Switch",
-      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D1D027E96000.jpg",
       "variants": [
         {
           "id": "v_3bcda772",
@@ -23693,7 +23701,6 @@
       "titleId": "010083A018262000",
       "title": "Hitman Blood Money Reprisal [NSZ][RUS/Multi8]",
       "publisher": "Nintendo Switch",
-      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010083A018262000.jpg",
       "variants": [
         {
           "id": "v_0c98f258",
@@ -23719,7 +23726,6 @@
       "titleId": "0100F7901118C000",
       "title": "Five Nights at Freddy's (FNAF): 1, 2, 3, 4 / Secret of the Mimic / Into the Pit / Security Breach / Help Wanted 1-2 + Curse of Dreadbear / Sister Location / Freddy Fazbear's Pizzeria Simulator / Ultimate Custom Night [NSZ][ENG,RUS]",
       "publisher": "Nintendo Switch",
-      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F7901118C000.jpg",
       "variants": [
         {
           "id": "v_7acaf943",
@@ -23763,7 +23769,6 @@
       "titleId": "0100DFC01D57A000",
       "title": "Worms Armageddon Anniversary edition [NSP][RUS/Multi9]",
       "publisher": "Nintendo Switch",
-      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DFC01D57A000.jpg",
       "variants": [
         {
           "id": "v_91a1a5e2",
@@ -23789,7 +23794,6 @@
       "titleId": "0100CF401A98E000",
       "title": "Contra Operation Galuga [NSZ][RUS/Multi11]",
       "publisher": "Nintendo Switch",
-      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CF401A98E000.jpg",
       "variants": [
         {
           "id": "v_15c8ad6f",
@@ -23815,7 +23819,6 @@
       "titleId": "01007E6002A54000",
       "title": "Sonic Mania",
       "publisher": "Nintendo Switch",
-      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007E6002A54000.jpg",
       "variants": [
         {
           "id": "v_4f3b6952",
@@ -23895,7 +23898,6 @@
       "titleId": "0100994017EE6000",
       "title": "Sonic Frontiers",
       "publisher": "Nintendo Switch",
-      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100994017EE6000.jpg",
       "variants": [
         {
           "id": "v_83a0c2fa",
@@ -23921,7 +23923,6 @@
       "titleId": "01005C000B2AE000",
       "title": "NieR:Automata",
       "publisher": "Nintendo Switch",
-      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005C000B2AE000.jpg",
       "variants": [
         {
           "id": "v_03d3bc7f",
@@ -23983,7 +23984,6 @@
       "titleId": "010091200CDA4000",
       "title": "Persona 5 Royal",
       "publisher": "Nintendo Switch",
-      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010091200CDA4000.jpg",
       "variants": [
         {
           "id": "v_2b370bd9",
@@ -24009,7 +24009,6 @@
       "titleId": "0100A6901170A000",
       "title": "Need for Speed: Hot Pursuit Remastered",
       "publisher": "Nintendo Switch",
-      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A6901170A000.jpg",
       "variants": [
         {
           "id": "v_f3abfaaf",
@@ -24030,7 +24029,103 @@
           "notes": "Switch 720p 30fps H264 | BMW M3 E46 Need For Speed"
         }
       ]
+    },
+    {
+      "titleId": "01004D4752000000",
+      "title": "Metal Gear Rising: Revengeance",
+      "publisher": "Konami / PlatinumGames",
+      "variants": [
+        {
+          "id": "v_50ac22ed",
+          "name": "Cyborg Ninja Raiden",
+          "style": "Cinematic 3D",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pbr3jhidMhEJzMxIeZlsCMQmdA0uaUNE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pbr3jhidMhEJzMxIeZlsCMQmdA0uaUNE&sz=w640",
+          "sizeBytes": 4725215,
+          "sha256": "9698A557D9706268CBA8DA7654C6766A29EACDD039659D8D27CF6D95DC72DDFF",
+          "durationSec": 30.0,
+          "author": "Moewalls Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cyborg Ninja Raiden | ЗВУК"
+        },
+        {
+          "id": "v_95cddd87",
+          "name": "Raiden Crimson Blade",
+          "style": "Dynamic Action",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10G1Jc9iYxcQSC2yudXRb-oKRckgz_N6B",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10G1Jc9iYxcQSC2yudXRb-oKRckgz_N6B&sz=w640",
+          "sizeBytes": 4713471,
+          "sha256": "69E438A9AB753784862A80CD60E38023376E89D6E2EDFE12EA96271C2F2DD8E6",
+          "durationSec": 30.0,
+          "author": "Moewalls Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Raiden Crimson Blade | ЗВУК"
+        },
+        {
+          "id": "v_11aec047",
+          "name": "Raiden Jack the Ripper",
+          "style": "Cinematic 3D",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yKp4UcdIu4QBo-7FO2HyzoTUfu83LD-7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yKp4UcdIu4QBo-7FO2HyzoTUfu83LD-7&sz=w640",
+          "sizeBytes": 4699863,
+          "sha256": "B6B3CCA8A60DF73DED5201FEEF31BCB5080BD759C74506391C44A7CE22AD2B6E",
+          "durationSec": 30.0,
+          "author": "Moewalls Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Raiden Jack the Ripper | ЗВУК"
+        },
+        {
+          "id": "v_5fc0fd18",
+          "name": "Raiden Black & White Noir",
+          "style": "Minimalist Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PHkSZSL5qrwns3aqp_AxNGf3upIr6ZeL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PHkSZSL5qrwns3aqp_AxNGf3upIr6ZeL&sz=w640",
+          "sizeBytes": 4669082,
+          "sha256": "276EC1DEE2BCC26CC852ACD9F54D88FECBEA340D788EDD48D38DC020B31AC9E1",
+          "durationSec": 30.0,
+          "author": "Moewalls Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Raiden Black & White Noir | ЗВУК"
+        },
+        {
+          "id": "v_b0161f29",
+          "name": "Raiden High-Frequency Blade",
+          "style": "Official Theme",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WZVzyYwojEstfk8MwhQDIW4TB_a0dihW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WZVzyYwojEstfk8MwhQDIW4TB_a0dihW&sz=w640",
+          "sizeBytes": 4733122,
+          "sha256": "4A2B85BE7749F9F58EE5FAA694376A0F58277C71C4135EB0D517B1A1BD56D1F1",
+          "durationSec": 30.0,
+          "author": "Moewalls Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Raiden High-Frequency Blade | ЗВУК"
+        }
+      ]
     }
-  ],
-  "lastUpdated": "2026-10-22T18:54:40.596649+00:00"
+  ]
 }
