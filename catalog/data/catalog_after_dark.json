@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "name": "H3H After Dark (18+) Official Catalog",
-  "updatedAt": "2026-10-22T17:07:48.092059+00:00",
+  "updatedAt": "2026-10-22T17:14:33.085253+00:00",
   "totalGames": 33,
-  "totalVariants": 439,
+  "totalVariants": 440,
   "games": [
     {
       "titleId": "0000000000000000",
@@ -4833,6 +4833,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Chainsaw Man Slideshow | ЗВУК"
+        },
+        {
+          "id": "v_2aff0e25",
+          "name": "Psycho-Pass Akane",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19KpEXBGkZNsWYKdO8Dq1OEx4wnh_N4bN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19KpEXBGkZNsWYKdO8Dq1OEx4wnh_N4bN&sz=w640",
+          "sizeBytes": 4604073,
+          "sha256": "DEBFF1E263F78FFD8DA497EA7996ACF0FD4EEC67293760104ACDC4FC9F5E5A7B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Psycho-Pass Akane"
         }
       ]
     },
