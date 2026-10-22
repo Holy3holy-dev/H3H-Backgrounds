@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "name": "H3H After Dark (18+) Official Catalog",
-  "updatedAt": "2026-10-22T14:23:09.275282+00:00",
-  "totalGames": 18,
-  "totalVariants": 171,
+  "updatedAt": "2026-10-22T14:24:16.014744+00:00",
+  "totalGames": 21,
+  "totalVariants": 176,
   "games": [
     {
       "titleId": "0000000000000000",
@@ -3219,6 +3219,120 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Keqing Chocolate Genshin Impact | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A3A00CC7E000",
+      "title": "Clannad",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A3A00CC7E000.jpg",
+      "variants": [
+        {
+          "id": "v_c2c79d33",
+          "name": "Ushio Smiling Clannad: After Story",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1k79bBDITu13DHlSykqOjAMbYrdvxBAq1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1k79bBDITu13DHlSykqOjAMbYrdvxBAq1&sz=w640",
+          "sizeBytes": 4713785,
+          "sha256": "C36A9A19274A03CE526DB0A47DB3AF98E86B1F78895ACB58550FE3334EBE640A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ushio Smiling Clannad: After Story | ЗВУК"
+        },
+        {
+          "id": "v_03e269cd",
+          "name": "Nagisa Hugging Ushio In The Flower Field",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UlErfNu-Md9U_kDAYBG5t1o9TYwbrEE3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UlErfNu-Md9U_kDAYBG5t1o9TYwbrEE3&sz=w640",
+          "sizeBytes": 4702618,
+          "sha256": "E0446812C89E9A52247A35B94BCB4BC28821CF89167D4AA2FB0B7D91FDDE9DBF",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Nagisa Hugging Ushio In The Flower Field | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "010092300D49E000",
+      "title": "Atelier Ryza / Sophie",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010092300D49E000.jpg",
+      "variants": [
+        {
+          "id": "v_eecbc5cb",
+          "name": "Atelier Sophie The Alchemist of the Myst",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17TkKRVwu73iuNr3fZ8TUIUd8sdYUajWm",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17TkKRVwu73iuNr3fZ8TUIUd8sdYUajWm&sz=w640",
+          "sizeBytes": 4692950,
+          "sha256": "B6494C09F1B40DF02597C972CC26AFCA9BCFBA031818CD9E09B7E1200DE3BEE5",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Atelier Sophie The Alchemist of the Myst | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "01001E30126A0000",
+      "title": "Melty Blood: Type Lumina",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001E30126A0000.jpg",
+      "variants": [
+        {
+          "id": "v_85e5f13c",
+          "name": "Arcueid Brunestud Lunar Legend Tsukihime",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UKgfwI9nBqxrgTRNYx1yibxXOE0jwXsx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UKgfwI9nBqxrgTRNYx1yibxXOE0jwXsx&sz=w640",
+          "sizeBytes": 4545746,
+          "sha256": "49ACF4C4578E390782C9361BAD0404703B26B280836F59F5CCCBD0166C76D1FE",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Arcueid Brunestud Lunar Legend Tsukihime | ЗВУК"
+        },
+        {
+          "id": "v_c81391e2",
+          "name": "Moonlit Night Clouds",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13rSu5QWZ4vLeUtlwxk9KoNMl8JB2tRh3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13rSu5QWZ4vLeUtlwxk9KoNMl8JB2tRh3&sz=w640",
+          "sizeBytes": 4723691,
+          "sha256": "4EBB1838F7AAA4F81EBA19E3584B02C990F988F89A13F736359EAD971C9C599E",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Moonlit Night Clouds | ЗВУК"
         }
       ]
     }
