@@ -980,19 +980,101 @@ void App::handleInput() {
 
             // If dialog is open, handle direct taps on dialog buttons
             if (m_activeDialog != DialogType::None) {
-                // Confirm button: x in [440, 610], y in [400, 450]
                 if (my >= 400 && my <= 450 && mx >= 440 && mx <= 610) {
                     m_dialogFocus = 0;
                     onButtonPress(0 /* A - Confirm */);
-                }
-                // Cancel button: x in [650, 820], y in [400, 450]
-                else if (my >= 400 && my <= 450 && mx >= 650 && mx <= 820) {
+                } else if (my >= 400 && my <= 450 && mx >= 650 && mx <= 820) {
                     m_dialogFocus = 1;
                     onButtonPress(1 /* B - Cancel */);
-                }
-                // Outside dialog: dismiss
-                else if (mx < 315 || mx > 965 || my < 235 || my > 485) {
+                } else if (mx < 315 || mx > 965 || my < 235 || my > 485) {
                     m_activeDialog = DialogType::None;
+                }
+                continue;
+            }
+
+            // If Fullscreen Preview is active, tap closes preview
+            if (m_isFullscreenPreview) {
+                closeFullscreenPreview();
+                continue;
+            }
+
+            // If Game Picker Modal is open, handle touch navigation and selection
+            if (m_isGamePickerOpen) {
+                int bw = 1140, bh = 600;
+                int bx = (Theme::SCREEN_WIDTH - bw) / 2;
+                int by = (Theme::SCREEN_HEIGHT - bh) / 2;
+                if (mx < bx || mx > bx + bw || my < by || my > by + bh) {
+                    closeGamePicker();
+                } else if (my >= by + 95 && my <= by + 95 + 5 * 88) {
+                    int clickedIdx = m_gamePickerScrollOffset + (my - (by + 95)) / 88;
+                    if (clickedIdx >= 0 && clickedIdx < static_cast<int>(m_installedGames.size())) {
+                        m_gamePickerSelectedIndex = clickedIdx;
+                        onButtonPress(0 /* A - Select Game */);
+                    }
+                }
+                continue;
+            }
+
+            // If Recordings Browser Modal is open, handle touch
+            if (m_isRecordingsBrowserOpen) {
+                int bw = 1100, bh = 560;
+                int bx = (Theme::SCREEN_WIDTH - bw) / 2;
+                int by = (Theme::SCREEN_HEIGHT - bh) / 2;
+                if (mx < bx || mx > bx + bw || my < by || my > by + bh) {
+                    closeRecordingsBrowser();
+                } else if (my >= by + 105 && my <= by + 105 + 5 * 74) {
+                    int clickedIdx = m_recordingsScrollOffset + (my - (by + 105)) / 74;
+                    if (clickedIdx >= 0 && clickedIdx < static_cast<int>(m_localRecordings.size())) {
+                        m_recordingsSelectedIndex = clickedIdx;
+                        onButtonPress(0 /* A - Install */);
+                    }
+                }
+                continue;
+            }
+
+            // If Collection Browser Modal is open, handle touch
+            if (m_isCollectionBrowserOpen) {
+                int bw = 1220, bh = 660;
+                int bx = (Theme::SCREEN_WIDTH - bw) / 2;
+                int by = (Theme::SCREEN_HEIGHT - bh) / 2;
+                if (mx < bx || mx > bx + bw || my < by || my > by + bh) {
+                    closeCollectionBrowser();
+                } else {
+                    int lx = bx + 25, ly = by + 68, lw = 635;
+                    // Left Column: tapping variant item
+                    if (mx >= lx && mx <= lx + lw && my >= ly && my <= ly + 5 * 96) {
+                        int clickedIdx = m_collectionScrollOffset + (my - ly) / 96;
+                        if (clickedIdx >= 0 && clickedIdx < static_cast<int>(m_collectionVariants.size())) {
+                            m_collectionSelectedIndex = clickedIdx;
+                            loadCollectionThumbnail(m_collectionVariants[clickedIdx]);
+                        }
+                    } else {
+                        int rx = bx + 675, ry = by + 68;
+                        int px = rx + 20, py = ry + 20, pw = 480, ph = 270;
+                        int b1y = py + ph + 80;
+                        int b3y = py + ph + 130;
+
+                        // Tap preview thumbnail -> open fullscreen live video
+                        if (mx >= px && mx <= px + pw && my >= py && my <= py + ph) {
+                            onButtonPress(2 /* X - Video */);
+                        }
+                        // Button [A] Назначить на игру
+                        else if (mx >= px && mx <= px + 230 && my >= b1y && my <= b1y + 42) {
+                            onButtonPress(0 /* A - Assign */);
+                        }
+                        // Button [X] Видео в полный экран
+                        else if (mx >= px + 245 && mx <= px + 475 && my >= b1y && my <= b1y + 42) {
+                            onButtonPress(2 /* X - Video */);
+                        }
+                        // Button [L] В избранное
+                        else if (mx >= px && mx <= px + 230 && my >= b3y && my <= b3y + 36) {
+                            onButtonPress(9 /* L - Favorite */);
+                        }
+                        // Button [B] Закрыть
+                        else if (mx >= px + 245 && mx <= px + 475 && my >= b3y && my <= b3y + 36) {
+                            closeCollectionBrowser();
+                        }
+                    }
                 }
                 continue;
             }
@@ -1243,6 +1325,26 @@ void App::onButtonPress(int button) {
             }
             return;
         }
+        if (button == 13 /* LEFT - Page Up 5 */) {
+            m_gamePickerSelectedIndex = std::max(0, m_gamePickerSelectedIndex - 5);
+            return;
+        }
+        if (button == 14 /* RIGHT - Page Down 5 */) {
+            if (!m_installedGames.empty()) {
+                m_gamePickerSelectedIndex = std::min(static_cast<int>(m_installedGames.size()) - 1, m_gamePickerSelectedIndex + 5);
+            }
+            return;
+        }
+        if (button == 15 /* ZL - Fast Page Up 10 */) {
+            m_gamePickerSelectedIndex = std::max(0, m_gamePickerSelectedIndex - 10);
+            return;
+        }
+        if (button == 16 /* ZR - Fast Page Down 10 */) {
+            if (!m_installedGames.empty()) {
+                m_gamePickerSelectedIndex = std::min(static_cast<int>(m_installedGames.size()) - 1, m_gamePickerSelectedIndex + 10);
+            }
+            return;
+        }
         if (button == 0 /* A - Select Game */) {
             if (!m_installedGames.empty() && m_gamePickerSelectedIndex >= 0 &&
                 m_gamePickerSelectedIndex < static_cast<int>(m_installedGames.size())) {
@@ -1279,6 +1381,26 @@ void App::onButtonPress(int button) {
         if (button == 12 /* DOWN */) {
             if (m_recordingsSelectedIndex + 1 < static_cast<int>(m_localRecordings.size())) {
                 m_recordingsSelectedIndex++;
+            }
+            return;
+        }
+        if (button == 13 /* LEFT - Page Up 5 */) {
+            m_recordingsSelectedIndex = std::max(0, m_recordingsSelectedIndex - 5);
+            return;
+        }
+        if (button == 14 /* RIGHT - Page Down 5 */) {
+            if (!m_localRecordings.empty()) {
+                m_recordingsSelectedIndex = std::min(static_cast<int>(m_localRecordings.size()) - 1, m_recordingsSelectedIndex + 5);
+            }
+            return;
+        }
+        if (button == 15 /* ZL - Fast Page Up 10 */) {
+            m_recordingsSelectedIndex = std::max(0, m_recordingsSelectedIndex - 10);
+            return;
+        }
+        if (button == 16 /* ZR - Fast Page Down 10 */) {
+            if (!m_localRecordings.empty()) {
+                m_recordingsSelectedIndex = std::min(static_cast<int>(m_localRecordings.size()) - 1, m_recordingsSelectedIndex + 10);
             }
             return;
         }
@@ -1723,6 +1845,18 @@ void App::onButtonPress(int button) {
         if (button == 1 /* B - Back to Home */) {
             m_activeTab = Tab::Home;
             return;
+        } else if (button == 2 /* X - Clear finished/failed tasks */) {
+            std::lock_guard<std::mutex> lock(m_queueMutex);
+            m_downloadQueue.erase(
+                std::remove_if(m_downloadQueue.begin(), m_downloadQueue.end(),
+                    [](const DownloadTask& t) {
+                        return t.state == TaskState::Completed || t.state == TaskState::Failed;
+                    }),
+                m_downloadQueue.end()
+            );
+            m_statusNotification = (m_language == Language::Russian) ? "Завершённые задачи очищены" : "Finished tasks cleared";
+            m_notificationFramesRemaining = 90;
+            return;
         } else if (button == 11 /* DPAD_UP */) {
             if (m_downloadsScrollOffset > 0) m_downloadsScrollOffset--;
         } else if (button == 12 /* DPAD_DOWN */) {
@@ -1887,7 +2021,7 @@ void App::renderFooter() {
             hints = "[▲/▼] Выбор   [ZL/ZR] ±15   [A] Фоны   [R3] Чекбокс   [X] Сорт   [Y] Поиск   [-] Обновить   [B] Назад";
         }
     } else if (m_activeTab == Tab::Downloads) {
-        hints = "[L/R] Вкладки   [B] Назад в меню   [-] Обновить каталог";
+        hints = "[L/R] Вкладки   [X] Очистить завершённые   [Y] Добавить все недостающие   [B] Назад";
     } else if (m_activeTab == Tab::Settings) {
         hints = "[L/R] Вкладки   [▲/▼] Выбор пункта   [A] Применить / Очистить   [B] Назад в меню";
     }
@@ -2502,7 +2636,7 @@ void App::renderTabSettings() {
     };
 
     std::vector<SettingRow> rows = {
-        {"Обновление приложения (NRO)", "Проверить и установить новую версию H3H-Backgrounds.nro с GitHub", std::string("v") + Config::APP_VERSION + " [A]", Theme::COLOR_FOCUS_CYAN},
+        {"Обновление приложения (NRO)", std::string("Проверить и установить новую версию ") + Config::APP_NAME + " с GitHub", std::string("v") + Config::APP_VERSION + " [A]", Theme::COLOR_FOCUS_CYAN},
         {"Обновление каталога видеофонов", "Загрузить новейший каталог игр и обложек без обновления NRO", "GitHub Releases [A]", Theme::COLOR_FOCUS_CYAN},
         {"Очистить кэш мини-превью (галерея)", "Удалить сохраненные миниатюры обложек (thumbs/) для освобождения места", "[A] Очистить", Theme::COLOR_FOCUS_PINK},
         {"Очистить кэш видеоплеера (видео)", "Удалить временные видеофайлы предпросмотра (mp4) на SD-карте", "[A] Очистить", Theme::COLOR_FOCUS_PINK},
