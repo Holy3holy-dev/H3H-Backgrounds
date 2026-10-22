@@ -18,7 +18,7 @@ DATA        := data
 
 APP_TITLE   := H3H Backgrounds (4IFIR)
 APP_AUTHOR  := H3H Team
-APP_VERSION := 1.0.0
+APP_VERSION := 1.3.0
 
 ARCH        := -march=armv8-a+crc+crypto -mtune=cortex-a57 -mtp=soft -fPIE
 
