@@ -75,17 +75,36 @@ if local_proxy:
 
 bot = telebot.TeleBot(BOT_TOKEN, parse_mode="HTML")
 
-# --- Cloud Web Health Check Server (Port 10000 for Render) ---
+# --- Cloud Web Health Check Server & Anti-Sleep Self-Pinger (Port 10000 for Render) ---
 
 class HealthCheckHandler(BaseHTTPRequestHandler):
     def do_GET(self):
         self.send_response(200)
         self.send_header('Content-Type', 'text/html; charset=utf-8')
         self.end_headers()
-        self.wfile.write(b'<h1>H3H Backgrounds Telegram Bot is Live!</h1>')
+        self.wfile.write(b'<h1>H3H Backgrounds Telegram Bot is Live (24/7 Anti-Sleep)!</h1>')
 
     def log_message(self, format, *args):
         pass
+
+def keep_alive_self_pinger():
+    """Pings Render external URL every 8 minutes through public edge to prevent 15-min idle spin-down."""
+    time.sleep(30)  # Wait for initial boot
+    url = (os.getenv("RENDER_EXTERNAL_URL") or os.getenv("RENDER_SERVICE_URL") or "").strip()
+    if not url:
+        return
+    print(f"[*] Render Anti-Sleep Self-Pinger activated for: {url}")
+    while True:
+        time.sleep(8 * 60)  # Ping every 8 minutes (Render spins down at 15 minutes)
+        try:
+            req = urllib.request.Request(
+                f"{url.rstrip('/')}/",
+                headers={"User-Agent": "H3H-AntiSleep-KeepAlive/1.0"}
+            )
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                print(f"[*] Keep-Alive self-ping OK ({resp.status})")
+        except Exception as e:
+            print(f"[-] Keep-Alive ping notice: {e}")
 
 def start_health_server():
     port = int(os.getenv('PORT', 10000))
@@ -97,6 +116,7 @@ def start_health_server():
         print(f'[*] Health check server notice (safe to ignore locally): {e}')
 
 threading.Thread(target=start_health_server, daemon=True).start()
+threading.Thread(target=keep_alive_self_pinger, daemon=True).start()
 
 resolver = TitleIdResolver(str(PROJECT_ROOT / CATALOG_PATH_STANDARD))
 
