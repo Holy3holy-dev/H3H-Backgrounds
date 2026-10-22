@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "name": "H3H After Dark (18+) Official Catalog",
-  "updatedAt": "2026-10-22T17:14:33.085253+00:00",
+  "updatedAt": "2026-10-22T17:15:18.137336+00:00",
   "totalGames": 33,
-  "totalVariants": 440,
+  "totalVariants": 441,
   "games": [
     {
       "titleId": "0000000000000000",
@@ -4851,6 +4851,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Psycho-Pass Akane"
+        },
+        {
+          "id": "v_791f5ae8",
+          "name": "Ushio Noa Blue Archive",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1svwYjWVi4BKUDZo81BiyR0vs_XRkE7Q4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1svwYjWVi4BKUDZo81BiyR0vs_XRkE7Q4&sz=w640",
+          "sizeBytes": 4737978,
+          "sha256": "2998F82949EACD7B0569B0F1AB178AF3E5C0360AC1D6D08FDF276553A5492879",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ushio Noa Blue Archive | ЗВУК"
         }
       ]
     },
