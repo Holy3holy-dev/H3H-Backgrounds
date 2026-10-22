@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "name": "H3H After Dark (18+) Official Catalog",
-  "updatedAt": "2026-10-22T14:36:12.629393+00:00",
-  "totalGames": 26,
-  "totalVariants": 210,
+  "updatedAt": "2026-10-22T14:37:27.610505+00:00",
+  "totalGames": 27,
+  "totalVariants": 212,
   "games": [
     {
       "titleId": "0000000000000000",
@@ -3985,6 +3985,50 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Ryuuko Matoi Scissor Blade Kill La Kill | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BE400CA2E000",
+      "title": "Steins;Gate Divergence Assorted",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BE400CA2E000.jpg",
+      "variants": [
+        {
+          "id": "v_f39b2583",
+          "name": "Kurisu Makise Steins;Gate",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wQLEX9wKQevyVbtCF7mNf9egCL7OHRtL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wQLEX9wKQevyVbtCF7mNf9egCL7OHRtL&sz=w640",
+          "sizeBytes": 4695389,
+          "sha256": "836F408964F3224176438C86EFD2E4A7C79685F0FAC7D21108A48093DF3AB6F6",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kurisu Makise Steins;Gate | ЗВУК"
+        },
+        {
+          "id": "v_157d0c7c",
+          "name": "Steins;Gate Lab Members",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1J0OpRg6Wr3uXQzhEW6u45x4adBjr_aqK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1J0OpRg6Wr3uXQzhEW6u45x4adBjr_aqK&sz=w640",
+          "sizeBytes": 4696937,
+          "sha256": "3F1A8CEBE42E35E0CA0764E0ACBB807885CE47C5F63527E2D2340037CE4A5840",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Steins;Gate Lab Members | ЗВУК"
         }
       ]
     }
