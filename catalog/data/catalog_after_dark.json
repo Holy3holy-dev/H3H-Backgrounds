@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "name": "H3H After Dark (18+) Official Catalog",
-  "updatedAt": "2026-10-22T15:30:39.320286+00:00",
-  "totalGames": 31,
-  "totalVariants": 340,
+  "updatedAt": "2026-10-22T15:32:21.242086+00:00",
+  "totalGames": 32,
+  "totalVariants": 345,
   "games": [
     {
       "titleId": "0000000000000000",
@@ -4915,6 +4915,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Lancer Fate Grand Order | ЗВУК"
+        },
+        {
+          "id": "v_b3a06123",
+          "name": "Tamamo No Mae Crying In The Field Fate G",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Yg3-aAQqndyl4gFeeMUIZdE9pvMHo0Ja",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Yg3-aAQqndyl4gFeeMUIZdE9pvMHo0Ja&sz=w640",
+          "sizeBytes": 4679592,
+          "sha256": "06D49D8791FD824DBD67A3AF09882C1F93F4A59BB6E3D02EF4BC0330D0102E69",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tamamo No Mae Crying In The Field Fate G | ЗВУК"
         }
       ]
     },
@@ -6365,6 +6383,86 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Yuki X Aigis In The Train Persona 3 Relo"
+        }
+      ]
+    },
+    {
+      "titleId": "01003AE007204000",
+      "title": "Gal*Gun 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003AE007204000.jpg",
+      "variants": [
+        {
+          "id": "v_00f97f76",
+          "name": "Galbrena Wuthering Waves",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1psOAk9jI8ys6cxx6Y83ox_GWXGrHWFfj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1psOAk9jI8ys6cxx6Y83ox_GWXGrHWFfj&sz=w640",
+          "sizeBytes": 4736344,
+          "sha256": "EC574EB52CCD096F6B8FD559950CABE0C799FDC516B2DC1E991CA2A68B2B912F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Galbrena Wuthering Waves | ЗВУК"
+        },
+        {
+          "id": "v_10d76485",
+          "name": "Galbrena Wuthering Waves",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WA7q0xsOLSpE95fSBaAyZXeTu4S3V7DM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WA7q0xsOLSpE95fSBaAyZXeTu4S3V7DM&sz=w640",
+          "sizeBytes": 4723730,
+          "sha256": "0939EC2DF7B62863284A3F7CEC179FE2F47CE819ECD208962F44458835DC25C0",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Galbrena Wuthering Waves | ЗВУК"
+        },
+        {
+          "id": "v_650e872d",
+          "name": "Magma Core Deep Rock Galactic",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10TQbGIFz6ET2M3AZjoLD-eSqUl0swtFC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10TQbGIFz6ET2M3AZjoLD-eSqUl0swtFC&sz=w640",
+          "sizeBytes": 4731481,
+          "sha256": "3E9145FF2C3E07BCC8F8678F8857C7B82318B718983B9CADE565660B15EB389B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Magma Core Deep Rock Galactic | ЗВУК"
+        },
+        {
+          "id": "v_dac61156",
+          "name": "Fungus Bogs Deep Rock Galactic",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vB3O8VlBgS6mQ_j1P6B5iJ-aXFmrw-E4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vB3O8VlBgS6mQ_j1P6B5iJ-aXFmrw-E4&sz=w640",
+          "sizeBytes": 4675202,
+          "sha256": "FF39B3B5BEC53F709331BC8B54D2CEC4DE11687443AB16573B3544DBBF3ED5AE",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fungus Bogs Deep Rock Galactic | ЗВУК"
         }
       ]
     }
