@@ -224,8 +224,20 @@ void App::shutdown() {
     if (m_previewThread.joinable()) {
         m_previewThread.join();
     }
+    m_cancelCollectionThumb.store(true);
+    if (m_collectionThumbThread.joinable()) {
+        m_collectionThumbThread.join();
+    }
 
 #ifdef HAS_SDL2
+    if (m_collectionThumbTexture) {
+        SDL_DestroyTexture(m_collectionThumbTexture);
+        m_collectionThumbTexture = nullptr;
+    }
+    if (m_previewTexture) {
+        SDL_DestroyTexture(m_previewTexture);
+        m_previewTexture = nullptr;
+    }
     for (auto& pair : m_fonts) {
         if (pair.second) {
             TTF_CloseFont(pair.second);
@@ -835,6 +847,23 @@ void App::processSingleDownloadTask(int taskIdx) {
         currentTask = m_downloadQueue[taskIdx];
     }
 
+    // Safety check: ensure MicroSD has sufficient free storage space + safety buffer
+    SystemInfo sysStorage = m_platform->getSystemInfo();
+    if (sysStorage.freeStorageBytes > 0 && currentTask.variant.sizeBytes > 0) {
+        if (sysStorage.freeStorageBytes < currentTask.variant.sizeBytes + Config::STORAGE_SAFETY_BUFFER_BYTES) {
+            {
+                std::lock_guard<std::mutex> lock(m_queueMutex);
+                if (taskIdx >= 0 && taskIdx < static_cast<int>(m_downloadQueue.size())) {
+                    m_downloadQueue[taskIdx].state = TaskState::Failed;
+                    m_downloadQueue[taskIdx].errorMessage = "Недостаточно места на MicroSD (резерв 20 MB)";
+                }
+            }
+            m_queueTaskFinished.store(true);
+            m_isProcessingQueue.store(false);
+            return;
+        }
+    }
+
     std::string err;
     auto progressCb = [this, taskIdx](uint64_t bytesDownloaded, uint64_t totalBytes, double speedBps) {
         std::lock_guard<std::mutex> lock(m_queueMutex);
@@ -961,6 +990,11 @@ void App::handleInput() {
         } else if (event.type == SDL_CONTROLLERDEVICEADDED) {
             if (SDL_IsGameController(event.cdevice.which)) {
                 SDL_GameControllerOpen(event.cdevice.which);
+            }
+        } else if (event.type == SDL_CONTROLLERDEVICEREMOVED) {
+            SDL_GameController* pad = SDL_GameControllerFromInstanceID(event.cdevice.which);
+            if (pad) {
+                SDL_GameControllerClose(pad);
             }
         } else if (event.type == SDL_CONTROLLERAXISMOTION) {
             // Analog stick scrolling (Left Stick Y / X)
@@ -1971,6 +2005,23 @@ void App::onButtonPress(int button) {
         if (button == 1 /* B - Back to Home */) {
             m_activeTab = Tab::Home;
             return;
+        } else if (button == 0 /* A - Retry failed tasks */) {
+            std::lock_guard<std::mutex> lock(m_queueMutex);
+            int retried = 0;
+            for (auto& t : m_downloadQueue) {
+                if (t.state == TaskState::Failed) {
+                    t.state = TaskState::Pending;
+                    t.errorMessage.clear();
+                    retried++;
+                }
+            }
+            if (retried > 0) {
+                m_statusNotification = (m_language == Language::Russian)
+                    ? ("Перезапуск неудачных загрузок: " + std::to_string(retried))
+                    : ("Retrying failed tasks: " + std::to_string(retried));
+                m_notificationFramesRemaining = 120;
+            }
+            return;
         } else if (button == 2 /* X - Clear finished/failed tasks */) {
             std::lock_guard<std::mutex> lock(m_queueMutex);
             m_downloadQueue.erase(
@@ -2152,7 +2203,7 @@ void App::renderFooter() {
             hints = "[▲/▼] Выбор   [ZL/ZR] ±15   [A] Фоны   [R3] Чекбокс   [X] Сорт   [Y] Поиск   [-] Обновить   [B] Назад";
         }
     } else if (m_activeTab == Tab::Downloads) {
-        hints = "[L/R] Вкладки   [X] Очистить завершённые   [Y] Добавить все недостающие   [B] Назад";
+        hints = "[L/R] Вкладки   [A] Повторить сбои   [ZL/ZR] ±5   [X] Очистить   [Y] Все недостающие   [B] Назад";
     } else if (m_activeTab == Tab::Settings) {
         hints = "[L/R] Вкладки   [▲/▼] Выбор пункта   [A] Применить / Очистить   [B] Назад в меню";
     }
