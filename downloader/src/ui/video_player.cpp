@@ -318,8 +318,12 @@ void VideoPlayer::update() {
         int ret = av_read_frame(m_formatCtx, m_packet);
         if (ret < 0) {
             // EOF reached: seek back to beginning for seamless loop
-            av_seek_frame(m_formatCtx, m_videoStream, 0, AVSEEK_FLAG_BACKWARD);
+            int sret = av_seek_frame(m_formatCtx, m_videoStream, 0, AVSEEK_FLAG_BACKWARD);
             avcodec_flush_buffers(m_codecCtx);
+            if (sret < 0) {
+                // Seek failed -> break out of loop to avoid tight CPU spin
+                break;
+            }
             continue;
         }
 

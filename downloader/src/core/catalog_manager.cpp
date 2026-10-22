@@ -206,6 +206,12 @@ void CatalogManager::matchInstalledTitles(std::vector<InstalledTitle>& installed
         if (match) {
             installed.hasCatalogMatch = true;
             installed.catalogEntry = *match;
+            if (installed.name.empty() || installed.name == "Unknown Game") {
+                installed.name = match->title;
+            }
+            if (installed.author.empty() || installed.author == "Unknown Publisher") {
+                installed.author = match->publisher;
+            }
         } else {
             installed.hasCatalogMatch = false;
         }
