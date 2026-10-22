@@ -75,14 +75,19 @@ TEMP_DIR = Path("tmp/tg_bot_processing")
 TEMP_DIR.mkdir(parents=True, exist_ok=True)
 
 def detect_local_proxy() -> str | None:
-    """Auto-detects active local proxy (v2rayN/sing-box/clash) if running on Windows."""
+    """Auto-detects active local proxy (v2rayN/sing-box/clash) if running on Windows and sets environment."""
     for port in [10809, 7890, 10808, 8080]:
         try:
             s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             s.settimeout(0.4)
             if s.connect_ex(('127.0.0.1', port)) == 0:
                 s.close()
-                return f"http://127.0.0.1:{port}"
+                proxy_url = f"http://127.0.0.1:{port}"
+                os.environ["HTTP_PROXY"] = proxy_url
+                os.environ["HTTPS_PROXY"] = proxy_url
+                os.environ["http_proxy"] = proxy_url
+                os.environ["https_proxy"] = proxy_url
+                return proxy_url
             s.close()
         except Exception:
             pass

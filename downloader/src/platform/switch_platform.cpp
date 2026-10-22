@@ -110,6 +110,9 @@ public:
             m_curlInitialized = true;
         }
 
+        // Initialize capacitive touchscreen HID polling in libnx
+        hidInitializeTouchScreen();
+
         m_initialized = true;
         return true;
     }

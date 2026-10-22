@@ -97,6 +97,8 @@ class GoogleDriveHelper:
                     res_data = json.loads(resp.read().decode("utf-8"))
                     new_tok = res_data.get("access_token")
                     if new_tok and new_tok.startswith("ya29."):
+                        cfg["token"] = new_tok
+                        cls.save_stored_config(cfg)
                         return new_tok
             except Exception as e:
                 print(f"[-] Direct OAuth2 refresh error: {e}")
@@ -145,6 +147,20 @@ class GoogleDriveHelper:
             except Exception as e:
                 print(f"[-] Warning reading {cls.CONFIG_FILE}: {e}")
         
+        # Fallback to permanent_gdrive_credentials.txt if not in cfg
+        try:
+            cred_file = Path(__file__).parent.parent.parent.parent / "permanent_gdrive_credentials.txt"
+            if cred_file.exists():
+                for line in cred_file.read_text(encoding="utf-8").splitlines():
+                    if line.startswith("GDRIVE_REFRESH_TOKEN=") and not cfg.get("refresh_token"):
+                        cfg["refresh_token"] = line.split("=", 1)[1].strip()
+                    elif line.startswith("GDRIVE_CLIENT_ID=") and not cfg.get("client_id"):
+                        cfg["client_id"] = line.split("=", 1)[1].strip()
+                    elif line.startswith("GDRIVE_CLIENT_SECRET=") and not cfg.get("client_secret"):
+                        cfg["client_secret"] = line.split("=", 1)[1].strip()
+        except Exception:
+            pass
+
         # Override / inject from environment variables (for Docker / Render cloud deployment)
         import os
         if os.getenv("GDRIVE_REFRESH_TOKEN"):

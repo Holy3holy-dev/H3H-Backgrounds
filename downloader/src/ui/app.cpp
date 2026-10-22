@@ -108,6 +108,9 @@ bool App::init() {
     rebuildCatalogFilter();
 
 #ifdef HAS_SDL2
+    SDL_SetHint(SDL_HINT_TOUCH_MOUSE_EVENTS, "0");
+    SDL_SetHint(SDL_HINT_MOUSE_TOUCH_EVENTS, "0");
+
     if (SDL_Init(SDL_INIT_VIDEO | SDL_INIT_GAMECONTROLLER) != 0) {
         std::cerr << "[-] SDL_Init failed: " << SDL_GetError() << std::endl;
         return false;
@@ -158,6 +161,8 @@ bool App::init() {
         std::cerr << "[-] SDL_CreateRenderer failed: " << SDL_GetError() << std::endl;
         return false;
     }
+
+    SDL_RenderSetLogicalSize(m_renderer, Theme::SCREEN_WIDTH, Theme::SCREEN_HEIGHT);
 
     // Enable high-quality alpha blending for 4IFIR frosted glass effects
     SDL_SetRenderDrawBlendMode(m_renderer, SDL_BLENDMODE_BLEND);
@@ -1039,289 +1044,61 @@ void App::handleInput() {
             } else if (event.wheel.y < 0) {
                 onButtonPress(12 /* DPAD_DOWN */);
             }
+        } else if (event.type == SDL_FINGERDOWN) {
+            if (!m_touchDown) {
+                int mx = static_cast<int>(std::round(event.tfinger.x * static_cast<float>(Theme::SCREEN_WIDTH)));
+                int my = static_cast<int>(std::round(event.tfinger.y * static_cast<float>(Theme::SCREEN_HEIGHT)));
+                mx = std::max(0, std::min(mx, Theme::SCREEN_WIDTH - 1));
+                my = std::max(0, std::min(my, Theme::SCREEN_HEIGHT - 1));
+
+                m_touchDown = true;
+                m_activeFingerId = event.tfinger.fingerId;
+                m_touchStartX = mx;
+                m_touchStartY = my;
+                m_touchLastX = mx;
+                m_touchLastY = my;
+                m_touchStartTime = SDL_GetTicks();
+                m_isTouchDragging = false;
+                m_touchDragAccumulator = 0;
+            }
+        } else if (event.type == SDL_FINGERMOTION) {
+            if (m_touchDown && event.tfinger.fingerId == m_activeFingerId) {
+                int mx = static_cast<int>(std::round(event.tfinger.x * static_cast<float>(Theme::SCREEN_WIDTH)));
+                int my = static_cast<int>(std::round(event.tfinger.y * static_cast<float>(Theme::SCREEN_HEIGHT)));
+                mx = std::max(0, std::min(mx, Theme::SCREEN_WIDTH - 1));
+                my = std::max(0, std::min(my, Theme::SCREEN_HEIGHT - 1));
+
+                int diffX = mx - m_touchStartX;
+                int diffY = my - m_touchStartY;
+                if (!m_isTouchDragging && (std::abs(diffX) > 15 || std::abs(diffY) > 15)) {
+                    m_isTouchDragging = true;
+                }
+
+                if (m_isTouchDragging) {
+                    int dy = my - m_touchLastY;
+                    handleTouchDrag(m_touchStartX, m_touchStartY, dy);
+                }
+                m_touchLastX = mx;
+                m_touchLastY = my;
+            }
+        } else if (event.type == SDL_FINGERUP) {
+            if (m_touchDown && event.tfinger.fingerId == m_activeFingerId) {
+                int mx = static_cast<int>(std::round(event.tfinger.x * static_cast<float>(Theme::SCREEN_WIDTH)));
+                int my = static_cast<int>(std::round(event.tfinger.y * static_cast<float>(Theme::SCREEN_HEIGHT)));
+                mx = std::max(0, std::min(mx, Theme::SCREEN_WIDTH - 1));
+                my = std::max(0, std::min(my, Theme::SCREEN_HEIGHT - 1));
+
+                if (!m_isTouchDragging) {
+                    handleTouchTap(m_touchStartX, m_touchStartY);
+                } else {
+                    handleTouchSwipe(m_touchStartX, m_touchStartY, mx, my);
+                }
+                m_touchDown = false;
+                m_isTouchDragging = false;
+            }
         } else if (event.type == SDL_MOUSEBUTTONDOWN) {
-            // Touch / mouse support on Nintendo Switch
-            int mx = event.button.x;
-            int my = event.button.y;
-
-            // If dialog is open, handle direct taps on dialog buttons
-            if (m_activeDialog != DialogType::None) {
-                int dw = 700;
-                int dh = 270;
-                int dx = (Theme::SCREEN_WIDTH - dw) / 2;
-                int dy = (Theme::SCREEN_HEIGHT - dh) / 2;
-                int btnY = dy + 190;
-
-                if (m_activeDialog == DialogType::MessageAlert || m_activeDialog == DialogType::IntegrityCheckResult) {
-                    if (mx >= dx + 260 && mx <= dx + 440 && my >= dy + 190 && my <= dy + 240) {
-                        m_activeDialog = DialogType::None;
-                    } else if (mx < dx || mx > dx + dw || my < dy || my > dy + dh) {
-                        m_activeDialog = DialogType::None;
-                    }
-                } else if (m_activeDialog == DialogType::UpdateSuccess) {
-                    if (mx >= dx + 240 && mx <= dx + 460 && my >= dy + 190 && my <= dy + 245) {
-                        onButtonPress(0 /* A - Restart */);
-                    }
-                } else {
-                    if (my >= btnY && my <= btnY + 46 && mx >= dx + 120 && mx <= dx + 320) {
-                        m_dialogFocus = 0;
-                        onButtonPress(0 /* A - Confirm */);
-                    } else if (my >= btnY && my <= btnY + 46 && mx >= dx + 380 && mx <= dx + 580) {
-                        m_dialogFocus = 1;
-                        onButtonPress(1 /* B - Cancel */);
-                    } else if (mx < dx || mx > dx + dw || my < dy || my > dy + dh) {
-                        m_activeDialog = DialogType::None;
-                    }
-                }
-                continue;
-            }
-
-            // If Fullscreen Preview is active, handle touch HUD buttons and swipe/taps
-            if (m_isFullscreenPreview) {
-                int hudX = 40;
-                int hudY = 585;
-                if (mx >= hudX + 900 && mx <= hudX + 1170 && my >= hudY + 14 && my <= hudY + 52) {
-                    onButtonPress(0 /* A - Install / Save */);
-                } else if (mx >= hudX + 690 && mx <= hudX + 885 && my >= hudY + 14 && my <= hudY + 52) {
-                    onButtonPress(9 /* L - Favorite */);
-                } else if (mx >= hudX + 540 && mx <= hudX + 750 && my >= hudY + 60 && my <= hudY + 95) {
-                    onButtonPress(3 /* Y - Assign */);
-                } else if (mx <= 120 && my >= 200 && my <= 520) {
-                    onButtonPress(13 /* DPAD_LEFT - Prev */);
-                } else if (mx >= 1160 && my >= 200 && my <= 520) {
-                    onButtonPress(14 /* DPAD_RIGHT - Next */);
-                } else {
-                    closeFullscreenPreview();
-                }
-                continue;
-            }
-
-            // If Game Picker Modal is open, handle touch navigation and selection
-            if (m_isGamePickerOpen) {
-                int bw = 1140, bh = 600;
-                int bx = (Theme::SCREEN_WIDTH - bw) / 2;
-                int by = (Theme::SCREEN_HEIGHT - bh) / 2;
-                if (mx < bx || mx > bx + bw || my < by || my > by + bh) {
-                    closeGamePicker();
-                } else if (my >= by + 95 && my <= by + 95 + 5 * 88) {
-                    int clickedIdx = m_gamePickerScrollOffset + (my - (by + 95)) / 88;
-                    if (clickedIdx >= 0 && clickedIdx < static_cast<int>(m_installedGames.size())) {
-                        m_gamePickerSelectedIndex = clickedIdx;
-                        onButtonPress(0 /* A - Select Game */);
-                    }
-                }
-                continue;
-            }
-
-            // If Recordings Browser Modal is open, handle touch
-            if (m_isRecordingsBrowserOpen) {
-                int bw = 1100, bh = 560;
-                int bx = (Theme::SCREEN_WIDTH - bw) / 2;
-                int by = (Theme::SCREEN_HEIGHT - bh) / 2;
-                if (mx < bx || mx > bx + bw || my < by || my > by + bh) {
-                    closeRecordingsBrowser();
-                } else if (my >= by + 105 && my <= by + 105 + 5 * 74) {
-                    int clickedIdx = m_recordingsScrollOffset + (my - (by + 105)) / 74;
-                    if (clickedIdx >= 0 && clickedIdx < static_cast<int>(m_localRecordings.size())) {
-                        m_recordingsSelectedIndex = clickedIdx;
-                        onButtonPress(0 /* A - Install */);
-                    }
-                }
-                continue;
-            }
-
-            // If Collection Browser Modal is open, handle touch
-            if (m_isCollectionBrowserOpen) {
-                int bw = 1220, bh = 660;
-                int bx = (Theme::SCREEN_WIDTH - bw) / 2;
-                int by = (Theme::SCREEN_HEIGHT - bh) / 2;
-                if (mx < bx || mx > bx + bw || my < by || my > by + bh) {
-                    closeCollectionBrowser();
-                } else {
-                    int lx = bx + 25, ly = by + 68, lw = 635;
-                    // Left Column: tapping variant item
-                    if (mx >= lx && mx <= lx + lw && my >= ly && my <= ly + 5 * 96) {
-                        int clickedIdx = m_collectionScrollOffset + (my - ly) / 96;
-                        if (clickedIdx >= 0 && clickedIdx < static_cast<int>(m_collectionVariants.size())) {
-                            m_collectionSelectedIndex = clickedIdx;
-                            loadCollectionThumbnail(m_collectionVariants[clickedIdx]);
-                        }
-                    } else {
-                        int rx = bx + 675, ry = by + 68;
-                        int px = rx + 20, py = ry + 20, pw = 480, ph = 270;
-                        int b1y = py + ph + 80;
-                        int b3y = py + ph + 130;
-
-                        // Tap preview thumbnail -> open fullscreen live video
-                        if (mx >= px && mx <= px + pw && my >= py && my <= py + ph) {
-                            onButtonPress(2 /* X - Video */);
-                        }
-                        // Button [A] Назначить на игру
-                        else if (mx >= px && mx <= px + 230 && my >= b1y && my <= b1y + 42) {
-                            onButtonPress(0 /* A - Assign */);
-                        }
-                        // Button [X] Видео в полный экран
-                        else if (mx >= px + 245 && mx <= px + 475 && my >= b1y && my <= b1y + 42) {
-                            onButtonPress(2 /* X - Video */);
-                        }
-                        // Button [L / R3] В избранное (full width 480)
-                        else if (mx >= px && mx <= px + 480 && my >= b3y && my <= b3y + 36) {
-                            onButtonPress(9 /* L - Favorite */);
-                        }
-                    }
-                }
-                continue;
-            }
-
-            // Top Header tabs: y in [10, 55]
-            if (my >= 10 && my <= 55) {
-                if (mx >= 340 && mx < 460) m_activeTab = Tab::Home;
-                else if (mx >= 460 && mx < 580) m_activeTab = Tab::MyGames;
-                else if (mx >= 580 && mx < 700) m_activeTab = Tab::Catalog;
-                else if (mx >= 700 && mx < 820) m_activeTab = Tab::Downloads;
-                else if (mx >= 820 && mx < 940) m_activeTab = Tab::Settings;
-            }
-            // Home Tab: click on Action Card "Установить все недостающие" (y in [260, 380])
-            else if (m_activeTab == Tab::Home && mx >= 60 && mx <= 1220 && my >= 260 && my <= 380) {
-                installAllMissing();
-            }
-            // Home Tab: click on Metric Cards
-            else if (m_activeTab == Tab::Home && my >= 100 && my <= 240) {
-                if (mx >= 60 && mx <= 820) m_activeTab = Tab::MyGames;
-                else if (mx >= 860 && mx <= 1220) fetchRemoteCatalog();
-            }
-            // Home Tab: quick navigation cards at y in [400, 490]
-            else if (m_activeTab == Tab::Home && my >= 400 && my <= 490) {
-                if (mx >= 60 && mx <= 620) m_activeTab = Tab::MyGames;
-                else if (mx >= 660 && mx <= 1220) fetchRemoteCatalog();
-            }
-            // MyGames Tab: synchronized pixel-perfect touch zones
-            else if (m_activeTab == Tab::MyGames) {
-                // Left Column: Games list item selection (x in [30, 480], y in [105, 640])
-                if (mx >= 30 && mx <= 480 && my >= 105 && my <= 640) {
-                    int clickedIdx = m_myGamesScrollOffset + (my - 105) / 66;
-                    if (clickedIdx >= 0 && clickedIdx < static_cast<int>(m_installedGames.size())) {
-                        if (m_myGamesSelectedIndex == clickedIdx) {
-                            const auto& g = m_installedGames[clickedIdx];
-                            if (g.titleId == "0000000000000000" || g.catalogEntry.variants.size() > 8) {
-                                openCollectionBrowser(g.catalogEntry);
-                            } else if (g.hasCatalogMatch && !g.catalogEntry.variants.empty()) {
-                                m_myGamesActivePane = MyGamesPane::VariantsList;
-                            }
-                        } else {
-                            m_myGamesSelectedIndex = clickedIdx;
-                            m_selectedVariantIndex = 0;
-                            m_variantScrollOffset = 0;
-                            m_myGamesActivePane = MyGamesPane::GamesList;
-                        }
-                    }
-                }
-                // Right Column Action buttons at y in [200, 240]
-                else if (my >= 200 && my <= 240) {
-                    if (m_myGamesSelectedIndex >= 0 && m_myGamesSelectedIndex < static_cast<int>(m_installedGames.size())) {
-                        const auto& selGame = m_installedGames[m_myGamesSelectedIndex];
-                        if (selGame.hasInstalledCover) {
-                            // "[Y] Удалить активный фон": x in [530, 760]
-                            if (mx >= 530 && mx <= 760) {
-                                onButtonPress(3 /* Y - Delete */);
-                            }
-                            // "[R] Восстановить (.bak)": x in [770, 1000]
-                            else if (mx >= 770 && mx <= 1000 && selGame.hasBackup) {
-                                executeRestoreBackup(selGame.titleId);
-                            }
-                            // "[+] Записи 4IFIR (SD)": x in [1015, 1225]
-                            else if (mx >= 1015 && mx <= 1225) {
-                                openRecordingsBrowser(selGame.titleId, selGame.name);
-                            }
-                        } else {
-                            // "[Y] Установить все": x in [530, 780]
-                            if (mx >= 530 && mx <= 780 && getMissingCoversCount() > 0) {
-                                installAllMissing();
-                            }
-                            // "[+] Записи 4IFIR (SD)": x in [1015, 1225]
-                            else if (mx >= 1015 && mx <= 1225) {
-                                openRecordingsBrowser(selGame.titleId, selGame.name);
-                            }
-                        }
-                    }
-                }
-                // Right Column Variant Cards (y in [280, 600])
-                else if (mx >= 525 && mx <= 1225 && my >= 280 && my <= 600) {
-                    if (m_myGamesSelectedIndex >= 0 && m_myGamesSelectedIndex < static_cast<int>(m_installedGames.size())) {
-                        const auto& selGame = m_installedGames[m_myGamesSelectedIndex];
-                        int totalV = selGame.hasCatalogMatch ? static_cast<int>(selGame.catalogEntry.variants.size()) : 0;
-                        if (totalV > 0) {
-                            int vClicked = m_variantScrollOffset + (my - 280) / 80;
-                            if (vClicked >= 0 && vClicked < totalV) {
-                                m_selectedVariantIndex = vClicked;
-                                m_myGamesActivePane = MyGamesPane::VariantsList;
-                                if (mx >= 1005 && mx <= 1210) {
-                                    onButtonPress(0 /* A - Install */);
-                                }
-                            }
-                        } else {
-                            // No direct variants: "Открыть каталог" button at x in [530, 1010], y in [350, 410]
-                            if (mx >= 530 && mx <= 1010 && my >= 350 && my <= 410) {
-                                m_activeTab = Tab::Catalog;
-                            }
-                        }
-                    }
-                }
-            }
-            // Downloads Tab: touch clear button
-            else if (m_activeTab == Tab::Downloads) {
-                if (my >= 660 && mx >= 30 && mx <= 350) {
-                    onButtonPress(2 /* X - Clear */);
-                }
-            }
-            // Catalog Tab: Search Bar click: x in [480, 780], y in [90, 140]
-            else if (m_activeTab == Tab::Catalog && mx >= 480 && mx <= 780 && my >= 90 && my <= 140) {
-                onButtonPress(3 /* Y - Open Keyboard / Search */);
-            }
-            // Catalog Tab: Sort Pill click: x in [795, 1060], y in [90, 140]
-            else if (m_activeTab == Tab::Catalog && mx >= 795 && mx <= 1060 && my >= 90 && my <= 140) {
-                onButtonPress(2 /* X - Cycle Sort Mode */);
-            }
-            // Catalog Tab: Reset/Refresh button: x in [1075, 1220], y in [90, 140]
-            else if (m_activeTab == Tab::Catalog && mx >= 1075 && mx <= 1220 && my >= 90 && my <= 140) {
-                onButtonPress(4 /* Minus / Reset or Refresh */);
-            }
-            // Catalog Tab: click directly on an item in the list or batch banner
-            else if (m_activeTab == Tab::Catalog && mx >= 60 && mx <= 1220 && my >= 160 && my <= 660) {
-                // Check if clicked on floating action banner
-                if (!m_batchSelectedTitleIds.empty() && my >= 610 && my <= 660 && mx >= 200 && mx <= 1080) {
-                    if (mx >= 460 && mx <= 710) {
-                        installBatchSelected();
-                    } else if (mx >= 715 && mx <= 860) {
-                        clearBatchSelection();
-                    }
-                } else {
-                    int clickedIndex = m_catalogScrollOffset + (my - 160) / 94;
-                    int totalGames = static_cast<int>(m_filteredCatalogGames.size());
-                    if (clickedIndex >= 0 && clickedIndex < totalGames) {
-                        // Tapping checkbox on left toggles batch selection
-                        if (mx >= 60 && mx <= 120) {
-                            toggleBatchSelection(m_filteredCatalogGames[clickedIndex].titleId);
-                        } else if (m_catalogSelectedIndex == clickedIndex || mx >= 915) {
-                            m_catalogSelectedIndex = clickedIndex;
-                            openCollectionBrowser(m_filteredCatalogGames[clickedIndex]);
-                        } else {
-                            m_catalogSelectedIndex = clickedIndex;
-                        }
-                    }
-                }
-            }
-            // Settings Tab: interactive setting rows at y in [230, 615]
-            else if (m_activeTab == Tab::Settings && mx >= 50 && mx <= 1230 && my >= 230 && my <= 615) {
-                int clickedRow = (my - 236) / 54;
-                if (clickedRow >= 0 && clickedRow <= 6) {
-                    m_settingsSelectedIndex = clickedRow;
-                    onButtonPress(0 /* A - Activate Setting */);
-                }
-            }
-            // Footer bar click on refresh: y in [660, 720]
-            else if (my >= 660 && mx >= 1050) {
-                onButtonPress(4 /* Minus / Refresh */);
+            if (event.button.which != SDL_TOUCH_MOUSEID) {
+                handleTouchTap(event.button.x, event.button.y);
             }
         } else if (event.type == SDL_KEYDOWN) {
             // Keyboard simulation on PC
@@ -4477,6 +4254,376 @@ void App::installBatchSelected() {
     m_activeTab = Tab::Downloads;
     m_statusNotification = "Добавлено в очередь загрузки: " + std::to_string(queuedCount) + " игр";
     m_notificationFramesRemaining = 150;
+}
+
+
+void App::handleTouchTap(int mx, int my) {
+// If dialog is open, handle direct taps on dialog buttons
+            if (m_activeDialog != DialogType::None) {
+                int dw = 700;
+                int dh = 270;
+                int dx = (Theme::SCREEN_WIDTH - dw) / 2;
+                int dy = (Theme::SCREEN_HEIGHT - dh) / 2;
+                int btnY = dy + 190;
+
+                if (m_activeDialog == DialogType::MessageAlert || m_activeDialog == DialogType::IntegrityCheckResult) {
+                    if (mx >= dx + 260 && mx <= dx + 440 && my >= dy + 190 && my <= dy + 240) {
+                        m_activeDialog = DialogType::None;
+                    } else if (mx < dx || mx > dx + dw || my < dy || my > dy + dh) {
+                        m_activeDialog = DialogType::None;
+                    }
+                } else if (m_activeDialog == DialogType::UpdateSuccess) {
+                    if (mx >= dx + 240 && mx <= dx + 460 && my >= dy + 190 && my <= dy + 245) {
+                        onButtonPress(0 /* A - Restart */);
+                    }
+                } else {
+                    if (my >= btnY && my <= btnY + 46 && mx >= dx + 120 && mx <= dx + 320) {
+                        m_dialogFocus = 0;
+                        onButtonPress(0 /* A - Confirm */);
+                    } else if (my >= btnY && my <= btnY + 46 && mx >= dx + 380 && mx <= dx + 580) {
+                        m_dialogFocus = 1;
+                        onButtonPress(1 /* B - Cancel */);
+                    } else if (mx < dx || mx > dx + dw || my < dy || my > dy + dh) {
+                        m_activeDialog = DialogType::None;
+                    }
+                }
+                return;
+            }
+
+            // If Fullscreen Preview is active, handle touch HUD buttons and swipe/taps
+            if (m_isFullscreenPreview) {
+                int hudX = 40;
+                int hudY = 585;
+                if (mx >= hudX + 900 && mx <= hudX + 1170 && my >= hudY + 14 && my <= hudY + 52) {
+                    onButtonPress(0 /* A - Install / Save */);
+                } else if (mx >= hudX + 690 && mx <= hudX + 885 && my >= hudY + 14 && my <= hudY + 52) {
+                    onButtonPress(9 /* L - Favorite */);
+                } else if (mx >= hudX + 540 && mx <= hudX + 750 && my >= hudY + 60 && my <= hudY + 95) {
+                    onButtonPress(3 /* Y - Assign */);
+                } else if (mx <= 120 && my >= 200 && my <= 520) {
+                    onButtonPress(13 /* DPAD_LEFT - Prev */);
+                } else if (mx >= 1160 && my >= 200 && my <= 520) {
+                    onButtonPress(14 /* DPAD_RIGHT - Next */);
+                } else {
+                    closeFullscreenPreview();
+                }
+                return;
+            }
+
+            // If Game Picker Modal is open, handle touch navigation and selection
+            if (m_isGamePickerOpen) {
+                int bw = 1140, bh = 600;
+                int bx = (Theme::SCREEN_WIDTH - bw) / 2;
+                int by = (Theme::SCREEN_HEIGHT - bh) / 2;
+                if (mx < bx || mx > bx + bw || my < by || my > by + bh) {
+                    closeGamePicker();
+                } else if (my >= by + 95 && my <= by + 95 + 5 * 88) {
+                    int clickedIdx = m_gamePickerScrollOffset + (my - (by + 95)) / 88;
+                    if (clickedIdx >= 0 && clickedIdx < static_cast<int>(m_installedGames.size())) {
+                        m_gamePickerSelectedIndex = clickedIdx;
+                        onButtonPress(0 /* A - Select Game */);
+                    }
+                }
+                return;
+            }
+
+            // If Recordings Browser Modal is open, handle touch
+            if (m_isRecordingsBrowserOpen) {
+                int bw = 1100, bh = 560;
+                int bx = (Theme::SCREEN_WIDTH - bw) / 2;
+                int by = (Theme::SCREEN_HEIGHT - bh) / 2;
+                if (mx < bx || mx > bx + bw || my < by || my > by + bh) {
+                    closeRecordingsBrowser();
+                } else if (my >= by + 105 && my <= by + 105 + 5 * 74) {
+                    int clickedIdx = m_recordingsScrollOffset + (my - (by + 105)) / 74;
+                    if (clickedIdx >= 0 && clickedIdx < static_cast<int>(m_localRecordings.size())) {
+                        m_recordingsSelectedIndex = clickedIdx;
+                        onButtonPress(0 /* A - Install */);
+                    }
+                }
+                return;
+            }
+
+            // If Collection Browser Modal is open, handle touch
+            if (m_isCollectionBrowserOpen) {
+                int bw = 1220, bh = 660;
+                int bx = (Theme::SCREEN_WIDTH - bw) / 2;
+                int by = (Theme::SCREEN_HEIGHT - bh) / 2;
+                if (mx < bx || mx > bx + bw || my < by || my > by + bh) {
+                    closeCollectionBrowser();
+                } else {
+                    int lx = bx + 25, ly = by + 68, lw = 635;
+                    // Left Column: tapping variant item
+                    if (mx >= lx && mx <= lx + lw && my >= ly && my <= ly + 5 * 96) {
+                        int clickedIdx = m_collectionScrollOffset + (my - ly) / 96;
+                        if (clickedIdx >= 0 && clickedIdx < static_cast<int>(m_collectionVariants.size())) {
+                            m_collectionSelectedIndex = clickedIdx;
+                            loadCollectionThumbnail(m_collectionVariants[clickedIdx]);
+                        }
+                    } else {
+                        int rx = bx + 675, ry = by + 68;
+                        int px = rx + 20, py = ry + 20, pw = 480, ph = 270;
+                        int b1y = py + ph + 80;
+                        int b3y = py + ph + 130;
+
+                        // Tap preview thumbnail -> open fullscreen live video
+                        if (mx >= px && mx <= px + pw && my >= py && my <= py + ph) {
+                            onButtonPress(2 /* X - Video */);
+                        }
+                        // Button [A] Назначить на игру
+                        else if (mx >= px && mx <= px + 230 && my >= b1y && my <= b1y + 42) {
+                            onButtonPress(0 /* A - Assign */);
+                        }
+                        // Button [X] Видео в полный экран
+                        else if (mx >= px + 245 && mx <= px + 475 && my >= b1y && my <= b1y + 42) {
+                            onButtonPress(2 /* X - Video */);
+                        }
+                        // Button [L / R3] В избранное (full width 480)
+                        else if (mx >= px && mx <= px + 480 && my >= b3y && my <= b3y + 36) {
+                            onButtonPress(9 /* L - Favorite */);
+                        }
+                    }
+                }
+                return;
+            }
+
+            // Top Header tabs: y in [10, 55]
+            if (my >= 10 && my <= 55) {
+                if (mx >= 340 && mx < 460) m_activeTab = Tab::Home;
+                else if (mx >= 460 && mx < 580) m_activeTab = Tab::MyGames;
+                else if (mx >= 580 && mx < 700) m_activeTab = Tab::Catalog;
+                else if (mx >= 700 && mx < 820) m_activeTab = Tab::Downloads;
+                else if (mx >= 820 && mx < 940) m_activeTab = Tab::Settings;
+            }
+            // Home Tab: click on Action Card "Установить все недостающие" (y in [260, 380])
+            else if (m_activeTab == Tab::Home && mx >= 60 && mx <= 1220 && my >= 260 && my <= 380) {
+                installAllMissing();
+            }
+            // Home Tab: click on Metric Cards
+            else if (m_activeTab == Tab::Home && my >= 100 && my <= 240) {
+                if (mx >= 60 && mx <= 820) m_activeTab = Tab::MyGames;
+                else if (mx >= 860 && mx <= 1220) fetchRemoteCatalog();
+            }
+            // Home Tab: quick navigation cards at y in [400, 490]
+            else if (m_activeTab == Tab::Home && my >= 400 && my <= 490) {
+                if (mx >= 60 && mx <= 620) m_activeTab = Tab::MyGames;
+                else if (mx >= 660 && mx <= 1220) fetchRemoteCatalog();
+            }
+            // MyGames Tab: synchronized pixel-perfect touch zones
+            else if (m_activeTab == Tab::MyGames) {
+                // Left Column: Games list item selection (x in [30, 480], y in [105, 640])
+                if (mx >= 30 && mx <= 480 && my >= 105 && my <= 640) {
+                    int clickedIdx = m_myGamesScrollOffset + (my - 105) / 66;
+                    if (clickedIdx >= 0 && clickedIdx < static_cast<int>(m_installedGames.size())) {
+                        if (m_myGamesSelectedIndex == clickedIdx) {
+                            const auto& g = m_installedGames[clickedIdx];
+                            if (g.titleId == "0000000000000000" || g.catalogEntry.variants.size() > 8) {
+                                openCollectionBrowser(g.catalogEntry);
+                            } else if (g.hasCatalogMatch && !g.catalogEntry.variants.empty()) {
+                                m_myGamesActivePane = MyGamesPane::VariantsList;
+                            }
+                        } else {
+                            m_myGamesSelectedIndex = clickedIdx;
+                            m_selectedVariantIndex = 0;
+                            m_variantScrollOffset = 0;
+                            m_myGamesActivePane = MyGamesPane::GamesList;
+                        }
+                    }
+                }
+                // Right Column Action buttons at y in [200, 240]
+                else if (my >= 200 && my <= 240) {
+                    if (m_myGamesSelectedIndex >= 0 && m_myGamesSelectedIndex < static_cast<int>(m_installedGames.size())) {
+                        const auto& selGame = m_installedGames[m_myGamesSelectedIndex];
+                        if (selGame.hasInstalledCover) {
+                            // "[Y] Удалить активный фон": x in [530, 760]
+                            if (mx >= 530 && mx <= 760) {
+                                onButtonPress(3 /* Y - Delete */);
+                            }
+                            // "[R] Восстановить (.bak)": x in [770, 1000]
+                            else if (mx >= 770 && mx <= 1000 && selGame.hasBackup) {
+                                executeRestoreBackup(selGame.titleId);
+                            }
+                            // "[+] Записи 4IFIR (SD)": x in [1015, 1225]
+                            else if (mx >= 1015 && mx <= 1225) {
+                                openRecordingsBrowser(selGame.titleId, selGame.name);
+                            }
+                        } else {
+                            // "[Y] Установить все": x in [530, 780]
+                            if (mx >= 530 && mx <= 780 && getMissingCoversCount() > 0) {
+                                installAllMissing();
+                            }
+                            // "[+] Записи 4IFIR (SD)": x in [1015, 1225]
+                            else if (mx >= 1015 && mx <= 1225) {
+                                openRecordingsBrowser(selGame.titleId, selGame.name);
+                            }
+                        }
+                    }
+                }
+                // Right Column Variant Cards (y in [280, 600])
+                else if (mx >= 525 && mx <= 1225 && my >= 280 && my <= 600) {
+                    if (m_myGamesSelectedIndex >= 0 && m_myGamesSelectedIndex < static_cast<int>(m_installedGames.size())) {
+                        const auto& selGame = m_installedGames[m_myGamesSelectedIndex];
+                        int totalV = selGame.hasCatalogMatch ? static_cast<int>(selGame.catalogEntry.variants.size()) : 0;
+                        if (totalV > 0) {
+                            int vClicked = m_variantScrollOffset + (my - 280) / 80;
+                            if (vClicked >= 0 && vClicked < totalV) {
+                                m_selectedVariantIndex = vClicked;
+                                m_myGamesActivePane = MyGamesPane::VariantsList;
+                                if (mx >= 1005 && mx <= 1210) {
+                                    onButtonPress(0 /* A - Install */);
+                                }
+                            }
+                        } else {
+                            // No direct variants: "Открыть каталог" button at x in [530, 1010], y in [350, 410]
+                            if (mx >= 530 && mx <= 1010 && my >= 350 && my <= 410) {
+                                m_activeTab = Tab::Catalog;
+                            }
+                        }
+                    }
+                }
+            }
+            // Downloads Tab: touch clear button
+            else if (m_activeTab == Tab::Downloads) {
+                if (my >= 660 && mx >= 30 && mx <= 350) {
+                    onButtonPress(2 /* X - Clear */);
+                }
+            }
+            // Catalog Tab: Search Bar click: x in [480, 780], y in [90, 140]
+            else if (m_activeTab == Tab::Catalog && mx >= 480 && mx <= 780 && my >= 90 && my <= 140) {
+                onButtonPress(3 /* Y - Open Keyboard / Search */);
+            }
+            // Catalog Tab: Sort Pill click: x in [795, 1060], y in [90, 140]
+            else if (m_activeTab == Tab::Catalog && mx >= 795 && mx <= 1060 && my >= 90 && my <= 140) {
+                onButtonPress(2 /* X - Cycle Sort Mode */);
+            }
+            // Catalog Tab: Reset/Refresh button: x in [1075, 1220], y in [90, 140]
+            else if (m_activeTab == Tab::Catalog && mx >= 1075 && mx <= 1220 && my >= 90 && my <= 140) {
+                onButtonPress(4 /* Minus / Reset or Refresh */);
+            }
+            // Catalog Tab: click directly on an item in the list or batch banner
+            else if (m_activeTab == Tab::Catalog && mx >= 60 && mx <= 1220 && my >= 160 && my <= 660) {
+                // Check if clicked on floating action banner
+                if (!m_batchSelectedTitleIds.empty() && my >= 610 && my <= 660 && mx >= 200 && mx <= 1080) {
+                    if (mx >= 460 && mx <= 710) {
+                        installBatchSelected();
+                    } else if (mx >= 715 && mx <= 860) {
+                        clearBatchSelection();
+                    }
+                } else {
+                    int clickedIndex = m_catalogScrollOffset + (my - 160) / 94;
+                    int totalGames = static_cast<int>(m_filteredCatalogGames.size());
+                    if (clickedIndex >= 0 && clickedIndex < totalGames) {
+                        // Tapping checkbox on left toggles batch selection
+                        if (mx >= 60 && mx <= 120) {
+                            toggleBatchSelection(m_filteredCatalogGames[clickedIndex].titleId);
+                        } else if (m_catalogSelectedIndex == clickedIndex || mx >= 915) {
+                            m_catalogSelectedIndex = clickedIndex;
+                            openCollectionBrowser(m_filteredCatalogGames[clickedIndex]);
+                        } else {
+                            m_catalogSelectedIndex = clickedIndex;
+                        }
+                    }
+                }
+            }
+            // Settings Tab: interactive setting rows at y in [230, 615]
+            else if (m_activeTab == Tab::Settings && mx >= 50 && mx <= 1230 && my >= 230 && my <= 615) {
+                int clickedRow = (my - 236) / 54;
+                if (clickedRow >= 0 && clickedRow <= 6) {
+                    m_settingsSelectedIndex = clickedRow;
+                    onButtonPress(0 /* A - Activate Setting */);
+                }
+            }
+            // Footer bar click on refresh: y in [660, 720]
+            else if (my >= 660 && mx >= 1050) {
+                onButtonPress(4 /* Minus / Refresh */);
+            }
+}
+
+void App::handleTouchDrag(int startX, int startY, int deltaY) {
+    m_touchDragAccumulator += deltaY;
+
+    // Threshold of 32 pixels for one scroll step
+    while (m_touchDragAccumulator <= -32) {
+        // Dragging UP -> scroll DOWN
+        m_touchDragAccumulator += 32;
+        if (m_isCollectionBrowserOpen) {
+            if (m_collectionScrollOffset + 5 < static_cast<int>(m_collectionVariants.size())) {
+                m_collectionScrollOffset++;
+            }
+        } else if (m_isGamePickerOpen) {
+            if (m_gamePickerScrollOffset + 5 < static_cast<int>(m_installedGames.size())) {
+                m_gamePickerScrollOffset++;
+            }
+        } else if (m_isRecordingsBrowserOpen) {
+            if (m_recordingsScrollOffset + 5 < static_cast<int>(m_localRecordings.size())) {
+                m_recordingsScrollOffset++;
+            }
+        } else if (m_activeTab == Tab::Catalog && startX >= 60 && startX <= 1220 && startY >= 160 && startY <= 660) {
+            if (m_catalogScrollOffset + 5 < static_cast<int>(m_filteredCatalogGames.size())) {
+                m_catalogScrollOffset++;
+            }
+        } else if (m_activeTab == Tab::MyGames && startX >= 30 && startX <= 480) {
+            if (m_myGamesScrollOffset + 7 < static_cast<int>(m_installedGames.size())) {
+                m_myGamesScrollOffset++;
+            }
+        } else if (m_activeTab == Tab::MyGames && startX >= 525 && startX <= 1225) {
+            if (m_myGamesSelectedIndex >= 0 && m_myGamesSelectedIndex < static_cast<int>(m_installedGames.size())) {
+                const auto& selGame = m_installedGames[m_myGamesSelectedIndex];
+                int totalV = selGame.hasCatalogMatch ? static_cast<int>(selGame.catalogEntry.variants.size()) : 0;
+                if (m_variantScrollOffset + 4 < totalV) {
+                    m_variantScrollOffset++;
+                }
+            }
+        }
+    }
+
+    while (m_touchDragAccumulator >= 32) {
+        // Dragging DOWN -> scroll UP
+        m_touchDragAccumulator -= 32;
+        if (m_isCollectionBrowserOpen) {
+            if (m_collectionScrollOffset > 0) {
+                m_collectionScrollOffset--;
+            }
+        } else if (m_isGamePickerOpen) {
+            if (m_gamePickerScrollOffset > 0) {
+                m_gamePickerScrollOffset--;
+            }
+        } else if (m_isRecordingsBrowserOpen) {
+            if (m_recordingsScrollOffset > 0) {
+                m_recordingsScrollOffset--;
+            }
+        } else if (m_activeTab == Tab::Catalog && startX >= 60 && startX <= 1220 && startY >= 160 && startY <= 660) {
+            if (m_catalogScrollOffset > 0) {
+                m_catalogScrollOffset--;
+            }
+        } else if (m_activeTab == Tab::MyGames && startX >= 30 && startX <= 480) {
+            if (m_myGamesScrollOffset > 0) {
+                m_myGamesScrollOffset--;
+            }
+        } else if (m_activeTab == Tab::MyGames && startX >= 525 && startX <= 1225) {
+            if (m_variantScrollOffset > 0) {
+                m_variantScrollOffset--;
+            }
+        }
+    }
+}
+
+void App::handleTouchSwipe(int startX, int startY, int endX, int endY) {
+    int diffX = endX - startX;
+    int diffY = endY - startY;
+
+    if (m_isFullscreenPreview) {
+        if (diffX < -60) {
+            // Swiped Left -> Next Video
+            onButtonPress(14 /* DPAD_RIGHT - Next */);
+        } else if (diffX > 60) {
+            // Swiped Right -> Prev Video
+            onButtonPress(13 /* DPAD_LEFT - Prev */);
+        } else if (diffY > 80) {
+            // Swiped Down -> Close Preview
+            closeFullscreenPreview();
+        }
+    }
 }
 
 } // namespace ui

@@ -47,6 +47,8 @@ from tg_bot.config import (
     GDRIVE_FOLDER_ID,
     GDRIVE_AFTER_DARK_FOLDER_ID,
     GDRIVE_REFRESH_TOKEN,
+    GDRIVE_CLIENT_ID,
+    GDRIVE_CLIENT_SECRET,
     ADMIN_IDS,
     CATALOG_PATH_STANDARD,
     CATALOG_PATH_AFTER_DARK,
@@ -60,9 +62,13 @@ from h3h_studio.core.github_publisher import GitHubPublisher
 # Auto-detect local proxy for stable Telegram connectivity
 local_proxy = detect_local_proxy()
 if local_proxy:
-    print(f"[*] Detected local proxy on {local_proxy}, configuring telebot...")
+    print(f"[*] Detected local proxy on {local_proxy}, configuring telebot & urllib...")
     from telebot import apihelper
     apihelper.proxy = {'http': local_proxy, 'https': local_proxy}
+    os.environ["HTTP_PROXY"] = local_proxy
+    os.environ["HTTPS_PROXY"] = local_proxy
+    os.environ["http_proxy"] = local_proxy
+    os.environ["https_proxy"] = local_proxy
 
 bot = telebot.TeleBot(BOT_TOKEN, parse_mode="HTML")
 
@@ -293,7 +299,23 @@ def get_gdrive_auth(category: str = "standard") -> Tuple[Optional[str], Optional
     """Returns (access_token, folder_id) for Google Drive operations based on category."""
     gdrive_cfg = GoogleDriveHelper.get_stored_config()
     refresh_tok = os.getenv("GDRIVE_REFRESH_TOKEN") or GDRIVE_REFRESH_TOKEN or gdrive_cfg.get("refresh_token")
-    access_tok = GoogleDriveHelper.refresh_access_token(refresh_tok) or gdrive_cfg.get("token")
+    client_id = os.getenv("GDRIVE_CLIENT_ID") or GDRIVE_CLIENT_ID or gdrive_cfg.get("client_id")
+    client_secret = os.getenv("GDRIVE_CLIENT_SECRET") or GDRIVE_CLIENT_SECRET or gdrive_cfg.get("client_secret")
+
+    access_tok = GoogleDriveHelper.refresh_access_token(
+        refresh_token=refresh_tok,
+        client_id=client_id,
+        client_secret=client_secret
+    )
+    if not access_tok:
+        cand = gdrive_cfg.get("token")
+        if cand:
+            test = GoogleDriveClient.test_connection(cand)
+            if test.get("ok"):
+                access_tok = cand
+    else:
+        gdrive_cfg["token"] = access_tok
+        GoogleDriveHelper.save_stored_config(gdrive_cfg)
 
     if category == "after_dark":
         folder_id = (

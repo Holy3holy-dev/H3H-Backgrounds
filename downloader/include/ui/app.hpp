@@ -143,6 +143,12 @@ public:
 
     void onButtonPress(int button);
 
+    void handleTouchTap(int mx, int my);
+
+    void handleTouchDrag(int startX, int startY, int deltaY);
+
+    void handleTouchSwipe(int startX, int startY, int endX, int endY);
+
 
 
     // Business Logic
@@ -580,6 +586,17 @@ private:
 
     // Feature 7: Batch Selection
     std::set<std::string> m_batchSelectedTitleIds;
+
+    // Capacitive Touchscreen state
+    bool m_touchDown{false};
+    int m_touchStartX{0};
+    int m_touchStartY{0};
+    int m_touchLastX{0};
+    int m_touchLastY{0};
+    uint32_t m_touchStartTime{0};
+    bool m_isTouchDragging{false};
+    int m_touchDragAccumulator{0};
+    SDL_FingerID m_activeFingerId{0};
 
 };
 
