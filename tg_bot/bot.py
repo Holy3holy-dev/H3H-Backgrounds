@@ -47,6 +47,9 @@ from tg_bot.config import (
     GDRIVE_FOLDER_ID,
     GDRIVE_AFTER_DARK_FOLDER_ID,
     GDRIVE_REFRESH_TOKEN,
+    VERIFIED_REFRESH_TOKEN,
+    VERIFIED_CLIENT_ID,
+    VERIFIED_CLIENT_SECRET,
     GDRIVE_CLIENT_ID,
     GDRIVE_CLIENT_SECRET,
     ADMIN_IDS,
@@ -307,7 +310,11 @@ def get_gdrive_auth(category: str = "standard") -> Tuple[Optional[str], Optional
     if env_tok:
         candidates.append((env_tok, env_cid, env_sec))
 
-    # Candidate 2: Permanent verified credentials from config.py
+    # Candidate 2: Verified permanent credentials (guaranteed regardless of env overrides)
+    if VERIFIED_REFRESH_TOKEN and (VERIFIED_REFRESH_TOKEN, VERIFIED_CLIENT_ID, VERIFIED_CLIENT_SECRET) not in candidates:
+        candidates.append((VERIFIED_REFRESH_TOKEN, VERIFIED_CLIENT_ID, VERIFIED_CLIENT_SECRET))
+
+    # Candidate 3: Config fallback
     if GDRIVE_REFRESH_TOKEN and (GDRIVE_REFRESH_TOKEN, GDRIVE_CLIENT_ID, GDRIVE_CLIENT_SECRET) not in candidates:
         candidates.append((GDRIVE_REFRESH_TOKEN, GDRIVE_CLIENT_ID, GDRIVE_CLIENT_SECRET))
 
@@ -508,11 +515,15 @@ def push_catalog_to_github(catalog_rel: Path, commit_msg: str, branch: Optional[
 @bot.message_handler(commands=["status", "ping"])
 def handle_status(message: types.Message):
     access_tok, folder_id = get_gdrive_auth("standard")
-    gdrive_status = "✅ Авторизован (токен получен)" if access_tok else "❌ Токен не получен"
+    last_err = getattr(GoogleDriveHelper, "last_error", "Нет деталей")
+    if access_tok:
+        gdrive_status = "✅ Авторизован (токен получен)"
+    else:
+        gdrive_status = f"❌ Ошибка: {last_err}"
     bot.reply_to(
         message,
         f"🤖 <b>H3H Uploader Bot Status</b>\n\n"
-        f"• <b>Версия:</b> v1.3.3-cloud\n"
+        f"• <b>Версия:</b> v1.3.3-cloud (rev 2)\n"
         f"• <b>Google Drive:</b> {gdrive_status}\n"
         f"• <b>Папка Диска:</b> <code>{folder_id}</code>\n"
         f"• <b>Каталог:</b> {len(resolver.games)} игр в базе\n\n"

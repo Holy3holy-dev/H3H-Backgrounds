@@ -77,6 +77,35 @@ class GoogleDriveHelper:
 
         # 1. Direct standard Google OAuth2 refresh endpoint (when using own OAuth client - permanent!)
         if cid and csec:
+            # Try requests first
+            try:
+                import requests
+                r = requests.post(
+                    "https://oauth2.googleapis.com/token",
+                    data={
+                        "client_id": cid,
+                        "client_secret": csec,
+                        "refresh_token": refresh_token.strip(),
+                        "grant_type": "refresh_token"
+                    },
+                    headers={"User-Agent": "H3H-Studio"},
+                    timeout=15
+                )
+                if r.status_code == 200:
+                    res_data = r.json()
+                    new_tok = res_data.get("access_token")
+                    if new_tok and new_tok.startswith("ya29."):
+                        cfg["token"] = new_tok
+                        cls.save_stored_config(cfg)
+                        return new_tok
+                else:
+                    cls.last_error = f"HTTP {r.status_code}: {r.text[:120]}"
+                    print(f"[-] Requests OAuth2 refresh error: {cls.last_error}")
+            except Exception as e:
+                cls.last_error = f"{type(e).__name__}: {e}"
+                print(f"[-] Requests exception: {cls.last_error}")
+
+            # Fallback to urllib
             try:
                 data = urllib.parse.urlencode({
                     "client_id": cid,
@@ -93,15 +122,22 @@ class GoogleDriveHelper:
                     },
                     method="POST"
                 )
-                with urllib.request.urlopen(req, timeout=20) as resp:
+                with urllib.request.urlopen(req, timeout=15) as resp:
                     res_data = json.loads(resp.read().decode("utf-8"))
                     new_tok = res_data.get("access_token")
                     if new_tok and new_tok.startswith("ya29."):
                         cfg["token"] = new_tok
                         cls.save_stored_config(cfg)
                         return new_tok
+            except urllib.error.HTTPError as e:
+                try:
+                    cls.last_error = f"HTTP {e.code}: {e.read().decode('utf-8')[:120]}"
+                except Exception:
+                    cls.last_error = f"HTTP {e.code}: {e.reason}"
+                print(f"[-] Urllib OAuth2 refresh error: {cls.last_error}")
             except Exception as e:
-                print(f"[-] Direct OAuth2 refresh error: {e}")
+                cls.last_error = f"{type(e).__name__}: {e}"
+                print(f"[-] Direct OAuth2 refresh error: {cls.last_error}")
 
         # 2. OAuth Playground fallback endpoint
         url = "https://developers.google.com/oauthplayground/refreshAccessToken"
