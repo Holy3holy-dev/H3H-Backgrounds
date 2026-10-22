@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "name": "H3H After Dark (18+) Official Catalog",
-  "updatedAt": "2026-10-22T16:51:25.134612+00:00",
+  "updatedAt": "2026-10-22T16:52:30.402994+00:00",
   "totalGames": 33,
-  "totalVariants": 432,
+  "totalVariants": 433,
   "games": [
     {
       "titleId": "0000000000000000",
@@ -4707,6 +4707,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Waraku Chise Moonlit Night Sky Blue Arch"
+        },
+        {
+          "id": "v_d35609ae",
+          "name": "Makima Lollipop Chainsaw Man",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nh1VXGVqKm9XGyNgyjOmqjVlt0lONSBe",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nh1VXGVqKm9XGyNgyjOmqjVlt0lONSBe&sz=w640",
+          "sizeBytes": 4705783,
+          "sha256": "A2FCA9500DFDDAE7D14D1B1B251397ADB6B1B1288CC35073E79B36B1C62A505D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Makima Lollipop Chainsaw Man | ЗВУК"
         }
       ]
     },
