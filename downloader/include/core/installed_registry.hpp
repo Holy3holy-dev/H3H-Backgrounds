@@ -5,7 +5,9 @@
 #include <fstream>
 #include <filesystem>
 #include <iostream>
+#include <mutex>
 #include "core/json.hpp"
+#include "core/config.hpp"
 
 namespace h3h {
 
@@ -17,9 +19,12 @@ public:
     }
 
     void load(const std::string& appDir) {
-        m_appDir = appDir;
+        std::lock_guard<std::mutex> lock(m_mutex);
+        if (!appDir.empty()) m_appDir = appDir;
+        if (m_appDir.empty()) return;
+
         m_installedMap.clear();
-        std::string filePath = appDir + "/installed_variants.json";
+        std::string filePath = m_appDir + "/installed_variants.json";
         std::error_code ec;
         if (!std::filesystem::exists(filePath, ec)) {
             return;
@@ -33,10 +38,11 @@ public:
             file >> root;
             if (root.is_object()) {
                 for (auto it = root.begin(); it != root.end(); ++it) {
+                    std::string normKey = Config::normalizeTitleId(it.key());
                     if (it.value().is_string()) {
-                        m_installedMap[it.key()] = it.value().get<std::string>();
+                        m_installedMap[normKey] = it.value().get<std::string>();
                     } else if (it.value().is_object() && it.value().contains("variantId")) {
-                        m_installedMap[it.key()] = it.value()["variantId"].get<std::string>();
+                        m_installedMap[normKey] = it.value()["variantId"].get<std::string>();
                     }
                 }
             }
@@ -46,6 +52,7 @@ public:
     }
 
     void save(const std::string& appDir) {
+        std::lock_guard<std::mutex> lock(m_mutex);
         if (!appDir.empty()) m_appDir = appDir;
         if (m_appDir.empty()) return;
 
@@ -58,23 +65,40 @@ public:
         try {
             nlohmann::json root = nlohmann::json::object();
             for (const auto& [titleId, variantId] : m_installedMap) {
-                root[titleId] = variantId;
+                root[Config::normalizeTitleId(titleId)] = variantId;
             }
 
             {
-                std::ofstream file(tmpPath);
+                std::ofstream file(tmpPath, std::ios::out | std::ios::trunc);
                 if (file.is_open()) {
                     file << root.dump(2);
+                    file.flush();
                 }
             }
+
+            // FatFs / Switch critical fix: remove destination first if it exists,
+            // because on FatFs / devkitA64 rename() fails with EEXIST if target exists!
+            if (std::filesystem::exists(filePath, ec)) {
+                std::filesystem::remove(filePath, ec);
+            }
             std::filesystem::rename(tmpPath, filePath, ec);
+            if (ec) {
+                // Direct write fallback if rename fails on any filesystem
+                std::ofstream directFile(filePath, std::ios::out | std::ios::trunc);
+                if (directFile.is_open()) {
+                    directFile << root.dump(2);
+                    directFile.flush();
+                }
+            }
         } catch (...) {
             // Graceful fallback
         }
     }
 
     std::string getVariantId(const std::string& titleId) const {
-        auto it = m_installedMap.find(titleId);
+        std::lock_guard<std::mutex> lock(m_mutex);
+        std::string norm = Config::normalizeTitleId(titleId);
+        auto it = m_installedMap.find(norm);
         if (it != m_installedMap.end()) {
             return it->second;
         }
@@ -83,17 +107,24 @@ public:
 
     void setVariantId(const std::string& appDir, const std::string& titleId, const std::string& variantId) {
         if (titleId.empty() || variantId.empty()) return;
-        m_installedMap[titleId] = variantId;
+        {
+            std::lock_guard<std::mutex> lock(m_mutex);
+            m_installedMap[Config::normalizeTitleId(titleId)] = variantId;
+        }
         save(appDir);
     }
 
     void remove(const std::string& appDir, const std::string& titleId) {
-        m_installedMap.erase(titleId);
+        {
+            std::lock_guard<std::mutex> lock(m_mutex);
+            m_installedMap.erase(Config::normalizeTitleId(titleId));
+        }
         save(appDir);
     }
 
 private:
     InstalledRegistry() = default;
+    mutable std::mutex m_mutex;
     std::string m_appDir;
     std::map<std::string, std::string> m_installedMap;
 };

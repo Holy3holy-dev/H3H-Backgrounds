@@ -298,8 +298,9 @@ void App::refreshInstalledGames() {
         if (game.hasInstalledCover) {
             std::string regVarId = InstalledRegistry::instance().getVariantId(game.titleId);
             if (!regVarId.empty()) {
+                // Trust registry entry explicitly
+                game.installedVariantId = regVarId;
                 if (regVarId.rfind("local:", 0) == 0) {
-                    game.installedVariantId = regVarId;
                     std::string clipName = regVarId.substr(6);
                     bool hasLocal = false;
                     for (const auto& v : game.catalogEntry.variants) {
@@ -315,39 +316,35 @@ void App::refreshInstalledGames() {
                         localVar.notes = "Собственный клип из sdmc:/recordings/";
                         game.catalogEntry.variants.insert(game.catalogEntry.variants.begin(), localVar);
                     }
-                } else {
-                    for (const auto& v : game.catalogEntry.variants) {
-                        if (v.id == regVarId) {
-                            game.installedVariantId = regVarId;
-                            break;
-                        }
-                    }
                 }
-            }
-
-            // If not found in registry (e.g. initial scan), match closest size
-            if (game.installedVariantId.empty() && !game.catalogEntry.variants.empty()) {
+            } else if (!game.catalogEntry.variants.empty()) {
+                // If not found in registry (e.g. initial scan of manually dropped files):
+                // Only associate automatically if exactly 1 variant exists
                 if (game.catalogEntry.variants.size() == 1) {
                     game.installedVariantId = game.catalogEntry.variants[0].id;
+                    InstalledRegistry::instance().setVariantId(m_platform->getAppDirectory(), game.titleId, game.installedVariantId);
                 } else {
+                    // Check if file size matches uniquely within 4 KB margin
                     int64_t bestDiff = INT64_MAX;
                     std::string bestId;
+                    int matchCount = 0;
                     for (const auto& v : game.catalogEntry.variants) {
                         if (v.sizeBytes > 0 && game.installedCoverSizeBytes > 0) {
                             int64_t diff = std::abs((int64_t)v.sizeBytes - (int64_t)game.installedCoverSizeBytes);
-                            if (diff < bestDiff) {
-                                bestDiff = diff;
-                                bestId = v.id;
+                            if (diff < 4096) {
+                                matchCount++;
+                                if (diff < bestDiff) {
+                                    bestDiff = diff;
+                                    bestId = v.id;
+                                }
                             }
                         }
                     }
-                    if (!bestId.empty()) {
+                    if (matchCount == 1 && !bestId.empty()) {
                         game.installedVariantId = bestId;
-                    } else {
-                        game.installedVariantId = game.catalogEntry.variants[0].id;
+                        InstalledRegistry::instance().setVariantId(m_platform->getAppDirectory(), game.titleId, game.installedVariantId);
                     }
                 }
-                InstalledRegistry::instance().setVariantId(m_platform->getAppDirectory(), game.titleId, game.installedVariantId);
             }
         }
     }
@@ -771,6 +768,23 @@ void App::update() {
 
     // Process background queue task completion
     if (m_queueTaskFinished.exchange(false)) {
+        // Immediately sync completed tasks into in-memory m_installedGames for instant UI responsiveness
+        {
+            std::lock_guard<std::mutex> lock(m_queueMutex);
+            for (const auto& task : m_downloadQueue) {
+                if (task.state == TaskState::Completed) {
+                    for (auto& game : m_installedGames) {
+                        if (Config::normalizeTitleId(game.titleId) == Config::normalizeTitleId(task.titleId)) {
+                            game.hasInstalledCover = true;
+                            game.installedVariantId = task.variant.id;
+                            game.installedCoverPath = task.targetFilePath;
+                            game.installedCoverSizeBytes = task.variant.sizeBytes;
+                            game.status = CoverStatus::Installed;
+                        }
+                    }
+                }
+            }
+        }
         refreshInstalledGames();
     }
 
@@ -1095,6 +1109,7 @@ void App::handleInput() {
                 }
                 m_touchDown = false;
                 m_isTouchDragging = false;
+                m_touchDragAccumulator = 0;
             }
         } else if (event.type == SDL_MOUSEBUTTONDOWN) {
             if (event.button.which != SDL_TOUCH_MOUSEID) {
@@ -4550,67 +4565,105 @@ void App::handleTouchTap(int mx, int my) {
 void App::handleTouchDrag(int startX, int startY, int deltaY) {
     m_touchDragAccumulator += deltaY;
 
-    // Threshold of 32 pixels for one scroll step
-    while (m_touchDragAccumulator <= -32) {
+    // Smooth half-row threshold (48px) for natural, fluid scrolling on Switch screen
+    const int scrollThreshold = 48;
+
+    while (m_touchDragAccumulator <= -scrollThreshold) {
         // Dragging UP -> scroll DOWN
-        m_touchDragAccumulator += 32;
+        m_touchDragAccumulator += scrollThreshold;
         if (m_isCollectionBrowserOpen) {
             if (m_collectionScrollOffset + 5 < static_cast<int>(m_collectionVariants.size())) {
                 m_collectionScrollOffset++;
+                if (m_collectionSelectedIndex < m_collectionScrollOffset) {
+                    m_collectionSelectedIndex = m_collectionScrollOffset;
+                }
             }
         } else if (m_isGamePickerOpen) {
             if (m_gamePickerScrollOffset + 5 < static_cast<int>(m_installedGames.size())) {
                 m_gamePickerScrollOffset++;
+                if (m_gamePickerSelectedIndex < m_gamePickerScrollOffset) {
+                    m_gamePickerSelectedIndex = m_gamePickerScrollOffset;
+                }
             }
         } else if (m_isRecordingsBrowserOpen) {
             if (m_recordingsScrollOffset + 5 < static_cast<int>(m_localRecordings.size())) {
                 m_recordingsScrollOffset++;
+                if (m_recordingsSelectedIndex < m_recordingsScrollOffset) {
+                    m_recordingsSelectedIndex = m_recordingsScrollOffset;
+                }
             }
-        } else if (m_activeTab == Tab::Catalog && startX >= 60 && startX <= 1220 && startY >= 160 && startY <= 660) {
+        } else if (m_activeTab == Tab::Catalog && startY >= 130 && startY <= 670) {
             if (m_catalogScrollOffset + 5 < static_cast<int>(m_filteredCatalogGames.size())) {
                 m_catalogScrollOffset++;
+                if (m_catalogSelectedIndex < m_catalogScrollOffset) {
+                    m_catalogSelectedIndex = m_catalogScrollOffset;
+                }
             }
         } else if (m_activeTab == Tab::MyGames && startX >= 30 && startX <= 480) {
-            if (m_myGamesScrollOffset + 7 < static_cast<int>(m_installedGames.size())) {
+            if (m_myGamesScrollOffset + 8 < static_cast<int>(m_installedGames.size())) {
                 m_myGamesScrollOffset++;
+                if (m_myGamesSelectedIndex < m_myGamesScrollOffset) {
+                    m_myGamesSelectedIndex = m_myGamesScrollOffset;
+                }
             }
-        } else if (m_activeTab == Tab::MyGames && startX >= 525 && startX <= 1225) {
+        } else if (m_activeTab == Tab::MyGames && startX >= 500 && startX <= 1250) {
             if (m_myGamesSelectedIndex >= 0 && m_myGamesSelectedIndex < static_cast<int>(m_installedGames.size())) {
                 const auto& selGame = m_installedGames[m_myGamesSelectedIndex];
                 int totalV = selGame.hasCatalogMatch ? static_cast<int>(selGame.catalogEntry.variants.size()) : 0;
                 if (m_variantScrollOffset + 4 < totalV) {
                     m_variantScrollOffset++;
+                    if (m_selectedVariantIndex < m_variantScrollOffset) {
+                        m_selectedVariantIndex = m_variantScrollOffset;
+                    }
                 }
             }
         }
     }
 
-    while (m_touchDragAccumulator >= 32) {
+    while (m_touchDragAccumulator >= scrollThreshold) {
         // Dragging DOWN -> scroll UP
-        m_touchDragAccumulator -= 32;
+        m_touchDragAccumulator -= scrollThreshold;
         if (m_isCollectionBrowserOpen) {
             if (m_collectionScrollOffset > 0) {
                 m_collectionScrollOffset--;
+                if (m_collectionSelectedIndex >= m_collectionScrollOffset + 5) {
+                    m_collectionSelectedIndex = m_collectionScrollOffset + 4;
+                }
             }
         } else if (m_isGamePickerOpen) {
             if (m_gamePickerScrollOffset > 0) {
                 m_gamePickerScrollOffset--;
+                if (m_gamePickerSelectedIndex >= m_gamePickerScrollOffset + 5) {
+                    m_gamePickerSelectedIndex = m_gamePickerScrollOffset + 4;
+                }
             }
         } else if (m_isRecordingsBrowserOpen) {
             if (m_recordingsScrollOffset > 0) {
                 m_recordingsScrollOffset--;
+                if (m_recordingsSelectedIndex >= m_recordingsScrollOffset + 5) {
+                    m_recordingsSelectedIndex = m_recordingsScrollOffset + 4;
+                }
             }
-        } else if (m_activeTab == Tab::Catalog && startX >= 60 && startX <= 1220 && startY >= 160 && startY <= 660) {
+        } else if (m_activeTab == Tab::Catalog && startY >= 130 && startY <= 670) {
             if (m_catalogScrollOffset > 0) {
                 m_catalogScrollOffset--;
+                if (m_catalogSelectedIndex >= m_catalogScrollOffset + 5) {
+                    m_catalogSelectedIndex = m_catalogScrollOffset + 4;
+                }
             }
         } else if (m_activeTab == Tab::MyGames && startX >= 30 && startX <= 480) {
             if (m_myGamesScrollOffset > 0) {
                 m_myGamesScrollOffset--;
+                if (m_myGamesSelectedIndex >= m_myGamesScrollOffset + 8) {
+                    m_myGamesSelectedIndex = m_myGamesScrollOffset + 7;
+                }
             }
-        } else if (m_activeTab == Tab::MyGames && startX >= 525 && startX <= 1225) {
+        } else if (m_activeTab == Tab::MyGames && startX >= 500 && startX <= 1250) {
             if (m_variantScrollOffset > 0) {
                 m_variantScrollOffset--;
+                if (m_selectedVariantIndex >= m_variantScrollOffset + 4) {
+                    m_selectedVariantIndex = m_variantScrollOffset + 3;
+                }
             }
         }
     }
