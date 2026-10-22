@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "updatedAt": "2026-10-21T21:35:23.453971+00:00",
   "totalGames": 790,
-  "totalVariants": 1025,
+  "totalVariants": 1026,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -23958,6 +23958,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | City Ruins NieR: Automata | ЗВУК"
+        },
+        {
+          "id": "var-ef23984b",
+          "name": "Ender 2B NieR",
+          "style": "Community Animated",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ri6o98QOZfg_VhwO4i14JlsIA1BGRD0o",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ri6o98QOZfg_VhwO4i14JlsIA1BGRD0o&sz=w640",
+          "sizeBytes": 13492538,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "@extimka",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Submitted via Telegram by @extimka"
         }
       ]
     },
@@ -24014,5 +24032,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-22T18:53:47.303231+00:00"
+  "lastUpdated": "2026-10-22T18:54:40.596649+00:00"
 }
