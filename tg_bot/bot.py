@@ -296,17 +296,42 @@ def transcode_to_switch_720p(src_vid: Path, out_mp4: Path, out_thumb: Path, code
     return True
 
 def get_gdrive_auth(category: str = "standard") -> Tuple[Optional[str], Optional[str]]:
-    """Returns (access_token, folder_id) for Google Drive operations based on category."""
+    """Returns (access_token, folder_id) for Google Drive operations based on category with robust failover."""
     gdrive_cfg = GoogleDriveHelper.get_stored_config()
-    refresh_tok = os.getenv("GDRIVE_REFRESH_TOKEN") or GDRIVE_REFRESH_TOKEN or gdrive_cfg.get("refresh_token")
-    client_id = os.getenv("GDRIVE_CLIENT_ID") or GDRIVE_CLIENT_ID or gdrive_cfg.get("client_id")
-    client_secret = os.getenv("GDRIVE_CLIENT_SECRET") or GDRIVE_CLIENT_SECRET or gdrive_cfg.get("client_secret")
 
-    access_tok = GoogleDriveHelper.refresh_access_token(
-        refresh_token=refresh_tok,
-        client_id=client_id,
-        client_secret=client_secret
-    )
+    candidates = []
+    # Candidate 1: Environment variable
+    env_tok = (os.getenv("GDRIVE_REFRESH_TOKEN") or "").strip()
+    env_cid = (os.getenv("GDRIVE_CLIENT_ID") or "").strip() or GDRIVE_CLIENT_ID
+    env_sec = (os.getenv("GDRIVE_CLIENT_SECRET") or "").strip() or GDRIVE_CLIENT_SECRET
+    if env_tok:
+        candidates.append((env_tok, env_cid, env_sec))
+
+    # Candidate 2: Permanent verified credentials from config.py
+    if GDRIVE_REFRESH_TOKEN and (GDRIVE_REFRESH_TOKEN, GDRIVE_CLIENT_ID, GDRIVE_CLIENT_SECRET) not in candidates:
+        candidates.append((GDRIVE_REFRESH_TOKEN, GDRIVE_CLIENT_ID, GDRIVE_CLIENT_SECRET))
+
+    # Candidate 3: Stored config
+    cfg_tok = (gdrive_cfg.get("refresh_token") or "").strip()
+    cfg_cid = (gdrive_cfg.get("client_id") or "").strip() or GDRIVE_CLIENT_ID
+    cfg_sec = (gdrive_cfg.get("client_secret") or "").strip() or GDRIVE_CLIENT_SECRET
+    if cfg_tok and (cfg_tok, cfg_cid, cfg_sec) not in candidates:
+        candidates.append((cfg_tok, cfg_cid, cfg_sec))
+
+    access_tok = None
+    for r_tok, c_id, c_sec in candidates:
+        try:
+            tok = GoogleDriveHelper.refresh_access_token(
+                refresh_token=r_tok,
+                client_id=c_id,
+                client_secret=c_sec
+            )
+            if tok and tok.startswith("ya29."):
+                access_tok = tok
+                break
+        except Exception:
+            continue
+
     if not access_tok:
         cand = gdrive_cfg.get("token")
         if cand:
@@ -315,7 +340,10 @@ def get_gdrive_auth(category: str = "standard") -> Tuple[Optional[str], Optional
                 access_tok = cand
     else:
         gdrive_cfg["token"] = access_tok
-        GoogleDriveHelper.save_stored_config(gdrive_cfg)
+        try:
+            GoogleDriveHelper.save_stored_config(gdrive_cfg)
+        except Exception:
+            pass
 
     if category == "after_dark":
         folder_id = (
@@ -476,6 +504,21 @@ def push_catalog_to_github(catalog_rel: Path, commit_msg: str, branch: Optional[
         return False
 
 # ----------------- Commands -----------------
+
+@bot.message_handler(commands=["status", "ping"])
+def handle_status(message: types.Message):
+    access_tok, folder_id = get_gdrive_auth("standard")
+    gdrive_status = "✅ Авторизован (токен получен)" if access_tok else "❌ Токен не получен"
+    bot.reply_to(
+        message,
+        f"🤖 <b>H3H Uploader Bot Status</b>\n\n"
+        f"• <b>Версия:</b> v1.3.3-cloud\n"
+        f"• <b>Google Drive:</b> {gdrive_status}\n"
+        f"• <b>Папка Диска:</b> <code>{folder_id}</code>\n"
+        f"• <b>Каталог:</b> {len(resolver.games)} игр в базе\n\n"
+        f"<i>Сервер работает 24/7 в облаке. Можете отправлять видеофайлы!</i>",
+        parse_mode="HTML"
+    )
 
 @bot.message_handler(commands=["start", "help"])
 @bot.message_handler(func=lambda m: m.text and m.text.strip().lower() in ["старт", "start", "начать", "помощь", "help", "меню", "menu"])
