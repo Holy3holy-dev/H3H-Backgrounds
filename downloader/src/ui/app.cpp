@@ -2235,12 +2235,16 @@ void App::renderTabMyGames() {
                     drawText("БЕЗ ЗВУКА", 916, vY + 43, Theme::COLOR_TEXT_MUTED, 10);
                 }
 
-                if (isVarSelected) {
-                    drawRect(1005, vY + 18, 205, 36, Theme::COLOR_FOCUS_FILL);
-                    drawRectOutline(1005, vY + 18, 205, 36, Theme::COLOR_FOCUS_CYAN, 1);
-                    std::string btnText = isActiveOnConsole ? "[A] Переустановить" : "[A] Установить";
-                    drawText(btnText, 1025, vY + 27, Theme::COLOR_FOCUS_CYAN, 13);
-                }
+                // Install / Reinstall Button (Interactive touch zone)
+                bool isFocused = (m_myGamesActivePane == MyGamesPane::VariantsList && isVarSelected);
+                Color btnFill = isFocused ? Theme::COLOR_FOCUS_FILL : (isVarSelected ? Color{0x00, 0x55, 0x77, 0x33} : Color{0x15, 0x20, 0x30, 0x55});
+                Color btnBorder = (isFocused || isVarSelected) ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_BORDER;
+                Color btnTextCol = (isFocused || isVarSelected) ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_MUTED;
+
+                drawRect(1005, vY + 18, 205, 36, btnFill);
+                drawRectOutline(1005, vY + 18, 205, 36, btnBorder, 1);
+                std::string btnText = isActiveOnConsole ? "[A] Переустановить" : "[A] Установить";
+                drawText(btnText, 1025, vY + 27, btnTextCol, 13);
 
                 vY += 80;
             }
@@ -4469,8 +4473,12 @@ void App::handleTouchTap(int mx, int my) {
                             if (vClicked >= 0 && vClicked < totalV) {
                                 m_selectedVariantIndex = vClicked;
                                 m_myGamesActivePane = MyGamesPane::VariantsList;
-                                if (mx >= 1005 && mx <= 1210) {
-                                    onButtonPress(0 /* A - Install */);
+                                if (mx >= 1000 && mx <= 1220) {
+                                    // Yellow Zone: direct instant download/installation
+                                    queueDownload(selGame, selGame.catalogEntry.variants[vClicked]);
+                                } else {
+                                    // Green Zone (left 525..999): open fullscreen video preview
+                                    openFullscreenPreviewForGame(selGame, vClicked);
                                 }
                             }
                         } else {
