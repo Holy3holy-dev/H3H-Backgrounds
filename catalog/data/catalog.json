@@ -24108,6 +24108,34 @@
           "notes": "Switch 720p 30fps H264 | Raiden High-Frequency Blade | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "01009C701A35E000",
+      "title": "Игра (01009C701A35E000)",
+      "publisher": "Community",
+      "variants": [
+        {
+          "id": "var-3ef03d15",
+          "name": "Trailer remix",
+          "style": "Community Animated",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xRuKJSprYX2OWQS9zeAdxYC4IxL3a9VJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xRuKJSprYX2OWQS9zeAdxYC4IxL3a9VJ&sz=w640",
+          "sizeBytes": 19588537,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "@Secondchancetomourn",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Submitted via Telegram by @Secondchancetomourn"
+        }
+      ]
     }
-  ]
+  ],
+  "totalGames": 792,
+  "totalVariants": 1033,
+  "lastUpdated": "2026-10-22T21:46:27.028838+00:00"
 }
