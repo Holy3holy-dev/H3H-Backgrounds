@@ -133,12 +133,42 @@ MATURE_SWITCH_GAMES = [
     ("010052300B254000", "Hades", ["aphrodite hades", "nyx hades", "megaera hades"]),
     ("01003AE007204000", "Gal*Gun 2", ["gal gun", "gal gun 2"]),
     ("01008D9017646000", "Seven Pirates H", ["seven pirates h", "seven pirates"]),
-    ("0100EBF010190000", "Moero Crystal H", ["moero crystal h", "moero crystal"])
+    ("0100EBF010190000", "Moero Crystal H", ["moero crystal h", "moero crystal"]),
+
+    # Switch Visual Novels, Galge & Anime Fighting Titles
+    ("010045000E418000", "Nekopara (Vol. 1-4)", ["nekopara", "chocola", "vanilla nekopara", "chocola nekopara"]),
+    ("010063F014170000", "Danganronpa Decadence", ["danganronpa", "chiaki nanami", "junko enoshima", "kyoko kirigiri"]),
+    ("0100A3F00C536000", "Kill la Kill - IF", ["kill la kill", "ryuko", "ryuuko matoi", "satsuki kiryuin"]),
+    ("0100BE400CA2E000", "Steins;Gate Divergence Assorted", ["steins gate", "kurisu makise", "kurisu steins gate"]),
+    ("0100A3A00CC7E000", "Clannad", ["clannad", "nagisa clannad", "ushio clannad"]),
+    ("010092300D49E000", "Atelier Ryza / Sophie", ["atelier ryza", "atelier sophie", "ryza atelier", "atelier"]),
+    ("01001E30126A0000", "Melty Blood: Type Lumina", ["melty blood", "arcueid", "neco arc", "tsukihime"]),
+    ("0100EE800C93E000", "BlazBlue Cross Tag Battle", ["blazblue", "blazblue noel", "blazblue rachel"]),
+    ("0100AB401F136000", "Guilty Gear -Strive-", ["guilty gear", "bridget guilty gear", "baiken guilty gear"]),
+    ("010046B00DE62000", "Skullgirls 2nd Encore", ["skullgirls", "filia skullgirls", "valentine skullgirls"]),
+    ("010023301E41C000", "Fate/Stay Night Remastered", ["fate stay night", "saber fate", "rin tohsaka", "fate saber alter"]),
+    ("01004ED016E10000", "Neptunia x Senran Kagura Ninja Wars", ["hyperdimension neptunia", "purple heart neptunia", "noire neptunia"]),
+    ("0100FBD01884C000", "Akiba's Trip: Hellbound & Debriefed", ["akibas trip", "akiba trip", "akiba"]),
+    ("01002BD00CB86000", "Panty Party", ["panty party"]),
+    ("010027F00AD6C000", "SNK Heroines: Tag Team Frenzy", ["snk heroines", "mai shiranui", "kula diamond"]),
+    ("01003B300E4AA000", "The Grisaia Trilogy", ["grisaia", "grisaia phantom trigger", "fruit of grisaia"]),
+    ("01003DE00C95E000", "Mary Skelter 2", ["mary skelter", "mary skelter 2"]),
+    ("01004EB0119AC000", "Moero Chronicle Hyper", ["moero chronicle", "monster girl ecchi"]),
+    ("0100BF500207C000", "Bloodstained: Ritual of the Night", ["bloodstained", "bloodstained miriam"]),
+    ("01005700031AE000", "Disgaea Complete", ["disgaea", "disgaea etna", "disgaea flonne"]),
+    ("0100990011866000", "Aokana: Four Rhythms Across the Blue", ["aokana", "asuka kurashina"]),
+    ("010016101100A000", "The House in Fata Morgana", ["house in fata morgana", "fata morgana"]),
+    ("0100F7E01343E000", "Corpse Party Blood Covered", ["corpse party", "ayumi shinozaki"])
 ]
 
-# General mature / ecchi / waifu queries for After Dark collection
+# General mature / ecchi / waifu / genre queries for After Dark collection
 AFTER_DARK_GENERAL_QUERIES = [
-    "bikini", "swimsuit", "bunny girl", "maid waifu", "beach anime", "lingerie waifu", "ecchi",
+    # Specific Ecchi & Waifu Sub-genres
+    "visual novel", "galge", "neko", "catgirl", "bunny girl", "maid waifu",
+    "yandere", "tsundere", "gothic girl", "cyberpunk girl", "schoolgirl",
+    "monster girl", "ecchi", "bikini", "swimsuit", "beach anime", "lingerie waifu",
+
+    # Iconic Anime / Mobile Waifus
     "nikke", "nikke bikini", "stellar blade eve", "blue archive", "blue archive swimsuit",
     "genshin impact waifu", "raiden shogun", "yae miko", "ganyu", "hu tao", "furina",
     "honkai star rail waifu", "kafka honkai", "firefly honkai", "acheron honkai",
@@ -263,9 +293,19 @@ class AutoVideoHarvester:
     def get_gdrive_token(self) -> Optional[str]:
         gdrive_cfg = GoogleDriveHelper.get_stored_config()
         refresh_tok = gdrive_cfg.get("refresh_token")
-        if not refresh_tok:
-            return None
-        return GoogleDriveHelper.refresh_access_token(refresh_tok)
+        if refresh_tok:
+            refreshed = GoogleDriveHelper.refresh_access_token(refresh_tok)
+            if refreshed:
+                gdrive_cfg["token"] = refreshed
+                GoogleDriveHelper.save_stored_config(gdrive_cfg)
+                return refreshed
+        # Fallback to direct access token if valid
+        tok = gdrive_cfg.get("token")
+        if tok:
+            test = GoogleDriveClient.test_connection(tok)
+            if test.get("ok"):
+                return tok
+        return None
 
     @staticmethod
     def is_nsfw_text(text: str) -> bool:
@@ -274,35 +314,53 @@ class AutoVideoHarvester:
 
     @staticmethod
     def is_suitable_for_after_dark(title: str, query: str) -> bool:
-        """Strict validation: ensure wallpaper is genuine adult / ecchi / sensual / waifu content."""
+        """Strict validation: ensure wallpaper is genuine adult / ecchi / sensual / waifu / genre content."""
         t_low = title.lower()
         q_low = query.lower()
 
-        # Reject obvious non-ecchi male shonen fighting or generic landscapes
-        if any(bad in t_low for bad in ["sasuke", "naruto", "goku", "vegeta", "luffy", "zoro", "male", "boy", "chidori", "rasengan"]):
+        # Reject obvious non-ecchi male shonen fighting or generic male wallpapers
+        bad_males = [
+            "sasuke", "naruto", "goku", "vegeta", "luffy", "zoro", "male", "boy",
+            "chidori", "rasengan", "okabe", "rintarou", "deku", "all might",
+            "tanjiro", "zenitsu", "inosuke", "gojo satoru", "sukuna", "eren"
+        ]
+        if any(bad in t_low for bad in bad_males):
             return False
 
-        # Explicit sensual / ecchi / adult keywords
+        # Explicit sensual / ecchi / adult / anime genre keywords
         ecchi_keywords = [
             "bikini", "swimsuit", "bunny", "ecchi", "nsfw", "18+", "erotic", "nude",
             "naked", "cleavage", "lingerie", "boobs", "ass", "thighs", "waifu", "hentai",
             "sensual", "undressing", "sexy", "maid", "beach", "summer", "bath", "shower",
-            "bed", "sleeping", "wet", "dress", "legs", "relaxing", "night", "flower"
+            "bed", "sleeping", "wet", "dress", "legs", "relaxing", "night", "flower",
+            "girl", "neko", "catgirl", "yandere", "tsundere", "goth", "gothic",
+            "cyberpunk girl", "schoolgirl", "vampire", "succubus", "witch", "princess", "bride"
         ]
         if any(k in t_low for k in ecchi_keywords):
             return True
 
-        # Established iconic waifus
+        # Established iconic waifus & game heroines
         waifu_characters = [
             "2b", "a2", "tifa", "aerith", "pyra", "mythra", "purah", "bowsette", "boosette",
             "bayonetta", "catherine", "kangel", "monika", "prinz eugen", "taihou", "shinano",
             "atago", "marie rose", "honoka", "asuka", "yumi", "android 18", "lucy", "rebecca",
             "nikke", "stellar blade", "eve", "makima", "zero two", "marin kitagawa", "yor forger",
             "raiden", "yae miko", "ganyu", "hu tao", "furina", "kafka", "firefly", "acheron",
-            "samus", "edelgard", "byleth", "aphrodite"
+            "samus", "edelgard", "byleth", "aphrodite",
+            # Visual Novel, Galge & Anime Heroines
+            "chocola", "vanilla", "kurisu", "makise", "ryuko", "ryuuko", "satsuki",
+            "chiaki", "nanami", "kyoko", "kirigiri", "junko", "enoshima", "mikan", "ibuki",
+            "nagisa", "ushio", "sophie", "ryza", "saber", "arcueid", "arlecchino",
+            "bridget", "baiken", "filia", "valentine", "miriam", "etna", "flonne",
+            "shiranui", "kula", "shigure", "maple", "cinnamon", "azuki", "coconut"
         ]
         if any(w in t_low or w in q_low for w in waifu_characters):
             return True
+
+        # If query is a targeted mature Switch game and wallpaper has no male flags, accept
+        for _, gname, qlist in MATURE_SWITCH_GAMES:
+            if any(q == q_low for q in qlist):
+                return True
 
         return False
 
@@ -787,7 +845,19 @@ def main():
     parser.add_argument("--limit", type=int, default=5, help="Number of backgrounds to harvest per batch")
     parser.add_argument("--continuous", action="store_true", help="Run continuously in a loop ('на поток')")
     parser.add_argument("--interval", type=int, default=30, help="Interval in seconds between continuous batches")
+    parser.add_argument("--gdrive-token", type=str, default=None, help="Google Drive OAuth Access Token (ya29...)")
+    parser.add_argument("--refresh-token", type=str, default=None, help="Google Drive OAuth Refresh Token (1//...)")
     args = parser.parse_args()
+
+    # Update credentials if provided via CLI
+    if args.gdrive_token or args.refresh_token:
+        cfg = GoogleDriveHelper.get_stored_config()
+        if args.gdrive_token:
+            cfg["token"] = args.gdrive_token.strip()
+        if args.refresh_token:
+            cfg["refresh_token"] = args.refresh_token.strip()
+        GoogleDriveHelper.save_stored_config(cfg)
+        print("[+] Updated Google Drive credentials in config.")
 
     modes = ["main", "after-dark"] if args.mode == "all" else [args.mode]
 
