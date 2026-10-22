@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "updatedAt": "2026-10-21T21:35:23.453971+00:00",
   "totalGames": 790,
-  "totalVariants": 1024,
+  "totalVariants": 1025,
   "games": [
     {
       "titleId": "0100000000010000",
@@ -1052,6 +1052,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Submitted via Telegram by @HolyL0rd"
+        },
+        {
+          "id": "var-65a36782",
+          "name": "Ender 2B NieR",
+          "style": "Community Animated",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mkfQ5oKzFyyuvNW3iOd_-pGC6GL_Q4L3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mkfQ5oKzFyyuvNW3iOd_-pGC6GL_Q4L3&sz=w640",
+          "sizeBytes": 13491767,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "@extimka",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Submitted via Telegram by @extimka"
         }
       ]
     },
@@ -23996,5 +24014,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-22T18:53:02.145337+00:00"
+  "lastUpdated": "2026-10-22T18:53:47.303231+00:00"
 }
