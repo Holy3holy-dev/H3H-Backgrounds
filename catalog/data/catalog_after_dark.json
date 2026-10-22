@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "name": "H3H After Dark (18+) Official Catalog",
-  "updatedAt": "2026-10-22T15:50:09.141659+00:00",
-  "totalGames": 32,
-  "totalVariants": 378,
+  "updatedAt": "2026-10-22T15:51:26.574819+00:00",
+  "totalGames": 33,
+  "totalVariants": 379,
   "games": [
     {
       "titleId": "0000000000000000",
@@ -7057,6 +7057,32 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Fungus Bogs Deep Rock Galactic | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "010052300B254000",
+      "title": "Hades",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010052300B254000.jpg",
+      "variants": [
+        {
+          "id": "v_4088c523",
+          "name": "Nyx Hades",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1aXb_OoJxVXOcChar6FfNyJyd2s5bKqPx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1aXb_OoJxVXOcChar6FfNyJyd2s5bKqPx&sz=w640",
+          "sizeBytes": 4618483,
+          "sha256": "30275C7EB67A8CB62477837ADAD8CAD2FAF2B615C5D61FC6828E82BD3493B96C",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Nyx Hades | ЗВУК"
         }
       ]
     }
