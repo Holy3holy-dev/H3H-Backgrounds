@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "name": "H3H After Dark (18+) Official Catalog",
-  "updatedAt": "2026-10-22T14:37:27.610505+00:00",
-  "totalGames": 27,
-  "totalVariants": 212,
+  "updatedAt": "2026-10-22T14:38:51.073251+00:00",
+  "totalGames": 28,
+  "totalVariants": 217,
   "games": [
     {
       "titleId": "0000000000000000",
@@ -3827,6 +3827,60 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Saber Cloudy Vortex Fate Series | ЗВУК"
+        },
+        {
+          "id": "v_2fc2ec38",
+          "name": "Ereshkigal Fate Grand Order",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1__CrLuLL6-XnuOXpfInPKA6dNROMRnEl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1__CrLuLL6-XnuOXpfInPKA6dNROMRnEl&sz=w640",
+          "sizeBytes": 4684933,
+          "sha256": "2DD1668B2DF116B61540071AB6E6BDCF6BD3A98DF6981A1F6EC2FAE3EBD092A4",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ereshkigal Fate Grand Order | ЗВУК"
+        },
+        {
+          "id": "v_37026d54",
+          "name": "Artoria Pendragon Alter Fate Grand Order",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1c-iQdCvTX9MNao8mcmxkopz8XF9h_elu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1c-iQdCvTX9MNao8mcmxkopz8XF9h_elu&sz=w640",
+          "sizeBytes": 4756333,
+          "sha256": "0DD57895AB511883EDB9D8B1D1A551B17CA510A6A0ED3BF474DDE3C8F6E96E53",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Artoria Pendragon Alter Fate Grand Order | ЗВУК"
+        },
+        {
+          "id": "v_777b4888",
+          "name": "Thunderbolt Fantasy",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_ayiy8aOoUDFOycAlCbUbOmt2jD45UF0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_ayiy8aOoUDFOycAlCbUbOmt2jD45UF0&sz=w640",
+          "sizeBytes": 4676368,
+          "sha256": "F66D80FE62962BA255BD274E0382A0B6539E9BEAC442F21FF1FDBCFA0114BBD4",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Thunderbolt Fantasy"
         }
       ]
     },
@@ -4029,6 +4083,50 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Steins;Gate Lab Members | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "01004ED016E10000",
+      "title": "Neptunia x Senran Kagura Ninja Wars",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004ED016E10000.jpg",
+      "variants": [
+        {
+          "id": "v_dffd2a2c",
+          "name": "Neptune And Nepgear Singing Together Hyp",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vSdr4NTfFwLzaUf_jPxeAh_JoNNqVptk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vSdr4NTfFwLzaUf_jPxeAh_JoNNqVptk&sz=w640",
+          "sizeBytes": 4746055,
+          "sha256": "1229AA46A0D81359EB2E6F24C6C85B4D52226944F353130F0AEDE2373B6461FF",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Neptune And Nepgear Singing Together Hyp | ЗВУК"
+        },
+        {
+          "id": "v_6792e692",
+          "name": "Noire Black Heart Hyperdimension Neptuni",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KSK6fMIIMrv96zP2aG2e47uoQXTejDOF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KSK6fMIIMrv96zP2aG2e47uoQXTejDOF&sz=w640",
+          "sizeBytes": 4710264,
+          "sha256": "887150FCB56F9A42DE82E797F04DE1AA4ED58EBC53DAFFDAFD2787BC9B62881F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Noire Black Heart Hyperdimension Neptuni | ЗВУК"
         }
       ]
     }
