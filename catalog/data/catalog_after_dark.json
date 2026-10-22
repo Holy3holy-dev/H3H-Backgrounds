@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "name": "H3H After Dark (18+) Official Catalog",
-  "updatedAt": "2026-10-22T14:25:35.625207+00:00",
-  "totalGames": 22,
-  "totalVariants": 181,
+  "updatedAt": "2026-10-22T14:26:20.798617+00:00",
+  "totalGames": 23,
+  "totalVariants": 182,
   "games": [
     {
       "titleId": "0000000000000000",
@@ -3431,6 +3431,32 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Saber Cloudy Vortex Fate Series | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "010027F00AD6C000",
+      "title": "SNK Heroines: Tag Team Frenzy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010027F00AD6C000.jpg",
+      "variants": [
+        {
+          "id": "v_df3c7245",
+          "name": "Mai Street Fighter 6",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lm5BH7FoYiv5HyMurXPYp3vftNFyqIIt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lm5BH7FoYiv5HyMurXPYp3vftNFyqIIt&sz=w640",
+          "sizeBytes": 4682798,
+          "sha256": "2B767303FA55C0418A293B7F3E2E2A31C9653D079B4DFC7233D81DD3ED48C653",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mai Street Fighter 6 | ЗВУК"
         }
       ]
     }
