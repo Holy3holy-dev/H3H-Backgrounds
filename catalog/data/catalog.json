@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:19:55.727766+00:00",
+  "updatedAt": "2026-10-23T13:21:00.307869+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -24920,9 +24920,35 @@
           "notes": "Switch 720p 30fps H264 | Asta Demon Dweller Sword Black Clover | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "01001340274BC000",
+      "title": "TR 49",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001340274BC000.jpg",
+      "variants": [
+        {
+          "id": "v_c5408528",
+          "name": "Blade Runner 2049",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1YKf5_6yqqagKa2uSiKosG_8z5npV8BT_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1YKf5_6yqqagKa2uSiKosG_8z5npV8BT_&sz=w640",
+          "sizeBytes": 4570693,
+          "sha256": "0933DE76BF492CF4E63D026170F2202F89BC0766300FDDBD2786291B223C8E42",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Blade Runner 2049 | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 796,
-  "totalVariants": 1075,
+  "totalGames": 797,
+  "totalVariants": 1076,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
