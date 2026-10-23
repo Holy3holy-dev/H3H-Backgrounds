@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:56:46.959896+00:00",
+  "updatedAt": "2026-10-23T14:58:07.401697+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -30688,9 +30688,123 @@
           "notes": "Switch 720p 30fps H264 | Goku And Vegeta In The Island Dragon Bal"
         }
       ]
+    },
+    {
+      "titleId": "0100EED010722000",
+      "title": "Warp Drive",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EED010722000.jpg",
+      "variants": [
+        {
+          "id": "v_ddeeef22",
+          "name": "Warp Drive",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QnIUT8JuLM7kvsPa8HRhDJSyj1VEt4Qm",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QnIUT8JuLM7kvsPa8HRhDJSyj1VEt4Qm&sz=w640",
+          "sizeBytes": 4736784,
+          "sha256": "7C88713A12EA1469D6577A9AB7BBE8535F8CE4F7F3629C4D0CCEB439B34ACBC6",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Warp Drive | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "01002DE01043E000",
+      "title": "Stela",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002DE01043E000.jpg",
+      "variants": [
+        {
+          "id": "v_0a4c0725",
+          "name": "Post Apocalyptic Soldiers Wasteland 3",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10WvPIqh5_79ZHsmzzFSGfFxRagP8-mxc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10WvPIqh5_79ZHsmzzFSGfFxRagP8-mxc&sz=w640",
+          "sizeBytes": 4727751,
+          "sha256": "7641A6B3A6B438D982438C4DF826B763ACDA351C4E13FF3BFAC4146C4A61E688",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Post Apocalyptic Soldiers Wasteland 3 | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E7601DCB6000",
+      "title": "Return",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E7601DCB6000.jpg",
+      "variants": [
+        {
+          "id": "v_fd6acee0",
+          "name": "Remielle 1st Gen Void Hunter Returns Zen",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1G5SSaOgUrDRUWGKHs7uoPbUkHGdUMBum",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1G5SSaOgUrDRUWGKHs7uoPbUkHGdUMBum&sz=w640",
+          "sizeBytes": 4740795,
+          "sha256": "A058A2A23888682144B232C27E2B2D5F4AB959742FB5F775F6CA567B8D2CA5DC",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Remielle 1st Gen Void Hunter Returns Zen | ЗВУК"
+        },
+        {
+          "id": "v_725e12fa",
+          "name": "Samurai Tragic Return",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wW8pipk6jPVhGujfaNi0OytJs6uxXzD7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wW8pipk6jPVhGujfaNi0OytJs6uxXzD7&sz=w640",
+          "sizeBytes": 4699880,
+          "sha256": "C84790A91004FBCA17298352F026D61F4DC61200FC71C218A21C6668260BE891",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Samurai Tragic Return"
+        },
+        {
+          "id": "v_797ee6b5",
+          "name": "Darkness Returns The Lord of the Rings",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11KGUUFNg4SxXJ3qOWjwbRZ-YqKwo1Z_I",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11KGUUFNg4SxXJ3qOWjwbRZ-YqKwo1Z_I&sz=w640",
+          "sizeBytes": 4810481,
+          "sha256": "5B1C8E38564B73EB669E9A5364869093153AE14DA1336E55B9E7E3C2A986BDB0",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Darkness Returns The Lord of the Rings | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 932,
-  "totalVariants": 1335,
+  "totalGames": 935,
+  "totalVariants": 1340,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
