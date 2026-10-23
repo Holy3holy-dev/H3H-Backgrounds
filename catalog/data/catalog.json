@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:39:30.780145+00:00",
+  "updatedAt": "2026-10-23T14:40:37.720859+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -29504,9 +29504,115 @@
           "notes": "Switch 720p 30fps H264 | Trico The Last Guardian | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "01004DE01CF78000",
+      "title": "Gift",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004DE01CF78000.jpg",
+      "variants": [
+        {
+          "id": "v_c6979de1",
+          "name": "Cute Cats Christmas",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VXOMznD9n7PkSWj3kierBrz6FELwAXUo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VXOMznD9n7PkSWj3kierBrz6FELwAXUo&sz=w640",
+          "sizeBytes": 3721873,
+          "sha256": "96B00FA8E61BC4347964B0277AEA2E9EDCFCA43AC96BE4FF5B879CBAA9BCC9EA",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cute Cats Christmas | ЗВУК"
+        },
+        {
+          "id": "v_632823d9",
+          "name": "Candles Christmas",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1J5qilxioH7Vhxnvr9FtqD2vs44XZnesA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1J5qilxioH7Vhxnvr9FtqD2vs44XZnesA&sz=w640",
+          "sizeBytes": 4711809,
+          "sha256": "D0A09E70F78E6BAD9C54E2DCEAEF689B10962AF6EA9DAF6D4D1160DC6203F76E",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Candles Christmas | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "01002CB01CEE8000",
+      "title": "Hand in Hand",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002CB01CEE8000.jpg",
+      "variants": [
+        {
+          "id": "v_acafd638",
+          "name": "Lucilla Give Me Your Hand Wuthering Wave",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1L2UKhWRz4ogLQc1MExF5yMDlSTIapw3A",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1L2UKhWRz4ogLQc1MExF5yMDlSTIapw3A&sz=w640",
+          "sizeBytes": 4704208,
+          "sha256": "7A7174F77828074787EA0C99CA292E64684BA6FA5BCAFBD6CFB50888B9CD890B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lucilla Give Me Your Hand Wuthering Wave | ЗВУК"
+        },
+        {
+          "id": "v_be04f749",
+          "name": "Hina Take Your Hand Blue Archive",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1b1cnYB2-xuUtbePyu8xGp1N_z1NYfBAI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1b1cnYB2-xuUtbePyu8xGp1N_z1NYfBAI&sz=w640",
+          "sizeBytes": 4745548,
+          "sha256": "80409325328F2D832BB40C545D3D02A5756317CF21C02632E0D3026A0C825531",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hina Take Your Hand Blue Archive | ЗВУК"
+        },
+        {
+          "id": "v_051c5683",
+          "name": "Gojo Hand Sign Jujutsu Kaisen",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_jJthZGRcZc4lIykaCIm451eAZfvBMZa",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_jJthZGRcZc4lIykaCIm451eAZfvBMZa&sz=w640",
+          "sizeBytes": 4696069,
+          "sha256": "C80377BE5327E6E4F3F740169989712DD31AFA281E51226C929025A8BE83BE8C",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Gojo Hand Sign Jujutsu Kaisen"
+        }
+      ]
     }
   ],
-  "totalGames": 901,
-  "totalVariants": 1283,
+  "totalGames": 903,
+  "totalVariants": 1288,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
