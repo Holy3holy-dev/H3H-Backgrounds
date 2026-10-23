@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "name": "H3H After Dark (18+) Official Catalog",
-  "updatedAt": "2026-10-23T07:54:30.854854+00:00",
+  "updatedAt": "2026-10-23T07:55:42.931511+00:00",
   "totalGames": 88,
-  "totalVariants": 702,
+  "totalVariants": 703,
   "games": [
     {
       "titleId": "0000000000000000",
@@ -2457,6 +2457,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Lofi Summer Anime Girl"
+        },
+        {
+          "id": "v_67fa7061",
+          "name": "Horizon Attack On Titan",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gdgpiF1vh5VQnUON4unaAmeVwOWndT1X",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gdgpiF1vh5VQnUON4unaAmeVwOWndT1X&sz=w640",
+          "sizeBytes": 4710214,
+          "sha256": "918DC6AD94A19D71EFD5C9E666D4C7F9E3AA7A5103BFE151166407772873C488",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Horizon Attack On Titan | ЗВУК"
         }
       ]
     },
