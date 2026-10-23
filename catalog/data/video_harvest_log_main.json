@@ -2903,10 +2903,52 @@
     "https://moewalls.com/games/minecraft-night-sky-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2026/minecraft-night-sky-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2025/blood-moon-bloodborne-preview.webm": {
+      "title": "Blood Moon Bloodborne",
+      "titleId": "0100424C4F4F4400",
+      "gameName": "Bloodborne",
+      "varId": "v_eebefeec",
+      "driveId": "1wgzsYR4_9LKhPHO7w7tgt_mNZzCDl5xV",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/blood-moon-bloodborne-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2025/blood-moon-bloodborne-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2025/moonside-lake-bloodborne-preview.webm": {
+      "title": "Moonside Lake Bloodborne",
+      "titleId": "0100424C4F4F4400",
+      "gameName": "Bloodborne",
+      "varId": "v_63a90dc3",
+      "driveId": "1wP1XUTSbGAeYLhVQZCgy9VrNRdTTksZp",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/landscape/moonside-lake-bloodborne-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2025/moonside-lake-bloodborne-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2025/bloodborne-the-old-hunters-preview.webm": {
+      "title": "Bloodborne The Old Hunters",
+      "titleId": "0100424C4F4F4400",
+      "gameName": "Bloodborne",
+      "varId": "v_e2c77715",
+      "driveId": "166fUtgme2L-G-yyiBBjVL99kpdIhMEyX",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/bloodborne-the-old-hunters-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2025/bloodborne-the-old-hunters-preview.webm"
     }
   },
-  "total_harvested": 401,
-  "last_updated": "2026-10-23T13:04:01.689452+00:00",
+  "total_harvested": 407,
+  "last_updated": "2026-10-23T13:05:31.684740+00:00",
   "page_cursors": {
     "super mario odyssey": 2,
     "mario odyssey": 2,
@@ -3011,12 +3053,12 @@
     "Spyro Reignited Trilogy": 3,
     "Bayonetta / Bayonetta 2": 3,
     "Alien Isolation": 2,
-    "Xenoblade Chronicles 3": 2,
-    "Blasphemous": 2,
-    "Persona 4 Golden": 2,
-    "Quake II": 2,
-    "Half Life 1": 2,
-    "Metroid Prime Remastered": 2,
+    "Xenoblade Chronicles 3": 3,
+    "Blasphemous": 3,
+    "Persona 4 Golden": 3,
+    "Quake II": 3,
+    "Half Life 1": 3,
+    "Metroid Prime Remastered": 3,
     "Dragon's Dogma Dark Arisen": 2,
     "Tony Hawk's Pro Skater 1": 2,
     "PPSSPP": 2,
@@ -3382,7 +3424,30 @@
     "Metroid Dread": 2,
     "Ghostrunner": 2,
     "Sea of Stars": 2,
-    "Undertale": 2
+    "Undertale": 2,
+    "Alan Wake Remastered": 2,
+    "Crysis 1 / 2 / 3 Remastered": 2,
+    "Super Mario 64": 2,
+    "The Simpsons Hit & Run": 2,
+    "Silent Hill 2": 2,
+    "Red Dead Redemption 2": 2,
+    "Max Payne": 2,
+    "Kirby and the Forgotten Land": 2,
+    "Left 4 Dead 2": 2,
+    "Halo Combat Evolved": 2,
+    "Ghost of Tsushima": 2,
+    "FlatOut 2": 2,
+    "Dead Space": 2,
+    "Dark Souls III": 2,
+    "Burnout 3 Takedown": 2,
+    "Signalis": 2,
+    "Little Nightmares": 2,
+    "Celeste": 2,
+    "Katana Zero": 2,
+    "Inscryption": 2,
+    "Pokemon Legends Arceus": 2,
+    "Terraria": 2,
+    "RetroArch": 2
   },
-  "query_cursor": 240
+  "query_cursor": 270
 }

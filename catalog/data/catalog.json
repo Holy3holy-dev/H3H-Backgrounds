@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:04:01.693567+00:00",
+  "updatedAt": "2026-10-23T13:05:31.688731+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -4495,6 +4495,60 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 0100424C4F4F4400_Bloodborne_Hunters_Dream.mp4"
+        },
+        {
+          "id": "v_eebefeec",
+          "name": "Blood Moon Bloodborne",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wgzsYR4_9LKhPHO7w7tgt_mNZzCDl5xV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wgzsYR4_9LKhPHO7w7tgt_mNZzCDl5xV&sz=w640",
+          "sizeBytes": 4707770,
+          "sha256": "C8EC930FD3C2D172949F428AF04ED4BF1269C253F0DD660C0B5A77A2FCF37AD3",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Blood Moon Bloodborne | ЗВУК"
+        },
+        {
+          "id": "v_63a90dc3",
+          "name": "Moonside Lake Bloodborne",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wP1XUTSbGAeYLhVQZCgy9VrNRdTTksZp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wP1XUTSbGAeYLhVQZCgy9VrNRdTTksZp&sz=w640",
+          "sizeBytes": 4635281,
+          "sha256": "CFB1D14404A7920DE2D8566E353073621E0A9AEC994B97B1F622DC57D751C367",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Moonside Lake Bloodborne"
+        },
+        {
+          "id": "v_e2c77715",
+          "name": "Bloodborne The Old Hunters",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=166fUtgme2L-G-yyiBBjVL99kpdIhMEyX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=166fUtgme2L-G-yyiBBjVL99kpdIhMEyX&sz=w640",
+          "sizeBytes": 4689337,
+          "sha256": "4E2665B9686A00EEB5F13540422F9AEBA451359A8E27884F1A898814AB99A693",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Bloodborne The Old Hunters"
         }
       ]
     },
@@ -24475,6 +24529,6 @@
     }
   ],
   "totalGames": 794,
-  "totalVariants": 1051,
+  "totalVariants": 1054,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
