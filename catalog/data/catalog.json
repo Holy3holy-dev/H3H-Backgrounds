@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:56:06.727911+00:00",
+  "updatedAt": "2026-10-23T13:57:24.197309+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -27358,9 +27358,115 @@
           "notes": "Switch 720p 30fps H264 | Batman Watching Over Gotham | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "010027B00E40E000",
+      "title": "Ashen",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010027B00E40E000.jpg",
+      "variants": [
+        {
+          "id": "v_41794aeb",
+          "name": "Ashen One Monochrome Dark Souls 3",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IN_UI4lHJbByrvud41tQwU0iP7iz9JG1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IN_UI4lHJbByrvud41tQwU0iP7iz9JG1&sz=w640",
+          "sizeBytes": 4914645,
+          "sha256": "8AFF95D8680DC52455C909936879582DB04F9F920500E4C09AE0327A8078E19B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ashen One Monochrome Dark Souls 3 | ЗВУК"
+        },
+        {
+          "id": "v_23cfb338",
+          "name": "Ashen Knight Pantheon League Of Legends",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OiGcBZ6fZieqhWCD8ySnkIYnTLx1oBhU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OiGcBZ6fZieqhWCD8ySnkIYnTLx1oBhU&sz=w640",
+          "sizeBytes": 4692464,
+          "sha256": "973DA581C85C37788211F81EE069563CEFE6872A720F5A53315678B7A2CD26B9",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Ashen Knight Pantheon League Of Legends"
+        },
+        {
+          "id": "v_989a9c43",
+          "name": "Ashen Graveknight Mordekaiser League Of",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14-haaid5X-4MQgMlmbGVgMWSv6O_nwGq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14-haaid5X-4MQgMlmbGVgMWSv6O_nwGq&sz=w640",
+          "sizeBytes": 4737218,
+          "sha256": "485C6B05561D570855A64DBB88D93627A959311AD86EA854CEF2F78ADE6DFAA6",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ashen Graveknight Mordekaiser League Of | ЗВУК"
+        },
+        {
+          "id": "v_7fb42ce3",
+          "name": "Ashen Knight Pyke League Of Legends",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NzXjrQBCoCNUlYvTapbqysU-8a4y7-Ot",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NzXjrQBCoCNUlYvTapbqysU-8a4y7-Ot&sz=w640",
+          "sizeBytes": 4703855,
+          "sha256": "E13AADA433590CD2266A4007F464D8EBB13671A05C7EAD6B524313615EA45AE9",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ashen Knight Pyke League Of Legends | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E1800EFCE000",
+      "title": "Moon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E1800EFCE000.jpg",
+      "variants": [
+        {
+          "id": "v_440e1fdc",
+          "name": "Blood Moon Clouds",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12JcJ4QbGtUO706f1iGOoX-8RAT8l-bY4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12JcJ4QbGtUO706f1iGOoX-8RAT8l-bY4&sz=w640",
+          "sizeBytes": 4691231,
+          "sha256": "8E312D3617B8761560F6F72EFC740C6A3AAC459C5D3F077A706A5926B3454261",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Blood Moon Clouds"
+        }
+      ]
     }
   ],
-  "totalGames": 851,
-  "totalVariants": 1186,
+  "totalGames": 853,
+  "totalVariants": 1191,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
