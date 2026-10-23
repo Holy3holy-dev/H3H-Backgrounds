@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:53:37.674409+00:00",
+  "updatedAt": "2026-10-23T14:54:36.656428+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -30450,9 +30450,115 @@
           "notes": "Switch 720p 30fps H264 | Kokushibo Blood Moon Kimetsu No Yaiba"
         }
       ]
+    },
+    {
+      "titleId": "0100005006BA4000",
+      "title": "The Keep",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100005006BA4000.jpg",
+      "variants": [
+        {
+          "id": "v_787b3a8c",
+          "name": "The Secret Keeper Idle Angels",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GcLu-34TOje82m1xr4GwUvK7CFqQAuhO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GcLu-34TOje82m1xr4GwUvK7CFqQAuhO&sz=w640",
+          "sizeBytes": 4719142,
+          "sha256": "0172D186CB84EB3C08607F162FDAF6D2965B249689F2321816BECD2E8774D33B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | The Secret Keeper Idle Angels"
+        },
+        {
+          "id": "v_10dd0b95",
+          "name": "Shorekeeper Wuthering Waves",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WJ3GvXgIBomVQOozhHG95d9jZDJJkRa-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WJ3GvXgIBomVQOozhHG95d9jZDJJkRa-&sz=w640",
+          "sizeBytes": 4685825,
+          "sha256": "A683C4B9B7179C07B96D864ADD1E7D3E026FF01D3A8518BD1E423FD9435FE044",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Shorekeeper Wuthering Waves"
+        },
+        {
+          "id": "v_d453f32b",
+          "name": "Shorekeeper Blue Wuthering Waves",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14d2Uf-ZQmQ6vDMNyFQO3gPvSW4Tik-Ye",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14d2Uf-ZQmQ6vDMNyFQO3gPvSW4Tik-Ye&sz=w640",
+          "sizeBytes": 4714005,
+          "sha256": "109646598B22346052D18BCA3CBD2282181336B82E01F4C40DDDDE46CFCE9DF3",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Shorekeeper Blue Wuthering Waves | ЗВУК"
+        },
+        {
+          "id": "v_669922b6",
+          "name": "Shorekeeper Summer Beach Wuthering Waves",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vK7DxUZUOqcaB4dkcI9nrrzh3bY9IN8J",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vK7DxUZUOqcaB4dkcI9nrrzh3bY9IN8J&sz=w640",
+          "sizeBytes": 4788378,
+          "sha256": "E64FD981A96064FAD5134526A29E4195CB5C92F68BB091566EEF84C9487800B1",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Shorekeeper Summer Beach Wuthering Waves | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100157004512000",
+      "title": "Severed",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100157004512000.jpg",
+      "variants": [
+        {
+          "id": "v_93d91fa6",
+          "name": "Severed Universe Fire Force",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1c8eZnF8GcT3j7mjDS00ox_SLGJ7-d_A2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1c8eZnF8GcT3j7mjDS00ox_SLGJ7-d_A2&sz=w640",
+          "sizeBytes": 4723007,
+          "sha256": "57137E0F50AD32A560CEFFCF449275DD3027370BD5FCA868545607907CCB350F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Severed Universe Fire Force | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 927,
-  "totalVariants": 1324,
+  "totalGames": 929,
+  "totalVariants": 1329,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
