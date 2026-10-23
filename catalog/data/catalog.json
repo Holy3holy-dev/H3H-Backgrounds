@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:00:27.182488+00:00",
+  "updatedAt": "2026-10-23T13:04:01.693567+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -2964,6 +2964,60 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 0100D71004694000_Minecraft_Panorama.mp4"
+        },
+        {
+          "id": "v_cf87079e",
+          "name": "Bliss Windows XP Minecraft",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1R9hX6k8bWGtTKOMxCITpECUF7aF3bSUW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1R9hX6k8bWGtTKOMxCITpECUF7aF3bSUW&sz=w640",
+          "sizeBytes": 4757120,
+          "sha256": "AC49A665C31EC463CF68E2888A390902A36AAB7AA69440F0F8F3A51D0B123B5D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Bliss Windows XP Minecraft"
+        },
+        {
+          "id": "v_b6d5e5cd",
+          "name": "Train Forest Minecraft",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zXufwtrdJ7kEL_oQeCXdW9UqcC2WGsvC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zXufwtrdJ7kEL_oQeCXdW9UqcC2WGsvC&sz=w640",
+          "sizeBytes": 4764772,
+          "sha256": "2E4316FE3230E065CC9488C6375B010A90FF7610E85A90AAAC0BC467CCE8B681",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Train Forest Minecraft"
+        },
+        {
+          "id": "v_46e844f9",
+          "name": "Minecraft Night Sky",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FhsOQFdQexNYHYmYC7FeO27hxk1_RMOY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FhsOQFdQexNYHYmYC7FeO27hxk1_RMOY&sz=w640",
+          "sizeBytes": 4571244,
+          "sha256": "7DB2CB6102A72CB5156C18D067E0EBD519AC4DA3E86B4A9F56EBF31ADB7854C5",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Minecraft Night Sky"
         }
       ]
     },
@@ -24421,6 +24475,6 @@
     }
   ],
   "totalGames": 794,
-  "totalVariants": 1048,
+  "totalVariants": 1051,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
