@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T15:39:33.507599+00:00",
+  "updatedAt": "2026-10-23T15:41:19.245295+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -33446,9 +33446,97 @@
           "notes": "Switch 720p 30fps H264 | Punk Rock Miku | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100419013A8A000",
+      "title": "Flying Hero X",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100419013A8A000.jpg",
+      "variants": [
+        {
+          "id": "v_90b7dc6c",
+          "name": "Mercy Valkyrie Flying In The Sky Overwat",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1E0kpdkUYZE41TJxhGVQm1ytWR6Y6U9FR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1E0kpdkUYZE41TJxhGVQm1ytWR6Y6U9FR&sz=w640",
+          "sizeBytes": 4684387,
+          "sha256": "0D265F90902B29F975BBEAB2955FA3671D6DCBBE84749C137928BADF564CD8A7",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mercy Valkyrie Flying In The Sky Overwat | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "010047501451A000",
+      "title": "Fallen Angel",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010047501451A000.jpg",
+      "variants": [
+        {
+          "id": "v_c97f7569",
+          "name": "Fallen Angel",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KefaX7j4GW6xuhND47s0-77UOhJAmn7p",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KefaX7j4GW6xuhND47s0-77UOhJAmn7p&sz=w640",
+          "sizeBytes": 4819321,
+          "sha256": "3677ABAF6DA784EA96EECDABC445CA04FB7AE9F442BD2C309C7DFDDF5E667684",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fallen Angel | ЗВУК"
+        },
+        {
+          "id": "v_91945a34",
+          "name": "Anime Girl Fallen Angel",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1z8KeRUR-moVFmQMUNCTz8qT8PvosgarR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1z8KeRUR-moVFmQMUNCTz8qT8PvosgarR&sz=w640",
+          "sizeBytes": 4688050,
+          "sha256": "3BDD9BEADFB5A28B7207E6BC74CA94D02AD329DA0A5DFC1F4552D882A2AE525F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Anime Girl Fallen Angel"
+        },
+        {
+          "id": "v_e537a8ce",
+          "name": "Eren The Fallen Angel Attack On Titan",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14GdjVvBI4JE2dejBkNkJcovbE677o2Bv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14GdjVvBI4JE2dejBkNkJcovbE677o2Bv&sz=w640",
+          "sizeBytes": 4676151,
+          "sha256": "5E065D1A58F1C872D511B0A915D90DC31B6123CEA2F3B74D582BFE9AFB6542A1",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Eren The Fallen Angel Attack On Titan | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 991,
-  "totalVariants": 1462,
+  "totalGames": 993,
+  "totalVariants": 1466,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
