@@ -34793,9 +34793,34 @@
           "notes": "Switch 720p 30fps H264 | Galbrena Dual Flame Eyes Awakening Wuthe | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0104444444444000",
+      "title": "Игра (0104444444444000)",
+      "publisher": "Community",
+      "variants": [
+        {
+          "id": "var-a4d09429",
+          "name": "Homebrew Menu",
+          "style": "Community Animated",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11G14nlE5evFPytnCpWxy7MJC_hJU_Rw3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11G14nlE5evFPytnCpWxy7MJC_hJU_Rw3&sz=w640",
+          "sizeBytes": 505610,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "@Antony",
+          "codec": "hevc",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Submitted via Telegram by @Antony"
+        }
+      ]
     }
   ],
-  "totalGames": 1017,
-  "totalVariants": 1525,
-  "lastUpdated": "2026-10-23T20:13:26.586036+00:00"
+  "totalGames": 1018,
+  "totalVariants": 1526,
+  "lastUpdated": "2026-10-23T20:40:23.001126+00:00"
 }
