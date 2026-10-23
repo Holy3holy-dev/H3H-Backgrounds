@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:23:03.313634+00:00",
+  "updatedAt": "2026-10-23T13:23:46.021349+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -25122,9 +25122,35 @@
           "notes": "Switch 720p 30fps H264 | Rainy Alley The Club Sifu"
         }
       ]
+    },
+    {
+      "titleId": "0100E7100C52C000",
+      "title": "Dead or School",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E7100C52C000.jpg",
+      "variants": [
+        {
+          "id": "v_96fffb08",
+          "name": "Siesta Tantei Wa Mou Shindeiru",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kxfF8zcC5PSAB3-AGIJ3RejlKSUVoRVe",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kxfF8zcC5PSAB3-AGIJ3RejlKSUVoRVe&sz=w640",
+          "sizeBytes": 4674609,
+          "sha256": "2D8E5040569AFAC211FFC0C2AB61E48674D29F3590073A1EB47B9BFC1D0BC6DF",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Siesta Tantei Wa Mou Shindeiru | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 801,
-  "totalVariants": 1084,
+  "totalGames": 802,
+  "totalVariants": 1085,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
