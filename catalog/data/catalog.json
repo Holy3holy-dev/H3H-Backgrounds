@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:25:40.222870+00:00",
+  "updatedAt": "2026-10-23T14:26:35.771790+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -28924,9 +28924,115 @@
           "notes": "Switch 720p 30fps H264 | Princess And The Grave Of The Soldiers T | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100BEB01327A000",
+      "title": "Cathedral",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BEB01327A000.jpg",
+      "variants": [
+        {
+          "id": "v_46ed7912",
+          "name": "Gothic Cathedral",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AfL8Yh1SmSXU0kCHywFhv5UbEAPH7oNf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AfL8Yh1SmSXU0kCHywFhv5UbEAPH7oNf&sz=w640",
+          "sizeBytes": 4773341,
+          "sha256": "AF5808C938DF13B83E963D86DEA2C612C65AF442977F35D8069784BF2FE0FC3A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Gothic Cathedral | ЗВУК"
+        },
+        {
+          "id": "v_e1f16f63",
+          "name": "Nemesis Cathedral",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1w9k0elRFIDIFWXROISX3rsFuLqKX1G2R",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1w9k0elRFIDIFWXROISX3rsFuLqKX1G2R&sz=w640",
+          "sizeBytes": 4684375,
+          "sha256": "A77AAC7F78673D3EB4351597DCA2C2F960A483DCB98C369808A06F42EEBC87E2",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Nemesis Cathedral | ЗВУК"
+        },
+        {
+          "id": "v_fea73769",
+          "name": "2B Bride NieR: Automata",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11JKb8_POA7DhhNOw1gKQeTzRVgC8FCvq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11JKb8_POA7DhhNOw1gKQeTzRVgC8FCvq&sz=w640",
+          "sizeBytes": 4607980,
+          "sha256": "BC85B9541FFB963305F99532AB0CDAB463CCA9BD30FFDA8BC51B2B6A281C4D7C",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 2B Bride NieR: Automata | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "01006FB00DB02000",
+      "title": "Yaga",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006FB00DB02000.jpg",
+      "variants": [
+        {
+          "id": "v_7dc1b4e2",
+          "name": "Light Yagami Bird Death Note",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ey29P9ls1KWUGMWHmt2mV1OSK9jAvkjy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ey29P9ls1KWUGMWHmt2mV1OSK9jAvkjy&sz=w640",
+          "sizeBytes": 4681924,
+          "sha256": "A98C4D4A0B30204C953D73FF81882C0932D7CA9C2AB157BED6A028A4A9C12020",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Light Yagami Bird Death Note"
+        },
+        {
+          "id": "v_5d37c7cb",
+          "name": "Light Yagami Death Note",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lJJKjVauUM9SJVUwI9hx7FQZKHaOm49a",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lJJKjVauUM9SJVUwI9hx7FQZKHaOm49a&sz=w640",
+          "sizeBytes": 4680435,
+          "sha256": "20D0A1E23FB312096B3FB5846C7B26BBEC671F69484EC5245DC2DD4A656D26D4",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Light Yagami Death Note | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 887,
-  "totalVariants": 1257,
+  "totalGames": 889,
+  "totalVariants": 1262,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
