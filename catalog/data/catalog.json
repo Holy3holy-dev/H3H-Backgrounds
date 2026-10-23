@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:37:57.042394+00:00",
+  "updatedAt": "2026-10-23T14:39:30.780145+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -29460,9 +29460,53 @@
           "notes": "Switch 720p 30fps H264 | Amiya X Doctor Fireworks Arknights"
         }
       ]
+    },
+    {
+      "titleId": "01009D5009234000",
+      "title": "RICO",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009D5009234000.jpg",
+      "variants": [
+        {
+          "id": "v_f9a9d2cc",
+          "name": "Enrico Pucci JoJo’s Bizarre Adventure",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mpzsR4hgl_LzoikqJeTkxVKH9OF61j69",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mpzsR4hgl_LzoikqJeTkxVKH9OF61j69&sz=w640",
+          "sizeBytes": 4678359,
+          "sha256": "6A3BF0AB3A3D4B05937244F0642C7AE4B5D6EFF77235B54FC3DC34C3133D292F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Enrico Pucci JoJo’s Bizarre Adventure | ЗВУК"
+        },
+        {
+          "id": "v_02ea3277",
+          "name": "Trico The Last Guardian",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Z5o38xCjHSSpU_WaJRraCnzwYycmUQG1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Z5o38xCjHSSpU_WaJRraCnzwYycmUQG1&sz=w640",
+          "sizeBytes": 4697838,
+          "sha256": "0F3BBBEE2254BC3B6F273553C5044618021F80190634FFCD79A08D4993B4DD63",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Trico The Last Guardian | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 900,
-  "totalVariants": 1281,
+  "totalGames": 901,
+  "totalVariants": 1283,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
