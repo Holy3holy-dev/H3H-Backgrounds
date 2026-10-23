@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T20:58:28.842400+00:00",
+  "updatedAt": "2026-10-23T20:59:58.939044+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -34924,9 +34924,71 @@
           "notes": "Switch 720p 30fps H264 | Astronaut In Space | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100B5E0140B2000",
+      "title": "Night Book",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B5E0140B2000.jpg",
+      "variants": [
+        {
+          "id": "v_d43b637c",
+          "name": "Rossi Reading A Book Arknights Endfield",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fehrfhCmlXrB1jDvCIhYWwiqKjW4osJA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fehrfhCmlXrB1jDvCIhYWwiqKjW4osJA&sz=w640",
+          "sizeBytes": 4749534,
+          "sha256": "8598C935BDC927079757CB8F04B3A2FA6A058842EFF0A317A452E9080CD62287",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rossi Reading A Book Arknights Endfield | ЗВУК"
+        },
+        {
+          "id": "v_95cc1bdc",
+          "name": "Boy Reading Book In Bed At Night",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Tm8cXiMdoTL2jejYbE5zLurTok37-v4t",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Tm8cXiMdoTL2jejYbE5zLurTok37-v4t&sz=w640",
+          "sizeBytes": 4611250,
+          "sha256": "9E9E33F3F92060F88C691D6ACAB1CDF4C3CFAE55DE5BF7CB26E493FC13B4045C",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Boy Reading Book In Bed At Night | ЗВУК"
+        },
+        {
+          "id": "v_cc50dfa7",
+          "name": "Flower Bookstore",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1w79en1RoxGiU59kIuDHk2v0tgVWoJHyy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1w79en1RoxGiU59kIuDHk2v0tgVWoJHyy&sz=w640",
+          "sizeBytes": 4744201,
+          "sha256": "0BA2A5614D508638526451F724C10200686C252C7E002165DCCC7D1E15C336F5",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Flower Bookstore | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 1020,
-  "totalVariants": 1531,
+  "totalGames": 1021,
+  "totalVariants": 1534,
   "lastUpdated": "2026-10-23T20:40:23.001126+00:00"
 }
