@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:43:23.206946+00:00",
+  "updatedAt": "2026-10-23T14:44:24.270278+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -29794,9 +29794,115 @@
           "notes": "Switch 720p 30fps H264 | Agent Cat | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "010007F00AF56000",
+      "title": "The Station",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010007F00AF56000.jpg",
+      "variants": [
+        {
+          "id": "v_01fb506d",
+          "name": "Mornye Space Station Wuthering Waves",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vW-p_j7OgBKDEpntIBqxJtDJVHjC9BX_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vW-p_j7OgBKDEpntIBqxJtDJVHjC9BX_&sz=w640",
+          "sizeBytes": 4942678,
+          "sha256": "CD4314C49C0D1CEFCA7248F48944B6118540C87202A1E7211245850C6C439029",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mornye Space Station Wuthering Waves | ЗВУК"
+        },
+        {
+          "id": "v_15c02cd0",
+          "name": "Chisa Autumn Train Station Wuthering Wav",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ugrt6L3rA8GWOM-q7n4MezOYvqNdGtBd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ugrt6L3rA8GWOM-q7n4MezOYvqNdGtBd&sz=w640",
+          "sizeBytes": 4661816,
+          "sha256": "4704FA169A649B6B0BBA3E51601BAFEFB23A20F8112C6C3B0E91F94022FD68DE",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Chisa Autumn Train Station Wuthering Wav | ЗВУК"
+        },
+        {
+          "id": "v_a740cb01",
+          "name": "Alone At The Train Station",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1le-WHvstECWHLV3fq57ZRnkJWHByTyZJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1le-WHvstECWHLV3fq57ZRnkJWHByTyZJ&sz=w640",
+          "sizeBytes": 4663074,
+          "sha256": "091ACCF8FA99C0CF440D1245A1D162E401F763D9EAFC1CA2EF331627494FED13",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Alone At The Train Station"
+        },
+        {
+          "id": "v_553c33d8",
+          "name": "Train Station Just Listen To The Song",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1l-Yl2-reRY0ytSqLFNWZ2VYUL5Si4e3S",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1l-Yl2-reRY0ytSqLFNWZ2VYUL5Si4e3S&sz=w640",
+          "sizeBytes": 4685285,
+          "sha256": "B3224B5A5883A0380332BB39644FEDEDFAA7C26888B234EF710612B209574E56",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Train Station Just Listen To The Song"
+        }
+      ]
+    },
+    {
+      "titleId": "010040D00BCF4000",
+      "title": "Storm Boy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010040D00BCF4000.jpg",
+      "variants": [
+        {
+          "id": "v_59600110",
+          "name": "Sci-fi Boy Riding Cybermoto In Sandstorm",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wjHu5R0r4HdlPl-7DulJCruvmDI6YZKx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wjHu5R0r4HdlPl-7DulJCruvmDI6YZKx&sz=w640",
+          "sizeBytes": 4697450,
+          "sha256": "2B9DC93172AEA13A08FCBD933D2661FA4F4FDCB3C12F6144D1ADEBBD3AB19EB2",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sci-fi Boy Riding Cybermoto In Sandstorm | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 908,
-  "totalVariants": 1296,
+  "totalGames": 910,
+  "totalVariants": 1301,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
