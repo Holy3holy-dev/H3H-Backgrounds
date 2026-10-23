@@ -24,6 +24,7 @@ from ..core.github_publisher import GitHubPublisher
 from .ffmpeg_log_dialog import FFmpegLogDialog
 from .online_search_dialog import OnlineSearchDialog
 from .github_publish_dialog import GitHubPublishDialog
+from .express_tab import ExpressTab
 
 TITLE_ID_PATTERN = re.compile(r"^[0-9A-Fa-f]{16}$")
 
@@ -267,13 +268,15 @@ class MainWindow(QMainWindow):
 
         # Modes Tab Widget
         self.tabs = QTabWidget(self)
+        self.tab_express = ExpressTab(self)
         self.tab_artwork = self._create_artwork_tab()
         self.tab_gameplay = self._create_gameplay_tab()
         self.tab_custom = self._create_custom_tab()
 
-        self.tabs.addTab(self.tab_artwork, "Режим A: Animated Artwork (Изображение)")
-        self.tabs.addTab(self.tab_gameplay, "Режим B: Gameplay & Trailer (Видеофрагмент)")
-        self.tabs.addTab(self.tab_custom, "Режим C: Custom Video & Transcode (Анализ MP4)")
+        self.tabs.addTab(self.tab_express, "⚡ Экспресс-публикатор 4IFIR (Фон / Иконка)")
+        self.tabs.addTab(self.tab_artwork, "🎨 Режим A: Animated Artwork (Изображение)")
+        self.tabs.addTab(self.tab_gameplay, "🎮 Режим B: Gameplay & Trailer (Видеофрагмент)")
+        self.tabs.addTab(self.tab_custom, "⚙️ Режим C: Custom Video & Transcode (Анализ MP4)")
         main_layout.addWidget(self.tabs, stretch=2)
 
         # Export & Catalog Metadata Section
