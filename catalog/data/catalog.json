@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:28:20.736577+00:00",
+  "updatedAt": "2026-10-23T13:29:29.033405+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -25482,9 +25482,89 @@
           "notes": "Switch 720p 30fps H264 | Vanilla And Maple And Cinnamon And Shigu | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "010099F013898000",
+      "title": "World War Z",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010099F013898000.jpg",
+      "variants": [
+        {
+          "id": "v_b12e5c05",
+          "name": "Orc World of Warcraft: Battle for Azerot",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1iMpoYapFzQiKE4NQJFn0FS1cXHMzd9ah",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1iMpoYapFzQiKE4NQJFn0FS1cXHMzd9ah&sz=w640",
+          "sizeBytes": 4710365,
+          "sha256": "4395DF95E49199B552B0B189F4C0C938719C70AA9BA5CECF3B1ED70E50E23497",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Orc World of Warcraft: Battle for Azerot"
+        },
+        {
+          "id": "v_7c7f7c26",
+          "name": "Death Knights World Of Warcraft: Wrath O",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Woo3Kn4jm59ld3lAX4kR56vX0mJyoT4D",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Woo3Kn4jm59ld3lAX4kR56vX0mJyoT4D&sz=w640",
+          "sizeBytes": 4667214,
+          "sha256": "2D683BF4D992E8EC3496E596A59B6D1FD7A6F6EC916FCD86FAE2A8FBE63CE85A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Death Knights World Of Warcraft: Wrath O | ЗВУК"
+        },
+        {
+          "id": "v_8c49bec0",
+          "name": "N’Zoth And Monsters World Of Warcraft",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1iEMFnTyOuFCAkaSTADeLEDDBgT9oBnXM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1iEMFnTyOuFCAkaSTADeLEDDBgT9oBnXM&sz=w640",
+          "sizeBytes": 4734776,
+          "sha256": "726C1740E32C2FA70B3513551FD7B9CD52716CA1CB86B1529926D6437C81A56D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | N’Zoth And Monsters World Of Warcraft | ЗВУК"
+        },
+        {
+          "id": "v_25c7cc36",
+          "name": "Sylvanas Windrunner World Of Warcraft Ba",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_O6_qZ9eiiBYxBa69secRmBLdmR-XOSo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_O6_qZ9eiiBYxBa69secRmBLdmR-XOSo&sz=w640",
+          "sizeBytes": 4769738,
+          "sha256": "9BF3B9D28EF444D5E89591BCF81DB7E10A6B8E7253EB8DBE68A5A9CFCEF6483A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sylvanas Windrunner World Of Warcraft Ba | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 810,
-  "totalVariants": 1100,
+  "totalGames": 811,
+  "totalVariants": 1104,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
