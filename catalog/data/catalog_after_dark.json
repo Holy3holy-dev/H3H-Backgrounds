@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "name": "H3H After Dark (18+) Official Catalog",
-  "updatedAt": "2026-10-23T12:46:30.588535+00:00",
-  "totalGames": 88,
-  "totalVariants": 933,
+  "updatedAt": "2026-10-23T15:45:00.000000Z",
+  "totalGames": 92,
+  "totalVariants": 937,
   "games": [
     {
       "titleId": "0000000000000000",
@@ -17407,6 +17407,106 @@
       "title": "Sword Art Online: Hollow Realization Deluxe Edition",
       "publisher": "Bandai Namco",
       "variants": []
+    },
+    {
+      "titleId": "01003DC0144B6000",
+      "title": "Outer Wilds Archaeologist edition + DLC Echoes of the Eye [NSZ][RUS/Multi10]",
+      "publisher": "Unknown",
+      "variants": [
+        {
+          "id": "var-e1862cd7",
+          "name": "Trailer remix",
+          "style": "Community Animated",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UhfYxhOYPixUw4jrke-dpXbF-BucK1rn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UhfYxhOYPixUw4jrke-dpXbF-BucK1rn&sz=w640",
+          "sizeBytes": 18523228,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "@Secondchancetomourn",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Submitted via Telegram by @Secondchancetomourn"
+        }
+      ]
+    },
+    {
+      "titleId": "010032E00E6E2000",
+      "title": "Return of the Obra Dinn [NSZ][RUS/Multi10]",
+      "publisher": "3909",
+      "variants": [
+        {
+          "id": "var-f029c254",
+          "name": "Trailer remix",
+          "style": "Community Animated",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1i2hgBb3_Rw7jT8nOPQ16LHilBF6pvE7i",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1i2hgBb3_Rw7jT8nOPQ16LHilBF6pvE7i&sz=w640",
+          "sizeBytes": 19052110,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "@Secondchancetomourn",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Submitted via Telegram by @Secondchancetomourn"
+        }
+      ]
+    },
+    {
+      "titleId": "01009C701A35E000",
+      "title": "Super Mario 3D World + Bowser's Fury",
+      "publisher": "Nintendo",
+      "variants": [
+        {
+          "id": "var-3ef03d15",
+          "name": "Trailer remix",
+          "style": "Community Animated",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xRuKJSprYX2OWQS9zeAdxYC4IxL3a9VJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xRuKJSprYX2OWQS9zeAdxYC4IxL3a9VJ&sz=w640",
+          "sizeBytes": 19588537,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "@Secondchancetomourn",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Submitted via Telegram by @Secondchancetomourn"
+        }
+      ]
+    },
+    {
+      "titleId": "010067300059A000",
+      "title": "Donkey Kong Country: Tropical Freeze",
+      "publisher": "Nintendo",
+      "variants": [
+        {
+          "id": "var-1676691e",
+          "name": "Trailer remix",
+          "style": "Community Animated",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-ZCEdAVt9dwh53N9e4MqvD8smQXaTeFs",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-ZCEdAVt9dwh53N9e4MqvD8smQXaTeFs&sz=w640",
+          "sizeBytes": 19884431,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "@Secondchancetomourn",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Submitted via Telegram by @Secondchancetomourn"
+        }
+      ]
     }
   ]
 }
