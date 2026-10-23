@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T15:34:42.927629+00:00",
+  "updatedAt": "2026-10-23T15:36:20.015008+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -33084,9 +33084,97 @@
           "notes": "Switch 720p 30fps H264 | Sasuke Uchiha The Shadow Hokage | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "010091C013F6E000",
+      "title": "Monument",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010091C013F6E000.jpg",
+      "variants": [
+        {
+          "id": "v_b28162c4",
+          "name": "Lost Monument",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-z6t4vwfeOPpEyEwdAY_bcfYRkfr0uib",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-z6t4vwfeOPpEyEwdAY_bcfYRkfr0uib&sz=w640",
+          "sizeBytes": 4645890,
+          "sha256": "27528B4767F820E778AE52A6883B4F32860F9D20F9D627D6253814C0C5F4BAB8",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lost Monument | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A62024E3E000",
+      "title": "Cat 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A62024E3E000.jpg",
+      "variants": [
+        {
+          "id": "v_18f55b0c",
+          "name": "Azusa Kurashiki Pretty x Cation 2",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mZxCZGlg5NDHkJuQjMxxd0ViN5YkZrQb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mZxCZGlg5NDHkJuQjMxxd0ViN5YkZrQb&sz=w640",
+          "sizeBytes": 4652531,
+          "sha256": "B351A20C41411B12685AC44811CAF37042AD6213E5E4F712559139D2CF47174A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Azusa Kurashiki Pretty x Cation 2 | ЗВУК"
+        },
+        {
+          "id": "v_ed71cb4c",
+          "name": "Black Cat Halloween Pumpkin",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_TqqW8M80XjuZAngVagYKkBBCxnyv5Tc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_TqqW8M80XjuZAngVagYKkBBCxnyv5Tc&sz=w640",
+          "sizeBytes": 4527209,
+          "sha256": "D847770B21BF526DA193919305D4DC91261781BFDDD1B2F89858B5098B24246A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Black Cat Halloween Pumpkin | ЗВУК"
+        },
+        {
+          "id": "v_7212cdc3",
+          "name": "Black Cat Looking At You",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ooVJlCjrZGmjFEbz4t8-uzTPDoyjXvt5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ooVJlCjrZGmjFEbz4t8-uzTPDoyjXvt5&sz=w640",
+          "sizeBytes": 4668714,
+          "sha256": "686F96068134C77027CB9BBA54D2D726979F8A99544B654E41416CAAC8D1F771",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Black Cat Looking At You"
+        }
+      ]
     }
   ],
-  "totalGames": 984,
-  "totalVariants": 1445,
+  "totalGames": 986,
+  "totalVariants": 1449,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
