@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:58:07.401697+00:00",
+  "updatedAt": "2026-10-23T14:59:21.485263+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -30802,9 +30802,115 @@
           "notes": "Switch 720p 30fps H264 | Darkness Returns The Lord of the Rings | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "01007DE016E9E000",
+      "title": "Hollow 1 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007DE016E9E000.jpg",
+      "variants": [
+        {
+          "id": "v_b3310cad",
+          "name": "Gojo Hollow Purple Jujutsu Kaisen",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16jk-mA4ZMn-InG1-ZcQJA_QIs-7ZNfK5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16jk-mA4ZMn-InG1-ZcQJA_QIs-7ZNfK5&sz=w640",
+          "sizeBytes": 4775941,
+          "sha256": "EA5DB2D1918A70EC4B2F25247CA699AB6E302F75B51173E0F56C5F4BAE2B094F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Gojo Hollow Purple Jujutsu Kaisen | ЗВУК"
+        },
+        {
+          "id": "v_aa3d9396",
+          "name": "Gojo Hollow Purple Unlimited Void Jujuts",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16Wslf6gN7ruc0IyiHG6pUrab9pIqzErd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16Wslf6gN7ruc0IyiHG6pUrab9pIqzErd&sz=w640",
+          "sizeBytes": 4702776,
+          "sha256": "61C7A79A4865A45775671B3BD140EE8D1F60BD04FFCF6A38C4B5064994AC07D8",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Gojo Hollow Purple Unlimited Void Jujuts | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B6501A360000",
+      "title": "Samurai Warrior",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B6501A360000.jpg",
+      "variants": [
+        {
+          "id": "v_29fe55da",
+          "name": "Samurai Warrior Battle Die For Honor",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1uNfb3ONQwrzhFfLfsSexMYYzyjZoTKE3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1uNfb3ONQwrzhFfLfsSexMYYzyjZoTKE3&sz=w640",
+          "sizeBytes": 4736765,
+          "sha256": "F73BB6FC41E5BD22D40233A30B9E1CF2971E8CA7376CCD149BEF80078E3FF8EE",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Samurai Warrior Battle Die For Honor | ЗВУК"
+        },
+        {
+          "id": "v_b8829a9b",
+          "name": "Katana Samurai Warrior",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1L3I3vvzgHdtEmnNJ_Z1WEnhfgMNI1Ai-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1L3I3vvzgHdtEmnNJ_Z1WEnhfgMNI1Ai-&sz=w640",
+          "sizeBytes": 4782500,
+          "sha256": "3EA829710D9527CB1E09E49198AE67D677EEFB0DFE8E9248295BCE5014DCD3BC",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Katana Samurai Warrior | ЗВУК"
+        },
+        {
+          "id": "v_43dcc18b",
+          "name": "Fantasy Warrior Vs Dragon Lake",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13-cRWgvmkcfBnuFQzTfTNZmJObMkGAiG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13-cRWgvmkcfBnuFQzTfTNZmJObMkGAiG&sz=w640",
+          "sizeBytes": 4698289,
+          "sha256": "F931BF77D8E336FA0FA78EEA3A8690E618EB3E53CF911C152AF1E6B8753E09F8",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Fantasy Warrior Vs Dragon Lake"
+        }
+      ]
     }
   ],
-  "totalGames": 935,
-  "totalVariants": 1340,
+  "totalGames": 937,
+  "totalVariants": 1345,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
