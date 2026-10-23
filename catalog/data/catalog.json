@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:20:26.734201+00:00",
+  "updatedAt": "2026-10-23T14:21:55.030973+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -28660,9 +28660,115 @@
           "notes": "Switch 720p 30fps H264 | Night On The Seashore Noelle Memories Of | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "01002E1013C3E000",
+      "title": "Katana Kata",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002E1013C3E000.jpg",
+      "variants": [
+        {
+          "id": "v_f8242066",
+          "name": "Katana Blade Sakura",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1J43tp28Hk4s4UAkdlTiYWLtcTOSJUwHB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1J43tp28Hk4s4UAkdlTiYWLtcTOSJUwHB&sz=w640",
+          "sizeBytes": 4489471,
+          "sha256": "065FE17B5D77D26B148763D98D6E35D95C0BBE1CC93F8F553389FA06883C2E5A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Katana Blade Sakura"
+        },
+        {
+          "id": "v_4ffa2ade",
+          "name": "Rikka Katana Chuunibyou",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=147y5JpDfJt_4D2L6wGtwaj_RvsPXZ0In",
+          "previewUrl": "https://drive.google.com/thumbnail?id=147y5JpDfJt_4D2L6wGtwaj_RvsPXZ0In&sz=w640",
+          "sizeBytes": 4721859,
+          "sha256": "AD25098E8D3436A2DD73FA79F9EDD7A43D9C24AA3F87D480886329DFC645EA17",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Rikka Katana Chuunibyou"
+        },
+        {
+          "id": "v_f9942f63",
+          "name": "Ichigo Blazing Katana Kurosaki Bleach",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XNWgARjQfsDAI2TkUCXqeiB4EDn26LRI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XNWgARjQfsDAI2TkUCXqeiB4EDn26LRI&sz=w640",
+          "sizeBytes": 4705566,
+          "sha256": "F7D55C54C6801DA40B5AEDD04CD3B311AC06E198A3E4917D728F9832439B1C07",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ichigo Blazing Katana Kurosaki Bleach | ЗВУК"
+        },
+        {
+          "id": "v_7f9ca7a3",
+          "name": "Shinobu Katana Blood Moon Kimetsu No Yai",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1L5KBhKj34--LfgPh4PnWhfpPdD1jnIT5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1L5KBhKj34--LfgPh4PnWhfpPdD1jnIT5&sz=w640",
+          "sizeBytes": 4762230,
+          "sha256": "379C859652B1120355A9542ABAB8103A5AEBEE749155C26CB1CBC97BE2133129",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Shinobu Katana Blood Moon Kimetsu No Yai | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "010035A00DF62000",
+      "title": "Kunai",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010035A00DF62000.jpg",
+      "variants": [
+        {
+          "id": "v_4ec408b5",
+          "name": "Jett Valorant Kunai",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11_3EG7n4lmCRj4StGBvgUeZuvx211Q-z",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11_3EG7n4lmCRj4StGBvgUeZuvx211Q-z&sz=w640",
+          "sizeBytes": 4713072,
+          "sha256": "799BC0211651308C35C19007DE35C615545BA06DAF110B9B8B64C2B302E09169",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Jett Valorant Kunai"
+        }
+      ]
     }
   ],
-  "totalGames": 881,
-  "totalVariants": 1245,
+  "totalGames": 883,
+  "totalVariants": 1250,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
