@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:59:47.640553+00:00",
+  "updatedAt": "2026-10-23T14:01:07.316746+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -27578,9 +27578,53 @@
           "notes": "Switch 720p 30fps H264 | Yume Minami Azur Lane SSSS.Gridman Dynaz | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100B7200DAC6000",
+      "title": "Close to the Sun",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B7200DAC6000.jpg",
+      "variants": [
+        {
+          "id": "v_06940a5f",
+          "name": "Sun Wukong Black Myth Wukong",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HIBeCw9p5RjAIShS9UzdbN5HWzly3Pt6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HIBeCw9p5RjAIShS9UzdbN5HWzly3Pt6&sz=w640",
+          "sizeBytes": 4712737,
+          "sha256": "0DFB8DA0C938959EAD9939F69C90C2E242718D4B6DAE8C66D0CE09AEC69F79DE",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Sun Wukong Black Myth Wukong"
+        },
+        {
+          "id": "v_bf7bc7ba",
+          "name": "Yukari Yukino Sleeping The Garden Of Wor",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hINT9HFVeyIyx6nQok-zL4BHkmv8DGTk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hINT9HFVeyIyx6nQok-zL4BHkmv8DGTk&sz=w640",
+          "sizeBytes": 4683527,
+          "sha256": "DDBB1B4044CB67427528932177ED03C5D0E7160A5B13098DA25C68D692AC3FE8",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Yukari Yukino Sleeping The Garden Of Wor | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 856,
-  "totalVariants": 1196,
+  "totalGames": 857,
+  "totalVariants": 1198,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
