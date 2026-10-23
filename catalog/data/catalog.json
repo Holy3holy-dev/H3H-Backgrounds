@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:40:31.708299+00:00",
+  "updatedAt": "2026-10-23T13:41:45.432211+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -26232,9 +26232,115 @@
           "notes": "Switch 720p 30fps H264 | Natsu Dragneel Fairy Tail | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100B6D016EE6000",
+      "title": "Lone Ruin",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B6D016EE6000.jpg",
+      "variants": [
+        {
+          "id": "v_b8f3c242",
+          "name": "Lonely Angel",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14YwwMZrOw85jAcIBVZR8O9WsQX1qPqQt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14YwwMZrOw85jAcIBVZR8O9WsQX1qPqQt&sz=w640",
+          "sizeBytes": 4676166,
+          "sha256": "51B5E05DD4498869EBF9B84FD2F665035A98815BBD8AF6484527FDAC33DC96EE",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lonely Angel | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "010071502662C000",
+      "title": "Heave Ho 1 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010071502662C000.jpg",
+      "variants": [
+        {
+          "id": "v_0114c517",
+          "name": "Jesus Sitting On Heaven Throne",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Y--Q7VD1QqFz8m4LKnG_kBoGgTqgUHls",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Y--Q7VD1QqFz8m4LKnG_kBoGgTqgUHls&sz=w640",
+          "sizeBytes": 4693176,
+          "sha256": "C5D313312FDDF013D8747ECB0DEF3D9F6DFD8A52EF36BAD3DB5153936847A79A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Jesus Sitting On Heaven Throne"
+        },
+        {
+          "id": "v_331a41e0",
+          "name": "Ichigo Final Moon Fang Heaven Piercer Mo",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bhZ9_68nTQPaEU9NE_M7oU2nGEKy44nM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bhZ9_68nTQPaEU9NE_M7oU2nGEKy44nM&sz=w640",
+          "sizeBytes": 4674212,
+          "sha256": "E0DE1BAB627139A64762AFA26BD96751B24F0B0E7B27E779882370F7144B3B5A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ichigo Final Moon Fang Heaven Piercer Mo | ЗВУК"
+        },
+        {
+          "id": "v_23996e20",
+          "name": "Ichigo Saigo No Getsuga Tenshou Bleach",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15iLcVDFsUgXKrGYwI8X2B2PMmQ26gupe",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15iLcVDFsUgXKrGYwI8X2B2PMmQ26gupe&sz=w640",
+          "sizeBytes": 4661149,
+          "sha256": "1D2B43C2743C1E20DF8FDB5A4C46FD05A65C36D9D08A8781B487C81D7D807899",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ichigo Saigo No Getsuga Tenshou Bleach | ЗВУК"
+        },
+        {
+          "id": "v_2cbb4bf3",
+          "name": "Ichigo Final Getsuga Tensho Monochrome",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OCezOnuUZQvHBV9gPBGR_BBGBv_yTFKy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OCezOnuUZQvHBV9gPBGR_BBGBv_yTFKy&sz=w640",
+          "sizeBytes": 4708656,
+          "sha256": "84472052757E190B9CFEBACFF281EA1FCE5430AB46495BA0542F5096AD7A6F1D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ichigo Final Getsuga Tensho Monochrome | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 825,
-  "totalVariants": 1135,
+  "totalGames": 827,
+  "totalVariants": 1140,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
