@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:34:25.211318+00:00",
+  "updatedAt": "2026-10-23T14:35:55.606167+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -29214,9 +29214,71 @@
           "notes": "Switch 720p 30fps H264 | Shiroko Submerged In Sparkling Water Blu | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100EC2011B9C000",
+      "title": "Star Horizon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EC2011B9C000.jpg",
+      "variants": [
+        {
+          "id": "v_5690dd23",
+          "name": "Ichika Hoshino Starry Train Ride Project",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ziVmAR0isdyr8hjk2wKVYSRP8BSoJWVa",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ziVmAR0isdyr8hjk2wKVYSRP8BSoJWVa&sz=w640",
+          "sizeBytes": 4680745,
+          "sha256": "32F93E8D7EC166E20AD4F8EC5FEDC31B2E3AEC786A657B36CCF1DA684055F99E",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ichika Hoshino Starry Train Ride Project | ЗВУК"
+        },
+        {
+          "id": "v_9d1b749c",
+          "name": "Black Hole Starlight Devourer",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1G8-IwkfXsOPP0b35MdkMW7YhDdSkmRPN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1G8-IwkfXsOPP0b35MdkMW7YhDdSkmRPN&sz=w640",
+          "sizeBytes": 4574893,
+          "sha256": "62304D58D3A60A48CB700BB295896E2105CE2200349EB3C2BEE9000BAE8A5998",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Black Hole Starlight Devourer | ЗВУК"
+        },
+        {
+          "id": "v_d36dbe7e",
+          "name": "The Galactic Horizon In Deep Space",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1n9wluV1o9adh1XclTcY6M40H9gjn3og0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1n9wluV1o9adh1XclTcY6M40H9gjn3og0&sz=w640",
+          "sizeBytes": 4714046,
+          "sha256": "EE529DC011575B9E518EA43760B9E6A96959E1C3F4EA0A6B645BD41C952410A9",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Galactic Horizon In Deep Space | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 894,
-  "totalVariants": 1270,
+  "totalGames": 895,
+  "totalVariants": 1273,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
