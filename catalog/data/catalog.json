@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:01:07.316746+00:00",
+  "updatedAt": "2026-10-23T14:02:23.707136+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -27622,9 +27622,89 @@
           "notes": "Switch 720p 30fps H264 | Yukari Yukino Sleeping The Garden Of Wor | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "01003EF0118D2000",
+      "title": "Reed 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003EF0118D2000.jpg",
+      "variants": [
+        {
+          "id": "v_1d2e18dd",
+          "name": "Helldivers 2 Escalation Of Freedom",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PjQRvHsepQPKyRb3KQnnzRD-CThuHLpM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PjQRvHsepQPKyRb3KQnnzRD-CThuHLpM&sz=w640",
+          "sizeBytes": 4695814,
+          "sha256": "A86749FB0FE6400E09E8EC5BBD38E8E922ED4D96EFBD2B729FA7360AE35FEEE0",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Helldivers 2 Escalation Of Freedom"
+        },
+        {
+          "id": "v_4882c44e",
+          "name": "Sylphiette Freedom Mushoku Tensei: Joble",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1iUtH2V68LW12wTeNfntpCzLwtL9YIHNW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1iUtH2V68LW12wTeNfntpCzLwtL9YIHNW&sz=w640",
+          "sizeBytes": 4757045,
+          "sha256": "5699D407864A14A898E34A9CEC00A91AFCDDF27C5B5E50F2D22D99E6A075973A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Sylphiette Freedom Mushoku Tensei: Joble"
+        },
+        {
+          "id": "v_cb4af30e",
+          "name": "Freedom Attack On Titan",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FPSTdmxrueJOVXTRtifkKus8t6TH-sCb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FPSTdmxrueJOVXTRtifkKus8t6TH-sCb&sz=w640",
+          "sizeBytes": 4688163,
+          "sha256": "09F343320A0A6BD3E26C147EC2AA7EBBFF2BDA99E00C17E2A0872DB09E4DE343",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Freedom Attack On Titan | ЗВУК"
+        },
+        {
+          "id": "v_93c4f6f3",
+          "name": "Wings Of Freedom Attack On Titan",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1__BT4P1fw4DD1SQ2-kF_kavUZ0_-G5-a",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1__BT4P1fw4DD1SQ2-kF_kavUZ0_-G5-a&sz=w640",
+          "sizeBytes": 4710029,
+          "sha256": "A087AAD21BA8C35017834959A0776959DCEC9A7B12AD8E927006DEFDAA793F72",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wings Of Freedom Attack On Titan | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 857,
-  "totalVariants": 1198,
+  "totalGames": 858,
+  "totalVariants": 1202,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
