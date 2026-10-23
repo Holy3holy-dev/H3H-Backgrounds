@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T15:43:11.730113+00:00",
+  "updatedAt": "2026-10-23T15:44:14.263685+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -33614,9 +33614,123 @@
           "notes": "Switch 720p 30fps H264 | Miyamoto Musashi Katana Vagabond"
         }
       ]
+    },
+    {
+      "titleId": "01002CC0045EC000",
+      "title": "Game of Dragons",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002CC0045EC000.jpg",
+      "variants": [
+        {
+          "id": "v_096d20f7",
+          "name": "Dragonslayer Pantheon League Of Legends",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dXz5VtLFpJshgc3ogck9a9ehiNFTvFPO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dXz5VtLFpJshgc3ogck9a9ehiNFTvFPO&sz=w640",
+          "sizeBytes": 4728523,
+          "sha256": "D22F6BB51CEC58F5E8885F9564C954381E94C07F28AF45AED170D616FFD283BB",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dragonslayer Pantheon League Of Legends | ЗВУК"
+        },
+        {
+          "id": "v_662ebac1",
+          "name": "Dragons Of Tarkir Magic: The Gathering",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1I35om0D6lZaxbymiqNQ8voz0qPF6HxFx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1I35om0D6lZaxbymiqNQ8voz0qPF6HxFx&sz=w640",
+          "sizeBytes": 4645423,
+          "sha256": "71A0829F2D2602B58D8135116AC3A6ED7BE242321B25657A9C7B735F21D37D93",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dragons Of Tarkir Magic: The Gathering | ЗВУК"
+        },
+        {
+          "id": "v_4334fe0d",
+          "name": "Dragonslayer Xin Zhao League Of Legends",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1R4cnZfAYAhrRSq4YE5lYmx2Q8h3OgSmY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1R4cnZfAYAhrRSq4YE5lYmx2Q8h3OgSmY&sz=w640",
+          "sizeBytes": 4957561,
+          "sha256": "492CC6D614F77FC83E27E8ACC8F6C0DF323857DD552366934E4A5AA0BE07948F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dragonslayer Xin Zhao League Of Legends | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A3B011EDE000",
+      "title": "Battle Hunters",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A3B011EDE000.jpg",
+      "variants": [
+        {
+          "id": "v_96578e88",
+          "name": "Project Hunters Skin Spotlight League Of",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AkFF5XbtzX_otX0Z0nFA2bos7oF-yd9R",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AkFF5XbtzX_otX0Z0nFA2bos7oF-yd9R&sz=w640",
+          "sizeBytes": 4748420,
+          "sha256": "8BC1997ECA1C3DF9BA8442F14AA0EDC5CC95746AD20AA69EF24D15FF4B37B356",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Project Hunters Skin Spotlight League Of | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "01003FF020B56000",
+      "title": "Cloudy Valley",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003FF020B56000.jpg",
+      "variants": [
+        {
+          "id": "v_9f8cec17",
+          "name": "Valley Misty",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1u_AnrnfqDaH1rht6cHQ_gYTINHWeABoN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1u_AnrnfqDaH1rht6cHQ_gYTINHWeABoN&sz=w640",
+          "sizeBytes": 4656402,
+          "sha256": "B2C0A8F3F4478B6738AC6495D8CF1D5E3FAF4FDBB312CA3DC2F27759648F4850",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Valley Misty"
+        }
+      ]
     }
   ],
-  "totalGames": 994,
-  "totalVariants": 1470,
+  "totalGames": 997,
+  "totalVariants": 1475,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
