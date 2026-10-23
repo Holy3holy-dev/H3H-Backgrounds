@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T15:36:20.015008+00:00",
+  "updatedAt": "2026-10-23T15:37:35.800978+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -33172,9 +33172,89 @@
           "notes": "Switch 720p 30fps H264 | Black Cat Looking At You"
         }
       ]
+    },
+    {
+      "titleId": "010022A01537A000",
+      "title": "In My Shadow",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010022A01537A000.jpg",
+      "variants": [
+        {
+          "id": "v_08d86ce1",
+          "name": "Sung Jinwoo Shadow Army Solo Leveling",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=184Vm7u5JB9ZG3CGvZvOUKUzLpy85EXOZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=184Vm7u5JB9ZG3CGvZvOUKUzLpy85EXOZ&sz=w640",
+          "sizeBytes": 4716902,
+          "sha256": "622B9D539C10AD261F45A5AECFEBF0B3A2AEE18AEEDB7DA92E6453F123FA0C9D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sung Jinwoo Shadow Army Solo Leveling | ЗВУК"
+        },
+        {
+          "id": "v_6a56e45a",
+          "name": "Dark Shadows Army Solo Leveling",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18HsD8ZYTW0DJmyvpi6MlYg_4FGPlJzsK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18HsD8ZYTW0DJmyvpi6MlYg_4FGPlJzsK&sz=w640",
+          "sizeBytes": 4690858,
+          "sha256": "DE06FA4F968C87697190D573C4BC6DDA3C498EC0983F91892D8A2B0E2C8ED61B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dark Shadows Army Solo Leveling | ЗВУК"
+        },
+        {
+          "id": "v_0c2e102b",
+          "name": "Shadows Army Solo Leveling",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1h3nghzfRPmKM4WBPOWV_lakHae5b_N05",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1h3nghzfRPmKM4WBPOWV_lakHae5b_N05&sz=w640",
+          "sizeBytes": 4733936,
+          "sha256": "290AE0FD238A21E176A387EE6210670B17D4CDA5B4DC2A936CFA0118F7DD71C3",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Shadows Army Solo Leveling | ЗВУК"
+        },
+        {
+          "id": "v_162fcd9d",
+          "name": "Mysterious Shadow In The Night",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TePveo2mNWWDSFY80J-C-67jWsbkxEk4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TePveo2mNWWDSFY80J-C-67jWsbkxEk4&sz=w640",
+          "sizeBytes": 4704094,
+          "sha256": "0EC7700457CB216DC4E1CAEB4C00F21866908C78644DC7C1BDD9E8150041561C",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mysterious Shadow In The Night | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 986,
-  "totalVariants": 1449,
+  "totalGames": 987,
+  "totalVariants": 1453,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
