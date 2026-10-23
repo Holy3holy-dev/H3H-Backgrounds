@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:30:41.704307+00:00",
+  "updatedAt": "2026-10-23T13:31:40.024172+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -25676,9 +25676,89 @@
           "notes": "Switch 720p 30fps H264 | Misa Amane Gothic Death Note"
         }
       ]
+    },
+    {
+      "titleId": "01009440164AE000",
+      "title": "Hunt the Night",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009440164AE000.jpg",
+      "variants": [
+        {
+          "id": "v_c7727f79",
+          "name": "Ciri Camping In Winter The Witcher 3: Wi",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1F6akKT9QXi7CYWvwt7rBgxWHXPjOWMU0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1F6akKT9QXi7CYWvwt7rBgxWHXPjOWMU0&sz=w640",
+          "sizeBytes": 4699172,
+          "sha256": "19CDCD8B3599221C00E3D11E70221AF1B9A779B9890F00A3F7B63D423BB816FE",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ciri Camping In Winter The Witcher 3: Wi | ЗВУК"
+        },
+        {
+          "id": "v_50c3a378",
+          "name": "The Hunter And Eileen The Crow Bloodborn",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lp2cU8EWkHIR9BdRdOhSRCDgow-YCgzu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lp2cU8EWkHIR9BdRdOhSRCDgow-YCgzu&sz=w640",
+          "sizeBytes": 4619113,
+          "sha256": "F082647235D043EA67559F023BDC435693C1E4328C1C22447352F0B60F5F0E35",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Hunter And Eileen The Crow Bloodborn | ЗВУК"
+        },
+        {
+          "id": "v_499f969a",
+          "name": "The Witcher III Wild Hunt",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12oFIEKxsweXQQPdJ8HAAQKDXVF5U8A4Z",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12oFIEKxsweXQQPdJ8HAAQKDXVF5U8A4Z&sz=w640",
+          "sizeBytes": 4652603,
+          "sha256": "20E7757B7F86C982E24E266470F7D53893FC77D3F3E6CCD26533612B38E7DEFD",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Witcher III Wild Hunt | ЗВУК"
+        },
+        {
+          "id": "v_4a18550a",
+          "name": "Geralt Meditation The Witcher 3 Wild Hun",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yeXEPIL8fSU1GOIoqmyIUlnS55uwjArC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yeXEPIL8fSU1GOIoqmyIUlnS55uwjArC&sz=w640",
+          "sizeBytes": 4642602,
+          "sha256": "DE5D95D590C6E72B27B03E8AF7D721BC907C643D9A4C4E77A2A78083C705A83C",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Geralt Meditation The Witcher 3 Wild Hun | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 814,
-  "totalVariants": 1109,
+  "totalGames": 815,
+  "totalVariants": 1113,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
