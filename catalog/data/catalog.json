@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:40:37.720859+00:00",
+  "updatedAt": "2026-10-23T14:42:15.400615+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -29610,9 +29610,115 @@
           "notes": "Switch 720p 30fps H264 | Gojo Hand Sign Jujutsu Kaisen"
         }
       ]
+    },
+    {
+      "titleId": "010041A00FEC6000",
+      "title": "Ember",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010041A00FEC6000.jpg",
+      "variants": [
+        {
+          "id": "v_2141f707",
+          "name": "Embers Of Comfort Dark Souls",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CI2ie9I_PeWYxJRQXg0HR5bqukfZ9RxK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CI2ie9I_PeWYxJRQXg0HR5bqukfZ9RxK&sz=w640",
+          "sizeBytes": 4676350,
+          "sha256": "E2E08CBD48BE8F18D2636E452C01C6117DD02D657273FE1DDC719CC1674018C4",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Embers Of Comfort Dark Souls | ЗВУК"
+        },
+        {
+          "id": "v_3b52c9d7",
+          "name": "Akatsuki Members And Logo",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IOrIZ_C9bJ47eF8kgASK1_xrUMLDF5CS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IOrIZ_C9bJ47eF8kgASK1_xrUMLDF5CS&sz=w640",
+          "sizeBytes": 4677400,
+          "sha256": "3E207BA8CA5DFD27932576DD1989CDA365CD08EC514CA28B07E340FCF5245239",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Akatsuki Members And Logo | ЗВУК"
+        },
+        {
+          "id": "v_157d0c7c",
+          "name": "Steins;Gate Lab Members",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=167cad-Vn9G0x_T0zhRx87NKgvP7p6Z8t",
+          "previewUrl": "https://drive.google.com/thumbnail?id=167cad-Vn9G0x_T0zhRx87NKgvP7p6Z8t&sz=w640",
+          "sizeBytes": 4694486,
+          "sha256": "4331D67E393C894D51D35B0E062C53209C1C4A09E16956FF6D40BB5DCDC3527D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Steins;Gate Lab Members | ЗВУК"
+        },
+        {
+          "id": "v_92ff5a63",
+          "name": "Forest Of Embers",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GTfXXrx0CwrgmEAp7U1KbsBRTqAED30J",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GTfXXrx0CwrgmEAp7U1KbsBRTqAED30J&sz=w640",
+          "sizeBytes": 4694923,
+          "sha256": "293DA4C0CE544965AEBCE15147B7928B84864818B7208DD5BBF1BBC510857626",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Forest Of Embers | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100747011890000",
+      "title": "Battle Axe",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100747011890000.jpg",
+      "variants": [
+        {
+          "id": "v_55f761b5",
+          "name": "Eternal Strands",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eIZve5WCJxn84t5jfhVWTdZFexj6PD_0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eIZve5WCJxn84t5jfhVWTdZFexj6PD_0&sz=w640",
+          "sizeBytes": 4633466,
+          "sha256": "7234508B23087C842A6C3EB61CD2C1A94519E075BF0C30E1B39F38BA12CFC366",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Eternal Strands"
+        }
+      ]
     }
   ],
-  "totalGames": 903,
-  "totalVariants": 1288,
+  "totalGames": 905,
+  "totalVariants": 1293,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
