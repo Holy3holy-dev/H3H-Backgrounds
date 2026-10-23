@@ -57,6 +57,12 @@ class TitleIdResolver:
         'обро динн': 'obra dinn',
         'внешние дебри': 'outer wilds',
         'аутер вайлдс': 'outer wilds',
+        'мгр': 'metal gear rising',
+        'райзинг': 'metal gear rising',
+        'метал гир райзинг': 'metal gear rising',
+        'сенатор армстронг': 'metal gear rising',
+        'джетстрим сэм': 'metal gear rising',
+        'рейден': 'metal gear rising',
     }
 
     CYRILLIC_TO_LATIN = {
@@ -128,6 +134,8 @@ class TitleIdResolver:
     }
 
     BUILTIN_TITLE_IDS = {
+        "05988A343C507000": "Metal Gear Rising: Revengeance",
+        "01004D4752000000": "Metal Gear Rising: Revengeance",
         "010067300059A000": "Mario + Rabbids Kingdom Battle",
         "01009C701A35E000": "Last Labyrinth -Lucidity Lost-",
         "01003DC0144B6000": "Outer Wilds Archaeologist Edition",
