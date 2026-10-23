@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:28:32.005979+00:00",
+  "updatedAt": "2026-10-23T14:31:47.935684+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -29100,9 +29100,53 @@
           "notes": "Switch 720p 30fps H264 | Death Sworn Viktor League Of Legends | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "01004A9006B84000",
+      "title": "The End is Nigh",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004A9006B84000.jpg",
+      "variants": [
+        {
+          "id": "v_bb2f3f14",
+          "name": "Spirit World Avatar: The Last Airbender",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lBfcor9xkW15WUwMWfc5HCKEpBizSvzA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lBfcor9xkW15WUwMWfc5HCKEpBizSvzA&sz=w640",
+          "sizeBytes": 4725494,
+          "sha256": "ADE02E96E5E32AB8335B7D1735BD532F36F18AA66197F627217EE46E1C9B422C",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Spirit World Avatar: The Last Airbender | ЗВУК"
+        },
+        {
+          "id": "v_ec02f35d",
+          "name": "Elise The Spider Queen League Of Legends",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QEHsxbcXfTVZNPpOiLh7DsgMxs5lnyD3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QEHsxbcXfTVZNPpOiLh7DsgMxs5lnyD3&sz=w640",
+          "sizeBytes": 4717586,
+          "sha256": "4A5100E1C9D1A7F0DFE9B62DF823FC0292A32D3D3C2B11D90323F187FCAE4822",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Elise The Spider Queen League Of Legends"
+        }
+      ]
     }
   ],
-  "totalGames": 891,
-  "totalVariants": 1265,
+  "totalGames": 892,
+  "totalVariants": 1267,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
