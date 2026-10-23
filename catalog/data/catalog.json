@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:42:59.886656+00:00",
+  "updatedAt": "2026-10-23T13:43:46.421464+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -26408,9 +26408,61 @@
           "notes": "Switch 720p 30fps H264 | Dante Boss Fight! Devil May Cry 5 | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "010031D013A4E000",
+      "title": "Happy Game",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010031D013A4E000.jpg",
+      "variants": [
+        {
+          "id": "v_bf4b3e35",
+          "name": "Where Winds Meet Fireworks Happy New Yea",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QymuDHlfSPmjg3MKpGOXMNO3ITO1m1eJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QymuDHlfSPmjg3MKpGOXMNO3ITO1m1eJ&sz=w640",
+          "sizeBytes": 4586294,
+          "sha256": "C863EF97C59FE5A1EC8AE304EB7EFBDFA0EDB8F6FBD8C982B339450CCC707396",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Where Winds Meet Fireworks Happy New Yea | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E6601ACB6000",
+      "title": "Arco",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E6601ACB6000.jpg",
+      "variants": [
+        {
+          "id": "v_07d2b964",
+          "name": "Stranger Things 3 Starcourt",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TnI6fP4SwJcwnMU_VjhNI1MqdbTbQRe8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TnI6fP4SwJcwnMU_VjhNI1MqdbTbQRe8&sz=w640",
+          "sizeBytes": 4636695,
+          "sha256": "6A4B3783EE56DBBAF9924D82AB269B0851EF95D918B51DAEE009323523A4A8CF",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Stranger Things 3 Starcourt | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 829,
-  "totalVariants": 1143,
+  "totalGames": 831,
+  "totalVariants": 1145,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
