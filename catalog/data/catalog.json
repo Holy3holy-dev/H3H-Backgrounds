@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T16:16:45.326634+00:00",
+  "updatedAt": "2026-10-23T16:19:45.900873+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -34133,9 +34133,115 @@
           "notes": "Switch 720p 30fps H264 | Elementalist Lux Ice Form Snowdown Leagu | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "010052000A574000",
+      "title": "Drowning",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010052000A574000.jpg",
+      "variants": [
+        {
+          "id": "v_24ba7339",
+          "name": "Little Mermaid Drowning Goddess Of Victo",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18ypPee0MR5AoqCqbbZIGb4K-qbgdtG0Y",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18ypPee0MR5AoqCqbbZIGb4K-qbgdtG0Y&sz=w640",
+          "sizeBytes": 4718056,
+          "sha256": "44204EAED31BC572FDA6A35B1F8706ED39ECEE35435CE61705E1E7013B50A956",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Little Mermaid Drowning Goddess Of Victo"
+        },
+        {
+          "id": "v_11bd3524",
+          "name": "Anime Girl Drowning In Water",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TuPVUP4gXQdaQSQVMjEySQR27aE3tE74",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TuPVUP4gXQdaQSQVMjEySQR27aE3tE74&sz=w640",
+          "sizeBytes": 4711193,
+          "sha256": "3B6CD1521A5700769B478FD015D1873547B374291B39126ACE9B58E36A8A06C0",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Anime Girl Drowning In Water | ЗВУК"
+        },
+        {
+          "id": "v_abb615a8",
+          "name": "Floating Underwater With Whales",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vr2iY6YHTAW7M8iTeXYnxY2lzR2qrOty",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vr2iY6YHTAW7M8iTeXYnxY2lzR2qrOty&sz=w640",
+          "sizeBytes": 4632047,
+          "sha256": "A8A871208C1EEC691FDCA5A7CE6A0F738C68F1A60304D242E5737F0CBF5C96B6",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Floating Underwater With Whales | ЗВУК"
+        },
+        {
+          "id": "v_1f668f0e",
+          "name": "Anime Boy Underwater Sunflower",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RprgCU-yqwjeuJTOwWore16tVdvaCUyb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RprgCU-yqwjeuJTOwWore16tVdvaCUyb&sz=w640",
+          "sizeBytes": 4726238,
+          "sha256": "5EBE3B481E92929EAC3146AAE917C67BF2B451B5A0A3E52E3B0B148C2148E476",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Anime Boy Underwater Sunflower | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "01006160163C6000",
+      "title": "Ogre",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006160163C6000.jpg",
+      "variants": [
+        {
+          "id": "v_48b8f874",
+          "name": "May And Kyogre Pokemon",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19dlJ-TbxcEGVxUN1lkULbHB0J64NBkjx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19dlJ-TbxcEGVxUN1lkULbHB0J64NBkjx&sz=w640",
+          "sizeBytes": 4690794,
+          "sha256": "B85E6669EDC53557716C82845BFEBFAF64239664513289BC98A7D4CF4E39C740",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | May And Kyogre Pokemon"
+        }
+      ]
     }
   ],
-  "totalGames": 1005,
-  "totalVariants": 1494,
+  "totalGames": 1007,
+  "totalVariants": 1499,
   "lastUpdated": "2026-10-23T16:13:45.683859+00:00"
 }
