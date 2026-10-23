@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T15:17:06.116585+00:00",
+  "updatedAt": "2026-10-23T15:18:42.076250+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -31860,9 +31860,123 @@
           "notes": "Switch 720p 30fps H264 | Viviana Droste Arknights"
         }
       ]
+    },
+    {
+      "titleId": "010093001C49A000",
+      "title": "Time Master",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010093001C49A000.jpg",
+      "variants": [
+        {
+          "id": "v_aac8b106",
+          "name": "Master Sword The Legend Of Zelda: Ocarin",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WFIn_U-eNrdeDrv7QyibktUsB3OgF6At",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WFIn_U-eNrdeDrv7QyibktUsB3OgF6At&sz=w640",
+          "sizeBytes": 4377229,
+          "sha256": "77CDB3BA0C6225303FE923D7121EB3C57993BA0F785A478985D8743A2294FE3D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Master Sword The Legend Of Zelda: Ocarin | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "010089000F0E8000",
+      "title": "Kine",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010089000F0E8000.jpg",
+      "variants": [
+        {
+          "id": "v_b5c19f75",
+          "name": "Hush Telekinesis Valorant",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AXHhZjFJ0_ZYSs_veNx0_n8t6c2TCI6X",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AXHhZjFJ0_ZYSs_veNx0_n8t6c2TCI6X&sz=w640",
+          "sizeBytes": 4602087,
+          "sha256": "229FBB1ADE5DA6A01A9DBAB0C3968187A75DDC587F18FEC5A17E7F9BF4A32304",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Hush Telekinesis Valorant"
+        },
+        {
+          "id": "v_e87d0692",
+          "name": "Shinra Kusakabe Pyrokinesis Fire Force",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ia7u5dZD49lF98auq-Dx9RIBRFcZ0o3b",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ia7u5dZD49lF98auq-Dx9RIBRFcZ0o3b&sz=w640",
+          "sizeBytes": 4742146,
+          "sha256": "9ABD51364ED38222FEBBAAEB5282C63D899CFDD44F08E218A81E1109E7421AF9",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Shinra Kusakabe Pyrokinesis Fire Force | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "010071801AB2A000",
+      "title": "Split",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010071801AB2A000.jpg",
+      "variants": [
+        {
+          "id": "v_84eb962e",
+          "name": "Upside Down Cyberpunk City Split Fiction",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nzbM_0ChGp_h7rbp9tpcLsLsx81Cay2e",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nzbM_0ChGp_h7rbp9tpcLsLsx81Cay2e&sz=w640",
+          "sizeBytes": 4937083,
+          "sha256": "D54C59FB4EC08513A4C567347DDF20239EFF33AEBB2AF85FA9EA7E7DE4A25878",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Upside Down Cyberpunk City Split Fiction | ЗВУК"
+        },
+        {
+          "id": "v_ee907194",
+          "name": "Big City Split Fiction",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13WpugJK6BaXJz7jdOGB1x7VhApnM7P3q",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13WpugJK6BaXJz7jdOGB1x7VhApnM7P3q&sz=w640",
+          "sizeBytes": 4737509,
+          "sha256": "39FA304985432B891D1276D44A7F0113E03AA194646C29757DF19BF43F0C8BFF",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Big City Split Fiction"
+        }
+      ]
     }
   ],
-  "totalGames": 957,
-  "totalVariants": 1389,
+  "totalGames": 960,
+  "totalVariants": 1394,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
