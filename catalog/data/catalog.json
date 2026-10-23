@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:33:50.670763+00:00",
+  "updatedAt": "2026-10-23T13:36:32.687395+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -25906,9 +25906,115 @@
           "notes": "Switch 720p 30fps H264 | A Gift For You Bocchi The Rock! | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100276009872000",
+      "title": "Okami",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100276009872000.jpg",
+      "variants": [
+        {
+          "id": "v_fe604fbc",
+          "name": "Sunaookami Shiroko Blue Archive",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VaOOCmzTSgdDaip8mgCEsugdaLHXi6xp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VaOOCmzTSgdDaip8mgCEsugdaLHXi6xp&sz=w640",
+          "sizeBytes": 4698148,
+          "sha256": "972865330B68A9644BED4D39CC2D32ED62A1FC29AE8EA9DE814FBAC75CE2B2C8",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Sunaookami Shiroko Blue Archive"
+        },
+        {
+          "id": "v_f7882748",
+          "name": "Tanjiro Hinokami Kagura Demon Slayer",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1t_zZHGu4XVTK61uu-QNK_CXWHKF06zKP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1t_zZHGu4XVTK61uu-QNK_CXWHKF06zKP&sz=w640",
+          "sizeBytes": 4735054,
+          "sha256": "BEB8031F7D13A02C963E89B8EFF1DD541B72B6719B8A0EE3FFAFDE833808EB3D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Tanjiro Hinokami Kagura Demon Slayer"
+        },
+        {
+          "id": "v_258bbbbf",
+          "name": "Tanjiro Hinokami Kagura Demon Slayer",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10u79mACK0FGy-Y8pdrDM9DRSnh4F5u_V",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10u79mACK0FGy-Y8pdrDM9DRSnh4F5u_V&sz=w640",
+          "sizeBytes": 4730345,
+          "sha256": "F48DE590094E026EDF7F3AFC9F8E4117EB5DDFD62EB9BDE0BE4A08528E1AC02B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tanjiro Hinokami Kagura Demon Slayer | ЗВУК"
+        },
+        {
+          "id": "v_7b1b0261",
+          "name": "Hinokami Kagura Tanjiro Kimetsu No Yaiba",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BlNSekpum5A52jtwf5gOzNBb7fUBz7bF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BlNSekpum5A52jtwf5gOzNBb7fUBz7bF&sz=w640",
+          "sizeBytes": 4724125,
+          "sha256": "F9B614C5CD6724D709DB034C5CC1791E35CF368D8AF25960A04EECF6C3C88223",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Hinokami Kagura Tanjiro Kimetsu No Yaiba"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A1100E266000",
+      "title": "Dark Light",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A1100E266000.jpg",
+      "variants": [
+        {
+          "id": "v_32d7dd5e",
+          "name": "Dark Street Lights",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Gvd_OlrxmltQ72BJrTQk8zIB3m19p7th",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Gvd_OlrxmltQ72BJrTQk8zIB3m19p7th&sz=w640",
+          "sizeBytes": 4785645,
+          "sha256": "61D5AC1744DA22A14ADE2E60E6CB90282C9CB0A1AD9752394240AC78A4967774",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dark Street Lights | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 818,
-  "totalVariants": 1120,
+  "totalGames": 820,
+  "totalVariants": 1125,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
