@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T15:28:36.652921+00:00",
+  "updatedAt": "2026-10-23T15:29:37.237655+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -32592,9 +32592,115 @@
           "notes": "Switch 720p 30fps H264 | Riou, Sierra Mikain and Tir McDohl Suiko | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100A780187C4000",
+      "title": "Falling Out",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A780187C4000.jpg",
+      "variants": [
+        {
+          "id": "v_7dad0af5",
+          "name": "Uruha Rushia Sunset Virtual Youtuber",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KZTriMUboHFwS3DcrGh6tyMzWH_rTK2w",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KZTriMUboHFwS3DcrGh6tyMzWH_rTK2w&sz=w640",
+          "sizeBytes": 4898067,
+          "sha256": "1D5F443D06D1C3B5A73B8D6F9B5EFBAE696E303418950A87AB8EF460254415F7",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Uruha Rushia Sunset Virtual Youtuber | ЗВУК"
+        },
+        {
+          "id": "v_51543060",
+          "name": "Retrowave Outrun Ferrari F40 On The Hill",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LYimxZ_defw9L8YQb0gsGG-lqTI8e1s4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LYimxZ_defw9L8YQb0gsGG-lqTI8e1s4&sz=w640",
+          "sizeBytes": 4703489,
+          "sha256": "0F00EF941998219742D620F0A745300426E85C9EDE91BE7728AC8CDC4587C4A3",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Retrowave Outrun Ferrari F40 On The Hill | ЗВУК"
+        },
+        {
+          "id": "v_b7fc66e0",
+          "name": "Anime Girl Playing Guitar While It&#8217",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bDvETmaSjaz60eFv1Mj0A9QZmbaJxymt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bDvETmaSjaz60eFv1Mj0A9QZmbaJxymt&sz=w640",
+          "sizeBytes": 4925997,
+          "sha256": "41ABE1B0A32C5B7FD48999FC5AF77E4398B12AF91ED4FC055EDAE31FC67F8294",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Anime Girl Playing Guitar While It&#8217 | ЗВУК"
+        },
+        {
+          "id": "v_ac2c7141",
+          "name": "Autumn Festival",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1sS57QXcUIcUHK4aiMNtidxoGdv74vFNV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1sS57QXcUIcUHK4aiMNtidxoGdv74vFNV&sz=w640",
+          "sizeBytes": 4647053,
+          "sha256": "AD8242418C49D5E40BCD9AAB0D223FFD158FAB66EDDDA9C10C251AC93C8B7A14",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Autumn Festival | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "010035B012F28000",
+      "title": "Wing of Darkness",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010035B012F28000.jpg",
+      "variants": [
+        {
+          "id": "v_f0b6ece0",
+          "name": "Guts Beast Of Darkness Berserk",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-uHtJSOyLxiZwZbgWlNWxixR3EymUF98",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-uHtJSOyLxiZwZbgWlNWxixR3EymUF98&sz=w640",
+          "sizeBytes": 4704070,
+          "sha256": "D60492C6BA2D7CD8042903BD90C19160C2BC7199B39D8D2A8701470CFAD2FECF",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Guts Beast Of Darkness Berserk | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 972,
-  "totalVariants": 1423,
+  "totalGames": 974,
+  "totalVariants": 1428,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
