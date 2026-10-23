@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:48:50.164570+00:00",
+  "updatedAt": "2026-10-23T13:50:01.621638+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -26794,9 +26794,123 @@
           "notes": "Switch 720p 30fps H264 | Cyberpunk High Rise Apartment"
         }
       ]
+    },
+    {
+      "titleId": "010039501405E000",
+      "title": "Blanc",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010039501405E000.jpg",
+      "variants": [
+        {
+          "id": "v_ddb2460c",
+          "name": "Elderwood Leblanc League Of Legends",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XtqjlSvunRFDx1agBPP82apxAJ2HGxXr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XtqjlSvunRFDx1agBPP82apxAJ2HGxXr&sz=w640",
+          "sizeBytes": 4693994,
+          "sha256": "F2FFD4F4D8C89C52D9B46420411B13DF11A021078C67D2302A8584DBC865FFA9",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Elderwood Leblanc League Of Legends | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "010032000EAC6000",
+      "title": "Neon Drive",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010032000EAC6000.jpg",
+      "variants": [
+        {
+          "id": "v_c38662e0",
+          "name": "BMW M3 Neon Night Drive",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12XK9f8doDW8GDRImrQc8PkS0QzvOt_yR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12XK9f8doDW8GDRImrQc8PkS0QzvOt_yR&sz=w640",
+          "sizeBytes": 4722552,
+          "sha256": "C8D9B903E15F601485BFECD64DB7E83CC225221DF186A62F71E45E9ABE55B5BB",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | BMW M3 Neon Night Drive | ЗВУК"
+        },
+        {
+          "id": "v_ffa23d7a",
+          "name": "Sunset Drive Synthwave",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qkC3yuNatbz99G1fyEcUq-01mFNs1Ecr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qkC3yuNatbz99G1fyEcUq-01mFNs1Ecr&sz=w640",
+          "sizeBytes": 4677504,
+          "sha256": "6E09B220AE26732696B3FB46BAF79E3079BD67EA3CBDAC0C612052E994B9BED5",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sunset Drive Synthwave | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B8F01D320000",
+      "title": "Light It Up",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B8F01D320000.jpg",
+      "variants": [
+        {
+          "id": "v_4c5f2aa6",
+          "name": "Upside Down Horizon Miles Morales Spider",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bn63Ve6jGxjn7EbHYPHo1-5Dx0rE1gRB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bn63Ve6jGxjn7EbHYPHo1-5Dx0rE1gRB&sz=w640",
+          "sizeBytes": 4522830,
+          "sha256": "7CCC153B5F433DAC48CB2F3630808FEFA5E9C7D5812C089C2996BEA4A580151F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Upside Down Horizon Miles Morales Spider"
+        },
+        {
+          "id": "v_27de18ac",
+          "name": "Itachi Sharingan Lightning",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1JrMMSJnaGy8vtKBqwzzhbdn-g6sSGRNR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1JrMMSJnaGy8vtKBqwzzhbdn-g6sSGRNR&sz=w640",
+          "sizeBytes": 4701971,
+          "sha256": "CB85B3BD42057CD4C0BD5176D4AE69C55B3F96E60152F589D869D7C39A1D2980",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Itachi Sharingan Lightning | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 839,
-  "totalVariants": 1160,
+  "totalGames": 842,
+  "totalVariants": 1165,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
