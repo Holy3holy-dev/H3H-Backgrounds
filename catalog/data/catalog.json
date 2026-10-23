@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T21:06:25.736869+00:00",
+  "updatedAt": "2026-10-23T21:10:45.689425+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -7318,6 +7318,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 0100BC0018138000_Super_Mario_RPG.mp4"
+        },
+        {
+          "id": "v_5162e505",
+          "name": "Chill Mario Pixel",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lZMs7BIIUWqTtws8wKJs6Unkhj-JJyfM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lZMs7BIIUWqTtws8wKJs6Unkhj-JJyfM&sz=w640",
+          "sizeBytes": 3691998,
+          "sha256": "F6587BD14B54F1543BDF58BE1D34FB4F986D2BE51236BFCC4B697F67F3FAFFFB",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Chill Mario Pixel | ЗВУК"
         }
       ]
     },
@@ -7737,6 +7755,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 0100965017338000_Super_Mario_Party_Jamboree.mp4"
+        },
+        {
+          "id": "v_4c04aaa4",
+          "name": "Super Mario Rainbow Run",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1aZTTiyEJsxQk27-20mlFhoxr9rcNBkfR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1aZTTiyEJsxQk27-20mlFhoxr9rcNBkfR&sz=w640",
+          "sizeBytes": 4844918,
+          "sha256": "1DB7E835C3251BDDB1540280CD61E1C6F292859B744DD4746D2C3EAB11EA9AB4",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Super Mario Rainbow Run"
         }
       ]
     },
@@ -8334,6 +8370,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 010028600EBDA000_Super_Mario_3D_World_+_Bowsers_Fury.mp4"
+        },
+        {
+          "id": "v_0767a61a",
+          "name": "Bowser Vs Super Mario",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ae4ZoaP7H0gMJtk-RZsdwkTjmTkB-TpM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ae4ZoaP7H0gMJtk-RZsdwkTjmTkB-TpM&sz=w640",
+          "sizeBytes": 4634108,
+          "sha256": "CC8407C8607241C8A6F2EDD2D4456F6F4DE7E9119D32DAD8FADCF5AE0A9E3ECE",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Bowser Vs Super Mario"
         }
       ]
     },
@@ -30402,6 +30456,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Allen Walker D.Gray Man | ЗВУК"
+        },
+        {
+          "id": "v_7d8a9c35",
+          "name": "Crimson Blade Warrior",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1y-hYFDYYKzqWfNT3W7EKnykCPemAe0OF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1y-hYFDYYKzqWfNT3W7EKnykCPemAe0OF&sz=w640",
+          "sizeBytes": 4746912,
+          "sha256": "327F6192EDB4CA643DED12389108E9C422871AABE90E761C0787F2DCF2065101",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Crimson Blade Warrior | ЗВУК"
         }
       ]
     },
@@ -35348,9 +35420,35 @@
           "notes": "Switch 720p 30fps H264 | Retro Tunnel"
         }
       ]
+    },
+    {
+      "titleId": "01001860140B0000",
+      "title": "I Saw Black Clouds",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001860140B0000.jpg",
+      "variants": [
+        {
+          "id": "v_6fa87b3f",
+          "name": "Grimm X Leaf Black Souls",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1G5O9q6fgi7hQyvSl7FKWIH8QAR8uS8-D",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1G5O9q6fgi7hQyvSl7FKWIH8QAR8uS8-D&sz=w640",
+          "sizeBytes": 4689512,
+          "sha256": "407404FAE616220345A5183077C0B94566798B22DE1C81AB29380492C1BE4208",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Grimm X Leaf Black Souls | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 1028,
-  "totalVariants": 1551,
+  "totalGames": 1029,
+  "totalVariants": 1556,
   "lastUpdated": "2026-10-23T20:40:23.001126+00:00"
 }
