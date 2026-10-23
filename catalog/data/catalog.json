@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:45:15.893369+00:00",
+  "updatedAt": "2026-10-23T13:46:22.393761+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -26522,9 +26522,123 @@
           "notes": "Switch 720p 30fps H264 | Denia Celestial Sea Wuthering Waves | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100F18014AC2000",
+      "title": "Tiny Lands",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F18014AC2000.jpg",
+      "variants": [
+        {
+          "id": "v_fb5ceb91",
+          "name": "Night Village Castle Tiny Glade",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Hl_U3GFJYO4X8f2OoYoPvXDUW4U79Ow7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Hl_U3GFJYO4X8f2OoYoPvXDUW4U79Ow7&sz=w640",
+          "sizeBytes": 4732692,
+          "sha256": "1A4E7293B85B3A52C4E5CD9F64411F245802A82FD95B6BBABCF1982317F780C2",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Night Village Castle Tiny Glade | ЗВУК"
+        },
+        {
+          "id": "v_614de7a0",
+          "name": "Moonlit Village Tiny Glade",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1T7ym7XJOgzhDZLiC9DMpziB6oA1ZcQt5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1T7ym7XJOgzhDZLiC9DMpziB6oA1ZcQt5&sz=w640",
+          "sizeBytes": 4679478,
+          "sha256": "F6A6697AF4161BC3D6D6BE76F24F68BDEFA26C81AD434A750E4FD760ACE813EF",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Moonlit Village Tiny Glade | ЗВУК"
+        },
+        {
+          "id": "v_6b8c1a8c",
+          "name": "Winter Night Tiny Glade",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1j3LMm4Knyx9oa3od1XWEKrVg9LZSasl0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1j3LMm4Knyx9oa3od1XWEKrVg9LZSasl0&sz=w640",
+          "sizeBytes": 4685344,
+          "sha256": "984D1299D3360A01BB25BA399B899BE1259D9890785382DE8CC3581A28B7B147",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Winter Night Tiny Glade"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D4401565E000",
+      "title": "Pac Man World Re Pac 1 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D4401565E000.jpg",
+      "variants": [
+        {
+          "id": "v_cefc0dc8",
+          "name": "Re:Zero Starting Life in Another World",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZiQFmGtnb0uL53zuGfey6vJdih9CNsl_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZiQFmGtnb0uL53zuGfey6vJdih9CNsl_&sz=w640",
+          "sizeBytes": 4693227,
+          "sha256": "ECD7CE47C4C7FF1BF5A58FE1387E00A894EB63720E944BA4BF14F6494FE1BDCF",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Re:Zero Starting Life in Another World | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "010020D01AD24000",
+      "title": "Animal Well",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010020D01AD24000.jpg",
+      "variants": [
+        {
+          "id": "v_6ec127b6",
+          "name": "Zenless Zone Zero A Storm Of Falling Sta",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1k9CnbFiEiy0ZyQ3o1NgoXchodD9WFiXN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1k9CnbFiEiy0ZyQ3o1NgoXchodD9WFiXN&sz=w640",
+          "sizeBytes": 4693992,
+          "sha256": "859EC57E33522E44DA525BAA9A3412538976609EEB56AA5549EC1D01DC8763F8",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Zenless Zone Zero A Storm Of Falling Sta"
+        }
+      ]
     }
   ],
-  "totalGames": 832,
-  "totalVariants": 1148,
+  "totalGames": 835,
+  "totalVariants": 1153,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
