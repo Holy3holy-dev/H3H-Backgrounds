@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:51:22.916305+00:00",
+  "updatedAt": "2026-10-23T13:52:11.921462+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -27022,9 +27022,53 @@
           "notes": "Switch 720p 30fps H264 | Liskarm And Amiya In Rhodes Island Arkni | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "010013A01CE90000",
+      "title": "The Phantom",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010013A01CE90000.jpg",
+      "variants": [
+        {
+          "id": "v_00299ef0",
+          "name": "Phantom Blade: Executioners",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Q_Szg8A-dKEcTOMNZoLt9ZqSns-g7dnD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Q_Szg8A-dKEcTOMNZoLt9ZqSns-g7dnD&sz=w640",
+          "sizeBytes": 4703237,
+          "sha256": "8099A2474A9AF63E4E7C45CBF93D04EFE653AD1690E2E7A60BD9A15D66605EF6",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Phantom Blade: Executioners | ЗВУК"
+        },
+        {
+          "id": "v_f82f85e9",
+          "name": "Ciel Phantomhive And Sebastian Michaelis",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11sHlHErCLaLEd1t_AnfcyXd6ALbhUD0B",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11sHlHErCLaLEd1t_AnfcyXd6ALbhUD0B&sz=w640",
+          "sizeBytes": 4686098,
+          "sha256": "B2A378A9D794800CCA07008B1C3AF0924D85DA1BD0ACFEC3574BEECD25B5AC84",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ciel Phantomhive And Sebastian Michaelis | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 845,
-  "totalVariants": 1170,
+  "totalGames": 846,
+  "totalVariants": 1172,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
