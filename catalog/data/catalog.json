@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T21:17:08.767561+00:00",
+  "updatedAt": "2026-10-23T21:33:21.529747+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -6595,6 +6595,78 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 0100435942450000_Cyberpunk_2077.mp4"
+        },
+        {
+          "id": "v_f9a8e1e8",
+          "name": "Cyberpunk 2077 Neon Night City",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13u187r5CJlFRxXzNe8q0YLDi1-IYacpo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13u187r5CJlFRxXzNe8q0YLDi1-IYacpo&sz=w640",
+          "sizeBytes": 4602871,
+          "sha256": "60817C71585B04299937310327C9513E07AB05A141BAE98B72009A8E9DBA6BB0",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cyberpunk 2077 Neon Night City | ЗВУК"
+        },
+        {
+          "id": "v_6be26e0e",
+          "name": "Cyberpunk 2077 Night City",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oE-wL4tGxNYXKNj-TcgopK1X_B7Ebptt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oE-wL4tGxNYXKNj-TcgopK1X_B7Ebptt&sz=w640",
+          "sizeBytes": 4710447,
+          "sha256": "B25996E7CFD1A8C1031F0F5F48F6461CAD642C49759ED9CF2F9161ED67B37EA4",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cyberpunk 2077 Night City | ЗВУК"
+        },
+        {
+          "id": "v_223e739d",
+          "name": "Cyberpunk 2077 Samurai Glitch",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-ELTVGaPRWcbOuIugFe3EtCtgJXXev4v",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-ELTVGaPRWcbOuIugFe3EtCtgJXXev4v&sz=w640",
+          "sizeBytes": 4671269,
+          "sha256": "FE5A88462B0E5517BC35A396B0BA1DE5FC2D76570ADBBB7DE18FC5ED65C6268F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Cyberpunk 2077 Samurai Glitch"
+        },
+        {
+          "id": "v_69ffb55a",
+          "name": "Cyberpunk 2077 UI",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WAKNpUL71SSPhMo1LSHnvdzhPMwec6_S",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WAKNpUL71SSPhMo1LSHnvdzhPMwec6_S&sz=w640",
+          "sizeBytes": 4697668,
+          "sha256": "FEF1B4D71477D3EAFA6C74F33C9C97684985F293A69E766710338C6F1890EBA9",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cyberpunk 2077 UI | ЗВУК"
         }
       ]
     },
@@ -35727,6 +35799,6 @@
     }
   ],
   "totalGames": 1030,
-  "totalVariants": 1571,
+  "totalVariants": 1575,
   "lastUpdated": "2026-10-23T20:40:23.001126+00:00"
 }
