@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:07:55.859190+00:00",
+  "updatedAt": "2026-10-23T14:09:08.329912+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -28008,9 +28008,71 @@
           "notes": "Switch 720p 30fps H264 | Deathwing The Destroyer World Of Warcraf"
         }
       ]
+    },
+    {
+      "titleId": "0100AB000ABFE000",
+      "title": "Shadow Fight 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AB000ABFE000.jpg",
+      "variants": [
+        {
+          "id": "v_a5b9ca76",
+          "name": "Divine Dragon Boss Fight Sekiro: Shadows",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fOCP2EoC71w_LEujRP2oeC_MIdYXxuHv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fOCP2EoC71w_LEujRP2oeC_MIdYXxuHv&sz=w640",
+          "sizeBytes": 4683158,
+          "sha256": "F00033B98DD9D0BFCAA714CC113E7E3AB162AA172FFA2482A53BE8CFE849E684",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Divine Dragon Boss Fight Sekiro: Shadows | ЗВУК"
+        },
+        {
+          "id": "v_4bcb0a41",
+          "name": "Divine Dragon Boss Fight Sekiro Sekiro:",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tl3srnFVjQ1pEa3Gbmhr_BmFrR-3H50o",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tl3srnFVjQ1pEa3Gbmhr_BmFrR-3H50o&sz=w640",
+          "sizeBytes": 4695555,
+          "sha256": "E5B44B4CA6B64677B2CBCCEBEBCBABE1004BC6EFAA3F27EB28AAEE52D5E106F4",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Divine Dragon Boss Fight Sekiro Sekiro: | ЗВУК"
+        },
+        {
+          "id": "v_8c3f8347",
+          "name": "Sekiro Vs Corrupted Monk Sekiro: Shadows",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13IdyIUNLFZQ6rgPbfmfUBFeA9uo_kt6F",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13IdyIUNLFZQ6rgPbfmfUBFeA9uo_kt6F&sz=w640",
+          "sizeBytes": 4502642,
+          "sha256": "6F83497430D4ACBF982198DED65C572D1377D8C8F25724093A2625137776D16E",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sekiro Vs Corrupted Monk Sekiro: Shadows | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 867,
-  "totalVariants": 1215,
+  "totalGames": 868,
+  "totalVariants": 1218,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
