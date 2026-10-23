@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:18:39.706709+00:00",
+  "updatedAt": "2026-10-23T14:19:42.853079+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -28554,9 +28554,89 @@
           "notes": "Switch 720p 30fps H264 | Minecraft Swamp Nighttime | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100C6B010FD6000",
+      "title": "Lake",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C6B010FD6000.jpg",
+      "variants": [
+        {
+          "id": "v_ed6d8a68",
+          "name": "Heart Lake Side Wuthering Waves",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ia0xUI0gyUw-T7QUcXSdlXWN51-S0rWi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ia0xUI0gyUw-T7QUcXSdlXWN51-S0rWi&sz=w640",
+          "sizeBytes": 4735193,
+          "sha256": "0BC2C9B272532BFE53A8B8A12EAA8905A83190D5D582516BE1009B3D50C574D0",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Heart Lake Side Wuthering Waves"
+        },
+        {
+          "id": "v_31a9f39a",
+          "name": "Mount Fuji Sakura Lake",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Q7wv42YzhfLp_sEtLYWcvq0Jq6Xsj_7q",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Q7wv42YzhfLp_sEtLYWcvq0Jq6Xsj_7q&sz=w640",
+          "sizeBytes": 4725766,
+          "sha256": "57A097DC9C33A35DC3350EC8211B206FA512DF1C587E6B3F267825CB0811DF56",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mount Fuji Sakura Lake | ЗВУК"
+        },
+        {
+          "id": "v_ecb004f9",
+          "name": "Sakura Tree Lake Neverness To Everness",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QW9M1XnFEbj2qk4Ti8D9OKFL1VXzHf9t",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QW9M1XnFEbj2qk4Ti8D9OKFL1VXzHf9t&sz=w640",
+          "sizeBytes": 4743039,
+          "sha256": "4BE25857B74ABF2607951C2DB0537C7EA88DF0530BB501CDDDCDF030246E7DF8",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sakura Tree Lake Neverness To Everness | ЗВУК"
+        },
+        {
+          "id": "v_db89b881",
+          "name": "Cherry Blossom Lake House Minecraft",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wI3DvO38zP9rsJjalAx5DzHTHODYLGFj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wI3DvO38zP9rsJjalAx5DzHTHODYLGFj&sz=w640",
+          "sizeBytes": 4955342,
+          "sha256": "4286E990E15FC3546B37F66183B63D7F95B846DF8B61B2A01216115508F05D10",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cherry Blossom Lake House Minecraft | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 879,
-  "totalVariants": 1240,
+  "totalGames": 880,
+  "totalVariants": 1244,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
