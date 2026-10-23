@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T15:11:07.744774+00:00",
+  "updatedAt": "2026-10-23T15:13:03.301056+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -31552,9 +31552,97 @@
           "notes": "Switch 720p 30fps H264 | Boreal Outrider Knight Dark Souls 3 | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "010045D009EFC000",
+      "title": "Apocryph",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010045D009EFC000.jpg",
+      "variants": [
+        {
+          "id": "v_c7e0ccb7",
+          "name": "Jeanne d&#8217;Arc Fate Grand Order",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mqE0T6b2Eae2u9qi3npUTeNbuIJhj6gd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mqE0T6b2Eae2u9qi3npUTeNbuIJhj6gd&sz=w640",
+          "sizeBytes": 4681574,
+          "sha256": "98715CF0E2BCE9454C021583CBDB95B99405DB048F86BC742821D1EE53680E6E",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Jeanne d&#8217;Arc Fate Grand Order | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F3A0095A6000",
+      "title": "Night Call",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F3A0095A6000.jpg",
+      "variants": [
+        {
+          "id": "v_09ffaef0",
+          "name": "Midnight Call 5 Centimeters Per Second",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AouJWTRFYc2ew_uZZJ6UcL9ixNoQR9wr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AouJWTRFYc2ew_uZZJ6UcL9ixNoQR9wr&sz=w640",
+          "sizeBytes": 4652399,
+          "sha256": "31D9FEB9C6AC95236DC9DB7D56251196B41C6C52D0DD034BC322233C23D9D022",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Midnight Call 5 Centimeters Per Second"
+        },
+        {
+          "id": "v_bcce5755",
+          "name": "Nazuna Nanakusa Night City Call Of The N",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SO42Y5L2doRzJlF6s-qz1Xot703YRiYt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SO42Y5L2doRzJlF6s-qz1Xot703YRiYt&sz=w640",
+          "sizeBytes": 4677669,
+          "sha256": "9CC3B5CAE54F8891CA851932A162299FD737D4E2BB8AC20A52E127A829592CA4",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Nazuna Nanakusa Night City Call Of The N | ЗВУК"
+        },
+        {
+          "id": "v_e8f39f5a",
+          "name": "Nazuna Nanakusa Aurora Sky Call Of The N",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NtwZmxUk2C4ephG8nlnDLOKGU38PpKO2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NtwZmxUk2C4ephG8nlnDLOKGU38PpKO2&sz=w640",
+          "sizeBytes": 4646542,
+          "sha256": "86ADAD317F511DB70993ACD16CE48045677C8B9AC759EDFDFAF53DD4D80FE611",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Nazuna Nanakusa Aurora Sky Call Of The N | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 950,
-  "totalVariants": 1375,
+  "totalGames": 952,
+  "totalVariants": 1379,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
