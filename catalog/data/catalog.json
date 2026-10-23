@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T21:04:36.127323+00:00",
+  "updatedAt": "2026-10-23T21:06:25.736869+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -35234,9 +35234,123 @@
           "notes": "Switch 720p 30fps H264 | Silhouetted Anime Girl Under Starry Nigh | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "01000A800B998000",
+      "title": "Alpha",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000A800B998000.jpg",
+      "variants": [
+        {
+          "id": "v_5fb452d2",
+          "name": "Alpha Moonlit Night The Eminence In Shad",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1C6seXVlF8IMel0p37eGoayoAwgX41arA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1C6seXVlF8IMel0p37eGoayoAwgX41arA&sz=w640",
+          "sizeBytes": 4712196,
+          "sha256": "47F1CB9BCDF6349D561D5C1F8A9F18CD77E5706A053117205F08054AC7321BD8",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Alpha Moonlit Night The Eminence In Shad"
+        },
+        {
+          "id": "v_79f7aedf",
+          "name": "Alpha Wolf",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XLB-kLJDwtPOwJPmANq5IvXOLNkLChj9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XLB-kLJDwtPOwJPmANq5IvXOLNkLChj9&sz=w640",
+          "sizeBytes": 4678962,
+          "sha256": "0A162CE6C3C406B763BF6E1916CE5B3639C8514BE90D8BD7005FE4BD77DFC507",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Alpha Wolf | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "010087700D07C000",
+      "title": "Light Tracer",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010087700D07C000.jpg",
+      "variants": [
+        {
+          "id": "v_2662e0b4",
+          "name": "Tracer Lying On Sofa Overwatch",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LcKao5ad_eO6KgrOY4UKODqeH8fDHhd_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LcKao5ad_eO6KgrOY4UKODqeH8fDHhd_&sz=w640",
+          "sizeBytes": 4683938,
+          "sha256": "87A557FD9196116B95AE48D089B79125C47D7325A9731C47C60A4A5FDDB87CE5",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tracer Lying On Sofa Overwatch | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EF701265E000",
+      "title": "Maze",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EF701265E000.jpg",
+      "variants": [
+        {
+          "id": "v_4ce4b129",
+          "name": "Forest Maze",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bwiJxSwO6KgpdWJd-7E797rerQe6uo3B",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bwiJxSwO6KgpdWJd-7E797rerQe6uo3B&sz=w640",
+          "sizeBytes": 4669475,
+          "sha256": "4D15A66BBAECFFFCE2505E75C2B63C8D89081A0D31883A24049A6332CEED2845",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Forest Maze | ЗВУК"
+        },
+        {
+          "id": "v_cec20fda",
+          "name": "Retro Tunnel",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10FvJu4C7Gl-JuaotrnyZwRTWJbIqLJYj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10FvJu4C7Gl-JuaotrnyZwRTWJbIqLJYj&sz=w640",
+          "sizeBytes": 4707520,
+          "sha256": "9E433EE213C0A32F0AB208609548031ED3401EF2BF382FC0C75E715516AB9402",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Retro Tunnel"
+        }
+      ]
     }
   ],
-  "totalGames": 1025,
-  "totalVariants": 1546,
+  "totalGames": 1028,
+  "totalVariants": 1551,
   "lastUpdated": "2026-10-23T20:40:23.001126+00:00"
 }
