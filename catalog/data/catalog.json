@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T21:01:29.027852+00:00",
+  "updatedAt": "2026-10-23T21:03:24.662423+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -35048,9 +35048,89 @@
           "notes": "Switch 720p 30fps H264 | Evangelion Unit-02 Neon Genesis Evangeli | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100D7300E966000",
+      "title": "Self",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D7300E966000.jpg",
+      "variants": [
+        {
+          "id": "v_4846efe7",
+          "name": "Endministrator Beachside Selfie Arknight",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1l5OaAzLvi8-Lw0BJaamJdIJfT3MoNBmE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1l5OaAzLvi8-Lw0BJaamJdIJfT3MoNBmE&sz=w640",
+          "sizeBytes": 4718235,
+          "sha256": "B7ABEE642D092100D498F692FF3FC22BAC0FD6935A54262F6AD89C87C5B99B97",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Endministrator Beachside Selfie Arknight"
+        },
+        {
+          "id": "v_9f341974",
+          "name": "Bocchi Selfie",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1h73_RGCcYjzfuChSA3Q2pgare-7mPk5x",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1h73_RGCcYjzfuChSA3Q2pgare-7mPk5x&sz=w640",
+          "sizeBytes": 4687969,
+          "sha256": "0D8B0B2A9F03247173910E604B59D67A170C8C5206AE1341B79C2B419AB9E775",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bocchi Selfie | ЗВУК"
+        },
+        {
+          "id": "v_2e626cab",
+          "name": "Zero Two Selfie Darling In The Franxx",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jHG4dSpf2zaqe-xcqzEomLLzo9lLBKx7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jHG4dSpf2zaqe-xcqzEomLLzo9lLBKx7&sz=w640",
+          "sizeBytes": 4685754,
+          "sha256": "CA1AFAD8173245266CB737058290D5F4A76B709CBDEA8AC8D5ACDB9485AFD8DE",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Zero Two Selfie Darling In The Franxx | ЗВУК"
+        },
+        {
+          "id": "v_577d598f",
+          "name": "Arona Ocean Selfie Blue Archive",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yTWclh9f-uZ2qeQd37mxbB0buo172zqz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yTWclh9f-uZ2qeQd37mxbB0buo172zqz&sz=w640",
+          "sizeBytes": 4688916,
+          "sha256": "A8761C659BD34DD8AB7BCB357AED3B543C9DE538079CE0B019AF7F02F54A3745",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Arona Ocean Selfie Blue Archive | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 1022,
-  "totalVariants": 1537,
+  "totalGames": 1023,
+  "totalVariants": 1541,
   "lastUpdated": "2026-10-23T20:40:23.001126+00:00"
 }
