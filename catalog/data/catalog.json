@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:48:45.668608+00:00",
+  "updatedAt": "2026-10-23T14:49:28.738789+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -30152,9 +30152,35 @@
           "notes": "Switch 720p 30fps H264 | The Lost Child | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100114014724000",
+      "title": "Pathway",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100114014724000.jpg",
+      "variants": [
+        {
+          "id": "v_8cb86ece",
+          "name": "Cosmic Pathway",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TUEZdncqOkefSms1LTEfbD-wUPBjEVtv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TUEZdncqOkefSms1LTEfbD-wUPBjEVtv&sz=w640",
+          "sizeBytes": 4696885,
+          "sha256": "8C50FEB70D9786AE7F0C9DB4F51AEFA468653B6A1DBEE444AD26B0E48B1AE08B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cosmic Pathway | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 919,
-  "totalVariants": 1311,
+  "totalGames": 920,
+  "totalVariants": 1312,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
