@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "name": "H3H After Dark (18+) Official Catalog",
   "updatedAt": "2026-10-23T15:45:00.000000Z",
-  "totalGames": 92,
-  "totalVariants": 937,
+  "totalGames": 93,
+  "totalVariants": 943,
   "games": [
     {
       "titleId": "0000000000000000",
@@ -17460,8 +17460,8 @@
     },
     {
       "titleId": "01009C701A35E000",
-      "title": "Super Mario 3D World + Bowser's Fury",
-      "publisher": "Nintendo",
+      "title": "Last Labyrinth -Lucidity Lost-",
+      "publisher": "AMATA K.K.",
       "variants": [
         {
           "id": "var-3ef03d15",
@@ -17485,8 +17485,8 @@
     },
     {
       "titleId": "010067300059A000",
-      "title": "Donkey Kong Country: Tropical Freeze",
-      "publisher": "Nintendo",
+      "title": "Mario + Rabbids Битва за королевство",
+      "publisher": "Ubisoft",
       "variants": [
         {
           "id": "var-1676691e",
@@ -17507,6 +17507,122 @@
           "notes": "Submitted via Telegram by @Secondchancetomourn"
         }
       ]
+    },
+    {
+      "titleId": "05988A343C507000",
+      "title": "Metal Gear Rising: Revengeance",
+      "publisher": "Community",
+      "variants": [
+        {
+          "id": "v_50ac22ed",
+          "name": "Cyborg Ninja Raiden",
+          "style": "Cinematic 3D",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pbr3jhidMhEJzMxIeZlsCMQmdA0uaUNE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pbr3jhidMhEJzMxIeZlsCMQmdA0uaUNE&sz=w640",
+          "sizeBytes": 4725215,
+          "sha256": "9698A557D9706268CBA8DA7654C6766A29EACDD039659D8D27CF6D95DC72DDFF",
+          "durationSec": 30.0,
+          "author": "Moewalls Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cyborg Ninja Raiden | ЗВУК"
+        },
+        {
+          "id": "v_95cddd87",
+          "name": "Raiden Crimson Blade",
+          "style": "Dynamic Action",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10G1Jc9iYxcQSC2yudXRb-oKRckgz_N6B",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10G1Jc9iYxcQSC2yudXRb-oKRckgz_N6B&sz=w640",
+          "sizeBytes": 4713471,
+          "sha256": "69E438A9AB753784862A80CD60E38023376E89D6E2EDFE12EA96271C2F2DD8E6",
+          "durationSec": 30.0,
+          "author": "Moewalls Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Raiden Crimson Blade | ЗВУК"
+        },
+        {
+          "id": "v_11aec047",
+          "name": "Raiden Jack the Ripper",
+          "style": "Cinematic 3D",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yKp4UcdIu4QBo-7FO2HyzoTUfu83LD-7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yKp4UcdIu4QBo-7FO2HyzoTUfu83LD-7&sz=w640",
+          "sizeBytes": 4699863,
+          "sha256": "B6B3CCA8A60DF73DED5201FEEF31BCB5080BD759C74506391C44A7CE22AD2B6E",
+          "durationSec": 30.0,
+          "author": "Moewalls Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Raiden Jack the Ripper | ЗВУК"
+        },
+        {
+          "id": "v_5fc0fd18",
+          "name": "Raiden Black & White Noir",
+          "style": "Minimalist Art",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PHkSZSL5qrwns3aqp_AxNGf3upIr6ZeL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PHkSZSL5qrwns3aqp_AxNGf3upIr6ZeL&sz=w640",
+          "sizeBytes": 4669082,
+          "sha256": "276EC1DEE2BCC26CC852ACD9F54D88FECBEA340D788EDD48D38DC020B31AC9E1",
+          "durationSec": 30.0,
+          "author": "Moewalls Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Raiden Black & White Noir | ЗВУК"
+        },
+        {
+          "id": "v_b0161f29",
+          "name": "Raiden High-Frequency Blade",
+          "style": "Official Theme",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WZVzyYwojEstfk8MwhQDIW4TB_a0dihW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WZVzyYwojEstfk8MwhQDIW4TB_a0dihW&sz=w640",
+          "sizeBytes": 4733122,
+          "sha256": "4A2B85BE7749F9F58EE5FAA694376A0F58277C71C4135EB0D517B1A1BD56D1F1",
+          "durationSec": 30.0,
+          "author": "Moewalls Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Raiden High-Frequency Blade | ЗВУК"
+        },
+        {
+          "id": "var-8e6711ea",
+          "name": "Raiden Cybernetic Katana (Rule of Nature)",
+          "style": "Community Animated",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Rl_3iC4V5WT8d4Zd7XAHSE3Z70MeNphf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Rl_3iC4V5WT8d4Zd7XAHSE3Z70MeNphf&sz=w640",
+          "sizeBytes": 7027046,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "@MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Submitted via Telegram by @MoeWalls"
+        }
+      ]
     }
-  ]
+  ],
+  "lastUpdated": "2026-10-23T16:13:46.720014+00:00"
 }
