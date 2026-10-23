@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:27:04.327211+00:00",
+  "updatedAt": "2026-10-23T13:28:20.736577+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -25376,9 +25376,115 @@
           "notes": "Switch 720p 30fps H264 | Cubes | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100FA2019CEE000",
+      "title": "D topia",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FA2019CEE000.jpg",
+      "variants": [
+        {
+          "id": "v_8af96924",
+          "name": "Bedroom Dystopian Cyberpunk City",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15SDJIXiTIMC-rSKDmv0uVh3IIZdz69Xv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15SDJIXiTIMC-rSKDmv0uVh3IIZdz69Xv&sz=w640",
+          "sizeBytes": 4633416,
+          "sha256": "96AC6F9EB9CB66E0F9B1F19FEC388E1A943739C049B0F4CBECB6F11059B20961",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bedroom Dystopian Cyberpunk City | ЗВУК"
+        },
+        {
+          "id": "v_520b0173",
+          "name": "Cyberpunk Dystopian Fortress",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11bj9sw2cnuAURtKZWUFFQIT6CnbXMeV7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11bj9sw2cnuAURtKZWUFFQIT6CnbXMeV7&sz=w640",
+          "sizeBytes": 4718013,
+          "sha256": "2437674F6E6325B4D93BE63C332CC1DCF32A85079CC9E8D591F5081D2C5319C9",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Cyberpunk Dystopian Fortress"
+        },
+        {
+          "id": "v_4fc5897d",
+          "name": "Futuristic Utopian City",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XE2z5fGIZX7x7vid4LiK5f0CG53s_lm9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XE2z5fGIZX7x7vid4LiK5f0CG53s_lm9&sz=w640",
+          "sizeBytes": 4709684,
+          "sha256": "B350FC84FCD6ACD5EB448A61BE045D9BBDEA1575F496D9776EAC9BD8359EB3E2",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Futuristic Utopian City"
+        }
+      ]
+    },
+    {
+      "titleId": "010045000E418000",
+      "title": "Nekopara",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010045000E418000.jpg",
+      "variants": [
+        {
+          "id": "v_2d28599f",
+          "name": "Vanilla Fraise Chocola NekoPara",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pQmX6tEtzXq8eCYGgknaMYRC13c52Hjf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pQmX6tEtzXq8eCYGgknaMYRC13c52Hjf&sz=w640",
+          "sizeBytes": 4743989,
+          "sha256": "A4556A256C2BAC30F45784738D1D4AE7A81DE85F64EE569916D07675AE381ED8",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Vanilla Fraise Chocola NekoPara | ЗВУК"
+        },
+        {
+          "id": "v_87b3b1ee",
+          "name": "Vanilla And Maple And Cinnamon And Shigu",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WcD2eM54fqfa1iyY2AG3toHpHccIeq9Q",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WcD2eM54fqfa1iyY2AG3toHpHccIeq9Q&sz=w640",
+          "sizeBytes": 4632820,
+          "sha256": "A590419F0836399F8DF3B5D29851757B4383320244855BC6382A6B75CF1B6A33",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Vanilla And Maple And Cinnamon And Shigu | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 808,
-  "totalVariants": 1095,
+  "totalGames": 810,
+  "totalVariants": 1100,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
