@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T15:13:48.085437+00:00",
+  "updatedAt": "2026-10-23T15:14:49.361970+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -31666,9 +31666,89 @@
           "notes": "Switch 720p 30fps H264 | Abandoned Spaceship In The Autumn Forest | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100A56016734000",
+      "title": "Rite",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A56016734000.jpg",
+      "variants": [
+        {
+          "id": "v_c6dd5a95",
+          "name": "Fluorite Ultimate Apex Prankster Arknigh",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1q6Njw6PHQTr1AnchK8H5ecdL9o3eexyx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1q6Njw6PHQTr1AnchK8H5ecdL9o3eexyx&sz=w640",
+          "sizeBytes": 4740714,
+          "sha256": "BEDD85AF71C4A36D172C80F5F9469C29C8644F6D62E6CAC415A5DE1C276A8267",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fluorite Ultimate Apex Prankster Arknigh | ЗВУК"
+        },
+        {
+          "id": "v_3058816c",
+          "name": "Meteorite Neverness To Everness",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hvMpx784v3_9s11Q-Kvg_VVkB6UyJKg3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hvMpx784v3_9s11Q-Kvg_VVkB6UyJKg3&sz=w640",
+          "sizeBytes": 4715641,
+          "sha256": "5E57E485F78A9F3153106A78066491DA48112DC250F7C83B7CC6A8A82E65E1BE",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Meteorite Neverness To Everness | ЗВУК"
+        },
+        {
+          "id": "v_265ecd7e",
+          "name": "Chihiro And No Face River Train Spirited",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vo-WVuXpLh3bvbSUpWgd7Rsr5OtbjkYi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vo-WVuXpLh3bvbSUpWgd7Rsr5OtbjkYi&sz=w640",
+          "sizeBytes": 4732990,
+          "sha256": "F3268754A4A795B2D03BE18B26CC1F79CADFE73440183A584ACBB6C4C5134720",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Chihiro And No Face River Train Spirited | ЗВУК"
+        },
+        {
+          "id": "v_8d126f75",
+          "name": "Liyue Lantern Rite Genshin Impact",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WTFNwSxsB9rS0KG5KjrthwucZcN1CPZ1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WTFNwSxsB9rS0KG5KjrthwucZcN1CPZ1&sz=w640",
+          "sizeBytes": 4879691,
+          "sha256": "6411E99E0629684F61CB8ECEBB31B768134A22F14479A12287D17143B1B5E4FE",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Liyue Lantern Rite Genshin Impact | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 953,
-  "totalVariants": 1380,
+  "totalGames": 954,
+  "totalVariants": 1384,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
