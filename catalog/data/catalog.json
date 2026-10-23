@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T16:53:56.737688+00:00",
+  "updatedAt": "2026-10-23T16:55:59.760712+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -34549,9 +34549,115 @@
           "notes": "Switch 720p 30fps H264 | Linko Xiaozhen Neverness To Everness"
         }
       ]
+    },
+    {
+      "titleId": "0100E5301F004000",
+      "title": "Demon Go",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E5301F004000.jpg",
+      "variants": [
+        {
+          "id": "v_6a421461",
+          "name": "Flame Hashira Rengoku Demon Slayer",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vY3xg1pfARWX7CAYI7HweH1LNfpjOEwO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vY3xg1pfARWX7CAYI7HweH1LNfpjOEwO&sz=w640",
+          "sizeBytes": 4774288,
+          "sha256": "B73A66AEB8F0501A5075F108F73FCF182DA3B14B8FFD33C18092549764BA71B4",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Flame Hashira Rengoku Demon Slayer | ЗВУК"
+        },
+        {
+          "id": "v_a51363a2",
+          "name": "Rengoku Death Demon Slayer",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1O8DUIB085-VmFUZapIPSdwbSAZcJ-8wW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1O8DUIB085-VmFUZapIPSdwbSAZcJ-8wW&sz=w640",
+          "sizeBytes": 4736435,
+          "sha256": "373B8D1D97FD4D46B4F5B955E7FF24126A11757E57ED5E368E8A45CDEFB34B8D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rengoku Death Demon Slayer | ЗВУК"
+        },
+        {
+          "id": "v_dcbb427e",
+          "name": "Zenitsu 7th Form God Of Fire And Thunder",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WwQTEYjl-AjRG8eu1NjC3qpCrr2577Qn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WwQTEYjl-AjRG8eu1NjC3qpCrr2577Qn&sz=w640",
+          "sizeBytes": 4747503,
+          "sha256": "51B50A163032F0EDDF932D9DE78E492E0EB28D0DDCD18CD460EBFE20EFC7E4BB",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Zenitsu 7th Form God Of Fire And Thunder | ЗВУК"
+        },
+        {
+          "id": "v_aa3452f9",
+          "name": "Tanjiro Dance Of The Fire God Demon Slay",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1YvPdZUYqd_AyIv1fw1WatvQMm11CgqRl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1YvPdZUYqd_AyIv1fw1WatvQMm11CgqRl&sz=w640",
+          "sizeBytes": 4741637,
+          "sha256": "E814776F5566BAEE79C5A9D71ADA049BEE17937F9A06AE54C0895E9BA44BE38D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tanjiro Dance Of The Fire God Demon Slay | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D24012A04000",
+      "title": "Time Tenshi",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D24012A04000.jpg",
+      "variants": [
+        {
+          "id": "v_4423ce67",
+          "name": "Mahiru Shiina The Angel Next Door Spoils",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=100BhjVioLd9o9cwdAvYCo2X2xAyC3d5k",
+          "previewUrl": "https://drive.google.com/thumbnail?id=100BhjVioLd9o9cwdAvYCo2X2xAyC3d5k&sz=w640",
+          "sizeBytes": 4625571,
+          "sha256": "7F9AD30193DD649A9AC05842E3E1EFFE6452DCA228DB3A77E76840084AD0CA65",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mahiru Shiina The Angel Next Door Spoils | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 1012,
-  "totalVariants": 1514,
+  "totalGames": 1014,
+  "totalVariants": 1519,
   "lastUpdated": "2026-10-23T16:45:33.184207+00:00"
 }
