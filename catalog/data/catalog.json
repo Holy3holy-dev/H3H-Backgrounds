@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:50:57.431186+00:00",
+  "updatedAt": "2026-10-23T14:51:56.937592+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -30240,9 +30240,105 @@
           "notes": "Switch 720p 30fps H264 | Keiko Matsutake Dancing Train To The End"
         }
       ]
+    },
+    {
+      "titleId": "0100B620139D8000",
+      "title": "The Game of Life 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B620139D8000.jpg",
+      "variants": [
+        {
+          "id": "v_3c21d2e1",
+          "name": "Window The Last Of Us",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lZEtQ28ikxN2ILUHF-uIv6k1Lazsa4KB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lZEtQ28ikxN2ILUHF-uIv6k1Lazsa4KB&sz=w640",
+          "sizeBytes": 4927331,
+          "sha256": "422E43DE5E1B4ACB8D3470A73F0D9C250D157E7D155EFAAE556CE9C6D4018874",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Window The Last Of Us | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "010030B0235D8000",
+      "title": "Death Mask",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010030B0235D8000.jpg",
+      "variants": [
+        {
+          "id": "v_518fb1b6",
+          "name": "Kirito, Sinon And Death Gun Sword Art On",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=159m7RfQEPG_1uamf0VrSQVN-jXPTjtM_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=159m7RfQEPG_1uamf0VrSQVN-jXPTjtM_&sz=w640",
+          "sizeBytes": 4717077,
+          "sha256": "A9A89954D85E94623988ABA59F49DF6828295C1B3704A03A5BE3DEB41E7757AC",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kirito, Sinon And Death Gun Sword Art On | ЗВУК"
+        },
+        {
+          "id": "v_e996460a",
+          "name": "Mysterious Girl With Death Scythe",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WyVXEwxdkJOCc0escJWoyrNPaToC3f-H",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WyVXEwxdkJOCc0escJWoyrNPaToC3f-H&sz=w640",
+          "sizeBytes": 4655376,
+          "sha256": "A03F2BEB90C5528450600F94E8C7DBE84ABB7053FBE27389EEED682ED522ED81",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mysterious Girl With Death Scythe | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BF7006BCA000",
+      "title": "Crawl",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BF7006BCA000.jpg",
+      "variants": [
+        {
+          "id": "v_56fa8c1a",
+          "name": "Atréida The Crystalbow Acrobat Catacomb",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1F2-8-J8vSCJY6T7Q63BUyvsLAkfJt4_4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1F2-8-J8vSCJY6T7Q63BUyvsLAkfJt4_4&sz=w640",
+          "sizeBytes": 4724577,
+          "sha256": "A5F9AE5E4D5FCF5CE78A001D557F258411CFE6109175A55B8AD902DA1F9CE1B9",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Atréida The Crystalbow Acrobat Catacomb"
+        }
+      ]
     }
   ],
-  "totalGames": 921,
-  "totalVariants": 1315,
+  "totalGames": 924,
+  "totalVariants": 1319,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
