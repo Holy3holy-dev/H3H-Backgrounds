@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:12:43.346110+00:00",
+  "updatedAt": "2026-10-23T14:13:50.854442+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -28220,9 +28220,35 @@
           "notes": "Switch 720p 30fps H264 | Anime Girl Falling Asleep On The Table | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "01007D101CF18000",
+      "title": "Edge of Sanity",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007D101CF18000.jpg",
+      "variants": [
+        {
+          "id": "v_2b49ef21",
+          "name": "Fang Yuan Edge Of The Death Reverend Ins",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1EE4zKN5u4BAO_RbtEdPB94iShDaUTag2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1EE4zKN5u4BAO_RbtEdPB94iShDaUTag2&sz=w640",
+          "sizeBytes": 4675479,
+          "sha256": "141A9B8DEB2EA08C2384DE6EDD42D890B1CDC3C0BB906A14CADFC760C005F559",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fang Yuan Edge Of The Death Reverend Ins | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 871,
-  "totalVariants": 1225,
+  "totalGames": 872,
+  "totalVariants": 1226,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
