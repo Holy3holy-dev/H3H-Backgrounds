@@ -10176,6 +10176,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "SteamGridDB Animated: Hollow Knight Silksong"
+        },
+        {
+          "id": "var-e739ae0c",
+          "name": "Hornet",
+          "style": "Community Animated",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XT3JvoyjABdmLGeVFgj3qCn2vbbJXOxb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XT3JvoyjABdmLGeVFgj3qCn2vbbJXOxb&sz=w640",
+          "sizeBytes": 11172641,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "@extimka",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Submitted via Telegram by @extimka"
         }
       ]
     },
@@ -34778,6 +34796,6 @@
     }
   ],
   "totalGames": 1017,
-  "totalVariants": 1524,
-  "lastUpdated": "2026-10-23T16:45:33.184207+00:00"
+  "totalVariants": 1525,
+  "lastUpdated": "2026-10-23T20:13:26.586036+00:00"
 }
