@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T15:13:03.301056+00:00",
+  "updatedAt": "2026-10-23T15:13:48.085437+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -31640,9 +31640,35 @@
           "notes": "Switch 720p 30fps H264 | Nazuna Nanakusa Aurora Sky Call Of The N | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100A46018F8E000",
+      "title": "Abandon Ship",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A46018F8E000.jpg",
+      "variants": [
+        {
+          "id": "v_8bab4b0e",
+          "name": "Abandoned Spaceship In The Autumn Forest",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Wbp7dPNLsIcpB_k5WMdnDR3XAuk42Ur0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Wbp7dPNLsIcpB_k5WMdnDR3XAuk42Ur0&sz=w640",
+          "sizeBytes": 4548230,
+          "sha256": "788AB7F9A16925A9DBB7214CEC7D5FD7F7CB7EF91BA34DF1666F0923442199FC",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Abandoned Spaceship In The Autumn Forest | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 952,
-  "totalVariants": 1379,
+  "totalGames": 953,
+  "totalVariants": 1380,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
