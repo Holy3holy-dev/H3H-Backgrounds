@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:46:23.151637+00:00",
+  "updatedAt": "2026-10-23T14:47:38.717334+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -29978,9 +29978,61 @@
           "notes": "Switch 720p 30fps H264 | No Way Home | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100B110109F8000",
+      "title": "Urban Flow",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B110109F8000.jpg",
+      "variants": [
+        {
+          "id": "v_19eea7eb",
+          "name": "Japanese Restaurants Night Street Love,",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gJTjz5_Pfw1CpbKX4Uya3AGFGhchFBLE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gJTjz5_Pfw1CpbKX4Uya3AGFGhchFBLE&sz=w640",
+          "sizeBytes": 4418232,
+          "sha256": "23F1342647BB1D2000346A2F2BA0CF9236582A9F9D3C4E3155C14D4E21D5C9AA",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Japanese Restaurants Night Street Love, | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "01007B901AB52000",
+      "title": "Elemental War 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007B901AB52000.jpg",
+      "variants": [
+        {
+          "id": "v_6afaeefd",
+          "name": "Elementalist Lux Skin Spotlight league O",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Z2uqatpt_8K_uQ5zyweblqqXq7driLYG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Z2uqatpt_8K_uQ5zyweblqqXq7driLYG&sz=w640",
+          "sizeBytes": 4703597,
+          "sha256": "F4C36D62A770086BF593133242ABCCD61045411ABEF7E22B6BBB7ACF812EACAC",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Elementalist Lux Skin Spotlight league O | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 913,
-  "totalVariants": 1304,
+  "totalGames": 915,
+  "totalVariants": 1306,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
