@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:33:02.749681+00:00",
+  "updatedAt": "2026-10-23T13:33:50.670763+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -25862,9 +25862,53 @@
           "notes": "Switch 720p 30fps H264 | Dong Xuelian Virtual YouTuber | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100823019A06000",
+      "title": "The Cube",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100823019A06000.jpg",
+      "variants": [
+        {
+          "id": "v_ec1aa399",
+          "name": "Waving Cubes",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1B1PS-Q-DzaUzAOgVopqfHMcTEt3LqYqM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1B1PS-Q-DzaUzAOgVopqfHMcTEt3LqYqM&sz=w640",
+          "sizeBytes": 3094487,
+          "sha256": "595FB15A52136D5854A6AB3E08D64BBC56E4C65A358907585D82DAE4633703D0",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Waving Cubes"
+        },
+        {
+          "id": "v_8520337b",
+          "name": "A Gift For You Bocchi The Rock!",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1196FcX_2BLOrb6NG-iV3PmRDwVUaEIqi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1196FcX_2BLOrb6NG-iV3PmRDwVUaEIqi&sz=w640",
+          "sizeBytes": 4709987,
+          "sha256": "6FFC8DD94CE714B265D3930EFA2460B06531F81B00D7056995555C216017C28D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | A Gift For You Bocchi The Rock! | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 817,
-  "totalVariants": 1118,
+  "totalGames": 818,
+  "totalVariants": 1120,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
