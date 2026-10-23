@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:26:35.771790+00:00",
+  "updatedAt": "2026-10-23T14:28:32.005979+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -29030,9 +29030,79 @@
           "notes": "Switch 720p 30fps H264 | Light Yagami Death Note | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100085018ADC000",
+      "title": "The Wreck",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100085018ADC000.jpg",
+      "variants": [
+        {
+          "id": "v_1acfeeb0",
+          "name": "Plane Wreck In The Field",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eWW74Mq4Q8W0mNNUGOR81U9yGDu_v5Xx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eWW74Mq4Q8W0mNNUGOR81U9yGDu_v5Xx&sz=w640",
+          "sizeBytes": 4647092,
+          "sha256": "0A45E9D37F8D266F24FBAAC6C813E40960E7141C6E71682A9AFA61AF3CCD5F52",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Plane Wreck In The Field"
+        },
+        {
+          "id": "v_8fcf4312",
+          "name": "The Deep Ocean",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PK_ds9kmg9PLI8QSufIQI9IIJinNNtIF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PK_ds9kmg9PLI8QSufIQI9IIJinNNtIF&sz=w640",
+          "sizeBytes": 4530782,
+          "sha256": "58337C341FBDB9D93467006971E7FD85A349F39EA3A238FCE353EFBB797608C9",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | The Deep Ocean"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BED01E6EE000",
+      "title": "Sworn",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BED01E6EE000.jpg",
+      "variants": [
+        {
+          "id": "v_77b1c6cd",
+          "name": "Death Sworn Viktor League Of Legends",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zkiPFOW9Y5JajOA3r8W0es5CIrQD84lS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zkiPFOW9Y5JajOA3r8W0es5CIrQD84lS&sz=w640",
+          "sizeBytes": 4716342,
+          "sha256": "AB143AD37E65A83C7A152198ED86F916B5C85D7011307C3BF8525BF4EF79D8D0",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Death Sworn Viktor League Of Legends | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 889,
-  "totalVariants": 1262,
+  "totalGames": 891,
+  "totalVariants": 1265,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
