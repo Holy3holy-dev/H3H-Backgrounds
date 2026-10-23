@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:04:58.956173+00:00",
+  "updatedAt": "2026-10-23T14:07:07.731234+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -27868,9 +27868,123 @@
           "notes": "Switch 720p 30fps H264 | Shiroko Ready For The Mission Blue Archi | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100453012FEA000",
+      "title": "Green Hell",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100453012FEA000.jpg",
+      "variants": [
+        {
+          "id": "v_d7cbc0a0",
+          "name": "Tatsumaki X Fubuki One Punch Man",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1uG_sqgmC5Hk_LKtTWUeBay0y2sicywTX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1uG_sqgmC5Hk_LKtTWUeBay0y2sicywTX&sz=w640",
+          "sizeBytes": 4661735,
+          "sha256": "BF339A25AADDF5A33825B4FA9DD49C2DE06A3D640AEE0BF4EBA45643646F9BAF",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tatsumaki X Fubuki One Punch Man | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "01006FE0146EC000",
+      "title": "Demon Skin",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006FE0146EC000.jpg",
+      "variants": [
+        {
+          "id": "v_7efa13ce",
+          "name": "Oni Genji And Demon Hanzo Overwatch",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=136a708gHtuNa7Zluqilc7yiCc7acaDIt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=136a708gHtuNa7Zluqilc7yiCc7acaDIt&sz=w640",
+          "sizeBytes": 4733278,
+          "sha256": "8A9767D07CB25E4623359F1C472783DDC90909074025AF8D571F2F68B4CA8E73",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Oni Genji And Demon Hanzo Overwatch | ЗВУК"
+        },
+        {
+          "id": "v_166c0b7e",
+          "name": "Blood Moon Aatrox League of Legends",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TETVBTFiyS4d-Gy8_JNZxAzZzcVdFBSI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TETVBTFiyS4d-Gy8_JNZxAzZzcVdFBSI&sz=w640",
+          "sizeBytes": 4770969,
+          "sha256": "2E047FA5DEE6D50110417ECDEEEB351AAA41048B039BBECBDFAC20A1915C246E",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Blood Moon Aatrox League of Legends | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "01001DA023794000",
+      "title": "Ion Shift",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001DA023794000.jpg",
+      "variants": [
+        {
+          "id": "v_455a75cb",
+          "name": "Dimension Shift Shadowverse",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AUeQqP5sTWOnuEBhXOPyBr4E1U61MT03",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AUeQqP5sTWOnuEBhXOPyBr4E1U61MT03&sz=w640",
+          "sizeBytes": 4755271,
+          "sha256": "D30ACE5B77E38E12717C0841C4BB198207CF0A75DBB899CBC68F1B1C2D2B6F73",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dimension Shift Shadowverse | ЗВУК"
+        },
+        {
+          "id": "v_7037e5ea",
+          "name": "Abstract Shifting Shapes",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Lm-e88GG9pKfxyEL9ZkF5Bn-tMQ6e5qA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Lm-e88GG9pKfxyEL9ZkF5Bn-tMQ6e5qA&sz=w640",
+          "sizeBytes": 4591546,
+          "sha256": "01864A7A1686295E104FAFD3F496A318493D40C9D04D344A34543A3074228E02",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Abstract Shifting Shapes | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 863,
-  "totalVariants": 1209,
+  "totalGames": 866,
+  "totalVariants": 1214,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
