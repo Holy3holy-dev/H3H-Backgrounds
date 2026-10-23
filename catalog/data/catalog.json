@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T16:55:59.760712+00:00",
+  "updatedAt": "2026-10-23T16:56:49.460436+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -34655,9 +34655,35 @@
           "notes": "Switch 720p 30fps H264 | Mahiru Shiina The Angel Next Door Spoils | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "010063200AB12000",
+      "title": "Inferno 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010063200AB12000.jpg",
+      "variants": [
+        {
+          "id": "v_0a62c622",
+          "name": "The Elder Scrolls IV Oblivion Remastered",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SGwALl6-chrzhwBsYC0v-zWqadtfEVyY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SGwALl6-chrzhwBsYC0v-zWqadtfEVyY&sz=w640",
+          "sizeBytes": 4651143,
+          "sha256": "F4C96A47F064D1C3605A47AEF38600AB536ACA0B3D39E4A02F8A4F4C77645E1E",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Elder Scrolls IV Oblivion Remastered | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 1014,
-  "totalVariants": 1519,
+  "totalGames": 1015,
+  "totalVariants": 1520,
   "lastUpdated": "2026-10-23T16:45:33.184207+00:00"
 }
