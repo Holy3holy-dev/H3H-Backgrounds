@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:23:46.021349+00:00",
+  "updatedAt": "2026-10-23T13:24:33.082520+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -25148,9 +25148,61 @@
           "notes": "Switch 720p 30fps H264 | Siesta Tantei Wa Mou Shindeiru | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "01008C8025C8E000",
+      "title": "Moonlight Peaks",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008C8025C8E000.jpg",
+      "variants": [
+        {
+          "id": "v_d9cda00e",
+          "name": "Ethereal Moonrise Over Grim Peaks",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1aKQ1WzS8Yr7k9VAbzmbKytgDEdn_Wc7-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1aKQ1WzS8Yr7k9VAbzmbKytgDEdn_Wc7-&sz=w640",
+          "sizeBytes": 4636878,
+          "sha256": "139D68A3327D761043A2E203B64923A9C61C9F0B30E09C49F19A14AABF51A27B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ethereal Moonrise Over Grim Peaks | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "01003AD01D316000",
+      "title": "Planet of Lana",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003AD01D316000.jpg",
+      "variants": [
+        {
+          "id": "v_b7819feb",
+          "name": "Planet Of Lana",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZjekPwI0tYVK7bf5JTt711GD_3psJ_ad",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZjekPwI0tYVK7bf5JTt711GD_3psJ_ad&sz=w640",
+          "sizeBytes": 4668331,
+          "sha256": "56FB7DF43D0FA64F366E72F6953796CBB5608E9653532D1D7739D5D6350F8945",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Planet Of Lana | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 802,
-  "totalVariants": 1085,
+  "totalGames": 804,
+  "totalVariants": 1087,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
