@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:47:22.211060+00:00",
+  "updatedAt": "2026-10-23T13:48:50.164570+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -26716,9 +26716,87 @@
           "notes": "Switch 720p 30fps H264 | Hoshiguma Patrolling Ronin Arknights | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100AE000AEBC000",
+      "title": "Angels of Death",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AE000AEBC000.jpg",
+      "variants": [
+        {
+          "id": "v_d01e7d2e",
+          "name": "Rachel Gardner Angels Of Death",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VRTamzh9ET2QvNHWejfdCauwYzGe-QPm",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VRTamzh9ET2QvNHWejfdCauwYzGe-QPm&sz=w640",
+          "sizeBytes": 4727750,
+          "sha256": "B5AAB7E79438AFF3C8F61199B590D7A151AB4B56ABC247D32B0B730E8D7C570C",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rachel Gardner Angels Of Death | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "01009440095FE000",
+      "title": "Pode",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009440095FE000.jpg",
+      "variants": [
+        {
+          "id": "v_89bc05ac",
+          "name": "Podenco Arknights",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WSzieQhohjfkpyRWpN-1R1FXTMZer0um",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WSzieQhohjfkpyRWpN-1R1FXTMZer0um&sz=w640",
+          "sizeBytes": 4708810,
+          "sha256": "11AAF9E8F6D228AA57BAE3C9318E7FD2E97C7F3F3CABDFCF9C28010642BF7194",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Podenco Arknights | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "010021D00D53E000",
+      "title": "A Dark Room",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010021D00D53E000.jpg",
+      "variants": [
+        {
+          "id": "v_bc5558a9",
+          "name": "Cyberpunk High Rise Apartment",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bJV12n13ZiqgPKufhneJKySjIRhtNrvm",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bJV12n13ZiqgPKufhneJKySjIRhtNrvm&sz=w640",
+          "sizeBytes": 4305038,
+          "sha256": "AC7A6D2296214B4276AC72F1BCEE3BACC6322C098A3239BE8160F8B2D55CCB0A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Cyberpunk High Rise Apartment"
+        }
+      ]
     }
   ],
-  "totalGames": 836,
-  "totalVariants": 1157,
+  "totalGames": 839,
+  "totalVariants": 1160,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
