@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T12:57:29.912209+00:00",
+  "updatedAt": "2026-10-23T12:59:25.163894+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -4537,6 +4537,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 01001F5010DFA000_Pokemon_Legends_Arceus.mp4"
+        },
+        {
+          "id": "v_0eb5fbe6",
+          "name": "Arceus Pokemon",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10ySv_f6MnZSYFbUob2sBmtdqT7_cuL9v",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10ySv_f6MnZSYFbUob2sBmtdqT7_cuL9v&sz=w640",
+          "sizeBytes": 4640368,
+          "sha256": "B2DA9219D6EFC8F166342779FBFDEBE5EBBA45FEF4716730018D26146B35A473",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Arceus Pokemon | ЗВУК"
         }
       ]
     },
@@ -8062,6 +8080,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Samus Aran Charge Beam Metroid Dread"
+        },
+        {
+          "id": "v_f9272123",
+          "name": "Jean Gunnhildr Skyward Blade Genshin Imp",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mFVuRsF_p_7x9lBGvDTcIEtE5YoTXiq_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mFVuRsF_p_7x9lBGvDTcIEtE5YoTXiq_&sz=w640",
+          "sizeBytes": 4741621,
+          "sha256": "EA078BC61C6B47D2AC8AFF789F7A9A34F3D58A95B808DEDD65A99D98464DF075",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Jean Gunnhildr Skyward Blade Genshin Imp | ЗВУК"
         }
       ]
     },
@@ -24305,6 +24341,6 @@
     }
   ],
   "totalGames": 793,
-  "totalVariants": 1042,
+  "totalVariants": 1044,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
