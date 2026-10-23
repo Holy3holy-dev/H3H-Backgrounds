@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:22:55.272207+00:00",
+  "updatedAt": "2026-10-23T14:24:24.108452+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -28828,9 +28828,79 @@
           "notes": "Switch 720p 30fps H264 | Rin Kagamine Vocaloid | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "010013A00E750000",
+      "title": "Calico",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010013A00E750000.jpg",
+      "variants": [
+        {
+          "id": "v_2bfa6f2b",
+          "name": "Sun-Kissed Calico Cat",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fBTzpoGFz5EY_a2ZzVZMyx2-qNk5G42e",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fBTzpoGFz5EY_a2ZzVZMyx2-qNk5G42e&sz=w640",
+          "sizeBytes": 4612448,
+          "sha256": "3992D2B1A4F1B48DDF79779C5C2D42616D0B8EDD9AC52C76DBC6D71551EC5B8D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sun-Kissed Calico Cat | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "01003A1010E3C000",
+      "title": "BE A Walker",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003A1010E3C000.jpg",
+      "variants": [
+        {
+          "id": "v_35cdcf1e",
+          "name": "Palpatine Star Wars: The Rise Of Skywalk",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Hlqz62Az7cSatMNftVcBjYh71Ywje40o",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Hlqz62Az7cSatMNftVcBjYh71Ywje40o&sz=w640",
+          "sizeBytes": 4709689,
+          "sha256": "648031E747291D2EDBD5DB24C53BEDD1D50E03E75DC5E8EA3D1AD1E91CE875FC",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Palpatine Star Wars: The Rise Of Skywalk | ЗВУК"
+        },
+        {
+          "id": "v_ac19a15a",
+          "name": "Star Wars Cyberpunk",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mZfPMkPdp6b4UeTY2npYasWJQyinIROe",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mZfPMkPdp6b4UeTY2npYasWJQyinIROe&sz=w640",
+          "sizeBytes": 4672867,
+          "sha256": "0193D1152B68AAFC2DB323800F93436DEABECEC2DC6C287E5257176047D37A0A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Star Wars Cyberpunk | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 884,
-  "totalVariants": 1253,
+  "totalGames": 886,
+  "totalVariants": 1256,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
