@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:13:50.854442+00:00",
+  "updatedAt": "2026-10-23T14:14:53.070370+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -28246,9 +28246,115 @@
           "notes": "Switch 720p 30fps H264 | Fang Yuan Edge Of The Death Reverend Ins | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "01008EA00405C000",
+      "title": "Forma 8",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008EA00405C000.jpg",
+      "variants": [
+        {
+          "id": "v_fd198269",
+          "name": "Kaneki Transformation Sasaki",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1niiwHUz8d5OuKdXU1hjlWXsl87seSQd_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1niiwHUz8d5OuKdXU1hjlWXsl87seSQd_&sz=w640",
+          "sizeBytes": 4718282,
+          "sha256": "B83AAA4F3FCA790672D36FD1522CD3D704D4C0BB6BC4B8CC5EFE76897725BD0F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kaneki Transformation Sasaki | ЗВУК"
+        },
+        {
+          "id": "v_7bdd82e2",
+          "name": "Kaneki Transformation Monochrome Tokyo G",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fzHotwax_3oTJFg6SBDtkDp1VVJ9qg1k",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fzHotwax_3oTJFg6SBDtkDp1VVJ9qg1k&sz=w640",
+          "sizeBytes": 4700465,
+          "sha256": "46F69F715372DEAD8848B0E20AB6FDF330E59A3A2591C2623B4B0B2A3310E16E",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kaneki Transformation Monochrome Tokyo G | ЗВУК"
+        },
+        {
+          "id": "v_cc025144",
+          "name": "Eren Transformation Attack On Titan",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hTm463uU0WNS87PSyxwHaAuN8oJ7Flom",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hTm463uU0WNS87PSyxwHaAuN8oJ7Flom&sz=w640",
+          "sizeBytes": 4754841,
+          "sha256": "7BF5214E5C41F6592B610BFF602749DC20927652B93731F70B93DBF32863CEBD",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Eren Transformation Attack On Titan | ЗВУК"
+        },
+        {
+          "id": "v_2d70d8a4",
+          "name": "Kaneki Transformation Tokyo Ghoul",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19CqYgVmwz3pXsXQLd-Y9vFY0UzFp8pIC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19CqYgVmwz3pXsXQLd-Y9vFY0UzFp8pIC&sz=w640",
+          "sizeBytes": 4704068,
+          "sha256": "01AC40A6734091CA41D02417E96D68508289B9C2A61EB1141D8B7458255ABA14",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kaneki Transformation Tokyo Ghoul | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "010024C01BAD0000",
+      "title": "Berserk Boy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010024C01BAD0000.jpg",
+      "variants": [
+        {
+          "id": "v_65c89c40",
+          "name": "Berserker",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1C6L71ZCmrEkHj3TjJZv4fRvYzD0njQr-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1C6L71ZCmrEkHj3TjJZv4fRvYzD0njQr-&sz=w640",
+          "sizeBytes": 4683658,
+          "sha256": "77459405083ACE8F8DD3E44D62BD570D33F544E25DA7A4CA08C7E47B332425BA",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Berserker | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 872,
-  "totalVariants": 1226,
+  "totalGames": 874,
+  "totalVariants": 1231,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
