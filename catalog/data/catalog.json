@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T15:25:17.593003+00:00",
+  "updatedAt": "2026-10-23T15:28:36.652921+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -32486,9 +32486,115 @@
           "notes": "Switch 720p 30fps H264 | Deepssek Chan Digital"
         }
       ]
+    },
+    {
+      "titleId": "010063E014E98000",
+      "title": "King of the Hat",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010063E014E98000.jpg",
+      "variants": [
+        {
+          "id": "v_ec61e407",
+          "name": "Shangguan Wan&#8217;er Honor Of Kings",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12qdyb5alOwSxHdwL3rUZUN7LBWqO1qMQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12qdyb5alOwSxHdwL3rUZUN7LBWqO1qMQ&sz=w640",
+          "sizeBytes": 4768512,
+          "sha256": "03DC48A8A3289B37CC5E1ED9D1D346F21AA52457115538B4BC383E0127CB9BE0",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Shangguan Wan&#8217;er Honor Of Kings | ЗВУК"
+        },
+        {
+          "id": "v_e2af5478",
+          "name": "Elaina Drinking Milk Tea The Journey Of",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SO5OqFHJpZ8SNPC6dJMo4h8xU-W0l6qh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SO5OqFHJpZ8SNPC6dJMo4h8xU-W0l6qh&sz=w640",
+          "sizeBytes": 4706454,
+          "sha256": "491DDF8B52DACE96C8CFAB69BCEFF5606399685EE0379C02A6F126F1E3C1DEF3",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Elaina Drinking Milk Tea The Journey Of | ЗВУК"
+        },
+        {
+          "id": "v_2f92693a",
+          "name": "Elaina In The Park Wandering Witch",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jZWUviLLS99N_UOMDCBgoOfoSXzpsUP2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jZWUviLLS99N_UOMDCBgoOfoSXzpsUP2&sz=w640",
+          "sizeBytes": 4655458,
+          "sha256": "03042C303723FFA7C4DBEF42F219F69D3BCB56AE3199ED5FE7FE7F9184773708",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Elaina In The Park Wandering Witch | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D070158D4000",
+      "title": "Ikai",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D070158D4000.jpg",
+      "variants": [
+        {
+          "id": "v_ec2df96e",
+          "name": "Nikaido Hiro Magical Girl Witch Trials",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-sFTcwW5_iQqdm7oZrGQismWO5pf3Lyn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-sFTcwW5_iQqdm7oZrGQismWO5pf3Lyn&sz=w640",
+          "sizeBytes": 4600600,
+          "sha256": "6E2C4F4ACBB8E73238F7C5EA8002DE72A2F591CE23B85861E04683C243F4ECBB",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Nikaido Hiro Magical Girl Witch Trials | ЗВУК"
+        },
+        {
+          "id": "v_261dfacf",
+          "name": "Riou, Sierra Mikain and Tir McDohl Suiko",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1203Fmfs3IGnxrnVjBKCIhsu5dzHxKAZF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1203Fmfs3IGnxrnVjBKCIhsu5dzHxKAZF&sz=w640",
+          "sizeBytes": 4534335,
+          "sha256": "A402D973A1559C8569C6A276801C4F8852922C4DA220351279FB38A9CFC4D54E",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Riou, Sierra Mikain and Tir McDohl Suiko | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 970,
-  "totalVariants": 1418,
+  "totalGames": 972,
+  "totalVariants": 1423,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
