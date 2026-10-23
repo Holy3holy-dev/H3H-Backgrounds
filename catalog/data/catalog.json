@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T15:14:49.361970+00:00",
+  "updatedAt": "2026-10-23T15:17:06.116585+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -31746,9 +31746,123 @@
           "notes": "Switch 720p 30fps H264 | Liyue Lantern Rite Genshin Impact | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100FE101C3C0000",
+      "title": "Pixel Cafe",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FE101C3C0000.jpg",
+      "variants": [
+        {
+          "id": "v_75b7977b",
+          "name": "Cyberpunk Coffee Pixel",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oo4DAzw_BqRnpxu4O3FMQgDwXAt44gwE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oo4DAzw_BqRnpxu4O3FMQgDwXAt44gwE&sz=w640",
+          "sizeBytes": 4591865,
+          "sha256": "57501279A8BC17C8C9D1071AA5F6402C864BE2A14F1008831CD425AB927124A1",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cyberpunk Coffee Pixel | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "010099C01E068000",
+      "title": "Glitch Hero",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010099C01E068000.jpg",
+      "variants": [
+        {
+          "id": "v_7ad95e44",
+          "name": "Miles Morales Moonlight Glitching Spider",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pw7V9NlRtUO0OT4ySU4i9MH0VE91x-eS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pw7V9NlRtUO0OT4ySU4i9MH0VE91x-eS&sz=w640",
+          "sizeBytes": 4668200,
+          "sha256": "C4E238147F9D446173B7EE1C0D25D8038B3893E083C996719405BA694B23C7B8",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Miles Morales Moonlight Glitching Spider"
+        },
+        {
+          "id": "v_b3b59f2a",
+          "name": "Morales Falling Glitching Spider-man Int",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DQcMAMhgsB_fbGdzthb2IGCPyPeFUJj-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DQcMAMhgsB_fbGdzthb2IGCPyPeFUJj-&sz=w640",
+          "sizeBytes": 4677147,
+          "sha256": "9EE0EF47E062FC2C7EB0B72A062BFDD6ABBF93539DAE7D331606DF5ABD035ACB",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Morales Falling Glitching Spider-man Int | ЗВУК"
+        },
+        {
+          "id": "v_b4f799dc",
+          "name": "Spider Man Morales Falling",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1L8lvfFjJpQPnJAPRVzcFPYBwMoo6Fm0W",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1L8lvfFjJpQPnJAPRVzcFPYBwMoo6Fm0W&sz=w640",
+          "sizeBytes": 4724711,
+          "sha256": "F45D9B9824C836214EA61452854B601458692F85936B4B987AE09D7D70DAB5C0",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Spider Man Morales Falling | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D7A01E0F7000",
+      "title": "Dros",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D7A01E0F7000.jpg",
+      "variants": [
+        {
+          "id": "v_d7ebda98",
+          "name": "Viviana Droste Arknights",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NXafjdc0rphZYsSb8wDrAtyFs2kRZmax",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NXafjdc0rphZYsSb8wDrAtyFs2kRZmax&sz=w640",
+          "sizeBytes": 4723929,
+          "sha256": "5F757CF84E979072867C7DFB3782AAC2EBD418C71CB25DCF3C83C652D868CF4B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Viviana Droste Arknights"
+        }
+      ]
     }
   ],
-  "totalGames": 954,
-  "totalVariants": 1384,
+  "totalGames": 957,
+  "totalVariants": 1389,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
