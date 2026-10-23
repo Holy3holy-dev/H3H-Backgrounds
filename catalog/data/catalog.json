@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:21:00.307869+00:00",
+  "updatedAt": "2026-10-23T13:22:02.651081+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -24946,9 +24946,115 @@
           "notes": "Switch 720p 30fps H264 | Blade Runner 2049 | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "01002B1026E88000",
+      "title": "No Skin",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002B1026E88000.jpg",
+      "variants": [
+        {
+          "id": "v_2bc4af3d",
+          "name": "High Noon Leona X Tahm Kench League Of L",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_BrApTKEEKtej3CJW7c06LqX1Z37IcRC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_BrApTKEEKtej3CJW7c06LqX1Z37IcRC&sz=w640",
+          "sizeBytes": 4734627,
+          "sha256": "E09BD7CD58914CD1B31BBB9F2A010281F9BEB19E32CEA8238F6ABC1EBD21AF20",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | High Noon Leona X Tahm Kench League Of L | ЗВУК"
+        },
+        {
+          "id": "v_8c3c57c2",
+          "name": "High Noon Irelia League Of Legends",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZygevBsxsqb5I-V_wD2d2b-uD5ghHac2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZygevBsxsqb5I-V_wD2d2b-uD5ghHac2&sz=w640",
+          "sizeBytes": 4699511,
+          "sha256": "3BE8114EC30D0485C6EB196CD070476D53A6094CB0656017435846B9AC3113B9",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | High Noon Irelia League Of Legends | ЗВУК"
+        },
+        {
+          "id": "v_2cbfdffd",
+          "name": "Nottingham Ezreal League Of Legends",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1d9llZneq-rLSCeVUPTEa4MfCvppaSWkj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1d9llZneq-rLSCeVUPTEa4MfCvppaSWkj&sz=w640",
+          "sizeBytes": 4744506,
+          "sha256": "CE7690FAC3D6446D09F6F8242F62EF36EA7838D515A6D5CE5C0ABADD06F51220",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Nottingham Ezreal League Of Legends | ЗВУК"
+        },
+        {
+          "id": "v_41dc04fa",
+          "name": "Elderwood Nocturne League Of Legends",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UJVLo9_0_oZFaMVXV5ouwDrlfokiQQ03",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UJVLo9_0_oZFaMVXV5ouwDrlfokiQQ03&sz=w640",
+          "sizeBytes": 4691725,
+          "sha256": "07224CB03F0E199461FA7F186F3EA845A7FC275971F33CA65E87329B8F6CB144",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Elderwood Nocturne League Of Legends | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "010009102494A000",
+      "title": "Cast n Chill",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010009102494A000.jpg",
+      "variants": [
+        {
+          "id": "v_128993d6",
+          "name": "Hilda And Tepig Watching Castelia City P",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Kb1sU0yqU904zgomXlC7Z9SD1wkHByM_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Kb1sU0yqU904zgomXlC7Z9SD1wkHByM_&sz=w640",
+          "sizeBytes": 4143134,
+          "sha256": "9D779923E265D7C059F4DA3E251404B60AB2457311C78EA26174529E9DF05F7B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hilda And Tepig Watching Castelia City P | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 797,
-  "totalVariants": 1076,
+  "totalGames": 799,
+  "totalVariants": 1081,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
