@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T21:37:24.361805+00:00",
+  "updatedAt": "2026-10-23T21:41:54.496904+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -20858,6 +20858,78 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "SteamGridDB Animated Grid: 01005B100C268000_Ape_Out.mp4"
+        },
+        {
+          "id": "v_648acc2a",
+          "name": "Arona Cloudscape Blue Archive",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11GVb-jOFIzPgCgEN04QpqjxBPHhWg4rH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11GVb-jOFIzPgCgEN04QpqjxBPHhWg4rH&sz=w640",
+          "sizeBytes": 4740971,
+          "sha256": "24CD57964B9904D6A1AB2AF19046BB4B189A7DDA5B2533D083415B21E03D9793",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Arona Cloudscape Blue Archive | ЗВУК"
+        },
+        {
+          "id": "v_cbf07819",
+          "name": "Pokemon Emerald Route 101 Pixel",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zxvELQqv7KdLzhUO9tORVDCEds7ZqP3P",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zxvELQqv7KdLzhUO9tORVDCEds7ZqP3P&sz=w640",
+          "sizeBytes": 4615101,
+          "sha256": "41D030F3A39317C81306C842BBD40AD52E579DBB69D578EAA9F35AC7E119B00F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Pokemon Emerald Route 101 Pixel | ЗВУК"
+        },
+        {
+          "id": "v_b3ede753",
+          "name": "Desert Hideout",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vQ9b09umvdMwH79siJ4rXGg2jekwOTvM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vQ9b09umvdMwH79siJ4rXGg2jekwOTvM&sz=w640",
+          "sizeBytes": 4397070,
+          "sha256": "FB9DE5C85C266841DF742F1ED041E20037C8B6B8E3CFD1719D4481539256F2AA",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Desert Hideout | ЗВУК"
+        },
+        {
+          "id": "v_e465757e",
+          "name": "Midnight Outside The City",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14N9WB0NNfORlF2nFFtbWjimwZCElGf3K",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14N9WB0NNfORlF2nFFtbWjimwZCElGf3K&sz=w640",
+          "sizeBytes": 4654535,
+          "sha256": "785B3545A1875BB25616C22AC763B9A0977FD7F18F8C7815FE56B8BA30092768",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Midnight Outside The City | ЗВУК"
         }
       ]
     },
@@ -21408,6 +21480,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "SteamGridDB Animated Grid: 01002BA00D662000_Pine.mp4"
+        },
+        {
+          "id": "v_3515c523",
+          "name": "Forest Pines",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ao6me-XqDypzkcsuAvui1Ob9x6EIQPX7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ao6me-XqDypzkcsuAvui1Ob9x6EIQPX7&sz=w640",
+          "sizeBytes": 4677236,
+          "sha256": "024ED7E352763E5777967EEAFFAE87EAAED6A66326AB8AD569247F6C31B59B37",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Forest Pines"
         }
       ]
     },
@@ -35871,6 +35961,6 @@
     }
   ],
   "totalGames": 1030,
-  "totalVariants": 1579,
+  "totalVariants": 1584,
   "lastUpdated": "2026-10-23T20:40:23.001126+00:00"
 }
