@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:29:29.033405+00:00",
+  "updatedAt": "2026-10-23T13:30:41.704307+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -25562,9 +25562,123 @@
           "notes": "Switch 720p 30fps H264 | Sylvanas Windrunner World Of Warcraft Ba | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "01005200216A0000",
+      "title": "Heretic",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005200216A0000.jpg",
+      "variants": [
+        {
+          "id": "v_dea7a30a",
+          "name": "The Heretic Saint",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1k-vFr6uTMJA6vpSK3Z8muduyDkH-f5Ar",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1k-vFr6uTMJA6vpSK3Z8muduyDkH-f5Ar&sz=w640",
+          "sizeBytes": 4746504,
+          "sha256": "70A363BFA50D3A700B7AB5BA867B3DE2AEA49B942BE171851E2328E3A09F6AFD",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Heretic Saint | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "010055A0161F4000",
+      "title": "Go Rally",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010055A0161F4000.jpg",
+      "variants": [
+        {
+          "id": "v_32e435f9",
+          "name": "Hitori Gotoh Literally Me Blade Runner 2",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1EEfsRZ-tR85EWQnD5Xm8ULyGjdoMjwiG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1EEfsRZ-tR85EWQnD5Xm8ULyGjdoMjwiG&sz=w640",
+          "sizeBytes": 4680516,
+          "sha256": "F21EF41F5A03BDA1629BCF137A7EDA0A50DF448BA738EB511E0B85B49B9C1280",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hitori Gotoh Literally Me Blade Runner 2 | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AB001A960000",
+      "title": "Gothic 1 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AB001A960000.jpg",
+      "variants": [
+        {
+          "id": "v_bceb6a12",
+          "name": "Dark Gothic Castle",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZPLLrAClkmiStOdchl5pV9iGt-lcVXwz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZPLLrAClkmiStOdchl5pV9iGt-lcVXwz&sz=w640",
+          "sizeBytes": 4704478,
+          "sha256": "EE16D9617879DB9A23B7263FE24AB5C990C83F68F2F31B06F9CED9AF75CD1A2B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Dark Gothic Castle"
+        },
+        {
+          "id": "v_739ae494",
+          "name": "Faust Dark Gothic Limbus Company",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1A91xO-y0M7yoET85Z-wqd9esjnruzkk-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1A91xO-y0M7yoET85Z-wqd9esjnruzkk-&sz=w640",
+          "sizeBytes": 4704362,
+          "sha256": "F56E905B8C5E3A5F891A234C4955BF56F3510478BF1F5F9724AD1B261B1B9B2D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Faust Dark Gothic Limbus Company"
+        },
+        {
+          "id": "v_725fff4f",
+          "name": "Misa Amane Gothic Death Note",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17T0nMwRx5fjNts9PI9JSFVNjX7qlK89e",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17T0nMwRx5fjNts9PI9JSFVNjX7qlK89e&sz=w640",
+          "sizeBytes": 4657718,
+          "sha256": "B90875ACF908A2EE865DAA597A42758F17E4F0DBB09899D347E88AF5DE508365",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Misa Amane Gothic Death Note"
+        }
+      ]
     }
   ],
-  "totalGames": 811,
-  "totalVariants": 1104,
+  "totalGames": 814,
+  "totalVariants": 1109,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
