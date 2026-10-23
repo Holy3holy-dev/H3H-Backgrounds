@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:07:07.731234+00:00",
+  "updatedAt": "2026-10-23T14:07:55.859190+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -27982,9 +27982,35 @@
           "notes": "Switch 720p 30fps H264 | Abstract Shifting Shapes | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "01004CC018D22000",
+      "title": "Monster Destroyer",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004CC018D22000.jpg",
+      "variants": [
+        {
+          "id": "v_468ad20b",
+          "name": "Deathwing The Destroyer World Of Warcraf",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xVc2qqgUZgu3ic84M6TdUCY0y8Nfoehj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xVc2qqgUZgu3ic84M6TdUCY0y8Nfoehj&sz=w640",
+          "sizeBytes": 4675447,
+          "sha256": "1833AB05698FFE0D3FD8BC011E547EAA8215D92CA8211916EE7DA2F528EC4C5F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Deathwing The Destroyer World Of Warcraf"
+        }
+      ]
     }
   ],
-  "totalGames": 866,
-  "totalVariants": 1214,
+  "totalGames": 867,
+  "totalVariants": 1215,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
