@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T16:19:45.900873+00:00",
+  "updatedAt": "2026-10-23T16:22:12.494065+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -34239,9 +34239,89 @@
           "notes": "Switch 720p 30fps H264 | May And Kyogre Pokemon"
         }
       ]
+    },
+    {
+      "titleId": "0100C19013ECC000",
+      "title": "The True",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C19013ECC000.jpg",
+      "variants": [
+        {
+          "id": "v_630c80bb",
+          "name": "Toyota Trueno AE86 Drifting In The Rain",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1T68Hn0hqLXc4IM5wBBVdfZyXy1bxCSef",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1T68Hn0hqLXc4IM5wBBVdfZyXy1bxCSef&sz=w640",
+          "sizeBytes": 4691058,
+          "sha256": "E43A586E2A6803C7262817EC571A335DA35BBA3B4DBA6AAE8FE59DFB4733C528",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Toyota Trueno AE86 Drifting In The Rain | ЗВУК"
+        },
+        {
+          "id": "v_d2d63322",
+          "name": "Lofi Anime Girl Toyota Sprinter Trueno A",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eSELfM6hp6DMh9Qf8j1txjV8N03Tmtqt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eSELfM6hp6DMh9Qf8j1txjV8N03Tmtqt&sz=w640",
+          "sizeBytes": 4664470,
+          "sha256": "ACCBA5384013FC620B01F2389F74FD8F01F07C48035E1B53EA6603FD61973DA8",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lofi Anime Girl Toyota Sprinter Trueno A | ЗВУК"
+        },
+        {
+          "id": "v_73d2ddaf",
+          "name": "Lofi Girl Initial D Toyota Trueno AE86",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TUX85TjRk1Npyb3C9PdOk-PSHgbuS4HA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TUX85TjRk1Npyb3C9PdOk-PSHgbuS4HA&sz=w640",
+          "sizeBytes": 4577698,
+          "sha256": "4C83561024753A47ED8D18D9A11930CADB1EB20B3737C4DD85579B2EB8EB76F8",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lofi Girl Initial D Toyota Trueno AE86 | ЗВУК"
+        },
+        {
+          "id": "v_b855fca0",
+          "name": "Racing In The Rain Initial D",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=163eOAi5vxAdIlWR9vrWaV8Hm0oOYt3P0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=163eOAi5vxAdIlWR9vrWaV8Hm0oOYt3P0&sz=w640",
+          "sizeBytes": 4724156,
+          "sha256": "F37761EDCA3A074CA63819DD7F7FAD12C8FB8F4F19D6AE0645613D3F6DFEE8CB",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Racing In The Rain Initial D | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 1007,
-  "totalVariants": 1499,
+  "totalGames": 1008,
+  "totalVariants": 1503,
   "lastUpdated": "2026-10-23T16:13:45.683859+00:00"
 }
