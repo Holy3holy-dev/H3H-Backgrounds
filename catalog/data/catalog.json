@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:44:24.270278+00:00",
+  "updatedAt": "2026-10-23T14:45:19.636846+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -29900,9 +29900,61 @@
           "notes": "Switch 720p 30fps H264 | Sci-fi Boy Riding Cybermoto In Sandstorm | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100BA8019546000",
+      "title": "Broken Universe",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BA8019546000.jpg",
+      "variants": [
+        {
+          "id": "v_082bbb05",
+          "name": "Broken Planet",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BgXyv8lHbTFzQXHCKasFWsj5emxbP2FS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BgXyv8lHbTFzQXHCKasFWsj5emxbP2FS&sz=w640",
+          "sizeBytes": 4641066,
+          "sha256": "3495619C1E50CED09E2DC99FB78308B6434BF2E3E9AEA63AE574C61A1C973EBC",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Broken Planet | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100491014980000",
+      "title": "The Lightbringer",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100491014980000.jpg",
+      "variants": [
+        {
+          "id": "v_e6d8b075",
+          "name": "Uther Of The Ebon Blade Hearthstone",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FawwKgQnRcpDkd-v0kHwNokY6VPiOc8j",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FawwKgQnRcpDkd-v0kHwNokY6VPiOc8j&sz=w640",
+          "sizeBytes": 4619152,
+          "sha256": "94A83F168E06C5297D1AC806443C706F4953210ACCE21C52CD3EA1BBC6D7F516",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Uther Of The Ebon Blade Hearthstone | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 910,
-  "totalVariants": 1301,
+  "totalGames": 912,
+  "totalVariants": 1303,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
