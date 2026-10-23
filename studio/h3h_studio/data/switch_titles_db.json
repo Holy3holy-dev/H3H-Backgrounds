@@ -1350,12 +1350,12 @@
     "isHomebrew": false
   },
   {
-    "title": "Grand Theft Auto V (порт GTA 5) [NRO][RUS/Multi12]",
+    "title": "Grand Theft Auto V (GTA 5)",
     "titleId": "0100B00B51230000",
-    "publisher": "M0jso, ParalympicsProd, Lapsus$",
+    "publisher": "Rockstar Games / 4IFIR Community",
     "artUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/6900804.jpg",
     "format": "NRO",
-    "genre": "Action, Adventure, Homebrew",
+    "genre": "Action, Open World",
     "isHomebrew": true
   },
   {
@@ -4653,12 +4653,12 @@
     "isHomebrew": false
   },
   {
-    "title": "Grand Theft Auto: The Trilogy – The Definitive Edition: GTA III (3) / Vice City (VC) / San Andreas (SA) [NSP][RUS/Multi10]",
+    "title": "Grand Theft Auto: The Trilogy - The Definitive Edition",
     "titleId": "010065A014024000",
     "publisher": "Rockstar Games",
     "artUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/6135383.jpg",
     "format": "NSP",
-    "genre": "Action",
+    "genre": "Action, Open World",
     "isHomebrew": false
   },
   {
@@ -65220,6 +65220,237 @@
     "artUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/rtcw.jpg",
     "format": "NRO",
     "genre": "FPS, Action, Homebrew",
+    "isHomebrew": true
+  },
+  {
+    "title": "Grand Theft Auto IV (GTA 4)",
+    "titleId": "0100B00B51240000",
+    "publisher": "Rockstar Games / 4IFIR Community",
+    "genre": "Action, Open World",
+    "isHomebrew": true
+  },
+  {
+    "title": "Grand Theft Auto: San Andreas - The Definitive Edition",
+    "titleId": "0100658013E42000",
+    "publisher": "Rockstar Games",
+    "genre": "Action, Open World",
+    "isHomebrew": false
+  },
+  {
+    "title": "Grand Theft Auto: Vice City - The Definitive Edition",
+    "titleId": "01006E8013E44000",
+    "publisher": "Rockstar Games",
+    "genre": "Action, Open World",
+    "isHomebrew": false
+  },
+  {
+    "title": "Grand Theft Auto III - The Definitive Edition",
+    "titleId": "01007E3013E40000",
+    "publisher": "Rockstar Games",
+    "genre": "Action, Open World",
+    "isHomebrew": false
+  },
+  {
+    "title": "Grand Theft Auto: Vice City (reVC Classic Port)",
+    "titleId": "0100524533000000",
+    "publisher": "re3-team / AGraber",
+    "genre": "Action, Open World, Homebrew",
+    "isHomebrew": true
+  },
+  {
+    "title": "Grand Theft Auto III (re3 Classic Port)",
+    "titleId": "0100524533000001",
+    "publisher": "re3-team / AGraber",
+    "genre": "Action, Open World, Homebrew",
+    "isHomebrew": true
+  },
+  {
+    "title": "Grand Theft Auto: Chinatown Wars",
+    "titleId": "0100475441435700",
+    "publisher": "Rockstar Leeds / Homebrew",
+    "genre": "Action, Open World, Homebrew",
+    "isHomebrew": true
+  },
+  {
+    "title": "Grand Theft Auto: Liberty City Stories",
+    "titleId": "01004754414C4353",
+    "publisher": "Rockstar Leeds / Homebrew",
+    "genre": "Action, Open World, Homebrew",
+    "isHomebrew": true
+  },
+  {
+    "title": "DBI (Title, Ticket and File Manager)",
+    "titleId": "010000000000100D",
+    "publisher": "duckbill",
+    "genre": "Homebrew, System Utility",
+    "isHomebrew": true
+  },
+  {
+    "title": "Tinfoil (Game & Content Manager)",
+    "titleId": "0100000000001000",
+    "publisher": "Blawar / DigableInc",
+    "genre": "Homebrew, System Utility",
+    "isHomebrew": true
+  },
+  {
+    "title": "RetroArch (Multi-system Retro Emulator)",
+    "titleId": "010000000000100B",
+    "publisher": "Libretro",
+    "genre": "Homebrew, Emulator",
+    "isHomebrew": true
+  },
+  {
+    "title": "PPSSPP (PlayStation Portable Emulator)",
+    "titleId": "0100000000001003",
+    "publisher": "Henrik Rydgård / m4xw",
+    "genre": "Homebrew, Emulator",
+    "isHomebrew": true
+  },
+  {
+    "title": "Moonlight NX (PC Game Streaming Client)",
+    "titleId": "0100000000001002",
+    "publisher": "Rock88",
+    "genre": "Homebrew, Streaming",
+    "isHomebrew": true
+  },
+  {
+    "title": "Chiaki (PlayStation 4/5 Remote Play)",
+    "titleId": "0100000000001004",
+    "publisher": "thestr4ng3r",
+    "genre": "Homebrew, Streaming",
+    "isHomebrew": true
+  },
+  {
+    "title": "NX-Shell (Multipurpose File Manager)",
+    "titleId": "0100000000001005",
+    "publisher": "Joel16",
+    "genre": "Homebrew, File Manager",
+    "isHomebrew": true
+  },
+  {
+    "title": "NX-Activity-Log (Playtime Tracker)",
+    "titleId": "0100000000001006",
+    "publisher": "TallGraf",
+    "genre": "Homebrew, Utility",
+    "isHomebrew": true
+  },
+  {
+    "title": "Daybreak (Atmosphere Firmware Updater)",
+    "titleId": "0100000000001007",
+    "publisher": "Atmosphere-NX",
+    "genre": "Homebrew, System Utility",
+    "isHomebrew": true
+  },
+  {
+    "title": "Awoo Installer",
+    "titleId": "0100000000001008",
+    "publisher": "HookedBehemoth",
+    "genre": "Homebrew, Utility",
+    "isHomebrew": true
+  },
+  {
+    "title": "H3H Backgrounds (Official 4IFIR Video Themes)",
+    "titleId": "4212056000000000",
+    "publisher": "Holy3holy-dev",
+    "genre": "Homebrew, Themes",
+    "isHomebrew": true
+  },
+  {
+    "title": "H3H After Dark (Official 18+ Themes)",
+    "titleId": "0100483348414400",
+    "publisher": "Holy3holy-dev",
+    "genre": "Homebrew, Themes (18+)",
+    "isHomebrew": true
+  },
+  {
+    "title": "Half-Life (Xash3D-FWGS Port)",
+    "titleId": "0100888000001001",
+    "publisher": "Valve / Flying With Gauss",
+    "genre": "Action, FPS, Homebrew",
+    "isHomebrew": true
+  },
+  {
+    "title": "Portal (Source Engine NX)",
+    "titleId": "0100888000001002",
+    "publisher": "Valve / Switchroot",
+    "genre": "Puzzle, First-Person, Homebrew",
+    "isHomebrew": true
+  },
+  {
+    "title": "Doom 3 (dhewm3 Port)",
+    "titleId": "0100888000001003",
+    "publisher": "id Software / fgsfds",
+    "genre": "Action, FPS, Homebrew",
+    "isHomebrew": true
+  },
+  {
+    "title": "Return to Castle Wolfenstein (iortcw)",
+    "titleId": "0100888000001004",
+    "publisher": "id Software / fgsfds",
+    "genre": "Action, FPS, Homebrew",
+    "isHomebrew": true
+  },
+  {
+    "title": "The Elder Scrolls III: Morrowind (OpenMW)",
+    "titleId": "0100888000001005",
+    "publisher": "Bethesda / OpenMW Team",
+    "genre": "RPG, Open World, Homebrew",
+    "isHomebrew": true
+  },
+  {
+    "title": "Fallout 1 (fallout1-ce)",
+    "titleId": "0100888000001006",
+    "publisher": "Interplay / alexbatalov",
+    "genre": "RPG, Post-Apocalyptic, Homebrew",
+    "isHomebrew": true
+  },
+  {
+    "title": "Fallout 2 (fallout2-ce)",
+    "titleId": "0100888000001007",
+    "publisher": "Black Isle / alexbatalov",
+    "genre": "RPG, Post-Apocalyptic, Homebrew",
+    "isHomebrew": true
+  },
+  {
+    "title": "Diablo (DevilutionX)",
+    "titleId": "0100888000001008",
+    "publisher": "Blizzard / diasurgical",
+    "genre": "Action RPG, Homebrew",
+    "isHomebrew": true
+  },
+  {
+    "title": "Heroes of Might and Magic III (VCMI)",
+    "titleId": "0100888000001009",
+    "publisher": "New World Computing / VCMI",
+    "genre": "Strategy, Turn-Based, Homebrew",
+    "isHomebrew": true
+  },
+  {
+    "title": "Max Payne (Android wrapper port)",
+    "titleId": "0100888000001010",
+    "publisher": "Remedy / fgsfds",
+    "genre": "Action, Third-Person Shooter, Homebrew",
+    "isHomebrew": true
+  },
+  {
+    "title": "Super Mario 64 (SM64-NX Native Port)",
+    "titleId": "0100534D36340000",
+    "publisher": "Nintendo / sm64-port",
+    "genre": "Platformer, 3D, Homebrew",
+    "isHomebrew": true
+  },
+  {
+    "title": "The Legend of Zelda: Ocarina of Time (Ship of Harkinian)",
+    "titleId": "01005A454C444101",
+    "publisher": "Nintendo / Harbour Masters",
+    "genre": "Action, Adventure, Homebrew",
+    "isHomebrew": true
+  },
+  {
+    "title": "The Legend of Zelda: Majora's Mask (2Ship2Harkinian)",
+    "titleId": "01005A454C444102",
+    "publisher": "Nintendo / Harbour Masters",
+    "genre": "Action, Adventure, Homebrew",
     "isHomebrew": true
   }
 ]

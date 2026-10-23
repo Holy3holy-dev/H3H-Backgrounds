@@ -2,7 +2,7 @@ import json
 import re
 import difflib
 from pathlib import Path
-from typing import Optional, Tuple, List, Dict
+from typing import Optional, Tuple, List, Dict, Any
 
 class TitleIdResolver:
     """
@@ -63,6 +63,23 @@ class TitleIdResolver:
         'сенатор армстронг': 'metal gear rising',
         'джетстрим сэм': 'metal gear rising',
         'рейден': 'metal gear rising',
+        'гта': 'grand theft auto',
+        'гта 5': 'grand theft auto v',
+        'гта 4': 'grand theft auto iv',
+        'гта сан андреас': 'san andreas',
+        'сан андреас': 'san andreas',
+        'вайс сити': 'vice city',
+        'дби': 'dbi',
+        'тинфоил': 'tinfoil',
+        'ретроарх': 'retroarch',
+        'халф лайф': 'half-life',
+        'халфа': 'half-life',
+        'портал': 'portal',
+        'дум': 'doom',
+        'диабло': 'diablo',
+        'морровинд': 'morrowind',
+        'фоллаут': 'fallout',
+        'герои': 'heroes of might and magic',
     }
 
     CYRILLIC_TO_LATIN = {
@@ -134,6 +151,47 @@ class TitleIdResolver:
     }
 
     BUILTIN_TITLE_IDS = {
+        # GTA Series & Ports
+        "0100B00B51230000": "Grand Theft Auto V (GTA 5)",
+        "0100B00B51240000": "Grand Theft Auto IV (GTA 4)",
+        "0100658013E42000": "Grand Theft Auto: San Andreas - The Definitive Edition",
+        "01006E8013E44000": "Grand Theft Auto: Vice City - The Definitive Edition",
+        "01007E3013E40000": "Grand Theft Auto III - The Definitive Edition",
+        "010065A014024000": "Grand Theft Auto: The Trilogy - The Definitive Edition",
+        "0100524533000000": "Grand Theft Auto: Vice City (reVC Classic Port)",
+        "0100524533000001": "Grand Theft Auto III (re3 Classic Port)",
+        "0100475441435700": "Grand Theft Auto: Chinatown Wars",
+        "01004754414C4353": "Grand Theft Auto: Liberty City Stories",
+
+        # Essential Homebrew Apps & Tools
+        "010000000000100D": "DBI (Title, Ticket and File Manager)",
+        "0100000000001000": "Tinfoil (Game & Content Manager)",
+        "010000000000100B": "RetroArch (Multi-system Retro Emulator)",
+        "0100000000001003": "PPSSPP (PlayStation Portable Emulator)",
+        "0100000000001002": "Moonlight NX (PC Game Streaming Client)",
+        "0100000000001004": "Chiaki (PlayStation 4/5 Remote Play)",
+        "0100000000001005": "NX-Shell (Multipurpose File Manager)",
+        "0100000000001006": "NX-Activity-Log (Playtime Tracker)",
+        "0100000000001007": "Daybreak (Atmosphere Firmware Updater)",
+        "0100000000001008": "Awoo Installer",
+        "4212056000000000": "H3H Backgrounds (Official 4IFIR Video Themes)",
+        "0100483348414400": "H3H After Dark (Official 18+ Themes)",
+
+        # Famous PC Classic Ports on Switch
+        "0100888000001001": "Half-Life (Xash3D-FWGS Port)",
+        "0100888000001002": "Portal (Source Engine NX)",
+        "0100888000001003": "Doom 3 (dhewm3 Port)",
+        "0100888000001004": "Return to Castle Wolfenstein (iortcw)",
+        "0100888000001005": "The Elder Scrolls III: Morrowind (OpenMW)",
+        "0100888000001006": "Fallout 1 (fallout1-ce)",
+        "0100888000001007": "Fallout 2 (fallout2-ce)",
+        "0100888000001008": "Diablo (DevilutionX)",
+        "0100888000001009": "Heroes of Might and Magic III (VCMI)",
+        "0100888000001010": "Max Payne (Android wrapper port)",
+        "0100534D36340000": "Super Mario 64 (SM64-NX Native Port)",
+        "01005A454C444101": "The Legend of Zelda: Ocarina of Time (Ship of Harkinian)",
+        "01005A454C444102": "The Legend of Zelda: Majora's Mask (2Ship2Harkinian)",
+
         "05988A343C507000": "Metal Gear Rising: Revengeance",
         "01004D4752000000": "Metal Gear Rising: Revengeance",
         "010067300059A000": "Mario + Rabbids Kingdom Battle",
@@ -187,18 +245,29 @@ class TitleIdResolver:
                 self.games.append({"titleId": tid, "title": name})
                 seen_tids.add(tid)
 
-        # Also load all official Switch titles from database
+        # Also load all official Switch titles and homebrews from database
         db_path = self.catalog_path.parent.parent.parent / "studio" / "h3h_studio" / "data" / "switch_titles_db.json"
         if not db_path.exists():
             db_path = Path("studio/h3h_studio/data/switch_titles_db.json")
         if db_path.exists():
             try:
                 db_data = json.loads(db_path.read_text(encoding="utf-8"))
+                games_by_tid = {g.get("titleId", "").upper(): g for g in self.games}
                 for entry in db_data:
                     tid = entry.get("titleId", "").upper()
-                    if len(tid) == 16 and tid.isalnum() and tid not in seen_tids:
-                        self.games.append({"titleId": tid, "title": entry.get("title", ""), "publisher": entry.get("publisher", "")})
-                        seen_tids.add(tid)
+                    if len(tid) == 16 and tid.isalnum():
+                        if tid in games_by_tid:
+                            g = games_by_tid[tid]
+                            if not g.get("publisher") or g.get("publisher") == "Unknown":
+                                g["publisher"] = entry.get("publisher", "Official")
+                            if not g.get("genre"):
+                                g["genre"] = entry.get("genre", "Nintendo Switch")
+                            if "isHomebrew" in entry:
+                                g["isHomebrew"] = entry.get("isHomebrew", False)
+                        else:
+                            self.games.append(entry)
+                            games_by_tid[tid] = entry
+                            seen_tids.add(tid)
             except Exception:
                 pass
 
@@ -207,27 +276,48 @@ class TitleIdResolver:
             tid = g.get("titleId", "")
             title = g.get("title", "")
             clean = self.clean_title(title)
-            tokens = [t for t in re.split(r"[^a-z0-9]+", clean.lower()) if len(t) >= 2]
+            tokens = [t for t in re.split(r"[^a-z0-9]+", clean.lower()) if t]
             self.normalized_games.append((tid, clean, tokens))
 
     @staticmethod
     def clean_title(title: str) -> str:
-        t = re.sub(r"\[.*?\]", "", title)
-        t = re.sub(r"\(.*?\)", "", t)
+        t = re.sub(r"\[.*?\]", " ", title)
         t = re.sub(r"\+\s*(?:dlc|update|v\d+|season|expansion).*", "", t, flags=re.IGNORECASE)
         t = re.sub(r"[^\w\s\:\-\'\.\+]", " ", t)
         return " ".join(t.split())
 
+    COMMON_EXPANSIONS = {
+        r"\bgta\b": "grand theft auto gta",
+        r"\bgta\s*5\b": "grand theft auto v 5 gta5",
+        r"\bgta\s*v\b": "grand theft auto v 5 gta5",
+        r"\bgta\s*4\b": "grand theft auto iv 4 gta4",
+        r"\bgta\s*iv\b": "grand theft auto iv 4 gta4",
+        r"\bgta\s*sa\b": "grand theft auto san andreas",
+        r"\bgta\s*vc\b": "grand theft auto vice city",
+        r"\bgta\s*3\b": "grand theft auto iii 3 gta3",
+        r"\bgta\s*iii\b": "grand theft auto iii 3 gta3",
+        r"\brdr\b": "red dead redemption",
+        r"\brdr2\b": "red dead redemption 2",
+        r"\btotk\b": "tears of the kingdom",
+        r"\bbotw\b": "breath of the wild",
+        r"\bsm64\b": "super mario 64",
+        r"\bmgr\b": "metal gear rising revengeance",
+    }
+
     @classmethod
     def normalize_input(cls, query: str) -> str:
-        """Converts Russian aliases and transliterates Cyrillic to Latin."""
+        """Converts Russian aliases, abbreviations, and transliterates Cyrillic to Latin."""
         q = query.lower().strip()
         # Replace known Russian slang/aliases
         for ru, en in cls.RUSSIAN_ALIASES.items():
             pattern = r"\b" + re.escape(ru) + r"\b"
             q = re.sub(pattern, en, q)
         # Transliterate any remaining Cyrillic letters
-        return "".join(cls.CYRILLIC_TO_LATIN.get(c, c) for c in q)
+        q = "".join(cls.CYRILLIC_TO_LATIN.get(c, c) for c in q)
+        # Expand gaming acronyms
+        for pat, rep in cls.COMMON_EXPANSIONS.items():
+            q = re.sub(pat, rep, q)
+        return q
 
     def resolve_by_title_id(self, title_id: str) -> Optional[str]:
         """Looks up a clean game title directly by its 16-hex Title ID."""
@@ -262,6 +352,70 @@ class TitleIdResolver:
             return (candidates[0][0], candidates[0][1])
         return None
 
+    @staticmethod
+    def clean_display_title(title: str) -> str:
+        import re
+        t = re.sub(r"\[.*?\]", "", title)
+        t = re.sub(r"\+\s*(?:dlc|update|v\d+|season|expansion).*", "", t, flags=re.IGNORECASE)
+        t = re.sub(r"\s*\([\s,]*\)\s*", " ", t)
+        t = re.sub(r"\s+", " ", t).strip()
+        return t or title
+
+    def search_games_rich(self, query: str, limit: int = 6) -> List[Dict[str, Any]]:
+        """
+        Searches all titles and returns rich objects:
+        [{\"titleId\": ..., \"title\": ..., \"publisher\": ..., \"genre\": ..., \"isHomebrew\": ...}]
+        """
+        if not query or not query.strip():
+            return []
+
+        q_clean = query.strip()
+        tid_match = self.extract_title_id(q_clean)
+
+        # 1. Direct Title ID match
+        if tid_match:
+            tid_upper = tid_match.upper()
+            found_entry = next((g for g in self.games if g.get("titleId", "").upper() == tid_upper), None)
+            if found_entry:
+                raw_t = found_entry.get("title", f"Game ({tid_upper})")
+                return [{
+                    "titleId": tid_upper,
+                    "title": self.clean_display_title(raw_t),
+                    "rawTitle": raw_t,
+                    "publisher": found_entry.get("publisher", "Community"),
+                    "genre": found_entry.get("genre", "Game"),
+                    "isHomebrew": found_entry.get("isHomebrew", False),
+                    "score": 100.0
+                }]
+            title = self.resolve_by_title_id(tid_upper) or f"Game ({tid_upper})"
+            return [{
+                "titleId": tid_upper,
+                "title": self.clean_display_title(title),
+                "rawTitle": title,
+                "publisher": "Official / Homebrew",
+                "genre": "Game",
+                "isHomebrew": False,
+                "score": 100.0
+            }]
+
+        # 2. Fuzzy Multiple Match
+        matches = self.resolve_multiple(q_clean, limit=limit)
+        results = []
+        for tid, name, score in matches:
+            found_entry = next((g for g in self.games if g.get("titleId", "").upper() == tid.upper()), {})
+            raw_title = found_entry.get("title", name)
+            display_title = self.clean_display_title(raw_title)
+            results.append({
+                "titleId": tid.upper(),
+                "title": display_title,
+                "rawTitle": raw_title,
+                "publisher": found_entry.get("publisher", "Community"),
+                "genre": found_entry.get("genre", "Nintendo Switch"),
+                "isHomebrew": found_entry.get("isHomebrew", False),
+                "score": score
+            })
+        return results
+
     def resolve_multiple(self, query: str, limit: int = 4) -> List[Tuple[str, str, float]]:
         """
         Resolves query with typo-tolerance and transliteration.
@@ -273,7 +427,7 @@ class TitleIdResolver:
 
         # 1. Normalize query
         norm_query = self.normalize_input(query)
-        q_tokens = [t for t in re.split(r"[^a-z0-9]+", norm_query) if len(t) >= 2]
+        q_tokens = [t for t in re.split(r"[^a-z0-9]+", norm_query) if t]
 
         # 2. Check character mapping
         char_bonus_game = None
@@ -329,6 +483,20 @@ class TitleIdResolver:
                 break
 
         return deduped
+
+_global_resolver: Optional[TitleIdResolver] = None
+
+def get_resolver() -> TitleIdResolver:
+    global _global_resolver
+    if _global_resolver is None:
+        _global_resolver = TitleIdResolver()
+    return _global_resolver
+
+def search_games_rich(query: str, limit: int = 8) -> List[Dict[str, Any]]:
+    return get_resolver().search_games_rich(query, limit=limit)
+
+def resolve_title_id(query: str) -> Optional[Tuple[str, str]]:
+    return get_resolver().resolve(query)
 
 if __name__ == "__main__":
     resolver = TitleIdResolver()

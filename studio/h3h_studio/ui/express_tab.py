@@ -1,9 +1,10 @@
 """
 H3H Studio Express Tab — Simplified 1-Click Publisher for Community Users:
-- Search Nintendo Switch games by name, Russian alias, or Title ID
-- Choose video source
-- Select type: Video Cover (720p), Video Icon (256x256 HEVC), or Full Pack (Both)
-- Interactive visual 1:1 square crop tool for video icons
+- Search Nintendo Switch games by name, Russian alias, or Title ID with rich metadata & multi-match selection
+- Choose video source (Drag & Drop or File Dialog)
+- Select type: Full Pack (720p Cover + 256x256 HEVC Icon), Only Cover, or Only Icon
+- Interactive live video player preview with Play/Pause, scrubber, and exact Switch loop playback
+- Interactive visual 1:1 square crop tool for 4IFIR video icons
 - 1-Click Cloud Publishing to Google Drive & GitHub with embedded permanent credentials
 """
 
@@ -11,16 +12,18 @@ import os
 import sys
 import tempfile
 from pathlib import Path
-from typing import Optional, List, Tuple
+from typing import Optional, List, Tuple, Dict, Any
 
-from PySide6.QtCore import Qt, QThread, Signal, QSettings, QTimer, QStringListModel
-from PySide6.QtGui import QFont, QPixmap, QImage, QColor, QPainter, QPen
+from PySide6.QtCore import Qt, QThread, Signal, QSettings, QTimer, QUrl
+from PySide6.QtGui import QFont, QPixmap, QImage, QColor, QPainter, QPen, QCursor
 from PySide6.QtWidgets import (
     QWidget, QVBoxLayout, QHBoxLayout, QLabel, QLineEdit, QPushButton,
     QComboBox, QRadioButton, QButtonGroup, QSlider, QDoubleSpinBox,
     QProgressBar, QMessageBox, QFileDialog, QFrame, QScrollArea,
-    QCompleter, QGroupBox
+    QGroupBox, QSizePolicy
 )
+from PySide6.QtMultimedia import QMediaPlayer, QAudioOutput
+from PySide6.QtMultimediaWidgets import QVideoWidget
 
 PROJECT_ROOT = Path(__file__).parent.parent.parent.parent.resolve()
 if str(PROJECT_ROOT) not in sys.path:
@@ -98,13 +101,12 @@ class PublishWorker(QThread):
                     dur_sec=min(12.0, self.dur_sec),
                     crop_pan_percent=self.crop_pan,
                     video_w=self.video_w,
-                    video_h=self.video_h,
-                    codec="hevc"
+                    video_h=self.video_h
                 )
 
             # 3. Publish to Cloud
-            self.progress.emit(65.0, "3/3: Загрузка в облако Google Drive и регистрация...")
-            res = ExpressProcessor.publish_community_asset(
+            self.progress.emit(65.0, "3/3: Загрузка на Google Диск и публикация в каталог...")
+            res = ExpressProcessor.publish_to_cloud(
                 title_id=self.title_id,
                 game_name=self.game_name,
                 variant_name=self.variant_name,
@@ -136,10 +138,20 @@ class ExpressTab(QWidget):
 
         self.selected_title_id: str = ""
         self.selected_game_name: str = ""
+        self.selected_publisher: str = ""
+        self.selected_genre: str = ""
+        self.selected_is_homebrew: bool = False
 
         self.worker: Optional[PublishWorker] = None
 
+        # Search debounce timer
+        self.search_timer = QTimer(self)
+        self.search_timer.setSingleShot(True)
+        self.search_timer.setInterval(220)
+        self.search_timer.timeout.connect(self._do_search)
+
         self._init_ui()
+        self._init_player()
 
     def _init_ui(self):
         scroll = QScrollArea(self)
@@ -151,37 +163,138 @@ class ExpressTab(QWidget):
         layout.setContentsMargins(18, 18, 18, 18)
         layout.setSpacing(16)
 
-        # --- STEP 1: Game Selection ---
+        # =========================================================================
+        # --- STEP 1: Game Selection with Rich Search & Multi-Option Cards ---
+        # =========================================================================
         step1_box = self._create_card("1. Выбор игры для Nintendo Switch", "#00E5FF")
         s1_layout = QVBoxLayout(step1_box)
 
+        # Search row
         search_row = QHBoxLayout()
         self.game_search_edit = QLineEdit(self)
-        self.game_search_edit.setPlaceholderText("🔍 Введите название игры, персонажа, сленг или 16-значный Title ID (например: Zelda, Mario, Witcher 3, Cyberpunk, 0100F2C0115B6000)...")
+        self.game_search_edit.setPlaceholderText(
+            "🔍 Введите название игры, персонажа, сленг или Title ID (например: GTA 5, GTA 4, DBI, Half-Life, Witcher, Zelda)..."
+        )
+        self.game_search_edit.setFixedHeight(38)
+        self.game_search_edit.setStyleSheet("""
+            QLineEdit {
+                background-color: #111720;
+                border: 1px solid #2D3A4B;
+                border-radius: 6px;
+                padding: 6px 12px;
+                color: #FFFFFF;
+                font-size: 13px;
+            }
+            QLineEdit:focus {
+                border: 1px solid #00E5FF;
+            }
+        """)
         self.game_search_edit.textChanged.connect(self._on_search_text_changed)
         search_row.addWidget(self.game_search_edit)
 
-        s1_layout.addLayout(search_row)
-
-        # Game Info Display Badge
-        self.game_info_frame = QFrame(self)
-        self.game_info_frame.setStyleSheet("""
-            QFrame {
-                background-color: #1A222D;
+        self.btn_clear_search = QPushButton("✕", self)
+        self.btn_clear_search.setFixedSize(38, 38)
+        self.btn_clear_search.setStyleSheet("""
+            QPushButton {
+                background-color: #1E2734;
                 border: 1px solid #2D3A4B;
                 border-radius: 6px;
+                color: #9AA4B2;
+                font-size: 14px;
+                font-weight: bold;
+            }
+            QPushButton:hover {
+                background-color: #EF4444;
+                color: #FFFFFF;
+            }
+        """)
+        self.btn_clear_search.clicked.connect(self._clear_game_selection)
+        search_row.addWidget(self.btn_clear_search)
+
+        s1_layout.addLayout(search_row)
+
+        # --- Confirmed Active Game Banner (Initially Hidden) ---
+        self.active_game_frame = QFrame(self)
+        self.active_game_frame.setStyleSheet("""
+            QFrame {
+                background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #0B241E, stop:1 #111A24);
+                border: 2px solid #10B981;
+                border-radius: 8px;
                 padding: 10px;
             }
         """)
-        g_info_layout = QHBoxLayout(self.game_info_frame)
-        self.game_badge_label = QLabel("🎮 <b>Игра не выбрана</b> — начните вводить название выше", self)
-        self.game_badge_label.setStyleSheet("color: #9AA4B2; font-size: 13px;")
-        g_info_layout.addWidget(self.game_badge_label)
-        s1_layout.addWidget(self.game_info_frame)
+        active_layout = QHBoxLayout(self.active_game_frame)
+        active_layout.setContentsMargins(12, 10, 12, 10)
 
+        active_info_col = QVBoxLayout()
+        self.active_game_title_lbl = QLabel("🎮 <b>Название игры</b>", self)
+        self.active_game_title_lbl.setStyleSheet("color: #FFFFFF; font-size: 15px; font-weight: bold;")
+        active_info_col.addWidget(self.active_game_title_lbl)
+
+        active_meta_row = QHBoxLayout()
+        self.active_tid_badge = QLabel("[ 0100000000000000 ]", self)
+        self.active_tid_badge.setStyleSheet("""
+            background-color: #00E5FF;
+            color: #000000;
+            font-family: monospace;
+            font-size: 12px;
+            font-weight: bold;
+            border-radius: 4px;
+            padding: 3px 7px;
+        """)
+        active_meta_row.addWidget(self.active_tid_badge)
+
+        self.active_meta_lbl = QLabel("🏢 Издатель: —  •  🏷 Жанр: —", self)
+        self.active_meta_lbl.setStyleSheet("color: #A7F3D0; font-size: 12px;")
+        active_meta_row.addWidget(self.active_meta_lbl)
+        active_meta_row.addStretch()
+        active_info_col.addLayout(active_meta_row)
+
+        active_layout.addLayout(active_info_col, 1)
+
+        self.btn_change_game = QPushButton("🔄 Сменить игру", self)
+        self.btn_change_game.setFixedHeight(34)
+        self.btn_change_game.setStyleSheet("""
+            QPushButton {
+                background-color: #1F2937;
+                border: 1px solid #4B5563;
+                border-radius: 6px;
+                color: #FFFFFF;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 0 14px;
+            }
+            QPushButton:hover {
+                background-color: #374151;
+                border-color: #00E5FF;
+            }
+        """)
+        self.btn_change_game.clicked.connect(self._change_game_clicked)
+        active_layout.addWidget(self.btn_change_game)
+
+        self.active_game_frame.setVisible(False)
+        s1_layout.addWidget(self.active_game_frame)
+
+        # --- Dynamic Search Candidates Container ---
+        self.candidates_container = QWidget(self)
+        self.candidates_layout = QVBoxLayout(self.candidates_container)
+        self.candidates_layout.setContentsMargins(0, 4, 0, 0)
+        self.candidates_layout.setSpacing(6)
+
+        # Hint/Status label when no search or no results
+        self.search_status_lbl = QLabel(
+            "🎮 <b>Игра не выбрана</b> — начните вводить название (например GTA 5, DBI, Mario) или вставьте 16-значный Title ID",
+            self
+        )
+        self.search_status_lbl.setStyleSheet("color: #9AA4B2; font-size: 12px; padding: 4px;")
+        self.candidates_layout.addWidget(self.search_status_lbl)
+
+        s1_layout.addWidget(self.candidates_container)
         layout.addWidget(step1_box)
 
+        # =========================================================================
         # --- STEP 2: Video Selection ---
+        # =========================================================================
         step2_box = self._create_card("2. Выберите исходный видеоролик", "#3B82F6")
         s2_layout = QVBoxLayout(step2_box)
 
@@ -189,7 +302,29 @@ class ExpressTab(QWidget):
         self.file_path_edit = QLineEdit(self)
         self.file_path_edit.setPlaceholderText("Перетащите видеофайл сюда (Drag & Drop) или нажмите Обзор... (MP4, WEBM, MOV, MKV)")
         self.file_path_edit.setReadOnly(True)
+        self.file_path_edit.setFixedHeight(36)
+        self.file_path_edit.setStyleSheet("""
+            QLineEdit {
+                background-color: #111720;
+                border: 1px solid #2D3A4B;
+                border-radius: 6px;
+                padding: 6px 12px;
+                color: #FFFFFF;
+                font-size: 13px;
+            }
+        """)
         browse_btn = QPushButton("📁 Обзор...", self)
+        browse_btn.setFixedHeight(36)
+        browse_btn.setStyleSheet("""
+            QPushButton {
+                background-color: #2563EB;
+                color: #FFFFFF;
+                font-weight: bold;
+                border-radius: 6px;
+                padding: 0 16px;
+            }
+            QPushButton:hover { background-color: #1D4ED8; }
+        """)
         browse_btn.clicked.connect(self._browse_video)
         file_row.addWidget(self.file_path_edit)
         file_row.addWidget(browse_btn)
@@ -201,7 +336,9 @@ class ExpressTab(QWidget):
 
         layout.addWidget(step2_box)
 
+        # =========================================================================
         # --- STEP 3: Content Mode Selection ---
+        # =========================================================================
         step3_box = self._create_card("3. Что создаём?", "#A855F7")
         s3_layout = QHBoxLayout(step3_box)
 
@@ -219,62 +356,196 @@ class ExpressTab(QWidget):
         self.mode_group.buttonClicked.connect(self._on_mode_changed)
         layout.addWidget(step3_box)
 
-        # --- STEP 4: Interactive Cropping & Preview ---
-        self.crop_box = self._create_card("4. Настройка кадрирования и тайминга", "#EC4899")
+        # =========================================================================
+        # --- STEP 4: Interactive Video Player Preview & Cropping ---
+        # =========================================================================
+        self.crop_box = self._create_card("4. Интерактивный предпросмотр и кадрирование", "#EC4899")
         s4_layout = QVBoxLayout(self.crop_box)
 
         # Time range controls
         time_row = QHBoxLayout()
-        time_row.addWidget(QLabel("Начало (сек):", self))
+        time_row.addWidget(QLabel("<b>Начало отрывка (сек):</b>", self))
         self.start_spin = QDoubleSpinBox(self)
         self.start_spin.setRange(0.0, 3600.0)
         self.start_spin.setValue(0.0)
         self.start_spin.setSingleStep(0.5)
-        self.start_spin.valueChanged.connect(self._update_preview_frame)
+        self.start_spin.setDecimals(1)
+        self.start_spin.valueChanged.connect(self._on_timing_changed)
         time_row.addWidget(self.start_spin)
 
-        time_row.addWidget(QLabel("Длительность (сек):", self))
+        time_row.addSpacing(16)
+        time_row.addWidget(QLabel("<b>Длительность цикла (сек):</b>", self))
         self.dur_spin = QDoubleSpinBox(self)
         self.dur_spin.setRange(2.0, 30.0)
         self.dur_spin.setValue(8.0)
         self.dur_spin.setSingleStep(1.0)
+        self.dur_spin.setDecimals(1)
+        self.dur_spin.valueChanged.connect(self._on_timing_changed)
         time_row.addWidget(self.dur_spin)
-        time_row.addStretch()
 
+        time_row.addSpacing(16)
+        # Quick duration presets
+        for d in (5, 8, 12, 15):
+            preset_btn = QPushButton(f"{d}с", self)
+            preset_btn.setFixedSize(46, 28)
+            preset_btn.setStyleSheet("""
+                QPushButton {
+                    background-color: #1F2937;
+                    border: 1px solid #4B5563;
+                    border-radius: 4px;
+                    color: #FFFFFF;
+                    font-size: 12px;
+                    font-weight: bold;
+                }
+                QPushButton:hover {
+                    background-color: #EC4899;
+                    border-color: #F472B6;
+                    color: #FFFFFF;
+                }
+            """)
+            preset_btn.clicked.connect(lambda checked, val=d: self.dur_spin.setValue(val))
+            time_row.addWidget(preset_btn)
+
+        time_row.addStretch()
         s4_layout.addLayout(time_row)
 
-        # Preview Container (Wide Cover preview + 1:1 Icon preview)
+        # Previews Area: Left is 16:9 Video Player, Right is 1:1 Square Video Icon
         previews_row = QHBoxLayout()
+        previews_row.setSpacing(16)
 
-        # Cover Preview Box
-        cover_col = QVBoxLayout()
-        cover_col.addWidget(QLabel("<b>Превью фонового кадра (16:9):</b>", self))
-        self.cover_preview_lbl = QLabel(self)
-        self.cover_preview_lbl.setFixedSize(384, 216)
-        self.cover_preview_lbl.setStyleSheet("background-color: #0E1217; border: 1px solid #2D3A4B; border-radius: 6px;")
-        self.cover_preview_lbl.setAlignment(Qt.AlignCenter)
-        self.cover_preview_lbl.setText("Превью видео")
-        cover_col.addWidget(self.cover_preview_lbl)
-        previews_row.addLayout(cover_col)
+        # --- Left: Interactive Video Player (16:9) ---
+        player_col = QVBoxLayout()
+        self.cover_title_lbl = QLabel("<b>🎬 Живой плеер видеофона (16:9):</b>", self)
+        self.cover_title_lbl.setStyleSheet("color: #FFFFFF; font-size: 13px;")
+        player_col.addWidget(self.cover_title_lbl)
 
-        # Icon Preview Box (with 1:1 square preview)
+        # Video viewport widget container
+        self.video_viewport_frame = QFrame(self)
+        self.video_viewport_frame.setFixedSize(426, 240)
+        self.video_viewport_frame.setStyleSheet("""
+            QFrame {
+                background-color: #05080C;
+                border: 2px solid #2D3A4B;
+                border-radius: 8px;
+            }
+        """)
+        viewport_layout = QVBoxLayout(self.video_viewport_frame)
+        viewport_layout.setContentsMargins(0, 0, 0, 0)
+
+        # Video output widget
+        self.video_widget = QVideoWidget(self.video_viewport_frame)
+        self.video_widget.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
+        viewport_layout.addWidget(self.video_widget)
+
+        # Placeholder label when no video loaded
+        self.video_placeholder_lbl = QLabel("Загрузите видео в Шаге 2\nдля включения живого плеера", self.video_viewport_frame)
+        self.video_placeholder_lbl.setAlignment(Qt.AlignCenter)
+        self.video_placeholder_lbl.setStyleSheet("color: #6B7280; font-size: 13px; font-weight: bold; background: transparent;")
+        viewport_layout.addWidget(self.video_placeholder_lbl)
+
+        player_col.addWidget(self.video_viewport_frame)
+
+        # Playback Controls Toolbar
+        controls_row = QHBoxLayout()
+        controls_row.setSpacing(8)
+
+        self.btn_play_pause = QPushButton("▶ Воспроизвести", self)
+        self.btn_play_pause.setFixedHeight(34)
+        self.btn_play_pause.setStyleSheet("""
+            QPushButton {
+                background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #8B5CF6, stop:1 #EC4899);
+                color: #FFFFFF;
+                font-weight: bold;
+                font-size: 13px;
+                border-radius: 6px;
+                padding: 0 14px;
+            }
+            QPushButton:hover {
+                background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #7C3AED, stop:1 #DB2777);
+            }
+        """)
+        self.btn_play_pause.clicked.connect(self._toggle_playback)
+        controls_row.addWidget(self.btn_play_pause)
+
+        self.btn_stop = QPushButton("⏹", self)
+        self.btn_stop.setFixedSize(34, 34)
+        self.btn_stop.setStyleSheet("""
+            QPushButton {
+                background-color: #1F2937;
+                border: 1px solid #374151;
+                border-radius: 6px;
+                color: #FFFFFF;
+                font-size: 13px;
+            }
+            QPushButton:hover { background-color: #374151; }
+        """)
+        self.btn_stop.clicked.connect(self._stop_playback)
+        controls_row.addWidget(self.btn_stop)
+
+        # Scrubber slider
+        self.scrubber_slider = QSlider(Qt.Horizontal, self)
+        self.scrubber_slider.setRange(0, 1000)
+        self.scrubber_slider.setValue(0)
+        self.scrubber_slider.sliderMoved.connect(self._on_scrubber_dragged)
+        controls_row.addWidget(self.scrubber_slider)
+
+        self.btn_mute = QPushButton("🔊", self)
+        self.btn_mute.setFixedSize(34, 34)
+        self.btn_mute.setStyleSheet("""
+            QPushButton {
+                background-color: #1F2937;
+                border: 1px solid #374151;
+                border-radius: 6px;
+                color: #FFFFFF;
+                font-size: 14px;
+            }
+            QPushButton:hover { background-color: #374151; }
+        """)
+        self.btn_mute.clicked.connect(self._toggle_mute)
+        controls_row.addWidget(self.btn_mute)
+
+        player_col.addLayout(controls_row)
+
+        # Time readout
+        self.time_display_lbl = QLabel("00:00.0 / 00:08.0 (Фрагмент 0.0с - 8.0с)", self)
+        self.time_display_lbl.setStyleSheet("color: #9AA4B2; font-family: monospace; font-size: 11px;")
+        player_col.addWidget(self.time_display_lbl)
+
+        previews_row.addLayout(player_col)
+
+        # --- Right: 1:1 Square Video Icon Preview ---
         self.icon_col = QVBoxLayout()
-        self.icon_col.addWidget(QLabel("<b>Превью видеоиконки 4IFIR (1:1):</b>", self))
-        self.icon_preview_lbl = QLabel(self)
-        self.icon_preview_lbl.setFixedSize(216, 216)
-        self.icon_preview_lbl.setStyleSheet("background-color: #0E1217; border: 2px solid #00E5FF; border-radius: 8px;")
-        self.icon_preview_lbl.setAlignment(Qt.AlignCenter)
-        self.icon_preview_lbl.setText("Квадрат 1:1")
-        self.icon_col.addWidget(self.icon_preview_lbl)
-        previews_row.addLayout(self.icon_col)
+        self.icon_title_lbl = QLabel("<b>🔲 Превью видеоиконки 4IFIR (1:1):</b>", self)
+        self.icon_title_lbl.setStyleSheet("color: #FFFFFF; font-size: 13px;")
+        self.icon_col.addWidget(self.icon_title_lbl)
 
+        self.icon_preview_lbl = QLabel(self)
+        self.icon_preview_lbl.setFixedSize(240, 240)
+        self.icon_preview_lbl.setStyleSheet("""
+            QLabel {
+                background-color: #05080C;
+                border: 2px solid #00E5FF;
+                border-radius: 10px;
+            }
+        """)
+        self.icon_preview_lbl.setAlignment(Qt.AlignCenter)
+        self.icon_preview_lbl.setText("Квадрат 1:1\n(256x256 HEVC)")
+        self.icon_col.addWidget(self.icon_preview_lbl)
+
+        self.icon_meta_lbl = QLabel("Стандарт 4IFIR: 256x256 HEVC 24fps", self)
+        self.icon_meta_lbl.setStyleSheet("color: #00E5FF; font-size: 11px; margin-top: 4px;")
+        self.icon_col.addWidget(self.icon_meta_lbl)
+        self.icon_col.addStretch()
+
+        previews_row.addLayout(self.icon_col)
         previews_row.addStretch()
+
         s4_layout.addLayout(previews_row)
 
-        # Pan slider for square crop
+        # --- Pan slider for square crop ---
         self.pan_control_widget = QWidget(self)
         pan_layout = QVBoxLayout(self.pan_control_widget)
-        pan_layout.setContentsMargins(0, 8, 0, 0)
+        pan_layout.setContentsMargins(0, 10, 0, 0)
 
         pan_header = QHBoxLayout()
         pan_header.addWidget(QLabel("<b>Горизонтальное кадрирование иконки:</b>", self))
@@ -290,9 +561,20 @@ class ExpressTab(QWidget):
         btn_right = QPushButton("▶ Вправо (100%)", self)
         btn_right.clicked.connect(lambda: self.crop_slider.setValue(100))
 
-        pan_header.addWidget(btn_left)
-        pan_header.addWidget(btn_center)
-        pan_header.addWidget(btn_right)
+        for b in (btn_left, btn_center, btn_right):
+            b.setStyleSheet("""
+                QPushButton {
+                    background-color: #1F2937;
+                    border: 1px solid #374151;
+                    border-radius: 4px;
+                    color: #FFFFFF;
+                    font-size: 11px;
+                    padding: 3px 8px;
+                }
+                QPushButton:hover { background-color: #374151; border-color: #00E5FF; }
+            """)
+            pan_header.addWidget(b)
+
         pan_layout.addLayout(pan_header)
 
         self.crop_slider = QSlider(Qt.Horizontal, self)
@@ -304,7 +586,9 @@ class ExpressTab(QWidget):
         s4_layout.addWidget(self.pan_control_widget)
         layout.addWidget(self.crop_box)
 
-        # --- STEP 5: Metadata & Publish ---
+        # =========================================================================
+        # --- STEP 5: Metadata & 1-Click Publish ---
+        # =========================================================================
         step5_box = self._create_card("5. Автор и Публикация в каталог", "#10B981")
         s5_layout = QVBoxLayout(step5_box)
 
@@ -314,6 +598,7 @@ class ExpressTab(QWidget):
         v_col = QVBoxLayout()
         v_col.addWidget(QLabel("Название варианта темы:", self))
         self.var_name_edit = QLineEdit(self)
+        self.var_name_edit.setFixedHeight(34)
         self.var_name_edit.setPlaceholderText("Например: Dynamic Action, Title Screen, Neon Blade")
         self.var_name_edit.setText("Dynamic Theme")
         v_col.addWidget(self.var_name_edit)
@@ -323,6 +608,7 @@ class ExpressTab(QWidget):
         a_col = QVBoxLayout()
         a_col.addWidget(QLabel("Ваш ник / Автор (для титров):", self))
         self.author_edit = QLineEdit(self)
+        self.author_edit.setFixedHeight(34)
         saved_author = self.settings.value("author_name", "Community")
         self.author_edit.setText(saved_author)
         self.author_edit.setPlaceholderText("@username")
@@ -333,6 +619,7 @@ class ExpressTab(QWidget):
         c_col = QVBoxLayout()
         c_col.addWidget(QLabel("Каталог назначения:", self))
         self.category_combo = QComboBox(self)
+        self.category_combo.setFixedHeight(34)
         self.category_combo.addItem("🎮 Обычный каталог H3H (Семейный)", "standard")
         self.category_combo.addItem("🌸 After Dark (18+ / Эччи)", "after_dark")
         c_col.addWidget(self.category_combo)
@@ -384,6 +671,16 @@ class ExpressTab(QWidget):
         main_vbox.setContentsMargins(0, 0, 0, 0)
         main_vbox.addWidget(scroll)
 
+    def _init_player(self):
+        """Initializes QtMultimedia QMediaPlayer & QAudioOutput."""
+        self.media_player = QMediaPlayer(self)
+        self.audio_output = QAudioOutput(self)
+        self.media_player.setAudioOutput(self.audio_output)
+        self.media_player.setVideoOutput(self.video_widget)
+
+        self.media_player.positionChanged.connect(self._on_player_position_changed)
+        self.media_player.playbackStateChanged.connect(self._on_player_state_changed)
+
     def _create_card(self, title: str, accent_color: str) -> QGroupBox:
         box = QGroupBox(title, self)
         box.setStyleSheet(f"""
@@ -404,38 +701,193 @@ class ExpressTab(QWidget):
         """)
         return box
 
-    # --- Search & Title Resolution ---
+    # =========================================================================
+    # --- Step 1: Game Search & Multi-Match Selection ---
+    # =========================================================================
 
     def _on_search_text_changed(self, text: str):
-        query = text.strip()
+        # Restart debounce timer
+        self.search_timer.start()
+
+    def _do_search(self):
+        query = self.game_search_edit.text().strip()
+
+        # If user cleared search text
         if not query:
-            self.selected_title_id = ""
-            self.selected_game_name = ""
-            self.game_badge_label.setText("🎮 <b>Игра не выбрана</b> — начните вводить название выше")
+            if not self.selected_title_id:
+                self._clear_candidate_cards()
+                self.search_status_lbl.setText("🎮 <b>Игра не выбрана</b> — начните вводить название выше")
+                self.search_status_lbl.setVisible(True)
             return
 
-        # Direct Title ID
-        tid = TitleIdResolver.extract_title_id(query)
-        if tid:
-            resolved_name = self.resolver.resolve_by_title_id(tid) or f"Игра ({tid})"
-            self.selected_title_id = tid
-            self.selected_game_name = resolved_name
-            self.game_badge_label.setText(f"🎯 <b>Определён Title ID:</b> <code>{tid}</code> — <b>{resolved_name}</b>")
+        # Direct 16-hex Title ID match
+        tid_match = TitleIdResolver.extract_title_id(query)
+        if tid_match:
+            tid_upper = tid_match.upper()
+            resolved = self.resolver.resolve_by_title_id(tid_upper) or f"Игра ({tid_upper})"
+            self._select_game({
+                "titleId": tid_upper,
+                "title": resolved,
+                "publisher": "Nintendo Switch",
+                "genre": "Game",
+                "isHomebrew": False
+            })
             return
 
-        # Fuzzy lookup
-        matches = self.resolver.resolve_multiple(query, limit=1)
-        if matches:
-            top_tid, top_name, _ = matches[0]
-            self.selected_title_id = top_tid
-            self.selected_game_name = top_name
-            self.game_badge_label.setText(f"🎯 <b>Найдено:</b> <b>{top_name}</b> (<code>{top_tid}</code>)")
-        else:
-            self.selected_title_id = ""
-            self.selected_game_name = ""
-            self.game_badge_label.setText("⚠️ Совпадений не найдено. Проверьте запрос или введите 16-значный Title ID напрямую.")
+        # Search rich candidates
+        matches = self.resolver.search_games_rich(query, limit=5)
+        self._clear_candidate_cards()
 
-    # --- File Selection & Drag & Drop ---
+        if not matches:
+            self.search_status_lbl.setText(
+                f"⚠️ По запросу <b>«{query}»</b> ничего не найдено. Проверьте опечатку или введите 16-значный Title ID напрямую."
+            )
+            self.search_status_lbl.setVisible(True)
+            return
+
+        # If only 1 result with exact or high confidence, show it prominently
+        self.search_status_lbl.setText(f"🔎 <b>Найдено вариантов ({len(matches)}):</b> нажмите на игру или Title ID для выбора:")
+        self.search_status_lbl.setVisible(True)
+
+        for match in matches:
+            card = self._create_candidate_card(match)
+            self.candidates_layout.addWidget(card)
+            card.show()
+
+    def _create_candidate_card(self, game_info: Dict[str, Any]) -> QFrame:
+        card = QFrame(self.candidates_container)
+        card.setCursor(QCursor(Qt.PointingHandCursor))
+        card.setStyleSheet("""
+            QFrame {
+                background-color: #1A222D;
+                border: 1px solid #2D3A4B;
+                border-radius: 6px;
+                padding: 6px 10px;
+            }
+            QFrame:hover {
+                background-color: #242E3D;
+                border: 1px solid #00E5FF;
+            }
+        """)
+
+        card_layout = QHBoxLayout(card)
+        card_layout.setContentsMargins(8, 6, 8, 6)
+
+        # Title and details
+        text_col = QVBoxLayout()
+        text_col.setSpacing(2)
+
+        title_row = QHBoxLayout()
+        title_lbl = QLabel(f"<b>{game_info.get('title')}</b>", card)
+        title_lbl.setStyleSheet("color: #FFFFFF; font-size: 13px;")
+        title_row.addWidget(title_lbl)
+
+        if game_info.get("isHomebrew"):
+            hb_badge = QLabel("Homebrew / Порт", card)
+            hb_badge.setStyleSheet("""
+                background-color: #F59E0B;
+                color: #000000;
+                font-size: 10px;
+                font-weight: bold;
+                border-radius: 3px;
+                padding: 1px 5px;
+            """)
+            title_row.addWidget(hb_badge)
+
+        title_row.addStretch()
+        text_col.addLayout(title_row)
+
+        pub = game_info.get("publisher", "Unknown")
+        genre = game_info.get("genre", "Nintendo Switch")
+        meta_lbl = QLabel(f"🏢 {pub}  •  🏷 {genre}", card)
+        meta_lbl.setStyleSheet("color: #9AA4B2; font-size: 11px;")
+        text_col.addWidget(meta_lbl)
+
+        card_layout.addLayout(text_col, 1)
+
+        # Clickable Title ID Badge
+        tid = game_info.get("titleId", "")
+        tid_btn = QPushButton(f"🆔 {tid}", card)
+        tid_btn.setCursor(QCursor(Qt.PointingHandCursor))
+        tid_btn.setStyleSheet("""
+            QPushButton {
+                background-color: #0E7490;
+                color: #FFFFFF;
+                font-family: monospace;
+                font-size: 12px;
+                font-weight: bold;
+                border: 1px solid #00E5FF;
+                border-radius: 4px;
+                padding: 5px 10px;
+            }
+            QPushButton:hover {
+                background-color: #00E5FF;
+                color: #000000;
+            }
+        """)
+        tid_btn.clicked.connect(lambda checked=False, g=game_info: self._select_game(g))
+        card_layout.addWidget(tid_btn)
+
+        # Clicking the entire card also selects the game
+        card.mousePressEvent = lambda event, g=game_info: self._select_game(g)
+
+        return card
+
+    def _select_game(self, game_info: Dict[str, Any]):
+        tid = game_info.get("titleId", "").upper()
+        name = game_info.get("title", "")
+        pub = game_info.get("publisher", "Official")
+        genre = game_info.get("genre", "Game")
+        is_hb = game_info.get("isHomebrew", False)
+
+        self.selected_title_id = tid
+        self.selected_game_name = name
+        self.selected_publisher = pub
+        self.selected_genre = genre
+        self.selected_is_homebrew = is_hb
+
+        # Update confirmed banner
+        hb_suffix = "  <span style='background:#F59E0B; color:#000; border-radius:3px; padding:2px 5px; font-size:11px;'>Homebrew / Порт</span>" if is_hb else ""
+        self.active_game_title_lbl.setText(f"🎮 <b>{name}</b>{hb_suffix}")
+        self.active_tid_badge.setText(f"[ {tid} ]")
+        self.active_meta_lbl.setText(f"🏢 Издатель: {pub}  •  🏷 Жанр: {genre}")
+
+        self.active_game_frame.setVisible(True)
+        self._clear_candidate_cards()
+        self.search_status_lbl.setVisible(False)
+
+        # Sync search edit without retriggering search loop
+        self.game_search_edit.blockSignals(True)
+        self.game_search_edit.setText(name)
+        self.game_search_edit.blockSignals(False)
+
+    def _change_game_clicked(self):
+        self.active_game_frame.setVisible(False)
+        self.game_search_edit.setFocus()
+        self.game_search_edit.selectAll()
+        self._do_search()
+
+    def _clear_game_selection(self):
+        self.game_search_edit.clear()
+        self.selected_title_id = ""
+        self.selected_game_name = ""
+        self.active_game_frame.setVisible(False)
+        self._clear_candidate_cards()
+        self.search_status_lbl.setText("🎮 <b>Игра не выбрана</b> — начните вводить название выше")
+        self.search_status_lbl.setVisible(True)
+
+    def _clear_candidate_cards(self):
+        # Remove candidate cards, keeping only the search_status_lbl
+        for i in reversed(range(self.candidates_layout.count())):
+            item = self.candidates_layout.itemAt(i)
+            widget = item.widget()
+            if widget and widget != self.search_status_lbl:
+                widget.setParent(None)
+                widget.deleteLater()
+
+    # =========================================================================
+    # --- Step 2: Video Loading & Drag and Drop ---
+    # =========================================================================
 
     def dragEnterEvent(self, event):
         if event.mimeData().hasUrls():
@@ -486,33 +938,153 @@ class ExpressTab(QWidget):
         detected_tid = TitleIdResolver.extract_title_id(path.name)
         if detected_tid and not self.selected_title_id:
             resolved = self.resolver.resolve_by_title_id(detected_tid) or f"Игра ({detected_tid})"
-            self.selected_title_id = detected_tid
-            self.selected_game_name = resolved
-            self.game_search_edit.setText(detected_tid)
-            self.game_badge_label.setText(f"🎯 <b>Определён Title ID из имени файла:</b> <code>{detected_tid}</code> — <b>{resolved}</b>")
+            self._select_game({
+                "titleId": detected_tid,
+                "title": resolved,
+                "publisher": "Auto-detected",
+                "genre": "Game",
+                "isHomebrew": False
+            })
 
         # Auto-suggest variant name from filename
         stem = path.stem
         clean_name = stem.replace("_", " ").replace("-", " ").title()
-        if len(clean_name) >= 3 and not self.var_name_edit.text() or self.var_name_edit.text() == "Dynamic Theme":
+        if len(clean_name) >= 3 and (not self.var_name_edit.text() or self.var_name_edit.text() == "Dynamic Theme"):
             self.var_name_edit.setText(clean_name)
 
-        # Update preview
-        self.start_spin.setRange(0.0, max(0.0, dur - 2.0))
+        # Set ranges for timing controls
+        self.start_spin.blockSignals(True)
+        self.dur_spin.blockSignals(True)
+        self.start_spin.setRange(0.0, max(0.0, dur - 1.0))
         self.dur_spin.setRange(2.0, min(30.0, dur))
-        self._update_preview_frame()
+        self.start_spin.blockSignals(False)
+        self.dur_spin.blockSignals(False)
 
+        # Load video into media player
+        self.media_player.stop()
+        self.media_player.setSource(QUrl.fromLocalFile(str(path.resolve())))
+        self.media_player.setPosition(1)
+        self.video_placeholder_lbl.setVisible(False)
+
+        # Update initial frame & icon preview
+        self._update_icon_crop_preview()
+        self._update_time_label()
+
+    # =========================================================================
+    # --- Step 4: Interactive Video Playback & Loop Preview ---
+    # =========================================================================
+
+    def _toggle_playback(self):
+        if not self.current_video_path or not self.current_video_path.exists():
+            QMessageBox.information(self, "Внимание", "Сначала выберите видеофайл в Шаге 2.")
+            return
+
+        if self.media_player.playbackState() == QMediaPlayer.PlaybackState.PlayingState:
+            self.media_player.pause()
+        else:
+            start_ms = int(self.start_spin.value() * 1000)
+            end_ms = int((self.start_spin.value() + self.dur_spin.value()) * 1000)
+            cur_ms = self.media_player.position()
+            if cur_ms < start_ms or cur_ms >= end_ms:
+                self.media_player.setPosition(start_ms)
+            self.media_player.play()
+
+    def _stop_playback(self):
+        self.media_player.stop()
+        start_ms = int(self.start_spin.value() * 1000)
+        self.media_player.setPosition(start_ms)
+        self.scrubber_slider.setValue(0)
+        self._update_time_label()
+
+    def _toggle_mute(self):
+        is_muted = self.audio_output.isMuted()
+        self.audio_output.setMuted(not is_muted)
+        self.btn_mute.setText("🔇" if not is_muted else "🔊")
+
+    def _on_player_state_changed(self, state: QMediaPlayer.PlaybackState):
+        if state == QMediaPlayer.PlaybackState.PlayingState:
+            self.btn_play_pause.setText("⏸ Пауза")
+            self.btn_play_pause.setStyleSheet("""
+                QPushButton {
+                    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #10B981, stop:1 #059669);
+                    color: #FFFFFF;
+                    font-weight: bold;
+                    font-size: 13px;
+                    border-radius: 6px;
+                    padding: 0 14px;
+                }
+            """)
+        else:
+            self.btn_play_pause.setText("▶ Воспроизвести")
+            self.btn_play_pause.setStyleSheet("""
+                QPushButton {
+                    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #8B5CF6, stop:1 #EC4899);
+                    color: #FFFFFF;
+                    font-weight: bold;
+                    font-size: 13px;
+                    border-radius: 6px;
+                    padding: 0 14px;
+                }
+            """)
+
+    def _on_player_position_changed(self, pos_ms: int):
+        start_ms = int(self.start_spin.value() * 1000)
+        end_ms = int((self.start_spin.value() + self.dur_spin.value()) * 1000)
+        dur_ms = max(1, end_ms - start_ms)
+
+        # Exact Switch loop playback: wrap around to start_ms
+        if pos_ms >= end_ms or pos_ms < start_ms:
+            self.media_player.setPosition(start_ms)
+            pos_ms = start_ms
+
+        rel_ms = max(0, min(pos_ms - start_ms, dur_ms))
+        pct = int((rel_ms / dur_ms) * 1000)
+
+        self.scrubber_slider.blockSignals(True)
+        self.scrubber_slider.setValue(pct)
+        self.scrubber_slider.blockSignals(False)
+
+        curr_sec = rel_ms / 1000.0
+        tot_sec = dur_ms / 1000.0
+        start_sec = self.start_spin.value()
+        end_sec = start_sec + self.dur_spin.value()
+        self.time_display_lbl.setText(
+            f"{curr_sec:04.1f}с / {tot_sec:04.1f}с  (Фрагмент Switch: {start_sec:.1f}с - {end_sec:.1f}с)"
+        )
+
+    def _on_scrubber_dragged(self, val: int):
+        start_ms = int(self.start_spin.value() * 1000)
+        end_ms = int((self.start_spin.value() + self.dur_spin.value()) * 1000)
+        dur_ms = max(1, end_ms - start_ms)
+        target_ms = start_ms + int((val / 1000.0) * dur_ms)
+        self.media_player.setPosition(target_ms)
+        self._update_time_label()
+
+    def _on_timing_changed(self):
+        start_ms = int(self.start_spin.value() * 1000)
+        if self.media_player.playbackState() != QMediaPlayer.PlaybackState.PlayingState:
+            self.media_player.setPosition(start_ms)
+        self._update_time_label()
+        self._update_icon_crop_preview()
+
+    def _update_time_label(self):
+        start_sec = self.start_spin.value()
+        dur_sec = self.dur_spin.value()
+        end_sec = start_sec + dur_sec
+        self.time_display_lbl.setText(
+            f"00:00.0 / {dur_sec:04.1f}с  (Фрагмент Switch: {start_sec:.1f}с - {end_sec:.1f}с)"
+        )
+
+    # =========================================================================
     # --- Mode & Cropping ---
+    # =========================================================================
 
     def _on_mode_changed(self):
         show_icon = not self.radio_cover.isChecked()
         self.pan_control_widget.setVisible(show_icon)
         self.icon_preview_lbl.setVisible(show_icon)
-        if hasattr(self, "icon_col"):
-            for i in range(self.icon_col.count()):
-                w = self.icon_col.itemAt(i).widget()
-                if w:
-                    w.setVisible(show_icon)
+        self.icon_title_lbl.setVisible(show_icon)
+        self.icon_meta_lbl.setVisible(show_icon)
 
     def _on_crop_slider_changed(self, val: int):
         if val == 0:
@@ -526,24 +1098,16 @@ class ExpressTab(QWidget):
         self.pan_percent_lbl.setText(label_text)
         self._update_icon_crop_preview()
 
-    def _update_preview_frame(self):
+    def _update_icon_crop_preview(self):
         if not self.current_video_path or not self.current_video_path.exists():
             return
 
         ts = self.start_spin.value()
         ok = ExpressProcessor.extract_preview_frame(self.current_video_path, ts, self.temp_frame_path)
-        if ok and self.temp_frame_path.exists():
-            pix = QPixmap(str(self.temp_frame_path))
-            if not pix.isNull():
-                self.cover_preview_lbl.setPixmap(
-                    pix.scaled(self.cover_preview_lbl.size(), Qt.KeepAspectRatio, Qt.SmoothTransformation)
-                )
-                self._update_icon_crop_preview(pix)
-
-    def _update_icon_crop_preview(self, source_pixmap: Optional[QPixmap] = None):
-        if not self.temp_frame_path.exists():
+        if not ok or not self.temp_frame_path.exists():
             return
-        pix = source_pixmap or QPixmap(str(self.temp_frame_path))
+
+        pix = QPixmap(str(self.temp_frame_path))
         if pix.isNull():
             return
 
@@ -563,19 +1127,25 @@ class ExpressTab(QWidget):
             cropped = pix
 
         self.icon_preview_lbl.setPixmap(
-            cropped.scaled(216, 216, Qt.IgnoreAspectRatio, Qt.SmoothTransformation)
+            cropped.scaled(240, 240, Qt.IgnoreAspectRatio, Qt.SmoothTransformation)
         )
 
-    # --- Publishing Pipeline ---
+    # =========================================================================
+    # --- Step 5: Publishing Pipeline ---
+    # =========================================================================
 
     def _start_publishing(self):
         if not self.current_video_path or not self.current_video_path.exists():
-            QMessageBox.warning(self, "Внимание", "Пожалуйста, выберите исходный видеоролик.")
+            QMessageBox.warning(self, "Внимание", "Пожалуйста, выберите исходный видеоролик в Шаге 2.")
             return
 
         if not self.selected_title_id:
-            QMessageBox.warning(self, "Внимание", "Пожалуйста, выберите игру из списка или укажите точный 16-значный Title ID.")
+            QMessageBox.warning(self, "Внимание", "Пожалуйста, выберите игру из списка в Шаге 1 или укажите 16-значный Title ID.")
             return
+
+        # Pause playback during export
+        if self.media_player.playbackState() == QMediaPlayer.PlaybackState.PlayingState:
+            self.media_player.pause()
 
         author = self.author_edit.text().strip() or "Community"
         self.settings.setValue("author_name", author)
