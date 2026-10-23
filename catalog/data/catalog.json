@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:51:56.937592+00:00",
+  "updatedAt": "2026-10-23T14:52:44.212241+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -30336,9 +30336,61 @@
           "notes": "Switch 720p 30fps H264 | Atréida The Crystalbow Acrobat Catacomb"
         }
       ]
+    },
+    {
+      "titleId": "0100485022F86000",
+      "title": "Curse Warrior",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100485022F86000.jpg",
+      "variants": [
+        {
+          "id": "v_242fb40a",
+          "name": "Allen Walker D.Gray Man",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1T7z0lHw9tvLld_Bv4f5CGFSzpO5nBlgD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1T7z0lHw9tvLld_Bv4f5CGFSzpO5nBlgD&sz=w640",
+          "sizeBytes": 4705240,
+          "sha256": "19A59B132B9BB7CA75CAC6A7C227FC068825CA12CA800A8D549EA8B3F816E83B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Allen Walker D.Gray Man | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "010024D016DC0000",
+      "title": "Syndrome",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010024D016DC0000.jpg",
+      "variants": [
+        {
+          "id": "v_34f97296",
+          "name": "Alice Syndrome Hang Out",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CKEKrGNEW70JTz57cEewWsMwkGkeYLek",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CKEKrGNEW70JTz57cEewWsMwkGkeYLek&sz=w640",
+          "sizeBytes": 4470976,
+          "sha256": "7C96C80501C3730ED095A5A6FB2607BFFAE86D3E95B62E333F5CB8895E9A74F7",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Alice Syndrome Hang Out | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 924,
-  "totalVariants": 1319,
+  "totalGames": 926,
+  "totalVariants": 1321,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
