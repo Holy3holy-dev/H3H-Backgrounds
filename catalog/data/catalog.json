@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:45:19.636846+00:00",
+  "updatedAt": "2026-10-23T14:46:23.151637+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -29952,9 +29952,35 @@
           "notes": "Switch 720p 30fps H264 | Uther Of The Ebon Blade Hearthstone | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "010024C013E58000",
+      "title": "One Escape",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010024C013E58000.jpg",
+      "variants": [
+        {
+          "id": "v_faaf6854",
+          "name": "No Way Home",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1EcEdf0M-xF-Xc6W_IthuJIZ3yHqijGOq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1EcEdf0M-xF-Xc6W_IthuJIZ3yHqijGOq&sz=w640",
+          "sizeBytes": 4596519,
+          "sha256": "46F0944B323D96EAE2ECB17D7544F9F9E28BEC9F1E85BCE2B29A63BBED03A641",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | No Way Home | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 912,
-  "totalVariants": 1303,
+  "totalGames": 913,
+  "totalVariants": 1304,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
