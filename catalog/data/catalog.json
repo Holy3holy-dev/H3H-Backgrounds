@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:19:42.853079+00:00",
+  "updatedAt": "2026-10-23T14:20:26.734201+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -28634,9 +28634,35 @@
           "notes": "Switch 720p 30fps H264 | Cherry Blossom Lake House Minecraft | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "01008D80148C8000",
+      "title": "King of Seas",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008D80148C8000.jpg",
+      "variants": [
+        {
+          "id": "v_ce1cf23e",
+          "name": "Night On The Seashore Noelle Memories Of",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MlNiS7qjSikamnihGd97der3fwnzHZFU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MlNiS7qjSikamnihGd97der3fwnzHZFU&sz=w640",
+          "sizeBytes": 4743825,
+          "sha256": "6DBC9037E03F1DE8930E7F0055D8236704A162855320B2D9804C6DE032B9FD5A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Night On The Seashore Noelle Memories Of | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 880,
-  "totalVariants": 1244,
+  "totalGames": 881,
+  "totalVariants": 1245,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
