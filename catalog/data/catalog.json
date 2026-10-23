@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:41:45.432211+00:00",
+  "updatedAt": "2026-10-23T13:42:59.886656+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -26338,9 +26338,79 @@
           "notes": "Switch 720p 30fps H264 | Ichigo Final Getsuga Tensho Monochrome | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "01006C10131F6000",
+      "title": "Pumpkin Jack",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006C10131F6000.jpg",
+      "variants": [
+        {
+          "id": "v_103ee61e",
+          "name": "Jack Skellington The Nightmare Before Ch",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pJA-QQTVcu7wYBn7jYxYguF5VhBYy5B6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pJA-QQTVcu7wYBn7jYxYguF5VhBYy5B6&sz=w640",
+          "sizeBytes": 4655882,
+          "sha256": "CA8C8807BCC22AEB8C5567CE649230BA87A417DA07EFDE06CC82C7948424F49B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Jack Skellington The Nightmare Before Ch"
+        },
+        {
+          "id": "v_10f48dfe",
+          "name": "Jack O&#8217; Lantern",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZZvoXB3H9Q2OllOjiFLrAvnUy0tJwWvw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZZvoXB3H9Q2OllOjiFLrAvnUy0tJwWvw&sz=w640",
+          "sizeBytes": 4712307,
+          "sha256": "8BE1E50DC48187E2B8DFD9186AEF9A2C14D08468B9CEF2DAB768E5757C713CC6",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Jack O&#8217; Lantern | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D5F026866000",
+      "title": "City Hunter",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D5F026866000.jpg",
+      "variants": [
+        {
+          "id": "v_49391880",
+          "name": "Dante Boss Fight! Devil May Cry 5",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1a-fd_xoUdcLu_oIc-bRVHD3MN1X0tADa",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1a-fd_xoUdcLu_oIc-bRVHD3MN1X0tADa&sz=w640",
+          "sizeBytes": 4663758,
+          "sha256": "A546B4D62D42B184387120E4200F60EE65377C3F8FFBDA1E80124103D95B8603",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dante Boss Fight! Devil May Cry 5 | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 827,
-  "totalVariants": 1140,
+  "totalGames": 829,
+  "totalVariants": 1143,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
