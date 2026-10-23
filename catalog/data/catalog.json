@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:09:08.329912+00:00",
+  "updatedAt": "2026-10-23T14:11:42.656497+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -28070,9 +28070,115 @@
           "notes": "Switch 720p 30fps H264 | Sekiro Vs Corrupted Monk Sekiro: Shadows | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "01007C200FC64000",
+      "title": "Shing",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007C200FC64000.jpg",
+      "variants": [
+        {
+          "id": "v_3b37ed2a",
+          "name": "Kid Buu Vanishing Ball Dragon Ball Z",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yxDgKxiMf-_to_ymCpuxwBAyZ7-h9Dqe",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yxDgKxiMf-_to_ymCpuxwBAyZ7-h9Dqe&sz=w640",
+          "sizeBytes": 4748642,
+          "sha256": "D8946DB975551A1C32524B878FE0F68996CFD11263BCC98892AC51249957C79F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Kid Buu Vanishing Ball Dragon Ball Z"
+        },
+        {
+          "id": "v_7c99acc9",
+          "name": "Amiya Blushing Arknights",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1isjN6vIMf6xZfd8rBs1qQ01yxH6IG_V8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1isjN6vIMf6xZfd8rBs1qQ01yxH6IG_V8&sz=w640",
+          "sizeBytes": 4562497,
+          "sha256": "7B2EB847546BDB8A1DA98111F8DB42839A0D63A00B9FC8E4850A2F44537E817A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Amiya Blushing Arknights"
+        },
+        {
+          "id": "v_03a6cd25",
+          "name": "Punishing Gray Raven Adelyde Anabasis",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1soHW0ox7HUP3LU9geF5tUZaEk4MLwJNK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1soHW0ox7HUP3LU9geF5tUZaEk4MLwJNK&sz=w640",
+          "sizeBytes": 4731019,
+          "sha256": "8528636E421EBC72E40B02ECB408BFABB8D357CC9CDFFC7D30B98E8765DCB3C2",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Punishing Gray Raven Adelyde Anabasis"
+        },
+        {
+          "id": "v_f85cd4c2",
+          "name": "Kurumi X Adelyde Punishing Gray Raven",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1JJ8we47UW3txSyl7Xad8HVn1iPuufd4p",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1JJ8we47UW3txSyl7Xad8HVn1iPuufd4p&sz=w640",
+          "sizeBytes": 4755409,
+          "sha256": "1F728F269DA13D4119D8F40C95DFBC6BBA98B3B60A25472F284F522C15A358B7",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Kurumi X Adelyde Punishing Gray Raven"
+        }
+      ]
+    },
+    {
+      "titleId": "0100581007068000",
+      "title": "Lost Castle",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100581007068000.jpg",
+      "variants": [
+        {
+          "id": "v_cb26fcc8",
+          "name": "Lost Forest",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16qAc7JOcAPMBzsAMZV1fAPs2d26erlmp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16qAc7JOcAPMBzsAMZV1fAPs2d26erlmp&sz=w640",
+          "sizeBytes": 4670822,
+          "sha256": "AEF76FBBE094023D5E7C971A3E18F0ABE4E7F77F84177EDDA52B2A9CDFBA5E24",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Lost Forest"
+        }
+      ]
     }
   ],
-  "totalGames": 868,
-  "totalVariants": 1218,
+  "totalGames": 870,
+  "totalVariants": 1223,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
