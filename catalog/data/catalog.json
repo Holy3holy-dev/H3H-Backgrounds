@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:50:01.621638+00:00",
+  "updatedAt": "2026-10-23T13:51:22.916305+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -26908,9 +26908,123 @@
           "notes": "Switch 720p 30fps H264 | Itachi Sharingan Lightning | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "01004AA01A6BA000",
+      "title": "Nova Lands",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004AA01A6BA000.jpg",
+      "variants": [
+        {
+          "id": "v_7e94dc19",
+          "name": "Aether Vs Ronova Boss Fight Genshin Impa",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10E8QBvt4ftw_h_nNe6dCermFUoXSiqhR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10E8QBvt4ftw_h_nNe6dCermFUoXSiqhR&sz=w640",
+          "sizeBytes": 4538964,
+          "sha256": "BDE6C705D69A8913EA5CA86366DB79A7CB620A649A6DB95BB07EC6C513C9CCD9",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Aether Vs Ronova Boss Fight Genshin Impa"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B2D023548000",
+      "title": "Sea Fantasy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B2D023548000.jpg",
+      "variants": [
+        {
+          "id": "v_d1e5c3f7",
+          "name": "Princess Yan Playing Piano In Deep Sea G",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GFuZuLjNybghpxFuSIpQ2d_m_tZeY55z",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GFuZuLjNybghpxFuSIpQ2d_m_tZeY55z&sz=w640",
+          "sizeBytes": 4699813,
+          "sha256": "BCF9AF8E7A9BEB9EED76348C287E67178AB668C134501C626463A5BF87D68540",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Princess Yan Playing Piano In Deep Sea G | ЗВУК"
+        },
+        {
+          "id": "v_2eeb8e75",
+          "name": "Princess Aeolian Sea Travel Ghostblade",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_OmEXLcIjBXstkSeYPBGfTyKuwbr9_F5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_OmEXLcIjBXstkSeYPBGfTyKuwbr9_F5&sz=w640",
+          "sizeBytes": 4707346,
+          "sha256": "6FF60E777B31D63E61149570400B14F83AFBC9FBE1CAFF29596449C5EB9888BB",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Princess Aeolian Sea Travel Ghostblade | ЗВУК"
+        },
+        {
+          "id": "v_38759880",
+          "name": "Ships The Sea Of Thieves",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qtHLx9gFtmXkoL9SBYKdMTUGJ-H5JWOA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qtHLx9gFtmXkoL9SBYKdMTUGJ-H5JWOA&sz=w640",
+          "sizeBytes": 4728385,
+          "sha256": "C7567E01FBD9F2BCEE6BC178E74F8D8A38243F7FC0038C8B57C550A7DFC45752",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ships The Sea Of Thieves | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "010060A011ECC000",
+      "title": "Knights and Guns",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010060A011ECC000.jpg",
+      "variants": [
+        {
+          "id": "v_b68ee2f5",
+          "name": "Liskarm And Amiya In Rhodes Island Arkni",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Fj-DWG_Abw7_cI4jFqLkCuVL-y7G86-L",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Fj-DWG_Abw7_cI4jFqLkCuVL-y7G86-L&sz=w640",
+          "sizeBytes": 4817576,
+          "sha256": "0C0996BE8FC05C6D9C5DD5EEB3AA0F21A55C6686606B85CE7957AB2B6A9E703D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Liskarm And Amiya In Rhodes Island Arkni | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 842,
-  "totalVariants": 1165,
+  "totalGames": 845,
+  "totalVariants": 1170,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
