@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:25:25.791270+00:00",
+  "updatedAt": "2026-10-23T13:27:04.327211+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -25270,9 +25270,115 @@
           "notes": "Switch 720p 30fps H264 | Invoker Covenant Of The Depths Dota 2 | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "01008E200C5C2000",
+      "title": "Muse Dash",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008E200C5C2000.jpg",
+      "variants": [
+        {
+          "id": "v_a498fe8a",
+          "name": "Muse Dash X Touhou Project",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nq6KfRWv7qFgBcAEop3GvNban0lCJw2b",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nq6KfRWv7qFgBcAEop3GvNban0lCJw2b&sz=w640",
+          "sizeBytes": 4734280,
+          "sha256": "8CDA8681BA3B4AA6A072FC8D8C9CFE2AC51EBCE7AC5ABC0B2C42FEBA5E2D9E64",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Muse Dash X Touhou Project | ЗВУК"
+        },
+        {
+          "id": "v_b0af83aa",
+          "name": "Muse Dash X Arknights Collaboration",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yforISrGLlOTYAD2Z-7Z8F-wkqK42YSz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yforISrGLlOTYAD2Z-7Z8F-wkqK42YSz&sz=w640",
+          "sizeBytes": 4708474,
+          "sha256": "095D8AC24EB117651BD68C3ADF1AF0F47D5FA8D493E7E8285B357E9E7CBA5336",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Muse Dash X Arknights Collaboration"
+        },
+        {
+          "id": "v_facbdc9b",
+          "name": "Marija Muse Dash",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12sTsHKdP8VbYwOaZJF7JLCI2YOTW0G9l",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12sTsHKdP8VbYwOaZJF7JLCI2YOTW0G9l&sz=w640",
+          "sizeBytes": 4708418,
+          "sha256": "2116B233E895FF9E00FD3A0F47D70BA2C762D5BAA43A95F0E6AA1D8AE4AA3674",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Marija Muse Dash"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E110188FA000",
+      "title": "Minimal Move",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E110188FA000.jpg",
+      "variants": [
+        {
+          "id": "v_2e1d267a",
+          "name": "Tiger In A Box",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1r9sAY7SLD3Ew-DaA9P3WDHmsdR9gs_BR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1r9sAY7SLD3Ew-DaA9P3WDHmsdR9gs_BR&sz=w640",
+          "sizeBytes": 4689102,
+          "sha256": "CEB8169CF66F60D0F3F93297632B43CA55FEA3D967D0DFBBF56D92F947DA279B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tiger In A Box | ЗВУК"
+        },
+        {
+          "id": "v_e7e802c3",
+          "name": "Cubes",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IoWntySN6E-lQkMphFXdtRZEL1MSt6t1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IoWntySN6E-lQkMphFXdtRZEL1MSt6t1&sz=w640",
+          "sizeBytes": 3399644,
+          "sha256": "404C5CA12E5C402CA464B99EDE963087401A7DFFA949BB9C85ED61CCEFEF8019",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cubes | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 806,
-  "totalVariants": 1090,
+  "totalGames": 808,
+  "totalVariants": 1095,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
