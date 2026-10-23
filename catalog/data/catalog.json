@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T16:15:04.508262+00:00",
+  "updatedAt": "2026-10-23T16:16:45.326634+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -34019,9 +34019,123 @@
           "notes": "Switch 720p 30fps H264 | Kurumi Zafkiel Eye Date A Live"
         }
       ]
+    },
+    {
+      "titleId": "01004B50167D8000",
+      "title": "To Be or Not To Be",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004B50167D8000.jpg",
+      "variants": [
+        {
+          "id": "v_a500a3dd",
+          "name": "Subaru And Beatrice Smoking Together Re:",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DDPvwmRux9WTrRwlQa34_rhSMB_v4Ddb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DDPvwmRux9WTrRwlQa34_rhSMB_v4Ddb&sz=w640",
+          "sizeBytes": 4699344,
+          "sha256": "A015A589FD732B6F27DD3813D682410A1B089656CC21A165DF267F632F8C2705",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Subaru And Beatrice Smoking Together Re: | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "010038200A98E000",
+      "title": "In Between",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010038200A98E000.jpg",
+      "variants": [
+        {
+          "id": "v_1c0c8893",
+          "name": "Zhuang Fangyi Between Mountains and Rive",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14fluPOUqFp6StZW5sSyvnYQf5F-pJ5KQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14fluPOUqFp6StZW5sSyvnYQf5F-pJ5KQ&sz=w640",
+          "sizeBytes": 4686084,
+          "sha256": "2D6BD61ACAD0E53F1F7D27576A66E07EB4E195A0809A3867FF3522FD77E2D67C",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Zhuang Fangyi Between Mountains and Rive"
+        },
+        {
+          "id": "v_9fcb4457",
+          "name": "Between The Twin Cities",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1JN6m8VWF7PnxlfdGkQctAvv0lnz2PA-B",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1JN6m8VWF7PnxlfdGkQctAvv0lnz2PA-B&sz=w640",
+          "sizeBytes": 4644083,
+          "sha256": "08810954F5AADF9E43B1DAD971BA6D1BBEDFD5E0E23BF638588DC680755C4666",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Between The Twin Cities | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A6700AF10000",
+      "title": "Element",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A6700AF10000.jpg",
+      "variants": [
+        {
+          "id": "v_2428d85b",
+          "name": "Yae Miko Elemental Burst Genshin Impact",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=181oI0qZ51QAglvBkKCKzluWIWlAoZh2Y",
+          "previewUrl": "https://drive.google.com/thumbnail?id=181oI0qZ51QAglvBkKCKzluWIWlAoZh2Y&sz=w640",
+          "sizeBytes": 4703555,
+          "sha256": "06AE253D60B596FF55F7359C411C18179566922E4BBFF2F03E09A37A6C4E8FFF",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Yae Miko Elemental Burst Genshin Impact | ЗВУК"
+        },
+        {
+          "id": "v_ada8bcbb",
+          "name": "Elementalist Lux Ice Form Snowdown Leagu",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HrkvYZOIC5TsyZufUPm-gJhenHyIlHos",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HrkvYZOIC5TsyZufUPm-gJhenHyIlHos&sz=w640",
+          "sizeBytes": 4960692,
+          "sha256": "E29CCDBF08B2F448E26B4003BF7A622FB71DFB92BBEA736C895EFBA109C91F82",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Elementalist Lux Ice Form Snowdown Leagu | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 1002,
-  "totalVariants": 1489,
+  "totalGames": 1005,
+  "totalVariants": 1494,
   "lastUpdated": "2026-10-23T16:13:45.683859+00:00"
 }
