@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T12:56:38.876553+00:00",
+  "updatedAt": "2026-10-23T12:57:29.912209+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -22974,6 +22974,78 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Moss Grotto Hollow Knight Silksong | ЗВУК"
+        },
+        {
+          "id": "v_ff949585",
+          "name": "Hollow Knight: Silksong",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NU7LEKgr-AuE-nkLpLJ75wJ7UzuKkXn3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NU7LEKgr-AuE-nkLpLJ75wJ7UzuKkXn3&sz=w640",
+          "sizeBytes": 4699496,
+          "sha256": "08B09B5BFFF3A884976F2B23788F42223AFE190F975377EEF3703EDF9955029D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hollow Knight: Silksong | ЗВУК"
+        },
+        {
+          "id": "v_6baf38ea",
+          "name": "Hollow Knight",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xyVLvSJ0K4Adp2TLtXJAINGNpl9iVuTL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xyVLvSJ0K4Adp2TLtXJAINGNpl9iVuTL&sz=w640",
+          "sizeBytes": 4705613,
+          "sha256": "8394804FDFF9A4550A2A236314EFE7E8E1AC5BBFE2C312BAC276AF1CC714C394",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hollow Knight | ЗВУК"
+        },
+        {
+          "id": "v_4b82c4fc",
+          "name": "Hollow Knight",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OWD7BnqKfC_6wwuXzCeMlWkHCQeWIdnd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OWD7BnqKfC_6wwuXzCeMlWkHCQeWIdnd&sz=w640",
+          "sizeBytes": 4633885,
+          "sha256": "C1A6FE60E03CD95C80F8B296B6725E4BE7D43AC4C454C0032B3CA906B034D6AD",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Hollow Knight"
+        },
+        {
+          "id": "v_d42f6b83",
+          "name": "Broken Vessel Hollow Knight",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1k7HeKSLoYlec9PZf54EvrsfZ2f1E-i6S",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1k7HeKSLoYlec9PZf54EvrsfZ2f1E-i6S&sz=w640",
+          "sizeBytes": 4731673,
+          "sha256": "F6896ADAE47F20A73BADD3F35CC25E4673FF3795333DA93E90DF8EDD83EFB133",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Broken Vessel Hollow Knight | ЗВУК"
         }
       ]
     },
@@ -24233,6 +24305,6 @@
     }
   ],
   "totalGames": 793,
-  "totalVariants": 1038,
+  "totalVariants": 1042,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
