@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:53:24.821152+00:00",
+  "updatedAt": "2026-10-23T13:54:23.120613+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -27172,9 +27172,89 @@
           "notes": "Switch 720p 30fps H264 | Primordial Aatrox League Of Legends"
         }
       ]
+    },
+    {
+      "titleId": "0100A62002042000",
+      "title": "Rime",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A62002042000.jpg",
+      "variants": [
+        {
+          "id": "v_3489ed11",
+          "name": "Partners In Crime Grand Theft Auto VI",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ICL2MBm4Zbp9qDGjmK8Gn7mEsEvVoIPQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ICL2MBm4Zbp9qDGjmK8Gn7mEsEvVoIPQ&sz=w640",
+          "sizeBytes": 4680948,
+          "sha256": "01E1FC2EC24E3070E093730C72D5C5132EF040E580AC486198FBFB06B1F896EB",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Partners In Crime Grand Theft Auto VI"
+        },
+        {
+          "id": "v_89dd0c76",
+          "name": "Serial Experiments Lain",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1b3AQSMhS0_dn11VbJeUXQzvxVzFa95b-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1b3AQSMhS0_dn11VbJeUXQzvxVzFa95b-&sz=w640",
+          "sizeBytes": 4697329,
+          "sha256": "18C7327519603FE67568401D3A941A2368D63CF256D9D513FD154F575704451C",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Serial Experiments Lain"
+        },
+        {
+          "id": "v_7f8b66b0",
+          "name": "Crime City Nightmare Shaco League Of Leg",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15npbfEsKiAXaTS7xfKK2ioCiFparI1hm",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15npbfEsKiAXaTS7xfKK2ioCiFparI1hm&sz=w640",
+          "sizeBytes": 4706524,
+          "sha256": "1966392EF4A1CDF3DCD6B3F117BD02E3B3778517E5AD568428F755BCE8136F39",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Crime City Nightmare Shaco League Of Leg | ЗВУК"
+        },
+        {
+          "id": "v_ea1e6848",
+          "name": "Crime City Nightmare Akali League Of Leg",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1x8wBH9P11YwBG-732K7g8LKG2NIg1Da4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1x8wBH9P11YwBG-732K7g8LKG2NIg1Da4&sz=w640",
+          "sizeBytes": 4766527,
+          "sha256": "3D9CE967F560E0E114370A863BE4FEBDF74CA0736C12994A208A1B2D731341A8",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Crime City Nightmare Akali League Of Leg | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 848,
-  "totalVariants": 1177,
+  "totalGames": 849,
+  "totalVariants": 1181,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
