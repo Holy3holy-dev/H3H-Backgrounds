@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T15:21:07.306407+00:00",
+  "updatedAt": "2026-10-23T15:22:10.586961+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -32186,9 +32186,89 @@
           "notes": "Switch 720p 30fps H264 | Giyu Water Breathing Demon Slayer"
         }
       ]
+    },
+    {
+      "titleId": "010022201D254000",
+      "title": "Flooded",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010022201D254000.jpg",
+      "variants": [
+        {
+          "id": "v_ab95e068",
+          "name": "Neko Girl On Flooded Road",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fdTaWR8CrS7sPqq6q8-ihvwfkCm7yT-R",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fdTaWR8CrS7sPqq6q8-ihvwfkCm7yT-R&sz=w640",
+          "sizeBytes": 4680944,
+          "sha256": "FFE56EDDDCE04AD3AB3D49906FE45FA7BCFA5F7C460BDFFF723B9D97D98BC7D0",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Neko Girl On Flooded Road | ЗВУК"
+        },
+        {
+          "id": "v_81a7a928",
+          "name": "Anime Girl Rainy Alley",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1R6rK7kKxX2ToqeaPsMUuvv9Pai1Bkkd1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1R6rK7kKxX2ToqeaPsMUuvv9Pai1Bkkd1&sz=w640",
+          "sizeBytes": 4687548,
+          "sha256": "1D1BD1311153E63D84918A290ED5D672CAA9F4010625135E0498330A9E8146C0",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Anime Girl Rainy Alley | ЗВУК"
+        },
+        {
+          "id": "v_92d73d66",
+          "name": "BMW M4 Night Rain",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eG1xQ8Fmt78zx3bUNKSnM9lvIdO63orD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eG1xQ8Fmt78zx3bUNKSnM9lvIdO63orD&sz=w640",
+          "sizeBytes": 4942491,
+          "sha256": "F9F9E7DBE878856C86E99CEBE97EF713DADC23FC1EA45F5B2E472DB164E0C9E6",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | BMW M4 Night Rain | ЗВУК"
+        },
+        {
+          "id": "v_e196b484",
+          "name": "Anime Girl Umbrella Reflection",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FhR9-jnWKD0Urd-WK9KVyDKU2aMrgHpg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FhR9-jnWKD0Urd-WK9KVyDKU2aMrgHpg&sz=w640",
+          "sizeBytes": 4746172,
+          "sha256": "2C377CC12F3EC2FA34B1506F213B7B64A9813B5FE64D1FC6B705C48624F71013",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Anime Girl Umbrella Reflection | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 964,
-  "totalVariants": 1404,
+  "totalGames": 965,
+  "totalVariants": 1408,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
