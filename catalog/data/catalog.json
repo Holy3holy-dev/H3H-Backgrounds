@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:42:15.400615+00:00",
+  "updatedAt": "2026-10-23T14:43:23.206946+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -29716,9 +29716,87 @@
           "notes": "Switch 720p 30fps H264 | Eternal Strands"
         }
       ]
+    },
+    {
+      "titleId": "0100D6501D73C000",
+      "title": "The Cub",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D6501D73C000.jpg",
+      "variants": [
+        {
+          "id": "v_713ec41d",
+          "name": "Albedo In The Water Overlord",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14a-zCSb6csdhoA2bu3JQDZCGEBjESfcS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14a-zCSb6csdhoA2bu3JQDZCGEBjESfcS&sz=w640",
+          "sizeBytes": 4727086,
+          "sha256": "2CED18DC19A30EF9C79AE948ADA830F66CE3D19F6FC6B5BA87414AFE2EE6D67B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Albedo In The Water Overlord | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CB501EBA4000",
+      "title": "Monolith",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CB501EBA4000.jpg",
+      "variants": [
+        {
+          "id": "v_494f5ced",
+          "name": "The Monolith",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11nchXwSdOrRq47BuJDhafj7QXdGxhkfl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11nchXwSdOrRq47BuJDhafj7QXdGxhkfl&sz=w640",
+          "sizeBytes": 4620666,
+          "sha256": "886F805C04068E56EA7DF3F6711CEE4F63225FF001E8BFE0518BCCAA0FA4C89A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Monolith | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "01002A10210A2000",
+      "title": "Agent Fall",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002A10210A2000.jpg",
+      "variants": [
+        {
+          "id": "v_79ee2691",
+          "name": "Agent Cat",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rcrLXCr0V4_0ycoDOB5UQefSmJI-UlHL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rcrLXCr0V4_0ycoDOB5UQefSmJI-UlHL&sz=w640",
+          "sizeBytes": 4708085,
+          "sha256": "3F0B1514F9D48602D301753AEA6AE2CE137D4429ABA5A64D85BDB9B0FDF91C84",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Agent Cat | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 905,
-  "totalVariants": 1293,
+  "totalGames": 908,
+  "totalVariants": 1296,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
