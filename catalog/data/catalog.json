@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:54:36.656428+00:00",
+  "updatedAt": "2026-10-23T14:55:26.265854+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -30556,9 +30556,61 @@
           "notes": "Switch 720p 30fps H264 | Severed Universe Fire Force | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "01002DB007A96000",
+      "title": "Legend of Kay Anniversary",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002DB007A96000.jpg",
+      "variants": [
+        {
+          "id": "v_c978b742",
+          "name": "League Of Legends 10th Anniversary Login",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13Jfwi1QigebGaAVsk9geg3NbyB9OgCcq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13Jfwi1QigebGaAVsk9geg3NbyB9OgCcq&sz=w640",
+          "sizeBytes": 4760011,
+          "sha256": "F3A8EAB497C2C0EEA867909C04CE2C6C97B037BCEDC6C52BD6BC81EFE88714FF",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | League Of Legends 10th Anniversary Login"
+        }
+      ]
+    },
+    {
+      "titleId": "0100172012F88000",
+      "title": "Teacup",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100172012F88000.jpg",
+      "variants": [
+        {
+          "id": "v_b4ea3ba9",
+          "name": "Kaguya Shinomiya Teacup Kaguya-Sama Love",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1sxT9cxw1ytwinVJoLxhFCUc4oXHk1npA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1sxT9cxw1ytwinVJoLxhFCUc4oXHk1npA&sz=w640",
+          "sizeBytes": 4673227,
+          "sha256": "5C37A903AC968964A5B17254E33956F3D98E58D41B309B73A015CBA1FA63BA89",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kaguya Shinomiya Teacup Kaguya-Sama Love | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 929,
-  "totalVariants": 1329,
+  "totalGames": 931,
+  "totalVariants": 1331,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
