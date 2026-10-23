@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:59:21.485263+00:00",
+  "updatedAt": "2026-10-23T15:02:20.034459+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -30908,9 +30908,115 @@
           "notes": "Switch 720p 30fps H264 | Fantasy Warrior Vs Dragon Lake"
         }
       ]
+    },
+    {
+      "titleId": "01005C40037C6000",
+      "title": "I and Me",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005C40037C6000.jpg",
+      "variants": [
+        {
+          "id": "v_db1525da",
+          "name": "Anime Girl Cozy Rain And Cat",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14iMpD3D-F5jgHUktGsoKm6wq-CmupzIb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14iMpD3D-F5jgHUktGsoKm6wq-CmupzIb&sz=w640",
+          "sizeBytes": 4747409,
+          "sha256": "534D2EDFD7DB33F03E22AB339072EDCD1BD14E125190573C0C6E6769CAB9D28B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Anime Girl Cozy Rain And Cat"
+        },
+        {
+          "id": "v_a8ae9226",
+          "name": "Anime Girl Tattoos And Orchids",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1utJ1MIzzHbnFEh42MeVhM4tP0wcH3vy4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1utJ1MIzzHbnFEh42MeVhM4tP0wcH3vy4&sz=w640",
+          "sizeBytes": 4719506,
+          "sha256": "34CA3BB418BE6D11AA80D4683A1AA03EDCE78802254228B8917A3F0940E348B6",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Anime Girl Tattoos And Orchids"
+        },
+        {
+          "id": "v_b0053684",
+          "name": "Cute Anime Girl And Daisies",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SyJeqrQwjAl-HRtBc8g4ZMh1uo31UDQn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SyJeqrQwjAl-HRtBc8g4ZMh1uo31UDQn&sz=w640",
+          "sizeBytes": 4732916,
+          "sha256": "3654D5C95CD48AAB8A50034828BF8D601A57EA7391247601BF5262DC4A401DCE",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cute Anime Girl And Daisies | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D99009734000",
+      "title": "White Night",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D99009734000.jpg",
+      "variants": [
+        {
+          "id": "v_be7de25b",
+          "name": "White Flower Field Moon Night Ghost Of T",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bCGGyzZYvdzgCn6Aw8b0BU5ewy92vPBo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bCGGyzZYvdzgCn6Aw8b0BU5ewy92vPBo&sz=w640",
+          "sizeBytes": 4731116,
+          "sha256": "6413BCD1AC50E4677C1548B552E41CB4F6B3BD5778B79DBBA9B3BB47EE14E378",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | White Flower Field Moon Night Ghost Of T | ЗВУК"
+        },
+        {
+          "id": "v_024fc338",
+          "name": "Skadi Blood Moon Ocean Arknights",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SvZ2xZToQq8IR5nS_Zjkg8O__S_kvpYi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SvZ2xZToQq8IR5nS_Zjkg8O__S_kvpYi&sz=w640",
+          "sizeBytes": 4700998,
+          "sha256": "D1756113D79921AE881F851AEED933DCE224AFB39B7EC7893BE3F35139033E78",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Skadi Blood Moon Ocean Arknights"
+        }
+      ]
     }
   ],
-  "totalGames": 937,
-  "totalVariants": 1345,
+  "totalGames": 939,
+  "totalVariants": 1350,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
