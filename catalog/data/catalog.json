@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T15:37:35.800978+00:00",
+  "updatedAt": "2026-10-23T15:38:34.943805+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -33252,9 +33252,97 @@
           "notes": "Switch 720p 30fps H264 | Mysterious Shadow In The Night | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "010095600F1A8000",
+      "title": "Stab Stab Stab",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010095600F1A8000.jpg",
+      "variants": [
+        {
+          "id": "v_e546d1cf",
+          "name": "Saber Stabs Gilgamesh Fate Stay Night",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dnH1ip0ArV_fi7eXn-fH2uURic3Dcdoe",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dnH1ip0ArV_fi7eXn-fH2uURic3Dcdoe&sz=w640",
+          "sizeBytes": 4717176,
+          "sha256": "BB2440B18CA09E11B40474FCACA7F859FB46FDE06A176756C5632FB7153CA2A2",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Saber Stabs Gilgamesh Fate Stay Night | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "01004C6017CA4000",
+      "title": "Tensei",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004C6017CA4000.jpg",
+      "variants": [
+        {
+          "id": "v_9bd6694c",
+          "name": "Pain Nagato Chibaku Tensei Jutsu",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NTf73BdGesd_G9RKdOJED3jg4BbcWK3i",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NTf73BdGesd_G9RKdOJED3jg4BbcWK3i&sz=w640",
+          "sizeBytes": 4737023,
+          "sha256": "EBBA8FDED34CEAC7A9B1E76BAFBCC909448675AE06A43279D1DA128364A8E2AC",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Pain Nagato Chibaku Tensei Jutsu | ЗВУК"
+        },
+        {
+          "id": "v_de3a4cca",
+          "name": "Madara Edo Tensei Fourth Shinobi World W",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1t0kZeupUowQaembQsqZbbb9AUwmnBPtD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1t0kZeupUowQaembQsqZbbb9AUwmnBPtD&sz=w640",
+          "sizeBytes": 4777514,
+          "sha256": "EEEE7B14ED606A81806C068C677BC93F0AFCB8B1B79E765937D8D2B993D5A115",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Madara Edo Tensei Fourth Shinobi World W | ЗВУК"
+        },
+        {
+          "id": "v_1bb3f639",
+          "name": "Madara Susanoo",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lzkBTks35XI_wJK3amjLHgJZFliAqPs0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lzkBTks35XI_wJK3amjLHgJZFliAqPs0&sz=w640",
+          "sizeBytes": 4690887,
+          "sha256": "BC21451A66625CC16DEC2FD277DE4529E726F96B12DF2DAA1E26AFBDE68D34F7",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Madara Susanoo"
+        }
+      ]
     }
   ],
-  "totalGames": 987,
-  "totalVariants": 1453,
+  "totalGames": 989,
+  "totalVariants": 1457,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
