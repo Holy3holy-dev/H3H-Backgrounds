@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T15:18:42.076250+00:00",
+  "updatedAt": "2026-10-23T15:19:55.706127+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -31974,9 +31974,115 @@
           "notes": "Switch 720p 30fps H264 | Big City Split Fiction"
         }
       ]
+    },
+    {
+      "titleId": "0100FA4019BD6000",
+      "title": "Re Call",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FA4019BD6000.jpg",
+      "variants": [
+        {
+          "id": "v_d5d03f98",
+          "name": "Simon Ghost Riley Neon Call Of Duty Mode",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1w3NUJ3CJVUWmZLMhuIUs2gPSlrRnSIH7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1w3NUJ3CJVUWmZLMhuIUs2gPSlrRnSIH7&sz=w640",
+          "sizeBytes": 4760094,
+          "sha256": "3883B3AA5850BAB2EFA31FEBC7CB6071BA4674D624AA2940BCA4C3CB1A1B670E",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Simon Ghost Riley Neon Call Of Duty Mode"
+        },
+        {
+          "id": "v_c18014f2",
+          "name": "Ghost Ready For Battle Call Of Duty: Mod",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15M5w3Y67G1c7MTq2HsHIT8_VH6FS1-x_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15M5w3Y67G1c7MTq2HsHIT8_VH6FS1-x_&sz=w640",
+          "sizeBytes": 4734599,
+          "sha256": "9785C8EC7C3F38B40F556B32D179CDD22171A06CAC8584C324AFE4B1EBFA2AF3",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Ghost Ready For Battle Call Of Duty: Mod"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FCD0193A0000",
+      "title": "Project Blue",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FCD0193A0000.jpg",
+      "variants": [
+        {
+          "id": "v_d9d9dec6",
+          "name": "Remilia Scarlet And Roses Touhou Project",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rqvfp3MCdgQnurRFQ-0iKfylASjyygeN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rqvfp3MCdgQnurRFQ-0iKfylASjyygeN&sz=w640",
+          "sizeBytes": 4718184,
+          "sha256": "B9A631AC56526CED24761B90731863EAF99D58FFC971B39EEF26ACBEBC68E8E3",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Remilia Scarlet And Roses Touhou Project | ЗВУК"
+        },
+        {
+          "id": "v_e7d751cf",
+          "name": "Project Akali League Of Legends",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15J8Q-St1bgo3m7pKz9x7wntEDdVeluwI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15J8Q-St1bgo3m7pKz9x7wntEDdVeluwI&sz=w640",
+          "sizeBytes": 4753499,
+          "sha256": "C478FF3594FCEB88611B6D05F9CD4AA8FF80FAB7395BFD5107C00BB6F9A9207D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Project Akali League Of Legends | ЗВУК"
+        },
+        {
+          "id": "v_6f051791",
+          "name": "Wakasagihime Mermaid Touhou Project",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IOMbZATpBwNMuhJ2Bc71ACS3_gCQEOrJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IOMbZATpBwNMuhJ2Bc71ACS3_gCQEOrJ&sz=w640",
+          "sizeBytes": 4701256,
+          "sha256": "300596DD07794CFE7F946E6484DFB7B43F5A49B0A8B12BD295BDAF98258CE34A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Wakasagihime Mermaid Touhou Project"
+        }
+      ]
     }
   ],
-  "totalGames": 960,
-  "totalVariants": 1394,
+  "totalGames": 962,
+  "totalVariants": 1399,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
