@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:36:48.772564+00:00",
+  "updatedAt": "2026-10-23T14:37:57.042394+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -29354,9 +29354,115 @@
           "notes": "Switch 720p 30fps H264 | Nikke Vesti"
         }
       ]
+    },
+    {
+      "titleId": "0100E2B00E064000",
+      "title": "Zomb",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E2B00E064000.jpg",
+      "variants": [
+        {
+          "id": "v_df88f81e",
+          "name": "Zombie Simon Ghost Riley Call Of Duty: M",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_vYx9Rsmbm82j0c1RGPZ98aOEvctBEjf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_vYx9Rsmbm82j0c1RGPZ98aOEvctBEjf&sz=w640",
+          "sizeBytes": 4652783,
+          "sha256": "9499671A5744B91CAD8C3AEE653DAE70D8C5A51E11793808AF3AD0672CBF457C",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Zombie Simon Ghost Riley Call Of Duty: M"
+        },
+        {
+          "id": "v_7761ed38",
+          "name": "Ghost Riley Zombie Call Of Duty: Modern",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xrjvRqHcy8trBmfS5lNDAVfZETF2Tqow",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xrjvRqHcy8trBmfS5lNDAVfZETF2Tqow&sz=w640",
+          "sizeBytes": 4725207,
+          "sha256": "24DAB4317E76F3C6F0EA7BFC8498D34EC087333ACB97476693AED11E9947C601",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Ghost Riley Zombie Call Of Duty: Modern"
+        },
+        {
+          "id": "v_d45bd8a8",
+          "name": "Undead Spaceman",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ML7x_63QyIrl46C8BgiEanvRiBMhr8yT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ML7x_63QyIrl46C8BgiEanvRiBMhr8yT&sz=w640",
+          "sizeBytes": 4697477,
+          "sha256": "F961F4A1DF5DDEAC52373585EF6F8801D6CB977FEDCBFEA7A2DCC38B2465672D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Undead Spaceman | ЗВУК"
+        },
+        {
+          "id": "v_9e2eb529",
+          "name": "Qiqi Flowers Genshin Impact",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Amf_rau6z-8GN7SxOru-bvtqEU6H4R8v",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Amf_rau6z-8GN7SxOru-bvtqEU6H4R8v&sz=w640",
+          "sizeBytes": 4718550,
+          "sha256": "314F6C0432E95E7D35A0FA0892B01B3B3B75DC9775A80F386E1FE1454F8E8791",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Qiqi Flowers Genshin Impact | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CD10266C2000",
+      "title": "Firework",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CD10266C2000.jpg",
+      "variants": [
+        {
+          "id": "v_7988a9f8",
+          "name": "Amiya X Doctor Fireworks Arknights",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bEaY3C_vT6v2mTbb9NM7RrB2dO8ChNsB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bEaY3C_vT6v2mTbb9NM7RrB2dO8ChNsB&sz=w640",
+          "sizeBytes": 4635412,
+          "sha256": "611A30D2C96A338BBE21BD4A55860411CBAC8CA123AA62300E486ACA93965552",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Amiya X Doctor Fireworks Arknights"
+        }
+      ]
     }
   ],
-  "totalGames": 898,
-  "totalVariants": 1276,
+  "totalGames": 900,
+  "totalVariants": 1281,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
