@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T20:59:58.939044+00:00",
+  "updatedAt": "2026-10-23T21:01:29.027852+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -34986,9 +34986,71 @@
           "notes": "Switch 720p 30fps H264 | Flower Bookstore | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100B1400D92A000",
+      "title": "Unit 4",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B1400D92A000.jpg",
+      "variants": [
+        {
+          "id": "v_85504f6e",
+          "name": "Asuka X Evangelion Unit-02",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1sch-SqI14RzN2JNwPzAkg69Jq6C5-NUM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1sch-SqI14RzN2JNwPzAkg69Jq6C5-NUM&sz=w640",
+          "sizeBytes": 4711007,
+          "sha256": "BFBEF09F4B1804D9BE4BA9EC9F6FFEEC8B6282A5CD35048138000B1E2BBAC3C0",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Asuka X Evangelion Unit-02 | ЗВУК"
+        },
+        {
+          "id": "v_565ae751",
+          "name": "Evangelion Unit-01 Neon Genesis Evangeli",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1sYwc0tZ4hpIGU2K6tblxdhSR32Akhhrb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1sYwc0tZ4hpIGU2K6tblxdhSR32Akhhrb&sz=w640",
+          "sizeBytes": 4681424,
+          "sha256": "DA821248A6D4803268588893EA134375762C04341374200D12915931302AC14A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Evangelion Unit-01 Neon Genesis Evangeli | ЗВУК"
+        },
+        {
+          "id": "v_de9e2dd3",
+          "name": "Evangelion Unit-02 Neon Genesis Evangeli",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1aMDOfK2nZxuAS1Uu1tYDY_a8LqhpAwe0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1aMDOfK2nZxuAS1Uu1tYDY_a8LqhpAwe0&sz=w640",
+          "sizeBytes": 4672707,
+          "sha256": "BB9DEE61D938A93B751138EDA781DB5F2122B98AFC70694D5F249CDF8D6A446A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Evangelion Unit-02 Neon Genesis Evangeli | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 1021,
-  "totalVariants": 1534,
+  "totalGames": 1022,
+  "totalVariants": 1537,
   "lastUpdated": "2026-10-23T20:40:23.001126+00:00"
 }
