@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T21:46:45.060295+00:00",
+  "updatedAt": "2026-10-23T21:47:40.540908+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -31828,6 +31828,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Skadi Blood Moon Ocean Arknights"
+        },
+        {
+          "id": "v_d5b0c389",
+          "name": "Iron Knight Meadow Minecraft",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Qvk8f4uV0bJrW1jnEz6NR08_eq5RLWGj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Qvk8f4uV0bJrW1jnEz6NR08_eq5RLWGj&sz=w640",
+          "sizeBytes": 4754564,
+          "sha256": "4D0562DE2B9AEB32198C662F5F501F7018FABD6CF7C6D6B1542BB65AA79F1FBC",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Iron Knight Meadow Minecraft"
+        },
+        {
+          "id": "v_a620d39d",
+          "name": "Texas Goth Girl Arknights",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AT7YOs1nTjaPhHttCMg5dx1Ot3TX32SZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AT7YOs1nTjaPhHttCMg5dx1Ot3TX32SZ&sz=w640",
+          "sizeBytes": 4711983,
+          "sha256": "1F89B12CAF8E64AD4949898CC33DB21EA39C4F06A3D3BC0A031B7249C2BD1000",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Texas Goth Girl Arknights"
         }
       ]
     },
@@ -32304,6 +32340,60 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Light Fall | ЗВУК"
+        },
+        {
+          "id": "v_507b8059",
+          "name": "Sekiro Moonlight Waterfall",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gA2laobG_m6naH7kQqKFhS720Hc4WIdb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gA2laobG_m6naH7kQqKFhS720Hc4WIdb&sz=w640",
+          "sizeBytes": 4532965,
+          "sha256": "250496EE56712AFE0A3372E4F9B03CD8FE9428909C24E54A3D59BEAA0AAD0DF4",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Sekiro Moonlight Waterfall"
+        },
+        {
+          "id": "v_25f62754",
+          "name": "Destiny 2: Lightfall",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TMq8OEdZwdmlviXzn2DqPrSiY9xio-8e",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TMq8OEdZwdmlviXzn2DqPrSiY9xio-8e&sz=w640",
+          "sizeBytes": 4744519,
+          "sha256": "8E8BB1B5CEE76CAE2F32C16B41B7D26CBB82ECC137367AC718D06F8FF303B9F8",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Destiny 2: Lightfall | ЗВУК"
+        },
+        {
+          "id": "v_844407f4",
+          "name": "Cat Sunlight Garden",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1aLhRg3PDibU5BhYfjk-kt1vXcYlH6VCq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1aLhRg3PDibU5BhYfjk-kt1vXcYlH6VCq&sz=w640",
+          "sizeBytes": 4731071,
+          "sha256": "A231ACDC06E52D0203C5804D91EA17423D6924F5E78364CC4742311E8D959840",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cat Sunlight Garden | ЗВУК"
         }
       ]
     },
@@ -36231,6 +36321,6 @@
     }
   ],
   "totalGames": 1030,
-  "totalVariants": 1599,
+  "totalVariants": 1604,
   "lastUpdated": "2026-10-23T20:40:23.001126+00:00"
 }
