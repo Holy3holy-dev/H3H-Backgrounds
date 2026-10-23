@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T16:58:05.859214+00:00",
+  "updatedAt": "2026-10-23T20:58:28.842400+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -34818,9 +34818,115 @@
           "notes": "Submitted via Telegram by @Antony"
         }
       ]
+    },
+    {
+      "titleId": "01007C000C314000",
+      "title": "Kuso",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007C000C314000.jpg",
+      "variants": [
+        {
+          "id": "v_153abf34",
+          "name": "Okusora Ayane Helicopter Blue Archive",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1i2pttijKN7o8XAl1qXl9sRyvA-yiEUmG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1i2pttijKN7o8XAl1qXl9sRyvA-yiEUmG&sz=w640",
+          "sizeBytes": 4674872,
+          "sha256": "1C8D8EF30397E9147D2CA5F6B7FF574C24AAC069F707D7E3169D1BEE93CA6017",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Okusora Ayane Helicopter Blue Archive"
+        },
+        {
+          "id": "v_e0054ab2",
+          "name": "Okusora Ayane Blue Archive",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1M2Xm3RO-aWExkLUzWN6vZlFE1lNrAS43",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1M2Xm3RO-aWExkLUzWN6vZlFE1lNrAS43&sz=w640",
+          "sizeBytes": 4703154,
+          "sha256": "0BA14957C79B739D0706B29C07A9867A14E4D248F2E5F03A0FB696832A3ACB26",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Okusora Ayane Blue Archive"
+        },
+        {
+          "id": "v_25d9f769",
+          "name": "Blue Archive On Subway Pixel",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1uawthvyuiK34UAV5QQatdfliHEg1Lt4y",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1uawthvyuiK34UAV5QQatdfliHEg1Lt4y&sz=w640",
+          "sizeBytes": 4675909,
+          "sha256": "DA1F10F8D81E2BF2C3688F92B4074D9837FE58BB3472AA5E70A87789437995F4",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Blue Archive On Subway Pixel | ЗВУК"
+        },
+        {
+          "id": "v_f03d28e2",
+          "name": "Maquia When the Promised Flower Blooms",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-VbxpL2JPviQbSPrT_NoOa_jnC-SNPb4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-VbxpL2JPviQbSPrT_NoOa_jnC-SNPb4&sz=w640",
+          "sizeBytes": 4669507,
+          "sha256": "2A1850C7416AE5F177BD6A0FB87CBDEE642CF473430E30E9B8AAE6D752C8A3D5",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Maquia When the Promised Flower Blooms | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "010064600F1D6000",
+      "title": "Lost Wing",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010064600F1D6000.jpg",
+      "variants": [
+        {
+          "id": "v_0d317a3c",
+          "name": "Astronaut In Space",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OTjAqXIAuaXLIW--OPqCIiqBdDaEPmQQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OTjAqXIAuaXLIW--OPqCIiqBdDaEPmQQ&sz=w640",
+          "sizeBytes": 4710559,
+          "sha256": "CBA5D19830B8B68514CCB9B7462E705390841A64D98DCDE6D551B0253EAB0A72",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Astronaut In Space | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 1018,
-  "totalVariants": 1526,
+  "totalGames": 1020,
+  "totalVariants": 1531,
   "lastUpdated": "2026-10-23T20:40:23.001126+00:00"
 }
