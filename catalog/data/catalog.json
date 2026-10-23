@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:22:02.651081+00:00",
+  "updatedAt": "2026-10-23T13:23:03.313634+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -25052,9 +25052,79 @@
           "notes": "Switch 720p 30fps H264 | Hilda And Tepig Watching Castelia City P | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "010091102424A000",
+      "title": "Call of the Sea",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010091102424A000.jpg",
+      "variants": [
+        {
+          "id": "v_046ffd4f",
+          "name": "Nami The Tidecaller league Of Legends",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_Dq-s3Eu2c2bqynHVQa-EEdrhSWg0Ja9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_Dq-s3Eu2c2bqynHVQa-EEdrhSWg0Ja9&sz=w640",
+          "sizeBytes": 4687718,
+          "sha256": "62690DE598D4B4F7F80EF19D04FEDB9CC1CC9224C3837366AB75E151349C2422",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Nami The Tidecaller league Of Legends"
+        },
+        {
+          "id": "v_54c23f65",
+          "name": "Cthulhu Monster",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RzpiAokfmpqCYiWoiffIOWen4MC3tEkB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RzpiAokfmpqCYiWoiffIOWen4MC3tEkB&sz=w640",
+          "sizeBytes": 4724995,
+          "sha256": "3579F453FE87034DEE6F9D380856F7539FE568DF4D20DD3069B2B63177B59AA3",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cthulhu Monster | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "01007B5017A12000",
+      "title": "Sifu",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007B5017A12000.jpg",
+      "variants": [
+        {
+          "id": "v_05df0e0e",
+          "name": "Rainy Alley The Club Sifu",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RloLxVgJlxr-b0fRcbIWcdE5fxNSZK8-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RloLxVgJlxr-b0fRcbIWcdE5fxNSZK8-&sz=w640",
+          "sizeBytes": 4550462,
+          "sha256": "7C1B3674A7A0047A0ABEB406917AE285A1C89FD66447226E3C56AE6288CA761A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Rainy Alley The Club Sifu"
+        }
+      ]
     }
   ],
-  "totalGames": 799,
-  "totalVariants": 1081,
+  "totalGames": 801,
+  "totalVariants": 1084,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
