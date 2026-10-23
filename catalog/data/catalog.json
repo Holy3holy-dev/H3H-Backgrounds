@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T15:10:10.859194+00:00",
+  "updatedAt": "2026-10-23T15:11:07.744774+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -31490,9 +31490,71 @@
           "notes": "Switch 720p 30fps H264 | Light Fall | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "01000AC011588000",
+      "title": "Thy Sword",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000AC011588000.jpg",
+      "variants": [
+        {
+          "id": "v_b7a89844",
+          "name": "Cartethyia And Adanto Wuthering Waves",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1JxIJoxD8WNS9tHcLm2Exhiz8Rf3Feeeq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1JxIJoxD8WNS9tHcLm2Exhiz8Rf3Feeeq&sz=w640",
+          "sizeBytes": 4653583,
+          "sha256": "E333AE380AE0D32CDCF9A2D5E6E42877BEF5784C9322245E3C255A870181F6EF",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cartethyia And Adanto Wuthering Waves | ЗВУК"
+        },
+        {
+          "id": "v_862fc068",
+          "name": "Baal Musou Shinsetsu Plane Of Euthymia",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zIeJdIZcwyABbx6tlan7KxMnHlADkNsn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zIeJdIZcwyABbx6tlan7KxMnHlADkNsn&sz=w640",
+          "sizeBytes": 4670587,
+          "sha256": "7341C374B1590BA19D4D8AA040FE72A252B76E7999A908E23FA53B62A7DB4131",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Baal Musou Shinsetsu Plane Of Euthymia"
+        },
+        {
+          "id": "v_b8fdfc8d",
+          "name": "Boreal Outrider Knight Dark Souls 3",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Dc2jVEht8rRdPCt00gOa0OLVe7EjWTv5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Dc2jVEht8rRdPCt00gOa0OLVe7EjWTv5&sz=w640",
+          "sizeBytes": 4743567,
+          "sha256": "CDEBDDC8848520D2FE5A80519D4AA6939F5E6F2CB0D4B9643DC27B827C50B108",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Boreal Outrider Knight Dark Souls 3 | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 949,
-  "totalVariants": 1372,
+  "totalGames": 950,
+  "totalVariants": 1375,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
