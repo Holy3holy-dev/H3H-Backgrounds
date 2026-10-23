@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:24:33.082520+00:00",
+  "updatedAt": "2026-10-23T13:25:25.791270+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -25200,9 +25200,79 @@
           "notes": "Switch 720p 30fps H264 | Planet Of Lana | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100DBC012C9E000",
+      "title": "Beyond Blue",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DBC012C9E000.jpg",
+      "variants": [
+        {
+          "id": "v_08c3ac5f",
+          "name": "Starry Night With Himmel And Frieren",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bP0BlmBlvsYX1Ki5Tj8PfAAS7KDnnljn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bP0BlmBlvsYX1Ki5Tj8PfAAS7KDnnljn&sz=w640",
+          "sizeBytes": 4709692,
+          "sha256": "16D846E0E29D5AB71EBD259693ABE0957CC194B6E8234EA8C668A59C4C219506",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Starry Night With Himmel And Frieren | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "010020E01EB72000",
+      "title": "Dot Age",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010020E01EB72000.jpg",
+      "variants": [
+        {
+          "id": "v_1dcd5b76",
+          "name": "Skywrath Mage Dota 2",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Vlca9EBgzntcNPIbyAtgH0p-Hg_gIrW0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Vlca9EBgzntcNPIbyAtgH0p-Hg_gIrW0&sz=w640",
+          "sizeBytes": 4695702,
+          "sha256": "ADE1DF183A560251117924F7772A7411CE6C88921871436242964F98EE5F7D37",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Skywrath Mage Dota 2 | ЗВУК"
+        },
+        {
+          "id": "v_9ec46859",
+          "name": "Invoker Covenant Of The Depths Dota 2",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18lI9CDsLwzZgPvJ0brEut7nGmqs-qHWW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18lI9CDsLwzZgPvJ0brEut7nGmqs-qHWW&sz=w640",
+          "sizeBytes": 4739992,
+          "sha256": "19795756F78FA946BC74C12108DF8287C163831A47882BF27591BEFB17AD005F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Invoker Covenant Of The Depths Dota 2 | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 804,
-  "totalVariants": 1087,
+  "totalGames": 806,
+  "totalVariants": 1090,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
