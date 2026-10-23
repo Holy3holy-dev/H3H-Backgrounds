@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T21:35:23.453971+00:00",
+  "updatedAt": "2026-10-23T12:56:38.876553+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -774,6 +774,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Link and Lynel Battle"
+        },
+        {
+          "id": "v_b7545f57",
+          "name": "The Legend of Zelda: The Wind Waker Pixe",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17i2K7KhlXAavl1zjjSZs3E6stnxMdCv-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17i2K7KhlXAavl1zjjSZs3E6stnxMdCv-&sz=w640",
+          "sizeBytes": 4606536,
+          "sha256": "B4143343E7528745A55CC8BD517B024A1CA64B27C6BDDCFA02F7C0C4AD44878E",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Legend of Zelda: The Wind Waker Pixe | ЗВУК"
         }
       ]
     },
@@ -7404,6 +7422,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 01009B90006DC000_Super_Mario_Maker_2.mp4"
+        },
+        {
+          "id": "v_7bbcbcfb",
+          "name": "Super Mario Floating Outer Space",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1od27cTKuPMHtA-5ochnTUJtH4ESMaHpW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1od27cTKuPMHtA-5ochnTUJtH4ESMaHpW&sz=w640",
+          "sizeBytes": 4694057,
+          "sha256": "9702DA8B8599324BD8F4B4B6F698B610A152124B20BE7841D3E60192715972C2",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Super Mario Floating Outer Space | ЗВУК"
         }
       ]
     },
@@ -24197,6 +24233,6 @@
     }
   ],
   "totalGames": 793,
-  "totalVariants": 1036,
+  "totalVariants": 1038,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
