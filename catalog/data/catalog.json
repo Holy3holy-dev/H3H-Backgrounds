@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:37:46.567800+00:00",
+  "updatedAt": "2026-10-23T13:40:31.708299+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -26126,9 +26126,115 @@
           "notes": "Switch 720p 30fps H264 | Furina Midnight Meadow Genshin Impact | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "01009B500007C000",
+      "title": "Arms",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009B500007C000.jpg",
+      "variants": [
+        {
+          "id": "v_f1723c1f",
+          "name": "Anime Girl Skeleton",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1G0c4SnB9WO05nI0z4x4rhxzl5SaLq9TN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1G0c4SnB9WO05nI0z4x4rhxzl5SaLq9TN&sz=w640",
+          "sizeBytes": 4635855,
+          "sha256": "CA69E4CAFA4F29807E8250C5291B1B2571ACD8A63068CF1445B9D40644499892",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Anime Girl Skeleton | ЗВУК"
+        },
+        {
+          "id": "v_1243e1fc",
+          "name": "Anime Girl Katana",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13_i3Zn28o6CI1HgzNSArvG_HodUEXRDo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13_i3Zn28o6CI1HgzNSArvG_HodUEXRDo&sz=w640",
+          "sizeBytes": 4747664,
+          "sha256": "9589AA60356459FC461C092BE57531B2B7E103943E51D8757A2C96AAF74484C2",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Anime Girl Katana | ЗВУК"
+        },
+        {
+          "id": "v_2a289a03",
+          "name": "Futuristic Smoking Girl",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1l5W3uaBR9zRI1zOfc99KvhO82lKXUgc2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1l5W3uaBR9zRI1zOfc99KvhO82lKXUgc2&sz=w640",
+          "sizeBytes": 4858630,
+          "sha256": "DFB7F91F6C5D668FADF11BDBAF53D20A0CC2F89EC53E5934D564A7FB306F9249",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Futuristic Smoking Girl | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B9801F872000",
+      "title": "Fairy Tail 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B9801F872000.jpg",
+      "variants": [
+        {
+          "id": "v_c9819cc6",
+          "name": "Natsu Blazing Heart Fairy Tail",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1K0jmqutD0D9MY-70OdMEm-629JnMKuxr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1K0jmqutD0D9MY-70OdMEm-629JnMKuxr&sz=w640",
+          "sizeBytes": 4773247,
+          "sha256": "963C469E5506F106D1ABE4C0F757980F1720F253D9150F59323C00D16E700859",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Natsu Blazing Heart Fairy Tail | ЗВУК"
+        },
+        {
+          "id": "v_27380a59",
+          "name": "Natsu Dragneel Fairy Tail",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ilNK30_0HpHlM7CTdrrsVnPDg_KG_WF2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ilNK30_0HpHlM7CTdrrsVnPDg_KG_WF2&sz=w640",
+          "sizeBytes": 4752655,
+          "sha256": "6F053A50E1004D231ABA68658453484CE25FF7F278BC35A6343A698D8DE57FD8",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Natsu Dragneel Fairy Tail | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 823,
-  "totalVariants": 1130,
+  "totalGames": 825,
+  "totalVariants": 1135,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
