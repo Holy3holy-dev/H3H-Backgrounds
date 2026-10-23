@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:46:22.393761+00:00",
+  "updatedAt": "2026-10-23T13:47:22.211060+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -26636,9 +26636,89 @@
           "notes": "Switch 720p 30fps H264 | Zenless Zone Zero A Storm Of Falling Sta"
         }
       ]
+    },
+    {
+      "titleId": "0100C5D01128E000",
+      "title": "Olli Olli",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C5D01128E000.jpg",
+      "variants": [
+        {
+          "id": "v_944a3478",
+          "name": "Makima Controlling Chainsaw Man",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19WaOlADPZHJUxgEc90OMfj0JEozkoVmU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19WaOlADPZHJUxgEc90OMfj0JEozkoVmU&sz=w640",
+          "sizeBytes": 4483027,
+          "sha256": "9B3507147FD2D760294DA71165A17FAF96A4C03E29C574FC6B22DC31960C89EB",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Makima Controlling Chainsaw Man"
+        },
+        {
+          "id": "v_e04c2048",
+          "name": "Makima Is Controlling Chainsaw Man",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wJNWmKd9XAbZaeBjwocXwD37AvuSo2Zs",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wJNWmKd9XAbZaeBjwocXwD37AvuSo2Zs&sz=w640",
+          "sizeBytes": 4748298,
+          "sha256": "DD889429140D4D6D4A6AB4808630F4F1AD1B8AF0BA36B4A66535CAEA9C4C0943",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Makima Is Controlling Chainsaw Man | ЗВУК"
+        },
+        {
+          "id": "v_bd45d908",
+          "name": "Rolling Hills Under a Blue Sky",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1U0iv7jlOnDIaXokqEo6rOZKFxuyOHOgB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1U0iv7jlOnDIaXokqEo6rOZKFxuyOHOgB&sz=w640",
+          "sizeBytes": 4547347,
+          "sha256": "BB5F2B6C50B7745B34CA69B791C3090DD96E6BAC2C7D063F282D8440524C5350",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rolling Hills Under a Blue Sky | ЗВУК"
+        },
+        {
+          "id": "v_53629f7b",
+          "name": "Hoshiguma Patrolling Ronin Arknights",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ze_flCtkBQGtkM4oBBul-L3wgKjIuLMD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ze_flCtkBQGtkM4oBBul-L3wgKjIuLMD&sz=w640",
+          "sizeBytes": 4732999,
+          "sha256": "C0196228AB00D710A41A0F2FF8293B39110BE4443CA4C8AAAEAD80CD38296F06",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hoshiguma Patrolling Ronin Arknights | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 835,
-  "totalVariants": 1153,
+  "totalGames": 836,
+  "totalVariants": 1157,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
