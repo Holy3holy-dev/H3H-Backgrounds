@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T21:12:39.521009+00:00",
+  "updatedAt": "2026-10-23T21:15:32.803682+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -35572,9 +35572,89 @@
           "notes": "Switch 720p 30fps H264 | Grimm X Leaf Black Souls | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100D03008362000",
+      "title": "Minecraft",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D03008362000.jpg",
+      "variants": [
+        {
+          "id": "v_7e86899f",
+          "name": "Minecraft Sakura Pond",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Vfg3xZ4n_ickXGfyQq10Cl_s3Cjc5gBn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Vfg3xZ4n_ickXGfyQq10Cl_s3Cjc5gBn&sz=w640",
+          "sizeBytes": 4733772,
+          "sha256": "A1C1D9E560CAE7713029DC5E7FA41082781289C9642ACD46E2CF64DC389C1A55",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Minecraft Sakura Pond | ЗВУК"
+        },
+        {
+          "id": "v_021617d7",
+          "name": "Minecraft Sakura Oasis",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ua6P7hy2HmfpOl0qwSTiKatPt4g-p0IN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ua6P7hy2HmfpOl0qwSTiKatPt4g-p0IN&sz=w640",
+          "sizeBytes": 4800684,
+          "sha256": "7AB28C28DBBAA9C9022C4F72103B94CD4C69620723375342E64F5DA9AE3BD96D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Minecraft Sakura Oasis | ЗВУК"
+        },
+        {
+          "id": "v_22779e7a",
+          "name": "Sakura Picnic Minecraft",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qoNtGppV0nPU--jz3NKitVjzO2N8M6Dk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qoNtGppV0nPU--jz3NKitVjzO2N8M6Dk&sz=w640",
+          "sizeBytes": 4658336,
+          "sha256": "6515627A33EF9B969B31CF1289CA5E21B7DCE61D6C18F9C886EB135A27FF6BCD",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sakura Picnic Minecraft | ЗВУК"
+        },
+        {
+          "id": "v_dce44135",
+          "name": "Minecraft House",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wsMeCnoY3LMXG6wM5wF3UEZdZ7-JHRMG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wsMeCnoY3LMXG6wM5wF3UEZdZ7-JHRMG&sz=w640",
+          "sizeBytes": 4614574,
+          "sha256": "7EE6E20F6EB0CC466DB2247F26C42553D99B8D4254712F186CC5FB36794B268D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Minecraft House | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 1029,
-  "totalVariants": 1563,
+  "totalGames": 1030,
+  "totalVariants": 1567,
   "lastUpdated": "2026-10-23T20:40:23.001126+00:00"
 }
