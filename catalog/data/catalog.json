@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:49:28.738789+00:00",
+  "updatedAt": "2026-10-23T14:50:57.431186+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -30178,9 +30178,71 @@
           "notes": "Switch 720p 30fps H264 | Cosmic Pathway | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "010047600BF72000",
+      "title": "Rain World",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010047600BF72000.jpg",
+      "variants": [
+        {
+          "id": "v_1b6bc062",
+          "name": "Slugcat Rain World",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eGlBE7y90fLSCEojYJuTegeQ-2CosqJl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eGlBE7y90fLSCEojYJuTegeQ-2CosqJl&sz=w640",
+          "sizeBytes": 4646605,
+          "sha256": "7FB5FB56DFE509618B17C7429FDFA9FA1D999D43BAA8AE478CF9607B1837D09B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Slugcat Rain World | ЗВУК"
+        },
+        {
+          "id": "v_7b6ece01",
+          "name": "Rain World Ancient Karma Glyphs",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dxllR9Og-leqmreeWozaOfoozaQQ9UsY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dxllR9Og-leqmreeWozaOfoozaQQ9UsY&sz=w640",
+          "sizeBytes": 4211892,
+          "sha256": "FE5CDBE21524C4CC3C15DA7E5D4FC722A36E507B71B4904EDA3829D3E107679E",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rain World Ancient Karma Glyphs | ЗВУК"
+        },
+        {
+          "id": "v_4368e1fa",
+          "name": "Keiko Matsutake Dancing Train To The End",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SPYQFzfyaVKiYNt5j0Rz2qHVvQnSn6lT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SPYQFzfyaVKiYNt5j0Rz2qHVvQnSn6lT&sz=w640",
+          "sizeBytes": 4628789,
+          "sha256": "1BB35AB88BC56DBD1A9911B736BA91A234E280393DF9B4CE559488053879746F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Keiko Matsutake Dancing Train To The End"
+        }
+      ]
     }
   ],
-  "totalGames": 920,
-  "totalVariants": 1312,
+  "totalGames": 921,
+  "totalVariants": 1315,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
