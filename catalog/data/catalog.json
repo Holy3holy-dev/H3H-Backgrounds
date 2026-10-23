@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T15:29:37.237655+00:00",
+  "updatedAt": "2026-10-23T15:30:21.077622+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -32698,9 +32698,35 @@
           "notes": "Switch 720p 30fps H264 | Guts Beast Of Darkness Berserk | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "01004FC01EEA4000",
+      "title": "Ginka",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004FC01EEA4000.jpg",
+      "variants": [
+        {
+          "id": "v_c3721632",
+          "name": "Anime Girl Star Trail",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fCtDmVb0tIM9f6mNAUpKhSuz0xG8FUqU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fCtDmVb0tIM9f6mNAUpKhSuz0xG8FUqU&sz=w640",
+          "sizeBytes": 4706933,
+          "sha256": "B5394056773CBC7CF7FCD4A218DFDFE4D9134D4F5B0CA4F93897A8CF23DDD35F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Anime Girl Star Trail"
+        }
+      ]
     }
   ],
-  "totalGames": 974,
-  "totalVariants": 1428,
+  "totalGames": 975,
+  "totalVariants": 1429,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
