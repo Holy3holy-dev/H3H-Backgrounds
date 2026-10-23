@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T21:49:22.387500+00:00",
+  "updatedAt": "2026-10-23T22:44:08.770646+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -36444,9 +36444,35 @@
           "notes": "Switch 720p 30fps H264 | Minecraft House | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "01009D6022DC2000",
+      "title": "Reus 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009D6022DC2000.jpg",
+      "variants": [
+        {
+          "id": "v_33238936",
+          "name": "Roses and Muskets Genshin Impact",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DF0yh5gkHevRqF7pO5-8UXvkJuaqfrQf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DF0yh5gkHevRqF7pO5-8UXvkJuaqfrQf&sz=w640",
+          "sizeBytes": 4741771,
+          "sha256": "063AB4F00279AF23B2CE1CC0F15112E8DC42CBAB91CACE7912C091071B7B5276",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Roses and Muskets Genshin Impact | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 1030,
-  "totalVariants": 1611,
+  "totalGames": 1031,
+  "totalVariants": 1612,
   "lastUpdated": "2026-10-23T20:40:23.001126+00:00"
 }
