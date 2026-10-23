@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:58:31.109857+00:00",
+  "updatedAt": "2026-10-23T13:59:47.640553+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -27526,9 +27526,61 @@
           "notes": "Switch 720p 30fps H264 | Knight Camping Dark Souls 3"
         }
       ]
+    },
+    {
+      "titleId": "01003C4016B12000",
+      "title": "Imp of the Sun",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003C4016B12000.jpg",
+      "variants": [
+        {
+          "id": "v_3bc259f5",
+          "name": "Bart Travel Van The Simpsons",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1f8K_beNYPPTlBLWcfhBf9d8n3mome9uR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1f8K_beNYPPTlBLWcfhBf9d8n3mome9uR&sz=w640",
+          "sizeBytes": 4698619,
+          "sha256": "5E1C10572AD70A4F0DB1E834016B2807DD42835461A0455B88F26FE52459068C",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bart Travel Van The Simpsons | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A4B01F740000",
+      "title": "Minami Lane",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A4B01F740000.jpg",
+      "variants": [
+        {
+          "id": "v_87eff890",
+          "name": "Yume Minami Azur Lane SSSS.Gridman Dynaz",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GRZhL55QOAE4oqDRUmUzOXs9QYZlhzTU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GRZhL55QOAE4oqDRUmUzOXs9QYZlhzTU&sz=w640",
+          "sizeBytes": 4746717,
+          "sha256": "0D1A8AF286CB3F344ABB5991D76BE243C6D95352F308CB319C5089AF42808252",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Yume Minami Azur Lane SSSS.Gridman Dynaz | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 854,
-  "totalVariants": 1194,
+  "totalGames": 856,
+  "totalVariants": 1196,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
