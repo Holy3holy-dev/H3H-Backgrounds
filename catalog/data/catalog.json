@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:43:46.421464+00:00",
+  "updatedAt": "2026-10-23T13:45:15.893369+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -26460,9 +26460,71 @@
           "notes": "Switch 720p 30fps H264 | Stranger Things 3 Starcourt | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100E4A00D066000",
+      "title": "Sea King",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E4A00D066000.jpg",
+      "variants": [
+        {
+          "id": "v_fe87004e",
+          "name": "Vikings Boat Crossing The Sea Game Of Th",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tfjO6iMogW3utXUIq07QhocXEkLT-0e0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tfjO6iMogW3utXUIq07QhocXEkLT-0e0&sz=w640",
+          "sizeBytes": 4721720,
+          "sha256": "80EE3F72B58F27DD3286095242D1E0F01B1C8FB2E0960B7037A4F14CDD434C41",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Vikings Boat Crossing The Sea Game Of Th | ЗВУК"
+        },
+        {
+          "id": "v_2823a440",
+          "name": "Raiden Shogun Deep Blue Sea Genshin Impa",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1W0njCoH1pj0ILBv7JY7oGbAoknSjhdl8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1W0njCoH1pj0ILBv7JY7oGbAoknSjhdl8&sz=w640",
+          "sizeBytes": 4740732,
+          "sha256": "69634BE89EDA3B48BA0AAA702399700DDC113C57E2AA8F476F3A34D372218D08",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Raiden Shogun Deep Blue Sea Genshin Impa"
+        },
+        {
+          "id": "v_478e1373",
+          "name": "Denia Celestial Sea Wuthering Waves",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1E0BS95C06w_0inwHbBz4Sr7Mon-D22AI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1E0BS95C06w_0inwHbBz4Sr7Mon-D22AI&sz=w640",
+          "sizeBytes": 4711618,
+          "sha256": "FC20F45775F753EB96B547908816AFB634D07F44D31847D6428BAA9C0E19595F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Denia Celestial Sea Wuthering Waves | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 831,
-  "totalVariants": 1145,
+  "totalGames": 832,
+  "totalVariants": 1148,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
