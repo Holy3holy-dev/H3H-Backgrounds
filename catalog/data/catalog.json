@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T21:03:24.662423+00:00",
+  "updatedAt": "2026-10-23T21:04:36.127323+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -35128,9 +35128,115 @@
           "notes": "Switch 720p 30fps H264 | Arona Ocean Selfie Blue Archive | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100AC801D042000",
+      "title": "White Wings",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AC801D042000.jpg",
+      "variants": [
+        {
+          "id": "v_07899011",
+          "name": "Fantasy Angel Anime Girl",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17OFBRzFN5I78uqxu2h99qx-EWzzNRIvw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17OFBRzFN5I78uqxu2h99qx-EWzzNRIvw&sz=w640",
+          "sizeBytes": 4348070,
+          "sha256": "B52B1AC497088E6A406762DC8EF6BF3BD0EB0BC73EF6AEBD3DEE7A13B45FB43E",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Fantasy Angel Anime Girl"
+        },
+        {
+          "id": "v_1aff3228",
+          "name": "Ronova Ruler Of Death Genshin Impact",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Gi143sWeSC5Af9p8O8pPcnSwUj1OKP_c",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Gi143sWeSC5Af9p8O8pPcnSwUj1OKP_c&sz=w640",
+          "sizeBytes": 4701391,
+          "sha256": "FD5BA77EC86E4F19C5A3456645DE550DC1F2F9A6988715B1D8E4701A63B93501",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Ronova Ruler Of Death Genshin Impact"
+        },
+        {
+          "id": "v_66eaebd5",
+          "name": "Blue Archive Sorasaki Hina Piano",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tl41azMVhKSaXfKy6cJ6fi7GGOc60pCZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tl41azMVhKSaXfKy6cJ6fi7GGOc60pCZ&sz=w640",
+          "sizeBytes": 4728421,
+          "sha256": "454557D718073997BC620DF5D4F3AC0E42204F307752758FD2603A43082CAE23",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Blue Archive Sorasaki Hina Piano"
+        }
+      ]
+    },
+    {
+      "titleId": "0100ACD00E27E000",
+      "title": "Star Sky",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100ACD00E27E000.jpg",
+      "variants": [
+        {
+          "id": "v_75527e7e",
+          "name": "Boa Hancock Starry Night Sky One Piece",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eD7Bf7EeheMXzzS-Zd0HKIkTU5-zrWbw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eD7Bf7EeheMXzzS-Zd0HKIkTU5-zrWbw&sz=w640",
+          "sizeBytes": 4702384,
+          "sha256": "6AF26E7420D0CB81FFBD550298AFFD8E64A0358C99289B18D6C251DD9A76A4DE",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Boa Hancock Starry Night Sky One Piece | ЗВУК"
+        },
+        {
+          "id": "v_b1d8ad8b",
+          "name": "Silhouetted Anime Girl Under Starry Nigh",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xgBdChP8SA7MatPqJv7jQBviwMSb-k0C",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xgBdChP8SA7MatPqJv7jQBviwMSb-k0C&sz=w640",
+          "sizeBytes": 4725121,
+          "sha256": "DF85C9B93F6B1A498690F332B66777D5F3A64A545AB34717DC7393ABAFA990EE",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Silhouetted Anime Girl Under Starry Nigh | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 1023,
-  "totalVariants": 1541,
+  "totalGames": 1025,
+  "totalVariants": 1546,
   "lastUpdated": "2026-10-23T20:40:23.001126+00:00"
 }
