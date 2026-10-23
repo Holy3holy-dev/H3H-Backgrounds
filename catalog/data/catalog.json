@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:55:26.265854+00:00",
+  "updatedAt": "2026-10-23T14:56:46.959896+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -30608,9 +30608,89 @@
           "notes": "Switch 720p 30fps H264 | Kaguya Shinomiya Teacup Kaguya-Sama Love | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100F06013710000",
+      "title": "Island",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F06013710000.jpg",
+      "variants": [
+        {
+          "id": "v_43f96c29",
+          "name": "Golden Hour Island",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13jtAcL99HwkUTXxjkm7bnVv5VrLJjTzh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13jtAcL99HwkUTXxjkm7bnVv5VrLJjTzh&sz=w640",
+          "sizeBytes": 4705899,
+          "sha256": "44EBA528CF2B16E5D0663D9F4B0AD6504A4015826AB543CEEC9540B8E8F58EB3",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Golden Hour Island"
+        },
+        {
+          "id": "v_098ff73c",
+          "name": "Beach Island",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bBkiOVlGYUJXukNcBNxn-NPXhTM4j5O6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bBkiOVlGYUJXukNcBNxn-NPXhTM4j5O6&sz=w640",
+          "sizeBytes": 4691196,
+          "sha256": "837C8EA0352278AB9B98249AD64775CAC0D2DBE9A0A4B41801A008CD31CFACC1",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Beach Island"
+        },
+        {
+          "id": "v_741573f3",
+          "name": "Seirai Island Genshin Impact",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OqSe8lcHFVsXqXwVldPqmDIaKDNZ3s2j",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OqSe8lcHFVsXqXwVldPqmDIaKDNZ3s2j&sz=w640",
+          "sizeBytes": 4741470,
+          "sha256": "60081729B47CCD4DECF6D3B6F5923A303F7E4B9F6C02542BF7AA42090C568577",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Seirai Island Genshin Impact"
+        },
+        {
+          "id": "v_385c35cf",
+          "name": "Goku And Vegeta In The Island Dragon Bal",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17z-kJHg1Wo_FkErk1SplMtuevSL-OOqE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17z-kJHg1Wo_FkErk1SplMtuevSL-OOqE&sz=w640",
+          "sizeBytes": 4715561,
+          "sha256": "13DEEDE15B3BAFA7072ED11460CAD14F219E942EABC0CE280B9259D0126016D5",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Goku And Vegeta In The Island Dragon Bal"
+        }
+      ]
     }
   ],
-  "totalGames": 931,
-  "totalVariants": 1331,
+  "totalGames": 932,
+  "totalVariants": 1335,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
