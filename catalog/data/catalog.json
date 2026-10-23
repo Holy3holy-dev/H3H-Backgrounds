@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:05:31.688731+00:00",
+  "updatedAt": "2026-10-23T13:14:46.427103+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -19384,6 +19384,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "SteamGridDB Animated Grid: 0100F3D0122C2000_The_Longing.mp4"
+        },
+        {
+          "id": "v_51ddd6d7",
+          "name": "Nikke Scarlet Black Shadow Longing Flowe",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RJOs6kKdckYhfeLz-ExQAq1MY1C-VKe8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RJOs6kKdckYhfeLz-ExQAq1MY1C-VKe8&sz=w640",
+          "sizeBytes": 4588795,
+          "sha256": "891E892FAE6BB9C59EFBF40615F639647D7B924BDFBA050CB5D06E9DE95A23F6",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Nikke Scarlet Black Shadow Longing Flowe | ЗВУК"
         }
       ]
     },
@@ -24529,6 +24547,6 @@
     }
   ],
   "totalGames": 794,
-  "totalVariants": 1054,
+  "totalVariants": 1055,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
