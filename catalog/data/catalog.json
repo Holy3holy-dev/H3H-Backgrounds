@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:31:40.024172+00:00",
+  "updatedAt": "2026-10-23T13:33:02.749681+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -25756,9 +25756,115 @@
           "notes": "Switch 720p 30fps H264 | Geralt Meditation The Witcher 3 Wild Hun | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100DD1014AB8000",
+      "title": "Black Book",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DD1014AB8000.jpg",
+      "variants": [
+        {
+          "id": "v_843307ca",
+          "name": "Little Witch And Black Cat",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1By0eDpzNkvfsLrHeSh9NBd6LvfjNFtIV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1By0eDpzNkvfsLrHeSh9NBd6LvfjNFtIV&sz=w640",
+          "sizeBytes": 4711459,
+          "sha256": "BF695D28C7F21A5069180C36BD8E82FB5206A254E8D0A8E1800A435F4DA679C2",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Little Witch And Black Cat"
+        },
+        {
+          "id": "v_020a1b46",
+          "name": "Raora The Black Hole Witch",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Pfd9fK3hvQvLI8WPOffSTmoPj8KC1oI3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Pfd9fK3hvQvLI8WPOffSTmoPj8KC1oI3&sz=w640",
+          "sizeBytes": 4734131,
+          "sha256": "E5D0830C5522B2E654CE97AA4D24D347B39ED24189EA721A5740F742A703EC0F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Raora The Black Hole Witch | ЗВУК"
+        },
+        {
+          "id": "v_cb866377",
+          "name": "Black Swan Honkai Star Rail",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ENx2hKHKhCwytD7H-uP1JhNG30G-Vz2G",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ENx2hKHKhCwytD7H-uP1JhNG30G-Vz2G&sz=w640",
+          "sizeBytes": 4954854,
+          "sha256": "EAC0B80347C2413DDEBD002176E97B2ABFA567265DD1FF2111998DC521CFDCAF",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Black Swan Honkai Star Rail | ЗВУК"
+        },
+        {
+          "id": "v_ae6cb4d6",
+          "name": "Asta Devil Union Black Clover",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_iQkRD5grVy_kkwHZ_8sggClx3ZuCU8m",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_iQkRD5grVy_kkwHZ_8sggClx3ZuCU8m&sz=w640",
+          "sizeBytes": 4712262,
+          "sha256": "F6589CCEE6C2B05F15D949395AFC14C7CCE2D74A941A344D9534477F768ECA7A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Asta Devil Union Black Clover | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "01003A400C3DA000",
+      "title": "Youtube",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003A400C3DA000.jpg",
+      "variants": [
+        {
+          "id": "v_55ab0324",
+          "name": "Dong Xuelian Virtual YouTuber",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hIpclcSMOELRbjs2eu2bIKfU1Kmkl50B",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hIpclcSMOELRbjs2eu2bIKfU1Kmkl50B&sz=w640",
+          "sizeBytes": 4684070,
+          "sha256": "AAD53D2B0DD95063DC47F45856DB006C3058A09C3E9EF049DC4A5BCA54407540",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dong Xuelian Virtual YouTuber | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 815,
-  "totalVariants": 1113,
+  "totalGames": 817,
+  "totalVariants": 1118,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
