@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T15:44:14.263685+00:00",
+  "updatedAt": "2026-10-23T15:44:59.199947+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -33728,9 +33728,35 @@
           "notes": "Switch 720p 30fps H264 | Valley Misty"
         }
       ]
+    },
+    {
+      "titleId": "0100D90009530000",
+      "title": "Knight Out",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D90009530000.jpg",
+      "variants": [
+        {
+          "id": "v_c022e913",
+          "name": "Arc&#8217;s World Tree",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fw54Xc37D-Zwxg1KX8tZCoy9FfJyZ6f1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fw54Xc37D-Zwxg1KX8tZCoy9FfJyZ6f1&sz=w640",
+          "sizeBytes": 4750263,
+          "sha256": "AFA86B5F10FDB15A8450245826FAF077FB3D8427AE51396DD1391CF564C1099F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Arc&#8217;s World Tree | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 997,
-  "totalVariants": 1475,
+  "totalGames": 998,
+  "totalVariants": 1476,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
