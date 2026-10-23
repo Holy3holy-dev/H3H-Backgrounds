@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:52:44.212241+00:00",
+  "updatedAt": "2026-10-23T14:53:37.674409+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -30388,9 +30388,71 @@
           "notes": "Switch 720p 30fps H264 | Alice Syndrome Hang Out | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100F1300EC60000",
+      "title": "One Night Stand",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F1300EC60000.jpg",
+      "variants": [
+        {
+          "id": "v_4b38882f",
+          "name": "Texas X Exusiai Arknights",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1crMg1w57N7pJbj54FhW5ZBYDbqIOTeCo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1crMg1w57N7pJbj54FhW5ZBYDbqIOTeCo&sz=w640",
+          "sizeBytes": 4707407,
+          "sha256": "E5129FE802E0D50D8B53F9203E3851A67CC6AD9CD2AD639CE8DCCE16DD43C9ED",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Texas X Exusiai Arknights"
+        },
+        {
+          "id": "v_11254139",
+          "name": "The Winter Nothingness",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FuaErV-Y7nkMUeO2DbGPaTRLEXwlN5xz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FuaErV-Y7nkMUeO2DbGPaTRLEXwlN5xz&sz=w640",
+          "sizeBytes": 4663039,
+          "sha256": "8B882DAED1E45459052CAF2D5CFCBB96669DBC9B1046EDA7FDAAD3DCBD928E2A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | The Winter Nothingness"
+        },
+        {
+          "id": "v_b6b05806",
+          "name": "Kokushibo Blood Moon Kimetsu No Yaiba",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14KxWeGcHuoGRNh_6Y3soZQKgQC9u2rwj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14KxWeGcHuoGRNh_6Y3soZQKgQC9u2rwj&sz=w640",
+          "sizeBytes": 4690546,
+          "sha256": "6D9A1B7C454B4A3BB96F6A076E7875D59AE876F5CA3A67CFC55045E43CC39E1A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Kokushibo Blood Moon Kimetsu No Yaiba"
+        }
+      ]
     }
   ],
-  "totalGames": 926,
-  "totalVariants": 1321,
+  "totalGames": 927,
+  "totalVariants": 1324,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
