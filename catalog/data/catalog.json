@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:24:24.108452+00:00",
+  "updatedAt": "2026-10-23T14:25:40.222870+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -28898,9 +28898,35 @@
           "notes": "Switch 720p 30fps H264 | Star Wars Cyberpunk | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "010094C00E180000",
+      "title": "Ghost Parade",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010094C00E180000.jpg",
+      "variants": [
+        {
+          "id": "v_50d2c251",
+          "name": "Princess And The Grave Of The Soldiers T",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lkZo2eOl5j5VBUIQc10sHA7hXWrpsBn5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lkZo2eOl5j5VBUIQc10sHA7hXWrpsBn5&sz=w640",
+          "sizeBytes": 4703048,
+          "sha256": "927BB5308490BDCAE9DD7611D37F59FF7C0C3F1449E4EE32BF867D715EB5E6B6",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Princess And The Grave Of The Soldiers T | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 886,
-  "totalVariants": 1256,
+  "totalGames": 887,
+  "totalVariants": 1257,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
