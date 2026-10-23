@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T15:02:20.034459+00:00",
+  "updatedAt": "2026-10-23T15:04:59.266006+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -31014,9 +31014,123 @@
           "notes": "Switch 720p 30fps H264 | Skadi Blood Moon Ocean Arknights"
         }
       ]
+    },
+    {
+      "titleId": "0100C090153B4000",
+      "title": "Crunchyroll",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C090153B4000.jpg",
+      "variants": [
+        {
+          "id": "v_c655d016",
+          "name": "Crunchyroll Yuppie Psycho",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rwsFC2PG2QVKqbwO5YfGrDwElCA0Yb0h",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rwsFC2PG2QVKqbwO5YfGrDwElCA0Yb0h&sz=w640",
+          "sizeBytes": 4720602,
+          "sha256": "583CEE3DA2EA97FB1DFC25BBF16FB7D894DBD06BDA503AAC6FCB1240C9329338",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Crunchyroll Yuppie Psycho"
+        }
+      ]
+    },
+    {
+      "titleId": "010080F00F490000",
+      "title": "Mirror",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010080F00F490000.jpg",
+      "variants": [
+        {
+          "id": "v_539660c1",
+          "name": "Broken Mirror",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19QB6fYHh89lQwsllCHzngsz9NBi0VXhO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19QB6fYHh89lQwsllCHzngsz9NBi0VXhO&sz=w640",
+          "sizeBytes": 4652924,
+          "sha256": "245998BE307358EEC5CC9D9988BEB335827A895083F664B0C9993E6F8465C4C4",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Broken Mirror"
+        },
+        {
+          "id": "v_162c9701",
+          "name": "Anime School Girl Sky Mirror",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1af02ctL4KRLVclwNpqCsrYIwWvkCnCKC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1af02ctL4KRLVclwNpqCsrYIwWvkCnCKC&sz=w640",
+          "sizeBytes": 4678506,
+          "sha256": "D9DC6D18AB7F2CF47DD93126D8237E089FA9E0DD26498747F928B221F0D9949C",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Anime School Girl Sky Mirror | ЗВУК"
+        },
+        {
+          "id": "v_66a02b12",
+          "name": "Arcane Jinx Broken Mirror",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_p3QhQYSNS9FQuqT-yP0Ufdaprc3LEPz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_p3QhQYSNS9FQuqT-yP0Ufdaprc3LEPz&sz=w640",
+          "sizeBytes": 4622176,
+          "sha256": "8A4E9F866BD72A3C184FA0C282121C94D00224586C9C6DD74C09A835A384ADD6",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Arcane Jinx Broken Mirror | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CC6013432000",
+      "title": "Embr",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CC6013432000.jpg",
+      "variants": [
+        {
+          "id": "v_633d9c52",
+          "name": "Corgi Run",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NRd2gMAyb5jNs3AU9w261V8PGA-Xrwho",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NRd2gMAyb5jNs3AU9w261V8PGA-Xrwho&sz=w640",
+          "sizeBytes": 4567399,
+          "sha256": "5AB7FFF0637963E9D631EA5E2A8E26852FF72A0AC259D1EC0826A06A8819BE9D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Corgi Run"
+        }
+      ]
     }
   ],
-  "totalGames": 939,
-  "totalVariants": 1350,
+  "totalGames": 942,
+  "totalVariants": 1355,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
