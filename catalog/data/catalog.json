@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:14:53.070370+00:00",
+  "updatedAt": "2026-10-23T14:16:03.681455+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -28352,9 +28352,35 @@
           "notes": "Switch 720p 30fps H264 | Berserker | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "01004EF01DD22000",
+      "title": "Kill Knight",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004EF01DD22000.jpg",
+      "variants": [
+        {
+          "id": "v_3eaca2b1",
+          "name": "Sung Jinwoo Dagger Knight Killer Solo Le",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12j_16BaNMhuyJ298MgEIFAcdLDobb_yk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12j_16BaNMhuyJ298MgEIFAcdLDobb_yk&sz=w640",
+          "sizeBytes": 4760931,
+          "sha256": "E4F0A442F2E2A4818D01AAA95CAEA09D8232F7329C1F8D9B689B6922E89FB697",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sung Jinwoo Dagger Knight Killer Solo Le | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 874,
-  "totalVariants": 1231,
+  "totalGames": 875,
+  "totalVariants": 1232,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
