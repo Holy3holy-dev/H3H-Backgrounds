@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T16:56:49.460436+00:00",
+  "updatedAt": "2026-10-23T16:58:05.859214+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -34681,9 +34681,79 @@
           "notes": "Switch 720p 30fps H264 | The Elder Scrolls IV Oblivion Remastered | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "01006D801367E000",
+      "title": "Wave Break",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006D801367E000.jpg",
+      "variants": [
+        {
+          "id": "v_9b2edfab",
+          "name": "Sky Break Qingxiao Wuthering Waves",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MIwhPvYTCTPzLZJpDZrnbAiRoYXJ_xoq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MIwhPvYTCTPzLZJpDZrnbAiRoYXJ_xoq&sz=w640",
+          "sizeBytes": 4909342,
+          "sha256": "309AB7AB0EFDCB77CBE160872036E434C0E404FA2E8B1B9F092875ACA58C4BB8",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sky Break Qingxiao Wuthering Waves | ЗВУК"
+        },
+        {
+          "id": "v_5eec3f21",
+          "name": "Qingxiao Sky Break Wuthering Waves",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12p3lfK_sqfeHUsM6MYd4PPHdTy4lUroa",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12p3lfK_sqfeHUsM6MYd4PPHdTy4lUroa&sz=w640",
+          "sizeBytes": 4746191,
+          "sha256": "8400580DAE75C0AE59A9C0C7BD755D8B2DF627AB52AF2844517278C6742A5650",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Qingxiao Sky Break Wuthering Waves | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D44016EA2000",
+      "title": "The Wake",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D44016EA2000.jpg",
+      "variants": [
+        {
+          "id": "v_1cb1c487",
+          "name": "Galbrena Dual Flame Eyes Awakening Wuthe",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Fg0uJ3mj5CVw42hRzLZAZw8UebxxX0SS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Fg0uJ3mj5CVw42hRzLZAZw8UebxxX0SS&sz=w640",
+          "sizeBytes": 4730205,
+          "sha256": "8D4B87E28AE4B85A580AC04CD15CFFB56990834BE815A3D2656262068D6FC6A9",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Galbrena Dual Flame Eyes Awakening Wuthe | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 1015,
-  "totalVariants": 1520,
+  "totalGames": 1017,
+  "totalVariants": 1523,
   "lastUpdated": "2026-10-23T16:45:33.184207+00:00"
 }
