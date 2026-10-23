@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T21:10:45.689425+00:00",
+  "updatedAt": "2026-10-23T21:11:44.906858+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -24735,6 +24735,78 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | BMW M3 E46 Need For Speed"
+        },
+        {
+          "id": "v_2ade14b0",
+          "name": "Toyota Supra Need For Speed",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1chY3YCInmfqlaYNSFFZ00TqH5diqFb_B",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1chY3YCInmfqlaYNSFFZ00TqH5diqFb_B&sz=w640",
+          "sizeBytes": 4627356,
+          "sha256": "547F6E3281F027A3706B92CFFF1655E7218F277687BD5E0B8FA26DBD3613E3FE",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Toyota Supra Need For Speed | ЗВУК"
+        },
+        {
+          "id": "v_ceda81d4",
+          "name": "Toyota Supra Neon Night Road",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GQzb8_X2hUKyb58Q2U2YrgZ5WaLNqTTl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GQzb8_X2hUKyb58Q2U2YrgZ5WaLNqTTl&sz=w640",
+          "sizeBytes": 4780413,
+          "sha256": "6BF7BB3B10F8D544319A391EF0E86065F5C1E6602D6B4E99B032EE8D0BD409F0",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Toyota Supra Neon Night Road"
+        },
+        {
+          "id": "v_6934595a",
+          "name": "2015 Nissan GT-R Rainy Purple Neon Stree",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1iQv6CgdbX7g51QU0JOv59nRrgn-FoCfC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1iQv6CgdbX7g51QU0JOv59nRrgn-FoCfC&sz=w640",
+          "sizeBytes": 4679650,
+          "sha256": "2E40B831B3C437B3D4F5FA97FFA05D07E0FCEF99B38BF73C53AFED35976ABF38",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 2015 Nissan GT-R Rainy Purple Neon Stree | ЗВУК"
+        },
+        {
+          "id": "v_471569e7",
+          "name": "Nissan Skyline R34 GT-R V-Spec Rainy All",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16r8wahM3pSoVMKGSTof1mwd6duXt2A1o",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16r8wahM3pSoVMKGSTof1mwd6duXt2A1o&sz=w640",
+          "sizeBytes": 4852873,
+          "sha256": "460016018AA6A11B777CD4B5512BDD037C04633121B57094046041D854AA0713",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Nissan Skyline R34 GT-R V-Spec Rainy All | ЗВУК"
         }
       ]
     },
@@ -35449,6 +35521,6 @@
     }
   ],
   "totalGames": 1029,
-  "totalVariants": 1556,
+  "totalVariants": 1560,
   "lastUpdated": "2026-10-23T20:40:23.001126+00:00"
 }
