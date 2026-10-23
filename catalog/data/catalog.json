@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T15:38:34.943805+00:00",
+  "updatedAt": "2026-10-23T15:39:33.507599+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -33340,9 +33340,115 @@
           "notes": "Switch 720p 30fps H264 | Madara Susanoo"
         }
       ]
+    },
+    {
+      "titleId": "01000B9011596000",
+      "title": "Chained",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000B9011596000.jpg",
+      "variants": [
+        {
+          "id": "v_51fc8026",
+          "name": "Chained Soul Butterflies",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13jnIvjLvO1hlqXpBPcULabMgiGNolFsW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13jnIvjLvO1hlqXpBPcULabMgiGNolFsW&sz=w640",
+          "sizeBytes": 4774883,
+          "sha256": "157AB9851AF5D15A1458A73471BFDFAA6B15ABF3F0262082903968A8FEA51D99",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Chained Soul Butterflies"
+        },
+        {
+          "id": "v_d47052f3",
+          "name": "Vinland Saga Chained Blade",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1E4UytzvEihH_ps0K7Bk6CY4sn2Sm4NCp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1E4UytzvEihH_ps0K7Bk6CY4sn2Sm4NCp&sz=w640",
+          "sizeBytes": 4690094,
+          "sha256": "50BA918CE5521B6E32A75A2FB69CE727D8CC867E87B16BF1F9FDB427C256152F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Vinland Saga Chained Blade | ЗВУК"
+        },
+        {
+          "id": "v_eb610322",
+          "name": "Makima Bloody Chained Chainsaw Man",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MPf4FxOQRUsfCVw42MKhSjhlVZOorU47",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MPf4FxOQRUsfCVw42MKhSjhlVZOorU47&sz=w640",
+          "sizeBytes": 4770930,
+          "sha256": "791C05530C9C64A392EFA4E02907CC9038529E0C63FC81E6A9F4DA6F4BA68825",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Makima Bloody Chained Chainsaw Man | ЗВУК"
+        },
+        {
+          "id": "v_8ec43a8c",
+          "name": "Makima Chained Chainsaw Man",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ry8RCTZ3QJVA_RONk7qN9WPm09AHaBkU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ry8RCTZ3QJVA_RONk7qN9WPm09AHaBkU&sz=w640",
+          "sizeBytes": 4676263,
+          "sha256": "E8BAD9E26FA3156B8C838AA7738FBD9B32F48B5EA507A877B83471C373D2FC58",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Makima Chained Chainsaw Man | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CF001426A000",
+      "title": "Jack n Hat",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CF001426A000.jpg",
+      "variants": [
+        {
+          "id": "v_752217a7",
+          "name": "Punk Rock Miku",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RY0CXXKddCgC42Buv3rKHEwvgiVpHJXw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RY0CXXKddCgC42Buv3rKHEwvgiVpHJXw&sz=w640",
+          "sizeBytes": 4693961,
+          "sha256": "93A5C805B119EE1BE2C9B899B7B7046C8292D0107AF4BED69E673FCA23F26517",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Punk Rock Miku | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 989,
-  "totalVariants": 1457,
+  "totalGames": 991,
+  "totalVariants": 1462,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
