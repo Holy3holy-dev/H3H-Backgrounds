@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T21:33:21.529747+00:00",
+  "updatedAt": "2026-10-23T21:37:24.361805+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -14453,6 +14453,78 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "SteamGridDB Animated Grid: 0100810012A1A000_Carto.mp4"
+        },
+        {
+          "id": "v_a12e9684",
+          "name": "Gwen Stacy On a Panel",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1q_MORgz94pK5ERfzt0zjTVYHXgiFq1ox",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1q_MORgz94pK5ERfzt0zjTVYHXgiFq1ox&sz=w640",
+          "sizeBytes": 4667532,
+          "sha256": "85A739292BAB6FE69AB76FF61E494FA398215547A5B2A3FBDC2F954F428FD220",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Gwen Stacy On a Panel"
+        },
+        {
+          "id": "v_436aad34",
+          "name": "Watching Tv Adventure Time",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eAC5us0x14AoceF_u91tU1jrUTzMKbhL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eAC5us0x14AoceF_u91tU1jrUTzMKbhL&sz=w640",
+          "sizeBytes": 4591633,
+          "sha256": "26DBD41AE4071C92DCE46F68741417781403E07DA1A468657FE9127F9AE544DD",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Watching Tv Adventure Time"
+        },
+        {
+          "id": "v_7be570ab",
+          "name": "Lucyna Kushinada Cyberpunk: Edgerunners",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LdGpTHBhx7iSrcoL9xSiGk-CKtTSKa7M",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LdGpTHBhx7iSrcoL9xSiGk-CKtTSKa7M&sz=w640",
+          "sizeBytes": 4698825,
+          "sha256": "3015A5A6ED36BD90D5E9CC64FE3CA6E7A55007EC4990F228EB38A7145B81293B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Lucyna Kushinada Cyberpunk: Edgerunners"
+        },
+        {
+          "id": "v_ffb76d6c",
+          "name": "Spider-Man Across The Spider-Verse",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nnqwQhtOvz3YmUdhQ0_SkCHbVh5hur-P",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nnqwQhtOvz3YmUdhQ0_SkCHbVh5hur-P&sz=w640",
+          "sizeBytes": 4699157,
+          "sha256": "5A8A3E187AC480E815E906F05260776A4A13C6F79422CC21F006F5358B77C89B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Spider-Man Across The Spider-Verse"
         }
       ]
     },
@@ -35799,6 +35871,6 @@
     }
   ],
   "totalGames": 1030,
-  "totalVariants": 1575,
+  "totalVariants": 1579,
   "lastUpdated": "2026-10-23T20:40:23.001126+00:00"
 }
