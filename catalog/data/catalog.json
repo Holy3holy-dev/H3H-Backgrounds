@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T15:23:54.357630+00:00",
+  "updatedAt": "2026-10-23T15:25:17.593003+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -32372,9 +32372,123 @@
           "notes": "Switch 720p 30fps H264 | Camellya Travelling Train Wuthering Wave"
         }
       ]
+    },
+    {
+      "titleId": "0100E2D01F290000",
+      "title": "Kiki",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E2D01F290000.jpg",
+      "variants": [
+        {
+          "id": "v_53a497aa",
+          "name": "Kiki And Jiji Kiki&#8217;s Delivery Serv",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1EViG3QlVPDlJ2xOWAtYIsIIcaWneMRHv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1EViG3QlVPDlJ2xOWAtYIsIIcaWneMRHv&sz=w640",
+          "sizeBytes": 4744542,
+          "sha256": "822E4887235951C8B762B713946BC2C86D1D6DA98EFE9465481AE413D82430E7",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kiki And Jiji Kiki&#8217;s Delivery Serv | ЗВУК"
+        },
+        {
+          "id": "v_2021eee4",
+          "name": "Kiki&#8217;s Delivery Service Cyberpunk",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IRvX7SZPPYtnP2O00AXdchtFKRPCqLhw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IRvX7SZPPYtnP2O00AXdchtFKRPCqLhw&sz=w640",
+          "sizeBytes": 2813332,
+          "sha256": "3A2511B48E1655C0465099D0FD75DD15CB21FEC996ED8C66469A34DE973B1A02",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kiki&#8217;s Delivery Service Cyberpunk | ЗВУК"
+        },
+        {
+          "id": "v_191566d8",
+          "name": "Anime Girl In Koriko City Kiki&#8217;s D",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fbfPcBjEKuk-wiO6wFgJjfVQP0Rc6yr6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fbfPcBjEKuk-wiO6wFgJjfVQP0Rc6yr6&sz=w640",
+          "sizeBytes": 4517375,
+          "sha256": "39B5D4E0B49D330F9F26B565D893FC57751FAF18B95FB4C3307C43D8B3754A79",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Anime Girl In Koriko City Kiki&#8217;s D | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100277019E14000",
+      "title": "Drago Noka",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100277019E14000.jpg",
+      "variants": [
+        {
+          "id": "v_6943050b",
+          "name": "Tanjiro Sun Halo Dragon Kimetsu No Yaiba",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=185qmkxtr_DT-t_lP3cnMISgV-TrCXlXR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=185qmkxtr_DT-t_lP3cnMISgV-TrCXlXR&sz=w640",
+          "sizeBytes": 4749502,
+          "sha256": "9B913266345A6A4E595F346B13E251E831F8D3EF0BDA14A7B27E1DE1F1E891E5",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tanjiro Sun Halo Dragon Kimetsu No Yaiba | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AE301AD86000",
+      "title": "Dig Deep",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AE301AD86000.jpg",
+      "variants": [
+        {
+          "id": "v_bcf02c2a",
+          "name": "Deepssek Chan Digital",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1T4YyYGWNDYZpYM-liLgYcdmoqSk-Hb0k",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1T4YyYGWNDYZpYM-liLgYcdmoqSk-Hb0k&sz=w640",
+          "sizeBytes": 4694292,
+          "sha256": "6900D47D8DA832D97BF9DF68F45B1C828DD201EE448424BF347E30BBED2C58E8",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Deepssek Chan Digital"
+        }
+      ]
     }
   ],
-  "totalGames": 967,
-  "totalVariants": 1413,
+  "totalGames": 970,
+  "totalVariants": 1418,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
