@@ -158,21 +158,74 @@ MATURE_SWITCH_GAMES = [
     ("01005700031AE000", "Disgaea Complete", ["disgaea", "disgaea etna", "disgaea flonne"]),
     ("0100990011866000", "Aokana: Four Rhythms Across the Blue", ["aokana", "asuka kurashina"]),
     ("010016101100A000", "The House in Fata Morgana", ["house in fata morgana", "fata morgana"]),
-    ("0100F7E01343E000", "Corpse Party Blood Covered", ["corpse party", "ayumi shinozaki"])
+    ("0100F7E01343E000", "Corpse Party Blood Covered", ["corpse party", "ayumi shinozaki"]),
+
+    # New Mature, Ecchi & Visual Novel Additions for Nintendo Switch
+    ("0100C8801594E000", "Gal*Gun Double Peace", ["gal gun double peace", "gal gun"]),
+    ("010090F012644000", "Gal*Gun Returns", ["gal gun returns", "gal gun ecchi"]),
+    ("010093800B9CE000", "Omega Labyrinth Life", ["omega labyrinth life", "omega labyrinth"]),
+    ("01002EA0112A6000", "Waifu Uncovered", ["waifu uncovered"]),
+    ("01002270146AE000", "Waifu Discovered 2: Medieval Fantasy", ["waifu discovered"]),
+    ("01008DE00C4FA000", "Super Neptunia RPG", ["super neptunia rpg", "neptunia"]),
+    ("0100B9F01B63E000", "Neptunia Sisters VS Sisters", ["neptunia sisters", "neptunia nepgear"]),
+    ("0100DCE00FE24000", "Megadimension Neptunia VII", ["megadimension neptunia", "neptune anime"]),
+    ("010009B00E71A000", "Atelier Ryza: Ever Darkness & the Secret Hideout", ["atelier ryza", "ryza reisalin", "ryza thighs"]),
+    ("010052901243A000", "Atelier Ryza 2: Lost Legends & the Secret Fairy", ["atelier ryza 2", "ryza swimsuit"]),
+    ("0100F48017B80000", "Atelier Ryza 3: Alchemist of the End", ["atelier ryza 3"]),
+    ("010051B014524000", "Atelier Sophie 2: The Alchemist of the Mysterious Dream", ["atelier sophie 2", "sophie neuenmuller"]),
+    ("0100D5D010EB4000", "Mary Skelter Finale", ["mary skelter finale"]),
+    ("01000B0011C9C000", "Death end re;Quest", ["death end request", "death end re quest"]),
+    ("0100E2C0157E8000", "Death end re;Quest 2", ["death end re quest 2"]),
+    ("01002F401C950000", "Tsukihime -A piece of blue glass moon-", ["tsukihime", "arcueid brunestud", "ciel tsukihime"]),
+    ("0100344018A1A000", "Witch on the Holy Night", ["witch on the holy night", "aoko aozaki", "alice kuonji"]),
+    ("0100847012D78000", "Saya no Uta", ["saya no uta", "song of saya"]),
+    ("0100B9600E262000", "The Fruit of Grisaia: Remastered", ["fruit of grisaia", "yumiko sakaki", "michiru matsushima"]),
+    ("01001A800FCFE000", "Grisaia: Phantom Trigger 01 to 05", ["grisaia phantom trigger", "rena grisaia"]),
+    ("010058C00A63C000", "Higurashi When They Cry Hou", ["higurashi", "rena ryugu", "mion sonozaki"]),
+    ("010025D00E71C000", "Umineko When They Cry Saku", ["umineko", "beatrice umineko"]),
+    ("010065200DEB2000", "Gun Gun Pixies", ["gun gun pixies"]),
+    ("0100486009E48000", "Bullet Girls Phantasia", ["bullet girls phantasia", "bullet girls"]),
+    ("0100BD601309E000", "Crawlco Block Knockers", ["crawlco block knockers"]),
+    ("0100C1A014E4C000", "Pretty Girls Mahjong Solitaire", ["pretty girls mahjong", "pretty girls"]),
+    ("010020B01A3DE000", "Akiba's Trip: Undead & Undressed", ["akibas trip undead", "shizuku akiba"]),
+    ("01001F000CB7E000", "Date A Live: Rio Reincarnation", ["date a live", "kurumi tokisaki", "tohka yatogami"]),
+    ("010027701815A000", "Date A Live: Ren Dystopia", ["date a live ren dystopia", "kurumi date a live"]),
+    ("0100C9E00CA3E000", "Sword Art Online: Fatal Bullet Complete Edition", ["sword art online", "fatal bullet", "sinon sao", "asuna sao"]),
+    ("0100D1A007038000", "Sword Art Online: Hollow Realization Deluxe Edition", ["sao hollow realization", "asuna swimsuit"]),
+
+    # Dedicated Adult / Anime Waifu Franchises
+    ("0100EC0000000001", "Genshin Impact (Waifus)", ["genshin impact", "raiden shogun", "yae miko", "ganyu", "hu tao", "furina", "arlecchino", "shenhe", "yelan", "clorinde"]),
+    ("0100EC0000000002", "Blue Archive (Swimsuit & Bunny)", ["blue archive", "blue archive swimsuit", "blue archive bunny", "akane bunny", "makoto swimsuit"]),
+    ("0100EC0000000003", "Chainsaw Man (Makima & Power)", ["chainsaw man makima", "makima bikini", "power chainsaw man", "reze"]),
+    ("0100EC0000000004", "GODDESS OF VICTORY: NIKKE", ["nikke", "nikke bikini", "goddess of victory nikke", "cinderella nikke", "dorothy nikke"]),
+    ("0100EC0000000005", "Honkai: Star Rail (Waifus)", ["honkai star rail waifu", "kafka honkai", "firefly honkai", "acheron honkai", "black swan honkai", "sparkle honkai"]),
+    ("0100EC0000000006", "Darling in the Franxx (Zero Two)", ["zero two", "zero two bunny", "darling in the franxx"]),
+    ("0100EC0000000007", "Stellar Blade (Eve)", ["stellar blade eve", "eve stellar blade", "eve nano suit"]),
+    ("0100EC0000000008", "Rascal Does Not Dream (Mai Sakurajima)", ["bunny girl senpai", "mai sakurajima"]),
+    ("0100EC0000000009", "SPY x FAMILY (Yor Forger)", ["yor forger", "yor forger assassin", "yor swimsuit"]),
+    ("0100EC000000000A", "Zenless Zone Zero", ["zenless zone zero", "ellen joe", "nicole demara", "zhu yuan"]),
+    ("0100EC000000000B", "My Dress-Up Darling (Marin Kitagawa)", ["marin kitagawa", "marin bikini", "my dress-up darling"]),
+    ("0100EC000000000C", "Overlord (Albedo & Shalltear)", ["overlord albedo", "albedo water", "shalltear bloodfallen"]),
+    ("0100EC000000000D", "Re:Zero (Rem & Emilia)", ["rem re:zero", "rem fallen maid", "emilia re:zero", "echidna re:zero"]),
+    ("0100EC000000000E", "KonoSuba (Megumin & Aqua)", ["konosuba megumin", "megumin", "aqua konosuba", "darkness konosuba"]),
+    ("0100EC000000000F", "Hololive VTubers (Marine, Gura, Calli)", ["hololive", "houshou marine", "gawr gura", "mori calliope", "usada pekora"]),
+    ("0100EC0000000010", "High School DxD (Rias & Akeno)", ["high school dxd", "rias gremory", "akeno himejima"]),
+    ("0100EC0000000011", "To Love-Ru Darkness", ["to love ru", "to love-ru", "golden darkness", "lala satalin", "momo to love ru"])
 ]
 
 # General mature / ecchi / waifu / genre queries for After Dark collection
 AFTER_DARK_GENERAL_QUERIES = [
-    # Specific Ecchi & Waifu Sub-genres
-    "visual novel", "galge", "neko", "catgirl", "bunny girl", "maid waifu",
-    "yandere", "tsundere", "gothic girl", "cyberpunk girl", "schoolgirl",
-    "monster girl", "ecchi", "bikini", "swimsuit", "beach anime", "lingerie waifu",
+    # High-yielding Direct Tags on MoeWalls
+    "tag:bikini", "tag:swimsuit", "tag:beach", "tag:bunny", "tag:maid",
+    "tag:hot", "tag:legs", "tag:dress", "tag:gothic", "tag:elf", "tag:demon",
+    "tag:vampire", "tag:overlord", "tag:konosuba", "tag:hololive", "tag:summer",
+    "tag:school-uniform", "tag:blue-archive", "tag:genshin-impact", "tag:honkai-star-rail", "tag:cyberpunk",
 
-    # Iconic Anime / Mobile Waifus
-    "nikke", "nikke bikini", "stellar blade eve", "blue archive", "blue archive swimsuit",
-    "genshin impact waifu", "raiden shogun", "yae miko", "ganyu", "hu tao", "furina",
-    "honkai star rail waifu", "kafka honkai", "firefly honkai", "acheron honkai",
-    "chainsaw man makima", "makima bikini", "zero two", "marin kitagawa", "yor forger"
+    # Explicit / Ecchi Themes & Visual Filters
+    "ecchi", "bikini", "swimsuit", "beach anime", "lingerie waifu", "cleavage",
+    "bunny girl", "maid waifu", "monster girl", "catgirl", "succubus",
+    "undressing", "erotic anime", "wet anime", "bath anime girl",
+    "morrigan darkstalkers", "mai shiranui", "chun li", "cammy", "juri han"
 ]
 
 # Known popular Switch games & famous Homebrew ports for SFW Main catalog
@@ -357,6 +410,10 @@ class AutoVideoHarvester:
         if any(w in t_low or w in q_low for w in waifu_characters):
             return True
 
+        # Tag searches for After Dark are curated and trusted
+        if q_low.startswith("tag:"):
+            return True
+
         # If query is a targeted mature Switch game and wallpaper has no male flags, accept
         for _, gname, qlist in MATURE_SWITCH_GAMES:
             if any(q == q_low for q in qlist):
@@ -364,8 +421,77 @@ class AutoVideoHarvester:
 
         return False
 
+    def classify_after_dark_title(self, title: str, url: str) -> Tuple[str, str]:
+        """Classifies an After Dark wallpaper into a specific game or dedicated franchise entry."""
+        combined = (title + " " + url).lower()
+
+        # 1. Dedicated Franchises
+        if any(k in combined for k in ["genshin", "raiden", "yae miko", "ganyu", "hu tao", "furina", "arlecchino", "mona", "shenhe", "yelan", "clorinde"]):
+            return ("0100EC0000000001", "Genshin Impact (Waifus)")
+        if any(k in combined for k in ["blue archive", "ushio noa", "hanuma makoto", "iroha sunset", "akane bunny", "chiaki", "satsuki swimsuit", "toki blue"]):
+            return ("0100EC0000000002", "Blue Archive (Swimsuit & Bunny)")
+        if any(k in combined for k in ["chainsaw man", "makima", "power blood", "reze"]):
+            return ("0100EC0000000003", "Chainsaw Man (Makima & Power)")
+        if any(k in combined for k in ["nikke", "cinderella bikini", "anis nikke", "dorothy nikke", "elegg", "rapi nikke", "sugar nikke", "viper nikke"]):
+            return ("0100EC0000000004", "GODDESS OF VICTORY: NIKKE")
+        if any(k in combined for k in ["honkai", "star rail", "kafka", "firefly", "acheron", "black swan", "himeko", "silver wolf", "tingyun", "sparkle", "march 7th"]):
+            return ("0100EC0000000005", "Honkai: Star Rail (Waifus)")
+        if any(k in combined for k in ["zero two", "darling in the franxx", "ichigo darling"]):
+            return ("0100EC0000000006", "Darling in the Franxx (Zero Two)")
+        if any(k in combined for k in ["stellar blade", "eve nano", "eve stellar"]):
+            return ("0100EC0000000007", "Stellar Blade (Eve)")
+        if any(k in combined for k in ["bunny girl senpai", "mai sakurajima"]):
+            return ("0100EC0000000008", "Rascal Does Not Dream (Mai Sakurajima)")
+        if any(k in combined for k in ["yor forger", "yor spy", "spy x family"]):
+            return ("0100EC0000000009", "SPY x FAMILY (Yor Forger)")
+        if any(k in combined for k in ["zenless", "zzz", "ellen joe", "nicole demara", "zhu yuan"]):
+            return ("0100EC000000000A", "Zenless Zone Zero")
+        if any(k in combined for k in ["marin kitagawa", "my dress-up darling", "marin cosplay"]):
+            return ("0100EC000000000B", "My Dress-Up Darling (Marin Kitagawa)")
+        if any(k in combined for k in ["overlord", "albedo", "shalltear"]):
+            return ("0100EC000000000C", "Overlord (Albedo & Shalltear)")
+        if any(k in combined for k in ["re:zero", "re zero", "rem fallen", "rem re:zero", "emilia re:zero"]):
+            return ("0100EC000000000D", "Re:Zero (Rem & Emilia)")
+        if any(k in combined for k in ["konosuba", "megumin", "aqua konosuba", "darkness konosuba"]):
+            return ("0100EC000000000E", "KonoSuba (Megumin & Aqua)")
+        if any(k in combined for k in ["hololive", "houshou marine", "gawr gura", "calliope", "pekora"]):
+            return ("0100EC000000000F", "Hololive VTubers (Marine, Gura, Calli)")
+        if any(k in combined for k in ["high school dxd", "dxd", "rias gremory", "akeno himejima"]):
+            return ("0100EC0000000010", "High School DxD (Rias & Akeno)")
+        if any(k in combined for k in ["to love ru", "to love-ru", "lala satalin", "golden darkness", "momo to love"]):
+            return ("0100EC0000000011", "To Love-Ru Darkness")
+
+        # 2. Key Switch Titles
+        if any(k in combined for k in ["nier", "2b", "a2"]):
+            return ("01005C000B2AE000", "NieR:Automata The End of YoRHa Edition")
+        if any(k in combined for k in ["tifa", "aerith", "final fantasy"]):
+            return ("0100A5B00BDC6000", "Final Fantasy VII")
+        if any(k in combined for k in ["azur lane", "prinz eugen", "taihou", "atago", "shinano"]):
+            return ("0100A1900F3BA000", "Azur Lane: Crosswave")
+        if any(k in combined for k in ["cyberpunk", "lucy", "rebecca"]):
+            return ("0100435942450000", "Cyberpunk 2077")
+        if any(k in combined for k in ["fate", "saber", "scathach", "rin tohsaka"]):
+            return ("010023301E41C000", "Fate/Stay Night Remastered")
+        if any(k in combined for k in ["senran kagura", "senran"]):
+            return ("010099400D28E000", "Senran Kagura Peach Ball")
+        if any(k in combined for k in ["dead or alive", "marie rose", "honoka"]):
+            return ("010034200B5B0000", "Dead or Alive Xtreme 3 Scarlet")
+        if any(k in combined for k in ["atelier ryza", "ryza"]):
+            return ("010009B00E71A000", "Atelier Ryza: Ever Darkness & the Secret Hideout")
+        if any(k in combined for k in ["date a live", "kurumi"]):
+            return ("01001F000CB7E000", "Date A Live: Rio Reincarnation")
+        if any(k in combined for k in ["sword art online", "sao", "asuna", "sinon"]):
+            return ("0100C9E00CA3E000", "Sword Art Online: Fatal Bullet Complete Edition")
+        if any(k in combined for k in ["witcher", "yennefer", "triss", "ciri"]):
+            return ("0100E8B00BDC6000", "The Witcher 3: Wild Hunt - Complete Edition")
+
+        return ("0000000000000000", "★ Коллекция After Dark: Ecchi & Waifus")
+
     def search_moewalls_articles(self, query: str, limit: int = 5, page: int = 1) -> List[Dict[str, str]]:
-        if page > 1:
+        if query.startswith("tag:"):
+            tag_name = query.split(":", 1)[1].strip()
+            url = f"https://moewalls.com/tag/{tag_name}/page/{page}/" if page > 1 else f"https://moewalls.com/tag/{tag_name}/"
+        elif page > 1:
             url = f"https://moewalls.com/page/{page}/?s={urllib.parse.quote(query)}"
         else:
             url = f"https://moewalls.com/?s={urllib.parse.quote(query)}"
@@ -374,6 +500,8 @@ class AutoVideoHarvester:
         try:
             html = urllib.request.urlopen(req, timeout=12).read().decode('utf-8', errors='ignore')
             articles = re.findall(r'<article[^>]*>.*?<a href="([^"]+)"[^>]*rel="bookmark">(.*?)</a>', html, re.DOTALL)
+            if not articles:
+                articles = re.findall(r'<article[^>]*>.*?<a href="([^"]+)"[^>]*title="([^"]+)"', html, re.DOTALL)
             for page_url, raw_title in articles:
                 clean_title = re.sub('<[^<]+?>', '', raw_title).strip()
                 if self.mode == "main" and self.is_nsfw_text(clean_title):
@@ -708,7 +836,7 @@ class AutoVideoHarvester:
         q_cursor = self.log_data.get("query_cursor", 0) % len(query_queue)
         page_cursors = self.log_data.get("page_cursors", {})
 
-        queries_to_try = 15
+        queries_to_try = 30
         for i in range(queries_to_try):
             if harvested >= limit:
                 break
@@ -737,11 +865,18 @@ class AutoVideoHarvester:
                 if len(clean_name) > 40:
                     clean_name = clean_name[:40].strip()
 
-                print(f"\n[*] Harvesting MoeWalls video: '{clean_name}' (Target: {default_game_name} [{tid}])")
+                final_tid = tid
+                final_name = default_game_name
+                if self.mode == "after_dark" and tid == "0000000000000000":
+                    c_tid, c_name = self.classify_after_dark_title(clean_name, vid_url)
+                    final_tid = c_tid
+                    final_name = c_name
+
+                print(f"\n[*] Harvesting MoeWalls video: '{clean_name}' (Target: {final_name} [{final_tid}])")
                 ok = self.process_and_upload_asset(
                     asset_url=vid_url,
-                    title_id=tid,
-                    game_title=default_game_name,
+                    title_id=final_tid,
+                    game_title=final_name,
                     var_name=clean_name or "Atmospheric Theme",
                     author="MoeWalls / Community",
                     style="Ecchi / Mature" if self.mode == "after_dark" else "Cinematic",
@@ -757,7 +892,7 @@ class AutoVideoHarvester:
 
             # Advance page for this query if current page had no new items
             if not articles or not found_any:
-                page_cursors[q] = current_p + 1 if current_p < 8 else 1
+                page_cursors[q] = current_p + 1 if current_p < 15 else 1
 
         self.log_data["query_cursor"] = (q_cursor + queries_to_try) % len(query_queue)
         self.log_data["page_cursors"] = page_cursors
