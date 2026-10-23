@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:47:38.717334+00:00",
+  "updatedAt": "2026-10-23T14:48:45.668608+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -30030,9 +30030,131 @@
           "notes": "Switch 720p 30fps H264 | Elementalist Lux Skin Spotlight league O | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100F90010882000",
+      "title": "Ys Origin",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F90010882000.jpg",
+      "variants": [
+        {
+          "id": "v_d3523322",
+          "name": "Reah and Feena Twin Goddesses Ys Origin",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qf7Ypqs3lVuQkebFjcsqi29M0YD1bSTq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qf7Ypqs3lVuQkebFjcsqi29M0YD1bSTq&sz=w640",
+          "sizeBytes": 4740224,
+          "sha256": "88B58829B212D0C9D1B60663F0FD939C0F235807645D55F748492314F87C4ECC",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Reah and Feena Twin Goddesses Ys Origin | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A05026270000",
+      "title": "Kanade",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A05026270000.jpg",
+      "variants": [
+        {
+          "id": "v_26e06735",
+          "name": "Yoisaki Kanade Project SEKAI",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qgEgWKV-oqv6Y6d1pgey4OGd_8kNAf-_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qgEgWKV-oqv6Y6d1pgey4OGd_8kNAf-_&sz=w640",
+          "sizeBytes": 4719278,
+          "sha256": "BF81BE4CF056FEB119302A5B5B78D2D78919BDA9F48C7203FCD42358682B002F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Yoisaki Kanade Project SEKAI"
+        }
+      ]
+    },
+    {
+      "titleId": "0100ABD01D09B000",
+      "title": "On Your Tail",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100ABD01D09B000.jpg",
+      "variants": [
+        {
+          "id": "v_10a2db51",
+          "name": "Hiyuki Entrust Your Wishes To Me Wutheri",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BDRg9x3qdlMARa-aP7I5hy8YJD5fMSHN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BDRg9x3qdlMARa-aP7I5hy8YJD5fMSHN&sz=w640",
+          "sizeBytes": 4732353,
+          "sha256": "D7566DE4FECFAA894AFB664CB9EA64921D5ABFCEF3D8698FC46C8B2B6A85DC2A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Hiyuki Entrust Your Wishes To Me Wutheri"
+        },
+        {
+          "id": "v_2c162086",
+          "name": "Toothless And Light Fury How To Train Yo",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_G8V-i01Uksqm0ZzobdUoAoiMbPuec3G",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_G8V-i01Uksqm0ZzobdUoAoiMbPuec3G&sz=w640",
+          "sizeBytes": 4695494,
+          "sha256": "A446DFE6F7D012C634ADDC49EDD7B8E6D9DD4F4006E936AFB31FD05DB14215EF",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Toothless And Light Fury How To Train Yo | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "01008A000A404000",
+      "title": "The Lost Child",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008A000A404000.jpg",
+      "variants": [
+        {
+          "id": "v_7e5249f8",
+          "name": "The Lost Child",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FJDRvWIYECuumNk98G6QUeEiax1zY0Q3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FJDRvWIYECuumNk98G6QUeEiax1zY0Q3&sz=w640",
+          "sizeBytes": 4707581,
+          "sha256": "A8AA6DFA3240AD29B7F8B8A068176E76D850F9CE9A1E6C4AE85A91476EB096A5",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Lost Child | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 915,
-  "totalVariants": 1306,
+  "totalGames": 919,
+  "totalVariants": 1311,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
