@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:17:20.380860+00:00",
+  "updatedAt": "2026-10-23T14:18:39.706709+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -28458,9 +28458,105 @@
           "notes": "Switch 720p 30fps H264 | Anime Couple Under The Autumn Tree | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100A9B0187CA000",
+      "title": "Anonymous Code",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A9B0187CA000.jpg",
+      "variants": [
+        {
+          "id": "v_443e3c73",
+          "name": "Anonymous",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RjvIgHmMWWeLaGTVSULNUz5RS2i-8H6T",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RjvIgHmMWWeLaGTVSULNUz5RS2i-8H6T&sz=w640",
+          "sizeBytes": 4728841,
+          "sha256": "86A6E25B0AE27CD6C4E17D1DF7F38FB63BDECB307101517DA6D00528870D397D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Anonymous"
+        }
+      ]
+    },
+    {
+      "titleId": "010046000EE40000",
+      "title": "Call of Cthulhu",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010046000EE40000.jpg",
+      "variants": [
+        {
+          "id": "v_5a3d5014",
+          "name": "Call Of The Cthulhu",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lAdMup_WVA8y3lmTwBjG2pbXjVGwKMUv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lAdMup_WVA8y3lmTwBjG2pbXjVGwKMUv&sz=w640",
+          "sizeBytes": 4700516,
+          "sha256": "BFF3272E29BB07B639025DCD5D03AF66888B229BFBAB6D61BCAFFE24061C289D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Call Of The Cthulhu | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B1601CE92000",
+      "title": "Time Flies",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B1601CE92000.jpg",
+      "variants": [
+        {
+          "id": "v_95c777a7",
+          "name": "Rei Ayanami Butterflies Evangelion 3.0+1",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Dh5lf9dANDfqME7bmRZ53kl6vFjrX-PP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Dh5lf9dANDfqME7bmRZ53kl6vFjrX-PP&sz=w640",
+          "sizeBytes": 4713330,
+          "sha256": "3141A8D015220C7A55EEA8E34BE7941069863F79226668927F0123E803BB8D76",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rei Ayanami Butterflies Evangelion 3.0+1 | ЗВУК"
+        },
+        {
+          "id": "v_4206440c",
+          "name": "Minecraft Swamp Nighttime",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Wi43Uo3AN9sV5gXu4qmXIibRqVP0BJ9M",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Wi43Uo3AN9sV5gXu4qmXIibRqVP0BJ9M&sz=w640",
+          "sizeBytes": 4722949,
+          "sha256": "07661F09CC05CE339AD5AED9C0874FAA80857D8966EA4167B42580DD2C754CF3",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Minecraft Swamp Nighttime | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 876,
-  "totalVariants": 1236,
+  "totalGames": 879,
+  "totalVariants": 1240,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
