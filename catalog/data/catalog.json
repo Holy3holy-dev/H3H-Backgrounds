@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T21:15:32.803682+00:00",
+  "updatedAt": "2026-10-23T21:17:08.767561+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -4423,6 +4423,78 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Ghost Of Tsushima Warrior Autumn | ЗВУК"
+        },
+        {
+          "id": "v_9a981106",
+          "name": "Moonlight Samurai Jin Sakai Ghost Of Tsu",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kbuWQ5Qh8TxyUNae-iCGgrIsC2yUL_lK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kbuWQ5Qh8TxyUNae-iCGgrIsC2yUL_lK&sz=w640",
+          "sizeBytes": 4669944,
+          "sha256": "82B4EB1507ED5594FB6F24D0121D117D9F7EA071F62D390B243AEC34084D1CC3",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Moonlight Samurai Jin Sakai Ghost Of Tsu"
+        },
+        {
+          "id": "v_5b523d15",
+          "name": "Moonlit Night Autumn Tree Ghost Of Tsush",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18OfwbaC2bH0jSvrLNUHjw3xWOYalgC66",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18OfwbaC2bH0jSvrLNUHjw3xWOYalgC66&sz=w640",
+          "sizeBytes": 4699479,
+          "sha256": "696C1126D7A56D9B7CE1B60A2FCB9E19474D75855AA4EA2E37CFCA8EB117E2F8",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Moonlit Night Autumn Tree Ghost Of Tsush"
+        },
+        {
+          "id": "v_444e6093",
+          "name": "Jin Sakai Moonlight Field Ghost Of Tsush",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zooASySxXLjf6ElZHgEQxqDinz45QddZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zooASySxXLjf6ElZHgEQxqDinz45QddZ&sz=w640",
+          "sizeBytes": 4723876,
+          "sha256": "788269273DC93DFEE113B28289F8A77D569D51767192AF05D0F46C41D068A9E0",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Jin Sakai Moonlight Field Ghost Of Tsush"
+        },
+        {
+          "id": "v_9ceef976",
+          "name": "Golden Lake Temple Ghost Of Tsushima",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Rfib0InhOQblIR1G3Cr5w5w49YUM5Blj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Rfib0InhOQblIR1G3Cr5w5w49YUM5Blj&sz=w640",
+          "sizeBytes": 4742015,
+          "sha256": "477BF477D3C51F1F70DDF51C4493FCE8A39C4635FA8F37778076ADC7FB494874",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Golden Lake Temple Ghost Of Tsushima"
         }
       ]
     },
@@ -35655,6 +35727,6 @@
     }
   ],
   "totalGames": 1030,
-  "totalVariants": 1567,
+  "totalVariants": 1571,
   "lastUpdated": "2026-10-23T20:40:23.001126+00:00"
 }
