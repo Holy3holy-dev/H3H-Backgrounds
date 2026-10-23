@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:54:23.120613+00:00",
+  "updatedAt": "2026-10-23T13:56:06.727911+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -27252,9 +27252,115 @@
           "notes": "Switch 720p 30fps H264 | Crime City Nightmare Akali League Of Leg | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100F5201B452000",
+      "title": "OFF the Game",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F5201B452000.jpg",
+      "variants": [
+        {
+          "id": "v_6685e036",
+          "name": "Elaina Drinking Coffee Near Window",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eXeYUKmm2kuBOpn01SGaWeGm92tv6A-X",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eXeYUKmm2kuBOpn01SGaWeGm92tv6A-X&sz=w640",
+          "sizeBytes": 4662136,
+          "sha256": "74E852544CE5DB93A73503E785A8112CC448FBEA43FCCB495A81CC41C7D4027C",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Elaina Drinking Coffee Near Window"
+        }
+      ]
+    },
+    {
+      "titleId": "0100019006F4E000",
+      "title": "I Am The Hero",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100019006F4E000.jpg",
+      "variants": [
+        {
+          "id": "v_0b335605",
+          "name": "Obito Uchiha The Broken Hero&#8217;s Pat",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1s7N_AX-Xg7aAuZjDVC2K6GW9kOyfP7Rz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1s7N_AX-Xg7aAuZjDVC2K6GW9kOyfP7Rz&sz=w640",
+          "sizeBytes": 4714900,
+          "sha256": "E2F0B157F14FD544939AA63EEDBC480F067D8B022A6DBC8FECF359E34EC2864B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Obito Uchiha The Broken Hero&#8217;s Pat | ЗВУК"
+        },
+        {
+          "id": "v_16ee9541",
+          "name": "Batman Gotham City Stormy Night",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Bg-JqrilDnxesYpE_UXF1USBTiSHYFYB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Bg-JqrilDnxesYpE_UXF1USBTiSHYFYB&sz=w640",
+          "sizeBytes": 4690497,
+          "sha256": "8363B818C740072ADEE4063A1216E72390C7B12971EEE3A61B842397BAD22C61",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Batman Gotham City Stormy Night"
+        },
+        {
+          "id": "v_16931ca8",
+          "name": "Deku X Bakugou One For All My Hero Acade",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BkRbZlzlLlKEWIXXL1i5KNZeqT3VSagg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BkRbZlzlLlKEWIXXL1i5KNZeqT3VSagg&sz=w640",
+          "sizeBytes": 4740725,
+          "sha256": "34FABB9704472BF7B75A489274B59BF15D9DF079901008C9CB39C0EFE5ECAC30",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Deku X Bakugou One For All My Hero Acade | ЗВУК"
+        },
+        {
+          "id": "v_b3d989a3",
+          "name": "Batman Watching Over Gotham",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ThKn73pwt-PzRFJvqMqQt6CD8wCGgA0k",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ThKn73pwt-PzRFJvqMqQt6CD8wCGgA0k&sz=w640",
+          "sizeBytes": 4698286,
+          "sha256": "55C51ADC86A2EFDF073C4150C8E4271B1C8EEDD9BEC29EEC4A4E67E8C589D55F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Batman Watching Over Gotham | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 849,
-  "totalVariants": 1181,
+  "totalGames": 851,
+  "totalVariants": 1186,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
