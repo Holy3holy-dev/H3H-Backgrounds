@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T15:44:59.199947+00:00",
+  "updatedAt": "2026-10-23T16:09:13.214165+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -33754,9 +33754,53 @@
           "notes": "Switch 720p 30fps H264 | Arc&#8217;s World Tree | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100874012158000",
+      "title": "Infini",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100874012158000.jpg",
+      "variants": [
+        {
+          "id": "v_c9e92e61",
+          "name": "Infinite Pool Corridor Dreamcore",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gWPPva079covnLbnYxeH_rktBtAumFrv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gWPPva079covnLbnYxeH_rktBtAumFrv&sz=w640",
+          "sizeBytes": 4533911,
+          "sha256": "DA9CAC90FC0C6172FC05E219564E79195E4884182FA655370C79FBDDDA0C1DFE",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Infinite Pool Corridor Dreamcore"
+        },
+        {
+          "id": "v_7e47ed22",
+          "name": "Silver Surfer Infinite Darkness",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VrkP13pBaIUVAWlYVgzOX-GTz7iipZnx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VrkP13pBaIUVAWlYVgzOX-GTz7iipZnx&sz=w640",
+          "sizeBytes": 3524639,
+          "sha256": "4DE310FF997A40A89007A7234573A4462FBDBE6EB3568F2F5DA7748D95FE9EF6",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Silver Surfer Infinite Darkness | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 998,
-  "totalVariants": 1476,
+  "totalGames": 999,
+  "totalVariants": 1478,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
