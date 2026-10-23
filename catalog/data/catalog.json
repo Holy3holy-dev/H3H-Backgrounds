@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T21:48:33.936622+00:00",
+  "updatedAt": "2026-10-23T21:49:22.387500+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -36300,6 +36300,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Retro Tunnel"
+        },
+        {
+          "id": "v_5e04d61f",
+          "name": "Abstract Maze",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Wp2ld6E4ZhqTXZvGNGWg6TsjTbsAqGiu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Wp2ld6E4ZhqTXZvGNGWg6TsjTbsAqGiu&sz=w640",
+          "sizeBytes": 2591675,
+          "sha256": "58A80347B15F4AB7BF0BCABB2A886BE121681F7CE91E8FADE57121D8B7978B54",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Abstract Maze | ЗВУК"
+        },
+        {
+          "id": "v_97377130",
+          "name": "Neon Tunnel",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XHCOSXgYWTOTE-VI7JCEdwKrzkMbEaA-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XHCOSXgYWTOTE-VI7JCEdwKrzkMbEaA-&sz=w640",
+          "sizeBytes": 4686812,
+          "sha256": "C169E4363A05CCAD526A1FF5E932CFD13AFE6C38418BCCD00529F178401194CA",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Neon Tunnel"
         }
       ]
     },
@@ -36411,6 +36447,6 @@
     }
   ],
   "totalGames": 1030,
-  "totalVariants": 1609,
+  "totalVariants": 1611,
   "lastUpdated": "2026-10-23T20:40:23.001126+00:00"
 }
