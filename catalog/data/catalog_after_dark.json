@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "name": "H3H After Dark (18+) Official Catalog",
-  "updatedAt": "2026-10-23T07:14:47.075841+00:00",
+  "updatedAt": "2026-10-23T07:15:32.125478+00:00",
   "totalGames": 88,
-  "totalVariants": 645,
+  "totalVariants": 647,
   "games": [
     {
       "titleId": "0000000000000000",
@@ -10933,6 +10933,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Astra Yao Zenless Zone Zero | ЗВУК"
+        },
+        {
+          "id": "v_58a283f5",
+          "name": "Ellen Joe Jamming Zenless Zone Zero",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=111Ybt275WAeR9ZbsEDg8Bte94eQIg6Vw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=111Ybt275WAeR9ZbsEDg8Bte94eQIg6Vw&sz=w640",
+          "sizeBytes": 4677608,
+          "sha256": "BD7EC261414C13152346782AA282387899581015CA48697AB4BA6CD7416DE473",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Ellen Joe Jamming Zenless Zone Zero"
+        },
+        {
+          "id": "v_04b3ec3e",
+          "name": "Hoshimi Miyabi Zenless Zone Zero",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HVoGuE47eKMPvN72_jMJZ1aLERbXNIKp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HVoGuE47eKMPvN72_jMJZ1aLERbXNIKp&sz=w640",
+          "sizeBytes": 4729566,
+          "sha256": "17C5FEF552814EFC8A822638C455F137B94DEFC872BB9AB04A4982F3ED25BDC9",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Hoshimi Miyabi Zenless Zone Zero"
         }
       ]
     },
