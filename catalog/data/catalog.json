@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T15:07:15.717973+00:00",
+  "updatedAt": "2026-10-23T15:08:09.257544+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -31208,9 +31208,71 @@
           "notes": "Switch 720p 30fps H264 | Kousaka Playing Trumpet On The Bridge So | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "01007D000EE96000",
+      "title": "A Light in the Dark",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007D000EE96000.jpg",
+      "variants": [
+        {
+          "id": "v_e61ef8e7",
+          "name": "Blue Light In The Dark",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1r34uTtMJW-05bD09NWBaP13nW4Kb5iVc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1r34uTtMJW-05bD09NWBaP13nW4Kb5iVc&sz=w640",
+          "sizeBytes": 4733617,
+          "sha256": "BFF651BE6EE8ECC6C133E7F5A90E758F7CACDC821FC42E0D4426892C90B82AE0",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Blue Light In The Dark | ЗВУК"
+        },
+        {
+          "id": "v_26b64090",
+          "name": "Revealing The Dark Side Star Wars",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Nriqms4Ob5qL_NZCoTU6cgAbPEBE-eD4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Nriqms4Ob5qL_NZCoTU6cgAbPEBE-eD4&sz=w640",
+          "sizeBytes": 4701396,
+          "sha256": "B28A5CA7D396DF496454456520BCB61A33A3D1CE7344C58C2E06C7400E981111",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Revealing The Dark Side Star Wars | ЗВУК"
+        },
+        {
+          "id": "v_d35dbc95",
+          "name": "Darth Vader The Dark Lord Star Wars",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1enoTBBqFad3eGxM95BvTQMh0XTNCuPaJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1enoTBBqFad3eGxM95BvTQMh0XTNCuPaJ&sz=w640",
+          "sizeBytes": 4624213,
+          "sha256": "5A559250521A747FC4B7A3F7C5637A8A997E34B62C3063D5BD876E4040E52BE9",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Darth Vader The Dark Lord Star Wars | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 943,
-  "totalVariants": 1359,
+  "totalGames": 944,
+  "totalVariants": 1362,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
