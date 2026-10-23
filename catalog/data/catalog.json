@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T15:08:09.257544+00:00",
+  "updatedAt": "2026-10-23T15:09:06.754515+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -31270,9 +31270,115 @@
           "notes": "Switch 720p 30fps H264 | Darth Vader The Dark Lord Star Wars | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "010021A00E6CC000",
+      "title": "Ellen",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010021A00E6CC000.jpg",
+      "variants": [
+        {
+          "id": "v_57276394",
+          "name": "Ellen Joe Watching Sunset Zenless Zone Z",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ln5DFyBhuKGKO27Bqb1fhkAHrVZIOtkm",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ln5DFyBhuKGKO27Bqb1fhkAHrVZIOtkm&sz=w640",
+          "sizeBytes": 4673216,
+          "sha256": "D280BE8266DC5C419E9CB6A5497FC8909B3E02B655B1F48EA2F48B98506920E9",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Ellen Joe Watching Sunset Zenless Zone Z"
+        },
+        {
+          "id": "v_7da1419d",
+          "name": "Ellen Joe Neon Alley Zenless Zone Zero",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HR2oLclFnyRvOQt4N45AdZX33TgiiIFZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HR2oLclFnyRvOQt4N45AdZX33TgiiIFZ&sz=w640",
+          "sizeBytes": 4588680,
+          "sha256": "512956A61BEFD12E2438945B63A8E054B08AB51FA9D1F8A417E97DA4DEA48AF4",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Ellen Joe Neon Alley Zenless Zone Zero"
+        },
+        {
+          "id": "v_fd2d0a63",
+          "name": "Ellen Joe Graffiti Zenless Zone Zero",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fa_ShrAFHKBvYYojiIL_fK5ewtZRKeS3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fa_ShrAFHKBvYYojiIL_fK5ewtZRKeS3&sz=w640",
+          "sizeBytes": 4713139,
+          "sha256": "A077589B6F84721FC45DA14BB1F4C340CE92B71A504C2790129772F18794A58B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ellen Joe Graffiti Zenless Zone Zero | ЗВУК"
+        },
+        {
+          "id": "v_da165822",
+          "name": "Ellen Joe Looking At You Zenless Zone Ze",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1woMWdThO4kh09PVf2WTrMMR74vjAF593",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1woMWdThO4kh09PVf2WTrMMR74vjAF593&sz=w640",
+          "sizeBytes": 4681159,
+          "sha256": "96312D443510F884788C527D6199D6D99F78D190CE915F0DD06CD293D885C313",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ellen Joe Looking At You Zenless Zone Ze | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "010070D01483A000",
+      "title": "BanG Dream Girls Band Party",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010070D01483A000.jpg",
+      "variants": [
+        {
+          "id": "v_8d029fcf",
+          "name": "Imai Lisa And Minato Yukina Chilling In",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=122bvciXCSEBCY6sogntyhnapztOn61rj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=122bvciXCSEBCY6sogntyhnapztOn61rj&sz=w640",
+          "sizeBytes": 4726835,
+          "sha256": "7E4D078C7D29DC39DA4FF93022BC992FD04A41E771E1FF077C2A126F049F4DC9",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Imai Lisa And Minato Yukina Chilling In | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 944,
-  "totalVariants": 1362,
+  "totalGames": 946,
+  "totalVariants": 1367,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
