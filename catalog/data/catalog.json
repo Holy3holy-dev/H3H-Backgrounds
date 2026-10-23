@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:21:55.030973+00:00",
+  "updatedAt": "2026-10-23T14:22:55.272207+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -28766,9 +28766,71 @@
           "notes": "Switch 720p 30fps H264 | Jett Valorant Kunai"
         }
       ]
+    },
+    {
+      "titleId": "0100C6800D9D0000",
+      "title": "The Red Lantern",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C6800D9D0000.jpg",
+      "variants": [
+        {
+          "id": "v_43cf652d",
+          "name": "Projekt Red In The Jungle Arknights",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14Ms8nwu5Fl97QzUW3JAp-b-zAxe9y3Lk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14Ms8nwu5Fl97QzUW3JAp-b-zAxe9y3Lk&sz=w640",
+          "sizeBytes": 4708066,
+          "sha256": "35AA5E4C5AA063A5A5FE4A9B8ABA6C7702CBB71FE1B4DC4C7529F58346215C36",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Projekt Red In The Jungle Arknights | ЗВУК"
+        },
+        {
+          "id": "v_f34fa604",
+          "name": "Hu Tao Mid Autumn Festival Genshin Impac",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nU2Q84ErnDdTm3Ed7-VMerKuL-B_BXtG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nU2Q84ErnDdTm3Ed7-VMerKuL-B_BXtG&sz=w640",
+          "sizeBytes": 4713428,
+          "sha256": "B7D5F7247C490DED6E3316AB91EEA6143BAAAF2C16AE6306F6F8C1B511EDB5B5",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Hu Tao Mid Autumn Festival Genshin Impac"
+        },
+        {
+          "id": "v_6a0f0c0f",
+          "name": "Rin Kagamine Vocaloid",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1x70wNDC7Ovxv7usBJudB1qxkgaPtpxCh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1x70wNDC7Ovxv7usBJudB1qxkgaPtpxCh&sz=w640",
+          "sizeBytes": 4742694,
+          "sha256": "21C791F2F20B77BD1C122149C677390434B6C222EEEFF6E8B56833FC33BD6376",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rin Kagamine Vocaloid | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 883,
-  "totalVariants": 1250,
+  "totalGames": 884,
+  "totalVariants": 1253,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
