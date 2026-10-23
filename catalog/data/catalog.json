@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T15:41:19.245295+00:00",
+  "updatedAt": "2026-10-23T15:43:11.730113+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -33534,9 +33534,89 @@
           "notes": "Switch 720p 30fps H264 | Eren The Fallen Angel Attack On Titan | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100A3E015E2C000",
+      "title": "Miyamoto S",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A3E015E2C000.jpg",
+      "variants": [
+        {
+          "id": "v_c3cab3fa",
+          "name": "Miyamoto Musashi Legendary Samurai Vagab",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=146RgLvtqXicv-Y-4gQqlRg5qy5WS8fS8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=146RgLvtqXicv-Y-4gQqlRg5qy5WS8fS8&sz=w640",
+          "sizeBytes": 4667613,
+          "sha256": "52FBDBC429A19A39898503AF037E0C63AC9C0EB51ADB2E36A72D1D9721852631",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Miyamoto Musashi Legendary Samurai Vagab | ЗВУК"
+        },
+        {
+          "id": "v_4375735f",
+          "name": "Miyamoto Musashi Praying Vagabond",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17BL-5Ew-T4qKll1yLhg4Nw4CGML0ofzH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17BL-5Ew-T4qKll1yLhg4Nw4CGML0ofzH&sz=w640",
+          "sizeBytes": 4793378,
+          "sha256": "DA7ED3FC50A913F791EC56ABABBDB622F93A87290879C6CBDA553D696D4628E0",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Miyamoto Musashi Praying Vagabond"
+        },
+        {
+          "id": "v_361dd15d",
+          "name": "Miyamoto Musashi Bloody Katana Vagabond",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17cJba-g3p54bUfE9BzplISoJXWOcAYkL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17cJba-g3p54bUfE9BzplISoJXWOcAYkL&sz=w640",
+          "sizeBytes": 4687789,
+          "sha256": "1B3EFC50E69D3445636ADD700698A58DE9FB1C3DF536915984A34FFAA5FED141",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Miyamoto Musashi Bloody Katana Vagabond | ЗВУК"
+        },
+        {
+          "id": "v_b6001261",
+          "name": "Miyamoto Musashi Katana Vagabond",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZESdRk3ZxKsZC4E9EVY0Rnyjvi6Huuqh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZESdRk3ZxKsZC4E9EVY0Rnyjvi6Huuqh&sz=w640",
+          "sizeBytes": 4698739,
+          "sha256": "AA5162A167BA5AD3D0BAD96B58BFBB382C94E2ACE49F42C3C2BE292B0F7669FF",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Miyamoto Musashi Katana Vagabond"
+        }
+      ]
     }
   ],
-  "totalGames": 993,
-  "totalVariants": 1466,
+  "totalGames": 994,
+  "totalVariants": 1470,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
