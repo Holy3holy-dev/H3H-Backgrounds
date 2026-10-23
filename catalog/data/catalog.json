@@ -3313,6 +3313,30 @@
       "publisher": "Unknown",
       "variants": [
         {
+          "id": "var-gh-010090f0-pack",
+          "name": "Ghostrunner Neon Jack (Cover + Video Icon)",
+          "style": "4IFIR Dynamic Pack",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=111Xel6FLFK2tGcq1WZezk9w_E-OzaGxG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=111Xel6FLFK2tGcq1WZezk9w_E-OzaGxG&sz=w640",
+          "sizeBytes": 2608517,
+          "sha256": "",
+          "durationSec": 8.0,
+          "author": "@4IFIR",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "hasAudio": true,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1gWOalCQEs99x0NIRMQu9a6dOx_LfcxTK",
+          "iconSizeBytes": 305000,
+          "iconCodec": "hevc",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "Official 4IFIR Dynamic Theme Pack: 720p Video Background + 256x256 HEVC Animated Tile Icon"
+        },
+        {
           "id": "ghostrunner",
           "name": "Ghostrunner",
           "style": "Animated Art",
@@ -34754,6 +34778,6 @@
     }
   ],
   "totalGames": 1017,
-  "totalVariants": 1523,
+  "totalVariants": 1524,
   "lastUpdated": "2026-10-23T16:45:33.184207+00:00"
 }
