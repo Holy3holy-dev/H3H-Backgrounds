@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:31:47.935684+00:00",
+  "updatedAt": "2026-10-23T14:34:25.211318+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -29144,9 +29144,79 @@
           "notes": "Switch 720p 30fps H264 | Elise The Spider Queen League Of Legends"
         }
       ]
+    },
+    {
+      "titleId": "010034801FCBE000",
+      "title": "Wander Stars",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010034801FCBE000.jpg",
+      "variants": [
+        {
+          "id": "v_e93b197c",
+          "name": "Your Name",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CpXdLJyOXomAPZPj6q5esjFyzOJwGGeB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CpXdLJyOXomAPZPj6q5esjFyzOJwGGeB&sz=w640",
+          "sizeBytes": 4668175,
+          "sha256": "9521259F3E8B98D5F6386A91E430871664FE6B0964D18C17C011C4797313BF2C",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Your Name | ЗВУК"
+        },
+        {
+          "id": "v_016cccbe",
+          "name": "Niya",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14EV5KFtT8Wf5UH8jZnzg6LXmVIs4vNMP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14EV5KFtT8Wf5UH8jZnzg6LXmVIs4vNMP&sz=w640",
+          "sizeBytes": 4583620,
+          "sha256": "28EF3A1B44A0D251FB67B4FE5DE53C7A3296D6ED7A27D0ED0C38990A1BD25C90",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Niya | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EDA00D866000",
+      "title": "Submerged",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EDA00D866000.jpg",
+      "variants": [
+        {
+          "id": "v_03b96a5b",
+          "name": "Shiroko Submerged In Sparkling Water Blu",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1YGStqk8VaCcIJAhrJovxBY9hE5EZile7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1YGStqk8VaCcIJAhrJovxBY9hE5EZile7&sz=w640",
+          "sizeBytes": 4714897,
+          "sha256": "DD46D34CEE6409533CDC29F0DCBF6F2C0C8051712A903AF55A78D502770CB03F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Shiroko Submerged In Sparkling Water Blu | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 892,
-  "totalVariants": 1267,
+  "totalGames": 894,
+  "totalVariants": 1270,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
