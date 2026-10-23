@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:52:11.921462+00:00",
+  "updatedAt": "2026-10-23T13:53:24.821152+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -27066,9 +27066,115 @@
           "notes": "Switch 720p 30fps H264 | Ciel Phantomhive And Sebastian Michaelis | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "010041C013C94000",
+      "title": "Together",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010041C013C94000.jpg",
+      "variants": [
+        {
+          "id": "v_81b43736",
+          "name": "Miles And Gwen Watching The City Togethe",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tUx0HVy4gZoFImQnGyaxGo1-YL4-UJMK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tUx0HVy4gZoFImQnGyaxGo1-YL4-UJMK&sz=w640",
+          "sizeBytes": 4628936,
+          "sha256": "CF7C193048E27B8A85E193157B3CB7C9085ABD3DCDF66CAF954260BFD5C6D0C9",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Miles And Gwen Watching The City Togethe | ЗВУК"
+        },
+        {
+          "id": "v_05ff395c",
+          "name": "Shinobu And Giyuu Watching The Snow Fall",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wiZLmUlfGL41NhG-amcloZL2OE5GFWG1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wiZLmUlfGL41NhG-amcloZL2OE5GFWG1&sz=w640",
+          "sizeBytes": 4487478,
+          "sha256": "12C9700788A5888C197C270E4652C744D9936257598E72CD441D2F9434B45705",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Shinobu And Giyuu Watching The Snow Fall | ЗВУК"
+        },
+        {
+          "id": "v_daa20c0c",
+          "name": "Arcanine And Oddish Sleeping Together Po",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1O75sG0gb3_CD84-a4frdjHL9D1caOnbt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1O75sG0gb3_CD84-a4frdjHL9D1caOnbt&sz=w640",
+          "sizeBytes": 4721218,
+          "sha256": "3612B7C8E9A2BBE567B9D000D0E7958B59AFD418D7CD37C57DA8A9CE97A0959D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Arcanine And Oddish Sleeping Together Po | ЗВУК"
+        },
+        {
+          "id": "v_d83de0b0",
+          "name": "Nap Time Together Pokemon",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1D7gHvtv7YyV79HrkroGfIACH921xhNKX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1D7gHvtv7YyV79HrkroGfIACH921xhNKX&sz=w640",
+          "sizeBytes": 4717293,
+          "sha256": "0F5622115D533DE4CEA391D33DF1E9094A14BBC035D5BD1977D0B4D38307417A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Nap Time Together Pokemon | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "01007D4017740000",
+      "title": "Primordia",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007D4017740000.jpg",
+      "variants": [
+        {
+          "id": "v_8ec05122",
+          "name": "Primordial Aatrox League Of Legends",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zVPtLNA0TsNFSq91R1njCtvVNoLPvuKN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zVPtLNA0TsNFSq91R1njCtvVNoLPvuKN&sz=w640",
+          "sizeBytes": 4715976,
+          "sha256": "9A8A51A2046DE60444AE73962AB1D2D7260335FF1BEBB7FBC289EF40E7885607",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Primordial Aatrox League Of Legends"
+        }
+      ]
     }
   ],
-  "totalGames": 846,
-  "totalVariants": 1172,
+  "totalGames": 848,
+  "totalVariants": 1177,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
