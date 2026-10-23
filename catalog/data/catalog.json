@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:02:23.707136+00:00",
+  "updatedAt": "2026-10-23T14:03:24.316741+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -27702,9 +27702,61 @@
           "notes": "Switch 720p 30fps H264 | Wings Of Freedom Attack On Titan | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100F6800910A000",
+      "title": "Hover",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F6800910A000.jpg",
+      "variants": [
+        {
+          "id": "v_cc58b60a",
+          "name": "Yoda Hover Meditate Star Wars Battlefron",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1i8my473iXb67kE9s20dDG1Q1WsGsCCNp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1i8my473iXb67kE9s20dDG1Q1WsGsCCNp&sz=w640",
+          "sizeBytes": 4653121,
+          "sha256": "7149676A28EE1DF0ED1B96333774104333B5A146FA36DA71A6AAD37E6AB7B28A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Yoda Hover Meditate Star Wars Battlefron | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100816019846000",
+      "title": "In His Time",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100816019846000.jpg",
+      "variants": [
+        {
+          "id": "v_dc335798",
+          "name": "Ancient Chinese Sundial",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1F6W_PJAKkDFqUbiSVMxDe76rPridVOKY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1F6W_PJAKkDFqUbiSVMxDe76rPridVOKY&sz=w640",
+          "sizeBytes": 4662716,
+          "sha256": "2A3024C11A874129489C89DADABE66EE716231AE8338E3E29ABFA9A3A2DB6740",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ancient Chinese Sundial | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 858,
-  "totalVariants": 1202,
+  "totalGames": 860,
+  "totalVariants": 1204,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
