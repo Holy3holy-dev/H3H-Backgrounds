@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T16:09:13.214165+00:00",
+  "updatedAt": "2026-10-23T16:15:04.508262+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -33913,9 +33913,115 @@
           "notes": "Submitted via Telegram by @MoeWalls"
         }
       ]
+    },
+    {
+      "titleId": "0100ED401918A000",
+      "title": "Sea Horizon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100ED401918A000.jpg",
+      "variants": [
+        {
+          "id": "v_211a8099",
+          "name": "Retro Sea Sunset Pixel",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1K6qXMJYyeM0X_fCesZv8XdqhRkkK-rIs",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1K6qXMJYyeM0X_fCesZv8XdqhRkkK-rIs&sz=w640",
+          "sizeBytes": 4692686,
+          "sha256": "76D172F53CA3E5171D88186BC62814C190FF8DD7D9D3C2B5249DFCA15805F7F4",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Retro Sea Sunset Pixel"
+        },
+        {
+          "id": "v_e1a80608",
+          "name": "Sea Cliffs",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1urAbw9yAH1L1UmljkXnhyFzinABUXF6_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1urAbw9yAH1L1UmljkXnhyFzinABUXF6_&sz=w640",
+          "sizeBytes": 4754467,
+          "sha256": "7AA3560BDE6C4E2F66F989E674F427AA42C11DA42A06162BF67418E820D4256B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sea Cliffs | ЗВУК"
+        },
+        {
+          "id": "v_10d0d0df",
+          "name": "Torii Sky Horizon",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rBzDzWnXpf1GiJs5QrqdV0H2ZMghCX0x",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rBzDzWnXpf1GiJs5QrqdV0H2ZMghCX0x&sz=w640",
+          "sizeBytes": 4684029,
+          "sha256": "76EBD13F5A32B5FE2706CF3D2A49403C5379D1A06C2C31DC53AAB86851680F08",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Torii Sky Horizon"
+        },
+        {
+          "id": "v_57cb6407",
+          "name": "Sea Train Line",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nuSFxOWFKA8JWveF7an6zmiTYsUGVR4-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nuSFxOWFKA8JWveF7an6zmiTYsUGVR4-&sz=w640",
+          "sizeBytes": 4589077,
+          "sha256": "AD217CB8FF155BA19326E8B480319260C187D8F9EDDDC71368892A5DEBAE2B18",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sea Train Line | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "010074301DABA000",
+      "title": "Date Z",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010074301DABA000.jpg",
+      "variants": [
+        {
+          "id": "v_ea5cc39c",
+          "name": "Kurumi Zafkiel Eye Date A Live",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1K9vs0Kd7s0ja2fRSPF10laj2t_qXUdRe",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1K9vs0Kd7s0ja2fRSPF10laj2t_qXUdRe&sz=w640",
+          "sizeBytes": 4717651,
+          "sha256": "6409A88AB3D9351367BD895C78D09D25C4224D5F954DBC9C2C1890456E06E4A1",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Kurumi Zafkiel Eye Date A Live"
+        }
+      ]
     }
   ],
-  "totalGames": 1000,
-  "totalVariants": 1484,
+  "totalGames": 1002,
+  "totalVariants": 1489,
   "lastUpdated": "2026-10-23T16:13:45.683859+00:00"
 }
