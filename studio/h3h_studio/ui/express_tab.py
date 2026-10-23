@@ -378,6 +378,8 @@ class ExpressTab(QWidget):
         layout.addWidget(step5_box)
         layout.addStretch()
 
+        scroll.setWidget(container)
+
         main_vbox = QVBoxLayout(self)
         main_vbox.setContentsMargins(0, 0, 0, 0)
         main_vbox.addWidget(scroll)
