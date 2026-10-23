@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T21:11:44.906858+00:00",
+  "updatedAt": "2026-10-23T21:12:39.521009+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -1233,6 +1233,60 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Space Portal"
+        },
+        {
+          "id": "v_f7f6eb34",
+          "name": "Saitama Vs Cosmic Garou One Punch Man",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1i2kv1t2PnPSzFkbcyGKtsoPfq9VpBclC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1i2kv1t2PnPSzFkbcyGKtsoPfq9VpBclC&sz=w640",
+          "sizeBytes": 4736831,
+          "sha256": "85E64569F4CADBFFC7A103C7CF26F5D98444AE3304C311E7010D79E09FF4F4A2",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Saitama Vs Cosmic Garou One Punch Man | ЗВУК"
+        },
+        {
+          "id": "v_74b376e4",
+          "name": "World Behind The Door",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12gKZIUIgq9D2gE83j6iNA_xY693bHG6C",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12gKZIUIgq9D2gE83j6iNA_xY693bHG6C&sz=w640",
+          "sizeBytes": 4681911,
+          "sha256": "F8A2FAB5751A65A082F101A25931E352BF450B05E6DB82EF2BCB7309A4499463",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | World Behind The Door | ЗВУК"
+        },
+        {
+          "id": "v_22ba3b8b",
+          "name": "Payback",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1d9EpJfTvvpnYwsFDa8asZokjqj492uHC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1d9EpJfTvvpnYwsFDa8asZokjqj492uHC&sz=w640",
+          "sizeBytes": 4536272,
+          "sha256": "02228287582DF11FF6D9D8EFECB394BFB9B5BE87A4921C17DD595CC0EBFA6EE2",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Payback | ЗВУК"
         }
       ]
     },
@@ -35521,6 +35575,6 @@
     }
   ],
   "totalGames": 1029,
-  "totalVariants": 1560,
+  "totalVariants": 1563,
   "lastUpdated": "2026-10-23T20:40:23.001126+00:00"
 }
