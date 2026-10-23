@@ -123,9 +123,22 @@ resolver = TitleIdResolver(str(PROJECT_ROOT / CATALOG_PATH_STANDARD))
 # --- User Session Management ---
 
 user_sessions: Dict[int, Dict[str, Any]] = {}
+user_preferences: Dict[int, Dict[str, Any]] = {}
+
+def get_user_category_pref(chat_id: int) -> str:
+    """Returns user's default category preference ('standard' or 'after_dark')."""
+    return user_preferences.get(chat_id, {}).get("category", "standard")
+
+def set_user_category_pref(chat_id: int, category: str):
+    """Sets user's default category preference."""
+    if chat_id not in user_preferences:
+        user_preferences[chat_id] = {}
+    user_preferences[chat_id]["category"] = category
+
 
 def get_session(chat_id: int) -> Dict[str, Any]:
     if chat_id not in user_sessions:
+        pref = get_user_category_pref(chat_id)
         user_sessions[chat_id] = {
             "state": "IDLE",
             "temp_vid": None,
@@ -135,7 +148,7 @@ def get_session(chat_id: int) -> Dict[str, Any]:
             "suggested_variant": None,
             "batch_items": [],
             "zip_dir": None,
-            "category": "standard",
+            "category": pref,
             "author": ""
         }
     return user_sessions[chat_id]
@@ -152,6 +165,7 @@ def reset_session(chat_id: int):
             shutil.rmtree(sess["zip_dir"], ignore_errors=True)
         except Exception:
             pass
+    pref = get_user_category_pref(chat_id)
     user_sessions[chat_id] = {
         "state": "IDLE",
         "temp_vid": None,
@@ -161,7 +175,7 @@ def reset_session(chat_id: int):
         "suggested_variant": None,
         "batch_items": [],
         "zip_dir": None,
-        "category": "standard",
+        "category": pref,
         "author": "",
         "codec": "h264"
     }
@@ -389,6 +403,30 @@ def get_gdrive_auth(category: str = "standard") -> Tuple[Optional[str], Optional
         )
     return access_tok, folder_id
 
+def fetch_remote_catalog_json(catalog_rel: Path, branch: str) -> Optional[dict]:
+    """Fetches freshest catalog directly from GitHub REST API to ensure atomic updates across branches."""
+    gh_token, _ = GitHubPublisher.get_stored_credentials()
+    if not gh_token:
+        gh_token = os.getenv("GITHUB_TOKEN") or GITHUB_TOKEN
+    if not gh_token:
+        return None
+    repo_name = GITHUB_REPO or GitHubPublisher.get_repo_name()
+    rel_str = str(catalog_rel).replace("\\", "/")
+    headers = {
+        "Authorization": f"Bearer {gh_token}",
+        "Accept": "application/vnd.github.v3+json",
+        "User-Agent": "H3H-Background-Uploader-Bot"
+    }
+    url = f"https://api.github.com/repos/{repo_name}/contents/{rel_str}?ref={branch}"
+    try:
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req, timeout=12) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+            raw_bytes = base64.b64decode(data.get("content", ""))
+            return json.loads(raw_bytes.decode("utf-8"))
+    except Exception as e:
+        return None
+
 def append_variant_to_catalog(
     catalog_rel: Path,
     title_id: str,
@@ -399,11 +437,17 @@ def append_variant_to_catalog(
     direct_url: str,
     preview_url: str,
     file_size: int,
-    codec: str = "h264"
+    codec: str = "h264",
+    branch: Optional[str] = None
 ) -> Dict[str, Any]:
     """Adds a new background variant to catalog JSON file and updates metadata."""
     target_catalog_path = PROJECT_ROOT / catalog_rel
-    cat_data = json.loads(target_catalog_path.read_text(encoding="utf-8"))
+    target_branch = branch or (GITHUB_BRANCH_AFTER_DARK if category == "after_dark" else GITHUB_BRANCH)
+    remote_data = fetch_remote_catalog_json(catalog_rel, target_branch)
+    if remote_data:
+        cat_data = remote_data
+    else:
+        cat_data = json.loads(target_catalog_path.read_text(encoding="utf-8"))
     games_list = cat_data.get("games", [])
 
     game_entry = None
@@ -573,6 +617,47 @@ def cmd_start(message: types.Message):
     )
     bot.send_message(chat_id, text)
 
+@bot.message_handler(commands=["afterdark", "ad", "nsfw", "ecchi"])
+def cmd_afterdark_mode(message: types.Message):
+    chat_id = message.chat.id
+    set_user_category_pref(chat_id, "after_dark")
+    sess = get_session(chat_id)
+    sess["category"] = "after_dark"
+    bot.reply_to(
+        message,
+        "🌸 <b>Режим After Dark (18+) АКТИВИРОВАН ПО УМОЛЧАНИЮ!</b>\n\n"
+        "Теперь все ваши загружаемые ролики будут автоматически публиковаться в каталог <b>After Dark</b> (ветка <code>after-dark</code>).\n\n"
+        "💡 <i>Чтобы переключиться обратно на семейный/основной каталог, отправьте /standard</i>",
+        parse_mode="HTML"
+    )
+
+@bot.message_handler(commands=["standard", "main"])
+def cmd_standard_mode(message: types.Message):
+    chat_id = message.chat.id
+    set_user_category_pref(chat_id, "standard")
+    sess = get_session(chat_id)
+    sess["category"] = "standard"
+    bot.reply_to(
+        message,
+        "🎮 <b>Режим Обычного каталога H3H активирован!</b>\n\n"
+        "Все загружаемые ролики будут публиковаться в основной каталог на ветку <code>main</code>.\n\n"
+        "💡 <i>Чтобы включить After Dark по умолчанию, отправьте /afterdark</i>",
+        parse_mode="HTML"
+    )
+
+@bot.message_handler(commands=["mode"])
+def cmd_show_mode(message: types.Message):
+    chat_id = message.chat.id
+    pref = get_user_category_pref(chat_id)
+    mode_str = "🌸 After Dark (18+)" if pref == "after_dark" else "🎮 Обычный каталог H3H"
+    bot.reply_to(
+        message,
+        f"⚙️ <b>Текущий режим загрузки:</b> <b>{mode_str}</b>\n\n"
+        "• Для After Dark по умолчанию: /afterdark\n"
+        "• Для обычного каталога: /standard",
+        parse_mode="HTML"
+    )
+
 @bot.message_handler(commands=["cancel"])
 def cmd_cancel(message: types.Message):
     chat_id = message.chat.id
@@ -706,8 +791,62 @@ def handle_file_upload(message: types.Message):
             if suggested_variant:
                 sess["suggested_variant"] = suggested_variant
 
+        # Auto-detect After Dark intent from caption, filename, or user preference
+        user_pref = get_user_category_pref(chat_id)
+        combined_text = f"{message.caption or ''} {file_name}".lower()
+        has_ad_keyword = bool(re.search(r'(?i)(after[-_\s]*dark|18\+|nsfw|ecchi|hentai|хентай|эччи|афтер[-_\s]*дарк)', combined_text))
+
+        is_after_dark = has_ad_keyword or (user_pref == "after_dark")
+        if is_after_dark:
+            sess["category"] = "after_dark"
+
         bot.delete_message(chat_id, status_msg.message_id)
 
+        # If After Dark is indicated by default:
+        if is_after_dark:
+            if detected_tid:
+                sess["state"] = "AWAITING_VARIANT_NAME"
+                suggested = sess.get("suggested_variant")
+                markup = types.InlineKeyboardMarkup(row_width=1)
+                if suggested:
+                    markup.add(types.InlineKeyboardButton(f"✅ Назвать: «{suggested}»", callback_data="var:use_suggested"))
+                else:
+                    markup.add(types.InlineKeyboardButton("✅ Назвать: «Dynamic Theme»", callback_data="var:use_default"))
+                markup.add(types.InlineKeyboardButton("✏️ Ввести другое название", callback_data="var:custom"))
+                markup.add(types.InlineKeyboardButton("🔄 Сменить каталог на Обычный H3H", callback_data="cat:standard"))
+
+                msg_lines = [
+                    "🌸 <b>Видео принято в After Dark (18+) по умолчанию!</b>\n",
+                    f"🎯 <b>Определён Title ID:</b> <code>{detected_tid}</code>",
+                    f"🎮 <b>Игра:</b> <b>{detected_game}</b>"
+                ]
+                if sess.get("is_preencoded"):
+                    c_tag = "HEVC (H.265)" if sess.get("codec") == "hevc" else "H.264 (AVC)"
+                    msg_lines.append(f"⚡ <b>Формат Switch:</b> <code>1280x720 {c_tag}</code> (прямая запись без потерь!)")
+                msg_lines.append("\n<b>Шаг 1 из 2:</b> Как назвать этот видеофон?")
+                if suggested:
+                    msg_lines.append(f"<i>(Предложено из имени файла: «{suggested}»)</i>")
+
+                bot.send_message(chat_id, "\n".join(msg_lines), reply_markup=markup)
+                return
+            else:
+                sess["state"] = "AWAITING_GAME_NAME"
+                markup = types.InlineKeyboardMarkup(row_width=1)
+                markup.add(
+                    types.InlineKeyboardButton("✨ Свободный фон (для любой игры)", callback_data="game:free"),
+                    types.InlineKeyboardButton("🔄 Сменить каталог на Обычный H3H", callback_data="cat:standard")
+                )
+                bot.send_message(
+                    chat_id,
+                    "🌸 <b>Видео принято в After Dark (18+) по умолчанию!</b>\n\n"
+                    "<b>Шаг 1 из 3:</b> К какой игре привязать этот фон?\n\n"
+                    "Напишите <b>название игры</b> или отправьте 16-значный <b>Title ID</b>.\n"
+                    "<i>(Или нажмите кнопку ниже для свободного фона)</i>",
+                    reply_markup=markup
+                )
+                return
+
+        # Default standard flow
         markup = types.InlineKeyboardMarkup(row_width=1)
         markup.add(
             types.InlineKeyboardButton("🎮 Обычный каталог H3H", callback_data="cat:standard"),
@@ -931,6 +1070,60 @@ def handle_free_game(call: types.CallbackQuery):
     )
 
 # ----------------- Text Handlers (Game, Title ID, Variant) -----------------
+
+@bot.message_handler(func=lambda m: get_session(m.chat.id)["state"] == "AWAITING_CATEGORY")
+def handle_category_text_fallback(message: types.Message):
+    chat_id = message.chat.id
+    sess = get_session(chat_id)
+    text = (message.text or "").strip().lower()
+
+    if any(k in text for k in ["after", "dark", "афтер", "дарк", "18+", "nsfw", "ecchi", "hentai", "хентай", "эччи"]):
+        sess["category"] = "after_dark"
+        bot.reply_to(message, "🌸 Выбран каталог: <b>After Dark (18+)</b>")
+    elif any(k in text for k in ["обычный", "стандарт", "main", "standard"]):
+        sess["category"] = "standard"
+        bot.reply_to(message, "🎮 Выбран каталог: <b>Обычный H3H</b>")
+    else:
+        # User typed game name or Title ID directly!
+        detected_tid = TitleIdResolver.extract_title_id(text)
+        if detected_tid:
+            sess["title_id"] = detected_tid
+            sess["game_name"] = resolver.resolve_by_title_id(detected_tid) or f"Игра ({detected_tid})"
+            sess["state"] = "AWAITING_VARIANT_NAME"
+            bot.send_message(
+                chat_id,
+                f"✅ Title ID распознан: <code>{detected_tid}</code>\n🎮 Игра: <b>{sess['game_name']}</b>\n\n"
+                "Как назвать этот видеофон?\n<i>(Например: Main Theme, Cinematic Action)</i>"
+            )
+            return
+        matches = resolver.resolve_multiple(text, limit=3)
+        if matches:
+            sess["title_id"] = matches[0][0]
+            sess["game_name"] = matches[0][1]
+            sess["state"] = "AWAITING_VARIANT_NAME"
+            bot.send_message(
+                chat_id,
+                f"✅ Игра определена: <b>{matches[0][1]}</b> (<code>{matches[0][0]}</code>)\n\n"
+                "Как назвать этот видеофон?\n<i>(Например: Main Theme, Cinematic Action)</i>"
+            )
+            return
+
+    # If title id already detected earlier
+    if sess.get("title_id"):
+        sess["state"] = "AWAITING_VARIANT_NAME"
+        bot.send_message(
+            chat_id,
+            f"🎯 <b>Title ID:</b> <code>{sess['title_id']}</code>\n"
+            f"🎮 <b>Игра:</b> {sess['game_name']}\n\n"
+            "Как назвать этот видеофон?\n<i>(Например: Main Theme, Cinematic Action)</i>"
+        )
+    else:
+        sess["state"] = "AWAITING_GAME_NAME"
+        bot.send_message(
+            chat_id,
+            "К какой игре привязать этот фон?\n\n"
+            "Напишите <b>название игры</b> или отправьте 16-значный <b>Title ID</b>."
+        )
 
 @bot.message_handler(func=lambda m: get_session(m.chat.id)["state"] == "AWAITING_GAME_NAME")
 def handle_game_name(message: types.Message):

@@ -47,6 +47,16 @@ class TitleIdResolver:
         'одиссея': 'odyssey',
         'одисея': 'odyssey',
         'карт': 'kart',
+        'марио кролики': 'mario rabbids',
+        'кролики': 'mario rabbids',
+        'рабидс': 'mario rabbids',
+        'лабиринт': 'last labyrinth',
+        'ласт лабиринт': 'last labyrinth',
+        'обра динн': 'obra dinn',
+        'обра дин': 'obra dinn',
+        'обро динн': 'obra dinn',
+        'внешние дебри': 'outer wilds',
+        'аутер вайлдс': 'outer wilds',
     }
 
     CYRILLIC_TO_LATIN = {
@@ -118,6 +128,12 @@ class TitleIdResolver:
     }
 
     BUILTIN_TITLE_IDS = {
+        "010067300059A000": "Mario + Rabbids Kingdom Battle",
+        "01009C701A35E000": "Last Labyrinth -Lucidity Lost-",
+        "01003DC0144B6000": "Outer Wilds Archaeologist Edition",
+        "010032E00E6E2000": "Return of the Obra Dinn",
+        "010028600EBDA000": "Super Mario 3D World + Bowser's Fury",
+        "0100C1F0051B6000": "Donkey Kong Country: Tropical Freeze",
         "010016101100A000": "The House in Fata Morgana: Dreams of the Revenants Edition",
         "01007E100C4D0000": "Dead or Alive Xtreme 3 Scarlet",
         "0100AC200ED5E000": "Azur Lane Crosswave",
@@ -163,6 +179,21 @@ class TitleIdResolver:
                 self.games.append({"titleId": tid, "title": name})
                 seen_tids.add(tid)
 
+        # Also load all official Switch titles from database
+        db_path = self.catalog_path.parent.parent.parent / "studio" / "h3h_studio" / "data" / "switch_titles_db.json"
+        if not db_path.exists():
+            db_path = Path("studio/h3h_studio/data/switch_titles_db.json")
+        if db_path.exists():
+            try:
+                db_data = json.loads(db_path.read_text(encoding="utf-8"))
+                for entry in db_data:
+                    tid = entry.get("titleId", "").upper()
+                    if len(tid) == 16 and tid.isalnum() and tid not in seen_tids:
+                        self.games.append({"titleId": tid, "title": entry.get("title", ""), "publisher": entry.get("publisher", "")})
+                        seen_tids.add(tid)
+            except Exception:
+                pass
+
         self.normalized_games.clear()
         for g in self.games:
             tid = g.get("titleId", "")
@@ -175,8 +206,8 @@ class TitleIdResolver:
     def clean_title(title: str) -> str:
         t = re.sub(r"\[.*?\]", "", title)
         t = re.sub(r"\(.*?\)", "", t)
-        t = re.sub(r"\+.*$", "", t)
-        t = re.sub(r"[^\w\s\:\-\'\.]", " ", t)
+        t = re.sub(r"\+\s*(?:dlc|update|v\d+|season|expansion).*", "", t, flags=re.IGNORECASE)
+        t = re.sub(r"[^\w\s\:\-\'\.\+]", " ", t)
         return " ".join(t.split())
 
     @classmethod
@@ -195,6 +226,11 @@ class TitleIdResolver:
         if not title_id:
             return None
         tid_upper = title_id.strip().upper()
+        if tid_upper in self.BUILTIN_TITLE_IDS:
+            return self.BUILTIN_TITLE_IDS[tid_upper]
+        for g in self.games:
+            if g.get("titleId", "").upper() == tid_upper:
+                return g.get("title", "")
         for tid, clean_name, _ in self.normalized_games:
             if tid.upper() == tid_upper:
                 return clean_name
