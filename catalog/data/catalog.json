@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:57:24.197309+00:00",
+  "updatedAt": "2026-10-23T13:58:31.109857+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -27464,9 +27464,71 @@
           "notes": "Switch 720p 30fps H264 | Blood Moon Clouds"
         }
       ]
+    },
+    {
+      "titleId": "0100A0800B83A000",
+      "title": "Soul Knight",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A0800B83A000.jpg",
+      "variants": [
+        {
+          "id": "v_13d728b1",
+          "name": "Knight Campfire Dark Souls",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ozmx-7BtDCMubAdAYIyh5RfesHHCwC27",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ozmx-7BtDCMubAdAYIyh5RfesHHCwC27&sz=w640",
+          "sizeBytes": 4721123,
+          "sha256": "D2BFCCE175C48C7710C1CC40C91B241E4D5987F56B98B7EFC4960EA8283939D1",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Knight Campfire Dark Souls | ЗВУК"
+        },
+        {
+          "id": "v_ba59294b",
+          "name": "Dark Souls Knight",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_cT2oVYSbJT6M5X8aAvBMuIX7xJkZvU7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_cT2oVYSbJT6M5X8aAvBMuIX7xJkZvU7&sz=w640",
+          "sizeBytes": 4718053,
+          "sha256": "E14E3EB895F6FD4A75B0B4A48836664AC1EF60AC7481B60A541ADFE5ED831959",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dark Souls Knight | ЗВУК"
+        },
+        {
+          "id": "v_2464568c",
+          "name": "Knight Camping Dark Souls 3",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jd8JdIkI0c2aMpLuciRSBxxw2-5l8yhg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jd8JdIkI0c2aMpLuciRSBxxw2-5l8yhg&sz=w640",
+          "sizeBytes": 4709164,
+          "sha256": "CC93E4D4782A5961CD307B00A7A8EABB6C6B9E76C03EAB0D3B83A19BA50E1BA7",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Knight Camping Dark Souls 3"
+        }
+      ]
     }
   ],
-  "totalGames": 853,
-  "totalVariants": 1191,
+  "totalGames": 854,
+  "totalVariants": 1194,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
