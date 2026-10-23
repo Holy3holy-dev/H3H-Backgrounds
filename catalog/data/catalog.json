@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T15:32:43.181000+00:00",
+  "updatedAt": "2026-10-23T15:33:44.803725+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -32856,9 +32856,131 @@
           "notes": "Switch 720p 30fps H264 | Dark Voyager Fortnite | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "010041B014EC0000",
+      "title": "Nowhere Girl",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010041B014EC0000.jpg",
+      "variants": [
+        {
+          "id": "v_2bbe1a85",
+          "name": "000 Path To Nowhere",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1V-4OChqbxBcbxbWYsThpyBl-Zbn4aUlY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1V-4OChqbxBcbxbWYsThpyBl-Zbn4aUlY&sz=w640",
+          "sizeBytes": 4703292,
+          "sha256": "5BE08A7956356F254F38A84870B0FC7BE7F15BC59D8D2240655927A8D3136378",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | 000 Path To Nowhere"
+        }
+      ]
+    },
+    {
+      "titleId": "01000FE014632000",
+      "title": "Red Ronin",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000FE014632000.jpg",
+      "variants": [
+        {
+          "id": "v_24a7622a",
+          "name": "Kitsune Ronin",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1iuZCdIHemZqlTjSGLAmME3awquNNZD1v",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1iuZCdIHemZqlTjSGLAmME3awquNNZD1v&sz=w640",
+          "sizeBytes": 4755622,
+          "sha256": "552F841BAB666A094FC283AA8F748BCBACBBCACC4DF16CFF07D7F7752545A1D4",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kitsune Ronin | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "01001CC00CB54000",
+      "title": "Fat City",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001CC00CB54000.jpg",
+      "variants": [
+        {
+          "id": "v_9f825273",
+          "name": "Jack The Ripper Fate Apocrypha",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MWoy-wP_09D5G-hpQZIx__9NjV04k6fM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MWoy-wP_09D5G-hpQZIx__9NjV04k6fM&sz=w640",
+          "sizeBytes": 4660488,
+          "sha256": "22AE1AE7DF90322C46358289EC4BF400CE63407008CD03A20799A383F11232E6",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Jack The Ripper Fate Apocrypha | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E4300CB3E000",
+      "title": "Feather",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E4300CB3E000.jpg",
+      "variants": [
+        {
+          "id": "v_912d4dd2",
+          "name": "Ronova Genshin Impact",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1scg-aARpKqUq3U5wWw9H8GvXEqfJk4ik",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1scg-aARpKqUq3U5wWw9H8GvXEqfJk4ik&sz=w640",
+          "sizeBytes": 4728042,
+          "sha256": "C804C012380B1C0A596F41CA093393D38CD68A3B3010E29EDEC9CC79BA9D123A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Ronova Genshin Impact"
+        },
+        {
+          "id": "v_f8ccc3c1",
+          "name": "Black Wings Aola Star",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HNbTGBO4FnknHHQl14SwQYDEeCCYvKvH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HNbTGBO4FnknHHQl14SwQYDEeCCYvKvH&sz=w640",
+          "sizeBytes": 4733167,
+          "sha256": "E198ABF614951D2557B4BC3D18E5787D77D1FC75AB9C40DF203636BFD58A1083",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Black Wings Aola Star | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 978,
-  "totalVariants": 1435,
+  "totalGames": 982,
+  "totalVariants": 1440,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
