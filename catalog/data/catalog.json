@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:18:36.330408+00:00",
+  "updatedAt": "2026-10-23T13:19:55.727766+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -24814,9 +24814,115 @@
           "notes": "Switch 720p 30fps H264 | Yoshi&#8217;s Island Pixel | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100196028A3E000",
+      "title": "The Convenience Store",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100196028A3E000.jpg",
+      "variants": [
+        {
+          "id": "v_de772b43",
+          "name": "Rainy Night At The Convenience Store Zen",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Z3W2WzLzgw90kpu-xZgVWAEJ3oNBUgz3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Z3W2WzLzgw90kpu-xZgVWAEJ3oNBUgz3&sz=w640",
+          "sizeBytes": 4592369,
+          "sha256": "F0494B537104F68B4904112FF8C96F9DC131709F102B4B66FA6248412F978ECF",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Rainy Night At The Convenience Store Zen"
+        },
+        {
+          "id": "v_c98bffc5",
+          "name": "Convenience Store In The Rain",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ixnE31BZFAOCXaFm_4sEjyH8STryc92f",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ixnE31BZFAOCXaFm_4sEjyH8STryc92f&sz=w640",
+          "sizeBytes": 4741360,
+          "sha256": "F2E3C02F3C1D49F77E65B1681EAD286C0D53FC2262CB127BB822B983F0BAB69C",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Convenience Store In The Rain | ЗВУК"
+        },
+        {
+          "id": "v_96860d54",
+          "name": "Ryo Yamada In The Snow Bocchi The Rock!",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1802-iRjV3Fh_n90klrOqVoohCGnQIS8i",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1802-iRjV3Fh_n90klrOqVoohCGnQIS8i&sz=w640",
+          "sizeBytes": 4617268,
+          "sha256": "3E92000E81DE41170D3A2961B47E2F4505FAD19E431AB48E2ED5637D1671D1AB",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Ryo Yamada In The Snow Bocchi The Rock!"
+        }
+      ]
+    },
+    {
+      "titleId": "0100217023F6C000",
+      "title": "Well Dweller",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100217023F6C000.jpg",
+      "variants": [
+        {
+          "id": "v_0b7bb6b0",
+          "name": "Black Asta Demon Dweller Sword Black Clo",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Lf5iZ-GsilR66SDCMsGR9Rf8_UnuJr4R",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Lf5iZ-GsilR66SDCMsGR9Rf8_UnuJr4R&sz=w640",
+          "sizeBytes": 4747488,
+          "sha256": "79BDFFBB76CDD8672F51FB2C817A6D3323A6CB0C57A354630F2F0482F1D5943C",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Black Asta Demon Dweller Sword Black Clo | ЗВУК"
+        },
+        {
+          "id": "v_dc1e7d15",
+          "name": "Asta Demon Dweller Sword Black Clover",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jfgv9GCVlTr94cmQYp1VX0Ua5gnYM4ZP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jfgv9GCVlTr94cmQYp1VX0Ua5gnYM4ZP&sz=w640",
+          "sizeBytes": 4666665,
+          "sha256": "C043D1CD74776DD95AC0B0315549C3C7F52B7C0C1020E65F40B5AD657F0BA912",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Asta Demon Dweller Sword Black Clover | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 794,
-  "totalVariants": 1070,
+  "totalGames": 796,
+  "totalVariants": 1075,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
