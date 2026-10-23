@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:36:32.687395+00:00",
+  "updatedAt": "2026-10-23T13:37:46.567800+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -26012,9 +26012,123 @@
           "notes": "Switch 720p 30fps H264 | Dark Street Lights | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100DE200C350000",
+      "title": "Chasm",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DE200C350000.jpg",
+      "variants": [
+        {
+          "id": "v_708ff4a1",
+          "name": "The Chasm Genshin Impact",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Jg40CARP83RR7IEt4XayPln6tMmgh5Eq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Jg40CARP83RR7IEt4XayPln6tMmgh5Eq&sz=w640",
+          "sizeBytes": 4622570,
+          "sha256": "F31E092B655F4C5C860089F458D52EC0EF75E6B0DD48124AFD566A416C9DF10E",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Chasm Genshin Impact | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "01005E201CB44000",
+      "title": "Birth",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005E201CB44000.jpg",
+      "variants": [
+        {
+          "id": "v_4026cbc5",
+          "name": "Miku Birthday",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Iu3WJXiDMhucvZJBpOY_0L703kxYFuqX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Iu3WJXiDMhucvZJBpOY_0L703kxYFuqX&sz=w640",
+          "sizeBytes": 4751966,
+          "sha256": "954A6F810D2D83ED1DEBE62C0F0EE469351200FF06A2147CB1C6592845622A90",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Miku Birthday | ЗВУК"
+        },
+        {
+          "id": "v_66d34eaf",
+          "name": "Asuka Langley Sohryu With Her Mech",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MCnLJmJ8FoMiiZyg6L0qQuqefUrsER9s",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MCnLJmJ8FoMiiZyg6L0qQuqefUrsER9s&sz=w640",
+          "sizeBytes": 4713747,
+          "sha256": "ADD962156A92AC367AE7C5557029B5279FBF5486419A4E15D68DE49B7CC27115",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Asuka Langley Sohryu With Her Mech | ЗВУК"
+        },
+        {
+          "id": "v_e2246508",
+          "name": "Bronya Zaychik Playing Video Games Honka",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UF8mOLqWu6qqxWIenDK7KjC0iulKk0-b",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UF8mOLqWu6qqxWIenDK7KjC0iulKk0-b&sz=w640",
+          "sizeBytes": 4712577,
+          "sha256": "CD84666348E8EF61A3B7D8294B14270308F8C8C1894E0EFC97E47FB210DD1BC0",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bronya Zaychik Playing Video Games Honka | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "01008FB023B52000",
+      "title": "Gloomy Eyes",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008FB023B52000.jpg",
+      "variants": [
+        {
+          "id": "v_c87101bb",
+          "name": "Furina Midnight Meadow Genshin Impact",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QCMaolCnyV3cQ1sLspLrcdkk1Iaj-VQJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QCMaolCnyV3cQ1sLspLrcdkk1Iaj-VQJ&sz=w640",
+          "sizeBytes": 4733339,
+          "sha256": "9F632432BBAE5EB01DAB50745C5CA82BA650144A468E14179982F2772B1B9E92",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Furina Midnight Meadow Genshin Impact | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 820,
-  "totalVariants": 1125,
+  "totalGames": 823,
+  "totalVariants": 1130,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
