@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T15:04:59.266006+00:00",
+  "updatedAt": "2026-10-23T15:07:15.717973+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -31128,9 +31128,89 @@
           "notes": "Switch 720p 30fps H264 | Corgi Run"
         }
       ]
+    },
+    {
+      "titleId": "01002A2004530000",
+      "title": "The Bridge",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002A2004530000.jpg",
+      "variants": [
+        {
+          "id": "v_5e2b34aa",
+          "name": "Lonely Samurai Standing On The Bridge",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16TcWty__2WbJgbYXMMSSzJ1f9FiJP2Cs",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16TcWty__2WbJgbYXMMSSzJ1f9FiJP2Cs&sz=w640",
+          "sizeBytes": 4582825,
+          "sha256": "E45BB6DD333D371C69022652C810D98FAA67BF723A189FD9EC7B73371756B25B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lonely Samurai Standing On The Bridge | ЗВУК"
+        },
+        {
+          "id": "v_bf9fff38",
+          "name": "Fantasy Girl On The Bridge",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1__RJ1GsSybtThXvFmns3NRJnD4WtKpQq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1__RJ1GsSybtThXvFmns3NRJnD4WtKpQq&sz=w640",
+          "sizeBytes": 4548095,
+          "sha256": "E5AB85C139F8A91B4E89D3FC906E583C56629037E4A11F35AD436E6F86A86517",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fantasy Girl On The Bridge | ЗВУК"
+        },
+        {
+          "id": "v_cd2d81b1",
+          "name": "Miko Sitting On The Bridge",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1F3SQGSB4S_LoF_DXnGRCiE0talYgCkVO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1F3SQGSB4S_LoF_DXnGRCiE0talYgCkVO&sz=w640",
+          "sizeBytes": 4672484,
+          "sha256": "91EB689E35A3446C3D3A392D903CB16783FC2BDC59EB5BD23DBFE7A307241310",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Miko Sitting On The Bridge | ЗВУК"
+        },
+        {
+          "id": "v_f5296ee8",
+          "name": "Kousaka Playing Trumpet On The Bridge So",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QVtvFDaqTu4blKhMIpiXxwHXqF69F132",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QVtvFDaqTu4blKhMIpiXxwHXqF69F132&sz=w640",
+          "sizeBytes": 4621176,
+          "sha256": "E375928853DCC4392FA55D6AC0C7BB874F9EE42D43BADC5E2464CD7A99C011BF",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kousaka Playing Trumpet On The Bridge So | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 942,
-  "totalVariants": 1355,
+  "totalGames": 943,
+  "totalVariants": 1359,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
