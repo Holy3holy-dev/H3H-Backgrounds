@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:11:42.656497+00:00",
+  "updatedAt": "2026-10-23T14:12:43.346110+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -28176,9 +28176,53 @@
           "notes": "Switch 720p 30fps H264 | Lost Forest"
         }
       ]
+    },
+    {
+      "titleId": "0100502007F54000",
+      "title": "Black the Fall",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100502007F54000.jpg",
+      "variants": [
+        {
+          "id": "v_4f6c4a9e",
+          "name": "The Black Cat Adventure",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fAhC34B8GeOgPi4LZKbNO42WmLeltkr7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fAhC34B8GeOgPi4LZKbNO42WmLeltkr7&sz=w640",
+          "sizeBytes": 4644516,
+          "sha256": "78A2054A0D5E3F6ABCD4D13AA1ADE6C46AE50C1525A8DF9913C4278817004DC0",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Black Cat Adventure | ЗВУК"
+        },
+        {
+          "id": "v_12bcfe4a",
+          "name": "Anime Girl Falling Asleep On The Table",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rLz9pK-c3l4PPIuHyVHXkGQ91mxCLaP4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rLz9pK-c3l4PPIuHyVHXkGQ91mxCLaP4&sz=w640",
+          "sizeBytes": 4727590,
+          "sha256": "8F27105B17D60A8CF1AAA410F40F8C9D6B2C13F3D36D64D16CF701D7C85D7D95",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Anime Girl Falling Asleep On The Table | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 870,
-  "totalVariants": 1223,
+  "totalGames": 871,
+  "totalVariants": 1225,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
