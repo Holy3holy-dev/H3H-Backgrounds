@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T15:33:44.803725+00:00",
+  "updatedAt": "2026-10-23T15:34:42.927629+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -32978,9 +32978,115 @@
           "notes": "Switch 720p 30fps H264 | Black Wings Aola Star | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "010070D00F640000",
+      "title": "Stone",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010070D00F640000.jpg",
+      "variants": [
+        {
+          "id": "v_4aaaad81",
+          "name": "Gyomei Stone Hashira Kimetsu No Yaiba",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lTs2b-bWYrrBe72PYSLf7iC_bgkJFtAs",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lTs2b-bWYrrBe72PYSLf7iC_bgkJFtAs&sz=w640",
+          "sizeBytes": 4765002,
+          "sha256": "E222CC217EC19C0AD15E51B6AF18850F540636655CCDB942DF0D7D9E87B15B6E",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Gyomei Stone Hashira Kimetsu No Yaiba | ЗВУК"
+        },
+        {
+          "id": "v_af35fc68",
+          "name": "Gyomei Himejima Stone Breathing Kimetsu",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xWcNKWeTKvqwW-H53ukP1SZCZsXDIi7r",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xWcNKWeTKvqwW-H53ukP1SZCZsXDIi7r&sz=w640",
+          "sizeBytes": 4714973,
+          "sha256": "78883AACADECAC18DD118B4F66A3A0BC73CFB8CD2631244CB72470E4A0AC1E5F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Gyomei Himejima Stone Breathing Kimetsu"
+        },
+        {
+          "id": "v_e74398c3",
+          "name": "Stone Water",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10xrdgTjTpfQRfB3c1sn20H38ZjkX5sf1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10xrdgTjTpfQRfB3c1sn20H38ZjkX5sf1&sz=w640",
+          "sizeBytes": 4782788,
+          "sha256": "2988A6F7BB8E5D0E62108BBB7FA45CE54CCFEC1D350220EF805EB2AD9E60856D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Stone Water"
+        },
+        {
+          "id": "v_33936a8c",
+          "name": "Japanese Samurai Gravestone",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12WUYg-2BnqH3LfohkFg02lZbLBlRZd6e",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12WUYg-2BnqH3LfohkFg02lZbLBlRZd6e&sz=w640",
+          "sizeBytes": 4711718,
+          "sha256": "BFC551ADB714301736ED6A764CBA5FC115B6CF764024F60874C05DA8B68D9A63",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Japanese Samurai Gravestone | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100907015146000",
+      "title": "The Shadow You",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100907015146000.jpg",
+      "variants": [
+        {
+          "id": "v_8f0a32f9",
+          "name": "Sasuke Uchiha The Shadow Hokage",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=130t1rT80m6W7zR7lOOyOtm1bk-PpBRTM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=130t1rT80m6W7zR7lOOyOtm1bk-PpBRTM&sz=w640",
+          "sizeBytes": 4712069,
+          "sha256": "56D171F8FC9F262F5A11C7606A6F06EC6DB697EEF5563CF566118A47A45F588A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sasuke Uchiha The Shadow Hokage | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 982,
-  "totalVariants": 1440,
+  "totalGames": 984,
+  "totalVariants": 1445,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
