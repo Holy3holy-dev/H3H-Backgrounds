@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T15:09:06.754515+00:00",
+  "updatedAt": "2026-10-23T15:10:10.859194+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -31376,9 +31376,123 @@
           "notes": "Switch 720p 30fps H264 | Imai Lisa And Minato Yukina Chilling In | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100035019C74000",
+      "title": "The Companion",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100035019C74000.jpg",
+      "variants": [
+        {
+          "id": "v_517d2bb0",
+          "name": "The Silver Knight And Her Companion",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GFLi2Hs1jVkYiZ7LU1d8Yrwv6JVuXPXB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GFLi2Hs1jVkYiZ7LU1d8Yrwv6JVuXPXB&sz=w640",
+          "sizeBytes": 4753370,
+          "sha256": "489E97EBC4B91737845692AA4D3BD2F7686719D2CD2389C6F56CD1614A1407B0",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Silver Knight And Her Companion | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "010066B01BE8A000",
+      "title": "Forest Fire",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010066B01BE8A000.jpg",
+      "variants": [
+        {
+          "id": "v_9e4c98cb",
+          "name": "Miko Shrine Maidens Forest Fireflies",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hQPQYr6HLoOfQJtIpBwDfIVim7g7YnQz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hQPQYr6HLoOfQJtIpBwDfIVim7g7YnQz&sz=w640",
+          "sizeBytes": 4735274,
+          "sha256": "07EC3CB905F85336B922179EC6C988E9B2D5BC9D08683ECC002F9D87849BF8C2",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Miko Shrine Maidens Forest Fireflies | ЗВУК"
+        },
+        {
+          "id": "v_1c12233c",
+          "name": "Forest Firefly Fantasy",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HC5cfxby4n4RS_BENcnCjtYSlM8K3E9q",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HC5cfxby4n4RS_BENcnCjtYSlM8K3E9q&sz=w640",
+          "sizeBytes": 4885871,
+          "sha256": "4FD7452027CE3FE5360EEFA874D4833012C417116BCDA2EC5A8548F9AAE2E525",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Forest Firefly Fantasy | ЗВУК"
+        },
+        {
+          "id": "v_8bfbf721",
+          "name": "Fireflies Forest Honor Of Kings",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XJuI2yYV4sLV-Oug_nbGw2G9fT57Hoh1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XJuI2yYV4sLV-Oug_nbGw2G9fT57Hoh1&sz=w640",
+          "sizeBytes": 4761288,
+          "sha256": "131DE3C291661E1277734C9A22B7463845D30E0E2A6126C9CBD3BBCD6E4359A6",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Fireflies Forest Honor Of Kings"
+        }
+      ]
+    },
+    {
+      "titleId": "010030A006F6E000",
+      "title": "Light Fall",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010030A006F6E000.jpg",
+      "variants": [
+        {
+          "id": "v_966673df",
+          "name": "Light Fall",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1uf3ib7ck3PIx1DlojA4O30ay9_W0pYjY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1uf3ib7ck3PIx1DlojA4O30ay9_W0pYjY&sz=w640",
+          "sizeBytes": 4941850,
+          "sha256": "7B0D83DDCCC77A1FE9DFCB1C9640FCDDA9A4B219FAA337CD921EF75E938994CF",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Light Fall | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 946,
-  "totalVariants": 1367,
+  "totalGames": 949,
+  "totalVariants": 1372,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
