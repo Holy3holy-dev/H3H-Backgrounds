@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T13:16:50.944260+00:00",
+  "updatedAt": "2026-10-23T13:18:36.330408+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -23861,6 +23861,60 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Borderlands 2 Motion Cover"
+        },
+        {
+          "id": "v_94060776",
+          "name": "Pandora&#8217;s Moon Borderlands 3",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xhHsw1aNoGAzsZ338Y1zzzw2bT1fXRjQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xhHsw1aNoGAzsZ338Y1zzzw2bT1fXRjQ&sz=w640",
+          "sizeBytes": 4636484,
+          "sha256": "DB14706FC3FC549F318063E7FC6E12F6775BB112796470C76E5416146DFDD628",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Pandora&#8217;s Moon Borderlands 3 | ЗВУК"
+        },
+        {
+          "id": "v_d14cc9fa",
+          "name": "Bar Borderlands 3",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18FK8AH7FIZThennsSGlJbcaAtCk1emMH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18FK8AH7FIZThennsSGlJbcaAtCk1emMH&sz=w640",
+          "sizeBytes": 4722616,
+          "sha256": "23DE02BF8AA505186A947AC7ECAB30116B8A49D3942EB5AF9A5467A742C666B6",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bar Borderlands 3 | ЗВУК"
+        },
+        {
+          "id": "v_a03a65a2",
+          "name": "Mask Of Mayhem Borderlands 3",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PCGG_FJN1_xJBGmLMG6Pj8ZgLSJlslev",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PCGG_FJN1_xJBGmLMG6Pj8ZgLSJlslev&sz=w640",
+          "sizeBytes": 4747944,
+          "sha256": "F116F393E13D8B7EF665832605FBEAD5AEF0417162F026CFB544BEFA38245C95",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mask Of Mayhem Borderlands 3 | ЗВУК"
         }
       ]
     },
@@ -24524,6 +24578,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Ann Takamaki At Shibuya Station Persona | ЗВУК"
+        },
+        {
+          "id": "v_0ddc97ba",
+          "name": "Kasumi Yoshizawa Persona 5 Royal X Heave",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13aBwPnzCueBYnFl1iQEWaFyl5vbDp9uj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13aBwPnzCueBYnFl1iQEWaFyl5vbDp9uj&sz=w640",
+          "sizeBytes": 4715490,
+          "sha256": "7D66A29790362382BCF593436EF4FB1D939E1BAFEDEAE0C91B31F0A29762D8C2",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Kasumi Yoshizawa Persona 5 Royal X Heave"
+        },
+        {
+          "id": "v_44b1cd44",
+          "name": "Joker Persona 5 Royal",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Zqv_NoLqDH4G3CRTQLLWn3h-wKmAhF23",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Zqv_NoLqDH4G3CRTQLLWn3h-wKmAhF23&sz=w640",
+          "sizeBytes": 4752669,
+          "sha256": "DE40C8D4DFA043BE0F4F352AB3A3298F2B4C1D57F31EF49A275C11233AB0C9D7",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Joker Persona 5 Royal | ЗВУК"
         }
       ]
     },
@@ -24727,6 +24817,6 @@
     }
   ],
   "totalGames": 794,
-  "totalVariants": 1065,
+  "totalVariants": 1070,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
