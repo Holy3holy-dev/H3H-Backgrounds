@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T12:59:25.163894+00:00",
+  "updatedAt": "2026-10-23T13:00:27.182488+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -2534,6 +2534,60 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 0100F7E00C70E000_Hogwarts_Legacy.mp4"
+        },
+        {
+          "id": "v_e8184f99",
+          "name": "Hogwarts Legacy",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14SJwSBb1L2qKJrvDC8h-RuZgIj0TVK7b",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14SJwSBb1L2qKJrvDC8h-RuZgIj0TVK7b&sz=w640",
+          "sizeBytes": 4675908,
+          "sha256": "586F2C0553241624A5E16869BB62F0E56C7A0C47253E2EF4D2CF59D1F551B6AC",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Hogwarts Legacy"
+        },
+        {
+          "id": "v_2e404542",
+          "name": "Hogwarts Legacy Dark Version",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cd3PaxFpVXTcSITz-ihAz0uclCZdGdEw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cd3PaxFpVXTcSITz-ihAz0uclCZdGdEw&sz=w640",
+          "sizeBytes": 4709185,
+          "sha256": "99533D1615C94E9AC992F60057635AD649815192FD9E7DC215EFEEB433521C7A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hogwarts Legacy Dark Version | ЗВУК"
+        },
+        {
+          "id": "v_351ffe52",
+          "name": "Hogwarts Legacy",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18uvWq-3NYnxVqE3c2EfsU3mhvEDHjC3B",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18uvWq-3NYnxVqE3c2EfsU3mhvEDHjC3B&sz=w640",
+          "sizeBytes": 4644185,
+          "sha256": "04F8EEC1AF711C3C0301D07CA8CA7D75128683A37E82052233AFDCF4AE718DD3",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hogwarts Legacy | ЗВУК"
         }
       ]
     },
@@ -24338,9 +24392,35 @@
           "notes": "Submitted via Telegram by @Secondchancetomourn"
         }
       ]
+    },
+    {
+      "titleId": "0100600004034000",
+      "title": "Yoshi's Crafted World",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100600004034000.jpg",
+      "variants": [
+        {
+          "id": "v_ab5dfaf4",
+          "name": "Yoshi&#8217;s Island Pixel",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1K_RgLevCY-_d202q9RBE559f8ESOMnRC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1K_RgLevCY-_d202q9RBE559f8ESOMnRC&sz=w640",
+          "sizeBytes": 4780756,
+          "sha256": "CAE7CF3B1FBEEFAEE6D53B9ADA69408D3E1BD45601217EA4A0CCCEA9DFDFB423",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Yoshi&#8217;s Island Pixel | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 793,
-  "totalVariants": 1044,
+  "totalGames": 794,
+  "totalVariants": 1048,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
