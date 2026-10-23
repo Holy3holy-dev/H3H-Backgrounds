@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T16:52:48.040885+00:00",
+  "updatedAt": "2026-10-23T16:53:56.737688+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -34469,9 +34469,89 @@
           "notes": "Switch 720p 30fps H264 | Noelle Vs Ruin Guards Genshin Impact | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100DFE00F002000",
+      "title": "Green Video Game",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DFE00F002000.jpg",
+      "variants": [
+        {
+          "id": "v_e053d110",
+          "name": "Luigi Green Phonk",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1iTqsY8P6ZzUAbsAvxfDll7XCDPo5aAQZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1iTqsY8P6ZzUAbsAvxfDll7XCDPo5aAQZ&sz=w640",
+          "sizeBytes": 4747927,
+          "sha256": "34318C50AE9962E8C3B0AFEF684F7D9DB829980E61D6BF4A5F916582F966566C",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Luigi Green Phonk | ЗВУК"
+        },
+        {
+          "id": "v_6d76afa4",
+          "name": "Hornet Green Cave Hollow Knight Silksong",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12q8v38JNO8O8TB1MSqxkqvucBS-zHTkQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12q8v38JNO8O8TB1MSqxkqvucBS-zHTkQ&sz=w640",
+          "sizeBytes": 4653529,
+          "sha256": "25D01462E2C1ED63C23173C939A8B00C021E7955DAB06F891A644F3AC14CA002",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hornet Green Cave Hollow Knight Silksong | ЗВУК"
+        },
+        {
+          "id": "v_358656c8",
+          "name": "Jingran Hood Heterochromia Wuthering Wav",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PDd0PAMD6mHBjp2GS0x9LDB4AMYo_sae",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PDd0PAMD6mHBjp2GS0x9LDB4AMYo_sae&sz=w640",
+          "sizeBytes": 4652394,
+          "sha256": "C98BF1017A05A24A09BEE6993BAF87D20372EF4BD6D9212F0FC5FD2000B4CB60",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Jingran Hood Heterochromia Wuthering Wav"
+        },
+        {
+          "id": "v_4039871f",
+          "name": "Linko Xiaozhen Neverness To Everness",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KbfT_LpdwvPqZUQaTcVd8ZTzDqjgbjjO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KbfT_LpdwvPqZUQaTcVd8ZTzDqjgbjjO&sz=w640",
+          "sizeBytes": 4732610,
+          "sha256": "0C39D081D6C88D29B54E8D371A1ECA2194FE09691DBB81B49EC23DBBD72F09E4",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Linko Xiaozhen Neverness To Everness"
+        }
+      ]
     }
   ],
-  "totalGames": 1011,
-  "totalVariants": 1510,
+  "totalGames": 1012,
+  "totalVariants": 1514,
   "lastUpdated": "2026-10-23T16:45:33.184207+00:00"
 }
