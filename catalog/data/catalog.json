@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T16:22:12.494065+00:00",
+  "updatedAt": "2026-10-23T16:23:12.016006+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -34319,9 +34319,115 @@
           "notes": "Switch 720p 30fps H264 | Racing In The Rain Initial D | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "010088A0167A0000",
+      "title": "LOVE 3",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010088A0167A0000.jpg",
+      "variants": [
+        {
+          "id": "v_db19d634",
+          "name": "Miku Love Letter",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1drat3GswOMGAwZq3aoR1e7g7iesxS9gu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1drat3GswOMGAwZq3aoR1e7g7iesxS9gu&sz=w640",
+          "sizeBytes": 4716614,
+          "sha256": "C8D926EB452EC4136B22B649C4B39588BDB6FCC581C079D349825999F635B6F5",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Miku Love Letter"
+        },
+        {
+          "id": "v_84a9128f",
+          "name": "Rudo 3R Gachiakuta",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ua0-qRLoiol3m0--qsDIiKdG-hFWDNfO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ua0-qRLoiol3m0--qsDIiKdG-hFWDNfO&sz=w640",
+          "sizeBytes": 4664973,
+          "sha256": "8EAFF59EFF4A9DCFF70487C411DB61CEFAFF6220FE3638597AF699504BCD414F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rudo 3R Gachiakuta | ЗВУК"
+        },
+        {
+          "id": "v_53e87ca5",
+          "name": "Rina Tennoji Love Live!",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17vLF1Q2LddENqIdJUCC5J4j4tOrvN3mm",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17vLF1Q2LddENqIdJUCC5J4j4tOrvN3mm&sz=w640",
+          "sizeBytes": 4646733,
+          "sha256": "B0FC327B2F643AD30A82797E6CC266112E29C541DB41123B88F95890A87BD525",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Rina Tennoji Love Live!"
+        },
+        {
+          "id": "v_449d37a8",
+          "name": "Asta Black Clover",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16XrESksm7b97f1b3OxVH7orJwfl3s4VQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16XrESksm7b97f1b3OxVH7orJwfl3s4VQ&sz=w640",
+          "sizeBytes": 4677992,
+          "sha256": "7866A5124425F30B307D015F7E05D5DEF60EAFC317091F21112FEC4624CDA817",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Asta Black Clover"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C620180C4000",
+      "title": "Mechanic Battle",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C620180C4000.jpg",
+      "variants": [
+        {
+          "id": "v_da31d792",
+          "name": "Warhammer 40,000: Mechanicus",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IAXxsm19CEaaJ9cv-ydWUEHh8oZPXNlH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IAXxsm19CEaaJ9cv-ydWUEHh8oZPXNlH&sz=w640",
+          "sizeBytes": 4713316,
+          "sha256": "C7C94D694A8D8A1A251D59FAA09EA1E6A09D3ED2227E6D2AA84BB63C451B84F9",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Warhammer 40,000: Mechanicus | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 1008,
-  "totalVariants": 1503,
+  "totalGames": 1010,
+  "totalVariants": 1508,
   "lastUpdated": "2026-10-23T16:13:45.683859+00:00"
 }
