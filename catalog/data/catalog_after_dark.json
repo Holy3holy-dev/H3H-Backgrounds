@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "name": "H3H After Dark (18+) Official Catalog",
-  "updatedAt": "2026-10-23T05:46:34.489406+00:00",
+  "updatedAt": "2026-10-23T05:47:22.953468+00:00",
   "totalGames": 88,
-  "totalVariants": 458,
+  "totalVariants": 463,
   "games": [
     {
       "titleId": "0000000000000000",
@@ -1287,6 +1287,78 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Samurai Anime Girl Neon | ЗВУК"
+        },
+        {
+          "id": "v_040f0384",
+          "name": "Cartethyia Sunset Beach Wuthering Waves",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yGuM-SQbea6Hd1g5jnWONgHmM9cWV0in",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yGuM-SQbea6Hd1g5jnWONgHmM9cWV0in&sz=w640",
+          "sizeBytes": 4690150,
+          "sha256": "316004D0E11C8DAE5BCF2423BA58D432765B287BC4A65F14C2A35FB01A6BA8DA",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Cartethyia Sunset Beach Wuthering Waves"
+        },
+        {
+          "id": "v_211a8099",
+          "name": "Retro Sea Sunset Pixel",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tBcx--fcZkfW929pIiHqsEAUI3SRCjfy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tBcx--fcZkfW929pIiHqsEAUI3SRCjfy&sz=w640",
+          "sizeBytes": 4691017,
+          "sha256": "0A1D8CBD1418AD5EF85B59989862FB37B54D397675F48A7D7337035AC71A856C",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Retro Sea Sunset Pixel"
+        },
+        {
+          "id": "v_43f96c29",
+          "name": "Golden Hour Island",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IywEAlDNrCN-GLSWP-K6i4ptoGmyz-6m",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IywEAlDNrCN-GLSWP-K6i4ptoGmyz-6m&sz=w640",
+          "sizeBytes": 4708078,
+          "sha256": "A4AD4822F077185250424524DF8A1CA5197813520DE830EAD794E5F53D4FC5BC",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Golden Hour Island"
+        },
+        {
+          "id": "v_4571d1ea",
+          "name": "Bunny Anime Girl Playing Guitar",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WCtKfXknFsj2AYeYXGjYQ7kC465rdDOE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WCtKfXknFsj2AYeYXGjYQ7kC465rdDOE&sz=w640",
+          "sizeBytes": 4691303,
+          "sha256": "91B9DA6CECC721482B46D911F7423B70E1C085CD76F90256F91D6BBFCF7A2E2F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bunny Anime Girl Playing Guitar | ЗВУК"
         }
       ]
     },
@@ -8481,7 +8553,26 @@
       "titleId": "0100EC000000000F",
       "title": "Hololive VTubers (Marine, Gura, Calli)",
       "publisher": "Cover Corp",
-      "variants": []
+      "variants": [
+        {
+          "id": "v_2f69eee6",
+          "name": "Gawr Gura Winter Bunny",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oeyYmbfT73UxjgcJ276XubfD4acaI3uk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oeyYmbfT73UxjgcJ276XubfD4acaI3uk&sz=w640",
+          "sizeBytes": 4586540,
+          "sha256": "C7BF6C68F5F85E2162136E206C4ADE439A83F58A5702E71FD3B211388650E1B2",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Gawr Gura Winter Bunny | ЗВУК"
+        }
+      ]
     },
     {
       "titleId": "0100EC0000000010",
