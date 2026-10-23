@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T15:31:50.315926+00:00",
+  "updatedAt": "2026-10-23T15:32:43.181000+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -32794,9 +32794,71 @@
           "notes": "Switch 720p 30fps H264 | Star Wars Supremacy | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "010048E018CDC000",
+      "title": "Voyage",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010048E018CDC000.jpg",
+      "variants": [
+        {
+          "id": "v_797eb0af",
+          "name": "Lucia Homecoming Voyage Punishing Gray R",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ece8cdYmJK7VbGgHKSvzXh2HzVzjg0Hl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ece8cdYmJK7VbGgHKSvzXh2HzVzjg0Hl&sz=w640",
+          "sizeBytes": 4762947,
+          "sha256": "C4F3EB046E7D835CC31B67031A4520CEFCD498EE93605E7B1E2C30EB0C0A7045",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lucia Homecoming Voyage Punishing Gray R | ЗВУК"
+        },
+        {
+          "id": "v_1528b4f5",
+          "name": "Voyager",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11RQFpA_GFRguDL0f-UA-yrnRycKT8KpG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11RQFpA_GFRguDL0f-UA-yrnRycKT8KpG&sz=w640",
+          "sizeBytes": 4724820,
+          "sha256": "D7D86CDA133905006156B116360E57C4417CFD2D4CF9F4EC325AA7C1D20449C8",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Voyager | ЗВУК"
+        },
+        {
+          "id": "v_36a2484b",
+          "name": "Dark Voyager Fortnite",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13IQs-tvAOCAGkOHwZXLnQ-pBBhhWgw5e",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13IQs-tvAOCAGkOHwZXLnQ-pBBhhWgw5e&sz=w640",
+          "sizeBytes": 4712184,
+          "sha256": "8502F5075D9ED83D2015B1730B70240166DD638FDC3EDFC199A7A9D2D2660C88",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dark Voyager Fortnite | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 977,
-  "totalVariants": 1432,
+  "totalGames": 978,
+  "totalVariants": 1435,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
