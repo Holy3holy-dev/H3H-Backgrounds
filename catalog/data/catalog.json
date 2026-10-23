@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T15:19:55.706127+00:00",
+  "updatedAt": "2026-10-23T15:21:07.306407+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -32080,9 +32080,115 @@
           "notes": "Switch 720p 30fps H264 | Wakasagihime Mermaid Touhou Project"
         }
       ]
+    },
+    {
+      "titleId": "010065000D25C000",
+      "title": "Clan N",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010065000D25C000.jpg",
+      "variants": [
+        {
+          "id": "v_8c0163ac",
+          "name": "Calm Sunrise Tom Clancy&#8217;s Ghost Re",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KrU3oIMwXN4LY6-x1IrGuSEbnRPGNhzg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KrU3oIMwXN4LY6-x1IrGuSEbnRPGNhzg&sz=w640",
+          "sizeBytes": 4925983,
+          "sha256": "DA8110627C3B807F76724DB70D617CF3D2D683DFF0939D1CD31C035299A9243A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Calm Sunrise Tom Clancy&#8217;s Ghost Re | ЗВУК"
+        },
+        {
+          "id": "v_15d2d27c",
+          "name": "Sasuke And Itachi The Uchiha Clan",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ej-Fjo-UoLyIWcVmhZpRekg4S8_tntnT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ej-Fjo-UoLyIWcVmhZpRekg4S8_tntnT&sz=w640",
+          "sizeBytes": 4667417,
+          "sha256": "E92BD5306B6D9E971F0656B6E275F8ECD416F2E7CDC99B969608A9FC0FEC2945",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sasuke And Itachi The Uchiha Clan | ЗВУК"
+        },
+        {
+          "id": "v_cf3427ec",
+          "name": "Nokk Tom Clancy&#8217;s Rainbow Six Sieg",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xaNDUY30cqPn9ZKCA0tGoogC2DTAtKnJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xaNDUY30cqPn9ZKCA0tGoogC2DTAtKnJ&sz=w640",
+          "sizeBytes": 4746500,
+          "sha256": "8B72BF96D2835720034290E601897994C26A9588854B4BDE6B3A353DB02AD0B4",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Nokk Tom Clancy&#8217;s Rainbow Six Sieg | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "010037101A4CE000",
+      "title": "Mon Yu",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010037101A4CE000.jpg",
+      "variants": [
+        {
+          "id": "v_77b0f327",
+          "name": "Giyuu Eyes Demon Slayer",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ufr0slOyGddae9DsS6wmPJy0mMoOYvBe",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ufr0slOyGddae9DsS6wmPJy0mMoOYvBe&sz=w640",
+          "sizeBytes": 4714380,
+          "sha256": "6736E6E6FBE64CA16800B97B1D78C490ADB81F6699C14BF35CFEA2E9C257E73A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Giyuu Eyes Demon Slayer | ЗВУК"
+        },
+        {
+          "id": "v_682d8d0b",
+          "name": "Giyu Water Breathing Demon Slayer",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16j2qBBMFGOeI_jtUQ__zP_Zi_ijdzpsv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16j2qBBMFGOeI_jtUQ__zP_Zi_ijdzpsv&sz=w640",
+          "sizeBytes": 4745282,
+          "sha256": "CE03787347AA41D4E2271E87D51337800514A09B5ABFED1E7F6D51B1776FD9EB",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Giyu Water Breathing Demon Slayer"
+        }
+      ]
     }
   ],
-  "totalGames": 962,
-  "totalVariants": 1399,
+  "totalGames": 964,
+  "totalVariants": 1404,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
