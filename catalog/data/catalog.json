@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T14:35:55.606167+00:00",
+  "updatedAt": "2026-10-23T14:36:48.772564+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -29276,9 +29276,87 @@
           "notes": "Switch 720p 30fps H264 | The Galactic Horizon In Deep Space | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100CF900FA3E000",
+      "title": "Fairy Tail",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CF900FA3E000.jpg",
+      "variants": [
+        {
+          "id": "v_0906b28f",
+          "name": "Natsu And Lucy Starry Night Sky Fairy Ta",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1O7N6SCMk0cr-5KyvP77oP1C_k9ILq3g-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1O7N6SCMk0cr-5KyvP77oP1C_k9ILq3g-&sz=w640",
+          "sizeBytes": 4645731,
+          "sha256": "76632CE74091D43104EE00B1118FCB22A93ECC5608906D1E6B3389C48AE73469",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Natsu And Lucy Starry Night Sky Fairy Ta | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100177005C8A000",
+      "title": "Butcher",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100177005C8A000.jpg",
+      "variants": [
+        {
+          "id": "v_5812fc6a",
+          "name": "Butcher Blasphemy Marvel Rivals",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WDVwODVVpohFwpzCimGfJbLjDzcukkco",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WDVwODVVpohFwpzCimGfJbLjDzcukkco&sz=w640",
+          "sizeBytes": 4793161,
+          "sha256": "C488A859EFFA9CFBB5F8DFD084254E2ACEF24182D8C7AD98860F140418C3AFE7",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Butcher Blasphemy Marvel Rivals"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CEA01850E000",
+      "title": "God of Rock",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CEA01850E000.jpg",
+      "variants": [
+        {
+          "id": "v_16273e73",
+          "name": "Nikke Vesti",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nzYLUPZToyubdcfs0znKs6uyI8UlLKuc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nzYLUPZToyubdcfs0znKs6uyI8UlLKuc&sz=w640",
+          "sizeBytes": 4673502,
+          "sha256": "BA1BC88F0812BC76AE616CAD0CC6985E623672E750A977C7B7F201C34BFBAD40",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Nikke Vesti"
+        }
+      ]
     }
   ],
-  "totalGames": 895,
-  "totalVariants": 1273,
+  "totalGames": 898,
+  "totalVariants": 1276,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
