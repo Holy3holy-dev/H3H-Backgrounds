@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T15:30:21.077622+00:00",
+  "updatedAt": "2026-10-23T15:31:50.315926+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -32724,9 +32724,79 @@
           "notes": "Switch 720p 30fps H264 | Anime Girl Star Trail"
         }
       ]
+    },
+    {
+      "titleId": "0100435C7A19B000",
+      "title": "Blood Waves",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100435C7A19B000.jpg",
+      "variants": [
+        {
+          "id": "v_b1db6c55",
+          "name": "Camellya Blood Moon Wuthering Waves",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eG9UcklRjGprW8B9dNgCLNqQWu2y6xCG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eG9UcklRjGprW8B9dNgCLNqQWu2y6xCG&sz=w640",
+          "sizeBytes": 4725107,
+          "sha256": "DCE34C6B8093446F1A474FD0EE40292D914A8731374DBBF80E035423979ED806",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Camellya Blood Moon Wuthering Waves | ЗВУК"
+        },
+        {
+          "id": "v_4da0b6cb",
+          "name": "Ocean Waves Blood Moon Night",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XDgPg8VJAbiBkzNDIWCc84BG1C7Aci1z",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XDgPg8VJAbiBkzNDIWCc84BG1C7Aci1z&sz=w640",
+          "sizeBytes": 4703649,
+          "sha256": "FFDD890A378D370A0B0DC6F9149EE5EE68A94BDE5531DF53312256281F4199DF",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Ocean Waves Blood Moon Night"
+        }
+      ]
+    },
+    {
+      "titleId": "01003B300B568000",
+      "title": "Battle Supremacy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003B300B568000.jpg",
+      "variants": [
+        {
+          "id": "v_fda94a2d",
+          "name": "Star Wars Supremacy",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bZ3MBoF3nGrEgujD60pwvcAfPraK3_Xo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bZ3MBoF3nGrEgujD60pwvcAfPraK3_Xo&sz=w640",
+          "sizeBytes": 4685060,
+          "sha256": "4E87A8F38C3CC3E5C611EFDD877491309C1EBA88DF3F113D5BA078A55C4DC3F5",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Star Wars Supremacy | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 975,
-  "totalVariants": 1429,
+  "totalGames": 977,
+  "totalVariants": 1432,
   "lastUpdated": "2026-10-22T21:57:49.404490+00:00"
 }
