@@ -190,7 +190,7 @@ class MainWindow(QMainWindow):
         self.icons_view = IconsTab(self)
 
         self.tabs.addTab(self.express_view, "🎬 Видеофоны и Паки (Express Studio)")
-        self.tabs.addTab(self.icons_view, "🔲 Видеоиконки 4IFIR (Чистая иконка + Видеоиконка)")
+        self.tabs.addTab(self.icons_view, "🔲 Видеоиконки 4IFIR (Нарезка 1:1)")
 
         main_layout.addWidget(self.tabs, 1)
 
