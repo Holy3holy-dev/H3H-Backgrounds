@@ -30,6 +30,7 @@ public:
         // Ensure local recordings/covers directory exists for simulator/testing
         std::error_code ec;
         fs::create_directories(getCoversDirectory(), ec);
+        fs::create_directories(getIconsDirectory(), ec);
         fs::create_directories(getAppDirectory(), ec);
         return true;
     }
@@ -123,6 +124,10 @@ public:
 
     std::string getCoversDirectory() override {
         return "./recordings/covers";
+    }
+
+    std::string getIconsDirectory() override {
+        return "./recordings/icons";
     }
 
     std::string getAppDirectory() override {

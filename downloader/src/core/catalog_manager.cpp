@@ -107,9 +107,23 @@ bool CatalogManager::loadFromJsonString(const std::string& jsonStr, std::string&
                     v.hasAudio = jVar.value("hasAudio", false);
                     v.notes = jVar.value("notes", "");
 
-                    // Security check on download URL
-                    if (v.url.rfind("https://", 0) != 0) {
+                    v.hasIcon = jVar.value("hasIcon", false);
+                    v.iconUrl = jVar.value("iconUrl", "");
+                    v.iconSizeBytes = jVar.value("iconSizeBytes", static_cast<uint64_t>(0));
+                    v.iconCodec = jVar.value("iconCodec", "hevc");
+                    v.iconWidth = jVar.value("iconWidth", 256);
+                    v.iconHeight = jVar.value("iconHeight", 256);
+                    if (!v.iconUrl.empty()) {
+                        v.hasIcon = true;
+                    }
+
+                    // Security check on download URLs
+                    if (!v.url.empty() && v.url.rfind("https://", 0) != 0) {
                         outError = "Insecure or invalid variant URL: " + v.url;
+                        return false;
+                    }
+                    if (!v.iconUrl.empty() && v.iconUrl.rfind("https://", 0) != 0) {
+                        outError = "Insecure or invalid icon URL: " + v.iconUrl;
                         return false;
                     }
 

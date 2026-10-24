@@ -30,6 +30,7 @@ public:
     // System diagnostics
     virtual SystemInfo getSystemInfo() = 0;
     virtual std::string getCoversDirectory() = 0;
+    virtual std::string getIconsDirectory() = 0;
     virtual std::string getRecordingsDirectory() = 0;
     virtual std::string getAppDirectory() = 0;
 

@@ -87,6 +87,100 @@ bool Installer::findExistingBackup(
     return false;
 }
 
+bool Installer::findExistingIcon(
+    const std::string& iconsDir,
+    const std::string& titleId,
+    std::string& outIconPath,
+    uint64_t& outSizeBytes
+) {
+    if (!Config::isValidTitleId(titleId)) return false;
+
+    std::error_code ec;
+    if (!fs::exists(iconsDir, ec) || !fs::is_directory(iconsDir, ec)) {
+        return false;
+    }
+
+    std::string targetTargetName = Config::getTargetIconFileName(titleId);
+
+    for (const auto& entry : fs::directory_iterator(iconsDir, ec)) {
+        if (ec) break;
+        if (!entry.is_regular_file(ec)) continue;
+
+        std::string filename = entry.path().filename().string();
+        if (caseInsensitiveCompare(filename, targetTargetName)) {
+            outIconPath = entry.path().string();
+            outSizeBytes = entry.file_size(ec);
+            return true;
+        }
+    }
+
+    return false;
+}
+
+InstallResult Installer::installIcon(
+    const std::string& iconsDir,
+    const std::string& titleId,
+    const std::string& tempFilePath,
+    uint64_t expectedSizeBytes,
+    bool createBackup
+) {
+    InstallResult result;
+    result.success = false;
+
+    if (!Config::isValidTitleId(titleId)) {
+        result.message = "Неверный формат Title ID";
+        return result;
+    }
+
+    std::error_code ec;
+    if (!fs::exists(tempFilePath, ec)) {
+        result.message = "Временный файл иконки не найден";
+        return result;
+    }
+
+    fs::create_directories(iconsDir, ec);
+
+    std::string targetIconName = Config::getTargetIconFileName(titleId);
+    fs::path targetPath = fs::path(iconsDir) / targetIconName;
+    fs::path backupPath = fs::path(iconsDir) / Config::getBackupIconFileName(titleId);
+
+    // Existing icon backup
+    std::string existingIconPath;
+    uint64_t existingSize = 0;
+    bool hasExisting = findExistingIcon(iconsDir, titleId, existingIconPath, existingSize);
+
+    if (hasExisting && createBackup) {
+        fs::copy_file(existingIconPath, backupPath, fs::copy_options::overwrite_existing, ec);
+        result.backupPath = backupPath.string();
+    }
+
+    // Replace target with temp file
+    fs::rename(tempFilePath, targetPath, ec);
+    if (ec) {
+        fs::copy_file(tempFilePath, targetPath, fs::copy_options::overwrite_existing, ec);
+        fs::remove(tempFilePath, ec);
+    }
+
+    result.success = true;
+    result.installedPath = targetPath.string();
+    result.message = "Видеоиконка 4IFIR успешно установлена";
+    return result;
+}
+
+bool Installer::deleteIcon(
+    const std::string& iconsDir,
+    const std::string& titleId
+) {
+    std::string iconPath;
+    uint64_t sz = 0;
+    if (findExistingIcon(iconsDir, titleId, iconPath, sz)) {
+        std::error_code ec;
+        fs::remove(iconPath, ec);
+        return !ec;
+    }
+    return false;
+}
+
 InstallResult Installer::installVariant(
     const std::string& coversDir,
     const std::string& titleId,

@@ -22,7 +22,7 @@ from PySide6.QtWidgets import (
     QProgressBar, QMessageBox, QFileDialog, QFrame, QScrollArea,
     QGroupBox, QSizePolicy
 )
-from PySide6.QtMultimedia import QMediaPlayer, QAudioOutput
+from PySide6.QtMultimedia import QMediaPlayer, QAudioOutput, QVideoSink, QVideoFrame
 from PySide6.QtMultimediaWidgets import QVideoWidget
 
 PROJECT_ROOT = Path(__file__).parent.parent.parent.parent.resolve()
@@ -48,6 +48,7 @@ class PublishWorker(QThread):
         mode: str,  # 'cover', 'icon', 'both'
         start_sec: float,
         dur_sec: float,
+        icon_start_sec: float,
         icon_dur_sec: float,
         volume_percent: int,
         crop_pan: float,
@@ -64,6 +65,7 @@ class PublishWorker(QThread):
         self.mode = mode
         self.start_sec = start_sec
         self.dur_sec = dur_sec
+        self.icon_start_sec = icon_start_sec
         self.icon_dur_sec = icon_dur_sec
         self.volume_percent = volume_percent
         self.crop_pan = crop_pan
@@ -103,7 +105,7 @@ class PublishWorker(QThread):
                     src_vid=self.src_video,
                     out_mp4=icon_mp4,
                     out_thumb=icon_thumb,
-                    start_sec=self.start_sec,
+                    start_sec=self.icon_start_sec,
                     dur_sec=self.icon_dur_sec,
                     crop_pan_percent=self.crop_pan,
                     video_w=self.video_w,
@@ -589,9 +591,20 @@ class ExpressTab(QWidget):
         self.icon_title_lbl.setStyleSheet("color: #FFFFFF; font-size: 13px;")
         icon_header.addWidget(self.icon_title_lbl)
         icon_header.addStretch()
+        
+        self.icon_badge_lbl = QLabel("24 FPS • Без звука", self)
+        self.icon_badge_lbl.setStyleSheet("""
+            background-color: #0E7490;
+            color: #FFFFFF;
+            font-size: 10px;
+            font-weight: bold;
+            border-radius: 4px;
+            padding: 2px 6px;
+        """)
+        icon_header.addWidget(self.icon_badge_lbl)
         icon_col.addLayout(icon_header)
 
-        # 1:1 Preview center
+        # 1:1 Preview center container
         preview_center = QHBoxLayout()
         self.icon_preview_lbl = QLabel(self)
         self.icon_preview_lbl.setFixedSize(196, 196)
@@ -607,14 +620,81 @@ class ExpressTab(QWidget):
         preview_center.addWidget(self.icon_preview_lbl)
         icon_col.addLayout(preview_center)
 
-        self.icon_meta_lbl = QLabel("256x256 HEVC • 4.0 сек • Без звука • 24 FPS", self)
-        self.icon_meta_lbl.setAlignment(Qt.AlignCenter)
-        self.icon_meta_lbl.setStyleSheet("color: #00E5FF; font-size: 11px;")
-        icon_col.addWidget(self.icon_meta_lbl)
+        # Icon Playback Controls (Play/Pause, Stop, Scrubber)
+        icon_controls_row = QHBoxLayout()
+        icon_controls_row.setSpacing(8)
 
-        # Icon duration setting
-        icon_dur_layout = QHBoxLayout()
-        icon_dur_layout.addWidget(QLabel("<b>Длительность иконки:</b>", self))
+        self.btn_play_icon = QPushButton("▶ Играть иконку", self)
+        self.btn_play_icon.setFixedHeight(34)
+        self.btn_play_icon.setStyleSheet("""
+            QPushButton {
+                background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #06B6D4, stop:1 #3B82F6);
+                color: #FFFFFF;
+                font-weight: bold;
+                font-size: 12px;
+                border-radius: 6px;
+                padding: 0 12px;
+            }
+            QPushButton:hover {
+                background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #0891B2, stop:1 #2563EB);
+            }
+        """)
+        self.btn_play_icon.clicked.connect(self._toggle_icon_playback)
+        icon_controls_row.addWidget(self.btn_play_icon)
+
+        self.btn_stop_icon = QPushButton("⏹", self)
+        self.btn_stop_icon.setFixedSize(34, 34)
+        self.btn_stop_icon.setStyleSheet("""
+            QPushButton {
+                background-color: #1F2937;
+                border: 1px solid #374151;
+                border-radius: 6px;
+                color: #FFFFFF;
+                font-size: 13px;
+            }
+            QPushButton:hover { background-color: #374151; }
+        """)
+        self.btn_stop_icon.clicked.connect(self._stop_icon_playback)
+        icon_controls_row.addWidget(self.btn_stop_icon)
+
+        self.icon_scrubber_slider = QSlider(Qt.Horizontal, self)
+        self.icon_scrubber_slider.setRange(0, 1000)
+        self.icon_scrubber_slider.setValue(0)
+        self.icon_scrubber_slider.sliderMoved.connect(self._on_icon_scrubber_dragged)
+        icon_controls_row.addWidget(self.icon_scrubber_slider)
+
+        icon_col.addLayout(icon_controls_row)
+
+        # Icon Time readout
+        self.icon_time_display_lbl = QLabel("00:00.0 / 04.0с  (Иконка Switch: 0.0с - 4.0с)", self)
+        self.icon_time_display_lbl.setStyleSheet("color: #00E5FF; font-family: monospace; font-size: 11px;")
+        icon_col.addWidget(self.icon_time_display_lbl)
+
+        # Independent Timing controls: Start, End, Duration
+        icon_timing_row = QHBoxLayout()
+        icon_timing_row.setSpacing(6)
+
+        icon_timing_row.addWidget(QLabel("Начало:", self))
+        self.icon_start_spin = QDoubleSpinBox(self)
+        self.icon_start_spin.setRange(0.0, 3600.0)
+        self.icon_start_spin.setValue(0.0)
+        self.icon_start_spin.setSingleStep(0.5)
+        self.icon_start_spin.setDecimals(1)
+        self.icon_start_spin.setFixedHeight(28)
+        self.icon_start_spin.valueChanged.connect(self._on_icon_start_changed)
+        icon_timing_row.addWidget(self.icon_start_spin)
+
+        icon_timing_row.addWidget(QLabel("Конец:", self))
+        self.icon_end_spin = QDoubleSpinBox(self)
+        self.icon_end_spin.setRange(0.5, 3600.0)
+        self.icon_end_spin.setValue(4.0)
+        self.icon_end_spin.setSingleStep(0.5)
+        self.icon_end_spin.setDecimals(1)
+        self.icon_end_spin.setFixedHeight(28)
+        self.icon_end_spin.valueChanged.connect(self._on_icon_end_changed)
+        icon_timing_row.addWidget(self.icon_end_spin)
+
+        icon_timing_row.addWidget(QLabel("Длит.:", self))
         self.icon_dur_spin = QDoubleSpinBox(self)
         self.icon_dur_spin.setRange(1.0, 15.0)
         self.icon_dur_spin.setValue(4.0)
@@ -622,11 +702,18 @@ class ExpressTab(QWidget):
         self.icon_dur_spin.setDecimals(1)
         self.icon_dur_spin.setFixedHeight(28)
         self.icon_dur_spin.valueChanged.connect(self._on_icon_duration_changed)
-        icon_dur_layout.addWidget(self.icon_dur_spin)
+        icon_timing_row.addWidget(self.icon_dur_spin)
+
+        icon_timing_row.addStretch()
+        icon_col.addLayout(icon_timing_row)
+
+        # Preset buttons & Sync with cover button
+        presets_row = QHBoxLayout()
+        presets_row.setSpacing(6)
 
         for d in (2, 4, 6, 8):
             id_btn = QPushButton(f"{d}с", self)
-            id_btn.setFixedSize(36, 28)
+            id_btn.setFixedSize(36, 26)
             id_btn.setStyleSheet("""
                 QPushButton {
                     background-color: #1F2937;
@@ -638,11 +725,28 @@ class ExpressTab(QWidget):
                 }
                 QPushButton:hover { background-color: #00E5FF; color: #000000; }
             """)
-            id_btn.clicked.connect(lambda checked, val=d: self.icon_dur_spin.setValue(val))
-            icon_dur_layout.addWidget(id_btn)
+            id_btn.clicked.connect(lambda checked, val=d: self._set_icon_duration_val(val))
+            presets_row.addWidget(id_btn)
 
-        icon_dur_layout.addStretch()
-        icon_col.addLayout(icon_dur_layout)
+        self.btn_sync_cover = QPushButton("📋 Как у фона", self)
+        self.btn_sync_cover.setFixedHeight(26)
+        self.btn_sync_cover.setStyleSheet("""
+            QPushButton {
+                background-color: #1F2937;
+                border: 1px solid #374151;
+                border-radius: 4px;
+                color: #A7F3D0;
+                font-size: 11px;
+                font-weight: bold;
+                padding: 0 8px;
+            }
+            QPushButton:hover { background-color: #059669; color: #FFFFFF; }
+        """)
+        self.btn_sync_cover.clicked.connect(self._sync_icon_with_cover)
+        presets_row.addWidget(self.btn_sync_cover)
+        presets_row.addStretch()
+
+        icon_col.addLayout(presets_row)
 
         # Crop pan controls
         pan_layout = QVBoxLayout()
@@ -780,14 +884,25 @@ class ExpressTab(QWidget):
         main_vbox.addWidget(scroll)
 
     def _init_player(self):
-        """Initializes QtMultimedia QMediaPlayer & QAudioOutput."""
+        """Initializes QtMultimedia QMediaPlayer & QAudioOutput for Cover & Icon."""
+        # 1. Main Cover Player
         self.media_player = QMediaPlayer(self)
         self.audio_output = QAudioOutput(self)
         self.media_player.setAudioOutput(self.audio_output)
         self.media_player.setVideoOutput(self.video_widget)
-
         self.media_player.positionChanged.connect(self._on_player_position_changed)
         self.media_player.playbackStateChanged.connect(self._on_player_state_changed)
+
+        # 2. Dedicated 4IFIR Video Icon Player
+        self.icon_player = QMediaPlayer(self)
+        self.icon_audio_output = QAudioOutput(self)
+        self.icon_audio_output.setMuted(True)
+        self.icon_player.setAudioOutput(self.icon_audio_output)
+        self.icon_video_sink = QVideoSink(self)
+        self.icon_player.setVideoSink(self.icon_video_sink)
+        self.icon_video_sink.videoFrameChanged.connect(self._on_icon_frame_received)
+        self.icon_player.positionChanged.connect(self._on_icon_player_position_changed)
+        self.icon_player.playbackStateChanged.connect(self._on_icon_player_state_changed)
 
     def _create_card(self, title: str, accent_color: str) -> QGroupBox:
         box = QGroupBox(title, self)
@@ -1068,15 +1183,34 @@ class ExpressTab(QWidget):
         self.start_spin.blockSignals(False)
         self.dur_spin.blockSignals(False)
 
-        # Load video into media player
+        # Load video into cover media player
         self.media_player.stop()
         self.media_player.setSource(QUrl.fromLocalFile(str(path.resolve())))
         self.media_player.setPosition(1)
         self.video_placeholder_lbl.setVisible(False)
 
+        # Load video into icon media player
+        self.icon_player.stop()
+        self.icon_player.setSource(QUrl.fromLocalFile(str(path.resolve())))
+        self.icon_player.setPosition(1)
+
+        # Configure icon timing ranges
+        self.icon_start_spin.blockSignals(True)
+        self.icon_end_spin.blockSignals(True)
+        self.icon_dur_spin.blockSignals(True)
+        self.icon_start_spin.setRange(0.0, max(0.0, dur - 1.0))
+        self.icon_end_spin.setRange(0.5, dur)
+        self.icon_start_spin.setValue(0.0)
+        self.icon_dur_spin.setValue(min(4.0, dur))
+        self.icon_end_spin.setValue(min(4.0, dur))
+        self.icon_start_spin.blockSignals(False)
+        self.icon_end_spin.blockSignals(False)
+        self.icon_dur_spin.blockSignals(False)
+
         # Update initial frame & icon preview
         self._update_icon_crop_preview()
         self._update_time_label()
+        self._update_icon_time_label()
 
     # =========================================================================
     # --- Step 4: Interactive Video Playback & Loop Preview ---
@@ -1210,8 +1344,174 @@ class ExpressTab(QWidget):
         else:
             self.volume_slider.setValue(getattr(self, "_prev_volume", 100))
 
+    # =========================================================================
+    # --- Step 4: 🔲 Video Icon Playback & Independent Timing Handlers ---
+    # =========================================================================
+
+    def _toggle_icon_playback(self):
+        if not self.current_video_path or not self.current_video_path.exists():
+            QMessageBox.information(self, "Внимание", "Сначала выберите видеофайл в Шаге 2.")
+            return
+
+        if self.icon_player.playbackState() == QMediaPlayer.PlaybackState.PlayingState:
+            self.icon_player.pause()
+        else:
+            # Pause cover player so only one preview plays at a time
+            if self.media_player.playbackState() == QMediaPlayer.PlaybackState.PlayingState:
+                self.media_player.pause()
+
+            start_ms = int(self.icon_start_spin.value() * 1000)
+            end_ms = int(self.icon_end_spin.value() * 1000)
+            cur_ms = self.icon_player.position()
+            if cur_ms < start_ms or cur_ms >= end_ms:
+                self.icon_player.setPosition(start_ms)
+            self.icon_player.play()
+
+    def _stop_icon_playback(self):
+        self.icon_player.stop()
+        start_ms = int(self.icon_start_spin.value() * 1000)
+        self.icon_player.setPosition(start_ms)
+        self.icon_scrubber_slider.setValue(0)
+        self._update_icon_time_label()
+        self._update_icon_crop_preview()
+
+    def _on_icon_player_state_changed(self, state: QMediaPlayer.PlaybackState):
+        if state == QMediaPlayer.PlaybackState.PlayingState:
+            self.btn_play_icon.setText("⏸ Пауза")
+            self.btn_play_icon.setStyleSheet("""
+                QPushButton {
+                    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #10B981, stop:1 #059669);
+                    color: #FFFFFF;
+                    font-weight: bold;
+                    font-size: 12px;
+                    border-radius: 6px;
+                    padding: 0 12px;
+                }
+            """)
+        else:
+            self.btn_play_icon.setText("▶ Играть иконку")
+            self.btn_play_icon.setStyleSheet("""
+                QPushButton {
+                    background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #06B6D4, stop:1 #3B82F6);
+                    color: #FFFFFF;
+                    font-weight: bold;
+                    font-size: 12px;
+                    border-radius: 6px;
+                    padding: 0 12px;
+                }
+            """)
+
+    def _on_icon_player_position_changed(self, pos_ms: int):
+        start_ms = int(self.icon_start_spin.value() * 1000)
+        end_ms = int(self.icon_end_spin.value() * 1000)
+        dur_ms = max(1, end_ms - start_ms)
+
+        # Loop within icon interval [icon_start, icon_end]
+        if pos_ms >= end_ms or pos_ms < start_ms:
+            self.icon_player.setPosition(start_ms)
+            pos_ms = start_ms
+
+        rel_ms = max(0, min(pos_ms - start_ms, dur_ms))
+        pct = int((rel_ms / dur_ms) * 1000)
+
+        self.icon_scrubber_slider.blockSignals(True)
+        self.icon_scrubber_slider.setValue(pct)
+        self.icon_scrubber_slider.blockSignals(False)
+
+        curr_sec = rel_ms / 1000.0
+        tot_sec = dur_ms / 1000.0
+        start_sec = self.icon_start_spin.value()
+        end_sec = self.icon_end_spin.value()
+        self.icon_time_display_lbl.setText(
+            f"{curr_sec:04.1f}с / {tot_sec:04.1f}с  (Иконка Switch: {start_sec:.1f}с - {end_sec:.1f}с)"
+        )
+
+    def _on_icon_scrubber_dragged(self, val: int):
+        start_ms = int(self.icon_start_spin.value() * 1000)
+        end_ms = int(self.icon_end_spin.value() * 1000)
+        dur_ms = max(1, end_ms - start_ms)
+        target_ms = start_ms + int((val / 1000.0) * dur_ms)
+        self.icon_player.setPosition(target_ms)
+
+    def _on_icon_frame_received(self, vf: QVideoFrame):
+        """Renders live cropped 1:1 frame into icon preview during playback."""
+        img = vf.toImage()
+        if img.isNull():
+            return
+
+        w = img.width()
+        h = img.height()
+        pan = self.crop_slider.value() / 100.0
+
+        if w > h:
+            sq = h
+            offset_x = int((w - h) * pan)
+            cropped = img.copy(offset_x, 0, sq, sq)
+        elif h > w:
+            sq = w
+            offset_y = int((h - w) * pan)
+            cropped = img.copy(0, offset_y, sq, sq)
+        else:
+            cropped = img
+
+        pix = QPixmap.fromImage(cropped).scaled(196, 196, Qt.IgnoreAspectRatio, Qt.SmoothTransformation)
+        self.icon_preview_lbl.setPixmap(pix)
+
+    def _on_icon_start_changed(self, val: float):
+        dur = self.icon_dur_spin.value()
+        new_end = val + dur
+        self.icon_end_spin.blockSignals(True)
+        self.icon_end_spin.setValue(new_end)
+        self.icon_end_spin.blockSignals(False)
+
+        if self.icon_player.playbackState() != QMediaPlayer.PlaybackState.PlayingState:
+            self.icon_player.setPosition(int(val * 1000))
+        self._update_icon_time_label()
+        self._update_icon_crop_preview()
+
+    def _on_icon_end_changed(self, val: float):
+        start = self.icon_start_spin.value()
+        if val <= start:
+            val = start + 1.0
+            self.icon_end_spin.blockSignals(True)
+            self.icon_end_spin.setValue(val)
+            self.icon_end_spin.blockSignals(False)
+        dur = max(1.0, val - start)
+        self.icon_dur_spin.blockSignals(True)
+        self.icon_dur_spin.setValue(dur)
+        self.icon_dur_spin.blockSignals(False)
+
+        self._update_icon_time_label()
+
     def _on_icon_duration_changed(self, val: float):
-        self.icon_meta_lbl.setText(f"256x256 HEVC • {val:.1f} сек • Без звука • 24 FPS")
+        start = self.icon_start_spin.value()
+        new_end = start + val
+        self.icon_end_spin.blockSignals(True)
+        self.icon_end_spin.setValue(new_end)
+        self.icon_end_spin.blockSignals(False)
+
+        self._update_icon_time_label()
+
+    def _set_icon_duration_val(self, dur_val: float):
+        self.icon_dur_spin.setValue(dur_val)
+
+    def _sync_icon_with_cover(self):
+        """Copies start time and duration from video cover to icon."""
+        c_start = self.start_spin.value()
+        c_dur = min(15.0, self.dur_spin.value())
+        self.icon_start_spin.setValue(c_start)
+        self.icon_dur_spin.setValue(c_dur)
+        self.icon_end_spin.setValue(c_start + c_dur)
+        self._update_icon_time_label()
+        self._update_icon_crop_preview()
+
+    def _update_icon_time_label(self):
+        start_sec = self.icon_start_spin.value()
+        dur_sec = self.icon_dur_spin.value()
+        end_sec = self.icon_end_spin.value()
+        self.icon_time_display_lbl.setText(
+            f"00:00.0 / {dur_sec:04.1f}с  (Иконка Switch: {start_sec:.1f}с - {end_sec:.1f}с)"
+        )
 
     def _on_mode_changed(self):
         is_pack = self.radio_pack.isChecked()
@@ -1237,7 +1537,7 @@ class ExpressTab(QWidget):
         if not self.current_video_path or not self.current_video_path.exists():
             return
 
-        ts = self.start_spin.value()
+        ts = self.icon_start_spin.value() if hasattr(self, "icon_start_spin") else self.start_spin.value()
         ok = ExpressProcessor.extract_preview_frame(self.current_video_path, ts, self.temp_frame_path)
         if not ok or not self.temp_frame_path.exists():
             return
@@ -1281,6 +1581,8 @@ class ExpressTab(QWidget):
         # Pause playback during export
         if self.media_player.playbackState() == QMediaPlayer.PlaybackState.PlayingState:
             self.media_player.pause()
+        if self.icon_player.playbackState() == QMediaPlayer.PlaybackState.PlayingState:
+            self.icon_player.pause()
 
         author = self.author_edit.text().strip() or "Community"
         self.settings.setValue("author_name", author)
@@ -1310,6 +1612,7 @@ class ExpressTab(QWidget):
             mode=mode,
             start_sec=self.start_spin.value(),
             dur_sec=self.dur_spin.value(),
+            icon_start_sec=self.icon_start_spin.value(),
             icon_dur_sec=self.icon_dur_spin.value(),
             volume_percent=self.volume_slider.value(),
             crop_pan=float(self.crop_slider.value()),

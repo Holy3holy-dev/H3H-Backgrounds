@@ -316,6 +316,10 @@ public:
         return Config::DEFAULT_SWITCH_COVERS_DIR;
     }
 
+    std::string getIconsDirectory() override {
+        return Config::DEFAULT_SWITCH_ICONS_DIR;
+    }
+
     std::string getAppDirectory() override {
         return Config::DEFAULT_SWITCH_APP_DIR;
     }

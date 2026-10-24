@@ -415,3 +415,6 @@ class ExpressProcessor:
             "icon_url": icon_direct_url,
             "push_ok": push_ok
         }
+
+    # Backward compatibility alias
+    publish_to_cloud = publish_community_asset

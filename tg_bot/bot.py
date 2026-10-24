@@ -46,6 +46,7 @@ from tg_bot.config import (
     GITHUB_BRANCH_AFTER_DARK,
     GDRIVE_FOLDER_ID,
     GDRIVE_AFTER_DARK_FOLDER_ID,
+    GDRIVE_ICONS_FOLDER_ID,
     GDRIVE_REFRESH_TOKEN,
     VERIFIED_REFRESH_TOKEN,
     VERIFIED_CLIENT_ID,
@@ -253,6 +254,47 @@ def passthrough_switch_video(src_vid: Path, out_mp4: Path, out_thumb: Path, is_h
         pass
     return True
 
+def transcode_to_switch_icon(src_vid: Path, out_mp4: Path, out_thumb: Path, dur_sec: float = 6.0) -> bool:
+    """Converts input video to exact 4IFIR video icon standard: 256x256 HEVC, 24fps, silent, +faststart."""
+    out_mp4.parent.mkdir(parents=True, exist_ok=True)
+    out_thumb.parent.mkdir(parents=True, exist_ok=True)
+
+    crop_filter = "crop=min(iw\\,ih):min(iw\\,ih),scale=256:256:flags=fast_bilinear"
+    cmd = [
+        "ffmpeg", "-y", "-nostdin",
+        "-threads", "2",
+        "-ss", "0",
+        "-t", str(max(1.0, dur_sec)),
+        "-i", str(src_vid),
+        "-vf", crop_filter,
+        "-r", "24",
+        "-pix_fmt", "yuv420p",
+        "-an",
+        "-c:v", "libx265",
+        "-preset", "ultrafast",
+        "-crf", "26",
+        "-tag:v", "hvc1",
+        "-movflags", "+faststart",
+        str(out_mp4)
+    ]
+    subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True, timeout=60)
+
+    # Extract 256x256 thumbnail
+    cmd_thumb = [
+        "ffmpeg", "-y", "-nostdin",
+        "-threads", "1",
+        "-ss", "0.5",
+        "-i", str(out_mp4),
+        "-vframes", "1",
+        "-f", "image2",
+        str(out_thumb)
+    ]
+    try:
+        subprocess.run(cmd_thumb, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=15)
+    except Exception:
+        pass
+    return out_mp4.exists()
+
 def transcode_to_switch_720p(src_vid: Path, out_mp4: Path, out_thumb: Path, codec: str = "h264") -> bool:
     """Converts input video to Switch 720p 30fps H.264 or HEVC (+faststart) and extracts thumbnail."""
     out_mp4.parent.mkdir(parents=True, exist_ok=True)
@@ -438,7 +480,11 @@ def append_variant_to_catalog(
     preview_url: str,
     file_size: int,
     codec: str = "h264",
-    branch: Optional[str] = None
+    branch: Optional[str] = None,
+    has_icon: bool = False,
+    icon_url: str = "",
+    icon_size_bytes: int = 0,
+    icon_codec: str = "hevc"
 ) -> Dict[str, Any]:
     """Adds a new background variant to catalog JSON file and updates metadata."""
     target_catalog_path = PROJECT_ROOT / catalog_rel
@@ -467,10 +513,11 @@ def append_variant_to_catalog(
 
     var_id = f"var-{uuid.uuid4().hex[:8]}"
     author_tag = f"@{author}" if author and not author.startswith("@") else (author or "@Community")
+    style_label = "4IFIR Dynamic Pack" if (direct_url and has_icon) else ("4IFIR Video Icon" if has_icon else ("Community Animated" if category == "standard" else "After Dark (18+)"))
     new_var = {
         "id": var_id,
         "name": variant_name,
-        "style": "Community Animated" if category == "standard" else "After Dark (18+)",
+        "style": style_label,
         "version": "1.0",
         "url": direct_url,
         "previewUrl": preview_url,
@@ -483,8 +530,15 @@ def append_variant_to_catalog(
         "height": 720,
         "fps": 30.0,
         "hasAudio": False,
+        "hasIcon": has_icon,
         "notes": f"Submitted via Telegram by {author_tag}"
     }
+    if has_icon and icon_url:
+        new_var["iconUrl"] = icon_url
+        new_var["iconSizeBytes"] = icon_size_bytes
+        new_var["iconCodec"] = icon_codec
+        new_var["iconWidth"] = 256
+        new_var["iconHeight"] = 256
     game_entry["variants"].append(new_var)
 
     cat_data["totalGames"] = len(games_list)
@@ -658,6 +712,21 @@ def cmd_show_mode(message: types.Message):
         parse_mode="HTML"
     )
 
+@bot.message_handler(commands=["icon", "upload_icon"])
+def cmd_upload_icon(message: types.Message):
+    chat_id = message.chat.id
+    reset_session(chat_id)
+    sess = get_session(chat_id)
+    sess["upload_mode"] = "icon"
+    sess["state"] = "AWAITING_FILE"
+    bot.reply_to(
+        message,
+        "🔲 <b>Загрузка видеоиконки 4IFIR (256x256 HEVC)</b>\n\n"
+        "Отправьте квадратное видео или видеоролик для создания видеоиконки.\n"
+        "Бот автоматически кадрирует его в квадрат 1:1, сожмет в 256x256 24fps HEVC без звука, "
+        "загрузит в облако и привяжет к игре на Nintendo Switch!"
+    )
+
 @bot.message_handler(commands=["cancel"])
 def cmd_cancel(message: types.Message):
     chat_id = message.chat.id
@@ -749,6 +818,15 @@ def handle_file_upload(message: types.Message):
         sess["temp_vid"] = str(target_path)
         sess["state"] = "AWAITING_CATEGORY"
         sess["author"] = message.from_user.username or message.from_user.first_name or "Community"
+
+        # Detect upload mode (cover, icon, both)
+        combined_meta = f"{message.caption or ''} {file_name}".lower()
+        if re.search(r'(?i)(#icon|#иконка|icon|иконка|256x256)', combined_meta) or sess.get("upload_mode") == "icon":
+            sess["upload_mode"] = "icon"
+        elif re.search(r'(?i)(#pack|#пак|pack|fullpack|полный)', combined_meta):
+            sess["upload_mode"] = "both"
+        else:
+            sess["upload_mode"] = sess.get("upload_mode", "both")
 
         # Probe video format for direct Switch passthrough
         v_info = probe_video_stream(target_path)
@@ -1229,6 +1307,18 @@ def prompt_publish_confirmation(chat_id: int, edit_msg_id: Optional[int] = None)
     toggle_target = "hevc" if codec == "h264" else "h264"
     toggle_text = "⚡ Переключить на HEVC (H.265)" if codec == "h264" else "🎬 Переключить на H.264 (AVC)"
 
+    upload_mode = sess.get("upload_mode", "both")
+    if upload_mode == "both":
+        mode_btn_text = "✨ Формат: Полный пак (Фон + Иконка)"
+        next_mode = "cover"
+    elif upload_mode == "cover":
+        mode_btn_text = "🎬 Формат: Только видеофон (720p)"
+        next_mode = "icon"
+    else:
+        mode_btn_text = "🔲 Формат: Только видеоиконка (256x256)"
+        next_mode = "both"
+
+    markup.add(types.InlineKeyboardButton(mode_btn_text, callback_data=f"mode:{next_mode}"))
     markup.add(types.InlineKeyboardButton(toggle_text, callback_data=f"codec:{toggle_target}"))
     markup.row(
         types.InlineKeyboardButton("🚀 Запустить публикацию!", callback_data="publish:yes"),
@@ -1262,6 +1352,23 @@ def prompt_publish_confirmation(chat_id: int, edit_msg_id: Optional[int] = None)
             pass
     else:
         bot.send_message(chat_id, text, reply_markup=markup, parse_mode="HTML")
+
+@bot.callback_query_handler(func=lambda call: call.data.startswith("mode:"))
+def handle_mode_toggle(call: types.CallbackQuery):
+    chat_id = call.message.chat.id
+    sess = get_session(chat_id)
+    new_mode = call.data.split(":")[1]
+    sess["upload_mode"] = new_mode
+    mode_labels = {
+        "both": "✨ Полный пак (Фон + Иконка)",
+        "cover": "🎬 Только видеофон (720p)",
+        "icon": "🔲 Только видеоиконка 4IFIR"
+    }
+    try:
+        bot.answer_callback_query(call.id, f"Выбран режим: {mode_labels.get(new_mode, new_mode)}")
+    except Exception:
+        pass
+    prompt_publish_confirmation(chat_id, edit_msg_id=call.message.message_id)
 
 @bot.callback_query_handler(func=lambda call: call.data == "toggle_passthrough")
 def handle_toggle_passthrough(call: types.CallbackQuery):
@@ -1298,6 +1405,8 @@ CATALOG_LOCK = threading.Lock()               # Synchronize catalog modification
 def _do_single_publish_async(chat_id: int, message_id: int, sess: dict):
     out_mp4 = None
     out_thumb = None
+    out_icon_mp4 = None
+    out_icon_thumb = None
     try:
         temp_vid_path = sess.get("temp_vid")
         if not temp_vid_path or not Path(temp_vid_path).exists():
@@ -1319,42 +1428,44 @@ def _do_single_publish_async(chat_id: int, message_id: int, sess: dict):
         out_mp4 = PROJECT_ROOT / TEMP_DIR / f"{sess['title_id']}_{uuid.uuid4().hex[:6]}.mp4"
         out_thumb = PROJECT_ROOT / TEMP_DIR / f"{sess['title_id']}_{uuid.uuid4().hex[:6]}.jpg"
 
-        # Step 1: Process video (with multi-user queuing)
-        if direct_pt:
-            bot.edit_message_text(
-                f"⏳ <b>Обработка ролика...</b>\n1/3: 🚀 Прямая запись потока ({codec_name} 720p без потерь)...",
-                chat_id=chat_id,
-                message_id=message_id,
-                parse_mode="HTML"
-            )
-            try:
-                passthrough_switch_video(src_vid, out_mp4, out_thumb, is_hevc=(codec == "hevc"))
-            except Exception as e:
-                print(f"[!] Direct stream copy error: {e}, falling back to transcode")
-                with TRANSCODE_SEMAPHORE:
-                    transcode_to_switch_720p(src_vid, out_mp4, out_thumb, codec=codec)
-        else:
-            acquired = TRANSCODE_SEMAPHORE.acquire(blocking=False)
-            if not acquired:
-                bot.edit_message_text(
-                    "⏳ <b>Сервер обрабатывает предыдущий ролик...</b>\n"
-                    "Вы в очереди на конвертацию. Скоро начнем (~5-10 сек)!",
-                    chat_id=chat_id,
-                    message_id=message_id,
-                    parse_mode="HTML"
-                )
-                TRANSCODE_SEMAPHORE.acquire(blocking=True)
+        upload_mode = sess.get("upload_mode", "both")
 
-            try:
+        # Step 1: Process video assets (with concurrency control)
+        with TRANSCODE_SEMAPHORE:
+            # 1a. Transcode Cover (if pack or cover)
+            if upload_mode in ("cover", "both"):
+                if direct_pt:
+                    bot.edit_message_text(
+                        f"⏳ <b>Обработка...</b>\n1/3: 🚀 Прямая запись фона ({codec_name} 720p без потерь)...",
+                        chat_id=chat_id,
+                        message_id=message_id,
+                        parse_mode="HTML"
+                    )
+                    try:
+                        passthrough_switch_video(src_vid, out_mp4, out_thumb, is_hevc=(codec == "hevc"))
+                    except Exception as e:
+                        print(f"[!] Direct stream copy error: {e}, falling back to transcode")
+                        transcode_to_switch_720p(src_vid, out_mp4, out_thumb, codec=codec)
+                else:
+                    bot.edit_message_text(
+                        f"⏳ <b>Обработка...</b>\n1/3: ⚙️ Конвертация фонового видео ({codec_name} 720p 30fps)...",
+                        chat_id=chat_id,
+                        message_id=message_id,
+                        parse_mode="HTML"
+                    )
+                    transcode_to_switch_720p(src_vid, out_mp4, out_thumb, codec=codec)
+
+            # 1b. Transcode 4IFIR Video Icon (if pack or icon)
+            if upload_mode in ("icon", "both"):
                 bot.edit_message_text(
-                    f"⏳ <b>Начинаю обработку ролика...</b>\n1/3: ⚙️ Быстрая конвертация FFmpeg ({codec_name} 720p 30fps)...",
+                    "⏳ <b>Обработка...</b>\n1/3: 🔲 Создание видеоиконки 4IFIR (256x256 HEVC, 24fps)...",
                     chat_id=chat_id,
                     message_id=message_id,
                     parse_mode="HTML"
                 )
-                transcode_to_switch_720p(src_vid, out_mp4, out_thumb, codec=codec)
-            finally:
-                TRANSCODE_SEMAPHORE.release()
+                out_icon_mp4 = PROJECT_ROOT / TEMP_DIR / f"{sess['title_id']}_{uuid.uuid4().hex[:6]}_icon.mp4"
+                out_icon_thumb = PROJECT_ROOT / TEMP_DIR / f"{sess['title_id']}_{uuid.uuid4().hex[:6]}_icon.jpg"
+                transcode_to_switch_icon(src_vid, out_icon_mp4, out_icon_thumb, dur_sec=6.0)
 
         bot.edit_message_text(
             "⏳ <b>Обработка ролика...</b>\n"
@@ -1377,15 +1488,44 @@ def _do_single_publish_async(chat_id: int, message_id: int, sess: dict):
             reset_session(chat_id)
             return
 
-        upload_res = GoogleDriveClient.upload_file(
-            file_path=out_mp4,
-            folder_id=folder_id,
-            token=access_tok
-        )
+        direct_url = ""
+        preview_url = ""
+        file_size = 0
+        icon_direct_url = ""
+        icon_size = 0
 
-        direct_url = upload_res.get("directUrl")
-        preview_url = upload_res.get("previewUrl")
-        file_size = upload_res.get("size", out_mp4.stat().st_size)
+        # Upload cover if produced
+        if out_mp4 and out_mp4.exists():
+            bot.edit_message_text(
+                "⏳ <b>Загрузка...</b>\n2/3: ☁️ Загрузка фона на Google Диск...",
+                chat_id=chat_id,
+                message_id=message_id,
+                parse_mode="HTML"
+            )
+            upload_res = GoogleDriveClient.upload_file(
+                file_path=out_mp4,
+                folder_id=folder_id,
+                token=access_tok
+            )
+            direct_url = upload_res.get("directUrl", "")
+            preview_url = upload_res.get("previewUrl", "")
+            file_size = upload_res.get("size", out_mp4.stat().st_size)
+
+        # Upload icon if produced
+        if out_icon_mp4 and out_icon_mp4.exists():
+            bot.edit_message_text(
+                "⏳ <b>Загрузка...</b>\n2/3: 🔲 Загрузка видеоиконки в облако...",
+                chat_id=chat_id,
+                message_id=message_id,
+                parse_mode="HTML"
+            )
+            i_upload_res = GoogleDriveClient.upload_file(
+                file_path=out_icon_mp4,
+                folder_id=GDRIVE_ICONS_FOLDER_ID,
+                token=access_tok
+            )
+            icon_direct_url = i_upload_res.get("directUrl", "")
+            icon_size = i_upload_res.get("size", out_icon_mp4.stat().st_size)
 
         bot.edit_message_text(
             "⏳ <b>Обработка ролика...</b>\n"
@@ -1407,10 +1547,14 @@ def _do_single_publish_async(chat_id: int, message_id: int, sess: dict):
                 variant_name=sess["variant_name"],
                 author=sess["author"],
                 category=category,
-                direct_url=direct_url,
+                direct_url=direct_url or icon_direct_url,
                 preview_url=preview_url,
-                file_size=file_size,
-                codec=codec
+                file_size=file_size or icon_size,
+                codec=codec,
+                has_icon=bool(icon_direct_url),
+                icon_url=icon_direct_url,
+                icon_size_bytes=icon_size,
+                icon_codec="hevc"
             )
 
             commit_msg = f"feat(catalog): add '{sess['variant_name']}' for {sess['title_id']} by @{sess['author']} via TG Bot"
@@ -1453,10 +1597,9 @@ def _do_single_publish_async(chat_id: int, message_id: int, sess: dict):
         reset_session(chat_id)
     finally:
         # Cleanup temp transcode files
-        if out_mp4 and out_mp4.exists():
-            out_mp4.unlink(missing_ok=True)
-        if out_thumb and out_thumb.exists():
-            out_thumb.unlink(missing_ok=True)
+        for f in (out_mp4, out_thumb, out_icon_mp4, out_icon_thumb):
+            if f and f.exists():
+                f.unlink(missing_ok=True)
 
 @bot.callback_query_handler(func=lambda call: call.data.startswith("publish:"))
 def handle_publish_decision(call: types.CallbackQuery):

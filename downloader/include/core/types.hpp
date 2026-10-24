@@ -60,6 +60,12 @@ struct Variant {
     double fps{30.0};
     bool hasAudio{false};
     std::string notes;
+    bool hasIcon{false};
+    std::string iconUrl;
+    uint64_t iconSizeBytes{0};
+    std::string iconCodec{"hevc"};
+    int iconWidth{256};
+    int iconHeight{256};
 };
 
 struct GameCatalogEntry {
@@ -93,6 +99,9 @@ struct InstalledTitle {
     bool hasBackup{false};
     std::string backupPath;
     uint64_t backupSizeBytes{0};
+    bool hasInstalledIcon{false};
+    std::string installedIconPath;
+    uint64_t installedIconSizeBytes{0};
     
     // Matched catalog data
     bool hasCatalogMatch{false};

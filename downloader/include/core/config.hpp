@@ -25,6 +25,7 @@ public:
     static constexpr const char* DEFAULT_SWITCH_COVERS_DIR = "sdmc:/recordings/covers";
 
     static constexpr const char* DEFAULT_SWITCH_RECORDINGS_DIR = "sdmc:/recordings";
+    static constexpr const char* DEFAULT_SWITCH_ICONS_DIR = "sdmc:/recordings/icons";
 
 #ifdef H3H_AFTER_DARK
 
@@ -144,6 +145,21 @@ public:
 
         return normalizeTitleId(titleId) + ".tmp";
 
+    }
+
+    // Computes target 4IFIR icon filename strictly from Title ID
+    static std::string getTargetIconFileName(const std::string& titleId) {
+        return normalizeTitleId(titleId) + ".mp4";
+    }
+
+    // Computes backup icon filename strictly from Title ID
+    static std::string getBackupIconFileName(const std::string& titleId) {
+        return normalizeTitleId(titleId) + ".bak";
+    }
+
+    // Computes temporary download icon filename
+    static std::string getTempIconFileName(const std::string& titleId) {
+        return normalizeTitleId(titleId) + "_icon.tmp";
     }
 
 };

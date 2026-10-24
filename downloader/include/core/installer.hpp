@@ -56,6 +56,27 @@ public:
         bool deleteBackup = false
     );
 
+    // 4IFIR Video Icon Support
+    static bool findExistingIcon(
+        const std::string& iconsDir,
+        const std::string& titleId,
+        std::string& outIconPath,
+        uint64_t& outSizeBytes
+    );
+
+    static InstallResult installIcon(
+        const std::string& iconsDir,
+        const std::string& titleId,
+        const std::string& tempFilePath,
+        uint64_t expectedSizeBytes = 0,
+        bool createBackup = true
+    );
+
+    static bool deleteIcon(
+        const std::string& iconsDir,
+        const std::string& titleId
+    );
+
     // Feature 5: Video file validation & Integrity Scanner
     static bool validateVideoFile(const std::string& filePath, std::string& outReason);
     static IntegrityReport validateAllInstalledCovers(const std::string& coversDir);

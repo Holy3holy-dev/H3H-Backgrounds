@@ -295,6 +295,14 @@ void App::refreshInstalledGames() {
     // Resolve exact installed variant IDs from persistent registry
     InstalledRegistry::instance().load(m_platform->getAppDirectory());
     for (auto& game : m_installedGames) {
+        // Check for 4IFIR video icon on SD card (sdmc:/recordings/icons/<TitleID>.mp4)
+        std::string iconPath;
+        uint64_t iconSize = 0;
+        if (Installer::findExistingIcon(m_platform->getIconsDirectory(), game.titleId, iconPath, iconSize)) {
+            game.hasInstalledIcon = true;
+            game.installedIconPath = iconPath;
+            game.installedIconSizeBytes = iconSize;
+        }
         if (game.hasInstalledCover) {
             std::string regVarId = InstalledRegistry::instance().getVariantId(game.titleId);
             if (!regVarId.empty()) {
@@ -930,6 +938,28 @@ void App::processSingleDownloadTask(int taskIdx) {
         currentTask.variant.sizeBytes,
         true
     );
+
+    // If variant includes a 4IFIR video icon, download and install it as well
+    if (res.success && currentTask.variant.hasIcon && !currentTask.variant.iconUrl.empty()) {
+        std::string tempIconPath = m_platform->getIconsDirectory() + "/" + Config::getTempIconFileName(currentTask.titleId);
+        std::string iconErr;
+        bool iconDownloaded = m_platform->downloadFile(
+            currentTask.variant.iconUrl,
+            tempIconPath,
+            nullptr,
+            m_cancelQueue,
+            iconErr
+        );
+        if (iconDownloaded) {
+            Installer::installIcon(
+                m_platform->getIconsDirectory(),
+                currentTask.titleId,
+                tempIconPath,
+                currentTask.variant.iconSizeBytes,
+                true
+            );
+        }
+    }
 
     {
         std::lock_guard<std::mutex> lock(m_queueMutex);
@@ -3067,6 +3097,12 @@ void App::renderFullscreenPreview() {
             drawRect(hudX + 430, hudY + 66, 85, 22, {0x28, 0x33, 0x47, 0x44});
             drawRectOutline(hudX + 430, hudY + 66, 85, 22, Theme::COLOR_BORDER, 1);
             drawText("БЕЗ ЗВУКА", hudX + 439, hudY + 70, Theme::COLOR_TEXT_MUTED, 10);
+        }
+
+        if (v.hasIcon) {
+            drawRect(hudX + 520, hudY + 66, 120, 22, {0x0E, 0x74, 0x90, 0x44});
+            drawRectOutline(hudX + 520, hudY + 66, 120, 22, Theme::COLOR_FOCUS_CYAN, 1);
+            drawText("4IFIR ИКОНКА", hudX + 530, hudY + 70, Theme::COLOR_FOCUS_CYAN, 10);
         }
 
         // Active variant identification: exactly matches the installed variant
