@@ -1,8 +1,3 @@
-"""
-H3H Studio — Streamlined & Elegant 4IFIR Dynamic Theme & Video Icon Publisher.
-Zero clutter. 1-Click workflow for community creators.
-"""
-
 import sys
 from pathlib import Path
 
@@ -10,18 +5,25 @@ from PySide6.QtCore import Qt
 from PySide6.QtGui import QFont, QIcon
 from PySide6.QtWidgets import (
     QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
-    QLabel, QPushButton, QFrame, QMessageBox
+    QLabel, QFrame, QTabWidget
 )
 
 from .express_tab import ExpressTab
+from .icons_tab import IconsTab
 
 
 class MainWindow(QMainWindow):
+    """
+    H3H Studio Main Window:
+    - Tab 1: 🎬 Видеофоны и паки (Express Studio)
+    - Tab 2: 🔲 Видеоиконки 4IFIR (Чистая иконка + Видеоиконка 1:1)
+    """
+
     def __init__(self):
         super().__init__()
         self.setWindowTitle("H3H Studio — Видеофоны и Видеоиконки для 4IFIR")
-        self.resize(1140, 880)
-        self.setMinimumSize(960, 720)
+        self.resize(1260, 920)
+        self.setMinimumSize(1080, 750)
 
         self._apply_theme()
         self._init_ui()
@@ -68,12 +70,15 @@ class MainWindow(QMainWindow):
                 border-radius: 6px;
                 padding: 8px 16px;
                 color: #FFFFFF;
-                font-weight: bold;
+                font-weight: 600;
                 font-size: 13px;
             }
             QPushButton:hover {
-                background-color: #374151;
+                background-color: #2D3748;
                 border-color: #4B5563;
+            }
+            QPushButton:pressed {
+                background-color: #111827;
             }
             QProgressBar {
                 border: 1px solid #2D3A4B;
@@ -86,6 +91,34 @@ class MainWindow(QMainWindow):
             QProgressBar::chunk {
                 background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #10B981, stop:1 #00E5FF);
                 border-radius: 5px;
+            }
+            QTabWidget::pane {
+                border: 1px solid #232B36;
+                border-radius: 8px;
+                background-color: #141A23;
+                top: -1px;
+            }
+            QTabBar::tab {
+                background-color: #131824;
+                color: #94A3B8;
+                border: 1px solid #232B36;
+                border-bottom: none;
+                border-top-left-radius: 6px;
+                border-top-right-radius: 6px;
+                padding: 10px 22px;
+                margin-right: 4px;
+                font-size: 13px;
+                font-weight: bold;
+            }
+            QTabBar::tab:selected {
+                background-color: #1E293B;
+                color: #00E5FF;
+                border: 1px solid #00E5FF;
+                border-bottom: 2px solid #141A23;
+            }
+            QTabBar::tab:hover:!selected {
+                background-color: #1A2230;
+                color: #FFFFFF;
             }
             QScrollBar:vertical {
                 border: none;
@@ -151,9 +184,15 @@ class MainWindow(QMainWindow):
 
         main_layout.addLayout(header)
 
-        # Main Express Publisher View (Clean, all-in-one workflow)
+        # Tabs: Express Studio & Icons Studio
+        self.tabs = QTabWidget(self)
         self.express_view = ExpressTab(self)
-        main_layout.addWidget(self.express_view, 1)
+        self.icons_view = IconsTab(self)
+
+        self.tabs.addTab(self.express_view, "🎬 Видеофоны и Паки (Express Studio)")
+        self.tabs.addTab(self.icons_view, "🔲 Видеоиконки 4IFIR (Чистая иконка + Видеоиконка)")
+
+        main_layout.addWidget(self.tabs, 1)
 
 
 def main():
