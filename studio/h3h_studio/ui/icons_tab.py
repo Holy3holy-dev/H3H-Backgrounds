@@ -23,6 +23,7 @@ if str(STUDIO_ROOT) not in sys.path:
 
 from ..core.online_fetcher import OnlineFetcher
 from ..core.express_processor import ExpressProcessor
+from .online_icons_dialog import OnlineIconsDialog
 
 
 class IconWorkerThread(QThread):
@@ -201,13 +202,31 @@ class IconsTab(QWidget):
         v_lay = QVBoxLayout(grp_video)
         v_lay.setSpacing(10)
 
+        # Online Search Button
+        self.btn_online_search = QPushButton("🌐 Найти анимированные иконки онлайн (SteamGrid / Steam / Tenor)...", grp_video)
+        self.btn_online_search.setStyleSheet("""
+            QPushButton {
+                background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #2563EB, stop:1 #7C3AED);
+                color: #FFFFFF;
+                font-weight: bold;
+                padding: 11px 16px;
+                border-radius: 6px;
+                font-size: 13px;
+            }
+            QPushButton:hover {
+                background: #3B82F6;
+            }
+        """)
+        self.btn_online_search.clicked.connect(self._on_open_online_search)
+        v_lay.addWidget(self.btn_online_search)
+
         v_btn_row = QHBoxLayout()
-        self.btn_select_video = QPushButton("🎬 Загрузить исходное видео...", grp_video)
-        self.btn_select_video.setStyleSheet("background-color: #10B981; font-weight: bold; padding: 10px 16px;")
+        self.btn_select_video = QPushButton("📁 Выбрать видеофайл с ПК...", grp_video)
+        self.btn_select_video.setStyleSheet("background-color: #1F2937; font-weight: bold; padding: 9px 14px;")
         self.btn_select_video.clicked.connect(self._on_choose_source_video)
         v_btn_row.addWidget(self.btn_select_video)
 
-        self.video_info_lbl = QLabel("Видео не загружено", grp_video)
+        self.video_info_lbl = QLabel("Видео не выбрано", grp_video)
         self.video_info_lbl.setStyleSheet("color: #94A3B8; font-size: 12px;")
         v_btn_row.addWidget(self.video_info_lbl, 1)
         v_lay.addLayout(v_btn_row)
@@ -475,6 +494,23 @@ class IconsTab(QWidget):
         self.game_name_edit.setText(name)
         self.game_status_lbl.setText(f"Выбрана игра: {name} [{tid}]")
         self.game_status_lbl.setStyleSheet("color: #34D399; font-size: 11px;")
+
+    def _on_open_online_search(self):
+        query = self.game_name_edit.text().strip() or self.search_input.text().strip()
+        dlg = OnlineIconsDialog(self, initial_query=query)
+        dlg.icon_chosen.connect(self._on_online_icon_loaded)
+        dlg.exec()
+
+    def _on_online_icon_loaded(self, mp4_path: Path, title: str):
+        self.src_video_path = mp4_path
+        self.video_info_lbl.setText(f"🌐 Онлайн: {mp4_path.name}")
+        self.video_info_lbl.setStyleSheet("color: #00E5FF; font-weight: bold;")
+        if title and (not self.var_name_edit.text() or self.var_name_edit.text() == "Главная тема (Иконка)"):
+            self.var_name_edit.setText(title[:40])
+
+        self.player.setSource(QUrl.fromLocalFile(str(self.src_video_path)))
+        self.player.play()
+        self.btn_play.setText("⏸")
 
     def _on_choose_source_video(self):
         fn, _ = QFileDialog.getOpenFileName(

@@ -48,8 +48,10 @@ def build_studio():
         "--hidden-import", "h3h_studio.core.cloud_config",
         "--hidden-import", "h3h_studio.core.express_processor",
         "--hidden-import", "h3h_studio.core.online_fetcher",
+        "--hidden-import", "h3h_studio.core.animated_icons_fetcher",
         "--hidden-import", "h3h_studio.ui.express_tab",
-        "--hidden-import", "h3h_studio.ui.icons_tab"
+        "--hidden-import", "h3h_studio.ui.icons_tab",
+        "--hidden-import", "h3h_studio.ui.online_icons_dialog"
     ]
 
     # Embed ffmpeg and ffprobe directly into the onefile executable
