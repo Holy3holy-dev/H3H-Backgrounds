@@ -2154,11 +2154,19 @@ void App::renderTabMyGames() {
         drawText(game.name, 48, startY + 10, isSelected ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 15, 310);
         drawText(game.titleId, 48, startY + 34, Theme::COLOR_TEXT_MUTED, 12, 310);
 
-        // Status pill
-        if (game.hasInstalledCover) {
+        // Status pill: Cover & Video Icon
+        if (game.hasInstalledCover && game.hasInstalledIcon) {
+            drawRect(330, startY + 18, 135, 24, {0x10, 0xB9, 0x81, 0x33});
+            drawRectOutline(330, startY + 18, 135, 24, Theme::COLOR_SUCCESS, 1);
+            drawText("🎬 ФОН + 🔲 ИКОНКА", 336, startY + 23, Theme::COLOR_SUCCESS, 11);
+        } else if (game.hasInstalledCover) {
             drawRect(370, startY + 18, 95, 24, {0x10, 0xB9, 0x81, 0x22});
             drawRectOutline(370, startY + 18, 95, 24, Theme::COLOR_SUCCESS, 1);
             drawText("ФОН ЕСТЬ", 380, startY + 23, Theme::COLOR_SUCCESS, 11);
+        } else if (game.hasInstalledIcon) {
+            drawRect(355, startY + 18, 110, 24, {0x0E, 0x74, 0x90, 0x33});
+            drawRectOutline(355, startY + 18, 110, 24, Theme::COLOR_FOCUS_CYAN, 1);
+            drawText("🔲 ИКОНКА ЕСТЬ", 362, startY + 23, Theme::COLOR_FOCUS_CYAN, 11);
         } else {
             drawRect(370, startY + 18, 95, 24, {0x28, 0x33, 0x47, 0x55});
             drawRectOutline(370, startY + 18, 95, 24, Theme::COLOR_BORDER, 1);
@@ -2178,12 +2186,17 @@ void App::renderTabMyGames() {
         drawText("Title ID: " + selGame.titleId + "  |  " + selGame.author, 530, 145, Theme::COLOR_TEXT_MUTED, 14, 410);
 
         // Status details
-        std::string coverInfo = selGame.hasInstalledCover ?
-            std::string(m_language == Language::Russian ? "Активный фон на консоли: " : "Active cover: ") +
-            Config::getTargetCoverFileName(selGame.titleId) + " (" +
-            std::to_string(selGame.installedCoverSizeBytes / 1024) + " KB)" :
-            std::string(m_language == Language::Russian ? "Видеофон не установлен" : "No video background installed");
-        drawText(coverInfo, 530, 175, selGame.hasInstalledCover ? Theme::COLOR_SUCCESS : Theme::COLOR_WARNING, 14);
+        std::string coverInfo;
+        if (selGame.hasInstalledCover && selGame.hasInstalledIcon) {
+            coverInfo = "Активно на консоли: Видеофон (" + std::to_string(selGame.installedCoverSizeBytes / 1024) + " KB) + 🔲 Видеоиконка 4IFIR (" + std::to_string(selGame.installedIconSizeBytes / 1024) + " KB)";
+        } else if (selGame.hasInstalledCover) {
+            coverInfo = "Активный видеофон: " + Config::getTargetCoverFileName(selGame.titleId) + " (" + std::to_string(selGame.installedCoverSizeBytes / 1024) + " KB)";
+        } else if (selGame.hasInstalledIcon) {
+            coverInfo = "Активно на консоли: 🔲 Видеоиконка 4IFIR (" + std::to_string(selGame.installedIconSizeBytes / 1024) + " KB, без видеофона)";
+        } else {
+            coverInfo = "Видеофон и видеоиконка не установлены";
+        }
+        drawText(coverInfo, 530, 175, (selGame.hasInstalledCover || selGame.hasInstalledIcon) ? Theme::COLOR_SUCCESS : Theme::COLOR_WARNING, 14);
 
         // Prominent Action Buttons (positioned below status, safe from top-right Tesla monitor HUD)
         if (selGame.hasInstalledCover) {
@@ -2247,6 +2260,9 @@ void App::renderTabMyGames() {
 
                 // Variant Title & Style (bounded so it never overlaps install button)
                 std::string vTitle = std::to_string(vIdx + 1) + ". " + v.name + " (" + styleToString(v.style) + ")";
+                if (v.hasIcon) {
+                    vTitle += "  [🔲 Иконка]";
+                }
                 drawText(vTitle, 545, vY + 12, isVarSelected ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 16, 450);
 
                 // Tech Specs Line (Width capped at 230 to avoid overlap with badges)
@@ -2412,7 +2428,15 @@ void App::renderTabCatalog() {
         }
 
         // Title (shifted to x = 118)
-        drawText(g.title, 118, y + 16, isSelected ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 17, 560);
+        bool hasIconVariant = false;
+        for (const auto& v : g.variants) {
+            if (v.hasIcon) { hasIconVariant = true; break; }
+        }
+        std::string catGameTitle = g.title;
+        if (hasIconVariant) {
+            catGameTitle += "  [🔲 +Иконка]";
+        }
+        drawText(catGameTitle, 118, y + 16, isSelected ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 17, 560);
 
         // Check if game is installed on console
         bool isInstalledOnSwitch = false;
@@ -2441,11 +2465,19 @@ void App::renderTabCatalog() {
             drawText("★", 460, y + 42, {0xFF, 0xD7, 0x00, 0xFF}, 16);
         }
 
-        // Audio badge
+        // Badges: Audio & Video Icon
+        int cBadgeX = 570;
         if (hasAudioVariant) {
-            drawRect(640, y + 40, 75, 22, {0x18, 0x38, 0x24, 0xCC});
-            drawRectOutline(640, y + 40, 75, 22, Theme::COLOR_SUCCESS, 1);
-            drawText("ЗВУК", 658, y + 44, Theme::COLOR_SUCCESS, 10);
+            drawRect(cBadgeX, y + 40, 65, 22, {0x18, 0x38, 0x24, 0xCC});
+            drawRectOutline(cBadgeX, y + 40, 65, 22, Theme::COLOR_SUCCESS, 1);
+            drawText("ЗВУК", cBadgeX + 16, y + 44, Theme::COLOR_SUCCESS, 10);
+            cBadgeX += 73;
+        }
+        if (hasIconVariant) {
+            drawRect(cBadgeX, y + 40, 85, 22, {0x0E, 0x74, 0x90, 0x44});
+            drawRectOutline(cBadgeX, y + 40, 85, 22, Theme::COLOR_FOCUS_CYAN, 1);
+            drawText("🔲 ИКОНКА", cBadgeX + 8, y + 44, Theme::COLOR_FOCUS_CYAN, 10);
+            cBadgeX += 93;
         }
 
         // Status badges on card
@@ -3087,35 +3119,41 @@ void App::renderFullscreenPreview() {
 
         std::string specs = "1280x720 @30fps  |  " + std::string(mbBuf) +
                             "  |  Вариант " + std::to_string(curV + 1) + " из " + std::to_string(totalV);
-        drawText(specs, hudX + 25, hudY + 68, Theme::COLOR_TEXT_MUTED, 13, 390);
+        drawText(specs, hudX + 25, hudY + 71, Theme::COLOR_TEXT_MUTED, 13, 255);
+
+        // Sequential dynamic badges starting at hudX + 285
+        int badgeX = hudX + 285;
 
         if (v.hasAudio) {
-            drawRect(hudX + 430, hudY + 66, 75, 22, {0x10, 0xB9, 0x81, 0x33});
-            drawRectOutline(hudX + 430, hudY + 66, 75, 22, Theme::COLOR_SUCCESS, 1);
-            drawText("ЗВУК", hudX + 451, hudY + 70, Theme::COLOR_SUCCESS, 10);
+            drawRect(badgeX, hudY + 66, 65, 24, {0x10, 0xB9, 0x81, 0x33});
+            drawRectOutline(badgeX, hudY + 66, 65, 24, Theme::COLOR_SUCCESS, 1);
+            drawText("ЗВУК", badgeX + 16, hudY + 71, Theme::COLOR_SUCCESS, 11);
+            badgeX += 73;
         } else {
-            drawRect(hudX + 430, hudY + 66, 85, 22, {0x28, 0x33, 0x47, 0x44});
-            drawRectOutline(hudX + 430, hudY + 66, 85, 22, Theme::COLOR_BORDER, 1);
-            drawText("БЕЗ ЗВУКА", hudX + 439, hudY + 70, Theme::COLOR_TEXT_MUTED, 10);
+            drawRect(badgeX, hudY + 66, 80, 24, {0x28, 0x33, 0x47, 0x44});
+            drawRectOutline(badgeX, hudY + 66, 80, 24, Theme::COLOR_BORDER, 1);
+            drawText("БЕЗ ЗВУКА", badgeX + 10, hudY + 71, Theme::COLOR_TEXT_MUTED, 11);
+            badgeX += 88;
         }
 
         if (v.hasIcon) {
-            drawRect(hudX + 520, hudY + 66, 120, 22, {0x0E, 0x74, 0x90, 0x44});
-            drawRectOutline(hudX + 520, hudY + 66, 120, 22, Theme::COLOR_FOCUS_CYAN, 1);
-            drawText("4IFIR ИКОНКА", hudX + 530, hudY + 70, Theme::COLOR_FOCUS_CYAN, 10);
+            drawRect(badgeX, hudY + 66, 95, 24, {0x0E, 0x74, 0x90, 0x44});
+            drawRectOutline(badgeX, hudY + 66, 95, 24, Theme::COLOR_FOCUS_CYAN, 1);
+            drawText("🔲 ИКОНКА", badgeX + 10, hudY + 71, Theme::COLOR_FOCUS_CYAN, 11);
+            badgeX += 103;
         }
 
         // Active variant identification: exactly matches the installed variant
         bool isActiveVariant = (m_previewHasInstalledCover && v.id == m_previewInstalledVariantId);
 
         if (isActiveVariant) {
-            drawRect(hudX + 530, hudY + 66, 185, 22, {0x10, 0xB9, 0x81, 0x33});
-            drawRectOutline(hudX + 530, hudY + 66, 185, 22, Theme::COLOR_SUCCESS, 1);
-            drawText("УСТАНОВЛЕН НА SWITCH", hudX + 542, hudY + 70, Theme::COLOR_SUCCESS, 10);
+            drawRect(badgeX, hudY + 66, 155, 24, {0x10, 0xB9, 0x81, 0x33});
+            drawRectOutline(badgeX, hudY + 66, 155, 24, Theme::COLOR_SUCCESS, 1);
+            drawText("АКТИВЕН НА SWITCH", badgeX + 10, hudY + 71, Theme::COLOR_SUCCESS, 11);
         } else if (!m_previewIsGameInstalled) {
-            drawRect(hudX + 530, hudY + 66, 185, 22, {0x1E, 0x29, 0x3B, 0xAA});
-            drawRectOutline(hudX + 530, hudY + 66, 185, 22, Theme::COLOR_BORDER, 1);
-            drawText("ИГРА НЕ УСТАНОВЛЕНА", hudX + 542, hudY + 70, Theme::COLOR_TEXT_MUTED, 10);
+            drawRect(badgeX, hudY + 66, 155, 24, {0x1E, 0x29, 0x3B, 0xAA});
+            drawRectOutline(badgeX, hudY + 66, 155, 24, Theme::COLOR_BORDER, 1);
+            drawText("ИГРА НЕ УСТАНОВЛЕНА", badgeX + 10, hudY + 71, Theme::COLOR_TEXT_MUTED, 11);
         }
 
         // Right side buttons
@@ -3144,11 +3182,12 @@ void App::renderFullscreenPreview() {
             drawText("★ В ИЗБРАННОМ", hudX + 710, hudY + 24, {0xFF, 0xD7, 0x00, 0xFF}, 14);
         }
 
-        drawText("[R3/L] ★ В избранное   |   [Y] Привязать к игре", hudX + 540, hudY + 68, Theme::COLOR_FOCUS_CYAN, 12);
+        drawText("[R3/L] ★ В избранное", hudX + 680, hudY + 71, Theme::COLOR_TEXT_MUTED, 13);
+        drawText("[Y] Привязать", hudX + 850, hudY + 71, Theme::COLOR_FOCUS_CYAN, 13);
         if (totalV > 1) {
-            drawText("[◀ / ▶] Вариант", hudX + 930, hudY + 68, Theme::COLOR_FOCUS_PINK, 12);
+            drawText("[◀/▶] Вариант", hudX + 975, hudY + 71, Theme::COLOR_FOCUS_PINK, 13);
         }
-        drawText("[B] Назад", hudX + 1110, hudY + 68, Theme::COLOR_TEXT_MUTED, 13);
+        drawText("[B] Назад", hudX + 1100, hudY + 71, Theme::COLOR_TEXT_MUTED, 13);
     }
 #endif
 }
