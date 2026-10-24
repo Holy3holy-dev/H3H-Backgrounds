@@ -121,6 +121,7 @@ class ExpressProcessor:
         dur_sec: float = 12.0,
         codec: str = "h264",
         keep_audio: bool = True,
+        volume_percent: int = 100,
         on_progress: Optional[Callable[[float, str], None]] = None
     ) -> bool:
         """Transcodes video to 4IFIR 720p 30fps Switch Cover standard."""
@@ -162,7 +163,9 @@ class ExpressProcessor:
                 "-bufsize", "7000k"
             ])
 
-        if keep_audio:
+        if keep_audio and volume_percent > 0:
+            if volume_percent != 100:
+                cmd.extend(["-af", f"volume={volume_percent / 100.0:.2f}"])
             cmd.extend(["-c:a", "aac", "-b:a", "128k", "-ar", "48000"])
         else:
             cmd.extend(["-an"])

@@ -48,6 +48,8 @@ class PublishWorker(QThread):
         mode: str,  # 'cover', 'icon', 'both'
         start_sec: float,
         dur_sec: float,
+        icon_dur_sec: float,
+        volume_percent: int,
         crop_pan: float,
         video_w: int,
         video_h: int
@@ -62,6 +64,8 @@ class PublishWorker(QThread):
         self.mode = mode
         self.start_sec = start_sec
         self.dur_sec = dur_sec
+        self.icon_dur_sec = icon_dur_sec
+        self.volume_percent = volume_percent
         self.crop_pan = crop_pan
         self.video_w = video_w
         self.video_h = video_h
@@ -75,7 +79,8 @@ class PublishWorker(QThread):
         try:
             # 1. Generate Cover if requested
             if self.mode in ("cover", "both"):
-                self.progress.emit(10.0, "1/3: Кодирование фонового видео 720p 30fps...")
+                vol_msg = f"со звуком {self.volume_percent}%" if self.volume_percent > 0 else "без звука"
+                self.progress.emit(10.0, f"1/3: Кодирование фонового видео 720p 30fps ({vol_msg})...")
                 cover_mp4 = temp_dir / f"{self.title_id}_cover.mp4"
                 cover_thumb = temp_dir / f"{self.title_id}_cover.jpg"
                 ExpressProcessor.process_cover(
@@ -85,12 +90,13 @@ class PublishWorker(QThread):
                     start_sec=self.start_sec,
                     dur_sec=self.dur_sec,
                     codec="h264",
-                    keep_audio=True
+                    keep_audio=(self.volume_percent > 0),
+                    volume_percent=self.volume_percent
                 )
 
             # 2. Generate Icon if requested
             if self.mode in ("icon", "both"):
-                self.progress.emit(35.0, "2/3: Кадрирование и сжатие видеоиконки 256x256 HEVC...")
+                self.progress.emit(35.0, f"2/3: Кадрирование и сжатие видеоиконки 256x256 HEVC ({self.icon_dur_sec:.1f}с)...")
                 icon_mp4 = temp_dir / f"{self.title_id}_icon.mp4"
                 icon_thumb = temp_dir / f"{self.title_id}_icon.jpg"
                 ExpressProcessor.process_icon(
@@ -98,7 +104,7 @@ class PublishWorker(QThread):
                     out_mp4=icon_mp4,
                     out_thumb=icon_thumb,
                     start_sec=self.start_sec,
-                    dur_sec=min(12.0, self.dur_sec),
+                    dur_sec=self.icon_dur_sec,
                     crop_pan_percent=self.crop_pan,
                     video_w=self.video_w,
                     video_h=self.video_h
@@ -357,95 +363,64 @@ class ExpressTab(QWidget):
         layout.addWidget(step3_box)
 
         # =========================================================================
-        # --- STEP 4: Interactive Video Player Preview & Cropping ---
+        # --- STEP 4: Interactive Video Player Preview, Volume & Icon Tuning ---
         # =========================================================================
-        self.crop_box = self._create_card("4. Интерактивный предпросмотр и кадрирование", "#EC4899")
+        self.crop_box = self._create_card("4. Интерактивный предпросмотр, звук и кадрирование", "#EC4899")
         s4_layout = QVBoxLayout(self.crop_box)
+        s4_layout.setSpacing(14)
 
-        # Time range controls
-        time_row = QHBoxLayout()
-        time_row.addWidget(QLabel("<b>Начало отрывка (сек):</b>", self))
-        self.start_spin = QDoubleSpinBox(self)
-        self.start_spin.setRange(0.0, 3600.0)
-        self.start_spin.setValue(0.0)
-        self.start_spin.setSingleStep(0.5)
-        self.start_spin.setDecimals(1)
-        self.start_spin.valueChanged.connect(self._on_timing_changed)
-        time_row.addWidget(self.start_spin)
+        # Previews Container: Side-by-side columns
+        self.step4_cols_layout = QHBoxLayout()
+        self.step4_cols_layout.setSpacing(16)
 
-        time_row.addSpacing(16)
-        time_row.addWidget(QLabel("<b>Длительность цикла (сек):</b>", self))
-        self.dur_spin = QDoubleSpinBox(self)
-        self.dur_spin.setRange(2.0, 30.0)
-        self.dur_spin.setValue(8.0)
-        self.dur_spin.setSingleStep(1.0)
-        self.dur_spin.setDecimals(1)
-        self.dur_spin.valueChanged.connect(self._on_timing_changed)
-        time_row.addWidget(self.dur_spin)
+        # =========================================================
+        # --- LEFT COLUMN: 🎬 Видеофон (16:9 720p) ---
+        # =========================================================
+        self.cover_card_frame = QFrame(self)
+        self.cover_card_frame.setStyleSheet("""
+            QFrame {
+                background-color: #121822;
+                border: 1px solid #2D3A4B;
+                border-radius: 8px;
+            }
+        """)
+        cover_col = QVBoxLayout(self.cover_card_frame)
+        cover_col.setContentsMargins(12, 12, 12, 12)
+        cover_col.setSpacing(10)
 
-        time_row.addSpacing(16)
-        # Quick duration presets
-        for d in (5, 8, 12, 15):
-            preset_btn = QPushButton(f"{d}с", self)
-            preset_btn.setFixedSize(46, 28)
-            preset_btn.setStyleSheet("""
-                QPushButton {
-                    background-color: #1F2937;
-                    border: 1px solid #4B5563;
-                    border-radius: 4px;
-                    color: #FFFFFF;
-                    font-size: 12px;
-                    font-weight: bold;
-                }
-                QPushButton:hover {
-                    background-color: #EC4899;
-                    border-color: #F472B6;
-                    color: #FFFFFF;
-                }
-            """)
-            preset_btn.clicked.connect(lambda checked, val=d: self.dur_spin.setValue(val))
-            time_row.addWidget(preset_btn)
-
-        time_row.addStretch()
-        s4_layout.addLayout(time_row)
-
-        # Previews Area: Left is 16:9 Video Player, Right is 1:1 Square Video Icon
-        previews_row = QHBoxLayout()
-        previews_row.setSpacing(16)
-
-        # --- Left: Interactive Video Player (16:9) ---
-        player_col = QVBoxLayout()
-        self.cover_title_lbl = QLabel("<b>🎬 Живой плеер видеофона (16:9):</b>", self)
+        # Header
+        cover_header = QHBoxLayout()
+        self.cover_title_lbl = QLabel("<b>🎬 Фоновое видео (1280x720 30fps)</b>", self)
         self.cover_title_lbl.setStyleSheet("color: #FFFFFF; font-size: 13px;")
-        player_col.addWidget(self.cover_title_lbl)
+        cover_header.addWidget(self.cover_title_lbl)
+        cover_header.addStretch()
+        cover_col.addLayout(cover_header)
 
-        # Video viewport widget container
+        # Video viewport
         self.video_viewport_frame = QFrame(self)
-        self.video_viewport_frame.setFixedSize(426, 240)
+        self.video_viewport_frame.setFixedSize(392, 220)
         self.video_viewport_frame.setStyleSheet("""
             QFrame {
                 background-color: #05080C;
                 border: 2px solid #2D3A4B;
-                border-radius: 8px;
+                border-radius: 6px;
             }
         """)
         viewport_layout = QVBoxLayout(self.video_viewport_frame)
         viewport_layout.setContentsMargins(0, 0, 0, 0)
 
-        # Video output widget
         self.video_widget = QVideoWidget(self.video_viewport_frame)
         self.video_widget.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
         viewport_layout.addWidget(self.video_widget)
 
-        # Placeholder label when no video loaded
         self.video_placeholder_lbl = QLabel("Загрузите видео в Шаге 2\nдля включения живого плеера", self.video_viewport_frame)
         self.video_placeholder_lbl.setAlignment(Qt.AlignCenter)
         self.video_placeholder_lbl.setStyleSheet("color: #6B7280; font-size: 13px; font-weight: bold; background: transparent;")
         viewport_layout.addWidget(self.video_placeholder_lbl)
 
-        player_col.addWidget(self.video_viewport_frame)
+        cover_col.addWidget(self.video_viewport_frame)
 
-        # Playback Controls Toolbar
+        # Controls row (Play/Pause, Stop, Scrubber)
         controls_row = QHBoxLayout()
         controls_row.setSpacing(8)
 
@@ -482,45 +457,144 @@ class ExpressTab(QWidget):
         self.btn_stop.clicked.connect(self._stop_playback)
         controls_row.addWidget(self.btn_stop)
 
-        # Scrubber slider
         self.scrubber_slider = QSlider(Qt.Horizontal, self)
         self.scrubber_slider.setRange(0, 1000)
         self.scrubber_slider.setValue(0)
         self.scrubber_slider.sliderMoved.connect(self._on_scrubber_dragged)
         controls_row.addWidget(self.scrubber_slider)
 
+        cover_col.addLayout(controls_row)
+
+        # Time readout
+        self.time_display_lbl = QLabel("00:00.0 / 00:08.0 (Фрагмент Switch: 0.0с - 8.0с)", self)
+        self.time_display_lbl.setStyleSheet("color: #9AA4B2; font-family: monospace; font-size: 11px;")
+        cover_col.addWidget(self.time_display_lbl)
+
+        # Timing controls row: Start & Duration
+        timing_row = QHBoxLayout()
+        timing_row.setSpacing(8)
+
+        timing_row.addWidget(QLabel("Начало:", self))
+        self.start_spin = QDoubleSpinBox(self)
+        self.start_spin.setRange(0.0, 3600.0)
+        self.start_spin.setValue(0.0)
+        self.start_spin.setSingleStep(0.5)
+        self.start_spin.setDecimals(1)
+        self.start_spin.setFixedHeight(28)
+        self.start_spin.valueChanged.connect(self._on_timing_changed)
+        timing_row.addWidget(self.start_spin)
+
+        timing_row.addSpacing(6)
+        timing_row.addWidget(QLabel("Длительность:", self))
+        self.dur_spin = QDoubleSpinBox(self)
+        self.dur_spin.setRange(2.0, 30.0)
+        self.dur_spin.setValue(8.0)
+        self.dur_spin.setSingleStep(1.0)
+        self.dur_spin.setDecimals(1)
+        self.dur_spin.setFixedHeight(28)
+        self.dur_spin.valueChanged.connect(self._on_timing_changed)
+        timing_row.addWidget(self.dur_spin)
+
+        for d in (5, 8, 12, 15, 20):
+            p_btn = QPushButton(f"{d}с", self)
+            p_btn.setFixedSize(36, 28)
+            p_btn.setStyleSheet("""
+                QPushButton {
+                    background-color: #1F2937;
+                    border: 1px solid #374151;
+                    border-radius: 4px;
+                    color: #FFFFFF;
+                    font-size: 11px;
+                    font-weight: bold;
+                }
+                QPushButton:hover { background-color: #EC4899; color: #FFFFFF; }
+            """)
+            p_btn.clicked.connect(lambda checked, val=d: self.dur_spin.setValue(val))
+            timing_row.addWidget(p_btn)
+
+        timing_row.addStretch()
+        cover_col.addLayout(timing_row)
+
+        # Volume controls row
+        vol_box = QVBoxLayout()
+        vol_box.setSpacing(4)
+        vol_header = QHBoxLayout()
+        vol_header.addWidget(QLabel("<b>🔊 Громкость видеофона:</b>", self))
+        self.volume_lbl = QLabel("100% (Оригинал)", self)
+        self.volume_lbl.setStyleSheet("color: #10B981; font-weight: bold; font-size: 12px;")
+        vol_header.addWidget(self.volume_lbl)
+        vol_header.addStretch()
+
         self.btn_mute = QPushButton("🔊", self)
-        self.btn_mute.setFixedSize(34, 34)
+        self.btn_mute.setFixedSize(30, 26)
         self.btn_mute.setStyleSheet("""
             QPushButton {
                 background-color: #1F2937;
                 border: 1px solid #374151;
-                border-radius: 6px;
+                border-radius: 4px;
                 color: #FFFFFF;
-                font-size: 14px;
+                font-size: 13px;
             }
             QPushButton:hover { background-color: #374151; }
         """)
         self.btn_mute.clicked.connect(self._toggle_mute)
-        controls_row.addWidget(self.btn_mute)
+        vol_header.addWidget(self.btn_mute)
 
-        player_col.addLayout(controls_row)
+        for v, label in [(0, "Без звука"), (50, "50%"), (100, "100%"), (150, "150%")]:
+            v_btn = QPushButton(label, self)
+            v_btn.setFixedHeight(26)
+            v_btn.setStyleSheet("""
+                QPushButton {
+                    background-color: #1F2937;
+                    border: 1px solid #374151;
+                    border-radius: 4px;
+                    color: #D1D5DB;
+                    font-size: 11px;
+                    padding: 0 6px;
+                }
+                QPushButton:hover { background-color: #10B981; color: #FFFFFF; }
+            """)
+            v_btn.clicked.connect(lambda checked, val=v: self.volume_slider.setValue(val))
+            vol_header.addWidget(v_btn)
 
-        # Time readout
-        self.time_display_lbl = QLabel("00:00.0 / 00:08.0 (Фрагмент 0.0с - 8.0с)", self)
-        self.time_display_lbl.setStyleSheet("color: #9AA4B2; font-family: monospace; font-size: 11px;")
-        player_col.addWidget(self.time_display_lbl)
+        vol_box.addLayout(vol_header)
 
-        previews_row.addLayout(player_col)
+        self.volume_slider = QSlider(Qt.Horizontal, self)
+        self.volume_slider.setRange(0, 150)
+        self.volume_slider.setValue(100)
+        self.volume_slider.valueChanged.connect(self._on_volume_changed)
+        vol_box.addWidget(self.volume_slider)
 
-        # --- Right: 1:1 Square Video Icon Preview ---
-        self.icon_col = QVBoxLayout()
-        self.icon_title_lbl = QLabel("<b>🔲 Превью видеоиконки 4IFIR (1:1):</b>", self)
+        cover_col.addLayout(vol_box)
+
+        self.step4_cols_layout.addWidget(self.cover_card_frame, 1)
+
+        # =========================================================
+        # --- RIGHT COLUMN: 🔲 Видеоиконка 4IFIR (1:1 256x256) ---
+        # =========================================================
+        self.icon_card_frame = QFrame(self)
+        self.icon_card_frame.setStyleSheet("""
+            QFrame {
+                background-color: #121822;
+                border: 1px solid #2D3A4B;
+                border-radius: 8px;
+            }
+        """)
+        icon_col = QVBoxLayout(self.icon_card_frame)
+        icon_col.setContentsMargins(12, 12, 12, 12)
+        icon_col.setSpacing(10)
+
+        icon_header = QHBoxLayout()
+        self.icon_title_lbl = QLabel("<b>🔲 Видеоиконка 4IFIR (256x256 HEVC)</b>", self)
         self.icon_title_lbl.setStyleSheet("color: #FFFFFF; font-size: 13px;")
-        self.icon_col.addWidget(self.icon_title_lbl)
+        icon_header.addWidget(self.icon_title_lbl)
+        icon_header.addStretch()
+        icon_col.addLayout(icon_header)
 
+        # 1:1 Preview center
+        preview_center = QHBoxLayout()
         self.icon_preview_lbl = QLabel(self)
-        self.icon_preview_lbl.setFixedSize(240, 240)
+        self.icon_preview_lbl.setFixedSize(196, 196)
         self.icon_preview_lbl.setStyleSheet("""
             QLabel {
                 background-color: #05080C;
@@ -530,35 +604,64 @@ class ExpressTab(QWidget):
         """)
         self.icon_preview_lbl.setAlignment(Qt.AlignCenter)
         self.icon_preview_lbl.setText("Квадрат 1:1\n(256x256 HEVC)")
-        self.icon_col.addWidget(self.icon_preview_lbl)
+        preview_center.addWidget(self.icon_preview_lbl)
+        icon_col.addLayout(preview_center)
 
-        self.icon_meta_lbl = QLabel("Стандарт 4IFIR: 256x256 HEVC 24fps", self)
-        self.icon_meta_lbl.setStyleSheet("color: #00E5FF; font-size: 11px; margin-top: 4px;")
-        self.icon_col.addWidget(self.icon_meta_lbl)
-        self.icon_col.addStretch()
+        self.icon_meta_lbl = QLabel("256x256 HEVC • 4.0 сек • Без звука • 24 FPS", self)
+        self.icon_meta_lbl.setAlignment(Qt.AlignCenter)
+        self.icon_meta_lbl.setStyleSheet("color: #00E5FF; font-size: 11px;")
+        icon_col.addWidget(self.icon_meta_lbl)
 
-        previews_row.addLayout(self.icon_col)
-        previews_row.addStretch()
+        # Icon duration setting
+        icon_dur_layout = QHBoxLayout()
+        icon_dur_layout.addWidget(QLabel("<b>Длительность иконки:</b>", self))
+        self.icon_dur_spin = QDoubleSpinBox(self)
+        self.icon_dur_spin.setRange(1.0, 15.0)
+        self.icon_dur_spin.setValue(4.0)
+        self.icon_dur_spin.setSingleStep(0.5)
+        self.icon_dur_spin.setDecimals(1)
+        self.icon_dur_spin.setFixedHeight(28)
+        self.icon_dur_spin.valueChanged.connect(self._on_icon_duration_changed)
+        icon_dur_layout.addWidget(self.icon_dur_spin)
 
-        s4_layout.addLayout(previews_row)
+        for d in (2, 4, 6, 8):
+            id_btn = QPushButton(f"{d}с", self)
+            id_btn.setFixedSize(36, 28)
+            id_btn.setStyleSheet("""
+                QPushButton {
+                    background-color: #1F2937;
+                    border: 1px solid #374151;
+                    border-radius: 4px;
+                    color: #FFFFFF;
+                    font-size: 11px;
+                    font-weight: bold;
+                }
+                QPushButton:hover { background-color: #00E5FF; color: #000000; }
+            """)
+            id_btn.clicked.connect(lambda checked, val=d: self.icon_dur_spin.setValue(val))
+            icon_dur_layout.addWidget(id_btn)
 
-        # --- Pan slider for square crop ---
-        self.pan_control_widget = QWidget(self)
-        pan_layout = QVBoxLayout(self.pan_control_widget)
-        pan_layout.setContentsMargins(0, 10, 0, 0)
+        icon_dur_layout.addStretch()
+        icon_col.addLayout(icon_dur_layout)
 
+        # Crop pan controls
+        pan_layout = QVBoxLayout()
+        pan_layout.setSpacing(4)
         pan_header = QHBoxLayout()
-        pan_header.addWidget(QLabel("<b>Горизонтальное кадрирование иконки:</b>", self))
+        pan_header.addWidget(QLabel("<b>Горизонтальное кадрирование:</b>", self))
         self.pan_percent_lbl = QLabel("50% (По центру)", self)
-        self.pan_percent_lbl.setStyleSheet("color: #00E5FF; font-weight: bold;")
+        self.pan_percent_lbl.setStyleSheet("color: #00E5FF; font-weight: bold; font-size: 12px;")
         pan_header.addWidget(self.pan_percent_lbl)
         pan_header.addStretch()
 
-        btn_left = QPushButton("◀ Влево (0%)", self)
+        btn_left = QPushButton("◀ 0%", self)
+        btn_left.setFixedSize(50, 26)
         btn_left.clicked.connect(lambda: self.crop_slider.setValue(0))
-        btn_center = QPushButton("• По центру (50%)", self)
+        btn_center = QPushButton("• 50%", self)
+        btn_center.setFixedSize(50, 26)
         btn_center.clicked.connect(lambda: self.crop_slider.setValue(50))
-        btn_right = QPushButton("▶ Вправо (100%)", self)
+        btn_right = QPushButton("▶ 100%", self)
+        btn_right.setFixedSize(56, 26)
         btn_right.clicked.connect(lambda: self.crop_slider.setValue(100))
 
         for b in (btn_left, btn_center, btn_right):
@@ -583,7 +686,12 @@ class ExpressTab(QWidget):
         self.crop_slider.valueChanged.connect(self._on_crop_slider_changed)
         pan_layout.addWidget(self.crop_slider)
 
-        s4_layout.addWidget(self.pan_control_widget)
+        icon_col.addLayout(pan_layout)
+        icon_col.addStretch()
+
+        self.step4_cols_layout.addWidget(self.icon_card_frame, 1)
+
+        s4_layout.addLayout(self.step4_cols_layout)
         layout.addWidget(self.crop_box)
 
         # =========================================================================
@@ -1079,12 +1187,39 @@ class ExpressTab(QWidget):
     # --- Mode & Cropping ---
     # =========================================================================
 
+    def _on_volume_changed(self, val: int):
+        if val == 0:
+            txt = "0% (Без звука)"
+            self.btn_mute.setText("🔇")
+        elif val == 100:
+            txt = "100% (Оригинал)"
+            self.btn_mute.setText("🔊")
+        elif val > 100:
+            txt = f"{val}% (Усиление)"
+            self.btn_mute.setText("🔊")
+        else:
+            txt = f"{val}%"
+            self.btn_mute.setText("🔊")
+        self.volume_lbl.setText(txt)
+        self.audio_output.setVolume(val / 100.0)
+
+    def _toggle_mute(self):
+        if self.volume_slider.value() > 0:
+            self._prev_volume = self.volume_slider.value()
+            self.volume_slider.setValue(0)
+        else:
+            self.volume_slider.setValue(getattr(self, "_prev_volume", 100))
+
+    def _on_icon_duration_changed(self, val: float):
+        self.icon_meta_lbl.setText(f"256x256 HEVC • {val:.1f} сек • Без звука • 24 FPS")
+
     def _on_mode_changed(self):
-        show_icon = not self.radio_cover.isChecked()
-        self.pan_control_widget.setVisible(show_icon)
-        self.icon_preview_lbl.setVisible(show_icon)
-        self.icon_title_lbl.setVisible(show_icon)
-        self.icon_meta_lbl.setVisible(show_icon)
+        is_pack = self.radio_pack.isChecked()
+        is_cover = self.radio_cover.isChecked()
+        is_icon = self.radio_icon.isChecked()
+
+        self.cover_card_frame.setVisible(is_pack or is_cover)
+        self.icon_card_frame.setVisible(is_pack or is_icon)
 
     def _on_crop_slider_changed(self, val: int):
         if val == 0:
@@ -1127,7 +1262,7 @@ class ExpressTab(QWidget):
             cropped = pix
 
         self.icon_preview_lbl.setPixmap(
-            cropped.scaled(240, 240, Qt.IgnoreAspectRatio, Qt.SmoothTransformation)
+            cropped.scaled(196, 196, Qt.IgnoreAspectRatio, Qt.SmoothTransformation)
         )
 
     # =========================================================================
@@ -1175,6 +1310,8 @@ class ExpressTab(QWidget):
             mode=mode,
             start_sec=self.start_spin.value(),
             dur_sec=self.dur_spin.value(),
+            icon_dur_sec=self.icon_dur_spin.value(),
+            volume_percent=self.volume_slider.value(),
             crop_pan=float(self.crop_slider.value()),
             video_w=self.video_meta.get("width", 1280),
             video_h=self.video_meta.get("height", 720)

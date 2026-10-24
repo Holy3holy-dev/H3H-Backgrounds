@@ -20,8 +20,8 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("H3H Studio — Видеофоны и Видеоиконки для 4IFIR")
-        self.resize(1020, 820)
-        self.setMinimumSize(880, 680)
+        self.resize(1140, 880)
+        self.setMinimumSize(960, 720)
 
         self._apply_theme()
         self._init_ui()
