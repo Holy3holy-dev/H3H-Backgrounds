@@ -12,7 +12,7 @@ import urllib.request
 import urllib.parse
 import subprocess
 import shutil
-import tempfile
+import uuid
 from pathlib import Path
 from typing import List, Dict, Any, Optional
 
@@ -164,9 +164,6 @@ class AnimatedIconsFetcher:
 
     @classmethod
     def search_all(cls, game_name: str, source_filter: str = "all") -> List[Dict[str, Any]]:
-        """
-        source_filter: 'all', 'steamgriddb', 'steam_points', 'tenor'
-        """
         all_results = []
         if source_filter in ["all", "steam_points"]:
             all_results.extend(cls.search_steam_points(game_name))
@@ -183,23 +180,19 @@ class AnimatedIconsFetcher:
         dest_dir: Path,
         on_progress: Optional[Any] = None
     ) -> Optional[Path]:
-        """
-        Downloads the asset and converts it (if WebP/GIF/WebM) into an MP4
-        ready for live preview in QMediaPlayer and 4IFIR encoding.
-        """
         dest_dir.mkdir(parents=True, exist_ok=True)
         url = item["url"]
         fmt = item.get("format", "mp4").lower()
         
-        # Determine raw download path
+        # Use a safe UUID filename to prevent any Unicode/path escaping bugs
+        safe_id = f"icon_{uuid.uuid4().hex[:10]}"
         raw_ext = "webp" if "webp" in fmt else ("gif" if "gif" in fmt else ("webm" if "webm" in fmt else "mp4"))
-        safe_title = re.sub(r"[^\w\-_]", "_", item.get("title", "anim_icon"))[:35]
-        raw_file = dest_dir / f"{safe_title}_raw.{raw_ext}"
-        out_mp4 = dest_dir / f"{safe_title}.mp4"
+        raw_file = dest_dir / f"{safe_id}_raw.{raw_ext}"
+        out_mp4 = dest_dir / f"{safe_id}.mp4"
 
         try:
             if on_progress:
-                on_progress(20, "Скачивание анимации...")
+                on_progress(25, "Скачивание анимации...")
 
             req = urllib.request.Request(url, headers={"User-Agent": cls.USER_AGENT})
             with urllib.request.urlopen(req, timeout=30) as resp, open(raw_file, "wb") as f:
@@ -208,18 +201,18 @@ class AnimatedIconsFetcher:
             if not raw_file.exists() or raw_file.stat().st_size == 0:
                 return None
 
-            # If already mp4, return directly
+            # If already mp4, copy directly
             if raw_ext == "mp4":
                 shutil.copy2(raw_file, out_mp4)
                 return out_mp4
 
             # Convert WebP / GIF / WebM to MP4 via ffmpeg
             if on_progress:
-                on_progress(60, "Конвертация в видеоформат...")
+                on_progress(65, "Конвертация в видеоформат...")
 
             ffmpeg_bin = shutil.which("ffmpeg") or "ffmpeg"
             cmd = [
-                ffmpeg_bin, "-y",
+                ffmpeg_bin, "-y", "-nostdin",
                 "-i", str(raw_file),
                 "-c:v", "libx264",
                 "-pix_fmt", "yuv420p",

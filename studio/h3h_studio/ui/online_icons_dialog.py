@@ -1,21 +1,21 @@
 """
 Online Animated Icons & Loops Search Dialog for H3H Studio.
-Supports: SteamGridDB, Steam Points Shop, Tenor.
+Uses QNetworkAccessManager for 100% thread-safe async image loading without segfaults.
 """
 
 import os
 import sys
-import urllib.request
 from pathlib import Path
 from typing import Optional, Dict, Any, List
 
-from PySide6.QtCore import Qt, QThread, Signal, QSize
-from PySide6.QtGui import QFont, QPixmap, QImage, QColor
+from PySide6.QtCore import Qt, QThread, Signal, QUrl
+from PySide6.QtGui import QFont, QPixmap
 from PySide6.QtWidgets import (
     QDialog, QWidget, QVBoxLayout, QHBoxLayout, QGridLayout,
     QLabel, QLineEdit, QPushButton, QComboBox, QScrollArea,
-    QProgressBar, QFrame, QMessageBox, QSizePolicy
+    QProgressBar, QFrame, QMessageBox
 )
+from PySide6.QtNetwork import QNetworkAccessManager, QNetworkRequest, QNetworkReply
 
 from ..core.animated_icons_fetcher import AnimatedIconsFetcher
 
@@ -62,28 +62,6 @@ class DownloadWorker(QThread):
             self.error.emit(str(e))
 
 
-class ThumbLoader(QThread):
-    thumb_ready = Signal(QLabel, QPixmap)
-
-    def __init__(self, label: QLabel, url: str):
-        super().__init__()
-        self.label = label
-        self.url = url
-
-    def run(self):
-        try:
-            req = urllib.request.Request(self.url, headers={"User-Agent": "Mozilla/5.0"})
-            with urllib.request.urlopen(req, timeout=8) as resp:
-                data = resp.read()
-                pix = QPixmap()
-                pix.loadFromData(data)
-                if not pix.isNull():
-                    scaled = pix.scaled(130, 130, Qt.KeepAspectRatio, Qt.SmoothTransformation)
-                    self.thumb_ready.emit(self.label, scaled)
-        except Exception:
-            pass
-
-
 class OnlineIconsDialog(QDialog):
     icon_chosen = Signal(Path, str)  # Emits (converted_mp4_path, item_title)
 
@@ -96,7 +74,10 @@ class OnlineIconsDialog(QDialog):
 
         self.search_worker: Optional[SearchWorker] = None
         self.download_worker: Optional[DownloadWorker] = None
-        self.thumb_workers: List[ThumbLoader] = []
+        
+        # Native Qt network manager for asynchronous thumbnail downloading on GUI loop
+        self.net_manager = QNetworkAccessManager(self)
+        self.active_replies: List[QNetworkReply] = []
 
         self._apply_style()
         self._init_ui()
@@ -236,10 +217,25 @@ class OnlineIconsDialog(QDialog):
         btn_box.addWidget(self.btn_close)
         main_layout.addLayout(btn_box)
 
+    def _cancel_active_replies(self):
+        for reply in self.active_replies:
+            try:
+                reply.abort()
+                reply.deleteLater()
+            except Exception:
+                pass
+        self.active_replies.clear()
+
     def _start_search(self):
         query = self.search_edit.text().strip()
         if not query:
             return
+
+        self._cancel_active_replies()
+
+        if self.search_worker and self.search_worker.isRunning():
+            self.search_worker.terminate()
+            self.search_worker.wait(500)
 
         self.btn_search.setEnabled(False)
         self.status_lbl.setText(f"Поиск анимаций для «{query}» во всех онлайн-базах...")
@@ -263,7 +259,7 @@ class OnlineIconsDialog(QDialog):
         self.progress_bar.setVisible(False)
 
         if not items:
-            self.status_lbl.setText("Ничего не найдено. Попробуйте уточнить название игры (на английском языке).")
+            self.status_lbl.setText("Ничего не найдено. Попробуйте ввести название игры на английском (напр. Witcher, Cyberpunk).")
             self.status_lbl.setStyleSheet("color: #EF4444;")
             return
 
@@ -316,13 +312,14 @@ class OnlineIconsDialog(QDialog):
         thumb_lbl.setText("Загрузка...")
         lay.addWidget(thumb_lbl, 0, Qt.AlignCenter)
 
-        # Async load thumbnail
+        # Load thumbnail asynchronously via QNetworkAccessManager (100% thread-safe on GUI loop)
         t_url = item.get("thumb_url") or item.get("url")
         if t_url:
-            loader = ThumbLoader(thumb_lbl, t_url)
-            loader.thumb_ready.connect(lambda lbl, p: lbl.setPixmap(p))
-            self.thumb_workers.append(loader)
-            loader.start()
+            req = QNetworkRequest(QUrl(t_url))
+            req.setRawHeader(b"User-Agent", b"Mozilla/5.0")
+            reply = self.net_manager.get(req)
+            self.active_replies.append(reply)
+            reply.finished.connect(lambda r=reply, lbl=thumb_lbl: self._on_thumb_received(r, lbl))
 
         # Title
         title_lbl = QLabel(item.get("title", ""), card)
@@ -351,7 +348,23 @@ class OnlineIconsDialog(QDialog):
 
         return card
 
+    def _on_thumb_received(self, reply: QNetworkReply, label: QLabel):
+        try:
+            if reply in self.active_replies:
+                self.active_replies.remove(reply)
+            if reply.error() == QNetworkReply.NoError:
+                data = reply.readAll().data()
+                pix = QPixmap()
+                if pix.loadFromData(data):
+                    scaled = pix.scaled(136, 136, Qt.KeepAspectRatio, Qt.SmoothTransformation)
+                    label.setPixmap(scaled)
+        except Exception:
+            pass
+        finally:
+            reply.deleteLater()
+
     def _select_item(self, item: Dict[str, Any]):
+        self._cancel_active_replies()
         self.btn_search.setEnabled(False)
         self.status_lbl.setText(f"Загрузка и подготовка «{item.get('title')}»...")
         self.status_lbl.setStyleSheet("color: #00E5FF; font-weight: bold;")
@@ -387,3 +400,13 @@ class OnlineIconsDialog(QDialog):
         self.progress_bar.setVisible(False)
         self.status_lbl.setText(f"Ошибка поиска: {err}")
         self.status_lbl.setStyleSheet("color: #EF4444;")
+
+    def closeEvent(self, event):
+        self._cancel_active_replies()
+        if self.search_worker and self.search_worker.isRunning():
+            self.search_worker.terminate()
+            self.search_worker.wait(500)
+        if self.download_worker and self.download_worker.isRunning():
+            self.download_worker.terminate()
+            self.download_worker.wait(500)
+        super().closeEvent(event)

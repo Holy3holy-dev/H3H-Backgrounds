@@ -497,13 +497,13 @@ class IconsTab(QWidget):
 
     def _on_open_online_search(self):
         query = self.game_name_edit.text().strip() or self.search_input.text().strip()
-        dlg = OnlineIconsDialog(self, initial_query=query)
-        dlg.icon_chosen.connect(self._on_online_icon_loaded)
-        dlg.exec()
+        self._online_dlg = OnlineIconsDialog(self, initial_query=query)
+        self._online_dlg.icon_chosen.connect(self._on_online_icon_loaded)
+        self._online_dlg.exec()
 
     def _on_online_icon_loaded(self, mp4_path: Path, title: str):
-        self.src_video_path = mp4_path
-        self.video_info_lbl.setText(f"🌐 Онлайн: {mp4_path.name}")
+        self.src_video_path = Path(mp4_path).resolve()
+        self.video_info_lbl.setText(f"🌐 Онлайн: {self.src_video_path.name}")
         self.video_info_lbl.setStyleSheet("color: #00E5FF; font-weight: bold;")
         if title and (not self.var_name_edit.text() or self.var_name_edit.text() == "Главная тема (Иконка)"):
             self.var_name_edit.setText(title[:40])
