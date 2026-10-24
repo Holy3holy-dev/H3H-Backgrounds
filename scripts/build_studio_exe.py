@@ -42,7 +42,14 @@ def build_studio():
         "--hidden-import", "cv2",
         "--hidden-import", "scenedetect",
         "--hidden-import", "requests",
-        "--hidden-import", "PIL"
+        "--hidden-import", "PIL",
+        "--hidden-import", "h3h_studio",
+        "--hidden-import", "h3h_studio.core.title_id_resolver",
+        "--hidden-import", "h3h_studio.core.cloud_config",
+        "--hidden-import", "h3h_studio.core.express_processor",
+        "--hidden-import", "h3h_studio.core.online_fetcher",
+        "--hidden-import", "h3h_studio.ui.express_tab",
+        "--hidden-import", "h3h_studio.ui.icons_tab"
     ]
 
     # Embed ffmpeg and ffprobe directly into the onefile executable

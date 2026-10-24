@@ -29,7 +29,7 @@ PROJECT_ROOT = Path(__file__).parent.parent.parent.parent.resolve()
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from scripts.title_id_resolver import TitleIdResolver
+from ..core.title_id_resolver import TitleIdResolver
 from ..core.express_processor import ExpressProcessor
 
 

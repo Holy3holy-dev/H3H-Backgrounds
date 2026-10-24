@@ -27,7 +27,7 @@ if str(PROJECT_ROOT) not in sys.path:
 if str(PROJECT_ROOT / "studio") not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT / "studio"))
 
-from tg_bot.config import (
+from .cloud_config import (
     VERIFIED_REFRESH_TOKEN,
     VERIFIED_CLIENT_ID,
     VERIFIED_CLIENT_SECRET,
@@ -39,10 +39,11 @@ from tg_bot.config import (
     GITHUB_BRANCH,
     GITHUB_BRANCH_AFTER_DARK,
     CATALOG_PATH_STANDARD,
-    CATALOG_PATH_AFTER_DARK
+    CATALOG_PATH_AFTER_DARK,
+    push_catalog_to_github
 )
-from h3h_studio.core.google_drive import GoogleDriveHelper, GoogleDriveClient
-from h3h_studio.core.github_publisher import GitHubPublisher
+from .google_drive import GoogleDriveHelper, GoogleDriveClient
+from .github_publisher import GitHubPublisher
 
 
 class ExpressProcessor:
@@ -377,8 +378,30 @@ class ExpressProcessor:
             new_var["iconHeight"] = 256
 
         # Fetch remote catalog to prevent overwrites
-        catalog_path = PROJECT_ROOT / target_catalog_rel
-        cat_data = json.loads(catalog_path.read_text(encoding="utf-8"))
+        cat_data = None
+        candidates = [
+            PROJECT_ROOT / target_catalog_rel,
+            Path.cwd() / target_catalog_rel,
+            Path(getattr(sys, "_MEIPASS", "")) / target_catalog_rel
+        ]
+        catalog_path = next((p for p in candidates if p.exists()), None)
+        if catalog_path and catalog_path.exists():
+            try:
+                cat_data = json.loads(catalog_path.read_text(encoding="utf-8"))
+            except Exception:
+                pass
+
+        if not cat_data:
+            # Fallback: Fetch latest catalog from GitHub via REST API
+            try:
+                raw_url = f"https://raw.githubusercontent.com/{GITHUB_REPO}/{target_branch}/{target_catalog_rel.as_posix()}"
+                req = urllib.request.Request(raw_url, headers={"User-Agent": "H3H-Background-Studio"})
+                with urllib.request.urlopen(req, timeout=15) as resp:
+                    cat_data = json.loads(resp.read().decode("utf-8"))
+            except Exception as e:
+                print(f"[!] Warning fetching remote catalog: {e}")
+                cat_data = {"version": 1, "games": []}
+            catalog_path = Path.cwd() / target_catalog_rel
 
         games_list = cat_data.get("games", [])
         game_entry = next((g for g in games_list if g.get("titleId", "").upper() == title_id.upper()), None)
@@ -396,12 +419,16 @@ class ExpressProcessor:
         cat_data["totalVariants"] = sum(len(g.get("variants", [])) for g in games_list)
         cat_data["lastUpdated"] = datetime.now(timezone.utc).isoformat()
 
-        catalog_path.write_text(json.dumps(cat_data, indent=2, ensure_ascii=False), encoding="utf-8")
+        cat_bytes = json.dumps(cat_data, indent=2, ensure_ascii=False).encode("utf-8")
+        try:
+            catalog_path.parent.mkdir(parents=True, exist_ok=True)
+            catalog_path.write_bytes(cat_bytes)
+        except Exception:
+            pass
 
         # Push to GitHub
         commit_msg = f"feat(catalog): add '{variant_name}' for {title_id} by {author_tag} via H3H Studio"
-        from tg_bot.bot import push_catalog_to_github
-        push_ok = push_catalog_to_github(target_catalog_rel, commit_msg, branch=target_branch)
+        push_ok = push_catalog_to_github(target_catalog_rel, commit_msg, branch=target_branch, catalog_content_bytes=cat_bytes)
 
         if on_progress:
             on_progress(100.0, "Опубликовано успешно!")
