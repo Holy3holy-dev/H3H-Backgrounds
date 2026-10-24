@@ -2277,23 +2277,38 @@ void App::renderTabMyGames() {
                 })();
                 drawText(meta, 545, vY + 41, Theme::COLOR_TEXT_MUTED, 12, 230);
 
-                // Active installed background badge - EXACT MATCH ONLY
+                // Badges row: Active on console, Audio, and Video Icon
+                int vBadgeX = 720;
                 bool isActiveOnConsole = (selGame.hasInstalledCover && v.id == selGame.installedVariantId);
                 if (isActiveOnConsole) {
-                    drawRect(785, vY + 38, 105, 22, {0x10, 0xB9, 0x81, 0x44});
-                    drawRectOutline(785, vY + 38, 105, 22, Theme::COLOR_SUCCESS, 1);
-                    drawText("УСТАНОВЛЕН", 797, vY + 43, Theme::COLOR_SUCCESS, 10);
+                    drawRect(vBadgeX, vY + 38, 92, 22, {0x10, 0xB9, 0x81, 0x44});
+                    drawRectOutline(vBadgeX, vY + 38, 92, 22, Theme::COLOR_SUCCESS, 1);
+                    drawText("УСТАНОВЛЕН", vBadgeX + 8, vY + 43, Theme::COLOR_SUCCESS, 10);
+                    vBadgeX += 98;
                 }
 
                 // Audio Status Pill
                 if (v.hasAudio) {
-                    drawRect(905, vY + 38, 70, 22, {0x10, 0xB9, 0x81, 0x33});
-                    drawRectOutline(905, vY + 38, 70, 22, Theme::COLOR_SUCCESS, 1);
-                    drawText("ЗВУК", 924, vY + 43, Theme::COLOR_SUCCESS, 10);
+                    drawRect(vBadgeX, vY + 38, 62, 22, {0x10, 0xB9, 0x81, 0x33});
+                    drawRectOutline(vBadgeX, vY + 38, 62, 22, Theme::COLOR_SUCCESS, 1);
+                    drawText("ЗВУК", vBadgeX + 15, vY + 43, Theme::COLOR_SUCCESS, 10);
+                    vBadgeX += 68;
                 } else {
-                    drawRect(905, vY + 38, 85, 22, {0x28, 0x33, 0x47, 0x44});
-                    drawRectOutline(905, vY + 38, 85, 22, Theme::COLOR_BORDER, 1);
-                    drawText("БЕЗ ЗВУКА", 916, vY + 43, Theme::COLOR_TEXT_MUTED, 10);
+                    drawRect(vBadgeX, vY + 38, 78, 22, Theme::COLOR_MUTED_BADGE_FILL);
+                    drawRectOutline(vBadgeX, vY + 38, 78, 22, Theme::COLOR_BORDER, 1);
+                    drawText("БЕЗ ЗВУКА", vBadgeX + 9, vY + 43, Theme::COLOR_TEXT_MUTED, 10);
+                    vBadgeX += 84;
+                }
+
+                // Video Icon Status Pill (prominent cyan when present, muted when absent)
+                if (v.hasIcon) {
+                    drawRect(vBadgeX, vY + 38, 72, 22, Theme::COLOR_ICON_BADGE_FILL);
+                    drawRectOutline(vBadgeX, vY + 38, 72, 22, Theme::COLOR_ICON_BADGE, 1);
+                    drawText("ИКОНКА", vBadgeX + 11, vY + 43, Theme::COLOR_ICON_BADGE, 10);
+                } else {
+                    drawRect(vBadgeX, vY + 38, 86, 22, Theme::COLOR_MUTED_BADGE_FILL);
+                    drawRectOutline(vBadgeX, vY + 38, 86, 22, Theme::COLOR_BORDER, 1);
+                    drawText("БЕЗ ИКОНКИ", vBadgeX + 9, vY + 43, Theme::COLOR_TEXT_MUTED, 10);
                 }
 
                 // Install / Reinstall Button (Interactive touch zone)
@@ -2363,6 +2378,7 @@ void App::renderTabCatalog() {
         case CatalogSortMode::Alphabetical: sortLabel += "А-Я (по имени)"; break;
         case CatalogSortMode::VariantsCount: sortLabel += "По кол-ву фонов (▼)"; break;
         case CatalogSortMode::AudioOnly: sortLabel += "Только со звуком"; break;
+        case CatalogSortMode::IconsOnly: sortLabel += "Только с иконками"; break;
         case CatalogSortMode::InstalledOnly: sortLabel += "Установленные"; break;
         case CatalogSortMode::FavoritesOnly: sortLabel += "★ Только избранное"; break;
     }
@@ -2466,7 +2482,7 @@ void App::renderTabCatalog() {
         }
 
         // Badges: Audio & Video Icon
-        int cBadgeX = 570;
+        int cBadgeX = 525;
         if (hasAudioVariant) {
             drawRect(cBadgeX, y + 40, 65, 22, {0x18, 0x38, 0x24, 0xCC});
             drawRectOutline(cBadgeX, y + 40, 65, 22, Theme::COLOR_SUCCESS, 1);
@@ -2474,10 +2490,10 @@ void App::renderTabCatalog() {
             cBadgeX += 73;
         }
         if (hasIconVariant) {
-            drawRect(cBadgeX, y + 40, 85, 22, {0x0E, 0x74, 0x90, 0x44});
-            drawRectOutline(cBadgeX, y + 40, 85, 22, Theme::COLOR_FOCUS_CYAN, 1);
-            drawText("🔲 ИКОНКА", cBadgeX + 8, y + 44, Theme::COLOR_FOCUS_CYAN, 10);
-            cBadgeX += 93;
+            drawRect(cBadgeX, y + 40, 80, 22, Theme::COLOR_ICON_BADGE_FILL);
+            drawRectOutline(cBadgeX, y + 40, 80, 22, Theme::COLOR_ICON_BADGE, 1);
+            drawText("ИКОНКА", cBadgeX + 14, y + 44, Theme::COLOR_ICON_BADGE, 10);
+            cBadgeX += 88;
         }
 
         // Status badges on card
@@ -3137,10 +3153,15 @@ void App::renderFullscreenPreview() {
         }
 
         if (v.hasIcon) {
-            drawRect(badgeX, hudY + 66, 95, 24, {0x0E, 0x74, 0x90, 0x44});
-            drawRectOutline(badgeX, hudY + 66, 95, 24, Theme::COLOR_FOCUS_CYAN, 1);
-            drawText("🔲 ИКОНКА", badgeX + 10, hudY + 71, Theme::COLOR_FOCUS_CYAN, 11);
-            badgeX += 103;
+            drawRect(badgeX, hudY + 66, 80, 24, Theme::COLOR_ICON_BADGE_FILL);
+            drawRectOutline(badgeX, hudY + 66, 80, 24, Theme::COLOR_ICON_BADGE, 1);
+            drawText("ИКОНКА", badgeX + 13, hudY + 71, Theme::COLOR_ICON_BADGE, 11);
+            badgeX += 88;
+        } else {
+            drawRect(badgeX, hudY + 66, 92, 24, Theme::COLOR_MUTED_BADGE_FILL);
+            drawRectOutline(badgeX, hudY + 66, 92, 24, Theme::COLOR_BORDER, 1);
+            drawText("БЕЗ ИКОНКИ", badgeX + 9, hudY + 71, Theme::COLOR_TEXT_MUTED, 11);
+            badgeX += 100;
         }
 
         // Active variant identification: exactly matches the installed variant
@@ -3813,10 +3834,23 @@ void App::renderCollectionBrowser() {
             drawText("ЗВУК", bxPos + 14, cardY + 51, Theme::COLOR_SUCCESS, 11);
             bxPos += 75;
         } else {
-            drawRect(bxPos, cardY + 46, 85, 24, {0x28, 0x33, 0x47, 0x44});
-            drawRectOutline(bxPos, cardY + 46, 85, 24, Theme::COLOR_BORDER, 1);
-            drawText("БЕЗ ЗВУКА", bxPos + 10, cardY + 51, Theme::COLOR_TEXT_MUTED, 10);
-            bxPos += 95;
+            drawRect(bxPos, cardY + 46, 82, 24, Theme::COLOR_MUTED_BADGE_FILL);
+            drawRectOutline(bxPos, cardY + 46, 82, 24, Theme::COLOR_BORDER, 1);
+            drawText("БЕЗ ЗВУКА", bxPos + 9, cardY + 51, Theme::COLOR_TEXT_MUTED, 10);
+            bxPos += 90;
+        }
+
+        // Icon badge
+        if (v.hasIcon) {
+            drawRect(bxPos, cardY + 46, 75, 24, Theme::COLOR_ICON_BADGE_FILL);
+            drawRectOutline(bxPos, cardY + 46, 75, 24, Theme::COLOR_ICON_BADGE, 1);
+            drawText("ИКОНКА", bxPos + 11, cardY + 51, Theme::COLOR_ICON_BADGE, 11);
+            bxPos += 83;
+        } else {
+            drawRect(bxPos, cardY + 46, 86, 24, Theme::COLOR_MUTED_BADGE_FILL);
+            drawRectOutline(bxPos, cardY + 46, 86, 24, Theme::COLOR_BORDER, 1);
+            drawText("БЕЗ ИКОНКИ", bxPos + 8, cardY + 51, Theme::COLOR_TEXT_MUTED, 10);
+            bxPos += 94;
         }
 
         // Specs text
@@ -3989,6 +4023,18 @@ void App::rebuildCatalogFilter() {
             if (!hasAud) continue;
         }
 
+        // 3.1 Icons Only filter
+        if (m_catalogSortMode == CatalogSortMode::IconsOnly) {
+            bool hasIco = false;
+            for (const auto& v : g.variants) {
+                if (v.hasIcon) {
+                    hasIco = true;
+                    break;
+                }
+            }
+            if (!hasIco) continue;
+        }
+
         // 4. Favorites Only filter
         if (m_catalogSortMode == CatalogSortMode::FavoritesOnly) {
             if (!hasGameFavorites(g.titleId)) {
@@ -4018,7 +4064,7 @@ void App::rebuildCatalogFilter() {
 }
 
 void App::cycleCatalogSortMode() {
-    int nextMode = (static_cast<int>(m_catalogSortMode) + 1) % 6;
+    int nextMode = (static_cast<int>(m_catalogSortMode) + 1) % 7;
     m_catalogSortMode = static_cast<CatalogSortMode>(nextMode);
     rebuildCatalogFilter();
 
@@ -4028,6 +4074,7 @@ void App::cycleCatalogSortMode() {
         case CatalogSortMode::Alphabetical: modeDesc = "Сортировка: По алфавиту (А-Я)"; break;
         case CatalogSortMode::VariantsCount: modeDesc = "Сортировка: По кол-ву фонов (▼)"; break;
         case CatalogSortMode::AudioOnly: modeDesc = "Фильтр: Только со звуком [ЗВУК]"; break;
+        case CatalogSortMode::IconsOnly: modeDesc = "Фильтр: Только с видеоиконками [ИКОНКА]"; break;
         case CatalogSortMode::InstalledOnly: modeDesc = "Фильтр: Только установленные игры"; break;
         case CatalogSortMode::FavoritesOnly: modeDesc = "Фильтр: ★ Только избранное"; break;
     }

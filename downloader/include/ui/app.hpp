@@ -60,8 +60,9 @@ enum class CatalogSortMode {
     Alphabetical = 1,
     VariantsCount = 2,
     AudioOnly = 3,
-    InstalledOnly = 4,
-    FavoritesOnly = 5
+    IconsOnly = 4,
+    InstalledOnly = 5,
+    FavoritesOnly = 6
 };
 
 struct StorageStats {

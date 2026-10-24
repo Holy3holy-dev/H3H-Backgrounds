@@ -44,6 +44,11 @@ namespace Theme {
     constexpr Color COLOR_SUCCESS      = {0x10, 0xB9, 0x81, 0xFF}; // #10B981 Emerald Green
     constexpr Color COLOR_WARNING      = {0xF5, 0x9E, 0x0B, 0xFF}; // #F59E0B Amber
     constexpr Color COLOR_DANGER       = {0xF4, 0x3F, 0x5E, 0xFF}; // #F43F5E Rose / Coral
+
+    // 4IFIR Video Icon Badge Colors (Vibrant Neon Cyan)
+    constexpr Color COLOR_ICON_BADGE        = {0x00, 0xD2, 0xFF, 0xFF}; // Radiant Electric Cyan
+    constexpr Color COLOR_ICON_BADGE_FILL   = {0x08, 0x42, 0x5B, 0xCC}; // High-contrast translucent cyan tint
+    constexpr Color COLOR_MUTED_BADGE_FILL  = {0x28, 0x33, 0x47, 0x44}; // Muted badge background
 }
 
 } // namespace ui
