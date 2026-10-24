@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "name": "H3H After Dark (18+) Official Catalog",
   "updatedAt": "2026-10-24T00:42:05.085479+00:00",
-  "totalGames": 93,
-  "totalVariants": 944,
+  "totalGames": 94,
+  "totalVariants": 945,
   "games": [
     {
       "titleId": "0000000000000000",
@@ -17640,7 +17640,38 @@
           "notes": "Submitted via Telegram by @MoeWalls"
         }
       ]
+    },
+    {
+      "titleId": "0100B00B51230000",
+      "title": "Grand Theft Auto V (порт GTA 5, репак)",
+      "publisher": "Community",
+      "variants": [
+        {
+          "id": "var-02a6210b",
+          "name": "Borat",
+          "style": "4IFIR Dynamic Pack",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UZiDvYKoJ2WyWP5m3tQjoph8V9pZIhPS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UZiDvYKoJ2WyWP5m3tQjoph8V9pZIhPS&sz=w640",
+          "sizeBytes": 15989446,
+          "sha256": "",
+          "durationSec": 10.0,
+          "author": "@Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "hasIcon": true,
+          "notes": "Created with H3H Studio Express Mode by @Community",
+          "iconUrl": "https://drive.google.com/uc?export=download&id=116hxt0JyWRudFFqDfH-bZ9Gk6dBTFiJX",
+          "iconSizeBytes": 131951,
+          "iconCodec": "hevc",
+          "iconWidth": 256,
+          "iconHeight": 256
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-10-23T16:13:46.720014+00:00"
+  "lastUpdated": "2026-10-24T01:17:00.793715+00:00"
 }
