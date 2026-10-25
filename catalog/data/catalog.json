@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T14:50:28.369845+00:00",
+  "updatedAt": "2026-10-25T14:52:09.608223+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -2708,6 +2708,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Cult of the Lamb Hero"
+        },
+        {
+          "id": "v_0adece0f",
+          "name": "Cult of the Lamb Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Lbqv8t2jzhcaSmimcoXS52hFiQrr0AlB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Lbqv8t2jzhcaSmimcoXS52hFiQrr0AlB&sz=w640",
+          "sizeBytes": 1274668,
+          "sha256": "2DFCBE7C5C37B7E98A8743F37A5F1DA3A98E4F15FAB3888A339AFD9320146DC1",
+          "durationSec": 30.0,
+          "author": "riskRED",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Cult of the Lamb Motion Cover"
+        },
+        {
+          "id": "v_8ba4337a",
+          "name": "Cult of the Lamb Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tlVjTDuvRVhdVcusWNfP4KjyRRBv5rbY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tlVjTDuvRVhdVcusWNfP4KjyRRBv5rbY&sz=w640",
+          "sizeBytes": 5651372,
+          "sha256": "7F5A28E694B8ED98B7A985A522A07B7D364349F97D1306506BD827BB9B654A72",
+          "durationSec": 30.0,
+          "author": "TUFKAC",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Cult of the Lamb Motion Cover"
         }
       ]
     },
@@ -38206,6 +38242,6 @@
     }
   ],
   "totalGames": 1039,
-  "totalVariants": 1688,
+  "totalVariants": 1690,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
