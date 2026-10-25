@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T16:59:14.060151+00:00",
+  "updatedAt": "2026-10-25T17:03:12.573512+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -39435,6 +39435,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | No Man's Sky Hero"
+        },
+        {
+          "id": "v_68d19904",
+          "name": "No Man's Sky Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pUjKAXX_TXsI3-iWI-bpNGlgzt1JdWhS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pUjKAXX_TXsI3-iWI-bpNGlgzt1JdWhS&sz=w640",
+          "sizeBytes": 3421344,
+          "sha256": "8774E459BAF665CC1AE0D74D5CAA15DD4B7B342E0731E92A722B2DACF15C77D0",
+          "durationSec": 30.0,
+          "author": "Classic Shooter",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | No Man's Sky Hero"
         }
       ]
     },
@@ -39461,6 +39479,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Subnautica Hero"
+        },
+        {
+          "id": "v_01ea0618",
+          "name": "Subnautica Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CwwhLo0oGJnPd9SkOX1V651ZaLGC-ynb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CwwhLo0oGJnPd9SkOX1V651ZaLGC-ynb&sz=w640",
+          "sizeBytes": 1627480,
+          "sha256": "5A370BF331CADB5C4A1364B5A9D96E324FC9D7D8AFFF0368DB9A325F56F585E9",
+          "durationSec": 30.0,
+          "author": "brugabrug",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Subnautica Motion Cover"
         }
       ]
     },
@@ -39536,6 +39572,6 @@
     }
   ],
   "totalGames": 1050,
-  "totalVariants": 1757,
+  "totalVariants": 1759,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
