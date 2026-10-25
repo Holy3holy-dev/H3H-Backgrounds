@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T14:05:24.013888+00:00",
+  "updatedAt": "2026-10-25T14:07:39.016257+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -23769,6 +23769,24 @@
           "iconCodec": "h264",
           "iconWidth": 256,
           "iconHeight": 256
+        },
+        {
+          "id": "v_70664a54",
+          "name": "Dead Cells Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-wtrJnmIjRTtOzWyMsBU7LuweaMvF4-E",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-wtrJnmIjRTtOzWyMsBU7LuweaMvF4-E&sz=w640",
+          "sizeBytes": 3506856,
+          "sha256": "77B3291BA80EDFDA4177FA3F78FECF4612F43060CEA199E6DFDBACCA594A3783",
+          "durationSec": 30.0,
+          "author": "BaturaET",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Dead Cells Hero"
         }
       ]
     },
@@ -36958,6 +36976,6 @@
     }
   ],
   "totalGames": 1036,
-  "totalVariants": 1620,
+  "totalVariants": 1621,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
