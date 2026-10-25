@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T16:24:00.910338+00:00",
+  "updatedAt": "2026-10-25T16:26:14.631380+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -38997,9 +38997,61 @@
           "notes": "Switch 720p 30fps H264 | Nap Time My Neighbor Totoro | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "010042400D600000",
+      "title": "No Man's Sky",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010042400D600000.jpg",
+      "variants": [
+        {
+          "id": "v_c7480d18",
+          "name": "No Man's Sky Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1x4P_YQVHk5vYAeu6-ZOblX6hihShMkD8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1x4P_YQVHk5vYAeu6-ZOblX6hihShMkD8&sz=w640",
+          "sizeBytes": 3335185,
+          "sha256": "FF77152D2E7AAB1D1D06F61D28E518C79A65D1BCD8412A4D03BCCC428B382DA5",
+          "durationSec": 30.0,
+          "author": "Classic Shooter",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | No Man's Sky Hero"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E5F00E88C000",
+      "title": "Subnautica",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E5F00E88C000.jpg",
+      "variants": [
+        {
+          "id": "v_203cdd53",
+          "name": "Subnautica Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pjS-xGOjZBdGw8apFcjKc8PwWUIiELg5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pjS-xGOjZBdGw8apFcjKc8PwWUIiELg5&sz=w640",
+          "sizeBytes": 1797106,
+          "sha256": "31E4DF90638D8EF23E5209AFDDE3436D069D967054DEDD545642D3D11AAEEF18",
+          "durationSec": 30.0,
+          "author": "Holograms",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Subnautica Hero"
+        }
+      ]
     }
   ],
-  "totalGames": 1046,
-  "totalVariants": 1729,
+  "totalGames": 1048,
+  "totalVariants": 1731,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
