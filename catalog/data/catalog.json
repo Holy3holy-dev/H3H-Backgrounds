@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T16:28:15.347996+00:00",
+  "updatedAt": "2026-10-25T16:32:39.248593+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -8294,6 +8294,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 0100ECD018EBE000_Paper_Mario_The_Thousand-Year_Door.mp4"
+        },
+        {
+          "id": "v_1547d43f",
+          "name": "Paper Mario: The Thousand-Year Door Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12Tagsi5VuZz-8Qpm6tEhIqg8Czbq-lcG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12Tagsi5VuZz-8Qpm6tEhIqg8Czbq-lcG&sz=w640",
+          "sizeBytes": 3151348,
+          "sha256": "B125AF3D299BAED902C28EB7B3336B98207BFF45A3E4F3F8318BB8546C90D44D",
+          "durationSec": 30.0,
+          "author": "Must",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Paper Mario: The Thousand-Year Door Motion Cover"
         }
       ]
     },
@@ -12510,6 +12528,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "SteamGridDB Animated Grid: 0100C2500FC20000_Splatoon_3___Side_Order__Inkopolis.mp4"
+        },
+        {
+          "id": "v_e8ce3a66",
+          "name": "Splatoon 3 Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HyCvGN6nniOT5pbMRNEp0DLUJH7f05r4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HyCvGN6nniOT5pbMRNEp0DLUJH7f05r4&sz=w640",
+          "sizeBytes": 1478201,
+          "sha256": "BE06ACA716F0E8029EEBC8B95D7EC58DB802D5290F441F197F1007D4BA3EFA6D",
+          "durationSec": 30.0,
+          "author": "ABH20",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Splatoon 3 Motion Cover"
         }
       ]
     },
@@ -39093,9 +39129,53 @@
           "notes": "Switch 720p 30fps H264 | Subnautica: Below Zero Motion Cover"
         }
       ]
+    },
+    {
+      "titleId": "0100118024DAE000",
+      "title": "Kami 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100118024DAE000.jpg",
+      "variants": [
+        {
+          "id": "v_004ca988",
+          "name": "Kamisato Ayaka Genshin Impact",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GtzKgPq6ADE0UnKFgFfjhJmUeCEBtZDF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GtzKgPq6ADE0UnKFgFfjhJmUeCEBtZDF&sz=w640",
+          "sizeBytes": 4684184,
+          "sha256": "F2B86F3ECE6A35BE245D7F06C9639943647A4380452C41A57438B7FC5703D938",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Kamisato Ayaka Genshin Impact"
+        },
+        {
+          "id": "v_9568b89b",
+          "name": "Yu Narukami Persona 4 Revival",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jonh31XN36CLVOnUWZ5YUEs1N9VT0iBg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jonh31XN36CLVOnUWZ5YUEs1N9VT0iBg&sz=w640",
+          "sizeBytes": 4691238,
+          "sha256": "F7823DB3FD27E9425BEC0253447EBC89963DF671D0EDF0B05271EDE4FEC5A79B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Yu Narukami Persona 4 Revival | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 1049,
-  "totalVariants": 1733,
+  "totalGames": 1050,
+  "totalVariants": 1737,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
