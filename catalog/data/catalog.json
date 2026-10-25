@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T17:23:28.303917+00:00",
+  "updatedAt": "2026-10-25T17:28:08.420040+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -640,6 +640,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Star Night Animal Crossing: New Horizons"
+        },
+        {
+          "id": "v_92a396e6",
+          "name": "Animal Crossing: New Horizons Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vfCmkz30eYh8AoCAuN4QOfdsx4hUMcPN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vfCmkz30eYh8AoCAuN4QOfdsx4hUMcPN&sz=w640",
+          "sizeBytes": 2133305,
+          "sha256": "C84782F8C8EE2B70AB1176C17FB2E85078C7B534DDA53172B7D358458635B1C0",
+          "durationSec": 30.0,
+          "author": "MrBaggyEyed",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Animal Crossing: New Horizons Hero"
         }
       ]
     },
@@ -6079,6 +6097,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Pokémon Legends: Arceus Hero"
+        },
+        {
+          "id": "v_a8b0df61",
+          "name": "Pokémon Legends: Arceus Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZiYkrqlHByQCibqawiFbJN38ZsYjFv04",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZiYkrqlHByQCibqawiFbJN38ZsYjFv04&sz=w640",
+          "sizeBytes": 15840,
+          "sha256": "2224A95F4D67416BDAFEFA78ECFB497ADD1D92AE5CFC651758504A1FDCF43B59",
+          "durationSec": 30.0,
+          "author": "Villaness",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Pokémon Legends: Arceus Motion Cover"
         }
       ]
     },
@@ -39832,6 +39868,6 @@
     }
   ],
   "totalGames": 1051,
-  "totalVariants": 1773,
+  "totalVariants": 1775,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
