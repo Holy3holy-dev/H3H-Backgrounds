@@ -1,7 +1,11 @@
 {
-  "latestVersion": "1.3.5",
+  "latestVersion": "1.3.6",
   "minRequiredVersion": "1.0.0",
-  "downloadUrl": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.3.5/H3H-Backgrounds.nro",
+  "downloadUrl": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.3.6/H3H-Backgrounds.nro",
   "afterDarkDownloadUrl": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.3.5/H3H-AfterDark.nro",
-  "releaseNotes": "v1.3.5: 🔲 Раздельная установка видеоиконок 4IFIR и видеофонов, кнопка [⚡ Иконка] на карточках, независимое удаление и шаблон Switch Home"
+  "releaseNotes": "v1.3.5: 🔲 Раздельная установка видеоиконок 4IFIR и видеофонов, кнопка [⚡ Иконка] на карточках, независимое удаление и шаблон Switch Home",
+  "releaseDate": "2026-10-25",
+  "releaseUrl": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/tag/v1.3.6",
+  "changelog": "v1.3.6: Resilient Cloud Downloader for Switch\\n- Direct Google Drive download bypassing slow 303 redirects & redundant TLS handshakes\\n- Increased connection and stall timeouts to 45s with automatic 3x retry on network hiccups\\n- Partial download resume (HTTP Range support) preserving progress on Wi-Fi drops\\n- Interactive Downloads tab: tap any failed card or error badge to instantly retry",
+  "changelogRu": "v1.3.6: Сверхнадёжный загрузчик видеофонов и иконок\\n- Прямой доступ к хранилищу Google Drive в обход промежуточных редиректов 303 (в 2 раза быстрее старт)\\n- Увеличены таймауты подключения и ожидания до 45 сек, принудительный IPv4 (защита от сбоев DNS)\\n- Автодокачка файлов (HTTP Range): при разрыве Wi-Fi скачивание продолжается с места остановки\\n- Тройной автоповтор при сбоях сети + возможность перезапустить задачу касанием по карточке"
 }

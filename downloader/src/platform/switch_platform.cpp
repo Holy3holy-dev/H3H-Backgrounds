@@ -6,6 +6,7 @@
 #include <switch.h>
 #include <curl/curl.h>
 #include <sys/statvfs.h>
+#include <sys/stat.h>
 #include <cstdio>
 #include <cstring>
 #include <iomanip>
@@ -29,6 +30,7 @@ struct DownloadProgressContext {
     ProgressCallback callback;
     const std::atomic<bool>* cancel;
     std::chrono::steady_clock::time_point startTime;
+    uint64_t initialOffset{0};
 };
 
 int curlXferProgressCallback(void* clientp, curl_off_t dltotal, curl_off_t dlnow, curl_off_t, curl_off_t) {
@@ -39,11 +41,13 @@ int curlXferProgressCallback(void* clientp, curl_off_t dltotal, curl_off_t dlnow
         return 1; // Abort transfer
     }
 
-    if (ctx->callback && dlnow > 0) {
+    if (ctx->callback && (dlnow > 0 || ctx->initialOffset > 0)) {
         auto now = std::chrono::steady_clock::now();
         double elapsedSec = std::chrono::duration<double>(now - ctx->startTime).count();
         double speed = elapsedSec > 0.0 ? static_cast<double>(dlnow) / elapsedSec : 0.0;
-        ctx->callback(static_cast<uint64_t>(dlnow), static_cast<uint64_t>(dltotal), speed);
+        uint64_t currentBytes = ctx->initialOffset + static_cast<uint64_t>(dlnow);
+        uint64_t totalBytes = dltotal > 0 ? (ctx->initialOffset + static_cast<uint64_t>(dltotal)) : 0;
+        ctx->callback(currentBytes, totalBytes, speed);
     }
     return 0;
 }
@@ -343,6 +347,7 @@ public:
         curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);
         curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);
         curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
+        curl_easy_setopt(curl, CURLOPT_IPRESOLVE, CURL_IPRESOLVE_V4);
         curl_easy_setopt(curl, CURLOPT_CONNECTTIMEOUT, 10L);
         curl_easy_setopt(curl, CURLOPT_TIMEOUT, 20L);
         curl_easy_setopt(curl, CURLOPT_BUFFERSIZE, 64 * 1024L);
@@ -381,7 +386,7 @@ public:
         std::string& outError
     ) override {
         if (!m_socketInitialized) {
-            outError = "Сетевой сервис не доступен (нет инициализации сокетов)";
+            outError = "Network services not available (socket error)";
             return false;
         }
 
@@ -395,70 +400,124 @@ public:
             }
         }
 
-        FILE* fp = fopen(destPath.c_str(), "wb");
-        if (!fp) {
-            outError = "Could not open target file for writing: " + destPath;
-            return false;
+        // Transform Google Drive indirect links to direct drive.usercontent.google.com links
+        // to bypass the slow 303 redirect and avoid double TLS handshakes:
+        std::string effectiveUrl = url;
+        if (effectiveUrl.find("drive.google.com") != std::string::npos) {
+            size_t idPos = effectiveUrl.find("id=");
+            if (idPos != std::string::npos) {
+                std::string fileId = effectiveUrl.substr(idPos + 3);
+                size_t ampPos = fileId.find('&');
+                if (ampPos != std::string::npos) {
+                    fileId = fileId.substr(0, ampPos);
+                }
+                if (!fileId.empty()) {
+                    effectiveUrl = "https://drive.usercontent.google.com/download?id=" + fileId + "&export=download";
+                }
+            }
         }
 
-        // 256 KB memory buffer for MicroSD block writes (eliminates FAT32 SD-card write stalls)
-        std::vector<char> fileBuffer(256 * 1024);
-        setvbuf(fp, fileBuffer.data(), _IOFBF, fileBuffer.size());
+        constexpr int MAX_RETRIES = 3;
+        bool success = false;
+        std::string lastError;
 
-        CURL* curl = curl_easy_init();
-        if (!curl) {
+        for (int attempt = 1; attempt <= MAX_RETRIES; ++attempt) {
+            if (cancelRequested.load()) {
+                remove(destPath.c_str());
+                outError = "Download cancelled by user";
+                return false;
+            }
+
+            // Check if partial download already exists on disk to resume
+            curl_off_t existingBytes = 0;
+            struct stat st{};
+            if (stat(destPath.c_str(), &st) == 0 && st.st_size > 0) {
+                existingBytes = static_cast<curl_off_t>(st.st_size);
+            }
+
+            FILE* fp = fopen(destPath.c_str(), existingBytes > 0 ? "ab" : "wb");
+            if (!fp) {
+                outError = "Could not open target file for writing: " + destPath;
+                return false;
+            }
+
+            // 256 KB memory buffer for MicroSD block writes (eliminates FAT32 SD-card write stalls)
+            std::vector<char> fileBuffer(256 * 1024);
+            setvbuf(fp, fileBuffer.data(), _IOFBF, fileBuffer.size());
+
+            CURL* curl = curl_easy_init();
+            if (!curl) {
+                fclose(fp);
+                outError = "Failed to initialize CURL context";
+                return false;
+            }
+
+            DownloadProgressContext ctx{progress, &cancelRequested, std::chrono::steady_clock::now(), static_cast<uint64_t>(existingBytes)};
+
+            curl_easy_setopt(curl, CURLOPT_URL, effectiveUrl.c_str());
+            curl_easy_setopt(curl, CURLOPT_WRITEDATA, fp);
+            curl_easy_setopt(curl, CURLOPT_NOSIGNAL, 1L);
+            curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);
+            curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);
+            curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
+            curl_easy_setopt(curl, CURLOPT_MAXREDIRS, 10L);
+            curl_easy_setopt(curl, CURLOPT_IPRESOLVE, CURL_IPRESOLVE_V4);
+            curl_easy_setopt(curl, CURLOPT_CONNECTTIMEOUT, 45L);
+            curl_easy_setopt(curl, CURLOPT_BUFFERSIZE, 256 * 1024L); // 256 KB curl receive buffer
+            curl_easy_setopt(curl, CURLOPT_TCP_NODELAY, 1L);         // Disable Nagle algorithm
+            curl_easy_setopt(curl, CURLOPT_TCP_KEEPALIVE, 1L);
+            curl_easy_setopt(curl, CURLOPT_COOKIEFILE, "");          // Enable cookie engine
+            curl_easy_setopt(curl, CURLOPT_LOW_SPEED_LIMIT, 256L);   // 256 B/s minimum threshold
+            curl_easy_setopt(curl, CURLOPT_LOW_SPEED_TIME, 45L);     // 45s stall timeout (generous for Wi-Fi)
+            curl_easy_setopt(curl, CURLOPT_USERAGENT, "Mozilla/5.0 (Nintendo Switch; ShareApplet) AppleWebKit/609.4 (KHTML, like Gecko) NF/6.0.2.22.5 NintendoBrowser/5.1.0.22474");
+            curl_easy_setopt(curl, CURLOPT_XFERINFOFUNCTION, curlXferProgressCallback);
+            curl_easy_setopt(curl, CURLOPT_XFERINFODATA, &ctx);
+            curl_easy_setopt(curl, CURLOPT_NOPROGRESS, 0L);
+
+            if (existingBytes > 0) {
+                curl_easy_setopt(curl, CURLOPT_RESUME_FROM_LARGE, existingBytes);
+            }
+
+            CURLcode res = curl_easy_perform(curl);
+            long httpCode = 0;
+            curl_easy_getinfo(curl, CURLINFO_RESPONSE_CODE, &httpCode);
+
+            fflush(fp);
             fclose(fp);
-            outError = "Failed to initialize CURL context";
-            return false;
+            curl_easy_cleanup(curl);
+
+            if (res == CURLE_ABORTED_BY_CALLBACK) {
+                remove(destPath.c_str());
+                outError = "Download cancelled by user";
+                return false;
+            }
+
+            // HTTP 416 Range Not Satisfiable means server doesn't support resuming from this offset
+            if (httpCode == 416) {
+                remove(destPath.c_str());
+                continue;
+            }
+
+            if (res == CURLE_OK && ((httpCode >= 200 && httpCode < 300) || httpCode == 206)) {
+                success = true;
+                break;
+            }
+
+            if (res != CURLE_OK) {
+                lastError = std::string("Download failed: ") + curl_easy_strerror(res);
+            } else {
+                lastError = "Server returned HTTP status " + std::to_string(httpCode);
+            }
+
+            // If an attempt failed and not cancelled, wait a moment and retry with backoff
+            if (attempt < MAX_RETRIES && !cancelRequested.load()) {
+                svcSleepThread(1000000000ULL * attempt); // 1s, 2s backoff
+            }
         }
 
-        DownloadProgressContext ctx{progress, &cancelRequested, std::chrono::steady_clock::now()};
-
-        typedef int (*CurlXferFn)(void*, curl_off_t, curl_off_t, curl_off_t, curl_off_t);
-        CurlXferFn xferFn = curlXferProgressCallback;
-
-        curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
-        curl_easy_setopt(curl, CURLOPT_WRITEDATA, fp);
-        curl_easy_setopt(curl, CURLOPT_NOSIGNAL, 1L);
-        curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);
-        curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);
-        curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
-        curl_easy_setopt(curl, CURLOPT_MAXREDIRS, 10L);
-        curl_easy_setopt(curl, CURLOPT_CONNECTTIMEOUT, 15L);
-        curl_easy_setopt(curl, CURLOPT_BUFFERSIZE, 256 * 1024L); // 256 KB curl receive buffer
-        curl_easy_setopt(curl, CURLOPT_TCP_NODELAY, 1L);         // Disable Nagle algorithm
-        curl_easy_setopt(curl, CURLOPT_TCP_KEEPALIVE, 1L);
-        curl_easy_setopt(curl, CURLOPT_COOKIEFILE, "");          // Enable cookie engine for Google Drive redirects
-        curl_easy_setopt(curl, CURLOPT_LOW_SPEED_LIMIT, 1024L);  // 1 KB/s minimum
-        curl_easy_setopt(curl, CURLOPT_LOW_SPEED_TIME, 10L);     // 10s stall timeout
-        curl_easy_setopt(curl, CURLOPT_USERAGENT, "Mozilla/5.0 (Nintendo Switch; ShareApplet) AppleWebKit/609.4 (KHTML, like Gecko) NF/6.0.2.22.5 NintendoBrowser/5.1.0.22474");
-        curl_easy_setopt(curl, CURLOPT_XFERINFOFUNCTION, xferFn);
-        curl_easy_setopt(curl, CURLOPT_XFERINFODATA, &ctx);
-        curl_easy_setopt(curl, CURLOPT_NOPROGRESS, 0L);
-
-        CURLcode res = curl_easy_perform(curl);
-        long httpCode = 0;
-        curl_easy_getinfo(curl, CURLINFO_RESPONSE_CODE, &httpCode);
-
-        fflush(fp);
-        fclose(fp);
-        curl_easy_cleanup(curl);
-
-        if (res == CURLE_ABORTED_BY_CALLBACK) {
+        if (!success) {
             remove(destPath.c_str());
-            outError = "Download cancelled by user";
-            return false;
-        }
-
-        if (res != CURLE_OK) {
-            remove(destPath.c_str());
-            outError = std::string("Download failed: ") + curl_easy_strerror(res);
-            return false;
-        }
-
-        if (httpCode < 200 || httpCode >= 300) {
-            remove(destPath.c_str());
-            outError = "Server returned HTTP status " + std::to_string(httpCode);
+            outError = lastError.empty() ? "Download failed after multiple attempts" : lastError;
             return false;
         }
 

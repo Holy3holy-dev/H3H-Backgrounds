@@ -5022,10 +5022,34 @@ void App::handleTouchTap(int mx, int my) {
                     }
                 }
             }
-            // Downloads Tab: touch clear button
+            // Downloads Tab: interactive touch controls
             else if (m_activeTab == Tab::Downloads) {
-                if (my >= 660 && mx >= 30 && mx <= 350) {
-                    onButtonPress(2 /* X - Clear */);
+                // Footer action buttons at y in [660, 720]
+                if (my >= 660 && my <= 720) {
+                    if (mx >= 130 && mx <= 310) {
+                        onButtonPress(0 /* A - Retry failed */);
+                    } else if (mx >= 350 && mx <= 500) {
+                        onButtonPress(2 /* X - Clear */);
+                    } else if (mx >= 510 && mx <= 740) {
+                        onButtonPress(3 /* Y - Install all missing */);
+                    } else if (mx >= 750 && mx <= 860) {
+                        onButtonPress(1 /* B - Back */);
+                    }
+                }
+                // Tapping directly on a failed card or its [ Ошибка ] button to retry it: y in [160, 640]
+                else if (my >= 160 && my <= 640 && mx >= 60 && mx <= 1220) {
+                    int clickedIdx = m_downloadsScrollOffset + (my - 160) / 94;
+                    std::lock_guard<std::mutex> lock(m_queueMutex);
+                    if (clickedIdx >= 0 && clickedIdx < static_cast<int>(m_downloadQueue.size())) {
+                        if (m_downloadQueue[clickedIdx].state == TaskState::Failed) {
+                            m_downloadQueue[clickedIdx].state = TaskState::Pending;
+                            m_downloadQueue[clickedIdx].errorMessage.clear();
+                            m_statusNotification = (m_language == Language::Russian)
+                                ? "Перезапуск задачи..."
+                                : "Retrying task...";
+                            m_notificationFramesRemaining = 90;
+                        }
+                    }
                 }
             }
             // Catalog Tab: Search Bar click: x in [480, 780], y in [90, 140]
