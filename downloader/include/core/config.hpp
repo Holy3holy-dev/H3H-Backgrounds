@@ -65,7 +65,7 @@ public:
 
     // Application Version
 
-    static constexpr const char* APP_VERSION = "1.3.3";
+    static constexpr const char* APP_VERSION = "1.3.5";
 
     static constexpr const char* VERSION_CHECK_URL =
 
