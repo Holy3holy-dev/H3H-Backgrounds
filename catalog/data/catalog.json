@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T14:07:39.016257+00:00",
+  "updatedAt": "2026-10-25T14:10:12.964924+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -4942,6 +4942,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 01002B30028F6000_Celeste_Mountain.mp4"
+        },
+        {
+          "id": "v_15a72dfd",
+          "name": "Celeste Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Al4nkpSAmrKM2uAReApZCYrneK7g6v2C",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Al4nkpSAmrKM2uAReApZCYrneK7g6v2C&sz=w640",
+          "sizeBytes": 242935,
+          "sha256": "C663591D5451005D6C1005B778856649E4959509500EF6DE862F0049E0D1BEEC",
+          "durationSec": 30.0,
+          "author": "qwhackz",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Celeste Hero"
         }
       ]
     },
@@ -4967,6 +4985,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 010029600D56A000_Katana_ZERO.mp4"
+        },
+        {
+          "id": "v_cf184eee",
+          "name": "Katana ZERO Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1j0SrE10dzyzABUg_gjhPOmdtrWPnn4nb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1j0SrE10dzyzABUg_gjhPOmdtrWPnn4nb&sz=w640",
+          "sizeBytes": 3075501,
+          "sha256": "524E9053BCFE40096A552BE474FC0ABAE64BEC89C362C248D61948081103FF5A",
+          "durationSec": 30.0,
+          "author": "Fublit",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Katana ZERO Motion Cover"
         }
       ]
     },
@@ -36976,6 +37012,6 @@
     }
   ],
   "totalGames": 1036,
-  "totalVariants": 1621,
+  "totalVariants": 1623,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
