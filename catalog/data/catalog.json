@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T20:33:53.880663+00:00",
+  "updatedAt": "2026-10-25T20:58:51.492396+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -40131,9 +40131,61 @@
           "notes": "Switch 720p 30fps H264 | Overcooked Motion Cover"
         }
       ]
+    },
+    {
+      "titleId": "0100CF5010FEC000",
+      "title": "Bayonetta Origins Cereza and the Lost Demon [NSP][RUS/Multi10]",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CF5010FEC000.jpg",
+      "variants": [
+        {
+          "id": "v_cffb9afc",
+          "name": "Bayonetta Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IEatu2N2_V8qAspWjFqMcF6k9AcmYrHg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IEatu2N2_V8qAspWjFqMcF6k9AcmYrHg&sz=w640",
+          "sizeBytes": 4677488,
+          "sha256": "782580CC8CA70BBEDC7EA99D4FBF30227D3B4A842F15EF112F371AAC5702F249",
+          "durationSec": 30.0,
+          "author": "SalemsKing",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Bayonetta Motion Cover"
+        }
+      ]
+    },
+    {
+      "titleId": "0100892015238000",
+      "title": "Kathy Rain Director's Cut [NSP][RUS/Multi8]",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100892015238000.jpg",
+      "variants": [
+        {
+          "id": "v_f257e9ce",
+          "name": "Kathy Rain Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=190PR-XYtGV5LD2LSHpi6qaMvZd1huF7E",
+          "previewUrl": "https://drive.google.com/thumbnail?id=190PR-XYtGV5LD2LSHpi6qaMvZd1huF7E&sz=w640",
+          "sizeBytes": 1047220,
+          "sha256": "8F00DD9B66B1FC54FAD228E40EB1691BE211738C9AB75C352904D0E7E0DC3E9A",
+          "durationSec": 30.0,
+          "author": "TUFKAC",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Kathy Rain Hero"
+        }
+      ]
     }
   ],
-  "totalGames": 1055,
-  "totalVariants": 1788,
+  "totalGames": 1057,
+  "totalVariants": 1790,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
