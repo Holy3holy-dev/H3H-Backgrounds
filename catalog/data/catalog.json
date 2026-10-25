@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T15:31:37.701259+00:00",
+  "updatedAt": "2026-10-25T15:58:37.515083+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -38761,9 +38761,53 @@
           "notes": "Switch 720p 30fps H264 | Dragon On Top Of Mountain Skyrim | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100092021C80000",
+      "title": "Tomb Raider (2013) Definitive edition [NSZ][RUS/Multi13]",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100092021C80000.jpg",
+      "variants": [
+        {
+          "id": "v_720ac570",
+          "name": "Tomb Raider Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FXRk0UOaCLTHzm8PC4H3i5geEP0Suojv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FXRk0UOaCLTHzm8PC4H3i5geEP0Suojv&sz=w640",
+          "sizeBytes": 9327499,
+          "sha256": "ABEF0CBDD33FD79EFEAB5925FFBE191EDE48AD151519E8CD76B87093F9BC4811",
+          "durationSec": 30.0,
+          "author": "TUFKAC",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Tomb Raider Hero"
+        },
+        {
+          "id": "v_26440f09",
+          "name": "Tomb Raider Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SKVkb5nupIApaEw3P5ksU0Y2tVWjwqFI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SKVkb5nupIApaEw3P5ksU0Y2tVWjwqFI&sz=w640",
+          "sizeBytes": 9388552,
+          "sha256": "B686AE89CDA581BAF03648432F467659BE6087E218D43B322DCD3DB65368AC7B",
+          "durationSec": 30.0,
+          "author": "TUFKAC",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Tomb Raider Hero"
+        }
+      ]
     }
   ],
-  "totalGames": 1039,
-  "totalVariants": 1719,
+  "totalGames": 1040,
+  "totalVariants": 1721,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
