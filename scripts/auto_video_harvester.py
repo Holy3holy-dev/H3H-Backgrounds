@@ -828,10 +828,24 @@ class AutoVideoHarvester:
                 print(f"[!] Warning reading switch_titles_db: {e}")
 
         other_targets.sort(key=lambda t: len(games_map.get(t[0].upper(), {}).get("variants", [])))
-        # Always evaluate curated priority games FIRST before obscure library games!
-        targets = priority_targets + other_targets
 
-        for tid, full_game_name, search_query in targets:
+        # Build active targets for this batch:
+        # 1. Any priority target with < 4 variants
+        active_targets = [t for t in priority_targets if len(games_map.get(t[0].upper(), {}).get("variants", [])) < 4]
+
+        # 2. Rolling slice of other_targets advancing cursor every batch (up to 25 queries)
+        if len(active_targets) < limit and other_targets:
+            sg_cursor = self.log_data.get("sg_cursor", 0) % len(other_targets)
+            queries_to_try = 25
+            for i in range(queries_to_try):
+                idx = (sg_cursor + i) % len(other_targets)
+                tid, raw_t, c_t = other_targets[idx]
+                if len(games_map.get(tid.upper(), {}).get("variants", [])) < 4:
+                    active_targets.append((tid, raw_t, c_t))
+            self.log_data["sg_cursor"] = (sg_cursor + queries_to_try) % len(other_targets)
+            self._save_log()
+
+        for tid, full_game_name, search_query in active_targets:
             if harvested >= limit:
                 break
 
