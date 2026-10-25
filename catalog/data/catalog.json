@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T16:36:52.753604+00:00",
+  "updatedAt": "2026-10-25T16:41:38.530289+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -3447,6 +3447,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 0100DCD01525A000_Persona_3_Portable.mp4"
+        },
+        {
+          "id": "v_f59d03c9",
+          "name": "Persona 3 Portable: The Shadow Hour Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CRT4UV4TCQJbNA3yvTVkyV5g9lMb8h7P",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CRT4UV4TCQJbNA3yvTVkyV5g9lMb8h7P&sz=w640",
+          "sizeBytes": 4750979,
+          "sha256": "DBE84812EDB982F9B34A1F24C4EB0838D202B7E39A15A708F43E61607A8CBA35",
+          "durationSec": 30.0,
+          "author": "Bluss",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Persona 3 Portable: The Shadow Hour Hero"
         }
       ]
     },
@@ -4412,6 +4430,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 010074F013262000_Xenoblade_Chronicles_3.mp4"
+        },
+        {
+          "id": "v_da791779",
+          "name": "Xenoblade Chronicles 3 Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1U5ifhtlk6xdCMnkxRXdpdh-UL6LTWgZv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1U5ifhtlk6xdCMnkxRXdpdh-UL6LTWgZv&sz=w640",
+          "sizeBytes": 6280233,
+          "sha256": "1E377E36CBD03552121023D9052F64537EE9C1F558BBA60C78F54BF94F3B5651",
+          "durationSec": 30.0,
+          "author": "TUFKAC",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Xenoblade Chronicles 3 Hero"
         }
       ]
     },
@@ -39248,6 +39284,6 @@
     }
   ],
   "totalGames": 1050,
-  "totalVariants": 1741,
+  "totalVariants": 1743,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
