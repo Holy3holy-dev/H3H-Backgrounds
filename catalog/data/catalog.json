@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T16:20:32.143054+00:00",
+  "updatedAt": "2026-10-25T16:21:14.201647+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -9067,6 +9067,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 01008CF01BAAC000_The_Legend_of_Zelda_Echoes_of_Wisdom.mp4"
+        },
+        {
+          "id": "v_53576073",
+          "name": "Princess Zelda The Legend of Zelda: Brea",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UGTal0yO10WuWTwYHeVvzU5d_KR679vR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UGTal0yO10WuWTwYHeVvzU5d_KR679vR&sz=w640",
+          "sizeBytes": 4698521,
+          "sha256": "F10FE9E1E656F2B6386B2F296A30FD7F03493A26C40A760F6682B519F9400538",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Princess Zelda The Legend of Zelda: Brea | ЗВУК"
         }
       ]
     },
@@ -38857,9 +38875,35 @@
           "notes": "Switch 720p 30fps H264 | The Legend of Zelda: Skyward Sword HD Hero"
         }
       ]
+    },
+    {
+      "titleId": "01004C300E9F0000",
+      "title": "Paper Mario: The Origami King",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004C300E9F0000.jpg",
+      "variants": [
+        {
+          "id": "v_29bded2e",
+          "name": "Paper Mario: The Origami King Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-8BozFhC4IvOdlFAEAJH_QvCSjeQpmqe",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-8BozFhC4IvOdlFAEAJH_QvCSjeQpmqe&sz=w640",
+          "sizeBytes": 1896448,
+          "sha256": "3C8F85104E6DCAEB0797A5B23C839BC55D115FFB335E6AAC39F04EC7434EBF88",
+          "durationSec": 30.0,
+          "author": "Strik3rz",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Paper Mario: The Origami King Hero"
+        }
+      ]
     }
   ],
-  "totalGames": 1042,
-  "totalVariants": 1723,
+  "totalGames": 1043,
+  "totalVariants": 1725,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }

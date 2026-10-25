@@ -12011,15 +12011,39 @@
       "mode": "main",
       "codec": "h264",
       "author": "Smallz_67"
+    },
+    "https://cdn2.steamgriddb.com/hero/17b9e0e47a3efcc2c7e084a4bae8c072.webp": {
+      "title": "Paper Mario: The Origami King Hero",
+      "titleId": "01004C300E9F0000",
+      "gameName": "Paper Mario: The Origami King",
+      "varId": "v_29bded2e",
+      "driveId": "1-8BozFhC4IvOdlFAEAJH_QvCSjeQpmqe",
+      "mode": "main",
+      "codec": "h264",
+      "author": "Strik3rz"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/princess-zelda-the-legend-of-zelda-breath-of-the-wild-preview.webm": {
+      "title": "Princess Zelda The Legend of Zelda: Brea",
+      "titleId": "01008CF01BAAC000",
+      "gameName": "The Legend of Zelda: Echoes of Wisdom",
+      "varId": "v_53576073",
+      "driveId": "1UGTal0yO10WuWTwYHeVvzU5d_KR679vR",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/princess-zelda-the-legend-of-zelda-breath-of-the-wild-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/princess-zelda-the-legend-of-zelda-breath-of-the-wild-preview.webm"
     }
   },
-  "total_harvested": 1676,
-  "last_updated": "2026-10-25T16:20:32.135661+00:00",
+  "total_harvested": 1679,
+  "last_updated": "2026-10-25T16:21:14.195220+00:00",
   "page_cursors": {
     "super mario odyssey": 1,
     "mario odyssey": 1,
-    "mario kart 8": 2,
-    "mario kart": 2,
+    "mario kart 8": 1,
+    "mario kart": 1,
     "animal crossing new horizons": 2,
     "animal crossing": 2,
     "super smash bros ultimate": 1,
@@ -12757,5 +12781,6 @@
     "Evoland Legendary edition": 1,
     "Sonic Origins Plus": 1
   },
-  "query_cursor": 960
+  "query_cursor": 980,
+  "priority_cursor": 12
 }
