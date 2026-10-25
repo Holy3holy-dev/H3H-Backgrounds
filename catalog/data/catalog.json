@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T17:07:56.752941+00:00",
+  "updatedAt": "2026-10-25T17:12:42.200549+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -3250,6 +3250,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Monado Xenoblade Chronicles | ЗВУК"
+        },
+        {
+          "id": "v_946376a9",
+          "name": "Xenoblade Chronicles 2 Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12AzQ4tOM_r6tg2AXQRKx3Iye3DhzqKAx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12AzQ4tOM_r6tg2AXQRKx3Iye3DhzqKAx&sz=w640",
+          "sizeBytes": 1554541,
+          "sha256": "00C9C182931F1FDC9D674729E3C02D36C02895C65FCBD1D11DFE3AE7A5DA9F79",
+          "durationSec": 30.0,
+          "author": "WitheredVirusN100",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Xenoblade Chronicles 2 Motion Cover"
         }
       ]
     },
@@ -3501,6 +3519,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Persona 3 Portable: The Shadow Hour Hero"
+        },
+        {
+          "id": "v_73741599",
+          "name": "Makoto Yuki Rainy Day Persona 3 reload",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=166SuphuQWoyd6bPmVx6V1jhaoR0LZTzU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=166SuphuQWoyd6bPmVx6V1jhaoR0LZTzU&sz=w640",
+          "sizeBytes": 4552853,
+          "sha256": "6CD21AF4200D70F0934E9D34C8E4418089DA8809F97C9B98C6BD7F0262495B22",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Makoto Yuki Rainy Day Persona 3 reload"
+        },
+        {
+          "id": "v_45fd8f3a",
+          "name": "Azero Persona 3 Reload",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-ptjqTuDROqkGppZ_B0TTkQrG4T6b-7D",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-ptjqTuDROqkGppZ_B0TTkQrG4T6b-7D&sz=w640",
+          "sizeBytes": 4718566,
+          "sha256": "983B1110D6CFA667F5A5EF2ECA5339A10A6ADFF2DA8862190405191195A4653A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Azero Persona 3 Reload | ЗВУК"
         }
       ]
     },
@@ -8868,6 +8922,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 0100B04011742000_Monster_Hunter_Rise.mp4"
+        },
+        {
+          "id": "v_ae6931d7",
+          "name": "Monster Hunter Rise Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1B96qlDxGqhECKF1X0qzhOFWJLzn7qX4B",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1B96qlDxGqhECKF1X0qzhOFWJLzn7qX4B&sz=w640",
+          "sizeBytes": 1165878,
+          "sha256": "E2741F440E3610DCFD23A7CB69AC00D6C278A4689539D8B644A13E6D0CB76186",
+          "durationSec": 30.0,
+          "author": "暮风羽",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Monster Hunter Rise Motion Cover"
         }
       ]
     },
@@ -39652,6 +39724,6 @@
     }
   ],
   "totalGames": 1051,
-  "totalVariants": 1763,
+  "totalVariants": 1767,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }

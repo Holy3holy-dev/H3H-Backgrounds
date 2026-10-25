@@ -12467,10 +12467,58 @@
     "https://moewalls.com/anime/chisa-looking-at-you-wuthering-waves-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2025/chisa-looking-at-you-wuthering-waves-preview.webm"
+    },
+    "https://cdn2.steamgriddb.com/grid/75a6f3cf3135edd3622b050ebe6d2f63.webp": {
+      "title": "Xenoblade Chronicles 2 Motion Cover",
+      "titleId": "0100E95004038000",
+      "gameName": "Xenoblade Chronicles 2",
+      "varId": "v_946376a9",
+      "driveId": "12AzQ4tOM_r6tg2AXQRKx3Iye3DhzqKAx",
+      "mode": "main",
+      "codec": "h264",
+      "author": "WitheredVirusN100"
+    },
+    "https://cdn2.steamgriddb.com/grid/9f2e0a682111ec5783d9c7eb19a61ff2.webp": {
+      "title": "Monster Hunter Rise Motion Cover",
+      "titleId": "0100B04011742000",
+      "gameName": "Monster Hunter Rise",
+      "varId": "v_ae6931d7",
+      "driveId": "1B96qlDxGqhECKF1X0qzhOFWJLzn7qX4B",
+      "mode": "main",
+      "codec": "h264",
+      "author": "暮风羽"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2026/makoto-yuki-rainy-day-persona-3-reload-preview.webm": {
+      "title": "Makoto Yuki Rainy Day Persona 3 reload",
+      "titleId": "0100DCD01525A000",
+      "gameName": "Persona 3 Portable",
+      "varId": "v_73741599",
+      "driveId": "166SuphuQWoyd6bPmVx6V1jhaoR0LZTzU",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/anime/makoto-yuki-rainy-day-persona-3-reload-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2026/makoto-yuki-rainy-day-persona-3-reload-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2026/azero-persona-3-reload-preview.webm": {
+      "title": "Azero Persona 3 Reload",
+      "titleId": "0100DCD01525A000",
+      "gameName": "Persona 3 Portable",
+      "varId": "v_45fd8f3a",
+      "driveId": "1-ptjqTuDROqkGppZ_B0TTkQrG4T6b-7D",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/anime/azero-persona-3-reload-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2026/azero-persona-3-reload-preview.webm"
     }
   },
-  "total_harvested": 1730,
-  "last_updated": "2026-10-25T17:07:56.744552+00:00",
+  "total_harvested": 1736,
+  "last_updated": "2026-10-25T17:12:42.192632+00:00",
   "page_cursors": {
     "super mario odyssey": 1,
     "mario odyssey": 1,
@@ -13405,8 +13453,9 @@
     "Megaton Rainfall": 1,
     "Star Overdrive": 1,
     "Fire Emblem Warriors": 1,
-    "Mario Kart Live Home Circuit": 1
+    "Mario Kart Live Home Circuit": 1,
+    "persona 3 portable": 1
   },
-  "query_cursor": 1240,
-  "priority_cursor": 60
+  "query_cursor": 1260,
+  "priority_cursor": 72
 }
