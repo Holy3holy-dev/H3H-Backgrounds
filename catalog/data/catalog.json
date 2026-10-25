@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T14:38:30.440399+00:00",
+  "updatedAt": "2026-10-25T14:42:36.959077+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -19418,6 +19418,60 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "SteamGridDB Animated Hero: 01008E2013144000_Paw_Paw_Paw.mp4"
+        },
+        {
+          "id": "v_c8bc175a",
+          "name": "Spawn",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1YObwaHoTpV09943Qt1U9GpaI1Y0fDKCS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1YObwaHoTpV09943Qt1U9GpaI1Y0fDKCS&sz=w640",
+          "sizeBytes": 4709930,
+          "sha256": "AC4142BF8487D616C2BED697134B331C0043D2F39BAF9C820727CADAF044C7CB",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Spawn | ЗВУК"
+        },
+        {
+          "id": "v_938e56b3",
+          "name": "Jinhsi Neko Maid Wuthering Waves",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MZ-RC7hQeYx2RnvBncKKv2jauzHDRJqR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MZ-RC7hQeYx2RnvBncKKv2jauzHDRJqR&sz=w640",
+          "sizeBytes": 4704382,
+          "sha256": "EBEB86F654B7B7D69481802B05924CBA36CF2A77FAAC7B686C0249EF524A485F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Jinhsi Neko Maid Wuthering Waves | ЗВУК"
+        },
+        {
+          "id": "v_d61cd0b1",
+          "name": "Kawaii Cute Anime Girl Neko Hoodie",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DdS6hlG74IMeVq_VAPQ5RfaiM-2pXQVY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DdS6hlG74IMeVq_VAPQ5RfaiM-2pXQVY&sz=w640",
+          "sizeBytes": 4721803,
+          "sha256": "E0B7179A6A55047BCB557F84B776667E912BBCBC4331E6E74AD253E903633AA4",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kawaii Cute Anime Girl Neko Hoodie | ЗВУК"
         }
       ]
     },
@@ -24701,6 +24755,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Melinoe Underworld Princess Hades 2 | ЗВУК"
+        },
+        {
+          "id": "v_9047283e",
+          "name": "Hades Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xlDBS51qtQ40NVQ7VqQvZhl-em923-Hd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xlDBS51qtQ40NVQ7VqQvZhl-em923-Hd&sz=w640",
+          "sizeBytes": 676204,
+          "sha256": "B89D2A0FD898CE6EB42D2691DF0F49C45CBBFA88283E002ABD4A0C1F7982F36A",
+          "durationSec": 30.0,
+          "author": "knifeyspoony",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Hades Motion Cover"
+        },
+        {
+          "id": "v_b12b12ce",
+          "name": "Hades Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Q2KzTs1qhRF-ng9ZofnobrKRxELSt5zD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Q2KzTs1qhRF-ng9ZofnobrKRxELSt5zD&sz=w640",
+          "sizeBytes": 1237569,
+          "sha256": "134BB31E02B8B2BAD75DFF615CB9F83C5E131E731A12E64510A8271D850D11D9",
+          "durationSec": 30.0,
+          "author": "TUFKAC",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Hades Motion Cover"
         }
       ]
     },
@@ -38008,6 +38098,6 @@
     }
   ],
   "totalGames": 1039,
-  "totalVariants": 1677,
+  "totalVariants": 1682,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
