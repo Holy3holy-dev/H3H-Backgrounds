@@ -11267,10 +11267,72 @@
       "mode": "main",
       "codec": "h264",
       "author": "TUFKAC"
+    },
+    "https://cdn2.steamgriddb.com/hero/585eb4127afd003bd784f6e8dc132be2.png": {
+      "title": "Celeste Hero",
+      "titleId": "01002B30028F6000",
+      "gameName": "Celeste",
+      "varId": "v_5bd7d69a",
+      "driveId": "1N4SYGfEyIKJVRr5x0sKwV9T9A1hpQKno",
+      "mode": "main",
+      "codec": "h264",
+      "author": "TUFKAC"
+    },
+    "https://cdn2.steamgriddb.com/hero/8703e28d72f2cf84f82f751ed717200d.webp": {
+      "title": "Celeste Hero",
+      "titleId": "01002B30028F6000",
+      "gameName": "Celeste",
+      "varId": "v_b0cbee38",
+      "driveId": "13FEZw3aGKzRfVU92MqHr8n83KREorrh-",
+      "mode": "main",
+      "codec": "h264",
+      "author": "CatOnline"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/kishida-mel-x-hoshizaki-ao-blue-reflection-second-light-preview.webm": {
+      "title": "Kishida Mel X Hoshizaki Ao Blue Reflecti",
+      "titleId": "010071C013390000",
+      "gameName": "Blue Reflection Second Light",
+      "varId": "v_76f37896",
+      "driveId": "1RF46slqT6lCKCHKPhb1GtGyCSZPcuHOp",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/anime/kishida-mel-x-hoshizaki-ao-blue-reflection-second-light-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/kishida-mel-x-hoshizaki-ao-blue-reflection-second-light-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2026/the-duskbloods-preview.webm": {
+      "title": "The Duskbloods",
+      "titleId": "01007740160D4000",
+      "gameName": "Dusk",
+      "varId": "v_10dc82f1",
+      "driveId": "16CKTQKkelXie0qu_qpifOwLNu63bfS83",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/the-duskbloods-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2026/the-duskbloods-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2025/silhouette-with-balloon-at-dusk-preview.webm": {
+      "title": "Silhouette With Balloon At Dusk",
+      "titleId": "01007740160D4000",
+      "gameName": "Dusk",
+      "varId": "v_d6e233be",
+      "driveId": "13CW-T22aS1wxbnC0JVOT-d7exbqwdGTF",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/landscape/silhouette-with-balloon-at-dusk-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2025/silhouette-with-balloon-at-dusk-preview.webm"
     }
   },
-  "total_harvested": 1586,
-  "last_updated": "2026-10-25T14:25:31.625575+00:00",
+  "total_harvested": 1594,
+  "last_updated": "2026-10-25T14:26:51.756590+00:00",
   "page_cursors": {
     "super mario odyssey": 1,
     "mario odyssey": 1,
@@ -11521,7 +11583,9 @@
     "Turnip Mountain": 1,
     "Inertial Drift": 1,
     "Anno Mutationem": 1,
-    "Alien Quest Eve": 1
+    "Alien Quest Eve": 1,
+    "DOOM": 2,
+    "Death's Door": 1
   },
-  "query_cursor": 360
+  "query_cursor": 390
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T14:25:31.632497+00:00",
+  "updatedAt": "2026-10-25T14:26:51.764453+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -5224,6 +5224,42 @@
           "sha256": "C663591D5451005D6C1005B778856649E4959509500EF6DE862F0049E0D1BEEC",
           "durationSec": 30.0,
           "author": "qwhackz",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Celeste Hero"
+        },
+        {
+          "id": "v_5bd7d69a",
+          "name": "Celeste Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1N4SYGfEyIKJVRr5x0sKwV9T9A1hpQKno",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1N4SYGfEyIKJVRr5x0sKwV9T9A1hpQKno&sz=w640",
+          "sizeBytes": 642740,
+          "sha256": "8190886311C23039D9F78D25AE018EBF6D64772CEF837CB6BB8981966A46EFBF",
+          "durationSec": 30.0,
+          "author": "TUFKAC",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Celeste Hero"
+        },
+        {
+          "id": "v_b0cbee38",
+          "name": "Celeste Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13FEZw3aGKzRfVU92MqHr8n83KREorrh-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13FEZw3aGKzRfVU92MqHr8n83KREorrh-&sz=w640",
+          "sizeBytes": 661121,
+          "sha256": "6C46EEE6B6068AE97CE01C78C0F8026B5652B0D069506DD047C99223232FA337",
+          "durationSec": 30.0,
+          "author": "CatOnline",
           "codec": "h264",
           "width": 1280,
           "height": 720,
@@ -12625,6 +12661,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "SteamGridDB Animated Grid: 010071C013390000_Blue_Reflection_Second_Light___22.mp4"
+        },
+        {
+          "id": "v_76f37896",
+          "name": "Kishida Mel X Hoshizaki Ao Blue Reflecti",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RF46slqT6lCKCHKPhb1GtGyCSZPcuHOp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RF46slqT6lCKCHKPhb1GtGyCSZPcuHOp&sz=w640",
+          "sizeBytes": 4701712,
+          "sha256": "FBAA198C21759FE4DE13C6EFFFEF4AB77904397EE45A0BBD8A74C5CBB0E11D75",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kishida Mel X Hoshizaki Ao Blue Reflecti | ЗВУК"
         }
       ]
     },
@@ -12725,6 +12779,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "SteamGridDB Animated Grid: 01007740160D4000_Dusk.mp4"
+        },
+        {
+          "id": "v_10dc82f1",
+          "name": "The Duskbloods",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16CKTQKkelXie0qu_qpifOwLNu63bfS83",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16CKTQKkelXie0qu_qpifOwLNu63bfS83&sz=w640",
+          "sizeBytes": 4442479,
+          "sha256": "5796F04C176E9BD0A3E7D858728DE97FAFA2EBB6C3F3340D8353D0B6E16B9CAD",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | The Duskbloods"
+        },
+        {
+          "id": "v_d6e233be",
+          "name": "Silhouette With Balloon At Dusk",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13CW-T22aS1wxbnC0JVOT-d7exbqwdGTF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13CW-T22aS1wxbnC0JVOT-d7exbqwdGTF&sz=w640",
+          "sizeBytes": 4806678,
+          "sha256": "658BBFECAFBC451CE35E219936A5DF380A5AFAC902DB4BF215ACF8819E136979",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Silhouette With Balloon At Dusk | ЗВУК"
         }
       ]
     },
@@ -37720,6 +37810,6 @@
     }
   ],
   "totalGames": 1039,
-  "totalVariants": 1661,
+  "totalVariants": 1666,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
