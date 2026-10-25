@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T20:58:51.492396+00:00",
+  "updatedAt": "2026-10-25T23:29:10.984200+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -40183,9 +40183,71 @@
           "notes": "Switch 720p 30fps H264 | Kathy Rain Hero"
         }
       ]
+    },
+    {
+      "titleId": "01009F201BB50000",
+      "title": "The Sin",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009F201BB50000.jpg",
+      "variants": [
+        {
+          "id": "v_aa6ed89e",
+          "name": "The Sinister Blade Katarina League Of Le",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XFg1pAAXk1UNB6e2KU37iEuYaLsrKWYM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XFg1pAAXk1UNB6e2KU37iEuYaLsrKWYM&sz=w640",
+          "sizeBytes": 4618977,
+          "sha256": "4AD32B6A3574E077D191D426A5AB6595588E7B79D52CFA941FF20C22B659ACD7",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Sinister Blade Katarina League Of Le | ЗВУК"
+        },
+        {
+          "id": "v_d9f38a2e",
+          "name": "Hsin Smirk Wuthering Waves",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1k0r6mVwxG9MXSNi-_93RO5tTd4Nzru6M",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1k0r6mVwxG9MXSNi-_93RO5tTd4Nzru6M&sz=w640",
+          "sizeBytes": 4732330,
+          "sha256": "0D6227E7C448792AF2FD34A2EE4403A3976474BDF7195C61006A665AFF51C0B3",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Hsin Smirk Wuthering Waves"
+        },
+        {
+          "id": "v_d22ac73c",
+          "name": "Hsin Autumn Waterfall Wuthering Waves",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Qhkj1mOjCcQ3ThnpjiEmOpQvMXocnCbq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Qhkj1mOjCcQ3ThnpjiEmOpQvMXocnCbq&sz=w640",
+          "sizeBytes": 4696782,
+          "sha256": "1BB8BBFAA72B437DA0F8DEF766F3290E9C7D32D22761DC0DA26FB71337B7FA01",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hsin Autumn Waterfall Wuthering Waves | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 1057,
-  "totalVariants": 1790,
+  "totalGames": 1058,
+  "totalVariants": 1793,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
