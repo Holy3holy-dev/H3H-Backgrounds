@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T15:58:37.515083+00:00",
+  "updatedAt": "2026-10-25T16:13:21.872823+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -38805,9 +38805,35 @@
           "notes": "Switch 720p 30fps H264 | Tomb Raider Hero"
         }
       ]
+    },
+    {
+      "titleId": "0100BD0009ED6000",
+      "title": "Super Mario 3D World + Bowser's Fury",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BD0009ED6000.jpg",
+      "variants": [
+        {
+          "id": "v_c55e39fd",
+          "name": "Super Mario 3D World Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15YpBr4vLg9S8nuKAy3rpeeLEzwgBMnxs",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15YpBr4vLg9S8nuKAy3rpeeLEzwgBMnxs&sz=w640",
+          "sizeBytes": 1444513,
+          "sha256": "3333FD3942E7267E28622B50393E9EFB6566D4F02F7F1C9CDF334DDF4F94127C",
+          "durationSec": 30.0,
+          "author": "TIMBOVILL",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Super Mario 3D World Motion Cover"
+        }
+      ]
     }
   ],
-  "totalGames": 1040,
-  "totalVariants": 1721,
+  "totalGames": 1041,
+  "totalVariants": 1722,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
