@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T14:57:16.279708+00:00",
+  "updatedAt": "2026-10-25T15:01:46.916293+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -3918,6 +3918,42 @@
           "sha256": "7688C654AB62627D7E0B2F5335883E300242C68954766A195420742801BB0442",
           "durationSec": 30.0,
           "author": "cosminnicu",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Sea of Stars Motion Cover"
+        },
+        {
+          "id": "v_c28c99de",
+          "name": "Sea of Stars Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NjrxB_9DiyMeC50XgEQxMCed7zX8NOz1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NjrxB_9DiyMeC50XgEQxMCed7zX8NOz1&sz=w640",
+          "sizeBytes": 2457402,
+          "sha256": "8663228E589730C17B36B7226E3F24710189EE1D330F7E6FDDCA8CF3B4126F5F",
+          "durationSec": 30.0,
+          "author": "cosminnicu",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Sea of Stars Motion Cover"
+        },
+        {
+          "id": "v_121b16f0",
+          "name": "Sea of Stars Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GzMcyWOk3yPII0fbYnm0CW911bU_KohG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GzMcyWOk3yPII0fbYnm0CW911bU_KohG&sz=w640",
+          "sizeBytes": 8689158,
+          "sha256": "259C4EC5705B7622F6EEE3F039DAE074AFD15377F1F062EC1FA4F669B2698F82",
+          "durationSec": 30.0,
+          "author": "MachZero",
           "codec": "h264",
           "width": 1280,
           "height": 720,
@@ -30218,6 +30254,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Shiroko Ready For The Mission Blue Archi | ЗВУК"
+        },
+        {
+          "id": "v_87135aa5",
+          "name": "Shoukaku Shiromuku Azur Lane",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RA-HZH3_pVeGwgI-2kUYM29f7WYQA9L5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RA-HZH3_pVeGwgI-2kUYM29f7WYQA9L5&sz=w640",
+          "sizeBytes": 4708401,
+          "sha256": "AED70A718B844E3F6E28E47DC526AB7FB5C29C3C145F8D82CCB5D11297A99C52",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Shoukaku Shiromuku Azur Lane"
+        },
+        {
+          "id": "v_41f2bbbc",
+          "name": "Shiroko X Shiroko Terror Blue Archive",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1in6c31fp_acr0JajseQxmryOiH2HLHpQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1in6c31fp_acr0JajseQxmryOiH2HLHpQ&sz=w640",
+          "sizeBytes": 4698814,
+          "sha256": "3198DAA0770C2184EAF24D2C95665ED0066F576455D01FBCA91604108FE34CC6",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Shiroko X Shiroko Terror Blue Archive | ЗВУК"
         }
       ]
     },
@@ -38368,6 +38440,6 @@
     }
   ],
   "totalGames": 1039,
-  "totalVariants": 1697,
+  "totalVariants": 1701,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
