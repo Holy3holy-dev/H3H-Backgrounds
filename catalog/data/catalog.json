@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T18:28:10.919741+00:00",
+  "updatedAt": "2026-10-25T20:33:53.880663+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -40079,9 +40079,61 @@
           "notes": "Switch 720p 30fps H264 | Diablo III Hero"
         }
       ]
+    },
+    {
+      "titleId": "010008501186E000",
+      "title": "Life is Strange: Before the Storm Remastered [NSZ][RUS (Voice Mod.)/Multi8]",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010008501186E000.jpg",
+      "variants": [
+        {
+          "id": "v_1a3cabf4",
+          "name": "Life Is Strange Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mFdPPxei8eo3A-auZPTejsdnOwVvDRmY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mFdPPxei8eo3A-auZPTejsdnOwVvDRmY&sz=w640",
+          "sizeBytes": 2324037,
+          "sha256": "3DBF9BB81AAEE7530054F1C9CD5AB98A1C6F426CE3C9B9D8D10E4A525FC83904",
+          "durationSec": 30.0,
+          "author": "TUFKAC",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Life Is Strange Hero"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F28011892000",
+      "title": "Overcooked All You Can Eat [NSZ][RUS/Multi8]",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F28011892000.jpg",
+      "variants": [
+        {
+          "id": "v_29280c24",
+          "name": "Overcooked Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-q_sEuPmQnlS3HHSs4LSGVo8zCZxk3no",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-q_sEuPmQnlS3HHSs4LSGVo8zCZxk3no&sz=w640",
+          "sizeBytes": 3426359,
+          "sha256": "784371CFAAB5BDEB26D0D67DE6117279253766460C98600C86A6FE617477857A",
+          "durationSec": 30.0,
+          "author": "falumpagus907",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Overcooked Motion Cover"
+        }
+      ]
     }
   ],
-  "totalGames": 1053,
-  "totalVariants": 1786,
+  "totalGames": 1055,
+  "totalVariants": 1788,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
