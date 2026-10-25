@@ -12175,10 +12175,58 @@
     "https://moewalls.com/anime/yu-narukami-persona-4-revival-z-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2026/yu-narukami-persona-4-revival-preview.webm"
+    },
+    "https://cdn2.steamgriddb.com/hero/e64c339f7c2467931a01e638bf8c0568.webp": {
+      "title": "Xenoblade Chronicles: Definitive Edition Hero",
+      "titleId": "0100FF500E34A000",
+      "gameName": "Xenoblade Chronicles Definitive Edition",
+      "varId": "v_b7794e4a",
+      "driveId": "1RlBj3_LG28XL9fWjpu2z34e1EBWYnsjH",
+      "mode": "main",
+      "codec": "h264",
+      "author": "ProtonProp"
+    },
+    "https://cdn2.steamgriddb.com/hero/a79db95cee87f6c4117d0a0880aa15d0.webp": {
+      "title": "Persona 4 Golden Hero",
+      "titleId": "010062B01525C000",
+      "gameName": "Persona 4 Golden",
+      "varId": "v_a6b0178e",
+      "driveId": "10h_awJZicWA-hAVyPJDlGbAufrOBZF3-",
+      "mode": "main",
+      "codec": "h264",
+      "author": "Bluss"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2026/yukiko-amagi-persona-4-x-goddess-of-victory-nikke-preview.webm": {
+      "title": "Yukiko Amagi Persona 4 X Goddess of Vict",
+      "titleId": "010062B01525C000",
+      "gameName": "Persona 4 Golden",
+      "varId": "v_e66c4e4d",
+      "driveId": "1-XveP6LfjtBdly4RWlV_Q8EhPgNcrn5i",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/anime/yukiko-amagi-persona-4-x-goddess-of-victory-nikke-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2026/yukiko-amagi-persona-4-x-goddess-of-victory-nikke-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/investigation-team-persona-4-preview.webm": {
+      "title": "Investigation Team Persona 4",
+      "titleId": "010062B01525C000",
+      "gameName": "Persona 4 Golden",
+      "varId": "v_15669543",
+      "driveId": "1ph9dlkptMO1jQ3Dx7Mm5yK9rzWSRs-tF",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/anime/investigation-team-persona-4-z-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/investigation-team-persona-4-preview.webm"
     }
   },
-  "total_harvested": 1696,
-  "last_updated": "2026-10-25T16:32:39.241112+00:00",
+  "total_harvested": 1702,
+  "last_updated": "2026-10-25T16:36:52.745666+00:00",
   "page_cursors": {
     "super mario odyssey": 1,
     "mario odyssey": 1,
@@ -12994,8 +13042,9 @@
     "Moving Out 2": 1,
     "Hard West": 1,
     "Dragon Loop": 2,
-    "Melty Blood Type Lumina": 1
+    "Melty Blood Type Lumina": 1,
+    "persona 4 golden": 1
   },
-  "query_cursor": 1060,
-  "priority_cursor": 60
+  "query_cursor": 1080,
+  "priority_cursor": 72
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T16:32:39.248593+00:00",
+  "updatedAt": "2026-10-25T16:36:52.753604+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -3024,6 +3024,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 0100FF500E34A000_Xenoblade_Definitive.mp4"
+        },
+        {
+          "id": "v_b7794e4a",
+          "name": "Xenoblade Chronicles: Definitive Edition Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RlBj3_LG28XL9fWjpu2z34e1EBWYnsjH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RlBj3_LG28XL9fWjpu2z34e1EBWYnsjH&sz=w640",
+          "sizeBytes": 3153552,
+          "sha256": "AA63D0A80189F4AA19B4EA8A4FBB48B3637D7EABA79DC1B854E6A05BF27D5B91",
+          "durationSec": 30.0,
+          "author": "ProtonProp",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Xenoblade Chronicles: Definitive Edition Hero"
         }
       ]
     },
@@ -4469,6 +4487,60 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 010062B01525C000_Persona_4_Golden.mp4"
+        },
+        {
+          "id": "v_a6b0178e",
+          "name": "Persona 4 Golden Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10h_awJZicWA-hAVyPJDlGbAufrOBZF3-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10h_awJZicWA-hAVyPJDlGbAufrOBZF3-&sz=w640",
+          "sizeBytes": 3424923,
+          "sha256": "77AF6310BDB3304A4F493AC725B105869229AB092296A6D1946CBCAF21835947",
+          "durationSec": 30.0,
+          "author": "Bluss",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Persona 4 Golden Hero"
+        },
+        {
+          "id": "v_e66c4e4d",
+          "name": "Yukiko Amagi Persona 4 X Goddess of Vict",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-XveP6LfjtBdly4RWlV_Q8EhPgNcrn5i",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-XveP6LfjtBdly4RWlV_Q8EhPgNcrn5i&sz=w640",
+          "sizeBytes": 4695526,
+          "sha256": "BBA388E59AFBF53A57B754A80AD4549304D0A8DBFF939B8AFFAA16DAD4070CEA",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Yukiko Amagi Persona 4 X Goddess of Vict"
+        },
+        {
+          "id": "v_15669543",
+          "name": "Investigation Team Persona 4",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ph9dlkptMO1jQ3Dx7Mm5yK9rzWSRs-tF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ph9dlkptMO1jQ3Dx7Mm5yK9rzWSRs-tF&sz=w640",
+          "sizeBytes": 4711036,
+          "sha256": "2DC18EDA2E08E03A5F30D113B2AF60D4906FA3AF5FAFD95972640F81DEABAD68",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Investigation Team Persona 4 | ЗВУК"
         }
       ]
     },
@@ -39176,6 +39248,6 @@
     }
   ],
   "totalGames": 1050,
-  "totalVariants": 1737,
+  "totalVariants": 1741,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
