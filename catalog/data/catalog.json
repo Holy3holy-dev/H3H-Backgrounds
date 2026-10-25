@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T17:39:49.896052+00:00",
+  "updatedAt": "2026-10-25T17:46:57.255574+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -39759,6 +39759,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | No Man's Sky Motion Cover"
+        },
+        {
+          "id": "v_065f036b",
+          "name": "No Man's Sky Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZHm___SYDsSsHNw6dO5VM2dyYBE0Fl4g",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZHm___SYDsSsHNw6dO5VM2dyYBE0Fl4g&sz=w640",
+          "sizeBytes": 658068,
+          "sha256": "FD9284FC3D91B4B7F54234754DCDA8435B14EB24B4D48A89A0926C6700068293",
+          "durationSec": 30.0,
+          "author": "TUFKAC",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | No Man's Sky Motion Cover"
+        },
+        {
+          "id": "v_f3048dbe",
+          "name": "No Man's Sky Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=179XqGSXaLhs2uRuOZWBlBzhcSstNUi17",
+          "previewUrl": "https://drive.google.com/thumbnail?id=179XqGSXaLhs2uRuOZWBlBzhcSstNUi17&sz=w640",
+          "sizeBytes": 816686,
+          "sha256": "9361CED1FEBE761FD502C78232C05BB5BF0B0509276EE6AA9BCD6F879E999DC9",
+          "durationSec": 30.0,
+          "author": "TUFKAC",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | No Man's Sky Motion Cover"
         }
       ]
     },
@@ -39940,6 +39976,6 @@
     }
   ],
   "totalGames": 1051,
-  "totalVariants": 1779,
+  "totalVariants": 1781,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
