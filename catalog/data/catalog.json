@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T17:28:08.420040+00:00",
+  "updatedAt": "2026-10-25T17:35:44.995829+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -115,6 +115,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Mario Kart DS"
+        },
+        {
+          "id": "v_cb64b019",
+          "name": "Mario Kart 8 Deluxe Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1v2Mv2QxpXqyJ48G-4XSMn2oKnEcDGG7x",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1v2Mv2QxpXqyJ48G-4XSMn2oKnEcDGG7x&sz=w640",
+          "sizeBytes": 2926679,
+          "sha256": "C1582802EE0DE05161632A42298F381E1E3495F5FB18B2B52B22A090AAA26AC6",
+          "durationSec": 30.0,
+          "author": "UnnecessaryCustomization",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Mario Kart 8 Deluxe Hero"
         }
       ]
     },
@@ -9006,6 +9024,24 @@
           "sha256": "E2741F440E3610DCFD23A7CB69AC00D6C278A4689539D8B644A13E6D0CB76186",
           "durationSec": 30.0,
           "author": "暮风羽",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Monster Hunter Rise Motion Cover"
+        },
+        {
+          "id": "v_4dfd2f91",
+          "name": "Monster Hunter Rise Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1duQpBPvHTrFIu1JbyzXVsTPyXs-97gP0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1duQpBPvHTrFIu1JbyzXVsTPyXs-97gP0&sz=w640",
+          "sizeBytes": 3142572,
+          "sha256": "DF9443B036C4893196C582949BE1169A2D224749CF134E8361B0FF27E12B58C3",
+          "durationSec": 30.0,
+          "author": "Janley",
           "codec": "h264",
           "width": 1280,
           "height": 720,
@@ -39868,6 +39904,6 @@
     }
   ],
   "totalGames": 1051,
-  "totalVariants": 1775,
+  "totalVariants": 1777,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
