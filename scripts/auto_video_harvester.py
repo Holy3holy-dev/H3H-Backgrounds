@@ -1038,15 +1038,18 @@ class AutoVideoHarvester:
             repo_url = f"https://x-access-token:{gh_token}@github.com/Holy3holy-dev/H3H-Backgrounds.git"
             rel_cat = str(self.catalog_path.relative_to(PROJECT_ROOT)).replace("\\", "/")
 
-            # Pull remote changes first to prevent collision with Telegram bot community uploads
+            # Non-interactive git environment
+            git_env = os.environ.copy()
+            git_env["GIT_EDITOR"] = ":"
+
             try:
-                subprocess.run(["git", "pull", "--rebase", repo_url, "main"], check=False, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+                subprocess.run(["git", "pull", "--rebase", repo_url, "main"], env=git_env, check=False, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
             except Exception:
                 pass
 
             subprocess.run(["git", "add", rel_cat, str(self.log_file.relative_to(PROJECT_ROOT))], check=True)
-            subprocess.run(["git", "commit", "-m", f"feat(harvest): automated batch harvest {harvested_count} {self.mode} video themes ({self.codec.upper()})"], check=True)
-            
+            subprocess.run(["git", "commit", "-m", f"feat(harvest): automated batch harvest {harvested_count} {self.mode} video themes ({self.codec.upper()})"], env=git_env, check=True)
+
             for push_att in range(1, 4):
                 try:
                     if self.mode == "after_dark":
@@ -1056,7 +1059,7 @@ class AutoVideoHarvester:
                     break
                 except Exception as pe:
                     print(f"[!] Git push attempt {push_att}/3 failed: {pe}. Rebasing...")
-                    subprocess.run(["git", "pull", "--rebase", repo_url, "main"], check=False)
+                    subprocess.run(["git", "pull", "--rebase", repo_url, "main"], env=git_env, check=False)
                     time.sleep(2)
 
         return harvested_count
