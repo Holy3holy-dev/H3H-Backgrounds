@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T15:29:02.277221+00:00",
+  "updatedAt": "2026-10-25T15:31:37.701259+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -25843,6 +25843,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | BioShock Remastered Hero"
+        },
+        {
+          "id": "v_b1006653",
+          "name": "BioShock Remastered Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hKXz0wqqAebrUmaYWms7x56joOyP3a1g",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hKXz0wqqAebrUmaYWms7x56joOyP3a1g&sz=w640",
+          "sizeBytes": 9448739,
+          "sha256": "A96F628CDE4BC81122F510060C2E4E893F0C85FFFE16CDDF733A771323447A63",
+          "durationSec": 30.0,
+          "author": "MλRI",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | BioShock Remastered Hero"
         }
       ]
     },
@@ -25984,6 +26002,24 @@
           "sha256": "F3FC74D3DFB86782ACC9244C1A2CA166B0D122E26C11CDC651AE5B8F933D7795",
           "durationSec": 30.0,
           "author": "Lmaclittle",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | BioShock Infinite Motion Cover"
+        },
+        {
+          "id": "v_3e594fc7",
+          "name": "BioShock Infinite Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RH-fKrCleLJv3m9SVh_SvzWBI6Bj92J3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RH-fKrCleLJv3m9SVh_SvzWBI6Bj92J3&sz=w640",
+          "sizeBytes": 1040059,
+          "sha256": "3E0A6FA3A4D0B31A09F285560C931648BD839E7CC9DE8CBB1C0DC604EFA1B36C",
+          "durationSec": 30.0,
+          "author": "TUFKAC",
           "codec": "h264",
           "width": 1280,
           "height": 720,
@@ -38728,6 +38764,6 @@
     }
   ],
   "totalGames": 1039,
-  "totalVariants": 1717,
+  "totalVariants": 1719,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
