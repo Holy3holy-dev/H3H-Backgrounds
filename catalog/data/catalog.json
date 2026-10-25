@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T14:31:52.350872+00:00",
+  "updatedAt": "2026-10-25T14:35:24.568984+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -1737,6 +1737,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Winter House Red Dead Redemption 2"
+        },
+        {
+          "id": "v_93738e04",
+          "name": "Red Dead Redemption Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14qiUy7GEEqbR_ScIDmIKkKW5mnmQsR78",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14qiUy7GEEqbR_ScIDmIKkKW5mnmQsR78&sz=w640",
+          "sizeBytes": 2130776,
+          "sha256": "323466A43B10093F91509C78EB11B2226948D67739BBFC3E69C781DE8E5930CC",
+          "durationSec": 30.0,
+          "author": "Lmaclittle",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Red Dead Redemption Hero"
         }
       ]
     },
@@ -24336,6 +24354,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Wolfenstein II: The New Colossus Motion Cover"
+        },
+        {
+          "id": "v_fe2a6ab3",
+          "name": "Wolfenstein II: The New Colossus Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mi9ww53PWo9fCobAWUDn7ywPrscPJCFT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mi9ww53PWo9fCobAWUDn7ywPrscPJCFT&sz=w640",
+          "sizeBytes": 2859533,
+          "sha256": "C16159B22535E0736CD192F9BCF8C9F0ECFA94A72DF7F08239499297C2C37448",
+          "durationSec": 30.0,
+          "author": "WitheredVirusN100",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Wolfenstein II: The New Colossus Motion Cover"
         }
       ]
     },
@@ -37936,6 +37972,6 @@
     }
   ],
   "totalGames": 1039,
-  "totalVariants": 1673,
+  "totalVariants": 1675,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
