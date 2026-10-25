@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T14:24:11.044441+00:00",
+  "updatedAt": "2026-10-25T14:25:31.632497+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -24334,6 +24334,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Cuphead Hero"
+        },
+        {
+          "id": "v_4867324a",
+          "name": "Cuphead Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-ylrtVXEgNsxK89G2ephETjLdsThce3H",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-ylrtVXEgNsxK89G2ephETjLdsThce3H&sz=w640",
+          "sizeBytes": 1262746,
+          "sha256": "2691BFCFE11E2C46FE7A3DA893DC4F018255131D95802EB70DFD9A810C038556",
+          "durationSec": 30.0,
+          "author": "cosminnicu",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Cuphead Motion Cover"
+        },
+        {
+          "id": "v_7d00484e",
+          "name": "Cuphead Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1420d54Pyg44NAoNWehmL5soZVBnWpnHc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1420d54Pyg44NAoNWehmL5soZVBnWpnHc&sz=w640",
+          "sizeBytes": 682644,
+          "sha256": "8E84EE6CA21D234F1563C66DC5E2E273B7AA74BA85C1DCAE0C47CE4523726477",
+          "durationSec": 30.0,
+          "author": "TUFKAC",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Cuphead Motion Cover"
         }
       ]
     },
@@ -37684,6 +37720,6 @@
     }
   ],
   "totalGames": 1039,
-  "totalVariants": 1659,
+  "totalVariants": 1661,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
