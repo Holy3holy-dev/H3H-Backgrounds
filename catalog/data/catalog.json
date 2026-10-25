@@ -36857,9 +36857,40 @@
           "notes": "Animated Tile Icon (256x256 H.264) for Dead Cells"
         }
       ]
+    },
+    {
+      "titleId": "01CAA550FBC40000",
+      "title": "Игра (01CAA550FBC40000)",
+      "publisher": "Community",
+      "variants": [
+        {
+          "id": "var-8705568a",
+          "name": "Trailer Remix",
+          "style": "4IFIR Dynamic Pack",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Jb8_zkql6D8W18F-WTC4tmgsFpu_JSTR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Jb8_zkql6D8W18F-WTC4tmgsFpu_JSTR&sz=w640",
+          "sizeBytes": 19192088,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "@Secondchancetomourn",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "notes": "Submitted via Telegram by @Secondchancetomourn",
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1BxMmUwbspG5rySvXLALDjgyEByLTI0Tw",
+          "iconSizeBytes": 373219,
+          "iconCodec": "hevc",
+          "iconWidth": 256,
+          "iconHeight": 256
+        }
+      ]
     }
   ],
-  "totalGames": 1034,
-  "totalVariants": 1616,
-  "lastUpdated": "2026-10-24T01:16:33.873383+00:00"
+  "totalGames": 1035,
+  "totalVariants": 1617,
+  "lastUpdated": "2026-10-25T12:58:26.189301+00:00"
 }
