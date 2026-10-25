@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T15:08:06.189145+00:00",
+  "updatedAt": "2026-10-25T15:25:38.696682+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -330,6 +330,42 @@
           "iconCodec": "h264",
           "iconWidth": 256,
           "iconHeight": 256
+        },
+        {
+          "id": "v_84fe5cdf",
+          "name": "Persona 5 Royal Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eNx90HSai2ccVlR1_LRGbyAqjOOfLM4s",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eNx90HSai2ccVlR1_LRGbyAqjOOfLM4s&sz=w640",
+          "sizeBytes": 1250532,
+          "sha256": "417F945F11F9632ACCCC665BD4B386406A1FE068DC519BD79E73D1C40656EF24",
+          "durationSec": 30.0,
+          "author": "Daslim",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Persona 5 Royal Motion Cover"
+        },
+        {
+          "id": "v_1a02bd6e",
+          "name": "Persona 5 Royal Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TpHuKPk0AnvwD2Tb5NlOzNCDuhW9Rfgj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TpHuKPk0AnvwD2Tb5NlOzNCDuhW9Rfgj&sz=w640",
+          "sizeBytes": 2486495,
+          "sha256": "77F48A70082E4E7A65398AE9DCF3AAE1D917C808E20CA89F81B92B0E9239F31E",
+          "durationSec": 30.0,
+          "author": "Nuke",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Persona 5 Royal Motion Cover"
         }
       ]
     },
@@ -37023,6 +37059,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Elementalist Lux Ice Form Snowdown Leagu | ЗВУК"
+        },
+        {
+          "id": "v_3d3dbd95",
+          "name": "Elementalist Lux Skin League Of Legends",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HsqgevdCfOrv1L2FdkVuk89LmH1zBtC0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HsqgevdCfOrv1L2FdkVuk89LmH1zBtC0&sz=w640",
+          "sizeBytes": 4764161,
+          "sha256": "2E9C30B64E73E07D360FAE46AFA105ED32D9AC72E87F269AA6499D3E4E287DAC",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Elementalist Lux Skin League Of Legends"
         }
       ]
     },
@@ -37129,6 +37183,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | May And Kyogre Pokemon"
+        },
+        {
+          "id": "v_02c5bf57",
+          "name": "Kyogre Underwater Pokemon",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Uta2t0g_6BkCX_uxTdalSyQxxk31zYZI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Uta2t0g_6BkCX_uxTdalSyQxxk31zYZI&sz=w640",
+          "sizeBytes": 4715134,
+          "sha256": "B843FF862199022711BA48FF21B07FAB66C2D6F5C3E3B524921C281AF62FA057",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kyogre Underwater Pokemon | ЗВУК"
+        },
+        {
+          "id": "v_fcfa8e77",
+          "name": "Zinogre Monster Hunter",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=114a9mN7u4XE9_gsmzB3IuAR9PxzSPqIP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=114a9mN7u4XE9_gsmzB3IuAR9PxzSPqIP&sz=w640",
+          "sizeBytes": 4555924,
+          "sha256": "FCBFA641BC8CC1A105B511137A050D42362D8A571AB62D38C7DAF20A3F7C01F4",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Zinogre Monster Hunter | ЗВУК"
         }
       ]
     },
@@ -38602,6 +38692,6 @@
     }
   ],
   "totalGames": 1039,
-  "totalVariants": 1710,
+  "totalVariants": 1715,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
