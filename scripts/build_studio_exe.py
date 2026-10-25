@@ -9,6 +9,7 @@ def build_studio():
     studio_dir = repo_root / "studio"
     icon_path = studio_dir / "app_icon.ico"
     db_json = studio_dir / "h3h_studio" / "data" / "switch_titles_db.json"
+    tmpl_png = studio_dir / "h3h_studio" / "data" / "switch_home_template.png"
     entry_point = studio_dir / "run_studio.py"
     dist_dir = studio_dir / "dist"
     build_dir = studio_dir / "build"
@@ -36,6 +37,7 @@ def build_studio():
         "--name", "H3H-Background-Studio",
         f"--icon={icon_path}",
         f"--add-data={db_json};h3h_studio/data",
+        f"--add-data={tmpl_png};h3h_studio/data",
         "--paths", str(studio_dir),
         "--hidden-import", "PySide6.QtMultimedia",
         "--hidden-import", "PySide6.QtMultimediaWidgets",
@@ -51,7 +53,8 @@ def build_studio():
         "--hidden-import", "h3h_studio.core.animated_icons_fetcher",
         "--hidden-import", "h3h_studio.ui.express_tab",
         "--hidden-import", "h3h_studio.ui.icons_tab",
-        "--hidden-import", "h3h_studio.ui.online_icons_dialog"
+        "--hidden-import", "h3h_studio.ui.online_icons_dialog",
+        "--hidden-import", "h3h_studio.ui.switch_preview_dialog"
     ]
 
     # Embed ffmpeg and ffprobe directly into the onefile executable
@@ -116,7 +119,7 @@ def build_studio():
     (portable_pkg_dir / "README.txt").write_text(readme_content, encoding="utf-8")
 
     # Create zip archive
-    zip_out = repo_root / "H3H-Background-Studio-v1.3.4-Portable.zip"
+    zip_out = repo_root / "H3H-Background-Studio-v1.3.5-Portable.zip"
     print(f"[*] Packaging ZIP archive: {zip_out}...")
     shutil.make_archive(str(zip_out.with_suffix("")), "zip", str(portable_pkg_dir))
     zip_size_mb = zip_out.stat().st_size / (1024 * 1024)

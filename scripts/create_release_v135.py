@@ -131,6 +131,8 @@ def main():
     assets_to_upload = [
         (ROOT_DIR / "downloader" / "H3H-Backgrounds.nro", "H3H-Backgrounds.nro"),
         (ROOT_DIR / "downloader" / "H3H-AfterDark.nro", "H3H-AfterDark.nro"),
+        (ROOT_DIR / "H3H-Background-Studio.exe", "H3H-Background-Studio.exe"),
+        (ROOT_DIR / "H3H-Background-Studio-v1.3.5-Portable.zip", "H3H-Background-Studio-v1.3.5-Portable.zip"),
     ]
 
     all_ok = True

@@ -753,24 +753,29 @@ class AutoVideoHarvester:
     def harvest_from_steamgriddb(self, limit: int, catalog: Dict[str, Any], games_map: Dict[str, Any], gdrive_token: str) -> int:
         """Harvest animated heroes and motion art from SteamGridDB across Switch library."""
         harvested = 0
-        targets: List[Tuple[str, str, str]] = list(PRIORITY_STEAMGRID_GAMES)
+        priority_targets = list(PRIORITY_STEAMGRID_GAMES)
+        # Sort priority games by fewest variants first so games with 0 or 1 variant get filled first
+        priority_targets.sort(key=lambda t: len(games_map.get(t[0].upper(), {}).get("variants", [])))
 
+        other_targets = []
         db_path = PROJECT_ROOT / "studio" / "h3h_studio" / "data" / "switch_titles_db.json"
         if db_path.exists():
             try:
                 switch_db = json.loads(db_path.read_text(encoding="utf-8"))
-                existing_tids = {t[0] for t in targets}
+                existing_tids = {t[0] for t in priority_targets}
                 for entry in switch_db:
                     tid = entry.get("titleId", "").upper()
                     raw_title = entry.get("title", "")
                     if len(tid) == 16 and tid not in existing_tids:
                         c_title = clean_switch_title(raw_title)
                         if len(c_title) >= 3:
-                            targets.append((tid, raw_title, c_title))
+                            other_targets.append((tid, raw_title, c_title))
             except Exception as e:
                 print(f"[!] Warning reading switch_titles_db: {e}")
 
-        targets.sort(key=lambda t: len(games_map.get(t[0].upper(), {}).get("variants", [])))
+        other_targets.sort(key=lambda t: len(games_map.get(t[0].upper(), {}).get("variants", [])))
+        # Always evaluate curated priority games FIRST before obscure library games!
+        targets = priority_targets + other_targets
 
         for tid, full_game_name, search_query in targets:
             if harvested >= limit:
@@ -856,7 +861,14 @@ class AutoVideoHarvester:
         query_queue: List[Tuple[str, str, str]] = []  # (titleId, gameName, query)
 
         if self.mode == "main":
-            # 1. High-yielding MoeWalls direct gaming tags
+            # 1. Curated SFW gaming targets with < 4 variants (ALWAYS FIRST)
+            for tid, gname, qlist in POPULAR_SWITCH_SFW_GAMES:
+                vcount = len(games_map.get(tid.upper(), {}).get("variants", []))
+                if vcount < 4:
+                    for q in qlist:
+                        query_queue.append((tid, gname, q))
+
+            # 2. High-yielding MoeWalls direct gaming tags
             gaming_tags = [
                 "tag:zelda", "tag:super-mario", "tag:dark-souls", "tag:metroid",
                 "tag:hollow-knight", "tag:sonic", "tag:skyrim", "tag:persona",
@@ -865,11 +877,6 @@ class AutoVideoHarvester:
             ]
             for gtag in gaming_tags:
                 query_queue.append(("0000000000000000", "Nintendo Switch Gaming", gtag))
-
-            # 2. Curated SFW gaming targets
-            for tid, gname, qlist in POPULAR_SWITCH_SFW_GAMES:
-                for q in qlist:
-                    query_queue.append((tid, gname, q))
 
             # 3. Games in catalog missing variants
             for g in catalog.get("games", []):
@@ -948,11 +955,11 @@ class AutoVideoHarvester:
                 elif self.mode == "main":
                     # If tid is generic or from a tag search, resolve against official Nintendo Switch DB!
                     if tid in ("0000000000000000", "0000000000000001"):
-                        resolved = self.resolver.resolve(clean_name)
-                        if resolved:
-                            final_tid, final_name = resolved
+                        matches = self.resolver.resolve_multiple(clean_name, limit=1)
+                        if matches and matches[0][2] >= 42.0:
+                            final_tid, final_name = matches[0][0], matches[0][1]
                         else:
-                            # Skip if does not match an official Nintendo Switch game
+                            # Skip if does not match an official Nintendo Switch game with strong confidence
                             continue
 
                 print(f"\n[*] Harvesting MoeWalls video: '{clean_name}' (Target: {final_name} [{final_tid}])")
