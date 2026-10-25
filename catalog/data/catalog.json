@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T15:25:38.696682+00:00",
+  "updatedAt": "2026-10-25T15:29:02.277221+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -1888,6 +1888,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Super Mario Super Smash Bros."
+        },
+        {
+          "id": "v_01040afb",
+          "name": "The Elder Scrolls V: Skyrim Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1q4cwQyMMOtmTGAi0jMIC535kt19STxIY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1q4cwQyMMOtmTGAi0jMIC535kt19STxIY&sz=w640",
+          "sizeBytes": 2503923,
+          "sha256": "C0FC4B512C17D790D4ACA84CFD84EF5201A44F75F2B7A2363635374098B9646D",
+          "durationSec": 30.0,
+          "author": "TUFKAC",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | The Elder Scrolls V: Skyrim Hero"
         }
       ]
     },
@@ -25721,6 +25739,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Hinoa And Minoto Monster Hunter Rise"
+        },
+        {
+          "id": "v_73b0bddf",
+          "name": "Monster Hunter Rise Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1E74Zmcsl1I5mGvUF3tUSEpkEd1rM90GR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1E74Zmcsl1I5mGvUF3tUSEpkEd1rM90GR&sz=w640",
+          "sizeBytes": 3111340,
+          "sha256": "0EA2E27DA9BF90480D4D4C714CC740DF8612561D61B645BA09D93AB0C81BCB3C",
+          "durationSec": 30.0,
+          "author": "Yaske",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Monster Hunter Rise Hero"
         }
       ]
     },
@@ -38692,6 +38728,6 @@
     }
   ],
   "totalGames": 1039,
-  "totalVariants": 1715,
+  "totalVariants": 1717,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
