@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T14:16:14.510559+00:00",
+  "updatedAt": "2026-10-25T14:17:42.612363+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -2686,6 +2686,60 @@
           "iconCodec": "h264",
           "iconWidth": 256,
           "iconHeight": 256
+        },
+        {
+          "id": "v_fe511d36",
+          "name": "Fortune Shades Tree Neverness To Evernes",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kQBvDw_EYjtQkKyYOJdlDKXMcQiVqkcK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kQBvDw_EYjtQkKyYOJdlDKXMcQiVqkcK&sz=w640",
+          "sizeBytes": 4715110,
+          "sha256": "158EE5141D02B6AEB2A960AD0DF126018110A7EE45DB949574909182E0F49EB8",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fortune Shades Tree Neverness To Evernes | ЗВУК"
+        },
+        {
+          "id": "v_072d14d7",
+          "name": "Melinoë Hades II",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HDnmyN2KLZlpdx7-M4vBqhbw7osKEHN7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HDnmyN2KLZlpdx7-M4vBqhbw7osKEHN7&sz=w640",
+          "sizeBytes": 4741899,
+          "sha256": "5F27087CEC7BF6B826740C401D0669590A0658A097BA7654F4BADAC71E8A890A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Melinoë Hades II | ЗВУК"
+        },
+        {
+          "id": "v_ce0da337",
+          "name": "Achilles Hades",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1prtAVgiLAQtM_A4qd4PvEFicfUnpW059",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1prtAVgiLAQtM_A4qd4PvEFicfUnpW059&sz=w640",
+          "sizeBytes": 4653762,
+          "sha256": "2DC9F3431CD8AB6534EBED0A3914CECDDA583861F7F527E0FD4A8AD38114BDEF",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Achilles Hades | ЗВУК"
         }
       ]
     },
@@ -3690,6 +3744,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 01008C0016544000_Sea_of_Stars.mp4"
+        },
+        {
+          "id": "v_818f9b77",
+          "name": "Sea of Stars Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-gEO0hT-MDEm7eWdhUkRx6JVzIyXpL1T",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-gEO0hT-MDEm7eWdhUkRx6JVzIyXpL1T&sz=w640",
+          "sizeBytes": 2472363,
+          "sha256": "0780876B2114761DCA94A28E9191217D10AD25184C75C1AC08AE438444BED86D",
+          "durationSec": 30.0,
+          "author": "cosminnicu",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Sea of Stars Motion Cover"
+        },
+        {
+          "id": "v_6084a935",
+          "name": "Sea of Stars Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yO040dIfNDMtUYnVSxyqZ7q9I-9H-l6a",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yO040dIfNDMtUYnVSxyqZ7q9I-9H-l6a&sz=w640",
+          "sizeBytes": 2458984,
+          "sha256": "7688C654AB62627D7E0B2F5335883E300242C68954766A195420742801BB0442",
+          "durationSec": 30.0,
+          "author": "cosminnicu",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Sea of Stars Motion Cover"
         }
       ]
     },
@@ -37288,6 +37378,6 @@
     }
   ],
   "totalGames": 1039,
-  "totalVariants": 1637,
+  "totalVariants": 1642,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
