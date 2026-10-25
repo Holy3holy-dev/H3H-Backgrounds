@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T17:35:44.995829+00:00",
+  "updatedAt": "2026-10-25T17:39:49.896052+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -219,6 +219,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Submitted via Telegram by @Secondchancetomourn"
+        },
+        {
+          "id": "v_acf0151c",
+          "name": "Outer Wilds Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QQYnGHwsBGymauEdM5LmNYlVavRMIeOk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QQYnGHwsBGymauEdM5LmNYlVavRMIeOk&sz=w640",
+          "sizeBytes": 3767553,
+          "sha256": "643026D0500772CE6057580CC995FEE2BA7176AD18F7A635C938A63146C7314A",
+          "durationSec": 30.0,
+          "author": "JDLM",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Outer Wilds Hero"
         }
       ]
     },
@@ -4462,6 +4480,24 @@
           "previewUrl": "https://drive.google.com/thumbnail?id=16UrbnUv316Qo3H2-9GH2EVfro4B6zROj&sz=w640",
           "sizeBytes": 470823,
           "sha256": "6EABB9E7765148144BBC57D7BA5CAC6A030858D741265CF7DD363435350F5C3E",
+          "durationSec": 30.0,
+          "author": "AVEX",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Alien: Isolation Hero"
+        },
+        {
+          "id": "v_e6058cbc",
+          "name": "Alien: Isolation Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Chfm7jcvGURsarwp91AOLx_IPGQ5MMrV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Chfm7jcvGURsarwp91AOLx_IPGQ5MMrV&sz=w640",
+          "sizeBytes": 1931659,
+          "sha256": "C5F17D58B64043910344A8A0CA9C4A1B3A128067DF47D26D450440E30A0D3E63",
           "durationSec": 30.0,
           "author": "AVEX",
           "codec": "h264",
@@ -39904,6 +39940,6 @@
     }
   ],
   "totalGames": 1051,
-  "totalVariants": 1777,
+  "totalVariants": 1779,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }

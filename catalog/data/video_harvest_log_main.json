@@ -12623,10 +12623,30 @@
       "mode": "main",
       "codec": "h264",
       "author": "Janley"
+    },
+    "https://cdn2.steamgriddb.com/hero/176b2b64e77b17035c037c99500dcdba.webp": {
+      "title": "Outer Wilds Hero",
+      "titleId": "01003DC0144B6000",
+      "gameName": "Outer Wilds",
+      "varId": "v_acf0151c",
+      "driveId": "1QQYnGHwsBGymauEdM5LmNYlVavRMIeOk",
+      "mode": "main",
+      "codec": "h264",
+      "author": "JDLM"
+    },
+    "https://cdn2.steamgriddb.com/hero/bdf0f5f84843f08f00912ae5292162f6.png": {
+      "title": "Alien: Isolation Hero",
+      "titleId": "010075D00E8BA000",
+      "gameName": "Alien: Isolation",
+      "varId": "v_e6058cbc",
+      "driveId": "1Chfm7jcvGURsarwp91AOLx_IPGQ5MMrV",
+      "mode": "main",
+      "codec": "h264",
+      "author": "AVEX"
     }
   },
-  "total_harvested": 1748,
-  "last_updated": "2026-10-25T17:35:44.987196+00:00",
+  "total_harvested": 1750,
+  "last_updated": "2026-10-25T17:39:49.886549+00:00",
   "page_cursors": {
     "super mario odyssey": 1,
     "mario odyssey": 1,
@@ -13381,7 +13401,7 @@
     "This Way Madness Lies": 1,
     "Nuclear Gladiators 3000": 1,
     "Risen": 1,
-    "princess peach": 1,
+    "princess peach": 2,
     "Boomerang Fu": 1,
     "Bye Sweet Carole": 1,
     "Moonlight in Garland": 1,
@@ -13623,8 +13643,28 @@
     "Bush Hockey League": 1,
     "Bloons TD 5": 1,
     "Rogue Trooper Redux": 1,
-    "Dreamscaper": 1
+    "Dreamscaper": 1,
+    "Paper Trail": 1,
+    "Down in Bermuda": 1,
+    "Shuten Order": 1,
+    "Shujinkou": 1,
+    "Dinkum": 1,
+    "Spindle": 1,
+    "Mask of the Rose": 1,
+    "Unsighted": 1,
+    "Shakedown Hawaii": 1,
+    "Codename Ocean Keeper": 1,
+    "Crosak Play Dough Age": 1,
+    "Claybook": 1,
+    "Dungeons 3": 1,
+    "Wargroove": 1,
+    "Henry Halfhead": 1,
+    "Zen Bound 2": 1,
+    "Thirty Birds": 1,
+    "Nubarron": 1,
+    "Grindstone": 1,
+    "Theatrhythm Final Bar Line": 1
   },
-  "query_cursor": 1340,
-  "priority_cursor": 22
+  "query_cursor": 1360,
+  "priority_cursor": 34
 }
