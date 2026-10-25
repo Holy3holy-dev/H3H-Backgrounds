@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T23:29:10.984200+00:00",
+  "updatedAt": "2026-10-25T23:32:14.923239+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -40245,9 +40245,53 @@
           "notes": "Switch 720p 30fps H264 | Hsin Autumn Waterfall Wuthering Waves | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "01004F4014C62000",
+      "title": "Stranded Deep",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004F4014C62000.jpg",
+      "variants": [
+        {
+          "id": "v_a66475c1",
+          "name": "Ocean Stranded Deep",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jGhGcr1SIXuDPRDxKZJSgFVg-gdD39RC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jGhGcr1SIXuDPRDxKZJSgFVg-gdD39RC&sz=w640",
+          "sizeBytes": 4746655,
+          "sha256": "1DEB49AC8D0AB8FEEE1D625C6DFCE575F6CD435E248CB0EAFBF23ABD9434EAD4",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Ocean Stranded Deep"
+        },
+        {
+          "id": "v_d80ec4f7",
+          "name": "Stranded In The Ocean",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1EtggBXVcuV3-CPiZl8jk-b8i-tVQm50s",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1EtggBXVcuV3-CPiZl8jk-b8i-tVQm50s&sz=w640",
+          "sizeBytes": 4689694,
+          "sha256": "800CCCF157718E435F7EDF130D0796C9F2C2CB82F00F88A5225EC72C6C60D63C",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Stranded In The Ocean | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 1058,
-  "totalVariants": 1793,
+  "totalGames": 1059,
+  "totalVariants": 1795,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
