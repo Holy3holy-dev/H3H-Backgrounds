@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T14:28:41.424660+00:00",
+  "updatedAt": "2026-10-25T14:31:52.350872+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -3959,6 +3959,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Cereza Bayonetta | ЗВУК"
+        },
+        {
+          "id": "v_30a32434",
+          "name": "Bayonetta Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Z8T0uDevEapAZMSy8Vk5z-Zl2qcuryu1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Z8T0uDevEapAZMSy8Vk5z-Zl2qcuryu1&sz=w640",
+          "sizeBytes": 3595728,
+          "sha256": "5BECA28AB8E6CF6767E16C043EE67FF1AD454FDC7F1FAE5BE3236AC3735CF956",
+          "durationSec": 30.0,
+          "author": "LockMatch",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Bayonetta Motion Cover"
+        },
+        {
+          "id": "v_f86fa70a",
+          "name": "Bayonetta Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Bf7DUoeStQyoVsoG-ZqQmnJ1N1pqPjl0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Bf7DUoeStQyoVsoG-ZqQmnJ1N1pqPjl0&sz=w640",
+          "sizeBytes": 3659749,
+          "sha256": "DBD46D11809331B90C8BEFEDEBE29B73176D7F5C98EB5737D7DBFF9D09A117A7",
+          "durationSec": 30.0,
+          "author": "avvalentine",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Bayonetta Motion Cover"
         }
       ]
     },
@@ -16440,6 +16476,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Todoroki Fire And Ice My Hero Academia | ЗВУК"
+        },
+        {
+          "id": "v_6f4bb791",
+          "name": "Kuroki",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rXqzexOQJP3fDaczeCTaSwvLOMg14H5W",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rXqzexOQJP3fDaczeCTaSwvLOMg14H5W&sz=w640",
+          "sizeBytes": 4780969,
+          "sha256": "F41D12327A2C39EAED5E25730DB9C53D07815AFA457C539B9ABD68C52D74EE4F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kuroki | ЗВУК"
+        },
+        {
+          "id": "v_171e4642",
+          "name": "Shouto Todoroki Half-Cold Half-Hot My He",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hfBEiqYab8B0MY0KXWB_a0rQOlelFT1o",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hfBEiqYab8B0MY0KXWB_a0rQOlelFT1o&sz=w640",
+          "sizeBytes": 4733461,
+          "sha256": "8487E203F21809129BDB20F46B22E811569A3C0FAE2A5A0435BF0D00C100C61A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Shouto Todoroki Half-Cold Half-Hot My He | ЗВУК"
         }
       ]
     },
@@ -37864,6 +37936,6 @@
     }
   ],
   "totalGames": 1039,
-  "totalVariants": 1669,
+  "totalVariants": 1673,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
