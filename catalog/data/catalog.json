@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T17:50:57.165467+00:00",
+  "updatedAt": "2026-10-25T18:28:10.919741+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -9942,6 +9942,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 01004BC0166CC000_Crisis_Core_Final_Fantasy_VII_Reunion.mp4"
+        },
+        {
+          "id": "v_22b539b6",
+          "name": "Zack Fair Crisis Core: Final Fantasy VII",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ubODfI2KtmXIToNkyiH7KLtz6Y0P9WMn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ubODfI2KtmXIToNkyiH7KLtz6Y0P9WMn&sz=w640",
+          "sizeBytes": 4664202,
+          "sha256": "F56D6286FDBA9BA98C554B9E840971A92DD2A4380E05E971059893D9E3B418D3",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Zack Fair Crisis Core: Final Fantasy VII | ЗВУК"
         }
       ]
     },
@@ -40009,9 +40027,61 @@
           "notes": "Switch 720p 30fps H264 | Chisa Looking At You Wuthering Waves | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "010051901774C000",
+      "title": "Blade Runner: Enhanced edition [RePack][NSZ][RUS (Mod.)]",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010051901774C000.jpg",
+      "variants": [
+        {
+          "id": "v_a31138be",
+          "name": "Blade Runner Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kqBrUUQFhKvWSJm1TpOcogU5eLj9fFq2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kqBrUUQFhKvWSJm1TpOcogU5eLj9fFq2&sz=w640",
+          "sizeBytes": 183662,
+          "sha256": "44D40E30106175F0A094B52918D4588C72E68C5E1816190EDA066BB361DFC1BE",
+          "durationSec": 30.0,
+          "author": "TUFKAC",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Blade Runner Hero"
+        }
+      ]
+    },
+    {
+      "titleId": "01001B300B9BF000",
+      "title": "Diablo III: Eternal Collection [RePack][NSP][RUS]",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001B300B9BF000.jpg",
+      "variants": [
+        {
+          "id": "v_cc0cbddb",
+          "name": "Diablo III Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DjK833iBsREbIjq7U4hl__AgU7sw8pxV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DjK833iBsREbIjq7U4hl__AgU7sw8pxV&sz=w640",
+          "sizeBytes": 5861014,
+          "sha256": "388E18F3E9199E0140A9BEAD109502526456BA9E3B29283360ACE728B2FE0A24",
+          "durationSec": 30.0,
+          "author": "TUFKAC",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Diablo III Hero"
+        }
+      ]
     }
   ],
-  "totalGames": 1051,
-  "totalVariants": 1783,
+  "totalGames": 1053,
+  "totalVariants": 1786,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }

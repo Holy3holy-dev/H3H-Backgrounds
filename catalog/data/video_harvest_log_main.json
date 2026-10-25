@@ -12683,10 +12683,44 @@
       "mode": "main",
       "codec": "h264",
       "author": "TUFKAC"
+    },
+    "https://cdn2.steamgriddb.com/hero/08fb104b0f2f838f3ce2d2b3741a12c2.png": {
+      "title": "Blade Runner Hero",
+      "titleId": "010051901774C000",
+      "gameName": "Blade Runner: Enhanced edition [RePack][NSZ][RUS (Mod.)]",
+      "varId": "v_a31138be",
+      "driveId": "1kqBrUUQFhKvWSJm1TpOcogU5eLj9fFq2",
+      "mode": "main",
+      "codec": "h264",
+      "author": "TUFKAC"
+    },
+    "https://cdn2.steamgriddb.com/hero/3e145d35dd1945b8b95ec55deaa076ba.webp": {
+      "title": "Diablo III Hero",
+      "titleId": "01001B300B9BF000",
+      "gameName": "Diablo III: Eternal Collection [RePack][NSP][RUS]",
+      "varId": "v_cc0cbddb",
+      "driveId": "1DjK833iBsREbIjq7U4hl__AgU7sw8pxV",
+      "mode": "main",
+      "codec": "h264",
+      "author": "TUFKAC"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2023/zack-fair-crisis-core-final-fantasy-vii-reunion-preview.webm": {
+      "title": "Zack Fair Crisis Core: Final Fantasy VII",
+      "titleId": "01004BC0166CC000",
+      "gameName": "Crisis Core: Final Fantasy VII Reunion",
+      "varId": "v_22b539b6",
+      "driveId": "1ubODfI2KtmXIToNkyiH7KLtz6Y0P9WMn",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/zack-fair-crisis-core-final-fantasy-vii-reunion-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2023/zack-fair-crisis-core-final-fantasy-vii-reunion-preview.webm"
     }
   },
-  "total_harvested": 1754,
-  "last_updated": "2026-10-25T17:50:57.156468+00:00",
+  "total_harvested": 1758,
+  "last_updated": "2026-10-25T18:28:10.907793+00:00",
   "page_cursors": {
     "super mario odyssey": 1,
     "mario odyssey": 1,
@@ -12747,7 +12781,7 @@
     "witcher 3 scenery": 1,
     "geralt of rivia kaer morhen": 1,
     "witcher 3 novigrad": 1,
-    "nier automata city ruins": 1,
+    "nier automata city ruins": 2,
     "nier automata amusement park": 1,
     "persona 5 shibuya": 2,
     "persona 5 royal phantom thieves": 1,
@@ -13743,8 +13777,29 @@
     "Portal Knights": 1,
     "Love Love School Days": 1,
     "Vengeful Guardian Moonrider": 1,
-    "Ancestors Legacy": 1
+    "Ancestors Legacy": 1,
+    "zack fair": 2,
+    "Neon Chrome": 1,
+    "Seven Pirates H": 1,
+    "Seven Knights Time Wanderer": 1,
+    "Seven Days with You": 1,
+    "Paleo Pines": 1,
+    "Balan Wonderworld": 1,
+    "South of the Circle": 1,
+    "Outlanders": 1,
+    "Lorelei and the Laser Eyes": 1,
+    "Game Builder Garage": 1,
+    "This is the Police 1/2": 1,
+    "American Arcadia": 1,
+    "Fantasian Neo Dimension": 1,
+    "Beyond a Steel Sky": 1,
+    "Little Orpheus": 1,
+    "Heroish": 1,
+    "Necrobarista Final Pour": 1,
+    "The Bradwell Conspiracy": 1,
+    "Hitchhiker A Mystery Game": 1,
+    "Agent Intercept": 1
   },
-  "query_cursor": 1400,
-  "priority_cursor": 58
+  "query_cursor": 1420,
+  "priority_cursor": 70
 }
