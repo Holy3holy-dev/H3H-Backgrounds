@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T15:01:46.916293+00:00",
+  "updatedAt": "2026-10-25T15:05:03.240033+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -25552,6 +25552,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Stardew Valley Motion Cover"
+        },
+        {
+          "id": "v_dbd0db01",
+          "name": "Stardew Valley Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OGVYlIr1u4tpgvDG5RueXJmuhjVIl5xC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OGVYlIr1u4tpgvDG5RueXJmuhjVIl5xC&sz=w640",
+          "sizeBytes": 3838076,
+          "sha256": "E4EE9488D2D6EA79A5F388248E10B7C26F91ABA2776DB7268ED8480402E0F0F2",
+          "durationSec": 30.0,
+          "author": "LadKaschak",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Stardew Valley Motion Cover"
+        },
+        {
+          "id": "v_6f3da172",
+          "name": "Stardew Valley Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hQ9afQVnV5szejiD3r5FdcZ1wncTjj19",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hQ9afQVnV5szejiD3r5FdcZ1wncTjj19&sz=w640",
+          "sizeBytes": 2106297,
+          "sha256": "05F0116142F0B910E18E6B10F0145929C744BFBDF8D9144983786EDE6B9A9A0C",
+          "durationSec": 30.0,
+          "author": "Dragon3025",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Stardew Valley Motion Cover"
         }
       ]
     },
@@ -32412,6 +32448,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Sci-fi Boy Riding Cybermoto In Sandstorm | ЗВУК"
+        },
+        {
+          "id": "v_b38bb0c7",
+          "name": "Samurai Blade Of the Storm",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hniWwkrM0jAZYFg7v3WeeUoxgUXCWbBI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hniWwkrM0jAZYFg7v3WeeUoxgUXCWbBI&sz=w640",
+          "sizeBytes": 4716703,
+          "sha256": "E34F152420B43D26B28ECE6E834621CF9A6A78952A3831A265EAC792135D7218",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Samurai Blade Of the Storm | ЗВУК"
         }
       ]
     },
@@ -32490,6 +32544,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | No Way Home | ЗВУК"
+        },
+        {
+          "id": "v_106c7fbc",
+          "name": "Escape The City",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TBhDiHcwxPEB1gV6kSJkmFkSFajcxWKk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TBhDiHcwxPEB1gV6kSJkmFkSFajcxWKk&sz=w640",
+          "sizeBytes": 4553989,
+          "sha256": "18E5ADE5B2A57CA50DB9E0831A4B3B2F6C56E61475E445F54A05F75628A91E77",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Escape The City | ЗВУК"
         }
       ]
     },
@@ -38440,6 +38512,6 @@
     }
   ],
   "totalGames": 1039,
-  "totalVariants": 1701,
+  "totalVariants": 1705,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
