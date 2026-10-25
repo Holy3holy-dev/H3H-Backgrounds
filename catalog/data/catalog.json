@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T14:13:10.907785+00:00",
+  "updatedAt": "2026-10-25T14:14:21.587505+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -3191,6 +3191,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 0100DA801624E000_Tunic.mp4"
+        },
+        {
+          "id": "v_9fe53de4",
+          "name": "Tunic Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16wJJnvmcNCFHDmCjR3sHwNVZQZKG0c2P",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16wJJnvmcNCFHDmCjR3sHwNVZQZKG0c2P&sz=w640",
+          "sizeBytes": 2140226,
+          "sha256": "2BB1040BCAA595D5A01148834E60D9D014F20679B0FED302667CBD8B5BAB8E50",
+          "durationSec": 30.0,
+          "author": "LudaX",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Tunic Motion Cover"
+        },
+        {
+          "id": "v_93065d55",
+          "name": "Tunic Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1b3DGPcudu88A82IJo8_oGnazItsyEvxd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1b3DGPcudu88A82IJo8_oGnazItsyEvxd&sz=w640",
+          "sizeBytes": 2250136,
+          "sha256": "8D6EC1C50A110191DBE7E085E8AC137BF8AD04C7F98A7A1C3A9EF8E163B9B8A8",
+          "durationSec": 30.0,
+          "author": "LudaX",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Tunic Motion Cover"
         }
       ]
     },
@@ -37081,9 +37117,79 @@
           "iconHeight": 256
         }
       ]
+    },
+    {
+      "titleId": "01007B0010FCD000",
+      "title": "Red Dead Redemption",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007B0010FCD000.jpg",
+      "variants": [
+        {
+          "id": "v_719a0c04",
+          "name": "Snowy Cabin Red Dead Redemption 2",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15Dyp93Nvye5KM1r9K-WYVhoPn_ldHW6f",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15Dyp93Nvye5KM1r9K-WYVhoPn_ldHW6f&sz=w640",
+          "sizeBytes": 4701984,
+          "sha256": "9D6AD98829739C73A8C22F3670631E87FE33A6FAE806665D01E6D7FDA3B6202C",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Snowy Cabin Red Dead Redemption 2 | ЗВУК"
+        },
+        {
+          "id": "v_3b4d358c",
+          "name": "Silhouette Arthur Morgan Sunset Red Dead",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cqgKABiKAquUA0wCR8q5FSjOJqmAZ7dT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cqgKABiKAquUA0wCR8q5FSjOJqmAZ7dT&sz=w640",
+          "sizeBytes": 4664639,
+          "sha256": "708A17687C01366C6FF31151ACB2EC1572DC1CA7B8978748AFCC4E60331DE33E",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Silhouette Arthur Morgan Sunset Red Dead | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "01004E301F252000",
+      "title": "Sea of Stars",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004E301F252000.jpg",
+      "variants": [
+        {
+          "id": "v_7dd3d7f9",
+          "name": "Sea Of Flowers Genshin Impact",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wVhw0e4KDJMtP7xkO9nCYSvXkTJOikTz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wVhw0e4KDJMtP7xkO9nCYSvXkTJOikTz&sz=w640",
+          "sizeBytes": 4740157,
+          "sha256": "7330B2E0B6B5DB2E495CF6F14F311D95696AAF378524100364CD2DECBED38209",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sea Of Flowers Genshin Impact | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 1036,
-  "totalVariants": 1627,
+  "totalGames": 1038,
+  "totalVariants": 1632,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
