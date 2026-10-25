@@ -62,16 +62,79 @@ HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 
 # Priority games queue for SteamGridDB harvesting (high yield of animated heroes & motion grids)
 PRIORITY_STEAMGRID_GAMES = [
+    # Top Nintendo Exclusives & Flagships
+    ("010015100B514000", "Super Mario Bros Wonder", "Super Mario Bros. Wonder"),
+    ("01008CF01BAAC000", "The Legend of Zelda: Echoes of Wisdom", "The Legend of Zelda: Echoes of Wisdom"),
+    ("0100ECD018EBE000", "Paper Mario: The Thousand-Year Door", "Paper Mario: The Thousand-Year Door"),
+    ("0100BC0018138000", "Super Mario RPG", "Super Mario RPG"),
+    ("010012101468C000", "Metroid Prime Remastered", "Metroid Prime Remastered"),
+    ("0100B7C00933A000", "Pikmin 4", "Pikmin 4"),
+    ("0100DCA0064A6000", "Luigi's Mansion 3", "Luigi's Mansion 3"),
+    ("01006F8002326000", "Animal Crossing: New Horizons", "Animal Crossing: New Horizons"),
+    ("0100C2500FC20000", "Splatoon 3", "Splatoon 3"),
+    ("01001F5010DFA000", "Pokemon Legends: Arceus", "Pokemon Legends: Arceus"),
+    ("0100A3D008C5C000", "Pokemon Scarlet", "Pokemon Scarlet"),
+    ("0100ABF008968000", "Pokemon Sword", "Pokemon Sword"),
+    ("0100BD0009ED6000", "Super Mario 3D World + Bowser's Fury", "Super Mario 3D World"),
+    ("01007EF00011E000", "The Legend of Zelda: Breath of the Wild", "The Legend of Zelda: Breath of the Wild"),
+    ("0100F2C0115B6000", "The Legend of Zelda: Tears of the Kingdom", "The Legend of Zelda: Tears of the Kingdom"),
+    ("0100152000022000", "Mario Kart 8 Deluxe", "Mario Kart 8 Deluxe"),
+    ("01000A10041EA000", "Super Smash Bros. Ultimate", "Super Smash Bros. Ultimate"),
+    ("01006BB00C6F0000", "The Legend of Zelda: Link's Awakening", "The Legend of Zelda: Link's Awakening"),
+    ("0100DA9013230000", "The Legend of Zelda: Skyward Sword HD", "The Legend of Zelda: Skyward Sword HD"),
+    ("01004C300E9F0000", "Paper Mario: The Origami King", "Paper Mario: The Origami King"),
+    ("0100C4001A848000", "Princess Peach: Showtime!", "Princess Peach: Showtime!"),
+    ("0100702008E12000", "Donkey Kong Country: Tropical Freeze", "Donkey Kong Country: Tropical Freeze"),
+    ("0100FF500E34A000", "Xenoblade Chronicles Definitive Edition", "Xenoblade Chronicles: Definitive Edition"),
+    ("0100E95004038000", "Xenoblade Chronicles 2", "Xenoblade Chronicles 2"),
+    ("010074F013262000", "Xenoblade Chronicles 3", "Xenoblade Chronicles 3"),
+    ("010055D009F78000", "Fire Emblem: Three Houses", "Fire Emblem: Three Houses"),
+    ("0100A6301214E000", "Fire Emblem Engage", "Fire Emblem Engage"),
+    ("01007300020FA000", "Astral Chain", "Astral Chain"),
+    ("01004A4010FEA000", "Bayonetta 3", "Bayonetta 3"),
+    ("010076F0049A4000", "Bayonetta 2", "Bayonetta 2"),
+
+    # Major RPGs & Modern Beloved Switch Titles
+    ("010062B01525C000", "Persona 4 Golden", "Persona 4 Golden"),
+    ("0100DCD01525A000", "Persona 3 Portable", "Persona 3 Portable"),
+    ("010057D006492000", "Octopath Traveler", "Octopath Traveler"),
+    ("010069C01AB82000", "Shin Megami Tensei V: Vengeance", "Shin Megami Tensei V: Vengeance"),
+    ("01004BC0166CC000", "Crisis Core: Final Fantasy VII Reunion", "Crisis Core: Final Fantasy VII Reunion"),
+    ("01006C300E9F0000", "Dragon Quest XI S", "Dragon Quest XI S: Echoes of an Elusive Age"),
+    ("0100B04011742000", "Monster Hunter Rise", "Monster Hunter Rise"),
+    ("0100A5B00BDC6000", "Final Fantasy VII", "Final Fantasy VII"),
+    ("0100B1A00C254000", "Final Fantasy VIII Remastered", "Final Fantasy VIII"),
+    ("0100E2600AEA4000", "Final Fantasy IX", "Final Fantasy IX"),
+    ("01009B800BC28000", "Final Fantasy X/X-2 HD Remaster", "Final Fantasy X/X-2 HD Remaster"),
+    ("01004B000C198000", "Final Fantasy XII: The Zodiac Age", "Final Fantasy XII: The Zodiac Age"),
+
+    # Renowned Multiplatform & Modern Indie Hits
+    ("0100210019428000", "Prince of Persia: The Lost Crown", "Prince of Persia: The Lost Crown"),
+    ("01008CD0172D6000", "Dredge", "Dredge"),
+    ("01003DC0144B6000", "Outer Wilds", "Outer Wilds"),
+    ("010075D00E8BA000", "Alien: Isolation", "Alien: Isolation"),
+    ("0100698009C6E000", "Blasphemous", "Blasphemous"),
+    ("010040801A4C8000", "Blasphemous 2", "Blasphemous 2"),
+    ("0100092021C80000", "Tomb Raider (2013)", "Tomb Raider"),
+    ("010024601BB16000", "Tomb Raider I-III Remastered", "Tomb Raider I-III Remastered"),
+    ("01003F00163CE000", "Batman: Arkham Trilogy", "Batman: Arkham City"),
+    ("010042400D600000", "No Man's Sky", "No Man's Sky"),
+    ("0100E5F00E88C000", "Subnautica", "Subnautica"),
+    ("010023200C12C000", "Subnautica: Below Zero", "Subnautica: Below Zero"),
+    ("0100BC0005C8A000", "DOOM (2016)", "DOOM"),
+    ("01000F400B0D2000", "Metro: Last Light Redux", "Metro: Last Light Redux"),
+    ("01005A300C3FA000", "Borderlands: The Pre-Sequel", "Borderlands: The Pre-Sequel"),
+    ("010076F0049A2000", "Bayonetta", "Bayonetta"),
+    ("010029600D56A000", "Katana Zero", "Katana ZERO"),
+    ("0100DA801624E000", "Tunic", "Tunic"),
+    ("01005C000B2AE000", "NieR:Automata", "NieR:Automata"),
     ("01007820196A6000", "Red Dead Redemption", "Red Dead Redemption"),
     ("0100ABD01785C000", "Portal Companion Collection", "Portal"),
     ("01000B900D8B0000", "DOOM Eternal", "DOOM Eternal"),
-    ("0100BC0005C8A000", "DOOM (2016)", "DOOM"),
     ("010034400C3DA000", "Wolfenstein II: The New Colossus", "Wolfenstein II: The New Colossus"),
     ("010014200B0D0000", "Metro 2033 Redux", "Metro 2033"),
-    ("01000F400B0D2000", "Metro: Last Light Redux", "Metro: Last Light"),
     ("01008C3005A66000", "Dead Cells", "Dead Cells"),
     ("01004AB00A260000", "Dark Souls Remastered", "Dark Souls"),
-    ("010029600D56A000", "Katana Zero", "Katana ZERO"),
     ("010079C009494000", "Cuphead", "Cuphead"),
     ("01002B30028F6000", "Celeste", "Celeste"),
     ("010052300B254000", "Hades", "Hades"),
@@ -80,22 +143,15 @@ PRIORITY_STEAMGRID_GAMES = [
     ("010097F018538000", "Dave the Diver", "Dave the Diver"),
     ("01002E7016C46000", "Cult of the Lamb", "Cult of the Lamb"),
     ("010027F017B12000", "Inscryption", "Inscryption"),
-    ("0100DA801624E000", "Tunic", "Tunic"),
     ("0100307018934000", "Signalis", "Signalis"),
     ("01008C0016544000", "Sea of Stars", "Sea of Stars"),
     ("010093800B8C8000", "Stardew Valley", "Stardew Valley"),
     ("01003D100E9C6000", "The Witcher 3: Wild Hunt", "The Witcher 3: Wild Hunt"),
     ("01005CA01580E000", "Persona 5 Royal", "Persona 5 Royal"),
-    ("01005C000B2AE000", "NieR:Automata", "NieR:Automata"),
     ("01000A10041EA000", "The Elder Scrolls V: Skyrim", "The Elder Scrolls V: Skyrim"),
-    ("0100559011540000", "Monster Hunter Rise", "Monster Hunter Rise"),
-    ("010040801A4C8000", "Blasphemous 2", "Blasphemous 2"),
-    ("010006700C7E2000", "Blasphemous", "Blasphemous"),
     ("010038800C3DC000", "BioShock Remastered", "BioShock Remastered"),
     ("010065000C3DE000", "BioShock Infinite", "BioShock Infinite"),
     ("01000F900C404000", "Borderlands 2", "Borderlands 2"),
-    ("01005A300C3FA000", "Borderlands: The Pre-Sequel", "Borderlands: The Pre-Sequel"),
-    ("010076F0049A2000", "Bayonetta", "Bayonetta"),
     ("01003BC0000A0000", "Kirby and the Forgotten Land", "Kirby and the Forgotten Land"),
     ("01002DA013484000", "Metroid Dread", "Metroid Dread"),
     ("010086C00AF7C000", "Ori and the Will of the Wisps", "Ori and the Will of the Wisps")
@@ -230,98 +286,96 @@ AFTER_DARK_GENERAL_QUERIES = [
 
 # Known popular Switch games & famous Homebrew ports for SFW Main catalog
 POPULAR_SWITCH_SFW_GAMES = [
-    # Top Nintendo Exclusives
+    # Top Nintendo Exclusives & Flagships
     ("0100000000010000", "Super Mario Odyssey", ["super mario odyssey", "mario odyssey"]),
     ("0100152000022000", "Mario Kart 8 Deluxe", ["mario kart 8", "mario kart"]),
-    ("01007EF00011E000", "The Legend of Zelda: Breath of the Wild", ["breath of the wild", "zelda botw"]),
-    ("0100F2C0115B6000", "The Legend of Zelda: Tears of the Kingdom", ["tears of the kingdom", "zelda totk"]),
+    ("01007EF00011E000", "The Legend of Zelda: Breath of the Wild", ["breath of the wild", "zelda botw", "link botw"]),
+    ("0100F2C0115B6000", "The Legend of Zelda: Tears of the Kingdom", ["tears of the kingdom", "zelda totk", "link totk"]),
+    ("01008CF01BAAC000", "The Legend of Zelda: Echoes of Wisdom", ["echoes of wisdom", "zelda echoes of wisdom"]),
+    ("01006BB00C6F0000", "The Legend of Zelda: Link's Awakening", ["links awakening", "zelda koholint"]),
+    ("0100DA9013230000", "The Legend of Zelda: Skyward Sword HD", ["skyward sword", "zelda skyward"]),
+    ("010015100B514000", "Super Mario Bros. Wonder", ["super mario bros wonder", "mario wonder", "elephant mario"]),
+    ("0100ECD018EBE000", "Paper Mario: The Thousand-Year Door", ["thousand-year door", "paper mario"]),
+    ("0100BC0018138000", "Super Mario RPG", ["super mario rpg", "geno mario rpg"]),
+    ("01004C300E9F0000", "Paper Mario: The Origami King", ["paper mario origami", "origami king"]),
+    ("0100BD0009ED6000", "Super Mario 3D World + Bowser's Fury", ["bowsers fury", "mario 3d world"]),
     ("01006F8002326000", "Animal Crossing: New Horizons", ["animal crossing new horizons", "animal crossing"]),
     ("01000A10041EA000", "Super Smash Bros. Ultimate", ["super smash bros ultimate", "smash ultimate"]),
+    ("010012101468C000", "Metroid Prime Remastered", ["metroid prime", "metroid prime samus"]),
     ("01002DA013484000", "Metroid Dread", ["metroid dread", "samus aran dread"]),
+    ("0100B7C00933A000", "Pikmin 4", ["pikmin 4", "pikmin olimar", "pikmin dog"]),
+    ("0100DCA0064A6000", "Luigi's Mansion 3", ["luigis mansion 3", "luigi mansion"]),
     ("01003BC0000A0000", "Kirby and the Forgotten Land", ["kirby forgotten land", "kirby"]),
-    ("0100559011540000", "Monster Hunter Rise", ["monster hunter rise", "monster hunter kamura"]),
-    ("0100BD0009ED6000", "Super Mario 3D World + Bowser's Fury", ["bowsers fury", "mario 3d world"]),
-    ("0100ABF008968000", "Luigi's Mansion 3", ["luigis mansion 3", "luigi mansion"]),
-    ("010055D009AA8000", "Fire Emblem: Three Houses", ["fire emblem three houses", "fire emblem edelgard"]),
+    ("0100C4001A848000", "Princess Peach: Showtime!", ["princess peach showtime", "princess peach"]),
+    ("0100702008E12000", "Donkey Kong Country: Tropical Freeze", ["donkey kong tropical freeze", "donkey kong country"]),
+    ("0100C2500FC20000", "Splatoon 3", ["splatoon 3", "splatoon octoling", "splatoon inkling"]),
+    ("010055D009F78000", "Fire Emblem: Three Houses", ["fire emblem three houses", "fire emblem edelgard", "byleth"]),
+    ("0100A6301214E000", "Fire Emblem Engage", ["fire emblem engage", "alear fire emblem"]),
+    ("0100FF500E34A000", "Xenoblade Chronicles Definitive Edition", ["xenoblade shulk", "xenoblade definitive"]),
     ("0100E95004038000", "Xenoblade Chronicles 2", ["xenoblade chronicles 2", "xenoblade pyra"]),
-    ("010074600E9F2000", "Xenoblade Chronicles 3", ["xenoblade chronicles 3", "xenoblade 3"]),
+    ("010074F013262000", "Xenoblade Chronicles 3", ["xenoblade chronicles 3", "xenoblade 3"]),
+    ("01001F5010DFA000", "Pokemon Legends: Arceus", ["pokemon legends arceus", "pokemon arceus"]),
+    ("0100A3D008C5C000", "Pokemon Scarlet", ["pokemon scarlet", "koraidon pokemon"]),
+    ("0100ABF008968000", "Pokemon Sword", ["pokemon sword", "zacian pokemon"]),
+    ("01007300020FA000", "Astral Chain", ["astral chain", "astral chain legion"]),
+    ("01004A4010FEA000", "Bayonetta 3", ["bayonetta 3", "viola bayonetta"]),
+    ("010076F0049A4000", "Bayonetta 2", ["bayonetta 2", "bayonetta jeanne"]),
+    ("010076F0049A2000", "Bayonetta", ["bayonetta action", "bayonetta umbra"]),
+
+    # Top RPGs, Ports & Modern Classics
+    ("010062B01525C000", "Persona 4 Golden", ["persona 4 golden", "persona 4"]),
+    ("0100DCD01525A000", "Persona 3 Portable", ["persona 3 portable", "persona 3"]),
+    ("01005CA01580E000", "Persona 5 Royal", ["persona 5 shibuya", "persona 5 royal phantom thieves"]),
+    ("010057D006492000", "Octopath Traveler", ["octopath traveler", "octopath"]),
+    ("010069C01AB82000", "Shin Megami Tensei V: Vengeance", ["shin megami tensei v", "smt v nahobino"]),
+    ("01004BC0166CC000", "Crisis Core: Final Fantasy VII Reunion", ["crisis core", "zack fair"]),
+    ("01006C300E9F0000", "Dragon Quest XI S", ["dragon quest xi", "dragon quest 11"]),
+    ("0100B04011742000", "Monster Hunter Rise", ["monster hunter rise", "monster hunter kamura"]),
+    ("0100A5B00BDC6000", "Final Fantasy VII", ["final fantasy vii", "cloud strife", "sephiroth"]),
+    ("01003D100E9C6000", "The Witcher 3: Wild Hunt", ["witcher 3 scenery", "geralt of rivia kaer morhen", "witcher 3 novigrad"]),
+    ("01005C000B2AE000", "NieR:Automata", ["nier automata city ruins", "nier automata amusement park"]),
+    ("01004AB00A260000", "Dark Souls: Remastered", ["dark souls bonfire", "dark souls anor londo", "dark souls firelink"]),
+    ("01000A10041EA000", "The Elder Scrolls V: Skyrim", ["skyrim scenery", "skyrim dragon", "elder scrolls skyrim"]),
+
+    # Renowned Multiplatform & Modern Indie Hits
+    ("0100210019428000", "Prince of Persia: The Lost Crown", ["prince of persia the lost crown", "sargon prince of persia"]),
+    ("01008CD0172D6000", "Dredge", ["dredge game", "dredge fishing"]),
+    ("01003DC0144B6000", "Outer Wilds", ["outer wilds solar system", "outer wilds campfire"]),
+    ("010075D00E8BA000", "Alien: Isolation", ["alien isolation", "xenomorph alien"]),
+    ("0100698009C6E000", "Blasphemous", ["blasphemous penitent one", "blasphemous"]),
+    ("010040801A4C8000", "Blasphemous 2", ["blasphemous 2", "penitent one"]),
+    ("0100092021C80000", "Tomb Raider (2013)", ["tomb raider lara croft", "lara croft"]),
+    ("010024601BB16000", "Tomb Raider I-III Remastered", ["tomb raider remastered", "tomb raider"]),
+    ("01003F00163CE000", "Batman: Arkham Trilogy", ["batman arkham", "batman arkham knight", "batman arkham city"]),
+    ("010042400D600000", "No Man's Sky", ["no mans sky space", "no mans sky"]),
+    ("0100E5F00E88C000", "Subnautica", ["subnautica leviathan", "subnautica ocean"]),
     ("01008C3005A66000", "Dead Cells", ["dead cells prisoner", "dead cells game"]),
     ("010052300B254000", "Hades", ["hades game underworld", "zagreus hades"]),
     ("0100CD801CE5E000", "Balatro", ["balatro game", "balatro cards"]),
     ("010036500ECF2000", "Hollow Knight", ["hollow knight", "hallownest", "hollow knight silksong"]),
-
-    # Famous Nintendo Switch Homebrew Ports & Legendary PC/Console Classics
-    ("0100A6901170A000", "Need for Speed: Hot Pursuit Remastered", ["need for speed", "need for speed hot pursuit", "nfs police"]),
-    ("0100B9600D498000", "Need for Speed: Underground", ["need for speed underground", "nfs underground r34", "nfs underground"]),
-    ("01004C800C3DC000", "Need for Speed: Most Wanted", ["need for speed most wanted", "nfs most wanted bmw m3", "nfs most wanted"]),
-    ("0100658013AE8000", "Grand Theft Auto III - Definitive", ["grand theft auto iii", "gta 3", "claude gta"]),
-    ("0100659013AEA000", "Grand Theft Auto: Vice City - Definitive", ["grand theft auto vice city", "gta vice city", "tommy vercetti"]),
-    ("010065A013AEC000", "Grand Theft Auto: San Andreas - Definitive", ["grand theft auto san andreas", "gta san andreas", "cj san andreas"]),
-    ("0100ABD01785C000", "Portal Companion Collection", ["portal 2", "portal aperture", "glados portal"]),
-    ("01004A7010C52000", "Super Mario 64 (Port)", ["super mario 64", "mario 64 castle", "mario 64"]),
-    ("0100C810142A6000", "Quake Remastered", ["quake 1", "quake remastered", "quake id"]),
-    ("01007E3019808000", "Quake II Remastered", ["quake 2", "quake ii remastered"]),
-    ("0100B9F00BD34000", "DOOM (Classic Port)", ["doom classic", "doom 1993", "doom marine"]),
-    ("0100B9F00BD36000", "DOOM II (Classic Port)", ["doom 2", "doom ii classic"]),
-    ("01000B900D8B0000", "DOOM Eternal", ["doom eternal slayer", "doom eternal fortress"]),
-    ("01007E6002A54000", "Sonic Mania", ["sonic mania", "sonic green hill", "sonic the hedgehog"]),
-    ("0100994017EE6000", "Sonic Frontiers", ["sonic frontiers", "sonic starfall"]),
-    ("0100E8B00BDC6000", "The Witcher 3: Wild Hunt", ["witcher 3 scenery", "geralt of rivia kaer morhen", "witcher 3 novigrad"]),
-    ("01005C000B2AE000", "NieR:Automata", ["nier automata city ruins", "nier automata amusement park"]),
-    ("01004AB00A260000", "Dark Souls: Remastered", ["dark souls bonfire", "dark souls anor londo", "dark souls firelink"]),
-    ("010091200CDA4000", "Persona 5 Royal", ["persona 5 shibuya", "persona 5 royal phantom thieves"]),
-    ("0100B9600AA90000", "Celeste", ["celeste mountain", "celeste game"]),
-    ("010076F0049A2000", "Bayonetta", ["bayonetta action", "bayonetta umbra"]),
+    ("01008C0016544000", "Sea of Stars", ["sea of stars game", "sea of stars"]),
+    ("010097F018538000", "Dave the Diver", ["dave the diver game", "dave the diver"]),
+    ("01002E7016C46000", "Cult of the Lamb", ["cult of the lamb", "the lamb cult"]),
+    ("010027F017B12000", "Inscryption", ["inscryption", "leshy inscryption"]),
+    ("0100DA801624E000", "Tunic", ["tunic game fox", "tunic fox"]),
+    ("0100307018934000", "Signalis", ["signalis game", "elster signalis"]),
+    ("01002B30028F6000", "Celeste", ["celeste mountain", "celeste game"]),
+    ("010029600D56A000", "Katana Zero", ["katana zero", "katana zero dragon"]),
     ("010079C009494000", "Cuphead", ["cuphead boss", "cuphead game"]),
-    ("010086C00AF7C000", "Ori and the Will of the Wisps", ["ori and the will of the wisps", "ori blind forest"]),
     ("010093800B8C8000", "Stardew Valley", ["stardew valley sunset", "stardew valley farm"]),
-
-    # Major First-Party & Top Switch Exclusives
-    ("010015100B514000", "Super Mario Bros. Wonder", ["mario wonder", "super mario bros wonder"]),
-    ("0100BC0018138000", "Super Mario RPG", ["super mario rpg", "mario rpg"]),
-    ("0100ECD018EBE000", "Paper Mario: The Thousand-Year Door", ["thousand year door", "paper mario"]),
-    ("010036B0034E4000", "Super Mario Party", ["super mario party", "mario party"]),
-    ("01006BB00C6F0000", "Mario Party Superstars", ["mario party superstars"]),
-    ("01004E301F252000", "The Legend of Zelda: Echoes of Wisdom", ["echoes of wisdom", "zelda echoes"]),
-    ("01006BB00C6F0000", "The Legend of Zelda: Link's Awakening", ["links awakening", "zelda koholint"]),
-    ("01002DA013484000", "The Legend of Zelda: Skyward Sword HD", ["skyward sword", "zelda skyward"]),
-    ("01002B00111A2000", "Hyrule Warriors: Age of Calamity", ["age of calamity", "hyrule warriors"]),
-    ("0100A3D008C5C000", "Pokemon Scarlet", ["pokemon scarlet", "koraidon pokemon"]),
-    ("01008F6008C5E000", "Pokemon Violet", ["pokemon violet", "miraidon pokemon"]),
-    ("01001F5010DFA000", "Pokemon Legends: Arceus", ["pokemon arceus", "hisui pokemon"]),
-    ("0100ABF008968000", "Pokemon Sword", ["pokemon sword", "zacian pokemon"]),
-    ("01008DB008C2C000", "Pokemon Shield", ["pokemon shield", "zamazenta pokemon"]),
-    ("0100C2500FC20000", "Splatoon 3", ["splatoon 3", "splatoon octoling", "splatoon inkling"]),
-    ("01003C700009C000", "Splatoon 2", ["splatoon 2", "splatoon agent"]),
-    ("0100B7000B36E000", "Pikmin 4", ["pikmin 4", "pikmin olimar", "pikmin dog"]),
-    ("010067300059A000", "Mario + Rabbids Kingdom Battle", ["mario rabbids", "mario rabbids kingdom battle"]),
-    ("0100C1F0051B6000", "Donkey Kong Country: Tropical Freeze", ["donkey kong country", "donkey kong tropical freeze"]),
-    ("010012101468C000", "Metroid Prime Remastered", ["metroid prime", "metroid prime samus"]),
-    ("0100A6301214E000", "Fire Emblem Engage", ["fire emblem engage", "alear fire emblem"]),
-    ("0100FF500E34A000", "Xenoblade Chronicles: Definitive Edition", ["xenoblade shulk", "xenoblade definitive"]),
-    ("01007300020FA000", "Astral Chain", ["astral chain", "astral chain legion"]),
-    ("0100A3B0182E0000", "Bayonetta Origins", ["bayonetta origins", "cereza and the lost demon"]),
-    ("0100600004034000", "Yoshi's Crafted World", ["yoshis crafted world", "yoshi nintendo"]),
-    ("0100C4901C46E000", "Princess Peach: Showtime!", ["princess peach showtime", "princess peach swordfighter"]),
-    ("01009B90006DC000", "Super Mario Maker 2", ["super mario maker", "mario maker 2"]),
-    ("010057D006492000", "Octopath Traveler", ["octopath traveler", "octopath"]),
-    ("01003C8014524000", "Octopath Traveler II", ["octopath traveler 2", "octopath 2"]),
-    ("01005260128AC000", "Triangle Strategy", ["triangle strategy"]),
-    ("01006C300E9F0000", "Dragon Quest XI S: Echoes of an Elusive Age", ["dragon quest xi", "dragon quest 11"]),
-    ("010042000A986000", "Dragon Quest Builders 2", ["dragon quest builders", "dq builders"]),
-    ("0100B9F01B63E000", "Shin Megami Tensei V", ["shin megami tensei v", "smt v nahobino"]),
-    ("0100770008DD8000", "Monster Hunter Generations Ultimate", ["monster hunter generations", "mhgu"]),
-    ("0100F7E00C70E000", "Hogwarts Legacy", ["hogwarts legacy castle", "hogwarts legacy"]),
-    ("01007B0010FCD000", "Red Dead Redemption", ["red dead redemption", "john marston"]),
-    ("01004E301F252000", "Sea of Stars", ["sea of stars game", "sea of stars"]),
-    ("0100C8801594E000", "Dave the Diver", ["dave the diver game", "dave the diver"]),
-    ("010090F012644000", "Cult of the Lamb", ["cult of the lamb", "the lamb cult"]),
-    ("01002EA0112A6000", "Blasphemous", ["blasphemous penitent one", "blasphemous"]),
-    ("01008DE00C4FA000", "Tunic", ["tunic game fox", "tunic fox"]),
-    ("01003DC0144B6000", "Outer Wilds", ["outer wilds solar system", "outer wilds campfire"]),
-    ("010032E00E6E2000", "Return of the Obra Dinn", ["return of the obra dinn", "obra dinn"]),
-    ("010009B00E71A000", "Slay the Spire", ["slay the spire ironclad", "slay the spire"]),
-    ("0100D03008362000", "Minecraft", ["minecraft shader", "minecraft scenery", "minecraft sunset"])
+    ("010086C00AF7C000", "Ori and the Will of the Wisps", ["ori and the will of the wisps", "ori blind forest"]),
+    ("010034400C3DA000", "Wolfenstein II: The New Colossus", ["wolfenstein", "wolfenstein colossus"]),
+    ("010014200B0D0000", "Metro 2033 Redux", ["metro 2033", "artyom metro"]),
+    ("01000F400B0D2000", "Metro: Last Light Redux", ["metro last light", "artyom metro"]),
+    ("010038800C3DC000", "BioShock Remastered", ["bioshock rapture", "bioshock big daddy"]),
+    ("010065000C3DE000", "BioShock Infinite", ["bioshock infinite columbia", "elizabeth bioshock"]),
+    ("01000B900D8B0000", "DOOM Eternal", ["doom eternal slayer", "doom eternal fortress"]),
+    ("0100BC0005C8A000", "DOOM (2016)", ["doom slayer", "doom 2016"]),
+    ("01007820196A6000", "Red Dead Redemption", ["red dead redemption", "john marston"]),
+    ("0100A6901170A000", "Need for Speed: Hot Pursuit Remastered", ["need for speed", "need for speed hot pursuit", "nfs police"]),
+    ("01004C800C3DC000", "Need for Speed: Most Wanted", ["need for speed most wanted", "nfs most wanted bmw m3", "nfs most wanted"]),
+    ("0100ABD01785C000", "Portal Companion Collection", ["portal 2", "portal aperture", "glados portal"]),
+    ("01007E6002A54000", "Sonic Mania", ["sonic mania", "sonic green hill", "sonic the hedgehog"])
 ]
 
 NSFW_KEYWORDS = [
@@ -914,15 +968,35 @@ class AutoVideoHarvester:
             return 0
 
         harvested = 0
-        q_cursor = self.log_data.get("query_cursor", 0) % len(query_queue)
         page_cursors = self.log_data.get("page_cursors", {})
 
-        queries_to_try = 30
-        for i in range(queries_to_try):
+        # Compute count of priority queries at head of queue
+        priority_count = 0
+        for tid, gname, qlist in (POPULAR_SWITCH_SFW_GAMES if self.mode == "main" else MATURE_SWITCH_GAMES):
+            if len(games_map.get(tid.upper(), {}).get("variants", [])) < 4:
+                priority_count += len(qlist)
+
+        # Build execution list: priority queries first, followed by discovery slice
+        exec_indices = []
+        if priority_count > 0:
+            p_cursor = self.log_data.get("priority_cursor", 0) % priority_count
+            for i in range(min(priority_count, 12)):
+                exec_indices.append((p_cursor + i) % priority_count)
+            self.log_data["priority_cursor"] = (p_cursor + 12) % priority_count
+
+        remaining_count = len(query_queue) - priority_count
+        if remaining_count > 0:
+            q_cursor = self.log_data.get("query_cursor", 0) % remaining_count
+            for i in range(20):
+                exec_indices.append(priority_count + ((q_cursor + i) % remaining_count))
+            self.log_data["query_cursor"] = (q_cursor + 20) % remaining_count
+
+        for idx in exec_indices:
             if harvested >= limit:
                 break
-            idx = (q_cursor + i) % len(query_queue)
             tid, default_game_name, q = query_queue[idx]
+            if tid != "0000000000000000" and len(games_map.get(tid.upper(), {}).get("variants", [])) >= 4:
+                continue
             current_p = page_cursors.get(q, 1)
 
             print(f"\n🔍 [MoeWalls] Searching: '{q}' (Target: {default_game_name}, Page: {current_p})...")
@@ -986,7 +1060,6 @@ class AutoVideoHarvester:
             elif not found_any:
                 page_cursors[q] = current_p + 1 if current_p < 4 else 1
 
-        self.log_data["query_cursor"] = (q_cursor + queries_to_try) % len(query_queue)
         self.log_data["page_cursors"] = page_cursors
         self._save_log()
 
