@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T14:55:16.271182+00:00",
+  "updatedAt": "2026-10-25T14:57:16.279708+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -5336,6 +5336,42 @@
           "sha256": "9DC19A2857447C2B08EACBAF27AB285E33EB965D6E116348E76CEC8D0E1C3004",
           "durationSec": 30.0,
           "author": "Elke1131",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | SIGNALIS Hero"
+        },
+        {
+          "id": "v_354c4b17",
+          "name": "SIGNALIS Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1A8ELl87Zxs1i4NGQfpui6-Ka5-6718L7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1A8ELl87Zxs1i4NGQfpui6-Ka5-6718L7&sz=w640",
+          "sizeBytes": 3818297,
+          "sha256": "BCFF38FE715D873B40437FA2093B617A2BB5BB20C31CA03D592EE1FFECA08C1F",
+          "durationSec": 30.0,
+          "author": "DFE 785",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | SIGNALIS Hero"
+        },
+        {
+          "id": "v_ad4b00c3",
+          "name": "SIGNALIS Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NEh_3vy_9HidS_EJJxkylLDmnmPTifo0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NEh_3vy_9HidS_EJJxkylLDmnmPTifo0&sz=w640",
+          "sizeBytes": 296410,
+          "sha256": "E429DFC3F3D73E941879013411BC2762F6FE7DFF9DFE0653FB71EB400F17DA81",
+          "durationSec": 30.0,
+          "author": "GUMMY",
           "codec": "h264",
           "width": 1280,
           "height": 720,
@@ -28182,6 +28218,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Dark Street Lights | ЗВУК"
+        },
+        {
+          "id": "v_71ab140c",
+          "name": "Light And Darkness",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IXzQ10Shbv8CArrXq-vSNg9rk2FlVXmx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IXzQ10Shbv8CArrXq-vSNg9rk2FlVXmx&sz=w640",
+          "sizeBytes": 4708645,
+          "sha256": "C9CD3B544123D2AD7683BC820E3B391FEB1225DC5F173EB674C1E84814E55C18",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Light And Darkness | ЗВУК"
         }
       ]
     },
@@ -28296,6 +28350,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Furina Midnight Meadow Genshin Impact | ЗВУК"
+        },
+        {
+          "id": "v_415b0194",
+          "name": "Miyabi Looking Up At The Gray Sky Zenles",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1laebXTht3ptcYrnJCZwakCspsFoDvxm5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1laebXTht3ptcYrnJCZwakCspsFoDvxm5&sz=w640",
+          "sizeBytes": 4694951,
+          "sha256": "E0444F6426E24A3825EF367C8F3F1209723B8D95E4015CD993DD3BEE3DAA4369",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Miyabi Looking Up At The Gray Sky Zenles | ЗВУК"
+        },
+        {
+          "id": "v_16f1ce3d",
+          "name": "Anime Wolf Girl Holding Katana Standing",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cB0FZu6yqt0qtwfvrLqTvXfe8MZKpeHO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cB0FZu6yqt0qtwfvrLqTvXfe8MZKpeHO&sz=w640",
+          "sizeBytes": 4742371,
+          "sha256": "3423A9D2B7557623178EEFDF20FD31AC5F59BCB73B7301C7AFA7484BC5BC0018",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Anime Wolf Girl Holding Katana Standing | ЗВУК"
         }
       ]
     },
@@ -38278,6 +38368,6 @@
     }
   ],
   "totalGames": 1039,
-  "totalVariants": 1692,
+  "totalVariants": 1697,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
