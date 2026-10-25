@@ -36888,9 +36888,40 @@
           "iconHeight": 256
         }
       ]
+    },
+    {
+      "titleId": "0100F0400E850000",
+      "title": "Игра (0100F0400E850000)",
+      "publisher": "Community",
+      "variants": [
+        {
+          "id": "var-0dba0210",
+          "name": "Trailer Remix",
+          "style": "4IFIR Dynamic Pack",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zZrWPHjLywElc88SaTwurxD7fL2_o_oD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zZrWPHjLywElc88SaTwurxD7fL2_o_oD&sz=w640",
+          "sizeBytes": 19907403,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "@Secondchancetomourn",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "notes": "Submitted via Telegram by @Secondchancetomourn",
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1acEl830qffs4jdazGvtPrq5Tvta6fg93",
+          "iconSizeBytes": 115029,
+          "iconCodec": "hevc",
+          "iconWidth": 256,
+          "iconHeight": 256
+        }
+      ]
     }
   ],
-  "totalGames": 1035,
-  "totalVariants": 1617,
-  "lastUpdated": "2026-10-25T12:58:26.189301+00:00"
+  "totalGames": 1036,
+  "totalVariants": 1618,
+  "lastUpdated": "2026-10-25T13:20:46.276388+00:00"
 }
