@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T14:10:12.964924+00:00",
+  "updatedAt": "2026-10-25T14:11:23.617733+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -2564,6 +2564,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 01002E7016C46000_Cult_of_the_Lamb.mp4"
+        },
+        {
+          "id": "v_9915bb70",
+          "name": "Cult of the Lamb Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1uSs7RwIcqcOa80YXbaSaC23h_aiv4CkI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1uSs7RwIcqcOa80YXbaSaC23h_aiv4CkI&sz=w640",
+          "sizeBytes": 1260015,
+          "sha256": "207223E96E66B0E37805DD9D50C5B038870AECBCCFBC4076ED7919DD89DF18C4",
+          "durationSec": 30.0,
+          "author": "TUFKAC",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Cult of the Lamb Hero"
+        },
+        {
+          "id": "v_87bc964a",
+          "name": "Cult of the Lamb Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QZOKvLZdYeysJXubxj567gCnDBo6JyqM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QZOKvLZdYeysJXubxj567gCnDBo6JyqM&sz=w640",
+          "sizeBytes": 3172985,
+          "sha256": "35DBA5E9CBBCDB47F0D79663CAD681FEF18A1122C7BA17C3219F0EDF4A8CC5A6",
+          "durationSec": 30.0,
+          "author": "Scarfy_Squirrel",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Cult of the Lamb Hero"
         }
       ]
     },
@@ -37012,6 +37048,6 @@
     }
   ],
   "totalGames": 1036,
-  "totalVariants": 1623,
+  "totalVariants": 1625,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
