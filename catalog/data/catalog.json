@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T14:52:09.608223+00:00",
+  "updatedAt": "2026-10-25T14:55:16.271182+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -5542,6 +5542,42 @@
           "previewUrl": "https://drive.google.com/thumbnail?id=1LfmcFAy6905YADmCao4oYyzvgxSwNyCa&sz=w640",
           "sizeBytes": 835883,
           "sha256": "6C22B266360098534A62F4052EF815D8D51318F4B9EEF87C391DF867129FD4FA",
+          "durationSec": 30.0,
+          "author": "Lmaclittle",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Inscryption Motion Cover"
+        },
+        {
+          "id": "v_69b1e880",
+          "name": "Inscryption Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=130rCbkBLPs-NQzy688ft8yRr6bolRnDp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=130rCbkBLPs-NQzy688ft8yRr6bolRnDp&sz=w640",
+          "sizeBytes": 419970,
+          "sha256": "A5425B0F2EF8CC6B9847B618370DF944DB59265292467C021626DB44EF9ECEB2",
+          "durationSec": 30.0,
+          "author": "AndyDroid",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Inscryption Motion Cover"
+        },
+        {
+          "id": "v_3d8402a4",
+          "name": "Inscryption Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1iKuTRopUfN_AHc6ISxt5OkKFYEPrHazj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1iKuTRopUfN_AHc6ISxt5OkKFYEPrHazj&sz=w640",
+          "sizeBytes": 742366,
+          "sha256": "08FE8817838E33B5F63474698A08EFCB3DAB8C9E86450F05A41D8B916FEF8A9D",
           "durationSec": 30.0,
           "author": "Lmaclittle",
           "codec": "h264",
@@ -38242,6 +38278,6 @@
     }
   ],
   "totalGames": 1039,
-  "totalVariants": 1690,
+  "totalVariants": 1692,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
