@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T16:13:21.872823+00:00",
+  "updatedAt": "2026-10-25T16:20:32.143054+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -38831,9 +38831,35 @@
           "notes": "Switch 720p 30fps H264 | Super Mario 3D World Motion Cover"
         }
       ]
+    },
+    {
+      "titleId": "0100DA9013230000",
+      "title": "The Legend of Zelda: Skyward Sword HD",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DA9013230000.jpg",
+      "variants": [
+        {
+          "id": "v_3ab7f430",
+          "name": "The Legend of Zelda: Skyward Sword HD Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GaelDNwRrJgOTq47GK45634MN_ZXZW1c",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GaelDNwRrJgOTq47GK45634MN_ZXZW1c&sz=w640",
+          "sizeBytes": 2838956,
+          "sha256": "4B109BBCF81A459F31C72B1643DE8CEE9D3C1C504AD3E6398FEA6C89103409CA",
+          "durationSec": 30.0,
+          "author": "Smallz_67",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | The Legend of Zelda: Skyward Sword HD Hero"
+        }
+      ]
     }
   ],
-  "totalGames": 1041,
-  "totalVariants": 1722,
+  "totalGames": 1042,
+  "totalVariants": 1723,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
