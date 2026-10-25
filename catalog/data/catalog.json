@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T23:32:14.923239+00:00",
+  "updatedAt": "2026-10-25T23:53:16.221139+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -40289,9 +40289,35 @@
           "notes": "Switch 720p 30fps H264 | Stranded In The Ocean | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "010098800A1E4000",
+      "title": "The First Tree",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010098800A1E4000.jpg",
+      "variants": [
+        {
+          "id": "v_238302ca",
+          "name": "The First Shinobi&#8217;s Grave Ghost Of",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xAcLJTMxcE-yL0_FDPlzyjy8fHhgsjit",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xAcLJTMxcE-yL0_FDPlzyjy8fHhgsjit&sz=w640",
+          "sizeBytes": 5002605,
+          "sha256": "1A88A2B8BB08C6AAA0D7BD7417E1A73A350B982844F91A7A076970386AB2F81A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The First Shinobi&#8217;s Grave Ghost Of | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 1059,
-  "totalVariants": 1795,
+  "totalGames": 1060,
+  "totalVariants": 1796,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
