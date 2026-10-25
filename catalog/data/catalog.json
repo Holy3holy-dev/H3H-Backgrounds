@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T17:03:12.573512+00:00",
+  "updatedAt": "2026-10-25T17:07:56.752941+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -6007,6 +6007,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Arceus Pokemon | ЗВУК"
+        },
+        {
+          "id": "v_dc3d8d5b",
+          "name": "Pokémon Legends: Arceus Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1sP8aBHwddBxjcHi_-tnk9qrhBqg3lrNf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1sP8aBHwddBxjcHi_-tnk9qrhBqg3lrNf&sz=w640",
+          "sizeBytes": 1127438,
+          "sha256": "0515F90A67D1DF782337870BDE69E5A4EEFCD8F60FCE22E6DED53CBD916F570D",
+          "durationSec": 30.0,
+          "author": "KingLouzZ",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Pokémon Legends: Arceus Hero"
         }
       ]
     },
@@ -25250,6 +25268,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Metro: Last Light Motion Cover"
+        },
+        {
+          "id": "v_e11e9848",
+          "name": "Metro: Last Light Redux Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wNM98SV6ex68bXSATTL6TxQPDpLT-fI4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wNM98SV6ex68bXSATTL6TxQPDpLT-fI4&sz=w640",
+          "sizeBytes": 6366956,
+          "sha256": "FA24E8EE67DCE009A71B112F58B5FD749CE9D359ADFD65353B405DB077EB5327",
+          "durationSec": 30.0,
+          "author": "Classic Shooter",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Metro: Last Light Redux Hero"
         }
       ]
     },
@@ -39569,9 +39605,53 @@
           "notes": "Switch 720p 30fps H264 | Yu Narukami Persona 4 Revival | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "010069400B6BE000",
+      "title": "For The King",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010069400B6BE000.jpg",
+      "variants": [
+        {
+          "id": "v_8e7873a4",
+          "name": "Ayanami Rei Looking At The Sky Neon Gene",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1etLy5_7DJ0S3EVstV-mJwnQ127PXQ-l6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1etLy5_7DJ0S3EVstV-mJwnQ127PXQ-l6&sz=w640",
+          "sizeBytes": 4740701,
+          "sha256": "6A06D09FE8CBB716FC858E8062BE1D9DA3AE9E4D4971F194EE45290B47475AC3",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ayanami Rei Looking At The Sky Neon Gene | ЗВУК"
+        },
+        {
+          "id": "v_bc5862cf",
+          "name": "Chisa Looking At You Wuthering Waves",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1smuXQXctUjYItfmPkPH8V78cu_zYdjvZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1smuXQXctUjYItfmPkPH8V78cu_zYdjvZ&sz=w640",
+          "sizeBytes": 4715139,
+          "sha256": "E2896CCEFB36632475A4207DBAFE7174D553DBA3F92C71832AAFA9AE7601F7BB",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Chisa Looking At You Wuthering Waves | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 1050,
-  "totalVariants": 1759,
+  "totalGames": 1051,
+  "totalVariants": 1763,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }

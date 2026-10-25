@@ -12419,10 +12419,58 @@
       "mode": "main",
       "codec": "h264",
       "author": "brugabrug"
+    },
+    "https://cdn2.steamgriddb.com/hero/e78bc22ff1bb05ba4153e3a1ad70e864.webp": {
+      "title": "Metro: Last Light Redux Hero",
+      "titleId": "01000F400B0D2000",
+      "gameName": "Metro: Last Light Redux",
+      "varId": "v_e11e9848",
+      "driveId": "1wNM98SV6ex68bXSATTL6TxQPDpLT-fI4",
+      "mode": "main",
+      "codec": "h264",
+      "author": "Classic Shooter"
+    },
+    "https://cdn2.steamgriddb.com/hero/e4e416bd1ee10f4550f52bf15e73ac21.webp": {
+      "title": "Pokémon Legends: Arceus Hero",
+      "titleId": "01001F5010DFA000",
+      "gameName": "Pokemon Legends: Arceus",
+      "varId": "v_dc3d8d5b",
+      "driveId": "1sP8aBHwddBxjcHi_-tnk9qrhBqg3lrNf",
+      "mode": "main",
+      "codec": "h264",
+      "author": "KingLouzZ"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2025/ayanami-rei-looking-at-the-sky-neon-genesis-evangelion-preview.webm": {
+      "title": "Ayanami Rei Looking At The Sky Neon Gene",
+      "titleId": "010069400B6BE000",
+      "gameName": "For The King",
+      "varId": "v_8e7873a4",
+      "driveId": "1etLy5_7DJ0S3EVstV-mJwnQ127PXQ-l6",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/anime/ayanami-rei-looking-at-the-sky-neon-genesis-evangelion-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2025/ayanami-rei-looking-at-the-sky-neon-genesis-evangelion-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2025/chisa-looking-at-you-wuthering-waves-preview.webm": {
+      "title": "Chisa Looking At You Wuthering Waves",
+      "titleId": "010069400B6BE000",
+      "gameName": "For The King",
+      "varId": "v_bc5862cf",
+      "driveId": "1smuXQXctUjYItfmPkPH8V78cu_zYdjvZ",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/anime/chisa-looking-at-you-wuthering-waves-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2025/chisa-looking-at-you-wuthering-waves-preview.webm"
     }
   },
-  "total_harvested": 1724,
-  "last_updated": "2026-10-25T17:03:12.564282+00:00",
+  "total_harvested": 1730,
+  "last_updated": "2026-10-25T17:07:56.744552+00:00",
   "page_cursors": {
     "super mario odyssey": 1,
     "mario odyssey": 1,
@@ -12510,13 +12558,13 @@
     "zelda koholint": 1,
     "age of calamity": 1,
     "hyrule warriors": 1,
-    "pokemon scarlet": 1,
+    "pokemon scarlet": 2,
     "koraidon pokemon": 1,
     "pokemon violet": 2,
     "miraidon pokemon": 2,
-    "pokemon arceus": 1,
+    "pokemon arceus": 2,
     "hisui pokemon": 1,
-    "pokemon sword": 1,
+    "pokemon sword": 2,
     "zacian pokemon": 1,
     "pokemon shield": 2,
     "zamazenta pokemon": 1,
@@ -13219,9 +13267,9 @@
     "Agent A a Puzzle in Disguise": 1,
     "Detective Pikachu Returns": 1,
     "pokemon legends arceus": 1,
-    "bayonetta 3": 2,
+    "bayonetta 3": 1,
     "viola bayonetta": 1,
-    "bayonetta 2": 2,
+    "bayonetta 2": 1,
     "bayonetta jeanne": 1,
     "Monument Valley 1": 1,
     "Savant Ascent Remix": 1,
@@ -13354,8 +13402,11 @@
     "Oxenfree II Lost Signals": 1,
     "Venba": 1,
     "Old Man's Journey": 1,
-    "Megaton Rainfall": 1
+    "Megaton Rainfall": 1,
+    "Star Overdrive": 1,
+    "Fire Emblem Warriors": 1,
+    "Mario Kart Live Home Circuit": 1
   },
-  "query_cursor": 1220,
-  "priority_cursor": 48
+  "query_cursor": 1240,
+  "priority_cursor": 60
 }
