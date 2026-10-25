@@ -10917,10 +10917,72 @@
     "https://moewalls.com/anime/sea-of-flowers-genshin-impact-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2026/sea-of-flowers-genshin-impact-preview.webm"
+    },
+    "https://cdn2.steamgriddb.com/hero/628e999e6d4278ab94ba80ad50a93ff8.webp": {
+      "title": "SIGNALIS Hero",
+      "titleId": "0100307018934000",
+      "gameName": "Signalis",
+      "varId": "v_877685c3",
+      "driveId": "1jHZ-G9JvjCE2aNOVpmm1ZsskFE1U4iVz",
+      "mode": "main",
+      "codec": "h264",
+      "author": "TUFKAC"
+    },
+    "https://cdn2.steamgriddb.com/hero/c2c763e148211c9aab4a3c8bf8c02ae4.webp": {
+      "title": "SIGNALIS Hero",
+      "titleId": "0100307018934000",
+      "gameName": "Signalis",
+      "varId": "v_3a5f290a",
+      "driveId": "1TllUXbkLWEdC_PyLtUvY8K-pU0MwJ0Jh",
+      "mode": "main",
+      "codec": "h264",
+      "author": "Elke1131"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2021/samus-aran-preview.webm": {
+      "title": "Samus Aran",
+      "titleId": "010093801237C000",
+      "gameName": "Metroid Dread",
+      "varId": "v_5efc13f3",
+      "driveId": "1CZFFEuhS5wPzVOLM2crj-CfJS-M-84fW",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/samus-aran-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2021/samus-aran-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/sonic-preview.webm": {
+      "title": "Sonic",
+      "titleId": "01007E6002A54000",
+      "gameName": "Sonic Mania",
+      "varId": "v_5018e1b6",
+      "driveId": "1X3q0j45pU_XLtXSFhRyluGgw-o770ghj",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/sonic-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/sonic-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2021/dragon-on-top-of-mountain-skyrim-preview.webm": {
+      "title": "Dragon On Top Of Mountain Skyrim",
+      "titleId": "0100120024E9C000",
+      "gameName": "Heroes of Mount Dragon",
+      "varId": "v_8c51312f",
+      "driveId": "12LCULxtup73aZvFjS4PmZ6f2F2jnAbDH",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/dragon-on-top-of-mountain-skyrim-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2021/dragon-on-top-of-mountain-skyrim-preview.webm"
     }
   },
-  "total_harvested": 1542,
-  "last_updated": "2026-10-25T14:14:21.581640+00:00",
+  "total_harvested": 1550,
+  "last_updated": "2026-10-25T14:16:14.504678+00:00",
   "page_cursors": {
     "super mario odyssey": 1,
     "mario odyssey": 1,
@@ -11059,7 +11121,16 @@
     "smt v nahobino": 1,
     "monster hunter generations": 1,
     "mhgu": 1,
-    "john marston": 1
+    "john marston": 1,
+    "outer wilds campfire": 1,
+    "return of the obra dinn": 1,
+    "obra dinn": 1,
+    "slay the spire ironclad": 1,
+    "slay the spire": 1,
+    "tag:zelda": 2,
+    "tag:super-mario": 2,
+    "tag:dark-souls": 2,
+    "tag:hollow-knight": 2
   },
-  "query_cursor": 150
+  "query_cursor": 180
 }

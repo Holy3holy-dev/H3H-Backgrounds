@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T14:14:21.587505+00:00",
+  "updatedAt": "2026-10-25T14:16:14.510559+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -3598,6 +3598,24 @@
           "iconCodec": "h264",
           "iconWidth": 256,
           "iconHeight": 256
+        },
+        {
+          "id": "v_5efc13f3",
+          "name": "Samus Aran",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CZFFEuhS5wPzVOLM2crj-CfJS-M-84fW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CZFFEuhS5wPzVOLM2crj-CfJS-M-84fW&sz=w640",
+          "sizeBytes": 4606867,
+          "sha256": "A78B3C83463BAF58AB718DAE71DA67C7B51D301E64A8CFFF2DE891557AB988DB",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Samus Aran | ЗВУК"
         }
       ]
     },
@@ -4964,6 +4982,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 0100307018934000_Signalis.mp4"
+        },
+        {
+          "id": "v_877685c3",
+          "name": "SIGNALIS Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jHZ-G9JvjCE2aNOVpmm1ZsskFE1U4iVz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jHZ-G9JvjCE2aNOVpmm1ZsskFE1U4iVz&sz=w640",
+          "sizeBytes": 5865128,
+          "sha256": "2F9132C5C3C8C3A0133027976FED8BE58F1409B2F9BF39FA065E0F0E07CDD74B",
+          "durationSec": 30.0,
+          "author": "TUFKAC",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | SIGNALIS Hero"
+        },
+        {
+          "id": "v_3a5f290a",
+          "name": "SIGNALIS Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TllUXbkLWEdC_PyLtUvY8K-pU0MwJ0Jh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TllUXbkLWEdC_PyLtUvY8K-pU0MwJ0Jh&sz=w640",
+          "sizeBytes": 175379,
+          "sha256": "9DC19A2857447C2B08EACBAF27AB285E33EB965D6E116348E76CEC8D0E1C3004",
+          "durationSec": 30.0,
+          "author": "Elke1131",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | SIGNALIS Hero"
         }
       ]
     },
@@ -25379,6 +25433,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Sonic Explosion"
+        },
+        {
+          "id": "v_5018e1b6",
+          "name": "Sonic",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1X3q0j45pU_XLtXSFhRyluGgw-o770ghj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1X3q0j45pU_XLtXSFhRyluGgw-o770ghj&sz=w640",
+          "sizeBytes": 4713175,
+          "sha256": "EB33E6261CE82255A89BE19671F2AF2ECCFFB4C30333F6799C18172E877F7F92",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sonic | ЗВУК"
         }
       ]
     },
@@ -37187,9 +37259,35 @@
           "notes": "Switch 720p 30fps H264 | Sea Of Flowers Genshin Impact | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100120024E9C000",
+      "title": "Heroes of Mount Dragon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100120024E9C000.jpg",
+      "variants": [
+        {
+          "id": "v_8c51312f",
+          "name": "Dragon On Top Of Mountain Skyrim",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12LCULxtup73aZvFjS4PmZ6f2F2jnAbDH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12LCULxtup73aZvFjS4PmZ6f2F2jnAbDH&sz=w640",
+          "sizeBytes": 4658087,
+          "sha256": "613BEDD6E73507FFEDA1EB10FB074106C20AB042688F7610D36AD58F4DAC8CFF",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dragon On Top Of Mountain Skyrim | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 1038,
-  "totalVariants": 1632,
+  "totalGames": 1039,
+  "totalVariants": 1637,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
