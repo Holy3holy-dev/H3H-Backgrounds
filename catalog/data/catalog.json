@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T14:35:24.568984+00:00",
+  "updatedAt": "2026-10-25T14:38:30.440399+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -24525,6 +24525,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Dead Cells Motion Cover"
+        },
+        {
+          "id": "v_772dbe6f",
+          "name": "Dead Cells Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Or-NYtZwMYHCjV-JTG4ynlC5yQH-viUS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Or-NYtZwMYHCjV-JTG4ynlC5yQH-viUS&sz=w640",
+          "sizeBytes": 1648427,
+          "sha256": "6356FC1850362B42B5C1D32C544542D6437F12F0369422AE84572B2BD09C8926",
+          "durationSec": 30.0,
+          "author": "TUFKAC",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Dead Cells Motion Cover"
+        },
+        {
+          "id": "v_30371213",
+          "name": "Dead Cells Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1uWDE95NG391WdM7pulswduP2XVK_TzP6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1uWDE95NG391WdM7pulswduP2XVK_TzP6&sz=w640",
+          "sizeBytes": 4768287,
+          "sha256": "7D5AACFEE418D2FE3B2894E333240122EE26676CC0B4947F8713EA2734181A38",
+          "durationSec": 30.0,
+          "author": "ABH20",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Dead Cells Motion Cover"
         }
       ]
     },
@@ -37972,6 +38008,6 @@
     }
   ],
   "totalGames": 1039,
-  "totalVariants": 1675,
+  "totalVariants": 1677,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
