@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T16:52:43.654195+00:00",
+  "updatedAt": "2026-10-25T16:56:14.602569+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -6554,6 +6554,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 010024601BB16000_Tomb_Raider.mp4"
+        },
+        {
+          "id": "v_31ed02c3",
+          "name": "Tomb Raider I-III Remastered Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12eWBdl6OKwFrrWvUxYHay0USDZcBXIvE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12eWBdl6OKwFrrWvUxYHay0USDZcBXIvE&sz=w640",
+          "sizeBytes": 3229163,
+          "sha256": "327BE3FD802CFC69C15EF826EBB0EC05D575EC49F493274A2A12C9269A3DDD70",
+          "durationSec": 30.0,
+          "author": "TUFKAC",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Tomb Raider I-III Remastered Motion Cover"
+        },
+        {
+          "id": "v_020a3280",
+          "name": "Tomb Raider I-III Remastered Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1034U0k0t5Aw-zGC5nLIeGBkX9VMj-sgn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1034U0k0t5Aw-zGC5nLIeGBkX9VMj-sgn&sz=w640",
+          "sizeBytes": 3125347,
+          "sha256": "194F4F82B7B8CFE788456ADEF9B5479E75668FC84BC11C61795CBCC0966A1F85",
+          "durationSec": 30.0,
+          "author": "Fantasyraiderr",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Tomb Raider I-III Remastered Motion Cover"
         }
       ]
     },
@@ -39464,6 +39500,6 @@
     }
   ],
   "totalGames": 1050,
-  "totalVariants": 1753,
+  "totalVariants": 1755,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }

@@ -12359,17 +12359,37 @@
       "mode": "main",
       "codec": "h264",
       "author": "AVEX"
+    },
+    "https://cdn2.steamgriddb.com/grid/914b15fc9e242f49d9ce476856a180bc.webp": {
+      "title": "Tomb Raider I-III Remastered Motion Cover",
+      "titleId": "010024601BB16000",
+      "gameName": "Tomb Raider I-III Remastered",
+      "varId": "v_31ed02c3",
+      "driveId": "12eWBdl6OKwFrrWvUxYHay0USDZcBXIvE",
+      "mode": "main",
+      "codec": "h264",
+      "author": "TUFKAC"
+    },
+    "https://cdn2.steamgriddb.com/grid/c678a477df245e7583b61f8f00624de8.webp": {
+      "title": "Tomb Raider I-III Remastered Motion Cover",
+      "titleId": "010024601BB16000",
+      "gameName": "Tomb Raider I-III Remastered",
+      "varId": "v_020a3280",
+      "driveId": "1034U0k0t5Aw-zGC5nLIeGBkX9VMj-sgn",
+      "mode": "main",
+      "codec": "h264",
+      "author": "Fantasyraiderr"
     }
   },
-  "total_harvested": 1718,
-  "last_updated": "2026-10-25T16:52:43.645171+00:00",
+  "total_harvested": 1720,
+  "last_updated": "2026-10-25T16:56:14.592444+00:00",
   "page_cursors": {
     "super mario odyssey": 1,
     "mario odyssey": 1,
     "mario kart 8": 2,
     "mario kart": 2,
-    "animal crossing new horizons": 1,
-    "animal crossing": 1,
+    "animal crossing new horizons": 2,
+    "animal crossing": 2,
     "super smash bros ultimate": 1,
     "smash ultimate": 2,
     "monster hunter rise": 2,
@@ -13234,8 +13254,28 @@
     "GrimGrimoire OnceMore": 1,
     "Neverwinter Nights 2": 1,
     "13 Sentinels Aegis Rim": 1,
-    "Gato Roboto": 1
+    "Gato Roboto": 1,
+    "Conscript": 1,
+    "Fantasy Strike": 1,
+    "Gal Gun 2 / GalGun Returns": 1,
+    "Dungeons 4": 1,
+    "Guardian of Lore": 1,
+    "Cooking Simulator": 1,
+    "Winx Club the Magic is Back": 1,
+    "Postal Brain Damaged": 1,
+    "Killer Queen Black": 1,
+    "Wizmans World Re Try": 1,
+    "Transformers Battlegrounds": 1,
+    "Transformers Galactic Trials": 1,
+    "Daemon X Machina": 1,
+    "Tales of Kenzera Zau": 1,
+    "Abathor": 1,
+    "Born of Bread": 1,
+    "No More Heroes III": 1,
+    "Nikoderiko the Magical World": 1,
+    "Dragon is Dead": 1,
+    "Haiku the Robot": 1
   },
-  "query_cursor": 1160,
-  "priority_cursor": 12
+  "query_cursor": 1180,
+  "priority_cursor": 24
 }
