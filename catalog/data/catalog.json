@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T14:22:25.642408+00:00",
+  "updatedAt": "2026-10-25T14:24:11.044441+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -24181,6 +24181,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Metro 2033 Motion Cover"
+        },
+        {
+          "id": "v_d2ebe728",
+          "name": "Metro 2033 Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FLPaARA7c_XQXXTH5nqrjYXf2KaFaVHo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FLPaARA7c_XQXXTH5nqrjYXf2KaFaVHo&sz=w640",
+          "sizeBytes": 3107583,
+          "sha256": "3F00449389E9EF93E4BBB6211A6CCB4E4D30D6C434C05981EAF397BF51CDD3D2",
+          "durationSec": 30.0,
+          "author": "Huegh",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Metro 2033 Motion Cover"
         }
       ]
     },
@@ -24255,6 +24273,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Dead Cells Hero"
+        },
+        {
+          "id": "v_b8d74b24",
+          "name": "Dead Cells Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Lr573B1lt8MgjIDqH9T0VhjvFTcSn6fY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Lr573B1lt8MgjIDqH9T0VhjvFTcSn6fY&sz=w640",
+          "sizeBytes": 1577571,
+          "sha256": "5830BFB6A2167E48F341C7AB53A8592BD3AACC53F9C6A87FF8B6CD047560F1DF",
+          "durationSec": 30.0,
+          "author": "TUFKAC",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Dead Cells Motion Cover"
         }
       ]
     },
@@ -37648,6 +37684,6 @@
     }
   ],
   "totalGames": 1039,
-  "totalVariants": 1657,
+  "totalVariants": 1659,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
