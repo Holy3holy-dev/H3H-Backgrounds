@@ -163,10 +163,13 @@ public:
     int getMissingCoversCount() const;
 
     void queueDownload(const InstalledTitle& title, const Variant& variant);
+    void queueDownloadIconOnly(const InstalledTitle& title, const Variant& variant);
+    void queueDownloadCoverOnly(const InstalledTitle& title, const Variant& variant);
 
     void executeRestoreBackup(const std::string& titleId);
 
     void executeDeleteCover(const std::string& titleId);
+    void executeDeleteIcon(const std::string& titleId);
 
     void updateApplicationNro();
 

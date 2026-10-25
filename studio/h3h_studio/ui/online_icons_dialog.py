@@ -166,6 +166,7 @@ class OnlineIconsDialog(QDialog):
         self.source_combo.addItem("🌐 Все источники", "all")
         self.source_combo.addItem("🎮 Магазин Steam (Аватары)", "steam_points")
         self.source_combo.addItem("🎨 SteamGridDB (Сетки и иконки)", "steamgriddb")
+        self.source_combo.addItem("✨ MoeWalls (Живые обои 1080p)", "moewalls")
         self.source_combo.addItem("🌀 Tenor (Гифки)", "tenor")
         self.source_combo.currentIndexChanged.connect(self._start_search)
         c_lay.addWidget(self.source_combo)

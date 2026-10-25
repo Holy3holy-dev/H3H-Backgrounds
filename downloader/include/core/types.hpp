@@ -133,6 +133,9 @@ struct DownloadTask {
     double progressPercent{0.0};
     double downloadSpeedBps{0.0};
     std::string errorMessage;
+
+    bool iconOnly{false};
+    bool coverOnly{false};
 };
 
 struct SystemInfo {
