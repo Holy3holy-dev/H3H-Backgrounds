@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T17:46:57.255574+00:00",
+  "updatedAt": "2026-10-25T17:50:57.165467+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -1751,6 +1751,24 @@
           "previewUrl": "https://drive.google.com/thumbnail?id=10OeZarM76rZoy_4K-_cA0wSosXxWsLu0&sz=w640",
           "sizeBytes": 9346433,
           "sha256": "B319B3E5D4891CD81EB31B666E736215FF7153D6ED96F0D924DEFA90EE0FD250",
+          "durationSec": 30.0,
+          "author": "Lmaclittle",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Batman: Arkham City Hero"
+        },
+        {
+          "id": "v_2c9d346e",
+          "name": "Batman: Arkham City Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13Wd54G3d3QEvcC63S-P8GK4vBUb7NV97",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13Wd54G3d3QEvcC63S-P8GK4vBUb7NV97&sz=w640",
+          "sizeBytes": 3128722,
+          "sha256": "C33B1F155B86E38CF8AA6FADFE21181AB5388E939CE72DB322E61DD50CE87F43",
           "durationSec": 30.0,
           "author": "Lmaclittle",
           "codec": "h264",
@@ -25538,6 +25556,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Metro: Last Light Redux Motion Cover"
+        },
+        {
+          "id": "v_cbda9293",
+          "name": "Metro: Last Light Redux Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10Vagf9qfynu_4601cqAZAXSYWDxi2dG2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10Vagf9qfynu_4601cqAZAXSYWDxi2dG2&sz=w640",
+          "sizeBytes": 9449849,
+          "sha256": "A8E5695813DFCE7DA325E8AABE5C6088BFFA75DBB9CDFA6C1EE43F927138D95B",
+          "durationSec": 30.0,
+          "author": "TUFKAC",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Metro: Last Light Redux Motion Cover"
         }
       ]
     },
@@ -39976,6 +40012,6 @@
     }
   ],
   "totalGames": 1051,
-  "totalVariants": 1781,
+  "totalVariants": 1783,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
