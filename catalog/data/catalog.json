@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T14:26:51.764453+00:00",
+  "updatedAt": "2026-10-25T14:28:41.424660+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -1078,6 +1078,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 0100CD801CE5E000_Balatro.mp4"
+        },
+        {
+          "id": "v_afbdfaa6",
+          "name": "Balatro Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kzNfpd5n0zJO5hKoAMaghd5Rfv9eACsP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kzNfpd5n0zJO5hKoAMaghd5Rfv9eACsP&sz=w640",
+          "sizeBytes": 1589327,
+          "sha256": "6FB69F85C72A3DCE3391867139EEAA1885F947F9FD74762F1ED1AFBAF34171D6",
+          "durationSec": 30.0,
+          "author": "Nosebeggar",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Balatro Hero"
         }
       ]
     },
@@ -14559,6 +14577,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "SteamGridDB Animated Hero: 0100927023A34000_SOMA.mp4"
+        },
+        {
+          "id": "v_3bbcbb4c",
+          "name": "Anime Collection Theme",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mRew2ohec2Tyk6ClnW7HWTOqlYgbPUdT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mRew2ohec2Tyk6ClnW7HWTOqlYgbPUdT&sz=w640",
+          "sizeBytes": 4751275,
+          "sha256": "D01F317967C1A59D9F08E96F6A72A16C5AD98FC8EFA4AA76C20648789708256D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Anime Collection Theme | ЗВУК"
         }
       ]
     },
@@ -25153,6 +25189,24 @@
           "sha256": "730BAB747B6AB0FDCA9C86577F5B8F9F098366328DAFD987AB537C23545A8CBB",
           "durationSec": 30.0,
           "author": "BaturaET",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | BioShock Remastered Hero"
+        },
+        {
+          "id": "v_969a9f52",
+          "name": "BioShock Remastered Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1u_ccel25UVYJ8GmOVrlg5FZxOaJKLx6H",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1u_ccel25UVYJ8GmOVrlg5FZxOaJKLx6H&sz=w640",
+          "sizeBytes": 1079616,
+          "sha256": "66401889F586A4AA5FDA6F2A19B9D40C6E143CDCC32F50E36594AD5BBB892333",
+          "durationSec": 30.0,
+          "author": "Holograms",
           "codec": "h264",
           "width": 1280,
           "height": 720,
@@ -37810,6 +37864,6 @@
     }
   ],
   "totalGames": 1039,
-  "totalVariants": 1666,
+  "totalVariants": 1669,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
