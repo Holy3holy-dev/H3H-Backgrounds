@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T14:45:35.552841+00:00",
+  "updatedAt": "2026-10-25T14:50:28.369845+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -2611,6 +2611,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 010097F018538000_Dave_the_Diver.mp4"
+        },
+        {
+          "id": "v_5cf4cf3d",
+          "name": "Dave the Diver Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Yw582NlN4sW2Hi5AOZOp4F33ufYAexT4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Yw582NlN4sW2Hi5AOZOp4F33ufYAexT4&sz=w640",
+          "sizeBytes": 322439,
+          "sha256": "8B9A870E5764D46057E8C27087749F756ECB66C57FE3CC4399BD8796363C053B",
+          "durationSec": 30.0,
+          "author": "Nosebeggar",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Dave the Diver Motion Cover"
+        },
+        {
+          "id": "v_6459e6fc",
+          "name": "Dave the Diver Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=177vUgoOFajektWqPiDI7c7lR6kzdyhH-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=177vUgoOFajektWqPiDI7c7lR6kzdyhH-&sz=w640",
+          "sizeBytes": 331242,
+          "sha256": "1E7CD61FF093C34E56584088D1F30143F5CCAEB78755B48EFB59B001EB1E209F",
+          "durationSec": 30.0,
+          "author": "Nosebeggar",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Dave the Diver Motion Cover"
         }
       ]
     },
@@ -22428,6 +22464,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Forest Pines"
+        },
+        {
+          "id": "v_914b22dd",
+          "name": "Alpine Village",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1q-782OMTqH7ne0EE15Kjxp7rF-eO1vRV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1q-782OMTqH7ne0EE15Kjxp7rF-eO1vRV&sz=w640",
+          "sizeBytes": 4785533,
+          "sha256": "B2503C82CBB102AE88BD29F387A50ECB5FC7AF2B282BCBD93BA88BCE351870A7",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Alpine Village"
+        },
+        {
+          "id": "v_0fbc0eaa",
+          "name": "Aurora Northern Lights Pine Forest",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wZhUtgvxXxtqBn3bXnE1BQ2MD74LIhtq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wZhUtgvxXxtqBn3bXnE1BQ2MD74LIhtq&sz=w640",
+          "sizeBytes": 4715540,
+          "sha256": "2742EC1BCB612E7E018B6E1EE6BC9B8A1D64195165B00B4FFB159DAEC9702462",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Aurora Northern Lights Pine Forest | ЗВУК"
         }
       ]
     },
@@ -38134,6 +38206,6 @@
     }
   ],
   "totalGames": 1039,
-  "totalVariants": 1684,
+  "totalVariants": 1688,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
