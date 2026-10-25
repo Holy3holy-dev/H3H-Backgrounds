@@ -981,8 +981,10 @@ class AutoVideoHarvester:
                     print(f"  [+] Success! ({harvested}/{limit}) Added {clean_name} to {default_game_name}")
 
             # Advance page for this query if current page had no new items
-            if not articles or not found_any:
-                page_cursors[q] = current_p + 1 if current_p < 15 else 1
+            if not articles:
+                page_cursors[q] = 1
+            elif not found_any:
+                page_cursors[q] = current_p + 1 if current_p < 4 else 1
 
         self.log_data["query_cursor"] = (q_cursor + queries_to_try) % len(query_queue)
         self.log_data["page_cursors"] = page_cursors
