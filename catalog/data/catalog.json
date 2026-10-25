@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T16:41:38.530289+00:00",
+  "updatedAt": "2026-10-25T16:45:17.804413+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -9442,6 +9442,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 010057D006492000_Octopath_Traveler.mp4"
+        },
+        {
+          "id": "v_5676d3fe",
+          "name": "Octopath Traveler Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VFANmbKocQjohFsNbjtj8xplBPEs9Tma",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VFANmbKocQjohFsNbjtj8xplBPEs9Tma&sz=w640",
+          "sizeBytes": 1434040,
+          "sha256": "1FC960261954CA564193CE8F9250AD0295DD24834A5341939C5E58DB4613A676",
+          "durationSec": 30.0,
+          "author": "avvalentine",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Octopath Traveler Motion Cover"
+        },
+        {
+          "id": "v_80cbfa1e",
+          "name": "Octopath Traveler Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15S4Zx31YbgIRb75Fxu5-A874LylerQYG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15S4Zx31YbgIRb75Fxu5-A874LylerQYG&sz=w640",
+          "sizeBytes": 2435048,
+          "sha256": "967E016D1EE1F5CA28AADCAD5E574C464CEBC3306F9EF7D978B0E14162667A16",
+          "durationSec": 30.0,
+          "author": "Nøvaliz",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Octopath Traveler Motion Cover"
         }
       ]
     },
@@ -38983,6 +39019,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Tomb Raider Hero"
+        },
+        {
+          "id": "v_35701fec",
+          "name": "Lara Croft Under The Water Tomb Raider",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dvSUJtucZ2tgWXHzW2wSnFlgVAoDF-Ax",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dvSUJtucZ2tgWXHzW2wSnFlgVAoDF-Ax&sz=w640",
+          "sizeBytes": 4700160,
+          "sha256": "9C201BD0919600600EB24CAC75E4B3B39EA19FF6D30E86D0DB9993BD0158ACC9",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lara Croft Under The Water Tomb Raider | ЗВУК"
+        },
+        {
+          "id": "v_645db44e",
+          "name": "Lara Croft Tomb Raider Theme",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jp5dATOO3zN85CYmrtD4DnD0yQKkJCST",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jp5dATOO3zN85CYmrtD4DnD0yQKkJCST&sz=w640",
+          "sizeBytes": 4694717,
+          "sha256": "D3AC606C4903BA76E53808F4944DD103741D3001C1F34F0A25786C38ABF5DE7F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lara Croft Tomb Raider Theme | ЗВУК"
         }
       ]
     },
@@ -39284,6 +39356,6 @@
     }
   ],
   "totalGames": 1050,
-  "totalVariants": 1743,
+  "totalVariants": 1747,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }

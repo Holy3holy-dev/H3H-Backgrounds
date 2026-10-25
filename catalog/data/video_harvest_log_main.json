@@ -12243,10 +12243,58 @@
       "mode": "main",
       "codec": "h264",
       "author": "Bluss"
+    },
+    "https://cdn2.steamgriddb.com/grid/82008cc152273f0b5dc32f7682d31342.webp": {
+      "title": "Octopath Traveler Motion Cover",
+      "titleId": "010057D006492000",
+      "gameName": "Octopath Traveler",
+      "varId": "v_5676d3fe",
+      "driveId": "1VFANmbKocQjohFsNbjtj8xplBPEs9Tma",
+      "mode": "main",
+      "codec": "h264",
+      "author": "avvalentine"
+    },
+    "https://cdn2.steamgriddb.com/grid/ee678c97a1bb30220c7b58c212dbb4df.webp": {
+      "title": "Octopath Traveler Motion Cover",
+      "titleId": "010057D006492000",
+      "gameName": "Octopath Traveler",
+      "varId": "v_80cbfa1e",
+      "driveId": "15S4Zx31YbgIRb75Fxu5-A874LylerQYG",
+      "mode": "main",
+      "codec": "h264",
+      "author": "Nøvaliz"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/lara-croft-under-the-water-tomb-raider-preview.webm": {
+      "title": "Lara Croft Under The Water Tomb Raider",
+      "titleId": "0100092021C80000",
+      "gameName": "Tomb Raider (2013)",
+      "varId": "v_35701fec",
+      "driveId": "1dvSUJtucZ2tgWXHzW2wSnFlgVAoDF-Ax",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/lara-croft-under-the-water-tomb-raider-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/lara-croft-under-the-water-tomb-raider-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2021/lara-croft-tomb-raider-theme-preview.webm": {
+      "title": "Lara Croft Tomb Raider Theme",
+      "titleId": "0100092021C80000",
+      "gameName": "Tomb Raider (2013)",
+      "varId": "v_645db44e",
+      "driveId": "1jp5dATOO3zN85CYmrtD4DnD0yQKkJCST",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/lara-croft-tomb-raider-theme-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2021/lara-croft-tomb-raider-theme-preview.webm"
     }
   },
-  "total_harvested": 1704,
-  "last_updated": "2026-10-25T16:41:38.522030+00:00",
+  "total_harvested": 1710,
+  "last_updated": "2026-10-25T16:45:17.796800+00:00",
   "page_cursors": {
     "super mario odyssey": 1,
     "mario odyssey": 1,
@@ -13092,8 +13140,10 @@
     "Conarium": 1,
     "Marsupilami Hoobadventure": 1,
     "Tails of Iron": 1,
-    "Super Bear Adventure": 1
+    "Super Bear Adventure": 1,
+    "blasphemous 2": 1,
+    "penitent one": 1
   },
-  "query_cursor": 1100,
-  "priority_cursor": 84
+  "query_cursor": 1120,
+  "priority_cursor": 96
 }
