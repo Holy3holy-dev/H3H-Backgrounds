@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T14:17:42.612363+00:00",
+  "updatedAt": "2026-10-25T14:19:18.461700+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -4356,6 +4356,60 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 0100534832000000_Silent_Hill_2.mp4"
+        },
+        {
+          "id": "v_f756ebde",
+          "name": "Foggy Street Silent Hill 2 Remake",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15eoJqrCmS1FZY7u-mY7nPanrIEF4u5N4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15eoJqrCmS1FZY7u-mY7nPanrIEF4u5N4&sz=w640",
+          "sizeBytes": 4696372,
+          "sha256": "CB38FE10733C3D300270054622855C862E990E66D8B5C88DC65AE048EC106714",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Foggy Street Silent Hill 2 Remake"
+        },
+        {
+          "id": "v_d47ace7d",
+          "name": "Silent Hill 2 Remake",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1J6u2ewGBZ18QiilWXxSHgGo-kISlxMox",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1J6u2ewGBZ18QiilWXxSHgGo-kISlxMox&sz=w640",
+          "sizeBytes": 4634954,
+          "sha256": "D5CF7E64FA755DD70BDD1BC3FF818C5BC7DA08836F55E67B8D43E81D778D53BA",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Silent Hill 2 Remake"
+        },
+        {
+          "id": "v_0a022786",
+          "name": "Torii Red Spider Lily Silent Hill f",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16FGiWWpCzM-s1MZaD_Ejm6KKdx-dxABh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16FGiWWpCzM-s1MZaD_Ejm6KKdx-dxABh&sz=w640",
+          "sizeBytes": 4753780,
+          "sha256": "8874BC1AE7B40ABAEAD30B30FEE1A7E7B63287C24C5C9891232C49CF1BB0E5D7",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Torii Red Spider Lily Silent Hill f"
         }
       ]
     },
@@ -24652,6 +24706,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Stardew Valley Hero"
+        },
+        {
+          "id": "v_e349cece",
+          "name": "Stardew Valley Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1is88ho9UwKO9XCSZ0aJvBGOVTk6Z9-ek",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1is88ho9UwKO9XCSZ0aJvBGOVTk6Z9-ek&sz=w640",
+          "sizeBytes": 3621068,
+          "sha256": "69B3761EB2064A7DAA9921512EE3BBC2C691203BDB93FB7DFEDAA1ED67FD06AC",
+          "durationSec": 30.0,
+          "author": "TUFKAC",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Stardew Valley Motion Cover"
+        },
+        {
+          "id": "v_ce818a53",
+          "name": "Stardew Valley Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1EFSd-Wt6AjoATZV4JnX9DgJmCQmp5T6A",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1EFSd-Wt6AjoATZV4JnX9DgJmCQmp5T6A&sz=w640",
+          "sizeBytes": 424991,
+          "sha256": "4117E5AF2E0F9979E2F8B965155AEE95B4C0B05B37D4121CD5BC512064E7BF39",
+          "durationSec": 30.0,
+          "author": "Raniery",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Stardew Valley Motion Cover"
         }
       ]
     },
@@ -37378,6 +37468,6 @@
     }
   ],
   "totalGames": 1039,
-  "totalVariants": 1642,
+  "totalVariants": 1647,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
