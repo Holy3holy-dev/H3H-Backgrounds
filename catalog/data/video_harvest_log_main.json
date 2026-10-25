@@ -12535,10 +12535,58 @@
       "mode": "main",
       "codec": "h264",
       "author": "TUFKAC"
+    },
+    "https://cdn2.steamgriddb.com/grid/6f1c12208acdfb595c7dbcf628429045.png": {
+      "title": "Subnautica Motion Cover",
+      "titleId": "0100E5F00E88C000",
+      "gameName": "Subnautica",
+      "varId": "v_59e08659",
+      "driveId": "1TdKGeNe-c6PpVuR1d7tEge3yATwHHRB6",
+      "mode": "main",
+      "codec": "h264",
+      "author": "Huegh"
+    },
+    "https://cdn2.steamgriddb.com/grid/e5da1f4fd812dc9f0e97cdbae5743047.webp": {
+      "title": "Metro: Last Light Redux Motion Cover",
+      "titleId": "01000F400B0D2000",
+      "gameName": "Metro: Last Light Redux",
+      "varId": "v_abf16e14",
+      "driveId": "1JQHlIv_K-VlWuCl2l1zsZITlieCAEfDY",
+      "mode": "main",
+      "codec": "h264",
+      "author": "sQ_qure"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2021/lara-croft-tomb-raider-slideshow-preview.webm": {
+      "title": "Lara Croft Tomb Raider Slideshow",
+      "titleId": "010024601BB16000",
+      "gameName": "Tomb Raider I-III Remastered",
+      "varId": "v_a96e0c80",
+      "driveId": "1MpuvzOZy8yr3B725s709TC6j6rUoI9LY",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/lara-croft-tomb-raider-slideshow-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2021/lara-croft-tomb-raider-slideshow-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2021/lara-croft-relaxing-in-the-cave-lara-croft-tomb-raider-preview.webm": {
+      "title": "Lara Croft Relaxing In The Cave Lara Cro",
+      "titleId": "010024601BB16000",
+      "gameName": "Tomb Raider I-III Remastered",
+      "varId": "v_5b422bb4",
+      "driveId": "1oAjoUduuiaZixZ51bb7ZR1XqoVjhKTjh",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/lara-croft-relaxing-in-the-cave-lara-croft-tomb-raider-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2021/lara-croft-relaxing-in-the-cave-lara-croft-tomb-raider-preview.webm"
     }
   },
-  "total_harvested": 1738,
-  "last_updated": "2026-10-25T17:17:36.006069+00:00",
+  "total_harvested": 1744,
+  "last_updated": "2026-10-25T17:23:28.294716+00:00",
   "page_cursors": {
     "super mario odyssey": 1,
     "mario odyssey": 1,
@@ -13494,8 +13542,9 @@
     "Wulverblade": 1,
     "Neon Inferno": 1,
     "Legendary Spell": 1,
-    "The Rogue Prince of Persia": 1
+    "The Rogue Prince of Persia": 1,
+    "tomb raider remastered": 1
   },
-  "query_cursor": 1280,
-  "priority_cursor": 84
+  "query_cursor": 1300,
+  "priority_cursor": 96
 }

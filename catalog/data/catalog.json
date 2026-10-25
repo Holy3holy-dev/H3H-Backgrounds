@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T17:17:36.014544+00:00",
+  "updatedAt": "2026-10-25T17:23:28.303917+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -6698,6 +6698,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Tomb Raider I-III Remastered Motion Cover"
+        },
+        {
+          "id": "v_a96e0c80",
+          "name": "Lara Croft Tomb Raider Slideshow",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MpuvzOZy8yr3B725s709TC6j6rUoI9LY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MpuvzOZy8yr3B725s709TC6j6rUoI9LY&sz=w640",
+          "sizeBytes": 4734415,
+          "sha256": "B7877E67CBDDD5F030894C5437B63ACAD6ECDAE865FF7BC72B0C1AE5D8114C7A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Lara Croft Tomb Raider Slideshow"
+        },
+        {
+          "id": "v_5b422bb4",
+          "name": "Lara Croft Relaxing In The Cave Lara Cro",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oAjoUduuiaZixZ51bb7ZR1XqoVjhKTjh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oAjoUduuiaZixZ51bb7ZR1XqoVjhKTjh&sz=w640",
+          "sizeBytes": 4696225,
+          "sha256": "BAE4812C79211AE7ADCF4BA1DED49AEA61E1F2638166A8215A42B4D90E9594B9",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lara Croft Relaxing In The Cave Lara Cro | ЗВУК"
         }
       ]
     },
@@ -25376,6 +25412,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Metro: Last Light Redux Hero"
+        },
+        {
+          "id": "v_abf16e14",
+          "name": "Metro: Last Light Redux Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1JQHlIv_K-VlWuCl2l1zsZITlieCAEfDY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1JQHlIv_K-VlWuCl2l1zsZITlieCAEfDY&sz=w640",
+          "sizeBytes": 825243,
+          "sha256": "E9788F40EA33EB0565AA0E666765340FB32B6039A4075488E6C77DF84B019A1B",
+          "durationSec": 30.0,
+          "author": "sQ_qure",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Metro: Last Light Redux Motion Cover"
         }
       ]
     },
@@ -39641,6 +39695,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Subnautica Motion Cover"
+        },
+        {
+          "id": "v_59e08659",
+          "name": "Subnautica Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TdKGeNe-c6PpVuR1d7tEge3yATwHHRB6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TdKGeNe-c6PpVuR1d7tEge3yATwHHRB6&sz=w640",
+          "sizeBytes": 3655951,
+          "sha256": "110B1AEC7785F06906807B3F003664485235B903549BEFC5037EB943BB506344",
+          "durationSec": 30.0,
+          "author": "Huegh",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Subnautica Motion Cover"
         }
       ]
     },
@@ -39760,6 +39832,6 @@
     }
   ],
   "totalGames": 1051,
-  "totalVariants": 1769,
+  "totalVariants": 1773,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
