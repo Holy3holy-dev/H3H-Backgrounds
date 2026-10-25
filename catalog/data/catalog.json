@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T16:26:14.631380+00:00",
+  "updatedAt": "2026-10-25T16:28:15.347996+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -9688,6 +9688,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 010015100B514000_Super_Mario_Bros._Wonder.mp4"
+        },
+        {
+          "id": "v_e4b15ef8",
+          "name": "Super Mario Bros. Wonder Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1h97AvT5uDATTC6EwZyLfMXta2KDbjP_8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1h97AvT5uDATTC6EwZyLfMXta2KDbjP_8&sz=w640",
+          "sizeBytes": 15840,
+          "sha256": "2224A95F4D67416BDAFEFA78ECFB497ADD1D92AE5CFC651758504A1FDCF43B59",
+          "durationSec": 30.0,
+          "author": "AztekSON",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Super Mario Bros. Wonder Motion Cover"
         }
       ]
     },
@@ -39049,9 +39067,35 @@
           "notes": "Switch 720p 30fps H264 | Subnautica Hero"
         }
       ]
+    },
+    {
+      "titleId": "010023200C12C000",
+      "title": "Subnautica: Below Zero",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010023200C12C000.jpg",
+      "variants": [
+        {
+          "id": "v_03946a10",
+          "name": "Subnautica: Below Zero Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1uFhsHvfMaP2WNtIjppMUGh74_2i63fiJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1uFhsHvfMaP2WNtIjppMUGh74_2i63fiJ&sz=w640",
+          "sizeBytes": 4721791,
+          "sha256": "CBCBDDDDF81AD9AA2F6B2BE8C8E5EAF36DDF1D13E624509AF5CE65EFEC9A62D9",
+          "durationSec": 30.0,
+          "author": "ABH20",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Subnautica: Below Zero Motion Cover"
+        }
+      ]
     }
   ],
-  "totalGames": 1048,
-  "totalVariants": 1731,
+  "totalGames": 1049,
+  "totalVariants": 1733,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
