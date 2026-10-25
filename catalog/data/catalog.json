@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T16:21:14.201647+00:00",
+  "updatedAt": "2026-10-25T16:24:00.910338+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -38901,9 +38901,105 @@
           "notes": "Switch 720p 30fps H264 | Paper Mario: The Origami King Hero"
         }
       ]
+    },
+    {
+      "titleId": "010076F0049A4000",
+      "title": "Bayonetta 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010076F0049A4000.jpg",
+      "variants": [
+        {
+          "id": "v_773205b7",
+          "name": "Bayonetta 2 Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19av4x7BOcndae1nHGwLdPfVnuBpjZCdo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19av4x7BOcndae1nHGwLdPfVnuBpjZCdo&sz=w640",
+          "sizeBytes": 3141243,
+          "sha256": "81D4206DF1B9FDF7D0F28C55B31CB22EEDB05845F92DD95A0C8B93E2AAC15FD1",
+          "durationSec": 30.0,
+          "author": "Pegasso",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Bayonetta 2 Motion Cover"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E2600AEA4000",
+      "title": "Final Fantasy IX",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E2600AEA4000.jpg",
+      "variants": [
+        {
+          "id": "v_cee62a45",
+          "name": "Final Fantasy IX Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ebFmgLZaGmdKM7D9Ov2971FCpKCW-iZ9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ebFmgLZaGmdKM7D9Ov2971FCpKCW-iZ9&sz=w640",
+          "sizeBytes": 301927,
+          "sha256": "9A65B2F41CB9F917D715E56C1C82D96ADFEA92E4EFC01518BFCA6ACDBDE3BA3D",
+          "durationSec": 30.0,
+          "author": "MachZero",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Final Fantasy IX Motion Cover"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DE600FDFE000",
+      "title": "No Time to Relax",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DE600FDFE000.jpg",
+      "variants": [
+        {
+          "id": "v_95090498",
+          "name": "Finn And Jake Relaxing Adventure Time Mo",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1naTstv6nrwYgz7uhq4kmbcHB5ivvijM4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1naTstv6nrwYgz7uhq4kmbcHB5ivvijM4&sz=w640",
+          "sizeBytes": 4551652,
+          "sha256": "F63CFFC021C0A6C2412489E698B598368B1A36AD9DF63BF018722064398B295D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Finn And Jake Relaxing Adventure Time Mo | ЗВУК"
+        },
+        {
+          "id": "v_6dfbe1d8",
+          "name": "Nap Time My Neighbor Totoro",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=170RPuFRSQaVYBqy1uTVXU7bd9zWT307J",
+          "previewUrl": "https://drive.google.com/thumbnail?id=170RPuFRSQaVYBqy1uTVXU7bd9zWT307J&sz=w640",
+          "sizeBytes": 4719786,
+          "sha256": "32B04AC2A5D666DDA54C7F1F8860C1805E3C1453E7A05FB033E9A3DC79E2327C",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Nap Time My Neighbor Totoro | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 1043,
-  "totalVariants": 1725,
+  "totalGames": 1046,
+  "totalVariants": 1729,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
