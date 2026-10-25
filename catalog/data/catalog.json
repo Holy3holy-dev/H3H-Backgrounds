@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T22:44:08.770646+00:00",
+  "updatedAt": "2026-10-25T13:57:08.918759+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -23652,6 +23652,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Wolfenstein II: The New Colossus Hero"
+        },
+        {
+          "id": "v_0827860e",
+          "name": "Wolfenstein II: The New Colossus Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rAqsElnE7iLbX71SnuRPwRNpkM1RY803",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rAqsElnE7iLbX71SnuRPwRNpkM1RY803&sz=w640",
+          "sizeBytes": 4640112,
+          "sha256": "B0320587899E2348A4CD4DDBEBBF11C71FE1A15912E70A6E9C6C814CC730CE69",
+          "durationSec": 30.0,
+          "author": "TUFKAC",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Wolfenstein II: The New Colossus Motion Cover"
         }
       ]
     },
@@ -36922,6 +36940,6 @@
     }
   ],
   "totalGames": 1036,
-  "totalVariants": 1618,
-  "lastUpdated": "2026-10-25T13:20:46.276388+00:00"
+  "totalVariants": 1619,
+  "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
