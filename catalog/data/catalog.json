@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T14:19:18.461700+00:00",
+  "updatedAt": "2026-10-25T14:20:46.853201+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -6980,6 +6980,60 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 0100475441340000_GTA_4.mp4"
+        },
+        {
+          "id": "v_c8350c33",
+          "name": "Lola Del Rio Grand Theft Auto IV",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CuTJPocZGTfKuh_UCN6yNHPsYKn636fA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CuTJPocZGTfKuh_UCN6yNHPsYKn636fA&sz=w640",
+          "sizeBytes": 4697522,
+          "sha256": "35741AB98FA71EA989A739A29DE8B67908D43207B9C98A9BCCBE2748EF2DF4C6",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lola Del Rio Grand Theft Auto IV | ЗВУК"
+        },
+        {
+          "id": "v_95fb2f8c",
+          "name": "Monkey Driving Grand Theft Auto V",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qHnML5UFo5bqBOWPGxDNA1bBINpWr8V_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qHnML5UFo5bqBOWPGxDNA1bBINpWr8V_&sz=w640",
+          "sizeBytes": 5005826,
+          "sha256": "739135B79AD853A94452BAE4F22E7B41DA984204BB3085E9020DA7781570F779",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Monkey Driving Grand Theft Auto V | ЗВУК"
+        },
+        {
+          "id": "v_f1353717",
+          "name": "Retro Car Grand Theft Auto VI",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16TmeABnmuvPe5O2bcXelM5Wf0ETek-KU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16TmeABnmuvPe5O2bcXelM5Wf0ETek-KU&sz=w640",
+          "sizeBytes": 4736807,
+          "sha256": "DAD39165AE1F6DEA939278FFADD167C387BA3CF963E4FA4140F2381116F5C6B9",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Retro Car Grand Theft Auto VI"
         }
       ]
     },
@@ -24982,6 +25036,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | BioShock Infinite Hero"
+        },
+        {
+          "id": "v_8ab925d5",
+          "name": "BioShock Infinite Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1G3kPLoOx7HmaEe5fJ5dpCgGa-EuKMJpG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1G3kPLoOx7HmaEe5fJ5dpCgGa-EuKMJpG&sz=w640",
+          "sizeBytes": 3146844,
+          "sha256": "C8F37CF093A6CC1933A09F6A2132B37BCE737DC3117229B9F2C089F46E4069A6",
+          "durationSec": 30.0,
+          "author": "VECTOR",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | BioShock Infinite Motion Cover"
+        },
+        {
+          "id": "v_583fec69",
+          "name": "BioShock Infinite Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kV0joNMg3qs-IYbfn8RPjwEM62Ca8zk5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kV0joNMg3qs-IYbfn8RPjwEM62Ca8zk5&sz=w640",
+          "sizeBytes": 9381401,
+          "sha256": "F3FC74D3DFB86782ACC9244C1A2CA166B0D122E26C11CDC651AE5B8F933D7795",
+          "durationSec": 30.0,
+          "author": "Lmaclittle",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | BioShock Infinite Motion Cover"
         }
       ]
     },
@@ -37468,6 +37558,6 @@
     }
   ],
   "totalGames": 1039,
-  "totalVariants": 1647,
+  "totalVariants": 1652,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
