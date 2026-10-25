@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T16:56:14.602569+00:00",
+  "updatedAt": "2026-10-25T16:59:14.060151+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -1669,6 +1669,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 01003F00163CE000_Batman_Arkham.mp4"
+        },
+        {
+          "id": "v_f682c7e5",
+          "name": "Batman: Arkham City Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FY3Iwu8-PGrIwxIfpUus98Yc-wenzzPt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FY3Iwu8-PGrIwxIfpUus98Yc-wenzzPt&sz=w640",
+          "sizeBytes": 1136962,
+          "sha256": "DB4F8BC77740752B2152022A3C31D068A1865C07AFCF783D43E742215AECC8D0",
+          "durationSec": 30.0,
+          "author": "BaturaET",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Batman: Arkham City Hero"
+        },
+        {
+          "id": "v_5fc9a0f3",
+          "name": "Batman: Arkham City Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10OeZarM76rZoy_4K-_cA0wSosXxWsLu0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10OeZarM76rZoy_4K-_cA0wSosXxWsLu0&sz=w640",
+          "sizeBytes": 9346433,
+          "sha256": "B319B3E5D4891CD81EB31B666E736215FF7153D6ED96F0D924DEFA90EE0FD250",
+          "durationSec": 30.0,
+          "author": "Lmaclittle",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Batman: Arkham City Hero"
         }
       ]
     },
@@ -39500,6 +39536,6 @@
     }
   ],
   "totalGames": 1050,
-  "totalVariants": 1755,
+  "totalVariants": 1757,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
