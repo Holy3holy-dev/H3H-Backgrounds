@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T16:49:19.361350+00:00",
+  "updatedAt": "2026-10-25T16:52:43.654195+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -4308,6 +4308,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 010075D00E8BA000_Alien_Isolation.mp4"
+        },
+        {
+          "id": "v_80afe934",
+          "name": "Alien: Isolation Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PdlQL76LxILD1C8znJeZnaDBgV5xC5lV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PdlQL76LxILD1C8znJeZnaDBgV5xC5lV&sz=w640",
+          "sizeBytes": 199575,
+          "sha256": "833194D0C69BC0A2D5633B71BF48E2EBEA26AA56C457DC84D3DC6F01C603FD1B",
+          "durationSec": 30.0,
+          "author": "TUFKAC",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Alien: Isolation Hero"
+        },
+        {
+          "id": "v_d913845a",
+          "name": "Alien: Isolation Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16UrbnUv316Qo3H2-9GH2EVfro4B6zROj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16UrbnUv316Qo3H2-9GH2EVfro4B6zROj&sz=w640",
+          "sizeBytes": 470823,
+          "sha256": "6EABB9E7765148144BBC57D7BA5CAC6A030858D741265CF7DD363435350F5C3E",
+          "durationSec": 30.0,
+          "author": "AVEX",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Alien: Isolation Hero"
         }
       ]
     },
@@ -39428,6 +39464,6 @@
     }
   ],
   "totalGames": 1050,
-  "totalVariants": 1751,
+  "totalVariants": 1753,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }

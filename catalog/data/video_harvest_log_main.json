@@ -12339,15 +12339,35 @@
     "https://moewalls.com/games/katana-zero-theme-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2022/katana-zero-theme-preview.webm"
+    },
+    "https://cdn2.steamgriddb.com/hero/b62682b1aee36c174fb06aa3527f43e8.png": {
+      "title": "Alien: Isolation Hero",
+      "titleId": "010075D00E8BA000",
+      "gameName": "Alien: Isolation",
+      "varId": "v_80afe934",
+      "driveId": "1PdlQL76LxILD1C8znJeZnaDBgV5xC5lV",
+      "mode": "main",
+      "codec": "h264",
+      "author": "TUFKAC"
+    },
+    "https://cdn2.steamgriddb.com/hero/761213bcd999998a5b22d22b13db075f.png": {
+      "title": "Alien: Isolation Hero",
+      "titleId": "010075D00E8BA000",
+      "gameName": "Alien: Isolation",
+      "varId": "v_d913845a",
+      "driveId": "16UrbnUv316Qo3H2-9GH2EVfro4B6zROj",
+      "mode": "main",
+      "codec": "h264",
+      "author": "AVEX"
     }
   },
-  "total_harvested": 1716,
-  "last_updated": "2026-10-25T16:49:19.351896+00:00",
+  "total_harvested": 1718,
+  "last_updated": "2026-10-25T16:52:43.645171+00:00",
   "page_cursors": {
     "super mario odyssey": 1,
     "mario odyssey": 1,
-    "mario kart 8": 1,
-    "mario kart": 1,
+    "mario kart 8": 2,
+    "mario kart": 2,
     "animal crossing new horizons": 1,
     "animal crossing": 1,
     "super smash bros ultimate": 1,
@@ -13191,8 +13211,31 @@
     "Super Bear Adventure": 1,
     "blasphemous 2": 1,
     "penitent one": 1,
-    "tunic fox": 1
+    "tunic fox": 1,
+    "zelda echoes of wisdom": 1,
+    "skyward sword": 1,
+    "zelda skyward": 1,
+    "Wandersong": 1,
+    "Oniken Unstoppable edition": 1,
+    "OwlBoy": 1,
+    "Sakuna of Rice and Ruin": 1,
+    "Forgotton Anne": 1,
+    "Flynn Son of Crimson": 1,
+    "LEGO Voyagers": 1,
+    "Warhammer 40000 Space Wolf": 1,
+    "Death Squared": 1,
+    "Rainbow Sea": 1,
+    "Shinsekai Into the Depths": 1,
+    "Star Renegades": 1,
+    "The 7th Guest": 1,
+    "Disney Tsum Tsum Festival": 1,
+    "Obakeidoro": 1,
+    "John Wick Hex": 1,
+    "GrimGrimoire OnceMore": 1,
+    "Neverwinter Nights 2": 1,
+    "13 Sentinels Aegis Rim": 1,
+    "Gato Roboto": 1
   },
-  "query_cursor": 1140,
-  "priority_cursor": 0
+  "query_cursor": 1160,
+  "priority_cursor": 12
 }
