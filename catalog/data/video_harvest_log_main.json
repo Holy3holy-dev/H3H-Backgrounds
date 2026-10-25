@@ -12291,10 +12291,58 @@
     "https://moewalls.com/games/lara-croft-tomb-raider-theme-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2021/lara-croft-tomb-raider-theme-preview.webm"
+    },
+    "https://cdn2.steamgriddb.com/grid/454616fed27436d8fb627227179ed786.webp": {
+      "title": "Shin Megami Tensei V: Vengeance Motion Cover",
+      "titleId": "010069C01AB82000",
+      "gameName": "Shin Megami Tensei V: Vengeance",
+      "varId": "v_9e34df8c",
+      "driveId": "1TUSu1SoHJNbI7M5934iBGqvBOiJsnFPu",
+      "mode": "main",
+      "codec": "h264",
+      "author": "freespaz"
+    },
+    "https://cdn2.steamgriddb.com/hero/23bad040f66a2919fe58233de899d95e.webp": {
+      "title": "DREDGE Hero",
+      "titleId": "01008CD0172D6000",
+      "gameName": "Dredge",
+      "varId": "v_b67d5eaf",
+      "driveId": "1gRqshBOjITym2Jm462fYlN5YuM6N4WXY",
+      "mode": "main",
+      "codec": "h264",
+      "author": "axeller"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2023/city-at-night-katana-zero-pixel-preview.webm": {
+      "title": "City At Night Katana Zero Pixel",
+      "titleId": "010029600D56A000",
+      "gameName": "Katana Zero",
+      "varId": "v_e897a2ae",
+      "driveId": "1aeZPUVED1UmpvutxYUNDGfl12fqXKcW9",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/pixel-art/city-at-night-katana-zero-pixel-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2023/city-at-night-katana-zero-pixel-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/katana-zero-theme-preview.webm": {
+      "title": "Katana Zero Theme",
+      "titleId": "010029600D56A000",
+      "gameName": "Katana Zero",
+      "varId": "v_5027046b",
+      "driveId": "1YmFkrPYrAjpk4NyaaEiPHsDbOeUHar0c",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/katana-zero-theme-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/katana-zero-theme-preview.webm"
     }
   },
-  "total_harvested": 1710,
-  "last_updated": "2026-10-25T16:45:17.796800+00:00",
+  "total_harvested": 1716,
+  "last_updated": "2026-10-25T16:49:19.351896+00:00",
   "page_cursors": {
     "super mario odyssey": 1,
     "mario odyssey": 1,
@@ -13142,8 +13190,9 @@
     "Tails of Iron": 1,
     "Super Bear Adventure": 1,
     "blasphemous 2": 1,
-    "penitent one": 1
+    "penitent one": 1,
+    "tunic fox": 1
   },
-  "query_cursor": 1120,
-  "priority_cursor": 96
+  "query_cursor": 1140,
+  "priority_cursor": 0
 }

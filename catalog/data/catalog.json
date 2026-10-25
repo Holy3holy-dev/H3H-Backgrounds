@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T16:45:17.804413+00:00",
+  "updatedAt": "2026-10-25T16:49:19.361350+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -5759,6 +5759,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Katana ZERO Motion Cover"
+        },
+        {
+          "id": "v_e897a2ae",
+          "name": "City At Night Katana Zero Pixel",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1aeZPUVED1UmpvutxYUNDGfl12fqXKcW9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1aeZPUVED1UmpvutxYUNDGfl12fqXKcW9&sz=w640",
+          "sizeBytes": 4605306,
+          "sha256": "8716BCF5B9D5BA03CFF087D17ACFA6F3B88345C1D514A81511F75BC475B46737",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | City At Night Katana Zero Pixel | ЗВУК"
+        },
+        {
+          "id": "v_5027046b",
+          "name": "Katana Zero Theme",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1YmFkrPYrAjpk4NyaaEiPHsDbOeUHar0c",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1YmFkrPYrAjpk4NyaaEiPHsDbOeUHar0c&sz=w640",
+          "sizeBytes": 4733544,
+          "sha256": "C110FAE2B36CAA99A9A7563DE9DF367A76F2DA4F0D945D66DA441D87F4989AF4",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Katana Zero Theme | ЗВУК"
         }
       ]
     },
@@ -9392,6 +9428,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 010069C01AB82000_Shin_Megami_Tensei_V.mp4"
+        },
+        {
+          "id": "v_9e34df8c",
+          "name": "Shin Megami Tensei V: Vengeance Motion Cover",
+          "style": "Motion Grid",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TUSu1SoHJNbI7M5934iBGqvBOiJsnFPu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TUSu1SoHJNbI7M5934iBGqvBOiJsnFPu&sz=w640",
+          "sizeBytes": 1368688,
+          "sha256": "A053C92636CCE4E8EC7FD70AADD34ADAB79FD9121CDAC0F8A745E5557D99FF3F",
+          "durationSec": 30.0,
+          "author": "freespaz",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Shin Megami Tensei V: Vengeance Motion Cover"
         }
       ]
     },
@@ -10538,6 +10592,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 01008CD0172D6000_Dredge.mp4"
+        },
+        {
+          "id": "v_b67d5eaf",
+          "name": "DREDGE Hero",
+          "style": "Community Hero",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gRqshBOjITym2Jm462fYlN5YuM6N4WXY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gRqshBOjITym2Jm462fYlN5YuM6N4WXY&sz=w640",
+          "sizeBytes": 2597445,
+          "sha256": "B0F375CBE6D3C48361FC9840DF379931AFE9009F42546CFAC401F42A5ADB482B",
+          "durationSec": 30.0,
+          "author": "axeller",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | DREDGE Hero"
         }
       ]
     },
@@ -39356,6 +39428,6 @@
     }
   ],
   "totalGames": 1050,
-  "totalVariants": 1747,
+  "totalVariants": 1751,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
