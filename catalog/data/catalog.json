@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-26T00:02:28.668630+00:00",
+  "updatedAt": "2026-10-26T01:04:56.433528+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -40385,9 +40385,35 @@
           "notes": "Switch 720p 30fps H264 | Fallen Knight Resting In A Field Of Red | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "01007C900FD96000",
+      "title": "Rolling Sky 1 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007C900FD96000.jpg",
+      "variants": [
+        {
+          "id": "v_9e08949f",
+          "name": "Rolling Clouds",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=159GxmWVIS0aRlxTYRLrO_Qjo2DJwKsQB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=159GxmWVIS0aRlxTYRLrO_Qjo2DJwKsQB&sz=w640",
+          "sizeBytes": 4779236,
+          "sha256": "C90333188B8C129398CCE4F1107DE0A953E8C381C3DE3A9FDA91938351E7B796",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rolling Clouds | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 1062,
-  "totalVariants": 1799,
+  "totalGames": 1063,
+  "totalVariants": 1800,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
