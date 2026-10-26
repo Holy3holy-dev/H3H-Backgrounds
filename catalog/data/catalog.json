@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T23:53:16.221139+00:00",
+  "updatedAt": "2026-10-26T00:02:28.668630+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -40315,9 +40315,79 @@
           "notes": "Switch 720p 30fps H264 | The First Shinobi&#8217;s Grave Ghost Of | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "010067C010F88000",
+      "title": "Goblin Sword",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010067C010F88000.jpg",
+      "variants": [
+        {
+          "id": "v_082ff73a",
+          "name": "Goblin Slayer",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1euclUpCjxOPZMLyzAx8cilFFbE32AmCf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1euclUpCjxOPZMLyzAx8cilFFbE32AmCf&sz=w640",
+          "sizeBytes": 4734448,
+          "sha256": "8531ECD09648AD0E0588483BF13AABB5C88D179E340EDB52FC3223CA3B2B0D03",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Goblin Slayer | ЗВУК"
+        },
+        {
+          "id": "v_f4ee8b25",
+          "name": "Goblin Slayer",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17L4KJlKn3CBsvZm67Krcy8uYTFAqgZrG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17L4KJlKn3CBsvZm67Krcy8uYTFAqgZrG&sz=w640",
+          "sizeBytes": 4637130,
+          "sha256": "60011E051E5207BF5F32C7327A12F7D5554FF1A1B7A8876ECDB36EAB1D7CCCBB",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Goblin Slayer | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100960015201000",
+      "title": "Fallen Knight",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100960015201000.jpg",
+      "variants": [
+        {
+          "id": "v_7a39ffc3",
+          "name": "Fallen Knight Resting In A Field Of Red",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1L4KzTPjRwntxvWvbsCyyZrSB4gFCvu-J",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1L4KzTPjRwntxvWvbsCyyZrSB4gFCvu-J&sz=w640",
+          "sizeBytes": 4725977,
+          "sha256": "D183893DC1EA170B3A0187AF3C1A921E3DBD9AE6AEB0D663A1B8B714D34FEE79",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fallen Knight Resting In A Field Of Red | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 1060,
-  "totalVariants": 1796,
+  "totalGames": 1062,
+  "totalVariants": 1799,
   "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
 }
