@@ -40411,9 +40411,54 @@
           "notes": "Switch 720p 30fps H264 | Rolling Clouds | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "03DB12780BD84000",
+      "title": "Игра (03DB12780BD84000)",
+      "publisher": "Community",
+      "variants": [
+        {
+          "id": "var-f8acdbef",
+          "name": "Community Theme",
+          "style": "Community Animated",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=142AIzKToo4NOPK6HMMDONGmQF8uw700L",
+          "previewUrl": "https://drive.google.com/thumbnail?id=142AIzKToo4NOPK6HMMDONGmQF8uw700L&sz=w640",
+          "sizeBytes": 1579092,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "@HolyL0rd",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": false,
+          "notes": "Submitted via Telegram by @HolyL0rd"
+        },
+        {
+          "id": "var-de9c9279",
+          "name": "Community Theme",
+          "style": "Community Animated",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NaKJOgSIKNDEgqQqBlqRzqG0SHsLXSqE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NaKJOgSIKNDEgqQqBlqRzqG0SHsLXSqE&sz=w640",
+          "sizeBytes": 292921,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "@HolyL0rd",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": false,
+          "notes": "Submitted via Telegram by @HolyL0rd"
+        }
+      ]
     }
   ],
-  "totalGames": 1063,
-  "totalVariants": 1800,
-  "lastUpdated": "2026-10-25T13:58:14.319045+00:00"
+  "totalGames": 1064,
+  "totalVariants": 1802,
+  "lastUpdated": "2026-10-26T10:07:28.940758+00:00"
 }
