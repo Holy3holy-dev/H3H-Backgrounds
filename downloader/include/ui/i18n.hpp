@@ -13,8 +13,9 @@ enum class Language {
 struct StringTable {
     const char* appTitle;
     const char* tabHome;
-    const char* tabMyGames;
     const char* tabCatalog;
+    const char* tabVideoIcons;
+    const char* tabMyGames;
     const char* tabDownloads;
     const char* tabSettings;
 
@@ -62,8 +63,9 @@ inline const StringTable& getStrings(Language lang) {
     static const StringTable ru = {
         "H3H Backgrounds (4IFIR)",
         "Главная",
-        "Мои игры",
         "Каталог",
+        "Видеоиконки",
+        "Мои игры",
         "Загрузки",
         "Настройки",
 
@@ -106,8 +108,9 @@ inline const StringTable& getStrings(Language lang) {
     static const StringTable en = {
         "H3H Backgrounds (4IFIR)",
         "Home",
-        "My Games",
         "Catalog",
+        "Video Icons",
+        "My Games",
         "Downloads",
         "Settings",
 

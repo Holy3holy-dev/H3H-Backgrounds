@@ -1,11 +1,11 @@
 {
-  "latestVersion": "1.3.6",
+  "latestVersion": "1.4.0",
   "minRequiredVersion": "1.0.0",
-  "downloadUrl": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.3.6/H3H-Backgrounds.nro",
-  "afterDarkDownloadUrl": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.3.5/H3H-AfterDark.nro",
-  "releaseNotes": "v1.3.5: 🔲 Раздельная установка видеоиконок 4IFIR и видеофонов, кнопка [⚡ Иконка] на карточках, независимое удаление и шаблон Switch Home",
-  "releaseDate": "2026-10-25",
-  "releaseUrl": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/tag/v1.3.6",
-  "changelog": "v1.3.6: Resilient Cloud Downloader for Switch\\n- Direct Google Drive download bypassing slow 303 redirects & redundant TLS handshakes\\n- Increased connection and stall timeouts to 45s with automatic 3x retry on network hiccups\\n- Partial download resume (HTTP Range support) preserving progress on Wi-Fi drops\\n- Interactive Downloads tab: tap any failed card or error badge to instantly retry",
-  "changelogRu": "v1.3.6: Сверхнадёжный загрузчик видеофонов и иконок\\n- Прямой доступ к хранилищу Google Drive в обход промежуточных редиректов 303 (в 2 раза быстрее старт)\\n- Увеличены таймауты подключения и ожидания до 45 сек, принудительный IPv4 (защита от сбоев DNS)\\n- Автодокачка файлов (HTTP Range): при разрыве Wi-Fi скачивание продолжается с места остановки\\n- Тройной автоповтор при сбоях сети + возможность перезапустить задачу касанием по карточке"
+  "downloadUrl": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.4.0/H3H-Backgrounds.nro",
+  "afterDarkDownloadUrl": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.4.0/H3H-AfterDark.nro",
+  "releaseNotes": "v1.4.0: Полный редизайн интерфейса 4IFIR Cyber-Glass, отдельный раздел Видеоиконки (112 игр), просмотр каталога и иконок списком, поиск и живой предпросмотр 256×256",
+  "releaseDate": "2026-10-29",
+  "releaseUrl": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/tag/v1.4.0",
+  "changelog": "v1.4.0: Complete 4IFIR Cyber-Glass UI Redesign (Main & After Dark)\\n- New 5-tile Home Dashboard with vector 4IFIR art, inside labels, scale focus (1.05x) and clean 2-card bottom summary\\n- Standalone Video Icons tab (112 titles / 433 icons) with list view, search bar, filter pills and live 1:1 256x256 video preview\\n- Redesigned Catalog with instant switching between 18 Category Cards and Full List View ([X] All Games) + search bar\\n- Authentic 4IFIR Cyber-Glass color system (#00D2FF Cyan & #EC4899 Magenta on deep Obsidian #090C13)",
+  "changelogRu": "v1.4.0: Полный редизайн интерфейса 4IFIR Cyber-Glass (Main и After Dark)\\n- Новый главный дашборд из 5 плиток (225×208, скругление 28px, прозрачность 90%, увеличение в фокусе) и лаконичной нижней панелью\\n- Самостоятельный раздел «Видеоиконки» (112 игр / 433 иконки) со списком, поиском [Y], фильтрами и живым 1:1 предпросмотром 256×256\\n- Обновлённый «Каталог» с переключением между 18 тематическими подборками и полным списком игр ([X] Весь список) + строкой поиска\\n- Фирменная палитра Чифира (#00D2FF циан и #EC4899 маджента на глубоком обсидиане)"
 }

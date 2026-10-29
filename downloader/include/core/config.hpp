@@ -31,7 +31,7 @@ public:
 
     static constexpr const char* DEFAULT_SWITCH_APP_DIR    = "sdmc:/switch/H3H-AfterDark";
 
-    static constexpr const char* APP_NAME                  = "H3H After Dark (18+)";
+    static constexpr const char* APP_NAME                  = "H3H-AfterDark";
 
     static constexpr const char* DEFAULT_CATALOG_URL       = "https://raw.githubusercontent.com/Holy3holy-dev/H3H-Backgrounds/after-dark/catalog/data/catalog_after_dark.json";
 
@@ -39,7 +39,7 @@ public:
 
     static constexpr const char* DEFAULT_SWITCH_APP_DIR    = "sdmc:/switch/H3H-Backgrounds";
 
-    static constexpr const char* APP_NAME                  = "H3H Backgrounds";
+    static constexpr const char* APP_NAME                  = "H3H-Backgrounds";
 
     static constexpr const char* DEFAULT_CATALOG_URL       = "https://raw.githubusercontent.com/Holy3holy-dev/H3H-Backgrounds/main/catalog/data/catalog.json";
 
@@ -65,7 +65,7 @@ public:
 
     // Application Version
 
-    static constexpr const char* APP_VERSION = "1.3.6";
+    static constexpr const char* APP_VERSION = "1.4.0";
 
     static constexpr const char* VERSION_CHECK_URL =
 
