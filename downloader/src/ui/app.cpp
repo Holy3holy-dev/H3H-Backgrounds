@@ -754,8 +754,8 @@ void App::update() {
         }
         if (!newVer.empty()) {
             m_statusNotification = (m_language == Language::Russian)
-                ? ("✨ Обнаружено обновление v" + newVer + "! Нажмите [-] в Настройках")
-                : ("✨ New update v" + newVer + " detected! Press [-] in Settings");
+                ? ("Обнаружено обновление v" + newVer + "! Нажмите [-] в Настройках")
+                : ("New update v" + newVer + " detected! Press [-] in Settings");
             m_notificationFramesRemaining = 240;
         }
     }
@@ -2451,9 +2451,11 @@ void App::render() {
 
     // Status notification overlay
     if (m_notificationFramesRemaining > 0) {
-        drawRect(340, 630, 600, 36, Theme::COLOR_BG_ELEVATED);
-        drawRectOutline(340, 630, 600, 36, Theme::COLOR_ACCENT, 2);
-        drawText(m_statusNotification, 360, 640, Theme::COLOR_TEXT_PRIMARY, 14);
+        int notifW = std::clamp(measureTextWidth(m_statusNotification, 14) + 48, 320, 880);
+        int notifX = (Theme::SCREEN_WIDTH - notifW) / 2;
+        drawRoundedRect(notifX, 622, notifW, 36, 10, Theme::COLOR_BG_ELEVATED);
+        drawNeonRoundedOutline(notifX, 622, notifW, 36, 10, 2);
+        drawTextCentered(m_statusNotification, Theme::SCREEN_WIDTH / 2, 631, Theme::COLOR_FOCUS_CYAN, 14);
         m_notificationFramesRemaining--;
     }
 
@@ -2470,22 +2472,27 @@ void App::renderHeader() {
 
     // Left Branding: App Name + Tag Badge
     // Triple accent bars (TorrentShopNX style logo)
-    drawRect(30, 24, 5, 18, Theme::COLOR_FOCUS_CYAN);
-    drawRect(38, 20, 5, 26, Theme::COLOR_FOCUS_CYAN);
-    drawRect(46, 25, 5, 16, Theme::COLOR_FOCUS_CYAN);
+    drawRoundedRect(30, 24, 4, 18, 2, Theme::COLOR_FOCUS_CYAN);
+    drawRoundedRect(38, 20, 4, 26, 2, Theme::COLOR_FOCUS_CYAN);
+    drawRoundedRect(46, 25, 4, 16, 2, Theme::COLOR_FOCUS_CYAN);
 
     // App Title
     drawText(Config::APP_NAME, 62, 18, Theme::COLOR_TEXT_PRIMARY, 20);
+    int titleW = measureTextWidth(Config::APP_NAME, 20);
 
     // Version Tag Pill
 #ifdef H3H_AFTER_DARK
-    std::string tagText = "18+ v" + std::string(Config::APP_VERSION);
+    std::string tagText = "18+";
 #else
-    std::string tagText = "NX v" + std::string(Config::APP_VERSION);
+    std::string tagText = "NX";
 #endif
-    drawRect(290, 20, 84, 24, Theme::COLOR_FOCUS_FILL);
-    drawRectOutline(290, 20, 84, 24, Theme::COLOR_FOCUS_CYAN, 1);
-    drawText(tagText, 298, 24, Theme::COLOR_FOCUS_CYAN, 12);
+    int nxW = measureTextWidth(tagText, 12) + 16;
+    int nxX = 64 + titleW + 12;
+    drawRoundedRect(nxX, 20, nxW, 24, 6, Theme::COLOR_FOCUS_CYAN);
+    drawTextCentered(tagText, nxX + nxW / 2, 24, Theme::COLOR_BG_BASE, 12);
+
+    std::string verText = "v" + std::string(Config::APP_VERSION);
+    drawText(verText, nxX + nxW + 10, 24, Theme::COLOR_TEXT_MUTED, 13);
 
     // Right Side Metadata
     size_t catGames = m_catalogManager.getGamesCount();
@@ -2506,8 +2513,8 @@ void App::renderHeader() {
     std::snprintf(sdBuf, sizeof(sdBuf), "SD: %.1f GB / %.1f GB • NAND: 5.3 GB / 9.4 GB", freeSdGb, totalSdGb);
     std::string metaLine2 = sdBuf;
 
-    drawText(metaLine1, 780, 14, Theme::COLOR_TEXT_SECONDARY, 13);
-    drawText(metaLine2, 830, 36, Theme::COLOR_TEXT_MUTED, 13);
+    drawTextRight(metaLine1, 1244, 14, Theme::COLOR_TEXT_SECONDARY, 13);
+    drawTextRight(metaLine2, 1244, 36, Theme::COLOR_TEXT_MUTED, 12);
 }
 
 void App::renderFooter() {
@@ -2519,20 +2526,24 @@ void App::renderFooter() {
 
     // Left: Battery glyph & %, Wi-Fi, Clock
     int battX = 30;
-    drawRect(battX, 683, 30, 16, {0x1C, 0x24, 0x33, 0xFF});
-    drawRectOutline(battX, 683, 30, 16, Theme::COLOR_TEXT_MUTED, 1);
-    drawRect(battX + 30, 687, 3, 8, Theme::COLOR_TEXT_MUTED); // nub
+    drawRoundedRect(battX, 683, 30, 16, 3, {0x1C, 0x24, 0x33, 0xFF});
+    drawRoundedOutline(battX, 683, 30, 16, 3, Theme::COLOR_TEXT_MUTED, Theme::COLOR_TEXT_MUTED, 1);
+    drawRoundedRect(battX + 30, 687, 3, 8, 1, Theme::COLOR_TEXT_MUTED); // nub
     int fillW = std::clamp((m_sysInfo.batteryPercent * 26) / 100, 2, 26);
     Color battCol = (m_sysInfo.batteryPercent < 20) ? Theme::COLOR_DANGER : (m_sysInfo.batteryPercent < 50 ? Theme::COLOR_WARNING : Theme::COLOR_SUCCESS);
-    drawRect(battX + 2, 685, fillW, 12, battCol);
+    drawRoundedRect(battX + 2, 685, fillW, 12, 2, battCol);
 
     std::string battStr = std::to_string(m_sysInfo.batteryPercent) + "%";
-    drawText(battStr, battX + 40, 684, Theme::COLOR_TEXT_PRIMARY, 14);
+    drawText(battStr, battX + 38, 683, Theme::COLOR_TEXT_PRIMARY, 13);
+    int curLeftX = battX + 38 + measureTextWidth(battStr, 13) + 16;
 
-    // Wi-Fi Status
-    drawText("📶", 125, 684, Theme::COLOR_FOCUS_CYAN, 14);
+    // Crisp Vector Wi-Fi Status
+    drawWifiIcon(curLeftX + 6, 691, m_sysInfo.isNetworkConnected ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_MUTED);
+    curLeftX += 18;
+
     std::string netStr = m_sysInfo.isNetworkConnected ? "Онлайн" : "Автономно";
-    drawText(netStr, 150, 684, m_sysInfo.isNetworkConnected ? Theme::COLOR_SUCCESS : Theme::COLOR_TEXT_MUTED, 13);
+    drawText(netStr, curLeftX, 683, m_sysInfo.isNetworkConnected ? Theme::COLOR_SUCCESS : Theme::COLOR_TEXT_MUTED, 13);
+    curLeftX += measureTextWidth(netStr, 13) + 18;
 
     // Digital Clock
     std::time_t now = std::time(nullptr);
@@ -2543,47 +2554,55 @@ void App::renderFooter() {
     } else {
         std::snprintf(timeBuf, sizeof(timeBuf), "14:33:44");
     }
-    drawText(timeBuf, 245, 684, Theme::COLOR_TEXT_PRIMARY, 14);
+    drawText(timeBuf, curLeftX, 683, Theme::COLOR_TEXT_PRIMARY, 14);
 
-    // Right: Circular Joy-Con Button Badges (TorrentShopNX aesthetic)
-    int btnX = 660;
+    // Right: Circular Joy-Con Button Badges laid out from right to left
+    int curRightX = 1244;
+    auto drawPrompt = [&](const std::string& key, const std::string& label, Color badgeCol = Theme::COLOR_TEXT_PRIMARY) {
+        int labelW = measureTextWidth(label, 13);
+        int itemW = 22 + 8 + labelW;
+        int itemX = curRightX - itemW;
+        drawButtonBadge(itemX, 682, key, label, badgeCol);
+        curRightX = itemX - 20;
+    };
+
     if (m_activeTab == Tab::Home) {
-        drawButtonBadge(btnX - 40, 682, "+", "Файловый менеджер", Theme::COLOR_TEXT_PRIMARY);
-        drawButtonBadge(btnX + 175, 682, "-", "Добавить", Theme::COLOR_TEXT_PRIMARY);
-        drawButtonBadge(btnX + 310, 682, "B", "Назад", Theme::COLOR_TEXT_PRIMARY);
-        drawButtonBadge(btnX + 420, 682, "A", "OK", Theme::COLOR_FOCUS_CYAN);
+        drawPrompt("A", "OK", Theme::COLOR_FOCUS_CYAN);
+        drawPrompt("B", "Назад", Theme::COLOR_TEXT_PRIMARY);
+        drawPrompt("-", "Добавить", Theme::COLOR_TEXT_PRIMARY);
+        drawPrompt("+", "Файловый менеджер", Theme::COLOR_TEXT_PRIMARY);
     } else if (m_activeTab == Tab::VideoIcons) {
-        drawButtonBadge(btnX - 110, 682, "-", "Фильтр", Theme::COLOR_TEXT_PRIMARY);
-        drawButtonBadge(btnX + 0, 682, "Y", "Поиск", Theme::COLOR_TEXT_PRIMARY);
-        drawButtonBadge(btnX + 110, 682, "X", "Превью", Theme::COLOR_FOCUS_CYAN);
-        drawButtonBadge(btnX + 230, 682, "B", "Назад", Theme::COLOR_TEXT_MUTED);
-        drawButtonBadge(btnX + 345, 682, "A", "Установить", Theme::COLOR_FOCUS_CYAN);
+        drawPrompt("A", "Установить", Theme::COLOR_FOCUS_CYAN);
+        drawPrompt("B", "Назад", Theme::COLOR_TEXT_MUTED);
+        drawPrompt("X", "Превью", Theme::COLOR_FOCUS_CYAN);
+        drawPrompt("Y", "Поиск", Theme::COLOR_TEXT_PRIMARY);
+        drawPrompt("-", "Фильтр", Theme::COLOR_TEXT_PRIMARY);
     } else if (m_activeTab == Tab::Catalog) {
         if (m_catalogViewMode == CatalogViewMode::Categories) {
-            drawButtonBadge(btnX + 60, 682, "Y", "Поиск", Theme::COLOR_FOCUS_CYAN);
-            drawButtonBadge(btnX + 175, 682, "-", "Обновить", Theme::COLOR_TEXT_PRIMARY);
-            drawButtonBadge(btnX + 310, 682, "B", "Назад", Theme::COLOR_TEXT_PRIMARY);
-            drawButtonBadge(btnX + 420, 682, "A", "OK", Theme::COLOR_FOCUS_CYAN);
+            drawPrompt("A", "OK", Theme::COLOR_FOCUS_CYAN);
+            drawPrompt("B", "Назад", Theme::COLOR_TEXT_PRIMARY);
+            drawPrompt("-", "Обновить", Theme::COLOR_TEXT_PRIMARY);
+            drawPrompt("Y", "Поиск", Theme::COLOR_FOCUS_CYAN);
         } else {
-            drawButtonBadge(btnX - 110, 682, "X", "Сортировка", Theme::COLOR_TEXT_PRIMARY);
-            drawButtonBadge(btnX + 30, 682, "Y", "Поиск", Theme::COLOR_TEXT_PRIMARY);
-            drawButtonBadge(btnX + 150, 682, "ZL", "±15", Theme::COLOR_TEXT_MUTED);
-            drawButtonBadge(btnX + 260, 682, "B", "Назад", Theme::COLOR_TEXT_MUTED);
-            drawButtonBadge(btnX + 380, 682, "A", "Выбрать", Theme::COLOR_FOCUS_CYAN);
+            drawPrompt("A", "Выбрать", Theme::COLOR_FOCUS_CYAN);
+            drawPrompt("B", "Назад", Theme::COLOR_TEXT_MUTED);
+            drawPrompt("ZL", "±15", Theme::COLOR_TEXT_MUTED);
+            drawPrompt("Y", "Поиск", Theme::COLOR_TEXT_PRIMARY);
+            drawPrompt("X", "Сортировка", Theme::COLOR_TEXT_PRIMARY);
         }
     } else if (m_activeTab == Tab::MyGames) {
-        drawButtonBadge(btnX - 80, 682, "X", "Видео", Theme::COLOR_FOCUS_CYAN);
-        drawButtonBadge(btnX + 50, 682, "Y", "Удалить", Theme::COLOR_DANGER);
-        drawButtonBadge(btnX + 200, 682, "B", "Назад", Theme::COLOR_TEXT_MUTED);
-        drawButtonBadge(btnX + 340, 682, "A", "Выбрать", Theme::COLOR_FOCUS_CYAN);
+        drawPrompt("A", "Выбрать", Theme::COLOR_FOCUS_CYAN);
+        drawPrompt("B", "Назад", Theme::COLOR_TEXT_MUTED);
+        drawPrompt("Y", "Удалить", Theme::COLOR_DANGER);
+        drawPrompt("X", "Видео", Theme::COLOR_FOCUS_CYAN);
     } else if (m_activeTab == Tab::Downloads) {
-        drawButtonBadge(btnX - 50, 682, "X", "Очистить", Theme::COLOR_DANGER);
-        drawButtonBadge(btnX + 90, 682, "Y", "Все недостающие", Theme::COLOR_TEXT_PRIMARY);
-        drawButtonBadge(btnX + 300, 682, "B", "Назад", Theme::COLOR_TEXT_MUTED);
-        drawButtonBadge(btnX + 400, 682, "A", "Повторить", Theme::COLOR_FOCUS_CYAN);
+        drawPrompt("A", "Повторить", Theme::COLOR_FOCUS_CYAN);
+        drawPrompt("B", "Назад", Theme::COLOR_TEXT_MUTED);
+        drawPrompt("Y", "Все недостающие", Theme::COLOR_TEXT_PRIMARY);
+        drawPrompt("X", "Очистить", Theme::COLOR_DANGER);
     } else if (m_activeTab == Tab::Settings) {
-        drawButtonBadge(btnX + 260, 682, "B", "Назад", Theme::COLOR_TEXT_MUTED);
-        drawButtonBadge(btnX + 380, 682, "A", "Применить", Theme::COLOR_FOCUS_CYAN);
+        drawPrompt("A", "Применить", Theme::COLOR_FOCUS_CYAN);
+        drawPrompt("B", "Назад", Theme::COLOR_TEXT_MUTED);
     }
 }
 
@@ -2622,7 +2641,7 @@ void App::renderTabHome() {
         drawDashboardTile(drawX, drawY, drawW, drawH, tiles[i].index, tiles[i].title, "", isFocused);
     }
 
-    // 2. Bottom Summary Panel (2 Wide Informative Cards — no redundant Installation Folder card!)
+    // 2. Bottom Summary Panel (2 Wide Informative Cards)
     int boxX = 48;
     int boxY = 368;
     int boxW = 1184;
@@ -2631,7 +2650,7 @@ void App::renderTabHome() {
     drawGlassCard(boxX, boxY, boxW, boxH, false, false);
 
     // Outer Container Header
-    drawRect(boxX + 24, boxY + 20, 4, 16, Theme::COLOR_FOCUS_CYAN);
+    drawRoundedRect(boxX + 24, boxY + 20, 4, 16, 2, Theme::COLOR_FOCUS_CYAN);
     std::string headerTitle = "КАТАЛОГ ВИДЕОФОНОВ 4IFIR ДЛЯ NINTENDO SWITCH";
     if (m_homeFocusedTile == 1) {
         headerTitle = "КАТАЛОГ ВИДЕОИКОНОК 256x256 (ФОРМАТ 4IFIR HEVC)";
@@ -2654,7 +2673,7 @@ void App::renderTabHome() {
     // Sub-card 1: Library Stats (560px wide)
     drawGlassCard(sc1X, subY, cardW, subH, false, false);
     drawText(m_homeFocusedTile == 1 ? "БИБЛИОТЕКА ВИДЕОИКОНОК 1:1" : "БИБЛИОТЕКА ВИДЕОФОНОВ И ИКОНОК", sc1X + 22, subY + 18, Theme::COLOR_TEXT_MUTED, 12);
-    drawText("18 тематических подборок", sc1X + cardW - 195, subY + 18, Theme::COLOR_FOCUS_CYAN, 12);
+    drawTextRight("18 тематических подборок", sc1X + cardW - 22, subY + 18, Theme::COLOR_FOCUS_CYAN, 12);
 
     size_t totalGames = m_catalogManager.getGamesCount();
     size_t totalVariants = m_catalogManager.getTotalVariantsCount();
@@ -2662,34 +2681,46 @@ void App::renderTabHome() {
     std::string bigStat = (m_homeFocusedTile == 1)
         ? (std::to_string(totalIcons) + " тайтлов с иконками")
         : (std::to_string(totalGames) + " тайтлов в базе");
-    drawText(bigStat, sc1X + 22, subY + 62, Theme::COLOR_TEXT_PRIMARY, 24);
+    drawText(bigStat, sc1X + 22, subY + 62, Theme::COLOR_TEXT_PRIMARY, 21);
 
-    // Badge "Полная база"
-    drawRect(sc1X + 310, subY + 64, 104, 24, {0x10, 0xB9, 0x81, 0x33});
-    drawRectOutline(sc1X + 310, subY + 64, 104, 24, Theme::COLOR_SUCCESS, 1);
-    drawText("Полная база", sc1X + 322, subY + 68, Theme::COLOR_SUCCESS, 11);
+    // Badge "Полная база" positioned dynamically after bigStat so it NEVER overlaps
+    int statW = measureTextWidth(bigStat, 21);
+    std::string badgeStr = "Полная база";
+    int badgeW = measureTextWidth(badgeStr, 11) + 20;
+    int badgeX = std::min(sc1X + 22 + statW + 14, sc1X + cardW - badgeW - 20);
+    drawRoundedRect(badgeX, subY + 62, badgeW, 24, 6, {0x10, 0xB9, 0x81, 0x33});
+    drawRoundedOutline(badgeX, subY + 62, badgeW, 24, 6, Theme::COLOR_SUCCESS, Theme::COLOR_SUCCESS, 1);
+    drawTextCentered(badgeStr, badgeX + badgeW / 2, subY + 67, Theme::COLOR_SUCCESS, 11);
 
-    drawText(std::to_string(totalVariants) + " видеофонов и 433 видеоиконки • 1080p / 720p 60 FPS • HEVC", sc1X + 22, subY + 136, Theme::COLOR_TEXT_MUTED, 13);
+    drawText(std::to_string(totalVariants) + " видеофонов и 433 видеоиконки • 1080p / 720p 60 FPS • HEVC", sc1X + 22, subY + 136, Theme::COLOR_TEXT_MUTED, 12, cardW - 44);
 
     // Sub-card 2: Main Collections & Quick Action (560px wide, highlighted)
     drawGlassCard(sc2X, subY, cardW, subH, true, true);
     drawText("ОСНОВНЫЕ ПОДБОРКИ И ЖАНРЫ", sc2X + 22, subY + 18, Theme::COLOR_TEXT_MUTED, 12);
-    drawText("4IFIR Engine", sc2X + cardW - 110, subY + 18, Theme::COLOR_FOCUS_CYAN, 12);
+    drawTextRight("4IFIR Engine", sc2X + cardW - 22, subY + 18, Theme::COLOR_FOCUS_CYAN, 12);
 
-    // 3 4IFIR Cyber-Glass pills (Cyan & Magenta only)
-    drawRect(sc2X + 22, subY + 64, 165, 26, Theme::COLOR_FOCUS_FILL);
-    drawRectOutline(sc2X + 22, subY + 64, 165, 26, Theme::COLOR_FOCUS_CYAN, 1);
-    drawText("Эксклюзивы Switch (40)", sc2X + 30, subY + 70, Theme::COLOR_FOCUS_CYAN, 11);
+    // 3 4IFIR Cyber-Glass pills with dynamically measured widths
+    struct PillData {
+        std::string label;
+        Color borderCol;
+        Color fillCol;
+    };
+    PillData pData[3] = {
+        {"Эксклюзивы Switch (40)", Theme::COLOR_FOCUS_CYAN, Theme::COLOR_FOCUS_FILL},
+        {"RPG и Экшены (45)", Theme::COLOR_FOCUS_PINK, Color{0xEC, 0x48, 0x99, 0x24}},
+        {"Инди-хиты (27)", Theme::COLOR_FOCUS_CYAN, Theme::COLOR_FOCUS_FILL}
+    };
 
-    drawRect(sc2X + 198, subY + 64, 150, 26, {0xEC, 0x48, 0x99, 0x24});
-    drawRectOutline(sc2X + 198, subY + 64, 150, 26, Theme::COLOR_FOCUS_PINK, 1);
-    drawText("RPG и Экшены (45)", sc2X + 208, subY + 70, Theme::COLOR_FOCUS_PINK, 11);
+    int curPillX = sc2X + 22;
+    for (int p = 0; p < 3; ++p) {
+        int pw = measureTextWidth(pData[p].label, 11) + 20;
+        drawRoundedRect(curPillX, subY + 64, pw, 26, 6, pData[p].fillCol);
+        drawRoundedOutline(curPillX, subY + 64, pw, 26, 6, pData[p].borderCol, pData[p].borderCol, 1);
+        drawTextCentered(pData[p].label, curPillX + pw / 2, subY + 70, pData[p].borderCol, 11);
+        curPillX += pw + 10;
+    }
 
-    drawRect(sc2X + 360, subY + 64, 125, 26, Theme::COLOR_FOCUS_FILL);
-    drawRectOutline(sc2X + 360, subY + 64, 125, 26, Theme::COLOR_FOCUS_CYAN, 1);
-    drawText("Инди-хиты (27)", sc2X + 370, subY + 70, Theme::COLOR_FOCUS_CYAN, 11);
-
-    drawText("(A) Нажмите для перехода к выбранному разделу  •  (Y) Быстрый поиск", sc2X + 22, subY + 136, Theme::COLOR_FOCUS_CYAN, 13);
+    drawText("(A) Нажмите для перехода к разделу • (Y) Быстрый поиск", sc2X + 22, subY + 136, Theme::COLOR_FOCUS_CYAN, 12, cardW - 44);
 }
 
 void App::renderTabMyGames() {
@@ -2723,14 +2754,14 @@ void App::renderTabMyGames() {
         bool isFocused = (m_myGamesActivePane == MyGamesPane::GamesList && isSelected);
         drawGlassCard(35, startY, 440, 60, isFocused, isSelected);
 
-        drawText(game.name, 48, startY + 10, isSelected ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 15, 310);
-        drawText(game.titleId, 48, startY + 34, Theme::COLOR_TEXT_MUTED, 12, 310);
+        drawText(game.name, 48, startY + 10, isSelected ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 15, 265);
+        drawText(game.titleId, 48, startY + 34, Theme::COLOR_TEXT_MUTED, 12, 265);
 
         // Status pill: Cover & Video Icon
         if (game.hasInstalledCover && game.hasInstalledIcon) {
             drawRect(330, startY + 18, 135, 24, {0x10, 0xB9, 0x81, 0x33});
             drawRectOutline(330, startY + 18, 135, 24, Theme::COLOR_SUCCESS, 1);
-            drawText("🎬 ФОН + 🔲 ИКОНКА", 336, startY + 23, Theme::COLOR_SUCCESS, 11);
+            drawText("ФОН + ИКОНКА", 342, startY + 23, Theme::COLOR_SUCCESS, 11);
         } else if (game.hasInstalledCover) {
             drawRect(370, startY + 18, 95, 24, {0x10, 0xB9, 0x81, 0x22});
             drawRectOutline(370, startY + 18, 95, 24, Theme::COLOR_SUCCESS, 1);
@@ -2738,7 +2769,7 @@ void App::renderTabMyGames() {
         } else if (game.hasInstalledIcon) {
             drawRect(355, startY + 18, 110, 24, {0x0E, 0x74, 0x90, 0x33});
             drawRectOutline(355, startY + 18, 110, 24, Theme::COLOR_FOCUS_CYAN, 1);
-            drawText("🔲 ИКОНКА ЕСТЬ", 362, startY + 23, Theme::COLOR_FOCUS_CYAN, 11);
+            drawText("ИКОНКА ЕСТЬ", 366, startY + 23, Theme::COLOR_FOCUS_CYAN, 11);
         } else {
             drawRect(370, startY + 18, 95, 24, {0x28, 0x33, 0x47, 0x55});
             drawRectOutline(370, startY + 18, 95, 24, Theme::COLOR_BORDER, 1);
@@ -2760,11 +2791,11 @@ void App::renderTabMyGames() {
         // Status details
         std::string coverInfo;
         if (selGame.hasInstalledCover && selGame.hasInstalledIcon) {
-            coverInfo = "Активно на консоли: Видеофон (" + std::to_string(selGame.installedCoverSizeBytes / 1024) + " KB) + 🔲 Видеоиконка 4IFIR (" + std::to_string(selGame.installedIconSizeBytes / 1024) + " KB)";
+            coverInfo = "Активно на консоли: Видеофон (" + std::to_string(selGame.installedCoverSizeBytes / 1024) + " KB) + Иконка 4IFIR (" + std::to_string(selGame.installedIconSizeBytes / 1024) + " KB)";
         } else if (selGame.hasInstalledCover) {
             coverInfo = "Активный видеофон: " + Config::getTargetCoverFileName(selGame.titleId) + " (" + std::to_string(selGame.installedCoverSizeBytes / 1024) + " KB)";
         } else if (selGame.hasInstalledIcon) {
-            coverInfo = "Активно на консоли: 🔲 Видеоиконка 4IFIR (" + std::to_string(selGame.installedIconSizeBytes / 1024) + " KB, без видеофона)";
+            coverInfo = "Активно на консоли: Иконка 4IFIR (" + std::to_string(selGame.installedIconSizeBytes / 1024) + " KB, без видеофона)";
         } else {
             coverInfo = "Видеофон и видеоиконка не установлены";
         }
@@ -2778,7 +2809,7 @@ void App::renderTabMyGames() {
 
             drawRect(725, 202, 190, 32, {0x0E, 0x74, 0x90, 0x33});
             drawRectOutline(725, 202, 190, 32, Theme::COLOR_FOCUS_CYAN, 1);
-            drawText("⚡ Удалить иконку", 735, 210, Theme::COLOR_FOCUS_CYAN, 12);
+            drawText("[Y] Удалить иконку", 735, 210, Theme::COLOR_FOCUS_CYAN, 12);
 
             if (selGame.hasBackup) {
                 drawRect(925, 202, 140, 32, Theme::COLOR_BG_ELEVATED);
@@ -2825,9 +2856,9 @@ void App::renderTabMyGames() {
         drawText(varHeader, 530, 248, Theme::COLOR_TEXT_PRIMARY, 16);
 
         if (m_myGamesActivePane == MyGamesPane::VariantsList) {
-            drawText("◀ [B] К играм   |   [X] На весь экран", 870, 250, Theme::COLOR_FOCUS_CYAN, 12);
+            drawText("[B] К играм   |   [X] На весь экран", 870, 250, Theme::COLOR_FOCUS_CYAN, 12);
         } else {
-            drawText("▶ [A] К вариантам   |   [X] На весь экран", 870, 250, Theme::COLOR_TEXT_MUTED, 12);
+            drawText("[A] К вариантам   |   [X] На весь экран", 870, 250, Theme::COLOR_TEXT_MUTED, 12);
         }
 
         if (totalVariants > 0) {
@@ -2841,7 +2872,7 @@ void App::renderTabMyGames() {
 
             // Scroll indicator ABOVE
             if (m_variantScrollOffset > 0) {
-                drawText("▲ Еще варианты выше (используйте D-Pad Влево)", 780, 252, Theme::COLOR_FOCUS_CYAN, 12);
+                drawText("^ Еще варианты выше (D-Pad Влево)", 780, 252, Theme::COLOR_FOCUS_CYAN, 12);
             }
 
             int vY = 280;
@@ -2857,7 +2888,7 @@ void App::renderTabMyGames() {
                 // Variant Title & Style (bounded so it never overlaps install button)
                 std::string vTitle = std::to_string(vIdx + 1) + ". " + v.name + " (" + styleToString(v.style) + ")";
                 if (v.hasIcon) {
-                    vTitle += "  [🔲 Иконка]";
+                    vTitle += "  [Иконка]";
                 }
                 drawText(vTitle, 545, vY + 12, isVarSelected ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 16, 450);
 
@@ -2922,7 +2953,7 @@ void App::renderTabMyGames() {
                     Color icoBtnFill = {0x0E, 0x74, 0x90, 0x33};
                     drawRect(1115, vY + 18, 95, 36, icoBtnFill);
                     drawRectOutline(1115, vY + 18, 95, 36, Theme::COLOR_FOCUS_CYAN, 1);
-                    drawText("⚡ Иконка", 1125, vY + 27, Theme::COLOR_FOCUS_CYAN, 12);
+                    drawText("[A] Иконка", 1125, vY + 27, Theme::COLOR_FOCUS_CYAN, 12);
                 } else {
                     drawRect(1005, vY + 18, 205, 36, btnFill);
                     drawRectOutline(1005, vY + 18, 205, 36, btnBorder, 1);
@@ -2935,7 +2966,7 @@ void App::renderTabMyGames() {
 
             // Scroll indicator BELOW
             if (endVIdx < totalVariants) {
-                std::string belowStr = "▼ Еще варианты ниже: " + std::to_string(totalVariants - endVIdx) + " шт. (используйте D-Pad Вправо)";
+                std::string belowStr = "v Еще варианты ниже: " + std::to_string(totalVariants - endVIdx) + " шт. (D-Pad Вправо)";
                 drawText(belowStr, 720, vY + 6, Theme::COLOR_FOCUS_PINK, 12);
             }
         } else {
@@ -2963,18 +2994,19 @@ void App::renderCategoriesView() {
     drawText("Каталог видеофонов", 60, 78, Theme::COLOR_TEXT_PRIMARY, 24);
 
     // Toggle to Full List button (x=340, y=74, w=185, h=38)
-    drawPillButton(340, 74, 185, 38, "[X] ≡ Весь список", false, Theme::COLOR_FOCUS_CYAN);
+    drawPillButton(340, 74, 185, 38, "[X] Весь список", false, Theme::COLOR_FOCUS_CYAN);
 
     // Search Bar at top-right (x=700, y=74, w=512, h=38)
     bool hasCatSearch = !m_catalogSearchQuery.empty();
     drawGlassCard(700, 74, 512, 38, hasCatSearch, false);
+    drawSearchIcon(718, 93, hasCatSearch ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_MUTED);
     std::string catSearchLabel = hasCatSearch
-        ? ("🔍 Поиск: " + m_catalogSearchQuery)
-        : "🔍 Поиск по названию игры, жанру или TitleID...";
-    drawText(catSearchLabel, 716, 84, hasCatSearch ? Theme::COLOR_TEXT_PRIMARY : Theme::COLOR_TEXT_MUTED, 13, 390);
-    drawRect(1118, 80, 84, 26, Theme::COLOR_FOCUS_FILL);
-    drawRectOutline(1118, 80, 84, 26, Theme::COLOR_FOCUS_CYAN, 1);
-    drawText("[Y] Поиск", 1128, 85, Theme::COLOR_FOCUS_CYAN, 11);
+        ? ("Поиск: " + m_catalogSearchQuery)
+        : "Поиск по названию игры, жанру или TitleID...";
+    drawText(catSearchLabel, 734, 84, hasCatSearch ? Theme::COLOR_TEXT_PRIMARY : Theme::COLOR_TEXT_MUTED, 13, 370);
+    drawRoundedRect(1118, 80, 84, 26, 6, Theme::COLOR_FOCUS_FILL);
+    drawRoundedOutline(1118, 80, 84, 26, 6, Theme::COLOR_FOCUS_CYAN, Theme::COLOR_FOCUS_CYAN, 1);
+    drawTextCentered("[Y] Поиск", 1160, 85, Theme::COLOR_FOCUS_CYAN, 11);
 
     // Section 1: | ОСНОВНЫЕ РАЗДЕЛЫ
     drawRect(60, 122, 3, 15, Theme::COLOR_FOCUS_CYAN);
@@ -3065,13 +3097,14 @@ void App::renderTabVideoIcons() {
     // Prominent Search Bar (x=290, y=82, w=620, h=38)
     bool hasIconSearch = !m_videoIconsSearchQuery.empty();
     drawGlassCard(290, 82, 620, 38, hasIconSearch, false);
+    drawSearchIcon(308, 101, hasIconSearch ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_MUTED);
     std::string iconSearchLabel = hasIconSearch
-        ? ("🔍 Поиск: " + m_videoIconsSearchQuery)
-        : "🔍 Поиск видеоиконки по названию игры или TitleID...";
-    drawText(iconSearchLabel, 308, 92, hasIconSearch ? Theme::COLOR_TEXT_PRIMARY : Theme::COLOR_TEXT_MUTED, 13, 490);
-    drawRect(816, 88, 84, 26, Theme::COLOR_FOCUS_FILL);
-    drawRectOutline(816, 88, 84, 26, Theme::COLOR_FOCUS_CYAN, 1);
-    drawText("[Y] Поиск", 826, 93, Theme::COLOR_FOCUS_CYAN, 11);
+        ? ("Поиск: " + m_videoIconsSearchQuery)
+        : "Поиск видеоиконки по названию игры или TitleID...";
+    drawText(iconSearchLabel, 324, 92, hasIconSearch ? Theme::COLOR_TEXT_PRIMARY : Theme::COLOR_TEXT_MUTED, 13, 470);
+    drawRoundedRect(816, 88, 84, 26, 6, Theme::COLOR_FOCUS_FILL);
+    drawRoundedOutline(816, 88, 84, 26, 6, Theme::COLOR_FOCUS_CYAN, Theme::COLOR_FOCUS_CYAN, 1);
+    drawTextCentered("[Y] Поиск", 858, 93, Theme::COLOR_FOCUS_CYAN, 11);
 
     // Filter pill at top-right (x=925, y=82, w=295, h=38)
     const char* filterLabels[] = {"Все (112)", "Установленные", "Не установленные"};
@@ -3103,10 +3136,14 @@ void App::renderTabVideoIcons() {
 
         int boxX = 74;
         int boxY = y + 9;
-        drawRect(boxX, boxY, 70, 70, {0x14, 0x1A, 0x28, 0xFF});
-        drawRectOutline(boxX, boxY, 70, 70, isFocused ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_BORDER, 1);
-        drawText("🔲", boxX + 22, boxY + 18, isFocused ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 22);
-        drawText("256x256", boxX + 8, boxY + 48, Theme::COLOR_TEXT_MUTED, 10);
+        drawRoundedRect(boxX, boxY, 70, 70, 10, {0x14, 0x1A, 0x28, 0xFF});
+        drawRoundedOutline(boxX, boxY, 70, 70, 10, isFocused ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_BORDER, isFocused ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_BORDER, 1);
+        for (int row = -8; row <= 8; ++row) {
+            int pw = 12 - std::abs(row);
+            drawRect(boxX + 28, boxY + 24 + row, pw, 1, isFocused ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY);
+        }
+        drawRoundedRect(boxX + 10, boxY + 46, 50, 16, 4, Theme::COLOR_FOCUS_PINK);
+        drawTextCentered("256x256", boxX + 35, boxY + 48, Theme::COLOR_TEXT_PRIMARY, 9);
 
         int infoX = boxX + 86;
         drawText(entry.title, infoX, y + 14, isFocused ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 16, 680);
@@ -3126,12 +3163,12 @@ void App::renderTabVideoIcons() {
         // Interactive Preview [X] and Install [A] buttons on each Video Icon row
         drawRect(890, y + 25, 135, 38, isFocused ? Theme::COLOR_FOCUS_FILL : Color{0x14, 0x1E, 0x30, 0xDD});
         drawRectOutline(890, y + 25, 135, 38, isFocused ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_BORDER, 1);
-        drawText("[X] ▶ Превью", 904, y + 36, Theme::COLOR_FOCUS_CYAN, 13);
+        drawText("[X] Превью", 908, y + 36, Theme::COLOR_FOCUS_CYAN, 13);
 
         if (installed) {
             drawRect(1035, y + 25, 165, 38, Theme::COLOR_SUCCESS_BADGE_FILL);
             drawRectOutline(1035, y + 25, 165, 38, Theme::COLOR_SUCCESS, 1);
-            drawText("✔ УСТАНОВЛЕНО", 1054, y + 36, Theme::COLOR_SUCCESS, 12);
+            drawText("УСТАНОВЛЕНО", 1060, y + 36, Theme::COLOR_SUCCESS, 12);
         } else {
             drawRect(1035, y + 25, 165, 38, isFocused ? Theme::COLOR_FOCUS_FILL : Theme::COLOR_MUTED_BADGE_FILL);
             drawRectOutline(1035, y + 25, 165, 38, isFocused ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_BORDER, 1);
@@ -3207,7 +3244,7 @@ void App::renderTabCatalog() {
 
         drawRect(960, y + 22, 240, 36, Theme::COLOR_FOCUS_FILL);
         drawNeonGradientOutline(960, y + 22, 240, 36, 2);
-        drawText("[A] Смотреть фон ▶", 975, y + 31, Theme::COLOR_FOCUS_CYAN, 14);
+        drawText("[A] Смотреть фон", 985, y + 31, Theme::COLOR_FOCUS_CYAN, 14);
 
         y += 80 + 14;
     }
@@ -3254,9 +3291,9 @@ void App::renderTabDownloads() {
 
         // Title and variant
         if (task.iconOnly) {
-            drawText(task.gameTitle + "  [🔲 Видеоиконка: " + task.variant.name + "]", 85, y + 14, isDownloading ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 16);
+            drawText(task.gameTitle + "  [Иконка: " + task.variant.name + "]", 85, y + 14, isDownloading ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 16);
         } else if (task.coverOnly) {
-            drawText(task.gameTitle + "  [🎬 Только видеофон: " + task.variant.name + "]", 85, y + 14, isDownloading ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 16);
+            drawText(task.gameTitle + "  [Только видеофон: " + task.variant.name + "]", 85, y + 14, isDownloading ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 16);
         } else {
             drawText(task.gameTitle + "  [" + task.variant.name + "]", 85, y + 14, isDownloading ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 16);
         }
@@ -3296,15 +3333,15 @@ void App::renderTabDownloads() {
             drawRectOutline(1010, y + 24, 180, 32, Theme::COLOR_WARNING, 1);
             drawText("Установка...", 1050, y + 31, Theme::COLOR_WARNING, 13);
         } else if (task.state == TaskState::Completed) {
-            drawText("✔ Успешно активирован в sdmc:/recordings/covers/", 85, y + 44, Theme::COLOR_SUCCESS, 14);
+            drawText("Успешно активирован в sdmc:/recordings/covers/", 85, y + 44, Theme::COLOR_SUCCESS, 14);
             drawRect(1010, y + 24, 180, 32, {0x10, 0xB9, 0x81, 0x22});
             drawRectOutline(1010, y + 24, 180, 32, Theme::COLOR_SUCCESS, 1);
-            drawText("✔ Установлен", 1045, y + 31, Theme::COLOR_SUCCESS, 13);
+            drawText("[OK] Установлен", 1040, y + 31, Theme::COLOR_SUCCESS, 13);
         } else if (task.state == TaskState::Failed) {
             drawText("Ошибка: " + task.errorMessage, 85, y + 44, Theme::COLOR_DANGER, 13);
             drawRect(1010, y + 24, 180, 32, {0xF4, 0x3F, 0x5E, 0x22});
             drawRectOutline(1010, y + 24, 180, 32, Theme::COLOR_DANGER, 1);
-            drawText("✖ Ошибка", 1060, y + 31, Theme::COLOR_DANGER, 13);
+            drawText("[X] Ошибка", 1055, y + 31, Theme::COLOR_DANGER, 13);
         } else { // Pending
             drawText("В очереди ожидания...", 85, y + 44, Theme::COLOR_TEXT_MUTED, 14);
             drawRect(1010, y + 24, 180, 32, Theme::COLOR_BG_SURFACE);
@@ -3348,9 +3385,9 @@ void App::renderTabSettings() {
     double vidCacheMb = static_cast<double>(m_storageStats.vidCacheBytes) / (1024.0 * 1024.0);
 
     char covBuf[64], thBuf[64], vcBuf[64];
-    snprintf(covBuf, sizeof(covBuf), "📁 Видеофоны: %d шт. (%.1f MB)", m_storageStats.coversCount, coversMb);
-    snprintf(thBuf, sizeof(thBuf), "🖼️ Кэш превью: %d шт. (%.1f MB)", m_storageStats.thumbsCount, thumbsMb);
-    snprintf(vcBuf, sizeof(vcBuf), "🎬 Кэш видео: %d шт. (%.1f MB)", m_storageStats.vidCacheCount, vidCacheMb);
+    snprintf(covBuf, sizeof(covBuf), "Видеофоны: %d шт. (%.1f MB)", m_storageStats.coversCount, coversMb);
+    snprintf(thBuf, sizeof(thBuf), "Кэш превью: %d шт. (%.1f MB)", m_storageStats.thumbsCount, thumbsMb);
+    snprintf(vcBuf, sizeof(vcBuf), "Кэш видео: %d шт. (%.1f MB)", m_storageStats.vidCacheCount, vidCacheMb);
 
     drawText(covBuf, 70, 185, Theme::COLOR_SUCCESS, 13);
     drawText(thBuf, 460, 185, Theme::COLOR_FOCUS_CYAN, 13);
@@ -3542,12 +3579,12 @@ void App::renderDialog() {
         // Option 1: [X] Только иконка
         bool f1 = (m_dialogFocus == 1);
         drawGlassCard(dx + 190, btnY, 150, btnH, f1, false);
-        drawText("[X] ⚡ Иконка", dx + 210, btnY + 12, f1 ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 13);
+        drawText("[X] Иконка", dx + 215, btnY + 12, f1 ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 13);
 
         // Option 2: [Y] Только фон
         bool f2 = (m_dialogFocus == 2);
         drawGlassCard(dx + 350, btnY, 150, btnH, f2, false);
-        drawText("[Y] 🎬 Только фон", dx + 365, btnY + 12, f2 ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 13);
+        drawText("[Y] Только фон", dx + 370, btnY + 12, f2 ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 13);
 
         // Option 3: [B] Отмена
         bool f3 = (m_dialogFocus == 3);
@@ -3565,12 +3602,12 @@ void App::renderDialog() {
         // Option 1: [X] Только иконку
         bool f1 = (m_dialogFocus == 1);
         drawGlassCard(dx + 190, btnY, 150, btnH, f1, false);
-        drawText("[X] ⚡ Иконку", dx + 215, btnY + 12, f1 ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 13);
+        drawText("[X] Иконку", dx + 220, btnY + 12, f1 ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 13);
 
         // Option 2: [Y] Только видеофон
         bool f2 = (m_dialogFocus == 2);
         drawGlassCard(dx + 350, btnY, 150, btnH, f2, false);
-        drawText("[Y] 🎬 Видеофон", dx + 370, btnY + 12, f2 ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 13);
+        drawText("[Y] Видеофон", dx + 375, btnY + 12, f2 ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 13);
 
         // Option 3: [B] Отмена
         bool f3 = (m_dialogFocus == 3);
@@ -3593,7 +3630,7 @@ void App::renderDialog() {
 
 void App::drawRect(int x, int y, int w, int h, Color color) {
 #ifdef HAS_SDL2
-    if (!m_renderer) return;
+    if (!m_renderer || w <= 0 || h <= 0) return;
     SDL_SetRenderDrawColor(m_renderer, color.r, color.g, color.b, color.a);
     SDL_Rect r{x, y, w, h};
     SDL_RenderFillRect(m_renderer, &r);
@@ -3604,7 +3641,7 @@ void App::drawRect(int x, int y, int w, int h, Color color) {
 
 void App::drawRectOutline(int x, int y, int w, int h, Color color, int thickness) {
 #ifdef HAS_SDL2
-    if (!m_renderer) return;
+    if (!m_renderer || w <= 0 || h <= 0 || thickness <= 0) return;
     SDL_SetRenderDrawColor(m_renderer, color.r, color.g, color.b, color.a);
     for (int t = 0; t < thickness; ++t) {
         SDL_Rect r{x + t, y + t, w - 2 * t, h - 2 * t};
@@ -3615,38 +3652,124 @@ void App::drawRectOutline(int x, int y, int w, int h, Color color, int thickness
 #endif
 }
 
-void App::drawNeonGradientOutline(int x, int y, int w, int h, int thickness) {
+void App::drawRoundedRect(int x, int y, int w, int h, int radius, Color color) {
 #ifdef HAS_SDL2
-    if (!m_renderer) return;
-    // Signature 4IFIR Cyber-Glow: Vertical Gradient from Electric Cyan (#00E5FF) to Neon Magenta (#EC4899)
-    for (int t = 0; t < thickness; ++t) {
-        int curX = x + t;
-        int curY = y + t;
-        int curW = w - 2 * t;
-        int curH = h - 2 * t;
-        if (curW <= 0 || curH <= 0) break;
-
-        // Top horizontal edge: Electric Cyan
-        SDL_SetRenderDrawColor(m_renderer, 0x00, 0xE5, 0xFF, 0xFF);
-        SDL_RenderDrawLine(m_renderer, curX, curY, curX + curW - 1, curY);
-
-        // Bottom horizontal edge: Neon Magenta
-        SDL_SetRenderDrawColor(m_renderer, 0xEC, 0x48, 0x99, 0xFF);
-        SDL_RenderDrawLine(m_renderer, curX, curY + curH - 1, curX + curW - 1, curY + curH - 1);
-
-        // Vertical edges: smooth linear color interpolation
-        for (int row = 0; row < curH; ++row) {
-            float factor = static_cast<float>(row) / static_cast<float>(std::max(1, curH - 1));
-            uint8_t r = static_cast<uint8_t>(0x00 + factor * 0xEC);
-            uint8_t g = static_cast<uint8_t>(0xE5 + factor * (0x48 - 0xE5));
-            uint8_t b = static_cast<uint8_t>(0xFF + factor * (0x99 - 0xFF));
-            SDL_SetRenderDrawColor(m_renderer, r, g, b, 0xFF);
-            SDL_RenderDrawPoint(m_renderer, curX, curY + row);
-            SDL_RenderDrawPoint(m_renderer, curX + curW - 1, curY + row);
+    if (!m_renderer || w <= 0 || h <= 0) return;
+    int r = std::min({radius, w / 2, h / 2});
+    if (r <= 1) {
+        drawRect(x, y, w, h, color);
+        return;
+    }
+    SDL_SetRenderDrawColor(m_renderer, color.r, color.g, color.b, color.a);
+    if (h > 2 * r) {
+        SDL_Rect mid{x, y + r, w, h - 2 * r};
+        SDL_RenderFillRect(m_renderer, &mid);
+    }
+    for (int dy = 0; dy < r; ++dy) {
+        float yDist = static_cast<float>(r) - 0.5f - static_cast<float>(dy);
+        int dx = static_cast<int>(std::round(std::sqrt(std::max(0.0f, static_cast<float>(r * r) - yDist * yDist))));
+        int inset = std::max(0, r - dx);
+        int x1 = x + inset;
+        int x2 = x + w - 1 - inset;
+        if (x2 >= x1) {
+            SDL_RenderDrawLine(m_renderer, x1, y + dy, x2, y + dy);
+            SDL_RenderDrawLine(m_renderer, x1, y + h - 1 - dy, x2, y + h - 1 - dy);
         }
     }
 #else
-    (void)x; (void)y; (void)w; (void)h; (void)thickness;
+    (void)x; (void)y; (void)w; (void)h; (void)radius; (void)color;
+#endif
+}
+
+void App::drawRoundedOutline(int x, int y, int w, int h, int radius, Color topColor, Color bottomColor, int thickness) {
+#ifdef HAS_SDL2
+    if (!m_renderer || w <= 0 || h <= 0 || thickness <= 0) return;
+    int outerR = std::min({radius, w / 2, h / 2});
+    int innerR = std::max(0, outerR - thickness);
+    for (int py = 0; py < h; ++py) {
+        float factor = static_cast<float>(py) / static_cast<float>(std::max(1, h - 1));
+        uint8_t cr = static_cast<uint8_t>(topColor.r + factor * (bottomColor.r - topColor.r));
+        uint8_t cg = static_cast<uint8_t>(topColor.g + factor * (bottomColor.g - topColor.g));
+        uint8_t cb = static_cast<uint8_t>(topColor.b + factor * (bottomColor.b - topColor.b));
+        uint8_t ca = static_cast<uint8_t>(topColor.a + factor * (bottomColor.a - topColor.a));
+        SDL_SetRenderDrawColor(m_renderer, cr, cg, cb, ca);
+
+        int distEdge = std::min(py, h - 1 - py);
+        int insetOut = 0;
+        if (distEdge < outerR) {
+            float dy = static_cast<float>(outerR) - 0.5f - static_cast<float>(distEdge);
+            int dx = static_cast<int>(std::round(std::sqrt(std::max(0.0f, static_cast<float>(outerR * outerR) - dy * dy))));
+            insetOut = std::max(0, outerR - dx);
+        }
+
+        if (distEdge < thickness) {
+            int x1 = x + insetOut;
+            int x2 = x + w - 1 - insetOut;
+            if (x2 >= x1) {
+                SDL_RenderDrawLine(m_renderer, x1, y + py, x2, y + py);
+            }
+        } else {
+            int innerDist = distEdge - thickness;
+            int insetIn = thickness;
+            if (innerDist < innerR) {
+                float dyIn = static_cast<float>(innerR) - 0.5f - static_cast<float>(innerDist);
+                int dxIn = static_cast<int>(std::round(std::sqrt(std::max(0.0f, static_cast<float>(innerR * innerR) - dyIn * dyIn))));
+                insetIn = thickness + std::max(0, innerR - dxIn);
+            }
+            int lx1 = x + insetOut;
+            int lx2 = x + std::max(insetOut, insetIn - 1);
+            int rx1 = x + w - 1 - std::max(insetOut, insetIn - 1);
+            int rx2 = x + w - 1 - insetOut;
+            if (lx2 >= lx1) SDL_RenderDrawLine(m_renderer, lx1, y + py, lx2, y + py);
+            if (rx2 >= rx1) SDL_RenderDrawLine(m_renderer, rx1, y + py, rx2, y + py);
+        }
+    }
+#else
+    (void)x; (void)y; (void)w; (void)h; (void)radius; (void)topColor; (void)bottomColor; (void)thickness;
+#endif
+}
+
+void App::drawNeonRoundedOutline(int x, int y, int w, int h, int radius, int thickness) {
+    drawRoundedOutline(x, y, w, h, radius, Theme::COLOR_FOCUS_CYAN, Theme::COLOR_FOCUS_PINK, thickness);
+}
+
+void App::drawNeonGradientOutline(int x, int y, int w, int h, int thickness) {
+    drawNeonRoundedOutline(x, y, w, h, 0, thickness);
+}
+
+void App::drawWifiIcon(int cx, int cy, Color col) {
+#ifdef HAS_SDL2
+    if (!m_renderer) return;
+    SDL_SetRenderDrawColor(m_renderer, col.r, col.g, col.b, col.a);
+    // Wi-Fi dot at base
+    drawCircle(cx, cy + 5, 2, col, true);
+    // Lower arc (r = 5)
+    for (int dx = -3; dx <= 3; ++dx) {
+        int dy = static_cast<int>(std::round(std::sqrt(std::max(0.0f, 25.0f - dx * dx))));
+        SDL_RenderDrawPoint(m_renderer, cx + dx, cy + 5 - dy);
+        SDL_RenderDrawPoint(m_renderer, cx + dx, cy + 4 - dy);
+    }
+    // Upper arc (r = 9)
+    for (int dx = -6; dx <= 6; ++dx) {
+        int dy = static_cast<int>(std::round(std::sqrt(std::max(0.0f, 81.0f - dx * dx))));
+        SDL_RenderDrawPoint(m_renderer, cx + dx, cy + 5 - dy);
+        SDL_RenderDrawPoint(m_renderer, cx + dx, cy + 4 - dy);
+    }
+#else
+    (void)cx; (void)cy; (void)col;
+#endif
+}
+
+void App::drawSearchIcon(int cx, int cy, Color col) {
+#ifdef HAS_SDL2
+    if (!m_renderer) return;
+    drawCircle(cx - 2, cy - 2, 6, col, false);
+    drawCircle(cx - 2, cy - 2, 5, col, false);
+    SDL_SetRenderDrawColor(m_renderer, col.r, col.g, col.b, col.a);
+    SDL_RenderDrawLine(m_renderer, cx + 2, cy + 2, cx + 7, cy + 7);
+    SDL_RenderDrawLine(m_renderer, cx + 3, cy + 2, cx + 8, cy + 7);
+#else
+    (void)cx; (void)cy; (void)col;
 #endif
 }
 
@@ -3654,13 +3777,13 @@ void App::drawGlassCard(int x, int y, int w, int h, bool isFocused, bool isEleva
 #ifdef HAS_SDL2
     if (!m_renderer) return;
     Color bg = isElevated ? Theme::COLOR_BG_ELEVATED : Theme::COLOR_BG_SURFACE;
-    drawRect(x, y, w, h, bg);
+    drawRoundedRect(x, y, w, h, 16, bg);
 
     if (isFocused) {
-        drawRect(x, y, w, h, Theme::COLOR_FOCUS_FILL);
-        drawNeonGradientOutline(x, y, w, h, 2);
+        drawRoundedRect(x, y, w, h, 16, Theme::COLOR_FOCUS_FILL);
+        drawNeonRoundedOutline(x, y, w, h, 16, 2);
     } else {
-        drawRectOutline(x, y, w, h, Theme::COLOR_BORDER, 1);
+        drawRoundedOutline(x, y, w, h, 16, Theme::COLOR_BORDER, Theme::COLOR_BORDER, 1);
     }
 #else
     (void)x; (void)y; (void)w; (void)h; (void)isFocused; (void)isElevated;
@@ -3670,14 +3793,13 @@ void App::drawGlassCard(int x, int y, int w, int h, bool isFocused, bool isEleva
 void App::drawCapsuleProgressBar(int x, int y, int w, int h, double percent) {
 #ifdef HAS_SDL2
     if (!m_renderer) return;
-    // Dark track background
-    drawRect(x, y, w, h, {0x1C, 0x22, 0x30, 0xFF});
-    drawRectOutline(x, y, w, h, {0x2D, 0x37, 0x48, 0xFF}, 1);
+    int r = h / 2;
+    drawRoundedRect(x, y, w, h, r, {0x1C, 0x22, 0x30, 0xFF});
+    drawRoundedOutline(x, y, w, h, r, {0x2D, 0x37, 0x48, 0xFF}, {0x2D, 0x37, 0x48, 0xFF}, 1);
 
-    // Cyan filled portion
     int fillW = static_cast<int>(w * std::clamp(percent / 100.0, 0.0, 1.0));
     if (fillW > 0) {
-        drawRect(x, y, fillW, h, Theme::COLOR_FOCUS_CYAN);
+        drawRoundedRect(x, y, fillW, h, r, Theme::COLOR_FOCUS_CYAN);
     }
 #else
     (void)x; (void)y; (void)w; (void)h; (void)percent;
@@ -3723,6 +3845,38 @@ TTF_Font* App::getFont(int sizePx) {
 #endif
     (void)sizePx;
     return nullptr;
+}
+
+int App::measureTextWidth(const std::string& text, int sizePx) {
+    if (text.empty()) return 0;
+#ifdef HAS_SDL2
+    TTF_Font* font = getFont(sizePx);
+    if (font) {
+        int w = 0, h = 0;
+        if (TTF_SizeUTF8(font, text.c_str(), &w, &h) == 0) {
+            return w;
+        }
+    }
+#endif
+    int codepoints = 0;
+    for (unsigned char c : text) {
+        if ((c & 0xC0) != 0x80) codepoints++;
+    }
+    return codepoints * (sizePx / 2 + 1);
+}
+
+void App::drawTextCentered(const std::string& text, int cx, int y, Color color, int sizePx, int maxWidth) {
+    if (text.empty()) return;
+    int w = measureTextWidth(text, sizePx);
+    if (maxWidth > 0 && w > maxWidth) w = maxWidth;
+    drawText(text, cx - w / 2, y, color, sizePx, maxWidth);
+}
+
+void App::drawTextRight(const std::string& text, int rightX, int y, Color color, int sizePx, int maxWidth) {
+    if (text.empty()) return;
+    int w = measureTextWidth(text, sizePx);
+    if (maxWidth > 0 && w > maxWidth) w = maxWidth;
+    drawText(text, rightX - w, y, color, sizePx, maxWidth);
 }
 
 void App::drawText(const std::string& text, int x, int y, Color color, int sizePx, int maxWidth) {
@@ -3813,7 +3967,7 @@ void App::renderFullscreenPreview() {
         // Status badge: LIVE VIDEO
         drawRect(30, 20, 280, 32, {0x0F, 0x17, 0x2A, 0xDD});
         drawRectOutline(30, 20, 280, 32, Theme::COLOR_SUCCESS, 1);
-        drawText("▶ ЖИВОЙ ВИДЕОФОН (30 FPS)", 45, 28, Theme::COLOR_SUCCESS, 13);
+        drawText("ЖИВОЙ ВИДЕОФОН (30 FPS)", 45, 28, Theme::COLOR_SUCCESS, 13);
     } else if (m_previewTexture) {
         SDL_RenderCopy(m_renderer, m_previewTexture, nullptr, &targetRect);
 
@@ -3822,11 +3976,11 @@ void App::renderFullscreenPreview() {
             drawRectOutline(30, 20, 270, 32, Theme::COLOR_FOCUS_CYAN, 1);
             int dotCount = (SDL_GetTicks() / 350) % 4;
             std::string dots = std::string(dotCount, '.');
-            drawText("▶ Буферизация ролика" + dots, 45, 28, Theme::COLOR_FOCUS_CYAN, 13);
+            drawText("Буферизация ролика" + dots, 45, 28, Theme::COLOR_FOCUS_CYAN, 13);
         } else {
             drawRect(30, 20, 290, 32, {0x0F, 0x17, 0x2A, 0xDD});
             drawRectOutline(30, 20, 290, 32, Theme::COLOR_BORDER, 1);
-            drawText("▶ Предпросмотр (Статичный кадр)", 45, 28, Theme::COLOR_TEXT_MUTED, 13);
+            drawText("Предпросмотр (Статичный кадр)", 45, 28, Theme::COLOR_TEXT_MUTED, 13);
         }
     } else {
         // Fallback canvas with subtle Cyber-Glass animated glow
@@ -3936,13 +4090,13 @@ void App::renderFullscreenPreview() {
         if (isFav) {
             drawRect(hudX + 690, hudY + 14, 195, 38, {0xFF, 0xD7, 0x00, 0x33});
             drawRectOutline(hudX + 690, hudY + 14, 195, 38, {0xFF, 0xD7, 0x00, 0xFF}, 1);
-            drawText("★ В ИЗБРАННОМ", hudX + 710, hudY + 24, {0xFF, 0xD7, 0x00, 0xFF}, 14);
+            drawText("В ИЗБРАННОМ", hudX + 715, hudY + 24, {0xFF, 0xD7, 0x00, 0xFF}, 14);
         }
 
-        drawText("[R3/L] ★ В избранное", hudX + 680, hudY + 71, Theme::COLOR_TEXT_MUTED, 13);
+        drawText("[R3/L] В избранное", hudX + 680, hudY + 71, Theme::COLOR_TEXT_MUTED, 13);
         drawText("[Y] Привязать", hudX + 850, hudY + 71, Theme::COLOR_FOCUS_CYAN, 13);
         if (totalV > 1) {
-            drawText("[◀/▶] Вариант", hudX + 975, hudY + 71, Theme::COLOR_FOCUS_PINK, 13);
+            drawText("[D-Pad] Вариант", hudX + 975, hudY + 71, Theme::COLOR_FOCUS_PINK, 13);
         }
         drawText("[B] Назад", hudX + 1100, hudY + 71, Theme::COLOR_TEXT_MUTED, 13);
     }
@@ -4224,7 +4378,7 @@ void App::renderRecordingsBrowser() {
     drawRect(bx + 35, by + bh - 55, bw - 70, 38, Theme::COLOR_BG_BASE);
     drawRectOutline(bx + 35, by + bh - 55, bw - 70, 38, Theme::COLOR_BORDER, 1);
     if (!m_localRecordings.empty()) {
-        drawText("[▲/▼] Выбор   |   [X] Предпросмотр   |   [A] Установить как видеофон   |   [B] Назад", bx + 55, by + bh - 43, Theme::COLOR_TEXT_MUTED, 13);
+        drawText("[D-Pad] Выбор   |   [X] Предпросмотр   |   [A] Установить как видеофон   |   [B] Назад", bx + 55, by + bh - 43, Theme::COLOR_TEXT_MUTED, 13);
     } else {
         drawText("[B] Назад в меню", bx + 55, by + bh - 43, Theme::COLOR_TEXT_MUTED, 13);
     }
@@ -4396,8 +4550,8 @@ void App::renderGamePicker() {
     // Bottom Help Banner
     drawRect(bx + 35, by + bh - 55, bw - 70, 38, Theme::COLOR_BG_BASE);
     drawRectOutline(bx + 35, by + bh - 55, bw - 70, 38, Theme::COLOR_BORDER, 1);
-    drawText((m_language == Language::Russian ? "[▲/▼] Выбор игры   |   [A] Установить видеофон для этой игры   |   [B] Отмена"
-                                              : "[▲/▼] Select game   |   [A] Install video theme for this game   |   [B] Cancel"),
+    drawText((m_language == Language::Russian ? "[D-Pad] Выбор игры   |   [A] Установить видеофон для этой игры   |   [B] Отмена"
+                                              : "[D-Pad] Select game   |   [A] Install video theme for this game   |   [B] Cancel"),
              bx + 55, by + bh - 43, Theme::COLOR_TEXT_MUTED, 13);
 }
 
@@ -4500,11 +4654,11 @@ void App::renderCollectionBrowser() {
     if (isAD) {
         drawRect(bx + 25, by + 18, 175, 26, {0xEC, 0x48, 0x99, 0x33});
         drawRectOutline(bx + 25, by + 18, 175, 26, Theme::COLOR_FOCUS_PINK, 1);
-        drawText("🌸 AFTER DARK 18+", bx + 35, by + 24, Theme::COLOR_FOCUS_PINK, 12);
+        drawText("AFTER DARK 18+", bx + 35, by + 24, Theme::COLOR_FOCUS_PINK, 12);
     } else {
         drawRect(bx + 25, by + 18, 160, 26, {0x00, 0xF0, 0xFF, 0x33});
         drawRectOutline(bx + 25, by + 18, 160, 26, Theme::COLOR_FOCUS_CYAN, 1);
-        drawText("★ КОЛЛЕКЦИЯ 4IFIR", bx + 35, by + 24, Theme::COLOR_FOCUS_CYAN, 12);
+        drawText("КОЛЛЕКЦИЯ 4IFIR", bx + 35, by + 24, Theme::COLOR_FOCUS_CYAN, 12);
     }
 
     drawText(m_collectionGameName, bx + 215, by + 17, Theme::COLOR_TEXT_PRIMARY, 21, 750);
@@ -4530,7 +4684,7 @@ void App::renderCollectionBrowser() {
     }
 
     if (m_collectionScrollOffset > 0) {
-        drawText("▲ Еще фоны выше (◀ -5)", lx + 200, ly - 14, Theme::COLOR_FOCUS_CYAN, 12);
+        drawText("^ Еще фоны выше (влево: -5)", lx + 200, ly - 14, Theme::COLOR_FOCUS_CYAN, 12);
     }
 
     int cardY = ly;
@@ -4552,7 +4706,7 @@ void App::renderCollectionBrowser() {
 
         // Title line
         bool isFav = isVariantFavorite(m_collectionTitleId, v.id);
-        std::string titleStr = (isFav ? "★ " : "") + std::to_string(i + 1) + ". " + v.name;
+        std::string titleStr = (isFav ? "[*] " : "") + std::to_string(i + 1) + ". " + v.name;
         drawText(titleStr, lx + 16, cardY + 14, isFav ? Color{0xFF, 0xD7, 0x00, 0xFF} : (isSelected ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY), 16, lw - 70);
 
         // Metadata badges
@@ -4603,14 +4757,14 @@ void App::renderCollectionBrowser() {
         drawText(metaLine, bxPos, cardY + 51, Theme::COLOR_TEXT_MUTED, 12, lw - bxPos - 30);
 
         if (isSelected) {
-            drawText("▶", lx + lw - 30, cardY + 33, Theme::COLOR_FOCUS_CYAN, 18);
+            drawText(">", lx + lw - 30, cardY + 33, Theme::COLOR_FOCUS_CYAN, 18);
         }
 
         cardY += cardH + cardGap;
     }
 
     if (endIdx < totalV) {
-        std::string belowStr = "▼ Еще варианты ниже: " + std::to_string(totalV - endIdx) + " шт. (▶ +5)";
+        std::string belowStr = "v Еще варианты ниже: " + std::to_string(totalV - endIdx) + " шт. (вправо: +5)";
         drawText(belowStr, lx + 180, ly + (cardH + cardGap) * visibleCount + 2, Theme::COLOR_FOCUS_PINK, 12);
     }
 
@@ -4635,9 +4789,9 @@ void App::renderCollectionBrowser() {
         SDL_Rect dst{px + 2, py + 2, pw - 4, ph - 4};
         SDL_RenderCopy(m_renderer, m_collectionThumbTexture, nullptr, &dst);
     } else if (m_collectionThumbLoading) {
-        drawText("⏳ Загрузка мини-превью...", px + 140, py + 125, Theme::COLOR_FOCUS_CYAN, 16);
+        drawText("Загрузка мини-превью...", px + 140, py + 125, Theme::COLOR_FOCUS_CYAN, 16);
     } else {
-        drawText("📷 Статическое превью...", px + 145, py + 125, Theme::COLOR_TEXT_MUTED, 15);
+        drawText("Статическое превью...", px + 145, py + 125, Theme::COLOR_TEXT_MUTED, 15);
     }
 
     // Details below preview
@@ -4687,11 +4841,11 @@ void App::renderCollectionBrowser() {
         if (isSelFav) {
             drawRect(b3x, b3y, b3w, b3h, {0xFF, 0xD7, 0x00, 0x33});
             drawRectOutline(b3x, b3y, b3w, b3h, {0xFF, 0xD7, 0x00, 0xFF}, 1);
-            drawText("★ [R3 / L] В ИЗБРАННОМ (Нажмите, чтобы убрать)", b3x + 65, b3y + 10, {0xFF, 0xD7, 0x00, 0xFF}, 13);
+            drawText("[*] [R3 / L] В ИЗБРАННОМ (Нажмите, чтобы убрать)", b3x + 65, b3y + 10, {0xFF, 0xD7, 0x00, 0xFF}, 13);
         } else {
             drawRect(b3x, b3y, b3w, b3h, {0x16, 0x20, 0x32, 0xAA});
             drawRectOutline(b3x, b3y, b3w, b3h, Theme::COLOR_BORDER, 1);
-            drawText("☆ [R3 / L] Добавить вариант в избранное", b3x + 85, b3y + 10, Theme::COLOR_TEXT_MUTED, 13);
+            drawText("[*] [R3 / L] Добавить вариант в избранное", b3x + 85, b3y + 10, Theme::COLOR_TEXT_MUTED, 13);
         }
 
         drawText("Совет: Нажмите [A], чтобы выбрать игру на Switch для этого фона", px, b3y + 42, Theme::COLOR_TEXT_MUTED, 12, pw);
@@ -4701,7 +4855,7 @@ void App::renderCollectionBrowser() {
     int footY = by + bh - 42;
     drawRect(bx + 25, footY, bw - 50, 32, {0x0D, 0x13, 0x1F, 0xDD});
     drawRectOutline(bx + 25, footY, bw - 50, 32, Theme::COLOR_BORDER, 1);
-    drawText("[▲/▼] Список   |   [◀/▶] ±5   |   [A] Назначить   |   [X] Видео   |   [R3/L] ★ В избранное   |   [B] Назад",
+    drawText("[D-Pad] Список   |   [ZL/ZR] ±5   |   [A] Назначить   |   [X] Видео   |   [R3/L] Избранное   |   [B] Назад",
                  bx + 40, footY + 8, Theme::COLOR_TEXT_MUTED, 12);
 #endif
 }
@@ -4810,11 +4964,11 @@ void App::cycleCatalogSortMode() {
     switch (m_catalogSortMode) {
         case CatalogSortMode::Default: modeDesc = "Сортировка: По умолчанию"; break;
         case CatalogSortMode::Alphabetical: modeDesc = "Сортировка: По алфавиту (А-Я)"; break;
-        case CatalogSortMode::VariantsCount: modeDesc = "Сортировка: По кол-ву фонов (▼)"; break;
+        case CatalogSortMode::VariantsCount: modeDesc = "Сортировка: По кол-ву фонов (v)"; break;
         case CatalogSortMode::AudioOnly: modeDesc = "Фильтр: Только со звуком [ЗВУК]"; break;
         case CatalogSortMode::IconsOnly: modeDesc = "Фильтр: Только с видеоиконками [ИКОНКА]"; break;
         case CatalogSortMode::InstalledOnly: modeDesc = "Фильтр: Только установленные игры"; break;
-        case CatalogSortMode::FavoritesOnly: modeDesc = "Фильтр: ★ Только избранное"; break;
+        case CatalogSortMode::FavoritesOnly: modeDesc = "Фильтр: [*] Только избранное"; break;
     }
     m_statusNotification = modeDesc;
     m_notificationFramesRemaining = 120;
@@ -4937,7 +5091,7 @@ void App::toggleFavoriteVariant(const std::string& titleId, const Variant& varia
         m_statusNotification = "Удалено из избранного: " + variant.name;
     } else {
         m_favoriteKeys.insert(key);
-        m_statusNotification = "★ Добавлено в избранное: " + variant.name;
+        m_statusNotification = "Добавлено в избранное: " + variant.name;
     }
     m_notificationFramesRemaining = 90;
     saveFavorites();
@@ -5068,7 +5222,7 @@ void App::toggleBatchSelection(const std::string& titleId) {
         m_statusNotification = "Снято выделение с игры";
     } else {
         m_batchSelectedTitleIds.insert(titleId);
-        m_statusNotification = "✓ Игра выбрана (Всего: " + std::to_string(m_batchSelectedTitleIds.size()) + " шт.)";
+        m_statusNotification = "Игра выбрана (Всего: " + std::to_string(m_batchSelectedTitleIds.size()) + " шт.)";
     }
     m_notificationFramesRemaining = 90;
 }
@@ -5709,20 +5863,20 @@ void App::drawCircle(int cx, int cy, int r, Color col, bool fill) {
 void App::drawButtonBadge(int x, int y, const std::string& key, const std::string& label, Color badgeCol) {
 #ifdef HAS_SDL2
     if (!m_renderer) return;
-    int r = 10;
-    int circleCx = x + 10;
-    int circleCy = y + 10;
+    int r = 11;
+    int circleCx = x + 11;
+    int circleCy = y + 11;
 
     // Dark circular badge plate
     drawCircle(circleCx, circleCy, r, {0x18, 0x22, 0x34, 0xFF}, true);
     drawCircle(circleCx, circleCy, r, badgeCol, false);
 
-    // Centered button letter (+, -, A, B, X, Y)
-    int keyX = (key.length() == 1) ? (circleCx - 4) : (circleCx - 7);
-    drawText(key, keyX, circleCy - 7, badgeCol, 12);
+    // Centered button letter
+    int kw = measureTextWidth(key, 12);
+    drawText(key, circleCx - kw / 2, circleCy - 7, badgeCol, 12);
 
     // Label text
-    drawText(label, circleCx + r + 7, y + 2, Theme::COLOR_TEXT_PRIMARY, 13);
+    drawText(label, circleCx + r + 8, y + 2, Theme::COLOR_TEXT_PRIMARY, 13);
 #else
     (void)x; (void)y; (void)key; (void)label; (void)badgeCol;
 #endif
@@ -5734,60 +5888,60 @@ void App::drawTileIconVector(int cx, int cy, int tileIdx, bool isFocused) {
     Color accent = isFocused ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY;
 
     if (tileIdx == 0) { // Каталог: 4IFIR Cartridge + Storefront (Cyan & Magenta)
-        drawRect(cx - 36, cy - 22, 24, 38, {0x13, 0x1B, 0x2E, 0xFF});
-        drawRectOutline(cx - 36, cy - 22, 24, 38, Theme::COLOR_FOCUS_CYAN, 1);
-        drawRect(cx - 34, cy - 20, 20, 7, Theme::COLOR_FOCUS_PINK); // 4IFIR Magenta label
-        drawRect(cx - 34, cy - 10, 20, 20, {0x0B, 0x10, 0x1B, 0xFF});
+        drawRoundedRect(cx - 38, cy - 24, 26, 40, 4, {0x13, 0x1B, 0x2E, 0xFF});
+        drawRoundedOutline(cx - 38, cy - 24, 26, 40, 4, Theme::COLOR_FOCUS_CYAN, Theme::COLOR_FOCUS_CYAN, 1);
+        drawRoundedRect(cx - 36, cy - 22, 22, 8, 2, Theme::COLOR_FOCUS_PINK);
+        drawRoundedRect(cx - 36, cy - 11, 22, 22, 2, {0x0B, 0x10, 0x1B, 0xFF});
 
-        drawRect(cx - 4, cy - 14, 40, 30, {0x13, 0x1B, 0x2E, 0xFF});
-        drawRectOutline(cx - 4, cy - 14, 40, 30, accent, 1);
-        drawRect(cx - 6, cy - 20, 44, 7, Theme::COLOR_FOCUS_CYAN);
+        drawRoundedRect(cx - 6, cy - 14, 44, 32, 4, {0x13, 0x1B, 0x2E, 0xFF});
+        drawRoundedOutline(cx - 6, cy - 14, 44, 32, 4, accent, accent, 1);
+        drawRoundedRect(cx - 8, cy - 21, 48, 8, 3, Theme::COLOR_FOCUS_CYAN);
         for (int s = 0; s < 4; ++s) {
-            drawRect(cx - 4 + s * 11, cy - 20, 5, 7, Theme::COLOR_FOCUS_PINK);
+            drawRoundedRect(cx - 6 + s * 12, cy - 21, 6, 8, 2, Theme::COLOR_FOCUS_PINK);
         }
-        drawRect(cx + 4, cy - 3, 10, 19, {0x00, 0xD2, 0xFF, 0x55});
-        drawRect(cx + 20, cy - 3, 12, 12, {0xEC, 0x48, 0x99, 0x66});
+        drawRoundedRect(cx + 2, cy - 3, 12, 20, 2, {0x00, 0xD2, 0xFF, 0x55});
+        drawRoundedRect(cx + 20, cy - 3, 14, 14, 2, {0xEC, 0x48, 0x99, 0x66});
     } else if (tileIdx == 1) { // Видеоиконки: 4IFIR 1:1 Animated Square Frame
-        drawRect(cx - 32, cy - 30, 64, 60, {0x11, 0x18, 0x27, 0xFF});
-        drawNeonGradientOutline(cx - 32, cy - 30, 64, 60, 2);
+        drawRoundedRect(cx - 34, cy - 32, 68, 64, 14, {0x11, 0x18, 0x27, 0xFF});
+        drawNeonRoundedOutline(cx - 34, cy - 32, 68, 64, 14, 2);
         // Play triangle in Electric Cyan
         for (int row = -10; row <= 10; ++row) {
-            int w = 14 - std::abs(row);
+            int w = 15 - std::abs(row);
             drawRect(cx - 5, cy - 4 + row, w, 1, Theme::COLOR_FOCUS_CYAN);
         }
-        drawRect(cx - 24, cy + 12, 48, 12, Theme::COLOR_FOCUS_PINK);
-        drawText("256x256", cx - 20, cy + 13, Theme::COLOR_TEXT_PRIMARY, 9);
+        drawRoundedRect(cx - 26, cy + 12, 52, 14, 4, Theme::COLOR_FOCUS_PINK);
+        drawTextCentered("256x256", cx, cy + 13, Theme::COLOR_TEXT_PRIMARY, 9);
     } else if (tileIdx == 2) { // Менеджер игр: 4IFIR Case labeled "MY GAMES"
-        drawRect(cx - 30, cy - 14, 60, 40, {0x13, 0x1B, 0x2E, 0xFF});
-        drawRectOutline(cx - 30, cy - 14, 60, 40, accent, 1);
-        drawRect(cx - 22, cy - 25, 18, 14, Theme::COLOR_FOCUS_PINK);
-        drawRect(cx - 1, cy - 27, 18, 16, Theme::COLOR_FOCUS_CYAN);
-        drawRect(cx + 12, cy - 24, 14, 13, {0xA8, 0x55, 0xF7, 0xFF});
-        drawRect(cx - 20, cy + 6, 40, 12, {0x09, 0x0D, 0x16, 0xEE});
-        drawRectOutline(cx - 20, cy + 6, 40, 12, Theme::COLOR_FOCUS_CYAN, 1);
-        drawText("MY GAMES", cx - 18, cy + 8, Theme::COLOR_FOCUS_CYAN, 10);
+        drawRoundedRect(cx - 34, cy - 16, 68, 44, 8, {0x13, 0x1B, 0x2E, 0xFF});
+        drawRoundedOutline(cx - 34, cy - 16, 68, 44, 8, accent, accent, 1);
+        drawRoundedRect(cx - 24, cy - 27, 20, 14, 3, Theme::COLOR_FOCUS_PINK);
+        drawRoundedRect(cx - 2, cy - 29, 20, 16, 3, Theme::COLOR_FOCUS_CYAN);
+        drawRoundedRect(cx + 12, cy - 26, 16, 13, 3, {0xA8, 0x55, 0xF7, 0xFF});
+        drawRoundedRect(cx - 34, cy + 5, 68, 16, 4, {0x09, 0x0D, 0x16, 0xEE});
+        drawRoundedOutline(cx - 34, cy + 5, 68, 16, 4, Theme::COLOR_FOCUS_CYAN, Theme::COLOR_FOCUS_CYAN, 1);
+        drawTextCentered("MY GAMES", cx, cy + 7, Theme::COLOR_FOCUS_CYAN, 10);
     } else if (tileIdx == 3) { // Загрузки: 4IFIR Switch Console (Cyan & Magenta Joy-Cons)
-        drawRect(cx - 36, cy - 14, 10, 36, Theme::COLOR_FOCUS_CYAN);
-        drawCircle(cx - 31, cy - 4, 3, {0x09, 0x0D, 0x16, 0xFF}, true);
-        drawRect(cx - 24, cy - 16, 48, 40, {0x0B, 0x10, 0x1B, 0xFF});
-        drawRectOutline(cx - 24, cy - 16, 48, 40, Theme::COLOR_FOCUS_CYAN, 1);
-        drawRect(cx + 26, cy - 14, 10, 36, Theme::COLOR_FOCUS_PINK);
-        drawCircle(cx + 31, cy + 8, 3, {0x09, 0x0D, 0x16, 0xFF}, true);
+        drawRoundedRect(cx - 40, cy - 15, 12, 40, 5, Theme::COLOR_FOCUS_CYAN);
+        drawCircle(cx - 34, cy - 5, 3, {0x09, 0x0D, 0x16, 0xFF}, true);
+        drawRoundedRect(cx - 26, cy - 17, 52, 44, 4, {0x0B, 0x10, 0x1B, 0xFF});
+        drawRoundedOutline(cx - 26, cy - 17, 52, 44, 4, Theme::COLOR_FOCUS_CYAN, Theme::COLOR_FOCUS_CYAN, 1);
+        drawRoundedRect(cx + 28, cy - 15, 12, 40, 5, Theme::COLOR_FOCUS_PINK);
+        drawCircle(cx + 34, cy + 7, 3, {0x09, 0x0D, 0x16, 0xFF}, true);
 
         // Download Arrow pointing into screen
-        drawRect(cx - 4, cy - 28, 8, 22, Theme::COLOR_FOCUS_CYAN);
+        drawRect(cx - 4, cy - 29, 8, 22, Theme::COLOR_FOCUS_CYAN);
         for (int row = 0; row < 10; ++row) {
-            drawRect(cx - row, cy - 6 + row, 2 * row + 1, 1, Theme::COLOR_FOCUS_CYAN);
+            drawRect(cx - row, cy - 7 + row, 2 * row + 1, 1, Theme::COLOR_FOCUS_CYAN);
         }
     } else if (tileIdx == 4) { // Настройки: Cyber Cogwheel Gear (Screenshot 1)
-        int rOut = 24;
-        int rIn = 11;
+        int rOut = 26;
+        int rIn = 12;
         // Gear teeth (8 teeth)
         for (int i = 0; i < 8; ++i) {
             double angle = i * (3.14159265 / 4.0);
-            int tx = cx + static_cast<int>(std::cos(angle) * 20);
-            int ty = cy + static_cast<int>(std::sin(angle) * 20);
-            drawRect(tx - 4, ty - 4, 8, 8, accent);
+            int tx = cx + static_cast<int>(std::cos(angle) * 22);
+            int ty = cy + static_cast<int>(std::sin(angle) * 22);
+            drawRoundedRect(tx - 4, ty - 4, 8, 8, 2, accent);
         }
         // Central hub
         drawCircle(cx, cy, rOut, {0x26, 0x30, 0x44, 0xFF}, true);
@@ -5925,24 +6079,25 @@ void App::drawDashboardTile(int x, int y, int w, int h, int tileIdx, const std::
     if (!m_renderer) return;
 
     Color bg = isFocused ? Theme::COLOR_BG_ELEVATED : Theme::COLOR_BG_TILE;
-    drawRect(x, y, w, h, bg);
+    drawRoundedRect(x, y, w, h, 24, bg);
 
     if (isFocused) {
-        drawRect(x, y, w, h, Theme::COLOR_FOCUS_FILL);
-        drawNeonGradientOutline(x, y, w, h, 2);
+        drawRoundedRect(x, y, w, h, 24, Theme::COLOR_FOCUS_FILL);
+        drawNeonRoundedOutline(x, y, w, h, 24, 3);
     } else {
-        drawRectOutline(x, y, w, h, Theme::COLOR_BORDER, 1);
+        drawRoundedOutline(x, y, w, h, 24, Theme::COLOR_BORDER, Theme::COLOR_BORDER, 1);
     }
 
-    // Centered vector icon in upper area of tile (matching Screenshot 1)
+    // Subtle top gloss highlight
+    drawRoundedRect(x + 18, y + 2, w - 36, 2, 1, {0xFF, 0xFF, 0xFF, 0x1A});
+
+    // Centered vector icon in upper area of tile
     int iconCx = x + w / 2;
     int iconCy = y + 72;
     drawTileIconVector(iconCx, iconCy, tileIdx, isFocused);
 
-    // Centered Title underneath (clean typography, no clutter)
-    int textLen = static_cast<int>(title.length()) * 8; // approx width estimation
-    int titleX = std::max(x + 10, x + (w - textLen) / 2);
-    drawText(title, titleX, y + h - 36, isFocused ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 16);
+    // Centered Title underneath (measured pixel width, never overflows or shifts!)
+    drawTextCentered(title, x + w / 2, y + h - 36, isFocused ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 16);
 #else
     (void)x; (void)y; (void)w; (void)h; (void)tileIdx; (void)title; (void)sub; (void)isFocused;
 #endif
@@ -5952,22 +6107,22 @@ void App::drawSummaryCard(int x, int y, int w, int h, const std::string& header,
 #ifdef HAS_SDL2
     if (!m_renderer) return;
 
-    drawRect(x, y, w, h, Theme::COLOR_BG_SURFACE);
-    drawRectOutline(x, y, w, h, Theme::COLOR_BORDER, 1);
+    drawRoundedRect(x, y, w, h, 16, Theme::COLOR_BG_SURFACE);
+    drawRoundedOutline(x, y, w, h, 16, Theme::COLOR_BORDER, Theme::COLOR_BORDER, 1);
 
-    drawRect(x + 16, y + 18, 3, 16, Theme::COLOR_FOCUS_CYAN);
+    drawRoundedRect(x + 16, y + 18, 3, 16, 2, Theme::COLOR_FOCUS_CYAN);
     drawText(header, x + 26, y + 16, Theme::COLOR_TEXT_MUTED, 13);
 
     drawText(line1, x + 20, y + 54, Theme::COLOR_TEXT_PRIMARY, 20);
     drawText(line2, x + 20, y + 92, Theme::COLOR_TEXT_MUTED, 13);
 
     if (!badgeText.empty()) {
-        int badgeW = static_cast<int>(badgeText.length()) * 8 + 18;
+        int badgeW = measureTextWidth(badgeText, 11) + 20;
         int badgeX = x + w - badgeW - 18;
         int badgeY = y + 16;
-        drawRect(badgeX, badgeY, badgeW, 24, Theme::COLOR_FOCUS_FILL);
-        drawRectOutline(badgeX, badgeY, badgeW, 24, Theme::COLOR_FOCUS_CYAN, 1);
-        drawText(badgeText, badgeX + 9, badgeY + 4, Theme::COLOR_FOCUS_CYAN, 11);
+        drawRoundedRect(badgeX, badgeY, badgeW, 24, 6, Theme::COLOR_FOCUS_FILL);
+        drawRoundedOutline(badgeX, badgeY, badgeW, 24, 6, Theme::COLOR_FOCUS_CYAN, Theme::COLOR_FOCUS_CYAN, 1);
+        drawTextCentered(badgeText, badgeX + badgeW / 2, badgeY + 4, Theme::COLOR_FOCUS_CYAN, 11);
     }
 #else
     (void)x; (void)y; (void)w; (void)h; (void)header; (void)line1; (void)line2; (void)badgeText;
@@ -5979,23 +6134,23 @@ void App::drawCategoryCard(int x, int y, int w, int h, const std::string& iconTy
     if (!m_renderer) return;
 
     Color bg = isFocused ? Theme::COLOR_BG_ELEVATED : Theme::COLOR_BG_SURFACE;
-    drawRect(x, y, w, h, bg);
+    drawRoundedRect(x, y, w, h, 14, bg);
 
     if (isFocused) {
-        drawRect(x, y, w, h, Theme::COLOR_FOCUS_FILL);
-        drawNeonGradientOutline(x, y, w, h, 2);
+        drawRoundedRect(x, y, w, h, 14, Theme::COLOR_FOCUS_FILL);
+        drawNeonRoundedOutline(x, y, w, h, 14, 2);
     } else {
-        drawRectOutline(x, y, w, h, Theme::COLOR_BORDER, 1);
+        drawRoundedOutline(x, y, w, h, 14, Theme::COLOR_BORDER, Theme::COLOR_BORDER, 1);
     }
 
     // Left Emblem Container (52x52 rounded box)
     int emSize = 52;
     int emX = x + 12;
     int emY = y + (h - emSize) / 2;
-    drawRect(emX, emY, emSize, emSize, {0x14, 0x1A, 0x28, 0xFF});
-    drawRectOutline(emX, emY, emSize, emSize, accentCol, 1);
+    drawRoundedRect(emX, emY, emSize, emSize, 12, {0x14, 0x1A, 0x28, 0xFF});
+    drawRoundedOutline(emX, emY, emSize, emSize, 12, accentCol, accentCol, 1);
 
-    // Vector Emblem inside container (TorrentShopNX style)
+    // Vector Emblem inside container
     int emCx = emX + emSize / 2;
     int emCy = emY + emSize / 2;
     drawCategoryEmblem(emCx, emCy, iconType, accentCol);
@@ -6006,12 +6161,12 @@ void App::drawCategoryCard(int x, int y, int w, int h, const std::string& iconTy
     drawText(desc, textX, y + 36, Theme::COLOR_TEXT_MUTED, 12, w - (textX - x) - 10);
 
     // Count Pill
-    int badgeW = static_cast<int>(countText.length()) * 8 + 16;
+    int badgeW = measureTextWidth(countText, 11) + 18;
     int badgeX = textX;
     int badgeY = y + 62;
-    drawRect(badgeX, badgeY, badgeW, 22, Theme::COLOR_FOCUS_FILL);
-    drawRectOutline(badgeX, badgeY, badgeW, 22, accentCol, 1);
-    drawText(countText, badgeX + 8, badgeY + 3, accentCol, 11);
+    drawRoundedRect(badgeX, badgeY, badgeW, 22, 6, Theme::COLOR_FOCUS_FILL);
+    drawRoundedOutline(badgeX, badgeY, badgeW, 22, 6, accentCol, accentCol, 1);
+    drawTextCentered(countText, badgeX + badgeW / 2, badgeY + 3, accentCol, 11);
 #else
     (void)x; (void)y; (void)w; (void)h; (void)iconType; (void)title; (void)desc; (void)countText; (void)isFocused; (void)accentCol;
 #endif
@@ -6021,11 +6176,11 @@ void App::drawPillButton(int x, int y, int w, int h, const std::string& text, bo
 #ifdef HAS_SDL2
     if (!m_renderer) return;
     Color bg = isFocused ? Theme::COLOR_FOCUS_FILL : Theme::COLOR_PILL_BG;
-    drawRect(x, y, w, h, bg);
+    drawRoundedRect(x, y, w, h, 10, bg);
     if (isFocused) {
-        drawNeonGradientOutline(x, y, w, h, 2);
+        drawNeonRoundedOutline(x, y, w, h, 10, 2);
     } else {
-        drawRectOutline(x, y, w, h, Theme::COLOR_BORDER, 1);
+        drawRoundedOutline(x, y, w, h, 10, Theme::COLOR_BORDER, Theme::COLOR_BORDER, 1);
     }
     drawText(text, x + 12, y + (h - 14) / 2, textCol, 13);
 #else

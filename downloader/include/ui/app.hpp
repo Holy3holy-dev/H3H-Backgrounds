@@ -186,13 +186,21 @@ public:
     void drawRect(int x, int y, int w, int h, Color color);
     void drawRectOutline(int x, int y, int w, int h, Color color, int thickness = 2);
     void drawNeonGradientOutline(int x, int y, int w, int h, int thickness = 2);
+    void drawRoundedRect(int x, int y, int w, int h, int radius, Color color);
+    void drawRoundedOutline(int x, int y, int w, int h, int radius, Color topColor, Color bottomColor, int thickness = 2);
+    void drawNeonRoundedOutline(int x, int y, int w, int h, int radius, int thickness = 2);
     void drawCircle(int cx, int cy, int r, Color col, bool fill = true);
+    void drawWifiIcon(int cx, int cy, Color col);
+    void drawSearchIcon(int cx, int cy, Color col);
     void drawGlassCard(int x, int y, int w, int h, bool isFocused, bool isElevated = false);
     void drawCapsuleProgressBar(int x, int y, int w, int h, double percent);
     void drawButtonBadge(int x, int y, const std::string& key, const std::string& label, Color badgeCol = Theme::COLOR_TEXT_PRIMARY);
     void drawTileIconVector(int cx, int cy, int tileIdx, bool isFocused);
     void drawCategoryEmblem(int cx, int cy, const std::string& iconType, Color col);
+    int measureTextWidth(const std::string& text, int sizePx = 16);
     void drawText(const std::string& text, int x, int y, Color color, int sizePx = 16, int maxWidth = 0);
+    void drawTextCentered(const std::string& text, int cx, int y, Color color, int sizePx = 16, int maxWidth = 0);
+    void drawTextRight(const std::string& text, int rightX, int y, Color color, int sizePx = 16, int maxWidth = 0);
     void drawBitmapTextFallback(const std::string& text, int x, int y, Color color);
     TTF_Font* getFont(int sizePx);
 
