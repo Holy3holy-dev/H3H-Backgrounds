@@ -82,6 +82,49 @@ static std::string utf8ToLower(const std::string& s) {
 App::App(std::unique_ptr<IPlatform> platform)
     : m_platform(std::move(platform)) {}
 
+void App::loadTabIcons() {
+#ifdef HAS_SDL2
+    if (!m_renderer) return;
+    const char* names[5] = {
+        "tab_catalog.png",
+        "tab_video_icons.png",
+        "tab_my_games.png",
+        "tab_downloads.png",
+        "tab_settings.png"
+    };
+
+    const char* prefixes[] = {
+        "romfs:/icons/",
+        "downloader/romfs/icons/",
+        "sdmc:/switch/H3H-Backgrounds/icons/",
+        "sdmc:/switch/H3H-AfterDark/icons/"
+    };
+
+    for (int i = 0; i < 5; ++i) {
+        if (m_tabIconTextures[i]) continue;
+        for (const char* pfx : prefixes) {
+            std::string fullPath = std::string(pfx) + names[i];
+            SDL_Texture* tex = loadTextureFromFile(m_renderer, fullPath);
+            if (tex) {
+                m_tabIconTextures[i] = tex;
+                break;
+            }
+        }
+    }
+#endif
+}
+
+void App::freeTabIcons() {
+#ifdef HAS_SDL2
+    for (int i = 0; i < 5; ++i) {
+        if (m_tabIconTextures[i]) {
+            SDL_DestroyTexture(m_tabIconTextures[i]);
+            m_tabIconTextures[i] = nullptr;
+        }
+    }
+#endif
+}
+
 App::~App() {
     shutdown();
 }
@@ -177,6 +220,8 @@ bool App::init() {
         return false;
     }
 
+    loadTabIcons();
+
     SDL_RenderSetLogicalSize(m_renderer, Theme::SCREEN_WIDTH, Theme::SCREEN_HEIGHT);
 
     // Enable high-quality alpha blending for 4IFIR frosted glass effects
@@ -250,6 +295,7 @@ void App::shutdown() {
     }
 
 #ifdef HAS_SDL2
+    freeTabIcons();
     if (m_collectionThumbTexture) {
         SDL_DestroyTexture(m_collectionThumbTexture);
         m_collectionThumbTexture = nullptr;
@@ -613,6 +659,41 @@ void App::updateApplicationNro() {
 
 void App::update() {
 #ifdef HAS_SDL2
+    uint32_t currentTicks = SDL_GetTicks();
+    float timeMs = static_cast<float>(currentTicks);
+
+    // 1. Smooth 60 FPS spring-lerp tile scale for Home Dashboard
+    for (int i = 0; i < 5; ++i) {
+        float targetScale = (m_homeFocusedTile == i) ? 1.055f : 1.0f;
+        m_tileAnimScale[i] += (targetScale - m_tileAnimScale[i]) * 0.22f;
+    }
+
+    // 2. Continuous idle animation parameters
+    m_gearAngle += 0.025f;
+    if (m_gearAngle > 6.2831853f) m_gearAngle -= 6.2831853f;
+
+    m_downloadArrowBob = std::sin(timeMs * 0.006f) * 3.5f;
+
+    // 3. Header Equalizer bars animation (smooth audio wave visualizer)
+    m_equalizerHeights[0] = 16.0f + 6.0f * std::sin(timeMs * 0.005f);
+    m_equalizerHeights[1] = 22.0f + 8.0f * std::sin(timeMs * 0.007f + 1.2f);
+    m_equalizerHeights[2] = 14.0f + 5.0f * std::sin(timeMs * 0.006f + 2.4f);
+
+    // 4. Subtle cyber-glow breathing pulse
+    m_glowPulse = 0.82f + 0.18f * std::sin(timeMs * 0.005f);
+
+    // 5. Button click bounce decay
+    if (m_buttonPressAnim > 0.01f) {
+        m_buttonPressAnim *= 0.78f;
+    } else {
+        m_buttonPressAnim = 0.0f;
+    }
+
+    // 6. Smooth tab transition alpha fade-in
+    if (m_tabTransitionAlpha < 255.0f) {
+        m_tabTransitionAlpha = std::min(255.0f, m_tabTransitionAlpha + 24.0f);
+    }
+
     std::string previewPath;
     std::string vidPath;
     {
@@ -1357,6 +1438,7 @@ void App::handleInput() {
 }
 
 void App::onButtonPress(int button) {
+    m_buttonPressAnim = 1.0f;
     // Collection Browser Modal Handler (Browse variants by name with static mini-previews)
     if (m_isCollectionBrowserOpen && m_activeDialog == DialogType::None && !m_isFullscreenPreview && !m_isGamePickerOpen) {
         if (SDL_GetTicks() - m_collectionOpenedAt < 150) {
@@ -1861,10 +1943,6 @@ void App::onButtonPress(int button) {
 
     // Standard Nintendo Switch [B] button
     if (button == 1 /* B - Back */) {
-        if (m_activeTab == Tab::Catalog && m_catalogViewMode == CatalogViewMode::GameGrid) {
-            m_catalogViewMode = CatalogViewMode::Categories;
-            return;
-        }
         if (m_activeTab == Tab::MyGames && m_myGamesActivePane == MyGamesPane::VariantsList) {
             m_myGamesActivePane = MyGamesPane::GamesList;
             return;
@@ -2167,124 +2245,117 @@ void App::onButtonPress(int button) {
             }
         }
     } else if (m_activeTab == Tab::Catalog) {
-        if (m_catalogViewMode == CatalogViewMode::Categories) {
-            if (button == 1 /* B - Back to Home */) {
-                m_activeTab = Tab::Home;
-                return;
-            }
-            // Category navigation: 2 options only: 0 = Весь каталог, 1 = Избранное
-            if (button == 13 /* DPAD_LEFT */ || button == 11 /* DPAD_UP */) {
-                m_categorySelectedIndex = 0;
-                return;
-            }
-            if (button == 14 /* DPAD_RIGHT */ || button == 12 /* DPAD_DOWN */) {
-                m_categorySelectedIndex = 1;
-                return;
-            }
-            if (button == 0 /* A - Open category */) {
-                if (m_categorySelectedIndex == 0) {
-                    m_activeCategoryName = "Весь каталог";
-                    m_catalogSortMode = CatalogSortMode::Default;
-                } else {
-                    m_activeCategoryName = "Избранное";
-                    m_catalogSortMode = CatalogSortMode::FavoritesOnly;
-                }
-                m_catalogViewMode = CatalogViewMode::GameGrid;
-                m_catalogSelectedIndex = 0;
-                m_catalogScrollOffset = 0;
-                rebuildCatalogFilter();
-                return;
-            }
-            if (button == 2 /* X - Full List */) {
-                m_activeCategoryName = "Весь каталог";
+        int totalGames = static_cast<int>(m_filteredCatalogGames.size());
+
+        // [B] - Back to Home dashboard
+        if (button == 1 /* B */) {
+            m_activeTab = Tab::Home;
+            return;
+        }
+
+        // [L] - Switch to "Весь каталог" tab
+        if (button == 7 /* L */) {
+            if (m_catalogSortMode == CatalogSortMode::FavoritesOnly) {
                 m_catalogSortMode = CatalogSortMode::Default;
-                m_catalogViewMode = CatalogViewMode::GameGrid;
+                m_activeCategoryName = "Весь каталог";
                 m_catalogSelectedIndex = 0;
                 m_catalogScrollOffset = 0;
                 rebuildCatalogFilter();
-                return;
-            }
-            if (button == 3 /* Y - Search keyboard */) {
-                openCatalogKeyboard();
-                if (!m_catalogSearchQuery.empty()) {
-                    m_activeCategoryName = "Поиск: " + m_catalogSearchQuery;
-                    m_catalogViewMode = CatalogViewMode::GameGrid;
-                    m_catalogSelectedIndex = 0;
-                    m_catalogScrollOffset = 0;
-                    rebuildCatalogFilter();
-                }
-                return;
-            }
-            if (button == 4 /* MINUS - Refresh */) {
-                fetchRemoteCatalog();
-                return;
+                m_statusNotification = "Каталог: Весь каталог";
+                m_notificationFramesRemaining = 90;
             }
             return;
         }
 
-        int totalGames = static_cast<int>(m_filteredCatalogGames.size());
-        if (button == 1 /* B - Back to Categories */) {
-            m_catalogViewMode = CatalogViewMode::Categories;
-            return;
-        } else if (button == 7 /* L3 */ || button == 8 /* R3 - Toggle Batch Selection */) {
-            if (m_catalogSelectedIndex >= 0 && m_catalogSelectedIndex < totalGames) {
-                toggleBatchSelection(m_filteredCatalogGames[m_catalogSelectedIndex].titleId);
-            }
-            return;
-        } else if (button == 11 /* DPAD_UP */) {
-            if (m_catalogSelectedIndex > 0) m_catalogSelectedIndex--;
-        } else if (button == 12 /* DPAD_DOWN */) {
-            if (m_catalogSelectedIndex + 1 < totalGames) m_catalogSelectedIndex++;
-        } else if (button == 13 /* DPAD_LEFT - Page Up 5 */) {
-            m_catalogSelectedIndex = std::max(0, m_catalogSelectedIndex - 5);
-        } else if (button == 14 /* DPAD_RIGHT - Page Down 5 */) {
-            if (totalGames > 0) m_catalogSelectedIndex = std::min(totalGames - 1, m_catalogSelectedIndex + 5);
-        } else if (button == 15 /* ZL - Batch Install or Fast Scroll Up 15 */) {
-            if (!m_batchSelectedTitleIds.empty()) {
-                installBatchSelected();
-            } else {
-                m_catalogSelectedIndex = std::max(0, m_catalogSelectedIndex - 15);
-            }
-            return;
-        } else if (button == 16 /* ZR - Fast Scroll Down 15 */) {
-            if (totalGames > 0) {
-                m_catalogSelectedIndex = std::min(totalGames - 1, m_catalogSelectedIndex + 15);
-            }
-            return;
-        } else if (button == 0 /* A - Enter Collection Browser */) {
-            if (m_catalogSelectedIndex >= 0 && m_catalogSelectedIndex < totalGames) {
-                const auto& entry = m_filteredCatalogGames[m_catalogSelectedIndex];
-                openCollectionBrowser(entry);
-            }
-        } else if (button == 7 /* L */ || button == 8 /* R */ || button == 2 /* X - Toggle Tabs */) {
-            if (m_catalogSortMode == CatalogSortMode::FavoritesOnly) {
-                m_catalogSortMode = CatalogSortMode::Default;
-                m_activeCategoryName = "Весь каталог";
-                m_statusNotification = "Каталог: Весь каталог";
-            } else {
+        // [R] - Switch to "Избранное" tab
+        if (button == 8 /* R */) {
+            if (m_catalogSortMode != CatalogSortMode::FavoritesOnly) {
                 m_catalogSortMode = CatalogSortMode::FavoritesOnly;
                 m_activeCategoryName = "Избранное";
-                m_statusNotification = "Каталог: Избранное";
-            }
-            m_catalogSelectedIndex = 0;
-            m_catalogScrollOffset = 0;
-            m_notificationFramesRemaining = 90;
-            rebuildCatalogFilter();
-            return;
-        } else if (button == 3 /* Y - Open Horizon Software Keyboard (Search) */) {
-            openCatalogKeyboard();
-        } else if (button == 4 /* MINUS - Clear Selection or Search or Refresh */) {
-            if (!m_batchSelectedTitleIds.empty()) {
-                clearBatchSelection();
-            } else if (!m_catalogSearchQuery.empty()) {
-                m_catalogSearchQuery.clear();
+                m_catalogSelectedIndex = 0;
+                m_catalogScrollOffset = 0;
                 rebuildCatalogFilter();
-                m_statusNotification = (m_language == Language::Russian) ? "Поиск сброшен (показаны все игры)" : "Search cleared";
+                m_statusNotification = "Каталог: Избранное";
                 m_notificationFramesRemaining = 90;
+            }
+            return;
+        }
+
+        // [X] - Cycle Sort Mode
+        if (button == 2 /* X */) {
+            cycleCatalogSortMode();
+            return;
+        }
+
+        // [Y] - Open Horizon Software Keyboard for Search
+        if (button == 3 /* Y */) {
+            openCatalogKeyboard();
+            return;
+        }
+
+        // [-] (Minus) - Toggle Favorite for selected game
+        if (button == 4 /* MINUS */) {
+            if (totalGames > 0 && m_catalogSelectedIndex >= 0 && m_catalogSelectedIndex < totalGames) {
+                const auto& curGame = m_filteredCatalogGames[m_catalogSelectedIndex];
+                if (!curGame.variants.empty()) {
+                    bool wasFav = hasGameFavorites(curGame.titleId);
+                    if (wasFav) {
+                        for (const auto& v : curGame.variants) {
+                            m_favoriteKeys.erase(curGame.titleId + ":" + v.id);
+                            m_favoriteKeys.erase(v.id);
+                        }
+                        m_statusNotification = "Удалено из избранного: " + curGame.title;
+                    } else {
+                        m_favoriteKeys.insert(curGame.titleId + ":" + curGame.variants[0].id);
+                        m_statusNotification = "Добавлено в избранное ★: " + curGame.title;
+                    }
+                    m_notificationFramesRemaining = 90;
+                    saveFavorites();
+                    rebuildCatalogFilter();
+                }
             } else {
                 fetchRemoteCatalog();
             }
+            return;
         }
+
+        // Navigation
+        if (button == 11 /* DPAD_UP */) {
+            if (m_catalogSelectedIndex > 0) m_catalogSelectedIndex--;
+            return;
+        }
+        if (button == 12 /* DPAD_DOWN */) {
+            if (m_catalogSelectedIndex + 1 < totalGames) m_catalogSelectedIndex++;
+            return;
+        }
+        if (button == 13 /* DPAD_LEFT - Page Up 5 */) {
+            m_catalogSelectedIndex = std::max(0, m_catalogSelectedIndex - 5);
+            return;
+        }
+        if (button == 14 /* DPAD_RIGHT - Page Down 5 */) {
+            if (totalGames > 0) m_catalogSelectedIndex = std::min(totalGames - 1, m_catalogSelectedIndex + 5);
+            return;
+        }
+
+        // [ZL] - Quick Fullscreen Preview with audio
+        if (button == 15 /* ZL */) {
+            if (totalGames > 0 && m_catalogSelectedIndex >= 0 && m_catalogSelectedIndex < totalGames) {
+                const auto& curGame = m_filteredCatalogGames[m_catalogSelectedIndex];
+                if (!curGame.variants.empty()) {
+                    openFullscreenPreviewForCatalogGame(curGame, 0);
+                }
+            }
+            return;
+        }
+
+        // [A] - Open Collection Browser modal
+        if (button == 0 /* A */) {
+            if (totalGames > 0 && m_catalogSelectedIndex >= 0 && m_catalogSelectedIndex < totalGames) {
+                openCollectionBrowser(m_filteredCatalogGames[m_catalogSelectedIndex]);
+            }
+            return;
+        }
+        return;
     } else if (m_activeTab == Tab::Downloads) {
         if (button == 1 /* B - Back to Home */) {
             m_activeTab = Tab::Home;
@@ -2443,10 +2514,13 @@ void App::renderHeader() {
     drawRect(0, 63, Theme::SCREEN_WIDTH, 1, Theme::COLOR_BORDER);
 
     // Left Branding: App Name + Tag Badge
-    // Triple accent bars (TorrentShopNX style logo)
-    drawRoundedRect(30, 24, 4, 18, 2, Theme::COLOR_FOCUS_CYAN);
-    drawRoundedRect(38, 20, 4, 26, 2, Theme::COLOR_FOCUS_CYAN);
-    drawRoundedRect(46, 25, 4, 16, 2, Theme::COLOR_FOCUS_CYAN);
+    // Triple animated equalizer accent bars (Cyber Audio Visualizer)
+    int h0 = static_cast<int>(m_equalizerHeights[0]);
+    int h1 = static_cast<int>(m_equalizerHeights[1]);
+    int h2 = static_cast<int>(m_equalizerHeights[2]);
+    drawRoundedRect(30, 42 - h0, 4, h0, 2, Theme::COLOR_FOCUS_CYAN);
+    drawRoundedRect(38, 44 - h1, 4, h1, 2, Theme::COLOR_FOCUS_CYAN);
+    drawRoundedRect(46, 42 - h2, 4, h2, 2, Theme::COLOR_FOCUS_CYAN);
 
     // App Title
     drawText(Config::APP_NAME, 62, 18, Theme::COLOR_TEXT_PRIMARY, 20);
@@ -2550,18 +2624,13 @@ void App::renderFooter() {
         drawPrompt("Y", "Поиск", Theme::COLOR_TEXT_PRIMARY);
         drawPrompt("-", "Фильтр", Theme::COLOR_TEXT_PRIMARY);
     } else if (m_activeTab == Tab::Catalog) {
-        if (m_catalogViewMode == CatalogViewMode::Categories) {
-            drawPrompt("A", "OK", Theme::COLOR_FOCUS_CYAN);
-            drawPrompt("B", "Назад", Theme::COLOR_TEXT_PRIMARY);
-            drawPrompt("-", "Обновить", Theme::COLOR_TEXT_PRIMARY);
-            drawPrompt("Y", "Поиск", Theme::COLOR_FOCUS_CYAN);
-        } else {
-            drawPrompt("A", "Выбрать", Theme::COLOR_FOCUS_CYAN);
-            drawPrompt("B", "Назад", Theme::COLOR_TEXT_MUTED);
-            drawPrompt("ZL", "±15", Theme::COLOR_TEXT_MUTED);
-            drawPrompt("Y", "Поиск", Theme::COLOR_TEXT_PRIMARY);
-            drawPrompt("X", "Сортировка", Theme::COLOR_TEXT_PRIMARY);
-        }
+        drawPrompt("A", "Выбрать", Theme::COLOR_FOCUS_CYAN);
+        drawPrompt("B", "Назад", Theme::COLOR_TEXT_MUTED);
+        drawPrompt("ZL", "Просмотр", Theme::COLOR_FOCUS_CYAN);
+        drawPrompt("-", "В избр. ★", Theme::COLOR_FOCUS_PINK);
+        drawPrompt("L/R", "Разделы", Theme::COLOR_FOCUS_CYAN);
+        drawPrompt("Y", "Поиск", Theme::COLOR_TEXT_PRIMARY);
+        drawPrompt("X", "Сортировка", Theme::COLOR_TEXT_PRIMARY);
     } else if (m_activeTab == Tab::MyGames) {
         drawPrompt("A", "Выбрать", Theme::COLOR_FOCUS_CYAN);
         drawPrompt("B", "Назад", Theme::COLOR_TEXT_MUTED);
@@ -2671,7 +2740,6 @@ void App::renderTabHome() {
     drawText("РАЗДЕЛЫ КАТАЛОГА", sc2X + 22, subY + 18, Theme::COLOR_TEXT_MUTED, 12);
     drawTextRight("4IFIR Engine", sc2X + cardW - 22, subY + 18, Theme::COLOR_FOCUS_CYAN, 12);
 
-    // 3 4IFIR Cyber-Glass pills: Весь каталог, Избранное, Поиск
     size_t totalCatAll = m_catalogManager.getGamesCount();
     size_t totalFavAll = m_favoriteKeys.size();
     struct PillData {
@@ -2964,101 +3032,7 @@ void App::renderTabMyGames() {
 }
 
 void App::renderCategoriesView() {
-    // Top Row: Title + View Mode Toggle ([X] Списком) + Interactive Search Bar
-    drawText("Каталог видеофонов", 60, 78, Theme::COLOR_TEXT_PRIMARY, 24);
-
-    // Toggle to Full List button (x=340, y=74, w=185, h=38)
-    drawPillButton(340, 74, 185, 38, "[X] Весь список", false, Theme::COLOR_FOCUS_CYAN);
-
-    // Search Bar at top-right (x=700, y=74, w=512, h=38)
-    bool hasCatSearch = !m_catalogSearchQuery.empty();
-    drawGlassCard(700, 74, 512, 38, hasCatSearch, false);
-    drawSearchIcon(718, 93, hasCatSearch ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_MUTED);
-    std::string catSearchLabel = hasCatSearch
-        ? ("Поиск: " + m_catalogSearchQuery)
-        : "Поиск по названию игры, жанру или TitleID...";
-    drawText(catSearchLabel, 734, 84, hasCatSearch ? Theme::COLOR_TEXT_PRIMARY : Theme::COLOR_TEXT_MUTED, 13, 370);
-    drawRoundedRect(1118, 80, 84, 26, 6, Theme::COLOR_FOCUS_FILL);
-    drawRoundedOutline(1118, 80, 84, 26, 6, Theme::COLOR_FOCUS_CYAN, Theme::COLOR_FOCUS_CYAN, 1);
-    drawTextCentered("[Y] Поиск", 1160, 85, Theme::COLOR_FOCUS_CYAN, 11);
-
-    // Section 1: | ОСНОВНЫЕ РАЗДЕЛЫ
-    drawRect(60, 122, 3, 15, Theme::COLOR_FOCUS_CYAN);
-    drawText("ОСНОВНЫЕ РАЗДЕЛЫ", 72, 121, Theme::COLOR_FOCUS_CYAN, 13);
-
-    struct MainSectionDef {
-        std::string iconType;
-        std::string title;
-        std::string desc;
-        std::string badge;
-        Color col;
-    };
-
-    size_t totalCatGames = m_catalogManager.getGamesCount();
-    MainSectionDef mainSections[4] = {
-        {"all_catalog", "Весь каталог", "Полная база доступных игр", std::to_string(totalCatGames) + " игр", Theme::COLOR_FOCUS_CYAN},
-        {"favorites", "Избранное", "Ваши сохранённые игры", std::to_string(m_favoriteKeys.size()) + " игр", Theme::COLOR_FOCUS_PINK},
-        {"new_release", "Новые релизы", "Автоматически обновляемые релизы", "42 игры", Theme::COLOR_FOCUS_CYAN},
-        {"top_100", "Топ-100", "100 лучших игр всех времён по Metacritic", "100 игр", Theme::COLOR_FOCUS_PINK}
-    };
-
-    int cardW = 270;
-    int cardH = 88;
-    int startX = 60;
-    int gapX = 22;
-
-    for (int i = 0; i < 4; ++i) {
-        bool isFocused = (m_categorySelectedIndex == i);
-        int cx = startX + i * (cardW + gapX);
-        int cy = 144;
-        drawCategoryCard(cx, cy, cardW, cardH, mainSections[i].iconType, mainSections[i].title, mainSections[i].desc, mainSections[i].badge, isFocused, mainSections[i].col);
-    }
-
-    // Section 2: | ЖАНРОВЫЕ И ТЕМАТИЧЕСКИЕ ПОДБОРКИ
-    drawRect(60, 250, 3, 15, Theme::COLOR_FOCUS_CYAN);
-    drawText("ЖАНРОВЫЕ И ТЕМАТИЧЕСКИЕ ПОДБОРКИ", 72, 249, Theme::COLOR_FOCUS_CYAN, 13);
-
-    struct GenreDef {
-        std::string iconType;
-        std::string title;
-        std::string desc;
-        std::string count;
-        Color col;
-    };
-
-    GenreDef genres[14] = {
-        {"action_adventure", "Экшены и приключения", "Приключенческие экшены и динамичные игры", "100 игр", Theme::COLOR_FOCUS_CYAN},
-        {"arcade", "Аркады", "Классические и современные аркадные игры", "100 игр", Theme::COLOR_FOCUS_PINK},
-        {"horror", "Хорроры", "Сурвайвал и психологические хорроры", "100 игр", Theme::COLOR_FOCUS_PINK},
-        {"metroidvania", "Метроидвании", "Исследования, лабиринты и платформеры", "100 игр", Theme::COLOR_FOCUS_CYAN},
-        {"party_multiplayer", "Вечеринки и кооп", "Игры для вечеринок и локальный кооператив", "100 игр", Theme::COLOR_FOCUS_CYAN},
-        {"platformers", "Платформеры", "Классические 2D и 3D платформеры", "100 игр", Theme::COLOR_FOCUS_PINK},
-        {"puzzles", "Головоломки", "Логические задачи и пространственные пазлы", "100 игр", Theme::COLOR_FOCUS_CYAN},
-        {"roguelike_roguelite", "Рогалики", "Рогалики, роглайты и колодостроительные", "100 игр", Theme::COLOR_FOCUS_PINK},
-        {"rpg_jrpg", "RPG / JRPG", "Ролевые приключения и японские RPG", "100 игр", Theme::COLOR_FOCUS_PINK},
-        {"shooters", "Шутеры", "Шутеры от 1-го/3-го лица и классические Shmup", "100 игр", Theme::COLOR_FOCUS_CYAN},
-        {"simulation_cozy", "Симуляторы и уютные", "Симуляторы жизни, фермы и уютные игры", "100 игр", Theme::COLOR_FOCUS_CYAN},
-        {"strategy_tactics", "Стратегии и тактика", "Пошаговая тактика и глобальные стратегии", "100 игр", Theme::COLOR_FOCUS_PINK},
-        {"visual_novels", "Визуальные новеллы", "Интерактивные визуальные новеллы и истории", "100 игр", Theme::COLOR_FOCUS_PINK},
-        {"ports_homebrew", "Порты и Homebrew", "Порты классических игр и Homebrew", "100 игр", Theme::COLOR_FOCUS_CYAN}
-    };
-
-    int gridStartY = 272;
-    for (int i = 0; i < 14; ++i) {
-        int col = i % 4;
-        int row = i / 4;
-        int cx = startX + col * (cardW + gapX);
-        int cy = gridStartY + row * (cardH + 10);
-        if (cy + cardH > 660) break;
-        bool isFocused = (m_categorySelectedIndex == (i + 4));
-        drawCategoryCard(cx, cy, cardW, cardH, genres[i].iconType, genres[i].title, genres[i].desc, genres[i].count, isFocused, genres[i].col);
-    }
-
-    // Scrollbar on the right edge
-    drawRect(1245, 144, 4, 495, {0x1C, 0x24, 0x36, 0x66});
-    int thumbH = 130;
-    int thumbY = 144 + (m_categorySelectedIndex * (495 - thumbH)) / 17;
-    drawRect(1245, thumbY, 4, thumbH, Theme::COLOR_FOCUS_CYAN);
+    renderTabCatalog();
 }
 
 void App::renderTabVideoIcons() {
@@ -3154,22 +3128,50 @@ void App::renderTabVideoIcons() {
 }
 
 void App::renderTabCatalog() {
-    if (m_catalogViewMode == CatalogViewMode::Categories) {
-        renderCategoriesView();
-        return;
+    // 4IFIR Cyber-Glass Container
+    drawGlassCard(30, 74, 1220, 576, false, false);
+
+    bool isFavTab = (m_catalogSortMode == CatalogSortMode::FavoritesOnly);
+    size_t totalCatGames = m_catalogManager.getGamesCount();
+    size_t totalFavorites = m_favoriteKeys.size();
+
+    // 1. Top Bar: Segment Tabs, Search Bar, Sort Pill, Back Button (y=82, h=38)
+    // Segment Tab 1: [L] Весь каталог
+    std::string tab1Text = "[L] Весь каталог (" + std::to_string(totalCatGames) + ")";
+    int t1W = measureTextWidth(tab1Text, 13) + 24;
+    drawRoundedRect(50, 82, t1W, 38, 10, !isFavTab ? Theme::COLOR_FOCUS_FILL : Theme::COLOR_PILL_BG);
+    if (!isFavTab) {
+        drawNeonRoundedOutline(50, 82, t1W, 38, 10, 2);
+    } else {
+        drawRoundedOutline(50, 82, t1W, 38, 10, Theme::COLOR_BORDER, Theme::COLOR_BORDER, 1);
     }
+    drawTextCentered(tab1Text, 50 + t1W / 2, 91, !isFavTab ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_MUTED, 13);
 
-    // Detailed GameGrid inside selected category
-    drawGlassCard(30, 80, 1220, 570, false, false);
+    // Segment Tab 2: [R] Избранное
+    std::string tab2Text = "[R] Избранное (" + std::to_string(totalFavorites) + ")";
+    int t2W = measureTextWidth(tab2Text, 13) + 24;
+    int t2X = 50 + t1W + 10;
+    drawRoundedRect(t2X, 82, t2W, 38, 10, isFavTab ? Color{0xEC, 0x48, 0x99, 0x24} : Theme::COLOR_PILL_BG);
+    if (isFavTab) {
+        drawRoundedOutline(t2X, 82, t2W, 38, 10, Theme::COLOR_FOCUS_PINK, Theme::COLOR_FOCUS_PINK, 2);
+    } else {
+        drawRoundedOutline(t2X, 82, t2W, 38, 10, Theme::COLOR_BORDER, Theme::COLOR_BORDER, 1);
+    }
+    drawTextCentered(tab2Text, t2X + t2W / 2, 91, isFavTab ? Theme::COLOR_FOCUS_PINK : Theme::COLOR_TEXT_MUTED, 13);
 
-    // Breadcrumb Header
-    std::string navTitle = "Каталог  >  " + m_activeCategoryName;
-    drawText(navTitle, 60, 95, Theme::COLOR_TEXT_PRIMARY, 22);
+    // Interactive Search Bar (x=465, y=82, w=420, h=38)
+    bool hasSearch = !m_catalogSearchQuery.empty();
+    drawGlassCard(465, 82, 420, 38, hasSearch, false);
+    drawSearchIcon(482, 101, hasSearch ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_MUTED);
+    std::string searchLabel = hasSearch
+        ? ("Поиск: " + m_catalogSearchQuery)
+        : "Поиск по названию игры или TitleID...";
+    drawText(searchLabel, 498, 92, hasSearch ? Theme::COLOR_TEXT_PRIMARY : Theme::COLOR_TEXT_MUTED, 13, 290);
+    drawRoundedRect(805, 88, 72, 26, 6, Theme::COLOR_FOCUS_FILL);
+    drawRoundedOutline(805, 88, 72, 26, 6, Theme::COLOR_FOCUS_CYAN, Theme::COLOR_FOCUS_CYAN, 1);
+    drawTextCentered("[Y] Поиск", 841, 93, Theme::COLOR_FOCUS_CYAN, 11);
 
-    // Back to Categories Pill Button
-    drawPillButton(1040, 90, 185, 34, "(B) К разделам", false, Theme::COLOR_FOCUS_CYAN);
-
-    // Search and Sort Pills
+    // Sort mode button (x=895, y=82, w=180, h=38)
     std::string sortStr = "[X] Сорт: ";
     switch (m_catalogSortMode) {
         case CatalogSortMode::Alphabetical: sortStr += "А-Я"; break;
@@ -3178,17 +3180,29 @@ void App::renderTabCatalog() {
         case CatalogSortMode::IconsOnly: sortStr += "Иконки"; break;
         case CatalogSortMode::InstalledOnly: sortStr += "Установленные"; break;
         case CatalogSortMode::FavoritesOnly: sortStr += "Избранное"; break;
-        default: sortStr += "По умолчанию"; break;
+        default: sortStr += "По умолч."; break;
     }
-    drawPillButton(760, 90, 170, 34, sortStr, false, Theme::COLOR_TEXT_MUTED);
+    drawPillButton(895, 82, 180, 38, sortStr, false, Theme::COLOR_FOCUS_CYAN);
 
-    std::string searchStr = m_catalogSearchQuery.empty() ? "[Y] Поиск" : ("[Y] " + m_catalogSearchQuery);
-    drawPillButton(940, 90, 90, 34, searchStr, false, Theme::COLOR_TEXT_MUTED);
+    // Back to Home button (x=1085, y=82, w=145, h=38)
+    drawPillButton(1085, 82, 145, 38, "(B) На главную", false, Theme::COLOR_TEXT_MUTED);
 
+    // 2. Games List Area
     int totalFiltered = static_cast<int>(m_filteredCatalogGames.size());
     if (totalFiltered == 0) {
-        drawText("В этом разделе нет подходящих видеофонов.", 60, 180, Theme::COLOR_TEXT_MUTED, 16);
-        drawText("Нажмите (B) для возврата к категориям каталога.", 60, 215, Theme::COLOR_FOCUS_CYAN, 14);
+        if (isFavTab) {
+            // Elegant empty state for Favorites
+            drawRoundedRect(490, 200, 300, 240, 24, {0x14, 0x1A, 0x28, 0xFF});
+            drawRoundedOutline(490, 200, 300, 240, 24, Theme::COLOR_FOCUS_PINK, Theme::COLOR_FOCUS_PINK, 2);
+            drawTextCentered("★", 640, 245, Theme::COLOR_FOCUS_PINK, 36);
+            drawTextCentered("Избранное пусто", 640, 295, Theme::COLOR_TEXT_PRIMARY, 18);
+            drawTextCentered("Нажмите [-] на любой игре в каталоге,", 640, 330, Theme::COLOR_TEXT_MUTED, 13);
+            drawTextCentered("чтобы добавить её в быстрый доступ", 640, 350, Theme::COLOR_TEXT_MUTED, 13);
+            drawPillButton(540, 380, 200, 36, "[L] Открыть весь каталог", true, Theme::COLOR_FOCUS_CYAN);
+        } else {
+            drawTextCentered("Игры по вашему запросу не найдены", 640, 320, Theme::COLOR_TEXT_MUTED, 16);
+            drawTextCentered("Нажмите [Y] для изменения поиска или [-] для сброса", 640, 355, Theme::COLOR_FOCUS_CYAN, 13);
+        }
         return;
     }
 
@@ -3200,30 +3214,73 @@ void App::renderTabCatalog() {
         m_catalogScrollOffset = m_catalogSelectedIndex - visibleCount + 1;
     }
 
-    int y = 145;
+    int y = 136;
     int endIdx = std::min(totalFiltered, m_catalogScrollOffset + visibleCount);
     for (int i = m_catalogScrollOffset; i < endIdx; ++i) {
         const auto& game = m_filteredCatalogGames[i];
         bool isFocused = (i == m_catalogSelectedIndex);
-        drawGlassCard(60, y, 1160, 80, isFocused, isFocused);
+        bool isFav = hasGameFavorites(game.titleId);
 
-        drawText(game.title, 85, y + 14, isFocused ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 16, 680);
-        drawText(game.titleId + "  |  " + game.publisher, 85, y + 42, Theme::COLOR_TEXT_MUTED, 13);
+        drawGlassCard(50, y, 1180, 88, isFocused, isFocused);
 
+        // Cartridge / Game Preview Box (x=64, y=y+9, w=70, h=70)
+        int boxX = 64;
+        int boxY = y + 9;
+        drawRoundedRect(boxX, boxY, 70, 70, 12, {0x14, 0x1A, 0x28, 0xFF});
+        drawRoundedOutline(boxX, boxY, 70, 70, 12, isFocused ? (isFav ? Theme::COLOR_FOCUS_PINK : Theme::COLOR_FOCUS_CYAN) : Theme::COLOR_BORDER, isFocused ? (isFav ? Theme::COLOR_FOCUS_PINK : Theme::COLOR_FOCUS_CYAN) : Theme::COLOR_BORDER, 1);
+
+        // Draw mini cartridge symbol inside box
+        drawRoundedRect(boxX + 22, boxY + 16, 26, 38, 4, {0x26, 0x32, 0x48, 0xFF});
+        drawRoundedRect(boxX + 24, boxY + 18, 22, 10, 2, isFav ? Theme::COLOR_FOCUS_PINK : Theme::COLOR_FOCUS_CYAN);
+        drawRoundedRect(boxX + 24, boxY + 31, 22, 20, 2, {0x0E, 0x14, 0x22, 0xFF});
+
+        // Info Column
+        int infoX = boxX + 86;
+        drawText(game.title, infoX, y + 14, isFocused ? (isFav ? Theme::COLOR_FOCUS_PINK : Theme::COLOR_FOCUS_CYAN) : Theme::COLOR_TEXT_PRIMARY, 16, 600);
+
+        // Subline: TitleID + Publisher
+        std::string pubText = game.publisher.empty() ? "Nintendo Switch" : game.publisher;
+        drawText(game.titleId + "  |  " + pubText, infoX, y + 42, Theme::COLOR_TEXT_MUTED, 12);
+
+        // Badges: Variants count & Video Icon
         int vCount = static_cast<int>(game.variants.size());
-        std::string vStr = std::to_string(vCount) + " вар. видеофона";
-        drawRect(780, y + 24, 160, 32, Theme::COLOR_FOCUS_FILL);
-        drawRectOutline(780, y + 24, 160, 32, Theme::COLOR_FOCUS_CYAN, 1);
-        drawText(vStr, 792, y + 31, Theme::COLOR_FOCUS_CYAN, 12);
+        std::string vStr = std::to_string(vCount) + " вар. фона";
+        int vBadgeW = measureTextWidth(vStr, 11) + 16;
+        int curBadgeX = infoX + 330;
+        drawRoundedRect(curBadgeX, y + 42, vBadgeW, 22, 4, Theme::COLOR_FOCUS_FILL);
+        drawRoundedOutline(curBadgeX, y + 42, vBadgeW, 22, 4, Theme::COLOR_FOCUS_CYAN, Theme::COLOR_FOCUS_CYAN, 1);
+        drawTextCentered(vStr, curBadgeX + vBadgeW / 2, y + 46, Theme::COLOR_FOCUS_CYAN, 11);
 
-        drawRect(960, y + 22, 240, 36, Theme::COLOR_FOCUS_FILL);
-        drawNeonGradientOutline(960, y + 22, 240, 36, 2);
-        drawText("[A] Смотреть фон", 985, y + 31, Theme::COLOR_FOCUS_CYAN, 14);
+        bool hasIcon = false;
+        for (const auto& v : game.variants) {
+            if (v.hasIcon && !v.iconUrl.empty()) { hasIcon = true; break; }
+        }
+        if (hasIcon) {
+            curBadgeX += vBadgeW + 8;
+            drawRoundedRect(curBadgeX, y + 42, 85, 22, 4, Color{0xEC, 0x48, 0x99, 0x24});
+            drawRoundedOutline(curBadgeX, y + 42, 85, 22, 4, Theme::COLOR_FOCUS_PINK, Theme::COLOR_FOCUS_PINK, 1);
+            drawTextCentered("256x256", curBadgeX + 42, y + 46, Theme::COLOR_FOCUS_PINK, 11);
+        }
 
-        y += 80 + 14;
+        // Action Buttons on Right
+        // 1. Favorite toggle button: [-] В избр. (x=805, y=y+25, w=115, h=38)
+        drawRoundedRect(805, y + 25, 115, 38, 8, isFav ? Color{0xEC, 0x48, 0x99, 0x24} : Color{0x14, 0x1E, 0x30, 0xDD});
+        drawRoundedOutline(805, y + 25, 115, 38, 8, isFav ? Theme::COLOR_FOCUS_PINK : Theme::COLOR_BORDER, isFav ? Theme::COLOR_FOCUS_PINK : Theme::COLOR_BORDER, 1);
+        drawTextCentered(isFav ? "[-] В избр. ★" : "[-] В избр.", 805 + 57, y + 36, isFav ? Theme::COLOR_FOCUS_PINK : Theme::COLOR_TEXT_MUTED, 12);
+
+        // 2. Quick Preview button: [ZL] Просмотр (x=930, y=y+25, w=135, h=38)
+        drawRoundedRect(930, y + 25, 135, 38, 8, Color{0x14, 0x1E, 0x30, 0xDD});
+        drawRoundedOutline(930, y + 25, 135, 38, 8, Theme::COLOR_BORDER, Theme::COLOR_BORDER, 1);
+        drawTextCentered("[ZL] Просмотр", 930 + 67, y + 36, Theme::COLOR_TEXT_PRIMARY, 12);
+
+        // 3. Select Themes button: [A] Выбрать (x=1075, y=y+25, w=140, h=38)
+        drawRoundedRect(1075, y + 25, 140, 38, 8, isFocused ? Theme::COLOR_FOCUS_FILL : Color{0x18, 0x22, 0x34, 0xEE});
+        drawNeonRoundedOutline(1075, y + 25, 140, 38, 8, isFocused ? 2 : 1);
+        drawTextCentered("[A] Выбрать", 1075 + 70, y + 36, Theme::COLOR_FOCUS_CYAN, 13);
+
+        y += 98;
     }
 }
-
 void App::renderTabDownloads() {
     // 4IFIR Cyber-Glass Container
     drawGlassCard(30, 80, 1220, 570, false, false);
@@ -5473,23 +5530,48 @@ void App::handleTouchTap(int mx, int my) {
                 }
             }
             // Catalog Categories View: [X] Весь список button click (x in [340, 525], y in [74, 112])
-            else if (m_activeTab == Tab::Catalog && m_catalogViewMode == CatalogViewMode::Categories && mx >= 340 && mx <= 525 && my >= 74 && my <= 112) {
-                onButtonPress(2 /* X - Open Full List View */);
-            }
-            // Catalog Categories View: Search Bar click (x in [700, 1212], y in [74, 112])
-            else if (m_activeTab == Tab::Catalog && m_catalogViewMode == CatalogViewMode::Categories && mx >= 700 && mx <= 1212 && my >= 74 && my <= 112) {
-                onButtonPress(3 /* Y - Open Search Keyboard */);
-            }
-            // Catalog Categories View: 2 Wide Cards click (Весь каталог / Избранное)
-            else if (m_activeTab == Tab::Catalog && m_catalogViewMode == CatalogViewMode::Categories && mx >= 60 && mx <= 1220 && my >= 165 && my <= 625) {
-                int clickedCard = (mx < 640) ? 0 : 1;
-                if (m_categorySelectedIndex == clickedCard) {
-                    onButtonPress(0 /* A - Open selected */);
-                } else {
-                    m_categorySelectedIndex = clickedCard;
+            else if (m_activeTab == Tab::Catalog) {
+                // Top Tab 1: [L] Весь каталог (x in [50, 270], y in [74, 122])
+                if (mx >= 50 && mx <= 270 && my >= 74 && my <= 122) {
+                    onButtonPress(7 /* L - Весь каталог */);
+                }
+                // Top Tab 2: [R] Избранное (x in [280, 460], y in [74, 122])
+                else if (mx >= 280 && mx <= 460 && my >= 74 && my <= 122) {
+                    onButtonPress(8 /* R - Избранное */);
+                }
+                // Search Bar (x in [465, 885], y in [74, 122])
+                else if (mx >= 465 && mx <= 885 && my >= 74 && my <= 122) {
+                    onButtonPress(3 /* Y - Open Search Keyboard */);
+                }
+                // Sort Mode Button (x in [895, 1075], y in [74, 122])
+                else if (mx >= 895 && mx <= 1075 && my >= 74 && my <= 122) {
+                    onButtonPress(2 /* X - Cycle Sort */);
+                }
+                // Back to Home Button (x in [1085, 1235], y in [74, 122])
+                else if (mx >= 1085 && mx <= 1235 && my >= 74 && my <= 122) {
+                    onButtonPress(1 /* B - Back to Home */);
+                }
+                // Click on Game row items (y in [136, 630])
+                else if (mx >= 50 && mx <= 1230 && my >= 136 && my <= 630) {
+                    int clickedIdx = m_catalogScrollOffset + (my - 136) / 98;
+                    int totalGames = static_cast<int>(m_filteredCatalogGames.size());
+                    if (clickedIdx >= 0 && clickedIdx < totalGames) {
+                        m_catalogSelectedIndex = clickedIdx;
+                        // Click on Favorite button [-] (x in [805, 920])
+                        if (mx >= 805 && mx <= 920) {
+                            onButtonPress(4 /* Minus - Toggle Favorite */);
+                        }
+                        // Click on Preview button [ZL] (x in [930, 1065])
+                        else if (mx >= 930 && mx <= 1065) {
+                            onButtonPress(15 /* ZL - Preview */);
+                        }
+                        // Click on Select button [A] (x in [1075, 1220])
+                        else if (mx >= 1075 && mx <= 1220) {
+                            onButtonPress(0 /* A - Open Collection Browser */);
+                        }
+                    }
                 }
             }
-            // MyGames Tab: synchronized pixel-perfect touch zones
             else if (m_activeTab == Tab::MyGames) {
                 // Left Column: Games list item selection (x in [30, 480], y in [105, 640])
                 if (mx >= 30 && mx <= 480 && my >= 105 && my <= 640) {
@@ -5851,6 +5933,15 @@ void App::drawButtonBadge(int x, int y, const std::string& key, const std::strin
 void App::drawTileIconVector(int cx, int cy, int tileIdx, bool isFocused) {
 #ifdef HAS_SDL2
     if (!m_renderer) return;
+
+    // 1. If high-res pre-rendered 4IFIR Cyber-Glass icon texture is loaded, render it!
+    if (tileIdx >= 0 && tileIdx < 5 && m_tabIconTextures[tileIdx]) {
+        int iconSize = isFocused ? 96 : 88;
+        SDL_Rect dst{cx - iconSize / 2, cy - iconSize / 2 - 2, iconSize, iconSize};
+        SDL_RenderCopy(m_renderer, m_tabIconTextures[tileIdx], nullptr, &dst);
+        return;
+    }
+
     Color accent = isFocused ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY;
 
     if (tileIdx == 0) { // Каталог: 4IFIR Cartridge + Storefront (Cyan & Magenta)
@@ -6044,26 +6135,37 @@ void App::drawDashboardTile(int x, int y, int w, int h, int tileIdx, const std::
 #ifdef HAS_SDL2
     if (!m_renderer) return;
 
+    // Smooth bouncy scale animation
+    float scale = (tileIdx >= 0 && tileIdx < 5) ? m_tileAnimScale[tileIdx] : (isFocused ? 1.055f : 1.0f);
+    int drawW = static_cast<int>(w * scale);
+    int drawH = static_cast<int>(h * scale);
+    int drawX = x - (drawW - w) / 2;
+    int drawY = y - (drawH - h) / 2;
+
     Color bg = isFocused ? Theme::COLOR_BG_ELEVATED : Theme::COLOR_BG_TILE;
-    drawRoundedRect(x, y, w, h, 24, bg);
+    drawRoundedRect(drawX, drawY, drawW, drawH, 24, bg);
 
     if (isFocused) {
-        drawRoundedRect(x, y, w, h, 24, Theme::COLOR_FOCUS_FILL);
-        drawNeonRoundedOutline(x, y, w, h, 24, 3);
+        drawRoundedRect(drawX, drawY, drawW, drawH, 24, Theme::COLOR_FOCUS_FILL);
+        // Breathing cyber neon glow
+        uint8_t alpha = static_cast<uint8_t>(std::clamp(m_glowPulse * 255.0f, 160.0f, 255.0f));
+        Color cGlow = Theme::COLOR_FOCUS_CYAN; cGlow.a = alpha;
+        Color pGlow = Theme::COLOR_FOCUS_PINK; pGlow.a = alpha;
+        drawRoundedOutline(drawX, drawY, drawW, drawH, 24, cGlow, pGlow, 3);
     } else {
-        drawRoundedOutline(x, y, w, h, 24, Theme::COLOR_BORDER, Theme::COLOR_BORDER, 1);
+        drawRoundedOutline(drawX, drawY, drawW, drawH, 24, Theme::COLOR_BORDER, Theme::COLOR_BORDER, 1);
     }
 
     // Subtle top gloss highlight
-    drawRoundedRect(x + 18, y + 2, w - 36, 2, 1, {0xFF, 0xFF, 0xFF, 0x1A});
+    drawRoundedRect(drawX + 18, drawY + 2, drawW - 36, 2, 1, {0xFF, 0xFF, 0xFF, 0x1A});
 
-    // Centered vector icon in upper area of tile
-    int iconCx = x + w / 2;
-    int iconCy = y + 72;
+    // Centered vector or texture icon in upper area of tile
+    int iconCx = drawX + drawW / 2;
+    int iconCy = drawY + 70;
     drawTileIconVector(iconCx, iconCy, tileIdx, isFocused);
 
     // Centered Title underneath (measured pixel width, never overflows or shifts!)
-    drawTextCentered(title, x + w / 2, y + h - 36, isFocused ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 16);
+    drawTextCentered(title, drawX + drawW / 2, drawY + drawH - 34, isFocused ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 16);
 #else
     (void)x; (void)y; (void)w; (void)h; (void)tileIdx; (void)title; (void)sub; (void)isFocused;
 #endif

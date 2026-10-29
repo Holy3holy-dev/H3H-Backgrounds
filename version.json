@@ -1,11 +1,11 @@
 {
-  "latestVersion": "1.4.2",
+  "latestVersion": "1.4.3",
   "minRequiredVersion": "1.0.0",
-  "downloadUrl": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.4.2/H3H-Backgrounds.nro",
-  "afterDarkDownloadUrl": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.4.2/H3H-AfterDark.nro",
-  "releaseNotes": "v1.4.2: Лаконичный каталог (Весь каталог и Избранное), живые 60 FPS анимации (пульсация, вращение шестерни, скейл плиток, эквалайзер) и новые HD иконки вкладок 4IFIR Cyber-Glass",
+  "downloadUrl": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.4.3/H3H-Backgrounds.nro",
+  "afterDarkDownloadUrl": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.4.3/H3H-AfterDark.nro",
+  "releaseNotes": "v1.4.3: Новые 3D кибер-иконки вкладок, прямой вход в каталог без промежуточных меню, мгновенное переключение [L] Весь каталог / [R] Избранное и добавление в избранное на кнопку [-]",
   "releaseDate": "2026-10-29",
-  "releaseUrl": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/tag/v1.4.2",
+  "releaseUrl": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/tag/v1.4.3",
   "changelog": "v1.4.1: Complete 4IFIR Cyber-Glass UI Redesign (Main & After Dark)\\n- New 5-tile Home Dashboard with vector 4IFIR art, inside labels, scale focus (1.05x) and clean 2-card bottom summary\\n- Standalone Video Icons tab (112 titles / 433 icons) with list view, search bar, filter pills and live 1:1 256x256 video preview\\n- Redesigned Catalog with instant switching between 18 Category Cards and Full List View ([X] All Games) + search bar\\n- Authentic 4IFIR Cyber-Glass color system (#00D2FF Cyan & #EC4899 Magenta on deep Obsidian #090C13)",
-  "changelogRu": "v1.4.2: Упрощённый каталог и живые анимации\n- Каталог оптимизирован под 2 ключевых раздела: «Весь каталог» и «Избранное» с мгновенным переключением на [L] и [R]\n- Плавные 60 FPS микроанимации: пружинящее увеличение плиток (1.055x), вращающаяся шестерня в настройках, подпрыгивающая стрелка загрузок, живой аудио-эквалайзер в шапке\n- Новые 160x160 4IFIR Cyber-Glass иконки высокого разрешения для всех вкладок дашборда\n- Дышащая неоновая подсветка активных карточек и тактильная анимация нажатия кнопок"
+  "changelogRu": "v1.4.3: Профессиональные 3D иконки и полное обновление каталога\n- Новые высокодетализированные 3D Cyber-Glass иконки для всех 5 разделов (Каталог, Видеоиконки, Менеджер игр, Загрузки, Настройки)\n- Полный редизайн Каталога: удалены все устаревшие категории, прямой переход к списку игр\n- Сегментные вкладки [L] Весь каталог (1073 игр) и [R] Избранное в шапке с быстрым переключением на L/R/X\n- Быстрое добавление и удаление из избранного клавишей [-] (Minus) прямо в списке с мгновенным сохранением\n- Кнопка быстрого видеопросмотра [ZL] со звуком прямо из каталога"
 }
