@@ -1,11 +1,11 @@
 {
-  "latestVersion": "1.4.1",
+  "latestVersion": "1.4.2",
   "minRequiredVersion": "1.0.0",
-  "downloadUrl": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.4.1/H3H-Backgrounds.nro",
-  "afterDarkDownloadUrl": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.4.1/H3H-AfterDark.nro",
-  "releaseNotes": "v1.4.1: Полный редизайн интерфейса 4IFIR Cyber-Glass, отдельный раздел Видеоиконки (112 игр), просмотр каталога и иконок списком, поиск и живой предпросмотр 256×256",
+  "downloadUrl": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.4.2/H3H-Backgrounds.nro",
+  "afterDarkDownloadUrl": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/download/v1.4.2/H3H-AfterDark.nro",
+  "releaseNotes": "v1.4.2: Лаконичный каталог (Весь каталог и Избранное), живые 60 FPS анимации (пульсация, вращение шестерни, скейл плиток, эквалайзер) и новые HD иконки вкладок 4IFIR Cyber-Glass",
   "releaseDate": "2026-10-29",
-  "releaseUrl": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/tag/v1.4.1",
+  "releaseUrl": "https://github.com/Holy3holy-dev/H3H-Backgrounds/releases/tag/v1.4.2",
   "changelog": "v1.4.1: Complete 4IFIR Cyber-Glass UI Redesign (Main & After Dark)\\n- New 5-tile Home Dashboard with vector 4IFIR art, inside labels, scale focus (1.05x) and clean 2-card bottom summary\\n- Standalone Video Icons tab (112 titles / 433 icons) with list view, search bar, filter pills and live 1:1 256x256 video preview\\n- Redesigned Catalog with instant switching between 18 Category Cards and Full List View ([X] All Games) + search bar\\n- Authentic 4IFIR Cyber-Glass color system (#00D2FF Cyan & #EC4899 Magenta on deep Obsidian #090C13)",
-  "changelogRu": "v1.4.1: Полный редизайн интерфейса 4IFIR Cyber-Glass (Main и After Dark)\\n- Новый главный дашборд из 5 плиток (225×208, скругление 28px, прозрачность 90%, увеличение в фокусе) и лаконичной нижней панелью\\n- Самостоятельный раздел «Видеоиконки» (112 игр / 433 иконки) со списком, поиском [Y], фильтрами и живым 1:1 предпросмотром 256×256\\n- Обновлённый «Каталог» с переключением между 18 тематическими подборками и полным списком игр ([X] Весь список) + строкой поиска\\n- Фирменная палитра Чифира (#00D2FF циан и #EC4899 маджента на глубоком обсидиане)"
+  "changelogRu": "v1.4.2: Упрощённый каталог и живые анимации\n- Каталог оптимизирован под 2 ключевых раздела: «Весь каталог» и «Избранное» с мгновенным переключением на [L] и [R]\n- Плавные 60 FPS микроанимации: пружинящее увеличение плиток (1.055x), вращающаяся шестерня в настройках, подпрыгивающая стрелка загрузок, живой аудио-эквалайзер в шапке\n- Новые 160x160 4IFIR Cyber-Glass иконки высокого разрешения для всех вкладок дашборда\n- Дышащая неоновая подсветка активных карточек и тактильная анимация нажатия кнопок"
 }

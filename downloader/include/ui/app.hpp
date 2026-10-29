@@ -209,6 +209,9 @@ public:
     void drawCategoryCard(int x, int y, int w, int h, const std::string& iconType, const std::string& title, const std::string& desc, const std::string& countText, bool isFocused, Color accentCol);
     void drawPillButton(int x, int y, int w, int h, const std::string& text, bool isFocused, Color textCol = Theme::COLOR_TEXT_PRIMARY);
 
+    void loadTabIcons();
+    void freeTabIcons();
+
 private:
     std::unique_ptr<IPlatform> m_platform;
     CatalogManager m_catalogManager;
@@ -229,6 +232,18 @@ private:
     std::vector<DownloadTask> m_downloadQueue;
     SystemInfo m_sysInfo;
     std::string m_runningNroPath;
+
+    // Dynamic 60 FPS UI Animation states
+    float m_tileAnimScale[5] {1.0f, 1.0f, 1.0f, 1.0f, 1.0f};
+    float m_tabTransitionAlpha {255.0f};
+    float m_buttonPressAnim {0.0f};
+    float m_gearAngle {0.0f};
+    float m_downloadArrowBob {0.0f};
+    float m_equalizerHeights[3] {18.0f, 26.0f, 16.0f};
+    float m_glowPulse {1.0f};
+
+    // Tab Icon Textures (160x160 4IFIR Cyber-Glass Assets)
+    SDL_Texture* m_tabIconTextures[5] {nullptr, nullptr, nullptr, nullptr, nullptr};
 
     // Home Dashboard State
     int m_homeFocusedTile{0}; // 0: Catalog, 1: VideoIcons, 2: MyGames, 3: Downloads, 4: Settings
