@@ -114,6 +114,18 @@ void App::loadTabIcons() {
 #endif
 }
 
+void App::clearTextCache() {
+#ifdef HAS_SDL2
+    for (auto& pair : m_textCache) {
+        if (pair.second.texture) {
+            SDL_DestroyTexture(pair.second.texture);
+            pair.second.texture = nullptr;
+        }
+    }
+    m_textCache.clear();
+#endif
+}
+
 void App::freeTabIcons() {
 #ifdef HAS_SDL2
     for (int i = 0; i < 5; ++i) {
@@ -295,6 +307,7 @@ void App::shutdown() {
     }
 
 #ifdef HAS_SDL2
+    clearTextCache();
     freeTabIcons();
     if (m_collectionThumbTexture) {
         SDL_DestroyTexture(m_collectionThumbTexture);
@@ -1190,6 +1203,7 @@ void App::queueDownloadIconOnly(const InstalledTitle& title, const Variant& vari
     task.titleId = title.titleId;
     task.gameTitle = title.name;
     task.variant = variant;
+    task.variant.iconUrl = variant.iconUrl.empty() ? variant.url : variant.iconUrl;
     task.iconOnly = true;
     task.coverOnly = false;
     task.tempFilePath = m_platform->getIconsDirectory() + "/" + Config::getTempIconFileName(title.titleId);
@@ -1439,6 +1453,194 @@ void App::handleInput() {
 
 void App::onButtonPress(int button) {
     m_buttonPressAnim = 1.0f;
+
+    // Top-Level Modal Dialog Handler: Must process first and block all underlying views
+    if (m_activeDialog != DialogType::None) {
+        if (SDL_GetTicks() - m_dialogOpenedAt < 150) {
+            return;
+        }
+        if (m_activeDialog == DialogType::UpdateProgress) {
+            // While downloading, allow B to hide modal to background
+            if (button == 1 /* B */) {
+                m_activeDialog = DialogType::None;
+            }
+            return;
+        }
+        if (m_activeDialog == DialogType::UpdateSuccess) {
+            if (button == 0 /* A - Restart App */) {
+                m_running = false; // Exit to hbmenu so user launches newly updated NRO
+            } else if (button == 1 /* B - Continue */) {
+                m_activeDialog = DialogType::None;
+            }
+            return;
+        }
+        if (m_activeDialog == DialogType::MessageAlert || m_activeDialog == DialogType::IntegrityCheckResult) {
+            if (button == 0 || button == 1) {
+                m_activeDialog = DialogType::None;
+            }
+            return;
+        }
+        if (m_activeDialog == DialogType::ConfirmInstallLocalRecording) {
+            if (button == 0) {
+                m_activeDialog = DialogType::None;
+                executeInstallLocalRecording();
+            } else if (button == 1) {
+                m_activeDialog = DialogType::None;
+            }
+            return;
+        }
+        if (m_activeDialog == DialogType::ConfirmDeleteCorrupted) {
+            if (button == 13 || button == 14) {
+                m_dialogFocus = 1 - m_dialogFocus;
+            } else if (button == 0) {
+                if (m_dialogFocus == 0) {
+                    m_activeDialog = DialogType::None;
+                    executeDeleteCorruptedCovers();
+                } else {
+                    m_activeDialog = DialogType::None;
+                }
+            } else if (button == 1) {
+                m_activeDialog = DialogType::None;
+            }
+            return;
+        }
+
+        bool isInstallWithIcon = (m_activeDialog == DialogType::ConfirmInstall && m_pendingActionVariant.hasIcon);
+        bool isDeleteBoth = false;
+        if (m_activeDialog == DialogType::ConfirmDelete) {
+            for (const auto& g : m_installedGames) {
+                if (g.titleId == m_pendingActionTitleId) {
+                    if (g.hasInstalledCover && g.hasInstalledIcon) {
+                        isDeleteBoth = true;
+                    }
+                    break;
+                }
+            }
+        }
+
+        if (button == 13 /* DPAD_LEFT */ || button == 14 /* DPAD_RIGHT */) {
+            if (isInstallWithIcon || isDeleteBoth) {
+                m_dialogFocus = (button == 13) ? ((m_dialogFocus + 3) % 4) : ((m_dialogFocus + 1) % 4);
+            } else {
+                m_dialogFocus = 1 - m_dialogFocus;
+            }
+            return;
+        }
+
+        // Direct Quick Shortcuts for Multi-Option Dialogs:
+        // [X] -> Only Icon
+        if (button == 2 /* X */) {
+            if (isInstallWithIcon) {
+                InstalledTitle targetGame;
+                bool found = false;
+                for (const auto& g : m_installedGames) {
+                    if (g.titleId == m_pendingActionTitleId) { targetGame = g; found = true; break; }
+                }
+                if (!found) { targetGame.titleId = m_pendingActionTitleId; targetGame.name = m_previewGameName; targetGame.hasCatalogMatch = true; }
+                queueDownloadIconOnly(targetGame, m_pendingActionVariant);
+                m_activeDialog = DialogType::None;
+                return;
+            } else if (isDeleteBoth) {
+                executeDeleteIcon(m_pendingActionTitleId);
+                m_activeDialog = DialogType::None;
+                return;
+            }
+        }
+        // [Y] -> Only Video Cover
+        if (button == 3 /* Y */) {
+            if (isInstallWithIcon) {
+                InstalledTitle targetGame;
+                bool found = false;
+                for (const auto& g : m_installedGames) {
+                    if (g.titleId == m_pendingActionTitleId) { targetGame = g; found = true; break; }
+                }
+                if (!found) { targetGame.titleId = m_pendingActionTitleId; targetGame.name = m_previewGameName; targetGame.hasCatalogMatch = true; }
+                queueDownloadCoverOnly(targetGame, m_pendingActionVariant);
+                m_activeDialog = DialogType::None;
+                return;
+            } else if (isDeleteBoth) {
+                executeDeleteCover(m_pendingActionTitleId);
+                m_activeDialog = DialogType::None;
+                return;
+            }
+        }
+
+        if (button == 0 /* A - Confirm */) {
+            if (m_activeDialog == DialogType::ConfirmInstall) {
+                InstalledTitle targetGame;
+                bool found = false;
+                for (const auto& g : m_installedGames) {
+                    if (g.titleId == m_pendingActionTitleId) { targetGame = g; found = true; break; }
+                }
+                if (!found) { targetGame.titleId = m_pendingActionTitleId; targetGame.name = m_previewGameName; targetGame.hasCatalogMatch = true; }
+
+                if (isInstallWithIcon) {
+                    if (m_dialogFocus == 0) {
+                        // Install Both (Cover + Icon)
+                        queueDownload(targetGame, m_pendingActionVariant);
+                    } else if (m_dialogFocus == 1) {
+                        // Install ONLY Icon
+                        queueDownloadIconOnly(targetGame, m_pendingActionVariant);
+                    } else if (m_dialogFocus == 2) {
+                        // Install ONLY Cover
+                        queueDownloadCoverOnly(targetGame, m_pendingActionVariant);
+                    }
+                    // focus == 3 is cancel
+                } else {
+                    if (m_dialogFocus == 0) {
+                        queueDownload(targetGame, m_pendingActionVariant);
+                    }
+                }
+            } else if (m_activeDialog == DialogType::ConfirmInstallAll) {
+                if (m_dialogFocus == 0) {
+                    for (const auto& g : m_installedGames) {
+                        if (!g.hasInstalledCover && g.hasCatalogMatch && !g.catalogEntry.variants.empty()) {
+                            bool alreadyInQueue = false;
+                            for (const auto& task : m_downloadQueue) {
+                                if (task.titleId == g.titleId && task.state != TaskState::Failed) {
+                                    alreadyInQueue = true;
+                                    break;
+                                }
+                            }
+                            if (!alreadyInQueue) {
+                                queueDownload(g, g.catalogEntry.variants[0]);
+                            }
+                        }
+                    }
+                    m_activeTab = Tab::Downloads;
+                }
+            } else if (m_activeDialog == DialogType::ConfirmRestore) {
+                if (m_dialogFocus == 0) {
+                    executeRestoreBackup(m_pendingActionTitleId);
+                }
+            } else if (m_activeDialog == DialogType::ConfirmDelete) {
+                if (isDeleteBoth) {
+                    if (m_dialogFocus == 0) {
+                        executeDeleteCover(m_pendingActionTitleId);
+                        executeDeleteIcon(m_pendingActionTitleId);
+                    } else if (m_dialogFocus == 1) {
+                        executeDeleteIcon(m_pendingActionTitleId);
+                    } else if (m_dialogFocus == 2) {
+                        executeDeleteCover(m_pendingActionTitleId);
+                    }
+                } else {
+                    if (m_dialogFocus == 0) {
+                        bool hadCover = false;
+                        for (const auto& g : m_installedGames) {
+                            if (g.titleId == m_pendingActionTitleId) { hadCover = g.hasInstalledCover; break; }
+                        }
+                        if (hadCover) executeDeleteCover(m_pendingActionTitleId);
+                        else executeDeleteIcon(m_pendingActionTitleId);
+                    }
+                }
+            }
+            m_activeDialog = DialogType::None;
+        } else if (button == 1 /* B - Cancel */) {
+            m_activeDialog = DialogType::None;
+        }
+        return;
+    }
+
     // Collection Browser Modal Handler (Browse variants by name with static mini-previews)
     if (m_isCollectionBrowserOpen && m_activeDialog == DialogType::None && !m_isFullscreenPreview && !m_isGamePickerOpen) {
         if (SDL_GetTicks() - m_collectionOpenedAt < 150) {
@@ -1704,6 +1906,16 @@ void App::onButtonPress(int button) {
                 openGamePicker(var, gName);
                 return;
             } else if (button == 0 /* A - Install / Save */) {
+                if (m_previewIsIconSquare) {
+                    InstalledTitle targetGame;
+                    targetGame.titleId = m_previewTitleId;
+                    targetGame.name = m_previewGameName;
+                    targetGame.hasCatalogMatch = true;
+                    Variant chosenVar = m_previewVariants[m_previewVariantIndex];
+                    closeFullscreenPreview();
+                    queueDownloadIconOnly(targetGame, chosenVar);
+                    return;
+                }
                 if (m_previewTitleId == "0000000000000000") {
                     Variant var = m_previewVariants[m_previewVariantIndex];
                     std::string gName = m_previewGameName;
@@ -1731,13 +1943,13 @@ void App::onButtonPress(int button) {
                     return;
                 }
                 m_activeDialog = DialogType::ConfirmInstall;
-    m_dialogOpenedAt = SDL_GetTicks();
+                m_dialogOpenedAt = SDL_GetTicks();
                 m_dialogTitle = getStrings(m_language).confirmInstallTitle;
-                if (m_previewIsGameInstalled) {
+                if (isInstalled) {
                     m_dialogMessage = "Установить вариант '" + m_pendingActionVariant.name + "' (" +
-                                      styleToString(m_pendingActionVariant.style) + ") для игры " + m_previewGameName + "?";
+                                      styleToString(m_pendingActionVariant.style) + ") для игры " + gName + "?";
                 } else {
-                    m_dialogMessage = "Игра " + m_previewGameName + " пока не установлена на Switch.\n\n"
+                    m_dialogMessage = "Игра " + gName + " пока не установлена на Switch.\n\n"
                                       "Сохранить видеофон '" + m_pendingActionVariant.name +
                                       "' в recordings/covers заранее, чтобы он активировался при установке игры?";
                 }
@@ -1745,199 +1957,6 @@ void App::onButtonPress(int button) {
                 return;
             }
         }
-        return;
-    }
-
-    // If Dialog is active, route all input to dialog
-    if (m_activeDialog != DialogType::None) {
-        if (SDL_GetTicks() - m_dialogOpenedAt < 150) {
-            return;
-        }
-        if (m_activeDialog == DialogType::UpdateProgress) {
-            // While downloading, allow B to hide modal to background
-            if (button == 1 /* B */) {
-                m_activeDialog = DialogType::None;
-            }
-            return;
-        }
-        if (m_activeDialog == DialogType::UpdateSuccess) {
-            if (button == 0 /* A - Restart App */) {
-                m_running = false; // Exit to hbmenu so user launches newly updated NRO
-            } else if (button == 1 /* B - Continue */) {
-                m_activeDialog = DialogType::None;
-            }
-            return;
-        }
-        if (m_activeDialog == DialogType::MessageAlert || m_activeDialog == DialogType::IntegrityCheckResult) {
-            if (button == 0 || button == 1) {
-                m_activeDialog = DialogType::None;
-            }
-            return;
-        }
-        if (m_activeDialog == DialogType::ConfirmInstallLocalRecording) {
-            if (button == 0) {
-                m_activeDialog = DialogType::None;
-                executeInstallLocalRecording();
-            } else if (button == 1) {
-                m_activeDialog = DialogType::None;
-            }
-            return;
-        }
-        if (m_activeDialog == DialogType::ConfirmDeleteCorrupted) {
-            if (button == 13 || button == 14) {
-                m_dialogFocus = 1 - m_dialogFocus;
-            } else if (button == 0) {
-                if (m_dialogFocus == 0) {
-                    m_activeDialog = DialogType::None;
-                    executeDeleteCorruptedCovers();
-                } else {
-                    m_activeDialog = DialogType::None;
-                }
-            } else if (button == 1) {
-                m_activeDialog = DialogType::None;
-            }
-            return;
-        }
-
-        bool isInstallWithIcon = (m_activeDialog == DialogType::ConfirmInstall && m_pendingActionVariant.hasIcon);
-        bool isDeleteBoth = false;
-        if (m_activeDialog == DialogType::ConfirmDelete) {
-            for (const auto& g : m_installedGames) {
-                if (g.titleId == m_pendingActionTitleId) {
-                    if (g.hasInstalledCover && g.hasInstalledIcon) {
-                        isDeleteBoth = true;
-                    }
-                    break;
-                }
-            }
-        }
-
-        if (button == 13 /* DPAD_LEFT */ || button == 14 /* DPAD_RIGHT */) {
-            if (isInstallWithIcon || isDeleteBoth) {
-                m_dialogFocus = (button == 13) ? ((m_dialogFocus + 3) % 4) : ((m_dialogFocus + 1) % 4);
-            } else {
-                m_dialogFocus = 1 - m_dialogFocus;
-            }
-            return;
-        }
-
-        // Direct Quick Shortcuts for Multi-Option Dialogs:
-        // [X] -> Only Icon
-        if (button == 2 /* X */) {
-            if (isInstallWithIcon) {
-                InstalledTitle targetGame;
-                bool found = false;
-                for (const auto& g : m_installedGames) {
-                    if (g.titleId == m_pendingActionTitleId) { targetGame = g; found = true; break; }
-                }
-                if (!found) { targetGame.titleId = m_pendingActionTitleId; targetGame.name = m_previewGameName; targetGame.hasCatalogMatch = true; }
-                queueDownloadIconOnly(targetGame, m_pendingActionVariant);
-                m_activeDialog = DialogType::None;
-                return;
-            } else if (isDeleteBoth) {
-                executeDeleteIcon(m_pendingActionTitleId);
-                m_activeDialog = DialogType::None;
-                return;
-            }
-        }
-        // [Y] -> Only Video Cover
-        if (button == 3 /* Y */) {
-            if (isInstallWithIcon) {
-                InstalledTitle targetGame;
-                bool found = false;
-                for (const auto& g : m_installedGames) {
-                    if (g.titleId == m_pendingActionTitleId) { targetGame = g; found = true; break; }
-                }
-                if (!found) { targetGame.titleId = m_pendingActionTitleId; targetGame.name = m_previewGameName; targetGame.hasCatalogMatch = true; }
-                queueDownloadCoverOnly(targetGame, m_pendingActionVariant);
-                m_activeDialog = DialogType::None;
-                return;
-            } else if (isDeleteBoth) {
-                executeDeleteCover(m_pendingActionTitleId);
-                m_activeDialog = DialogType::None;
-                return;
-            }
-        }
-
-        if (button == 0 /* A - Confirm */) {
-            if (m_activeDialog == DialogType::ConfirmInstall) {
-                InstalledTitle targetGame;
-                bool found = false;
-                for (const auto& g : m_installedGames) {
-                    if (g.titleId == m_pendingActionTitleId) { targetGame = g; found = true; break; }
-                }
-                if (!found) { targetGame.titleId = m_pendingActionTitleId; targetGame.name = m_previewGameName; targetGame.hasCatalogMatch = true; }
-
-                if (isInstallWithIcon) {
-                    if (m_dialogFocus == 0) {
-                        // Install Both (Cover + Icon)
-                        queueDownload(targetGame, m_pendingActionVariant);
-                    } else if (m_dialogFocus == 1) {
-                        // Install ONLY Icon
-                        queueDownloadIconOnly(targetGame, m_pendingActionVariant);
-                    } else if (m_dialogFocus == 2) {
-                        // Install ONLY Cover
-                        queueDownloadCoverOnly(targetGame, m_pendingActionVariant);
-                    }
-                    // focus == 3 is cancel
-                } else {
-                    if (m_dialogFocus == 0) {
-                        queueDownload(targetGame, m_pendingActionVariant);
-                    }
-                }
-            } else if (m_activeDialog == DialogType::ConfirmInstallAll) {
-                if (m_dialogFocus == 0) {
-                    for (const auto& g : m_installedGames) {
-                        if (!g.hasInstalledCover && g.hasCatalogMatch && !g.catalogEntry.variants.empty()) {
-                            bool alreadyInQueue = false;
-                            for (const auto& task : m_downloadQueue) {
-                                if (task.titleId == g.titleId && task.state != TaskState::Failed) {
-                                    alreadyInQueue = true;
-                                    break;
-                                }
-                            }
-                            if (!alreadyInQueue) {
-                                queueDownload(g, g.catalogEntry.variants[0]);
-                            }
-                        }
-                    }
-                    m_activeTab = Tab::Downloads;
-                }
-            } else if (m_activeDialog == DialogType::ConfirmRestore) {
-                if (m_dialogFocus == 0) {
-                    executeRestoreBackup(m_pendingActionTitleId);
-                }
-            } else if (m_activeDialog == DialogType::ConfirmDelete) {
-                if (isDeleteBoth) {
-                    if (m_dialogFocus == 0) {
-                        executeDeleteCover(m_pendingActionTitleId);
-                        executeDeleteIcon(m_pendingActionTitleId);
-                    } else if (m_dialogFocus == 1) {
-                        executeDeleteIcon(m_pendingActionTitleId);
-                    } else if (m_dialogFocus == 2) {
-                        executeDeleteCover(m_pendingActionTitleId);
-                    }
-                } else {
-                    if (m_dialogFocus == 0) {
-                        bool hadCover = false;
-                        for (const auto& g : m_installedGames) {
-                            if (g.titleId == m_pendingActionTitleId) { hadCover = g.hasInstalledCover; break; }
-                        }
-                        if (hadCover) executeDeleteCover(m_pendingActionTitleId);
-                        else executeDeleteIcon(m_pendingActionTitleId);
-                    }
-                }
-            }
-            m_activeDialog = DialogType::None;
-        } else if (button == 1 /* B - Cancel */) {
-            m_activeDialog = DialogType::None;
-        }
-        return;
-    }
-
-    // Universal Minus (-) button: Global Refresh
-    if (button == 4 /* SDL_CONTROLLER_BUTTON_BACK (Minus / -) */) {
-        fetchRemoteCatalog();
         return;
     }
 
@@ -1953,36 +1972,38 @@ void App::onButtonPress(int button) {
         }
     }
 
-    // Tab switching with Shoulder buttons (L/R)
-    if (button == 9 /* LEFTSHOULDER */) {
-        uint32_t now = SDL_GetTicks();
-        if (now - m_lastTabSwitchTime > 150) {
-            if (m_activeTab == Tab::Home) {
-                m_homeFocusedTile = (m_homeFocusedTile == 0) ? 4 : m_homeFocusedTile - 1;
-            } else {
-                int tabInt = static_cast<int>(m_activeTab);
-                tabInt = (tabInt <= 1) ? 5 : tabInt - 1;
-                m_activeTab = static_cast<Tab>(tabInt);
-                if (m_activeTab == Tab::VideoIcons) rebuildVideoIconsFilter();
+    // Tab switching with Shoulder buttons (L/R) - Active in Home, MyGames, Downloads, Settings
+    if (m_activeTab != Tab::Catalog) {
+        if (button == 9 /* LEFTSHOULDER */) {
+            uint32_t now = SDL_GetTicks();
+            if (now - m_lastTabSwitchTime > 150) {
+                if (m_activeTab == Tab::Home) {
+                    m_homeFocusedTile = (m_homeFocusedTile == 0) ? 4 : m_homeFocusedTile - 1;
+                } else {
+                    int tabInt = static_cast<int>(m_activeTab);
+                    tabInt = (tabInt <= 1) ? 5 : tabInt - 1;
+                    m_activeTab = static_cast<Tab>(tabInt);
+                    if (m_activeTab == Tab::VideoIcons) rebuildVideoIconsFilter();
+                }
+                m_lastTabSwitchTime = now;
             }
-            m_lastTabSwitchTime = now;
+            return;
         }
-        return;
-    }
-    if (button == 10 /* RIGHTSHOULDER */) {
-        uint32_t now = SDL_GetTicks();
-        if (now - m_lastTabSwitchTime > 150) {
-            if (m_activeTab == Tab::Home) {
-                m_homeFocusedTile = (m_homeFocusedTile == 4) ? 0 : m_homeFocusedTile + 1;
-            } else {
-                int tabInt = static_cast<int>(m_activeTab);
-                tabInt = (tabInt >= 5) ? 1 : tabInt + 1;
-                m_activeTab = static_cast<Tab>(tabInt);
-                if (m_activeTab == Tab::VideoIcons) rebuildVideoIconsFilter();
+        if (button == 10 /* RIGHTSHOULDER */) {
+            uint32_t now = SDL_GetTicks();
+            if (now - m_lastTabSwitchTime > 150) {
+                if (m_activeTab == Tab::Home) {
+                    m_homeFocusedTile = (m_homeFocusedTile == 4) ? 0 : m_homeFocusedTile + 1;
+                } else {
+                    int tabInt = static_cast<int>(m_activeTab);
+                    tabInt = (tabInt >= 5) ? 1 : tabInt + 1;
+                    m_activeTab = static_cast<Tab>(tabInt);
+                    if (m_activeTab == Tab::VideoIcons) rebuildVideoIconsFilter();
+                }
+                m_lastTabSwitchTime = now;
             }
-            m_lastTabSwitchTime = now;
+            return;
         }
-        return;
     }
 
     // View-specific input handling
@@ -2026,6 +2047,10 @@ void App::onButtonPress(int button) {
             return;
         }
         if (button == 2 /* X - Refresh */) {
+            fetchRemoteCatalog();
+            return;
+        }
+        if (button == 4 /* MINUS (-) - Refresh Catalog */) {
             fetchRemoteCatalog();
             return;
         }
@@ -2254,7 +2279,7 @@ void App::onButtonPress(int button) {
         }
 
         // [L] - Switch to "Весь каталог" tab
-        if (button == 7 /* L */) {
+        if (button == 9 /* L / LEFTSHOULDER */ || button == 7 /* L3 */) {
             if (m_catalogSortMode == CatalogSortMode::FavoritesOnly) {
                 m_catalogSortMode = CatalogSortMode::Default;
                 m_activeCategoryName = "Весь каталог";
@@ -2268,7 +2293,7 @@ void App::onButtonPress(int button) {
         }
 
         // [R] - Switch to "Избранное" tab
-        if (button == 8 /* R */) {
+        if (button == 10 /* R / RIGHTSHOULDER */ || button == 8 /* R3 */) {
             if (m_catalogSortMode != CatalogSortMode::FavoritesOnly) {
                 m_catalogSortMode = CatalogSortMode::FavoritesOnly;
                 m_activeCategoryName = "Избранное";
@@ -2454,6 +2479,7 @@ void App::onButtonPress(int button) {
 void App::render() {
 #ifdef HAS_SDL2
     if (!m_renderer) return;
+    m_renderFrameIndex++;
 
     if (m_isFullscreenPreview) {
         renderFullscreenPreview();
@@ -3914,6 +3940,24 @@ void App::drawText(const std::string& text, int x, int y, Color color, int sizeP
 #ifdef HAS_SDL2
     if (text.empty() || !m_renderer) return;
 
+    uint32_t rgba = (static_cast<uint32_t>(color.r) << 24) |
+                    (static_cast<uint32_t>(color.g) << 16) |
+                    (static_cast<uint32_t>(color.b) << 8)  |
+                    (static_cast<uint32_t>(color.a));
+    TextCacheKey key{text, sizePx, rgba};
+    auto it = m_textCache.find(key);
+    if (it != m_textCache.end()) {
+        it->second.lastUsedFrame = m_renderFrameIndex;
+        int drawW = it->second.width;
+        if (maxWidth > 0 && drawW > maxWidth) {
+            drawW = maxWidth;
+        }
+        SDL_Rect srcRect = {0, 0, drawW, it->second.height};
+        SDL_Rect dstRect = {x, y, drawW, it->second.height};
+        SDL_RenderCopy(m_renderer, it->second.texture, &srcRect, &dstRect);
+        return;
+    }
+
     TTF_Font* font = getFont(sizePx);
     if (font) {
         SDL_Color sdlColor = {color.r, color.g, color.b, color.a};
@@ -3921,14 +3965,31 @@ void App::drawText(const std::string& text, int x, int y, Color color, int sizeP
         if (surf) {
             SDL_Texture* tex = SDL_CreateTextureFromSurface(m_renderer, surf);
             if (tex) {
-                int drawW = surf->w;
+                int w = surf->w;
+                int h = surf->h;
+                m_textCache[key] = TextCacheEntry{tex, w, h, m_renderFrameIndex};
+
+                // Periodically prune stale entries if cache exceeds capacity
+                if (m_textCache.size() > 600) {
+                    for (auto cit = m_textCache.begin(); cit != m_textCache.end(); ) {
+                        if (m_renderFrameIndex > cit->second.lastUsedFrame + 180) {
+                            if (cit->second.texture) {
+                                SDL_DestroyTexture(cit->second.texture);
+                            }
+                            cit = m_textCache.erase(cit);
+                        } else {
+                            ++cit;
+                        }
+                    }
+                }
+
+                int drawW = w;
                 if (maxWidth > 0 && drawW > maxWidth) {
                     drawW = maxWidth;
                 }
-                SDL_Rect srcRect = {0, 0, drawW, surf->h};
-                SDL_Rect dstRect = {x, y, drawW, surf->h};
+                SDL_Rect srcRect = {0, 0, drawW, h};
+                SDL_Rect dstRect = {x, y, drawW, h};
                 SDL_RenderCopy(m_renderer, tex, &srcRect, &dstRect);
-                SDL_DestroyTexture(tex);
             }
             SDL_FreeSurface(surf);
             return;
@@ -3961,12 +4022,22 @@ void App::drawBitmapTextFallback(const std::string& text, int x, int y, Color co
 }
 
 void App::run() {
+    const uint32_t targetFrameTimeMs = 16; // 60 FPS pacing budget
+
     while (m_running) {
+#ifdef HAS_SDL2
+        uint32_t frameStart = SDL_GetTicks();
+#endif
         handleInput();
         update();
         render();
 #ifdef HAS_SDL2
-        SDL_Delay(16); // ~60 FPS cap
+        uint32_t frameElapsed = SDL_GetTicks() - frameStart;
+        if (frameElapsed < targetFrameTimeMs) {
+            SDL_Delay(targetFrameTimeMs - frameElapsed);
+        } else {
+            SDL_Delay(1);
+        }
 #else
         break; // In non-SDL test mode, run one cycle
 #endif
@@ -3998,7 +4069,8 @@ void App::renderFullscreenPreview() {
         // Status badge: LIVE VIDEO
         drawRect(30, 20, 280, 32, {0x0F, 0x17, 0x2A, 0xDD});
         drawRectOutline(30, 20, 280, 32, Theme::COLOR_SUCCESS, 1);
-        drawText("ЖИВОЙ ВИДЕОФОН (30 FPS)", 45, 28, Theme::COLOR_SUCCESS, 13);
+        std::string badgeTxt = m_previewIsIconSquare ? "ЖИВАЯ ВИДЕОИКОНКА (30 FPS)" : "ЖИВОЙ ВИДЕОФОН (30 FPS)";
+        drawText(badgeTxt, 45, 28, Theme::COLOR_SUCCESS, 13);
     } else if (m_previewTexture) {
         SDL_RenderCopy(m_renderer, m_previewTexture, nullptr, &targetRect);
 
@@ -4011,7 +4083,8 @@ void App::renderFullscreenPreview() {
         } else {
             drawRect(30, 20, 290, 32, {0x0F, 0x17, 0x2A, 0xDD});
             drawRectOutline(30, 20, 290, 32, Theme::COLOR_BORDER, 1);
-            drawText("Предпросмотр (Статичный кадр)", 45, 28, Theme::COLOR_TEXT_MUTED, 13);
+            std::string badgeTxt = m_previewIsIconSquare ? "Видеоиконка (Статичный кадр)" : "Предпросмотр (Статичный кадр)";
+            drawText(badgeTxt, 45, 28, Theme::COLOR_TEXT_MUTED, 13);
         }
     } else {
         // Fallback canvas with subtle Cyber-Glass animated glow
@@ -4019,11 +4092,14 @@ void App::renderFullscreenPreview() {
         drawNeonGradientOutline(0, 0, Theme::SCREEN_WIDTH, Theme::SCREEN_HEIGHT, 3);
 
         if (m_previewLoading || m_videoDownloading) {
-            drawText("Загрузка видеофона (1280x720 HD)...", 400, 320, Theme::COLOR_FOCUS_CYAN, 20);
+            std::string loadingTxt = m_previewIsIconSquare ? "Загрузка видеоиконки (256x256)..." : "Загрузка видеофона (1280x720 HD)...";
+            drawText(loadingTxt, 400, 320, Theme::COLOR_FOCUS_CYAN, 20);
             drawText("Пожалуйста, подождите несколько секунд...", 450, 360, Theme::COLOR_TEXT_MUTED, 14);
         } else {
-            drawText("Видеофон недоступен офлайн (нет подключения)", 390, 320, Theme::COLOR_WARNING, 20);
-            drawText("Нажмите [A], чтобы установить видеофон из кэша", 430, 360, Theme::COLOR_TEXT_MUTED, 14);
+            std::string offlineTxt = m_previewIsIconSquare ? "Видеоиконка недоступна офлайн" : "Видеофон недоступен офлайн (нет подключения)";
+            drawText(offlineTxt, 390, 320, Theme::COLOR_WARNING, 20);
+            std::string hintTxt = m_previewIsIconSquare ? "Нажмите [A], чтобы установить видеоиконку из кэша" : "Нажмите [A], чтобы установить видеофон из кэша";
+            drawText(hintTxt, 430, 360, Theme::COLOR_TEXT_MUTED, 14);
         }
     }
 
@@ -4054,39 +4130,52 @@ void App::renderFullscreenPreview() {
         if (mb >= 0.1) snprintf(mbBuf, sizeof(mbBuf), "%.1f MB", mb);
         else snprintf(mbBuf, sizeof(mbBuf), "~3.5 MB");
 
-        std::string specs = "1280x720 @30fps  |  " + std::string(mbBuf) +
+        std::string resStr = m_previewIsIconSquare ? "256x256 (Иконка)" : "1280x720 @30fps";
+        std::string specs = resStr + "  |  " + std::string(mbBuf) +
                             "  |  Вариант " + std::to_string(curV + 1) + " из " + std::to_string(totalV);
         drawText(specs, hudX + 25, hudY + 71, Theme::COLOR_TEXT_MUTED, 13, 255);
 
         // Sequential dynamic badges starting at hudX + 285
         int badgeX = hudX + 285;
 
-        if (v.hasAudio) {
-            drawRect(badgeX, hudY + 66, 65, 24, {0x10, 0xB9, 0x81, 0x33});
-            drawRectOutline(badgeX, hudY + 66, 65, 24, Theme::COLOR_SUCCESS, 1);
-            drawText("ЗВУК", badgeX + 16, hudY + 71, Theme::COLOR_SUCCESS, 11);
-            badgeX += 73;
-        } else {
-            drawRect(badgeX, hudY + 66, 80, 24, {0x28, 0x33, 0x47, 0x44});
-            drawRectOutline(badgeX, hudY + 66, 80, 24, Theme::COLOR_BORDER, 1);
-            drawText("БЕЗ ЗВУКА", badgeX + 10, hudY + 71, Theme::COLOR_TEXT_MUTED, 11);
-            badgeX += 88;
-        }
+        if (!m_previewIsIconSquare) {
+            if (v.hasAudio) {
+                drawRect(badgeX, hudY + 66, 65, 24, {0x10, 0xB9, 0x81, 0x33});
+                drawRectOutline(badgeX, hudY + 66, 65, 24, Theme::COLOR_SUCCESS, 1);
+                drawText("ЗВУК", badgeX + 16, hudY + 71, Theme::COLOR_SUCCESS, 11);
+                badgeX += 73;
+            } else {
+                drawRect(badgeX, hudY + 66, 80, 24, {0x28, 0x33, 0x47, 0x44});
+                drawRectOutline(badgeX, hudY + 66, 80, 24, Theme::COLOR_BORDER, 1);
+                drawText("БЕЗ ЗВУКА", badgeX + 10, hudY + 71, Theme::COLOR_TEXT_MUTED, 11);
+                badgeX += 88;
+            }
 
-        if (v.hasIcon) {
-            drawRect(badgeX, hudY + 66, 80, 24, Theme::COLOR_ICON_BADGE_FILL);
-            drawRectOutline(badgeX, hudY + 66, 80, 24, Theme::COLOR_ICON_BADGE, 1);
-            drawText("ИКОНКА", badgeX + 13, hudY + 71, Theme::COLOR_ICON_BADGE, 11);
-            badgeX += 88;
+            if (v.hasIcon) {
+                drawRect(badgeX, hudY + 66, 80, 24, Theme::COLOR_ICON_BADGE_FILL);
+                drawRectOutline(badgeX, hudY + 66, 80, 24, Theme::COLOR_ICON_BADGE, 1);
+                drawText("ИКОНКА", badgeX + 13, hudY + 71, Theme::COLOR_ICON_BADGE, 11);
+                badgeX += 88;
+            } else {
+                drawRect(badgeX, hudY + 66, 92, 24, Theme::COLOR_MUTED_BADGE_FILL);
+                drawRectOutline(badgeX, hudY + 66, 92, 24, Theme::COLOR_BORDER, 1);
+                drawText("БЕЗ ИКОНКИ", badgeX + 9, hudY + 71, Theme::COLOR_TEXT_MUTED, 11);
+                badgeX += 100;
+            }
         } else {
-            drawRect(badgeX, hudY + 66, 92, 24, Theme::COLOR_MUTED_BADGE_FILL);
-            drawRectOutline(badgeX, hudY + 66, 92, 24, Theme::COLOR_BORDER, 1);
-            drawText("БЕЗ ИКОНКИ", badgeX + 9, hudY + 71, Theme::COLOR_TEXT_MUTED, 11);
-            badgeX += 100;
+            drawRect(badgeX, hudY + 66, 120, 24, Theme::COLOR_ICON_BADGE_FILL);
+            drawRectOutline(badgeX, hudY + 66, 120, 24, Theme::COLOR_ICON_BADGE, 1);
+            drawText("ВИДЕОИКОНКА", badgeX + 10, hudY + 71, Theme::COLOR_ICON_BADGE, 11);
+            badgeX += 128;
         }
 
         // Active variant identification: exactly matches the installed variant
-        bool isActiveVariant = (m_previewHasInstalledCover && v.id == m_previewInstalledVariantId);
+        bool isActiveVariant = false;
+        if (m_previewIsIconSquare) {
+            isActiveVariant = m_previewHasInstalledCover;
+        } else {
+            isActiveVariant = (m_previewHasInstalledCover && v.id == m_previewInstalledVariantId);
+        }
 
         if (isActiveVariant) {
             drawRect(badgeX, hudY + 66, 155, 24, {0x10, 0xB9, 0x81, 0x33});
@@ -4106,11 +4195,13 @@ void App::renderFullscreenPreview() {
         } else if (isActiveVariant) {
             drawRect(hudX + 900, hudY + 14, 270, 38, {0x10, 0xB9, 0x81, 0x33});
             drawRectOutline(hudX + 900, hudY + 14, 270, 38, Theme::COLOR_SUCCESS, 1);
-            drawText("[A] Переустановить", hudX + 950, hudY + 24, Theme::COLOR_SUCCESS, 14);
+            std::string aTxt = m_previewIsIconSquare ? "[A] Переустановить иконку" : "[A] Переустановить";
+            drawText(aTxt, hudX + (m_previewIsIconSquare ? 920 : 950), hudY + 24, Theme::COLOR_SUCCESS, 14);
         } else if (m_previewIsGameInstalled) {
             drawRect(hudX + 900, hudY + 14, 270, 38, Theme::COLOR_FOCUS_FILL);
             drawRectOutline(hudX + 900, hudY + 14, 270, 38, Theme::COLOR_FOCUS_CYAN, 1);
-            drawText("[A] Установить видеофон", hudX + 930, hudY + 24, Theme::COLOR_FOCUS_CYAN, 14);
+            std::string aTxt = m_previewIsIconSquare ? "[A] Установить видеоиконку" : "[A] Установить видеофон";
+            drawText(aTxt, hudX + (m_previewIsIconSquare ? 915 : 930), hudY + 24, Theme::COLOR_FOCUS_CYAN, 14);
         } else {
             drawRect(hudX + 900, hudY + 14, 270, 38, {0x16, 0x20, 0x32, 0xAA});
             drawRectOutline(hudX + 900, hudY + 14, 270, 38, Theme::COLOR_BORDER, 1);
@@ -4124,8 +4215,10 @@ void App::renderFullscreenPreview() {
             drawText("В ИЗБРАННОМ", hudX + 715, hudY + 24, {0xFF, 0xD7, 0x00, 0xFF}, 14);
         }
 
-        drawText("[R3/L] В избранное", hudX + 680, hudY + 71, Theme::COLOR_TEXT_MUTED, 13);
-        drawText("[Y] Привязать", hudX + 850, hudY + 71, Theme::COLOR_FOCUS_CYAN, 13);
+        if (!m_previewIsIconSquare) {
+            drawText("[R3/L] В избранное", hudX + 680, hudY + 71, Theme::COLOR_TEXT_MUTED, 13);
+            drawText("[Y] Привязать", hudX + 850, hudY + 71, Theme::COLOR_FOCUS_CYAN, 13);
+        }
         if (totalV > 1) {
             drawText("[D-Pad] Вариант", hudX + 975, hudY + 71, Theme::COLOR_FOCUS_PINK, 13);
         }
@@ -4192,7 +4285,7 @@ void App::loadPreviewTexture(const std::string& titleId, const Variant& variant)
 #ifdef HAS_SDL2
     m_videoPlayer.close();
 
-    std::string cacheKey = titleId + "_" + variant.id;
+    std::string cacheKey = m_previewIsIconSquare ? ("icon_" + titleId + "_" + variant.id) : (titleId + "_" + variant.id);
     m_previewCurrentVariantId = cacheKey;
 
     if (m_previewTexture) {
@@ -4206,18 +4299,26 @@ void App::loadPreviewTexture(const std::string& titleId, const Variant& variant)
     std::string thumbFile = thumbDir + "/" + cacheKey + ".jpg";
     std::string vidFile = thumbDir + "/" + cacheKey + ".mp4";
 
-    // 1. Check if THIS SPECIFIC VARIANT is the active installed cover on console
-    bool isThisVariantInstalled = (m_previewHasInstalledCover &&
-                                   variant.id == m_previewInstalledVariantId &&
-                                   !m_previewInstalledCoverPath.empty() &&
-                                   std::filesystem::exists(m_previewInstalledCoverPath, ec));
+    // 1. Check if THIS SPECIFIC VARIANT is the active installed cover/icon on console
+    bool isThisVariantInstalled = false;
+    if (m_previewIsIconSquare) {
+        isThisVariantInstalled = (m_previewHasInstalledCover &&
+                                  !m_previewInstalledCoverPath.empty() &&
+                                  std::filesystem::exists(m_previewInstalledCoverPath, ec));
+    } else {
+        isThisVariantInstalled = (m_previewHasInstalledCover &&
+                                  variant.id == m_previewInstalledVariantId &&
+                                  !m_previewInstalledCoverPath.empty() &&
+                                  std::filesystem::exists(m_previewInstalledCoverPath, ec));
+    }
 
     if (isThisVariantInstalled) {
         // Play directly from SD card with 0 network delay!
         m_videoPlayer.open(m_previewInstalledCoverPath, m_renderer);
     } else if (std::filesystem::exists(vidFile, ec)) {
         uint64_t cachedSz = std::filesystem::file_size(vidFile, ec);
-        if (cachedSz > 50000) {
+        uint64_t minSz = m_previewIsIconSquare ? 15000 : 50000;
+        if (cachedSz > minSz) {
             if (!m_videoPlayer.open(vidFile, m_renderer)) {
                 // Corrupted cache -> purge so it can redownload cleanly
                 std::filesystem::remove(vidFile, ec);
@@ -4246,9 +4347,19 @@ void App::loadPreviewTexture(const std::string& titleId, const Variant& variant)
 
     // 4. Download snapshot and video in background
     std::string thumbUrl = variant.previewUrl;
-    size_t szPos = thumbUrl.find("sz=w640");
-    if (szPos != std::string::npos) {
-        thumbUrl.replace(szPos, 7, "sz=w1280");
+    if (thumbUrl.empty()) {
+        size_t idPos = variant.url.find("id=");
+        if (idPos != std::string::npos) {
+            std::string drvId = variant.url.substr(idPos + 3);
+            size_t amp = drvId.find('&');
+            if (amp != std::string::npos) drvId = drvId.substr(0, amp);
+            thumbUrl = "https://drive.google.com/thumbnail?id=" + drvId + (m_previewIsIconSquare ? "&sz=w640" : "&sz=w1280");
+        }
+    } else if (!m_previewIsIconSquare) {
+        size_t szPos = thumbUrl.find("sz=w640");
+        if (szPos != std::string::npos) {
+            thumbUrl.replace(szPos, 7, "sz=w1280");
+        }
     }
     std::string videoUrl = variant.url;
 
@@ -6358,6 +6469,7 @@ void App::openFullscreenVideoIconPreview(const GameCatalogEntry& entry, int vari
     m_previewIsGameInstalled = true;
     m_previewHasInstalledCover = isIconInstalled(entry.titleId);
     m_previewIsIconSquare = true;
+    m_previewInstalledVariantId = iconVars[vIdx].id;
     m_previewInstalledCoverPath = m_platform->getIconsDirectory() + "/" + Config::getTargetIconFileName(entry.titleId);
     m_isFullscreenPreview = true;
     m_previewOpenedAt = SDL_GetTicks();

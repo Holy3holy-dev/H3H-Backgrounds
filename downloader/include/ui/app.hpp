@@ -211,6 +211,7 @@ public:
 
     void loadTabIcons();
     void freeTabIcons();
+    void clearTextCache();
 
 private:
     std::unique_ptr<IPlatform> m_platform;
@@ -222,6 +223,29 @@ private:
     std::map<int, TTF_Font*> m_fonts;
     const void* m_fontMemBuffer{nullptr};
     size_t m_fontMemSize{0};
+
+    // TTF Font & Rendered Text Texture Cache (60 FPS optimization)
+    struct TextCacheKey {
+        std::string text;
+        int sizePx{16};
+        uint32_t colorRgba{0xFFFFFFFF};
+
+        bool operator<(const TextCacheKey& o) const {
+            if (sizePx != o.sizePx) return sizePx < o.sizePx;
+            if (colorRgba != o.colorRgba) return colorRgba < o.colorRgba;
+            return text < o.text;
+        }
+    };
+
+    struct TextCacheEntry {
+        SDL_Texture* texture{nullptr};
+        int width{0};
+        int height{0};
+        uint32_t lastUsedFrame{0};
+    };
+
+    std::map<TextCacheKey, TextCacheEntry> m_textCache;
+    uint32_t m_renderFrameIndex{0};
 
     // State
     bool m_running{true};
