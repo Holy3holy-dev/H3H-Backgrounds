@@ -14,6 +14,15 @@
 namespace fs = std::filesystem;
 using namespace h3h;
 
+static std::string makeMockMp4Payload(const std::string& tag, size_t totalBytes = 8192) {
+    std::string data = std::string("\x00\x00\x00\x20", 4) + "ftypisom" + std::string("\x00\x00\x02\x00", 4) + "isomiso2mp41";
+    data += tag;
+    if (data.size() < totalBytes) {
+        data.append(totalBytes - data.size(), 'A');
+    }
+    return data;
+}
+
 void runE2ETests() {
     std::cout << "=================================================" << std::endl;
     std::cout << "  H3H Stage 5: Comprehensive E2E Verification    " << std::endl;
@@ -32,7 +41,7 @@ void runE2ETests() {
     // Scenario 1: Clean First-Time Installation
     // -------------------------------------------------------------------------
     std::cout << "[SCENARIO 1] Clean First-Time Installation..." << std::endl;
-    std::string v1Content = "H3H_VIDEO_V1_OPENING_INTRO_STREAM_BYTES";
+    std::string v1Content = makeMockMp4Payload("H3H_VIDEO_V1_OPENING_INTRO_STREAM_BYTES", 8192);
     std::string tmp1 = testCoversDir + "/v1.tmp";
     {
         std::ofstream f(tmp1, std::ios::binary);
@@ -52,7 +61,7 @@ void runE2ETests() {
     // Scenario 2: Corrupted Network / Checksum Mismatch
     // -------------------------------------------------------------------------
     std::cout << "[SCENARIO 2] Corrupted Network / SHA-256 Mismatch..." << std::endl;
-    std::string corruptContent = "CORRUPTED_INCOMPLETE_STREAM";
+    std::string corruptContent = makeMockMp4Payload("CORRUPTED_INCOMPLETE_STREAM", 8192);
     std::string tmpCorrupt = testCoversDir + "/corrupt.tmp";
     {
         std::ofstream f(tmpCorrupt, std::ios::binary);
@@ -78,7 +87,7 @@ void runE2ETests() {
     // Scenario 3: Update / Replacement with Automatic Backup
     // -------------------------------------------------------------------------
     std::cout << "[SCENARIO 3] Update / Replacement with Automatic Backup..." << std::endl;
-    std::string v2Content = "H3H_VIDEO_V2_NEW_GAMEPLAY_ACTION_LOOP";
+    std::string v2Content = makeMockMp4Payload("H3H_VIDEO_V2_NEW_GAMEPLAY_ACTION_LOOP", 8192);
     std::string tmp2 = testCoversDir + "/v2.tmp";
     {
         std::ofstream f(tmp2, std::ios::binary);

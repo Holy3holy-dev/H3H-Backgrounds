@@ -82,7 +82,9 @@ void VideoPlayer::close() {
         m_formatCtx = nullptr;
     }
     if (m_avioCtx) {
-        // avio_context_free frees both m_avioCtx and the buffer allocated with av_malloc
+        if (m_avioCtx->buffer) {
+            av_freep(&m_avioCtx->buffer);
+        }
         avio_context_free(&m_avioCtx);
         m_avioCtx = nullptr;
         m_avioBuffer = nullptr;
@@ -98,6 +100,7 @@ void VideoPlayer::close() {
     m_videoStream = -1;
     m_isOpen = false;
     m_hasDecodedFirstFrame = false;
+    m_decodedFrames = 0;
     m_filepath.clear();
 }
 
@@ -112,6 +115,7 @@ bool VideoPlayer::open(const std::string& filepath, SDL_Renderer* renderer) {
         std::cerr << "[VideoPlayer] Failed to fopen: " << filepath << std::endl;
         return false;
     }
+    setvbuf(m_fileHandle, nullptr, _IOFBF, 128 * 1024);
 
     constexpr size_t AVIO_BUFFER_SIZE = 64 * 1024;
     m_avioBuffer = static_cast<uint8_t*>(av_malloc(AVIO_BUFFER_SIZE));
@@ -141,7 +145,10 @@ bool VideoPlayer::open(const std::string& filepath, SDL_Renderer* renderer) {
     }
 
     m_formatCtx->pb = m_avioCtx;
-    m_formatCtx->flags |= AVFMT_FLAG_CUSTOM_IO;
+    m_formatCtx->flags |= AVFMT_FLAG_CUSTOM_IO | AVFMT_FLAG_NOBUFFER;
+    // Fast probe: 4IFIR MP4 files have faststart moov atom at offset 0; cap probe to 192 KB / 0.4s to prevent main-thread SD stalls
+    m_formatCtx->probesize = 192 * 1024;
+    m_formatCtx->max_analyze_duration = 400000;
 
     // Use a generic mp4 extension hint so FFmpeg does not attempt protocol resolution on "sdmc:/"
     if (avformat_open_input(&m_formatCtx, "", nullptr, nullptr) != 0) {
@@ -203,9 +210,18 @@ bool VideoPlayer::open(const std::string& filepath, SDL_Renderer* renderer) {
         return false;
     }
 
-    // Always downscale to native Switch handheld/docked target 1280x720 to conserve VRAM & CPU
-    m_targetWidth = (m_width > 1280 || m_height > 720) ? 1280 : m_width;
-    m_targetHeight = (m_width > 1280 || m_height > 720) ? 720 : m_height;
+    // Downscale only if larger than 1280x720 to conserve VRAM & CPU.
+    // Square or smaller videos (like 256x256 video icons) keep their native resolution.
+    if (m_width == m_height && m_width > 720) {
+        m_targetWidth = 720;
+        m_targetHeight = 720;
+    } else if (m_width > 1280 || m_height > 720) {
+        m_targetWidth = 1280;
+        m_targetHeight = 720;
+    } else {
+        m_targetWidth = m_width;
+        m_targetHeight = m_height;
+    }
 
     AVRational rate = m_formatCtx->streams[m_videoStream]->r_frame_rate;
     if (rate.den > 0 && rate.num > 0) {
@@ -266,6 +282,7 @@ bool VideoPlayer::open(const std::string& filepath, SDL_Renderer* renderer) {
                                   dstData, dstLinesize);
                         SDL_UnlockTexture(m_texture);
                         m_hasDecodedFirstFrame = true;
+                        m_decodedFrames++;
                         break;
                     }
                 }
@@ -290,7 +307,10 @@ void VideoPlayer::update() {
     if (now - m_lastFrameTime < static_cast<uint32_t>(m_frameIntervalMs)) {
         return;
     }
-    m_lastFrameTime = now;
+    m_lastFrameTime += static_cast<uint32_t>(m_frameIntervalMs);
+    if (now - m_lastFrameTime > 150) {
+        m_lastFrameTime = now;
+    }
 
     // Check if a frame is already decoded in codec buffers
     bool frameDecoded = false;
@@ -306,6 +326,7 @@ void VideoPlayer::update() {
             SDL_UnlockTexture(m_texture);
             frameDecoded = true;
             m_hasDecodedFirstFrame = true;
+            m_decodedFrames++;
             break;
         }
     }
@@ -320,6 +341,7 @@ void VideoPlayer::update() {
             // EOF reached: seek back to beginning for seamless loop
             int sret = av_seek_frame(m_formatCtx, m_videoStream, 0, AVSEEK_FLAG_BACKWARD);
             avcodec_flush_buffers(m_codecCtx);
+            m_decodedFrames = 0;
             if (sret < 0) {
                 // Seek failed -> break out of loop to avoid tight CPU spin
                 break;
@@ -341,6 +363,7 @@ void VideoPlayer::update() {
                         SDL_UnlockTexture(m_texture);
                         frameDecoded = true;
                         m_hasDecodedFirstFrame = true;
+                        m_decodedFrames++;
                         break;
                     }
                 }

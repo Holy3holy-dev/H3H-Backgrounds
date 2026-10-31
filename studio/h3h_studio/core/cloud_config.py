@@ -91,7 +91,6 @@ def push_catalog_to_github(
             if e.code != 404:
                 print(f"[!] Warning checking file sha: {e}")
 
-        raw_bytes = catalog_path.read_bytes()
         b64_content = base64.b64encode(raw_bytes).decode("ascii")
 
         put_payload = {

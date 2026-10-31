@@ -52,6 +52,8 @@ struct StorageStats {
     uint64_t freeSdBytes{0};
     int coversCount{0};
     uint64_t coversBytes{0};
+    int iconsCount{0};
+    uint64_t iconsBytes{0};
     int thumbsCount{0};
     uint64_t thumbsBytes{0};
     int vidCacheCount{0};
@@ -142,7 +144,7 @@ public:
     void closeGamePicker();
     void renderGamePicker();
 
-    // Collection / Variant Browser (Browse variants by name with static mini-previews)
+    // Collection / Variant Browser (Browse variants by name with static + live mini-previews)
     void openCollectionBrowser(const GameCatalogEntry& entry);
     void closeCollectionBrowser();
     void renderCollectionBrowser();
@@ -157,6 +159,22 @@ public:
     void rebuildVideoIconsFilter();
     void openVideoIconsKeyboard();
     bool isIconInstalled(const std::string& titleId) const;
+    int getSelectedVideoIconVariantIndex(const GameCatalogEntry& entry) const;
+    void loadVideoIconDockPreview(const GameCatalogEntry& entry, const Variant& iconVar);
+
+    // Cache Sanitization & Variant Extraction Helpers
+    void sanitizeThumbCache();
+    static std::vector<Variant> getUniqueIconVariants(const GameCatalogEntry& entry);
+    static std::vector<Variant> getCoverVariants(const GameCatalogEntry& entry);
+    SDL_Texture* getOrRequestRowThumb(const std::string& cacheKey, const std::string& thumbUrl, bool highPriority = false);
+    SDL_Texture* findCachedThumbTexture(const std::string& titleId, const Variant& variant, bool isIcon);
+    void clearRowThumbTextures();
+    void updateRowThumbPrefetcher();
+    void updateAsyncPreviewWorkers();
+    void renderBootSplash(const std::string& statusText, double progressPct);
+    const char* tr(const char* ru, const char* en) const {
+        return (m_language == Language::English) ? en : ru;
+    }
 
     // Feature 1: Favorites System
     void loadFavorites();
@@ -190,6 +208,7 @@ public:
     void drawRoundedOutline(int x, int y, int w, int h, int radius, Color topColor, Color bottomColor, int thickness = 2);
     void drawNeonRoundedOutline(int x, int y, int w, int h, int radius, int thickness = 2);
     void drawCircle(int cx, int cy, int r, Color col, bool fill = true);
+    void drawLoadingSpinner(int cx, int cy, int r, Color col);
     void drawWifiIcon(int cx, int cy, Color col);
     void drawSearchIcon(int cx, int cy, Color col);
     void drawGlassCard(int x, int y, int w, int h, bool isFocused, bool isElevated = false);
@@ -245,7 +264,9 @@ private:
     };
 
     std::map<TextCacheKey, TextCacheEntry> m_textCache;
+    std::map<std::string, int> m_textWidthCache;
     uint32_t m_renderFrameIndex{0};
+    uint32_t m_lastStorageRefreshTick{0};
 
     // State
     bool m_running{true};
@@ -265,6 +286,13 @@ private:
     float m_downloadArrowBob {0.0f};
     float m_equalizerHeights[3] {18.0f, 26.0f, 16.0f};
     float m_glowPulse {1.0f};
+    float m_spinnerAngle {0.0f};
+    float m_previewFadeAlpha {0.0f};
+    float m_smoothCatalogSelY {136.0f};
+    float m_smoothVideoIconsSelY {136.0f};
+    float m_smoothMyGamesSelY {105.0f};
+    float m_smoothDownloadsSelY {160.0f};
+    float m_smoothSettingsSelY {236.0f};
 
     // Tab Icon Textures (160x160 4IFIR Cyber-Glass Assets)
     SDL_Texture* m_tabIconTextures[5] {nullptr, nullptr, nullptr, nullptr, nullptr};
@@ -295,6 +323,28 @@ private:
     int m_videoIconsScrollOffset{0};
     std::string m_videoIconsSearchQuery;
     int m_videoIconsFilterMode{0}; // 0: All, 1: Installed, 2: Not Installed
+    std::map<std::string, int> m_videoIconVariantIdx;
+    bool m_videoIconDockDirty{false};
+    uint32_t m_lastVideoIconMoveTime{0};
+    SDL_Texture* m_videoIconDockTexture{nullptr};
+    std::string m_videoIconDockCurrentKey;
+    std::string m_pendingVideoIconDockThumb;
+    std::string m_pendingVideoIconDockVideo;
+    std::atomic<bool> m_videoIconDockLoading{false};
+    std::atomic<bool> m_videoIconDockVideoDownloading{false};
+
+    // Row 70x70 Mini-Thumbnails Cache & Non-Blocking Prefetcher
+    std::map<std::string, SDL_Texture*> m_rowThumbTextures;
+    std::set<std::string> m_failedRowThumbs;
+    std::thread m_rowThumbThread;
+    std::atomic<bool> m_rowThumbBusy{false};
+    std::atomic<bool> m_cancelRowThumb{false};
+    std::mutex m_rowThumbMutex;
+    std::string m_pendingRowThumbKey;
+    std::string m_pendingRowThumbPath;
+    std::string m_queuedRowThumbKey;
+    std::string m_queuedRowThumbUrl;
+    std::string m_queuedRowThumbDest;
 
     int m_settingsSelectedIndex{0};
 
@@ -323,6 +373,7 @@ private:
     std::atomic<bool> m_isUpdatingNro{false};
     std::atomic<bool> m_nroUpdateDone{false};
     std::string m_nroUpdateError;
+    std::string m_nroUpdateLatestVer;
     bool m_nroUpdateSuccess{false};
     std::mutex m_nroMutex;
     std::atomic<uint64_t> m_nroUpdateBytesDownloaded{0};
@@ -342,21 +393,33 @@ private:
     std::atomic<bool> m_isProcessingQueue{false};
     std::atomic<bool> m_cancelQueue{false};
     std::atomic<bool> m_queueTaskFinished{false};
-    std::mutex m_queueMutex;
+    mutable std::mutex m_queueMutex;
+    int m_downloadsSelectedIndex{0};
     int m_downloadsScrollOffset{0};
 
     // MyGames two-pane navigation & Fullscreen Preview
     MyGamesPane m_myGamesActivePane{MyGamesPane::GamesList};
     bool m_isFullscreenPreview{false};
+    bool m_previewShowSwitchHud{false};
     SDL_Texture* m_previewTexture{nullptr};
     std::string m_previewCurrentVariantId;
     std::string m_pendingPreviewFileToLoad;
     std::atomic<bool> m_previewLoading{false};
     std::thread m_previewThread;
     std::atomic<bool> m_cancelPreview{false};
+    std::atomic<bool> m_previewWorkerBusy{false};
+    std::atomic<uint64_t> m_previewDownloadBytes{0};
+    std::atomic<uint64_t> m_previewDownloadTotal{0};
+    bool m_previewTransferQueued{false};
+    std::string m_queuedPreviewThumbUrl;
+    std::string m_queuedPreviewVideoUrl;
+    std::string m_queuedPreviewThumbFile;
+    std::string m_queuedPreviewVidFile;
+    std::string m_queuedPreviewKey;
+    bool m_queuedPreviewIsIcon{false};
     std::mutex m_previewMutex;
 
-    // Live Video Playback inside Fullscreen Preview
+    // Live Video Playback inside Fullscreen Preview, Collection Browser & VideoIcons Dock
     VideoPlayer m_videoPlayer;
     std::string m_pendingVideoToOpen;
     std::atomic<bool> m_videoDownloading{false};
@@ -395,6 +458,7 @@ private:
 
     // Collection / Variant Browser state
     bool m_isCollectionBrowserOpen{false};
+    bool m_collectionPreviewIconMode{false};
     GameCatalogEntry m_collectionEntry;
     std::string m_collectionTitleId;
     std::string m_collectionGameName;
@@ -402,12 +466,27 @@ private:
     int m_collectionSelectedIndex{0};
     int m_collectionScrollOffset{0};
     uint32_t m_collectionOpenedAt{0};
+    bool m_collectionPreviewDirty{false};
+    uint32_t m_lastCollectionMoveTime{0};
     SDL_Texture* m_collectionThumbTexture{nullptr};
     std::string m_collectionCurrentThumbVariantId;
     std::string m_pendingCollectionThumbToLoad;
+    std::string m_pendingCollectionVideoToOpen;
     std::atomic<bool> m_collectionThumbLoading{false};
+    std::atomic<bool> m_collectionVideoDownloading{false};
     std::thread m_collectionThumbThread;
     std::atomic<bool> m_cancelCollectionThumb{false};
+    std::atomic<bool> m_collectionWorkerBusy{false};
+    std::atomic<uint64_t> m_collectionDownloadBytes{0};
+    std::atomic<uint64_t> m_collectionDownloadTotal{0};
+    bool m_collectionTransferQueued{false};
+    std::string m_queuedCollThumbUrl;
+    std::string m_queuedCollVideoUrl;
+    std::string m_queuedCollThumbFile;
+    std::string m_queuedCollVidFile;
+    std::string m_queuedCollKey;
+    bool m_queuedCollIsIcon{false};
+    bool m_queuedCollForDock{false};
     std::mutex m_collectionThumbMutex;
 
     // Integrity check state (Feature 5)

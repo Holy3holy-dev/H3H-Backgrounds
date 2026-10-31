@@ -146,7 +146,15 @@ def build():
     # Generate NACP metadata
     nacp_path = os.path.join(BUILD_DIR, "H3H-AfterDark.nacp")
     print("[*] Generating NACP metadata...")
-    app_version = "1.2.7"
+    app_version = "1.4.4"
+    v_file = os.path.join(ROOT_DIR, "version.json")
+    if os.path.exists(v_file):
+        try:
+            import json
+            with open(v_file, "r", encoding="utf-8") as vf:
+                app_version = json.load(vf).get("latestVersion", "1.4.4")
+        except Exception:
+            pass
 
     nacp_cmd = [
         NACPTOOL,

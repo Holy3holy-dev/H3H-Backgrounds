@@ -13,6 +13,15 @@
 namespace fs = std::filesystem;
 using namespace h3h;
 
+static std::string makeMockMp4Payload(const std::string& tag, size_t totalBytes = 8192) {
+    std::string data = std::string("\x00\x00\x00\x20", 4) + "ftypisom" + std::string("\x00\x00\x02\x00", 4) + "isomiso2mp41";
+    data += tag;
+    if (data.size() < totalBytes) {
+        data.append(totalBytes - data.size(), 'A');
+    }
+    return data;
+}
+
 void testSha256Vectors() {
     std::cout << "[TEST] Running SHA-256 Known Vectors..." << std::endl;
     // Known vector 1: empty string
@@ -36,7 +45,8 @@ void testTitleIdValidation() {
     assert(Config::isValidTitleId("01005CA01580E00") == false);   // 15 chars (short)
     assert(Config::isValidTitleId("01005CA01580E0000") == false);  // 17 chars (long)
     assert(Config::isValidTitleId("01005CA01580E00G") == false);  // G is not hex
-    assert(Config::isValidTitleId("02005CA01580E000") == false);  // 0200 prefix (not 0100)
+    assert(Config::isValidTitleId("01005CA01580E00Z") == false);  // Z is not hex
+    assert(Config::isValidTitleId("0000000000000000") == true);   // 16 hex chars (After Dark special)
     assert(Config::isValidTitleId("../../../01005CA") == false);   // Path traversal injection
 
     // Normalization check
@@ -51,7 +61,17 @@ void testCatalogManager() {
     std::cout << "[TEST] Running CatalogManager tests..." << std::endl;
     CatalogManager mgr;
     std::string err;
-    bool loaded = mgr.loadFromFile("catalog/fixtures/test_catalog.json", err);
+    std::string fixturePath = "catalog/fixtures/test_catalog.json";
+    if (!fs::exists(fixturePath)) {
+        if (fs::exists("../catalog/fixtures/test_catalog.json")) {
+            fixturePath = "../catalog/fixtures/test_catalog.json";
+        } else if (fs::exists("../../catalog/fixtures/test_catalog.json")) {
+            fixturePath = "../../catalog/fixtures/test_catalog.json";
+        } else if (fs::exists("E:/videofon/catalog/fixtures/test_catalog.json")) {
+            fixturePath = "E:/videofon/catalog/fixtures/test_catalog.json";
+        }
+    }
+    bool loaded = mgr.loadFromFile(fixturePath, err);
     if (!loaded) {
         std::cerr << "Failed to load fixture: " << err << std::endl;
     }
@@ -99,7 +119,7 @@ void testInstallerPipeline() {
 
     // 1. Create a mock downloaded temp file
     std::string tempFile = testDir + "/download.tmp";
-    std::string mockVideoContent = "TEST_H3H_MP4_VIDEO_STREAM_DATA_SAMPLE";
+    std::string mockVideoContent = makeMockMp4Payload("TEST_H3H_MP4_VIDEO_STREAM_DATA_SAMPLE", 8192);
     {
         std::ofstream out(tempFile, std::ios::binary);
         out << mockVideoContent;
@@ -139,7 +159,7 @@ void testInstallerPipeline() {
     assert(foundSize == expectedSize);
 
     // 4. Test replacement with automatic backup creation
-    std::string updatedContent = "UPDATED_H3H_MP4_NEW_STREAM_DATA";
+    std::string updatedContent = makeMockMp4Payload("UPDATED_H3H_MP4_NEW_STREAM_DATA", 8192);
     std::string tempFile2 = testDir + "/download2.tmp";
     {
         std::ofstream out(tempFile2, std::ios::binary);
@@ -187,6 +207,84 @@ void testInstallerPipeline() {
     std::cout << "  -> Installer pipeline PASS" << std::endl;
 }
 
+void testVideoIconValidationAndInstall() {
+    std::cout << "[TEST] Running Video Icon validation & install tests..." << std::endl;
+    std::string testIconsDir = "./test_run_icons";
+    std::error_code ec;
+    fs::remove_all(testIconsDir, ec);
+    fs::create_directories(testIconsDir, ec);
+
+    std::string titleId = "01005CA01580E000";
+
+    // a) Installer::validateVideoFile() accepts a valid 6 KB (6144 bytes) MP4 video icon file with ftyp header
+    std::string valid6KbFile = testIconsDir + "/valid_6kb_icon.mp4";
+    std::string valid6KbData = makeMockMp4Payload("HEVC_256_ICON", 6144);
+    assert(valid6KbData.size() == 6144);
+    {
+        std::ofstream out(valid6KbFile, std::ios::binary);
+        out << valid6KbData;
+    }
+    std::string valReason;
+    bool isValid = Installer::validateVideoFile(valid6KbFile, valReason);
+    if (!isValid) {
+        std::cerr << "Validation failed unexpectedly: " << valReason << std::endl;
+    }
+    assert(isValid == true);
+
+    // b) Installer::validateVideoFile() rejects an HTML error page (<!DOCTYPE html><html>404 Not Found</html> padded to 8 KB)
+    std::string htmlErrorFile = testIconsDir + "/html_error.mp4";
+    std::string htmlData = "<!DOCTYPE html><html><head><title>404 Not Found</title></head><body>404 Not Found</body></html>";
+    if (htmlData.size() < 8192) {
+        htmlData.append(8192 - htmlData.size(), ' ');
+    }
+    assert(htmlData.size() >= 8192);
+    {
+        std::ofstream out(htmlErrorFile, std::ios::binary);
+        out << htmlData;
+    }
+    std::string htmlReason;
+    bool isHtmlValid = Installer::validateVideoFile(htmlErrorFile, htmlReason);
+    assert(isHtmlValid == false);
+    assert(!htmlReason.empty());
+
+    // First install a valid icon into testIconsDir so there is an existing valid icon
+    std::string tempValidIcon = testIconsDir + "/temp_valid.tmp";
+    {
+        std::ofstream out(tempValidIcon, std::ios::binary);
+        out << valid6KbData;
+    }
+    InstallResult initInstall = Installer::installIcon(testIconsDir, titleId, tempValidIcon, valid6KbData.size(), false);
+    assert(initInstall.success == true);
+    std::string targetInstalledPath = testIconsDir + "/" + Config::getTargetIconFileName(titleId);
+    assert(fs::exists(targetInstalledPath));
+    uint64_t originalInstalledSize = fs::file_size(targetInstalledPath, ec);
+    assert(originalInstalledSize == 6144);
+
+    // c) Installer::installIcon() rejects an HTML error file and deletes the temp file without overwriting an existing valid icon
+    std::string tempHtmlIcon = testIconsDir + "/temp_html.tmp";
+    {
+        std::ofstream out(tempHtmlIcon, std::ios::binary);
+        out << htmlData;
+    }
+    InstallResult badIconInstall = Installer::installIcon(testIconsDir, titleId, tempHtmlIcon, htmlData.size(), true);
+    assert(badIconInstall.success == false);
+    assert(!fs::exists(tempHtmlIcon)); // Temporary file must be deleted on failure
+    assert(fs::exists(targetInstalledPath)); // Existing valid icon must still exist
+    assert(fs::file_size(targetInstalledPath, ec) == originalInstalledSize); // Not overwritten!
+
+    // Verify existing icon content is still intact
+    {
+        std::ifstream in(targetInstalledPath, std::ios::binary);
+        std::stringstream ss;
+        ss << in.rdbuf();
+        assert(ss.str() == valid6KbData);
+    }
+
+    // Cleanup
+    fs::remove_all(testIconsDir, ec);
+    std::cout << "  -> Video Icon validation & install PASS" << std::endl;
+}
+
 int main() {
     std::cout << "========================================" << std::endl;
     std::cout << "  H3H Downloader Core Test Suite        " << std::endl;
@@ -196,9 +294,10 @@ int main() {
     testTitleIdValidation();
     testCatalogManager();
     testInstallerPipeline();
+    testVideoIconValidationAndInstall();
 
     std::cout << "========================================" << std::endl;
-    std::cout << "  ALL 4 TEST MODULES PASSED (100% OK)   " << std::endl;
+    std::cout << "  ALL 5 TEST MODULES PASSED (100% OK)   " << std::endl;
     std::cout << "========================================" << std::endl;
     return 0;
 }

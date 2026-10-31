@@ -138,6 +138,15 @@ InstallResult Installer::installIcon(
         return result;
     }
 
+    // Pre-install integrity check - never install corrupted/HTML error files as video icons
+    std::string valErr;
+    if (!validateVideoFile(tempFilePath, valErr)) {
+        fs::remove(tempFilePath, ec);
+        result.success = false;
+        result.message = "Ошибка валидации видео: " + valErr;
+        return result;
+    }
+
     fs::create_directories(iconsDir, ec);
 
     std::string targetIconName = Config::getTargetIconFileName(titleId);
@@ -402,7 +411,7 @@ bool Installer::validateVideoFile(const std::string& filePath, std::string& outR
     }
 
     uint64_t size = fs::file_size(filePath, ec);
-    if (size < 64 * 1024) {
+    if (size < 4096) {
         outReason = "Размер файла слишком мал (" + std::to_string(size) + " байт) — файл пуст или прерван";
         return false;
     }

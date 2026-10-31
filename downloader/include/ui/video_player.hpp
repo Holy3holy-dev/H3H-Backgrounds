@@ -33,12 +33,14 @@ public:
     int getWidth() const { return m_width; }
     int getHeight() const { return m_height; }
     double getFps() const { return m_fps; }
+    int getDecodedFrames() const { return m_decodedFrames; }
     const std::string& getFilePath() const { return m_filepath; }
 
 private:
     std::string m_filepath;
     bool m_isOpen{false};
     bool m_hasDecodedFirstFrame{false};
+    int m_decodedFrames{0};
     int m_width{0};
     int m_height{0};
     int m_targetWidth{1280};

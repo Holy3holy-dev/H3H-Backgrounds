@@ -13,10 +13,53 @@
 #include <sstream>
 #include <chrono>
 #include <filesystem>
+#include <mutex>
 
 namespace h3h {
 
 namespace {
+
+static std::mutex g_curlShareMutexes[8];
+
+static void curlShareLockCb(CURL*, curl_lock_data data, curl_lock_access, void*) {
+    int idx = static_cast<int>(data);
+    if (idx >= 0 && idx < 8) {
+        g_curlShareMutexes[idx].lock();
+    }
+}
+
+static void curlShareUnlockCb(CURL*, curl_lock_data data, void*) {
+    int idx = static_cast<int>(data);
+    if (idx >= 0 && idx < 8) {
+        g_curlShareMutexes[idx].unlock();
+    }
+}
+
+struct ThreadLocalCurl {
+    CURL* handle{nullptr};
+    ~ThreadLocalCurl() {
+        if (handle) {
+            curl_easy_cleanup(handle);
+            handle = nullptr;
+        }
+    }
+    CURL* acquire(CURLSH* share) {
+        if (!handle) {
+            handle = curl_easy_init();
+        } else {
+            curl_easy_reset(handle);
+        }
+        if (handle && share) {
+            curl_easy_setopt(handle, CURLOPT_SHARE, share);
+        }
+        return handle;
+    }
+};
+
+static CURL* getThreadCurlHandle(CURLSH* share) {
+    thread_local ThreadLocalCurl tlCurl;
+    return tlCurl.acquire(share);
+}
 
 size_t curlStringWriteCallback(char* ptr, size_t size, size_t nmemb, void* userdata) {
     if (!userdata || !ptr) return 0;
@@ -27,11 +70,22 @@ size_t curlStringWriteCallback(char* ptr, size_t size, size_t nmemb, void* userd
 }
 
 struct DownloadProgressContext {
+    FILE* fp{nullptr};
     ProgressCallback callback;
-    const std::atomic<bool>* cancel;
+    const std::atomic<bool>* cancel{nullptr};
     std::chrono::steady_clock::time_point startTime;
     uint64_t initialOffset{0};
 };
+
+size_t curlFileWriteCallback(char* ptr, size_t size, size_t nmemb, void* userdata) {
+    if (!userdata || !ptr) return 0;
+    auto* ctx = static_cast<DownloadProgressContext*>(userdata);
+    if (ctx->cancel && ctx->cancel->load()) {
+        return 0; // Immediate abort on packet boundary
+    }
+    if (!ctx->fp) return 0;
+    return fwrite(ptr, size, nmemb, ctx->fp);
+}
 
 int curlXferProgressCallback(void* clientp, curl_off_t dltotal, curl_off_t dlnow, curl_off_t, curl_off_t) {
     auto* ctx = static_cast<DownloadProgressContext*>(clientp);
@@ -112,6 +166,14 @@ public:
 
         if (curl_global_init(CURL_GLOBAL_DEFAULT) == CURLE_OK) {
             m_curlInitialized = true;
+            m_curlShare = curl_share_init();
+            if (m_curlShare) {
+                curl_share_setopt(m_curlShare, CURLSHOPT_LOCKFUNC, curlShareLockCb);
+                curl_share_setopt(m_curlShare, CURLSHOPT_UNLOCKFUNC, curlShareUnlockCb);
+                curl_share_setopt(m_curlShare, CURLSHOPT_SHARE, CURL_LOCK_DATA_DNS);
+                curl_share_setopt(m_curlShare, CURLSHOPT_SHARE, CURL_LOCK_DATA_SSL_SESSION);
+                curl_share_setopt(m_curlShare, CURLSHOPT_SHARE, CURL_LOCK_DATA_COOKIE);
+            }
         }
 
         // Initialize capacitive touchscreen HID polling in libnx
@@ -122,6 +184,10 @@ public:
     }
 
     void shutdown() override {
+        if (m_curlShare) {
+            curl_share_cleanup(m_curlShare);
+            m_curlShare = nullptr;
+        }
         if (m_curlInitialized) {
             curl_global_cleanup();
             m_curlInitialized = false;
@@ -334,7 +400,7 @@ public:
             return false;
         }
 
-        CURL* curl = curl_easy_init();
+        CURL* curl = getThreadCurlHandle(m_curlShare);
         if (!curl) {
             outError = "Failed to initialize CURL context";
             return false;
@@ -348,10 +414,12 @@ public:
         curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);
         curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
         curl_easy_setopt(curl, CURLOPT_IPRESOLVE, CURL_IPRESOLVE_V4);
+        curl_easy_setopt(curl, CURLOPT_DNS_CACHE_TIMEOUT, 3600L);
         curl_easy_setopt(curl, CURLOPT_CONNECTTIMEOUT, 10L);
         curl_easy_setopt(curl, CURLOPT_TIMEOUT, 20L);
         curl_easy_setopt(curl, CURLOPT_BUFFERSIZE, 64 * 1024L);
         curl_easy_setopt(curl, CURLOPT_TCP_NODELAY, 1L);
+        curl_easy_setopt(curl, CURLOPT_TCP_KEEPALIVE, 1L);
         curl_easy_setopt(curl, CURLOPT_USERAGENT, "Mozilla/5.0 (Nintendo Switch; ShareApplet) AppleWebKit/609.4 (KHTML, like Gecko) NF/6.0.2.22.5 NintendoBrowser/5.1.0.22474");
 
         typedef size_t (*CurlWriteFn)(char*, size_t, size_t, void*);
@@ -362,7 +430,7 @@ public:
         CURLcode res = curl_easy_perform(curl);
         long httpCode = 0;
         curl_easy_getinfo(curl, CURLINFO_RESPONSE_CODE, &httpCode);
-        curl_easy_cleanup(curl);
+        curl_easy_setopt(curl, CURLOPT_WRITEDATA, nullptr);
 
         if (res != CURLE_OK) {
             outError = std::string("Network transfer error: ") + curl_easy_strerror(res);
@@ -403,7 +471,7 @@ public:
         // Transform Google Drive indirect links to direct drive.usercontent.google.com links
         // to bypass the slow 303 redirect and avoid double TLS handshakes:
         std::string effectiveUrl = url;
-        if (effectiveUrl.find("drive.google.com") != std::string::npos) {
+        if (effectiveUrl.find("drive.google.com") != std::string::npos && effectiveUrl.find("/thumbnail") == std::string::npos) {
             size_t idPos = effectiveUrl.find("id=");
             if (idPos != std::string::npos) {
                 std::string fileId = effectiveUrl.substr(idPos + 3);
@@ -417,25 +485,22 @@ public:
             }
         }
 
-        constexpr int MAX_RETRIES = 3;
+        const bool isThumbnailRequest = (effectiveUrl.find("/thumbnail") != std::string::npos);
+        const int maxRetries = isThumbnailRequest ? 1 : 3;
         bool success = false;
         std::string lastError;
 
-        for (int attempt = 1; attempt <= MAX_RETRIES; ++attempt) {
+        for (int attempt = 1; attempt <= maxRetries; ++attempt) {
             if (cancelRequested.load()) {
                 remove(destPath.c_str());
                 outError = "Download cancelled by user";
                 return false;
             }
 
-            // Check if partial download already exists on disk to resume
-            curl_off_t existingBytes = 0;
-            struct stat st{};
-            if (stat(destPath.c_str(), &st) == 0 && st.st_size > 0) {
-                existingBytes = static_cast<curl_off_t>(st.st_size);
-            }
-
-            FILE* fp = fopen(destPath.c_str(), existingBytes > 0 ? "ab" : "wb");
+            // Always open with "wb" (clean truncation from byte 0).
+            // Google Drive /thumbnail and redirect endpoints return HTTP 200 OK from byte 0
+            // even when Range headers are sent; using "ab" appends duplicate streams and corrupts JPEG/MP4 files.
+            FILE* fp = fopen(destPath.c_str(), "wb");
             if (!fp) {
                 outError = "Could not open target file for writing: " + destPath;
                 return false;
@@ -445,73 +510,78 @@ public:
             std::vector<char> fileBuffer(256 * 1024);
             setvbuf(fp, fileBuffer.data(), _IOFBF, fileBuffer.size());
 
-            CURL* curl = curl_easy_init();
+            // Reuse thread-local persistent CURL handle so HTTP/2 + Keep-Alive sockets and TLS sessions stay warm!
+            CURL* curl = getThreadCurlHandle(m_curlShare);
             if (!curl) {
                 fclose(fp);
                 outError = "Failed to initialize CURL context";
                 return false;
             }
 
-            DownloadProgressContext ctx{progress, &cancelRequested, std::chrono::steady_clock::now(), static_cast<uint64_t>(existingBytes)};
+            DownloadProgressContext ctx{fp, progress, &cancelRequested, std::chrono::steady_clock::now(), 0};
 
             curl_easy_setopt(curl, CURLOPT_URL, effectiveUrl.c_str());
-            curl_easy_setopt(curl, CURLOPT_WRITEDATA, fp);
+            typedef size_t (*CurlFileWriteFn)(char*, size_t, size_t, void*);
+            CurlFileWriteFn fileWriteFn = curlFileWriteCallback;
+            curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, fileWriteFn);
+            curl_easy_setopt(curl, CURLOPT_WRITEDATA, &ctx);
             curl_easy_setopt(curl, CURLOPT_NOSIGNAL, 1L);
             curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);
             curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);
             curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
             curl_easy_setopt(curl, CURLOPT_MAXREDIRS, 10L);
             curl_easy_setopt(curl, CURLOPT_IPRESOLVE, CURL_IPRESOLVE_V4);
-            curl_easy_setopt(curl, CURLOPT_CONNECTTIMEOUT, 45L);
+            curl_easy_setopt(curl, CURLOPT_DNS_CACHE_TIMEOUT, 3600L);
+            curl_easy_setopt(curl, CURLOPT_CONNECTTIMEOUT, isThumbnailRequest ? 5L : 10L);
             curl_easy_setopt(curl, CURLOPT_BUFFERSIZE, 256 * 1024L); // 256 KB curl receive buffer
             curl_easy_setopt(curl, CURLOPT_TCP_NODELAY, 1L);         // Disable Nagle algorithm
             curl_easy_setopt(curl, CURLOPT_TCP_KEEPALIVE, 1L);
             curl_easy_setopt(curl, CURLOPT_COOKIEFILE, "");          // Enable cookie engine
             curl_easy_setopt(curl, CURLOPT_LOW_SPEED_LIMIT, 256L);   // 256 B/s minimum threshold
-            curl_easy_setopt(curl, CURLOPT_LOW_SPEED_TIME, 45L);     // 45s stall timeout (generous for Wi-Fi)
+            curl_easy_setopt(curl, CURLOPT_LOW_SPEED_TIME, isThumbnailRequest ? 6L : 15L);
             curl_easy_setopt(curl, CURLOPT_USERAGENT, "Mozilla/5.0 (Nintendo Switch; ShareApplet) AppleWebKit/609.4 (KHTML, like Gecko) NF/6.0.2.22.5 NintendoBrowser/5.1.0.22474");
             curl_easy_setopt(curl, CURLOPT_XFERINFOFUNCTION, curlXferProgressCallback);
             curl_easy_setopt(curl, CURLOPT_XFERINFODATA, &ctx);
             curl_easy_setopt(curl, CURLOPT_NOPROGRESS, 0L);
 
-            if (existingBytes > 0) {
-                curl_easy_setopt(curl, CURLOPT_RESUME_FROM_LARGE, existingBytes);
-            }
-
             CURLcode res = curl_easy_perform(curl);
             long httpCode = 0;
             curl_easy_getinfo(curl, CURLINFO_RESPONSE_CODE, &httpCode);
 
+            // Detach stack-allocated callbacks/context before returning so persistent handle stays clean
+            curl_easy_setopt(curl, CURLOPT_WRITEDATA, nullptr);
+            curl_easy_setopt(curl, CURLOPT_XFERINFODATA, nullptr);
+            curl_easy_setopt(curl, CURLOPT_NOPROGRESS, 1L);
+
             fflush(fp);
             fclose(fp);
-            curl_easy_cleanup(curl);
 
-            if (res == CURLE_ABORTED_BY_CALLBACK) {
-                remove(destPath.c_str());
-                outError = "Download cancelled by user";
-                return false;
+            if (res == CURLE_ABORTED_BY_CALLBACK || res == CURLE_WRITE_ERROR || cancelRequested.load()) {
+                if (cancelRequested.load() || res == CURLE_ABORTED_BY_CALLBACK) {
+                    remove(destPath.c_str());
+                    outError = "Download cancelled by user";
+                    return false;
+                }
             }
 
-            // HTTP 416 Range Not Satisfiable means server doesn't support resuming from this offset
-            if (httpCode == 416) {
-                remove(destPath.c_str());
-                continue;
-            }
-
-            if (res == CURLE_OK && ((httpCode >= 200 && httpCode < 300) || httpCode == 206)) {
-                success = true;
-                break;
-            }
-
-            if (res != CURLE_OK) {
+            if (res == CURLE_OK && (httpCode >= 200 && httpCode < 300)) {
+                struct stat outSt{};
+                if (stat(destPath.c_str(), &outSt) == 0 && outSt.st_size > 256) {
+                    success = true;
+                    break;
+                }
+                lastError = "Downloaded file is empty or truncated";
+            } else if (res != CURLE_OK) {
                 lastError = std::string("Download failed: ") + curl_easy_strerror(res);
             } else {
                 lastError = "Server returned HTTP status " + std::to_string(httpCode);
             }
 
+            remove(destPath.c_str());
+
             // If an attempt failed and not cancelled, wait a moment and retry with backoff
-            if (attempt < MAX_RETRIES && !cancelRequested.load()) {
-                svcSleepThread(1000000000ULL * attempt); // 1s, 2s backoff
+            if (attempt < maxRetries && !cancelRequested.load()) {
+                svcSleepThread(500000000ULL * attempt); // 0.5s, 1.0s backoff
             }
         }
 
@@ -533,6 +603,7 @@ private:
     bool m_plInitialized{false};
     bool m_romfsInitialized{false};
     bool m_curlInitialized{false};
+    CURLSH* m_curlShare{nullptr};
 };
 
 std::unique_ptr<IPlatform> createPlatform() {
