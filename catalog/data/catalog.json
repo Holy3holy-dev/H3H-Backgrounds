@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T19:08:01.008298+00:00",
+  "updatedAt": "2026-11-07T19:11:38.759162+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -34457,6 +34457,78 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_a928d2f9",
+          "name": "Lunar Tears Nier Automata Flowers",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fC40t-Xwh3961UoXRGT8rP34P1xnT6Xj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fC40t-Xwh3961UoXRGT8rP34P1xnT6Xj&sz=w640",
+          "sizeBytes": 4421037,
+          "sha256": "E8BEBD5BE77D00A0A542E7A1798E484BDF1B4C020EEB87AD09CFD4309146804C",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lunar Tears Nier Automata Flowers | ЗВУК"
+        },
+        {
+          "id": "v_53a0e75e",
+          "name": "YoRHa No.2 Type B NieR: Automata",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hfnyhgT74T8P34hXN_qQM8BUplDzngqi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hfnyhgT74T8P34hXN_qQM8BUplDzngqi&sz=w640",
+          "sizeBytes": 4593381,
+          "sha256": "C46109D28D2B1C133DF35C829A0582C79D2748765A3FF563F84AC96E8D47BADA",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | YoRHa No.2 Type B NieR: Automata"
+        },
+        {
+          "id": "v_7f6340b0",
+          "name": "2B Flower Field NieR: Automata",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ArzMiTTdirk1u8vxn2DwwE-UiYnY-XkA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ArzMiTTdirk1u8vxn2DwwE-UiYnY-XkA&sz=w640",
+          "sizeBytes": 4673369,
+          "sha256": "96F6CEF17B38F19DC7891D2DDF9061085932638F14BFBEC0E697EF09CB8D91B5",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | 2B Flower Field NieR: Automata"
+        },
+        {
+          "id": "v_05a34d26",
+          "name": "White Moonflower Field Katana",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10GgEuY8vRAd0DBySrz-wF6YfgT7D2QH5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10GgEuY8vRAd0DBySrz-wF6YfgT7D2QH5&sz=w640",
+          "sizeBytes": 4718828,
+          "sha256": "E656849EC204D35929A670834DD74E62A9E43864BD9016972A26A5A3D12E8B52",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | White Moonflower Field Katana | ЗВУК"
         }
       ]
     },
@@ -49172,6 +49244,6 @@
     }
   ],
   "totalGames": 1074,
-  "totalVariants": 2155,
+  "totalVariants": 2159,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
