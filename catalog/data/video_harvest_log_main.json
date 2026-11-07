@@ -13653,10 +13653,66 @@
     "https://moewalls.com/games/asriel-dreemurr-vs-frisk-undertale-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2021/asriel-dreemurr-vs-frisk-undertale-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2025/little-nightmares-2-dark-neon-gate-preview.webm": {
+      "title": "Little Nightmares 2 Dark Neon Gate",
+      "titleId": "010097100EDD6000",
+      "gameName": "Little Nightmares II",
+      "varId": "v_041ba44a",
+      "driveId": "1ispNn2aqvb_G0MdUPIDYh6Ron2wHY6gP",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/little-nightmares-2-dark-neon-gate-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2025/little-nightmares-2-dark-neon-gate-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2024/desert-sands-signalis-preview.webm": {
+      "title": "Desert Sands Signalis",
+      "titleId": "0100307018934000",
+      "gameName": "SIGNALIS",
+      "varId": "v_16fad262",
+      "driveId": "16ySa78MT_D3zp-kvgEyM_0oFsTMtofGW",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/desert-sands-signalis-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2024/desert-sands-signalis-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2024/echoes-of-the-subway-signalis-preview.webm": {
+      "title": "Echoes Of The Subway Signalis",
+      "titleId": "0100307018934000",
+      "gameName": "SIGNALIS",
+      "varId": "v_d10d18c0",
+      "driveId": "1mUJLKRBLmRLLrnkO_679tatSMZUCljG5",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/echoes-of-the-subway-signalis-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2024/echoes-of-the-subway-signalis-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2024/the-gaze-of-signalis-preview.webm": {
+      "title": "The Gaze Of Signalis",
+      "titleId": "0100307018934000",
+      "gameName": "SIGNALIS",
+      "varId": "v_b8c571bb",
+      "driveId": "1ZRsWkt19x_XGrfofAFRoJF3gRILN36da",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/the-gaze-of-signalis-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2024/the-gaze-of-signalis-preview.webm"
     }
   },
-  "total_harvested": 1890,
-  "last_updated": "2026-11-07T18:53:22.561899+00:00",
+  "total_harvested": 1898,
+  "last_updated": "2026-11-07T18:56:53.748617+00:00",
   "page_cursors": {
     "super mario odyssey": 1,
     "mario odyssey": 1,
@@ -16079,8 +16135,13 @@
     "tag:terraria": 2,
     "terraria": 2,
     "tag:stardew-valley": 1,
-    "stardew valley": 1
+    "stardew valley": 1,
+    "little nightmares": 2,
+    "tag:outer-wilds": 1,
+    "outer wilds": 1,
+    "tag:katana-zero": 2,
+    "katana zero": 2
   },
   "query_cursor": 2720,
-  "priority_cursor": 180
+  "priority_cursor": 2
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T18:53:22.567276+00:00",
+  "updatedAt": "2026-11-07T18:56:53.754074+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -8474,6 +8474,60 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_16fad262",
+          "name": "Desert Sands Signalis",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16ySa78MT_D3zp-kvgEyM_0oFsTMtofGW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16ySa78MT_D3zp-kvgEyM_0oFsTMtofGW&sz=w640",
+          "sizeBytes": 4701013,
+          "sha256": "B9E22DBE62A47809E2C4F53E25AE9017F75F8EFCFC48BD445AB12E2027771C17",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Desert Sands Signalis"
+        },
+        {
+          "id": "v_d10d18c0",
+          "name": "Echoes Of The Subway Signalis",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mUJLKRBLmRLLrnkO_679tatSMZUCljG5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mUJLKRBLmRLLrnkO_679tatSMZUCljG5&sz=w640",
+          "sizeBytes": 4672166,
+          "sha256": "82BA555070A7D8D5879D6B287CEF9A92DEC5518FD48ACEBF164D8BB8CDF0949D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Echoes Of The Subway Signalis"
+        },
+        {
+          "id": "v_b8c571bb",
+          "name": "The Gaze Of Signalis",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZRsWkt19x_XGrfofAFRoJF3gRILN36da",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZRsWkt19x_XGrfofAFRoJF3gRILN36da&sz=w640",
+          "sizeBytes": 4706825,
+          "sha256": "936A518B64F97DA44A9BD6F1A6EB022200B70D79758E6D82A39CD27BE6673559",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | The Gaze Of Signalis"
         }
       ]
     },
@@ -13476,6 +13530,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 010097100EDD6000_Little_Nightmares_II.mp4"
+        },
+        {
+          "id": "v_041ba44a",
+          "name": "Little Nightmares 2 Dark Neon Gate",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ispNn2aqvb_G0MdUPIDYh6Ron2wHY6gP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ispNn2aqvb_G0MdUPIDYh6Ron2wHY6gP&sz=w640",
+          "sizeBytes": 4926236,
+          "sha256": "BEE3580A3FFC0F1134C471C35D5E9494856A684BE44FCD211C16A9351FFBF8CF",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Little Nightmares 2 Dark Neon Gate | ЗВУК"
         }
       ]
     },
@@ -48956,6 +49028,6 @@
     }
   ],
   "totalGames": 1074,
-  "totalVariants": 2143,
+  "totalVariants": 2147,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
