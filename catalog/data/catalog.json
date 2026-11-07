@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T19:19:09.933301+00:00",
+  "updatedAt": "2026-11-07T19:22:02.205463+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -31187,6 +31187,60 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_2b7bac44",
+          "name": "Metro Cyberpunk 2077",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1w-4sR3ngGynBa-x2TIfl8zSYAZ2nkC89",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1w-4sR3ngGynBa-x2TIfl8zSYAZ2nkC89&sz=w640",
+          "sizeBytes": 4478906,
+          "sha256": "DC2C00A5AC5FEF5014DD7610B4BCA53370A52B5CAEEB784A2E9D429672CE75B4",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Metro Cyberpunk 2077 | ЗВУК"
+        },
+        {
+          "id": "v_ab2c0b86",
+          "name": "Wreck Metro Exodus",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tcijuVQXK-Xag5vtXn36Wa-RjpOQsMAr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tcijuVQXK-Xag5vtXn36Wa-RjpOQsMAr&sz=w640",
+          "sizeBytes": 4730785,
+          "sha256": "08647314732B21986F63BE60FFD7B11AD829213B248003179C66B3C5C071A56B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Wreck Metro Exodus"
+        },
+        {
+          "id": "v_93dc30f4",
+          "name": "Metro Exodus",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WWJ5OD2HBatqm96JerFPjgDDWoGo0wnj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WWJ5OD2HBatqm96JerFPjgDDWoGo0wnj&sz=w640",
+          "sizeBytes": 4522128,
+          "sha256": "6494402512C2119C896FC3CF2DE63B98E63892B31833FB4CE0E40384BEDD1A48",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Metro Exodus"
         }
       ]
     },
@@ -32957,6 +33011,24 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_3ffb7a64",
+          "name": "BioShock",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Qwqri1yWgrCqkgsGaf2PvZ1U97tTQMKz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Qwqri1yWgrCqkgsGaf2PvZ1U97tTQMKz&sz=w640",
+          "sizeBytes": 4701883,
+          "sha256": "DFB75A186459D89F4A27C25F255375B9498E75654A74AC749F02A73696CAED81",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | BioShock | ЗВУК"
         }
       ]
     },
@@ -49406,6 +49478,6 @@
     }
   ],
   "totalGames": 1074,
-  "totalVariants": 2168,
+  "totalVariants": 2172,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }

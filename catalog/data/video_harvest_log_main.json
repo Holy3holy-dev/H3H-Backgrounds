@@ -14003,10 +14003,66 @@
     "https://moewalls.com/games/ada-wong-resident-evil-2-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2022/ada-wong-resident-evil-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/bioshock-preview.webm": {
+      "title": "BioShock",
+      "titleId": "010038800C3DC000",
+      "gameName": "BioShock Remastered",
+      "varId": "v_3ffb7a64",
+      "driveId": "1Qwqri1yWgrCqkgsGaf2PvZ1U97tTQMKz",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/bioshock-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/bioshock-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/metro-cyberpunk-2077-preview.webm": {
+      "title": "Metro Cyberpunk 2077",
+      "titleId": "010014200B0D0000",
+      "gameName": "Metro 2033 Redux",
+      "varId": "v_2b7bac44",
+      "driveId": "1w-4sR3ngGynBa-x2TIfl8zSYAZ2nkC89",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/metro-cyberpunk-2077-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/metro-cyberpunk-2077-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2024/wreck-metro-exodus-preview.webm": {
+      "title": "Wreck Metro Exodus",
+      "titleId": "010014200B0D0000",
+      "gameName": "Metro 2033 Redux",
+      "varId": "v_ab2c0b86",
+      "driveId": "1tcijuVQXK-Xag5vtXn36Wa-RjpOQsMAr",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/wreck-metro-exodus-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2024/wreck-metro-exodus-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2023/metro-exodus-preview.webm": {
+      "title": "Metro Exodus",
+      "titleId": "010014200B0D0000",
+      "gameName": "Metro 2033 Redux",
+      "varId": "v_93dc30f4",
+      "driveId": "1WWJ5OD2HBatqm96JerFPjgDDWoGo0wnj",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/metro-exodus-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2023/metro-exodus-preview.webm"
     }
   },
-  "total_harvested": 1940,
-  "last_updated": "2026-11-07T19:19:09.926987+00:00",
+  "total_harvested": 1948,
+  "last_updated": "2026-11-07T19:22:02.199390+00:00",
   "page_cursors": {
     "super mario odyssey": 1,
     "mario odyssey": 1,
@@ -16448,8 +16504,14 @@
     "tag:diablo": 2,
     "tag:devil-may-cry": 2,
     "devil may cry": 2,
-    "tag:leon-s-kennedy": 1
+    "tag:leon-s-kennedy": 1,
+    "tag:dying-light": 1,
+    "dying light": 1,
+    "tag:assassins-creed": 1,
+    "assassins creed": 1,
+    "bioshock": 2,
+    "bioshock infinite": 1
   },
   "query_cursor": 2720,
-  "priority_cursor": 110
+  "priority_cursor": 122
 }
