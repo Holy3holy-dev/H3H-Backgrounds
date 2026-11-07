@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T19:52:36.029878+00:00",
+  "updatedAt": "2026-11-07T19:55:58.271572+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -13180,6 +13180,42 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_9dd6c330",
+          "name": "Fiend Hunter Artio SMITE",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19G36q_s0ul4opz76pBtbEnlb282T-HTG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19G36q_s0ul4opz76pBtbEnlb282T-HTG&sz=w640",
+          "sizeBytes": 4757614,
+          "sha256": "71A2EFB004AEC8C777418A2FC5860F4965787B3EEC559C7480AA63095EDAE173",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fiend Hunter Artio SMITE | ЗВУК"
+        },
+        {
+          "id": "v_3f1481f6",
+          "name": "The Eternal Hunters Kindred League Of Le",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11dSlGPDO1C0FlX0UCx85rKnA6patg0ws",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11dSlGPDO1C0FlX0UCx85rKnA6patg0ws&sz=w640",
+          "sizeBytes": 4705391,
+          "sha256": "970B780E36A81026088BD9946FFD183C7A9B76E6F1D8F178DAE0D898F02061F9",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Eternal Hunters Kindred League Of Le | ЗВУК"
         }
       ]
     },
@@ -13597,6 +13633,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Cloud Strife Final Fantasy VII"
+        },
+        {
+          "id": "v_0bdf4c9f",
+          "name": "Cloud Strife Final Fantasy",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1X76NXOuw0EjRhjIqTnwZjjnVySvPaEb3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1X76NXOuw0EjRhjIqTnwZjjnVySvPaEb3&sz=w640",
+          "sizeBytes": 4692793,
+          "sha256": "8F9AA56F6AA73F4C2157193FF1F7BFA5EDE8E2F447007F37A5BB8111B2CA3A14",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Cloud Strife Final Fantasy"
+        },
+        {
+          "id": "v_c8d6f938",
+          "name": "Buster Sword Final Fantasy",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lk3QDKdkgS8ysx4ng__KlXE2yW-JeQO4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lk3QDKdkgS8ysx4ng__KlXE2yW-JeQO4&sz=w640",
+          "sizeBytes": 4658033,
+          "sha256": "01FB6E404E6BF4113B854407E7C2862530C08947B3634861DF042CC83C3D61F2",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Buster Sword Final Fantasy | ЗВУК"
         }
       ]
     },
@@ -49846,6 +49918,6 @@
     }
   ],
   "totalGames": 1075,
-  "totalVariants": 2192,
+  "totalVariants": 2196,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
