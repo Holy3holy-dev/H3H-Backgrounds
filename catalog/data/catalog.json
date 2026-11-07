@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T19:22:02.205463+00:00",
+  "updatedAt": "2026-11-07T19:26:13.030168+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -49475,9 +49475,89 @@
           "notes": "Switch 720p 30fps H264 | Dracula Castlevania: Lords Of Shadow | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "010031D00D59C000",
+      "title": "Overwatch 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010031D00D59C000.jpg",
+      "variants": [
+        {
+          "id": "v_3ae92a68",
+          "name": "Genji In The Storm Overwatch",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MWq_SmTkBO019DvPW52-NpHzmwqLEDG7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MWq_SmTkBO019DvPW52-NpHzmwqLEDG7&sz=w640",
+          "sizeBytes": 4756672,
+          "sha256": "2509B3826820BC30EBDC4466B5C6907A0BD9C51D6A33303E71B01A5D505444AE",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Genji In The Storm Overwatch"
+        },
+        {
+          "id": "v_fa045a28",
+          "name": "Genji Moonlit Night Overwatch",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1a4l4Lti1tHg12TCac7QGkqqe1u_pcbWY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1a4l4Lti1tHg12TCac7QGkqqe1u_pcbWY&sz=w640",
+          "sizeBytes": 4636529,
+          "sha256": "0A434834BF56C32FC03F2013041633ACDF0C41870A667FFC10308BF02A9DFEFF",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Genji Moonlit Night Overwatch | ЗВУК"
+        },
+        {
+          "id": "v_50500219",
+          "name": "Dva Sportswear Overwatch",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18_7phRIOqr9vXHfqv59ZgQVz0Nb5jNH3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18_7phRIOqr9vXHfqv59ZgQVz0Nb5jNH3&sz=w640",
+          "sizeBytes": 4702782,
+          "sha256": "9E758298A5C44D91F5ADE8B85585915D4983FDF6B4371AC674DCD835A3346C13",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dva Sportswear Overwatch | ЗВУК"
+        },
+        {
+          "id": "v_fc6bc034",
+          "name": "Oni Genji Overwatch",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rhbPxlzuEy2kSDPsRGodSzqwZAXEu-eT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rhbPxlzuEy2kSDPsRGodSzqwZAXEu-eT&sz=w640",
+          "sizeBytes": 4728996,
+          "sha256": "FFCC8CCFF769FFD14817E0D40CC2B497519435282C50B7C28DA3F4D57AAA765D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Oni Genji Overwatch | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 1074,
-  "totalVariants": 2172,
+  "totalGames": 1075,
+  "totalVariants": 2176,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
