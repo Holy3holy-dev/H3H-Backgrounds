@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T16:51:14.584357+00:00",
+  "updatedAt": "2026-11-07T17:14:45.529474+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -48267,9 +48267,35 @@
           "notes": "Switch 720p 30fps H264 | Endless Highway | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "01001A6013E8A000",
+      "title": "Nira",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001A6013E8A000.jpg",
+      "variants": [
+        {
+          "id": "v_1aef5cd6",
+          "name": "Nira Chan Zutomayo",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SsdWwAQjFPOkUm8ex8Sts5aNbFkdUU6-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SsdWwAQjFPOkUm8ex8Sts5aNbFkdUU6-&sz=w640",
+          "sizeBytes": 4724526,
+          "sha256": "453441AA6C13EBA3C59686098657306232DFB6100D21F769D5A357BEBBFE0F28",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Nira Chan Zutomayo | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 1074,
-  "totalVariants": 2105,
+  "totalGames": 1075,
+  "totalVariants": 2106,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
