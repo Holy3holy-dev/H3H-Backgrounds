@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T17:14:45.529474+00:00",
+  "updatedAt": "2026-11-07T17:47:41.195368+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -48293,9 +48293,61 @@
           "notes": "Switch 720p 30fps H264 | Nira Chan Zutomayo | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "010069401270E000",
+      "title": "Puss",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010069401270E000.jpg",
+      "variants": [
+        {
+          "id": "v_8e16db55",
+          "name": "Puss in Boots: The Last Wish",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yk4cmnR-bDDUqTHfQCL5qSJ5KlrGTcV6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yk4cmnR-bDDUqTHfQCL5qSJ5KlrGTcV6&sz=w640",
+          "sizeBytes": 4750132,
+          "sha256": "04BC08E93A7796A56E0BD4F02AF3CC25DBD3CBE5F6843FC426E5596397E6D4A7",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Puss in Boots: The Last Wish | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "0100464009294000",
+      "title": "Kona",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100464009294000.jpg",
+      "variants": [
+        {
+          "id": "v_d5bd789e",
+          "name": "Konan Akatsuki",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nk_-OkwD3gwm3VN1U4ODm9ajoqQrOj7o",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nk_-OkwD3gwm3VN1U4ODm9ajoqQrOj7o&sz=w640",
+          "sizeBytes": 4694882,
+          "sha256": "5D766D74FEB678F81F19D3C6621EF6295C1834DDE5293E454E2C028C4C00299B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Konan Akatsuki | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 1075,
-  "totalVariants": 2106,
+  "totalGames": 1077,
+  "totalVariants": 2108,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
