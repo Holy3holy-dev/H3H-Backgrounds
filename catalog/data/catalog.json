@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T20:03:05.834675+00:00",
+  "updatedAt": "2026-11-07T20:09:36.932506+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -24303,6 +24303,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "SteamGridDB Animated Grid: 0100A250097F0000_Super_Dragon_Ball_Heroes_World_Mission.mp4"
+        },
+        {
+          "id": "v_0c199efd",
+          "name": "Ash Warframe",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FtmsgD9vwD8jDlACQv9TYj3Njbq_S9FB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FtmsgD9vwD8jDlACQv9TYj3Njbq_S9FB&sz=w640",
+          "sizeBytes": 4723198,
+          "sha256": "4172DE826AD35F4297B7109AFCB2178851416864B58861491AE1C9A64AE5AA6A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Ash Warframe"
         }
       ]
     },
@@ -49967,11 +49985,109 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Oni Genji Overwatch | ЗВУК"
+        },
+        {
+          "id": "v_52ad1c7f",
+          "name": "LE SSERAFIM Overwatch 2",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1S_VgXayT5V1fbDCI0AP8pjpKjYMeekcp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1S_VgXayT5V1fbDCI0AP8pjpKjYMeekcp&sz=w640",
+          "sizeBytes": 4761838,
+          "sha256": "A6D1DF2EC50FE96A0C0B2B918F32E2182610C0FD34AB6B283D124AA3992B5C89",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | LE SSERAFIM Overwatch 2 | ЗВУК"
+        }
+      ]
+    },
+    {
+      "titleId": "01005D6010402000",
+      "title": "Apex Legends",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005D6010402000.jpg",
+      "variants": [
+        {
+          "id": "v_47507a81",
+          "name": "Bloodhound Beast Of The Hunt Apex Legend",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jgFVAY3N0bNcyRzechvUiOwvqP5BTF1L",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jgFVAY3N0bNcyRzechvUiOwvqP5BTF1L&sz=w640",
+          "sizeBytes": 4194745,
+          "sha256": "B4A16C55569C81F73D7D7F5CD851E0A62ACA63CEDB35EDC1DD294AD8CADA33A0",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bloodhound Beast Of The Hunt Apex Legend | ЗВУК"
+        },
+        {
+          "id": "v_2ff309b6",
+          "name": "Catalyst Apex Legends",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1EsieejDtCF6h2R4IH8YKJgR06_ObhBre",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1EsieejDtCF6h2R4IH8YKJgR06_ObhBre&sz=w640",
+          "sizeBytes": 4901812,
+          "sha256": "2CAFCD7D0D966629C327E73BB691D2AEA932483712D491518061A45ADE28E6EC",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Catalyst Apex Legends | ЗВУК"
+        },
+        {
+          "id": "v_11b14cfd",
+          "name": "Vantage Apex Legends",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11PTRQTG5t4i8_0Ba8e-RrWE1CpOwU0-y",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11PTRQTG5t4i8_0Ba8e-RrWE1CpOwU0-y&sz=w640",
+          "sizeBytes": 4940038,
+          "sha256": "B0E1C3162E6390973ABA56823536A62EF111BD909FA3EE61A77FB5E6FEB82D07",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Vantage Apex Legends | ЗВУК"
+        },
+        {
+          "id": "v_de2d8c16",
+          "name": "Bloodhound Apex Legends",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17WaBK69D_fvakb5gEc1aVuIbB_OwNznq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17WaBK69D_fvakb5gEc1aVuIbB_OwNznq&sz=w640",
+          "sizeBytes": 4628346,
+          "sha256": "194F3FD34D0006AB0B52F937D6928D5F7A166C7C76820E7A19EB41287B768AD9",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bloodhound Apex Legends | ЗВУК"
         }
       ]
     }
   ],
-  "totalGames": 1075,
-  "totalVariants": 2199,
+  "totalGames": 1076,
+  "totalVariants": 2205,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
