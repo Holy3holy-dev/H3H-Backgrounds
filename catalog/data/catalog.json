@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T21:12:26.385926+00:00",
+  "updatedAt": "2026-11-07T21:23:05.280214+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -50633,6 +50633,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Atlantic All Stars Mercy Overwatch | ЗВУК"
+        },
+        {
+          "id": "v_07b1ea23",
+          "name": "Witch Mercy Overwatch",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zbwRVxC9OMIgMU-8OuaMPKVkfHsKGacv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zbwRVxC9OMIgMU-8OuaMPKVkfHsKGacv&sz=w640",
+          "sizeBytes": 4766026,
+          "sha256": "0EC4C3C247CD90DEBB359F6DB646401ACBBAAE62C127893B9EEEEFF67BE5865A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Witch Mercy Overwatch | ЗВУК"
         }
       ]
     },
@@ -50718,6 +50736,6 @@
     }
   ],
   "totalGames": 1076,
-  "totalVariants": 2240,
+  "totalVariants": 2241,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
