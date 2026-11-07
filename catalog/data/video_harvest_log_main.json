@@ -14955,10 +14955,66 @@
     "https://moewalls.com/games/2b-white-lily-nier-automata-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2022/2b-white-lily-nier-automata-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/dark-souls-3-kiln-of-the-first-flame-preview.webm": {
+      "title": "Dark Souls 3 Kiln Of The First Flame",
+      "titleId": "01004AB00A260000",
+      "gameName": "Dark Souls: Remastered",
+      "varId": "v_8cb71695",
+      "driveId": "1qqfu3D8ewVtDoKQvsvUnSErAYGO7FAkA",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/dark-souls-3-kiln-of-the-first-flame-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/dark-souls-3-kiln-of-the-first-flame-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/siegmeyer-of-catarina-dark-souls-preview.webm": {
+      "title": "Siegmeyer Of Catarina Dark Souls",
+      "titleId": "01004AB00A260000",
+      "gameName": "Dark Souls: Remastered",
+      "varId": "v_8aaeefce",
+      "driveId": "1QQqCBlR2dbw3_qMExtOccZE0R-TaAOQg",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/siegmeyer-of-catarina-dark-souls-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/siegmeyer-of-catarina-dark-souls-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2021/fire-keeper-and-knight-dark-souls-3-preview.webm": {
+      "title": "Fire Keeper And Knight Dark Souls 3",
+      "titleId": "01004AB00A260000",
+      "gameName": "Dark Souls: Remastered",
+      "varId": "v_d64b008a",
+      "driveId": "1OQjHYYD3ipaVw9Bk2xhDZz8karOTNJ2T",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/fire-keeper-and-knight-dark-souls-3-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2021/fire-keeper-and-knight-dark-souls-3-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2021/knight-dark-souls-3-preview.webm": {
+      "title": "Knight Dark Souls 3",
+      "titleId": "01004AB00A260000",
+      "gameName": "Dark Souls: Remastered",
+      "varId": "v_f32e236b",
+      "driveId": "1AzkL8-Fl_p5sP_wKCtLRXfmQJLlJz-js",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/knight-dark-souls-3-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2021/knight-dark-souls-3-preview.webm"
     }
   },
-  "total_harvested": 2076,
-  "last_updated": "2026-11-07T21:09:24.087842+00:00",
+  "total_harvested": 2084,
+  "last_updated": "2026-11-07T21:12:26.378337+00:00",
   "page_cursors": {
     "super mario odyssey": 1,
     "mario odyssey": 1,
@@ -15105,7 +15161,7 @@
     "slay the spire": 1,
     "tag:zelda": 2,
     "tag:super-mario": 1,
-    "tag:dark-souls": 2,
+    "tag:dark-souls": 3,
     "tag:hollow-knight": 2,
     "Grand Theft Auto Vice City": 2,
     "Need for Speed Carbon": 1,
@@ -17436,8 +17492,8 @@
     "persona 5": 2,
     "tag:nier-automata": 3,
     "tag:red-dead-redemption": 1,
-    "red dead redemption": 1,
-    "tag:monster-hunter": 1,
+    "red dead redemption": 2,
+    "tag:monster-hunter": 2,
     "tag:final-fantasy-vii": 1,
     "tag:cloud-strife": 1,
     "tag:sephiroth": 1,
@@ -17462,11 +17518,11 @@
     "nier automata": 2,
     "tag:dark-souls-iii": 1,
     "dark souls": 2,
-    "bonfire dark souls": 2,
-    "artorias": 2,
-    "tag:skyrim": 2,
-    "tag:the-elder-scrolls": 2,
-    "monster hunter": 2,
+    "bonfire dark souls": 1,
+    "artorias": 1,
+    "tag:skyrim": 1,
+    "tag:the-elder-scrolls": 1,
+    "monster hunter": 1,
     "tag:final-fantasy": 2,
     "tag:ada-wong": 2,
     "batman arkham": 2,
@@ -17475,8 +17531,9 @@
     "tag:apex-legends": 2,
     "warframe": 2,
     "tag:fortnite": 2,
-    "fortnite": 2
+    "fortnite": 2,
+    "skyrim": 2
   },
   "query_cursor": 2720,
-  "priority_cursor": 68
+  "priority_cursor": 80
 }

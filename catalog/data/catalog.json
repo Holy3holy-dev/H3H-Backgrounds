@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T21:09:24.094391+00:00",
+  "updatedAt": "2026-11-07T21:12:26.385926+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -1209,6 +1209,78 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | You Died Dark Souls | ЗВУК"
+        },
+        {
+          "id": "v_8cb71695",
+          "name": "Dark Souls 3 Kiln Of The First Flame",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qqfu3D8ewVtDoKQvsvUnSErAYGO7FAkA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qqfu3D8ewVtDoKQvsvUnSErAYGO7FAkA&sz=w640",
+          "sizeBytes": 4542108,
+          "sha256": "6FCDDD05CEB78C5A70E7AE7A61288A03305F16A57B245EBAA8F6C3A5EBAAC42C",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dark Souls 3 Kiln Of The First Flame | ЗВУК"
+        },
+        {
+          "id": "v_8aaeefce",
+          "name": "Siegmeyer Of Catarina Dark Souls",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QQqCBlR2dbw3_qMExtOccZE0R-TaAOQg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QQqCBlR2dbw3_qMExtOccZE0R-TaAOQg&sz=w640",
+          "sizeBytes": 4728313,
+          "sha256": "C87D6ABDFB9F5B97D3CAB99720B037EE14CB84B9A630A73F08E11FB61E2E1339",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Siegmeyer Of Catarina Dark Souls | ЗВУК"
+        },
+        {
+          "id": "v_d64b008a",
+          "name": "Fire Keeper And Knight Dark Souls 3",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OQjHYYD3ipaVw9Bk2xhDZz8karOTNJ2T",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OQjHYYD3ipaVw9Bk2xhDZz8karOTNJ2T&sz=w640",
+          "sizeBytes": 4535015,
+          "sha256": "0ABCC68100DC50D412AF3EEEEFDCA06A3E84B3D5BCF6992327B47BA2CAEEDF6F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fire Keeper And Knight Dark Souls 3 | ЗВУК"
+        },
+        {
+          "id": "v_f32e236b",
+          "name": "Knight Dark Souls 3",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AzkL8-Fl_p5sP_wKCtLRXfmQJLlJz-js",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AzkL8-Fl_p5sP_wKCtLRXfmQJLlJz-js&sz=w640",
+          "sizeBytes": 4760248,
+          "sha256": "76ACDC50AB3EC6D90B0313446ACC51B523277410890D73ECC7C84A6E8C246104",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Knight Dark Souls 3 | ЗВУК"
         }
       ]
     },
@@ -50646,6 +50718,6 @@
     }
   ],
   "totalGames": 1076,
-  "totalVariants": 2236,
+  "totalVariants": 2240,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
