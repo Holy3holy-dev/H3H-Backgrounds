@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T18:35:44.829234+00:00",
+  "updatedAt": "2026-11-07T18:38:21.496833+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -2797,6 +2797,78 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_7f07ba37",
+          "name": "Batman Arkham Shadow",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1aJD6ewXNwi5ZIsCU34ONmZC1Lizy7Mqm",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1aJD6ewXNwi5ZIsCU34ONmZC1Lizy7Mqm&sz=w640",
+          "sizeBytes": 4661834,
+          "sha256": "00BE8525B439E6CCB58E6D9077D20CFF9D800C99CB665D0E4B62C7E3D3F271D7",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Batman Arkham Shadow"
+        },
+        {
+          "id": "v_be6224e3",
+          "name": "Batman Overlooking Gotham City Arkham Kn",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10k0-TKacAuLvDPb5lSuqdhyopWxy0py5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10k0-TKacAuLvDPb5lSuqdhyopWxy0py5&sz=w640",
+          "sizeBytes": 4732174,
+          "sha256": "C406285A497D0FBEAF08E819ABA90B670F7D175966884A0D2DD4EC56CAC6A565",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Batman Overlooking Gotham City Arkham Kn | ЗВУК"
+        },
+        {
+          "id": "v_8d174363",
+          "name": "Batman Overlooking Gotham From Wayne Tow",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DEpLbl4PjtBIcByANZCmfhNXG3lHQTJw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DEpLbl4PjtBIcByANZCmfhNXG3lHQTJw&sz=w640",
+          "sizeBytes": 4597227,
+          "sha256": "8F425066E023C285A67403064BF4331AAB26A1839DDA4AF20F31EBAB7FC3018F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Batman Overlooking Gotham From Wayne Tow | ЗВУК"
+        },
+        {
+          "id": "v_39239514",
+          "name": "Batman Arkham Knight Harley Quinn",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DCY643-UfieERDm2_zpDiT85zeys-cqF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DCY643-UfieERDm2_zpDiT85zeys-cqF&sz=w640",
+          "sizeBytes": 4620318,
+          "sha256": "A89E43231720DCA9828D8CD1070E3DD30944CF42490DF0E948F04BB8D286B8AE",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Batman Arkham Knight Harley Quinn | ЗВУК"
         }
       ]
     },
@@ -48562,6 +48634,6 @@
     }
   ],
   "totalGames": 1072,
-  "totalVariants": 2122,
+  "totalVariants": 2126,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
