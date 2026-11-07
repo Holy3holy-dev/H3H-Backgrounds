@@ -13135,10 +13135,66 @@
     "https://moewalls.com/games/unknown-fortress-the-witcher-3-wild-hunt-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2022/unknown-fortress-the-witcher-3-wild-hunt-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/persona-5-preview.webm": {
+      "title": "Persona 5",
+      "titleId": "01005CA01580E000",
+      "gameName": "Persona 5 Royal",
+      "varId": "v_c22d756d",
+      "driveId": "1TkRzefQPidqHn7XqVj8RpTzzAMV_YCeQ",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/persona-5-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/persona-5-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/ann-takamaki-summer-vacation-persona-5-preview.webm": {
+      "title": "Ann Takamaki Summer Vacation Persona 5",
+      "titleId": "01005CA01580E000",
+      "gameName": "Persona 5 Royal",
+      "varId": "v_13cc58b0",
+      "driveId": "1X6WXLLHfXtyalXyaxyZjPopuOZAV1WKE",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/ann-takamaki-summer-vacation-persona-5-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/ann-takamaki-summer-vacation-persona-5-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/persona-5-enhanced-theme-preview.webm": {
+      "title": "Persona 5 Enhanced Theme",
+      "titleId": "01005CA01580E000",
+      "gameName": "Persona 5 Royal",
+      "varId": "v_3eda5e60",
+      "driveId": "1Fqb6NEKwVgcxLpbMV4y8wVuolPAc1c3_",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/persona-5-enhanced-theme-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/persona-5-enhanced-theme-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/crystal-maiden-persona-dota-2-preview.webm": {
+      "title": "Crystal Maiden Persona Dota 2",
+      "titleId": "010062B01525C000",
+      "gameName": "Persona 4 Golden",
+      "varId": "v_bb1c68e9",
+      "driveId": "1ZcF8OmpFjBWF-s4rGJis6UGBJlHAv1ME",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/crystal-maiden-persona-dota-2-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/crystal-maiden-persona-dota-2-preview.webm"
     }
   },
-  "total_harvested": 1816,
-  "last_updated": "2026-11-07T18:22:56.798778+00:00",
+  "total_harvested": 1824,
+  "last_updated": "2026-11-07T18:26:19.409111+00:00",
   "page_cursors": {
     "super mario odyssey": 1,
     "mario odyssey": 1,
@@ -15518,8 +15574,11 @@
     "tag:pokemon": 1,
     "tag:bayonetta": 2,
     "bayonetta": 2,
-    "king boo": 1
+    "king boo": 1,
+    "tag:persona-3": 1,
+    "persona 3": 1,
+    "tag:persona-4": 1
   },
   "query_cursor": 2720,
-  "priority_cursor": 60
+  "priority_cursor": 72
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T18:22:56.805405+00:00",
+  "updatedAt": "2026-11-07T18:26:19.416211+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -702,6 +702,60 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_c22d756d",
+          "name": "Persona 5",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TkRzefQPidqHn7XqVj8RpTzzAMV_YCeQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TkRzefQPidqHn7XqVj8RpTzzAMV_YCeQ&sz=w640",
+          "sizeBytes": 4651479,
+          "sha256": "205FA47A1AE4E4DC9025365861A209F07EAA46E2EECBCF7DDE93B4D88CB9C070",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Persona 5 | ЗВУК"
+        },
+        {
+          "id": "v_13cc58b0",
+          "name": "Ann Takamaki Summer Vacation Persona 5",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1X6WXLLHfXtyalXyaxyZjPopuOZAV1WKE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1X6WXLLHfXtyalXyaxyZjPopuOZAV1WKE&sz=w640",
+          "sizeBytes": 4681525,
+          "sha256": "8502FE8715072ABB74CBB2192DA750C1954AF98BC04C9A21122671533A9A1B2E",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ann Takamaki Summer Vacation Persona 5 | ЗВУК"
+        },
+        {
+          "id": "v_3eda5e60",
+          "name": "Persona 5 Enhanced Theme",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Fqb6NEKwVgcxLpbMV4y8wVuolPAc1c3_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Fqb6NEKwVgcxLpbMV4y8wVuolPAc1c3_&sz=w640",
+          "sizeBytes": 4692165,
+          "sha256": "41639BFFC427BEBDC4AFB7411A208334AB075E7B2AE2B1C93731B1673AF59D1D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Persona 5 Enhanced Theme | ЗВУК"
         }
       ]
     },
@@ -7091,6 +7145,24 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_bb1c68e9",
+          "name": "Crystal Maiden Persona Dota 2",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZcF8OmpFjBWF-s4rGJis6UGBJlHAv1ME",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZcF8OmpFjBWF-s4rGJis6UGBJlHAv1ME&sz=w640",
+          "sizeBytes": 4719885,
+          "sha256": "0CDCB5F78C4D594DEF4B452FAC41820CD45E0357C20142924FB57CCAB6AA631E",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Crystal Maiden Persona Dota 2 | ЗВУК"
         }
       ]
     },
@@ -48266,6 +48338,6 @@
     }
   ],
   "totalGames": 1071,
-  "totalVariants": 2106,
+  "totalVariants": 2110,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
