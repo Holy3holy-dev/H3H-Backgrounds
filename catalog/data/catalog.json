@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T18:26:19.416211+00:00",
+  "updatedAt": "2026-11-07T18:29:04.758532+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -1119,6 +1119,42 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_5bfb8bcb",
+          "name": "Artorias The Abysswalker Dark Soul",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xUjSrzklSVFI1edQf38ebKWz6QbXUNTv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xUjSrzklSVFI1edQf38ebKWz6QbXUNTv&sz=w640",
+          "sizeBytes": 4733224,
+          "sha256": "3B3A5DBC5ED3645B6A653C27E9EBC6A046DAFF05FAB73EC0A32D994275A185F6",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Artorias The Abysswalker Dark Soul | ЗВУК"
+        },
+        {
+          "id": "v_0602dea2",
+          "name": "Artorias the Abysswalker Dark Souls",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zdTvEMKk2OUR5BYmS23tuh_YTnFHfQlG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zdTvEMKk2OUR5BYmS23tuh_YTnFHfQlG&sz=w640",
+          "sizeBytes": 4736521,
+          "sha256": "FB8D2E95669EAD0D75A97DFCE76F48DF4F43976F20C538893CA8F1709ED22ED1",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Artorias the Abysswalker Dark Souls | ЗВУК"
         }
       ]
     },
@@ -47938,6 +47974,42 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_5c26a1ba",
+          "name": "Barbarian Warrior Fighting Monster Elder",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CK1KRr0fTzbLqJevdo9sb_9-aq-3bLjG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CK1KRr0fTzbLqJevdo9sb_9-aq-3bLjG&sz=w640",
+          "sizeBytes": 4707186,
+          "sha256": "011C2E4D06A6B338A2FEE0FAFBFF2F46A199FC22311C65037C02F092E236C436",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Barbarian Warrior Fighting Monster Elder | ЗВУК"
+        },
+        {
+          "id": "v_4f1209e8",
+          "name": "Dark Brotherhood The Elder Scrolls IV Ob",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dc43z2qlOmuLkymyQ1Ec_ogDZRo9u3yg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dc43z2qlOmuLkymyQ1Ec_ogDZRo9u3yg&sz=w640",
+          "sizeBytes": 4590001,
+          "sha256": "E03E5D7AADDBCAF8E63A4771B4953FAF3CBD539D9A597AEA570D913D0CF3FF46",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Dark Brotherhood The Elder Scrolls IV Ob"
         }
       ]
     },
@@ -48338,6 +48410,6 @@
     }
   ],
   "totalGames": 1071,
-  "totalVariants": 2110,
+  "totalVariants": 2114,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
