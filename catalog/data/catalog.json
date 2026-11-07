@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T18:20:14.664086+00:00",
+  "updatedAt": "2026-11-07T18:22:56.805405+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -3480,6 +3480,60 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_8d523859",
+          "name": "Geralt Night Rest The Witcher 3 Wild Hun",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PDu5fpNLz477-2mSaoY1TqlJbKkKOFxW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PDu5fpNLz477-2mSaoY1TqlJbKkKOFxW&sz=w640",
+          "sizeBytes": 4720947,
+          "sha256": "AF6D72C05AE95D2501A6A96AF7F6F628EEF4C67C8A6C9CC4AAAACBC189057BB3",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Geralt Night Rest The Witcher 3 Wild Hun"
+        },
+        {
+          "id": "v_574c8877",
+          "name": "Geralt Of Rivia The Witcher 3: Wild Hunt",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14JjUGpiPce4Z4Yr0Tr87ME4zN2k-js-e",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14JjUGpiPce4Z4Yr0Tr87ME4zN2k-js-e&sz=w640",
+          "sizeBytes": 4620007,
+          "sha256": "35DAB3A6D00FF30D45BEF4C976A6C1B6ADA33052ECF89B1F7699C50F16E0A79E",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Geralt Of Rivia The Witcher 3: Wild Hunt | ЗВУК"
+        },
+        {
+          "id": "v_d98ffe4c",
+          "name": "Unknown Fortress The Witcher 3: Wild Hun",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1f1OM7Qd1_0O2GEg2CoPrPVsjW9ag03IF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1f1OM7Qd1_0O2GEg2CoPrPVsjW9ag03IF&sz=w640",
+          "sizeBytes": 4711066,
+          "sha256": "63484283F293D09B1957BDFC1E9E0E45E37D5FF3745F794B0276B25A62B64121",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Unknown Fortress The Witcher 3: Wild Hun | ЗВУК"
         }
       ]
     },
@@ -12872,6 +12926,24 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_530b0cf2",
+          "name": "Shadow Lugia Pokemon XD: Gale of Darknes",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1I7Zj68y8MLcKE_CfduPlowBnUFRoyiaC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1I7Zj68y8MLcKE_CfduPlowBnUFRoyiaC&sz=w640",
+          "sizeBytes": 4708318,
+          "sha256": "515FF285D5EB56E70E631056A6AB569E188B494A79331555DE9720A09777EBF4",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Shadow Lugia Pokemon XD: Gale of Darknes | ЗВУК"
         }
       ]
     },
@@ -48194,6 +48266,6 @@
     }
   ],
   "totalGames": 1071,
-  "totalVariants": 2102,
+  "totalVariants": 2106,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
