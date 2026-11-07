@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T20:28:31.860204+00:00",
+  "updatedAt": "2026-11-07T20:31:25.508607+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -35159,6 +35159,60 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Nier Automata | ЗВУК"
+        },
+        {
+          "id": "v_3d43db8a",
+          "name": "2B Dual Swords NieR: Automata",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17HolZF0Yq_Re8vH9i-M_jXxTwA0vLpLd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17HolZF0Yq_Re8vH9i-M_jXxTwA0vLpLd&sz=w640",
+          "sizeBytes": 4674135,
+          "sha256": "DC073D3CD1F0C48085BE78A06722F025216AADAB150098D164281D9359FDAAEF",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 2B Dual Swords NieR: Automata | ЗВУК"
+        },
+        {
+          "id": "v_43ac19a6",
+          "name": "2B Playing Violin Nier: Automata",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oFAVhW9R8hrxWQ5uHFMUJ9auX7lgNB_t",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oFAVhW9R8hrxWQ5uHFMUJ9auX7lgNB_t&sz=w640",
+          "sizeBytes": 4697828,
+          "sha256": "491AF5FA3EF6C2EC63D011A3332FE2D5F17211A6BB5CE677575D71FC4C3CDA6F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 2B Playing Violin Nier: Automata | ЗВУК"
+        },
+        {
+          "id": "v_4dc6aa6f",
+          "name": "2B Machine NieR: Automata",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1m-sITaW2zuN24BrCj1H8r3TY8rX0l8-v",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1m-sITaW2zuN24BrCj1H8r3TY8rX0l8-v&sz=w640",
+          "sizeBytes": 4660592,
+          "sha256": "E49FF86A7ADB7D83E5AFAC2153351A53647FFDFF233919E1E3D977363744EDFA",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 2B Machine NieR: Automata | ЗВУК"
         }
       ]
     },
@@ -50160,6 +50214,6 @@
     }
   ],
   "totalGames": 1076,
-  "totalVariants": 2209,
+  "totalVariants": 2212,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }

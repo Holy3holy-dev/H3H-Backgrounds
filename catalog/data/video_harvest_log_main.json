@@ -14577,10 +14577,52 @@
     "https://moewalls.com/games/ciri-vs-swamp-monster-the-witcher-3-wild-hunt-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2022/ciri-vs-swamp-monster-the-witcher-3-wild-hunt-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/2b-dual-swords-nier-automata-preview.webm": {
+      "title": "2B Dual Swords NieR: Automata",
+      "titleId": "01005C000B2AE000",
+      "gameName": "NieR:Automata",
+      "varId": "v_3d43db8a",
+      "driveId": "17HolZF0Yq_Re8vH9i-M_jXxTwA0vLpLd",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/2b-dual-swords-nier-automata-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/2b-dual-swords-nier-automata-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/2b-playing-violin-nier-automata-preview.webm": {
+      "title": "2B Playing Violin Nier: Automata",
+      "titleId": "01005C000B2AE000",
+      "gameName": "NieR:Automata",
+      "varId": "v_43ac19a6",
+      "driveId": "1oFAVhW9R8hrxWQ5uHFMUJ9auX7lgNB_t",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/2b-playing-violin-nier-automata-2-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/2b-playing-violin-nier-automata-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/2b-machine-nier-automata-preview.webm": {
+      "title": "2B Machine NieR: Automata",
+      "titleId": "01005C000B2AE000",
+      "gameName": "NieR:Automata",
+      "varId": "v_4dc6aa6f",
+      "driveId": "1m-sITaW2zuN24BrCj1H8r3TY8rX0l8-v",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/2b-machine-nier-automata-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/2b-machine-nier-automata-preview.webm"
     }
   },
-  "total_harvested": 2022,
-  "last_updated": "2026-11-07T20:28:31.853952+00:00",
+  "total_harvested": 2028,
+  "last_updated": "2026-11-07T20:31:25.500684+00:00",
   "page_cursors": {
     "super mario odyssey": 1,
     "mario odyssey": 1,
@@ -17018,7 +17060,7 @@
     "pokemon umbreon": 1,
     "pokemon eevee": 1,
     "pokemon lugia": 2,
-    "persona 4": 1,
+    "persona 4": 2,
     "tag:diablo": 1,
     "tag:devil-may-cry": 1,
     "devil may cry": 1,
@@ -17052,10 +17094,10 @@
     "pokemon pikachu": 1,
     "pokemon mewtwo": 1,
     "tag:the-witcher-3-wild-hunt": 2,
-    "tag:geralt-of-rivia": 2,
-    "tag:persona-5": 2,
-    "tag:persona": 2,
-    "persona 5": 2,
+    "tag:geralt-of-rivia": 1,
+    "tag:persona-5": 1,
+    "tag:persona": 1,
+    "persona 5": 1,
     "tag:nier-automata": 2,
     "tag:red-dead-redemption": 1,
     "red dead redemption": 2,
@@ -17076,8 +17118,11 @@
     "tag:overwatch": 2,
     "apex legends": 2,
     "tag:deltarune": 2,
-    "tag:signalis": 2
+    "tag:signalis": 2,
+    "tag:the-witcher": 2,
+    "tag:ciri": 2,
+    "witcher 3": 2
   },
   "query_cursor": 2720,
-  "priority_cursor": 54
+  "priority_cursor": 66
 }
