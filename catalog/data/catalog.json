@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T21:56:09.936599+00:00",
+  "updatedAt": "2026-11-07T22:13:50.542907+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -4236,6 +4236,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Cirilla Fiona Elen Riannon The Witcher 3 | ЗВУК"
+        },
+        {
+          "id": "v_e05ebf51",
+          "name": "The Witcher Geralt",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RtTrOuPB8KdaXtwnJB3kLueZ9pt2U8b0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RtTrOuPB8KdaXtwnJB3kLueZ9pt2U8b0&sz=w640",
+          "sizeBytes": 4613491,
+          "sha256": "4C062DB21B537A73BF30A6631C33CB01D62DC80E87C5DB722169A1A61E12656F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Witcher Geralt | ЗВУК"
         }
       ]
     },
@@ -50880,6 +50898,6 @@
     }
   ],
   "totalGames": 1076,
-  "totalVariants": 2249,
+  "totalVariants": 2250,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
