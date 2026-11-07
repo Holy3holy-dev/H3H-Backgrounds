@@ -1097,7 +1097,7 @@ class AutoVideoHarvester:
                 pass
 
             subprocess.run(["git", "add", rel_cat, str(self.log_file.relative_to(PROJECT_ROOT))], check=True)
-            subprocess.run(["git", "commit", "-m", f"feat(harvest): automated batch harvest {harvested_count} {self.mode} video themes ({self.codec.upper()})"], env=git_env, check=True)
+            subprocess.run(["git", "commit", "-m", f"feat(harvest): automated batch harvest {harvested_count} {self.mode} video themes ({self.codec.upper()}) [skip render] [skip ci]"], env=git_env, check=True)
 
             for push_att in range(1, 4):
                 try:

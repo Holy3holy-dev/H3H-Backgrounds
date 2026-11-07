@@ -592,7 +592,7 @@ def push_catalog_to_github(catalog_rel: Path, commit_msg: str, branch: Optional[
         b64_content = base64.b64encode(raw_bytes).decode("ascii")
 
         put_payload = {
-            "message": commit_msg,
+            "message": commit_msg if "[skip render]" in commit_msg else f"{commit_msg} [skip render] [skip ci]",
             "content": b64_content,
             "branch": target_branch
         }
@@ -630,7 +630,22 @@ def push_catalog_to_github(catalog_rel: Path, commit_msg: str, branch: Optional[
 
 # ----------------- Commands -----------------
 
+_last_remote_sync = 0.0
+
 def get_catalog_stats() -> dict:
+    global _last_remote_sync
+    if time.time() - _last_remote_sync > 60.0:
+        _last_remote_sync = time.time()
+        for rel_p in (CATALOG_PATH_STANDARD, CATALOG_PATH_AFTER_DARK):
+            try:
+                raw_url = f"https://raw.githubusercontent.com/{GITHUB_REPO}/main/{str(rel_p).replace(chr(92), '/')}?t={int(time.time())}"
+                req = urllib.request.Request(raw_url, headers={"User-Agent": "H3H-Bot-Sync/1.0"})
+                with urllib.request.urlopen(req, timeout=8) as r:
+                    content = r.read()
+                    if len(content) > 1000:
+                        (PROJECT_ROOT / rel_p).write_bytes(content)
+            except Exception:
+                pass
     std_games = 0
     std_vars = 0
     std_icons = 0
