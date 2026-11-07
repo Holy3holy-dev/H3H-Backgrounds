@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T20:46:36.017292+00:00",
+  "updatedAt": "2026-11-07T20:49:29.121360+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -24501,6 +24501,60 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Ash Warframe"
+        },
+        {
+          "id": "v_4fcf69e3",
+          "name": "Ember Warframe",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xWFuOXaNz-uxjiuxofKFDXX7KmgqbX9D",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xWFuOXaNz-uxjiuxofKFDXX7KmgqbX9D&sz=w640",
+          "sizeBytes": 4741381,
+          "sha256": "2E5E94EACCCFB92B905F1B0C3F78820FB079760EB949DE24396A85F2A069E650",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ember Warframe | ЗВУК"
+        },
+        {
+          "id": "v_4c141119",
+          "name": "Excalibur Umbra Warframe",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1d49r-YHF_-BgIrFC__AerfkKtAKYIHaJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1d49r-YHF_-BgIrFC__AerfkKtAKYIHaJ&sz=w640",
+          "sizeBytes": 4732352,
+          "sha256": "BB8624E4628027F7327D93B4EAC855ED5A71BBA0A08C37F6A3DB118D4DFAD59A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Excalibur Umbra Warframe | ЗВУК"
+        },
+        {
+          "id": "v_b3d7c0da",
+          "name": "Volt Prime Warframe",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WmSvgw0zqCuLgYHQDXqJHSQArGHfNsQu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WmSvgw0zqCuLgYHQDXqJHSQArGHfNsQu&sz=w640",
+          "sizeBytes": 4648853,
+          "sha256": "0D1E4D67A7523F6F8982DF9114299168359465581DAEA8A53DC95F89A0C8CBD8",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Volt Prime Warframe | ЗВУК"
         }
       ]
     },
@@ -50430,6 +50484,6 @@
     }
   ],
   "totalGames": 1076,
-  "totalVariants": 2224,
+  "totalVariants": 2227,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }

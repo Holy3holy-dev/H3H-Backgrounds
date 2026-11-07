@@ -14787,10 +14787,52 @@
     "https://moewalls.com/games/atlantic-all-stars-mercy-overwatch-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2022/atlantic-all-stars-mercy-overwatch-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2021/ember-warframe-preview.webm": {
+      "title": "Ember Warframe",
+      "titleId": "0100A250097F0000",
+      "gameName": "Warframe",
+      "varId": "v_4fcf69e3",
+      "driveId": "1xWFuOXaNz-uxjiuxofKFDXX7KmgqbX9D",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/ember-warframe-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2021/ember-warframe-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2021/excalibur-umbra-warframe-preview.webm": {
+      "title": "Excalibur Umbra Warframe",
+      "titleId": "0100A250097F0000",
+      "gameName": "Warframe",
+      "varId": "v_4c141119",
+      "driveId": "1d49r-YHF_-BgIrFC__AerfkKtAKYIHaJ",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/excalibur-umbra-warframe-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2021/excalibur-umbra-warframe-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2021/volt-prime-warframe-preview.webm": {
+      "title": "Volt Prime Warframe",
+      "titleId": "0100A250097F0000",
+      "gameName": "Warframe",
+      "varId": "v_b3d7c0da",
+      "driveId": "1WmSvgw0zqCuLgYHQDXqJHSQArGHfNsQu",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/volt-prime-warframe-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2021/volt-prime-warframe-preview.webm"
     }
   },
-  "total_harvested": 2052,
-  "last_updated": "2026-11-07T20:46:36.009361+00:00",
+  "total_harvested": 2058,
+  "last_updated": "2026-11-07T20:49:29.111338+00:00",
   "page_cursors": {
     "super mario odyssey": 1,
     "mario odyssey": 1,
@@ -14846,7 +14888,7 @@
     "doom marine": 2,
     "doom 2": 2,
     "doom ii classic": 1,
-    "sonic frontiers": 2,
+    "sonic frontiers": 1,
     "sonic starfall": 2,
     "witcher 3 scenery": 1,
     "geralt of rivia kaer morhen": 1,
@@ -17192,11 +17234,11 @@
     "no mans sky": 1,
     "tag:subnautica": 1,
     "subnautica": 1,
-    "tag:sonic-the-hedgehog": 2,
+    "tag:sonic-the-hedgehog": 1,
     "tag:shadow-the-hedgehog": 1,
-    "sonic": 1,
-    "tag:tomb-raider": 2,
-    "lara croft": 2,
+    "sonic": 2,
+    "tag:tomb-raider": 1,
+    "lara croft": 1,
     "tag:castlevania": 1,
     "hollow knight": 1,
     "tag:dead-cells": 1,
@@ -17284,7 +17326,7 @@
     "tag:bioshock": 1,
     "tag:metro": 1,
     "tag:overwatch": 2,
-    "apex legends": 2,
+    "apex legends": 1,
     "tag:deltarune": 2,
     "tag:signalis": 2,
     "tag:the-witcher": 2,
@@ -17303,8 +17345,12 @@
     "tag:ada-wong": 2,
     "batman arkham": 2,
     "metro exodus": 2,
-    "overwatch": 2
+    "overwatch": 2,
+    "tag:apex-legends": 2,
+    "warframe": 2,
+    "tag:fortnite": 2,
+    "fortnite": 2
   },
   "query_cursor": 2720,
-  "priority_cursor": 138
+  "priority_cursor": 150
 }
