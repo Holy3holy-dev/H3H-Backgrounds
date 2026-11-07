@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T18:56:53.754074+00:00",
+  "updatedAt": "2026-11-07T18:58:55.004907+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -1886,6 +1886,24 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_c6c6a496",
+          "name": "After The Rain Legend Of Zelda: Breath O",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qfXjESF3lT_xOSntvm9kVJAVs0ShVa6f",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qfXjESF3lT_xOSntvm9kVJAVs0ShVa6f&sz=w640",
+          "sizeBytes": 4630855,
+          "sha256": "15A318152446D7398246D9B11FC731298CED95231480529525D39046D1AF20C3",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | After The Rain Legend Of Zelda: Breath O | ЗВУК"
         }
       ]
     },
@@ -49028,6 +49046,6 @@
     }
   ],
   "totalGames": 1074,
-  "totalVariants": 2147,
+  "totalVariants": 2148,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }

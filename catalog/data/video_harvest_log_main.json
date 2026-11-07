@@ -13709,10 +13709,24 @@
     "https://moewalls.com/games/the-gaze-of-signalis-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2024/the-gaze-of-signalis-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/after-the-rain-legend-of-zelda-breath-of-the-wild-preview.webm": {
+      "title": "After The Rain Legend Of Zelda: Breath O",
+      "titleId": "0100F2C0115B6000",
+      "gameName": "The Legend of Zelda: Tears of the Kingdom",
+      "varId": "v_c6c6a496",
+      "driveId": "1qfXjESF3lT_xOSntvm9kVJAVs0ShVa6f",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/after-the-rain-legend-of-zelda-breath-of-the-wild-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/after-the-rain-legend-of-zelda-breath-of-the-wild-preview.webm"
     }
   },
-  "total_harvested": 1898,
-  "last_updated": "2026-11-07T18:56:53.748617+00:00",
+  "total_harvested": 1900,
+  "last_updated": "2026-11-07T18:58:54.997839+00:00",
   "page_cursors": {
     "super mario odyssey": 1,
     "mario odyssey": 1,
@@ -13858,7 +13872,7 @@
     "slay the spire ironclad": 1,
     "slay the spire": 1,
     "tag:zelda": 2,
-    "tag:super-mario": 1,
+    "tag:super-mario": 2,
     "tag:dark-souls": 2,
     "tag:hollow-knight": 2,
     "Grand Theft Auto Vice City": 2,
@@ -16063,13 +16077,13 @@
     "Go Vacation": 1,
     "tag:tears-of-the-kingdom": 1,
     "tag:the-legend-of-zelda": 2,
-    "tears of the kingdom": 2,
+    "tears of the kingdom": 1,
     "zelda link": 2,
     "tag:breath-of-the-wild": 1,
-    "zelda breath of the wild": 2,
-    "tag:mario": 2,
-    "super mario": 2,
-    "mario bowser": 2,
+    "zelda breath of the wild": 1,
+    "tag:mario": 1,
+    "super mario": 1,
+    "mario bowser": 1,
     "princess daisy mario": 1,
     "rainbow road mario": 1,
     "tag:super-smash-bros": 1,
@@ -16140,8 +16154,9 @@
     "tag:outer-wilds": 1,
     "outer wilds": 1,
     "tag:katana-zero": 2,
-    "katana zero": 2
+    "katana zero": 2,
+    "breath of the wild": 2
   },
   "query_cursor": 2720,
-  "priority_cursor": 2
+  "priority_cursor": 14
 }
