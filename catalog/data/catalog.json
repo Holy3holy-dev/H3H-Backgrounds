@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T19:30:58.186236+00:00",
+  "updatedAt": "2026-11-07T19:33:15.407004+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -6638,6 +6638,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Asriel Dreemurr Vs Frisk Undertale | ЗВУК"
+        },
+        {
+          "id": "v_9039a3da",
+          "name": "Deltarune Forgotten Man",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wMHkO5hrq2YC6eGIkyRx9YNJX0qgPB0H",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wMHkO5hrq2YC6eGIkyRx9YNJX0qgPB0H&sz=w640",
+          "sizeBytes": 4633656,
+          "sha256": "8C9899FCE0FF0E3ADCCD0FA7CD0771098032050839CD0EEB1FE1D837074FAE1E",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Deltarune Forgotten Man"
+        },
+        {
+          "id": "v_efa1652f",
+          "name": "Deltarune",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oEjJHgNCMDxPVPKDZ48ZoIXbxs63YrPv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oEjJHgNCMDxPVPKDZ48ZoIXbxs63YrPv&sz=w640",
+          "sizeBytes": 4696235,
+          "sha256": "A7C298F1DEFE8971625FE236152CB0DA1CF42E2A78425C5EEA605A2AEA0D1C9E",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Deltarune | ЗВУК"
         }
       ]
     },
@@ -49612,6 +49648,6 @@
     }
   ],
   "totalGames": 1075,
-  "totalVariants": 2179,
+  "totalVariants": 2181,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }

@@ -14157,10 +14157,38 @@
     "https://moewalls.com/games/winter-minecraft-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2025/winter-minecraft-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2026/deltarune-forgotten-man-preview.webm": {
+      "title": "Deltarune Forgotten Man",
+      "titleId": "010080B00AD66000",
+      "gameName": "Undertale",
+      "varId": "v_9039a3da",
+      "driveId": "1wMHkO5hrq2YC6eGIkyRx9YNJX0qgPB0H",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/deltarune-forgotten-man-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2026/deltarune-forgotten-man-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/deltarune-preview.webm": {
+      "title": "Deltarune",
+      "titleId": "010080B00AD66000",
+      "gameName": "Undertale",
+      "varId": "v_efa1652f",
+      "driveId": "1oEjJHgNCMDxPVPKDZ48ZoIXbxs63YrPv",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/deltarune-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/deltarune-preview.webm"
     }
   },
-  "total_harvested": 1962,
-  "last_updated": "2026-11-07T19:30:58.179300+00:00",
+  "total_harvested": 1966,
+  "last_updated": "2026-11-07T19:33:15.399699+00:00",
   "page_cursors": {
     "super mario odyssey": 1,
     "mario odyssey": 1,
@@ -16581,10 +16609,10 @@
     "ori and the blind forest": 1,
     "minecraft": 2,
     "tag:terraria": 1,
-    "terraria": 2,
+    "terraria": 1,
     "tag:stardew-valley": 1,
     "stardew valley": 1,
-    "little nightmares": 2,
+    "little nightmares": 1,
     "tag:outer-wilds": 1,
     "outer wilds": 1,
     "tag:katana-zero": 2,
@@ -16618,8 +16646,15 @@
     "castlevania": 2,
     "tag:hades": 2,
     "hades zagreus": 1,
-    "tag:minecraft": 2
+    "tag:minecraft": 2,
+    "tag:undertale": 2,
+    "undertale": 2,
+    "tag:omori": 1,
+    "omori": 1,
+    "tag:cult-of-the-lamb": 1,
+    "cult of the lamb": 1,
+    "tag:little-nightmares": 2
   },
   "query_cursor": 2720,
-  "priority_cursor": 170
+  "priority_cursor": 182
 }
