@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T20:49:29.121360+00:00",
+  "updatedAt": "2026-11-07T20:54:49.270470+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -6138,6 +6138,96 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Winter Minecraft | ЗВУК"
+        },
+        {
+          "id": "v_6493b1e2",
+          "name": "Garden Lake Minecraft",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LQ64YNDti48WcyAlyXCsUr_Ygzs5TqEB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LQ64YNDti48WcyAlyXCsUr_Ygzs5TqEB&sz=w640",
+          "sizeBytes": 4653215,
+          "sha256": "3B3B837CC915CBC76F407DDAF6B3FD181AADCCBCE2E0C08F44A13182B26943A6",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Garden Lake Minecraft"
+        },
+        {
+          "id": "v_626b5da1",
+          "name": "Minecraft Winter Northern Lights",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jNiS4XwccGeU35z-TFfdxYxQYOcx2eOt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jNiS4XwccGeU35z-TFfdxYxQYOcx2eOt&sz=w640",
+          "sizeBytes": 4479015,
+          "sha256": "3F7A0F361B00484361C5116352560643A54345043151041D7F2633507952062E",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Minecraft Winter Northern Lights"
+        },
+        {
+          "id": "v_e32b495e",
+          "name": "Wheat Field Minecraft",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bfna1u4kLYkdW596xcK1pclT-Xj6X_j_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bfna1u4kLYkdW596xcK1pclT-Xj6X_j_&sz=w640",
+          "sizeBytes": 4665200,
+          "sha256": "94DA66170F1D421A5F298258ED504A879D25D964FC14DC7653B7D5E2ED2594CF",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Wheat Field Minecraft"
+        },
+        {
+          "id": "v_91cdc01e",
+          "name": "Lilac Field At Night Minecraft",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zRgwSs69ULhAeD5nKyaSmYsehiR5LmAQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zRgwSs69ULhAeD5nKyaSmYsehiR5LmAQ&sz=w640",
+          "sizeBytes": 4704563,
+          "sha256": "F318F6922C08696D4DA37171086105A63A6CB00C298F53E272A3678EFEAFD962",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Lilac Field At Night Minecraft"
+        },
+        {
+          "id": "v_2082a1d6",
+          "name": "Windmill In The Storm Minecraft",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1iCBy2V-uduVPMILdTjCb85PG0l-9GVRP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1iCBy2V-uduVPMILdTjCb85PG0l-9GVRP&sz=w640",
+          "sizeBytes": 4743769,
+          "sha256": "B085D15D4581E67154E13E159E0C39297D3E49C652E646529E3A052CBF7138F3",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Windmill In The Storm Minecraft"
         }
       ]
     },
@@ -50484,6 +50574,6 @@
     }
   ],
   "totalGames": 1076,
-  "totalVariants": 2227,
+  "totalVariants": 2232,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
