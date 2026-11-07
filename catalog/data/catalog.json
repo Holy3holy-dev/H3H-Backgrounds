@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T20:54:49.270470+00:00",
+  "updatedAt": "2026-11-07T21:09:24.094391+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -4128,6 +4128,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Ciri Vs Swamp Monster The Witcher 3: Wil | ЗВУК"
+        },
+        {
+          "id": "v_70c545a1",
+          "name": "Cirilla Fiona Elen Riannon The Witcher 3",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ly4SkV16ueniE8qwsbYwupI2IqUzNvOt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ly4SkV16ueniE8qwsbYwupI2IqUzNvOt&sz=w640",
+          "sizeBytes": 4690788,
+          "sha256": "E5A4F76D4B2B37A9C0757EBD32B10AC756073BB55DBB550E3FC7F452268674A6",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cirilla Fiona Elen Riannon The Witcher 3 | ЗВУК"
         }
       ]
     },
@@ -35465,6 +35483,60 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | 2B Machine NieR: Automata | ЗВУК"
+        },
+        {
+          "id": "v_44e697ba",
+          "name": "2B White Lily Field NieR: Automata",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ncExtdS2-1IFJW9mM-u9KJLcvWcOhxW_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ncExtdS2-1IFJW9mM-u9KJLcvWcOhxW_&sz=w640",
+          "sizeBytes": 4732932,
+          "sha256": "3158A8DAA58443E00F6EB0D0CFAF284578932C396AED64D71D20C004D4749953",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 2B White Lily Field NieR: Automata | ЗВУК"
+        },
+        {
+          "id": "v_16fdd142",
+          "name": "Katana Flowers Field NieR: Automata X Na",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1roA9E6uQUN_0__VZOEmx4tt4P9knRGO-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1roA9E6uQUN_0__VZOEmx4tt4P9knRGO-&sz=w640",
+          "sizeBytes": 4728132,
+          "sha256": "4C098BEDB216A9AA506A98169CD8A8E5FAAB0B8B884B50EB4490EF47789B0D8B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Katana Flowers Field NieR: Automata X Na | ЗВУК"
+        },
+        {
+          "id": "v_93859cc3",
+          "name": "2B White Lily Nier: Automata",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BR5szcNfAIg2YXhkQpc0IeMpJNMh-KEN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BR5szcNfAIg2YXhkQpc0IeMpJNMh-KEN&sz=w640",
+          "sizeBytes": 4719244,
+          "sha256": "12696ACA41D50F19D4C843358774E11E610850E187262446EBBFACFB62ED5DB1",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 2B White Lily Nier: Automata | ЗВУК"
         }
       ]
     },
@@ -50574,6 +50646,6 @@
     }
   ],
   "totalGames": 1076,
-  "totalVariants": 2232,
+  "totalVariants": 2236,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
