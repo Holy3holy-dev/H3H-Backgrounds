@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T21:23:05.280214+00:00",
+  "updatedAt": "2026-11-07T21:43:44.981254+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -1281,6 +1281,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Knight Dark Souls 3 | ЗВУК"
+        },
+        {
+          "id": "v_a8c0dc8a",
+          "name": "Fire Keeper Dark Souls 3",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UqqwNVgmdiKksATmzj4WINgNSuPgnnuF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UqqwNVgmdiKksATmzj4WINgNSuPgnnuF&sz=w640",
+          "sizeBytes": 4659820,
+          "sha256": "78149A9CAA92A6E8E481B4ED09AAA98454F86E82550AB4B983FDD6A380767ED5",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Fire Keeper Dark Souls 3"
         }
       ]
     },
@@ -35609,6 +35627,60 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | 2B White Lily Nier: Automata | ЗВУК"
+        },
+        {
+          "id": "v_bfbe0de6",
+          "name": "A2 Lying On The Water Nier: Automata",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16AooF9K_VzohCxcWRxRa90v-Jb_6AkUb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16AooF9K_VzohCxcWRxRa90v-Jb_6AkUb&sz=w640",
+          "sizeBytes": 4705048,
+          "sha256": "E8EB14DAF1607C9E65F72FC25043285848377863F342D999D24A766A48F2EA64",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | A2 Lying On The Water Nier: Automata | ЗВУК"
+        },
+        {
+          "id": "v_0d784161",
+          "name": "2B Playing Violin Nier: Automata",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kC4qszHDpUU8AOTvp6I74oOvWd7Pz4A2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kC4qszHDpUU8AOTvp6I74oOvWd7Pz4A2&sz=w640",
+          "sizeBytes": 4639447,
+          "sha256": "AE08668E3AAD15CAB8A585A495818DBD19530F13D937EEFD7612559903B60156",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 2B Playing Violin Nier: Automata | ЗВУК"
+        },
+        {
+          "id": "v_a2de1753",
+          "name": "2B Ready To Fight Nier: Automata",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1STnmLNeP3wtEckHLq0JUPHKjjpS3LZUf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1STnmLNeP3wtEckHLq0JUPHKjjpS3LZUf&sz=w640",
+          "sizeBytes": 4649423,
+          "sha256": "781A7181D56E5B9252026BD1D2F8E3791B0D84AB1E255BA82B2FD47576CB7EAA",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 2B Ready To Fight Nier: Automata | ЗВУК"
         }
       ]
     },
@@ -50736,6 +50808,6 @@
     }
   ],
   "totalGames": 1076,
-  "totalVariants": 2241,
+  "totalVariants": 2245,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
