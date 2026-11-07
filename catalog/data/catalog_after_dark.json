@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "name": "H3H After Dark (18+) Official Catalog",
-  "updatedAt": "2026-11-07T19:17:30.430738+00:00",
+  "updatedAt": "2026-11-07T19:27:52.440981+00:00",
   "totalGames": 93,
-  "totalVariants": 944,
+  "totalVariants": 946,
   "games": [
     {
       "titleId": "0000000000000000",
@@ -14616,6 +14616,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Honkai Star Rail Phainon | ЗВУК"
+        },
+        {
+          "id": "v_41662bb9",
+          "name": "Fugue Honkai Star Rail",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-iMMcm7g7aVIhSVAC-u7vwqAjOwBed-w",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-iMMcm7g7aVIhSVAC-u7vwqAjOwBed-w&sz=w640",
+          "sizeBytes": 4708237,
+          "sha256": "077F11688261FA4C1A614BB77AFE9D1A3CB9DE39442A62B96A8C057A6899C80B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Fugue Honkai Star Rail"
+        },
+        {
+          "id": "v_d0ff91bf",
+          "name": "Sparkle Trash Can Dance Honkai Star Rail",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VpxB9DtiQUDAB6yFvKjBlANBOe6WTXs4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VpxB9DtiQUDAB6yFvKjBlANBOe6WTXs4&sz=w640",
+          "sizeBytes": 4717639,
+          "sha256": "8A6C483E87045B864269F77CA1031C0C25422A2E29AEF46E3DB5DCA194B0FC0C",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Sparkle Trash Can Dance Honkai Star Rail"
         }
       ]
     },
