@@ -13527,10 +13527,66 @@
     "https://moewalls.com/games/ryu-hadouken-street-fighter-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2022/ryu-hadouken-street-fighter-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/dracula-castlevania-lords-of-shadow-preview.webm": {
+      "title": "Dracula Castlevania: Lords Of Shadow",
+      "titleId": "010055500D850000",
+      "gameName": "Castlevania Anniversary Collection",
+      "varId": "v_c2ef8a48",
+      "driveId": "1mX5xL25aTvZWH28qkQGMknsJGZ_2qXvb",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/dracula-castlevania-lords-of-shadow-z-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/dracula-castlevania-lords-of-shadow-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/hollow-knight-preview.webm": {
+      "title": "Hollow Knight",
+      "titleId": "010036500ECF2000",
+      "gameName": "Hollow Knight",
+      "varId": "v_acb05798",
+      "driveId": "12KsgJ-XptUqSRUMqHpf6jTqn-FrJ5pcG",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/hollow-knight-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/hollow-knight-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/the-knight-hollow-knight-preview.webm": {
+      "title": "The Knight Hollow Knight",
+      "titleId": "010036500ECF2000",
+      "gameName": "Hollow Knight",
+      "varId": "v_1a11cb69",
+      "driveId": "1omeiIMXm4s9v27XQIeqHHaQJPXs0CR5E",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/the-knight-hollow-knight-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/the-knight-hollow-knight-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/nyx-hades-preview.webm": {
+      "title": "Nyx Hades",
+      "titleId": "010052300B254000",
+      "gameName": "Hades",
+      "varId": "v_4088c523",
+      "driveId": "1egWwUYs-IrtScCARPzYG06oDcji4LuEg",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/nyx-hades-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/nyx-hades-preview.webm"
     }
   },
-  "total_harvested": 1872,
-  "last_updated": "2026-11-07T18:43:28.397477+00:00",
+  "total_harvested": 1880,
+  "last_updated": "2026-11-07T18:47:22.366721+00:00",
   "page_cursors": {
     "super mario odyssey": 1,
     "mario odyssey": 1,
@@ -13586,7 +13642,7 @@
     "doom marine": 2,
     "doom 2": 2,
     "doom ii classic": 1,
-    "sonic frontiers": 2,
+    "sonic frontiers": 1,
     "sonic starfall": 2,
     "witcher 3 scenery": 1,
     "geralt of rivia kaer morhen": 1,
@@ -15931,8 +15987,15 @@
     "tag:no-mans-sky": 1,
     "no mans sky": 1,
     "tag:subnautica": 2,
-    "subnautica": 2
+    "subnautica": 2,
+    "tag:sonic-the-hedgehog": 2,
+    "tag:shadow-the-hedgehog": 1,
+    "sonic": 2,
+    "tag:tomb-raider": 2,
+    "lara croft": 2,
+    "tag:castlevania": 1,
+    "hollow knight": 2
   },
   "query_cursor": 2720,
-  "priority_cursor": 144
+  "priority_cursor": 156
 }

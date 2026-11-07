@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T18:43:28.403654+00:00",
+  "updatedAt": "2026-11-07T18:47:22.372504+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -31491,6 +31491,24 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_4088c523",
+          "name": "Nyx Hades",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1egWwUYs-IrtScCARPzYG06oDcji4LuEg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1egWwUYs-IrtScCARPzYG06oDcji4LuEg&sz=w640",
+          "sizeBytes": 4618356,
+          "sha256": "1E6F4429C4CF4B8007A487490DFF5B4E6E9FEDA153DAA5DF551486D0DF0C0B96",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Nyx Hades | ЗВУК"
         }
       ]
     },
@@ -31882,6 +31900,42 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_acb05798",
+          "name": "Hollow Knight",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12KsgJ-XptUqSRUMqHpf6jTqn-FrJ5pcG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12KsgJ-XptUqSRUMqHpf6jTqn-FrJ5pcG&sz=w640",
+          "sizeBytes": 4729872,
+          "sha256": "ADE5C3EC4DCC2C697E547738907EA8080171FFD4CFEC8A239FF21A2975E0F0FF",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hollow Knight | ЗВУК"
+        },
+        {
+          "id": "v_1a11cb69",
+          "name": "The Knight Hollow Knight",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1omeiIMXm4s9v27XQIeqHHaQJPXs0CR5E",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1omeiIMXm4s9v27XQIeqHHaQJPXs0CR5E&sz=w640",
+          "sizeBytes": 4639380,
+          "sha256": "9F9B0E9BD5B282EB4AF54668089FAE612948672BFD64406349DD634ACE9A4B36",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Knight Hollow Knight | ЗВУК"
         }
       ]
     },
@@ -48783,9 +48837,35 @@
           "notes": "Switch 720p 30fps H264 | Ryu Hadouken! Street Fighter | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "010055500D850000",
+      "title": "Castlevania Anniversary Collection",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010055500D850000.jpg",
+      "variants": [
+        {
+          "id": "v_c2ef8a48",
+          "name": "Dracula Castlevania: Lords Of Shadow",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mX5xL25aTvZWH28qkQGMknsJGZ_2qXvb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mX5xL25aTvZWH28qkQGMknsJGZ_2qXvb&sz=w640",
+          "sizeBytes": 4734984,
+          "sha256": "CF7EA3DEEBB148B610CECDC5FBD6D5249B2E0BBE18B27EBAB58D46BA0441707B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dracula Castlevania: Lords Of Shadow | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 1073,
-  "totalVariants": 2134,
+  "totalGames": 1074,
+  "totalVariants": 2138,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
