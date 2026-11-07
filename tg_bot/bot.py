@@ -378,8 +378,8 @@ def get_gdrive_auth(category: str = "standard") -> Tuple[Optional[str], Optional
     """Returns (access_token, folder_id) for Google Drive operations based on category with robust failover."""
     gdrive_cfg = GoogleDriveHelper.get_stored_config()
 
-    candidates = []
-    # Candidate 1: Environment variable
+    candidates = [(VERIFIED_REFRESH_TOKEN, VERIFIED_CLIENT_ID, VERIFIED_CLIENT_SECRET)]
+    # Candidate 2: Environment variable
     env_tok = (os.getenv("GDRIVE_REFRESH_TOKEN") or "").strip()
     env_cid = (os.getenv("GDRIVE_CLIENT_ID") or "").strip() or GDRIVE_CLIENT_ID
     env_sec = (os.getenv("GDRIVE_CLIENT_SECRET") or "").strip() or GDRIVE_CLIENT_SECRET
@@ -690,7 +690,7 @@ def handle_status(message: types.Message):
     bot.reply_to(
         message,
         f"🤖 <b>H3H Uploader Bot Status</b>\n\n"
-        f"• <b>Версия:</b> v1.3.4-cloud\n"
+        f"• <b>Версия:</b> v1.3.5-cloud\n"
         f"• <b>Google Drive:</b> {gdrive_status}\n"
         f"• <b>Каталог H3H:</b> {stats['std_games']} игр ({stats['std_vars']} видеофонов)\n"
         f"• <b>Видеоиконки 4IFIR:</b> {stats['std_icons']} иконок ({stats['std_icon_games']} тайтлов)\n"
