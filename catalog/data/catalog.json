@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T20:09:36.932506+00:00",
+  "updatedAt": "2026-11-07T20:28:31.860204+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -3948,6 +3948,78 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Firecamp Witcher 3: Blood And Wine | ЗВУК"
+        },
+        {
+          "id": "v_c3509b96",
+          "name": "Cirilla Fiona Elen Riannon The Witcher 3",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1A8F7fdtJ35XN35ufIr8hJ5SbcW70Aie6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1A8F7fdtJ35XN35ufIr8hJ5SbcW70Aie6&sz=w640",
+          "sizeBytes": 4643240,
+          "sha256": "03728D5A69B72509AA4475C04E2D1B06DF12EAC0374A9959345C9D1E5EEE5E53",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cirilla Fiona Elen Riannon The Witcher 3 | ЗВУК"
+        },
+        {
+          "id": "v_77e50281",
+          "name": "Cirilla Fiona Elen Riannon The Witcher 3",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Fqf4La2UwkH0AlqfvarZYvzXRr1Mv_sw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Fqf4La2UwkH0AlqfvarZYvzXRr1Mv_sw&sz=w640",
+          "sizeBytes": 4690214,
+          "sha256": "0FFB1EF77E5E71F85317313A527EDA4AC2A9951E62E55BCE3DED50235EF3AADE",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cirilla Fiona Elen Riannon The Witcher 3 | ЗВУК"
+        },
+        {
+          "id": "v_dfe1d618",
+          "name": "Ciri And White Wolf The Witcher 3: Wild",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13L0GZcuBYUDOC_c9iiXVtrXqXzaQGWBe",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13L0GZcuBYUDOC_c9iiXVtrXqXzaQGWBe&sz=w640",
+          "sizeBytes": 4698309,
+          "sha256": "8122D30B0C7D2113714A33BF6C1DDA08C68F411254C671206961F81513F729D2",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ciri And White Wolf The Witcher 3: Wild | ЗВУК"
+        },
+        {
+          "id": "v_92751ed5",
+          "name": "Ciri Vs Swamp Monster The Witcher 3: Wil",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1JRT0HoNufU1CYCCXpW23xbaUTv2Q9Li_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1JRT0HoNufU1CYCCXpW23xbaUTv2Q9Li_&sz=w640",
+          "sizeBytes": 4693181,
+          "sha256": "59760B7FC1C1E9C0DB4A3A83C24CEA4D13D96973124A94A5E41BA7E79E458AB6",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ciri Vs Swamp Monster The Witcher 3: Wil | ЗВУК"
         }
       ]
     },
@@ -50088,6 +50160,6 @@
     }
   ],
   "totalGames": 1076,
-  "totalVariants": 2205,
+  "totalVariants": 2209,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
