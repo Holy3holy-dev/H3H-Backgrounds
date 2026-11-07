@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T18:11:38.916663+00:00",
+  "updatedAt": "2026-11-07T18:17:37.327069+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -31596,6 +31596,24 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_9b7c14d0",
+          "name": "Kirby And Gooey In The Rain Pokemon",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14wI-N2q08Z_qwIaRdNfR5bXLik0kQ4hL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14wI-N2q08Z_qwIaRdNfR5bXLik0kQ4hL&sz=w640",
+          "sizeBytes": 4673242,
+          "sha256": "B1FE4D675928E4717B15A25BA08788C8DC886514EBF32B2F623967B9811E8231",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kirby And Gooey In The Rain Pokemon | ЗВУК"
         }
       ]
     },
@@ -48104,6 +48122,6 @@
     }
   ],
   "totalGames": 1071,
-  "totalVariants": 2097,
+  "totalVariants": 2098,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
