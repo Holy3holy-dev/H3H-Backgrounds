@@ -14423,10 +14423,24 @@
     "https://moewalls.com/games/batman-arkham-knight-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2021/batman-arkham-knight-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/metro-exodus-sams-story-preview.webm": {
+      "title": "Metro Exodus: Sam&#8217;s Story",
+      "titleId": "010014200B0D0000",
+      "gameName": "Metro 2033 Redux",
+      "varId": "v_8fdfc778",
+      "driveId": "1_fkFALvYcouAR9fszKccFcKlOTIgEn6Y",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/metro-exodus-sams-story-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/metro-exodus-sams-story-preview.webm"
     }
   },
-  "total_harvested": 2000,
-  "last_updated": "2026-11-07T20:00:58.496737+00:00",
+  "total_harvested": 2002,
+  "last_updated": "2026-11-07T20:03:05.824880+00:00",
   "page_cursors": {
     "super mario odyssey": 1,
     "mario odyssey": 1,
@@ -16819,7 +16833,7 @@
     "tag:doom-slayer": 2,
     "doom eternal": 2,
     "tag:borderlands": 1,
-    "borderlands": 2,
+    "borderlands": 1,
     "tag:need-for-speed": 1,
     "need for speed": 1,
     "tag:portal": 1,
@@ -16873,7 +16887,7 @@
     "dying light": 1,
     "tag:assassins-creed": 1,
     "assassins creed": 1,
-    "bioshock": 2,
+    "bioshock": 1,
     "bioshock infinite": 1,
     "tag:mortal-kombat": 2,
     "mortal kombat": 2,
@@ -16916,8 +16930,10 @@
     "tag:resident-evil": 2,
     "resident evil": 2,
     "tag:batman-arkham": 1,
-    "tag:batman": 2
+    "tag:batman": 2,
+    "tag:bioshock": 2,
+    "tag:metro": 2
   },
   "query_cursor": 2720,
-  "priority_cursor": 112
+  "priority_cursor": 124
 }

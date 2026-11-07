@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T20:00:58.504735+00:00",
+  "updatedAt": "2026-11-07T20:03:05.834675+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -31547,6 +31547,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Metro Exodus"
+        },
+        {
+          "id": "v_8fdfc778",
+          "name": "Metro Exodus: Sam&#8217;s Story",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_fkFALvYcouAR9fszKccFcKlOTIgEn6Y",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_fkFALvYcouAR9fszKccFcKlOTIgEn6Y&sz=w640",
+          "sizeBytes": 4750368,
+          "sha256": "2FF70B459D77910B5482565007B8ABABA902055F629B962DBCEEC11F29BEC4F7",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Metro Exodus: Sam&#8217;s Story | ЗВУК"
         }
       ]
     },
@@ -49954,6 +49972,6 @@
     }
   ],
   "totalGames": 1075,
-  "totalVariants": 2198,
+  "totalVariants": 2199,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
