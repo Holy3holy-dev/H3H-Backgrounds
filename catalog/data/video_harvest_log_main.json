@@ -14731,10 +14731,66 @@
     "https://moewalls.com/games/batgirl-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2022/batgirl-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/combat-medic-ziegler-mercy-overwatch-preview.webm": {
+      "title": "Combat Medic Ziegler Mercy Overwatch",
+      "titleId": "010031D00D59C000",
+      "gameName": "Overwatch 2",
+      "varId": "v_ebd38759",
+      "driveId": "1BZabHFHOPdPiohyygGX3bidUFm74h0wa",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/combat-medic-ziegler-mercy-overwatch-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/combat-medic-ziegler-mercy-overwatch-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/witch-mercy-overwatch-preview.webm": {
+      "title": "Witch Mercy Overwatch",
+      "titleId": "010031D00D59C000",
+      "gameName": "Overwatch 2",
+      "varId": "v_6df15ea2",
+      "driveId": "1D-bQvYWRnFCjOISDKs_PwsxrzIbiSlf8",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/witch-mercy-overwatch-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/witch-mercy-overwatch-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/mercy-crying-overwatch-preview.webm": {
+      "title": "Mercy Crying Overwatch",
+      "titleId": "010031D00D59C000",
+      "gameName": "Overwatch 2",
+      "varId": "v_d1224077",
+      "driveId": "1gZSseUKmTkgyKQXluG46TPcDaPPoFyzp",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/mercy-crying-overwatch-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/mercy-crying-overwatch-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/atlantic-all-stars-mercy-overwatch-preview.webm": {
+      "title": "Atlantic All Stars Mercy Overwatch",
+      "titleId": "010031D00D59C000",
+      "gameName": "Overwatch 2",
+      "varId": "v_1a9c3ed7",
+      "driveId": "1xvAz6ZegLm0WZpPXE6qaA-L9vlp0igiG",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/atlantic-all-stars-mercy-overwatch-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/atlantic-all-stars-mercy-overwatch-preview.webm"
     }
   },
-  "total_harvested": 2044,
-  "last_updated": "2026-11-07T20:41:37.744694+00:00",
+  "total_harvested": 2052,
+  "last_updated": "2026-11-07T20:46:36.009361+00:00",
   "page_cursors": {
     "super mario odyssey": 1,
     "mario odyssey": 1,
@@ -17127,15 +17183,15 @@
     "tag:doom-slayer": 1,
     "doom eternal": 1,
     "tag:borderlands": 1,
-    "borderlands": 1,
+    "borderlands": 2,
     "tag:need-for-speed": 1,
     "need for speed": 1,
-    "tag:portal": 2,
-    "portal 2": 2,
+    "tag:portal": 1,
+    "portal 2": 1,
     "tag:no-mans-sky": 1,
     "no mans sky": 1,
-    "tag:subnautica": 2,
-    "subnautica": 2,
+    "tag:subnautica": 1,
+    "subnautica": 1,
     "tag:sonic-the-hedgehog": 2,
     "tag:shadow-the-hedgehog": 1,
     "sonic": 1,
@@ -17181,12 +17237,12 @@
     "dying light": 1,
     "tag:assassins-creed": 1,
     "assassins creed": 1,
-    "bioshock": 1,
+    "bioshock": 2,
     "bioshock infinite": 1,
-    "tag:mortal-kombat": 1,
-    "mortal kombat": 1,
-    "tag:street-fighter": 1,
-    "street fighter": 1,
+    "tag:mortal-kombat": 2,
+    "mortal kombat": 2,
+    "tag:street-fighter": 2,
+    "street fighter": 2,
     "tag:guilty-gear": 1,
     "guilty gear": 1,
     "castlevania": 1,
@@ -17225,8 +17281,8 @@
     "resident evil": 3,
     "tag:batman-arkham": 1,
     "tag:batman": 2,
-    "tag:bioshock": 2,
-    "tag:metro": 2,
+    "tag:bioshock": 1,
+    "tag:metro": 1,
     "tag:overwatch": 2,
     "apex legends": 2,
     "tag:deltarune": 2,
@@ -17245,8 +17301,10 @@
     "monster hunter": 2,
     "tag:final-fantasy": 2,
     "tag:ada-wong": 2,
-    "batman arkham": 2
+    "batman arkham": 2,
+    "metro exodus": 2,
+    "overwatch": 2
   },
   "query_cursor": 2720,
-  "priority_cursor": 114
+  "priority_cursor": 138
 }

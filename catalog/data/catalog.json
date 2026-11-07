@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T20:41:37.752221+00:00",
+  "updatedAt": "2026-11-07T20:46:36.017292+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -50273,6 +50273,78 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | LE SSERAFIM Overwatch 2 | ЗВУК"
+        },
+        {
+          "id": "v_ebd38759",
+          "name": "Combat Medic Ziegler Mercy Overwatch",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BZabHFHOPdPiohyygGX3bidUFm74h0wa",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BZabHFHOPdPiohyygGX3bidUFm74h0wa&sz=w640",
+          "sizeBytes": 4748763,
+          "sha256": "656E924C9F6D5588DC294C4B4DB9B45CE5F86031FA08C4F8029B5AF84A202FAE",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Combat Medic Ziegler Mercy Overwatch | ЗВУК"
+        },
+        {
+          "id": "v_6df15ea2",
+          "name": "Witch Mercy Overwatch",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1D-bQvYWRnFCjOISDKs_PwsxrzIbiSlf8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1D-bQvYWRnFCjOISDKs_PwsxrzIbiSlf8&sz=w640",
+          "sizeBytes": 4721602,
+          "sha256": "F3D55A7249A0C75342E448BA8CBE55759383EB8F6A74161536E2620B5E71D669",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Witch Mercy Overwatch | ЗВУК"
+        },
+        {
+          "id": "v_d1224077",
+          "name": "Mercy Crying Overwatch",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gZSseUKmTkgyKQXluG46TPcDaPPoFyzp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gZSseUKmTkgyKQXluG46TPcDaPPoFyzp&sz=w640",
+          "sizeBytes": 4709475,
+          "sha256": "C08CA3199B9535CC5851C985D1DE0E57003A480059ED24BADC18D19047459F19",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mercy Crying Overwatch | ЗВУК"
+        },
+        {
+          "id": "v_1a9c3ed7",
+          "name": "Atlantic All Stars Mercy Overwatch",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xvAz6ZegLm0WZpPXE6qaA-L9vlp0igiG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xvAz6ZegLm0WZpPXE6qaA-L9vlp0igiG&sz=w640",
+          "sizeBytes": 4716530,
+          "sha256": "CD48CABB968524380C083CB7863421C007EC7DEDD214EEB4F3FEDA9B7080EF41",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Atlantic All Stars Mercy Overwatch | ЗВУК"
         }
       ]
     },
@@ -50358,6 +50430,6 @@
     }
   ],
   "totalGames": 1076,
-  "totalVariants": 2220,
+  "totalVariants": 2224,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
