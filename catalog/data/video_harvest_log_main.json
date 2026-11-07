@@ -14115,10 +14115,52 @@
     "https://moewalls.com/games/oni-genji-overwatch-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2022/oni-genji-overwatch-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2026/night-at-the-village-farm-minecraft-preview.webm": {
+      "title": "Night At The Village Farm Minecraft",
+      "titleId": "0100D71004694000",
+      "gameName": "Minecraft",
+      "varId": "v_5faa3ea1",
+      "driveId": "1qNWK4FYGU4wgLDRZUaGMu3rAttXQO--A",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/night-at-the-village-farm-minecraft-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2026/night-at-the-village-farm-minecraft-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2026/wisteria-lake-at-night-minecraft-preview.webm": {
+      "title": "Wisteria Lake At Night Minecraft",
+      "titleId": "0100D71004694000",
+      "gameName": "Minecraft",
+      "varId": "v_a9a9f9fa",
+      "driveId": "1QMkWjH3aTrwJCBcmwdWXObKqfJ7XAWlb",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/wisteria-lake-at-night-minecraft-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2026/wisteria-lake-at-night-minecraft-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2025/winter-minecraft-preview.webm": {
+      "title": "Winter Minecraft",
+      "titleId": "0100D71004694000",
+      "gameName": "Minecraft",
+      "varId": "v_bc3a195a",
+      "driveId": "1AMaOQBSQ_IYyxldeOjpr_HxloK80rtdf",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/winter-minecraft-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2025/winter-minecraft-preview.webm"
     }
   },
-  "total_harvested": 1956,
-  "last_updated": "2026-11-07T19:26:13.023607+00:00",
+  "total_harvested": 1962,
+  "last_updated": "2026-11-07T19:30:58.179300+00:00",
   "page_cursors": {
     "super mario odyssey": 1,
     "mario odyssey": 1,
@@ -14174,7 +14216,7 @@
     "doom marine": 2,
     "doom 2": 2,
     "doom ii classic": 1,
-    "sonic frontiers": 1,
+    "sonic frontiers": 2,
     "sonic starfall": 2,
     "witcher 3 scenery": 1,
     "geralt of rivia kaer morhen": 1,
@@ -14266,7 +14308,7 @@
     "tag:zelda": 2,
     "tag:super-mario": 2,
     "tag:dark-souls": 2,
-    "tag:hollow-knight": 2,
+    "tag:hollow-knight": 3,
     "Grand Theft Auto Vice City": 2,
     "Need for Speed Carbon": 1,
     "Need for Speed Underground 2": 2,
@@ -16522,11 +16564,11 @@
     "subnautica": 1,
     "tag:sonic-the-hedgehog": 2,
     "tag:shadow-the-hedgehog": 1,
-    "sonic": 2,
-    "tag:tomb-raider": 2,
-    "lara croft": 2,
+    "sonic": 1,
+    "tag:tomb-raider": 1,
+    "lara croft": 1,
     "tag:castlevania": 1,
-    "hollow knight": 2,
+    "hollow knight": 3,
     "tag:dead-cells": 1,
     "dead cells": 1,
     "tag:blasphemous": 1,
@@ -16534,11 +16576,11 @@
     "cuphead": 1,
     "tag:celeste": 1,
     "celeste": 1,
-    "tag:ori": 2,
-    "ori and the will of the wisps": 2,
-    "ori and the blind forest": 2,
+    "tag:ori": 1,
+    "ori and the will of the wisps": 1,
+    "ori and the blind forest": 1,
     "minecraft": 2,
-    "tag:terraria": 2,
+    "tag:terraria": 1,
     "terraria": 2,
     "tag:stardew-valley": 1,
     "stardew valley": 1,
@@ -16572,8 +16614,12 @@
     "tag:street-fighter": 2,
     "street fighter": 2,
     "tag:guilty-gear": 1,
-    "guilty gear": 1
+    "guilty gear": 1,
+    "castlevania": 2,
+    "tag:hades": 2,
+    "hades zagreus": 1,
+    "tag:minecraft": 2
   },
   "query_cursor": 2720,
-  "priority_cursor": 146
+  "priority_cursor": 170
 }

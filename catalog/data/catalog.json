@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T19:26:13.030168+00:00",
+  "updatedAt": "2026-11-07T19:30:58.186236+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -5778,6 +5778,60 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Morning Light Forest House Minecraft"
+        },
+        {
+          "id": "v_5faa3ea1",
+          "name": "Night At The Village Farm Minecraft",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qNWK4FYGU4wgLDRZUaGMu3rAttXQO--A",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qNWK4FYGU4wgLDRZUaGMu3rAttXQO--A&sz=w640",
+          "sizeBytes": 4726922,
+          "sha256": "E3893A0DC6CAAC5C1B9E70BF92E9E4C7FB2C7A84CBD7F69F76210D12332678ED",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Night At The Village Farm Minecraft | ЗВУК"
+        },
+        {
+          "id": "v_a9a9f9fa",
+          "name": "Wisteria Lake At Night Minecraft",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QMkWjH3aTrwJCBcmwdWXObKqfJ7XAWlb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QMkWjH3aTrwJCBcmwdWXObKqfJ7XAWlb&sz=w640",
+          "sizeBytes": 4688403,
+          "sha256": "84F738474350C2F39CDFC47192E77154B2C734299142A0A9DBBFA9A4719EAC71",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wisteria Lake At Night Minecraft | ЗВУК"
+        },
+        {
+          "id": "v_bc3a195a",
+          "name": "Winter Minecraft",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AMaOQBSQ_IYyxldeOjpr_HxloK80rtdf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AMaOQBSQ_IYyxldeOjpr_HxloK80rtdf&sz=w640",
+          "sizeBytes": 5022902,
+          "sha256": "4B4C79FFA135A9D5D53FF3786E1779CBBEAFCB47F9CA3A578221E00E976FACB8",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Winter Minecraft | ЗВУК"
         }
       ]
     },
@@ -49558,6 +49612,6 @@
     }
   ],
   "totalGames": 1075,
-  "totalVariants": 2176,
+  "totalVariants": 2179,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
