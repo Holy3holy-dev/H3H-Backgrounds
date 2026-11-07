@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T19:05:32.200441+00:00",
+  "updatedAt": "2026-11-07T19:08:01.008298+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -3714,6 +3714,78 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Unknown Fortress The Witcher 3: Wild Hun | ЗВУК"
+        },
+        {
+          "id": "v_de7daa02",
+          "name": "Geralt And Yennefer The Witcher 3: Wild",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13o0e4L41iIakVFm04TH1KrslNQX4CfV9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13o0e4L41iIakVFm04TH1KrslNQX4CfV9&sz=w640",
+          "sizeBytes": 4694236,
+          "sha256": "0E697AF6B697239EAB5A61C319BE0D717A674F1DC7615E7176444F5806221CFA",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Geralt And Yennefer The Witcher 3: Wild | ЗВУК"
+        },
+        {
+          "id": "v_c51d406a",
+          "name": "The Witcher IV",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17DYoqM-ZFbTdyNzJB_JxYoSSSjKeXleD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17DYoqM-ZFbTdyNzJB_JxYoSSSjKeXleD&sz=w640",
+          "sizeBytes": 4773211,
+          "sha256": "1512743DC625E0ABE35830A2CBC2E99BA17A4459564B312BCE1C77577EAB9680",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | The Witcher IV"
+        },
+        {
+          "id": "v_7fc8c29f",
+          "name": "A New Saga Begins Witcher 4",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1baN8bKiglSENLFqMVjLF9UCJUoMxPqTy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1baN8bKiglSENLFqMVjLF9UCJUoMxPqTy&sz=w640",
+          "sizeBytes": 4703852,
+          "sha256": "92FED273E8D26FE7811B7606A52B9EE7CAB43EB750912A24D2EAD81B2983CA96",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | A New Saga Begins Witcher 4 | ЗВУК"
+        },
+        {
+          "id": "v_b6069dd6",
+          "name": "Ciri Cyberpunk 2077",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bnDx3gDetgoFC9HXpq1e9KGTZqYvbxMz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bnDx3gDetgoFC9HXpq1e9KGTZqYvbxMz&sz=w640",
+          "sizeBytes": 4727300,
+          "sha256": "E9232909390486E6715EDFA6233FC01A9ACA215798284E7B8B488B91639A62BF",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ciri Cyberpunk 2077 | ЗВУК"
         }
       ]
     },
@@ -49100,6 +49172,6 @@
     }
   ],
   "totalGames": 1074,
-  "totalVariants": 2151,
+  "totalVariants": 2155,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
