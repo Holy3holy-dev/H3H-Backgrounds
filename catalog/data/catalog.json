@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T19:16:10.357233+00:00",
+  "updatedAt": "2026-11-07T19:19:09.933301+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -2572,6 +2572,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Ada Wong Sniper Resident Evil 4 Remake | ЗВУК"
+        },
+        {
+          "id": "v_1aecae34",
+          "name": "Castle Dimitrescu In The Fog Resident Ev",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=143Csj2OZX3SyXObP_MD9YDxQLJnKEObn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=143Csj2OZX3SyXObP_MD9YDxQLJnKEObn&sz=w640",
+          "sizeBytes": 4734633,
+          "sha256": "EF75E9718DC34082F40DF62D2A5EDE99CC356D1FBC83DB29124C45C654A4AF29",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Castle Dimitrescu In The Fog Resident Ev"
+        },
+        {
+          "id": "v_c031c60b",
+          "name": "Ada Wong Resident Evil",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1C62kOhBkEXnZxAgj2Pd44VjpF5ThoWxc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1C62kOhBkEXnZxAgj2Pd44VjpF5ThoWxc&sz=w640",
+          "sizeBytes": 4674842,
+          "sha256": "9EE273F2512E11DE70F30D0039974D9D410027DD099AA2C15ED1A2BFBAC0DEB3",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ada Wong Resident Evil | ЗВУК"
         }
       ]
     },
@@ -49223,6 +49259,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Dante Devil May Cry | ЗВУК"
+        },
+        {
+          "id": "v_3c0d0b99",
+          "name": "Dante Vs Vergil Devil May Cry 5",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hidMfUt-kd0kh6HbOrBWb78PsDJslFjZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hidMfUt-kd0kh6HbOrBWb78PsDJslFjZ&sz=w640",
+          "sizeBytes": 4682895,
+          "sha256": "D0ED3EDEEEEF863776F5AE111B80B4E21CD96D76B6F2E3448D0BCEDA649624FF",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dante Vs Vergil Devil May Cry 5 | ЗВУК"
+        },
+        {
+          "id": "v_01e7787e",
+          "name": "Dante Devil May Cry X Punishing Gray Rav",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1v9Y0kT19F9595PSn8T2l5kIHSb11-HRg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1v9Y0kT19F9595PSn8T2l5kIHSb11-HRg&sz=w640",
+          "sizeBytes": 4712906,
+          "sha256": "EAD6BE52A5F43E4D476ECF04FFB000547CAB53C9B2BF9AED59E1F66A0AA319C8",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dante Devil May Cry X Punishing Gray Rav | ЗВУК"
         }
       ]
     },
@@ -49334,6 +49406,6 @@
     }
   ],
   "totalGames": 1074,
-  "totalVariants": 2164,
+  "totalVariants": 2168,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
