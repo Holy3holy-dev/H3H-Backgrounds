@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T20:34:28.527044+00:00",
+  "updatedAt": "2026-11-07T20:41:37.752221+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -2680,6 +2680,60 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Ada Wong Resident Evil | ЗВУК"
+        },
+        {
+          "id": "v_1e763943",
+          "name": "Jill Valentine Resident Evil 3",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GOAylHDJL0vEyR42O4Bz2ZRUUM51JFgh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GOAylHDJL0vEyR42O4Bz2ZRUUM51JFgh&sz=w640",
+          "sizeBytes": 4701483,
+          "sha256": "904482EA2CACC2732B7FA25E9AA3BCCF0705CB94DBD48D6AA4EEBC4BF1904786",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Jill Valentine Resident Evil 3 | ЗВУК"
+        },
+        {
+          "id": "v_a322bcca",
+          "name": "Claire Redfield Resident Evil",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mB57JXFREBEOBnaMC5AkmK1Xno4ka0Kc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mB57JXFREBEOBnaMC5AkmK1Xno4ka0Kc&sz=w640",
+          "sizeBytes": 4704293,
+          "sha256": "DAC85BB44D9D1D1F5178549AC9F1AD4FC37872FC6B066D43CDC152E072A04E9B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Claire Redfield Resident Evil | ЗВУК"
+        },
+        {
+          "id": "v_81b14e22",
+          "name": "Leon And Claire Resident Evil 2",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1n5K5LPtm3opfLX6v01i5UowaUGRxq9y2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1n5K5LPtm3opfLX6v01i5UowaUGRxq9y2&sz=w640",
+          "sizeBytes": 4675958,
+          "sha256": "FBC4A46D9A3FF4978D6D4B9846A1A881791EE0DB6355DDE78A3C0E488028696A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Leon And Claire Resident Evil 2 | ЗВУК"
         }
       ]
     },
@@ -3013,6 +3067,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Batman Arkham Knight | ЗВУК"
+        },
+        {
+          "id": "v_e5645116",
+          "name": "Batgirl",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zq5txicuZjye0crh66d-xyPzNn7HktjM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zq5txicuZjye0crh66d-xyPzNn7HktjM&sz=w640",
+          "sizeBytes": 4770194,
+          "sha256": "E240AFB3EF8D825DDAD1F11381D89C23F2AAAC945B16F5BA9247B5DA78AB0935",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Batgirl | ЗВУК"
         }
       ]
     },
@@ -50286,6 +50358,6 @@
     }
   ],
   "totalGames": 1076,
-  "totalVariants": 2216,
+  "totalVariants": 2220,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
