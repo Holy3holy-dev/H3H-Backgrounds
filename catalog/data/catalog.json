@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T22:16:31.410361+00:00",
+  "updatedAt": "2026-11-07T22:28:27.377095+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -50867,6 +50867,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Dva Playing Video Games In The Bedroom O | ЗВУК"
+        },
+        {
+          "id": "v_e3317e83",
+          "name": "Widowmaker Sniping While Hanging Overwat",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LPT4bECEvUj1jisS8rKZ0ExTQm43k0KG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LPT4bECEvUj1jisS8rKZ0ExTQm43k0KG&sz=w640",
+          "sizeBytes": 4733022,
+          "sha256": "39491EE39BF64E7A4864D91814B5D8974A94ADDBF37459118526AECCEF91B678",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Widowmaker Sniping While Hanging Overwat | ЗВУК"
         }
       ]
     },
@@ -50952,6 +50970,6 @@
     }
   ],
   "totalGames": 1076,
-  "totalVariants": 2253,
+  "totalVariants": 2254,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
