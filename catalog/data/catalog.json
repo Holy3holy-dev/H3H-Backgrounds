@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T17:47:41.195368+00:00",
+  "updatedAt": "2026-11-07T18:11:38.916663+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -1530,6 +1530,24 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_c7c3343d",
+          "name": "Link X Zelda The Legend Of Zelda: Breath",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oDnlXS0wURFbjWO8sX2916JMhrc4q9j2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oDnlXS0wURFbjWO8sX2916JMhrc4q9j2&sz=w640",
+          "sizeBytes": 4703208,
+          "sha256": "34F0E9117357F7A13536D68409ACC7092570C1C87CC4DAF0C75BA39B02B1D123",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Link X Zelda The Legend Of Zelda: Breath | ЗВУК"
         }
       ]
     },
@@ -48086,6 +48104,6 @@
     }
   ],
   "totalGames": 1071,
-  "totalVariants": 2096,
+  "totalVariants": 2097,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }

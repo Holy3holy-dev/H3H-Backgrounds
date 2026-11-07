@@ -12991,10 +12991,28 @@
     "https://moewalls.com/anime/konan-akatsuki-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2025/konan-akatsuki-preview.webm"
+    },
+    "https://moewalls.com/games/link-and-zelda-the-legend-of-zelda-live-wallpaper/": {
+      "page": true,
+      "skipped": true
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/link-x-zelda-the-legend-of-zelda-breath-of-the-wild-preview.webm": {
+      "title": "Link X Zelda The Legend Of Zelda: Breath",
+      "titleId": "01007EF00011E000",
+      "gameName": "The Legend of Zelda: Breath of the Wild",
+      "varId": "v_c7c3343d",
+      "driveId": "1oDnlXS0wURFbjWO8sX2916JMhrc4q9j2",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/link-x-zelda-the-legend-of-zelda-breath-of-the-wild-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/link-x-zelda-the-legend-of-zelda-breath-of-the-wild-preview.webm"
     }
   },
-  "total_harvested": 1795,
-  "last_updated": "2026-11-07T18:00:35.102670+00:00",
+  "total_harvested": 1798,
+  "last_updated": "2026-11-07T18:11:38.911014+00:00",
   "page_cursors": {
     "super mario odyssey": 1,
     "mario odyssey": 1,
@@ -13140,7 +13158,7 @@
     "slay the spire ironclad": 1,
     "slay the spire": 1,
     "tag:zelda": 2,
-    "tag:super-mario": 2,
+    "tag:super-mario": 1,
     "tag:dark-souls": 2,
     "tag:hollow-knight": 2,
     "Grand Theft Auto Vice City": 2,
@@ -15342,8 +15360,17 @@
     "Cook For Love": 1,
     "Cat Cafe Manager": 1,
     "MotionRec": 1,
-    "Go Vacation": 1
+    "Go Vacation": 1,
+    "tag:tears-of-the-kingdom": 1,
+    "tag:the-legend-of-zelda": 2,
+    "tears of the kingdom": 2,
+    "zelda link": 2,
+    "tag:breath-of-the-wild": 1,
+    "zelda breath of the wild": 2,
+    "tag:mario": 2,
+    "super mario": 2,
+    "mario bowser": 2
   },
   "query_cursor": 2720,
-  "priority_cursor": 0
+  "priority_cursor": 12
 }
