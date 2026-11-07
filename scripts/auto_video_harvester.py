@@ -184,7 +184,6 @@ MATURE_SWITCH_GAMES = [
     ("0100A1900F3BA000", "Azur Lane: Crosswave", ["azur lane", "prinz eugen", "taihou", "shinano azur lane", "atago azur lane"]),
     ("0100A8900A4A0000", "Fate/EXTELLA LINK", ["fate nero", "fate scathach", "fate saber", "fate tamamo"]),
     ("0100B7000B36E000", "Dragon Ball FighterZ", ["android 18", "android 21"]),
-    ("0100435942450000", "Cyberpunk 2077", ["lucy cyberpunk", "rebecca cyberpunk", "lucy edgerunners"]),
     ("010055D009AA8000", "Fire Emblem: Three Houses", ["fire emblem edelgard", "fire emblem byleth", "fire emblem hilda"]),
     ("010052300B254000", "Hades", ["aphrodite hades", "nyx hades", "megaera hades"]),
     ("01003AE007204000", "Gal*Gun 2", ["gal gun", "gal gun 2"]),
@@ -275,7 +274,7 @@ AFTER_DARK_GENERAL_QUERIES = [
     "tag:bikini", "tag:swimsuit", "tag:beach", "tag:bunny", "tag:maid",
     "tag:hot", "tag:legs", "tag:dress", "tag:gothic", "tag:elf", "tag:demon",
     "tag:vampire", "tag:overlord", "tag:konosuba", "tag:hololive", "tag:summer",
-    "tag:school-uniform", "tag:blue-archive", "tag:genshin-impact", "tag:honkai-star-rail", "tag:cyberpunk",
+    "tag:school-uniform", "tag:blue-archive", "tag:genshin-impact", "tag:honkai-star-rail",
 
     # Explicit / Ecchi Themes & Visual Filters
     "ecchi", "bikini", "swimsuit", "beach anime", "lingerie waifu", "cleavage",
@@ -284,98 +283,92 @@ AFTER_DARK_GENERAL_QUERIES = [
     "morrigan darkstalkers", "mai shiranui", "chun li", "cammy", "juri han"
 ]
 
-# Known popular Switch games & famous Homebrew ports for SFW Main catalog
+# Known popular Switch 1 games mapped directly to Wallpaper Engine repository /games/ tags & queries
 POPULAR_SWITCH_SFW_GAMES = [
-    # Top Nintendo Exclusives & Flagships
-    ("0100000000010000", "Super Mario Odyssey", ["super mario odyssey", "mario odyssey"]),
-    ("0100152000022000", "Mario Kart 8 Deluxe", ["mario kart 8", "mario kart"]),
-    ("01007EF00011E000", "The Legend of Zelda: Breath of the Wild", ["breath of the wild", "zelda botw", "link botw"]),
-    ("0100F2C0115B6000", "The Legend of Zelda: Tears of the Kingdom", ["tears of the kingdom", "zelda totk", "link totk"]),
-    ("01008CF01BAAC000", "The Legend of Zelda: Echoes of Wisdom", ["echoes of wisdom", "zelda echoes of wisdom"]),
-    ("01006BB00C6F0000", "The Legend of Zelda: Link's Awakening", ["links awakening", "zelda koholint"]),
-    ("0100DA9013230000", "The Legend of Zelda: Skyward Sword HD", ["skyward sword", "zelda skyward"]),
-    ("010015100B514000", "Super Mario Bros. Wonder", ["super mario bros wonder", "mario wonder", "elephant mario"]),
-    ("0100ECD018EBE000", "Paper Mario: The Thousand-Year Door", ["thousand-year door", "paper mario"]),
-    ("0100BC0018138000", "Super Mario RPG", ["super mario rpg", "geno mario rpg"]),
-    ("01004C300E9F0000", "Paper Mario: The Origami King", ["paper mario origami", "origami king"]),
-    ("0100BD0009ED6000", "Super Mario 3D World + Bowser's Fury", ["bowsers fury", "mario 3d world"]),
-    ("01006F8002326000", "Animal Crossing: New Horizons", ["animal crossing new horizons", "animal crossing"]),
-    ("01000A10041EA000", "Super Smash Bros. Ultimate", ["super smash bros ultimate", "smash ultimate"]),
-    ("010012101468C000", "Metroid Prime Remastered", ["metroid prime", "metroid prime samus"]),
-    ("01002DA013484000", "Metroid Dread", ["metroid dread", "samus aran dread"]),
-    ("0100B7C00933A000", "Pikmin 4", ["pikmin 4", "pikmin olimar", "pikmin dog"]),
-    ("0100DCA0064A6000", "Luigi's Mansion 3", ["luigis mansion 3", "luigi mansion"]),
-    ("01003BC0000A0000", "Kirby and the Forgotten Land", ["kirby forgotten land", "kirby"]),
-    ("0100C4001A848000", "Princess Peach: Showtime!", ["princess peach showtime", "princess peach"]),
-    ("0100702008E12000", "Donkey Kong Country: Tropical Freeze", ["donkey kong tropical freeze", "donkey kong country"]),
-    ("0100C2500FC20000", "Splatoon 3", ["splatoon 3", "splatoon octoling", "splatoon inkling"]),
-    ("010055D009F78000", "Fire Emblem: Three Houses", ["fire emblem three houses", "fire emblem edelgard", "byleth"]),
-    ("0100A6301214E000", "Fire Emblem Engage", ["fire emblem engage", "alear fire emblem"]),
-    ("0100FF500E34A000", "Xenoblade Chronicles Definitive Edition", ["xenoblade shulk", "xenoblade definitive"]),
-    ("0100E95004038000", "Xenoblade Chronicles 2", ["xenoblade chronicles 2", "xenoblade pyra"]),
+    # Nintendo Switch 1 Flagships & Exclusives
+    ("0100F2C0115B6000", "The Legend of Zelda: Tears of the Kingdom", ["tag:tears-of-the-kingdom", "tag:the-legend-of-zelda", "tears of the kingdom", "zelda link"]),
+    ("01007EF00011E000", "The Legend of Zelda: Breath of the Wild", ["tag:breath-of-the-wild", "breath of the wild", "zelda breath of the wild"]),
+    ("0100000000010000", "Super Mario Odyssey", ["tag:super-mario", "tag:mario", "super mario", "mario bowser"]),
+    ("010015100B514000", "Super Mario Bros. Wonder", ["super mario bros wonder", "mario wonder", "princess daisy mario"]),
+    ("0100152000022000", "Mario Kart 8 Deluxe", ["mario kart", "rainbow road mario"]),
+    ("01000A10041EA000", "Super Smash Bros. Ultimate", ["tag:super-smash-bros", "super smash bros"]),
+    ("01002DA013484000", "Metroid Dread", ["tag:metroid", "tag:samus-aran", "metroid dread", "samus aran"]),
+    ("010012101468C000", "Metroid Prime Remastered", ["metroid prime", "samus metroid"]),
+    ("01006F8002326000", "Animal Crossing: New Horizons", ["tag:animal-crossing", "animal crossing"]),
+    ("0100C2500FC20000", "Splatoon 3", ["tag:splatoon", "splatoon"]),
+    ("01003BC0000A0000", "Kirby and the Forgotten Land", ["tag:kirby", "kirby"]),
+    ("0100FF500E34A000", "Xenoblade Chronicles Definitive Edition", ["tag:xenoblade-chronicles", "xenoblade chronicles"]),
+    ("0100E95004038000", "Xenoblade Chronicles 2", ["tag:xenoblade-chronicles-2", "xenoblade 2", "pyra mythra"]),
     ("010074F013262000", "Xenoblade Chronicles 3", ["xenoblade chronicles 3", "xenoblade 3"]),
-    ("01001F5010DFA000", "Pokemon Legends: Arceus", ["pokemon legends arceus", "pokemon arceus"]),
-    ("0100A3D008C5C000", "Pokemon Scarlet", ["pokemon scarlet", "koraidon pokemon"]),
-    ("0100ABF008968000", "Pokemon Sword", ["pokemon sword", "zacian pokemon"]),
-    ("01007300020FA000", "Astral Chain", ["astral chain", "astral chain legion"]),
-    ("01004A4010FEA000", "Bayonetta 3", ["bayonetta 3", "viola bayonetta"]),
-    ("010076F0049A4000", "Bayonetta 2", ["bayonetta 2", "bayonetta jeanne"]),
-    ("010076F0049A2000", "Bayonetta", ["bayonetta action", "bayonetta umbra"]),
+    ("010055D009F78000", "Fire Emblem: Three Houses", ["tag:fire-emblem", "fire emblem"]),
+    ("01001F5010DFA000", "Pokemon Legends: Arceus", ["tag:pokemon", "pokemon arceus", "pokemon gengar", "pokemon charizard", "pokemon rayquaza", "pokemon umbreon"]),
+    ("0100A3D008C5C000", "Pokemon Scarlet", ["pokemon pikachu", "pokemon eevee", "pokemon mewtwo", "pokemon lugia"]),
+    ("01004A4010FEA000", "Bayonetta 3", ["tag:bayonetta", "bayonetta"]),
+    ("0100DCA0064A6000", "Luigi's Mansion 3", ["luigi mansion", "king boo"]),
 
-    # Top RPGs, Ports & Modern Classics
-    ("010062B01525C000", "Persona 4 Golden", ["persona 4 golden", "persona 4"]),
-    ("0100DCD01525A000", "Persona 3 Portable", ["persona 3 portable", "persona 3"]),
-    ("01005CA01580E000", "Persona 5 Royal", ["persona 5 shibuya", "persona 5 royal phantom thieves"]),
-    ("010057D006492000", "Octopath Traveler", ["octopath traveler", "octopath"]),
-    ("010069C01AB82000", "Shin Megami Tensei V: Vengeance", ["shin megami tensei v", "smt v nahobino"]),
-    ("01004BC0166CC000", "Crisis Core: Final Fantasy VII Reunion", ["crisis core", "zack fair"]),
-    ("01006C300E9F0000", "Dragon Quest XI S", ["dragon quest xi", "dragon quest 11"]),
-    ("0100B04011742000", "Monster Hunter Rise", ["monster hunter rise", "monster hunter kamura"]),
-    ("0100A5B00BDC6000", "Final Fantasy VII", ["final fantasy vii", "cloud strife", "sephiroth"]),
-    ("01003D100E9C6000", "The Witcher 3: Wild Hunt", ["witcher 3 scenery", "geralt of rivia kaer morhen", "witcher 3 novigrad"]),
-    ("01005C000B2AE000", "NieR:Automata", ["nier automata city ruins", "nier automata amusement park"]),
-    ("01004AB00A260000", "Dark Souls: Remastered", ["dark souls bonfire", "dark souls anor londo", "dark souls firelink"]),
-    ("01000A10041EA000", "The Elder Scrolls V: Skyrim", ["skyrim scenery", "skyrim dragon", "elder scrolls skyrim"]),
+    # Major RPGs & Masterpieces on Switch 1
+    ("01003D100E9C6000", "The Witcher 3: Wild Hunt", ["tag:the-witcher-3-wild-hunt", "tag:the-witcher", "tag:geralt-of-rivia", "tag:ciri", "witcher 3"]),
+    ("01005CA01580E000", "Persona 5 Royal", ["tag:persona-5", "tag:persona", "persona 5"]),
+    ("0100DCD01525A000", "Persona 3 Portable", ["tag:persona-3", "persona 3"]),
+    ("010062B01525C000", "Persona 4 Golden", ["tag:persona-4", "persona 4"]),
+    ("01005C000B2AE000", "NieR:Automata", ["tag:nier-automata", "tag:nier", "nier automata"]),
+    ("01004AB00A260000", "Dark Souls: Remastered", ["tag:dark-souls", "tag:dark-souls-iii", "dark souls", "bonfire dark souls", "artorias"]),
+    ("010028D005A3C000", "The Elder Scrolls V: Skyrim", ["tag:skyrim", "tag:the-elder-scrolls", "skyrim"]),
+    ("01007820196A6000", "Red Dead Redemption", ["tag:red-dead-redemption", "red dead redemption"]),
+    ("0100B04011742000", "Monster Hunter Rise", ["tag:monster-hunter", "monster hunter"]),
+    ("0100A5B00BDC6000", "Final Fantasy VII", ["tag:final-fantasy-vii", "tag:final-fantasy", "tag:cloud-strife", "tag:sephiroth", "final fantasy vii"]),
+    ("01004BC0166CC000", "Crisis Core: Final Fantasy VII Reunion", ["zack fair", "crisis core"]),
+    ("010069C01AB82000", "Shin Megami Tensei V: Vengeance", ["shin megami tensei"]),
+    ("010057D006492000", "Octopath Traveler", ["octopath traveler"]),
+    ("01006C300E9F0000", "Dragon Quest XI S", ["dragon quest"]),
+    ("01001B300B9BE000", "Diablo III: Eternal Collection", ["tag:diablo", "diablo"]),
+    ("0100D870045B6000", "DARKSIDERS GENESIS", ["tag:darksiders", "darksiders"]),
 
-    # Renowned Multiplatform & Modern Indie Hits
-    ("0100210019428000", "Prince of Persia: The Lost Crown", ["prince of persia the lost crown", "sargon prince of persia"]),
-    ("01008CD0172D6000", "Dredge", ["dredge game", "dredge fishing"]),
-    ("01003DC0144B6000", "Outer Wilds", ["outer wilds solar system", "outer wilds campfire"]),
-    ("010075D00E8BA000", "Alien: Isolation", ["alien isolation", "xenomorph alien"]),
-    ("0100698009C6E000", "Blasphemous", ["blasphemous penitent one", "blasphemous"]),
-    ("010040801A4C8000", "Blasphemous 2", ["blasphemous 2", "penitent one"]),
-    ("0100092021C80000", "Tomb Raider (2013)", ["tomb raider lara croft", "lara croft"]),
-    ("010024601BB16000", "Tomb Raider I-III Remastered", ["tomb raider remastered", "tomb raider"]),
-    ("01003F00163CE000", "Batman: Arkham Trilogy", ["batman arkham", "batman arkham knight", "batman arkham city"]),
-    ("010042400D600000", "No Man's Sky", ["no mans sky space", "no mans sky"]),
-    ("0100E5F00E88C000", "Subnautica", ["subnautica leviathan", "subnautica ocean"]),
-    ("01008C3005A66000", "Dead Cells", ["dead cells prisoner", "dead cells game"]),
-    ("010052300B254000", "Hades", ["hades game underworld", "zagreus hades"]),
-    ("0100CD801CE5E000", "Balatro", ["balatro game", "balatro cards"]),
-    ("010036500ECF2000", "Hollow Knight", ["hollow knight", "hallownest", "hollow knight silksong"]),
-    ("01008C0016544000", "Sea of Stars", ["sea of stars game", "sea of stars"]),
-    ("010097F018538000", "Dave the Diver", ["dave the diver game", "dave the diver"]),
-    ("01002E7016C46000", "Cult of the Lamb", ["cult of the lamb", "the lamb cult"]),
-    ("010027F017B12000", "Inscryption", ["inscryption", "leshy inscryption"]),
-    ("0100DA801624E000", "Tunic", ["tunic game fox", "tunic fox"]),
-    ("0100307018934000", "Signalis", ["signalis game", "elster signalis"]),
-    ("01002B30028F6000", "Celeste", ["celeste mountain", "celeste game"]),
-    ("010029600D56A000", "Katana Zero", ["katana zero", "katana zero dragon"]),
-    ("010079C009494000", "Cuphead", ["cuphead boss", "cuphead game"]),
-    ("010093800B8C8000", "Stardew Valley", ["stardew valley sunset", "stardew valley farm"]),
-    ("010086C00AF7C000", "Ori and the Will of the Wisps", ["ori and the will of the wisps", "ori blind forest"]),
-    ("010034400C3DA000", "Wolfenstein II: The New Colossus", ["wolfenstein", "wolfenstein colossus"]),
-    ("010014200B0D0000", "Metro 2033 Redux", ["metro 2033", "artyom metro"]),
-    ("01000F400B0D2000", "Metro: Last Light Redux", ["metro last light", "artyom metro"]),
-    ("010038800C3DC000", "BioShock Remastered", ["bioshock rapture", "bioshock big daddy"]),
-    ("010065000C3DE000", "BioShock Infinite", ["bioshock infinite columbia", "elizabeth bioshock"]),
-    ("01000B900D8B0000", "DOOM Eternal", ["doom eternal slayer", "doom eternal fortress"]),
-    ("0100BC0005C8A000", "DOOM (2016)", ["doom slayer", "doom 2016"]),
-    ("01007820196A6000", "Red Dead Redemption", ["red dead redemption", "john marston"]),
-    ("0100A6901170A000", "Need for Speed: Hot Pursuit Remastered", ["need for speed", "need for speed hot pursuit", "nfs police"]),
-    ("01004C800C3DC000", "Need for Speed: Most Wanted", ["need for speed most wanted", "nfs most wanted bmw m3", "nfs most wanted"]),
-    ("0100ABD01785C000", "Portal Companion Collection", ["portal 2", "portal aperture", "glados portal"]),
-    ("01007E6002A54000", "Sonic Mania", ["sonic mania", "sonic green hill", "sonic the hedgehog"])
+    # Action, Shooters & Iconic Hits on Switch 1
+    ("01000B900D8B0000", "DOOM Eternal", ["tag:doom-eternal", "tag:doom", "tag:doom-slayer", "doom eternal", "doom slayer"]),
+    ("01007C000E5B2000", "Devil May Cry 3 Special Edition", ["tag:devil-may-cry", "tag:vergil", "tag:dante", "devil may cry"]),
+    ("010099A00BC1E000", "Resident Evil 4", ["tag:resident-evil", "tag:leon-s-kennedy", "tag:ada-wong", "resident evil"]),
+    ("01003F00163CE000", "Batman: Arkham Trilogy", ["tag:batman-arkham", "tag:batman", "batman arkham"]),
+    ("01008C8012920000", "Dying Light: Platinum Edition", ["tag:dying-light", "dying light"]),
+    ("010053500D3A8000", "Assassin's Creed: The Rebel Collection", ["tag:assassins-creed", "assassins creed"]),
+    ("010038800C3DC000", "BioShock Remastered", ["tag:bioshock", "bioshock"]),
+    ("010065000C3DE000", "BioShock Infinite", ["bioshock infinite"]),
+    ("010014200B0D0000", "Metro 2033 Redux", ["tag:metro", "metro 2033", "metro exodus"]),
+    ("01000F900C404000", "Borderlands 2", ["tag:borderlands", "borderlands"]),
+    ("0100A6901170A000", "Need for Speed: Hot Pursuit Remastered", ["tag:need-for-speed", "need for speed"]),
+    ("0100ABD01785C000", "Portal Companion Collection", ["tag:portal", "portal 2"]),
+    ("010042400D600000", "No Man's Sky", ["tag:no-mans-sky", "no mans sky"]),
+    ("0100E5F00E88C000", "Subnautica", ["tag:subnautica", "subnautica"]),
+    ("0100F2200C984000", "Mortal Kombat 11", ["tag:mortal-kombat", "mortal kombat"]),
+    ("0100C960066EE000", "Street Fighter 30th Anniversary Collection", ["tag:street-fighter", "street fighter"]),
+    ("0100AB401F136000", "Guilty Gear -Strive-", ["tag:guilty-gear", "guilty gear"]),
+    ("010031D00D59C000", "Overwatch 2", ["tag:overwatch", "overwatch"]),
+    ("01005D6010402000", "Apex Legends", ["tag:apex-legends", "apex legends"]),
+    ("0100A250097F0000", "Warframe", ["tag:warframe", "warframe"]),
+    ("010025400AECE000", "Fortnite", ["tag:fortnite", "fortnite"]),
+    ("01004060153FA000", "Sonic Frontiers", ["tag:sonic-the-hedgehog", "tag:shadow-the-hedgehog", "sonic frontiers", "sonic"]),
+    ("0100092021C80000", "Tomb Raider I-III Remastered", ["tag:tomb-raider", "lara croft"]),
+    ("010055500D850000", "Castlevania Anniversary Collection", ["tag:castlevania", "castlevania"]),
+
+    # Beloved Indie Masterpieces on Switch 1
+    ("010036500ECF2000", "Hollow Knight", ["tag:hollow-knight", "hollow knight"]),
+    ("010052300B254000", "Hades", ["tag:hades", "hades zagreus"]),
+    ("01008C3005A66000", "Dead Cells", ["tag:dead-cells", "dead cells"]),
+    ("0100698009C6E000", "Blasphemous", ["tag:blasphemous", "blasphemous"]),
+    ("010079C009494000", "Cuphead", ["tag:cuphead", "cuphead"]),
+    ("01002B30028F6000", "Celeste", ["tag:celeste", "celeste"]),
+    ("010086C00AF7C000", "Ori and the Will of the Wisps", ["tag:ori", "ori and the will of the wisps", "ori and the blind forest"]),
+    ("0100D71004694000", "Minecraft", ["tag:minecraft", "minecraft"]),
+    ("0100646009FBE000", "Terraria", ["tag:terraria", "terraria"]),
+    ("010093800B8C8000", "Stardew Valley", ["tag:stardew-valley", "stardew valley"]),
+    ("010080B00AD66000", "Undertale", ["tag:undertale", "tag:deltarune", "undertale"]),
+    ("01002AC014DF8000", "OMORI", ["tag:omori", "omori"]),
+    ("01002E7016C46000", "Cult of the Lamb", ["tag:cult-of-the-lamb", "cult of the lamb"]),
+    ("010097100EDD6000", "Little Nightmares II", ["tag:little-nightmares", "little nightmares"]),
+    ("01003DC0144B6000", "Outer Wilds", ["tag:outer-wilds", "outer wilds"]),
+    ("010029600D56A000", "Katana ZERO", ["tag:katana-zero", "katana zero"]),
+    ("0100307018934000", "SIGNALIS", ["tag:signalis", "signalis"]),
+    ("0100AF800D570000", "gris", ["tag:gris", "gris"])
 ]
 
 NSFW_KEYWORDS = [
@@ -569,8 +562,6 @@ class AutoVideoHarvester:
             return ("0100A5B00BDC6000", "Final Fantasy VII")
         if any(k in combined for k in ["azur lane", "prinz eugen", "taihou", "atago", "shinano"]):
             return ("0100A1900F3BA000", "Azur Lane: Crosswave")
-        if any(k in combined for k in ["cyberpunk", "lucy", "rebecca"]):
-            return ("0100435942450000", "Cyberpunk 2077")
         if any(k in combined for k in ["fate", "saber", "scathach", "rin tohsaka"]):
             return ("010023301E41C000", "Fate/Stay Night Remastered")
         if any(k in combined for k in ["senran kagura", "senran"]):
@@ -605,8 +596,11 @@ class AutoVideoHarvester:
                 articles = re.findall(r'<article[^>]*>.*?<a href="([^"]+)"[^>]*title="([^"]+)"', html, re.DOTALL)
             for page_url, raw_title in articles:
                 clean_title = re.sub('<[^<]+?>', '', raw_title).strip()
-                if self.mode == "main" and self.is_nsfw_text(clean_title):
-                    continue
+                if self.mode == "main":
+                    if "/games/" not in page_url:
+                        continue
+                    if self.is_nsfw_text(clean_title):
+                        continue
                 if self.mode == "after_dark" and not self.is_suitable_for_after_dark(clean_title, query):
                     continue
                 results.append({"title": clean_title, "page_url": page_url})
@@ -840,7 +834,7 @@ class AutoVideoHarvester:
             for i in range(queries_to_try):
                 idx = (sg_cursor + i) % len(other_targets)
                 tid, raw_t, c_t = other_targets[idx]
-                if len(games_map.get(tid.upper(), {}).get("variants", [])) < 4:
+                if len(games_map.get(tid.upper(), {}).get("variants", [])) < 40:
                     active_targets.append((tid, raw_t, c_t))
             self.log_data["sg_cursor"] = (sg_cursor + queries_to_try) % len(other_targets)
             self._save_log()
@@ -929,46 +923,12 @@ class AutoVideoHarvester:
         query_queue: List[Tuple[str, str, str]] = []  # (titleId, gameName, query)
 
         if self.mode == "main":
-            # 1. Curated SFW gaming targets with < 4 variants (ALWAYS FIRST)
+            # Strictly curated Switch 1 games mapped to Wallpaper Engine /games/ repository tags & queries
             for tid, gname, qlist in POPULAR_SWITCH_SFW_GAMES:
                 vcount = len(games_map.get(tid.upper(), {}).get("variants", []))
-                if vcount < 4:
+                if vcount < 40:
                     for q in qlist:
                         query_queue.append((tid, gname, q))
-
-            # 2. High-yielding MoeWalls direct gaming tags
-            gaming_tags = [
-                "tag:zelda", "tag:super-mario", "tag:dark-souls", "tag:metroid",
-                "tag:hollow-knight", "tag:sonic", "tag:skyrim", "tag:persona",
-                "tag:final-fantasy", "tag:gaming", "tag:retro", "tag:elden-ring",
-                "tag:cyberpunk", "tag:witcher", "tag:minecraft"
-            ]
-            for gtag in gaming_tags:
-                query_queue.append(("0000000000000000", "Nintendo Switch Gaming", gtag))
-
-            # 3. Games in catalog missing variants
-            for g in catalog.get("games", []):
-                tid = g.get("titleId", "").upper()
-                if tid not in ("0000000000000000", "0000000000000001") and len(g.get("variants", [])) < 3:
-                    c_title = clean_switch_title(g.get("title", ""))
-                    if 4 <= len(c_title) <= 28 and not self.is_nsfw_text(c_title):
-                        query_queue.append((tid, c_title, c_title))
-
-            # 4. Official Switch titles database not yet in catalog (Massive expansion!)
-            db_path = PROJECT_ROOT / "studio" / "h3h_studio" / "data" / "switch_titles_db.json"
-            if db_path.exists():
-                try:
-                    db_data = json.loads(db_path.read_text(encoding="utf-8"))
-                    existing_tids = {g.get("titleId", "").upper() for g in catalog.get("games", [])}
-                    for entry in db_data:
-                        tid = entry.get("titleId", "").upper()
-                        if len(tid) == 16 and tid.isalnum() and tid not in existing_tids:
-                            raw_t = entry.get("title", "")
-                            c_t = clean_switch_title(raw_t)
-                            if 4 <= len(c_t) <= 28 and not self.is_nsfw_text(c_t):
-                                query_queue.append((tid, c_t, c_t))
-                except Exception as e:
-                    print(f"[!] Warning loading switch_titles_db in harvester: {e}")
         else:
             # 1. Prioritize Switch games with mature / waifu / adult filters
             for tid, gname, qlist in MATURE_SWITCH_GAMES:
@@ -987,7 +947,7 @@ class AutoVideoHarvester:
         # Compute count of priority queries at head of queue
         priority_count = 0
         for tid, gname, qlist in (POPULAR_SWITCH_SFW_GAMES if self.mode == "main" else MATURE_SWITCH_GAMES):
-            if len(games_map.get(tid.upper(), {}).get("variants", [])) < 4:
+            if len(games_map.get(tid.upper(), {}).get("variants", [])) < 40:
                 priority_count += len(qlist)
 
         # Build execution list: priority queries first, followed by discovery slice
@@ -1009,7 +969,7 @@ class AutoVideoHarvester:
             if harvested >= limit:
                 break
             tid, default_game_name, q = query_queue[idx]
-            if tid != "0000000000000000" and len(games_map.get(tid.upper(), {}).get("variants", [])) >= 4:
+            if tid != "0000000000000000" and len(games_map.get(tid.upper(), {}).get("variants", [])) >= 40:
                 continue
             current_p = page_cursors.get(q, 1)
 
