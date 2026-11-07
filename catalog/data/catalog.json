@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T19:14:15.110396+00:00",
+  "updatedAt": "2026-11-07T19:16:10.357233+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -30716,6 +30716,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | DOOM | ЗВУК"
+        },
+        {
+          "id": "v_fa7c838e",
+          "name": "DOOM",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lVjBGhbLhae37WMDHQhqvdVjwwhRyt5F",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lVjBGhbLhae37WMDHQhqvdVjwwhRyt5F&sz=w640",
+          "sizeBytes": 4708515,
+          "sha256": "810EA8F78B362F36B6C33F1CC420E0EEC1A2129CED17E1671104F9F208A99BFE",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | DOOM | ЗВУК"
         }
       ]
     },
@@ -49316,6 +49334,6 @@
     }
   ],
   "totalGames": 1074,
-  "totalVariants": 2163,
+  "totalVariants": 2164,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }

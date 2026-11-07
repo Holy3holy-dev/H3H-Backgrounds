@@ -13933,10 +13933,24 @@
     "https://moewalls.com/games/lake-ilinalta-the-elder-scrolls-v-skyrim-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2022/lake-ilinalta-the-elder-scrolls-v-skyrim-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/doom-preview.webm": {
+      "title": "DOOM",
+      "titleId": "01000B900D8B0000",
+      "gameName": "DOOM Eternal",
+      "varId": "v_fa7c838e",
+      "driveId": "1lVjBGhbLhae37WMDHQhqvdVjwwhRyt5F",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/doom-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/doom-preview.webm"
     }
   },
-  "total_harvested": 1930,
-  "last_updated": "2026-11-07T19:14:15.104291+00:00",
+  "total_harvested": 1932,
+  "last_updated": "2026-11-07T19:16:10.349952+00:00",
   "page_cursors": {
     "super mario odyssey": 1,
     "mario odyssey": 1,
@@ -15102,7 +15116,7 @@
     "Farlands": 1,
     "Lastfight": 1,
     "Virgo Versus The Zodiac": 1,
-    "crisis core": 1,
+    "crisis core": 2,
     "Hotshot Racing": 1,
     "The Tiny Bang Story": 1,
     "Army of Ruin": 1,
@@ -16322,12 +16336,12 @@
     "tag:persona-4": 1,
     "shin megami tensei": 1,
     "dragon quest": 1,
-    "diablo": 2,
+    "diablo": 1,
     "tag:darksiders": 1,
     "darksiders": 1,
-    "tag:doom-eternal": 2,
-    "tag:doom-slayer": 2,
-    "doom eternal": 2,
+    "tag:doom-eternal": 1,
+    "tag:doom-slayer": 1,
+    "doom eternal": 1,
     "tag:borderlands": 1,
     "borderlands": 2,
     "tag:need-for-speed": 1,
@@ -16374,8 +16388,9 @@
     "pokemon umbreon": 1,
     "pokemon eevee": 1,
     "pokemon lugia": 2,
-    "persona 4": 2
+    "persona 4": 2,
+    "tag:diablo": 2
   },
   "query_cursor": 2720,
-  "priority_cursor": 86
+  "priority_cursor": 98
 }
