@@ -13023,10 +13023,66 @@
     "https://moewalls.com/games/kirby-and-gooey-in-the-rain-pokemon-z-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2022/kirby-and-gooey-in-the-rain-pokemon-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/sothis-and-tiki-fire-emblem-preview.webm": {
+      "title": "Sothis And Tiki Fire Emblem",
+      "titleId": "010055D009F78000",
+      "gameName": "Fire Emblem: Three Houses",
+      "varId": "v_e47ae693",
+      "driveId": "15YvnJJpQBr-A222yaAh7qtiG0Tz3r8Xq",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/sothis-and-tiki-fire-emblem-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/sothis-and-tiki-fire-emblem-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2024/pokemon-gengar-1-preview.webm": {
+      "title": "Pokemon Gengar",
+      "titleId": "01001F5010DFA000",
+      "gameName": "Pokemon Legends: Arceus",
+      "varId": "v_08a74b18",
+      "driveId": "1AqDv7IDfMaXJ__c85Bptl0A-FmU5nQX-",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/pokemon-gengar-2-z-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2024/pokemon-gengar-1-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2024/pokemon-gengar-preview.webm": {
+      "title": "Pokemon Gengar",
+      "titleId": "01001F5010DFA000",
+      "gameName": "Pokemon Legends: Arceus",
+      "varId": "v_9ea8e1d6",
+      "driveId": "1mY_nJ930kQRTB6sckPvSwC2ZIicRTSnQ",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/pokemon-gengar-z-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2024/pokemon-gengar-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2021/mega-charizard-x-pokemon-preview.webm": {
+      "title": "Mega Charizard X Pokemon",
+      "titleId": "01001F5010DFA000",
+      "gameName": "Pokemon Legends: Arceus",
+      "varId": "v_62e1b808",
+      "driveId": "1dI848q85SqazPFlYwZRYA4-ifjL0BVGz",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/mega-charizard-x-pokemon-z-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2021/mega-charizard-x-pokemon-preview.webm"
     }
   },
-  "total_harvested": 1800,
-  "last_updated": "2026-11-07T18:17:37.319503+00:00",
+  "total_harvested": 1808,
+  "last_updated": "2026-11-07T18:20:14.657161+00:00",
   "page_cursors": {
     "super mario odyssey": 1,
     "mario odyssey": 1,
@@ -13118,7 +13174,7 @@
     "koraidon pokemon": 1,
     "pokemon violet": 2,
     "miraidon pokemon": 2,
-    "pokemon arceus": 2,
+    "pokemon arceus": 1,
     "hisui pokemon": 1,
     "pokemon sword": 2,
     "zacian pokemon": 1,
@@ -15401,8 +15457,10 @@
     "xenoblade chronicles": 2,
     "tag:xenoblade-chronicles-2": 1,
     "xenoblade 2": 2,
-    "pyra mythra": 1
+    "pyra mythra": 1,
+    "fire emblem": 2,
+    "tag:pokemon": 1
   },
   "query_cursor": 2720,
-  "priority_cursor": 36
+  "priority_cursor": 48
 }

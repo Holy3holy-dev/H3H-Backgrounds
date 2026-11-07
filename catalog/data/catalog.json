@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T18:17:37.327069+00:00",
+  "updatedAt": "2026-11-07T18:20:14.664086+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -8821,6 +8821,60 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_08a74b18",
+          "name": "Pokemon Gengar",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AqDv7IDfMaXJ__c85Bptl0A-FmU5nQX-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AqDv7IDfMaXJ__c85Bptl0A-FmU5nQX-&sz=w640",
+          "sizeBytes": 4739052,
+          "sha256": "EC551E743A740C2F57553645BBC3BA5AA1D1A35AF7841F3914C0C90EEC44BEAC",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Pokemon Gengar"
+        },
+        {
+          "id": "v_9ea8e1d6",
+          "name": "Pokemon Gengar",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mY_nJ930kQRTB6sckPvSwC2ZIicRTSnQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mY_nJ930kQRTB6sckPvSwC2ZIicRTSnQ&sz=w640",
+          "sizeBytes": 4708132,
+          "sha256": "12871DA8B46400870DB729465A004543E35CC54D37E27F77BD2AEEB617F1A24B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Pokemon Gengar"
+        },
+        {
+          "id": "v_62e1b808",
+          "name": "Mega Charizard X Pokemon",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dI848q85SqazPFlYwZRYA4-ifjL0BVGz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dI848q85SqazPFlYwZRYA4-ifjL0BVGz&sz=w640",
+          "sizeBytes": 4748890,
+          "sha256": "327E48262C92E7EF5D00F55BB7BE39B782CFAFCD9A077451CE48FCC8B0FADFD2",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mega Charizard X Pokemon | ЗВУК"
         }
       ]
     },
@@ -13827,6 +13881,24 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_e47ae693",
+          "name": "Sothis And Tiki Fire Emblem",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15YvnJJpQBr-A222yaAh7qtiG0Tz3r8Xq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15YvnJJpQBr-A222yaAh7qtiG0Tz3r8Xq&sz=w640",
+          "sizeBytes": 4530517,
+          "sha256": "F9A285DA791C6EB4C67C4F47629FA4D6D98DA5B721BD4D63BDB915B2D16D9E78",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sothis And Tiki Fire Emblem | ЗВУК"
         }
       ]
     },
@@ -48122,6 +48194,6 @@
     }
   ],
   "totalGames": 1071,
-  "totalVariants": 2098,
+  "totalVariants": 2102,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
