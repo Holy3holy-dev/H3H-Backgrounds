@@ -14395,10 +14395,38 @@
     "https://moewalls.com/games/buster-sword-final-fantasy-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2023/buster-sword-final-fantasy-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2021/ada-wong-resident-evil-preview.webm": {
+      "title": "Ada Wong Resident Evil",
+      "titleId": "010099A00BC1E000",
+      "gameName": "Resident Evil 4",
+      "varId": "v_87aa80cd",
+      "driveId": "1ReWWOzghE5m2fVu60esE8FhnfIKzBYYn",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/ada-wong-resident-evil-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2021/ada-wong-resident-evil-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2021/batman-arkham-knight-preview.webm": {
+      "title": "Batman Arkham Knight",
+      "titleId": "01003F00163CE000",
+      "gameName": "Batman: Arkham Trilogy",
+      "varId": "v_26380d94",
+      "driveId": "1wX6oF9nlHQMHFrJwkdgDYZOUtCFZCKq1",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/batman-arkham-knight-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2021/batman-arkham-knight-preview.webm"
     }
   },
-  "total_harvested": 1996,
-  "last_updated": "2026-11-07T19:55:58.263363+00:00",
+  "total_harvested": 2000,
+  "last_updated": "2026-11-07T20:00:58.496737+00:00",
   "page_cursors": {
     "super mario odyssey": 1,
     "mario odyssey": 1,
@@ -15482,7 +15510,7 @@
     "tunic game fox": 1,
     "metro 2033": 1,
     "artyom metro": 1,
-    "doom slayer": 1,
+    "doom slayer": 2,
     "doom 2016": 1,
     "Perky Little Things": 1,
     "Baldo the Guardian Owls": 1,
@@ -16784,12 +16812,12 @@
     "tag:persona-4": 1,
     "shin megami tensei": 1,
     "dragon quest": 1,
-    "diablo": 1,
+    "diablo": 2,
     "tag:darksiders": 1,
     "darksiders": 1,
-    "tag:doom-eternal": 1,
-    "tag:doom-slayer": 1,
-    "doom eternal": 1,
+    "tag:doom-eternal": 2,
+    "tag:doom-slayer": 2,
+    "doom eternal": 2,
     "tag:borderlands": 1,
     "borderlands": 2,
     "tag:need-for-speed": 1,
@@ -16837,9 +16865,9 @@
     "pokemon eevee": 1,
     "pokemon lugia": 1,
     "persona 4": 1,
-    "tag:diablo": 2,
-    "tag:devil-may-cry": 2,
-    "devil may cry": 2,
+    "tag:diablo": 1,
+    "tag:devil-may-cry": 1,
+    "devil may cry": 1,
     "tag:leon-s-kennedy": 1,
     "tag:dying-light": 1,
     "dying light": 1,
@@ -16881,8 +16909,15 @@
     "tag:final-fantasy-vii": 1,
     "tag:cloud-strife": 2,
     "tag:sephiroth": 1,
-    "final fantasy vii": 2
+    "final fantasy vii": 2,
+    "tag:doom": 2,
+    "tag:vergil": 2,
+    "tag:dante": 2,
+    "tag:resident-evil": 2,
+    "resident evil": 2,
+    "tag:batman-arkham": 1,
+    "tag:batman": 2
   },
   "query_cursor": 2720,
-  "priority_cursor": 88
+  "priority_cursor": 112
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T19:55:58.271572+00:00",
+  "updatedAt": "2026-11-07T20:00:58.504735+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -2626,6 +2626,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Ada Wong Resident Evil | ЗВУК"
+        },
+        {
+          "id": "v_87aa80cd",
+          "name": "Ada Wong Resident Evil",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ReWWOzghE5m2fVu60esE8FhnfIKzBYYn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ReWWOzghE5m2fVu60esE8FhnfIKzBYYn&sz=w640",
+          "sizeBytes": 4712254,
+          "sha256": "FAEBE57E81639050ECBF896E0D26EC52B26443724EF1738DF55003E448F9C614",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ada Wong Resident Evil | ЗВУК"
         }
       ]
     },
@@ -2941,6 +2959,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Batman Arkham Knight Harley Quinn | ЗВУК"
+        },
+        {
+          "id": "v_26380d94",
+          "name": "Batman Arkham Knight",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wX6oF9nlHQMHFrJwkdgDYZOUtCFZCKq1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wX6oF9nlHQMHFrJwkdgDYZOUtCFZCKq1&sz=w640",
+          "sizeBytes": 4725801,
+          "sha256": "B54AE582D32035E268F500F9840BFC345A7243A6B537FFFB55CCC0E7AF1713A1",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Batman Arkham Knight | ЗВУК"
         }
       ]
     },
@@ -49918,6 +49954,6 @@
     }
   ],
   "totalGames": 1075,
-  "totalVariants": 2196,
+  "totalVariants": 2198,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
