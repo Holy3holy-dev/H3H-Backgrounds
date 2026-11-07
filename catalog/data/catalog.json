@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T23:04:53.469652+00:00",
+  "updatedAt": "2026-11-07T23:27:07.534493+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -1299,6 +1299,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Fire Keeper Dark Souls 3"
+        },
+        {
+          "id": "v_4130e1c2",
+          "name": "Night Camping Dark Souls III",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gTQvtVe8X7kXQhMotlbcLcZvCTKulWW0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gTQvtVe8X7kXQhMotlbcLcZvCTKulWW0&sz=w640",
+          "sizeBytes": 4608885,
+          "sha256": "33F8290440FCB7482315BE1A788618A181F11D598CAE74AD87E134EF8642D9AC",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Night Camping Dark Souls III"
         }
       ]
     },
@@ -51042,6 +51060,6 @@
     }
   ],
   "totalGames": 1076,
-  "totalVariants": 2258,
+  "totalVariants": 2259,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
