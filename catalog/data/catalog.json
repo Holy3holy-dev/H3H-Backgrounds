@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T22:28:27.377095+00:00",
+  "updatedAt": "2026-11-07T23:04:53.469652+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -50885,6 +50885,78 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Widowmaker Sniping While Hanging Overwat | ЗВУК"
+        },
+        {
+          "id": "v_3ac4238c",
+          "name": "Temple Map Overwatch",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DNopxft3Qw23Cl8--0EAH8uPPSIbWDtf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DNopxft3Qw23Cl8--0EAH8uPPSIbWDtf&sz=w640",
+          "sizeBytes": 4665583,
+          "sha256": "08C39075499C437FF5DF39F8EC958CF34B8E15079EE3839292A06DA6DC2FF172",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Temple Map Overwatch | ЗВУК"
+        },
+        {
+          "id": "v_c5466b4c",
+          "name": "Widowmaker Overwatch",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FN7X4AOBWamyZGKTCP7yW4ORxdKRld9R",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FN7X4AOBWamyZGKTCP7yW4ORxdKRld9R&sz=w640",
+          "sizeBytes": 4696163,
+          "sha256": "867B70F3D157CAB05FB6B77523BDCD2C27611A24D4E95C99E7A75ECCCB820CE6",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Widowmaker Overwatch | ЗВУК"
+        },
+        {
+          "id": "v_499ec9fc",
+          "name": "Mei Snowball Overwatch",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vH2LZeHK5kRp0t-YWIF628pkm1v2-T7d",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vH2LZeHK5kRp0t-YWIF628pkm1v2-T7d&sz=w640",
+          "sizeBytes": 4660972,
+          "sha256": "189DAED7E06DD15E922926AFD14AB21934CFBBAA8042A00B123BB69C1FB07375",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mei Snowball Overwatch | ЗВУК"
+        },
+        {
+          "id": "v_b1051c6b",
+          "name": "Mercy Overwatch",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pKn9_qSy9JC5tY0MCFwtvAzzKgKX32d-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pKn9_qSy9JC5tY0MCFwtvAzzKgKX32d-&sz=w640",
+          "sizeBytes": 4719892,
+          "sha256": "2D8922BA37D05AAA8681700F7A596DEC6659C758926218A984E3C3577E9EE401",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mercy Overwatch | ЗВУК"
         }
       ]
     },
@@ -50970,6 +51042,6 @@
     }
   ],
   "totalGames": 1076,
-  "totalVariants": 2254,
+  "totalVariants": 2258,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
