@@ -14619,10 +14619,66 @@
     "https://moewalls.com/games/2b-machine-nier-automata-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2022/2b-machine-nier-automata-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/fire-keeper-dark-souls-preview.webm": {
+      "title": "Fire Keeper Dark Souls",
+      "titleId": "01004AB00A260000",
+      "gameName": "Dark Souls: Remastered",
+      "varId": "v_80338202",
+      "driveId": "1SBvT1_WJasaUkCNTswoHuyjD0esTPfbZ",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/fire-keeper-dark-souls-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/fire-keeper-dark-souls-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/you-died-dark-souls-preview.webm": {
+      "title": "You Died Dark Souls",
+      "titleId": "01004AB00A260000",
+      "gameName": "Dark Souls: Remastered",
+      "varId": "v_fdb64352",
+      "driveId": "1NZ1JzrzT7T2nfNat-WOuoyzjjehoAmRd",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/you-died-dark-souls-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/you-died-dark-souls-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/talos-the-elder-scrolls-v-skyrim-preview.webm": {
+      "title": "Talos The Elder Scrolls V: Skyrim",
+      "titleId": "010028D005A3C000",
+      "gameName": "The Elder Scrolls V: Skyrim",
+      "varId": "v_8b376b89",
+      "driveId": "1ktLfekFWmlJQsMItspoGaVdV6K1nBmda",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/talos-the-elder-scrolls-v-skyrim-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/talos-the-elder-scrolls-v-skyrim-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/going-to-whiterun-the-elder-scrolls-v-skyrim-preview.webm": {
+      "title": "Going to Whiterun The Elder Scrolls V: S",
+      "titleId": "010028D005A3C000",
+      "gameName": "The Elder Scrolls V: Skyrim",
+      "varId": "v_497770c4",
+      "driveId": "1aXOO2C049bKSMvducc86Bbrrmjk06aP7",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/going-to-whiterun-the-elder-scrolls-v-skyrim-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/going-to-whiterun-the-elder-scrolls-v-skyrim-preview.webm"
     }
   },
-  "total_harvested": 2028,
-  "last_updated": "2026-11-07T20:31:25.500684+00:00",
+  "total_harvested": 2036,
+  "last_updated": "2026-11-07T20:34:28.514756+00:00",
   "page_cursors": {
     "super mario odyssey": 1,
     "mario odyssey": 1,
@@ -17100,7 +17156,7 @@
     "persona 5": 1,
     "tag:nier-automata": 2,
     "tag:red-dead-redemption": 1,
-    "red dead redemption": 2,
+    "red dead redemption": 1,
     "tag:monster-hunter": 2,
     "tag:final-fantasy-vii": 1,
     "tag:cloud-strife": 2,
@@ -17121,8 +17177,16 @@
     "tag:signalis": 2,
     "tag:the-witcher": 2,
     "tag:ciri": 2,
-    "witcher 3": 2
+    "witcher 3": 2,
+    "tag:nier": 2,
+    "nier automata": 2,
+    "tag:dark-souls-iii": 1,
+    "dark souls": 2,
+    "bonfire dark souls": 2,
+    "artorias": 2,
+    "tag:skyrim": 2,
+    "tag:the-elder-scrolls": 2
   },
   "query_cursor": 2720,
-  "priority_cursor": 66
+  "priority_cursor": 78
 }

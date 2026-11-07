@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T20:31:25.508607+00:00",
+  "updatedAt": "2026-11-07T20:34:28.527044+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -1173,6 +1173,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | The Chosen Undead Dark Souls | ЗВУК"
+        },
+        {
+          "id": "v_80338202",
+          "name": "Fire Keeper Dark Souls",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SBvT1_WJasaUkCNTswoHuyjD0esTPfbZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SBvT1_WJasaUkCNTswoHuyjD0esTPfbZ&sz=w640",
+          "sizeBytes": 4715725,
+          "sha256": "4E0088C65578BE3138283F1DC1CF0E6D6A84E9F3775A849EF4EF8F16BD52056F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fire Keeper Dark Souls | ЗВУК"
+        },
+        {
+          "id": "v_fdb64352",
+          "name": "You Died Dark Souls",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NZ1JzrzT7T2nfNat-WOuoyzjjehoAmRd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NZ1JzrzT7T2nfNat-WOuoyzjjehoAmRd&sz=w640",
+          "sizeBytes": 4671054,
+          "sha256": "907D66A96CA30151965851E8F3E68BD40DA2814D8A0F0465E55423B2A3F1D767",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | You Died Dark Souls | ЗВУК"
         }
       ]
     },
@@ -49414,6 +49450,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Lake Ilinalta The Elder Scroll&#8217;s V | ЗВУК"
+        },
+        {
+          "id": "v_8b376b89",
+          "name": "Talos The Elder Scrolls V: Skyrim",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ktLfekFWmlJQsMItspoGaVdV6K1nBmda",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ktLfekFWmlJQsMItspoGaVdV6K1nBmda&sz=w640",
+          "sizeBytes": 4707278,
+          "sha256": "3109C0E5D9F978DFBCEF37D31D8B7A09FEFC0648E8123570A254120DFEFF8406",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Talos The Elder Scrolls V: Skyrim | ЗВУК"
+        },
+        {
+          "id": "v_497770c4",
+          "name": "Going to Whiterun The Elder Scrolls V: S",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1aXOO2C049bKSMvducc86Bbrrmjk06aP7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1aXOO2C049bKSMvducc86Bbrrmjk06aP7&sz=w640",
+          "sizeBytes": 4720071,
+          "sha256": "2B685156637D5282E7FBD543F3802C325199EAC982313E68D17540063921E476",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Going to Whiterun The Elder Scrolls V: S | ЗВУК"
         }
       ]
     },
@@ -50214,6 +50286,6 @@
     }
   ],
   "totalGames": 1076,
-  "totalVariants": 2212,
+  "totalVariants": 2216,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
