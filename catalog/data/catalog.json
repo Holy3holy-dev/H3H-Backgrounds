@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T22:13:50.542907+00:00",
+  "updatedAt": "2026-11-07T22:16:31.410361+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -35699,6 +35699,60 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | 2B Ready To Fight Nier: Automata | ЗВУК"
+        },
+        {
+          "id": "v_69880d85",
+          "name": "Become as Gods NieR: Automata",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15cmzSYZhIju_Co2bs-IVvHb6xtJVg1_G",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15cmzSYZhIju_Co2bs-IVvHb6xtJVg1_G&sz=w640",
+          "sizeBytes": 4716522,
+          "sha256": "E4E5CF72AC55C7082DDB8F85F04670E2E319EA4D2844608FD9D110019E8A28E8",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Become as Gods NieR: Automata | ЗВУК"
+        },
+        {
+          "id": "v_b5aca415",
+          "name": "2B And A2 In The Rain NieR: Automata",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1V2nbu4LUcCNh7JlfSMUOrtGIvB-_hUaC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1V2nbu4LUcCNh7JlfSMUOrtGIvB-_hUaC&sz=w640",
+          "sizeBytes": 4734978,
+          "sha256": "E6B979491CCCFDF81A41F27B544B8824198FD74D334560ADD87815844D5A66A5",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 2B And A2 In The Rain NieR: Automata | ЗВУК"
+        },
+        {
+          "id": "v_1d53564d",
+          "name": "2B and YoRHa No.9 Type S NieR: Automata",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1g--10wfDDyaH-l6p3EEM9HqevRkwBbNE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1g--10wfDDyaH-l6p3EEM9HqevRkwBbNE&sz=w640",
+          "sizeBytes": 4728219,
+          "sha256": "1159DFF2972E757EAF867E98EFDDF1FADD5FFB9F14B7D67BAE168C1380BF505D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 2B and YoRHa No.9 Type S NieR: Automata | ЗВУК"
         }
       ]
     },
@@ -50898,6 +50952,6 @@
     }
   ],
   "totalGames": 1076,
-  "totalVariants": 2250,
+  "totalVariants": 2253,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
