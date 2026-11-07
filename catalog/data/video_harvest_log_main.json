@@ -14185,10 +14185,24 @@
     "https://moewalls.com/games/deltarune-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2022/deltarune-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2024/lost-in-space-signalis-preview.webm": {
+      "title": "Lost In Space Signalis",
+      "titleId": "0100307018934000",
+      "gameName": "SIGNALIS",
+      "varId": "v_9cb1088d",
+      "driveId": "1pLFp2FJaxRRXtoD7ZUxSx_oOjK2s97lF",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/lost-in-space-signalis-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2024/lost-in-space-signalis-preview.webm"
     }
   },
-  "total_harvested": 1966,
-  "last_updated": "2026-11-07T19:33:15.399699+00:00",
+  "total_harvested": 1968,
+  "last_updated": "2026-11-07T19:36:42.833330+00:00",
   "page_cursors": {
     "super mario odyssey": 1,
     "mario odyssey": 1,
@@ -16538,9 +16552,9 @@
     "MotionRec": 1,
     "Go Vacation": 1,
     "tag:tears-of-the-kingdom": 1,
-    "tag:the-legend-of-zelda": 2,
-    "tears of the kingdom": 1,
-    "zelda link": 2,
+    "tag:the-legend-of-zelda": 1,
+    "tears of the kingdom": 2,
+    "zelda link": 3,
     "tag:breath-of-the-wild": 1,
     "zelda breath of the wild": 1,
     "tag:mario": 1,
@@ -16615,8 +16629,8 @@
     "little nightmares": 1,
     "tag:outer-wilds": 1,
     "outer wilds": 1,
-    "tag:katana-zero": 2,
-    "katana zero": 2,
+    "tag:katana-zero": 1,
+    "katana zero": 1,
     "breath of the wild": 2,
     "tag:kirby": 2,
     "tag:fire-emblem": 1,
@@ -16653,8 +16667,11 @@
     "omori": 1,
     "tag:cult-of-the-lamb": 1,
     "cult of the lamb": 1,
-    "tag:little-nightmares": 2
+    "tag:little-nightmares": 2,
+    "signalis": 2,
+    "tag:gris": 1,
+    "gris": 1
   },
   "query_cursor": 2720,
-  "priority_cursor": 182
+  "priority_cursor": 4
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T19:33:15.407004+00:00",
+  "updatedAt": "2026-11-07T19:36:42.840782+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -8744,6 +8744,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | The Gaze Of Signalis"
+        },
+        {
+          "id": "v_9cb1088d",
+          "name": "Lost In Space Signalis",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pLFp2FJaxRRXtoD7ZUxSx_oOjK2s97lF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pLFp2FJaxRRXtoD7ZUxSx_oOjK2s97lF&sz=w640",
+          "sizeBytes": 4718853,
+          "sha256": "3FE5DDE1F0F0BD87DECC128DCE52FBBAC25014134DBA62CCF69C5743B66922B4",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Lost In Space Signalis"
         }
       ]
     },
@@ -49648,6 +49666,6 @@
     }
   ],
   "totalGames": 1075,
-  "totalVariants": 2181,
+  "totalVariants": 2182,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
