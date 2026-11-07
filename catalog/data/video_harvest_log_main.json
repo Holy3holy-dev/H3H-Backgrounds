@@ -13597,10 +13597,66 @@
     "https://moewalls.com/games/morning-light-forest-house-minecraft-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2026/morning-light-forest-house-minecraft-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2023/undertale-preview.webm": {
+      "title": "Undertale",
+      "titleId": "010080B00AD66000",
+      "gameName": "Undertale",
+      "varId": "v_b1bfa898",
+      "driveId": "158dTE_fehpC85lSjF5tzhr2NlpFYoWJ_",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/undertale-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2023/undertale-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/sans-undertale-preview.webm": {
+      "title": "Sans Undertale",
+      "titleId": "010080B00AD66000",
+      "gameName": "Undertale",
+      "varId": "v_09dc2ef4",
+      "driveId": "1b6IbbzhxSQMTpUvDjraLhYh4qsvrz7Dh",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/sans-undertale-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/sans-undertale-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/home-sweet-undertale-preview.webm": {
+      "title": "Home Sweet Undertale",
+      "titleId": "010080B00AD66000",
+      "gameName": "Undertale",
+      "varId": "v_b5cb3963",
+      "driveId": "1uTUlN-sJlVZdSxcNwB2EXP3fjnH-K-6k",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/home-sweet-undertale-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/home-sweet-undertale-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2021/asriel-dreemurr-vs-frisk-undertale-preview.webm": {
+      "title": "Asriel Dreemurr Vs Frisk Undertale",
+      "titleId": "010080B00AD66000",
+      "gameName": "Undertale",
+      "varId": "v_710c16bf",
+      "driveId": "1ftj6ax9b59eEnHn5q-6N0Zd34wur6lcb",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/asriel-dreemurr-vs-frisk-undertale-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2021/asriel-dreemurr-vs-frisk-undertale-preview.webm"
     }
   },
-  "total_harvested": 1882,
-  "last_updated": "2026-11-07T18:49:29.338951+00:00",
+  "total_harvested": 1890,
+  "last_updated": "2026-11-07T18:53:22.561899+00:00",
   "page_cursors": {
     "super mario odyssey": 1,
     "mario odyssey": 1,
@@ -16018,8 +16074,13 @@
     "celeste": 1,
     "tag:ori": 2,
     "ori and the will of the wisps": 2,
-    "ori and the blind forest": 2
+    "ori and the blind forest": 2,
+    "minecraft": 2,
+    "tag:terraria": 2,
+    "terraria": 2,
+    "tag:stardew-valley": 1,
+    "stardew valley": 1
   },
   "query_cursor": 2720,
-  "priority_cursor": 168
+  "priority_cursor": 180
 }
