@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T19:36:42.840782+00:00",
+  "updatedAt": "2026-11-07T19:48:51.934717+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -3822,6 +3822,78 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Ciri Cyberpunk 2077 | ЗВУК"
+        },
+        {
+          "id": "v_2d1ba4b6",
+          "name": "Geralt Vs Monsters The Witcher 3: Wild H",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UCIS4j0251oBUIQicapGs-NTR6iNspOF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UCIS4j0251oBUIQicapGs-NTR6iNspOF&sz=w640",
+          "sizeBytes": 4666017,
+          "sha256": "1B04886971D4BCCB20B8FBDF68CCF818C3B48BA246D226E68CD410607313039D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Geralt Vs Monsters The Witcher 3: Wild H | ЗВУК"
+        },
+        {
+          "id": "v_bd2bfdbe",
+          "name": "Ciri Battle The Witcher 3: Wild Hunt",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1a-krC4NOJtLWen9-EHnu2Mvkn0UOM6UO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1a-krC4NOJtLWen9-EHnu2Mvkn0UOM6UO&sz=w640",
+          "sizeBytes": 4731781,
+          "sha256": "51ED8944A1137A23CABFD7FBF19F85C86437773149BAAC3007B42EEA5B4CC2BF",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ciri Battle The Witcher 3: Wild Hunt | ЗВУК"
+        },
+        {
+          "id": "v_8b1634a4",
+          "name": "Ciri And Geralt The Witcher 3: Wild Hunt",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-IwOka-5W76XsICnC4SP5VHXpEPO6EgF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-IwOka-5W76XsICnC4SP5VHXpEPO6EgF&sz=w640",
+          "sizeBytes": 4694273,
+          "sha256": "ABDC4C3389B2C900B8747426CC8A05AFD082E8A8B81D125EAF9A899B2DC5553D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ciri And Geralt The Witcher 3: Wild Hunt | ЗВУК"
+        },
+        {
+          "id": "v_2ba061c3",
+          "name": "Firecamp Witcher 3: Blood And Wine",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10Pyd23Exm8PW7NkOuL3EZCITeq425_CB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10Pyd23Exm8PW7NkOuL3EZCITeq425_CB&sz=w640",
+          "sizeBytes": 4733970,
+          "sha256": "5EA9D2FADBA19D0FA9C2083E4AC3C5F97EF3BF2A7BDCA1B2D6D6B8993D4327F3",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Firecamp Witcher 3: Blood And Wine | ЗВУК"
         }
       ]
     },
@@ -49666,6 +49738,6 @@
     }
   ],
   "totalGames": 1075,
-  "totalVariants": 2182,
+  "totalVariants": 2186,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
