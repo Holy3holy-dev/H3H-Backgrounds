@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T18:47:22.372504+00:00",
+  "updatedAt": "2026-11-07T18:49:29.344679+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -5634,6 +5634,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Minecraft Night Sky"
+        },
+        {
+          "id": "v_9a1ad58c",
+          "name": "Morning Light Forest House Minecraft",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16ai4PUYM7uPKaI-M-q_NamxLfYMRmdsS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16ai4PUYM7uPKaI-M-q_NamxLfYMRmdsS&sz=w640",
+          "sizeBytes": 4723578,
+          "sha256": "998F2EBDF465850A9BDE2E4349E5A5AB08BECA0F941C10C7A56177ABD7918AC1",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Morning Light Forest House Minecraft"
         }
       ]
     },
@@ -48866,6 +48884,6 @@
     }
   ],
   "totalGames": 1074,
-  "totalVariants": 2138,
+  "totalVariants": 2139,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }

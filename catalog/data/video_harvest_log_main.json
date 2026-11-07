@@ -13583,10 +13583,24 @@
     "https://moewalls.com/games/nyx-hades-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2022/nyx-hades-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2026/morning-light-forest-house-minecraft-preview.webm": {
+      "title": "Morning Light Forest House Minecraft",
+      "titleId": "0100D71004694000",
+      "gameName": "Minecraft",
+      "varId": "v_9a1ad58c",
+      "driveId": "16ai4PUYM7uPKaI-M-q_NamxLfYMRmdsS",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/morning-light-forest-house-minecraft-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2026/morning-light-forest-house-minecraft-preview.webm"
     }
   },
-  "total_harvested": 1880,
-  "last_updated": "2026-11-07T18:47:22.366721+00:00",
+  "total_harvested": 1882,
+  "last_updated": "2026-11-07T18:49:29.338951+00:00",
   "page_cursors": {
     "super mario odyssey": 1,
     "mario odyssey": 1,
@@ -15994,8 +16008,18 @@
     "tag:tomb-raider": 2,
     "lara croft": 2,
     "tag:castlevania": 1,
-    "hollow knight": 2
+    "hollow knight": 2,
+    "tag:dead-cells": 1,
+    "dead cells": 1,
+    "tag:blasphemous": 1,
+    "tag:cuphead": 1,
+    "cuphead": 1,
+    "tag:celeste": 1,
+    "celeste": 1,
+    "tag:ori": 2,
+    "ori and the will of the wisps": 2,
+    "ori and the blind forest": 2
   },
   "query_cursor": 2720,
-  "priority_cursor": 156
+  "priority_cursor": 168
 }
