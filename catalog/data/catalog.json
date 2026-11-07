@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T18:58:55.004907+00:00",
+  "updatedAt": "2026-11-07T19:05:32.200441+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -13412,6 +13412,60 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Shadow Lugia Pokemon XD: Gale of Darknes | ЗВУК"
+        },
+        {
+          "id": "v_f8dc6170",
+          "name": "Pikachu In The Rain Pokemon",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19xArKUdoPL_cVg0Df5FUMIcR1jh-OQ9t",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19xArKUdoPL_cVg0Df5FUMIcR1jh-OQ9t&sz=w640",
+          "sizeBytes": 4693509,
+          "sha256": "A7F47843552847CE40994EF8EA0FEF02FCC6C91D16E6A476428473653C976E2F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Pikachu In The Rain Pokemon"
+        },
+        {
+          "id": "v_cbe52153",
+          "name": "Mewtwo Pokemon",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1uj5IpNsxYEtAkItFGOnTl4xU8Ta_s4tm",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1uj5IpNsxYEtAkItFGOnTl4xU8Ta_s4tm&sz=w640",
+          "sizeBytes": 4688930,
+          "sha256": "EE78BB7B293F2FF72B1D39B44BD7D9014D60EEFC245D591D33CFB53D5630043A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Mewtwo Pokemon"
+        },
+        {
+          "id": "v_645d2d99",
+          "name": "Powerful Mewtwo Pokemon",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FYFHaPWMroUGeHDxpBxtWppUpk9UW2CN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FYFHaPWMroUGeHDxpBxtWppUpk9UW2CN&sz=w640",
+          "sizeBytes": 4726828,
+          "sha256": "EE42AF4EA6B10FCFEC987E0C616D91E7B6F42A476F2BD1154CDF8629F3CA1540",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Powerful Mewtwo Pokemon | ЗВУК"
         }
       ]
     },
@@ -49046,6 +49100,6 @@
     }
   ],
   "totalGames": 1074,
-  "totalVariants": 2148,
+  "totalVariants": 2151,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }

@@ -13723,17 +13723,59 @@
     "https://moewalls.com/games/after-the-rain-legend-of-zelda-breath-of-the-wild-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2022/after-the-rain-legend-of-zelda-breath-of-the-wild-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2024/pikachu-in-the-rain-pokemon-preview.webm": {
+      "title": "Pikachu In The Rain Pokemon",
+      "titleId": "0100A3D008C5C000",
+      "gameName": "Pokemon Scarlet",
+      "varId": "v_f8dc6170",
+      "driveId": "19xArKUdoPL_cVg0Df5FUMIcR1jh-OQ9t",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/pikachu-in-the-rain-pokemon-z-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2024/pikachu-in-the-rain-pokemon-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2024/mewtwo-pokemon-preview.webm": {
+      "title": "Mewtwo Pokemon",
+      "titleId": "0100A3D008C5C000",
+      "gameName": "Pokemon Scarlet",
+      "varId": "v_cbe52153",
+      "driveId": "1uj5IpNsxYEtAkItFGOnTl4xU8Ta_s4tm",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/mewtwo-pokemon-z-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2024/mewtwo-pokemon-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/powerful-mewtwo-pokemon-preview.webm": {
+      "title": "Powerful Mewtwo Pokemon",
+      "titleId": "0100A3D008C5C000",
+      "gameName": "Pokemon Scarlet",
+      "varId": "v_645d2d99",
+      "driveId": "1FYFHaPWMroUGeHDxpBxtWppUpk9UW2CN",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/powerful-mewtwo-pokemon-z-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/powerful-mewtwo-pokemon-preview.webm"
     }
   },
-  "total_harvested": 1900,
-  "last_updated": "2026-11-07T18:58:54.997839+00:00",
+  "total_harvested": 1906,
+  "last_updated": "2026-11-07T19:05:32.191648+00:00",
   "page_cursors": {
     "super mario odyssey": 1,
     "mario odyssey": 1,
     "mario kart 8": 1,
-    "mario kart": 2,
+    "mario kart": 1,
     "animal crossing new horizons": 2,
-    "animal crossing": 1,
+    "animal crossing": 2,
     "super smash bros ultimate": 1,
     "smash ultimate": 2,
     "monster hunter rise": 2,
@@ -13818,7 +13860,7 @@
     "koraidon pokemon": 1,
     "pokemon violet": 2,
     "miraidon pokemon": 2,
-    "pokemon arceus": 1,
+    "pokemon arceus": 2,
     "hisui pokemon": 1,
     "pokemon sword": 2,
     "zacian pokemon": 1,
@@ -16087,24 +16129,24 @@
     "princess daisy mario": 1,
     "rainbow road mario": 1,
     "tag:super-smash-bros": 1,
-    "super smash bros": 2,
-    "tag:metroid": 2,
-    "tag:samus-aran": 2,
-    "metroid dread": 2,
-    "samus aran": 2,
-    "samus metroid": 2,
+    "super smash bros": 1,
+    "tag:metroid": 1,
+    "tag:samus-aran": 1,
+    "metroid dread": 1,
+    "samus aran": 1,
+    "samus metroid": 1,
     "tag:animal-crossing": 1,
     "tag:splatoon": 1,
     "splatoon": 1,
-    "kirby": 2,
-    "tag:xenoblade-chronicles": 2,
-    "xenoblade chronicles": 2,
+    "kirby": 1,
+    "tag:xenoblade-chronicles": 1,
+    "xenoblade chronicles": 1,
     "tag:xenoblade-chronicles-2": 1,
-    "xenoblade 2": 2,
+    "xenoblade 2": 1,
     "pyra mythra": 1,
-    "fire emblem": 2,
+    "fire emblem": 1,
     "tag:pokemon": 1,
-    "tag:bayonetta": 2,
+    "tag:bayonetta": 1,
     "bayonetta": 2,
     "king boo": 1,
     "tag:persona-3": 1,
@@ -16155,8 +16197,16 @@
     "outer wilds": 1,
     "tag:katana-zero": 2,
     "katana zero": 2,
-    "breath of the wild": 2
+    "breath of the wild": 2,
+    "tag:kirby": 2,
+    "tag:fire-emblem": 1,
+    "pokemon gengar": 2,
+    "pokemon charizard": 2,
+    "pokemon rayquaza": 1,
+    "pokemon umbreon": 1,
+    "pokemon eevee": 1,
+    "pokemon lugia": 2
   },
   "query_cursor": 2720,
-  "priority_cursor": 14
+  "priority_cursor": 50
 }
