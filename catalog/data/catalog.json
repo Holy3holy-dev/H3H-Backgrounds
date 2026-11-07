@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T18:41:05.248295+00:00",
+  "updatedAt": "2026-11-07T18:43:28.403654+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -48703,9 +48703,89 @@
           "notes": "Switch 720p 30fps H264 | Dante Devil May Cry | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100C960066EE000",
+      "title": "Street Fighter 30th Anniversary Collection",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C960066EE000.jpg",
+      "variants": [
+        {
+          "id": "v_df3c7245",
+          "name": "Mai Street Fighter 6",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bSwv3tecgzRisu77patu-6r-I84_AwAg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bSwv3tecgzRisu77patu-6r-I84_AwAg&sz=w640",
+          "sizeBytes": 4681202,
+          "sha256": "75F56E0821A7112F09C328624B850FCF6AF10F6F1B8521FC45F8B6BBE8A35632",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mai Street Fighter 6 | ЗВУК"
+        },
+        {
+          "id": "v_4d748cc2",
+          "name": "Ryu Hadouken! Street Fighter",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gxE9xw7S8Zst9cUHv03yI-DqQsN8Ri_5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gxE9xw7S8Zst9cUHv03yI-DqQsN8Ri_5&sz=w640",
+          "sizeBytes": 4745342,
+          "sha256": "EE3A7B12AB47FD541642AA4AFF99BA0FFE530823C03824C4991A98D31F053EF7",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ryu Hadouken! Street Fighter | ЗВУК"
+        },
+        {
+          "id": "v_8d01379b",
+          "name": "Akuma Street Fighter",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dV-AzGPj6huyiJfKBRBO0bXpT5-vKUwZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dV-AzGPj6huyiJfKBRBO0bXpT5-vKUwZ&sz=w640",
+          "sizeBytes": 4724480,
+          "sha256": "8DB9A5B92F20716CE87E2A45AEEA9778C653CDF1D8FE03261ECB4BA7217B70D3",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Akuma Street Fighter | ЗВУК"
+        },
+        {
+          "id": "v_8b26a6f0",
+          "name": "Ryu Hadouken! Street Fighter",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OVzC1yxDTAGs8E6JQGRaPBWbuB9UKF1i",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OVzC1yxDTAGs8E6JQGRaPBWbuB9UKF1i&sz=w640",
+          "sizeBytes": 4713156,
+          "sha256": "ED310A93B75F20C4A87B5BAA0630982D44726878B0B5E7472456C9C9B5B79CB7",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ryu Hadouken! Street Fighter | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 1072,
-  "totalVariants": 2130,
+  "totalGames": 1073,
+  "totalVariants": 2134,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
