@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T18:29:04.758532+00:00",
+  "updatedAt": "2026-11-07T18:32:10.262602+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -9080,6 +9080,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 01001B300B9BE000_Diablo_II.mp4"
+        },
+        {
+          "id": "v_5a96bd07",
+          "name": "Al&#8217;Diabolos The Lord Of Terror",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SsJ2hDKFWDaG8b_9M_TL_wD582rnXW-j",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SsJ2hDKFWDaG8b_9M_TL_wD582rnXW-j&sz=w640",
+          "sizeBytes": 4648600,
+          "sha256": "CB616EF980D213D0BB32B12ECCE7B56D81C211812563C7701AA7CE3A7545588E",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Al&#8217;Diabolos The Lord Of Terror | ЗВУК"
+        },
+        {
+          "id": "v_e8023b97",
+          "name": "Malthael Diablo 3: Reaper of Souls",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1reSeWc4K6Kt1Y4vOY3KbZ4nSwNCkGQxZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1reSeWc4K6Kt1Y4vOY3KbZ4nSwNCkGQxZ&sz=w640",
+          "sizeBytes": 4714945,
+          "sha256": "CEFD263542644CEE18E08EAFB220B2D80F9ED6448091860C9814AA87D400068A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Malthael Diablo 3: Reaper of Souls | ЗВУК"
         }
       ]
     },
@@ -12931,6 +12967,24 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_38555bc1",
+          "name": "Cloud Strife Final Fantasy VII",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dTLkREBVPuYg6Eqx2kdyD0p9JxaOJlgF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dTLkREBVPuYg6Eqx2kdyD0p9JxaOJlgF&sz=w640",
+          "sizeBytes": 4740393,
+          "sha256": "4D403A3B71414689ECBD41B0923F3310F1549E5320AE43168A66C0113672C67C",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Cloud Strife Final Fantasy VII"
         }
       ]
     },
@@ -30194,6 +30248,24 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_d147f50a",
+          "name": "DOOM",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jOIrnwch8bL8UqNxDyrjTak6wSuaODH6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jOIrnwch8bL8UqNxDyrjTak6wSuaODH6&sz=w640",
+          "sizeBytes": 4699873,
+          "sha256": "D286B9329AB9510182DEC5725B8F385A8C5D8F418F11BC2E020F3B175A8C43C2",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | DOOM | ЗВУК"
         }
       ]
     },
@@ -48410,6 +48482,6 @@
     }
   ],
   "totalGames": 1071,
-  "totalVariants": 2114,
+  "totalVariants": 2118,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
