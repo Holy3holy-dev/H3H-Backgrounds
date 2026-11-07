@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T18:32:10.262602+00:00",
+  "updatedAt": "2026-11-07T18:35:44.829234+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -48479,9 +48479,89 @@
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
         }
       ]
+    },
+    {
+      "titleId": "01007C000E5B2000",
+      "title": "Devil May Cry 3 Special Edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007C000E5B2000.jpg",
+      "variants": [
+        {
+          "id": "v_3060110c",
+          "name": "Dante Vs Vergil Devil May Cry 3",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VrF4D1MblsCJk65l7cur7_jWBAN2XT3I",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VrF4D1MblsCJk65l7cur7_jWBAN2XT3I&sz=w640",
+          "sizeBytes": 4653659,
+          "sha256": "90DB5CA4F55BC54DDF7C3B2C456A57AF4CED8C5960AEB5665F6F6C3860991FA0",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Dante Vs Vergil Devil May Cry 3"
+        },
+        {
+          "id": "v_c9e34902",
+          "name": "Vergil Devil May Cry X Punishing Gray Ra",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DGFaXOYOyg6rZ4_b-esK0HZKV1YWFKNM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DGFaXOYOyg6rZ4_b-esK0HZKV1YWFKNM&sz=w640",
+          "sizeBytes": 4714125,
+          "sha256": "44FC25EFBB94F27D01B5C992CF0E71EB4450D73D8E7437253D7D4AD171B85762",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Vergil Devil May Cry X Punishing Gray Ra"
+        },
+        {
+          "id": "v_fbd82a5d",
+          "name": "Vergil Devil May Cry 5",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ni3ETBUC0rrBNjUzgmpYmWs9GhTnLbRx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ni3ETBUC0rrBNjUzgmpYmWs9GhTnLbRx&sz=w640",
+          "sizeBytes": 4693728,
+          "sha256": "80A8E2A321437294756C6194A6B92AA94702E89BEF75BA85E92BA3833449C160",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Vergil Devil May Cry 5 | ЗВУК"
+        },
+        {
+          "id": "v_da913249",
+          "name": "Dante Devil May Cry",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jQmdul9nBKVSmCQzMWR0Dg2QtsexCMST",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jQmdul9nBKVSmCQzMWR0Dg2QtsexCMST&sz=w640",
+          "sizeBytes": 4746837,
+          "sha256": "C2F40BA4CAAFEE9D92C042A316E967978002A06393CCD9FD38133B3C8BEA4FC6",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dante Devil May Cry | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 1071,
-  "totalVariants": 2118,
+  "totalGames": 1072,
+  "totalVariants": 2122,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }

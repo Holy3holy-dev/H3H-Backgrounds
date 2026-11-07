@@ -13303,10 +13303,66 @@
     "https://moewalls.com/games/doom-2-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2022/doom-1-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2026/dante-vs-vergil-devil-may-cry-3-preview.webm": {
+      "title": "Dante Vs Vergil Devil May Cry 3",
+      "titleId": "01007C000E5B2000",
+      "gameName": "Devil May Cry 3 Special Edition",
+      "varId": "v_3060110c",
+      "driveId": "1VrF4D1MblsCJk65l7cur7_jWBAN2XT3I",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/dante-vs-vergil-devil-may-cry-3-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2026/dante-vs-vergil-devil-may-cry-3-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2025/vergil-devil-may-cry-x-punishing-gray-raven-preview.webm": {
+      "title": "Vergil Devil May Cry X Punishing Gray Ra",
+      "titleId": "01007C000E5B2000",
+      "gameName": "Devil May Cry 3 Special Edition",
+      "varId": "v_c9e34902",
+      "driveId": "1DGFaXOYOyg6rZ4_b-esK0HZKV1YWFKNM",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/vergil-devil-may-cry-x-punishing-gray-raven-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2025/vergil-devil-may-cry-x-punishing-gray-raven-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/vergil-devil-may-cry-5-preview.webm": {
+      "title": "Vergil Devil May Cry 5",
+      "titleId": "01007C000E5B2000",
+      "gameName": "Devil May Cry 3 Special Edition",
+      "varId": "v_fbd82a5d",
+      "driveId": "1ni3ETBUC0rrBNjUzgmpYmWs9GhTnLbRx",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/vergil-devil-may-cry-5-2-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/vergil-devil-may-cry-5-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/dante-devil-may-cry-preview.webm": {
+      "title": "Dante Devil May Cry",
+      "titleId": "01007C000E5B2000",
+      "gameName": "Devil May Cry 3 Special Edition",
+      "varId": "v_da913249",
+      "driveId": "1jQmdul9nBKVSmCQzMWR0Dg2QtsexCMST",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/dante-devil-may-cry-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/dante-devil-may-cry-preview.webm"
     }
   },
-  "total_harvested": 1840,
-  "last_updated": "2026-11-07T18:32:10.254403+00:00",
+  "total_harvested": 1848,
+  "last_updated": "2026-11-07T18:35:44.823175+00:00",
   "page_cursors": {
     "super mario odyssey": 1,
     "mario odyssey": 1,
@@ -14390,7 +14446,7 @@
     "tunic game fox": 1,
     "metro 2033": 1,
     "artyom metro": 1,
-    "doom slayer": 1,
+    "doom slayer": 2,
     "doom 2016": 1,
     "Perky Little Things": 1,
     "Baldo the Guardian Owls": 1,
@@ -15695,8 +15751,10 @@
     "diablo": 2,
     "tag:darksiders": 1,
     "darksiders": 1,
-    "tag:doom-eternal": 2
+    "tag:doom-eternal": 2,
+    "tag:doom-slayer": 2,
+    "doom eternal": 2
   },
   "query_cursor": 2720,
-  "priority_cursor": 96
+  "priority_cursor": 108
 }
