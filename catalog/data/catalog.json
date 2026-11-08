@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T17:51:10.113330+00:00",
+  "updatedAt": "2026-11-08T17:57:01.599762+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -59887,9 +59887,139 @@
           "notes": "Switch 720p 30fps H264 | MARVEL MaXimum Collection — MARVEL MaXim"
         }
       ]
+    },
+    {
+      "titleId": "010075201F578000",
+      "title": "Freedom Wars Remastered",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010075201F578000.jpg",
+      "variants": [
+        {
+          "id": "v_d1ee5361",
+          "name": "FREEDOM WARS Remastered — FREEDOM WARS Remastere",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1uIJ3f9j9c5ftqAAVdrzMVYQy02ufAOlp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1uIJ3f9j9c5ftqAAVdrzMVYQy02ufAOlp&sz=w640",
+          "sizeBytes": 6149307,
+          "sha256": "23D340B8D502CA932DB3C0FB56D037E32EF372E0C796DE0C78AFE8348E9AFC89",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | FREEDOM WARS Remastered — FREEDOM WARS R"
+        }
+      ]
+    },
+    {
+      "titleId": "010053101ACB8000",
+      "title": "Thank Goodness You're Here",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010053101ACB8000.jpg",
+      "variants": [
+        {
+          "id": "v_cc0e6236",
+          "name": "Thank Goodness You're Here! — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1woXf28qTHe82yQbG5_3F3DTpYLbbtImQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1woXf28qTHe82yQbG5_3F3DTpYLbbtImQ&sz=w640",
+          "sizeBytes": 2875745,
+          "sha256": "C2D04421C74393617B1D343F7FA67021847B0901AB707E8E2642E730C94BB37C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Thank Goodness You're Here! — Launch Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "01007E6019872000",
+      "title": "Front Mission 3 Remake",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007E6019872000.jpg",
+      "variants": [
+        {
+          "id": "v_6ea4c4a2",
+          "name": "FRONT MISSION 3: Remake — Front Mission 3 Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1X5XMlaXQwlEzMtvGPIkaxiLjR-f6Yh4d",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1X5XMlaXQwlEzMtvGPIkaxiLjR-f6Yh4d&sz=w640",
+          "sizeBytes": 6339954,
+          "sha256": "B6B044E5FF002EE67095EAF568B3DD5D404E71F2D025E57D0367BF9128F5953A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | FRONT MISSION 3: Remake — Front Mission "
+        }
+      ]
+    },
+    {
+      "titleId": "0100DE302439E000",
+      "title": "Indika",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DE302439E000.jpg",
+      "variants": [
+        {
+          "id": "v_e694a656",
+          "name": "INDIKA — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1JDVwjpi2E9cC_DqXwgdmh35hWlpOJ2kW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1JDVwjpi2E9cC_DqXwgdmh35hWlpOJ2kW&sz=w640",
+          "sizeBytes": 3633456,
+          "sha256": "555A9E5AA091BFCFFD4DBBA03CCBB961DA1E98207D01787F858E6BE13C7A28D6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | INDIKA — Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01006BE00B3C8000",
+      "title": "My Brother Rabbit",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006BE00B3C8000.jpg",
+      "variants": [
+        {
+          "id": "v_4e899337",
+          "name": "My Brother Rabbit — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Pg5WbCqh30b11ev458t2T6UEzv7ogEss",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Pg5WbCqh30b11ev458t2T6UEzv7ogEss&sz=w640",
+          "sizeBytes": 6054532,
+          "sha256": "960196E18784E421A574CD38A07A193E4D6369CCFE2FE2BF5E07B7B22AEAE5F3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | My Brother Rabbit — Launch Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 1282,
-  "totalVariants": 2658,
-  "lastUpdated": "2026-11-08T17:51:10.113330+00:00"
+  "totalGames": 1287,
+  "totalVariants": 2663,
+  "lastUpdated": "2026-11-08T17:57:01.599762+00:00"
 }
