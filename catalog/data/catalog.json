@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T07:35:39.746624+00:00",
+  "updatedAt": "2026-11-08T08:06:39.484316+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -4938,6 +4938,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Wolf Medallion The Witcher 3"
+        },
+        {
+          "id": "v_faa1067b",
+          "name": "Harvest of Sorrow Gwent: The Witcher Car",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17av28saDnepnpMXemaUgigka5z_Ey3NM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17av28saDnepnpMXemaUgigka5z_Ey3NM&sz=w640",
+          "sizeBytes": 4747962,
+          "sha256": "DA15EAB92C392A053963EED8B91BE2B42BA34C6B11D376683CE4F2F86EE29874",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Harvest of Sorrow Gwent: The Witcher Car | ЗВУК"
         }
       ]
     },
@@ -53628,6 +53646,6 @@
     }
   ],
   "totalGames": 1082,
-  "totalVariants": 2399,
+  "totalVariants": 2400,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
