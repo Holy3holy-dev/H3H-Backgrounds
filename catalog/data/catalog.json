@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T12:37:41.056340+00:00",
+  "updatedAt": "2026-11-08T12:46:49.445435+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -54811,9 +54811,139 @@
           "notes": "Switch 720p 30fps H264 | ZENONIA 1 — ZENONIA1 Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100A0902789A000",
+      "title": "SpongeBob SquarePants: Titans of the Tide",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A0902789A000.jpg",
+      "variants": [
+        {
+          "id": "v_f0f233d0",
+          "name": "SpongeBob SquarePants: Titans of the Tide — Tita",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rXFkFIG00TjWcVuIGD4oTBip20I44mXX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rXFkFIG00TjWcVuIGD4oTBip20I44mXX&sz=w640",
+          "sizeBytes": 8218990,
+          "sha256": "A59CA762B6C6C5E5040D61063CB336613FFC9FD5D5B3EB15E54A754FEC857937",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | SpongeBob SquarePants: Titans of the Tid"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B8B027164000",
+      "title": "Sesame Street Friends and Fun",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B8B027164000.jpg",
+      "variants": [
+        {
+          "id": "v_d72a65a6",
+          "name": "Sesame Street: Friends & Fun — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UwiSUxsCUV1AEGydur_P9w1zukQmxU6b",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UwiSUxsCUV1AEGydur_P9w1zukQmxU6b&sz=w640",
+          "sizeBytes": 4913695,
+          "sha256": "F229617DC81EC00C5EB0740E165E297A3909C6AB52676C4C5E26745B94CA8E13",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sesame Street: Friends & Fun — Launch Tr"
+        }
+      ]
+    },
+    {
+      "titleId": "010083B01D9B8000",
+      "title": "Baladins",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010083B01D9B8000.jpg",
+      "variants": [
+        {
+          "id": "v_5e9f464f",
+          "name": "Baladins — Baladins Update Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BTBxpFWjdcbGIdaJ1isTeR2yHp6pmsmA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BTBxpFWjdcbGIdaJ1isTeR2yHp6pmsmA&sz=w640",
+          "sizeBytes": 4657765,
+          "sha256": "C32631CC8ECA8F885673AB8DA1E25509918DFC404CD0B1107CFC3762BA73FFF9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Baladins — Baladins Update Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DC0018CD6000",
+      "title": "Isles of Sea and Sky",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DC0018CD6000.jpg",
+      "variants": [
+        {
+          "id": "v_86cd84b0",
+          "name": "Isles of Sea and Sky — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fpTUhRphIltTBMwVa8fmCpDCIg5z--tS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fpTUhRphIltTBMwVa8fmCpDCIg5z--tS&sz=w640",
+          "sizeBytes": 3984580,
+          "sha256": "DAFE6F0207BA53C455D6878E136757CE238F5D6810FDF0482DBDB061CC1883B2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Isles of Sea and Sky — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010071102282E000",
+      "title": "Sulfur",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010071102282E000.jpg",
+      "variants": [
+        {
+          "id": "v_07b7af5b",
+          "name": "SULFUR — 1.0 SULFUR Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PaDTDlWx_Z99JoKRFJoCxEmTeEnoJlm0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PaDTDlWx_Z99JoKRFJoCxEmTeEnoJlm0&sz=w640",
+          "sizeBytes": 5407574,
+          "sha256": "80BED7A2D5592069E66F74ABD482DB3E3E9C3B4CACA11ADB354105D572E04646",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | SULFUR — 1.0 SULFUR Release Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 1102,
-  "totalVariants": 2456,
-  "lastUpdated": "2026-11-08T12:37:41.056340+00:00"
+  "totalGames": 1107,
+  "totalVariants": 2461,
+  "lastUpdated": "2026-11-08T12:46:49.445435+00:00"
 }
