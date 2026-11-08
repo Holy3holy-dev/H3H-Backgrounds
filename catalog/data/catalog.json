@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T15:10:08.362644+00:00",
+  "updatedAt": "2026-11-08T15:17:10.785052+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -57411,9 +57411,139 @@
           "notes": "Switch 720p 30fps H264 | Clover Reset — PV"
         }
       ]
+    },
+    {
+      "titleId": "0100A75023E0A000",
+      "title": "Super Chipflake U Quest for the Uncooked Schnitzel",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A75023E0A000.jpg",
+      "variants": [
+        {
+          "id": "v_d621694c",
+          "name": "Super Chipflake Ü: Quest for the Uncooked Schnit",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lkNL0tlUXbBlGna6h5SVTY14sUZ86yx-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lkNL0tlUXbBlGna6h5SVTY14sUZ86yx-&sz=w640",
+          "sizeBytes": 4293147,
+          "sha256": "FC70669E6677110047556A4CC125A8E2AA7FA6AC04648159CDED7E9DDF807922",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Super Chipflake Ü: Quest for the Uncooke"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E07022BD0000",
+      "title": "An English Haunting",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E07022BD0000.jpg",
+      "variants": [
+        {
+          "id": "v_2e03d2d6",
+          "name": "An English Haunting — An English Haunting - Fina",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rvkq161eg5ueOVo7hKacUG8j-o9-2Az7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rvkq161eg5ueOVo7hKacUG8j-o9-2Az7&sz=w640",
+          "sizeBytes": 2859029,
+          "sha256": "6124761F037A6BCC91F46B9F58FF72D4743EC4E9076DCE95F759E3DDC77CDFDB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | An English Haunting — An English Hauntin"
+        }
+      ]
+    },
+    {
+      "titleId": "01003CB02246E000",
+      "title": "Drakkar Crew",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003CB02246E000.jpg",
+      "variants": [
+        {
+          "id": "v_b081c18e",
+          "name": "Drakkar Crew — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14Nkh4Knhq-vdSNCt-xOkr6wBNMMuQcBk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14Nkh4Knhq-vdSNCt-xOkr6wBNMMuQcBk&sz=w640",
+          "sizeBytes": 5558832,
+          "sha256": "CF101589B5ADDC954ABE1B164A34B34E0220720BE8C4F501FCC380653A1AFCF1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Drakkar Crew — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DBD024EF6000",
+      "title": "Blue Reflection Quartet",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DBD024EF6000.jpg",
+      "variants": [
+        {
+          "id": "v_bcef8eac",
+          "name": "BLUE REFLECTION Quartet — BLUE REFLECTION Quarte",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jCN1VPusLGtRbFFTuWaMembxVmiHyHEO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jCN1VPusLGtRbFFTuWaMembxVmiHyHEO&sz=w640",
+          "sizeBytes": 6636592,
+          "sha256": "6C6A6765A88FAB55B7FE3DF88DEC67E000B9967F526A974BA4FAB56BF68A9D02",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | BLUE REFLECTION Quartet — BLUE REFLECTIO"
+        }
+      ]
+    },
+    {
+      "titleId": "010097900F550000",
+      "title": "Young Souls",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010097900F550000.jpg",
+      "variants": [
+        {
+          "id": "v_289f4e9c",
+          "name": "Young Souls — Young Souls - Announcement Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZilUtiBcPPvV5qku-aSXldixRGxfcvfh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZilUtiBcPPvV5qku-aSXldixRGxfcvfh&sz=w640",
+          "sizeBytes": 4587344,
+          "sha256": "A9ADE10EFAFFEB795DFBBEA32D14A5938F9220BDBADB99971D540E4F10B3FCCB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Young Souls — Young Souls - Announcement"
+        }
+      ]
     }
   ],
-  "totalGames": 1202,
-  "totalVariants": 2556,
-  "lastUpdated": "2026-11-08T15:10:08.362644+00:00"
+  "totalGames": 1207,
+  "totalVariants": 2561,
+  "lastUpdated": "2026-11-08T15:17:10.785052+00:00"
 }
