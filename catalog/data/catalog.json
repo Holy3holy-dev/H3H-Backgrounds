@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T08:25:51.948574+00:00",
+  "updatedAt": "2026-11-08T08:27:28.590877+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -34870,6 +34870,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Red Cape Hollow Knight Silksong | ЗВУК"
+        },
+        {
+          "id": "v_d3b63da3",
+          "name": "Valeera the Hollow Hearthstone",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OxZ9TwlUrvDMogjYd5I9nNa5Y4k2vopX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OxZ9TwlUrvDMogjYd5I9nNa5Y4k2vopX&sz=w640",
+          "sizeBytes": 4631782,
+          "sha256": "6846FEC8C60D59BFBBDD8196454D53BC4292EE7682BB1457751041B8CD6B7187",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Valeera the Hollow Hearthstone | ЗВУК"
+        },
+        {
+          "id": "v_ac14d331",
+          "name": "Silksong Bell Beast",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BS8zBPwZDj0cX7uk5Gp6k2Xzd6cSLRSj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BS8zBPwZDj0cX7uk5Gp6k2Xzd6cSLRSj&sz=w640",
+          "sizeBytes": 4711295,
+          "sha256": "A16B66C5EFE3442C26ACCF8520285DC8F07B7561E096CA8EF1A1AEC142774052",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Silksong Bell Beast | ЗВУК"
         }
       ]
     },
@@ -53754,6 +53790,6 @@
     }
   ],
   "totalGames": 1082,
-  "totalVariants": 2406,
+  "totalVariants": 2408,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }

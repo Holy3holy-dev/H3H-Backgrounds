@@ -17335,10 +17335,38 @@
     "https://moewalls.com/games/revenant-apex-legends-2-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2022/revenant-apex-legends-1-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2021/valeera-the-hollow-hearthstone-preview.webm": {
+      "title": "Valeera the Hollow Hearthstone",
+      "titleId": "010036500ECF2000",
+      "gameName": "Hollow Knight",
+      "varId": "v_d3b63da3",
+      "driveId": "1OxZ9TwlUrvDMogjYd5I9nNa5Y4k2vopX",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/valeera-the-hollow-hearthstone-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2021/valeera-the-hollow-hearthstone-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2026/silksong-bell-beast-preview.webm": {
+      "title": "Silksong Bell Beast",
+      "titleId": "010036500ECF2000",
+      "gameName": "Hollow Knight",
+      "varId": "v_ac14d331",
+      "driveId": "1BS8zBPwZDj0cX7uk5Gp6k2Xzd6cSLRSj",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/silksong-bell-beast-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2026/silksong-bell-beast-preview.webm"
     }
   },
-  "total_harvested": 2416,
-  "last_updated": "2026-11-08T08:25:51.940640+00:00",
+  "total_harvested": 2420,
+  "last_updated": "2026-11-08T08:27:28.583032+00:00",
   "page_cursors": {
     "tag:tears-of-the-kingdom": 1,
     "tag:the-legend-of-zelda": 1,
@@ -17431,12 +17459,12 @@
     "street fighter": 1,
     "tag:guilty-gear": 1,
     "guilty gear": 1,
-    "tag:sonic-the-hedgehog": 1,
+    "tag:sonic-the-hedgehog": 2,
     "tag:shadow-the-hedgehog": 1,
-    "sonic frontiers": 1,
-    "sonic": 1,
+    "sonic frontiers": 2,
+    "sonic": 2,
     "tag:castlevania": 1,
-    "castlevania": 2,
+    "castlevania": 1,
     "tag:dead-cells": 1,
     "dead cells": 1,
     "tag:blasphemous": 1,
@@ -17589,9 +17617,9 @@
     "tag:mortal-kombat": 2,
     "tag:street-fighter": 2,
     "overwatch": 3,
-    "tag:tomb-raider": 1,
-    "lara croft": 1,
-    "tag:hades": 1,
+    "tag:tomb-raider": 2,
+    "lara croft": 2,
+    "tag:hades": 2,
     "hades zagreus": 1,
     "tag:minecraft": 2,
     "minecraft": 2,
@@ -17617,7 +17645,7 @@
     "tag:overwatch": 2,
     "warframe": 2,
     "fortnite": 2,
-    "tag:hollow-knight": 2,
+    "tag:hollow-knight": 3,
     "hollow knight": 2,
     "tag:metal-gear-rising-revengeance": 2,
     "solid snake": 2,
@@ -17630,5 +17658,5 @@
     "red dead redemption": 2
   },
   "query_cursor": 0,
-  "priority_cursor": 144
+  "priority_cursor": 156
 }
