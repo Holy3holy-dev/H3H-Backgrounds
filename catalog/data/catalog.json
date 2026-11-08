@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T15:38:27.567949+00:00",
+  "updatedAt": "2026-11-08T15:49:07.577064+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -57931,9 +57931,139 @@
           "notes": "Switch 720p 30fps H264 | Pit Panic — Out now!"
         }
       ]
+    },
+    {
+      "titleId": "0100D7401D720000",
+      "title": "Captain Soda",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D7401D720000.jpg",
+      "variants": [
+        {
+          "id": "v_fb18625c",
+          "name": "Captain Soda — Announcement Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lE5GclAywcUNGUJWzQCr5DVWq4Gfk_0O",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lE5GclAywcUNGUJWzQCr5DVWq4Gfk_0O&sz=w640",
+          "sizeBytes": 9709089,
+          "sha256": "5576766EDF96535C5A70DDB9E2D589FA7146F7909B74542D7061E7C9ECDBCFB7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Captain Soda — Announcement Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EDB01D368000",
+      "title": "Valiant Hearts: Coming Home",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EDB01D368000.jpg",
+      "variants": [
+        {
+          "id": "v_5a78d87e",
+          "name": "Valiant Hearts: Coming Home — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1EM7sMGr7GZrB4csx7teTishhg6Cfoh5s",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1EM7sMGr7GZrB4csx7teTishhg6Cfoh5s&sz=w640",
+          "sizeBytes": 3623220,
+          "sha256": "C8BDAD9FF64412C18BF1109284FE60A754E410124734FC7F89C4DBEB8D01326A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Valiant Hearts: Coming Home — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010042000A986000",
+      "title": "Dragon Quest Builders 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010042000A986000.jpg",
+      "variants": [
+        {
+          "id": "v_749b39dc",
+          "name": "DRAGON QUEST BUILDERS™ 2 — ESRB EN DQB2 Launch",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CBjsWYRATo5hdJbPmmdnrBeyuxRWNkWd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CBjsWYRATo5hdJbPmmdnrBeyuxRWNkWd&sz=w640",
+          "sizeBytes": 4534822,
+          "sha256": "75A973B5626CB8A4DBA40835003BBD0DE9D1AB8D9F8B709B17DCA9483A1EF3C0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | DRAGON QUEST BUILDERS™ 2 — ESRB EN DQB2 "
+        }
+      ]
+    },
+    {
+      "titleId": "010088501B8F2000",
+      "title": "Cat Quest III",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010088501B8F2000.jpg",
+      "variants": [
+        {
+          "id": "v_cb80dcd5",
+          "name": "Cat Quest III — Release trailer (WW)",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1elHA3SpaVxzQ9ujkkC1bSOopEI2VMEeT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1elHA3SpaVxzQ9ujkkC1bSOopEI2VMEeT&sz=w640",
+          "sizeBytes": 8281716,
+          "sha256": "D11AAD73B6745E9F7FD41520F9DC3276F06676C02F777FD499C62B7FA75079FC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cat Quest III — Release trailer (WW)"
+        }
+      ]
+    },
+    {
+      "titleId": "01009AC011810000",
+      "title": "Cogen Sword of Rewind",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009AC011810000.jpg",
+      "variants": [
+        {
+          "id": "v_8bcd631c",
+          "name": "COGEN: Sword of Rewind / COGEN: 大鳥こはくと刻の剣 — COGE",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ouULLF2kw4Ey291WknKkF0Uih1i3N8f0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ouULLF2kw4Ey291WknKkF0Uih1i3N8f0&sz=w640",
+          "sizeBytes": 4344746,
+          "sha256": "15FC6078C4983AF1E6B3DFC93B9B41A197A8BFA9FCC61CA2508C3B196E5F4AF5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | COGEN: Sword of Rewind / COGEN: 大鳥こはくと刻の"
+        }
+      ]
     }
   ],
-  "totalGames": 1222,
-  "totalVariants": 2576,
-  "lastUpdated": "2026-11-08T15:38:27.567949+00:00"
+  "totalGames": 1227,
+  "totalVariants": 2581,
+  "lastUpdated": "2026-11-08T15:49:07.577064+00:00"
 }
