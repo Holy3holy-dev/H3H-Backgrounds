@@ -16285,10 +16285,38 @@
     "https://moewalls.com/games/rayman-nap-in-the-forest-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2022/rayman-nap-in-the-forest-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2025/hel-robot-samurai-ghostrunner-preview.webm": {
+      "title": "Hel Robot Samurai Ghostrunner",
+      "titleId": "01008DF01290C000",
+      "gameName": "Ghostrunner",
+      "varId": "v_ebf18c5b",
+      "driveId": "1ykR8YfiCwKc3fXaYMg_aCEZ04F7sadoc",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/hel-robot-samurai-ghostrunner-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2025/hel-robot-samurai-ghostrunner-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2023/ghostrunner-2-preview.webm": {
+      "title": "Ghostrunner 2",
+      "titleId": "01008DF01290C000",
+      "gameName": "Ghostrunner",
+      "varId": "v_0624b4d7",
+      "driveId": "1hOe8lAcm8Tmp-7CxtfOQbqadpM8mdhDk",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/ghostrunner-2-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2023/ghostrunner-2-preview.webm"
     }
   },
-  "total_harvested": 2266,
-  "last_updated": "2026-11-08T04:51:21.416915+00:00",
+  "total_harvested": 2270,
+  "last_updated": "2026-11-08T04:54:14.139638+00:00",
   "page_cursors": {
     "tag:tears-of-the-kingdom": 1,
     "tag:the-legend-of-zelda": 2,
@@ -16452,8 +16480,19 @@
     "tag:crash-bandicoot": 1,
     "crash bandicoot": 1,
     "tag:spyro": 1,
-    "rayman": 2
+    "rayman": 2,
+    "ghostrunner": 2,
+    "tag:sifu": 2,
+    "sifu": 2,
+    "tag:ninja-gaiden": 1,
+    "ninja gaiden": 1,
+    "ryu hayabusa": 1,
+    "tag:darkest-dungeon": 1,
+    "darkest dungeon": 1,
+    "tag:slay-the-spire": 1,
+    "slay the spire": 1,
+    "tag:risk-of-rain": 1
   },
   "query_cursor": 0,
-  "priority_cursor": 240
+  "priority_cursor": 252
 }

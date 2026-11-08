@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T04:51:21.424224+00:00",
+  "updatedAt": "2026-11-08T04:54:14.148453+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -52369,9 +52369,53 @@
           "notes": "Switch 720p 30fps H264 | Rayman Nap In The Forest | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "01008DF01290C000",
+      "title": "Ghostrunner",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008DF01290C000.jpg",
+      "variants": [
+        {
+          "id": "v_ebf18c5b",
+          "name": "Hel Robot Samurai Ghostrunner",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ykR8YfiCwKc3fXaYMg_aCEZ04F7sadoc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ykR8YfiCwKc3fXaYMg_aCEZ04F7sadoc&sz=w640",
+          "sizeBytes": 4752028,
+          "sha256": "08D98B6351A7118A88F455B917A454F707B75A9877DA12D0C5E323611E21BD1D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hel Robot Samurai Ghostrunner | ЗВУК"
+        },
+        {
+          "id": "v_0624b4d7",
+          "name": "Ghostrunner 2",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hOe8lAcm8Tmp-7CxtfOQbqadpM8mdhDk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hOe8lAcm8Tmp-7CxtfOQbqadpM8mdhDk&sz=w640",
+          "sizeBytes": 4617541,
+          "sha256": "99FD67C196A54A187197A26FB753CDCCD708161C0CD26E4BD09BC366B19FF09B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Ghostrunner 2"
+        }
+      ]
     }
   ],
-  "totalGames": 1078,
-  "totalVariants": 2331,
+  "totalGames": 1079,
+  "totalVariants": 2333,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
