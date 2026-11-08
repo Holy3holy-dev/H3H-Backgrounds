@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T09:14:12.530034+00:00",
+  "updatedAt": "2026-11-08T09:20:48.121485+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -7398,6 +7398,96 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Sakura Field Minecraft | ЗВУК"
+        },
+        {
+          "id": "v_3fe1e1fd",
+          "name": "Cherry Grove Minecraft",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=149KZOz4iEpElTBW4s2DwU5nN7FRIXdmi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=149KZOz4iEpElTBW4s2DwU5nN7FRIXdmi&sz=w640",
+          "sizeBytes": 4474091,
+          "sha256": "B64287A87EBE7082D796AECA94A5A56045898A9925614009DEB680A43831F364",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Cherry Grove Minecraft"
+        },
+        {
+          "id": "v_930281f8",
+          "name": "Lilac Field Minecraft",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1skkyh8OSRN9qYQgwcP7seRdfTvcy9kpi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1skkyh8OSRN9qYQgwcP7seRdfTvcy9kpi&sz=w640",
+          "sizeBytes": 4811587,
+          "sha256": "24EC465E4A6EE05B9DC88051A06DEAA0AB3CD7AE1D733FD0AE3680BD9EA41E59",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Lilac Field Minecraft"
+        },
+        {
+          "id": "v_2f4314d9",
+          "name": "Minecraft Sunset",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ym5FOKcBiOzOHHk_l1j59ol50j0QIePj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ym5FOKcBiOzOHHk_l1j59ol50j0QIePj&sz=w640",
+          "sizeBytes": 4579230,
+          "sha256": "6393B2EB6D7BADC4416D13C589F25B62949E73D9A31E9046919F4B792DFA8C2C",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Minecraft Sunset"
+        },
+        {
+          "id": "v_a9bc25e6",
+          "name": "Minecraft Fireplace",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1V2HjyzINSdiDvYvwKmWXvSGe1I1fDbR9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1V2HjyzINSdiDvYvwKmWXvSGe1I1fDbR9&sz=w640",
+          "sizeBytes": 4707219,
+          "sha256": "61908D2B03AC1A33C0C936830ED5A8AB3CB2571958C7D8D49C02807221311592",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Minecraft Fireplace"
+        },
+        {
+          "id": "v_becccae9",
+          "name": "Minecraft Cozy Lake House",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11UfzZf76FAgAkECaknpTtITRuR6CB-ga",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11UfzZf76FAgAkECaknpTtITRuR6CB-ga&sz=w640",
+          "sizeBytes": 4676745,
+          "sha256": "FAF0987F7F30BB986F81B6A5F8297CA9E171C29B4AEF8C5A9C0AE644C2280990",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Minecraft Cozy Lake House"
         }
       ]
     },
@@ -53970,6 +54060,6 @@
     }
   ],
   "totalGames": 1082,
-  "totalVariants": 2418,
+  "totalVariants": 2423,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
