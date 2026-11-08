@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T17:33:21.043224+00:00",
+  "updatedAt": "2026-11-08T17:33:53.861759+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -35356,6 +35356,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Silksong Bell Beast | ЗВУК"
+        },
+        {
+          "id": "v_3b9badd7",
+          "name": "Diving In The Dark Hollow Knight Silksong",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15TH9jYef3HMhCwcYyWBYTltcOS4Jwpqf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15TH9jYef3HMhCwcYyWBYTltcOS4Jwpqf&sz=w640",
+          "sizeBytes": 869441,
+          "sha256": "84EE1AE63EB9A27852B4A5CD08C39A003AA5F40D3D71EC33112D4C1AEF4D1E1C",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Diving In The Dark Hollow Knight Silks"
         }
       ]
     },
@@ -59558,6 +59576,6 @@
     }
   ],
   "totalGames": 1272,
-  "totalVariants": 2644,
-  "lastUpdated": "2026-11-08T17:33:21.043224+00:00"
+  "totalVariants": 2645,
+  "lastUpdated": "2026-11-08T17:33:53.861759+00:00"
 }
