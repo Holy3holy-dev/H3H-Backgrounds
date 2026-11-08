@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T04:22:36.662535+00:00",
+  "updatedAt": "2026-11-08T04:26:42.131657+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -33664,6 +33664,60 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | The Knight Hollow Knight | ЗВУК"
+        },
+        {
+          "id": "v_bf429cea",
+          "name": "Hornet Waterfall Hollow Knight Silksong",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dHgXfMrJQVmtLqGIdsxl_ERUvOsf6Idd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dHgXfMrJQVmtLqGIdsxl_ERUvOsf6Idd&sz=w640",
+          "sizeBytes": 4777798,
+          "sha256": "25E0DA64721D7621EEBFBEE137A71F92070428B35D1048C080092D105B45FBDE",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hornet Waterfall Hollow Knight Silksong | ЗВУК"
+        },
+        {
+          "id": "v_0293fd59",
+          "name": "Flea Caravan Hollow Knight: Silksong",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1EeDLBqtmAXM8hZz282ooxJuSCSm05c6e",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1EeDLBqtmAXM8hZz282ooxJuSCSm05c6e&sz=w640",
+          "sizeBytes": 4699131,
+          "sha256": "C2F4128A62289297DB9C2578A32D50CBD1A8842306827D52855051C15D95BE02",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Flea Caravan Hollow Knight: Silksong | ЗВУК"
+        },
+        {
+          "id": "v_43f5fb90",
+          "name": "Hollow Knight: Silksong Lava",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yygnuxal0pyhlydxFLVvAbJis8MBGjBI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yygnuxal0pyhlydxFLVvAbJis8MBGjBI&sz=w640",
+          "sizeBytes": 4661447,
+          "sha256": "E7E72F851448FFE1D4E40E8475E57CD8774F760B065AD44F566931843D91BE52",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Hollow Knight: Silksong Lava"
         }
       ]
     },
@@ -48545,6 +48599,60 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_8eefc523",
+          "name": "Rise Of The Tomb Raider",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KQ3g6AUYT6Se813ZbnszYfkXpuhLjXA0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KQ3g6AUYT6Se813ZbnszYfkXpuhLjXA0&sz=w640",
+          "sizeBytes": 4408757,
+          "sha256": "05B80183E4A5CC48F99A8261FE59B2D0F7D98688FD737A3DB881647C45A5C4B8",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rise Of The Tomb Raider | ЗВУК"
+        },
+        {
+          "id": "v_13854264",
+          "name": "Lara Croft Shadow Of The Tomb Raider",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Vh8YOg1UilJQV3wvbFfihz9_I5zeyFgI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Vh8YOg1UilJQV3wvbFfihz9_I5zeyFgI&sz=w640",
+          "sizeBytes": 4698399,
+          "sha256": "FB51B4667837C727D08DF1F6BE193B5ADD933630DD13CDD1271A61DBD860D2A8",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lara Croft Shadow Of The Tomb Raider | ЗВУК"
+        },
+        {
+          "id": "v_fdbf25c0",
+          "name": "Lara Croft Rise Of The Tomb Raider",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Y_3RTiUfW3T_1i2Qa1PGaNYUC0gxfApu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Y_3RTiUfW3T_1i2Qa1PGaNYUC0gxfApu&sz=w640",
+          "sizeBytes": 4580612,
+          "sha256": "916A1234066C4A24356514C842B4222ED2FB19FF6984472CBDC72F38BAFFB061",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lara Croft Rise Of The Tomb Raider | ЗВУК"
         }
       ]
     },
@@ -51870,6 +51978,6 @@
     }
   ],
   "totalGames": 1076,
-  "totalVariants": 2304,
+  "totalVariants": 2310,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
