@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T05:29:00.957646+00:00",
+  "updatedAt": "2026-11-08T05:32:35.726570+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -10808,6 +10808,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Malthael Diablo 3: Reaper of Souls | ЗВУК"
+        },
+        {
+          "id": "v_41e20c2c",
+          "name": "Archangel Imperius Diablo 3",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eKTgzejZ2KBtv4Ur4St1IurfwW7BiZon",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eKTgzejZ2KBtv4Ur4St1IurfwW7BiZon&sz=w640",
+          "sizeBytes": 4706368,
+          "sha256": "38DEB83E0507A7080C5C1DF2EB63FE6716F287B875220E96FDA4615BB385F49C",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Archangel Imperius Diablo 3"
         }
       ]
     },
@@ -32624,6 +32642,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | DOOM | ЗВУК"
+        },
+        {
+          "id": "v_35d17373",
+          "name": "Doom Argent Tower",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-DOjwQySlf42thOVgHM0eLbZwaeM-b3f",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-DOjwQySlf42thOVgHM0eLbZwaeM-b3f&sz=w640",
+          "sizeBytes": 4715495,
+          "sha256": "7567F752DF4F7134EAD8A715238C546D9C310440D36849A93F6043E2AFDB3DFA",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Doom Argent Tower"
         }
       ]
     },
@@ -52738,6 +52774,6 @@
     }
   ],
   "totalGames": 1081,
-  "totalVariants": 2350,
+  "totalVariants": 2352,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }

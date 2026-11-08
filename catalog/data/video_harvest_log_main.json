@@ -16551,10 +16551,38 @@
     "https://moewalls.com/games/hrothgar-final-fantasy-xiv-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2022/hrothgar-final-fantasy-xiv-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2021/archangel-imperius-diablo-3-preview.webm": {
+      "title": "Archangel Imperius Diablo 3",
+      "titleId": "01001B300B9BE000",
+      "gameName": "Diablo III: Eternal Collection",
+      "varId": "v_41e20c2c",
+      "driveId": "1eKTgzejZ2KBtv4Ur4St1IurfwW7BiZon",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/archangel-imperius-diablo-3-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2021/archangel-imperius-diablo-3-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2021/doom-argent-tower-preview.webm": {
+      "title": "Doom Argent Tower",
+      "titleId": "01000B900D8B0000",
+      "gameName": "DOOM Eternal",
+      "varId": "v_35d17373",
+      "driveId": "1-DOjwQySlf42thOVgHM0eLbZwaeM-b3f",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/doom-argent-tower-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2021/doom-argent-tower-preview.webm"
     }
   },
-  "total_harvested": 2304,
-  "last_updated": "2026-11-08T05:29:00.947252+00:00",
+  "total_harvested": 2308,
+  "last_updated": "2026-11-08T05:32:35.719048+00:00",
   "page_cursors": {
     "tag:tears-of-the-kingdom": 1,
     "tag:the-legend-of-zelda": 1,
@@ -16617,10 +16645,10 @@
     "artorias": 1,
     "tag:skyrim": 1,
     "tag:red-dead-redemption": 1,
-    "tag:doom-slayer": 2,
-    "doom eternal": 2,
-    "doom slayer": 2,
-    "tag:devil-may-cry": 2,
+    "tag:doom-slayer": 1,
+    "doom eternal": 1,
+    "doom slayer": 1,
+    "tag:devil-may-cry": 1,
     "tag:batman": 2,
     "batman arkham": 2,
     "tag:dying-light": 1,
@@ -16788,8 +16816,14 @@
     "final fantasy vii": 2,
     "zack fair": 2,
     "crisis core": 2,
-    "shin megami tensei": 1
+    "shin megami tensei": 1,
+    "octopath traveler": 1,
+    "dragon quest": 1,
+    "diablo": 2,
+    "tag:darksiders": 1,
+    "darksiders": 1,
+    "tag:doom-eternal": 2
   },
   "query_cursor": 0,
-  "priority_cursor": 88
+  "priority_cursor": 100
 }
