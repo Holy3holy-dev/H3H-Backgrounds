@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T13:57:35.571569+00:00",
+  "updatedAt": "2026-11-08T14:03:32.556733+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -56111,9 +56111,139 @@
           "notes": "Switch 720p 30fps H264 | Touhou: Lost Branch of Legend — Gameplay"
         }
       ]
+    },
+    {
+      "titleId": "01002DD0237BC000",
+      "title": "Tamashika",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002DD0237BC000.jpg",
+      "variants": [
+        {
+          "id": "v_f920ad14",
+          "name": "TAMASHIKA — Accelerate Mode",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1p88-K3mgbHtluvp2D-kui2UtPH2bD2Tk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1p88-K3mgbHtluvp2D-kui2UtPH2bD2Tk&sz=w640",
+          "sizeBytes": 4668297,
+          "sha256": "A2FC0F0F331C311D5A8CDB3D62D62DED5DCD24199D642267AAE1D84F357EB6CB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | TAMASHIKA — Accelerate Mode"
+        }
+      ]
+    },
+    {
+      "titleId": "010034B029D48000",
+      "title": "Isle of Reveries",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010034B029D48000.jpg",
+      "variants": [
+        {
+          "id": "v_ef37817e",
+          "name": "Isle of Reveries — Isle of Reveries Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zK7c3E65jV3Wm8gnp_FBbAbM1KDy01pE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zK7c3E65jV3Wm8gnp_FBbAbM1KDy01pE&sz=w640",
+          "sizeBytes": 2798114,
+          "sha256": "F19B464B9B595ECA13215CA969C37F3416EFAC6830FB7A5286D104E510072458",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Isle of Reveries — Isle of Reveries Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "010015A027150000",
+      "title": "Another Eden Begins",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010015A027150000.jpg",
+      "variants": [
+        {
+          "id": "v_cf054039",
+          "name": "Another Eden Begins — Another Eden Begins | Fina",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FugmpwezFwRIQpSTyuT8dvUiAF3mN7_i",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FugmpwezFwRIQpSTyuT8dvUiAF3mN7_i&sz=w640",
+          "sizeBytes": 7239487,
+          "sha256": "113D207E52F12B7B79A0B42BCB008D6BA2329FCE38101AD6FA1232DCD4EC051E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Another Eden Begins — Another Eden Begin"
+        }
+      ]
+    },
+    {
+      "titleId": "01003B2028A1C000",
+      "title": "Veiled Edge",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003B2028A1C000.jpg",
+      "variants": [
+        {
+          "id": "v_8d0cf424",
+          "name": "Veiled Edge — Veiled Edge_EA",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DGGL9O6s967goPAMDTLdPMnIWbZ2fj3t",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DGGL9O6s967goPAMDTLdPMnIWbZ2fj3t&sz=w640",
+          "sizeBytes": 4833739,
+          "sha256": "9CE268A75E43D1FB945122651095FBD54D92CDAA9D1D99FEBEF730FD7DC9CDE1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Veiled Edge — Veiled Edge_EA"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A89026E68000",
+      "title": "Angeline Era",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A89026E68000.jpg",
+      "variants": [
+        {
+          "id": "v_6cb2920c",
+          "name": "Angeline Era — Trailer 2025",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1shVXR73vQZYRUg2q8hO0ruOUYXfluJbE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1shVXR73vQZYRUg2q8hO0ruOUYXfluJbE&sz=w640",
+          "sizeBytes": 5089486,
+          "sha256": "F44B9209DD76A8B646079E38AB1714337F877D8A1A3E160C3780333B37ECE82C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Angeline Era — Trailer 2025"
+        }
+      ]
     }
   ],
-  "totalGames": 1152,
-  "totalVariants": 2506,
-  "lastUpdated": "2026-11-08T13:57:35.571569+00:00"
+  "totalGames": 1157,
+  "totalVariants": 2511,
+  "lastUpdated": "2026-11-08T14:03:32.556733+00:00"
 }
