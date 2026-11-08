@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T13:30:42.656404+00:00",
+  "updatedAt": "2026-11-08T13:37:03.061721+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -55591,9 +55591,139 @@
           "notes": "Switch 720p 30fps H264 | Artis Impact — Launch trailer"
         }
       ]
+    },
+    {
+      "titleId": "010057D02461E000",
+      "title": "Little Witch in the Woods",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010057D02461E000.jpg",
+      "variants": [
+        {
+          "id": "v_9fc0bb29",
+          "name": "Little Witch in the Woods — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oslKbH4h6WrQKUrxIUnPIdfCu0k935sN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oslKbH4h6WrQKUrxIUnPIdfCu0k935sN&sz=w640",
+          "sizeBytes": 3279331,
+          "sha256": "BAA7F10FA66939DAF06B5E6A429ADA11DC7A01AAB30D13CD410AE0EE2F5BCF1D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Little Witch in the Woods — Release Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "0100304027592000",
+      "title": "Urban Jungle",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100304027592000.jpg",
+      "variants": [
+        {
+          "id": "v_09e189b4",
+          "name": "Urban Jungle — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PvITgBCgfhPTrK-Tl3ezJ6SjjLfUh8l_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PvITgBCgfhPTrK-Tl3ezJ6SjjLfUh8l_&sz=w640",
+          "sizeBytes": 3146151,
+          "sha256": "CBC56B1379C0A68D8F97FB133949E35CC499BB3558DD53AAD9653B4BD969C0F6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Urban Jungle — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C66026536000",
+      "title": "Akiba Lost",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C66026536000.jpg",
+      "variants": [
+        {
+          "id": "v_5f0ba8b3",
+          "name": "AKIBA LOST — Special Trailer_EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qI-zs8Xe3SCoxFO8Qk3vdLZiVq-5YRTB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qI-zs8Xe3SCoxFO8Qk3vdLZiVq-5YRTB&sz=w640",
+          "sizeBytes": 4121731,
+          "sha256": "3C67B6CCCF5D964356923A413D84BBF90D9BAF7F4BB0E4D0F85C266B0BB0F7D8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | AKIBA LOST — Special Trailer_EN"
+        }
+      ]
+    },
+    {
+      "titleId": "01000C3021F74000",
+      "title": "Mortal Glory 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000C3021F74000.jpg",
+      "variants": [
+        {
+          "id": "v_e211c4a0",
+          "name": "Mortal Glory 2 — Mortal Glory 2 - Gameplay Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IVL1gu5NDq3NGewnNmtPFmTFmI0Sk8JF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IVL1gu5NDq3NGewnNmtPFmTFmI0Sk8JF&sz=w640",
+          "sizeBytes": 5196090,
+          "sha256": "BE6C9C2905770ECB986E06D97719E40A007C2A5F3FF06D2D89C2A31068C0439D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mortal Glory 2 — Mortal Glory 2 - Gamepl"
+        }
+      ]
+    },
+    {
+      "titleId": "010080202582E000",
+      "title": "Chronoquartz",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010080202582E000.jpg",
+      "variants": [
+        {
+          "id": "v_f04d06c2",
+          "name": "Chronoquartz — Game Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1m9-MbYc8pkw3SKMctk_4vc1u2Se8eJHq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1m9-MbYc8pkw3SKMctk_4vc1u2Se8eJHq&sz=w640",
+          "sizeBytes": 3970500,
+          "sha256": "9DD69850A1DC30ED7F9C23E484548ED7134ABB975932F6C3DEE947A468DCCAA1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Chronoquartz — Game Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 1132,
-  "totalVariants": 2486,
-  "lastUpdated": "2026-11-08T13:30:42.656404+00:00"
+  "totalGames": 1137,
+  "totalVariants": 2491,
+  "lastUpdated": "2026-11-08T13:37:03.061721+00:00"
 }
