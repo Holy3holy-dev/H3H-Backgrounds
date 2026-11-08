@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T12:24:33.753845+00:00",
+  "updatedAt": "2026-11-08T12:32:05.358239+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -54551,9 +54551,139 @@
           "notes": "Switch 720p 30fps H264 | Phoenix Wright: Ace Attorney Trilogy — 0"
         }
       ]
+    },
+    {
+      "titleId": "01007560153F0000",
+      "title": "Five Nights at Freddy's: Security Breach",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007560153F0000.jpg",
+      "variants": [
+        {
+          "id": "v_10d7cf0a",
+          "name": "Five Nights at Freddy's: Security Breach — Five ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CvvLHbVRvWWaL9UodqwKeSn_o8alnn1D",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CvvLHbVRvWWaL9UodqwKeSn_o8alnn1D&sz=w640",
+          "sizeBytes": 4928285,
+          "sha256": "9E9D44870B1CF3506D6E8AE2C0C7879B4E82926D73B354BD1AED6D8EA807F02A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Five Nights at Freddy's: Security Breach"
+        }
+      ]
+    },
+    {
+      "titleId": "010035301980C000",
+      "title": "Poppy Playtime: Chapter 1",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010035301980C000.jpg",
+      "variants": [
+        {
+          "id": "v_6f7d931a",
+          "name": "Poppy Playtime — Poppy Playtime - Gameplay Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ig1mmviN0uBIs8-aTzMDzNR_60uK9ErT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ig1mmviN0uBIs8-aTzMDzNR_60uK9ErT&sz=w640",
+          "sizeBytes": 2682021,
+          "sha256": "803F499C8C909EAA47EE6264546BEF0F91F49135C892E4959413E71A009D49DD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Poppy Playtime — Poppy Playtime - Gamepl"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C29024138000",
+      "title": "Content Warning",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C29024138000.jpg",
+      "variants": [
+        {
+          "id": "v_42ad3e55",
+          "name": "Content Warning — Content Warning Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13xy5uZMqE9Z0lc0fxWk-BJ4Ce2-2ngf_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13xy5uZMqE9Z0lc0fxWk-BJ4Ce2-2ngf_&sz=w640",
+          "sizeBytes": 10169288,
+          "sha256": "86325004434240E092BF9A25B5B155888EC8FBD07F713AECB177965B2605389B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Content Warning — Content Warning Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B04026946000",
+      "title": "Chained Beasts",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B04026946000.jpg",
+      "variants": [
+        {
+          "id": "v_fe5a1f9f",
+          "name": "Chained Beasts — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1d-mGDRhM26s8ymbWhOaAAl_6V4TFxB79",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1d-mGDRhM26s8ymbWhOaAAl_6V4TFxB79&sz=w640",
+          "sizeBytes": 9439483,
+          "sha256": "9202389F67C5CB264DF1A18E09ECDE186EDA4F1CCDBDB644EFC7C878573730D0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Chained Beasts — Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100839022642000",
+      "title": "Harvest Moon Echoes of Teradea",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100839022642000.jpg",
+      "variants": [
+        {
+          "id": "v_547dd361",
+          "name": "Harvest Moon®: Echoes of Teradea — Harvest Moon:",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hjJFok1grfpnGSo5s0MkqTfmnJmoPOFs",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hjJFok1grfpnGSo5s0MkqTfmnJmoPOFs&sz=w640",
+          "sizeBytes": 5509504,
+          "sha256": "17C6F51AFA2763F85ADFBD2628404E6181A32452E19EBBE20E1F185B890D2FCB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Harvest Moon®: Echoes of Teradea — Harve"
+        }
+      ]
     }
   ],
-  "totalGames": 1092,
-  "totalVariants": 2446,
-  "lastUpdated": "2026-11-08T12:24:33.753845+00:00"
+  "totalGames": 1097,
+  "totalVariants": 2451,
+  "lastUpdated": "2026-11-08T12:32:05.358239+00:00"
 }
