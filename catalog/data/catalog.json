@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T04:12:22.406935+00:00",
+  "updatedAt": "2026-11-08T04:18:45.673399+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -13103,6 +13103,96 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Red Scorpion Mortal Kombat | ЗВУК"
+        },
+        {
+          "id": "v_b4a04e80",
+          "name": "Scorpion And Sub Zero Fight Mortal Komba",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1g7xA5Yp1VNmHMRJ7c-9YLfXUCvSnsmc-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1g7xA5Yp1VNmHMRJ7c-9YLfXUCvSnsmc-&sz=w640",
+          "sizeBytes": 4738639,
+          "sha256": "1BC799FEA203D5133532D5F3E99644609B72FB4D1423F14742A75AAB8BCD74E6",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Scorpion And Sub Zero Fight Mortal Komba | ЗВУК"
+        },
+        {
+          "id": "v_25b75c7e",
+          "name": "Kitana Mortal Kombat",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13APuF4il1NkYtQmUHGO6lNUzAG6mBntT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13APuF4il1NkYtQmUHGO6lNUzAG6mBntT&sz=w640",
+          "sizeBytes": 4742835,
+          "sha256": "6B7D14CAF1AF46A36275B966D1F6B9ED3CFCD92558A3D90F66DDD59723A10CA3",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kitana Mortal Kombat | ЗВУК"
+        },
+        {
+          "id": "v_a6f91221",
+          "name": "Scorpion Mortal Kombat X",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18G-GY3TIDQtu60mG1TTGnq9_gUYIypjR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18G-GY3TIDQtu60mG1TTGnq9_gUYIypjR&sz=w640",
+          "sizeBytes": 4735537,
+          "sha256": "3EDB1BAEE26D33242ECB11CB3DD80A95707986C732C2B8C4F9AAB821A7F6AF5D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Scorpion Mortal Kombat X | ЗВУК"
+        },
+        {
+          "id": "v_b5652d09",
+          "name": "Scorpion Mortal Kombat",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1F_ghaKmy5AGQ6auv2sozykjBa5hsPvX3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1F_ghaKmy5AGQ6auv2sozykjBa5hsPvX3&sz=w640",
+          "sizeBytes": 4735641,
+          "sha256": "C86A49F72545D40406872BB29A7ECA22EF7CF1FF5C828023F84D9D80FA8D08BD",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Scorpion Mortal Kombat | ЗВУК"
+        },
+        {
+          "id": "v_31e10e24",
+          "name": "Raiden Mortal Kombat",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oRBNuWuO9VxuqfXrTxm1nSmFA2bz_xiZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oRBNuWuO9VxuqfXrTxm1nSmFA2bz_xiZ&sz=w640",
+          "sizeBytes": 4628685,
+          "sha256": "68BAD3DCEE5AB2E8F84741AB4BD8C7B11B217E2930F6BBF50A62008640E89610",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Raiden Mortal Kombat | ЗВУК"
         }
       ]
     },
@@ -51672,6 +51762,6 @@
     }
   ],
   "totalGames": 1076,
-  "totalVariants": 2293,
+  "totalVariants": 2298,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
