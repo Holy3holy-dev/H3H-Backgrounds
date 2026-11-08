@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T04:47:34.841752+00:00",
+  "updatedAt": "2026-11-08T04:51:21.424224+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -7786,6 +7786,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 010077B00E046000_Spyro_Reignited_Trilogy.mp4"
+        },
+        {
+          "id": "v_36030d5f",
+          "name": "Hunter The Cheetah Spyro The Dragon",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18g4n_2mHSEXTIHcVYlpzc8jtyIjW-l-s",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18g4n_2mHSEXTIHcVYlpzc8jtyIjW-l-s&sz=w640",
+          "sizeBytes": 4731435,
+          "sha256": "6D33E30FDD4A06A0041D20A41FC1B804362B2203D55A48B3A271D7F36D859684",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hunter The Cheetah Spyro The Dragon | ЗВУК"
         }
       ]
     },
@@ -52281,9 +52299,79 @@
           "notes": "Switch 720p 30fps H264 | Bloodhound Apex Legends | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "0100D79014A20000",
+      "title": "Grand Theft Auto: The Trilogy – The Definitive Edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D79014A20000.jpg",
+      "variants": [
+        {
+          "id": "v_3a92222d",
+          "name": "Lucia And Jason Grand Theft Auto VI",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qFPNoN_N3aBKmi6K6wyZmcw2aCMTwDky",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qFPNoN_N3aBKmi6K6wyZmcw2aCMTwDky&sz=w640",
+          "sizeBytes": 4688049,
+          "sha256": "A9015CF70D03D9777299688ACD34AE494D128FFA02FAAE5A9BCB5B06086E4650",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Lucia And Jason Grand Theft Auto VI"
+        },
+        {
+          "id": "v_99d967bb",
+          "name": "Grand Theft Auto VI",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1G0Ig4iyN_FEb9Cg7xIEFt4N7v9QdA2HW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1G0Ig4iyN_FEb9Cg7xIEFt4N7v9QdA2HW&sz=w640",
+          "sizeBytes": 4679505,
+          "sha256": "39D33F2736EBFA7A671B39EA6F015769EA086267A441323A64F1E74CE9FC5D0E",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Grand Theft Auto VI"
+        }
+      ]
+    },
+    {
+      "titleId": "01005E1004076000",
+      "title": "Rayman Legends Definitive Edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005E1004076000.jpg",
+      "variants": [
+        {
+          "id": "v_7a065bef",
+          "name": "Rayman Nap In The Forest",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VMBJnvYAKUGGChSjkYFnA72AvYjaHdrs",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VMBJnvYAKUGGChSjkYFnA72AvYjaHdrs&sz=w640",
+          "sizeBytes": 4585440,
+          "sha256": "5A747E232E6128A8170785C60258D00A623291642F2C02B89BA96EE747B7518D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rayman Nap In The Forest | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 1076,
-  "totalVariants": 2327,
+  "totalGames": 1078,
+  "totalVariants": 2331,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
