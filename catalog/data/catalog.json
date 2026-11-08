@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T05:32:35.726570+00:00",
+  "updatedAt": "2026-11-08T05:36:04.187430+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -3022,6 +3022,60 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Leon Resident Evil 9 Requiem | ЗВУК"
+        },
+        {
+          "id": "v_f82a9bcb",
+          "name": "Daniela Dimitrescu Resident Evil 8 Villa",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nki-r3zx-eYC2adZTYX4Yjl6rJ0HdMoC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nki-r3zx-eYC2adZTYX4Yjl6rJ0HdMoC&sz=w640",
+          "sizeBytes": 4692145,
+          "sha256": "5339326F9EEDA302D7F7EE836DCB78E069672408721F4F04428379EDACF64E9A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Daniela Dimitrescu Resident Evil 8 Villa | ЗВУК"
+        },
+        {
+          "id": "v_0bfe5955",
+          "name": "Jill Valentine Resident Evil 3",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tdGNzDShd7S5IjW2NGtTB8H0nC5TT9f6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tdGNzDShd7S5IjW2NGtTB8H0nC5TT9f6&sz=w640",
+          "sizeBytes": 4756820,
+          "sha256": "646C7A79F47025B6B6DDF4F426C7DEEA4C4D3B2B38C9C989716A1075090B3B79",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Jill Valentine Resident Evil 3 | ЗВУК"
+        },
+        {
+          "id": "v_9a8dba7d",
+          "name": "Jill Valentine Resident Evil",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1x5WbvdXpuW7X-MftVW0FLtmFlnb4Ajbh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1x5WbvdXpuW7X-MftVW0FLtmFlnb4Ajbh&sz=w640",
+          "sizeBytes": 4740579,
+          "sha256": "D3BE3909BA8EBAFED0E68F94F82DC0AEB41B29F38A46186F3F026370EC34F8D4",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Jill Valentine Resident Evil | ЗВУК"
         }
       ]
     },
@@ -52774,6 +52828,6 @@
     }
   ],
   "totalGames": 1081,
-  "totalVariants": 2352,
+  "totalVariants": 2355,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }

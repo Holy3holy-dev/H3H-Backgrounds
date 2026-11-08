@@ -16579,10 +16579,52 @@
     "https://moewalls.com/games/doom-argent-tower-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2021/doom-argent-tower-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/daniela-dimitrescu-resident-evil-8-village-preview.webm": {
+      "title": "Daniela Dimitrescu Resident Evil 8 Villa",
+      "titleId": "010099A00BC1E000",
+      "gameName": "Resident Evil 4",
+      "varId": "v_f82a9bcb",
+      "driveId": "1nki-r3zx-eYC2adZTYX4Yjl6rJ0HdMoC",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/daniela-dimitrescu-resident-evil-8-village-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/daniela-dimitrescu-resident-evil-8-village-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/jill-valentine-resident-evil-3-1-preview.webm": {
+      "title": "Jill Valentine Resident Evil 3",
+      "titleId": "010099A00BC1E000",
+      "gameName": "Resident Evil 4",
+      "varId": "v_0bfe5955",
+      "driveId": "1tdGNzDShd7S5IjW2NGtTB8H0nC5TT9f6",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/jill-valentine-resident-evil-3-2-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/jill-valentine-resident-evil-3-1-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/jill-valentine-resident-evil-preview.webm": {
+      "title": "Jill Valentine Resident Evil",
+      "titleId": "010099A00BC1E000",
+      "gameName": "Resident Evil 4",
+      "varId": "v_9a8dba7d",
+      "driveId": "1x5WbvdXpuW7X-MftVW0FLtmFlnb4Ajbh",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/jill-valentine-resident-evil-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/jill-valentine-resident-evil-preview.webm"
     }
   },
-  "total_harvested": 2308,
-  "last_updated": "2026-11-08T05:32:35.719048+00:00",
+  "total_harvested": 2314,
+  "last_updated": "2026-11-08T05:36:04.180071+00:00",
   "page_cursors": {
     "tag:tears-of-the-kingdom": 1,
     "tag:the-legend-of-zelda": 1,
@@ -16649,8 +16691,8 @@
     "doom eternal": 1,
     "doom slayer": 1,
     "tag:devil-may-cry": 1,
-    "tag:batman": 2,
-    "batman arkham": 2,
+    "tag:batman": 3,
+    "batman arkham": 1,
     "tag:dying-light": 1,
     "dying light": 1,
     "tag:assassins-creed": 1,
@@ -16822,8 +16864,15 @@
     "diablo": 2,
     "tag:darksiders": 1,
     "darksiders": 1,
-    "tag:doom-eternal": 2
+    "tag:doom-eternal": 2,
+    "tag:vergil": 2,
+    "tag:dante": 2,
+    "devil may cry": 2,
+    "tag:leon-s-kennedy": 1,
+    "tag:ada-wong": 2,
+    "resident evil": 2,
+    "tag:batman-arkham": 1
   },
   "query_cursor": 0,
-  "priority_cursor": 100
+  "priority_cursor": 112
 }
