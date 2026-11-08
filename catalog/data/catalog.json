@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T14:29:25.643311+00:00",
+  "updatedAt": "2026-11-08T14:36:26.440272+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -56631,9 +56631,139 @@
           "notes": "Switch 720p 30fps H264 | Catto's Post Office — Gameplay Trailer"
         }
       ]
+    },
+    {
+      "titleId": "01009B7027934000",
+      "title": "Guts 'n Grunts",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009B7027934000.jpg",
+      "variants": [
+        {
+          "id": "v_cad156d0",
+          "name": "Guts 'n Grunts — Teaser",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mT9qEbrYNRBwPckAf_vxJT4ZnmpAn6hX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mT9qEbrYNRBwPckAf_vxJT4ZnmpAn6hX&sz=w640",
+          "sizeBytes": 4230543,
+          "sha256": "22C49DF07B4786A80828620685DFB2FD09F2DD3A5F72BE333131C072DB699D2E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Guts 'n Grunts — Teaser"
+        }
+      ]
+    },
+    {
+      "titleId": "0100198023692000",
+      "title": "Card Quest",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100198023692000.jpg",
+      "variants": [
+        {
+          "id": "v_148bf69b",
+          "name": "Card Quest — Card Quest Full Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17t3TIrpNHJJC4C34AMja7xazSRK7ESoJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17t3TIrpNHJJC4C34AMja7xazSRK7ESoJ&sz=w640",
+          "sizeBytes": 3012539,
+          "sha256": "E0FBE8F291CDE9AB44DD78E565E646EB0F4675AE99A8A97F67F2B8BAA628D50F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Card Quest — Card Quest Full Release Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E1C0252F8000",
+      "title": "Maestro",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E1C0252F8000.jpg",
+      "variants": [
+        {
+          "id": "v_cb2ab8e1",
+          "name": "Maestro — LIV - Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12xCCYWqQfxH0w92seoDlM3M9d-VlZGla",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12xCCYWqQfxH0w92seoDlM3M9d-VlZGla&sz=w640",
+          "sizeBytes": 6615811,
+          "sha256": "9875EF4121C069DF18BC5117DE8AA65636922A4BDBA09DAA591775F4E5BBD688",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Maestro — LIV - Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100852026502000",
+      "title": "Tyrant's Realm",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100852026502000.jpg",
+      "variants": [
+        {
+          "id": "v_83a5adc2",
+          "name": "Tyrant's Realm — Tyrant's Realm - Gameplay Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BX8v4tdjTrBlOgz8buBpWJ7_qHYFfKEm",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BX8v4tdjTrBlOgz8buBpWJ7_qHYFfKEm&sz=w640",
+          "sizeBytes": 9048533,
+          "sha256": "D80B5D7B76834551D32C674920BF081E51E53EAD6DAB604B2F4B1176B452E022",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tyrant's Realm — Tyrant's Realm - Gamepl"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B11027658000",
+      "title": "Defender of the Crown the Legend Returns",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B11027658000.jpg",
+      "variants": [
+        {
+          "id": "v_4b4efd29",
+          "name": "Defender of the Crown: The Legend Returns — Out ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dPfvQxnbSMOA82oqEB8wAqTIyNEejiTm",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dPfvQxnbSMOA82oqEB8wAqTIyNEejiTm&sz=w640",
+          "sizeBytes": 5381083,
+          "sha256": "BD71CB46F217D941E87B7341D24FA083D4C35E6DB0010F56BE2EB4C233216184",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Defender of the Crown: The Legend Return"
+        }
+      ]
     }
   ],
-  "totalGames": 1172,
-  "totalVariants": 2526,
-  "lastUpdated": "2026-11-08T14:29:25.643311+00:00"
+  "totalGames": 1177,
+  "totalVariants": 2531,
+  "lastUpdated": "2026-11-08T14:36:26.440272+00:00"
 }
