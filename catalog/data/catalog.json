@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T16:44:32.755106+00:00",
+  "updatedAt": "2026-11-08T16:50:55.114812+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -59101,9 +59101,139 @@
           "notes": "Switch 720p 30fps H264 | Evoland Legendary Edition — Evoland Lege"
         }
       ]
+    },
+    {
+      "titleId": "01009F8017F48000",
+      "title": "F.I.S.T. Forged in Shadow Torch",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009F8017F48000.jpg",
+      "variants": [
+        {
+          "id": "v_d5dc626d",
+          "name": "F.I.S.T.: Forged In Shadow Torch — SimplifiedChi",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Oim5VoXmYsbNpbcsCC2ff6ixqOe-6PoO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Oim5VoXmYsbNpbcsCC2ff6ixqOe-6PoO&sz=w640",
+          "sizeBytes": 8547747,
+          "sha256": "B0D6B57EEEC2B79810071119316F4B5C61B3D8FC2B4D7DE84EE1F7ADA28B18CD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | F.I.S.T.: Forged In Shadow Torch — Simpl"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D1001E61E000",
+      "title": "Sweetest Monster",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D1001E61E000.jpg",
+      "variants": [
+        {
+          "id": "v_a8a6e6c6",
+          "name": "Sweetest Monster — Sweetest Monster trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UFrVL9ZY9etyTjTforfCb7m6QpKO8hVF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UFrVL9ZY9etyTjTforfCb7m6QpKO8hVF&sz=w640",
+          "sizeBytes": 2782633,
+          "sha256": "2993A46B1F1EBD9FE751C02F44B469C900DECAD9C3EAF84EAFD66F72CA779815",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sweetest Monster — Sweetest Monster trai"
+        }
+      ]
+    },
+    {
+      "titleId": "01008C2019598000",
+      "title": "Bluey the Videogame",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008C2019598000.jpg",
+      "variants": [
+        {
+          "id": "v_dad332fd",
+          "name": "Bluey: The Videogame — Grandad, Aunt Trixie and ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Xq-p7Fu6kkxXpZl9NKu1nrLqcHLs2PVJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Xq-p7Fu6kkxXpZl9NKu1nrLqcHLs2PVJ&sz=w640",
+          "sizeBytes": 3118108,
+          "sha256": "B0D8BB0FEE31CBFB6432427769B5D80C08E64A9F6D974490AC5427A1BCFD7DB2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bluey: The Videogame — Grandad, Aunt Tri"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EC50239F0000",
+      "title": "A Game About Digging A Hole",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EC50239F0000.jpg",
+      "variants": [
+        {
+          "id": "v_d717b08d",
+          "name": "A Game About Digging A Hole™ — OUT NOW Trailer!",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QrnJ6UuCCT-ULfx0wDuvY0Ns0xpGB-0B",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QrnJ6UuCCT-ULfx0wDuvY0Ns0xpGB-0B&sz=w640",
+          "sizeBytes": 4537532,
+          "sha256": "848248D5B3091531A438F5CB041AF9555EE4AF8DBEDA66C484351EEC073E7A35",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | A Game About Digging A Hole™ — OUT NOW T"
+        }
+      ]
+    },
+    {
+      "titleId": "010086901A0C4000",
+      "title": "The Excavation of Hob's Barrow",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010086901A0C4000.jpg",
+      "variants": [
+        {
+          "id": "v_df54ed86",
+          "name": "The Excavation of Hob's Barrow — Excavation of H",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1e4Y3TUrE0R6GEbJZBYCDhl2hr9tA_Vge",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1e4Y3TUrE0R6GEbJZBYCDhl2hr9tA_Vge&sz=w640",
+          "sizeBytes": 2200683,
+          "sha256": "024277AB42CC98ABFB875B13E151149E607E351C17E615F411498E6E930EDD81",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Excavation of Hob's Barrow — Excavat"
+        }
+      ]
     }
   ],
-  "totalGames": 1267,
-  "totalVariants": 2621,
-  "lastUpdated": "2026-11-08T16:44:32.755106+00:00"
+  "totalGames": 1272,
+  "totalVariants": 2626,
+  "lastUpdated": "2026-11-08T16:50:55.114812+00:00"
 }
