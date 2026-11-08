@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T17:57:01.599762+00:00",
+  "updatedAt": "2026-11-08T18:03:36.394110+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -60017,9 +60017,139 @@
           "notes": "Switch 720p 30fps H264 | My Brother Rabbit — Launch Trailer"
         }
       ]
+    },
+    {
+      "titleId": "01008BA02525A000",
+      "title": "Dispatch",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008BA02525A000.jpg",
+      "variants": [
+        {
+          "id": "v_a03d4412",
+          "name": "Dispatch — Reveal Trailer | Extended Cut",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kQ3-VoeHu--YJtmObvLIR76pI8AUIX1s",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kQ3-VoeHu--YJtmObvLIR76pI8AUIX1s&sz=w640",
+          "sizeBytes": 2711122,
+          "sha256": "EB4A8B86F790B1778889836D44B274D75484C447809D876207A0B258AA8360ED",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dispatch — Reveal Trailer | Extended Cut"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C67015076000",
+      "title": "Legend of Keepers: Career of a Dungeon Manager",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C67015076000.jpg",
+      "variants": [
+        {
+          "id": "v_2dedeec4",
+          "name": "Legend of Keepers: Career of a Dungeon Manager —",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10OIFFDY_tRwA57uCs45pz59uUxfSHStr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10OIFFDY_tRwA57uCs45pz59uUxfSHStr&sz=w640",
+          "sizeBytes": 5090580,
+          "sha256": "0CDC633734F6EAE21903EE0C51518FFDEE0F66EBB786FD01334FB8C6D80051DD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Legend of Keepers: Career of a Dungeon M"
+        }
+      ]
+    },
+    {
+      "titleId": "010090E0205D2000",
+      "title": "Wizardry: The Five Ordeals",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010090E0205D2000.jpg",
+      "variants": [
+        {
+          "id": "v_f16d7bb6",
+          "name": "Wizardry: The Five Ordeals — Launch Trailer EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AVxkBGCwKFIFgj9x3U_zforKq8A5eN90",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AVxkBGCwKFIFgj9x3U_zforKq8A5eN90&sz=w640",
+          "sizeBytes": 3616282,
+          "sha256": "C25F19C6FCD7A8E31DE4D955EFF39561913E4720387638618F77E456706CB4E3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wizardry: The Five Ordeals — Launch Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "010057D013210000",
+      "title": "Halloween Forever",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010057D013210000.jpg",
+      "variants": [
+        {
+          "id": "v_4924db15",
+          "name": "Halloween Forever — Halloween Forever boo dudes ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fvUJ6UZps2CAnlPvM2MvmuaPPv_CeYGH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fvUJ6UZps2CAnlPvM2MvmuaPPv_CeYGH&sz=w640",
+          "sizeBytes": 4196902,
+          "sha256": "3285C4E59B731B279AA56A46EC1CD0A2E11B1E88EBAA4D0DE2AFE73CC3E98012",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Halloween Forever — Halloween Forever bo"
+        }
+      ]
+    },
+    {
+      "titleId": "010078001AFC2000",
+      "title": "Atom RPG Trudograd",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010078001AFC2000.jpg",
+      "variants": [
+        {
+          "id": "v_45a97362",
+          "name": "ATOM RPG Trudograd — Trudograd Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TkcM3crFCLCfvEAQwDj10AXZe7qAjIRQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TkcM3crFCLCfvEAQwDj10AXZe7qAjIRQ&sz=w640",
+          "sizeBytes": 9806661,
+          "sha256": "99AE1394C7B40EAEEC2AC1811FD68F6F8852564415230BCB80E95DDBF06EF7F3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | ATOM RPG Trudograd — Trudograd Release T"
+        }
+      ]
     }
   ],
-  "totalGames": 1287,
-  "totalVariants": 2663,
-  "lastUpdated": "2026-11-08T17:57:01.599762+00:00"
+  "totalGames": 1292,
+  "totalVariants": 2668,
+  "lastUpdated": "2026-11-08T18:03:36.394110+00:00"
 }
