@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T17:33:53.861759+00:00",
+  "updatedAt": "2026-11-08T17:34:32.342231+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -52510,6 +52510,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Fighting Dragon The Elder Scrolls V: Sky | ЗВУК"
+        },
+        {
+          "id": "v_dbe2f351",
+          "name": "Dragon On Top Of Mountain Skyrim",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wXRn479LFM8w5mourEGPNyvrZnQXliH2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wXRn479LFM8w5mourEGPNyvrZnQXliH2&sz=w640",
+          "sizeBytes": 3057855,
+          "sha256": "DA889A81E9CDB8FACFA1101837EA4106F9C62F904C15E52ACE0A0C84BB2AC7ED",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dragon On Top Of Mountain Skyrim"
+        },
+        {
+          "id": "v_2d3e99e9",
+          "name": "Barbarian Warrior Fighting Monster Elder Scro",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16wyLCK7RNxw8vrnEjJqAa9bAJerpKuBQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16wyLCK7RNxw8vrnEjJqAa9bAJerpKuBQ&sz=w640",
+          "sizeBytes": 2704038,
+          "sha256": "3D5D4C360A96A7D84ED4562FCEE0AB5B7B121B6661DB84BB14C8345C2954D5D7",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Barbarian Warrior Fighting Monster Eld"
         }
       ]
     },
@@ -59576,6 +59612,6 @@
     }
   ],
   "totalGames": 1272,
-  "totalVariants": 2645,
-  "lastUpdated": "2026-11-08T17:33:53.861759+00:00"
+  "totalVariants": 2647,
+  "lastUpdated": "2026-11-08T17:34:32.342231+00:00"
 }
