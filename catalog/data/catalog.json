@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T15:49:07.577064+00:00",
+  "updatedAt": "2026-11-08T15:55:05.777334+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -58061,9 +58061,139 @@
           "notes": "Switch 720p 30fps H264 | COGEN: Sword of Rewind / COGEN: 大鳥こはくと刻の"
         }
       ]
+    },
+    {
+      "titleId": "0100E5D00CC0C000",
+      "title": "Unravel Two",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E5D00CC0C000.jpg",
+      "variants": [
+        {
+          "id": "v_6408acf6",
+          "name": "Unravel Two — Unravel 2",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fstxAhQG_C9xyFUuQ-SruitacjQgGEIx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fstxAhQG_C9xyFUuQ-SruitacjQgGEIx&sz=w640",
+          "sizeBytes": 5012857,
+          "sha256": "D06ACFEC48C17991E1887A86AF094B1D4CD3376216D8A246E0B412B71BDE9D76",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Unravel Two — Unravel 2"
+        }
+      ]
+    },
+    {
+      "titleId": "01000BC01801A000",
+      "title": "The Outbound Ghost",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000BC01801A000.jpg",
+      "variants": [
+        {
+          "id": "v_488d1dd8",
+          "name": "The Outbound Ghost — first trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BdEP9IKDWS7ISkTDIhfbbrWEnlX-67ZH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BdEP9IKDWS7ISkTDIhfbbrWEnlX-67ZH&sz=w640",
+          "sizeBytes": 7699659,
+          "sha256": "F8FF5A65A07BD50E6998EE5B72A9A42322D26B0735B4E10920F366233863C2AF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Outbound Ghost — first trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01000E2025246000",
+      "title": "Starbites",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000E2025246000.jpg",
+      "variants": [
+        {
+          "id": "v_96f9d43e",
+          "name": "STARBITES — STARBITES Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KFCmQw853HAWS1oJTMfN3FvxexhDYj-0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KFCmQw853HAWS1oJTMfN3FvxexhDYj-0&sz=w640",
+          "sizeBytes": 8483685,
+          "sha256": "704D717E2F2A9CBF019DDA4660FF5A5B660E2C3A58853961ABE5ED6F6354C111",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | STARBITES — STARBITES Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B1E0022F8000",
+      "title": "VVVVVV",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B1E0022F8000.jpg",
+      "variants": [
+        {
+          "id": "v_90acf283",
+          "name": "VVVVVV — vvvvvv Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1--nFO8DjE-yyx8xHq0x0JNtM7KKBoAzF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1--nFO8DjE-yyx8xHq0x0JNtM7KKBoAzF&sz=w640",
+          "sizeBytes": 1645315,
+          "sha256": "60F4734CE69990412CE5D2052E0FDCB84FFE8C36073E7C5F08E333C52CB99EB2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | VVVVVV — vvvvvv Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F17004156000",
+      "title": "Retro City Rampage DX",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F17004156000.jpg",
+      "variants": [
+        {
+          "id": "v_63fa41e2",
+          "name": "Retro City Rampage™ DX — Retro City Rampage Trai",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PAS_HvzMk7gsaNA_AdlDIxPDri_tjf4O",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PAS_HvzMk7gsaNA_AdlDIxPDri_tjf4O&sz=w640",
+          "sizeBytes": 9150996,
+          "sha256": "11DF0288CA92C5E7C357B2295B9225B9A82807CA0BFB62B769D9B096FE9C2B60",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Retro City Rampage™ DX — Retro City Ramp"
+        }
+      ]
     }
   ],
-  "totalGames": 1227,
-  "totalVariants": 2581,
-  "lastUpdated": "2026-11-08T15:49:07.577064+00:00"
+  "totalGames": 1232,
+  "totalVariants": 2586,
+  "lastUpdated": "2026-11-08T15:55:05.777334+00:00"
 }
