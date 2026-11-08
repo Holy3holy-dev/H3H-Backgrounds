@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T15:03:41.432388+00:00",
+  "updatedAt": "2026-11-08T15:10:08.362644+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -57281,9 +57281,139 @@
           "notes": "Switch 720p 30fps H264 | Flamecraft — Launch Trailer"
         }
       ]
+    },
+    {
+      "titleId": "01003A2024C28000",
+      "title": "LumineNight",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003A2024C28000.jpg",
+      "variants": [
+        {
+          "id": "v_50adebc9",
+          "name": "LumineNight — Demo trailer eng",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17ZubFuDvHO3-w4pT8TrMNaKkNfBMDb6V",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17ZubFuDvHO3-w4pT8TrMNaKkNfBMDb6V&sz=w640",
+          "sizeBytes": 4314120,
+          "sha256": "0B807650AB57A9E676DAA27E27CE50CD7950FDA208E02D91FFAC1AF3088F106B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | LumineNight — Demo trailer eng"
+        }
+      ]
+    },
+    {
+      "titleId": "01003F901A83E000",
+      "title": "PlateUp",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003F901A83E000.jpg",
+      "variants": [
+        {
+          "id": "v_7d974785",
+          "name": "PlateUp! — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cmrKWFMjkmDVFO6Vc9Fw-UMSh1fEg8-G",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cmrKWFMjkmDVFO6Vc9Fw-UMSh1fEg8-G&sz=w640",
+          "sizeBytes": 3044684,
+          "sha256": "09898EDCEBB5F44C06AE6360320DE1BC86581E4BFBCF6D3E2D5A9BAE9FA03A98",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | PlateUp! — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010047500B7B2000",
+      "title": "Digimon Survive",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010047500B7B2000.jpg",
+      "variants": [
+        {
+          "id": "v_0175fa1b",
+          "name": "Digimon Survive — Digimon Survive - Launch Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1b51kHL5oviwZxpircksQzSZS6hAb5bZ9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1b51kHL5oviwZxpircksQzSZS6hAb5bZ9&sz=w640",
+          "sizeBytes": 2571476,
+          "sha256": "DE77FBB1E1CCE1E8BAB8A82B2FD33D9F41B0BB695FE33FF5760874AC9FDB498B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Digimon Survive — Digimon Survive - Laun"
+        }
+      ]
+    },
+    {
+      "titleId": "01002A7025978000",
+      "title": "Outpath",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002A7025978000.jpg",
+      "variants": [
+        {
+          "id": "v_2d36f566",
+          "name": "Outpath — Official Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1H2Vov1lEFT3rtBDG2kNyeF9STXDCCsrd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1H2Vov1lEFT3rtBDG2kNyeF9STXDCCsrd&sz=w640",
+          "sizeBytes": 6433364,
+          "sha256": "0F4F0968960C628DF1723732CD80478DC362C7E17FE08E39202F77B2AE6ACE06",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Outpath — Official Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C920270AA000",
+      "title": "Clover Reset",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C920270AA000.jpg",
+      "variants": [
+        {
+          "id": "v_f13cf808",
+          "name": "Clover Reset — PV",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WtnDFyw5imQPNM83b8etxybspJ5x4W6i",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WtnDFyw5imQPNM83b8etxybspJ5x4W6i&sz=w640",
+          "sizeBytes": 6104959,
+          "sha256": "9044225087EEEB57A97C8BA0E75FCFF9B7B33C653549977BD441EEE58C400B1A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Clover Reset — PV"
+        }
+      ]
     }
   ],
-  "totalGames": 1197,
-  "totalVariants": 2551,
-  "lastUpdated": "2026-11-08T15:03:41.432388+00:00"
+  "totalGames": 1202,
+  "totalVariants": 2556,
+  "lastUpdated": "2026-11-08T15:10:08.362644+00:00"
 }
