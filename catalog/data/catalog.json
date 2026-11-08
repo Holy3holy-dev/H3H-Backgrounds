@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T17:31:20.317333+00:00",
+  "updatedAt": "2026-11-08T17:32:01.912934+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -792,6 +792,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Persona 5 Enhanced Theme | ЗВУК"
+        },
+        {
+          "id": "v_b7b846d1",
+          "name": "Kasumi Yoshizawa Persona 5 Royal X Heaven Bur",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18te_s68x0PqqyhKBQWyUN7AOjH_O90kE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18te_s68x0PqqyhKBQWyUN7AOjH_O90kE&sz=w640",
+          "sizeBytes": 4275120,
+          "sha256": "30D9424A13B1FDD477C91DD73C416D9BB6050693D01C56997ACAD734753FFD1C",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kasumi Yoshizawa Persona 5 Royal X Hea"
+        },
+        {
+          "id": "v_7440056f",
+          "name": "Persona 5 Tokyo Rainy Night",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1T80yYMMRZt_uaHY9iUyGibDNxwMavjdW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1T80yYMMRZt_uaHY9iUyGibDNxwMavjdW&sz=w640",
+          "sizeBytes": 1507628,
+          "sha256": "B86B99647B55199E85A47382757EB48AA0EB0A8113FE0977C9333B9DAF3D0E3C",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Persona 5 Tokyo Rainy Night"
         }
       ]
     },
@@ -59450,6 +59486,6 @@
     }
   ],
   "totalGames": 1272,
-  "totalVariants": 2638,
-  "lastUpdated": "2026-11-08T17:31:20.317333+00:00"
+  "totalVariants": 2640,
+  "lastUpdated": "2026-11-08T17:32:01.912934+00:00"
 }
