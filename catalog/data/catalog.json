@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T17:27:12.741332+00:00",
+  "updatedAt": "2026-11-08T17:28:07.288533+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -7984,6 +7984,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Samus Aran | ЗВУК"
+        },
+        {
+          "id": "v_0bdff804",
+          "name": "Samus Aran Charge Beam Metroid Dread",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1b5gg0S3UYKg9Em4WHVDJ0WMgutrFAIdw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1b5gg0S3UYKg9Em4WHVDJ0WMgutrFAIdw&sz=w640",
+          "sizeBytes": 4043236,
+          "sha256": "5BF6097D3EA319ECA393FEA1AFD2286441FC25DDA1B29097D895C8140288EF98",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Samus Aran Charge Beam Metroid Dread"
         }
       ]
     },
@@ -59342,6 +59360,6 @@
     }
   ],
   "totalGames": 1272,
-  "totalVariants": 2632,
-  "lastUpdated": "2026-11-08T17:27:12.741332+00:00"
+  "totalVariants": 2633,
+  "lastUpdated": "2026-11-08T17:28:07.288533+00:00"
 }
