@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T17:26:36.081778+00:00",
+  "updatedAt": "2026-11-08T17:27:12.741332+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -126,6 +126,42 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_718f8239",
+          "name": "Super Mario Floating Outer Space",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wGUQami8mfmaAWpCwnR-CxoEBC9q2fzw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wGUQami8mfmaAWpCwnR-CxoEBC9q2fzw&sz=w640",
+          "sizeBytes": 742279,
+          "sha256": "DC5B0F2E4F77EC48134E441B54D5A5573095B4E8DC6D0B98356FF38B43B2A9F3",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Super Mario Floating Outer Space"
+        },
+        {
+          "id": "v_502c857c",
+          "name": "Bowser Vs Super Mario",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1w3DoJt55fpr6S5xXiJSmBSaKMPswoqMc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1w3DoJt55fpr6S5xXiJSmBSaKMPswoqMc&sz=w640",
+          "sizeBytes": 609380,
+          "sha256": "36F1C42D4D7D6E3D9EBE8EC190512F879A0FC904487C4D60B3C9E5971BA3C7AA",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bowser Vs Super Mario"
         }
       ]
     },
@@ -59306,6 +59342,6 @@
     }
   ],
   "totalGames": 1272,
-  "totalVariants": 2630,
-  "lastUpdated": "2026-11-08T17:26:36.081778+00:00"
+  "totalVariants": 2632,
+  "lastUpdated": "2026-11-08T17:27:12.741332+00:00"
 }
