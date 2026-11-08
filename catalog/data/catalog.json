@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T04:08:13.912384+00:00",
+  "updatedAt": "2026-11-08T04:12:22.406935+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -2950,6 +2950,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Leon And Claire Resident Evil 2 | ЗВУК"
+        },
+        {
+          "id": "v_832980a1",
+          "name": "Emily Resident Evil Requiem",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=119K5evNtlSPI70-iapa0O2_0hGXWaCEv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=119K5evNtlSPI70-iapa0O2_0hGXWaCEv&sz=w640",
+          "sizeBytes": 4738609,
+          "sha256": "C7761BBB8463E06D64ADB29DF84F441E40DD182DDD19FE09EB3169E099E8286A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Emily Resident Evil Requiem | ЗВУК"
+        },
+        {
+          "id": "v_1613410c",
+          "name": "Leon Resident Evil 9 Requiem",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1L0YSnnMuDalH5auNR0hXsqco-X4R8_xT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1L0YSnnMuDalH5auNR0hXsqco-X4R8_xT&sz=w640",
+          "sizeBytes": 4720779,
+          "sha256": "5193F7ECB5D0F9CCABFB3332CA804C190E73C3DDD90E63020CCEC188648E47A8",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Leon Resident Evil 9 Requiem | ЗВУК"
         }
       ]
     },
@@ -51023,6 +51059,78 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Dante Devil May Cry X Punishing Gray Rav | ЗВУК"
+        },
+        {
+          "id": "v_292a8cdb",
+          "name": "Vergil Devil May Cry 5",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QsGXNnBUmC7gC8Nco78h9z1yN5zl631w",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QsGXNnBUmC7gC8Nco78h9z1yN5zl631w&sz=w640",
+          "sizeBytes": 4639234,
+          "sha256": "A5FF0160412E78D8BB645088B6F6C6F561D7ABC865BD982497AA14E0A40C7C60",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Vergil Devil May Cry 5 | ЗВУК"
+        },
+        {
+          "id": "v_0f15d990",
+          "name": "Dante And V And Nero Are Ready To Fight",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1r00Y_RSHs0_vnL861PGFy-lh8YIjg0im",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1r00Y_RSHs0_vnL861PGFy-lh8YIjg0im&sz=w640",
+          "sizeBytes": 4704795,
+          "sha256": "6BB5812C7A0FD3C68DC29DB4DB54545091105AD89F34866593653C79A7601DDF",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dante And V And Nero Are Ready To Fight | ЗВУК"
+        },
+        {
+          "id": "v_6b705481",
+          "name": "Nero Red Queen Devil May Cry 5",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Y2j-rlRlIYa8ft12WyJtqdLuMjQjuTp7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Y2j-rlRlIYa8ft12WyJtqdLuMjQjuTp7&sz=w640",
+          "sizeBytes": 4588966,
+          "sha256": "7AEF4B37332745790386908969D58E6DB371E2DCA50C0C9E8422E83FD64E12F9",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Nero Red Queen Devil May Cry 5 | ЗВУК"
+        },
+        {
+          "id": "v_09467552",
+          "name": "Lady Devil May Cry 5",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pzZJG-XVJ4bRRCuxboeuoPM2vFG7Xdii",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pzZJG-XVJ4bRRCuxboeuoPM2vFG7Xdii&sz=w640",
+          "sizeBytes": 4688283,
+          "sha256": "2C34BE7D883F70BE2F8562D048C90FBE7AE091D2CA0085D08F06E87B7775EC5C",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lady Devil May Cry 5 | ЗВУК"
         }
       ]
     },
@@ -51564,6 +51672,6 @@
     }
   ],
   "totalGames": 1076,
-  "totalVariants": 2287,
+  "totalVariants": 2293,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
