@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T16:32:04.491771+00:00",
+  "updatedAt": "2026-11-08T16:38:06.816258+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -58841,9 +58841,139 @@
           "notes": "Switch 720p 30fps H264 | Pipistrello and the Cursed Yoyo — Pipist"
         }
       ]
+    },
+    {
+      "titleId": "0100A9E00D97A000",
+      "title": "Northgard",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A9E00D97A000.jpg",
+      "variants": [
+        {
+          "id": "v_d88cf6f3",
+          "name": "Northgard Battlegrounds — Launch trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AjzfkmwiNME8P6cQJzbCN_1bbKYezDwf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AjzfkmwiNME8P6cQJzbCN_1bbKYezDwf&sz=w640",
+          "sizeBytes": 6923645,
+          "sha256": "EB4196D1CACABC2E398DB639AE68E0A5A43A291A4B0A7503578D55C31C9B2497",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Northgard Battlegrounds — Launch trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C56010FD8000",
+      "title": "Plants vs Zombies Battle for Neighborville",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C56010FD8000.jpg",
+      "variants": [
+        {
+          "id": "v_fbfda8d8",
+          "name": "Plants vs. Zombies: Battle for Neighborville™ — ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jIKZz_c3pVE0gFwDhUDYqd0w3V_66VW1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jIKZz_c3pVE0gFwDhUDYqd0w3V_66VW1&sz=w640",
+          "sizeBytes": 10346311,
+          "sha256": "ACF01F303CDFA7E2F9ACA61DFC1DB7A5AB844A7839B7FEB0F1F062110B546187",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Plants vs. Zombies: Battle for Neighborv"
+        }
+      ]
+    },
+    {
+      "titleId": "01008C50239BE000",
+      "title": "Plants vs Zombies Replanted",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008C50239BE000.jpg",
+      "variants": [
+        {
+          "id": "v_04e8803f",
+          "name": "Plants vs. Zombies™: Replanted — Plants vs. Zomb",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1O7s_GTpkviwmXdoRSwwhl8IasbKaXcMH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1O7s_GTpkviwmXdoRSwwhl8IasbKaXcMH&sz=w640",
+          "sizeBytes": 7657060,
+          "sha256": "191367BA11050F1856986CBD681A129D3D026F5EAA94A7F4DBD663C37966FCAE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Plants vs. Zombies™: Replanted — Plants "
+        }
+      ]
+    },
+    {
+      "titleId": "010010100FF14000",
+      "title": "60 Seconds Reatomized",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010010100FF14000.jpg",
+      "variants": [
+        {
+          "id": "v_88103dbe",
+          "name": "60 Seconds! Reatomized — 60 Seconds! Reatomized ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16q0uHnCk1mFdDa0dk_ePSj8myOBUoOkv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16q0uHnCk1mFdDa0dk_ePSj8myOBUoOkv&sz=w640",
+          "sizeBytes": 5623095,
+          "sha256": "38F034B52E7ED7519B6883BE382D3F70B2EDD826875C23625B191A31CADC266D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 60 Seconds! Reatomized — 60 Seconds! Rea"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B5B01AC50000",
+      "title": "Lucky Tower Ultimate",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B5B01AC50000.jpg",
+      "variants": [
+        {
+          "id": "v_187212a7",
+          "name": "Lucky Tower Ultimate — 1.0 Launch Trailer_OUT NO",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12EVsCXkRIQVz7tsdy4aVjRAgxUdRd-nE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12EVsCXkRIQVz7tsdy4aVjRAgxUdRd-nE&sz=w640",
+          "sizeBytes": 5016878,
+          "sha256": "409A7D10B87381223B2D1161442AA85C17F139E3FD3DF073DF508D30B79343AE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lucky Tower Ultimate — 1.0 Launch Traile"
+        }
+      ]
     }
   ],
-  "totalGames": 1257,
-  "totalVariants": 2611,
-  "lastUpdated": "2026-11-08T16:32:04.491771+00:00"
+  "totalGames": 1262,
+  "totalVariants": 2616,
+  "lastUpdated": "2026-11-08T16:38:06.816258+00:00"
 }
