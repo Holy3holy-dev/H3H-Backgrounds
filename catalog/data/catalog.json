@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T17:32:39.544013+00:00",
+  "updatedAt": "2026-11-08T17:33:21.043224+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -1623,6 +1623,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Sirris Of The Sunless Realms Darkmoon Bl | ЗВУК"
+        },
+        {
+          "id": "v_fb25b108",
+          "name": "Crimson Blade Warrior",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PijRli2ZpupGK0LWOZsX8t3y-fpD7bRb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PijRli2ZpupGK0LWOZsX8t3y-fpD7bRb&sz=w640",
+          "sizeBytes": 5368478,
+          "sha256": "0FB3B845343D5F81C35B50AC25C934FF0E6D44AE0FAB364F5E56C2DA5FF18D56",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Crimson Blade Warrior"
+        },
+        {
+          "id": "v_ed1e4cf0",
+          "name": "Knight Campfire Dark Souls",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zs40Rx2WKmwmx1uZhawz7DG7-de1oYIj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zs40Rx2WKmwmx1uZhawz7DG7-de1oYIj&sz=w640",
+          "sizeBytes": 1703346,
+          "sha256": "7F4D9644AE309EB437BF73C728D753E1700B1008ACBD16B7609EF7CA20688DB8",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Knight Campfire Dark Souls"
         }
       ]
     },
@@ -59522,6 +59558,6 @@
     }
   ],
   "totalGames": 1272,
-  "totalVariants": 2642,
-  "lastUpdated": "2026-11-08T17:32:39.544013+00:00"
+  "totalVariants": 2644,
+  "lastUpdated": "2026-11-08T17:33:21.043224+00:00"
 }
