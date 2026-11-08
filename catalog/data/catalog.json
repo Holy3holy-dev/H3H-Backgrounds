@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T16:25:36.263908+00:00",
+  "updatedAt": "2026-11-08T16:32:04.491771+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -58711,9 +58711,139 @@
           "notes": "Switch 720p 30fps H264 | Descenders — Launch Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100F5102672C000",
+      "title": "Rune Dice",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F5102672C000.jpg",
+      "variants": [
+        {
+          "id": "v_d38705f1",
+          "name": "Rune Dice — Update Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Rq22il6FAIAmYLMAZpATbrT9MZGREhXr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Rq22il6FAIAmYLMAZpATbrT9MZGREhXr&sz=w640",
+          "sizeBytes": 5530484,
+          "sha256": "FD5EDB8C1E2DBBBB1DA82314EABD599871246DA8A5A70BF82117484F42CDAED7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rune Dice — Update Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010030B01DC52000",
+      "title": "Constance",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010030B01DC52000.jpg",
+      "variants": [
+        {
+          "id": "v_11603995",
+          "name": "Constance — Constance Official Release Window Tr",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_1T942tONLs3zHGmZsBDaOSkjhi8TvWd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_1T942tONLs3zHGmZsBDaOSkjhi8TvWd&sz=w640",
+          "sizeBytes": 5513120,
+          "sha256": "3C0A78FFE39FF7E0963C5BF1D41A1631D47A6E2485CE48066A4A86AAE363A823",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Constance — Constance Official Release W"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A2501B3B2000",
+      "title": "Legend of Grimrock",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A2501B3B2000.jpg",
+      "variants": [
+        {
+          "id": "v_5ca9a215",
+          "name": "Legend of Grimrock — Legend of Grimrock Launch T",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Mw-sOYt_y89cmIERfIC0uWDv7-kOdxq7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Mw-sOYt_y89cmIERfIC0uWDv7-kOdxq7&sz=w640",
+          "sizeBytes": 7556487,
+          "sha256": "B757E5D1F925163D1D0EE709C3784655F1FF48D87431786996DC4EA4AC57E894",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Legend of Grimrock — Legend of Grimrock "
+        }
+      ]
+    },
+    {
+      "titleId": "010031D026BD0000",
+      "title": "Legacy of Kain Ascendance",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010031D026BD0000.jpg",
+      "variants": [
+        {
+          "id": "v_c81055a3",
+          "name": "Legacy of Kain: Ascendance — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vwOFr1oTUPyzhDLoXAqQXophzoOVt_XS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vwOFr1oTUPyzhDLoXAqQXophzoOVt_XS&sz=w640",
+          "sizeBytes": 5773366,
+          "sha256": "61A723F4E734A9FB62E83CC8DACB2FE87965F6188E48C677691380FD72B32D0C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Legacy of Kain: Ascendance — Launch Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D1E01FB56000",
+      "title": "Pipistrello and the Cursed Yoyo",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D1E01FB56000.jpg",
+      "variants": [
+        {
+          "id": "v_dc9a2feb",
+          "name": "Pipistrello and the Cursed Yoyo — Pipistrello an",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oHZLA5VEhsaiHmqouPwoAxGnXTA3JsbV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oHZLA5VEhsaiHmqouPwoAxGnXTA3JsbV&sz=w640",
+          "sizeBytes": 7327040,
+          "sha256": "5925C82C7E81AE6FE555EBE16871F0B25D0F22191D66873EB21C5213E0E93B06",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Pipistrello and the Cursed Yoyo — Pipist"
+        }
+      ]
     }
   ],
-  "totalGames": 1252,
-  "totalVariants": 2606,
-  "lastUpdated": "2026-11-08T16:25:36.263908+00:00"
+  "totalGames": 1257,
+  "totalVariants": 2611,
+  "lastUpdated": "2026-11-08T16:32:04.491771+00:00"
 }
