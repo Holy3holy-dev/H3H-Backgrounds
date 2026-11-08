@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T12:32:05.358239+00:00",
+  "updatedAt": "2026-11-08T12:37:41.056340+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -54681,9 +54681,139 @@
           "notes": "Switch 720p 30fps H264 | Harvest Moon®: Echoes of Teradea — Harve"
         }
       ]
+    },
+    {
+      "titleId": "01001DC025BC4000",
+      "title": "Disney Pixar Toy Story Retro Roundup",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001DC025BC4000.jpg",
+      "variants": [
+        {
+          "id": "v_cec9f60c",
+          "name": "Disney•Pixar Toy Story: Retro Roundup! — Toy Sto",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1k5jEOmQUFhxwW47GmOJuJ88699MnTwKE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1k5jEOmQUFhxwW47GmOJuJ88699MnTwKE&sz=w640",
+          "sizeBytes": 5763205,
+          "sha256": "71B6B3630598F9B9576E28BC9B7E151F5A692E854DCC35D48432E29FA95AEB6D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Disney•Pixar Toy Story: Retro Roundup! —"
+        }
+      ]
+    },
+    {
+      "titleId": "01000500296CA000",
+      "title": "Cubic Cosmos",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000500296CA000.jpg",
+      "variants": [
+        {
+          "id": "v_d7d0baa7",
+          "name": "Cubic Cosmos — Cubic Cosmos - v1.0 Launch Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Jf6AML9-jfsbN783pzXp4XjahirODzmQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Jf6AML9-jfsbN783pzXp4XjahirODzmQ&sz=w640",
+          "sizeBytes": 11061316,
+          "sha256": "B87794D081B5655CF08F8C837A1361303AEC5CE2F86FC6F41D8C5E15AFB4DC73",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cubic Cosmos — Cubic Cosmos - v1.0 Launc"
+        }
+      ]
+    },
+    {
+      "titleId": "01004F302847E000",
+      "title": "Vault of Power",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004F302847E000.jpg",
+      "variants": [
+        {
+          "id": "v_9e24ddcf",
+          "name": "Vault of Power — Vault of Power Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FrWn6kA6-xb08L1ikHOn4Fz_rl-UlLrA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FrWn6kA6-xb08L1ikHOn4Fz_rl-UlLrA&sz=w640",
+          "sizeBytes": 1191206,
+          "sha256": "CCECE465EFAA404AECF2D2A75791708C553EA9526A5A3C12D4013A7381E2020A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Vault of Power — Vault of Power Gameplay"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D5B026844000",
+      "title": "Silver Pines",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D5B026844000.jpg",
+      "variants": [
+        {
+          "id": "v_9f42a469",
+          "name": "Silver Pines — Silver Pines - Out Now Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1l6tPM3cSwrrkh26xPhFX2LXoJo13VlMi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1l6tPM3cSwrrkh26xPhFX2LXoJo13VlMi&sz=w640",
+          "sizeBytes": 3130421,
+          "sha256": "8E140CF3482A7BE45AC52DF4397A72C14486B791AC749FDD571D9C3942E051E5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Silver Pines — Silver Pines - Out Now Tr"
+        }
+      ]
+    },
+    {
+      "titleId": "01006BE029808000",
+      "title": "Zenonia",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006BE029808000.jpg",
+      "variants": [
+        {
+          "id": "v_c88b67da",
+          "name": "ZENONIA 1 — ZENONIA1 Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zavuzrCd1LZ7q6sxYmdLZny1dQ5cswaC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zavuzrCd1LZ7q6sxYmdLZny1dQ5cswaC&sz=w640",
+          "sizeBytes": 7666377,
+          "sha256": "14FD528C47808A6B81E6AC3AED05DE87FF421B994FF4FF60F38FDFFF3E5692E7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | ZENONIA 1 — ZENONIA1 Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 1097,
-  "totalVariants": 2451,
-  "lastUpdated": "2026-11-08T12:32:05.358239+00:00"
+  "totalGames": 1102,
+  "totalVariants": 2456,
+  "lastUpdated": "2026-11-08T12:37:41.056340+00:00"
 }
