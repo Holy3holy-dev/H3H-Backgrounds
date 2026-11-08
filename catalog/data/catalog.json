@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T16:01:43.270117+00:00",
+  "updatedAt": "2026-11-08T16:09:47.352685+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -58321,9 +58321,139 @@
           "notes": "Switch 720p 30fps H264 | Spellagis — Steam Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100A07022868000",
+      "title": "Rally Arcade Classics",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A07022868000.jpg",
+      "variants": [
+        {
+          "id": "v_436b8659",
+          "name": "Rally Arcade Classics — Precision & Chase Update",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CeY-YMrlIwi_zUPs9ugEPJtK2xjjeztk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CeY-YMrlIwi_zUPs9ugEPJtK2xjjeztk&sz=w640",
+          "sizeBytes": 7524582,
+          "sha256": "13991A3A2D24D6BBCA8571C9267DC39F6ADB7FE0EEE66A3FCEC93241D598CD52",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rally Arcade Classics — Precision & Chas"
+        }
+      ]
+    },
+    {
+      "titleId": "01005BE023056000",
+      "title": "Call of the Elder Gods",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005BE023056000.jpg",
+      "variants": [
+        {
+          "id": "v_ea8bc55f",
+          "name": "Call of the Elder Gods — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eS5_pK7oGDI128uTlrU_IIh_C2sRxt8w",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eS5_pK7oGDI128uTlrU_IIh_C2sRxt8w&sz=w640",
+          "sizeBytes": 5733935,
+          "sha256": "F161EDB21ED091DF1E88DD62EB2D6F62A0E869ABCFEE1571DA4BA9E1EBB04CBE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Call of the Elder Gods — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DC0012E48000",
+      "title": "Wreckfest",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DC0012E48000.jpg",
+      "variants": [
+        {
+          "id": "v_59773918",
+          "name": "Wreckfest 2 — Content Update 9",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oklH6Len5iKIEAAPmjtA8ZWgxmUCDY8-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oklH6Len5iKIEAAPmjtA8ZWgxmUCDY8-&sz=w640",
+          "sizeBytes": 9866540,
+          "sha256": "B85179BB0E5C83D53CDC2668AB3005009DE661C1323C5EBD318831FC7D437761",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wreckfest 2 — Content Update 9"
+        }
+      ]
+    },
+    {
+      "titleId": "01008BA01A3BE000",
+      "title": "That Time I Got Reincarnated as a Slime Isekai Chronicles",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008BA01A3BE000.jpg",
+      "variants": [
+        {
+          "id": "v_7864c7d1",
+          "name": "That Time I Got Reincarnated as a Slime ISEKAI C",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1uxqRGwtoAIGubOssT29OSUeZYlLXBgDI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1uxqRGwtoAIGubOssT29OSUeZYlLXBgDI&sz=w640",
+          "sizeBytes": 6956001,
+          "sha256": "61986561E8A0E607C446EED5772696ABF9105328E3B2112B5555ADEFB7E98B34",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | That Time I Got Reincarnated as a Slime "
+        }
+      ]
+    },
+    {
+      "titleId": "0100646019558000",
+      "title": "Midnight Fight Express",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100646019558000.jpg",
+      "variants": [
+        {
+          "id": "v_e0cb162a",
+          "name": "Midnight Fight Express — Midnight Fight Express ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1i4vrsYTsMiWckI_fddnGhfXNymUI6dkB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1i4vrsYTsMiWckI_fddnGhfXNymUI6dkB&sz=w640",
+          "sizeBytes": 4761589,
+          "sha256": "1155CE99101819E920317FEBC7031AD23E68713F311FC2E99E0225E716737051",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Midnight Fight Express — Midnight Fight "
+        }
+      ]
     }
   ],
-  "totalGames": 1237,
-  "totalVariants": 2591,
-  "lastUpdated": "2026-11-08T16:01:43.270117+00:00"
+  "totalGames": 1242,
+  "totalVariants": 2596,
+  "lastUpdated": "2026-11-08T16:09:47.352685+00:00"
 }
