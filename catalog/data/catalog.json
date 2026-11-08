@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T13:48:52.216126+00:00",
+  "updatedAt": "2026-11-08T13:57:35.571569+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -55981,9 +55981,139 @@
           "notes": "Switch 720p 30fps H264 | Dragon Quest Heroes: Torneko's Mystery D"
         }
       ]
+    },
+    {
+      "titleId": "0100CBC027D92000",
+      "title": "Resonant Blade",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CBC027D92000.jpg",
+      "variants": [
+        {
+          "id": "v_e8c1911b",
+          "name": "Resonant Blade — Resonant Blade Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1EgKxppvsXOh5ZDfpPZESwZfGUdMgqU9G",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1EgKxppvsXOh5ZDfpPZESwZfGUdMgqU9G&sz=w640",
+          "sizeBytes": 8138419,
+          "sha256": "F7E9BDB62777D57904BF672E16E246E6C05E605BE852BCD8A82547BF6284F17C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Resonant Blade — Resonant Blade Launch T"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C55026EF6000",
+      "title": "The Noexistencen of You and Me",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C55026EF6000.jpg",
+      "variants": [
+        {
+          "id": "v_88bea406",
+          "name": "The NOexistenceN of you AND me — Gameplay footag",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1p4guyd3-9Tgtv3GcRBk_QL4uqTfvT4GB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1p4guyd3-9Tgtv3GcRBk_QL4uqTfvT4GB&sz=w640",
+          "sizeBytes": 2608409,
+          "sha256": "C1A946B204F133CD6258494C2D6D85E819F0F0A2D96419A83EC390A6212160E1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The NOexistenceN of you AND me — Gamepla"
+        }
+      ]
+    },
+    {
+      "titleId": "0100253027088000",
+      "title": "Manafinder",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100253027088000.jpg",
+      "variants": [
+        {
+          "id": "v_cd8c5534",
+          "name": "Manafinder II — MES 2026 Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FF76MgwBo0Oa-hHN5zvk_gv_aP0_znzY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FF76MgwBo0Oa-hHN5zvk_gv_aP0_znzY&sz=w640",
+          "sizeBytes": 9269033,
+          "sha256": "8FE1D4CED59D7750905BF2FE78E748714E75CB2F4B6C8596CC5AA4C107877313",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Manafinder II — MES 2026 Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100517027E86000",
+      "title": "Final Fantasy Resonance",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100517027E86000.jpg",
+      "variants": [
+        {
+          "id": "v_04756ff9",
+          "name": "FINAL FANTASY RESONANCE — EN ESRB - Launch trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1n0zqn-7dchb4BixCT3oSVdf3CsDvb0Sv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1n0zqn-7dchb4BixCT3oSVdf3CsDvb0Sv&sz=w640",
+          "sizeBytes": 9770442,
+          "sha256": "40EAAA9989BEBE1FE68186AC859252107C07DFF532402D8A47568EEFBB7E3113",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | FINAL FANTASY RESONANCE — EN ESRB - Laun"
+        }
+      ]
+    },
+    {
+      "titleId": "01002320289B2000",
+      "title": "Touhou Lost Branch of Legend",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002320289B2000.jpg",
+      "variants": [
+        {
+          "id": "v_918de44f",
+          "name": "Touhou: Lost Branch of Legend — Gameplay Showcas",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_hChLarE99BVQVpVKiD51d-OisCBz0F8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_hChLarE99BVQVpVKiD51d-OisCBz0F8&sz=w640",
+          "sizeBytes": 5460100,
+          "sha256": "517913F50B0238F44CD055602F398EF242A2B23343548E55FB2FBF46244348D8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Touhou: Lost Branch of Legend — Gameplay"
+        }
+      ]
     }
   ],
-  "totalGames": 1147,
-  "totalVariants": 2501,
-  "lastUpdated": "2026-11-08T13:48:52.216126+00:00"
+  "totalGames": 1152,
+  "totalVariants": 2506,
+  "lastUpdated": "2026-11-08T13:57:35.571569+00:00"
 }
