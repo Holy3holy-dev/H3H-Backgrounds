@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T14:57:00.745645+00:00",
+  "updatedAt": "2026-11-08T15:03:41.432388+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -57151,9 +57151,139 @@
           "notes": "Switch 720p 30fps H264 | Twofold Tower — Announcement Trailer"
         }
       ]
+    },
+    {
+      "titleId": "010022201229A000",
+      "title": "Super Robot Wars Y",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010022201229A000.jpg",
+      "variants": [
+        {
+          "id": "v_69de3102",
+          "name": "SUPER ROBOT WARS Y — SUPER ROBOT WARS Y - Announ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18bAcDgZK03_s4phmmXBgoF8KoMNeBwE1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18bAcDgZK03_s4phmmXBgoF8KoMNeBwE1&sz=w640",
+          "sizeBytes": 9789483,
+          "sha256": "2985B3B9C2F0198974A48A1F1F4B9A6EB8AD3AC5CA7EAAC2D5C13FCFFC37490A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | SUPER ROBOT WARS Y — SUPER ROBOT WARS Y "
+        }
+      ]
+    },
+    {
+      "titleId": "0100D6E0234F0000",
+      "title": "Kusan City of Wolves",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D6E0234F0000.jpg",
+      "variants": [
+        {
+          "id": "v_51003f36",
+          "name": "Kusan: City of Wolves — Kusan: City of Wolves - ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1si5ilIzIIbDriKceDMoYdYP7kAyqVaS7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1si5ilIzIIbDriKceDMoYdYP7kAyqVaS7&sz=w640",
+          "sizeBytes": 7270337,
+          "sha256": "2D1ABAB789DC9BE601B32FB21C6092388C85249E4734585374E3C195D865EE37",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kusan: City of Wolves — Kusan: City of W"
+        }
+      ]
+    },
+    {
+      "titleId": "010064C02639A000",
+      "title": "Yog-Sothoth's Yard",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010064C02639A000.jpg",
+      "variants": [
+        {
+          "id": "v_9e770239",
+          "name": "Yog-Sothoth’s Yard — 正式demo宣传片",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bF8RB13CMJtx4t4904hORGZkTB_RdJhB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bF8RB13CMJtx4t4904hORGZkTB_RdJhB&sz=w640",
+          "sizeBytes": 4165084,
+          "sha256": "9AE9CED10CB3830A6DF193F64DF4F565335BBF4115BBF01564D7491E66DBF5DC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Yog-Sothoth’s Yard — 正式demo宣传片"
+        }
+      ]
+    },
+    {
+      "titleId": "0100416026718000",
+      "title": "Wall World",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100416026718000.jpg",
+      "variants": [
+        {
+          "id": "v_27f6cc76",
+          "name": "Wall World Strategy — Release Date Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1o-w6-TaWyMoZFZdeBu7fzyOQS6J7RNcy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1o-w6-TaWyMoZFZdeBu7fzyOQS6J7RNcy&sz=w640",
+          "sizeBytes": 4708860,
+          "sha256": "35421AAEAA1B8D31FD22BCA0EAE0274F54AD329179F9F5ABCC0418C58898F68D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wall World Strategy — Release Date Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "010068B026CF2000",
+      "title": "Flamecraft",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010068B026CF2000.jpg",
+      "variants": [
+        {
+          "id": "v_dabac5b8",
+          "name": "Flamecraft — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CmCcVCcR2t17Vcll6eNyUFMyWV0HrZLO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CmCcVCcR2t17Vcll6eNyUFMyWV0HrZLO&sz=w640",
+          "sizeBytes": 6576354,
+          "sha256": "A6049B3C0BA3B058B53887B7E989DCF362DA5B58CE8E8C303A54353CBC247E17",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Flamecraft — Launch Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 1192,
-  "totalVariants": 2546,
-  "lastUpdated": "2026-11-08T14:57:00.745645+00:00"
+  "totalGames": 1197,
+  "totalVariants": 2551,
+  "lastUpdated": "2026-11-08T15:03:41.432388+00:00"
 }
