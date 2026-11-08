@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T16:09:47.352685+00:00",
+  "updatedAt": "2026-11-08T16:18:03.041585+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -58451,9 +58451,139 @@
           "notes": "Switch 720p 30fps H264 | Midnight Fight Express — Midnight Fight "
         }
       ]
+    },
+    {
+      "titleId": "010036700F83E000",
+      "title": "Finding Paradise",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010036700F83E000.jpg",
+      "variants": [
+        {
+          "id": "v_288e835b",
+          "name": "Finding Paradise — Finding Paradise - Official T",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KxeZ7yrtLJMiliPGW5tlMi3yA8ujBNKK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KxeZ7yrtLJMiliPGW5tlMi3yA8ujBNKK&sz=w640",
+          "sizeBytes": 724636,
+          "sha256": "31C70DEBB219DD3C64FE972DDC0E04B39A9C34B7E9F26CDDB9B6E2F08F09D84F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Finding Paradise — Finding Paradise - Of"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E6701DF4E000",
+      "title": "Ravenswatch",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E6701DF4E000.jpg",
+      "variants": [
+        {
+          "id": "v_cebc8319",
+          "name": "Ravenswatch — Launch Trailer PC",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=114H5w4Ulq1qfcqKbEicebCsYgisgUgla",
+          "previewUrl": "https://drive.google.com/thumbnail?id=114H5w4Ulq1qfcqKbEicebCsYgisgUgla&sz=w640",
+          "sizeBytes": 8255837,
+          "sha256": "58021A9C0192855B407EFF264705509CFC0496193F5234F555C1F25EA9979E8D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ravenswatch — Launch Trailer PC"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C520268DE000",
+      "title": "Kyoto Xanadu the Blooming Phantom",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C520268DE000.jpg",
+      "variants": [
+        {
+          "id": "v_765b3f2d",
+          "name": "KYOTO XANADU -the Blooming Phantom- — 15s Web CM",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CSghfDTA0Q6uvr_sQQoUfsrkGJSfCeMX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CSghfDTA0Q6uvr_sQQoUfsrkGJSfCeMX&sz=w640",
+          "sizeBytes": 5892035,
+          "sha256": "8D6B4F5144D02825F1F73D97EE043CE0EECE94A334B38043420A377B25F4DAFD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | KYOTO XANADU -the Blooming Phantom- — 15"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EC8004762000",
+      "title": "KORG Gadget",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EC8004762000.jpg",
+      "variants": [
+        {
+          "id": "v_d328ec8b",
+          "name": "KORG Gadget VR — Trailer 01",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1d3ozR-qjSylr5shr_PWDNKPb2QOUet77",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1d3ozR-qjSylr5shr_PWDNKPb2QOUet77&sz=w640",
+          "sizeBytes": 4745605,
+          "sha256": "02BFA98EA7A7F56AC4B64F187915F48C7B8A3F3D8CAF2E5FF9A93F1C3987DF9A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | KORG Gadget VR — Trailer 01"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B2201FCD8000",
+      "title": "Captain Blood",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B2201FCD8000.jpg",
+      "variants": [
+        {
+          "id": "v_9b585a7c",
+          "name": "Captain Blood — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1v4AY_-pyLAR6xA9GkyPo3aQxUQF-3Jh3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1v4AY_-pyLAR6xA9GkyPo3aQxUQF-3Jh3&sz=w640",
+          "sizeBytes": 10296801,
+          "sha256": "E212B37E82A9FEA7E7EE9BD1984F348A8E96D4B236ED7FEF455E7ACF5C945D9A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Captain Blood — Launch Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 1242,
-  "totalVariants": 2596,
-  "lastUpdated": "2026-11-08T16:09:47.352685+00:00"
+  "totalGames": 1247,
+  "totalVariants": 2601,
+  "lastUpdated": "2026-11-08T16:18:03.041585+00:00"
 }
