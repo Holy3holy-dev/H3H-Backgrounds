@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T06:52:14.141490+00:00",
+  "updatedAt": "2026-11-08T07:11:01.778273+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -4812,6 +4812,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Ciri The Witcher 3: Wild Hunt | ЗВУК"
+        },
+        {
+          "id": "v_a0c2d0cf",
+          "name": "Wolf Medallion The Witcher 3",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lt_-DhMkq9hJ_Mi8k_wd1c-TsqX5XRVu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lt_-DhMkq9hJ_Mi8k_wd1c-TsqX5XRVu&sz=w640",
+          "sizeBytes": 4491971,
+          "sha256": "4CD3827F07D5E1FDAAB59980A680D83571D88D13481F48EB60C4C04CA89AB485",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Wolf Medallion The Witcher 3"
         }
       ]
     },
@@ -53142,6 +53160,6 @@
     }
   ],
   "totalGames": 1082,
-  "totalVariants": 2372,
+  "totalVariants": 2373,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
