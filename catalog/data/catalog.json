@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T06:36:20.584760+00:00",
+  "updatedAt": "2026-11-08T06:52:14.141490+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -21650,6 +21650,96 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Raiden Jack Metal Gear Rising: Revengean | ЗВУК"
+        },
+        {
+          "id": "v_b0161f29",
+          "name": "Raiden Metal Gear Rising: Revengeance",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OZjdFJWMEmhfkvYI9zjaoXx9Oq0TA2kG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OZjdFJWMEmhfkvYI9zjaoXx9Oq0TA2kG&sz=w640",
+          "sizeBytes": 4732898,
+          "sha256": "8A470EBAF03EA2537B65980DD5B9FD8AD145BFECC02A114FC353E1BDCF267CB5",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Raiden Metal Gear Rising: Revengeance | ЗВУК"
+        },
+        {
+          "id": "v_45e3e304",
+          "name": "Solid Snake Metal Gear Solid",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18SdqVB9eYdczsdqPeSWIoxGWnZc1mYzA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18SdqVB9eYdczsdqPeSWIoxGWnZc1mYzA&sz=w640",
+          "sizeBytes": 4758815,
+          "sha256": "8928273C361C7DB676034EE7CCFC0CA76474724E975F3076B87BC008B287BC76",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Solid Snake Metal Gear Solid | ЗВУК"
+        },
+        {
+          "id": "v_730fcaf3",
+          "name": "Big Boss Metal Gear Solid",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QtQALInrPfCDwDEQH811bXi4UdPZ_rja",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QtQALInrPfCDwDEQH811bXi4UdPZ_rja&sz=w640",
+          "sizeBytes": 4708254,
+          "sha256": "3E0C4EA2B62E751E11C4258227DA5CFC0248B6D76E701A2E7A4548ABA8F594FA",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Big Boss Metal Gear Solid | ЗВУК"
+        },
+        {
+          "id": "v_da6cc8ef",
+          "name": "Raiden Metal Gear Solid",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PXOw3VEdY-lm1nHWqlSpC8FXRGjvKe4w",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PXOw3VEdY-lm1nHWqlSpC8FXRGjvKe4w&sz=w640",
+          "sizeBytes": 4702670,
+          "sha256": "19D421E01BB3067A297F9C90D25C89A70C4CEC973B5C0FAAAF9DBE7372F0A662",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Raiden Metal Gear Solid | ЗВУК"
+        },
+        {
+          "id": "v_35e28cdc",
+          "name": "Quiet Metal Gear Solid 5",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=162-UXNAY8XWw2uIZwm0V0wNMAla72vH4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=162-UXNAY8XWw2uIZwm0V0wNMAla72vH4&sz=w640",
+          "sizeBytes": 4727660,
+          "sha256": "78BB26FAD6B65D4C47C141AA76031237980E8170AF5D8780C750E976C874B570",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Quiet Metal Gear Solid 5 | ЗВУК"
         }
       ]
     },
@@ -53023,9 +53113,35 @@
           "notes": "Switch 720p 30fps H264 | Doki Doki Literature Club! | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "01006C1014796000",
+      "title": "KINGDOM HEARTS Integrum Masterpiece",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006C1014796000.jpg",
+      "variants": [
+        {
+          "id": "v_d5c04961",
+          "name": "Aqua Kingdom Hearts",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nhWNseNhB_N9RUDDC17WEb3ZL4yqCnkR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nhWNseNhB_N9RUDDC17WEb3ZL4yqCnkR&sz=w640",
+          "sizeBytes": 4722352,
+          "sha256": "5FABB28A857291354D74B8E3F8FC7BC2E71F05B1925C8D6AAB9981C9548CCF8E",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Aqua Kingdom Hearts | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 1081,
-  "totalVariants": 2366,
+  "totalGames": 1082,
+  "totalVariants": 2372,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
