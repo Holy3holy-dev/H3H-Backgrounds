@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T08:27:28.590877+00:00",
+  "updatedAt": "2026-11-08T08:29:12.739334+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -7326,6 +7326,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Lakeside Morning Minecraft | ЗВУК"
+        },
+        {
+          "id": "v_79d3712c",
+          "name": "Sakura Field Minecraft",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ICzwSiIsRAECpMdBNkpGXKE_64FCo3wl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ICzwSiIsRAECpMdBNkpGXKE_64FCo3wl&sz=w640",
+          "sizeBytes": 4789084,
+          "sha256": "B48F4D2C925A4CD250858B4480CBC1DC11B6F71DE7C168677FB06F07B92C2497",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sakura Field Minecraft | ЗВУК"
         }
       ]
     },
@@ -53790,6 +53808,6 @@
     }
   ],
   "totalGames": 1082,
-  "totalVariants": 2408,
+  "totalVariants": 2409,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }

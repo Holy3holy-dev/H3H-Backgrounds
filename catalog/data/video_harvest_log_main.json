@@ -17363,10 +17363,24 @@
     "https://moewalls.com/games/silksong-bell-beast-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2026/silksong-bell-beast-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2025/sakura-field-minecraft-preview.webm": {
+      "title": "Sakura Field Minecraft",
+      "titleId": "0100D71004694000",
+      "gameName": "Minecraft",
+      "varId": "v_79d3712c",
+      "driveId": "1ICzwSiIsRAECpMdBNkpGXKE_64FCo3wl",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/sakura-field-minecraft-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2025/sakura-field-minecraft-preview.webm"
     }
   },
-  "total_harvested": 2420,
-  "last_updated": "2026-11-08T08:27:28.583032+00:00",
+  "total_harvested": 2422,
+  "last_updated": "2026-11-08T08:29:12.732517+00:00",
   "page_cursors": {
     "tag:tears-of-the-kingdom": 1,
     "tag:the-legend-of-zelda": 1,
@@ -17473,9 +17487,9 @@
     "cuphead": 1,
     "tag:celeste": 1,
     "celeste": 1,
-    "tag:ori": 2,
-    "ori and the will of the wisps": 2,
-    "ori and the blind forest": 2,
+    "tag:ori": 1,
+    "ori and the will of the wisps": 1,
+    "ori and the blind forest": 1,
     "tag:terraria": 1,
     "terraria": 1,
     "tag:stardew-valley": 1,
@@ -17658,5 +17672,5 @@
     "red dead redemption": 2
   },
   "query_cursor": 0,
-  "priority_cursor": 156
+  "priority_cursor": 168
 }
