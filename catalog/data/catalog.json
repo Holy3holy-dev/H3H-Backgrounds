@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T16:50:55.114812+00:00",
+  "updatedAt": "2026-11-08T17:25:48.503853+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -2372,6 +2372,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Link And Zelda Resting The Legend Of Zel | ЗВУК"
+        },
+        {
+          "id": "v_97998788",
+          "name": "Link And Zelda Tears Of The Kingdom Pixel",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Chc2hIJF_pDgx2k9wd3rm65xzTBhvdoO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Chc2hIJF_pDgx2k9wd3rm65xzTBhvdoO&sz=w640",
+          "sizeBytes": 803534,
+          "sha256": "12ABB25A54031771866A95B74486EB878BD1C1ACF4BAE93F3FB07C87B8B7E196",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Link And Zelda Tears Of The Kingdom Pi"
+        },
+        {
+          "id": "v_b753b8f0",
+          "name": "Link The Legend Of Zelda: Tears Of The Kingdo",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TIJx0nP7tnAE53avtgwuITY33YoDqB57",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TIJx0nP7tnAE53avtgwuITY33YoDqB57&sz=w640",
+          "sizeBytes": 2253745,
+          "sha256": "8A7BA0CC2F3E023C5DB26386E7E46134788CAB7E26F1BC108C0E7AAFDB3CD7D8",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Link The Legend Of Zelda: Tears Of The"
         }
       ]
     },
@@ -59234,6 +59270,6 @@
     }
   ],
   "totalGames": 1272,
-  "totalVariants": 2626,
-  "lastUpdated": "2026-11-08T16:50:55.114812+00:00"
+  "totalVariants": 2628,
+  "lastUpdated": "2026-11-08T17:25:48.503853+00:00"
 }
