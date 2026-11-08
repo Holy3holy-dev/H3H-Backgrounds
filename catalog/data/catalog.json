@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T08:29:12.739334+00:00",
+  "updatedAt": "2026-11-08T09:05:32.694335+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -1497,6 +1497,60 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Slave Knight Gael Dark Souls 3 | ЗВУК"
+        },
+        {
+          "id": "v_367fcaa6",
+          "name": "Dark Souls 3",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MC9MqRwBYOEex-FuL-us3yfPBRHmIPjC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MC9MqRwBYOEex-FuL-us3yfPBRHmIPjC&sz=w640",
+          "sizeBytes": 4658078,
+          "sha256": "78754D8F30561E616CB4E1A40C08FF0E1896BE35F5999BF9BC91ACD45C941B85",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Dark Souls 3"
+        },
+        {
+          "id": "v_d71ad997",
+          "name": "Lothric Castle Dark Souls 3",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1d62IFGxh7FAcF-zpFFSQ9wMmWNP11dov",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1d62IFGxh7FAcF-zpFFSQ9wMmWNP11dov&sz=w640",
+          "sizeBytes": 4566917,
+          "sha256": "FEFB8C5C61899C7CE228D1FFDFB1D720310EFB5D3CFCB689389E42F35F00F139",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lothric Castle Dark Souls 3 | ЗВУК"
+        },
+        {
+          "id": "v_dc39c7fd",
+          "name": "Sirris Of The Sunless Realms Darkmoon Bl",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1uMduX1_WSenuZqIa8asHpq41-n3DAR0c",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1uMduX1_WSenuZqIa8asHpq41-n3DAR0c&sz=w640",
+          "sizeBytes": 4711553,
+          "sha256": "549B8B2C0131E9BA04ACAFDDDF5AD5760555A0BFD466E1F0107DE3B1B7BF3D67",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sirris Of The Sunless Realms Darkmoon Bl | ЗВУК"
         }
       ]
     },
@@ -53808,6 +53862,6 @@
     }
   ],
   "totalGames": 1082,
-  "totalVariants": 2409,
+  "totalVariants": 2412,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
