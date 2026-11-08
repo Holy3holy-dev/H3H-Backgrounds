@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T14:03:32.556733+00:00",
+  "updatedAt": "2026-11-08T14:10:57.258226+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -56241,9 +56241,139 @@
           "notes": "Switch 720p 30fps H264 | Angeline Era — Trailer 2025"
         }
       ]
+    },
+    {
+      "titleId": "010006A026FE2000",
+      "title": "Leafy Corner",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010006A026FE2000.jpg",
+      "variants": [
+        {
+          "id": "v_31ed6f66",
+          "name": "Leafy Corner — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VmrgRpmeiliVgXIxa7JH8zdn9SXDpsdF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VmrgRpmeiliVgXIxa7JH8zdn9SXDpsdF&sz=w640",
+          "sizeBytes": 3183199,
+          "sha256": "ECC5DEAC2729C0AE68482109E5347F57EE61A5B338A3F17ABCD68805A2208D1B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Leafy Corner — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01009EF0291C6000",
+      "title": "Tome of the Damned",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009EF0291C6000.jpg",
+      "variants": [
+        {
+          "id": "v_f727cd72",
+          "name": "Tome of the Damned — Tome of the Damned - Releas",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13hpV0taHQDZnRyn7oS0cdbdHOVNQ8rZQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13hpV0taHQDZnRyn7oS0cdbdHOVNQ8rZQ&sz=w640",
+          "sizeBytes": 8398598,
+          "sha256": "4FB2BBEC68186A5D12C29E1D760169435461B4D89066893FCFC4372A0FBA2FB4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tome of the Damned — Tome of the Damned "
+        }
+      ]
+    },
+    {
+      "titleId": "01006AB0223B6000",
+      "title": "Karma City Police",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006AB0223B6000.jpg",
+      "variants": [
+        {
+          "id": "v_3cb47f54",
+          "name": "Karma City Police — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_z0v9-M2R1N3wV0Yw4YuWynf2586Qx49",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_z0v9-M2R1N3wV0Yw4YuWynf2586Qx49&sz=w640",
+          "sizeBytes": 2113131,
+          "sha256": "6F892D5B31F6134F2F30CA1E558BB0D279E542C115BF95CBB0CB92D8AF5D340C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Karma City Police — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010089902355A000",
+      "title": "Kejora",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010089902355A000.jpg",
+      "variants": [
+        {
+          "id": "v_204948fc",
+          "name": "Kejora — Kejora | Teaser",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lkIdgq0vp_BnapWCTYEoMrOAlN4Avl2u",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lkIdgq0vp_BnapWCTYEoMrOAlN4Avl2u&sz=w640",
+          "sizeBytes": 2109651,
+          "sha256": "47FB5CF6055BDAB8C92DE4D8BD9650AD6443EF544043659F3CF6D5B79AA6649D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kejora — Kejora | Teaser"
+        }
+      ]
+    },
+    {
+      "titleId": "010013E0230B6000",
+      "title": "Ila a Frosty Glide",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010013E0230B6000.jpg",
+      "variants": [
+        {
+          "id": "v_f7e286ff",
+          "name": "ILA: A Frosty Glide — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lbSHM-_YgPW_Nzn_mlen7x9STkRm-puZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lbSHM-_YgPW_Nzn_mlen7x9STkRm-puZ&sz=w640",
+          "sizeBytes": 7972895,
+          "sha256": "72F0305FF84E6ED6AEDDC3048BEC8CDA3B0CDE2F49D2CEA193A1A086296A9742",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | ILA: A Frosty Glide — Launch Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 1157,
-  "totalVariants": 2511,
-  "lastUpdated": "2026-11-08T14:03:32.556733+00:00"
+  "totalGames": 1162,
+  "totalVariants": 2516,
+  "lastUpdated": "2026-11-08T14:10:57.258226+00:00"
 }
