@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T06:33:32.020986+00:00",
+  "updatedAt": "2026-11-08T06:36:20.584760+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -34366,6 +34366,96 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Hollow Knight: Silksong Lava"
+        },
+        {
+          "id": "v_a71aee90",
+          "name": "Hollow Knight",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=195ySQpsRS-wyozWBK-vhgRpwN9xYSEI1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=195ySQpsRS-wyozWBK-vhgRpwN9xYSEI1&sz=w640",
+          "sizeBytes": 4688059,
+          "sha256": "26DB32F3751F9074D1CA998EC51C39A739CE4098D0DA2F09F7C966F25CA20C8F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hollow Knight | ЗВУК"
+        },
+        {
+          "id": "v_5214ad31",
+          "name": "Hollow Knight Silksong Home",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1l4kzW83AY4iB5Ti2HhovLpXdZ6Zd55KO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1l4kzW83AY4iB5Ti2HhovLpXdZ6Zd55KO&sz=w640",
+          "sizeBytes": 5148383,
+          "sha256": "8768E8DAB1C7B107CD48ED0686692B0B09CF0BF902EA31C01A706BBD82CBB43A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hollow Knight Silksong Home | ЗВУК"
+        },
+        {
+          "id": "v_d8f77764",
+          "name": "Hornet On The Bench Hollow Knight Silkso",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10zxfiEqS-a_LKzpMWu5hXu6KVltOE6_b",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10zxfiEqS-a_LKzpMWu5hXu6KVltOE6_b&sz=w640",
+          "sizeBytes": 4700962,
+          "sha256": "102FED17E7ADA27939EB18E54FED8A4B6CE50DB8DCEA42F3A9A42F8247971CD3",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hornet On The Bench Hollow Knight Silkso | ЗВУК"
+        },
+        {
+          "id": "v_dc708dd6",
+          "name": "Hornet Rainy Day Hollow Knight Silksong",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PPpufdETDGBpZ_w9JU7xZnPspDElZ7Tj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PPpufdETDGBpZ_w9JU7xZnPspDElZ7Tj&sz=w640",
+          "sizeBytes": 4709451,
+          "sha256": "BF509538718FA8BFAF149A4E8FCEDF5F3D3F0965CFCD9CD07D6C454451D46995",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hornet Rainy Day Hollow Knight Silksong | ЗВУК"
+        },
+        {
+          "id": "v_81d936d2",
+          "name": "Red Cape Hollow Knight Silksong",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1aaB6mAW1eaZVspL0n5AFKl_zEh2Q0ALK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1aaB6mAW1eaZVspL0n5AFKl_zEh2Q0ALK&sz=w640",
+          "sizeBytes": 4734341,
+          "sha256": "52484D5F48CE025761DC662C3B49E66852594005119683C3B76781E102A07703",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Red Cape Hollow Knight Silksong | ЗВУК"
         }
       ]
     },
@@ -52936,6 +53026,6 @@
     }
   ],
   "totalGames": 1081,
-  "totalVariants": 2361,
+  "totalVariants": 2366,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
