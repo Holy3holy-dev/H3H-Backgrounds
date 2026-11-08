@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T14:50:50.098328+00:00",
+  "updatedAt": "2026-11-08T14:57:00.745645+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -57021,9 +57021,139 @@
           "notes": "Switch 720p 30fps H264 | Montabi — Gameplay Highlight"
         }
       ]
+    },
+    {
+      "titleId": "01005460280CA000",
+      "title": "Memory of Memorie a Chill Story",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005460280CA000.jpg",
+      "variants": [
+        {
+          "id": "v_c42fa40b",
+          "name": "Memory of Memorie : A Chill Story — Memory of Me",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LMAUGfnKfDCgcuPYmpF0Z9djFBIhVpsu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LMAUGfnKfDCgcuPYmpF0Z9djFBIhVpsu&sz=w640",
+          "sizeBytes": 5025891,
+          "sha256": "A1FAEF9888E0F9780004F10A8BAFA3B8DA2DA75AEB0A735896C6656B6A42C60F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Memory of Memorie : A Chill Story — Memo"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E1F02727C000",
+      "title": "Talespinner",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E1F02727C000.jpg",
+      "variants": [
+        {
+          "id": "v_59081a64",
+          "name": "Talespinner — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gLmIoUWtmjavPWdA_3my1UIJrquco14H",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gLmIoUWtmjavPWdA_3my1UIJrquco14H&sz=w640",
+          "sizeBytes": 4914452,
+          "sha256": "E704E272747A85DFBE445E04A0D88D665BBC2CBFEC7405B2FEB9E65E89FF30D5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Talespinner — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010030B0289BC000",
+      "title": "Gods With Guns",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010030B0289BC000.jpg",
+      "variants": [
+        {
+          "id": "v_329d3610",
+          "name": "Gods With Guns — Gameplay",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_jNBV3qJ51NMxObBjW3iq15ijYr2APS_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_jNBV3qJ51NMxObBjW3iq15ijYr2APS_&sz=w640",
+          "sizeBytes": 11017992,
+          "sha256": "713ED6D50732876698E84AC583E4B8DCBDF421FF959561FB42144FEB6A2195FB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Gods With Guns — Gameplay"
+        }
+      ]
+    },
+    {
+      "titleId": "010009C01DDDA000",
+      "title": "Yasha Legends of the Demon Blade",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010009C01DDDA000.jpg",
+      "variants": [
+        {
+          "id": "v_23ca1f85",
+          "name": "Yasha: Legends of the Demon Blade — Gameplay Tra",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MOG4eoAmpiZWDZLB6-W2j4o_c-8p8ih_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MOG4eoAmpiZWDZLB6-W2j4o_c-8p8ih_&sz=w640",
+          "sizeBytes": 10662699,
+          "sha256": "A58E201AA9E340F57FC8F5E05E5716C9CFEE26A1F7EDFECA2034099A660AE5C3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Yasha: Legends of the Demon Blade — Game"
+        }
+      ]
+    },
+    {
+      "titleId": "0100649028684000",
+      "title": "Twofold",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100649028684000.jpg",
+      "variants": [
+        {
+          "id": "v_62399ad0",
+          "name": "Twofold Tower — Announcement Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HkrPh0sNAvlLrA4QGWjrg04E0p9IxQ-1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HkrPh0sNAvlLrA4QGWjrg04E0p9IxQ-1&sz=w640",
+          "sizeBytes": 1295883,
+          "sha256": "3E1187C930B109DA877F4DD41A40C8FBA45700BF90E21C305F683E704A6FBA84",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Twofold Tower — Announcement Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 1187,
-  "totalVariants": 2541,
-  "lastUpdated": "2026-11-08T14:50:50.098328+00:00"
+  "totalGames": 1192,
+  "totalVariants": 2546,
+  "lastUpdated": "2026-11-08T14:57:00.745645+00:00"
 }
