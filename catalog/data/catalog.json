@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T15:32:33.150413+00:00",
+  "updatedAt": "2026-11-08T15:38:27.567949+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -57801,9 +57801,139 @@
           "notes": "Switch 720p 30fps H264 | Graveyard Keeper 2 — Launch Trailer"
         }
       ]
+    },
+    {
+      "titleId": "010024101A716000",
+      "title": "Kulebra and the Souls of Limbo Closure edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010024101A716000.jpg",
+      "variants": [
+        {
+          "id": "v_c18f0f4a",
+          "name": "Kulebra and the Souls of Limbo: Closure Edition ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Kbvdf8KGFRDK4COG47fmwaPDOjg9nwMI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Kbvdf8KGFRDK4COG47fmwaPDOjg9nwMI&sz=w640",
+          "sizeBytes": 4136120,
+          "sha256": "E26832985ED81DE60981A109E9CF84264AB8E9BF04DF5CA00D0D84C4BFF7FB65",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kulebra and the Souls of Limbo: Closure "
+        }
+      ]
+    },
+    {
+      "titleId": "010031B023C8A000",
+      "title": "Looking For Fael",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010031B023C8A000.jpg",
+      "variants": [
+        {
+          "id": "v_8b36adff",
+          "name": "Looking For Fael — Looking for Fael - release tr",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MADbCsiaEfGCFXaTmgPdXicIx1yEEOPV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MADbCsiaEfGCFXaTmgPdXicIx1yEEOPV&sz=w640",
+          "sizeBytes": 4638029,
+          "sha256": "D5EB59E1D34E81984B8A359B6AC5ECDA2C1F57C2265E77766016FBFB5185D030",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Looking For Fael — Looking for Fael - re"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A0F00DA68000",
+      "title": "Monster Sanctuary",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A0F00DA68000.jpg",
+      "variants": [
+        {
+          "id": "v_c2602545",
+          "name": "Monster Sanctuary — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ire9lANs4Svjd_l6fml9nhy3KJoyt7y3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ire9lANs4Svjd_l6fml9nhy3KJoyt7y3&sz=w640",
+          "sizeBytes": 4731050,
+          "sha256": "0D6506383EE8DF0238448ACAF621E035CC6DC6F8FAE0F69E00E1210072F04E45",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Monster Sanctuary — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01000D7024C08000",
+      "title": "Solateria",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000D7024C08000.jpg",
+      "variants": [
+        {
+          "id": "v_c38550d5",
+          "name": "Solateria — Launching Trailer_EN_260312",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1G2M8rk1RfjAZFSqnbHyNIqJAf7TXy4NL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1G2M8rk1RfjAZFSqnbHyNIqJAf7TXy4NL&sz=w640",
+          "sizeBytes": 6368422,
+          "sha256": "A9BA2D01D451A501CE1855D91D30EB9174A4B9CC945792505958BD0BB2FE9B65",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Solateria — Launching Trailer_EN_260312"
+        }
+      ]
+    },
+    {
+      "titleId": "010036B02609E000",
+      "title": "Pit Panic",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010036B02609E000.jpg",
+      "variants": [
+        {
+          "id": "v_028e60fc",
+          "name": "Pit Panic — Out now!",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tSU1MIyNoRyGTQnza-R7xFCdbopsNcrZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tSU1MIyNoRyGTQnza-R7xFCdbopsNcrZ&sz=w640",
+          "sizeBytes": 8003294,
+          "sha256": "C03C94C8E5DADFB03A2F8A3E8E6E0373F664AD7D7D6CE91A80668C2F1F59E005",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Pit Panic — Out now!"
+        }
+      ]
     }
   ],
-  "totalGames": 1217,
-  "totalVariants": 2571,
-  "lastUpdated": "2026-11-08T15:32:33.150413+00:00"
+  "totalGames": 1222,
+  "totalVariants": 2576,
+  "lastUpdated": "2026-11-08T15:38:27.567949+00:00"
 }
