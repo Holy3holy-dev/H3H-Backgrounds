@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T17:32:01.912934+00:00",
+  "updatedAt": "2026-11-08T17:32:39.544013+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -38075,6 +38075,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | 2B NieR: Automata | ЗВУК"
+        },
+        {
+          "id": "v_d18cf3b8",
+          "name": "2B Monochrome NieR Automata",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1sSQ2tZIb2mpW4BMXUTTukexFwNq_03vP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1sSQ2tZIb2mpW4BMXUTTukexFwNq_03vP&sz=w640",
+          "sizeBytes": 2296959,
+          "sha256": "6F1586D54DEF137FD4697F309E02573B88C6B9B88A334821291F0FA9FD4CAEF8",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 2B Monochrome NieR Automata"
+        },
+        {
+          "id": "v_9fbcbe67",
+          "name": "2B In The Field Of Blue Lilies Nier Automata",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VDk0pio4cBgM5DZcM914KaUHny7MbCGb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VDk0pio4cBgM5DZcM914KaUHny7MbCGb&sz=w640",
+          "sizeBytes": 1506085,
+          "sha256": "58BEF356D1F1FAD96A461F6B7388F80D6661BF2995C84892E4B6E606FDB1F70A",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 2B In The Field Of Blue Lilies Nier Au"
         }
       ]
     },
@@ -59486,6 +59522,6 @@
     }
   ],
   "totalGames": 1272,
-  "totalVariants": 2640,
-  "lastUpdated": "2026-11-08T17:32:01.912934+00:00"
+  "totalVariants": 2642,
+  "lastUpdated": "2026-11-08T17:32:39.544013+00:00"
 }
