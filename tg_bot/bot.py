@@ -630,22 +630,70 @@ def push_catalog_to_github(catalog_rel: Path, commit_msg: str, branch: Optional[
 
 # ----------------- Commands -----------------
 
-_last_remote_sync = 0.0
+_cached_stats = {}
+_stats_lock = threading.Lock()
+
+def _refresh_stats_from_network():
+    global _cached_stats
+    stats_tmp = {}
+    try:
+        raw_std = f"https://raw.githubusercontent.com/{GITHUB_REPO}/main/catalog/data/catalog.json?t={int(time.time())}"
+        req = urllib.request.Request(raw_std, headers={"User-Agent": "H3H-Bot-Sync/1.0"})
+        with urllib.request.urlopen(req, timeout=15) as r:
+            data = json.loads(r.read().decode("utf-8"))
+            std_games = len(data.get("games", []))
+            std_vars = sum(len(g.get("variants", [])) for g in data.get("games", []))
+            std_icons = 0
+            std_icon_titles = []
+            for g in data.get("games", []):
+                icons_in_g = sum(1 for v in g.get("variants", []) if v.get("hasIcon") or v.get("iconUrl") or "icon" in v.get("style", "").lower())
+                if icons_in_g > 0:
+                    std_icons += icons_in_g
+                    std_icon_titles.append({
+                        "titleId": g.get("titleId", ""),
+                        "title": g.get("title", ""),
+                        "iconsCount": icons_in_g
+                    })
+            stats_tmp["std_games"] = std_games
+            stats_tmp["std_vars"] = std_vars
+            stats_tmp["std_icons"] = std_icons
+            stats_tmp["std_icon_games"] = len(std_icon_titles)
+            stats_tmp["std_icon_titles"] = std_icon_titles
+    except Exception as e:
+        pass
+
+    try:
+        raw_ad = f"https://raw.githubusercontent.com/{GITHUB_REPO}/main/catalog/data/catalog_after_dark.json?t={int(time.time())}"
+        req = urllib.request.Request(raw_ad, headers={"User-Agent": "H3H-Bot-Sync/1.0"})
+        with urllib.request.urlopen(req, timeout=15) as r:
+            data = json.loads(r.read().decode("utf-8"))
+            stats_tmp["ad_games"] = len(data.get("games", []))
+            stats_tmp["ad_vars"] = sum(len(g.get("variants", [])) for g in data.get("games", []))
+            stats_tmp["ad_icons"] = sum(sum(1 for v in g.get("variants", []) if v.get("hasIcon") or v.get("iconUrl")) for g in data.get("games", []))
+    except Exception as e:
+        pass
+
+    if stats_tmp.get("std_games"):
+        with _stats_lock:
+            stats_tmp["total_icons"] = stats_tmp.get("std_icons", 0) + stats_tmp.get("ad_icons", 0)
+            stats_tmp["resolver_db"] = len(resolver.games)
+            _cached_stats.update(stats_tmp)
+
+def _background_stats_syncer():
+    time.sleep(3)  # brief delay after boot
+    _refresh_stats_from_network()
+    while True:
+        time.sleep(90)  # every 90s
+        _refresh_stats_from_network()
+
+threading.Thread(target=_background_stats_syncer, daemon=True).start()
 
 def get_catalog_stats() -> dict:
-    global _last_remote_sync
-    if time.time() - _last_remote_sync > 60.0:
-        _last_remote_sync = time.time()
-        for rel_p in (CATALOG_PATH_STANDARD, CATALOG_PATH_AFTER_DARK):
-            try:
-                raw_url = f"https://raw.githubusercontent.com/{GITHUB_REPO}/main/{str(rel_p).replace(chr(92), '/')}?t={int(time.time())}"
-                req = urllib.request.Request(raw_url, headers={"User-Agent": "H3H-Bot-Sync/1.0"})
-                with urllib.request.urlopen(req, timeout=8) as r:
-                    content = r.read()
-                    if len(content) > 1000:
-                        (PROJECT_ROOT / rel_p).write_bytes(content)
-            except Exception:
-                pass
+    with _stats_lock:
+        if _cached_stats and _cached_stats.get("std_games"):
+            return dict(_cached_stats)
+
+    # Local fallback
     std_games = 0
     std_vars = 0
     std_icons = 0
@@ -705,7 +753,7 @@ def handle_status(message: types.Message):
     bot.reply_to(
         message,
         f"🤖 <b>H3H Uploader Bot Status</b>\n\n"
-        f"• <b>Версия:</b> v1.3.5-cloud\n"
+        f"• <b>Версия:</b> v1.3.6-cloud\n"
         f"• <b>Google Drive:</b> {gdrive_status}\n"
         f"• <b>Каталог H3H:</b> {stats['std_games']} игр ({stats['std_vars']} видеофонов)\n"
         f"• <b>Видеоиконки 4IFIR:</b> {stats['std_icons']} иконок ({stats['std_icon_games']} тайтлов)\n"
