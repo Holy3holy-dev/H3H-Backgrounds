@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T17:37:05.542022+00:00",
+  "updatedAt": "2026-11-08T17:44:44.253929+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -59627,9 +59627,139 @@
           "notes": "Switch 720p 30fps H264 | The Excavation of Hob's Barrow — Excavat"
         }
       ]
+    },
+    {
+      "titleId": "01007690040A0000",
+      "title": "LEGO Marvel Super Heroes 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007690040A0000.jpg",
+      "variants": [
+        {
+          "id": "v_752eac89",
+          "name": "LEGO® Marvel Super Heroes 2 — Announce Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QDWlID8ErMpL9LT3-VmnLeLwmnewzdrD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QDWlID8ErMpL9LT3-VmnLeLwmnewzdrD&sz=w640",
+          "sizeBytes": 6308498,
+          "sha256": "6A81208E3A46B4849C3446ABA2B76069BB2377A585D6A4B553363CDC32356A63",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | LEGO® Marvel Super Heroes 2 — Announce T"
+        }
+      ]
+    },
+    {
+      "titleId": "0100212019FB6000",
+      "title": "20 Minutes Till Dawn",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100212019FB6000.jpg",
+      "variants": [
+        {
+          "id": "v_d161b3fc",
+          "name": "20 Minutes Till Dawn — 1.0 Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wB3RQm79dhpmG7bJ4_b7u681VOok-BfC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wB3RQm79dhpmG7bJ4_b7u681VOok-BfC&sz=w640",
+          "sizeBytes": 7443300,
+          "sha256": "6366F527761A26D11C9F6996FF6F098CA796BFB28F04EF0DD9C5655D02DE1BA7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 20 Minutes Till Dawn — 1.0 Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A9C01FD06000",
+      "title": "Herdling",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A9C01FD06000.jpg",
+      "variants": [
+        {
+          "id": "v_4f2ff3bd",
+          "name": "Herdling — Herdling - Release Date Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1R8TXLntP-C0zPhGOQ-ZW3PWfctJKQJwM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1R8TXLntP-C0zPhGOQ-ZW3PWfctJKQJwM&sz=w640",
+          "sizeBytes": 7250413,
+          "sha256": "F96C2FDB2BC6224B23DA562B7622F5073FF8058741B2BCDC4929114576B1F947",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Herdling — Herdling - Release Date Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "010022700E7D6000",
+      "title": "FAR Lone Sails",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010022700E7D6000.jpg",
+      "variants": [
+        {
+          "id": "v_625d2f9d",
+          "name": "FAR: Lone Sails — FAR_Final_Gameplay",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pfWZ3cWUFCS5wFyL_hVYPrIJa8oQbtza",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pfWZ3cWUFCS5wFyL_hVYPrIJa8oQbtza&sz=w640",
+          "sizeBytes": 2854480,
+          "sha256": "0D5B759D13B00431797614C4EA6C27676EBDCA9CB363FCEE84CABDDE37BD5828",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | FAR: Lone Sails — FAR_Final_Gameplay"
+        }
+      ]
+    },
+    {
+      "titleId": "0100230005A52000",
+      "title": "Lovers in a Dangerous Spacetime",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100230005A52000.jpg",
+      "variants": [
+        {
+          "id": "v_f22f20ff",
+          "name": "Lovers in a Dangerous Spacetime — 4 Player Updat",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rjs_NtVM5Ma96wHbvWL_uzX621Ae5u_B",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rjs_NtVM5Ma96wHbvWL_uzX621Ae5u_B&sz=w640",
+          "sizeBytes": 9351197,
+          "sha256": "372960A7D318038AC35AC6BAA055944519C02354628996D8A07F7108EEB567FF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lovers in a Dangerous Spacetime — 4 Play"
+        }
+      ]
     }
   ],
-  "totalGames": 1272,
-  "totalVariants": 2648,
-  "lastUpdated": "2026-11-08T17:37:05.542022+00:00"
+  "totalGames": 1277,
+  "totalVariants": 2653,
+  "lastUpdated": "2026-11-08T17:44:44.253929+00:00"
 }
