@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T15:55:05.777334+00:00",
+  "updatedAt": "2026-11-08T16:01:43.270117+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -58191,9 +58191,139 @@
           "notes": "Switch 720p 30fps H264 | Retro City Rampage™ DX — Retro City Ramp"
         }
       ]
+    },
+    {
+      "titleId": "01000780260F6000",
+      "title": "Easy Delivery Co",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000780260F6000.jpg",
+      "variants": [
+        {
+          "id": "v_0fa2c5a9",
+          "name": "Easy Delivery Co. — Easy Delivery Co. | Out Now ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IjsLp0MYJ7vrLOvHEF7kCCP--55Qqdm6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IjsLp0MYJ7vrLOvHEF7kCCP--55Qqdm6&sz=w640",
+          "sizeBytes": 5196400,
+          "sha256": "C47C48FB1D5ED68D75D297D244E5CEC6C75E96B105EE49306AAEF9EC9715E948",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Easy Delivery Co. — Easy Delivery Co. | "
+        }
+      ]
+    },
+    {
+      "titleId": "0100D100273A8000",
+      "title": "Detective Stella Porta Case",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D100273A8000.jpg",
+      "variants": [
+        {
+          "id": "v_540518bd",
+          "name": "DETECTIVE - Stella Porta case — DETECTIVE Satell",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hF2ous2ekf3vlO0yfz03lNkr9_SrPvq-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hF2ous2ekf3vlO0yfz03lNkr9_SrPvq-&sz=w640",
+          "sizeBytes": 4298669,
+          "sha256": "C4269A9DEC0922900AB2341249058034785291682C16B1F31E24C672E64DF36B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | DETECTIVE - Stella Porta case — DETECTIV"
+        }
+      ]
+    },
+    {
+      "titleId": "01005E902232A000",
+      "title": "Mortal Kombat Legacy Kollection",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005E902232A000.jpg",
+      "variants": [
+        {
+          "id": "v_5a26fdbd",
+          "name": "Mortal Kombat: Legacy Kollection — Mortal Kombat",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18tcIvq7ijB8yVOuvvGffmNOGLUZy__NL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18tcIvq7ijB8yVOuvvGffmNOGLUZy__NL&sz=w640",
+          "sizeBytes": 5675507,
+          "sha256": "FE8C493FE9443578D74EF564760EDDC0FC88B3346C1859B249FC24D68C92AA9C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mortal Kombat: Legacy Kollection — Morta"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C5001DEFA000",
+      "title": "Replik Survivors",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C5001DEFA000.jpg",
+      "variants": [
+        {
+          "id": "v_b95c3446",
+          "name": "Replik Survivors — PV.01",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lZKFOH4C_fCsjUxY2ffxe0Ji0yVk7vuN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lZKFOH4C_fCsjUxY2ffxe0Ji0yVk7vuN&sz=w640",
+          "sizeBytes": 4860932,
+          "sha256": "5EFE94B2922D88B838A4FF13139FBDA88EE0BE0F71B5B8A853EBD027EBA6ADF4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Replik Survivors — PV.01"
+        }
+      ]
+    },
+    {
+      "titleId": "01001AB020A0C000",
+      "title": "Spellagis",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001AB020A0C000.jpg",
+      "variants": [
+        {
+          "id": "v_81edd16c",
+          "name": "Spellagis — Steam Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OpTnGOl09aYSp0o5Yu9DHZTqjq_PJww5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OpTnGOl09aYSp0o5Yu9DHZTqjq_PJww5&sz=w640",
+          "sizeBytes": 6804066,
+          "sha256": "04B57DC918ED9D92E3CA935D6B76969188F8BDEC9E3D30E54E98EA6A964D95CC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Spellagis — Steam Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 1232,
-  "totalVariants": 2586,
-  "lastUpdated": "2026-11-08T15:55:05.777334+00:00"
+  "totalGames": 1237,
+  "totalVariants": 2591,
+  "lastUpdated": "2026-11-08T16:01:43.270117+00:00"
 }
