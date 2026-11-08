@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T17:34:32.342231+00:00",
+  "updatedAt": "2026-11-08T17:37:05.542022+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -34749,6 +34749,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Nyx Hades | ЗВУК"
+        },
+        {
+          "id": "v_c9e7525d",
+          "name": "Achilles Hades",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1c3PCp-AeDragsu54eLRe7-wRSQ8jLe-H",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1c3PCp-AeDragsu54eLRe7-wRSQ8jLe-H&sz=w640",
+          "sizeBytes": 1646382,
+          "sha256": "0013646E7D794D639A170BF21B7AC8205156251BCC5700F29E19913DA9F79F1F",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Achilles Hades"
         }
       ]
     },
@@ -59612,6 +59630,6 @@
     }
   ],
   "totalGames": 1272,
-  "totalVariants": 2647,
-  "lastUpdated": "2026-11-08T17:34:32.342231+00:00"
+  "totalVariants": 2648,
+  "lastUpdated": "2026-11-08T17:37:05.542022+00:00"
 }
