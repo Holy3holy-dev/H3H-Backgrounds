@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T03:56:58.135449+00:00",
+  "updatedAt": "2026-11-08T04:00:29.631689+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -1317,6 +1317,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Night Camping Dark Souls III"
+        },
+        {
+          "id": "v_de1642ac",
+          "name": "Fire Keeper The Eclipse Dark Souls 3",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1th47YbGa6NwTYVoQ8xJQ8Vv6wRXV4p3L",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1th47YbGa6NwTYVoQ8xJQ8Vv6wRXV4p3L&sz=w640",
+          "sizeBytes": 4724841,
+          "sha256": "3FACDD0724E5366F39197A5D87B185E9AC453DB3D0E98D2BDF035DF9D54C6E57",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fire Keeper The Eclipse Dark Souls 3 | ЗВУК"
+        },
+        {
+          "id": "v_2ac727e9",
+          "name": "Abyss Watchers Dark Souls 3",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jPl55tCDo3wKfzhYfLeJczC61RURziRr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jPl55tCDo3wKfzhYfLeJczC61RURziRr&sz=w640",
+          "sizeBytes": 4706874,
+          "sha256": "4714D03F0B9E1955209D00E4613CD599C6247B8ABB46E54EB17F64D9BBE5F52C",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Abyss Watchers Dark Souls 3 | ЗВУК"
         }
       ]
     },
@@ -35951,6 +35987,78 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | 2B and YoRHa No.9 Type S NieR: Automata | ЗВУК"
+        },
+        {
+          "id": "v_3a361e9f",
+          "name": "2B Nier: Automata",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vI6FbnJRKJTzqhfDV46sjvy0n5pQlJXH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vI6FbnJRKJTzqhfDV46sjvy0n5pQlJXH&sz=w640",
+          "sizeBytes": 4691480,
+          "sha256": "16877CD78D43A774439FD021630CE00EEFAC035D88359D7B9B0ED482B7F51B13",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | 2B Nier: Automata"
+        },
+        {
+          "id": "v_f1ad236c",
+          "name": "YoRHa No.2 Type B Nier: Automata",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FE3vb6iaOh5M4KD3jB937sClvihTVfxv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FE3vb6iaOh5M4KD3jB937sClvihTVfxv&sz=w640",
+          "sizeBytes": 4724487,
+          "sha256": "0E5A4C4DE01C23997C86C1547FD365A4F20CE6FF4F3B8DF01B851F192DF16CE7",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | YoRHa No.2 Type B Nier: Automata"
+        },
+        {
+          "id": "v_02a6b0d2",
+          "name": "2B Vs Machine NieR: Automata",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gEi1RZDlHA5p0OXf-tpeTlADGkFrUGPB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gEi1RZDlHA5p0OXf-tpeTlADGkFrUGPB&sz=w640",
+          "sizeBytes": 4724223,
+          "sha256": "2FAAF153990CACFF81D7464E49A421E16C1A8CD646623B37425743A916308B18",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 2B Vs Machine NieR: Automata | ЗВУК"
+        },
+        {
+          "id": "v_9cd2d766",
+          "name": "NieR Automata 2B Fighting",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1r_6VBKP8DTiQDOrJ0nCYJbY-dN-xiW-K",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1r_6VBKP8DTiQDOrJ0nCYJbY-dN-xiW-K&sz=w640",
+          "sizeBytes": 4702677,
+          "sha256": "3EDE98DEFCCD0C9219894DC6D89272EA4290CA3F6DB2102D6B53608D639A1A2C",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | NieR Automata 2B Fighting | ЗВУК"
         }
       ]
     },
@@ -51240,6 +51348,6 @@
     }
   ],
   "totalGames": 1076,
-  "totalVariants": 2269,
+  "totalVariants": 2275,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
