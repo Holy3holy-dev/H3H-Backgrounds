@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T14:10:57.258226+00:00",
+  "updatedAt": "2026-11-08T14:21:11.139128+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -56371,9 +56371,139 @@
           "notes": "Switch 720p 30fps H264 | ILA: A Frosty Glide — Launch Trailer"
         }
       ]
+    },
+    {
+      "titleId": "010019B024D9A000",
+      "title": "Astonishia Story",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010019B024D9A000.jpg",
+      "variants": [
+        {
+          "id": "v_6e6cca08",
+          "name": "Astonishia Story — Announcement",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10TU0sc29qAJmxxLI-1aQ5XcvSPDQq3Nl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10TU0sc29qAJmxxLI-1aQ5XcvSPDQq3Nl&sz=w640",
+          "sizeBytes": 7494607,
+          "sha256": "31ACF62CAE5190B2FCB495A9D5D43E23E99F56DDD615F837262EEA50D46B5ADC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Astonishia Story — Announcement"
+        }
+      ]
+    },
+    {
+      "titleId": "01001480270DA000",
+      "title": "Wax Heads",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001480270DA000.jpg",
+      "variants": [
+        {
+          "id": "v_6facb733",
+          "name": "Wax Heads — Wax Heads Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZWe67LaAnEQ2mKtemkfAJ--jW_WZeGRJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZWe67LaAnEQ2mKtemkfAJ--jW_WZeGRJ&sz=w640",
+          "sizeBytes": 3950102,
+          "sha256": "34A1399F33924BCF823243E8B3BF9772D181B0EA9CE65D994CA084ED37F04B32",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wax Heads — Wax Heads Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100035024EE0000",
+      "title": "The Artifactory",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100035024EE0000.jpg",
+      "variants": [
+        {
+          "id": "v_3a45b7de",
+          "name": "The Artifactory — The Artifactory",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wS0fDMQosUPUcG1ssqTtYGhmuaLVdrvP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wS0fDMQosUPUcG1ssqTtYGhmuaLVdrvP&sz=w640",
+          "sizeBytes": 8878697,
+          "sha256": "8EDDEAE10520A09A3F08899241763E3618F11A9C741C40B02213A89D73F0CE27",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Artifactory — The Artifactory"
+        }
+      ]
+    },
+    {
+      "titleId": "01007F60253CE000",
+      "title": "Everwarder",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007F60253CE000.jpg",
+      "variants": [
+        {
+          "id": "v_d75a1bcd",
+          "name": "Everwarder — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1p0bCgMr2pefd1roDuU1gkmrGyr3a2UAX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1p0bCgMr2pefd1roDuU1gkmrGyr3a2UAX&sz=w640",
+          "sizeBytes": 6162540,
+          "sha256": "A58CCE73EB92298DF6D2EF638B297728A63385363977BAEFE558E1E45A2E70B7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Everwarder — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01008BC024FDE000",
+      "title": "Steins Gate Re Boot",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008BC024FDE000.jpg",
+      "variants": [
+        {
+          "id": "v_100ca22e",
+          "name": "STEINS;GATE RE:BOOT — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1V2DlwTvCeth9cWDm3scMb53vZJfWXQjE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1V2DlwTvCeth9cWDm3scMb53vZJfWXQjE&sz=w640",
+          "sizeBytes": 5150292,
+          "sha256": "B0B9332C8AA273969805748FA02B531D3BB33C9116A7624A84219B8C31D97389",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | STEINS;GATE RE:BOOT — Launch Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 1162,
-  "totalVariants": 2516,
-  "lastUpdated": "2026-11-08T14:10:57.258226+00:00"
+  "totalGames": 1167,
+  "totalVariants": 2521,
+  "lastUpdated": "2026-11-08T14:21:11.139128+00:00"
 }
