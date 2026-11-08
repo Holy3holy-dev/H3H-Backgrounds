@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T16:18:03.041585+00:00",
+  "updatedAt": "2026-11-08T16:25:36.263908+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -58581,9 +58581,139 @@
           "notes": "Switch 720p 30fps H264 | Captain Blood — Launch Trailer"
         }
       ]
+    },
+    {
+      "titleId": "010062800D39C000",
+      "title": "SpongeBob SquarePants: Battle for Bikini Bottom Rehydrated",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010062800D39C000.jpg",
+      "variants": [
+        {
+          "id": "v_1ba99de0",
+          "name": "SpongeBob SquarePants: Battle for Bikini Bottom ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cFXbnWxgtRDXzad5Nk1oO8u5DhoXzeTm",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cFXbnWxgtRDXzad5Nk1oO8u5DhoXzeTm&sz=w640",
+          "sizeBytes": 9621210,
+          "sha256": "D8EA02A3BB6CB741AE49AB78FF813180434178C2E023EF62F4B65F3E3E825782",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | SpongeBob SquarePants: Battle for Bikini"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B2002330E000",
+      "title": "Mandragora: Whispers of the Witch Tree",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B2002330E000.jpg",
+      "variants": [
+        {
+          "id": "v_579bd20a",
+          "name": "Mandragora: Whispers of the Witch Tree — Update ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GLMCtcFcWjhm_DOu-vMq1MMdGkyTNlRG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GLMCtcFcWjhm_DOu-vMq1MMdGkyTNlRG&sz=w640",
+          "sizeBytes": 3113362,
+          "sha256": "C0C45D72AB04385937CBB24402C39765AB1D68756FBD31F7F700A6A4EC9650EC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mandragora: Whispers of the Witch Tree —"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E5E01FAAE000",
+      "title": "River City Saga Three Kingdoms",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E5E01FAAE000.jpg",
+      "variants": [
+        {
+          "id": "v_2f9f12a5",
+          "name": "River City Saga: Three Kingdoms — KUNIOSAN_OP_EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MQgA54fDG-_RqtIjPdHBarO6AdSx82ih",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MQgA54fDG-_RqtIjPdHBarO6AdSx82ih&sz=w640",
+          "sizeBytes": 5611134,
+          "sha256": "DD53D7FF52A78508FC16557F2B45AF5100A563D85C435B392DBDF627BCE1825E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | River City Saga: Three Kingdoms — KUNIOS"
+        }
+      ]
+    },
+    {
+      "titleId": "01001B1019F64000",
+      "title": "Blade of Darkness",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001B1019F64000.jpg",
+      "variants": [
+        {
+          "id": "v_a5e9bc4a",
+          "name": "Blade of Darkness — New Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Uj0mVEwjFdxHgNzgfy15EVe9gT-5lgWZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Uj0mVEwjFdxHgNzgfy15EVe9gT-5lgWZ&sz=w640",
+          "sizeBytes": 6572808,
+          "sha256": "5F6456F7D2F12515AE2D57C58F985330D7F22A74CCE8EBAEBC95609BB6D23F65",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Blade of Darkness — New Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D4600D0E4000",
+      "title": "Descenders",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D4600D0E4000.jpg",
+      "variants": [
+        {
+          "id": "v_f87ef9cc",
+          "name": "Descenders — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1i6ucYXRzQxnlU2Fuqjs3xfR5MFLtbSY6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1i6ucYXRzQxnlU2Fuqjs3xfR5MFLtbSY6&sz=w640",
+          "sizeBytes": 10982013,
+          "sha256": "DD85F84BC660E0893BD40DC06CAE32BA89D7D1333DC0424274384C27C0C9D542",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Descenders — Launch Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 1247,
-  "totalVariants": 2601,
-  "lastUpdated": "2026-11-08T16:18:03.041585+00:00"
+  "totalGames": 1252,
+  "totalVariants": 2606,
+  "lastUpdated": "2026-11-08T16:25:36.263908+00:00"
 }
