@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T13:42:49.241144+00:00",
+  "updatedAt": "2026-11-08T13:48:52.216126+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -55851,9 +55851,139 @@
           "notes": "Switch 720p 30fps H264 | Flora & Fang: Guardians of the vampire g"
         }
       ]
+    },
+    {
+      "titleId": "0100F08026D0C000",
+      "title": "Dragon Quest Monsters the Withered World",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F08026D0C000.jpg",
+      "variants": [
+        {
+          "id": "v_c635ae00",
+          "name": "DRAGON QUEST MONSTERS: The Withered World — TGS_",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KMzuxFDXYJUKZxyNvKaYjoa05VqaxHiF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KMzuxFDXYJUKZxyNvKaYjoa05VqaxHiF&sz=w640",
+          "sizeBytes": 3167693,
+          "sha256": "F0902FE820D820694934D807FC7B112846C58AD354B99F400C1CC6A40237121C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | DRAGON QUEST MONSTERS: The Withered Worl"
+        }
+      ]
+    },
+    {
+      "titleId": "0100622020F5A000",
+      "title": "Clockwork Rabbit",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100622020F5A000.jpg",
+      "variants": [
+        {
+          "id": "v_fe89f787",
+          "name": "Clockwork Rabbit — Clockwork Rabbit - Official M",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KNcSiQv5HN_Ngpy0r5NJe54_Cxjo_bKW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KNcSiQv5HN_Ngpy0r5NJe54_Cxjo_bKW&sz=w640",
+          "sizeBytes": 2477103,
+          "sha256": "81FFA4799ABFE4D54C6638C9720FF6075F15B953A605439F61B27AB42EB0231F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Clockwork Rabbit — Clockwork Rabbit - Of"
+        }
+      ]
+    },
+    {
+      "titleId": "01002AD01BEB0000",
+      "title": "Barbarian Saga the Beastmaster",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002AD01BEB0000.jpg",
+      "variants": [
+        {
+          "id": "v_cde3dae7",
+          "name": "Barbarian Saga: The Beastmaster — Coming soon tr",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-I_FNH1OmGbjsbuMBBPww4_U7IJ8jRk8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-I_FNH1OmGbjsbuMBBPww4_U7IJ8jRk8&sz=w640",
+          "sizeBytes": 6831040,
+          "sha256": "FACBE401441DAD154E3E1DC3A5554FB92F46B9F334C3B5024CB802FE9C66BDAF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Barbarian Saga: The Beastmaster — Coming"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CB0027CEE000",
+      "title": "Earth Must Die",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CB0027CEE000.jpg",
+      "variants": [
+        {
+          "id": "v_77b9fdec",
+          "name": "Earth Must Die — Announce Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14KsZQ9REBTg3iHN4_CClynV7xHGvDNjA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14KsZQ9REBTg3iHN4_CClynV7xHGvDNjA&sz=w640",
+          "sizeBytes": 4435876,
+          "sha256": "3D36D24ADC924AA133D539F9B46A974EB6A506984A80C07E2273505427D194BF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Earth Must Die — Announce Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010040B0270A2000",
+      "title": "Dragon Quest Heroes: Torneko's Mystery Dungeon Classic HD",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010040B0270A2000.jpg",
+      "variants": [
+        {
+          "id": "v_146a91c4",
+          "name": "Dragon Quest Heroes: Torneko's Mystery Dungeon -",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1e3kBZo7jINmimvqVPf9ToZ06DCTt9lnP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1e3kBZo7jINmimvqVPf9ToZ06DCTt9lnP&sz=w640",
+          "sizeBytes": 7674099,
+          "sha256": "23CAE5CF162FBB4DBD97F717C76701A31276FFE065DF2347FF1B9B0C2CEA9AF2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dragon Quest Heroes: Torneko's Mystery D"
+        }
+      ]
     }
   ],
-  "totalGames": 1142,
-  "totalVariants": 2496,
-  "lastUpdated": "2026-11-08T13:42:49.241144+00:00"
+  "totalGames": 1147,
+  "totalVariants": 2501,
+  "lastUpdated": "2026-11-08T13:48:52.216126+00:00"
 }
