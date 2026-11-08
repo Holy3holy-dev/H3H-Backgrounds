@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T12:55:58.947760+00:00",
+  "updatedAt": "2026-11-08T13:01:30.966304+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -55071,9 +55071,139 @@
           "notes": "Switch 720p 30fps H264 | Manairons — Official launch trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100156029766000",
+      "title": "The Zibbo Show",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100156029766000.jpg",
+      "variants": [
+        {
+          "id": "v_3a73094c",
+          "name": "The Zibbo Show — The Zibbo Show - Reveal trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eNnH_C-ZQUBMjDtfBZVnSytbSXNFNJ5r",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eNnH_C-ZQUBMjDtfBZVnSytbSXNFNJ5r&sz=w640",
+          "sizeBytes": 10802841,
+          "sha256": "3535A34564B4FBB78DF6600A02E5E4BA9298ABEBEB1C57EBA26D3A082CB67023",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Zibbo Show — The Zibbo Show - Reveal"
+        }
+      ]
+    },
+    {
+      "titleId": "01005A7022A32000",
+      "title": "Love Ghostie",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005A7022A32000.jpg",
+      "variants": [
+        {
+          "id": "v_a878d6d7",
+          "name": "Love, Ghostie — Love, Ghostie - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=146BmgQM2wassoPELzbn1IxIPZyJrdVAx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=146BmgQM2wassoPELzbn1IxIPZyJrdVAx&sz=w640",
+          "sizeBytes": 1469548,
+          "sha256": "0E5E531C51A21799CCE5BE80450B4F3485E2CB43E3BD9D1C4F9DCF8043D84D06",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Love, Ghostie — Love, Ghostie - Launch T"
+        }
+      ]
+    },
+    {
+      "titleId": "010032A025C8A000",
+      "title": "King's Blade",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010032A025C8A000.jpg",
+      "variants": [
+        {
+          "id": "v_c4c317a6",
+          "name": "King's Blade — King's Blade - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11QjMbY1qeTiwZ2_h-_d15Wh_8MXaWFCV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11QjMbY1qeTiwZ2_h-_d15Wh_8MXaWFCV&sz=w640",
+          "sizeBytes": 10678697,
+          "sha256": "8D3467C47CAF901B5931B1FCBF8556711F3802F0DF6FE90FC53FCE1363E019C9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | King's Blade — King's Blade - Launch Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "0100091028782000",
+      "title": "The Merlies",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100091028782000.jpg",
+      "variants": [
+        {
+          "id": "v_f8015c39",
+          "name": "The Merlies — The Merlies - release trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NFf4fbLUCXKm3uSJQOf3hybUCu1upEVS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NFf4fbLUCXKm3uSJQOf3hybUCu1upEVS&sz=w640",
+          "sizeBytes": 5224339,
+          "sha256": "39041AAF862431040EF84589DB53A68290D694CCDA2A41F96F0E37902C4674EA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Merlies — The Merlies - release trai"
+        }
+      ]
+    },
+    {
+      "titleId": "010005B02556E000",
+      "title": "Anomaly Pools",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010005B02556E000.jpg",
+      "variants": [
+        {
+          "id": "v_219e5a36",
+          "name": "Backrooms Anomaly: Pools — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=116aj9kGLXXaq0RL6EqU7klVXm8fjgNOz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=116aj9kGLXXaq0RL6EqU7klVXm8fjgNOz&sz=w640",
+          "sizeBytes": 3559530,
+          "sha256": "4258E5338E2DCA5E14D71BBA0243D96E41AB5E987915A447FAF9284B4C9305D2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Backrooms Anomaly: Pools — Gameplay Trai"
+        }
+      ]
     }
   ],
-  "totalGames": 1112,
-  "totalVariants": 2466,
-  "lastUpdated": "2026-11-08T12:55:58.947760+00:00"
+  "totalGames": 1117,
+  "totalVariants": 2471,
+  "lastUpdated": "2026-11-08T13:01:30.966304+00:00"
 }
