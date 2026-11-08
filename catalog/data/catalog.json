@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T18:03:36.394110+00:00",
+  "updatedAt": "2026-11-08T18:11:44.048106+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -60147,9 +60147,139 @@
           "notes": "Switch 720p 30fps H264 | ATOM RPG Trudograd — Trudograd Release T"
         }
       ]
+    },
+    {
+      "titleId": "0100E98002F6E000",
+      "title": "Mantis Burn Racing",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E98002F6E000.jpg",
+      "variants": [
+        {
+          "id": "v_f76e7239",
+          "name": "Mantis Burn Racing® — Mantis Burn Racing® - Batt",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ICVk-uA05-nYnCfVYNpLivSHZmIIoPOJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ICVk-uA05-nYnCfVYNpLivSHZmIIoPOJ&sz=w640",
+          "sizeBytes": 8967091,
+          "sha256": "8DA89084969D35F714C087F4AC252403294F5F3A5E808EFD421CA470611A9342",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mantis Burn Racing® — Mantis Burn Racing"
+        }
+      ]
+    },
+    {
+      "titleId": "010001000EB0C000",
+      "title": "Circuit Superstars",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010001000EB0C000.jpg",
+      "variants": [
+        {
+          "id": "v_7ed707bf",
+          "name": "Circuit Superstars — 2023 Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ns4TA-DkFnnqnd5tGRbBD2TQ-3WOo1tA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ns4TA-DkFnnqnd5tGRbBD2TQ-3WOo1tA&sz=w640",
+          "sizeBytes": 11055717,
+          "sha256": "4602E21184E1638594C9DC83C9D09D74A078E5D68746ECF417C5EF39C2AFEDEC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Circuit Superstars — 2023 Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01007CB025C58000",
+      "title": "Volcano Princess",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007CB025C58000.jpg",
+      "variants": [
+        {
+          "id": "v_4228a499",
+          "name": "Volcano Princess — FINAL_EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jmSBGniwsm9jwMCehAYkW5KsGA-9PKz8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jmSBGniwsm9jwMCehAYkW5KsGA-9PKz8&sz=w640",
+          "sizeBytes": 4738524,
+          "sha256": "BD65D45A354D745E77A588061033B93421AD95DA5562E160C72DF878251762EB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Volcano Princess — FINAL_EN"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C450254D6000",
+      "title": "Dunjungle",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C450254D6000.jpg",
+      "variants": [
+        {
+          "id": "v_e98cad17",
+          "name": "Dunjungle — Dunjungle - 1.0 Out Now",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZZSPCb0dZVgXpLzlYEh8xcpvkRrtmoDG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZZSPCb0dZVgXpLzlYEh8xcpvkRrtmoDG&sz=w640",
+          "sizeBytes": 10009287,
+          "sha256": "E81C9CF47F4DF6A16EB8839286006F2354994A1A752B38113DD8FF9BB1EF6F4A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dunjungle — Dunjungle - 1.0 Out Now"
+        }
+      ]
+    },
+    {
+      "titleId": "01003F7020A7C000",
+      "title": "K-Pop Idol Stories Road to Debut",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003F7020A7C000.jpg",
+      "variants": [
+        {
+          "id": "v_96743eb5",
+          "name": "K-pop Idol Stories: Road to Debut — K-pop Idol S",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LA8tnouLz2_1sGJ89G776uoZghy_O8ms",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LA8tnouLz2_1sGJ89G776uoZghy_O8ms&sz=w640",
+          "sizeBytes": 6935214,
+          "sha256": "A5C6672279BE0611179688CA3F89AC3964F6FFCAC3E424AC918139C99A6F842A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | K-pop Idol Stories: Road to Debut — K-po"
+        }
+      ]
     }
   ],
-  "totalGames": 1292,
-  "totalVariants": 2668,
-  "lastUpdated": "2026-11-08T18:03:36.394110+00:00"
+  "totalGames": 1297,
+  "totalVariants": 2673,
+  "lastUpdated": "2026-11-08T18:11:44.048106+00:00"
 }
