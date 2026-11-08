@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T15:17:10.785052+00:00",
+  "updatedAt": "2026-11-08T15:25:21.359584+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -57541,9 +57541,139 @@
           "notes": "Switch 720p 30fps H264 | Young Souls — Young Souls - Announcement"
         }
       ]
+    },
+    {
+      "titleId": "0100783020A1A000",
+      "title": "Kynseed",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100783020A1A000.jpg",
+      "variants": [
+        {
+          "id": "v_0f946af1",
+          "name": "Kynseed — Kynseed - updated and ready to enterta",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1sXLIJ_AefLdqFYLJ8rNmLT1kPaw9CRvh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1sXLIJ_AefLdqFYLJ8rNmLT1kPaw9CRvh&sz=w640",
+          "sizeBytes": 7524859,
+          "sha256": "C5629A913B938964D56EC72E58021A8706D375DB9362C8B77A84646DB567E755",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kynseed — Kynseed - updated and ready to"
+        }
+      ]
+    },
+    {
+      "titleId": "01004F4024504000",
+      "title": "Culdcept Begins",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004F4024504000.jpg",
+      "variants": [
+        {
+          "id": "v_7972c057",
+          "name": "Culdcept BEGINS — 1st Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10f3MtLaQkaF_i8C6P6RjtyW3mUMXmtRk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10f3MtLaQkaF_i8C6P6RjtyW3mUMXmtRk&sz=w640",
+          "sizeBytes": 6936422,
+          "sha256": "25BEA649CA5A663D94B5CF432D01713CE852DD581D3D65750F40DBB4608A15C5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Culdcept BEGINS — 1st Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010099902841A000",
+      "title": "Bomcat",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010099902841A000.jpg",
+      "variants": [
+        {
+          "id": "v_b1a6ffd5",
+          "name": "BOMCAT — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RHxE4EmSVHxRCOctAg2aYqwmpwc2I6eA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RHxE4EmSVHxRCOctAg2aYqwmpwc2I6eA&sz=w640",
+          "sizeBytes": 5504657,
+          "sha256": "1F3251B32E5BEB81211FF5CE92186C82DC82740C6BA9547BD7DD23DF4C192A22",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | BOMCAT — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01004A101F3F6000",
+      "title": "Helix Descent n Ascent",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004A101F3F6000.jpg",
+      "variants": [
+        {
+          "id": "v_403e0150",
+          "name": "Helix: Descent N Ascent — Helix: Descent N Ascen",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cU1tZAwrodO3mZx6JOsqZZ569K2jfUXC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cU1tZAwrodO3mZx6JOsqZZ569K2jfUXC&sz=w640",
+          "sizeBytes": 7205792,
+          "sha256": "E8289AC9AA52DB72915565DD70E8158BB3897D628EF7517B9DAFE721CDA81361",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Helix: Descent N Ascent — Helix: Descent"
+        }
+      ]
+    },
+    {
+      "titleId": "010071F0228CA000",
+      "title": "Labyrinth of the Demon King",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010071F0228CA000.jpg",
+      "variants": [
+        {
+          "id": "v_5bd1149e",
+          "name": "Labyrinth Of The Demon King — TopHatTrailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1y4gIWkEib8y_GpirVWTRfRJkYJsLrCN3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1y4gIWkEib8y_GpirVWTRfRJkYJsLrCN3&sz=w640",
+          "sizeBytes": 10033659,
+          "sha256": "BE6E87922D63B6755423947F298E9D2F39987B206F4EBBD5A785F0B11454687E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Labyrinth Of The Demon King — TopHatTrai"
+        }
+      ]
     }
   ],
-  "totalGames": 1207,
-  "totalVariants": 2561,
-  "lastUpdated": "2026-11-08T15:17:10.785052+00:00"
+  "totalGames": 1212,
+  "totalVariants": 2566,
+  "lastUpdated": "2026-11-08T15:25:21.359584+00:00"
 }
