@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T04:35:22.945774+00:00",
+  "updatedAt": "2026-11-08T04:47:34.841752+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -14381,6 +14381,24 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_2cc05654",
+          "name": "Greninja Pokemon",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1L_v5eY_uy4U4AdGuXsVNPTAQ0T2ARPY-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1L_v5eY_uy4U4AdGuXsVNPTAQ0T2ARPY-&sz=w640",
+          "sizeBytes": 4748761,
+          "sha256": "9B5DAAFEDB4DB4DDD86687098178AF1D7CD59EE4121D6D46F7E2C8ACA0AF7352",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Greninja Pokemon"
         }
       ]
     },
@@ -21218,6 +21236,96 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "SteamGridDB Animated Hero: 01007F600B134000_Assassin_s_Creed_III_Remastered___Libera.mp4"
+        },
+        {
+          "id": "v_3333759d",
+          "name": "Raiden Girl Metal Gear",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zz2NIA34hlI_wrqTnEdshkpo9Nmy6aiz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zz2NIA34hlI_wrqTnEdshkpo9Nmy6aiz&sz=w640",
+          "sizeBytes": 4740359,
+          "sha256": "EF41D4426498C6C3EA462EEDD471CC34A23DFE8B3EFD3AF9CDF310373557C7F0",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Raiden Girl Metal Gear | ЗВУК"
+        },
+        {
+          "id": "v_50ac22ed",
+          "name": "Cyborg Ninja Raiden Metal Gear Rising Re",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1JqQ-bF_YQOBwsH3cI1YoZbA0SDeNnw70",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1JqQ-bF_YQOBwsH3cI1YoZbA0SDeNnw70&sz=w640",
+          "sizeBytes": 4724473,
+          "sha256": "4C515779B1D4F668737C9E29AE54AE4A1BE769BEA77D0583E4512DE3FFA284E6",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cyborg Ninja Raiden Metal Gear Rising Re | ЗВУК"
+        },
+        {
+          "id": "v_5fc0fd18",
+          "name": "Raiden Black And White Metal Gear Rising",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mKu5PHiHPqd3p60S70Jy7nAmBC25F2bQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mKu5PHiHPqd3p60S70Jy7nAmBC25F2bQ&sz=w640",
+          "sizeBytes": 4672110,
+          "sha256": "8398AFB30D475F1607DFCA007C913C85FE470AD11347071A1DA5C8766914E263",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Raiden Black And White Metal Gear Rising | ЗВУК"
+        },
+        {
+          "id": "v_95cddd87",
+          "name": "Raiden Crimson Blade Metal Gear Rising R",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rV2TGFkpNXP2ix7qUcLcBtkuFSW-Fq3V",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rV2TGFkpNXP2ix7qUcLcBtkuFSW-Fq3V&sz=w640",
+          "sizeBytes": 4713927,
+          "sha256": "A23F05D1A9EF16B681B82573A2CA76E1FCDCF5189ECC918D88CEAB7ED11FD946",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Raiden Crimson Blade Metal Gear Rising R | ЗВУК"
+        },
+        {
+          "id": "v_11aec047",
+          "name": "Raiden Jack Metal Gear Rising: Revengean",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cOJBqpRemsshNwHWjmOhbuvyXcXmnjIF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cOJBqpRemsshNwHWjmOhbuvyXcXmnjIF&sz=w640",
+          "sizeBytes": 4699119,
+          "sha256": "32553F7DA70C7AFEADDEA49535DFE692D68BC815366B10B520F26851184FEF22",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Raiden Jack Metal Gear Rising: Revengean | ЗВУК"
         }
       ]
     },
@@ -52176,6 +52284,6 @@
     }
   ],
   "totalGames": 1076,
-  "totalVariants": 2321,
+  "totalVariants": 2327,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
