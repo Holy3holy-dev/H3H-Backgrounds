@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T04:30:50.536853+00:00",
+  "updatedAt": "2026-11-08T04:35:22.945774+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -6786,6 +6786,60 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Minecraft Cherry Tree Garden | ЗВУК"
+        },
+        {
+          "id": "v_b7f1c828",
+          "name": "Minecraft Fireflies Forest",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KC5yAsPLPOgvn0dyBMjLsdOeinObFUgz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KC5yAsPLPOgvn0dyBMjLsdOeinObFUgz&sz=w640",
+          "sizeBytes": 4744489,
+          "sha256": "000EFC9C91FEFFE386803A5F75C6B2C41F5E0F52A67888FF86729F9652716604",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Minecraft Fireflies Forest | ЗВУК"
+        },
+        {
+          "id": "v_c9889c3c",
+          "name": "Minecraft Lake Night",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mKuBkduTe9dQPeWiONc5VdUAlbWQ0qlN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mKuBkduTe9dQPeWiONc5VdUAlbWQ0qlN&sz=w640",
+          "sizeBytes": 4702070,
+          "sha256": "A4B181E8F6CB3AE9FB50F2DE705B26413CBF566C6C17BE6B2B63F92AF65DB4CE",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Minecraft Lake Night | ЗВУК"
+        },
+        {
+          "id": "v_021756f9",
+          "name": "Minecraft Autumn Sunset",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1f89y9dmfGTONbdCLl6LQXbml-MSdyVoP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1f89y9dmfGTONbdCLl6LQXbml-MSdyVoP&sz=w640",
+          "sizeBytes": 4710533,
+          "sha256": "1949786A093C6F6D43B69A2FAC7E0A4D9AA27B30F15748662C0FD701FAE8E387",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Minecraft Autumn Sunset | ЗВУК"
         }
       ]
     },
@@ -7628,6 +7682,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Deltarune | ЗВУК"
+        },
+        {
+          "id": "v_cedc28b3",
+          "name": "Sans In The Snow Forest Undertale",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15CJ6c1wF9bitiPUQD2mR9OtXCQfEjTFq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15CJ6c1wF9bitiPUQD2mR9OtXCQfEjTFq&sz=w640",
+          "sizeBytes": 4690786,
+          "sha256": "A548BB7AD1DB66637EF0AF3CEFFE868C1E6CCBE76A401F2DFA9FB2416B39DE78",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sans In The Snow Forest Undertale | ЗВУК"
+        },
+        {
+          "id": "v_7d3f7cad",
+          "name": "Waterfall Undertale Landscape",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Eb0QlebsWNMTO-hQloKZXeW0kEFqn2rs",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Eb0QlebsWNMTO-hQloKZXeW0kEFqn2rs&sz=w640",
+          "sizeBytes": 4678488,
+          "sha256": "B89CB00F0C37CF83B5E1A193B76AB67DAFA930FA2323D5C7AEBD135260A9F8F7",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Waterfall Undertale Landscape | ЗВУК"
         }
       ]
     },
@@ -52086,6 +52176,6 @@
     }
   ],
   "totalGames": 1076,
-  "totalVariants": 2316,
+  "totalVariants": 2321,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
