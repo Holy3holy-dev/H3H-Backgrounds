@@ -16873,10 +16873,66 @@
     "https://moewalls.com/games/wolf-medallion-the-witcher-3-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2021/wolf-medallion-the-witcher-3-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/yorha-no2b-nier-automata-preview.webm": {
+      "title": "YoRHa No.2B Nier: Automata",
+      "titleId": "01005C000B2AE000",
+      "gameName": "NieR:Automata",
+      "varId": "v_2e17f2e2",
+      "driveId": "1BQjZ9KGPkNmQ4JsOM7WNIfO7qd5YC_ht",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/yorha-no-2b-nier-automata-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/yorha-no2b-nier-automata-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/yorha-no2-type-b-nier-automata-preview.webm": {
+      "title": "YoRHa No.2 Type B NieR: Automata",
+      "titleId": "01005C000B2AE000",
+      "gameName": "NieR:Automata",
+      "varId": "v_a01de13a",
+      "driveId": "1LS90XNx2sR8uy84LwmGKq9IodT-bumkE",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/yorha-no-2-type-b-nier-automata-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/yorha-no2-type-b-nier-automata-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/2b-sword-nier-automata-preview.webm": {
+      "title": "2B Sword NieR: Automata",
+      "titleId": "01005C000B2AE000",
+      "gameName": "NieR:Automata",
+      "varId": "v_6ec30853",
+      "driveId": "1UDIoILpvj3yutPvZD313twn4JfHZtVvk",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/2b-sword-nier-automata-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/2b-sword-nier-automata-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/2b-nier-automata-preview.webm": {
+      "title": "2B NieR: Automata",
+      "titleId": "01005C000B2AE000",
+      "gameName": "NieR:Automata",
+      "varId": "v_1d944a60",
+      "driveId": "1m0x7M5eoeXmOGjaQoOCw8HR2FNRfTHmK",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/2b-nier-automata-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/2b-nier-automata-preview.webm"
     }
   },
-  "total_harvested": 2350,
-  "last_updated": "2026-11-08T07:11:01.770738+00:00",
+  "total_harvested": 2358,
+  "last_updated": "2026-11-08T07:13:04.520251+00:00",
   "page_cursors": {
     "tag:tears-of-the-kingdom": 1,
     "tag:the-legend-of-zelda": 2,
@@ -16930,11 +16986,11 @@
     "bayonetta": 2,
     "luigi mansion": 1,
     "king boo": 1,
-    "persona 5": 2,
+    "persona 5": 1,
     "tag:persona-3": 1,
     "persona 3": 1,
     "tag:persona-4": 1,
-    "persona 4": 1,
+    "persona 4": 2,
     "tag:dark-souls-iii": 1,
     "artorias": 1,
     "tag:skyrim": 1,
@@ -17096,8 +17152,8 @@
     "gris": 1,
     "tag:the-witcher-3-wild-hunt": 2,
     "tag:nier-automata": 2,
-    "tag:nier": 2,
-    "nier automata": 2,
+    "tag:nier": 1,
+    "nier automata": 3,
     "tag:dark-souls": 2,
     "bonfire dark souls": 2,
     "tag:the-elder-scrolls": 2,
@@ -17143,8 +17199,12 @@
     "alan wake": 2,
     "tag:doki-doki-literature-club": 2,
     "tag:the-witcher": 2,
-    "tag:geralt-of-rivia": 2
+    "tag:geralt-of-rivia": 2,
+    "tag:ciri": 2,
+    "witcher 3": 2,
+    "tag:persona-5": 2,
+    "tag:persona": 2
   },
   "query_cursor": 0,
-  "priority_cursor": 56
+  "priority_cursor": 68
 }

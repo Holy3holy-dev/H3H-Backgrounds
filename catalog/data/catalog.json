@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T07:11:01.778273+00:00",
+  "updatedAt": "2026-11-08T07:13:04.528040+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -37247,6 +37247,78 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | NieR Automata 2B Fighting | ЗВУК"
+        },
+        {
+          "id": "v_2e17f2e2",
+          "name": "YoRHa No.2B Nier: Automata",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BQjZ9KGPkNmQ4JsOM7WNIfO7qd5YC_ht",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BQjZ9KGPkNmQ4JsOM7WNIfO7qd5YC_ht&sz=w640",
+          "sizeBytes": 4741839,
+          "sha256": "CC470BA255B364CAC7B9B8787C736D0BDB19B651DD04E3402BD84984C585524B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | YoRHa No.2B Nier: Automata | ЗВУК"
+        },
+        {
+          "id": "v_a01de13a",
+          "name": "YoRHa No.2 Type B NieR: Automata",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LS90XNx2sR8uy84LwmGKq9IodT-bumkE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LS90XNx2sR8uy84LwmGKq9IodT-bumkE&sz=w640",
+          "sizeBytes": 4702854,
+          "sha256": "E0BFCCB2E0FF02C1233EDF53672683CCA7A6DA9F8F5B9C6B9044EE0598F03E3B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | YoRHa No.2 Type B NieR: Automata | ЗВУК"
+        },
+        {
+          "id": "v_6ec30853",
+          "name": "2B Sword NieR: Automata",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UDIoILpvj3yutPvZD313twn4JfHZtVvk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UDIoILpvj3yutPvZD313twn4JfHZtVvk&sz=w640",
+          "sizeBytes": 4705930,
+          "sha256": "04B1BE84DCEFAD11D9FE6DE053D128CDD7357BC04256DECAAE587CEADDA88A21",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 2B Sword NieR: Automata | ЗВУК"
+        },
+        {
+          "id": "v_1d944a60",
+          "name": "2B NieR: Automata",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1m0x7M5eoeXmOGjaQoOCw8HR2FNRfTHmK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1m0x7M5eoeXmOGjaQoOCw8HR2FNRfTHmK&sz=w640",
+          "sizeBytes": 4725613,
+          "sha256": "E8D0FEFD363A6143004EC4672C9445062E402FE4A7D6F78B8B8E26E30057B503",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 2B NieR: Automata | ЗВУК"
         }
       ]
     },
@@ -53160,6 +53232,6 @@
     }
   ],
   "totalGames": 1082,
-  "totalVariants": 2373,
+  "totalVariants": 2377,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
