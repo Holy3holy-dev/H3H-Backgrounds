@@ -16313,10 +16313,52 @@
     "https://moewalls.com/games/ghostrunner-2-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2023/ghostrunner-2-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2026/alan-wake-2-exit-preview.webm": {
+      "title": "Alan Wake 2 Exit",
+      "titleId": "010066E016522000",
+      "gameName": "Alan Wake Remastered",
+      "varId": "v_40ecc99b",
+      "driveId": "1A9qYYAg8yZuz4APB02e6iNP-YWBSXA6s",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/alan-wake-2-exit-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2026/alan-wake-2-exit-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2025/cauldron-lake-alan-wake-2-preview.webm": {
+      "title": "Cauldron Lake Alan Wake 2",
+      "titleId": "010066E016522000",
+      "gameName": "Alan Wake Remastered",
+      "varId": "v_4275c731",
+      "driveId": "1Xxv0wrIfHK-YGcuQMTtWvRq_N_qgrXjg",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/cauldron-lake-alan-wake-2-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2025/cauldron-lake-alan-wake-2-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2025/dark-forest-shelter-alan-wake-2-preview.webm": {
+      "title": "Dark Forest Shelter Alan Wake 2",
+      "titleId": "010066E016522000",
+      "gameName": "Alan Wake Remastered",
+      "varId": "v_d3dd1236",
+      "driveId": "1PP8E4-mKHir06Wi0cDSc5UxU7uTr-tyI",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/dark-forest-shelter-alan-wake-2-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2025/dark-forest-shelter-alan-wake-2-preview.webm"
     }
   },
-  "total_harvested": 2270,
-  "last_updated": "2026-11-08T04:54:14.139638+00:00",
+  "total_harvested": 2276,
+  "last_updated": "2026-11-08T04:57:37.382188+00:00",
   "page_cursors": {
     "tag:tears-of-the-kingdom": 1,
     "tag:the-legend-of-zelda": 2,
@@ -16491,8 +16533,19 @@
     "darkest dungeon": 1,
     "tag:slay-the-spire": 1,
     "slay the spire": 1,
-    "tag:risk-of-rain": 1
+    "tag:risk-of-rain": 1,
+    "risk of rain 2": 1,
+    "risk of rain": 1,
+    "tag:factorio": 1,
+    "factorio": 1,
+    "tag:dont-starve": 1,
+    "dont starve": 1,
+    "tag:crysis": 1,
+    "crysis": 1,
+    "tag:alan-wake": 1,
+    "tag:danganronpa": 1,
+    "danganronpa": 1
   },
   "query_cursor": 0,
-  "priority_cursor": 252
+  "priority_cursor": 264
 }

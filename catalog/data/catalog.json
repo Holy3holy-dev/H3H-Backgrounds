@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T04:54:14.148453+00:00",
+  "updatedAt": "2026-11-08T04:57:37.389582+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -52413,9 +52413,71 @@
           "notes": "Switch 720p 30fps H264 | Ghostrunner 2"
         }
       ]
+    },
+    {
+      "titleId": "010066E016522000",
+      "title": "Alan Wake Remastered",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010066E016522000.jpg",
+      "variants": [
+        {
+          "id": "v_40ecc99b",
+          "name": "Alan Wake 2 Exit",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1A9qYYAg8yZuz4APB02e6iNP-YWBSXA6s",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1A9qYYAg8yZuz4APB02e6iNP-YWBSXA6s&sz=w640",
+          "sizeBytes": 4201857,
+          "sha256": "D563A69A722EF5BD9C228BE7E64FFD696A97917B26E2E13D53C57201069B7BAB",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Alan Wake 2 Exit | ЗВУК"
+        },
+        {
+          "id": "v_4275c731",
+          "name": "Cauldron Lake Alan Wake 2",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Xxv0wrIfHK-YGcuQMTtWvRq_N_qgrXjg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Xxv0wrIfHK-YGcuQMTtWvRq_N_qgrXjg&sz=w640",
+          "sizeBytes": 4687196,
+          "sha256": "F025349AB0FD1F7FD52C4CD464621D9F983E239319C2E0992B1681C057D2B908",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cauldron Lake Alan Wake 2 | ЗВУК"
+        },
+        {
+          "id": "v_d3dd1236",
+          "name": "Dark Forest Shelter Alan Wake 2",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PP8E4-mKHir06Wi0cDSc5UxU7uTr-tyI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PP8E4-mKHir06Wi0cDSc5UxU7uTr-tyI&sz=w640",
+          "sizeBytes": 4724717,
+          "sha256": "2A758A4A86632A7C82143909821CD338928F8936744F135F992B51807C348317",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dark Forest Shelter Alan Wake 2 | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 1079,
-  "totalVariants": 2333,
+  "totalGames": 1080,
+  "totalVariants": 2336,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
