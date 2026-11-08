@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T11:33:50.641477+00:00",
+  "updatedAt": "2026-11-08T12:17:32.716167+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -54291,9 +54291,139 @@
           "notes": "Switch 720p 30fps H264 | Aqua Kingdom Hearts | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "01004990172B0000",
+      "title": "Sifu",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004990172B0000.jpg",
+      "variants": [
+        {
+          "id": "v_c9281807",
+          "name": "Sifu — Sifu Reveal Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_cj0O4Y9f4Eq0yGATXgGzi4qEFe6ATp7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_cj0O4Y9f4Eq0yGATXgGzi4qEFe6ATp7&sz=w640",
+          "sizeBytes": 5388791,
+          "sha256": "2CD9D8460B2EDC4AD667754A1A4ACDD313F8F7EB2228CCD524BB8DDBD65A03D8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sifu — Sifu Reveal Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01004E9013A66000",
+      "title": "NINJA GAIDEN: Master Collection",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004E9013A66000.jpg",
+      "variants": [
+        {
+          "id": "v_6d3d7dd5",
+          "name": "NINJA GAIDEN 4 — Accolades",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WXizK4Fkfzwq_8tPcM_x7i416rPDQyRl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WXizK4Fkfzwq_8tPcM_x7i416rPDQyRl&sz=w640",
+          "sizeBytes": 10536219,
+          "sha256": "F88AD49A24110AEB0C742180CDD401440FC0AD10F1A3F2E45EEF208E4EBA7F15",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | NINJA GAIDEN 4 — Accolades"
+        }
+      ]
+    },
+    {
+      "titleId": "010099F003C4E000",
+      "title": "Darkest Dungeon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010099F003C4E000.jpg",
+      "variants": [
+        {
+          "id": "v_b280e46a",
+          "name": "Darkest Dungeon® — Official Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zbyEhLREAON5Wt7qGXbAiu_NuQV9hXGO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zbyEhLREAON5Wt7qGXbAiu_NuQV9hXGO&sz=w640",
+          "sizeBytes": 5866066,
+          "sha256": "F133C6F82D0214BFD08043B9B47978056273512DAB02BAD25BD1F23A5DFA642C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Darkest Dungeon® — Official Release Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "01005F600B3C2000",
+      "title": "Slay the Spire",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005F600B3C2000.jpg",
+      "variants": [
+        {
+          "id": "v_71985f1e",
+          "name": "Slay the Spire 2 — Slay the Spire 2 - Early Acce",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10VvopzUwqEI4fndlWkGU1pz2Vipn0-w6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10VvopzUwqEI4fndlWkGU1pz2Vipn0-w6&sz=w640",
+          "sizeBytes": 3282364,
+          "sha256": "0E13FC7DED33EFB23B9C8EA9C523CBDC35073D8FDC0392BDDD347ECDAE526747",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Slay the Spire 2 — Slay the Spire 2 - Ea"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E4A00CBCE000",
+      "title": "Risk of Rain 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E4A00CBCE000.jpg",
+      "variants": [
+        {
+          "id": "v_c7c14d47",
+          "name": "Risk of Rain 2 — CU6 - English - No Rating",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=129pHl5cST0pZMBz5BDYtrveGKcOOpaIL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=129pHl5cST0pZMBz5BDYtrveGKcOOpaIL&sz=w640",
+          "sizeBytes": 9930794,
+          "sha256": "CE1E1E4671F32BC7D372DA822B75BE81FE0A765014F0514FD9BB0EBD663C2527",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Risk of Rain 2 — CU6 - English - No Rati"
+        }
+      ]
     }
   ],
-  "totalGames": 1082,
-  "totalVariants": 2436,
-  "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
+  "totalGames": 1087,
+  "totalVariants": 2441,
+  "lastUpdated": "2026-11-08T12:17:32.716167+00:00"
 }
