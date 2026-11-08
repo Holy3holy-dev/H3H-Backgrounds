@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T16:38:06.816258+00:00",
+  "updatedAt": "2026-11-08T16:44:32.755106+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -58971,9 +58971,139 @@
           "notes": "Switch 720p 30fps H264 | Lucky Tower Ultimate — 1.0 Launch Traile"
         }
       ]
+    },
+    {
+      "titleId": "0100FB701C48C000",
+      "title": "Tale of Immortal",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FB701C48C000.jpg",
+      "variants": [
+        {
+          "id": "v_0102df79",
+          "name": "鬼谷八荒 Tale of Immortal — Destiny & Eccentrics EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Gsa5J8mr5wme2ku5X0ucSPXpB5g53WXP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Gsa5J8mr5wme2ku5X0ucSPXpB5g53WXP&sz=w640",
+          "sizeBytes": 6784646,
+          "sha256": "4FF191679AA03FA9F6A3BE743D1DCB18E60A4481A1967A01D864B697F3AFDD81",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 鬼谷八荒 Tale of Immortal — Destiny & Eccent"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D72021796000",
+      "title": "PAW Patrol Rescue Wheels Championship",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D72021796000.jpg",
+      "variants": [
+        {
+          "id": "v_4764a64e",
+          "name": "PAW Patrol™ Rescue Wheels™: Championship — Launc",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BNyPaY51kSP6fdcZgLBa7L3NBuLb3Gal",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BNyPaY51kSP6fdcZgLBa7L3NBuLb3Gal&sz=w640",
+          "sizeBytes": 10518189,
+          "sha256": "72EF8F10BC55327E5E871196541BC18E52DFDC9FFE16C7151C36D7D09F22EEC9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | PAW Patrol™ Rescue Wheels™: Championship"
+        }
+      ]
+    },
+    {
+      "titleId": "01004420177DA000",
+      "title": "Tales of the Neon Sea",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004420177DA000.jpg",
+      "variants": [
+        {
+          "id": "v_493425f6",
+          "name": "Tales of the Neon Sea — Final Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1P0pvuuIFW5A7AVnAQ-EeqxrW87lL_vIU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1P0pvuuIFW5A7AVnAQ-EeqxrW87lL_vIU&sz=w640",
+          "sizeBytes": 1879418,
+          "sha256": "AE6FFFB1BCD99BCBD9FC2C448B2961D713AFF76CD8091488DFE4CB81FE9695BE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tales of the Neon Sea — Final Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010045E012ECE000",
+      "title": "Greak Memories of Azur",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010045E012ECE000.jpg",
+      "variants": [
+        {
+          "id": "v_b46fbc12",
+          "name": "Greak: Memories of Azur — Accolades Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19eOm9IySlcV0x3SmFuO5sRNHxD92BfiG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19eOm9IySlcV0x3SmFuO5sRNHxD92BfiG&sz=w640",
+          "sizeBytes": 5166807,
+          "sha256": "8C40B72A4B946B12D442A6090294C2C3204CA00A9A07FE0F2DFCDAB70D7C2AB9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Greak: Memories of Azur — Accolades Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "0100ED100B160000",
+      "title": "Evoland Legendary edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100ED100B160000.jpg",
+      "variants": [
+        {
+          "id": "v_493eec56",
+          "name": "Evoland Legendary Edition — Evoland Legendary Ed",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mc034AEwi73A6jg-ohhFri_kfiLPgCXS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mc034AEwi73A6jg-ohhFri_kfiLPgCXS&sz=w640",
+          "sizeBytes": 5107313,
+          "sha256": "AC825F8411C8899B7A8DE9878CE61030FF2F79418C38872ABBFCFEFF083FC7FB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Evoland Legendary Edition — Evoland Lege"
+        }
+      ]
     }
   ],
-  "totalGames": 1262,
-  "totalVariants": 2616,
-  "lastUpdated": "2026-11-08T16:38:06.816258+00:00"
+  "totalGames": 1267,
+  "totalVariants": 2621,
+  "lastUpdated": "2026-11-08T16:44:32.755106+00:00"
 }
