@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T23:27:07.534493+00:00",
+  "updatedAt": "2026-11-08T03:45:17.809281+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -2066,6 +2066,78 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | After The Rain Legend Of Zelda: Breath O | ЗВУК"
+        },
+        {
+          "id": "v_dd79e75f",
+          "name": "Link Constellations The Legend Of Zelda:",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RfdTgopRfpt4Gwgk7RqYM8rAKP14lmJc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RfdTgopRfpt4Gwgk7RqYM8rAKP14lmJc&sz=w640",
+          "sizeBytes": 4725980,
+          "sha256": "98BF2F49F1C6B53EAA63DBA9EC172788EC5571B38F64D860C235234B73E610B2",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Link Constellations The Legend Of Zelda: | ЗВУК"
+        },
+        {
+          "id": "v_cf2add5b",
+          "name": "Link Vs Guardians The Legend Of Zelda: B",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qkgMpj86FYEMNeC7jOj9ZzqmOnSARVky",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qkgMpj86FYEMNeC7jOj9ZzqmOnSARVky&sz=w640",
+          "sizeBytes": 4720304,
+          "sha256": "5424BEE4B1B1D3D100C0BB55B5EFDAC3F8F69E9E37A01376E4A31F576036A42A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Link Vs Guardians The Legend Of Zelda: B | ЗВУК"
+        },
+        {
+          "id": "v_52f1fadf",
+          "name": "Link Crossbow The Legend Of Zelda: Breat",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mc8HRJQcT2L8anXxC0Be1QZaJJUnyytr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mc8HRJQcT2L8anXxC0Be1QZaJJUnyytr&sz=w640",
+          "sizeBytes": 4738312,
+          "sha256": "A7C227213964CA40C05575CD2998B30F6A6BDED4C77210D7D1309F3600C7A40F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Link Crossbow The Legend Of Zelda: Breat | ЗВУК"
+        },
+        {
+          "id": "v_92986582",
+          "name": "Link And Zelda Resting The Legend Of Zel",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IdXpZr4wPXE3pIY2lsEiZjworOB7GiZB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IdXpZr4wPXE3pIY2lsEiZjworOB7GiZB&sz=w640",
+          "sizeBytes": 4432519,
+          "sha256": "84659904E66EEC009F1974E35D638F7CB77560DE7510E7B98D5FB72CD5B2D7FB",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Link And Zelda Resting The Legend Of Zel | ЗВУК"
         }
       ]
     },
@@ -51060,6 +51132,6 @@
     }
   ],
   "totalGames": 1076,
-  "totalVariants": 2259,
+  "totalVariants": 2263,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
