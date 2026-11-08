@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T13:01:30.966304+00:00",
+  "updatedAt": "2026-11-08T13:13:06.126432+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -55201,9 +55201,139 @@
           "notes": "Switch 720p 30fps H264 | Backrooms Anomaly: Pools — Gameplay Trai"
         }
       ]
+    },
+    {
+      "titleId": "0100D9D028292000",
+      "title": "Puppergeist",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D9D028292000.jpg",
+      "variants": [
+        {
+          "id": "v_4618481f",
+          "name": "Puppergeist — Puppergeist - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17MsBwKYfiakqMXtWOLLnOfQIuYeBfWvY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17MsBwKYfiakqMXtWOLLnOfQIuYeBfWvY&sz=w640",
+          "sizeBytes": 3814580,
+          "sha256": "ECE7AFDF0161E52B06D32C3B95F9A554E770C499BB7FB2F80153E6D795BD538F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Puppergeist — Puppergeist - Launch Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "0100727028694000",
+      "title": "Neko Odyssey",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100727028694000.jpg",
+      "variants": [
+        {
+          "id": "v_f08488b5",
+          "name": "Neko Odyssey — Demo Out Now",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ymz0-rl5du3LacJVgiUqsvLrITe--8R3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ymz0-rl5du3LacJVgiUqsvLrITe--8R3&sz=w640",
+          "sizeBytes": 2408826,
+          "sha256": "88A49D0532654268A57940A1CBD0B1FF6318963B58452BD846F83D00781DDD76",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Neko Odyssey — Demo Out Now"
+        }
+      ]
+    },
+    {
+      "titleId": "01007CD025ADE000",
+      "title": "Mr Sleepy Man",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007CD025ADE000.jpg",
+      "variants": [
+        {
+          "id": "v_d51b0ac7",
+          "name": "Mr. Sleepy Man — Mr. Sleepy Man is OUT NOW!",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QlTNTN2kO0NbgyNXe0djQ01SSwtQqbJJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QlTNTN2kO0NbgyNXe0djQ01SSwtQqbJJ&sz=w640",
+          "sizeBytes": 9795361,
+          "sha256": "03721109E30418303D483878798FA1A66CE308959690CC8879E6EE82F3BEE192",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mr. Sleepy Man — Mr. Sleepy Man is OUT N"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C97022ABC000",
+      "title": "The Posthumous Investigation",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C97022ABC000.jpg",
+      "variants": [
+        {
+          "id": "v_c665a527",
+          "name": "The Posthumous Investigation — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oLgIyPyCFyy0uC8jYk3ufxeF88qpiNub",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oLgIyPyCFyy0uC8jYk3ufxeF88qpiNub&sz=w640",
+          "sizeBytes": 4154702,
+          "sha256": "8E4D88D9F4066F3F76A1A64DAE7B4A862C18110E6ADE5859A59076B96A3FB722",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Posthumous Investigation — Launch Tr"
+        }
+      ]
+    },
+    {
+      "titleId": "010063302712A000",
+      "title": "Fountains",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010063302712A000.jpg",
+      "variants": [
+        {
+          "id": "v_e7cb7f78",
+          "name": "FOUNTAINS — DLC Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10ENiPuiflCxdWEB-DhNhelTrx4UngpZZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10ENiPuiflCxdWEB-DhNhelTrx4UngpZZ&sz=w640",
+          "sizeBytes": 5193974,
+          "sha256": "841F9D3C9E8B39D50F57E5522971620D0EDB591C3558C90975C90378177E1122",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | FOUNTAINS — DLC Launch Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 1117,
-  "totalVariants": 2471,
-  "lastUpdated": "2026-11-08T13:01:30.966304+00:00"
+  "totalGames": 1122,
+  "totalVariants": 2476,
+  "lastUpdated": "2026-11-08T13:13:06.126432+00:00"
 }
