@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T04:57:37.389582+00:00",
+  "updatedAt": "2026-11-08T05:03:00.174303+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -52475,9 +52475,35 @@
           "notes": "Switch 720p 30fps H264 | Dark Forest Shelter Alan Wake 2 | ЗВУК"
         }
       ]
+    },
+    {
+      "titleId": "01005A7013EA0000",
+      "title": "Doki Doki Literature Club Plus!",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005A7013EA0000.jpg",
+      "variants": [
+        {
+          "id": "v_43f10766",
+          "name": "Doki Doki Literature Club!",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IyHDOvo0Sel-XWsBbdfphvdlNL_vt_Nc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IyHDOvo0Sel-XWsBbdfphvdlNL_vt_Nc&sz=w640",
+          "sizeBytes": 4690669,
+          "sha256": "889FEED60AC43295F54871C2364579617EF4BCE4C9A4DEBB1B72EB6482217612",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Doki Doki Literature Club! | ЗВУК"
+        }
+      ]
     }
   ],
-  "totalGames": 1080,
-  "totalVariants": 2336,
+  "totalGames": 1081,
+  "totalVariants": 2337,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
