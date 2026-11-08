@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T12:46:49.445435+00:00",
+  "updatedAt": "2026-11-08T12:55:58.947760+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -54941,9 +54941,139 @@
           "notes": "Switch 720p 30fps H264 | SULFUR — 1.0 SULFUR Release Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100FD501F95A000",
+      "title": "Viractal Will You Trust Your Party",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FD501F95A000.jpg",
+      "variants": [
+        {
+          "id": "v_a45dab64",
+          "name": "Viractal: Will You Trust Your Party? — Viractal ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZKszOLsKqtbZcbeHSiEr5Em_ZhMBycQF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZKszOLsKqtbZcbeHSiEr5Em_ZhMBycQF&sz=w640",
+          "sizeBytes": 8333588,
+          "sha256": "3DE10CBCE20C721C2F19A8E7DC907BDBD6979E2D9F97F526721F50BFA5441B99",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Viractal: Will You Trust Your Party? — V"
+        }
+      ]
+    },
+    {
+      "titleId": "010090C022978000",
+      "title": "Kingdom Hearts HD 1.5",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010090C022978000.jpg",
+      "variants": [
+        {
+          "id": "v_74f6aaa9",
+          "name": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX- — PEGI EN Laun",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mtKQsxWslnEjQtKjF5akBcl7lwtYhHJd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mtKQsxWslnEjQtKjF5akBcl7lwtYhHJd&sz=w640",
+          "sizeBytes": 5414840,
+          "sha256": "189DBBD950B51A411FB5239B0BB4E5C38472EA10D22DA9AA4696375DA4B4DCA6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | KINGDOM HEARTS -HD 1.5+2.5 ReMIX- — PEGI"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D400244D4000",
+      "title": "Kong Survivor Instinct",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D400244D4000.jpg",
+      "variants": [
+        {
+          "id": "v_6ebb9db5",
+          "name": "Kong: Survivor Instinct — Kong: Survivor Instinc",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RGaKM13Z4zmP95wSQXmFQBuPInLJErMe",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RGaKM13Z4zmP95wSQXmFQBuPInLJErMe&sz=w640",
+          "sizeBytes": 9935002,
+          "sha256": "8DE26D1FBD23C5278F931D3DDBBA2BE9652F1D8E9C5075B5CD36419C1BA1F807",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kong: Survivor Instinct — Kong: Survivor"
+        }
+      ]
+    },
+    {
+      "titleId": "010076D01F49C000",
+      "title": "Stories from the Outbreak",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010076D01F49C000.jpg",
+      "variants": [
+        {
+          "id": "v_07c29526",
+          "name": "Stories from the Outbreak — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GhiCjka0qjSqb-nLQDK1jcByEs4q03pS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GhiCjka0qjSqb-nLQDK1jcByEs4q03pS&sz=w640",
+          "sizeBytes": 4980300,
+          "sha256": "E270A333AFC2BA29B16D2A4A797231594D2BFDA4401C14B259ABEAD04B231F50",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Stories from the Outbreak — Gameplay Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "010012802925C000",
+      "title": "Manairons",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010012802925C000.jpg",
+      "variants": [
+        {
+          "id": "v_bf32fe46",
+          "name": "Manairons — Official launch trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_MdyD5h_PzW6S5VBv_vuVQbQO7Cl0CVG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_MdyD5h_PzW6S5VBv_vuVQbQO7Cl0CVG&sz=w640",
+          "sizeBytes": 6780370,
+          "sha256": "8206CE8584F7C6A429811F1887777A9FE17193D549156A987739482287089DD3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Manairons — Official launch trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 1107,
-  "totalVariants": 2461,
-  "lastUpdated": "2026-11-08T12:46:49.445435+00:00"
+  "totalGames": 1112,
+  "totalVariants": 2466,
+  "lastUpdated": "2026-11-08T12:55:58.947760+00:00"
 }
