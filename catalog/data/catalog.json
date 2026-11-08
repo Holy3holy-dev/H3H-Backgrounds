@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T17:28:07.288533+00:00",
+  "updatedAt": "2026-11-08T17:29:01.664565+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -6102,6 +6102,24 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_cd29fd66",
+          "name": "Monado Xenoblade Chronicles",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1JVAyp_2JwVVSzBaSkk9GPPZJ0lfzshLJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1JVAyp_2JwVVSzBaSkk9GPPZJ0lfzshLJ&sz=w640",
+          "sizeBytes": 4050641,
+          "sha256": "8E4860D3E895DD8D8A413F21FCCA831D10567B2E8160BB55894BD43605651D7E",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Monado Xenoblade Chronicles"
         }
       ]
     },
@@ -59360,6 +59378,6 @@
     }
   ],
   "totalGames": 1272,
-  "totalVariants": 2633,
-  "lastUpdated": "2026-11-08T17:28:07.288533+00:00"
+  "totalVariants": 2634,
+  "lastUpdated": "2026-11-08T17:29:01.664565+00:00"
 }
