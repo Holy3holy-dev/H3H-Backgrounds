@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T14:42:48.029439+00:00",
+  "updatedAt": "2026-11-08T14:50:50.098328+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -56891,9 +56891,139 @@
           "notes": "Switch 720p 30fps H264 | Pets Survivors — Pets Survivors Trailer"
         }
       ]
+    },
+    {
+      "titleId": "01007E101479A000",
+      "title": "The Life and Suffering of Sir Brante",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007E101479A000.jpg",
+      "variants": [
+        {
+          "id": "v_11752cfc",
+          "name": "The Life and Suffering of Sir Brante — Announcem",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Hh7MUuQQU-W1y91piTUDsRSq_vR3UkoU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Hh7MUuQQU-W1y91piTUDsRSq_vR3UkoU&sz=w640",
+          "sizeBytes": 8753096,
+          "sha256": "52370AD139026914B4DC24707C63B269210276BEEA95F7C23342EFAC45763492",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Life and Suffering of Sir Brante — A"
+        }
+      ]
+    },
+    {
+      "titleId": "01006ED025A74000",
+      "title": "Shard Squad",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006ED025A74000.jpg",
+      "variants": [
+        {
+          "id": "v_f8322cd9",
+          "name": "Shard Squad — Update Evo Trailer - Eng",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13AGK4mGdlLP7vMXynECovr_kWMQWmTli",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13AGK4mGdlLP7vMXynECovr_kWMQWmTli&sz=w640",
+          "sizeBytes": 10972926,
+          "sha256": "4C8312853F316773E681812E337C406506EE91CF241FAB41A4ED21010CE7621C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Shard Squad — Update Evo Trailer - Eng"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A2301BDE8000",
+      "title": "Luxor Evolved",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A2301BDE8000.jpg",
+      "variants": [
+        {
+          "id": "v_267262dc",
+          "name": "Luxor Evolved — Luxor Evolved Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10hZSziBuosfsRezpc20xITeKBoHEtn1x",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10hZSziBuosfsRezpc20xITeKBoHEtn1x&sz=w640",
+          "sizeBytes": 11186624,
+          "sha256": "F30C99F00E94D313C90AF708AFC954EB6AA9D3AB0C68412349DF4D33C66C9F52",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Luxor Evolved — Luxor Evolved Gameplay T"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C6D027354000",
+      "title": "Peppered an Existential Platformer",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C6D027354000.jpg",
+      "variants": [
+        {
+          "id": "v_5150f4fd",
+          "name": "PEPPERED: an existential platformer — PEPPERED T",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Sgmgu3Aq57EXBcvvk5ERAyBuR_sD2i6O",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Sgmgu3Aq57EXBcvvk5ERAyBuR_sD2i6O&sz=w640",
+          "sizeBytes": 4440460,
+          "sha256": "D8FF8CF01698B7C439C6431A0E2AD29567EFAF4B1872B2EA81E477B5CB9196B2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | PEPPERED: an existential platformer — PE"
+        }
+      ]
+    },
+    {
+      "titleId": "010025F0249CE000",
+      "title": "Montabi",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010025F0249CE000.jpg",
+      "variants": [
+        {
+          "id": "v_ea56c5a9",
+          "name": "Montabi — Gameplay Highlight",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11tKCoXsZ62BxZ6C8Tb12tgm7RN8TNE2L",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11tKCoXsZ62BxZ6C8Tb12tgm7RN8TNE2L&sz=w640",
+          "sizeBytes": 4895515,
+          "sha256": "9AAB4F3E69C6FCA5B8161D1D5CFFE6CC3E2D3A86216EBCB1F5EBA7567EFFD53A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Montabi — Gameplay Highlight"
+        }
+      ]
     }
   ],
-  "totalGames": 1182,
-  "totalVariants": 2536,
-  "lastUpdated": "2026-11-08T14:42:48.029439+00:00"
+  "totalGames": 1187,
+  "totalVariants": 2541,
+  "lastUpdated": "2026-11-08T14:50:50.098328+00:00"
 }
