@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T13:13:06.126432+00:00",
+  "updatedAt": "2026-11-08T13:23:02.971384+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -55331,9 +55331,139 @@
           "notes": "Switch 720p 30fps H264 | FOUNTAINS — DLC Launch Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100A7C01B792000",
+      "title": "Minecraft Dungeons II",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A7C01B792000.jpg",
+      "variants": [
+        {
+          "id": "v_35919704",
+          "name": "Minecraft Dungeons II — MINECRAFT DUNGEONS II | ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AN3REqGPIezImx73sjbVJXKbFny-j9Vu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AN3REqGPIezImx73sjbVJXKbFny-j9Vu&sz=w640",
+          "sizeBytes": 8813089,
+          "sha256": "1466355DE922F54D10291483F6FFA7D49BC282229CF74A6D10BC26009915DD5A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Minecraft Dungeons II — MINECRAFT DUNGEO"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CE4026B60000",
+      "title": "Farming Camp",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CE4026B60000.jpg",
+      "variants": [
+        {
+          "id": "v_1d6f9441",
+          "name": "Farming Camp — Farming Camp - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UsdI5Z_GKZtY5UQCIEnKzur50GGDnZ9N",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UsdI5Z_GKZtY5UQCIEnKzur50GGDnZ9N&sz=w640",
+          "sizeBytes": 2611965,
+          "sha256": "1BCA387E9D7B20133433AF109F0F719DE6D3E9DC4AB603AB120BBA35C8EF3503",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Farming Camp — Farming Camp - Launch Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "01000BC021FF2000",
+      "title": "Blades and Battles",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000BC021FF2000.jpg",
+      "variants": [
+        {
+          "id": "v_3fdc6415",
+          "name": "Blades & Battles — Release date trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16iYvOc0AEsxKCgXtCEKZ9FXIIKI4GDeJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16iYvOc0AEsxKCgXtCEKZ9FXIIKI4GDeJ&sz=w640",
+          "sizeBytes": 8769619,
+          "sha256": "D541DAAC1F921633BB6806C13258ED449B6C7894D3990CA217038205CEBB6CBC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Blades & Battles — Release date trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01000EB0276F2000",
+      "title": "Garfield Escape from Monday",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000EB0276F2000.jpg",
+      "variants": [
+        {
+          "id": "v_6f5d514d",
+          "name": "Garfield - Escape from Monday — Garfield - Escap",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1P-IHods9qO_RUEPsfCJi_ycsTCZLXV1A",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1P-IHods9qO_RUEPsfCJi_ycsTCZLXV1A&sz=w640",
+          "sizeBytes": 7292359,
+          "sha256": "11821F5E63A786DCBC41018332B68A6C6B08B9B4306D9B0F31E5083329D89D14",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Garfield - Escape from Monday — Garfield"
+        }
+      ]
+    },
+    {
+      "titleId": "01001AA022B66000",
+      "title": "Tentacle Tango",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001AA022B66000.jpg",
+      "variants": [
+        {
+          "id": "v_8622fbec",
+          "name": "Tentacle Tango — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Rsd_rdfME7y5O0fUTIQwg3B0hKLo9jJZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Rsd_rdfME7y5O0fUTIQwg3B0hKLo9jJZ&sz=w640",
+          "sizeBytes": 5754998,
+          "sha256": "31B76AB77496A4F0543813DDDE7CC87F40FF34FE64779312DEF7088BDDCDBDE2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tentacle Tango — Launch Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 1122,
-  "totalVariants": 2476,
-  "lastUpdated": "2026-11-08T13:13:06.126432+00:00"
+  "totalGames": 1127,
+  "totalVariants": 2481,
+  "lastUpdated": "2026-11-08T13:23:02.971384+00:00"
 }
