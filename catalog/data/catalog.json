@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T05:21:36.804839+00:00",
+  "updatedAt": "2026-11-08T05:25:15.986080+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -1353,6 +1353,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Abyss Watchers Dark Souls 3 | ЗВУК"
+        },
+        {
+          "id": "v_b983f8ea",
+          "name": "Siegward Of Catarina Dark Souls 3",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1R3sj8_pFAl7K30xQbRnSMyX73zw4JJhc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1R3sj8_pFAl7K30xQbRnSMyX73zw4JJhc&sz=w640",
+          "sizeBytes": 4640494,
+          "sha256": "477572F77F4C1FDA0BB6894B81A75A07FB7244E00AE38937002FD6340DEE210E",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Siegward Of Catarina Dark Souls 3 | ЗВУК"
+        },
+        {
+          "id": "v_4aa55720",
+          "name": "Pontiff Sulyvahn Dark Souls 3",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12Dwg_fflum4x2nsdCwS6S2qwTnTcISyV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12Dwg_fflum4x2nsdCwS6S2qwTnTcISyV&sz=w640",
+          "sizeBytes": 4758933,
+          "sha256": "537AEA1E65C705D64AEA2967A69D65C86A9A4E4FFE5BCA5D98239D8DEDDEBD6B",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Pontiff Sulyvahn Dark Souls 3 | ЗВУК"
         }
       ]
     },
@@ -52612,6 +52648,6 @@
     }
   ],
   "totalGames": 1081,
-  "totalVariants": 2343,
+  "totalVariants": 2345,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }

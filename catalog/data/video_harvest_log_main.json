@@ -16453,10 +16453,38 @@
     "https://moewalls.com/games/ciri-the-witcher-3-wild-hunt-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2021/ciri-the-witcher-3-wild-hunt-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/siegward-of-catarina-dark-souls-3-preview.webm": {
+      "title": "Siegward Of Catarina Dark Souls 3",
+      "titleId": "01004AB00A260000",
+      "gameName": "Dark Souls: Remastered",
+      "varId": "v_b983f8ea",
+      "driveId": "1R3sj8_pFAl7K30xQbRnSMyX73zw4JJhc",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/siegward-of-catarina-dark-souls-3-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/siegward-of-catarina-dark-souls-3-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/pontiff-sulyvahn-dark-souls-3-preview.webm": {
+      "title": "Pontiff Sulyvahn Dark Souls 3",
+      "titleId": "01004AB00A260000",
+      "gameName": "Dark Souls: Remastered",
+      "varId": "v_4aa55720",
+      "driveId": "12Dwg_fflum4x2nsdCwS6S2qwTnTcISyV",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/pontiff-sulyvahn-dark-souls-3-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/pontiff-sulyvahn-dark-souls-3-preview.webm"
     }
   },
-  "total_harvested": 2290,
-  "last_updated": "2026-11-08T05:21:36.797878+00:00",
+  "total_harvested": 2294,
+  "last_updated": "2026-11-08T05:25:15.979192+00:00",
   "page_cursors": {
     "tag:tears-of-the-kingdom": 1,
     "tag:the-legend-of-zelda": 1,
@@ -16514,10 +16542,10 @@
     "tag:persona-3": 1,
     "persona 3": 1,
     "tag:persona-4": 1,
-    "persona 4": 2,
+    "persona 4": 1,
     "tag:dark-souls-iii": 1,
-    "artorias": 2,
-    "tag:skyrim": 2,
+    "artorias": 1,
+    "tag:skyrim": 1,
     "tag:red-dead-redemption": 1,
     "tag:doom-slayer": 2,
     "doom eternal": 2,
@@ -16674,8 +16702,15 @@
     "xenomorph": 1,
     "tag:gris": 1,
     "gris": 1,
-    "tag:the-witcher-3-wild-hunt": 2
+    "tag:the-witcher-3-wild-hunt": 2,
+    "tag:nier-automata": 2,
+    "tag:nier": 2,
+    "nier automata": 2,
+    "tag:dark-souls": 2,
+    "bonfire dark souls": 2,
+    "tag:the-elder-scrolls": 2,
+    "skyrim": 2
   },
   "query_cursor": 0,
-  "priority_cursor": 64
+  "priority_cursor": 76
 }
