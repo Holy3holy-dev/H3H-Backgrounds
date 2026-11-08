@@ -15823,10 +15823,94 @@
     "https://moewalls.com/games/raiden-mortal-kombat-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2021/raiden-mortal-kombat-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/ryu-vs-ken-street-fighter-iii-3rd-strike-preview.webm": {
+      "title": "Ryu Vs Ken Street Fighter III: 3rd Strik",
+      "titleId": "0100C960066EE000",
+      "gameName": "Street Fighter 30th Anniversary Collection",
+      "varId": "v_e116fdab",
+      "driveId": "17El4Vs2lwP3sSv5wYK_AfWfjmxIcULkL",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/ryu-vs-ken-street-fighter-iii-3rd-strike-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/ryu-vs-ken-street-fighter-iii-3rd-strike-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2021/ryu-street-fighter-preview.webm": {
+      "title": "Ryu Street Fighter",
+      "titleId": "0100C960066EE000",
+      "gameName": "Street Fighter 30th Anniversary Collection",
+      "varId": "v_cdc072cf",
+      "driveId": "1LYyKJ2HRvzN6sxDO0dtXAlOzbnGxV0_C",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/ryu-street-fighter-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2021/ryu-street-fighter-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/dva-and-tracer-overwatch-preview.webm": {
+      "title": "Dva And Tracer Overwatch",
+      "titleId": "010031D00D59C000",
+      "gameName": "Overwatch 2",
+      "varId": "v_a1b261c6",
+      "driveId": "18WF_4cWVPIU1YKsMVfeSFcJxQue_qv-N",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/dva-and-tracer-overwatch-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/dva-and-tracer-overwatch-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/sombra-hacking-overwatch-preview.webm": {
+      "title": "Sombra Hacking Overwatch",
+      "titleId": "010031D00D59C000",
+      "gameName": "Overwatch 2",
+      "varId": "v_1c87f093",
+      "driveId": "1-PNwQcnTGsMqrY6mEqsWK9ng9_Ki-Iaz",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/sombra-hacking-overwatch-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/sombra-hacking-overwatch-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/mercy-overwatch-2-preview.webm": {
+      "title": "Mercy Overwatch",
+      "titleId": "010031D00D59C000",
+      "gameName": "Overwatch 2",
+      "varId": "v_a91f0456",
+      "driveId": "1LU8uxexf8yx2wkptLC0pWjjJeR8-pXwQ",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/mercy-overwatch-4-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/mercy-overwatch-2-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/mercy-overwatch-preview.webm": {
+      "title": "Mercy Overwatch",
+      "titleId": "010031D00D59C000",
+      "gameName": "Overwatch 2",
+      "varId": "v_47a84830",
+      "driveId": "1j0p8JaelY22YrEJQRqSD_DTFWV_HCDL3",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/mercy-overwatch-3-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/mercy-overwatch-preview.webm"
     }
   },
-  "total_harvested": 2200,
-  "last_updated": "2026-11-08T04:18:45.666685+00:00",
+  "total_harvested": 2212,
+  "last_updated": "2026-11-08T04:22:36.656129+00:00",
   "page_cursors": {
     "tag:tears-of-the-kingdom": 1,
     "tag:the-legend-of-zelda": 2,
@@ -15915,8 +15999,11 @@
     "no mans sky": 1,
     "tag:subnautica": 2,
     "subnautica": 2,
-    "mortal kombat": 2
+    "mortal kombat": 2,
+    "street fighter": 2,
+    "tag:guilty-gear": 1,
+    "guilty gear": 1
   },
   "query_cursor": 0,
-  "priority_cursor": 132
+  "priority_cursor": 144
 }
