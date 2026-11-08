@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T07:28:04.961322+00:00",
+  "updatedAt": "2026-11-08T07:29:58.670802+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -19753,6 +19753,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Travis Scott Fortnite | ЗВУК"
+        },
+        {
+          "id": "v_0a566f15",
+          "name": "Fortnite Hit The Road",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=127lCuP2shtVgbWksOJTxmIUk6kwbya9_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=127lCuP2shtVgbWksOJTxmIUk6kwbya9_&sz=w640",
+          "sizeBytes": 4694661,
+          "sha256": "FA1BB1BCB92EC097E0F017CDFA0FD5506896D6E1B0669153FCC2D8A5E98B09FC",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fortnite Hit The Road | ЗВУК"
+        },
+        {
+          "id": "v_5071f04d",
+          "name": "Fortnite Raven",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eLMH1tqB43BjnlxvAOyl5Y6FyG03RmV_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eLMH1tqB43BjnlxvAOyl5Y6FyG03RmV_&sz=w640",
+          "sizeBytes": 4649319,
+          "sha256": "EA9D500E5096F6ED4F49A6CAE10B9E0A3F377AB263429E3C3C84BD4DCF63BC24",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Fortnite Raven"
         }
       ]
     },
@@ -26139,6 +26175,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Volt Prime Warframe | ЗВУК"
+        },
+        {
+          "id": "v_ec1cd41a",
+          "name": "Rhino Warframe",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=152ssOrsmqac4F-1M-o_PEKK99hRlyXEk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=152ssOrsmqac4F-1M-o_PEKK99hRlyXEk&sz=w640",
+          "sizeBytes": 4493021,
+          "sha256": "59F0FD6924543113A3E6250E06461E59972C73ACAA85DFA1E369BFB2121A5324",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rhino Warframe | ЗВУК"
+        },
+        {
+          "id": "v_ceac8824",
+          "name": "Nekros Prime Warframe",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-PqtThxeTBJC_5ewKYDRuQ02hzadHOIR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-PqtThxeTBJC_5ewKYDRuQ02hzadHOIR&sz=w640",
+          "sizeBytes": 4747707,
+          "sha256": "F2A7507E85989CE31C6D8F1FF86DCE4D3F9A6A16E86800CA13E03A10A816ECB7",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Nekros Prime Warframe | ЗВУК"
         }
       ]
     },
@@ -53448,6 +53520,6 @@
     }
   ],
   "totalGames": 1082,
-  "totalVariants": 2389,
+  "totalVariants": 2393,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }

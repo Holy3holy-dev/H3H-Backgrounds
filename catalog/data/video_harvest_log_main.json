@@ -17097,10 +17097,66 @@
     "https://moewalls.com/games/dva-in-hanamura-overwatch-live-wallpaper/": {
       "page": true,
       "vid": "https://moewalls.com/wp-content/uploads/preview/2022/dva-in-hanamura-overwatch-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2021/rhino-warframe-preview.webm": {
+      "title": "Rhino Warframe",
+      "titleId": "0100A250097F0000",
+      "gameName": "Warframe",
+      "varId": "v_ec1cd41a",
+      "driveId": "152ssOrsmqac4F-1M-o_PEKK99hRlyXEk",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/rhino-warframe-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2021/rhino-warframe-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2021/nekros-prime-warframe-preview.webm": {
+      "title": "Nekros Prime Warframe",
+      "titleId": "0100A250097F0000",
+      "gameName": "Warframe",
+      "varId": "v_ceac8824",
+      "driveId": "1-PqtThxeTBJC_5ewKYDRuQ02hzadHOIR",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/nekros-prime-warframe-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2021/nekros-prime-warframe-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2022/fortnite-hit-the-road-preview.webm": {
+      "title": "Fortnite Hit The Road",
+      "titleId": "010025400AECE000",
+      "gameName": "Fortnite",
+      "varId": "v_0a566f15",
+      "driveId": "127lCuP2shtVgbWksOJTxmIUk6kwbya9_",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/fortnite-hit-the-road-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2022/fortnite-hit-the-road-preview.webm"
+    },
+    "https://moewalls.com/wp-content/uploads/preview/2021/fortnite-raven-preview.webm": {
+      "title": "Fortnite Raven",
+      "titleId": "010025400AECE000",
+      "gameName": "Fortnite",
+      "varId": "v_5071f04d",
+      "driveId": "1eLMH1tqB43BjnlxvAOyl5Y6FyG03RmV_",
+      "mode": "main",
+      "codec": "h264",
+      "author": "MoeWalls / Community"
+    },
+    "https://moewalls.com/games/fortnite-raven-live-wallpaper/": {
+      "page": true,
+      "vid": "https://moewalls.com/wp-content/uploads/preview/2021/fortnite-raven-preview.webm"
     }
   },
-  "total_harvested": 2382,
-  "last_updated": "2026-11-08T07:28:04.953772+00:00",
+  "total_harvested": 2390,
+  "last_updated": "2026-11-08T07:29:58.663248+00:00",
   "page_cursors": {
     "tag:tears-of-the-kingdom": 1,
     "tag:the-legend-of-zelda": 2,
@@ -17193,12 +17249,12 @@
     "street fighter": 2,
     "tag:guilty-gear": 1,
     "guilty gear": 1,
-    "tag:sonic-the-hedgehog": 2,
+    "tag:sonic-the-hedgehog": 1,
     "tag:shadow-the-hedgehog": 1,
-    "sonic frontiers": 2,
-    "sonic": 2,
+    "sonic frontiers": 1,
+    "sonic": 1,
     "tag:castlevania": 1,
-    "castlevania": 1,
+    "castlevania": 2,
     "tag:dead-cells": 1,
     "dead cells": 1,
     "tag:blasphemous": 1,
@@ -17351,8 +17407,8 @@
     "tag:mortal-kombat": 1,
     "tag:street-fighter": 1,
     "overwatch": 2,
-    "tag:tomb-raider": 2,
-    "lara croft": 2,
+    "tag:tomb-raider": 1,
+    "lara croft": 1,
     "tag:hades": 2,
     "hades zagreus": 1,
     "tag:minecraft": 2,
@@ -17376,8 +17432,10 @@
     "tag:diablo": 2,
     "tag:doom": 2,
     "tag:resident-evil": 2,
-    "tag:overwatch": 2
+    "tag:overwatch": 2,
+    "warframe": 2,
+    "fortnite": 2
   },
   "query_cursor": 0,
-  "priority_cursor": 140
+  "priority_cursor": 152
 }
