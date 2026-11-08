@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T17:25:48.503853+00:00",
+  "updatedAt": "2026-11-08T17:26:36.081778+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -2034,6 +2034,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Link X Zelda The Legend Of Zelda: Breath | ЗВУК"
+        },
+        {
+          "id": "v_e9d7d615",
+          "name": "Link In Rivendell The Legend Of Zelda: Breath",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qV-0Jpw-_634Wr0Vvm1H6orfNiBge2jk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qV-0Jpw-_634Wr0Vvm1H6orfNiBge2jk&sz=w640",
+          "sizeBytes": 1031275,
+          "sha256": "7773E7E37F17222C5A1A2B930C7883ACBD34464614EA3591A4B8B9DD63F3A002",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Link In Rivendell The Legend Of Zelda:"
+        },
+        {
+          "id": "v_a70476b2",
+          "name": "Link And Zelda Legend Of Zelda: Breath Of The",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-FKWMazWK8p5CyjHtfwIPOQK7nIR1o2o",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-FKWMazWK8p5CyjHtfwIPOQK7nIR1o2o&sz=w640",
+          "sizeBytes": 935814,
+          "sha256": "8D0898AEF079D99A9008C9001A4416E605F506DBF33BE3A6BFB945D395C28FF6",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Link And Zelda Legend Of Zelda: Breath"
         }
       ]
     },
@@ -59270,6 +59306,6 @@
     }
   ],
   "totalGames": 1272,
-  "totalVariants": 2628,
-  "lastUpdated": "2026-11-08T17:25:48.503853+00:00"
+  "totalVariants": 2630,
+  "lastUpdated": "2026-11-08T17:26:36.081778+00:00"
 }
