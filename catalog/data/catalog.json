@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T17:29:36.414423+00:00",
+  "updatedAt": "2026-11-08T17:30:33.136488+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -1744,6 +1744,24 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_7bfd01e4",
+          "name": "Sea Bass Animal Crossing: New Horizons",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vVMpcI_t7JJ9YpE2Af-6BR_u8qGR2Dpz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vVMpcI_t7JJ9YpE2Af-6BR_u8qGR2Dpz&sz=w640",
+          "sizeBytes": 518265,
+          "sha256": "FB6E1036E5E7620A7EEEC3E4E64D7CE1AF923503F42A400D5AF2AA454F02D57C",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sea Bass Animal Crossing: New Horizons"
         }
       ]
     },
@@ -59396,6 +59414,6 @@
     }
   ],
   "totalGames": 1272,
-  "totalVariants": 2635,
-  "lastUpdated": "2026-11-08T17:29:36.414423+00:00"
+  "totalVariants": 2636,
+  "lastUpdated": "2026-11-08T17:30:33.136488+00:00"
 }
