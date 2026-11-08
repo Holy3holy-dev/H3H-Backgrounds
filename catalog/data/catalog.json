@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T17:30:33.136488+00:00",
+  "updatedAt": "2026-11-08T17:31:20.317333+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -5136,6 +5136,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Harvest of Sorrow Gwent: The Witcher Car | ЗВУК"
+        },
+        {
+          "id": "v_0a00ddb8",
+          "name": "Geralt Night Rest The Witcher 3 Wild Hunt",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TWSwbu_S9QkE1q6U0lIpT0ue88NVnLzN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TWSwbu_S9QkE1q6U0lIpT0ue88NVnLzN&sz=w640",
+          "sizeBytes": 950818,
+          "sha256": "05C8556A704E4F506D8169F2D7755AF0C7AE15CF771CFF42175D4411D3A9B8E3",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Geralt Night Rest The Witcher 3 Wild H"
+        },
+        {
+          "id": "v_4f2c8841",
+          "name": "Witcher Cyberpunk Geralt",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1R1fcSrIM6WEX1miFqy1eEYvL4db6_4Eu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1R1fcSrIM6WEX1miFqy1eEYvL4db6_4Eu&sz=w640",
+          "sizeBytes": 334157,
+          "sha256": "B5D66B1FEFBBD9E148FCB91C85C04630470A4FFA62F8324CD948BFDCC0591319",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Witcher Cyberpunk Geralt"
         }
       ]
     },
@@ -59414,6 +59450,6 @@
     }
   ],
   "totalGames": 1272,
-  "totalVariants": 2636,
-  "lastUpdated": "2026-11-08T17:30:33.136488+00:00"
+  "totalVariants": 2638,
+  "lastUpdated": "2026-11-08T17:31:20.317333+00:00"
 }
