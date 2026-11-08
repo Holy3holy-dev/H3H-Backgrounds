@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T10:47:14.291564+00:00",
+  "updatedAt": "2026-11-08T11:33:50.641477+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -54043,6 +54043,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Revenant Apex Legends | ЗВУК"
+        },
+        {
+          "id": "v_98a3eb32",
+          "name": "Seer Apex Legends",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1T9ep3yWgNa57O1DAJIzHIo1PlkhnhMYL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1T9ep3yWgNa57O1DAJIzHIo1PlkhnhMYL&sz=w640",
+          "sizeBytes": 4945110,
+          "sha256": "19B3DFECA3629EEBB71602044843C9BE41827A7D42D8CDBA09F08F0601280C96",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Seer Apex Legends | ЗВУК"
         }
       ]
     },
@@ -54276,6 +54294,6 @@
     }
   ],
   "totalGames": 1082,
-  "totalVariants": 2435,
+  "totalVariants": 2436,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
