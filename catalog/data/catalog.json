@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T12:17:32.716167+00:00",
+  "updatedAt": "2026-11-08T12:24:33.753845+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -54421,9 +54421,139 @@
           "notes": "Switch 720p 30fps H264 | Risk of Rain 2 — CU6 - English - No Rati"
         }
       ]
+    },
+    {
+      "titleId": "01009B9013E56000",
+      "title": "Factorio",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009B9013E56000.jpg",
+      "variants": [
+        {
+          "id": "v_878d9fc6",
+          "name": "Factorio — Trailer 2026",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ofpQH-dkiee45QpzSyzpNmUQ7j12qCWf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ofpQH-dkiee45QpzSyzpNmUQ7j12qCWf&sz=w640",
+          "sizeBytes": 10291305,
+          "sha256": "0E771923E2DAE4C4EE7245C47376921F8EB7CD87633D53A564463D97D1C315BF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Factorio — Trailer 2026"
+        }
+      ]
+    },
+    {
+      "titleId": "010075100BFEC000",
+      "title": "Don't Starve Together",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010075100BFEC000.jpg",
+      "variants": [
+        {
+          "id": "v_537f8df7",
+          "name": "Don't Starve Together — Cursed Confrontation Par",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cqx4yPpIzeu4bYvn0bvnuixgX5JV6MAX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cqx4yPpIzeu4bYvn0bvnuixgX5JV6MAX&sz=w640",
+          "sizeBytes": 8675749,
+          "sha256": "664BB84652942179F06C3696F06561B0B008003D3C8C9D14B19AFF2CA4262AE7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Don't Starve Together — Cursed Confronta"
+        }
+      ]
+    },
+    {
+      "titleId": "010022A011A62000",
+      "title": "Crysis Remastered",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010022A011A62000.jpg",
+      "variants": [
+        {
+          "id": "v_f874711b",
+          "name": "Crysis Remastered — Crysis Remastered Comparison",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1v9pdE7YJiHyXNwEKC-1TKS-1Goxb3325",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1v9pdE7YJiHyXNwEKC-1TKS-1Goxb3325&sz=w640",
+          "sizeBytes": 10009906,
+          "sha256": "5C4C64A2F9BB0AC19F4AD1EB67D2475F7B3EBD509665804FC016B6CEEFB652A5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Crysis Remastered — Crysis Remastered Co"
+        }
+      ]
+    },
+    {
+      "titleId": "010063F014170000",
+      "title": "Danganronpa: Trigger Happy Havoc",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010063F014170000.jpg",
+      "variants": [
+        {
+          "id": "v_f73efa3c",
+          "name": "Danganronpa: Trigger Happy Havoc — Launch Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11LKRWpRUWB5UJGJUkfE7DxVuaPenHhDA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11LKRWpRUWB5UJGJUkfE7DxVuaPenHhDA&sz=w640",
+          "sizeBytes": 3364881,
+          "sha256": "985A2A6B8E40474D67F78BBCAB2A49026ACC67FB455AFCD4E51E9FF84FE5CCBC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Danganronpa: Trigger Happy Havoc — Launc"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B3900C3E2000",
+      "title": "Phoenix Wright: Ace Attorney Trilogy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B3900C3E2000.jpg",
+      "variants": [
+        {
+          "id": "v_cbc30498",
+          "name": "Phoenix Wright: Ace Attorney Trilogy — 07_AAT_Up",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11BwJLHdFgkQHgje7X5VR_ptaE-cU6TA7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11BwJLHdFgkQHgje7X5VR_ptaE-cU6TA7&sz=w640",
+          "sizeBytes": 2764390,
+          "sha256": "64C0199E9FE0F222B9D0A52D63BF3631678FE365BEC56EEFEFC785DD1F440A45",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Phoenix Wright: Ace Attorney Trilogy — 0"
+        }
+      ]
     }
   ],
-  "totalGames": 1087,
-  "totalVariants": 2441,
-  "lastUpdated": "2026-11-08T12:17:32.716167+00:00"
+  "totalGames": 1092,
+  "totalVariants": 2446,
+  "lastUpdated": "2026-11-08T12:24:33.753845+00:00"
 }
