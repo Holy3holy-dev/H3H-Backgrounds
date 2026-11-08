@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T15:25:21.359584+00:00",
+  "updatedAt": "2026-11-08T15:32:33.150413+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -57671,9 +57671,139 @@
           "notes": "Switch 720p 30fps H264 | Labyrinth Of The Demon King — TopHatTrai"
         }
       ]
+    },
+    {
+      "titleId": "0100E05011350000",
+      "title": "Wingspan",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E05011350000.jpg",
+      "variants": [
+        {
+          "id": "v_6e6b59ba",
+          "name": "Wingspan — British Birds & Season Pass Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1owrY9XFsfBJq6R2H0dcmKh9ddMiJljb8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1owrY9XFsfBJq6R2H0dcmKh9ddMiJljb8&sz=w640",
+          "sizeBytes": 5321183,
+          "sha256": "F15765F29D9E63B50835CBAA3146E0962FB9D420DA34787B27850878464742FE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wingspan — British Birds & Season Pass T"
+        }
+      ]
+    },
+    {
+      "titleId": "01006CE01EB76000",
+      "title": "Date Everything",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006CE01EB76000.jpg",
+      "variants": [
+        {
+          "id": "v_378c293d",
+          "name": "Date Everything! — Date Everything! Launch Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WbCruYMHDvS6JYXgovLpKhJGY8xWQ1IE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WbCruYMHDvS6JYXgovLpKhJGY8xWQ1IE&sz=w640",
+          "sizeBytes": 7668082,
+          "sha256": "7591F3AD0C16C2B2C3F7441C62FD16F30E49D13910E735FC7FD551CBC78C7C8D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Date Everything! — Date Everything! Laun"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E1402792A000",
+      "title": "Verho Curse of Faces",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E1402792A000.jpg",
+      "variants": [
+        {
+          "id": "v_710d80d3",
+          "name": "Verho - Curse of Faces — Chaos Content Teaser",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_KT9csM05xfu35QGmJxkkTOyFAatKrE-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_KT9csM05xfu35QGmJxkkTOyFAatKrE-&sz=w640",
+          "sizeBytes": 8125342,
+          "sha256": "7A1D446F5648DFA863A19300FB37AEE9157F4D312FBC173FE3494E306296A4B4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Verho - Curse of Faces — Chaos Content T"
+        }
+      ]
+    },
+    {
+      "titleId": "0100ED9018F3E000",
+      "title": "Eiyuden Chronicle Hundred Heroes",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100ED9018F3E000.jpg",
+      "variants": [
+        {
+          "id": "v_6606b066",
+          "name": "Eiyuden Chronicle: Hundred Heroes — Eiyuden Chro",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wZZB2w7heljD26LmQ_fcYtvI05dPFhXo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wZZB2w7heljD26LmQ_fcYtvI05dPFhXo&sz=w640",
+          "sizeBytes": 9142123,
+          "sha256": "0C966640AFF996F084C0DF5824DBA133F040E29559D77CEC85FA3BD06BBB458E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Eiyuden Chronicle: Hundred Heroes — Eiyu"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B6800B5C8000",
+      "title": "Graveyard Keeper",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B6800B5C8000.jpg",
+      "variants": [
+        {
+          "id": "v_d86aaa63",
+          "name": "Graveyard Keeper 2 — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1J9XtKRGKw1lQJm5K1DVk9FXB_dHuf88J",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1J9XtKRGKw1lQJm5K1DVk9FXB_dHuf88J&sz=w640",
+          "sizeBytes": 7603853,
+          "sha256": "F40D8852D094436CC1CD43EB6432E3B7A7D55D8E878E808D170248D02FD8AE49",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Graveyard Keeper 2 — Launch Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 1212,
-  "totalVariants": 2566,
-  "lastUpdated": "2026-11-08T15:25:21.359584+00:00"
+  "totalGames": 1217,
+  "totalVariants": 2571,
+  "lastUpdated": "2026-11-08T15:32:33.150413+00:00"
 }
