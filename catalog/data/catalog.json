@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T05:25:15.986080+00:00",
+  "updatedAt": "2026-11-08T05:29:00.957646+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -3663,6 +3663,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Peaceful Wild West Red Dead Redemption 2 | ЗВУК"
+        },
+        {
+          "id": "v_1cc3604c",
+          "name": "Horse Riding Sunset Red Dead Redemption",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QMIVHj0irtUKcTF56LuokFjoJQ2wfW-G",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QMIVHj0irtUKcTF56LuokFjoJQ2wfW-G&sz=w640",
+          "sizeBytes": 4625373,
+          "sha256": "DB1C0064E4E95AFE1DD96215510A6CDBA6AA144EA0DCF89144672CACE962D40F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Horse Riding Sunset Red Dead Redemption | ЗВУК"
+        },
+        {
+          "id": "v_fc80059a",
+          "name": "Red Dead Redemption 2",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nYmFniaIh4pvM1cFJZefkS9Y_ae1E1I2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nYmFniaIh4pvM1cFJZefkS9Y_ae1E1I2&sz=w640",
+          "sizeBytes": 4605117,
+          "sha256": "511CE926CF8860E1DD27099EBDF286F75023C2E6450C370975435CD59638D9F9",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Red Dead Redemption 2 | ЗВУК"
         }
       ]
     },
@@ -15001,6 +15037,60 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Aerith Gainsborough Final Fantasy VII Re | ЗВУК"
+        },
+        {
+          "id": "v_ba19f261",
+          "name": "Samurai Girl Final Fantasy XIV: Stormblo",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19uzOck5ucPCkYUeObHODkZggkZc1kgDD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19uzOck5ucPCkYUeObHODkZggkZc1kgDD&sz=w640",
+          "sizeBytes": 4738978,
+          "sha256": "675D1F8F7CE29AE6A1EC8349EE40F1E551D301A5A8193C49CADC183EE74F76AB",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Samurai Girl Final Fantasy XIV: Stormblo | ЗВУК"
+        },
+        {
+          "id": "v_3b19e1ba",
+          "name": "Tifa Lockhart Final Fantasy",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gebYNryndC6isV0J0J_lc0o44n8sykrd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gebYNryndC6isV0J0J_lc0o44n8sykrd&sz=w640",
+          "sizeBytes": 4712430,
+          "sha256": "16A537539094B2D440C35507032A36DF282E52943B8AAF67536B6691B18F8E54",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tifa Lockhart Final Fantasy | ЗВУК"
+        },
+        {
+          "id": "v_b9073cb9",
+          "name": "Hrothgar Final Fantasy XIV",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12z2DhS1MjarlYOSSgC9yWkIHFCZa5UbB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12z2DhS1MjarlYOSSgC9yWkIHFCZa5UbB&sz=w640",
+          "sizeBytes": 4692330,
+          "sha256": "89930ED4B3BD144BAE839829615D81CBD4E42EBF78EE17D96E8D7322C5A38376",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Hrothgar Final Fantasy XIV"
         }
       ]
     },
@@ -52648,6 +52738,6 @@
     }
   ],
   "totalGames": 1081,
-  "totalVariants": 2345,
+  "totalVariants": 2350,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
