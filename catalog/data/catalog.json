@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T17:44:44.253929+00:00",
+  "updatedAt": "2026-11-08T17:51:10.113330+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -59757,9 +59757,139 @@
           "notes": "Switch 720p 30fps H264 | Lovers in a Dangerous Spacetime — 4 Play"
         }
       ]
+    },
+    {
+      "titleId": "01000FE0164AA000",
+      "title": "Maximus 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000FE0164AA000.jpg",
+      "variants": [
+        {
+          "id": "v_22ce6dd1",
+          "name": "Maximus 2: Street Gladiators — Maximus 2 Officia",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1n54eovXgycoRg8PnZ06ipcP-KvtaG9bY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1n54eovXgycoRg8PnZ06ipcP-KvtaG9bY&sz=w640",
+          "sizeBytes": 10286188,
+          "sha256": "D6624F43BFC582CEF7AF358156CB4EC84D4E61A0FF8859697B7012E15C8C1AB2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Maximus 2: Street Gladiators — Maximus 2"
+        }
+      ]
+    },
+    {
+      "titleId": "01007BA01B9B2000",
+      "title": "Pummel Party",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007BA01B9B2000.jpg",
+      "variants": [
+        {
+          "id": "v_b186acfc",
+          "name": "Pummel Party — Pummel Party Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dNqYs0YiX9f7i30VomusGED-y-w3n3DG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dNqYs0YiX9f7i30VomusGED-y-w3n3DG&sz=w640",
+          "sizeBytes": 9714026,
+          "sha256": "584952E8FFB6A7DF01279FB715AC12BEAACD03408682405DAA4F20578BE5DEEA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Pummel Party — Pummel Party Release Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "01001FB017B36000",
+      "title": "Wavetale",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001FB017B36000.jpg",
+      "variants": [
+        {
+          "id": "v_f1dc314a",
+          "name": "Wavetale — Accolades Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1sQznJG6clqjiyqcmSCkh3qVi4Fhng1gE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1sQznJG6clqjiyqcmSCkh3qVi4Fhng1gE&sz=w640",
+          "sizeBytes": 7423591,
+          "sha256": "D691E8C252BBA09BA0BE5195734023430FCD930CF631DE1D3598D0AAA274EC33",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wavetale — Accolades Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010042C0232F6000",
+      "title": "Octopath Traveler 0",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010042C0232F6000.jpg",
+      "variants": [
+        {
+          "id": "v_ea4a1383",
+          "name": "OCTOPATH TRAVELER 0 — ESRB EN Announce",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pCV2zgAGtQiHci3_E1_HtGwPuYFVaXFF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pCV2zgAGtQiHci3_E1_HtGwPuYFVaXFF&sz=w640",
+          "sizeBytes": 6958232,
+          "sha256": "65F6EAF6D3C10F27B7348535CDF75137EDD4A151B5A8EC3811B39D1557159BDF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | OCTOPATH TRAVELER 0 — ESRB EN Announce"
+        }
+      ]
+    },
+    {
+      "titleId": "0100974026B32000",
+      "title": "Marvel Maximum Collection",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100974026B32000.jpg",
+      "variants": [
+        {
+          "id": "v_6a89c337",
+          "name": "MARVEL MaXimum Collection — MARVEL MaXimum Colle",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ub5A6Y0pdi-5rtIkDwTSlm_ZIaEkB5IP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ub5A6Y0pdi-5rtIkDwTSlm_ZIaEkB5IP&sz=w640",
+          "sizeBytes": 8191433,
+          "sha256": "7E81F9A7AE196248886E2B451E33F7FF48836AF1752D83E0EE64F6A4EAC7CC75",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | MARVEL MaXimum Collection — MARVEL MaXim"
+        }
+      ]
     }
   ],
-  "totalGames": 1277,
-  "totalVariants": 2653,
-  "lastUpdated": "2026-11-08T17:44:44.253929+00:00"
+  "totalGames": 1282,
+  "totalVariants": 2658,
+  "lastUpdated": "2026-11-08T17:51:10.113330+00:00"
 }
