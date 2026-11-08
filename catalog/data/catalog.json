@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T14:21:11.139128+00:00",
+  "updatedAt": "2026-11-08T14:29:25.643311+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -56501,9 +56501,139 @@
           "notes": "Switch 720p 30fps H264 | STEINS;GATE RE:BOOT — Launch Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100B10023388000",
+      "title": "Bunker 22",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B10023388000.jpg",
+      "variants": [
+        {
+          "id": "v_39e05fa4",
+          "name": "Bunker 22 — Bunker22 Traler",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1E545XDxT6aZxNgUetq_hCH1I65ChmGYi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1E545XDxT6aZxNgUetq_hCH1I65ChmGYi&sz=w640",
+          "sizeBytes": 6870905,
+          "sha256": "1C1DA899E0A71DE825B8FA2FA3387EF45E24E1FD2B99CE44AE7AEC3BD7BDEC13",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bunker 22 — Bunker22 Traler"
+        }
+      ]
+    },
+    {
+      "titleId": "010074402766A000",
+      "title": "Sacred 2 Remaster",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010074402766A000.jpg",
+      "variants": [
+        {
+          "id": "v_2c172b3d",
+          "name": "Sacred 2 Remaster — Sacred 2 Remaster Launch Tra",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1H2UiBRSDhOo0-I25GAO7j5Iz6OMkF0CO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1H2UiBRSDhOo0-I25GAO7j5Iz6OMkF0CO&sz=w640",
+          "sizeBytes": 10028266,
+          "sha256": "8D850B52976C24F2383FAF3445252713E2BE944DFA3284C3C35C8EEC236F615D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sacred 2 Remaster — Sacred 2 Remaster La"
+        }
+      ]
+    },
+    {
+      "titleId": "010042902357C000",
+      "title": "Grimoire Groves",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010042902357C000.jpg",
+      "variants": [
+        {
+          "id": "v_9cfa682a",
+          "name": "Grimoire Groves — Game Explanation Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ogDaajMMhLZiN5b8u7t4BcIkZD02R3rZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ogDaajMMhLZiN5b8u7t4BcIkZD02R3rZ&sz=w640",
+          "sizeBytes": 9975237,
+          "sha256": "74F5FD85E5EC8ACF3DE48F1549DB1FEACCBF7636D05DDA583C622E3515EE3B47",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Grimoire Groves — Game Explanation Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "010010B01ED90000",
+      "title": "Toy Tactics",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010010B01ED90000.jpg",
+      "variants": [
+        {
+          "id": "v_c56af3ea",
+          "name": "Toy Tactics — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1T2F4x5062fPBP6cNcszKujEUHOZTz1ak",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1T2F4x5062fPBP6cNcszKujEUHOZTz1ak&sz=w640",
+          "sizeBytes": 6500906,
+          "sha256": "8A2E612A1BB2A9061C402AE2E35D4352AD29980BAB1A1781DE91360E7D866EC6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Toy Tactics — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B78027844000",
+      "title": "Catto's Post Office",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B78027844000.jpg",
+      "variants": [
+        {
+          "id": "v_93bca30a",
+          "name": "Catto's Post Office — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LXe_AuRP-tKso4cAFYCZsQW-pMWmJm52",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LXe_AuRP-tKso4cAFYCZsQW-pMWmJm52&sz=w640",
+          "sizeBytes": 2649083,
+          "sha256": "BF0A4FC9B0034F4EE787A791A43650F03A1786C5A5845C176DA21DBFF97C49C2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Catto's Post Office — Gameplay Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 1167,
-  "totalVariants": 2521,
-  "lastUpdated": "2026-11-08T14:21:11.139128+00:00"
+  "totalGames": 1172,
+  "totalVariants": 2526,
+  "lastUpdated": "2026-11-08T14:29:25.643311+00:00"
 }
