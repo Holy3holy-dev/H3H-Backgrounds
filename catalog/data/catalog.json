@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T09:20:48.121485+00:00",
+  "updatedAt": "2026-11-08T09:59:15.399095+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -53639,6 +53639,96 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Moira Overwatch | ЗВУК"
+        },
+        {
+          "id": "v_17fa7587",
+          "name": "Mercy Drinking Wine",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oBJR0Q5tJlb_GczFQHT4U8yaJY827T9o",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oBJR0Q5tJlb_GczFQHT4U8yaJY827T9o&sz=w640",
+          "sizeBytes": 4722063,
+          "sha256": "FD3647F2C8CAB3A29087989669DCAE9E7B6BCFA3F0730B65129BD5DECE9C60B0",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mercy Drinking Wine | ЗВУК"
+        },
+        {
+          "id": "v_cfbf02f9",
+          "name": "Dva Nerf This Overwatch",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1y0XAchF-2RBQz9eiSwcvyiG7ttgCiDBq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1y0XAchF-2RBQz9eiSwcvyiG7ttgCiDBq&sz=w640",
+          "sizeBytes": 4677119,
+          "sha256": "C3D23D1ED83A15207B65D2E7D620F703C9F256773486287C78E7AD2AB8E6C561",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dva Nerf This Overwatch | ЗВУК"
+        },
+        {
+          "id": "v_071207af",
+          "name": "Dva School Girl Artwork Overwatch",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DNOuz7y4Pe2oRUpIonr5W8qoik1hDZS5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DNOuz7y4Pe2oRUpIonr5W8qoik1hDZS5&sz=w640",
+          "sizeBytes": 4710799,
+          "sha256": "C8D8672180D1B53F8D8F702E717E1DE15B837C229E33CC2FD611E4EA1CA4D5A1",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dva School Girl Artwork Overwatch | ЗВУК"
+        },
+        {
+          "id": "v_c7d8e3b2",
+          "name": "Genji Hangzhou Spark Home Skin Overwatch",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WAryoaotCrr_KlaZKsHrjBU3Kqxp0s9a",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WAryoaotCrr_KlaZKsHrjBU3Kqxp0s9a&sz=w640",
+          "sizeBytes": 4501237,
+          "sha256": "A0FC40D867FC9869D0C0F99FD3F2172C36B105C57325D2D2F227064F8FB9D40F",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Genji Hangzhou Spark Home Skin Overwatch | ЗВУК"
+        },
+        {
+          "id": "v_8ab8b3b1",
+          "name": "Tracer Race Gear Overwatch",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1x6pfz-Jkr4cW-HV74HuDItSL4XhK3uye",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1x6pfz-Jkr4cW-HV74HuDItSL4XhK3uye&sz=w640",
+          "sizeBytes": 4866028,
+          "sha256": "78C90BC70A3B9DCAC4F17DB38E3B892898D74434F179425DBD293CD20DBFC8D1",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tracer Race Gear Overwatch | ЗВУК"
         }
       ]
     },
@@ -53827,6 +53917,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Revenant Apex Legends | ЗВУК"
+        },
+        {
+          "id": "v_9797be5f",
+          "name": "Wattson Apex Legends",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1E4srBPLkf_Do8u5zVzZf9ddBk9WbDP1d",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1E4srBPLkf_Do8u5zVzZf9ddBk9WbDP1d&sz=w640",
+          "sizeBytes": 4528969,
+          "sha256": "F78AA9FAB381492B97FF2728285FE80D223E136FD0E6250836041F44012D0C7A",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wattson Apex Legends | ЗВУК"
         }
       ]
     },
@@ -54060,6 +54168,6 @@
     }
   ],
   "totalGames": 1082,
-  "totalVariants": 2423,
+  "totalVariants": 2429,
   "lastUpdated": "2026-10-27T17:36:04.899895+00:00"
 }
