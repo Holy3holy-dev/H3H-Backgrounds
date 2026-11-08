@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T14:36:26.440272+00:00",
+  "updatedAt": "2026-11-08T14:42:48.029439+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -56761,9 +56761,139 @@
           "notes": "Switch 720p 30fps H264 | Defender of the Crown: The Legend Return"
         }
       ]
+    },
+    {
+      "titleId": "01004D501F078000",
+      "title": "The Lord of the Rings: War in the North Legacy edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004D501F078000.jpg",
+      "variants": [
+        {
+          "id": "v_eec4f4b5",
+          "name": "The Lord of the Rings: War in the North™ - Legac",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cTIxqNK6uxosFvVuiWy2WiRUmmaeLhwV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cTIxqNK6uxosFvVuiWy2WiRUmmaeLhwV&sz=w640",
+          "sizeBytes": 9234709,
+          "sha256": "47D4C8C5BA589AC1B0670CA32C1B69AD8D008B05CB4A07C2C2C033DCC2803EB9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Lord of the Rings: War in the North™"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C7802833C000",
+      "title": "Tower Dominion",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C7802833C000.jpg",
+      "variants": [
+        {
+          "id": "v_327108c6",
+          "name": "Tower Dominion — Tower Dominion - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GDvwRedbnpgwe7PwUJcnbfsX1-oLawH5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GDvwRedbnpgwe7PwUJcnbfsX1-oLawH5&sz=w640",
+          "sizeBytes": 6905651,
+          "sha256": "D9EAB01A932BD77DA8F6C06BBE7E75B89B877853B545E91815E74B2D901E2BD2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tower Dominion — Tower Dominion - Launch"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F7501198E000",
+      "title": "Choppa Rescue Rivals",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F7501198E000.jpg",
+      "variants": [
+        {
+          "id": "v_77a4f4fd",
+          "name": "Choppa: Rescue Rivals — Release Date Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1W7qXt53TbeQvilBuWjnlIM8YjHUiobZv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1W7qXt53TbeQvilBuWjnlIM8YjHUiobZv&sz=w640",
+          "sizeBytes": 9925146,
+          "sha256": "6B7B27263B0BD2EB99E5C382D73B2D51A400697C602669D99AC564D7E5E763E6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Choppa: Rescue Rivals — Release Date Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "01007D2027CBA000",
+      "title": "Love Internet and Murder Magic",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007D2027CBA000.jpg",
+      "variants": [
+        {
+          "id": "v_2e98df9e",
+          "name": "Love, Internet, and Murder Magic — pv",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zISVqdWvn0dLyqIj9Ecreu3TgknevyFY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zISVqdWvn0dLyqIj9Ecreu3TgknevyFY&sz=w640",
+          "sizeBytes": 4615867,
+          "sha256": "16A1831C1E677BB0FAE14464E5FE20134440084CB9A5A8A35DB11AD24B146652",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Love, Internet, and Murder Magic — pv"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F960292C6000",
+      "title": "Pets Survivors",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F960292C6000.jpg",
+      "variants": [
+        {
+          "id": "v_9f6ab3bf",
+          "name": "Pets Survivors — Pets Survivors Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VfL_X2Z-p8sJ0Nw98YQsp6I7YwVndaa0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VfL_X2Z-p8sJ0Nw98YQsp6I7YwVndaa0&sz=w640",
+          "sizeBytes": 3269725,
+          "sha256": "A82F6300C69257C56D5625CCC9853099FC5221092BF81F964386CFAB9676703F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Pets Survivors — Pets Survivors Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 1177,
-  "totalVariants": 2531,
-  "lastUpdated": "2026-11-08T14:36:26.440272+00:00"
+  "totalGames": 1182,
+  "totalVariants": 2536,
+  "lastUpdated": "2026-11-08T14:42:48.029439+00:00"
 }
