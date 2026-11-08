@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T13:37:03.061721+00:00",
+  "updatedAt": "2026-11-08T13:42:49.241144+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -55721,9 +55721,139 @@
           "notes": "Switch 720p 30fps H264 | Chronoquartz — Game Trailer"
         }
       ]
+    },
+    {
+      "titleId": "01002AF021C28000",
+      "title": "Nova Hearts",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002AF021C28000.jpg",
+      "variants": [
+        {
+          "id": "v_1aef182e",
+          "name": "Nova Hearts — Nova Hearts Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1C8tlsAZ40I2M5irwfN6ac_h0QzTAEdhj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1C8tlsAZ40I2M5irwfN6ac_h0QzTAEdhj&sz=w640",
+          "sizeBytes": 4831474,
+          "sha256": "10AE50D08A162C724DAA0BD0895AD3C926C3A91999EBCC518E373869045502A4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Nova Hearts — Nova Hearts Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D0902359C000",
+      "title": "Goodnight Universe",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D0902359C000.jpg",
+      "variants": [
+        {
+          "id": "v_a427f230",
+          "name": "Goodnight Universe — Goodnight Universe - Launch",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vdAzCtJJOq68whpiUirLhI6zHL72VI2M",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vdAzCtJJOq68whpiUirLhI6zHL72VI2M&sz=w640",
+          "sizeBytes": 3806838,
+          "sha256": "3F7E3709C5C05D473E0CC76F45BABB51EB95B93FF794A218052552AD12F19B4D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Goodnight Universe — Goodnight Universe "
+        }
+      ]
+    },
+    {
+      "titleId": "0100FC001ACE0000",
+      "title": "Anvil Saga",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FC001ACE0000.jpg",
+      "variants": [
+        {
+          "id": "v_88abf0c8",
+          "name": "Anvil Saga — Full Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1973c04rcbrJmtZx6kSWMQf7v7BblbQs7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1973c04rcbrJmtZx6kSWMQf7v7BblbQs7&sz=w640",
+          "sizeBytes": 4030049,
+          "sha256": "F831A119888DB10623099A1BA1A5765946A08AD9ECE65508FA58A85726A503F9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Anvil Saga — Full Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01005C0024824000",
+      "title": "Cladun X3",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005C0024824000.jpg",
+      "variants": [
+        {
+          "id": "v_c740a58f",
+          "name": "Cladun X3 — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DyTehjNsKj2sM5LuO_bpamNBT2BOn4OO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DyTehjNsKj2sM5LuO_bpamNBT2BOn4OO&sz=w640",
+          "sizeBytes": 7209144,
+          "sha256": "4FE4D8AAA0F03BBB809417305334586A5178E92FBFA10A4550870022915FD6B8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cladun X3 — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01001A7022D9E000",
+      "title": "Flora and Fang: Guardians of the Vampire Garden",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001A7022D9E000.jpg",
+      "variants": [
+        {
+          "id": "v_acd1d32f",
+          "name": "Flora & Fang: Guardians of the vampire garden — ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mhA3cOIf3qyWLJdeiKr036JQggrnJUPh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mhA3cOIf3qyWLJdeiKr036JQggrnJUPh&sz=w640",
+          "sizeBytes": 3454909,
+          "sha256": "74C0B076CA8A88ECA39A4B9BAD035C5912508959F31BAB98F22888A46F2F72C8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Flora & Fang: Guardians of the vampire g"
+        }
+      ]
     }
   ],
-  "totalGames": 1137,
-  "totalVariants": 2491,
-  "lastUpdated": "2026-11-08T13:37:03.061721+00:00"
+  "totalGames": 1142,
+  "totalVariants": 2496,
+  "lastUpdated": "2026-11-08T13:42:49.241144+00:00"
 }
