@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T23:49:27.437173+00:00",
+  "updatedAt": "2026-11-09T23:52:23.523448+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -93568,9 +93568,269 @@
           "notes": "Switch 720p 30fps H264 | Garage: Bad Dream Adventure — EN"
         }
       ]
+    },
+    {
+      "titleId": "0100FE0014201000",
+      "title": "Little Mouse's Encyclopedia",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FE0014201000.jpg",
+      "variants": [
+        {
+          "id": "v_1638d572",
+          "name": "Little Mouse's Encyclopedia — Little Mouse's Enc",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1sGKCNcnVX1DKZEwrgwibyB7fG1tcVjJH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1sGKCNcnVX1DKZEwrgwibyB7fG1tcVjJH&sz=w640",
+          "sizeBytes": 5627219,
+          "sha256": "AFE751D0901CB8DE8F2E822005706ADE883263352069B8D6CB2D7B5728706DC5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Little Mouse's Encyclopedia — Little Mou"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B5E01631C000",
+      "title": "Valfaris Mecha Therion",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B5E01631C000.jpg",
+      "variants": [
+        {
+          "id": "v_237988a9",
+          "name": "Valfaris: Mecha Therion — Release Date Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1aFkoqzQsn9f5gF585vdFRckOFzArM21u",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1aFkoqzQsn9f5gF585vdFRckOFzArM21u&sz=w640",
+          "sizeBytes": 5373145,
+          "sha256": "8779C692719A8F29DE8ECE61574A2FDF258106676BB738A7321EAAD283DB107B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Valfaris: Mecha Therion — Release Date T"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C18014DC0000",
+      "title": "Unavowed",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C18014DC0000.jpg",
+      "variants": [
+        {
+          "id": "v_bbc35b40",
+          "name": "Unavowed — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10U0u3R8-se0Ywxz-0pS8RqZoUqnxUWTw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10U0u3R8-se0Ywxz-0pS8RqZoUqnxUWTw&sz=w640",
+          "sizeBytes": 5381328,
+          "sha256": "311C453A71F2C21E0CA2C532E9A802028C041174F22AFE77A44A0D7CED88EC75",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Unavowed — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100310026000000",
+      "title": "Judero",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100310026000000.jpg",
+      "variants": [
+        {
+          "id": "v_3d3d8967",
+          "name": "Judero — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gf5IParBQfmXh7nY06c_HHxpEeWemnHO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gf5IParBQfmXh7nY06c_HHxpEeWemnHO&sz=w640",
+          "sizeBytes": 5194787,
+          "sha256": "976FFFD6BC28CE9E5D2D6BEC0682F8C42B2CE1A4F3C659BD6C2E2DB93EE85A7E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Judero — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DAC016BFE000",
+      "title": "Moonrise Fall",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DAC016BFE000.jpg",
+      "variants": [
+        {
+          "id": "v_34ccc4e1",
+          "name": "Moonrise Fall — Moonrise Fall - Accolades Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_UTsva873ioioCZdpG5YT-E0qID-tsk0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_UTsva873ioioCZdpG5YT-E0qID-tsk0&sz=w640",
+          "sizeBytes": 5078969,
+          "sha256": "6984FDEDCA6D89EB4273E7BE6E3B2F6895A7ED3DEC6ADCEBBCE510FBF2368B5A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Moonrise Fall — Moonrise Fall - Accolade"
+        }
+      ]
+    },
+    {
+      "titleId": "01000E30042F2000",
+      "title": "World to the West",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000E30042F2000.jpg",
+      "variants": [
+        {
+          "id": "v_5a845014",
+          "name": "World to the West — World to the West - Gameplay",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13UVclYLZenTVtQVPX22CsZCqTNDdrqkd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13UVclYLZenTVtQVPX22CsZCqTNDdrqkd&sz=w640",
+          "sizeBytes": 4926607,
+          "sha256": "2E882F6A10CC483D4841EA61C14EACEF2595A44E53C5D8F97F908294E301B578",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | World to the West — World to the West - "
+        }
+      ]
+    },
+    {
+      "titleId": "0100A3E010E56000",
+      "title": "A-Train All Aboard Tourism",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A3E010E56000.jpg",
+      "variants": [
+        {
+          "id": "v_1837fce5",
+          "name": "A-Train: All Aboard! Tourism — A列車はじまる観光計画PV_Ste",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19be_HyUBXa4xjM3Pbvw6euBx_Dr0Vtrl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19be_HyUBXa4xjM3Pbvw6euBx_Dr0Vtrl&sz=w640",
+          "sizeBytes": 4766531,
+          "sha256": "16CDCBF7B58E0A43AE521A4F144850B7BD484F22C2FF2612E85D3E0087D268AE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | A-Train: All Aboard! Tourism — A列車はじまる観光"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B13007A6A000",
+      "title": "The Gardens Between",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B13007A6A000.jpg",
+      "variants": [
+        {
+          "id": "v_41329a84",
+          "name": "The Gardens Between — Hype Trailer - No Endslate",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UIA9uOkynewto1nQVod33uDGgAzSMpDS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UIA9uOkynewto1nQVod33uDGgAzSMpDS&sz=w640",
+          "sizeBytes": 5383568,
+          "sha256": "4F9437696D287FCC7975B44E32A9800F0943021B50160E6C85F236E572863AE5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Gardens Between — Hype Trailer - No "
+        }
+      ]
+    },
+    {
+      "titleId": "01004BF013BA0000",
+      "title": "Rip Them Off",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004BF013BA0000.jpg",
+      "variants": [
+        {
+          "id": "v_7083970b",
+          "name": "Rip Them Off — Rip Them Off release trailer - St",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1uVMxFXT0j_d5pupcQnqUB8wONwuSp4Ld",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1uVMxFXT0j_d5pupcQnqUB8wONwuSp4Ld&sz=w640",
+          "sizeBytes": 4934977,
+          "sha256": "1019DC148746D262679AE26A4E4320B1DD10CC223494B9757482FC442198E83F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rip Them Off — Rip Them Off release trai"
+        }
+      ]
+    },
+    {
+      "titleId": "0100218011E7E000",
+      "title": "MX vs ATV All Out",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100218011E7E000.jpg",
+      "variants": [
+        {
+          "id": "v_ad4b8212",
+          "name": "MX vs ATV All Out — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1y-9QPu6sEpxSl-EiSvQ4mZh8mLqZvrzu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1y-9QPu6sEpxSl-EiSvQ4mZh8mLqZvrzu&sz=w640",
+          "sizeBytes": 5354546,
+          "sha256": "166E91FE9CC381BA8765B3269641AD8009A956E6FBF6D08EA26057CA8A844C77",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | MX vs ATV All Out — Launch Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 2543,
-  "totalVariants": 3967,
-  "lastUpdated": "2026-11-09T23:49:27.437173+00:00"
+  "totalGames": 2553,
+  "totalVariants": 3977,
+  "lastUpdated": "2026-11-09T23:52:23.523448+00:00"
 }
