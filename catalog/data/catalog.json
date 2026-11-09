@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T23:20:07.756770+00:00",
+  "updatedAt": "2026-11-09T23:22:56.506472+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -90968,9 +90968,269 @@
           "notes": "Switch 720p 30fps H264 | Joe Dever's Lone Wolf HD Remastered — Jo"
         }
       ]
+    },
+    {
+      "titleId": "0100915020400000",
+      "title": "Cabernet",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100915020400000.jpg",
+      "variants": [
+        {
+          "id": "v_06cd4d2b",
+          "name": "Cabernet — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14Vce3E0B_-XWYuY-dakQxwptwHopmSh8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14Vce3E0B_-XWYuY-dakQxwptwHopmSh8&sz=w640",
+          "sizeBytes": 5520787,
+          "sha256": "A4E8315B8E7EED9951727C2C617B75219D2511CA9DD8DA110EDABDBEAD07C11A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cabernet — Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010073F0197DA000",
+      "title": "Redemption Reapers",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010073F0197DA000.jpg",
+      "variants": [
+        {
+          "id": "v_4c5b3a04",
+          "name": "Redemption Reapers — cm_en #04",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ffzn6WDb37s8bc6eyb9IN1-AHHg1IY6K",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ffzn6WDb37s8bc6eyb9IN1-AHHg1IY6K&sz=w640",
+          "sizeBytes": 4932218,
+          "sha256": "8465FBB523B48CC17EED7ED6BBABC8C51AD9E54B4268D27414919EDF5EF82C6C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Redemption Reapers — cm_en #04"
+        }
+      ]
+    },
+    {
+      "titleId": "010029A0250DE000",
+      "title": "Dark Auction",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010029A0250DE000.jpg",
+      "variants": [
+        {
+          "id": "v_0b72c6f9",
+          "name": "Dark Auction — Dark Auction_EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1D_m4uDg2fN68zs7WQ6P2GyJeeJFK80wK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1D_m4uDg2fN68zs7WQ6P2GyJeeJFK80wK&sz=w640",
+          "sizeBytes": 4636339,
+          "sha256": "F99FC5639F5966029B0940D478FC2B16CB0FFE229BC93A73E4A32BFDBE55E57B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dark Auction — Dark Auction_EN"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B5301A180000",
+      "title": "Gal Guardians: Servants of the Dark",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B5301A180000.jpg",
+      "variants": [
+        {
+          "id": "v_e35124ea",
+          "name": "Gal Guardians: Servants of the Dark — Gal Guardi",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MSLrtVM7IfZot_B7ahCeNSBwj0qDnkdk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MSLrtVM7IfZot_B7ahCeNSBwj0qDnkdk&sz=w640",
+          "sizeBytes": 5467514,
+          "sha256": "A581F874636A2C223B2FCD2C151179A80E246E2544D5D90E0A9BBDACF3AE9DD2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Gal Guardians: Servants of the Dark — Ga"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EB001AE86000",
+      "title": "Wrestling Empire",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EB001AE86000.jpg",
+      "variants": [
+        {
+          "id": "v_e64db6b0",
+          "name": "Wrestling Empire — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WyO-YiPfLVlusfy3SZ8IhzE8Z3ui-3u5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WyO-YiPfLVlusfy3SZ8IhzE8Z3ui-3u5&sz=w640",
+          "sizeBytes": 5492667,
+          "sha256": "60355F5882EC55D6257FA8189B919FEC64466FAF75E8061DE037BDE65E9F0D94",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wrestling Empire — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010034E005C9C000",
+      "title": "Code of Princess EX",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010034E005C9C000.jpg",
+      "variants": [
+        {
+          "id": "v_f4f2b6ae",
+          "name": "Code of Princess EX — Release Date Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1POWXQeWWdj8ES5770wV-TUm390LYlgQN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1POWXQeWWdj8ES5770wV-TUm390LYlgQN&sz=w640",
+          "sizeBytes": 5573850,
+          "sha256": "5153E250757EEEBF45BC2D2A9BA1572FF5DD22F0D625E88B576FF5B263370BB5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Code of Princess EX — Release Date Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "010037400C7DA000",
+      "title": "Eagle Island Twist",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010037400C7DA000.jpg",
+      "variants": [
+        {
+          "id": "v_403c41e4",
+          "name": "Eagle Island Twist — Eagle Island Twist Gameplay",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dZzhz6lRNrzVs4qW2KaP6vqR5jl738jz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dZzhz6lRNrzVs4qW2KaP6vqR5jl738jz&sz=w640",
+          "sizeBytes": 5401957,
+          "sha256": "13BB7317B68F0A6534144B806305D0D1B2DA1A54C2A055E6C44CA4F9A1FDB2AC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Eagle Island Twist — Eagle Island Twist "
+        }
+      ]
+    },
+    {
+      "titleId": "010096F00E5B0000",
+      "title": "Phantom Doctrine",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010096F00E5B0000.jpg",
+      "variants": [
+        {
+          "id": "v_cc46dc76",
+          "name": "Phantom Doctrine — Phantom Doctrine - Mission De",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mur7lrSvFGoIbI_DpgZHAPNXwoxNVcmh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mur7lrSvFGoIbI_DpgZHAPNXwoxNVcmh&sz=w640",
+          "sizeBytes": 4981761,
+          "sha256": "249A8E2685E4B637FDB5955832A03871DBF1E77294F5E579DB541492EAD7F435",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Phantom Doctrine — Phantom Doctrine - Mi"
+        }
+      ]
+    },
+    {
+      "titleId": "01003AA01373C000",
+      "title": "Get-A-Grip Chip and the Body Bugs",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003AA01373C000.jpg",
+      "variants": [
+        {
+          "id": "v_3c7e4383",
+          "name": "Get-A-Grip Chip and the Body Bugs — Body Bugs Tr",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1iINsOZzEItXfLpRo58xlfiMmPVhHRe-Q",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1iINsOZzEItXfLpRo58xlfiMmPVhHRe-Q&sz=w640",
+          "sizeBytes": 5547871,
+          "sha256": "117BCF98FE5C1AF9B16B5109585305F9E07A3853F72B2F6BCA1317C408B15DBA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Get-A-Grip Chip and the Body Bugs — Body"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E060102AA000",
+      "title": "Blood will be Spilled",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E060102AA000.jpg",
+      "variants": [
+        {
+          "id": "v_301e7819",
+          "name": "Blood will be Spilled — Blood will be Spilled - ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MUuWrjkq69fS0z8JAdtz1CFtMtne7IZF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MUuWrjkq69fS0z8JAdtz1CFtMtne7IZF&sz=w640",
+          "sizeBytes": 5223047,
+          "sha256": "F2A0C0ED9EAE227FC4C59853BBBBDB572AAD2CD59982EC7C2F5A04349089B96B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Blood will be Spilled — Blood will be Sp"
+        }
+      ]
     }
   ],
-  "totalGames": 2443,
-  "totalVariants": 3867,
-  "lastUpdated": "2026-11-09T23:20:07.756770+00:00"
+  "totalGames": 2453,
+  "totalVariants": 3877,
+  "lastUpdated": "2026-11-09T23:22:56.506472+00:00"
 }
