@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T07:11:20.809093+00:00",
+  "updatedAt": "2026-11-09T07:11:56.512537+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -6426,6 +6426,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Monado Xenoblade Chronicles"
+        },
+        {
+          "id": "v_38d0c456",
+          "name": "Mythra Full Moon Starry Night Xenoblade Chronicl",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MEEg0OFkS-AXUydUEYxnfvNAecP7hfBg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MEEg0OFkS-AXUydUEYxnfvNAecP7hfBg&sz=w640",
+          "sizeBytes": 1019370,
+          "sha256": "0C74701984FCE62F75C5391F64A7DDF995CE559A913BF401458714272DE0C2D2",
+          "durationSec": 18.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mythra Full Moon Starry Night Xenoblade "
         }
       ]
     },
@@ -60540,6 +60558,6 @@
     }
   ],
   "totalGames": 1299,
-  "totalVariants": 2687,
-  "lastUpdated": "2026-11-09T07:11:20.809093+00:00"
+  "totalVariants": 2688,
+  "lastUpdated": "2026-11-09T07:11:56.512537+00:00"
 }
