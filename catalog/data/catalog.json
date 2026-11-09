@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T06:08:47.044321+00:00",
+  "updatedAt": "2026-11-09T06:14:27.257540+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -7131,6 +7131,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Mitsuru Kirijou Persona 3"
+        },
+        {
+          "id": "v_1e7c29da",
+          "name": "Classroom Window Blue Sky Persona 3 Reload",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DKW1NXJXamMK67dEBWO017oCchG566ol",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DKW1NXJXamMK67dEBWO017oCchG566ol&sz=w640",
+          "sizeBytes": 1769165,
+          "sha256": "24AFE77D2EC5BCE77F310341CDDB4E8A76332227321BD55E3A6DF00AF87666CE",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Classroom Window Blue Sky Persona 3 Re"
         }
       ]
     },
@@ -60592,6 +60610,6 @@
     }
   ],
   "totalGames": 1298,
-  "totalVariants": 2690,
-  "lastUpdated": "2026-11-09T06:08:47.044321+00:00"
+  "totalVariants": 2691,
+  "lastUpdated": "2026-11-09T06:14:27.257540+00:00"
 }
