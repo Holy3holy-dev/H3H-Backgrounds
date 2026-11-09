@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T06:23:47.513917+00:00",
+  "updatedAt": "2026-11-09T06:24:42.421004+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -3598,6 +3598,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Jill Valentine Resident Evil | ЗВУК"
+        },
+        {
+          "id": "v_a2fc2d45",
+          "name": "Castle Dimitrescu In The Fog Resident Evil Vi",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1aTQWHjdO_RCpcXIfmsXyEOIpZwajDvbG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1aTQWHjdO_RCpcXIfmsXyEOIpZwajDvbG&sz=w640",
+          "sizeBytes": 1468034,
+          "sha256": "7DA96FAD741DB4F19982282A2CEC370B9B3AD6FDDFADD183793E1EA186F31E22",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Castle Dimitrescu In The Fog Resident "
+        },
+        {
+          "id": "v_54b94bfc",
+          "name": "Welcome To Raccoon City Resident Evil Requiem",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-3yJQsFVV0LCHAJp_3hlVT21HbjnmklZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-3yJQsFVV0LCHAJp_3hlVT21HbjnmklZ&sz=w640",
+          "sizeBytes": 800312,
+          "sha256": "693FE63A02014FB39AD65929A7D25725E961C2F67211C9EEE56CFB669DF71613",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Welcome To Raccoon City Resident Evil "
         }
       ]
     },
@@ -60772,6 +60808,6 @@
     }
   ],
   "totalGames": 1298,
-  "totalVariants": 2700,
-  "lastUpdated": "2026-11-09T06:23:47.513917+00:00"
+  "totalVariants": 2702,
+  "lastUpdated": "2026-11-09T06:24:42.421004+00:00"
 }
