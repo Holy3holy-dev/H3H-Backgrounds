@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T06:28:18.316047+00:00",
+  "updatedAt": "2026-11-09T06:29:02.633957+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -51818,6 +51818,42 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_edcb78af",
+          "name": "Monster Bones Under The Sea Subnautica",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1V3tIHkO3t_1hwp0HGiHVVrZLpJyemPkR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1V3tIHkO3t_1hwp0HGiHVVrZLpJyemPkR&sz=w640",
+          "sizeBytes": 557700,
+          "sha256": "E193E2C18185077900FC07D4A1D6F080EDF68052F909E04B428BD1FE48E421A7",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Monster Bones Under The Sea Subnautica"
+        },
+        {
+          "id": "v_ea7f01ae",
+          "name": "Boneshark Encounter Subnautica",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LE2atM89eHH6LrYfvGdcvXbyZn7V_E_I",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LE2atM89eHH6LrYfvGdcvXbyZn7V_E_I&sz=w640",
+          "sizeBytes": 1480088,
+          "sha256": "5D2E7A547118A0B8E494C8492AE20392B4DC1986DE688399197DBC988A5EEC06",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Boneshark Encounter Subnautica"
         }
       ]
     },
@@ -60880,6 +60916,6 @@
     }
   ],
   "totalGames": 1298,
-  "totalVariants": 2706,
-  "lastUpdated": "2026-11-09T06:28:18.316047+00:00"
+  "totalVariants": 2708,
+  "lastUpdated": "2026-11-09T06:29:02.633957+00:00"
 }
