@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T23:34:40.716699+00:00",
+  "updatedAt": "2026-11-09T23:37:34.720106+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -92268,9 +92268,269 @@
           "notes": "Switch 720p 30fps H264 | One Dog Story — One Dog Story"
         }
       ]
+    },
+    {
+      "titleId": "01006F901C7F2000",
+      "title": "Choo-Choo Charles",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006F901C7F2000.jpg",
+      "variants": [
+        {
+          "id": "v_efe51dac",
+          "name": "Choo-Choo Charles — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1YnRZfW-T1U_jiJOV3TOXrPtnw2coy4pk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1YnRZfW-T1U_jiJOV3TOXrPtnw2coy4pk&sz=w640",
+          "sizeBytes": 5646626,
+          "sha256": "B03107213533B226D073089E0219E01A806C5BA269AD88E7BBB81A5CE832DF2E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Choo-Choo Charles — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FAE010864000",
+      "title": "Minoria",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FAE010864000.jpg",
+      "variants": [
+        {
+          "id": "v_c70fd2fb",
+          "name": "Minoria — Minoria Trailer 3 - EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mBC6LW52q_b4J3d9BFN3Bs5KT1eogdBX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mBC6LW52q_b4J3d9BFN3Bs5KT1eogdBX&sz=w640",
+          "sizeBytes": 5464253,
+          "sha256": "7052274E52E4ABED3A9FBFCD8EE84E00184CE3C51D1B6FB72AE215FCCE911FF5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Minoria — Minoria Trailer 3 - EN"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B8701266A000",
+      "title": "Micetopia",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B8701266A000.jpg",
+      "variants": [
+        {
+          "id": "v_02a1668d",
+          "name": "Micetopia — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18EApQgsTqRWqL9W__lPjSqbTPQVbEt5K",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18EApQgsTqRWqL9W__lPjSqbTPQVbEt5K&sz=w640",
+          "sizeBytes": 5456005,
+          "sha256": "0E780E8AE4C993996F6662CFE7AAA42F618CDECAABBAFCAD553BC2E8BEC5BF55",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Micetopia — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01006CB021DF6000",
+      "title": "Maiden Cops",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006CB021DF6000.jpg",
+      "variants": [
+        {
+          "id": "v_c1f08550",
+          "name": "Maiden Cops — Maiden Cops - Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KRHbV94FbY8QBsAQ06MHqyz-IMz3ZT8U",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KRHbV94FbY8QBsAQ06MHqyz-IMz3ZT8U&sz=w640",
+          "sizeBytes": 5499704,
+          "sha256": "DF5E88363E4247560DC9B02EB99E71E7F8F30AEA5FCABF15245E29BC44636E9D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Maiden Cops — Maiden Cops - Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010014A0115BE000",
+      "title": "Cake Bash",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010014A0115BE000.jpg",
+      "variants": [
+        {
+          "id": "v_219840ec",
+          "name": "Cake Bash — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=102KeBx_qb7hJrFtrxBD1Ew-cdvfR8rAy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=102KeBx_qb7hJrFtrxBD1Ew-cdvfR8rAy&sz=w640",
+          "sizeBytes": 5422230,
+          "sha256": "B6E714DE8782E61944FD5E19CB7B1D19C63825AFFD2093568A21F1B9EE25B350",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cake Bash — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CC3014887000",
+      "title": "The Caligula Effect 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CC3014887000.jpg",
+      "variants": [
+        {
+          "id": "v_536d1eda",
+          "name": "The Caligula Effect 2 — The Caligula Effect 2 Tr",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZVnOxC503htAb3PDfLGThYI2x0LPIenN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZVnOxC503htAb3PDfLGThYI2x0LPIenN&sz=w640",
+          "sizeBytes": 4495876,
+          "sha256": "B570341834B20FBBB8CCE65C7F7977B2205CAA995B507AD75D37310F0A1EA218",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Caligula Effect 2 — The Caligula Eff"
+        }
+      ]
+    },
+    {
+      "titleId": "010088501AAA8000",
+      "title": "Loretta",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010088501AAA8000.jpg",
+      "variants": [
+        {
+          "id": "v_486e78dc",
+          "name": "Loretta — Launch Trailer (EN)",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Wi7_ZU_lNfwNal6WR4nmk_7Q87PV7741",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Wi7_ZU_lNfwNal6WR4nmk_7Q87PV7741&sz=w640",
+          "sizeBytes": 5186762,
+          "sha256": "84793252D9BA83CCFAF469D2DD88D219EF138FE4310C72858C27232F15439475",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Loretta — Launch Trailer (EN)"
+        }
+      ]
+    },
+    {
+      "titleId": "01001B201FDEE000",
+      "title": "Touhou Genso Wanderer Foresight",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001B201FDEE000.jpg",
+      "variants": [
+        {
+          "id": "v_ef1a005e",
+          "name": "Touhou Genso Wanderer -FORESIGHT- — PV02_EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Nzvpg6_nYEZ3RMj-9nQbV_g8CyH2K_54",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Nzvpg6_nYEZ3RMj-9nQbV_g8CyH2K_54&sz=w640",
+          "sizeBytes": 5352632,
+          "sha256": "6B9674C032BB52E49113169C0D93220AD0ECA4FEED3EAF9425A19D64BEDE645A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Touhou Genso Wanderer -FORESIGHT- — PV02"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CA9014A04000",
+      "title": "Hack G.U. Last Recode",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CA9014A04000.jpg",
+      "variants": [
+        {
+          "id": "v_be5da2b4",
+          "name": ".hack//G.U. Last Recode — dothackGU_Street_US_ST",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13rVw8mm5M4zHflQG67H1yUn5OkWaEK0L",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13rVw8mm5M4zHflQG67H1yUn5OkWaEK0L&sz=w640",
+          "sizeBytes": 3967378,
+          "sha256": "8FFF85AE1D08D9C32E485713856B51E17B6669B6D4293CA7D6C9DBB7757939F1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | .hack//G.U. Last Recode — dothackGU_Stre"
+        }
+      ]
+    },
+    {
+      "titleId": "010091801BF70000",
+      "title": "Roots of Pacha",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010091801BF70000.jpg",
+      "variants": [
+        {
+          "id": "v_8a1806aa",
+          "name": "Roots of Pacha — Sun & Moon Update Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17TUkXBAIOZ8IKhPoV8EjvCqOOxE6yzK1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17TUkXBAIOZ8IKhPoV8EjvCqOOxE6yzK1&sz=w640",
+          "sizeBytes": 5116509,
+          "sha256": "53F31E057FA4A84C657717D5493F751E2CB80B08CBA2BE71FEC553C47475EA30",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Roots of Pacha — Sun & Moon Update Trail"
+        }
+      ]
     }
   ],
-  "totalGames": 2493,
-  "totalVariants": 3917,
-  "lastUpdated": "2026-11-09T23:34:40.716699+00:00"
+  "totalGames": 2503,
+  "totalVariants": 3927,
+  "lastUpdated": "2026-11-09T23:37:34.720106+00:00"
 }
