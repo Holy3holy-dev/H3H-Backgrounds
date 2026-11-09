@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T21:51:09.565013+00:00",
+  "updatedAt": "2026-11-09T21:54:20.217678+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -83428,9 +83428,269 @@
           "notes": "Switch 720p 30fps H264 | FATE: Reawakened — FATE: Reawakened Trai"
         }
       ]
+    },
+    {
+      "titleId": "010082E00F1CE000",
+      "title": "Cubers Arena",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010082E00F1CE000.jpg",
+      "variants": [
+        {
+          "id": "v_61ad760f",
+          "name": "Cubers: Arena — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16ImiqD71Pnf8Rb-lcnKczCAGsfeOcRUr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16ImiqD71Pnf8Rb-lcnKczCAGsfeOcRUr&sz=w640",
+          "sizeBytes": 5359558,
+          "sha256": "CD4778A8CB52E345557D8A79F20B70D34080C665D53B1E1487936CA9769DD4B6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cubers: Arena — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01004B7009F00000",
+      "title": "Miles and Kilo",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004B7009F00000.jpg",
+      "variants": [
+        {
+          "id": "v_a351daeb",
+          "name": "Miles & Kilo — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10DTch8R71y8I08b8kuVjaXOURmFYiiTE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10DTch8R71y8I08b8kuVjaXOURmFYiiTE&sz=w640",
+          "sizeBytes": 4991090,
+          "sha256": "7499EF827A70DC7120760635A6882CD2EC39B97EA570BAF008686F03D09C5613",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Miles & Kilo — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A6301788E000",
+      "title": "Pizza Tycoon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A6301788E000.jpg",
+      "variants": [
+        {
+          "id": "v_ab7a3ffd",
+          "name": "Bunny's Pizza Tycoon — Gameplay",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Y8_KhDwHLuP5va2h51mMDgFFBhV_lFes",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Y8_KhDwHLuP5va2h51mMDgFFBhV_lFes&sz=w640",
+          "sizeBytes": 5095001,
+          "sha256": "6422482D857543A4D553C3EEFD1D8BEEED7DC27513AC88584FEA45A60C53D4B6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bunny's Pizza Tycoon — Gameplay"
+        }
+      ]
+    },
+    {
+      "titleId": "010030F01A882000",
+      "title": "The Garden Path",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010030F01A882000.jpg",
+      "variants": [
+        {
+          "id": "v_6edf9165",
+          "name": "The Garden Path — The Garden Path - Launch trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1JQGwO4pAcVcA-ujacqMstdAvMgsb3ive",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1JQGwO4pAcVcA-ujacqMstdAvMgsb3ive&sz=w640",
+          "sizeBytes": 5250607,
+          "sha256": "18A412CC9B275FFB8EEF9AF0B7C299A302EDA95ACD5C83E2ACFC289C8723EDBE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Garden Path — The Garden Path - Laun"
+        }
+      ]
+    },
+    {
+      "titleId": "010002A00CD68000",
+      "title": "Indiecalypse",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010002A00CD68000.jpg",
+      "variants": [
+        {
+          "id": "v_3f67f704",
+          "name": "Indiecalypse — Trailer MOLON",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17saLqkHXcR5LUE-pSjbxJ7st4r29GAQJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17saLqkHXcR5LUE-pSjbxJ7st4r29GAQJ&sz=w640",
+          "sizeBytes": 5260900,
+          "sha256": "0E1FA9E6FBEFAF610934290C42CF0FDBC586B20785819BD672B5E050329F3721",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Indiecalypse — Trailer MOLON"
+        }
+      ]
+    },
+    {
+      "titleId": "010085A00C5E8000",
+      "title": "The Lord of the Rings Adventure Card Game Definitive Edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010085A00C5E8000.jpg",
+      "variants": [
+        {
+          "id": "v_38fcfa40",
+          "name": "The Lord of the Rings: Adventure Card Game - Def",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hZ27m0MiBeUfSV3EWEsAK3A75U-jjvcb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hZ27m0MiBeUfSV3EWEsAK3A75U-jjvcb&sz=w640",
+          "sizeBytes": 5102885,
+          "sha256": "B19A28AC3F24F0FF41C128672CF987EFBD2F759EFAAC2003555DE5FD71E71DA2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Lord of the Rings: Adventure Card Ga"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A2601BFF2000",
+      "title": "Cobalt Core",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A2601BFF2000.jpg",
+      "variants": [
+        {
+          "id": "v_fbec95bb",
+          "name": "Cobalt Core — Launch Date Announcement Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Lh6YpNxhtYLX31wgBXgyHetPNfo8UIIa",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Lh6YpNxhtYLX31wgBXgyHetPNfo8UIIa&sz=w640",
+          "sizeBytes": 5360980,
+          "sha256": "A904CF4F8DC52D4405B03171D764BF396B179AD79F012A7D818694F9B1D99E0E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cobalt Core — Launch Date Announcement T"
+        }
+      ]
+    },
+    {
+      "titleId": "01006FF01AEDC000",
+      "title": "Burnhouse Lane",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006FF01AEDC000.jpg",
+      "variants": [
+        {
+          "id": "v_d27edb04",
+          "name": "Burnhouse Lane — Burnhouse Lane Trailer 3 (short",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14o-kO0QG7BuUsmCO4UKavZt4u75YdXgQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14o-kO0QG7BuUsmCO4UKavZt4u75YdXgQ&sz=w640",
+          "sizeBytes": 5271095,
+          "sha256": "603CC32389ACDF0E366C48B9455F96A811DD6EEA09B5D465C53C85908765F01E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Burnhouse Lane — Burnhouse Lane Trailer "
+        }
+      ]
+    },
+    {
+      "titleId": "01004F9012FD8000",
+      "title": "Estranged The Departure",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004F9012FD8000.jpg",
+      "variants": [
+        {
+          "id": "v_17d080c5",
+          "name": "Estranged: The Departure — Estranged: The Depart",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1q-OAOnhVFH_QjrpyvvJazLx-babN3L88",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1q-OAOnhVFH_QjrpyvvJazLx-babN3L88&sz=w640",
+          "sizeBytes": 4741191,
+          "sha256": "2E4DDE2038B8088A7F375B2AE6CDB1F43E016EEB480DE1186EBAFA3E1859A437",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Estranged: The Departure — Estranged: Th"
+        }
+      ]
+    },
+    {
+      "titleId": "010001D014348000",
+      "title": "Inexistence Rebirth",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010001D014348000.jpg",
+      "variants": [
+        {
+          "id": "v_3476dc17",
+          "name": "Inexistence Rebirth — Announcement Trailer Inexi",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1coUL5dyePNNfDgL9yU00LX34I_1gWzbh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1coUL5dyePNNfDgL9yU00LX34I_1gWzbh&sz=w640",
+          "sizeBytes": 2835633,
+          "sha256": "173D8FEF43E24595A6285D458D810BB18C3C89258CCB41EDD6DC0084E2D09FC7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Inexistence Rebirth — Announcement Trail"
+        }
+      ]
     }
   ],
-  "totalGames": 2153,
-  "totalVariants": 3577,
-  "lastUpdated": "2026-11-09T21:51:09.565013+00:00"
+  "totalGames": 2163,
+  "totalVariants": 3587,
+  "lastUpdated": "2026-11-09T21:54:20.217678+00:00"
 }
