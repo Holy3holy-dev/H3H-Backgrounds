@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T06:29:02.633957+00:00",
+  "updatedAt": "2026-11-09T06:29:35.561253+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -55200,6 +55200,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Ghostrunner 2"
+        },
+        {
+          "id": "v_9160a6d5",
+          "name": "Ghostrunner",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ED_CZ0As4O5T1lkK6e0WKpZps5_kLYzL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ED_CZ0As4O5T1lkK6e0WKpZps5_kLYzL&sz=w640",
+          "sizeBytes": 1226932,
+          "sha256": "64637AA02A0D093279DB1FA43B87AD9337381F98EB04B1BE24E0E3005AF40A95",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ghostrunner"
         }
       ]
     },
@@ -60916,6 +60934,6 @@
     }
   ],
   "totalGames": 1298,
-  "totalVariants": 2708,
-  "lastUpdated": "2026-11-09T06:29:02.633957+00:00"
+  "totalVariants": 2709,
+  "lastUpdated": "2026-11-09T06:29:35.561253+00:00"
 }
