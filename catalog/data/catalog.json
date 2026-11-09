@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T06:05:03.546532+00:00",
+  "updatedAt": "2026-11-09T06:07:44.642472+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -2696,6 +2696,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | The Legend of Zelda: The Wind Waker Pi"
+        },
+        {
+          "id": "v_e1b7b909",
+          "name": "The Legend of Zelda: Twilight Princess Pixel",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fP47Qmg9-Q05yq9Pqp6rNjcATIysc9Al",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fP47Qmg9-Q05yq9Pqp6rNjcATIysc9Al&sz=w640",
+          "sizeBytes": 476683,
+          "sha256": "A3CE6E6421AD2138508EA0B635CCD0F489CF4BB81C9FFEDF72664CC966B1B0F5",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Legend of Zelda: Twilight Princess"
         }
       ]
     },
@@ -60556,6 +60574,6 @@
     }
   ],
   "totalGames": 1298,
-  "totalVariants": 2688,
-  "lastUpdated": "2026-11-09T06:05:03.546532+00:00"
+  "totalVariants": 2689,
+  "lastUpdated": "2026-11-09T06:07:44.642472+00:00"
 }
