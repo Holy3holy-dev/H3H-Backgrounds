@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T23:37:34.720106+00:00",
+  "updatedAt": "2026-11-09T23:40:27.323528+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -92528,9 +92528,269 @@
           "notes": "Switch 720p 30fps H264 | Roots of Pacha — Sun & Moon Update Trail"
         }
       ]
+    },
+    {
+      "titleId": "0100C74017A98000",
+      "title": "Watcher Chronicles",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C74017A98000.jpg",
+      "variants": [
+        {
+          "id": "v_926a6c06",
+          "name": "Watcher Chronicles — Watcher Chronicles Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=162bDrRCUowBYxFqEdhRXRUeZ9WzY_EzT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=162bDrRCUowBYxFqEdhRXRUeZ9WzY_EzT&sz=w640",
+          "sizeBytes": 5352677,
+          "sha256": "EC445B29F5B4DB292205C0BDC550D13FF95D43D2DD0B901B7D98305057C1D29C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Watcher Chronicles — Watcher Chronicles "
+        }
+      ]
+    },
+    {
+      "titleId": "010023E016EDA000",
+      "title": "Wild West Crops",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010023E016EDA000.jpg",
+      "variants": [
+        {
+          "id": "v_8b95be19",
+          "name": "Wild West Crops — Wild West Crops - Short Gamepl",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1JnvUX16nS0tpzdqo2V3R5I-PZGS_bv-l",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1JnvUX16nS0tpzdqo2V3R5I-PZGS_bv-l&sz=w640",
+          "sizeBytes": 5456423,
+          "sha256": "BFCE52F1C01A6CE352596FA0D555BB22B1BEED118C3119C29313AF03C68FDBB5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wild West Crops — Wild West Crops - Shor"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C1F0141AA000",
+      "title": "Cyber Shadow",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C1F0141AA000.jpg",
+      "variants": [
+        {
+          "id": "v_3aebdfd9",
+          "name": "Cyber Shadow — Cyber Shadow Reveal",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fIBh2VQYLuJvyOwZlJeZ-YN3JGD7OkUC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fIBh2VQYLuJvyOwZlJeZ-YN3JGD7OkUC&sz=w640",
+          "sizeBytes": 4760070,
+          "sha256": "85F0CF192EB9676F89B0D94615966D3D0F9FAF326A7CEC4BAE15AD611B0AFDA9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cyber Shadow — Cyber Shadow Reveal"
+        }
+      ]
+    },
+    {
+      "titleId": "010011300F74C000",
+      "title": "MO Astray",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010011300F74C000.jpg",
+      "variants": [
+        {
+          "id": "v_393fcf63",
+          "name": "MO:Astray — The Award-Winning MO: Astray Receive",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fJCQUnXd7d7azghkDPdD-IpC4WBLnQE9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fJCQUnXd7d7azghkDPdD-IpC4WBLnQE9&sz=w640",
+          "sizeBytes": 5529426,
+          "sha256": "916BA1CB6B687B2BB40B775680ECCCEC3BA4066D5985A46A20AEADFBC84F27CE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | MO:Astray — The Award-Winning MO: Astray"
+        }
+      ]
+    },
+    {
+      "titleId": "010089600E66A000",
+      "title": "The Big Journey",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010089600E66A000.jpg",
+      "variants": [
+        {
+          "id": "v_9d0f7d67",
+          "name": "The Big Journey — The Big Journey Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cnDbZmnTBegdXIWgF-6qZdFE6Ta_093c",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cnDbZmnTBegdXIWgF-6qZdFE6Ta_093c&sz=w640",
+          "sizeBytes": 3808280,
+          "sha256": "E2B91E8660D29286766582F2B37AAE4B152E95A0024EB8D2F9F6B5DB4C4A5A98",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Big Journey — The Big Journey Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "01002AD0126AE000",
+      "title": "Bridge Constructor The Walking Dead",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002AD0126AE000.jpg",
+      "variants": [
+        {
+          "id": "v_64f0c4b0",
+          "name": "Bridge Constructor: The Walking Dead — Bridge Co",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tZNuM--GpF8pa0vlAprOIk_9eJpk_O_X",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tZNuM--GpF8pa0vlAprOIk_9eJpk_O_X&sz=w640",
+          "sizeBytes": 5533310,
+          "sha256": "5DC81B1C8A9C527F92A1A8E3D515F48A4915B5344907D3EDAF77ECCE33587CF8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bridge Constructor: The Walking Dead — B"
+        }
+      ]
+    },
+    {
+      "titleId": "01000E2003FA0000",
+      "title": "Mighty Gunvolt Burst",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000E2003FA0000.jpg",
+      "variants": [
+        {
+          "id": "v_184e5d47",
+          "name": "MIGHTY GUNVOLT BURST — Mighty Gunvolt Burst",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-Qp3Qqz-H9Rp2qOvJ6E0QhOCCPkAesvx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-Qp3Qqz-H9Rp2qOvJ6E0QhOCCPkAesvx&sz=w640",
+          "sizeBytes": 5268148,
+          "sha256": "9206EA37D42368C47B97A1CCFCB7C5D4C35927E1E9917A180510E73E2871DAB3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | MIGHTY GUNVOLT BURST — Mighty Gunvolt Bu"
+        }
+      ]
+    },
+    {
+      "titleId": "010038E016266000",
+      "title": "Mega Man Battle Network Legacy Collection vol. 1-2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010038E016266000.jpg",
+      "variants": [
+        {
+          "id": "v_e722d4f0",
+          "name": "Mega Man Battle Network Legacy Collection Vol. 2",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=190cNL5fy0cR6Q0O-mtE48ADMBI8NVm50",
+          "previewUrl": "https://drive.google.com/thumbnail?id=190cNL5fy0cR6Q0O-mtE48ADMBI8NVm50&sz=w640",
+          "sizeBytes": 5212721,
+          "sha256": "596DC065A2C1FD6B05DA27891A97CFB826C39ED498D56943933D338DFEA56030",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mega Man Battle Network Legacy Collectio"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FFE013628000",
+      "title": "PAW Patrol The Movie: Adventure City Calls",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FFE013628000.jpg",
+      "variants": [
+        {
+          "id": "v_db61bbb1",
+          "name": "PAW Patrol The Movie: Adventure City Calls — PAW",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1exogIjUfpkCS2F8jPNksN7YYRSMCoHok",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1exogIjUfpkCS2F8jPNksN7YYRSMCoHok&sz=w640",
+          "sizeBytes": 5346571,
+          "sha256": "EB43A539EF754F4F10865D1FCC4BCC72D827D4D051EB4CB18540F67B2E53B6D2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | PAW Patrol The Movie: Adventure City Cal"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F8A01A40A000",
+      "title": "My Little Pony a Zephyr Heights Mystery",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F8A01A40A000.jpg",
+      "variants": [
+        {
+          "id": "v_796ac3b3",
+          "name": "My Little Pony: A Zephyr Heights Mystery — Launc",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CC-6eux3JkiOJKm5-9dRNiYUayMl92QX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CC-6eux3JkiOJKm5-9dRNiYUayMl92QX&sz=w640",
+          "sizeBytes": 5406672,
+          "sha256": "902190DBBFAADD8D1882ADB9958B6CBD012FA7D824DF7A45D0F6A72E2C9137CE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | My Little Pony: A Zephyr Heights Mystery"
+        }
+      ]
     }
   ],
-  "totalGames": 2503,
-  "totalVariants": 3927,
-  "lastUpdated": "2026-11-09T23:37:34.720106+00:00"
+  "totalGames": 2513,
+  "totalVariants": 3937,
+  "lastUpdated": "2026-11-09T23:40:27.323528+00:00"
 }
