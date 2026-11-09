@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T20:42:42.069743+00:00",
+  "updatedAt": "2026-11-09T20:45:47.833303+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -77708,9 +77708,269 @@
           "notes": "Switch 720p 30fps H264 | Asterix & Obelix XXL: Romastered — Aster"
         }
       ]
+    },
+    {
+      "titleId": "01000FA01AB30000",
+      "title": "Stray Gods the Roleplaying Musical",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000FA01AB30000.jpg",
+      "variants": [
+        {
+          "id": "v_cc7aebbf",
+          "name": "Stray Gods: The Roleplaying Musical — Stray Gods",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1s94r2iBEU3DXgw0rFFDV1P3hlINnO9Hk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1s94r2iBEU3DXgw0rFFDV1P3hlINnO9Hk&sz=w640",
+          "sizeBytes": 5265797,
+          "sha256": "704CB0D5C93B41052A07C1099492DFBCF9E5C8AC9FDE2BFEEA5D92D9BE9985E5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Stray Gods: The Roleplaying Musical — St"
+        }
+      ]
+    },
+    {
+      "titleId": "01009A30226B8000",
+      "title": "Decline's Drops",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009A30226B8000.jpg",
+      "variants": [
+        {
+          "id": "v_3632ee14",
+          "name": "Decline's Drops — Launch_Date_Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nPIW9twujPp16nL1AiA_Vv_hGmK94zYq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nPIW9twujPp16nL1AiA_Vv_hGmK94zYq&sz=w640",
+          "sizeBytes": 5071901,
+          "sha256": "E21CD3F95B17867B6984F5FE4320F70D5F6E9B4077DE9008B1F3DE5121A2A4D4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Decline's Drops — Launch_Date_Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A0B022234000",
+      "title": "Witchroid Vania a Magical Girl's Fantastical Adventures",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A0B022234000.jpg",
+      "variants": [
+        {
+          "id": "v_c3472989",
+          "name": "Witchroid Vania: A Magical Girl’s Fantastical Ad",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10bODKxhwJeuHEZ6_HbDBhr8tDM3Iee_w",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10bODKxhwJeuHEZ6_HbDBhr8tDM3Iee_w&sz=w640",
+          "sizeBytes": 5515201,
+          "sha256": "E330B77B85BD07927281D748BBA7322ECA500BDF6CADEEA51D349DF8D759F0E6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Witchroid Vania: A Magical Girl’s Fantas"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E0C0280C4000",
+      "title": "Namco Legendary Mountains",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E0C0280C4000.jpg",
+      "variants": [
+        {
+          "id": "v_31320109",
+          "name": "NAMCO LEGENDARY Mountains — NAMCO LEGENDARY Moun",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1YIN3Rbhgb4Cfi_knoJiX_ub8KbfwEcYX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1YIN3Rbhgb4Cfi_knoJiX_ub8KbfwEcYX&sz=w640",
+          "sizeBytes": 4409573,
+          "sha256": "972207C37AC94E0A4F1B8DD33D0897193261B89001FE1E4446ECF96500D1480C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | NAMCO LEGENDARY Mountains — NAMCO LEGEND"
+        }
+      ]
+    },
+    {
+      "titleId": "0100ED200B6FC000",
+      "title": "DreamWorks Dragons Dawn of New Riders",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100ED200B6FC000.jpg",
+      "variants": [
+        {
+          "id": "v_7a116310",
+          "name": "DreamWorks Dragons: Dawn of New Riders — Teaser ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FVEt-m4gFSqoV6YFlZR51X2lF2KABJ0M",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FVEt-m4gFSqoV6YFlZR51X2lF2KABJ0M&sz=w640",
+          "sizeBytes": 4447572,
+          "sha256": "E26B1FA478B434176C89C2280BA73EECE987E5C96BD102D5B3AAB4AFEA92EB50",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | DreamWorks Dragons: Dawn of New Riders —"
+        }
+      ]
+    },
+    {
+      "titleId": "01009530278EC000",
+      "title": "Barbarous Survivor's Quest",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009530278EC000.jpg",
+      "variants": [
+        {
+          "id": "v_0efdc453",
+          "name": "Barbarous: Survivor's Quest — Barbarous: Survivo",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Emokrk4FPXldza4kpZz8uj4btomKQHky",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Emokrk4FPXldza4kpZz8uj4btomKQHky&sz=w640",
+          "sizeBytes": 5540431,
+          "sha256": "50230BF2FBB1EA393CFA9D4C8BA48826809F0AE9535A665F446CFFE8EA9D6931",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Barbarous: Survivor's Quest — Barbarous:"
+        }
+      ]
+    },
+    {
+      "titleId": "01009C0024534000",
+      "title": "Death by Scrolling",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009C0024534000.jpg",
+      "variants": [
+        {
+          "id": "v_ba3eb876",
+          "name": "Death by Scrolling — Launch",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HzsoModk-h_YASb6T-PvoTtiu1DHx0vq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HzsoModk-h_YASb6T-PvoTtiu1DHx0vq&sz=w640",
+          "sizeBytes": 5576117,
+          "sha256": "55F61F4C57FC5AB9A9E275837B5973815AE7A004FC9F108AD40E72B0B62C94D5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Death by Scrolling — Launch"
+        }
+      ]
+    },
+    {
+      "titleId": "010015501C74E000",
+      "title": "Evil Nun the Broken Mask",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010015501C74E000.jpg",
+      "variants": [
+        {
+          "id": "v_95ca17d8",
+          "name": "Evil Nun: The Broken Mask — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Mc8Xnpb6p4CurvRwcAbdHNJigoGvFv0u",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Mc8Xnpb6p4CurvRwcAbdHNJigoGvFv0u&sz=w640",
+          "sizeBytes": 4694964,
+          "sha256": "C8D52A7F9C2532339CAFB48532E1D8C38CF5CFD9E710457276E8A8E763CE2091",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Evil Nun: The Broken Mask — Release Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "010063D02273E000",
+      "title": "Karate Survivor",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010063D02273E000.jpg",
+      "variants": [
+        {
+          "id": "v_7fd7b8fc",
+          "name": "Karate Survivor — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FLAVd-82ZJJHIasGkVPMg_cjyxbKN4C9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FLAVd-82ZJJHIasGkVPMg_cjyxbKN4C9&sz=w640",
+          "sizeBytes": 5355240,
+          "sha256": "5419E3BD9CD5E2FF2934FF6F70A4657B1BC8764CF4EAC3ED1584D8DA42E54A62",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Karate Survivor — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BBB014E92000",
+      "title": "Dungeons of Clay",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BBB014E92000.jpg",
+      "variants": [
+        {
+          "id": "v_b44988b4",
+          "name": "Dungeons of Clay — Welcome to the World of Clay ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SMqI9ZxueNZWcZNDawxxAI8u1_SS-7tw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SMqI9ZxueNZWcZNDawxxAI8u1_SS-7tw&sz=w640",
+          "sizeBytes": 4864093,
+          "sha256": "6270928A49322BDA189C0CB8F6BD9B90CA3C66492CB076FC110462DF6CFA60A2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dungeons of Clay — Welcome to the World "
+        }
+      ]
     }
   ],
-  "totalGames": 1933,
-  "totalVariants": 3357,
-  "lastUpdated": "2026-11-09T20:42:42.069743+00:00"
+  "totalGames": 1943,
+  "totalVariants": 3367,
+  "lastUpdated": "2026-11-09T20:45:47.833303+00:00"
 }
