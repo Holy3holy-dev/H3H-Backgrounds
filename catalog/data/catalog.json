@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T23:00:29.446299+00:00",
+  "updatedAt": "2026-11-09T23:03:20.561022+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -89148,9 +89148,269 @@
           "notes": "Switch 720p 30fps H264 | Stars In The Trash — Stars in the Trash "
         }
       ]
+    },
+    {
+      "titleId": "010013F009B88000",
+      "title": "Xeno Crisis",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010013F009B88000.jpg",
+      "variants": [
+        {
+          "id": "v_d6ca2afd",
+          "name": "Xeno Crisis — Xeno Crisis launch trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pOPkzS6xJJIrcNfPSZt_FBgpVFMGT-uq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pOPkzS6xJJIrcNfPSZt_FBgpVFMGT-uq&sz=w640",
+          "sizeBytes": 5361460,
+          "sha256": "1DF8F4773FC0B6EED0EB238A64EB69BE2AF90C45D033E38D20C93F756386CA9E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Xeno Crisis — Xeno Crisis launch trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010088501BCF4000",
+      "title": "Uncle Chop's Rocket Shop",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010088501BCF4000.jpg",
+      "variants": [
+        {
+          "id": "v_9c0e34dd",
+          "name": "Uncle Chop's Rocket Shop — Uncle Chop's Rocket S",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NJWxvIeItQlzHP9Pb74sUN6y6WDd0E5h",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NJWxvIeItQlzHP9Pb74sUN6y6WDd0E5h&sz=w640",
+          "sizeBytes": 5759461,
+          "sha256": "E3837764C718311E8D87DC7CBBA085A63A47B580255AA64FEAE267A5E24FDBBF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Uncle Chop's Rocket Shop — Uncle Chop's "
+        }
+      ]
+    },
+    {
+      "titleId": "01002C9005F36000",
+      "title": "Youtubers Life",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002C9005F36000.jpg",
+      "variants": [
+        {
+          "id": "v_b73de42b",
+          "name": "Youtubers Life — Youtubers Life - Fashion update",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-ijfWG43BgsFggRhaIU0VZ_PhCfK99-X",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-ijfWG43BgsFggRhaIU0VZ_PhCfK99-X&sz=w640",
+          "sizeBytes": 5482175,
+          "sha256": "4F3BEE5975D631CC333D1E914BBF31A8540647C3DB139236295DCDF112CA76F9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Youtubers Life — Youtubers Life - Fashio"
+        }
+      ]
+    },
+    {
+      "titleId": "01000AC00F5EC000",
+      "title": "Spirit Roots",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000AC00F5EC000.jpg",
+      "variants": [
+        {
+          "id": "v_1ba0b9c9",
+          "name": "Spirit Roots — Spirit Roots Gameplay",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=191s3y-w6hlm_DBJJYXCqPMIgf0b2GSua",
+          "previewUrl": "https://drive.google.com/thumbnail?id=191s3y-w6hlm_DBJJYXCqPMIgf0b2GSua&sz=w640",
+          "sizeBytes": 5518383,
+          "sha256": "18BFE5BA9337D8FB0BEC2F202B85D697C2A366CB04B0562E8CCC87CEF7B751F5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Spirit Roots — Spirit Roots Gameplay"
+        }
+      ]
+    },
+    {
+      "titleId": "01001F0012868000",
+      "title": "Paratopic",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001F0012868000.jpg",
+      "variants": [
+        {
+          "id": "v_7d619021",
+          "name": "Paratopic: Overdub — Paratopic: Overdub - Launch",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=175LJ9cpZ3KkV8Z4c-Ui8w0jZiq_TgJ1U",
+          "previewUrl": "https://drive.google.com/thumbnail?id=175LJ9cpZ3KkV8Z4c-Ui8w0jZiq_TgJ1U&sz=w640",
+          "sizeBytes": 3162090,
+          "sha256": "F69C8D565D9E9664915D58A3E685F0ED60FE8BA6775E5F9F3BF5EA48362A91C5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Paratopic: Overdub — Paratopic: Overdub "
+        }
+      ]
+    },
+    {
+      "titleId": "010037401A374000",
+      "title": "Dreamworks All Star Kart Racing",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010037401A374000.jpg",
+      "variants": [
+        {
+          "id": "v_3dbb2b76",
+          "name": "DreamWorks All-Star Kart Racing — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GIwgM7Lhyfjp93rZRQyCpPQPhVi52IUy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GIwgM7Lhyfjp93rZRQyCpPQPhVi52IUy&sz=w640",
+          "sizeBytes": 5312843,
+          "sha256": "0F08040E93E6D8B7D9817A280C411311AC48814693167CEA3DFF62B80AF26D53",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | DreamWorks All-Star Kart Racing — Launch"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C43012344000",
+      "title": "Beach Buggy Racing 2 Island Adventure",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C43012344000.jpg",
+      "variants": [
+        {
+          "id": "v_079f8c5d",
+          "name": "Beach Buggy Racing 2: Island Adventure — Launch ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SsV3kyDOX35mlLrNOgfD2aeW8g_sB4c2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SsV3kyDOX35mlLrNOgfD2aeW8g_sB4c2&sz=w640",
+          "sizeBytes": 5187549,
+          "sha256": "5C2D07F4E91FF5A9B10DE8E4A8D5120C7E1A56EC0CA7575F6DA001FB3CEE7151",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Beach Buggy Racing 2: Island Adventure —"
+        }
+      ]
+    },
+    {
+      "titleId": "010074C021210000",
+      "title": "Nice Day for Fishing",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010074C021210000.jpg",
+      "variants": [
+        {
+          "id": "v_dc1bbeb9",
+          "name": "Nice Day for Fishing — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1e5HTh63kY35cGoGWv7YBMwWXeIJ-b6Un",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1e5HTh63kY35cGoGWv7YBMwWXeIJ-b6Un&sz=w640",
+          "sizeBytes": 5189680,
+          "sha256": "F5ED45308BD42CE8A5C1F0207ACA9EFF706BF9CBA213D685EAE8D5E9C3A27809",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Nice Day for Fishing — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E8801E570000",
+      "title": "Speedollama",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E8801E570000.jpg",
+      "variants": [
+        {
+          "id": "v_b7135418",
+          "name": "Speedollama — Speedollama - Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16yAghWXvsiOZSeTHnTJXplQdAu8WvM9p",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16yAghWXvsiOZSeTHnTJXplQdAu8WvM9p&sz=w640",
+          "sizeBytes": 5455831,
+          "sha256": "E297F5FE808D39A826186E29988F60887A08B1C526971AC27BF14132349C2AE2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Speedollama — Speedollama - Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100593008BDC000",
+      "title": "Can't Drive This",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100593008BDC000.jpg",
+      "variants": [
+        {
+          "id": "v_ae82ad71",
+          "name": "Can't Drive This — Trailer English ESRB",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZNFs97sMGqoHzP4gqdt0T9KI4cf7uyoj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZNFs97sMGqoHzP4gqdt0T9KI4cf7uyoj&sz=w640",
+          "sizeBytes": 4390648,
+          "sha256": "31105C2FF18052D0F47D6BA7D57171836B50F050B3C437EB693CD7B0258DBA8C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Can't Drive This — Trailer English ESRB"
+        }
+      ]
     }
   ],
-  "totalGames": 2373,
-  "totalVariants": 3797,
-  "lastUpdated": "2026-11-09T23:00:29.446299+00:00"
+  "totalGames": 2383,
+  "totalVariants": 3807,
+  "lastUpdated": "2026-11-09T23:03:20.561022+00:00"
 }
