@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T23:31:38.906282+00:00",
+  "updatedAt": "2026-11-09T23:34:40.716699+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -92008,9 +92008,269 @@
           "notes": "Switch 720p 30fps H264 | Conquistadorio: Prologue — prologue"
         }
       ]
+    },
+    {
+      "titleId": "0100D0D00516A000",
+      "title": "Aqua Moto Racing Utopia",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D0D00516A000.jpg",
+      "variants": [
+        {
+          "id": "v_fb5d3757",
+          "name": "Aqua Moto Racing Utopia — Aqua Moto Racing Utopi",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zLRzntnF-pendaPpzX41UnrUaSYMHr8_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zLRzntnF-pendaPpzX41UnrUaSYMHr8_&sz=w640",
+          "sizeBytes": 5393567,
+          "sha256": "5455F95EE48DDD2E6B996083727A3F3AC71AEDF3732E08DF7173B2E32B5E08EF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Aqua Moto Racing Utopia — Aqua Moto Raci"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A5B00D3D2000",
+      "title": "Braveland Trilogy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A5B00D3D2000.jpg",
+      "variants": [
+        {
+          "id": "v_13afac9b",
+          "name": "Braveland Wizard — Braveland Wizard",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1znRDiwl-Ju12gr-0LlTGDIRRJGGDQAfl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1znRDiwl-Ju12gr-0LlTGDIRRJGGDQAfl&sz=w640",
+          "sizeBytes": 5304411,
+          "sha256": "FED0EEAA84CA8C747C9B39FF7B67632A33EA16C1982B65E3F735A8DC1E1EF47B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Braveland Wizard — Braveland Wizard"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A2D019DC0000",
+      "title": "Crypt Stalker",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A2D019DC0000.jpg",
+      "variants": [
+        {
+          "id": "v_f457d8bf",
+          "name": "Crypt Stalker — Gameplay Footage",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1l0C2POLsr2Jcn-p_dr8Ug68d_UFavQDc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1l0C2POLsr2Jcn-p_dr8Ug68d_UFavQDc&sz=w640",
+          "sizeBytes": 5448815,
+          "sha256": "22C49F88B8C2AF347499FCB407B7965819F68FD89707C49871D28D3669D972DE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Crypt Stalker — Gameplay Footage"
+        }
+      ]
+    },
+    {
+      "titleId": "01005E80164AC000",
+      "title": "Dungeon Drafters",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005E80164AC000.jpg",
+      "variants": [
+        {
+          "id": "v_48af5a24",
+          "name": "Dungeon Drafters — Launch Trailer (EN)",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yXRy9_V8yGqHo0qNO14gNEMbdqVhPgH9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yXRy9_V8yGqHo0qNO14gNEMbdqVhPgH9&sz=w640",
+          "sizeBytes": 5336228,
+          "sha256": "F11EB6345C5A5B63E2B321C862DDA2BEFFDE017C870DCDF2BCDD257DEEFAE423",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dungeon Drafters — Launch Trailer (EN)"
+        }
+      ]
+    },
+    {
+      "titleId": "0100126017B46000",
+      "title": "Fights in Tight Spaces",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100126017B46000.jpg",
+      "variants": [
+        {
+          "id": "v_c24e7c37",
+          "name": "Fights in Tight Spaces — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1sp3e5-1DP2Sujv7CYhVCGdS56HQFFVnd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1sp3e5-1DP2Sujv7CYhVCGdS56HQFFVnd&sz=w640",
+          "sizeBytes": 5294333,
+          "sha256": "A0FF3054C129889B852AA6AE08300826F7525165B14B881AE5FB461A8E336834",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fights in Tight Spaces — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100765015C2A000",
+      "title": "Super Bullet Break",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100765015C2A000.jpg",
+      "variants": [
+        {
+          "id": "v_5b723c9a",
+          "name": "Super Bullet Break — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FQryF8oiqGdK2dyRblhZc1FRAoINKTs7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FQryF8oiqGdK2dyRblhZc1FRAoINKTs7&sz=w640",
+          "sizeBytes": 5465716,
+          "sha256": "A038FFE39B1FA690DCB6A1280C5C8D5C11556769D9E072B59F872E31EBA9B67C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Super Bullet Break — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01004CE012A18000",
+      "title": "Discolored",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004CE012A18000.jpg",
+      "variants": [
+        {
+          "id": "v_4587a27b",
+          "name": "Discolored 2 — Discolored 2 | Release",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1praQWl6SjRffB4PQOixycBFDazNckXUB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1praQWl6SjRffB4PQOixycBFDazNckXUB&sz=w640",
+          "sizeBytes": 5442002,
+          "sha256": "1FF021713E6F2E0B0FB5E68854AC827477E79F3A49CD69F96AA547CDA5E6CA7F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Discolored 2 — Discolored 2 | Release"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E940044F2000",
+      "title": "Neversong",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E940044F2000.jpg",
+      "variants": [
+        {
+          "id": "v_f54dd427",
+          "name": "Neversong — Neversong — Official Teaser",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1uE1BJ6IbkXwcgRSNyJM6vpLhwYCITTFA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1uE1BJ6IbkXwcgRSNyJM6vpLhwYCITTFA&sz=w640",
+          "sizeBytes": 4518373,
+          "sha256": "327096286EF5749D44B278ADFEFA5B76A2FE117987E03A22CBD0C80FD73DD53F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Neversong — Neversong — Official Teaser"
+        }
+      ]
+    },
+    {
+      "titleId": "010062200E912000",
+      "title": "Narita Boy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010062200E912000.jpg",
+      "variants": [
+        {
+          "id": "v_0cf142ee",
+          "name": "Narita Boy — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oREX2Mn4TZ0a2UEyCQsVufQl5yl6yXD-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oREX2Mn4TZ0a2UEyCQsVufQl5yl6yXD-&sz=w640",
+          "sizeBytes": 5012838,
+          "sha256": "1833996D60135DE65044BC2619C20F9DDEA19381A8865CBA0D9933747D5EE83D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Narita Boy — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01009C301061A000",
+      "title": "One Dog Story",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009C301061A000.jpg",
+      "variants": [
+        {
+          "id": "v_2639fb28",
+          "name": "One Dog Story — One Dog Story",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ntg7_3Ngpl58ardQYRfqgYZx08tjLaGA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ntg7_3Ngpl58ardQYRfqgYZx08tjLaGA&sz=w640",
+          "sizeBytes": 5184937,
+          "sha256": "D3B479B8AF13D3E4413BFD4132DA420C67014A99E03A79D56BEB3A040E68BD73",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | One Dog Story — One Dog Story"
+        }
+      ]
     }
   ],
-  "totalGames": 2483,
-  "totalVariants": 3907,
-  "lastUpdated": "2026-11-09T23:31:38.906282+00:00"
+  "totalGames": 2493,
+  "totalVariants": 3917,
+  "lastUpdated": "2026-11-09T23:34:40.716699+00:00"
 }
