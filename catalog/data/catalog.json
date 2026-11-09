@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T23:11:43.608466+00:00",
+  "updatedAt": "2026-11-09T23:14:22.706162+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -90188,9 +90188,269 @@
           "notes": "Switch 720p 30fps H264 | Jackal Class Troublemaker Nikke"
         }
       ]
+    },
+    {
+      "titleId": "01005E7013476000",
+      "title": "Mad Father",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005E7013476000.jpg",
+      "variants": [
+        {
+          "id": "v_ed532e48",
+          "name": "Mad Father — Remake",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1530yr7KNnveI3ALGwTWQMTqEnVP-iJTU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1530yr7KNnveI3ALGwTWQMTqEnVP-iJTU&sz=w640",
+          "sizeBytes": 4786328,
+          "sha256": "152F25EDBE15A8B77B220DA6EDBA9CBF1801D0D6F23FBA2C738EFEBD7D5B90AF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mad Father — Remake"
+        }
+      ]
+    },
+    {
+      "titleId": "010073401B8DE000",
+      "title": "Metal Slug Attack Reloaded",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010073401B8DE000.jpg",
+      "variants": [
+        {
+          "id": "v_d652cc29",
+          "name": "METAL SLUG ATTACK RELOADED — New Update",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yfPeSE_GQxBH1S_T83Kja8z5rllmFFJy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yfPeSE_GQxBH1S_T83Kja8z5rllmFFJy&sz=w640",
+          "sizeBytes": 5213217,
+          "sha256": "48C45B727991718C32D19B7688B984E0313A09352C4FB095351E9CC3450C8482",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | METAL SLUG ATTACK RELOADED — New Update"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C1601AE38000",
+      "title": "Firefighting Simulator the Squad",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C1601AE38000.jpg",
+      "variants": [
+        {
+          "id": "v_49a6a63d",
+          "name": "Firefighting Simulator - The Squad — Firefightin",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1enxm8VpUX_XhDrDSUfdatgGmuJYuDhHd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1enxm8VpUX_XhDrDSUfdatgGmuJYuDhHd&sz=w640",
+          "sizeBytes": 5467696,
+          "sha256": "DB0E4334D084D3F1DA5488DDD5EC40AC5343103AF03396204A164D5D91AA5FFB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Firefighting Simulator - The Squad — Fir"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E66017F2A000",
+      "title": "Strange Horticulture",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E66017F2A000.jpg",
+      "variants": [
+        {
+          "id": "v_e87eb0af",
+          "name": "Strange Horticulture — Accolades Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WlLv_OxwkCtvOEG658Le5klsIpXzbOzs",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WlLv_OxwkCtvOEG658Le5klsIpXzbOzs&sz=w640",
+          "sizeBytes": 5355625,
+          "sha256": "B0EB8EB01E91FA7DEB0724F0090C5652E5018BAA5920442B5E51F9133472FF7E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Strange Horticulture — Accolades Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C1B01872A000",
+      "title": "Terraformers",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C1B01872A000.jpg",
+      "variants": [
+        {
+          "id": "v_727213f9",
+          "name": "Terraformers: Megastructures — Release Date Trai",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jR7YeVb1nnj_yBFnlhQjeLnbAOINEUfp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jR7YeVb1nnj_yBFnlhQjeLnbAOINEUfp&sz=w640",
+          "sizeBytes": 5093267,
+          "sha256": "2948A3A125B439FC00CD496ABC1DFEE791BA594026873E872C1DE77072BD7856",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Terraformers: Megastructures — Release D"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DE00264CA000",
+      "title": "Cassette Boy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DE00264CA000.jpg",
+      "variants": [
+        {
+          "id": "v_9e91bb62",
+          "name": "CASSETTE BOY — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ma6C-IgfH6i5qZHUTr7KlufB3IHlCX8U",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ma6C-IgfH6i5qZHUTr7KlufB3IHlCX8U&sz=w640",
+          "sizeBytes": 3014309,
+          "sha256": "0B1B7C45D650C4B1D6355A850FC1E5B78D302280F07DC3C2B5C9D83419C8C4ED",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | CASSETTE BOY — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100875008000000",
+      "title": "Bloody Zombies",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100875008000000.jpg",
+      "variants": [
+        {
+          "id": "v_39f36642",
+          "name": "Bloody Zombies — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1j9Zyp6FoTHzNE7PywmqQI9Ps_nh5ftDo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1j9Zyp6FoTHzNE7PywmqQI9Ps_nh5ftDo&sz=w640",
+          "sizeBytes": 4521973,
+          "sha256": "812F2055F08018751AB8754208723825D71A731F6009FDE39C12B5471C843996",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bloody Zombies — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010064001A6EE000",
+      "title": "Knights of Braveland",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010064001A6EE000.jpg",
+      "variants": [
+        {
+          "id": "v_e8ff3cde",
+          "name": "Knights of Braveland — Knights of Braveland Game",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18d8fxVgT5A1C4c9PvKUhw4pz9iFb8H21",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18d8fxVgT5A1C4c9PvKUhw4pz9iFb8H21&sz=w640",
+          "sizeBytes": 5523946,
+          "sha256": "3424E5B49613F0219BEB4408E190369A82E7D7826990EC56E25943AE785CFF47",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Knights of Braveland — Knights of Bravel"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D9C00AA52000",
+      "title": "Mother Russia Bleeds",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D9C00AA52000.jpg",
+      "variants": [
+        {
+          "id": "v_76fb74ac",
+          "name": "Mother Russia Bleeds — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13vkZvDFaRX1TbsHUdIUT3eq8xG-pp614",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13vkZvDFaRX1TbsHUdIUT3eq8xG-pp614&sz=w640",
+          "sizeBytes": 5172892,
+          "sha256": "479C6061A136E264AB3805518CE8046117A79EC57E3417016C40BE9378A2D167",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mother Russia Bleeds — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010007B012514000",
+      "title": "The Great Perhaps",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010007B012514000.jpg",
+      "variants": [
+        {
+          "id": "v_3419fc78",
+          "name": "The Great Perhaps — Trailer_OUTNOW",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18Rp0u2o9l99Im6hBZNSwl46kkHDDvYms",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18Rp0u2o9l99Im6hBZNSwl46kkHDDvYms&sz=w640",
+          "sizeBytes": 5338936,
+          "sha256": "BE8286D23DD80F8087306E65E3C8E39EF9CC538E349223C3B27D415AD991F19D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Great Perhaps — Trailer_OUTNOW"
+        }
+      ]
     }
   ],
-  "totalGames": 2413,
-  "totalVariants": 3837,
-  "lastUpdated": "2026-11-09T23:11:43.608466+00:00"
+  "totalGames": 2423,
+  "totalVariants": 3847,
+  "lastUpdated": "2026-11-09T23:14:22.706162+00:00"
 }
