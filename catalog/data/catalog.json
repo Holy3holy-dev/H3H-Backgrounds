@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T06:20:35.834504+00:00",
+  "updatedAt": "2026-11-09T06:23:47.513917+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -53596,6 +53596,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Lady Devil May Cry 5 | ЗВУК"
+        },
+        {
+          "id": "v_fbeef757",
+          "name": "Devil May Cry Vergil X Dante",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SvsY0SmGtZV5zZmMqhEYhxkHAJTbpJst",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SvsY0SmGtZV5zZmMqhEYhxkHAJTbpJst&sz=w640",
+          "sizeBytes": 1802638,
+          "sha256": "615443DD7D04D56F9AB748E959D55D8B65BA72C84FFABDAE3FCF99B8D74FF6D3",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Devil May Cry Vergil X Dante"
+        },
+        {
+          "id": "v_119a1d3b",
+          "name": "Vergil Devil May Cry X Punishing Gray Raven",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pyO71fCvj1n3gbYuxJSj4he4zrxxCb1X",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pyO71fCvj1n3gbYuxJSj4he4zrxxCb1X&sz=w640",
+          "sizeBytes": 3712716,
+          "sha256": "3F1D9E7BB834DD03D509388F5BDD29D4530F5B6EEFC7337E0CE4F2010B360CA1",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Vergil Devil May Cry X Punishing Gray "
         }
       ]
     },
@@ -60736,6 +60772,6 @@
     }
   ],
   "totalGames": 1298,
-  "totalVariants": 2698,
-  "lastUpdated": "2026-11-09T06:20:35.834504+00:00"
+  "totalVariants": 2700,
+  "lastUpdated": "2026-11-09T06:23:47.513917+00:00"
 }
