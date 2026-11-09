@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T07:07:46.933847+00:00",
+  "updatedAt": "2026-11-09T07:09:08.140500+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -55074,6 +55074,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Danganronpa: Trigger Happy Havoc — Launc"
+        },
+        {
+          "id": "v_29f1d517",
+          "name": "Chiaki Nanami Gamer Girl Danganronpa",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BxDlciWuTX7fZ9TJ4jm3pqZAfaH0tCZK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BxDlciWuTX7fZ9TJ4jm3pqZAfaH0tCZK&sz=w640",
+          "sizeBytes": 749146,
+          "sha256": "E29FE2C1CB0F783E8F79A64483765ECBEE429FF8345E886865B9DC2B4CC15B31",
+          "durationSec": 18.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Chiaki Nanami Gamer Girl Danganronpa"
+        },
+        {
+          "id": "v_e4bbeca5",
+          "name": "Chiaki Nanami Danganronpa",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1k3uVZ0OBQw2CtO2ZqFVstihDNnWOeZjh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1k3uVZ0OBQw2CtO2ZqFVstihDNnWOeZjh&sz=w640",
+          "sizeBytes": 503405,
+          "sha256": "777657A1C3E7FAA4DBB2A53268C63777A6606C828D969973B0697E9597385F62",
+          "durationSec": 18.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Chiaki Nanami Danganronpa"
         }
       ]
     },
@@ -60442,6 +60478,6 @@
     }
   ],
   "totalGames": 1298,
-  "totalVariants": 2682,
-  "lastUpdated": "2026-11-09T07:07:46.933847+00:00"
+  "totalVariants": 2684,
+  "lastUpdated": "2026-11-09T07:09:08.140500+00:00"
 }
