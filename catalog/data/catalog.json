@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T22:51:53.596362+00:00",
+  "updatedAt": "2026-11-09T22:54:45.322332+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -88368,9 +88368,269 @@
           "notes": "Switch 720p 30fps H264 | Stikbold! A Dodgeball Adventure — Couch "
         }
       ]
+    },
+    {
+      "titleId": "010023601819C000",
+      "title": "Full Void",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010023601819C000.jpg",
+      "variants": [
+        {
+          "id": "v_04e8e5a9",
+          "name": "Full Void — Official Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17g2zkISmLjY4fKGlo9me_jf5TzgbjN09",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17g2zkISmLjY4fKGlo9me_jf5TzgbjN09&sz=w640",
+          "sizeBytes": 4672938,
+          "sha256": "E4E1D4D8245DB7A78450D0C65814FB48A77547863BFCC1D5875F17E25FEE5BB9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Full Void — Official Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100366013DA8000",
+      "title": "Gas Guzzlers Extreme",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100366013DA8000.jpg",
+      "variants": [
+        {
+          "id": "v_a0ab5267",
+          "name": "Gas Guzzlers Extreme — Gas Guzzlers Extreme Teas",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FVbphPwH2SV_Qr9ediJ3ueJl6LXzSZPe",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FVbphPwH2SV_Qr9ediJ3ueJl6LXzSZPe&sz=w640",
+          "sizeBytes": 4614607,
+          "sha256": "707794800E15A66AE16C00AA506264A131066E3302A95A0120C00A7B0C552099",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Gas Guzzlers Extreme — Gas Guzzlers Extr"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A8B014930000",
+      "title": "Dragon Star Varnir",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A8B014930000.jpg",
+      "variants": [
+        {
+          "id": "v_70a43d8f",
+          "name": "Dragon Star Varnir — Varnir Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kj09XolVm6LuJ1poyJ8TY9nmx6n6wrLw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kj09XolVm6LuJ1poyJ8TY9nmx6n6wrLw&sz=w640",
+          "sizeBytes": 5305629,
+          "sha256": "9BA6225F4CA7DE2F9D7B05065D66434FCAD5B5AE2B95C7143D62015CB5DCA299",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dragon Star Varnir — Varnir Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100522020894000",
+      "title": "New Shores",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100522020894000.jpg",
+      "variants": [
+        {
+          "id": "v_c00fb192",
+          "name": "ISLANDERS: New Shores — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ydzAipSihrCanm1yJbPYVqSw4k8fkeI0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ydzAipSihrCanm1yJbPYVqSw4k8fkeI0&sz=w640",
+          "sizeBytes": 5197372,
+          "sha256": "9FA91F0F59F871024AB9AEDCF7C46D8EC0665E8F1085E929FF1289197CC3C3AB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | ISLANDERS: New Shores — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100ED9025460000",
+      "title": "Heart of Crown",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100ED9025460000.jpg",
+      "variants": [
+        {
+          "id": "v_fa527b68",
+          "name": "HEART of CROWN Online — 正式版PV ENGLISH",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CVvBZk7Yx623GH6846LQFpdJVXKmlSsz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CVvBZk7Yx623GH6846LQFpdJVXKmlSsz&sz=w640",
+          "sizeBytes": 5262903,
+          "sha256": "55C46254140E9F3AAFF65B404E5A895DEDEEC9C568EBCDA4BA507905407283A9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | HEART of CROWN Online — 正式版PV ENGLISH"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B8C01B360000",
+      "title": "Wildermyth",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B8C01B360000.jpg",
+      "variants": [
+        {
+          "id": "v_7cc726fc",
+          "name": "Wildermyth — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1b4KbJIKqOvcEK35ySjpSv7FPf4iNqFD9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1b4KbJIKqOvcEK35ySjpSv7FPf4iNqFD9&sz=w640",
+          "sizeBytes": 5440063,
+          "sha256": "0CCA5CF0F9B54E4012AAF3ED9A4475CBE8DBE304EC0539A7211DF3DBDF65F8F2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wildermyth — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010096F01B4D8000",
+      "title": "Shogun Showdown",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010096F01B4D8000.jpg",
+      "variants": [
+        {
+          "id": "v_4207aadb",
+          "name": "Shogun Showdown — Full Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qZnb9pH9hgsmOKburESrlf_sTqIx9Vi0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qZnb9pH9hgsmOKburESrlf_sTqIx9Vi0&sz=w640",
+          "sizeBytes": 5240180,
+          "sha256": "F844515A2215A335A7C79BEB0F5006871CFE42867B96B4B22415E5508E8CA278",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Shogun Showdown — Full Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DE2016376000",
+      "title": "Wildfrost",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DE2016376000.jpg",
+      "variants": [
+        {
+          "id": "v_ffd3009e",
+          "name": "Wildfrost — Announcement Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FmCRWg895UBg10hRozpHpQLg2bMPSuoi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FmCRWg895UBg10hRozpHpQLg2bMPSuoi&sz=w640",
+          "sizeBytes": 4840040,
+          "sha256": "B2F2C5136DE86D459C75A5F1F87F0F47FD204C0F41BA1449BD8A60EB6AA80A00",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wildfrost — Announcement Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010082B00E8B8000",
+      "title": "Megaquarium",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010082B00E8B8000.jpg",
+      "variants": [
+        {
+          "id": "v_dd5877ac",
+          "name": "Megaquarium — Pre-release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1EiZ4ixATeLi_OdwQbBWf_FGUHRDNVRDU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1EiZ4ixATeLi_OdwQbBWf_FGUHRDNVRDU&sz=w640",
+          "sizeBytes": 5206564,
+          "sha256": "9C840220D3A575470A803A90E3116E2DDF7B4B9C856340EABC6E7B86C8D80889",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Megaquarium — Pre-release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010039501F11C000",
+      "title": "Wobbly Life",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010039501F11C000.jpg",
+      "variants": [
+        {
+          "id": "v_ca3d98de",
+          "name": "Wobbly Life — Wobbly Life - Space Update",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KT2obP_6vB32h_oUP0jlqL_qRGZwwtob",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KT2obP_6vB32h_oUP0jlqL_qRGZwwtob&sz=w640",
+          "sizeBytes": 5168258,
+          "sha256": "6744CB712B427A1D88F8853B9DB72A72B4E3E37DF5C6F969E61200D4CDF89BA2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wobbly Life — Wobbly Life - Space Update"
+        }
+      ]
     }
   ],
-  "totalGames": 2343,
-  "totalVariants": 3767,
-  "lastUpdated": "2026-11-09T22:51:53.596362+00:00"
+  "totalGames": 2353,
+  "totalVariants": 3777,
+  "lastUpdated": "2026-11-09T22:54:45.322332+00:00"
 }
