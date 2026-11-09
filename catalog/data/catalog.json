@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T22:49:03.654233+00:00",
+  "updatedAt": "2026-11-09T22:51:53.596362+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -88108,9 +88108,269 @@
           "notes": "Switch 720p 30fps H264 | NeuroVoider — NeuroVoider - Release Trai"
         }
       ]
+    },
+    {
+      "titleId": "010067C00A776000",
+      "title": "Cosmic Star Heroine",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010067C00A776000.jpg",
+      "variants": [
+        {
+          "id": "v_0b4b8101",
+          "name": "Cosmic Star Heroine — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VBxj6_RsAmPOymRbVma8k-CHspZgmPiT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VBxj6_RsAmPOymRbVma8k-CHspZgmPiT&sz=w640",
+          "sizeBytes": 4184507,
+          "sha256": "3044F598629808DAC1189D273913663315A1C722753352C53D302019836C36C0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cosmic Star Heroine — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D02014CE0000",
+      "title": "Arcade Paradise",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D02014CE0000.jpg",
+      "variants": [
+        {
+          "id": "v_6f5ef17c",
+          "name": "Arcade Paradise — Accolades Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1H-t9z1xpK2_gzN2kidsNK5JW4JVivO8C",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1H-t9z1xpK2_gzN2kidsNK5JW4JVivO8C&sz=w640",
+          "sizeBytes": 11322931,
+          "sha256": "8AAF283186A29A04FA3F1E78190C392B4602A5798BA2A3AAC7F9C788D5F8F3C5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Arcade Paradise — Accolades Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010029E019B0A000",
+      "title": "Railbound",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010029E019B0A000.jpg",
+      "variants": [
+        {
+          "id": "v_3a442255",
+          "name": "Railbound — Railbound - Level Editor Beta Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_pKxy7582lzbn8BsBNUOiJaNJ_KxsDA1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_pKxy7582lzbn8BsBNUOiJaNJ_KxsDA1&sz=w640",
+          "sizeBytes": 5503371,
+          "sha256": "0BBFBE598CD73C420F4058AE63E3E0CCFDBC928A6EFCA57EE5E2608910982CA5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Railbound — Railbound - Level Editor Bet"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D63017A06000",
+      "title": "Fashion Police Squad",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D63017A06000.jpg",
+      "variants": [
+        {
+          "id": "v_b2fbee63",
+          "name": "Fashion Police Squad — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Oq5JueCLEhIUTVqZVqQA6z7DGjyKkxCz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Oq5JueCLEhIUTVqZVqQA6z7DGjyKkxCz&sz=w640",
+          "sizeBytes": 5364158,
+          "sha256": "6DB7C16B2558EAD4432317D4E267EBC94D51EF23F70D4F6F1C73025FCBF42DCA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fashion Police Squad — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C8B00C4AE000",
+      "title": "SpeedRunners",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C8B00C4AE000.jpg",
+      "variants": [
+        {
+          "id": "v_99cd3050",
+          "name": "SpeedRunners — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-8VPn5RQ9SY3pfcWdkVFU3U2swJ0O3KL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-8VPn5RQ9SY3pfcWdkVFU3U2swJ0O3KL&sz=w640",
+          "sizeBytes": 5000149,
+          "sha256": "9D3EB7F2CF67659BCE97C782C2AC221ED494C19FDBE741E2E33B6386175E0921",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | SpeedRunners — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010066A01D363000",
+      "title": "Sticky Business",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010066A01D363000.jpg",
+      "variants": [
+        {
+          "id": "v_09440822",
+          "name": "Sticky Business — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LNYdFprGUMsPyRXzhNyNtFJPbkwpjk5I",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LNYdFprGUMsPyRXzhNyNtFJPbkwpjk5I&sz=w640",
+          "sizeBytes": 4199208,
+          "sha256": "425B4A4637770BB45DC4964C61409F14873A12128166149A2742A3039101B079",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sticky Business — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E06016628000",
+      "title": "Scarlet Hood and the Wicked Wood",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E06016628000.jpg",
+      "variants": [
+        {
+          "id": "v_28268e7f",
+          "name": "Scarlet Hood and the Wicked Wood — Scarlet Hood ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1t7SwQ0gIIsvwCUN7qtU35v_3fxU01pCY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1t7SwQ0gIIsvwCUN7qtU35v_3fxU01pCY&sz=w640",
+          "sizeBytes": 5262242,
+          "sha256": "833B4D89460D25B4E40815D1FC46773EF61112D58B43E151E646547D30EBBB38",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Scarlet Hood and the Wicked Wood — Scarl"
+        }
+      ]
+    },
+    {
+      "titleId": "01000F101B672000",
+      "title": "The Stone of Madness",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000F101B672000.jpg",
+      "variants": [
+        {
+          "id": "v_0616ed70",
+          "name": "The Stone of Madness — The Stone of Madness - La",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1k_Wb-xGD8TeuZko2M170zJRFFJk5qWT7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1k_Wb-xGD8TeuZko2M170zJRFFJk5qWT7&sz=w640",
+          "sizeBytes": 3943742,
+          "sha256": "39F44474BEB415A77385B437F77F345B9FF8CE9EAA0983F363138BBE5B4D4F2C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Stone of Madness — The Stone of Madn"
+        }
+      ]
+    },
+    {
+      "titleId": "01008C1011F2E000",
+      "title": "Infinite Adventures",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008C1011F2E000.jpg",
+      "variants": [
+        {
+          "id": "v_07e782c9",
+          "name": "Infinite Adventures® — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AZy2wqrARtGvfT1Kt03dUVE8yHPEUjpt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AZy2wqrARtGvfT1Kt03dUVE8yHPEUjpt&sz=w640",
+          "sizeBytes": 4524535,
+          "sha256": "7D29DC6D6159DBC39EC0ED39FD064C982451A572C16BE4F9CBE2507261E63537",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Infinite Adventures® — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E24006FA8000",
+      "title": "Stikbold a Dodgeball Adventure Deluxe",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E24006FA8000.jpg",
+      "variants": [
+        {
+          "id": "v_cda1d9a3",
+          "name": "Stikbold! A Dodgeball Adventure — Couch Overtime",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1d9bY_YAhrHgP-hGTTwulBU8FXwauL_3Q",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1d9bY_YAhrHgP-hGTTwulBU8FXwauL_3Q&sz=w640",
+          "sizeBytes": 5350801,
+          "sha256": "CAD0991B37611C5A26B98AA81A519AA8530C12180AB075359C8AB5BF1DB66370",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Stikbold! A Dodgeball Adventure — Couch "
+        }
+      ]
     }
   ],
-  "totalGames": 2333,
-  "totalVariants": 3757,
-  "lastUpdated": "2026-11-09T22:49:03.654233+00:00"
+  "totalGames": 2343,
+  "totalVariants": 3767,
+  "lastUpdated": "2026-11-09T22:51:53.596362+00:00"
 }
