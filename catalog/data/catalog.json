@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T05:43:57.829309+00:00",
+  "updatedAt": "2026-11-09T05:44:41.878436+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -11557,6 +11557,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Mega Charizard X Pokemon | ЗВУК"
+        },
+        {
+          "id": "v_e7fe7f5e",
+          "name": "Dialga Pokemon",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1x6kRbbYSNGewgelmNr4w7Sz_KbLxjq16",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1x6kRbbYSNGewgelmNr4w7Sz_KbLxjq16&sz=w640",
+          "sizeBytes": 936888,
+          "sha256": "D4C43600E45440432B0540FA5CBC4553FCBB820B9CBF6729B999DD8FCBF3E827",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dialga Pokemon"
         }
       ]
     },
@@ -60370,6 +60388,6 @@
     }
   ],
   "totalGames": 1297,
-  "totalVariants": 2678,
-  "lastUpdated": "2026-11-09T05:43:57.829309+00:00"
+  "totalVariants": 2679,
+  "lastUpdated": "2026-11-09T05:44:41.878436+00:00"
 }
