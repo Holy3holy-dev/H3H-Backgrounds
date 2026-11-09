@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T06:32:13.156363+00:00",
+  "updatedAt": "2026-11-09T06:34:55.501665+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -8100,6 +8100,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Minecraft Cozy Lake House"
+        },
+        {
+          "id": "v_4952b4ab",
+          "name": "Cherry Blossom Haven Minecraft",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TcK-xIT5kJSZRgHpQ6rJHslUqUee5DC4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TcK-xIT5kJSZRgHpQ6rJHslUqUee5DC4&sz=w640",
+          "sizeBytes": 1566574,
+          "sha256": "4A13F2FBA7D05AA61E005362E1F12B8EAA8FDFE982587EE200BE39EF2C7AEB65",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cherry Blossom Haven Minecraft"
         }
       ]
     },
@@ -60952,6 +60970,6 @@
     }
   ],
   "totalGames": 1298,
-  "totalVariants": 2710,
-  "lastUpdated": "2026-11-09T06:32:13.156363+00:00"
+  "totalVariants": 2711,
+  "lastUpdated": "2026-11-09T06:34:55.501665+00:00"
 }
