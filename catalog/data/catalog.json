@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T22:16:43.774668+00:00",
+  "updatedAt": "2026-11-09T22:19:37.227009+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -85248,9 +85248,269 @@
           "notes": "Switch 720p 30fps H264 | The Casebook of Arkady Smith — The Caseb"
         }
       ]
+    },
+    {
+      "titleId": "0100FFB015C6E000",
+      "title": "Mystik Belle Enchanted edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FFB015C6E000.jpg",
+      "variants": [
+        {
+          "id": "v_6c65f0e7",
+          "name": "Mystik Belle: Enchanted Edition — Mystic Belle E",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lDbn8maP1oJwkgYapfkLB7YrkO29nZLN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lDbn8maP1oJwkgYapfkLB7YrkO29nZLN&sz=w640",
+          "sizeBytes": 4786489,
+          "sha256": "25F1DC8B595E78F9A1C318717E108DA4EC5AF9D55440443F3C5D3853B08B12A9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mystik Belle: Enchanted Edition — Mystic"
+        }
+      ]
+    },
+    {
+      "titleId": "0100769004584000",
+      "title": "Shaq Fu a Legend Reborn",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100769004584000.jpg",
+      "variants": [
+        {
+          "id": "v_d5926db0",
+          "name": "Shaq Fu: A Legend Reborn — Shaq FU Release Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1v1M8y4C6oe5bLLQiJ9VcRShlA0yMOLjl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1v1M8y4C6oe5bLLQiJ9VcRShlA0yMOLjl&sz=w640",
+          "sizeBytes": 4890533,
+          "sha256": "41A0B31FA11DC07F8A4AB908B9F0C5A0E2EEDB08D6625D2153A174C4652ACCE1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Shaq Fu: A Legend Reborn — Shaq FU Relea"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E4F016262000",
+      "title": "Krut the Mythic Wings",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E4F016262000.jpg",
+      "variants": [
+        {
+          "id": "v_c1367f4e",
+          "name": "Krut: The Mythic Wings — Krut: The Mythic Wings ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rgsiu0SEE1BExNioOa6al4mRPtFKdwf_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rgsiu0SEE1BExNioOa6al4mRPtFKdwf_&sz=w640",
+          "sizeBytes": 5529584,
+          "sha256": "19478D52FFE170C23E7026AD6DA87C139AED37283E61BBCA5D7432D39BE61C1C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Krut: The Mythic Wings — Krut: The Mythi"
+        }
+      ]
+    },
+    {
+      "titleId": "010038402669A000",
+      "title": "Wanderstop",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010038402669A000.jpg",
+      "variants": [
+        {
+          "id": "v_0f07d435",
+          "name": "Wanderstop — Wanderstop - Reveal Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=179a2BKbL8jV7D9qK89MqOC0F_13VUMH3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=179a2BKbL8jV7D9qK89MqOC0F_13VUMH3&sz=w640",
+          "sizeBytes": 4538545,
+          "sha256": "8A31B49E678CC62C3A419E2982FFA0E8AF30FED349B9A90CBB629B077B282C94",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wanderstop — Wanderstop - Reveal Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010093901DAF8000",
+      "title": "The Last Shot",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010093901DAF8000.jpg",
+      "variants": [
+        {
+          "id": "v_ac9f1d24",
+          "name": "The Last Shot — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14aVJy3F6J9z4CGVCPn_BeTd4UcFCjqGn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14aVJy3F6J9z4CGVCPn_BeTd4UcFCjqGn&sz=w640",
+          "sizeBytes": 5394015,
+          "sha256": "E4497BF88A5F81B8CB876FF6F1FADBF48AD06B7BD1B3BFEA551281D2DAE0529F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Last Shot — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C6E021BF2000",
+      "title": "Neon Apex: Beyond the Limit",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C6E021BF2000.jpg",
+      "variants": [
+        {
+          "id": "v_7cafe544",
+          "name": "Neon Apex: Beyond the Limit — Neon Apex Announce",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Lnz60iXkhT_ExK-IwtFa-UcN1JulELN0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Lnz60iXkhT_ExK-IwtFa-UcN1JulELN0&sz=w640",
+          "sizeBytes": 4472707,
+          "sha256": "5889712859DD540414663539C1DCEDB0FCEE6B1EDA94DB4AB58E4FBEA997AED2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Neon Apex: Beyond the Limit — Neon Apex "
+        }
+      ]
+    },
+    {
+      "titleId": "01003CD01DD56000",
+      "title": "Right & Down & Dice",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003CD01DD56000.jpg",
+      "variants": [
+        {
+          "id": "v_cf9f257a",
+          "name": "Right and Down and Dice — Right and Down and Dic",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KvV5R0_P8eCUapeWdSnz_ABz2EiGipHD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KvV5R0_P8eCUapeWdSnz_ABz2EiGipHD&sz=w640",
+          "sizeBytes": 5316520,
+          "sha256": "76AB13868C26B0D79C4C0E8143F1848F4B053596747AFB927DAFD4A301DBC22B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Right and Down and Dice — Right and Down"
+        }
+      ]
+    },
+    {
+      "titleId": "01000ED0214D0000",
+      "title": "Staffer Case a Supernatural Mystery Adventure",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000ED0214D0000.jpg",
+      "variants": [
+        {
+          "id": "v_5dd98afd",
+          "name": "Staffer Case: A Supernatural Mystery Adventure —",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1S4saaIEZNgJUMf91Z05apQnyU7KJqNoM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1S4saaIEZNgJUMf91Z05apQnyU7KJqNoM&sz=w640",
+          "sizeBytes": 5270439,
+          "sha256": "B8F8A09C0908861C9F9D100094B68B678715DC9AEC5A7C8D395313D49B3EECD5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Staffer Case: A Supernatural Mystery Adv"
+        }
+      ]
+    },
+    {
+      "titleId": "010040B017830000",
+      "title": "Spidersaurs",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010040B017830000.jpg",
+      "variants": [
+        {
+          "id": "v_405f0d4d",
+          "name": "Spidersaurs — Teaser Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QiJYYgg1wy5amnj5HPdFTiMV1LBju4hq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QiJYYgg1wy5amnj5HPdFTiMV1LBju4hq&sz=w640",
+          "sizeBytes": 5067437,
+          "sha256": "AA1ABBF7E96BD5AC2F1F540A04F3D1B55C84C3AE03553FAA6F98D55423A233B5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Spidersaurs — Teaser Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010064200F7D8000",
+      "title": "Lost Horizon 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010064200F7D8000.jpg",
+      "variants": [
+        {
+          "id": "v_f5349fdf",
+          "name": "Lost Horizon 2 — Lost Horizon 2 GamesCom Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1JKCaQ8FYuTCu1yAwdm9FfzKYaLgvOqDS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1JKCaQ8FYuTCu1yAwdm9FfzKYaLgvOqDS&sz=w640",
+          "sizeBytes": 5430960,
+          "sha256": "C761E7A41AF8B3ED2640CEEBEDCEFF71668B7927B8ACCF23CE0F1BD76821BD61",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lost Horizon 2 — Lost Horizon 2 GamesCom"
+        }
+      ]
     }
   ],
-  "totalGames": 2223,
-  "totalVariants": 3647,
-  "lastUpdated": "2026-11-09T22:16:43.774668+00:00"
+  "totalGames": 2233,
+  "totalVariants": 3657,
+  "lastUpdated": "2026-11-09T22:19:37.227009+00:00"
 }
