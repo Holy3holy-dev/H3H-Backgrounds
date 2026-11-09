@@ -34,6 +34,8 @@ public:
     static constexpr const char* APP_NAME                  = "H3H-AfterDark";
 
     static constexpr const char* DEFAULT_CATALOG_URL       = "https://raw.githubusercontent.com/Holy3holy-dev/H3H-Backgrounds/after-dark/catalog/data/catalog_after_dark.json";
+    static constexpr const char* CATALOG_MIRROR_CDN        = "https://cdn.jsdelivr.net/gh/Holy3holy-dev/H3H-Backgrounds@after-dark/catalog/data/catalog_after_dark.json";
+    static constexpr const char* CATALOG_MIRROR_FASTLY     = "https://fastly.jsdelivr.net/gh/Holy3holy-dev/H3H-Backgrounds@after-dark/catalog/data/catalog_after_dark.json";
 
 #else
 
@@ -42,6 +44,8 @@ public:
     static constexpr const char* APP_NAME                  = "H3H-Backgrounds";
 
     static constexpr const char* DEFAULT_CATALOG_URL       = "https://raw.githubusercontent.com/Holy3holy-dev/H3H-Backgrounds/main/catalog/data/catalog.json";
+    static constexpr const char* CATALOG_MIRROR_CDN        = "https://cdn.jsdelivr.net/gh/Holy3holy-dev/H3H-Backgrounds@main/catalog/data/catalog.json";
+    static constexpr const char* CATALOG_MIRROR_FASTLY     = "https://fastly.jsdelivr.net/gh/Holy3holy-dev/H3H-Backgrounds@main/catalog/data/catalog.json";
 
 #endif
 
@@ -65,11 +69,13 @@ public:
 
     // Application Version
 
-    static constexpr const char* APP_VERSION = "1.4.4";
+    static constexpr const char* APP_VERSION = "1.4.5";
 
     static constexpr const char* VERSION_CHECK_URL =
 
         "https://raw.githubusercontent.com/Holy3holy-dev/H3H-Backgrounds/main/version.json";
+    static constexpr const char* VERSION_CHECK_MIRROR_CDN =
+        "https://cdn.jsdelivr.net/gh/Holy3holy-dev/H3H-Backgrounds@main/version.json";
 
 
 

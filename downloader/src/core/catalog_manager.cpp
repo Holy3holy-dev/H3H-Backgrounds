@@ -34,8 +34,37 @@ size_t CatalogManager::getTotalVariantsCount() const {
 }
 
 bool CatalogManager::loadFromJsonString(const std::string& jsonStr, std::string& outError) {
+    if (jsonStr.empty()) {
+        outError = "Получен пустой ответ от сервера";
+        return false;
+    }
+
+    size_t startPos = 0;
+    if (jsonStr.size() >= 3 &&
+        static_cast<unsigned char>(jsonStr[0]) == 0xEF &&
+        static_cast<unsigned char>(jsonStr[1]) == 0xBB &&
+        static_cast<unsigned char>(jsonStr[2]) == 0xBF) {
+        startPos = 3;
+    }
+
+    while (startPos < jsonStr.size() &&
+           (jsonStr[startPos] == ' ' || jsonStr[startPos] == '\t' ||
+            jsonStr[startPos] == '\r' || jsonStr[startPos] == '\n')) {
+        startPos++;
+    }
+
+    if (startPos >= jsonStr.size()) {
+        outError = "Получен пустой документ";
+        return false;
+    }
+
+    if (jsonStr[startPos] == '<') {
+        outError = "Сервер вернул HTML-страницу (блокировка сети или авторизация Wi-Fi)";
+        return false;
+    }
+
     try {
-        json root = json::parse(jsonStr);
+        json root = json::parse(startPos == 0 ? jsonStr : jsonStr.substr(startPos));
 
         if (!root.is_object()) {
             outError = "Root must be a JSON object";
@@ -140,7 +169,8 @@ bool CatalogManager::loadFromJsonString(const std::string& jsonStr, std::string&
         m_rawJson = jsonStr;
         return true;
     } catch (const std::exception& ex) {
-        outError = std::string("JSON parse exception: ") + ex.what();
+        std::string snippet = jsonStr.substr(0, std::min<size_t>(jsonStr.size(), 80));
+        outError = std::string("Ошибка парсинга JSON: ") + ex.what() + " [Начало ответа: " + snippet + "]";
         return false;
     }
 }

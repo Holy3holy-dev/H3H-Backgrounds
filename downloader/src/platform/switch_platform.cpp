@@ -418,44 +418,100 @@ public:
             return false;
         }
 
-        std::string responseBuffer;
-
-        curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
-        curl_easy_setopt(curl, CURLOPT_NOSIGNAL, 1L);
-        curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);
-        curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);
-        curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
-        curl_easy_setopt(curl, CURLOPT_IPRESOLVE, CURL_IPRESOLVE_V4);
-        curl_easy_setopt(curl, CURLOPT_DNS_CACHE_TIMEOUT, 3600L);
-        curl_easy_setopt(curl, CURLOPT_CONNECTTIMEOUT, 10L);
-        curl_easy_setopt(curl, CURLOPT_TIMEOUT, 20L);
-        curl_easy_setopt(curl, CURLOPT_BUFFERSIZE, 64 * 1024L);
-        curl_easy_setopt(curl, CURLOPT_TCP_NODELAY, 1L);
-        curl_easy_setopt(curl, CURLOPT_TCP_KEEPALIVE, 1L);
-        curl_easy_setopt(curl, CURLOPT_USERAGENT, "Mozilla/5.0 (Nintendo Switch; ShareApplet) AppleWebKit/609.4 (KHTML, like Gecko) NF/6.0.2.22.5 NintendoBrowser/5.1.0.22474");
-
-        typedef size_t (*CurlWriteFn)(char*, size_t, size_t, void*);
-        CurlWriteFn writeFn = curlStringWriteCallback;
-        curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, writeFn);
-        curl_easy_setopt(curl, CURLOPT_WRITEDATA, &responseBuffer);
-
-        CURLcode res = curl_easy_perform(curl);
-        long httpCode = 0;
-        curl_easy_getinfo(curl, CURLINFO_RESPONSE_CODE, &httpCode);
-        curl_easy_setopt(curl, CURLOPT_WRITEDATA, nullptr);
-
-        if (res != CURLE_OK) {
-            outError = std::string("Network transfer error: ") + curl_easy_strerror(res);
-            return false;
+        // Build list of candidate endpoints (primary requested URL + CDN mirror fallbacks)
+        std::vector<std::string> endpoints;
+        endpoints.push_back(url);
+        if (url == Config::DEFAULT_CATALOG_URL) {
+            endpoints.push_back(Config::CATALOG_MIRROR_CDN);
+            endpoints.push_back(Config::CATALOG_MIRROR_FASTLY);
+        } else if (url.find("version.json") != std::string::npos) {
+            endpoints.push_back(Config::VERSION_CHECK_MIRROR_CDN);
         }
 
-        if (httpCode != 200) {
-            outError = "HTTP server returned code " + std::to_string(httpCode);
-            return false;
+        std::string lastFailureReason;
+
+        for (size_t epIdx = 0; epIdx < endpoints.size(); ++epIdx) {
+            const auto& currentUrl = endpoints[epIdx];
+            std::string responseBuffer;
+
+            curl_easy_reset(curl);
+            if (m_curlShare) {
+                curl_easy_setopt(curl, CURLOPT_SHARE, m_curlShare);
+            }
+
+            curl_easy_setopt(curl, CURLOPT_URL, currentUrl.c_str());
+            curl_easy_setopt(curl, CURLOPT_NOSIGNAL, 1L);
+            curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0L);
+            curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);
+            curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
+            curl_easy_setopt(curl, CURLOPT_IPRESOLVE, CURL_IPRESOLVE_V4);
+            curl_easy_setopt(curl, CURLOPT_DNS_CACHE_TIMEOUT, 3600L);
+            curl_easy_setopt(curl, CURLOPT_CONNECTTIMEOUT, 15L);
+            curl_easy_setopt(curl, CURLOPT_TIMEOUT, 60L);
+            // Transparent gzip/deflate decompression reduces 3MB raw JSON to ~350KB!
+            curl_easy_setopt(curl, CURLOPT_ACCEPT_ENCODING, "");
+            curl_easy_setopt(curl, CURLOPT_BUFFERSIZE, 64 * 1024L);
+            curl_easy_setopt(curl, CURLOPT_TCP_NODELAY, 1L);
+            curl_easy_setopt(curl, CURLOPT_TCP_KEEPALIVE, 1L);
+            curl_easy_setopt(curl, CURLOPT_USERAGENT, "Mozilla/5.0 (Nintendo Switch; ShareApplet) AppleWebKit/609.4 (KHTML, like Gecko) NF/6.0.2.22.5 NintendoBrowser/5.1.0.22474");
+
+            typedef size_t (*CurlWriteFn)(char*, size_t, size_t, void*);
+            CurlWriteFn writeFn = curlStringWriteCallback;
+            curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, writeFn);
+            curl_easy_setopt(curl, CURLOPT_WRITEDATA, &responseBuffer);
+
+            CURLcode res = curl_easy_perform(curl);
+            long httpCode = 0;
+            curl_easy_getinfo(curl, CURLINFO_RESPONSE_CODE, &httpCode);
+            curl_easy_setopt(curl, CURLOPT_WRITEDATA, nullptr);
+
+            if (res != CURLE_OK) {
+                lastFailureReason = std::string("CURL: ") + curl_easy_strerror(res);
+                continue;
+            }
+
+            if (httpCode != 200) {
+                lastFailureReason = "HTTP " + std::to_string(httpCode);
+                continue;
+            }
+
+            if (responseBuffer.empty()) {
+                lastFailureReason = "Пустой ответ сервера";
+                continue;
+            }
+
+            // Quick check: does the response look like JSON?
+            // Skip leading whitespace and UTF-8 BOM
+            size_t startPos = 0;
+            if (responseBuffer.size() >= 3 &&
+                static_cast<unsigned char>(responseBuffer[0]) == 0xEF &&
+                static_cast<unsigned char>(responseBuffer[1]) == 0xBB &&
+                static_cast<unsigned char>(responseBuffer[2]) == 0xBF) {
+                startPos = 3;
+            }
+            while (startPos < responseBuffer.size() &&
+                   (responseBuffer[startPos] == ' ' || responseBuffer[startPos] == '\t' ||
+                    responseBuffer[startPos] == '\r' || responseBuffer[startPos] == '\n')) {
+                startPos++;
+            }
+
+            if (startPos < responseBuffer.size() && responseBuffer[startPos] == '<') {
+                lastFailureReason = "Сервер вернул HTML-страницу (блокировка сети или captive portal)";
+                continue;
+            }
+
+            if (startPos >= responseBuffer.size() || (responseBuffer[startPos] != '{' && responseBuffer[startPos] != '[')) {
+                lastFailureReason = "Ответ сервера не начинается с объекта JSON";
+                continue;
+            }
+
+            // Successfully received and validated JSON buffer
+            outJson = std::move(responseBuffer);
+            return true;
         }
 
-        outJson = std::move(responseBuffer);
-        return true;
+        outError = "Не удалось загрузить данные (последняя ошибка: " + lastFailureReason + ")";
+        return false;
     }
 
     bool downloadFile(
