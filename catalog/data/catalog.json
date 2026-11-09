@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T05:45:59.347435+00:00",
+  "updatedAt": "2026-11-09T05:47:21.197676+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -5316,6 +5316,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Witcher Cyberpunk Geralt"
+        },
+        {
+          "id": "v_6114823d",
+          "name": "The Witcher 3: Wild Hunt 7th Anniversary",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13sq2SDZZNDM6osQEVUoHlOtuq3LJ0znx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13sq2SDZZNDM6osQEVUoHlOtuq3LJ0znx&sz=w640",
+          "sizeBytes": 1194366,
+          "sha256": "B996624BF6F8A72B92A5E824516443D675257E7E8A75721DDF4281027D786601",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Witcher 3: Wild Hunt 7th Anniversa"
         }
       ]
     },
@@ -60403,9 +60421,16 @@
           "notes": "Switch 720p 30fps H264 | K-pop Idol Stories: Road to Debut — K-po"
         }
       ]
+    },
+    {
+      "titleId": "0100702008E12000",
+      "title": "Donkey Kong Country: Tropical Freeze",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100702008E12000.jpg",
+      "variants": []
     }
   ],
-  "totalGames": 1297,
-  "totalVariants": 2680,
-  "lastUpdated": "2026-11-09T05:45:59.347435+00:00"
+  "totalGames": 1298,
+  "totalVariants": 2681,
+  "lastUpdated": "2026-11-09T05:47:21.197676+00:00"
 }
