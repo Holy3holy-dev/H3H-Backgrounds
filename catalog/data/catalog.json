@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T06:14:27.257540+00:00",
+  "updatedAt": "2026-11-09T06:16:27.755923+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -52887,6 +52887,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Ayleid Ruins The Elder Scrolls IV Obli"
+        },
+        {
+          "id": "v_df956aa0",
+          "name": "In The Northern The Elder Scrolls V: Skyrim",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1uzyGw6rvPLkYQpUL0BgGoIePOwh2Qopo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1uzyGw6rvPLkYQpUL0BgGoIePOwh2Qopo&sz=w640",
+          "sizeBytes": 1132481,
+          "sha256": "E1FC270F29CCF0DAA10E88C3D30E5C08F0164190F043F0255BFBEEAD2D698F0E",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | In The Northern The Elder Scrolls V: S"
         }
       ]
     },
@@ -60610,6 +60628,6 @@
     }
   ],
   "totalGames": 1298,
-  "totalVariants": 2691,
-  "lastUpdated": "2026-11-09T06:14:27.257540+00:00"
+  "totalVariants": 2692,
+  "lastUpdated": "2026-11-09T06:16:27.755923+00:00"
 }
