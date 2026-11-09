@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T05:47:21.197676+00:00",
+  "updatedAt": "2026-11-09T05:48:29.447142+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -864,6 +864,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Persona 5 Tokyo Rainy Night"
+        },
+        {
+          "id": "v_04229bd2",
+          "name": "Joker Persona 5 Royal",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1izqTLMaayquLbtTCdCZuPx4u4CNy295Z",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1izqTLMaayquLbtTCdCZuPx4u4CNy295Z&sz=w640",
+          "sizeBytes": 1226863,
+          "sha256": "A907CFAD803BFB2603246B16DB63547A12922983231F40EFEF85B4645A1DACE8",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Joker Persona 5 Royal"
+        },
+        {
+          "id": "v_c8cbcc5b",
+          "name": "Crystal Maiden Persona Dota 2",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MHDPnngYwzwJTthy9QN8x4LJYRsx40BJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MHDPnngYwzwJTthy9QN8x4LJYRsx40BJ&sz=w640",
+          "sizeBytes": 2605837,
+          "sha256": "662EA5DAE70EF7F7D8FE633F70023780164A4EA0B2DAD5DDA3B4BD0299E1A4D6",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Crystal Maiden Persona Dota 2"
         }
       ]
     },
@@ -60431,6 +60467,6 @@
     }
   ],
   "totalGames": 1298,
-  "totalVariants": 2681,
-  "lastUpdated": "2026-11-09T05:47:21.197676+00:00"
+  "totalVariants": 2683,
+  "lastUpdated": "2026-11-09T05:48:29.447142+00:00"
 }
