@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T18:11:44.048106+00:00",
+  "updatedAt": "2026-11-09T05:37:38.729985+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -2570,6 +2570,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Link The Legend Of Zelda: Tears Of The"
+        },
+        {
+          "id": "v_12078e31",
+          "name": "The Legend of Zelda: The Wind Waker Pixel",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1s1bD3H0gFEEWk27TRXpVCI0-g7P-2T5g",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1s1bD3H0gFEEWk27TRXpVCI0-g7P-2T5g&sz=w640",
+          "sizeBytes": 801197,
+          "sha256": "8E0767283752573550CCC0AB323038423036F5D24FA26D74394AE4CC0FF13EF5",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Legend of Zelda: The Wind Waker Pi"
         }
       ]
     },
@@ -60280,6 +60298,6 @@
     }
   ],
   "totalGames": 1297,
-  "totalVariants": 2673,
-  "lastUpdated": "2026-11-08T18:11:44.048106+00:00"
+  "totalVariants": 2674,
+  "lastUpdated": "2026-11-09T05:37:38.729985+00:00"
 }
