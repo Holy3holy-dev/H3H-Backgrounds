@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T22:37:06.665385+00:00",
+  "updatedAt": "2026-11-09T22:39:59.141069+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -87068,9 +87068,269 @@
           "notes": "Switch 720p 30fps H264 | Let's School — MagicCastle - EN"
         }
       ]
+    },
+    {
+      "titleId": "01005B301F29E000",
+      "title": "Castaway",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005B301F29E000.jpg",
+      "variants": [
+        {
+          "id": "v_bc83153b",
+          "name": "Castaway Harem — Castaway Harem Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qAQJ5z8DkGXumJJBc812ZuafYvywSJbs",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qAQJ5z8DkGXumJJBc812ZuafYvywSJbs&sz=w640",
+          "sizeBytes": 5241133,
+          "sha256": "A9E66CF3903D89514D85A121F974F1BE4D2E7AB3D772FD5B14D6DEC8CB782B03",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Castaway Harem — Castaway Harem Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01001C400482C000",
+      "title": "Wunderling DX",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001C400482C000.jpg",
+      "variants": [
+        {
+          "id": "v_564acfc0",
+          "name": "Wunderling DX — Wunderling DX - Accolades Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1U9-f8YI-1MyznpLpb7PwbqIIwbHYzUtF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1U9-f8YI-1MyznpLpb7PwbqIIwbHYzUtF&sz=w640",
+          "sizeBytes": 5279588,
+          "sha256": "39CBC6B60EE49B95693A43D4ECD48D5541906F902146C25CD957DBBA9359A3BB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wunderling DX — Wunderling DX - Accolade"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E5700CD56000",
+      "title": "Irony Curtain: From Matryoshka with Love",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E5700CD56000.jpg",
+      "variants": [
+        {
+          "id": "v_4a879138",
+          "name": "Irony Curtain: From Matryoshka with Love — Launc",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1A7gruCEic8K_RWky5OVt6rIJGcMfRp5k",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1A7gruCEic8K_RWky5OVt6rIJGcMfRp5k&sz=w640",
+          "sizeBytes": 5029687,
+          "sha256": "C9E6937BD101342F09E50AA68CE7AA889A3C700FD09D59B40E059144FBB1BD33",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Irony Curtain: From Matryoshka with Love"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B76011DAA000",
+      "title": "Taxi Chaos",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B76011DAA000.jpg",
+      "variants": [
+        {
+          "id": "v_cd0d3567",
+          "name": "Taxi Chaos — Taxi Chaos - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1809Hs2yhi_9QA72FBI5q6RZpc-s_TD8B",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1809Hs2yhi_9QA72FBI5q6RZpc-s_TD8B&sz=w640",
+          "sizeBytes": 5639779,
+          "sha256": "760280F1C69567F9FE0307FF468E3C374644A6D4BBD88E64AD7090E25ACAC1FB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Taxi Chaos — Taxi Chaos - Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01004160207C0000",
+      "title": "Real Boxing 2 Remastered",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004160207C0000.jpg",
+      "variants": [
+        {
+          "id": "v_a6762681",
+          "name": "Real Boxing 2: Remastered — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gq-Ucsv1H71J6_2dknWvu2mWdGD13LqL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gq-Ucsv1H71J6_2dknWvu2mWdGD13LqL&sz=w640",
+          "sizeBytes": 5698175,
+          "sha256": "3D502A0BC82D012990AAE437B079A6AD4F0E7798B20316D1C5E9418EF5ADD135",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Real Boxing 2: Remastered — Launch Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "01001F201121E000",
+      "title": "PAW Patrol: Mighty Pups Save Adventure Bay",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001F201121E000.jpg",
+      "variants": [
+        {
+          "id": "v_a7517380",
+          "name": "PAW Patrol Mighty Pups Save Adventure Bay — PAW ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1f4buaonsbC_ILOkkxZ1frJ-em5QiuTQj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1f4buaonsbC_ILOkkxZ1frJ-em5QiuTQj&sz=w640",
+          "sizeBytes": 5630965,
+          "sha256": "4D0ED2C9A5512CBFDE7A46CA5F7A41DA76C427041F85A405A1EDD02D048E02A4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | PAW Patrol Mighty Pups Save Adventure Ba"
+        }
+      ]
+    },
+    {
+      "titleId": "01009FB002B2E000",
+      "title": "Flipping Death",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009FB002B2E000.jpg",
+      "variants": [
+        {
+          "id": "v_80376855",
+          "name": "Flipping Death — Flipping Death Release trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KkNDTvSSYTj1Ga2PKe5FCX8o7HklfFU6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KkNDTvSSYTj1Ga2PKe5FCX8o7HklfFU6&sz=w640",
+          "sizeBytes": 5361653,
+          "sha256": "0C88AAD84214F2BFD4EF4985B7EC810FC075ED3CABEE7096CFAC0DCCCAA53BC4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Flipping Death — Flipping Death Release "
+        }
+      ]
+    },
+    {
+      "titleId": "0100B0500FE4E000",
+      "title": "Good Job",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B0500FE4E000.jpg",
+      "variants": [
+        {
+          "id": "v_997b8857",
+          "name": "Good Job : Night Hustle Simulator — Good Job Tra",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tqXZryyyHDrTdgbLp-zA6ABemM4OKs00",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tqXZryyyHDrTdgbLp-zA6ABemM4OKs00&sz=w640",
+          "sizeBytes": 5167463,
+          "sha256": "42D0E22050C5DFDEBB899940C7C9AFF6E5437E5C5E11F744C5C6F4F2BCDA045E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Good Job : Night Hustle Simulator — Good"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C38004DCC000",
+      "title": "The Flame In The Flood",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C38004DCC000.jpg",
+      "variants": [
+        {
+          "id": "v_459ea46a",
+          "name": "The Flame in the Flood — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VFuk1xSpJAM5xN6quGXIyrxSiBRke7K3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VFuk1xSpJAM5xN6quGXIyrxSiBRke7K3&sz=w640",
+          "sizeBytes": 4551771,
+          "sha256": "F98124C9FBF35F89E237CDC3984FCAC4D07DDB88948C471BDE9AFD5DE654C729",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Flame in the Flood — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01002FC010240000",
+      "title": "Axiom Verge 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002FC010240000.jpg",
+      "variants": [
+        {
+          "id": "v_66dd2834",
+          "name": "Axiom Verge 2 — Final Trailer STEAM",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1A6k_J9HvJ3WTS2mmSwrXXxz49kjHGybz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1A6k_J9HvJ3WTS2mmSwrXXxz49kjHGybz&sz=w640",
+          "sizeBytes": 5173419,
+          "sha256": "56513BE619F0DCCA4157FACAC9A3CA691EAA3AAA6BACA6D5E936206255589A07",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Axiom Verge 2 — Final Trailer STEAM"
+        }
+      ]
     }
   ],
-  "totalGames": 2293,
-  "totalVariants": 3717,
-  "lastUpdated": "2026-11-09T22:37:06.665385+00:00"
+  "totalGames": 2303,
+  "totalVariants": 3727,
+  "lastUpdated": "2026-11-09T22:39:59.141069+00:00"
 }
