@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T21:39:25.732361+00:00",
+  "updatedAt": "2026-11-09T21:42:34.130374+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -82388,9 +82388,269 @@
           "notes": "Switch 720p 30fps H264 | Meve Sihil Thronebreaker: The Witcher Ta"
         }
       ]
+    },
+    {
+      "titleId": "010028D00BA1A000",
+      "title": "The Sinking City",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010028D00BA1A000.jpg",
+      "variants": [
+        {
+          "id": "v_39ddb947",
+          "name": "The Sinking City 2 — Survive Arkham | Game Overv",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CmwR1Ja0Yy7-IDtegCBrBJGGbpnNzkp-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CmwR1Ja0Yy7-IDtegCBrBJGGbpnNzkp-&sz=w640",
+          "sizeBytes": 4434449,
+          "sha256": "85041193FF0E138C7827997EFD5E40010C030FEF59913EEDA153001132708BB6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Sinking City 2 — Survive Arkham | Ga"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CD500DDAE000",
+      "title": "The Bard's Tale ARPG: Remastered and Resnarkled",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CD500DDAE000.jpg",
+      "variants": [
+        {
+          "id": "v_534bc89c",
+          "name": "The Bard's Tale ARPG: Remastered and Resnarkled ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mnvw_ptEr_GFPVxUR2PoR3xzPCBwzzyc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mnvw_ptEr_GFPVxUR2PoR3xzPCBwzzyc&sz=w640",
+          "sizeBytes": 5281131,
+          "sha256": "8C4CA1ADA8DFB9C40E9F25AF770231A773BA21D8A8992EB058777A0EBDFE1FCF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Bard's Tale ARPG: Remastered and Res"
+        }
+      ]
+    },
+    {
+      "titleId": "010025B0100D0000",
+      "title": "Sports Story",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010025B0100D0000.jpg",
+      "variants": [
+        {
+          "id": "v_842ee2a4",
+          "name": "Naked Story (Sports Festival Ver) — Naked Story ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11UBbBfO01f5mKBDf8eVH4C9-lpCXX-77",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11UBbBfO01f5mKBDf8eVH4C9-lpCXX-77&sz=w640",
+          "sizeBytes": 10078114,
+          "sha256": "311EAE35A775911F5A37B1957619759B247C6F03DA57AF14086DC9C120596E6F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Naked Story (Sports Festival Ver) — Nake"
+        }
+      ]
+    },
+    {
+      "titleId": "010010F018908000",
+      "title": "Moonglow Bay",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010010F018908000.jpg",
+      "variants": [
+        {
+          "id": "v_21ecf612",
+          "name": "Moonglow Bay — Moonglow Bay Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1L_2c6l43SsbgkwCT9_XwIJQqzcAKAlee",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1L_2c6l43SsbgkwCT9_XwIJQqzcAKAlee&sz=w640",
+          "sizeBytes": 5341808,
+          "sha256": "2169395912F7933D68D68B61EB374F19C73C1FE135E2054FD4B110E3474AD18E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Moonglow Bay — Moonglow Bay Launch Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DA6024362000",
+      "title": "Master Lemon the Quest for Iceland",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DA6024362000.jpg",
+      "variants": [
+        {
+          "id": "v_cd0b108a",
+          "name": "Master Lemon: The Quest for Iceland — Master Lem",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pzzFaKkGGsJDmIF5itvKkW2TgWgJ5z3n",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pzzFaKkGGsJDmIF5itvKkW2TgWgJ5z3n&sz=w640",
+          "sizeBytes": 5441676,
+          "sha256": "3010FEFD0A30B248A2503A6BC30233A60FB1C956AD03D119E4E9B6E0FE4E958C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Master Lemon: The Quest for Iceland — Ma"
+        }
+      ]
+    },
+    {
+      "titleId": "0100ECA01904C000",
+      "title": "Ninja Kamui: Shinobi Origins",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100ECA01904C000.jpg",
+      "variants": [
+        {
+          "id": "v_c5fc312a",
+          "name": "NINJA KAMUI: SHINOBI ORIGINS — NINJA KAMUI: SHIN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AI57RcSxHBlvVMl8D7xK-134jpZ-ffeD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AI57RcSxHBlvVMl8D7xK-134jpZ-ffeD&sz=w640",
+          "sizeBytes": 5420139,
+          "sha256": "57392CC91821CA3944D5F817F95B3A47B0C3E738B7B86DD4C60DD70096E2E867",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | NINJA KAMUI: SHINOBI ORIGINS — NINJA KAM"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C1E00CF30000",
+      "title": "Wrath Aeon of Ruin",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C1E00CF30000.jpg",
+      "variants": [
+        {
+          "id": "v_06a94f43",
+          "name": "WRATH: Aeon of Ruin — WRATH Full launch trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Xa_eiffqVXSmvQG9_OWXVfe4A_rUf4fJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Xa_eiffqVXSmvQG9_OWXVfe4A_rUf4fJ&sz=w640",
+          "sizeBytes": 5356853,
+          "sha256": "6C32C8893CCA41A7AE8344F8C8AED86BE162B8C9852970A8D074F527AE219292",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | WRATH: Aeon of Ruin — WRATH Full launch "
+        }
+      ]
+    },
+    {
+      "titleId": "0100BE00156AC000",
+      "title": "Carebotz",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BE00156AC000.jpg",
+      "variants": [
+        {
+          "id": "v_69bf883e",
+          "name": "Carebotz — trailer 3",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rnCJh6hZI7BKOY6uFVdvTIwEeJ3IoIgQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rnCJh6hZI7BKOY6uFVdvTIwEeJ3IoIgQ&sz=w640",
+          "sizeBytes": 5387158,
+          "sha256": "CE609CF0881EA52FA0893C00CA9E104C7746EEEA8A9A9CE4819805CB2020A2BE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Carebotz — trailer 3"
+        }
+      ]
+    },
+    {
+      "titleId": "010092A02768E000",
+      "title": "Alice in Wonder Underland",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010092A02768E000.jpg",
+      "variants": [
+        {
+          "id": "v_f9cd080e",
+          "name": "Alice in Wonder Underland AIWU — AIWU_PV2_EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Aq_Y0RHpo7XSsfobEeAXQaeLg-Kvw9lo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Aq_Y0RHpo7XSsfobEeAXQaeLg-Kvw9lo&sz=w640",
+          "sizeBytes": 5230694,
+          "sha256": "C6FA7E13AB60C0D3E21526B0FCD0AE72C438B62BDD02D75741D846D4ADDEB95E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Alice in Wonder Underland AIWU — AIWU_PV"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EE401EF24000",
+      "title": "Damon and Baby",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EE401EF24000.jpg",
+      "variants": [
+        {
+          "id": "v_4b81c210",
+          "name": "DAMON and BABY — Ver2.0_Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rmrvAPUL2vIALuM9pFpi6iwf8MItg7If",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rmrvAPUL2vIALuM9pFpi6iwf8MItg7If&sz=w640",
+          "sizeBytes": 4865214,
+          "sha256": "8CEA9EA31BB1FC5F664DBA843B25B783F18DD368DE624398B0B18C507E6CE3B8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | DAMON and BABY — Ver2.0_Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 2113,
-  "totalVariants": 3537,
-  "lastUpdated": "2026-11-09T21:39:25.732361+00:00"
+  "totalGames": 2123,
+  "totalVariants": 3547,
+  "lastUpdated": "2026-11-09T21:42:34.130374+00:00"
 }
