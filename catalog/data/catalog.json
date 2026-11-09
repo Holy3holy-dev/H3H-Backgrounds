@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T21:16:08.894948+00:00",
+  "updatedAt": "2026-11-09T21:19:00.569857+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -80568,9 +80568,269 @@
           "notes": "Switch 720p 30fps H264 | Mark of the Deep — Mark of the Deep Trai"
         }
       ]
+    },
+    {
+      "titleId": "0100A14014CA8000",
+      "title": "Ginsha",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A14014CA8000.jpg",
+      "variants": [
+        {
+          "id": "v_b402ac53",
+          "name": "GINSHA — Ginsha Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18g4HrIyGbT8S-tZ2SynV-cM4xCi1xiAx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18g4HrIyGbT8S-tZ2SynV-cM4xCi1xiAx&sz=w640",
+          "sizeBytes": 5072885,
+          "sha256": "190B1E3716949D9DC3D8D5C0C97CF4F2E4998680F26AF8299BA3C74F3E65F1B1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | GINSHA — Ginsha Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010017601AD6A000",
+      "title": "The Making of Karateka",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010017601AD6A000.jpg",
+      "variants": [
+        {
+          "id": "v_21beee36",
+          "name": "The Making of Karateka — The Making of Karateka ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1djqkEOzlj0Yy13OmJEjLjcJnvLsJ0_TV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1djqkEOzlj0Yy13OmJEjLjcJnvLsJ0_TV&sz=w640",
+          "sizeBytes": 5601921,
+          "sha256": "43BA730EC5009602D5C54940ED928FE16D92455F76C8FB6799166FF83ABE0E38",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Making of Karateka — The Making of K"
+        }
+      ]
+    },
+    {
+      "titleId": "01007B102141A000",
+      "title": "The Legend of Heroes: Trails Beyond the Horizon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007B102141A000.jpg",
+      "variants": [
+        {
+          "id": "v_e07647d2",
+          "name": "The Legend of Heroes: Trails beyond the Horizon ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vGDb-eZ0vVsO0Q6ZSrzMoJ8AofZLKYOv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vGDb-eZ0vVsO0Q6ZSrzMoJ8AofZLKYOv&sz=w640",
+          "sizeBytes": 5240764,
+          "sha256": "DAEBD1E88141FB053D24A79152633A8FABFF1914462771B4F41CC1DE802DF378",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Legend of Heroes: Trails beyond the "
+        }
+      ]
+    },
+    {
+      "titleId": "0100E2B012056000",
+      "title": "KeyWe",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E2B012056000.jpg",
+      "variants": [
+        {
+          "id": "v_57a4b154",
+          "name": "KeyWe — KeyWe - Announcement Trailer 2",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MF3xOZutXKzzEgAQVe60497788Q45yfH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MF3xOZutXKzzEgAQVe60497788Q45yfH&sz=w640",
+          "sizeBytes": 5550102,
+          "sha256": "1D913CA5B3AE46993B17E7A2B4436F85625690FE935209A68E762ECF0E7D5268",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | KeyWe — KeyWe - Announcement Trailer 2"
+        }
+      ]
+    },
+    {
+      "titleId": "01005C50152DC000",
+      "title": "Warp Frontier",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005C50152DC000.jpg",
+      "variants": [
+        {
+          "id": "v_19cefef2",
+          "name": "Warp Frontier — Warp Frontier Teaser",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1b129RWfHxFrhXA53N8nEo8TwGMr3d_6a",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1b129RWfHxFrhXA53N8nEo8TwGMr3d_6a&sz=w640",
+          "sizeBytes": 5069037,
+          "sha256": "0604BEC9EDE04D80EB475C47509394AB91471DFFE4385A0F57B9B0B096E5BE9E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Warp Frontier — Warp Frontier Teaser"
+        }
+      ]
+    },
+    {
+      "titleId": "01001E001AD98000",
+      "title": "Raidou Remastered the Mystery of the Soulless Army",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001E001AD98000.jpg",
+      "variants": [
+        {
+          "id": "v_1a36a7dc",
+          "name": "RAIDOU Remastered: The Mystery of the Soulless A",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10SOnOSL4fm0hipjp4C9JmZVncLizMLs4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10SOnOSL4fm0hipjp4C9JmZVncLizMLs4&sz=w640",
+          "sizeBytes": 5334369,
+          "sha256": "C92B5C29ECBC3E7723C7828189C737D43D63D809B19753A870400EA2E277F4EB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | RAIDOU Remastered: The Mystery of the So"
+        }
+      ]
+    },
+    {
+      "titleId": "010033001F050000",
+      "title": "Ys vs. Trails in the Sky Alternative Saga",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010033001F050000.jpg",
+      "variants": [
+        {
+          "id": "v_1b42c579",
+          "name": "Ys vs. Trails in the Sky: Alternative Saga — Lau",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_5upnNT6-Sgbc-KA-nALT65QCSINESeD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_5upnNT6-Sgbc-KA-nALT65QCSINESeD&sz=w640",
+          "sizeBytes": 4437305,
+          "sha256": "C142E5EE9C3FF0793C82AE551B6C2FA43DCFE81F52730BEA12D572BEA4032F5A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ys vs. Trails in the Sky: Alternative Sa"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E17019782000",
+      "title": "Pixel Cup Soccer Ultimate edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E17019782000.jpg",
+      "variants": [
+        {
+          "id": "v_61bc5283",
+          "name": "Pixel Cup Soccer - Ultimate Edition — Gameplay F",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1483lebQ4uuOEXwHQ5EMzZMDXCmCEcGuU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1483lebQ4uuOEXwHQ5EMzZMDXCmCEcGuU&sz=w640",
+          "sizeBytes": 5445332,
+          "sha256": "9EE61DC9F30544D5B0A330A099AE12BAAB8D335AE9CA2ECA56CFE63598237629",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Pixel Cup Soccer - Ultimate Edition — Ga"
+        }
+      ]
+    },
+    {
+      "titleId": "01003C300AAAE000",
+      "title": "Another World Remastered",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003C300AAAE000.jpg",
+      "variants": [
+        {
+          "id": "v_649efcfc",
+          "name": "Another World",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kk5E24d5VtPZdnDX2G6E-bj2-MLp-3vy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kk5E24d5VtPZdnDX2G6E-bj2-MLp-3vy&sz=w640",
+          "sizeBytes": 563093,
+          "sha256": "7DA286B785AC95254502D3631E37E545520230249C2B741F2C12F4BD077EB24E",
+          "durationSec": 24.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Another World"
+        }
+      ]
+    },
+    {
+      "titleId": "01000A0004C50000",
+      "title": "Flashback",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000A0004C50000.jpg",
+      "variants": [
+        {
+          "id": "v_b637a7c2",
+          "name": "Berzerk Flashback — intro",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1uIdWmb4uxLxnAsQZ1_HFksBSxw_R2JKU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1uIdWmb4uxLxnAsQZ1_HFksBSxw_R2JKU&sz=w640",
+          "sizeBytes": 5408539,
+          "sha256": "CA826490679F1703DC08533A56FC23A20509347D97034A2FF8C70934A5FB701B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Berzerk Flashback — intro"
+        }
+      ]
     }
   ],
-  "totalGames": 2043,
-  "totalVariants": 3467,
-  "lastUpdated": "2026-11-09T21:16:08.894948+00:00"
+  "totalGames": 2053,
+  "totalVariants": 3477,
+  "lastUpdated": "2026-11-09T21:19:00.569857+00:00"
 }
