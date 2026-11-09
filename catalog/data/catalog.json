@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T23:52:23.523448+00:00",
+  "updatedAt": "2026-11-09T23:55:27.197616+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -93828,9 +93828,269 @@
           "notes": "Switch 720p 30fps H264 | MX vs ATV All Out — Launch Trailer"
         }
       ]
+    },
+    {
+      "titleId": "010093401939A000",
+      "title": "Unmatched Digital edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010093401939A000.jpg",
+      "variants": [
+        {
+          "id": "v_bdfb9550",
+          "name": "Unmatched: Digital Edition — Unmatched Beta Trai",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1n-FeZ7rLL1EP-NOvZkvLbKAmWwgFJUxw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1n-FeZ7rLL1EP-NOvZkvLbKAmWwgFJUxw&sz=w640",
+          "sizeBytes": 5426894,
+          "sha256": "E806C3E161B0476BD3EDC498380B264A786BD827BF771E3E210E4E74F0FBCA20",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Unmatched: Digital Edition — Unmatched B"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B63016916000",
+      "title": "My Time at Sandrock",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B63016916000.jpg",
+      "variants": [
+        {
+          "id": "v_c0252db0",
+          "name": "My Time at Sandrock — My Time at Sandrock - Mons",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RUR22ezXKHTxz485NbKy3YfaCh8fgI30",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RUR22ezXKHTxz485NbKy3YfaCh8fgI30&sz=w640",
+          "sizeBytes": 4784927,
+          "sha256": "77CA59F4D8A48EBEC7AED50B9EF95725FAECDA150DD57A15B93F18B4FBA37889",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | My Time at Sandrock — My Time at Sandroc"
+        }
+      ]
+    },
+    {
+      "titleId": "010039B01BD3E000",
+      "title": "Athanasy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010039B01BD3E000.jpg",
+      "variants": [
+        {
+          "id": "v_5a213d35",
+          "name": "Athanasy — EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GlxJ07f-W6j95mZ6FN6h2BMOBjpD5leI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GlxJ07f-W6j95mZ6FN6h2BMOBjpD5leI&sz=w640",
+          "sizeBytes": 3377922,
+          "sha256": "DD842096AF52BD74AA0642D941CB46380ECD4921558F306D43ED86482D6572BB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Athanasy — EN"
+        }
+      ]
+    },
+    {
+      "titleId": "0100017019C4A000",
+      "title": "Rocket Knight Adventures Re-Sparked Collection",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100017019C4A000.jpg",
+      "variants": [
+        {
+          "id": "v_7751a1b0",
+          "name": "Rocket Knight Adventures: Re-Sparked — Final Tra",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1JsVcKGXxPDOhUIspF2zQhC8IeuzQjzIr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1JsVcKGXxPDOhUIspF2zQhC8IeuzQjzIr&sz=w640",
+          "sizeBytes": 5292664,
+          "sha256": "9A60689C06C5274C49B2FF2A414CFC701C85D042E8C9C7735367C3DF0B41841B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rocket Knight Adventures: Re-Sparked — F"
+        }
+      ]
+    },
+    {
+      "titleId": "010096400CBC6000",
+      "title": "Terratech",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010096400CBC6000.jpg",
+      "variants": [
+        {
+          "id": "v_d00b5c5c",
+          "name": "TerraTech — Launch Trailer 1.0",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lwnOvq1C2tQtkiEOcjmRLNOliP8eFBzA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lwnOvq1C2tQtkiEOcjmRLNOliP8eFBzA&sz=w640",
+          "sizeBytes": 5536274,
+          "sha256": "A00169F6146856EC15242A1A3E326DA0BAAF1209D300C8E00CE9215DB7391112",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | TerraTech — Launch Trailer 1.0"
+        }
+      ]
+    },
+    {
+      "titleId": "010092C01B976000",
+      "title": "Stolen Realm",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010092C01B976000.jpg",
+      "variants": [
+        {
+          "id": "v_89d51831",
+          "name": "Stolen Realm — 1.0 Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Gk83z9JOp4HrgSj1Ht4OG697AiDlv_U8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Gk83z9JOp4HrgSj1Ht4OG697AiDlv_U8&sz=w640",
+          "sizeBytes": 5499319,
+          "sha256": "EE7D739148F4217697CA920047424AEE6BAB4D2F65B5D44612B71286C6FFC038",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Stolen Realm — 1.0 Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01004F1012716000",
+      "title": "Collapsed",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004F1012716000.jpg",
+      "variants": [
+        {
+          "id": "v_e0b4bcb6",
+          "name": "Collapsed Galaxy 2 — MMORTS 2024 Collapsed Galax",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1R3HG3jPld7FNFmeHQwzmhCwQtTlKRukw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1R3HG3jPld7FNFmeHQwzmhCwQtTlKRukw&sz=w640",
+          "sizeBytes": 5339774,
+          "sha256": "BD6C4265018D97392F22C4A81D9D9EF1AC5E98E9A249910B213B25E160E2AF99",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Collapsed Galaxy 2 — MMORTS 2024 Collaps"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E2E00EA42000",
+      "title": "Reventure",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E2E00EA42000.jpg",
+      "variants": [
+        {
+          "id": "v_8ff0ef8a",
+          "name": "Reventure — Reventure Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Tln5-cDxEgtcUjkr4e42aymIhJc6Mpag",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Tln5-cDxEgtcUjkr4e42aymIhJc6Mpag&sz=w640",
+          "sizeBytes": 4731199,
+          "sha256": "F2BF904686393DDB45415AE64CB7D02263FB0FCA177DC43960888CBB652F1DA8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Reventure — Reventure Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010069B01B18E000",
+      "title": "Moonstone Island",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010069B01B18E000.jpg",
+      "variants": [
+        {
+          "id": "v_9ded9978",
+          "name": "Moonstone Island — Moonstone Island Accolades Tr",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GySmCQsAEytn4cnK2_PcNG1xsBgtyq_f",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GySmCQsAEytn4cnK2_PcNG1xsBgtyq_f&sz=w640",
+          "sizeBytes": 5268553,
+          "sha256": "C7F74D4E1C4F5A17D373C2673213B4B98BD44A9F3FF1FEADF8D9ADA6FBA66B2C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Moonstone Island — Moonstone Island Acco"
+        }
+      ]
+    },
+    {
+      "titleId": "01007EB01B554000",
+      "title": "Remedium Sentinels",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007EB01B554000.jpg",
+      "variants": [
+        {
+          "id": "v_dd9f12ab",
+          "name": "REMEDIUM: Sentinels — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1k3dNYXRFTqlixGoOk_QnjYZLIZlQY5-D",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1k3dNYXRFTqlixGoOk_QnjYZLIZlQY5-D&sz=w640",
+          "sizeBytes": 5597922,
+          "sha256": "F88D21FB6756593B37D56B09EAFD63262CFF44F7D3AE0AD954E1C7BF45DF696B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | REMEDIUM: Sentinels — Launch Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 2553,
-  "totalVariants": 3977,
-  "lastUpdated": "2026-11-09T23:52:23.523448+00:00"
+  "totalGames": 2563,
+  "totalVariants": 3987,
+  "lastUpdated": "2026-11-09T23:55:27.197616+00:00"
 }
