@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T11:00:13.918621+00:00",
+  "updatedAt": "2026-11-09T11:00:40.125955+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -15924,6 +15924,42 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_b679d72f",
+          "name": "Sothis And Tiki Fire Emblem",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KOgdr0SWCIXWtH0wwzYIYSq3M_2GZpCP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KOgdr0SWCIXWtH0wwzYIYSq3M_2GZpCP&sz=w640",
+          "sizeBytes": 724197,
+          "sha256": "F8C95C8C9942662F14C5F287DAE4E7593B8DB8B039E3C2F41B84BDFFC436109D",
+          "durationSec": 18.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sothis And Tiki Fire Emblem"
+        },
+        {
+          "id": "v_1ec5a3e4",
+          "name": "Lucina Hugging Chrom Crying Fire Emblem Awakenin",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zDq6Xsj3tGDDEXpaKg9du71QoJHpNbJv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zDq6Xsj3tGDDEXpaKg9du71QoJHpNbJv&sz=w640",
+          "sizeBytes": 4861956,
+          "sha256": "F9BE5AAF51453EF962B0500AF868683195F4DA7B1B99A7EAC2F75068F55AB2F0",
+          "durationSec": 18.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lucina Hugging Chrom Crying Fire Emblem "
         }
       ]
     },
@@ -61150,6 +61186,6 @@
     }
   ],
   "totalGames": 1306,
-  "totalVariants": 2716,
-  "lastUpdated": "2026-11-09T11:00:13.918621+00:00"
+  "totalVariants": 2718,
+  "lastUpdated": "2026-11-09T11:00:40.125955+00:00"
 }
