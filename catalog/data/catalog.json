@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T11:03:05.304786+00:00",
+  "updatedAt": "2026-11-09T11:04:05.243732+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -61415,9 +61415,89 @@
           "notes": "Switch 720p 30fps H264 | 2B In The Field Of Blue Lilies Nier Auto"
         }
       ]
+    },
+    {
+      "titleId": "01001A80113B6000",
+      "title": "Ori and the Will of the Wisps",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001A80113B6000.jpg",
+      "variants": [
+        {
+          "id": "v_07af1148",
+          "name": "Ori And The Will Of The Wisps Swamp",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Rx5moY_c5JZJveFnf7ZKytqnnfqecOVD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Rx5moY_c5JZJveFnf7ZKytqnnfqecOVD&sz=w640",
+          "sizeBytes": 1089285,
+          "sha256": "C8BFFB8FB02E841F8074A4DDD49F2268333D8AA4453A1249474A1411CA9DFE74",
+          "durationSec": 18.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ori And The Will Of The Wisps Swamp"
+        },
+        {
+          "id": "v_4794ac3d",
+          "name": "Sasuke Uchiha Chidori",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ejX2cLfLmYWdsKnYNThOjryKFslUl3JR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ejX2cLfLmYWdsKnYNThOjryKFslUl3JR&sz=w640",
+          "sizeBytes": 4529254,
+          "sha256": "2C71B585EB9AF419012DBE74D103AB557CDC3A640C3B3A885C50C2C2915F4793",
+          "durationSec": 18.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Sasuke Uchiha Chidori"
+        },
+        {
+          "id": "v_ed700710",
+          "name": "Honda Civic Type R Blossom Street Forza Horizon",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13GrwiCykJMPOva0T6YqGsK6oSogs3fW0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13GrwiCykJMPOva0T6YqGsK6oSogs3fW0&sz=w640",
+          "sizeBytes": 1553889,
+          "sha256": "560EA4EA0112420325C9FB2848D52AF0919ECEDBD1C8BEE643987B737123A3D5",
+          "durationSec": 18.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Honda Civic Type R Blossom Street Forza "
+        },
+        {
+          "id": "v_adfd8a54",
+          "name": "Torii Red Spider Lily Silent Hill f",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hcFAXdVuBfiQw_l9hNgaPkuP44Rhum0J",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hcFAXdVuBfiQw_l9hNgaPkuP44Rhum0J&sz=w640",
+          "sizeBytes": 921362,
+          "sha256": "8D4FEF8A8F22D78017D74041DE4180D6D0BD2A310537FC3549F538438F25FAC6",
+          "durationSec": 18.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Torii Red Spider Lily Silent Hill f"
+        }
+      ]
     }
   ],
-  "totalGames": 1308,
-  "totalVariants": 2730,
-  "lastUpdated": "2026-11-09T11:03:05.304786+00:00"
+  "totalGames": 1309,
+  "totalVariants": 2734,
+  "lastUpdated": "2026-11-09T11:04:05.243732+00:00"
 }
