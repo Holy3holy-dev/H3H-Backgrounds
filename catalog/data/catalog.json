@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T20:45:47.833303+00:00",
+  "updatedAt": "2026-11-09T20:48:58.576856+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -77968,9 +77968,269 @@
           "notes": "Switch 720p 30fps H264 | Dungeons of Clay — Welcome to the World "
         }
       ]
+    },
+    {
+      "titleId": "0100F0C011A68000",
+      "title": "Tales from the Borderlands",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F0C011A68000.jpg",
+      "variants": [
+        {
+          "id": "v_a221109e",
+          "name": "Tales from the Borderlands — Tales from the Bord",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xcv74k4tv5qbSKvBilVB-sWHzQT-zx-B",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xcv74k4tv5qbSKvBilVB-sWHzQT-zx-B&sz=w640",
+          "sizeBytes": 5255688,
+          "sha256": "5FBF8AC3249D32535B6CF4ACD9EBCCDFCF5A1539E8CD3CBA4273FE6F683F34E4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tales from the Borderlands — Tales from "
+        }
+      ]
+    },
+    {
+      "titleId": "010029400CA20000",
+      "title": "Clue Classic edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010029400CA20000.jpg",
+      "variants": [
+        {
+          "id": "v_2b31fa23",
+          "name": "Clue/Cluedo: Classic Edition — 2022 Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LySQakzHrXcU7SCAgrNkY9CXE9QXPAKY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LySQakzHrXcU7SCAgrNkY9CXE9QXPAKY&sz=w640",
+          "sizeBytes": 5100897,
+          "sha256": "B64D7B757D5C1C1D9E5737B03767BF6CDD6D06E87586344B71820287238D10D0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Clue/Cluedo: Classic Edition — 2022 Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BAE021208000",
+      "title": "Bad Cheese",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BAE021208000.jpg",
+      "variants": [
+        {
+          "id": "v_75895c7d",
+          "name": "Bad Cheese — Weird Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Su-KCbMAcYanZWGpKrtRF46gDMIdG7vM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Su-KCbMAcYanZWGpKrtRF46gDMIdG7vM&sz=w640",
+          "sizeBytes": 5539083,
+          "sha256": "387321D030D536E0D52DADD6493C7D30E5C9C1B9F29100C9819CEFB95CA8AD44",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bad Cheese — Weird Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010096602407A000",
+      "title": "Laysara Summit Kingdom",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010096602407A000.jpg",
+      "variants": [
+        {
+          "id": "v_e16fe7ce",
+          "name": "Laysara: Summit Kingdom — Launch Trailer Steam",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12XtoUSytlVo9iJQtwPOuP3RnWeicg_vA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12XtoUSytlVo9iJQtwPOuP3RnWeicg_vA&sz=w640",
+          "sizeBytes": 5505376,
+          "sha256": "8689018091761AAAA4A0FB3019A61F9681FCEB9A2B6BC3223B08DC9C97F6BBA2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Laysara: Summit Kingdom — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AFB01AAF0000",
+      "title": "Outward Definitive edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AFB01AAF0000.jpg",
+      "variants": [
+        {
+          "id": "v_2ef8994a",
+          "name": "Outward Definitive Edition — Outward Definitive ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Pvq2HlBEDPr12eiITrBTPrsf9aZtp9nM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Pvq2HlBEDPr12eiITrBTPrsf9aZtp9nM&sz=w640",
+          "sizeBytes": 4884859,
+          "sha256": "43D1C25888A42CE5410B45C469285ED3A44D2EC0028D0A2D640F205E284E837D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Outward Definitive Edition — Outward Def"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EF7025762000",
+      "title": "Usonatsu the Summer Romance Bloomed From a Lie",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EF7025762000.jpg",
+      "variants": [
+        {
+          "id": "v_79ee204c",
+          "name": "UsoNatsu ~The Summer Romance Bloomed From A Lie~",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1aPZJHGUK5pCgrotOyKqcikWfrnWIxnv7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1aPZJHGUK5pCgrotOyKqcikWfrnWIxnv7&sz=w640",
+          "sizeBytes": 5343074,
+          "sha256": "8A10A48036F8020757A09D907E482162C0B56D53B28A6757B432BA3EF57BC30A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | UsoNatsu ~The Summer Romance Bloomed Fro"
+        }
+      ]
+    },
+    {
+      "titleId": "01009FF0247F4000",
+      "title": "The Last Salvage Squad",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009FF0247F4000.jpg",
+      "variants": [
+        {
+          "id": "v_c6fedbdf",
+          "name": "The Last Salvage Squad — The Last Salvage SQUAD ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1b3DwhahM9YlZodYxSBFwxufwGzuCSJZk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1b3DwhahM9YlZodYxSBFwxufwGzuCSJZk&sz=w640",
+          "sizeBytes": 5440987,
+          "sha256": "2346C6F1FE0BAB098B6334F6062E8A1E212EA92F5F1FC24A1B1FAD9021A3A5C4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Last Salvage Squad — The Last Salvag"
+        }
+      ]
+    },
+    {
+      "titleId": "010034601EC22000",
+      "title": "Love in Login",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010034601EC22000.jpg",
+      "variants": [
+        {
+          "id": "v_046f4f7e",
+          "name": "Love in Login — Official Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1U9fn-T55-Grz92oC7V92SUsC7IdMNfuD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1U9fn-T55-Grz92oC7V92SUsC7IdMNfuD&sz=w640",
+          "sizeBytes": 3794163,
+          "sha256": "3671DAC62BEAF2B39BB1FB692664926473A7014F92F564568FC4C7870D5F02CA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Love in Login — Official Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01004C301963A000",
+      "title": "Unusual Findings",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004C301963A000.jpg",
+      "variants": [
+        {
+          "id": "v_10265d69",
+          "name": "Unusual Findings — Unusual Findings | 'Vinny's D",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cN5SX5daRAHmARZQ8OtGfw-AebR2s9b0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cN5SX5daRAHmARZQ8OtGfw-AebR2s9b0&sz=w640",
+          "sizeBytes": 5527700,
+          "sha256": "147742B33563F04A03B2C6A5EF4682D9B385471ED82B0FFD23A92C9A3EB16645",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Unusual Findings — Unusual Findings | 'V"
+        }
+      ]
+    },
+    {
+      "titleId": "0100ABC02450C000",
+      "title": "Before I Go",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100ABC02450C000.jpg",
+      "variants": [
+        {
+          "id": "v_4e95c447",
+          "name": "Before I Go — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=189FHVCBcOU5jRytIUclyX0RWpG4USyRO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=189FHVCBcOU5jRytIUclyX0RWpG4USyRO&sz=w640",
+          "sizeBytes": 5273824,
+          "sha256": "D33D9ADA269FB92848C0C6887BAD433C775815E9B251D9DB187F324E9AF958F3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Before I Go — Launch Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 1943,
-  "totalVariants": 3367,
-  "lastUpdated": "2026-11-09T20:45:47.833303+00:00"
+  "totalGames": 1953,
+  "totalVariants": 3377,
+  "lastUpdated": "2026-11-09T20:48:58.576856+00:00"
 }
