@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T21:01:25.692174+00:00",
+  "updatedAt": "2026-11-09T21:04:19.162845+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -79268,9 +79268,269 @@
           "notes": "Switch 720p 30fps H264 | Eternal Threads — Accolades Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100239015C0E000",
+      "title": "Elderand",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100239015C0E000.jpg",
+      "variants": [
+        {
+          "id": "v_3fc6c0e9",
+          "name": "Elderand — Launch",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Lsu3AjL5Dp7TlPbigfdry0IYgxTPC40N",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Lsu3AjL5Dp7TlPbigfdry0IYgxTPC40N&sz=w640",
+          "sizeBytes": 5289805,
+          "sha256": "BB04C024DE9EC601F49E308CD8E1212F375BC41DCD90DA76FD328D7BC5CFD8E4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Elderand — Launch"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FAA020246000",
+      "title": "Tetris Forever",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FAA020246000.jpg",
+      "variants": [
+        {
+          "id": "v_ad8d496f",
+          "name": "Tetris® Forever — Tetris® Forever | Launch Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KvgTowUcuIVwB3tezrO2SYS3oFFI0SlK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KvgTowUcuIVwB3tezrO2SYS3oFFI0SlK&sz=w640",
+          "sizeBytes": 5440069,
+          "sha256": "2F6767000420E8650A258CFF3C6BCF49C868433FA3B4C28BA9E1C10DB123BBFC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tetris® Forever — Tetris® Forever | Laun"
+        }
+      ]
+    },
+    {
+      "titleId": "01008AD013A86000",
+      "title": "Lost Ruins",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008AD013A86000.jpg",
+      "variants": [
+        {
+          "id": "v_7652f4bd",
+          "name": "Lost Ruins — Lost Ruins - Release Date Trailer (",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Nskkbg--HrP77rpRO4xCFAKBiDHLvAou",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Nskkbg--HrP77rpRO4xCFAKBiDHLvAou&sz=w640",
+          "sizeBytes": 5128128,
+          "sha256": "8FAB3EFC7153F28B6CFFD1D2D4428B7134388BD432C2FF630E2AB1861809F09D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lost Ruins — Lost Ruins - Release Date T"
+        }
+      ]
+    },
+    {
+      "titleId": "0100787017A88000",
+      "title": "Moonscars",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100787017A88000.jpg",
+      "variants": [
+        {
+          "id": "v_9861a9e9",
+          "name": "Moonscars — Moonscars Announce Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dOnOs_YyQjQWSrWlQ3-70qfLLxXNr4yw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dOnOs_YyQjQWSrWlQ3-70qfLLxXNr4yw&sz=w640",
+          "sizeBytes": 5148567,
+          "sha256": "93D4190C1769BE1B805D7EE583AA091E596798F0B44B017286FFA1CDAC2534D3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Moonscars — Moonscars Announce Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C3A013840000",
+      "title": "Shadow Man Remastered",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C3A013840000.jpg",
+      "variants": [
+        {
+          "id": "v_79e47b85",
+          "name": "Shadow Man Remastered — Shadow Man Remastered La",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1n5z9c9Vq8BxWj5X6lQ0xx502MBACPtLI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1n5z9c9Vq8BxWj5X6lQ0xx502MBACPtLI&sz=w640",
+          "sizeBytes": 4726698,
+          "sha256": "D0D89F636DF882AC3D857C0FCAF557F544A6E136C332C2A07BA6A0868829024A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Shadow Man Remastered — Shadow Man Remas"
+        }
+      ]
+    },
+    {
+      "titleId": "010046701597E000",
+      "title": "Aeon Drive",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010046701597E000.jpg",
+      "variants": [
+        {
+          "id": "v_d82d912a",
+          "name": "Aeon Drive — Aeon Drive Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FHdD7Geub_1DloXGfiQNizrI6tBUTOcL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FHdD7Geub_1DloXGfiQNizrI6tBUTOcL&sz=w640",
+          "sizeBytes": 5094489,
+          "sha256": "547FDCCA0D97EC3FE0BD0B6DE45EAE00C17C0D774FC90AC456FBE7B8F75F6482",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Aeon Drive — Aeon Drive Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01001F401F6CA000",
+      "title": "Rugrats Adventures in Gameland",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001F401F6CA000.jpg",
+      "variants": [
+        {
+          "id": "v_f2269cd4",
+          "name": "Rugrats: Adventures in Gameland — Rugrats Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KHr2BGrRmk6p0YCWq2rB4nKaMZBKu4kE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KHr2BGrRmk6p0YCWq2rB4nKaMZBKu4kE&sz=w640",
+          "sizeBytes": 5234829,
+          "sha256": "3362580F1D9C067865E079AF3328398BAEA691B5A7BCA552AC6BD20FFBA5DBAE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rugrats: Adventures in Gameland — Rugrat"
+        }
+      ]
+    },
+    {
+      "titleId": "01002BE016054000",
+      "title": "SD Gundam Battle Alliance",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002BE016054000.jpg",
+      "variants": [
+        {
+          "id": "v_7fe1c915",
+          "name": "SD GUNDAM BATTLE ALLIANCE — SD GUNDAM BATTLE ALL",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-se8Vj-cbTPn-cOelbLOWnzkCtlZpd-B",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-se8Vj-cbTPn-cOelbLOWnzkCtlZpd-B&sz=w640",
+          "sizeBytes": 4935381,
+          "sha256": "905A9068CAFDC8401B83BCACE3D4935F015BC4D4B644915A1BAEA7B07E281C6F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | SD GUNDAM BATTLE ALLIANCE — SD GUNDAM BA"
+        }
+      ]
+    },
+    {
+      "titleId": "010093C01F256000",
+      "title": "Mobile Suit Gundam Seed Battle Destiny Remastered",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010093C01F256000.jpg",
+      "variants": [
+        {
+          "id": "v_9909bd4d",
+          "name": "MOBILE SUIT GUNDAM SEED BATTLE DESTINY REMASTERE",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fdqafGsh4gGcGBzmsPReV_X67wG3jW3a",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fdqafGsh4gGcGBzmsPReV_X67wG3jW3a&sz=w640",
+          "sizeBytes": 4892937,
+          "sha256": "7FDBBE583FB5DD284CA7579479B8384DC08CDDAB6AAE9CFB74D097AC792B2D0B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | MOBILE SUIT GUNDAM SEED BATTLE DESTINY R"
+        }
+      ]
+    },
+    {
+      "titleId": "010026E013EFC000",
+      "title": "Paint the Town Red",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010026E013EFC000.jpg",
+      "variants": [
+        {
+          "id": "v_e01b96da",
+          "name": "Paint the Town Red — Paint the Town Red - Launch",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jaNrH8l3TPa7QOFBIadQ1fg_-IEuPpae",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jaNrH8l3TPa7QOFBIadQ1fg_-IEuPpae&sz=w640",
+          "sizeBytes": 5605668,
+          "sha256": "B8F278B237546580051EDC174ED838EDF4BAF5938CC55FFE6AA43D2131492E61",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Paint the Town Red — Paint the Town Red "
+        }
+      ]
     }
   ],
-  "totalGames": 1993,
-  "totalVariants": 3417,
-  "lastUpdated": "2026-11-09T21:01:25.692174+00:00"
+  "totalGames": 2003,
+  "totalVariants": 3427,
+  "lastUpdated": "2026-11-09T21:04:19.162845+00:00"
 }
