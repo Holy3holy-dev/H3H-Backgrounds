@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T22:42:52.891782+00:00",
+  "updatedAt": "2026-11-09T22:46:11.036417+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -87588,9 +87588,269 @@
           "notes": "Switch 720p 30fps H264 | Source of Madness — Source of Madness | "
         }
       ]
+    },
+    {
+      "titleId": "0100FAB0152EA000",
+      "title": "Eternal Radiance",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FAB0152EA000.jpg",
+      "variants": [
+        {
+          "id": "v_c6319b40",
+          "name": "Eternal Radiance — Trailer (English)",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_WcInq4YREORNrG3qJL2EZ31EqXWmA8-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_WcInq4YREORNrG3qJL2EZ31EqXWmA8-&sz=w640",
+          "sizeBytes": 5308310,
+          "sha256": "45D2059839DC84121AC80F0B87751EDC721C9E553A22472FE581D3079B2B72FC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Eternal Radiance — Trailer (English)"
+        }
+      ]
+    },
+    {
+      "titleId": "01001C700873E000",
+      "title": "God Eater 3",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001C700873E000.jpg",
+      "variants": [
+        {
+          "id": "v_3b460076",
+          "name": "GOD EATER 3 — GE3 Trailer [ESRB]",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19Xe323nhi176e2Rj-hMAqghwMmdxbJtc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19Xe323nhi176e2Rj-hMAqghwMmdxbJtc&sz=w640",
+          "sizeBytes": 5560846,
+          "sha256": "722348261A8A8819B8ABEF707D8D590A14B1B36B5D984DAAEC39ABF8069D0774",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | GOD EATER 3 — GE3 Trailer [ESRB]"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B720152EC000",
+      "title": "Whisper Trip",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B720152EC000.jpg",
+      "variants": [
+        {
+          "id": "v_c0f60ecf",
+          "name": "Whisper Trip — Whisper Trip - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bPHr1DSmAam89cFEUsPKrXc4qKwbDzZC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bPHr1DSmAam89cFEUsPKrXc4qKwbDzZC&sz=w640",
+          "sizeBytes": 5122196,
+          "sha256": "BEBD0FC097B8610AFB256DC27C48CB32FCDF66A430596B78D1486E1552F82F97",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Whisper Trip — Whisper Trip - Launch Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "01003A0022D20000",
+      "title": "Slender Threads",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003A0022D20000.jpg",
+      "variants": [
+        {
+          "id": "v_b1e07ae8",
+          "name": "Slender Threads — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kg5HS62KbZhN-qwtf48CWTnqueiZVap0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kg5HS62KbZhN-qwtf48CWTnqueiZVap0&sz=w640",
+          "sizeBytes": 5362117,
+          "sha256": "F6013D830F880EAC3E14689C2D50AA27EC644814425C6D864A4534BEF4C74C54",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Slender Threads — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F34023938000",
+      "title": "Death Kid",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F34023938000.jpg",
+      "variants": [
+        {
+          "id": "v_7e6faaaa",
+          "name": "Death Kid — Local Co-Op",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WM7RkcFbf8v6IdQyiPJyFRY3mCo0S7M5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WM7RkcFbf8v6IdQyiPJyFRY3mCo0S7M5&sz=w640",
+          "sizeBytes": 5299307,
+          "sha256": "7B1F8FAA5D858587F9822E7ECB64A9CDD0C8F284AA7D8FAEA8407B7955A1379F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Death Kid — Local Co-Op"
+        }
+      ]
+    },
+    {
+      "titleId": "01005D2016934000",
+      "title": "Ghostbusters Spirits Unleashed Ecto edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005D2016934000.jpg",
+      "variants": [
+        {
+          "id": "v_e906d0b0",
+          "name": "Ghostbusters: Spirits Unleashed Ecto Edition — G",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1l8jzcyXZvCF-cJIMUBbYBgELNeZjfPYh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1l8jzcyXZvCF-cJIMUBbYBgELNeZjfPYh&sz=w640",
+          "sizeBytes": 4816961,
+          "sha256": "724CB4D7DD46A611B540A99575B3657429EA1D4CB755A19DA9203576F23F8778",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ghostbusters: Spirits Unleashed Ecto Edi"
+        }
+      ]
+    },
+    {
+      "titleId": "010050E020506000",
+      "title": "Ed and Edda Grand Prix Racing Champions",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010050E020506000.jpg",
+      "variants": [
+        {
+          "id": "v_23598f0d",
+          "name": "Ed & Edda: GRAND PRIX – Racing Champions — Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dMKnhI1j6h7uq2s1LwJgPsg113RkUSX1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dMKnhI1j6h7uq2s1LwJgPsg113RkUSX1&sz=w640",
+          "sizeBytes": 5364899,
+          "sha256": "A7773C9A604EE80C2ADF3240B87DC74684B0CBAFDEC0C39DFE11D3DB1F883A48",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ed & Edda: GRAND PRIX – Racing Champions"
+        }
+      ]
+    },
+    {
+      "titleId": "0100957021612000",
+      "title": "Locomoto",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100957021612000.jpg",
+      "variants": [
+        {
+          "id": "v_72738a6e",
+          "name": "Locomoto — Locomoto Gameplay ENG",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1amfre3ZsZJjUkDbuaa56UM70sZfNBAW9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1amfre3ZsZJjUkDbuaa56UM70sZfNBAW9&sz=w640",
+          "sizeBytes": 5522735,
+          "sha256": "E6CE4D4B8FAA71ED54652F17FC62F2C652D7991F4AB68C0F7AA94BE20C83DB1E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Locomoto — Locomoto Gameplay ENG"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C5100DB04000",
+      "title": "Cardpocalypse",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C5100DB04000.jpg",
+      "variants": [
+        {
+          "id": "v_768203f4",
+          "name": "Cardpocalypse — Cardpocalypse Official Story Tra",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NlQ4voZRptnTPzHY7RxQKrV1lUAkOERF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NlQ4voZRptnTPzHY7RxQKrV1lUAkOERF&sz=w640",
+          "sizeBytes": 4696200,
+          "sha256": "5045A3036F3AB315C6ACECBF914A7C1899EFB8312A47A203E798832A47AC1003",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cardpocalypse — Cardpocalypse Official S"
+        }
+      ]
+    },
+    {
+      "titleId": "010040201711A000",
+      "title": "Terrorbane",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010040201711A000.jpg",
+      "variants": [
+        {
+          "id": "v_0f1a6f37",
+          "name": "tERRORbane — Release Date Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fvhw1kSqb3EP7H-WlfoqXGqBqps-FEmV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fvhw1kSqb3EP7H-WlfoqXGqBqps-FEmV&sz=w640",
+          "sizeBytes": 11366805,
+          "sha256": "345E7391077BDDAD3D744F59F7A9104D1734E6895D60C68F86951888406E46F2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | tERRORbane — Release Date Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 2313,
-  "totalVariants": 3737,
-  "lastUpdated": "2026-11-09T22:42:52.891782+00:00"
+  "totalGames": 2323,
+  "totalVariants": 3747,
+  "lastUpdated": "2026-11-09T22:46:11.036417+00:00"
 }
