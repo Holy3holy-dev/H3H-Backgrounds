@@ -21,6 +21,12 @@ from .compliance import ComplianceValidator
 from .github_publisher import GitHubPublisher
 from .online_fetcher import OnlineFetcher
 
+try:
+    from tg_bot.config import detect_local_proxy
+    detect_local_proxy()
+except Exception:
+    pass
+
 
 class GoogleDriveHelper:
     """
