@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T06:25:54.352089+00:00",
+  "updatedAt": "2026-11-09T06:27:26.069227+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -36764,6 +36764,24 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_2315f3d4",
+          "name": "BioShock",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Zav7k0e3WGRVG1rPK2lKnPGzWbaGRA36",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Zav7k0e3WGRVG1rPK2lKnPGzWbaGRA36&sz=w640",
+          "sizeBytes": 1625622,
+          "sha256": "7F8AB209F4AAF786BFE2BC0603A51D94984B08E23839F52B29F31BA6F023AA7B",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | BioShock"
         }
       ]
     },
@@ -60844,6 +60862,6 @@
     }
   ],
   "totalGames": 1298,
-  "totalVariants": 2704,
-  "lastUpdated": "2026-11-09T06:25:54.352089+00:00"
+  "totalVariants": 2705,
+  "lastUpdated": "2026-11-09T06:27:26.069227+00:00"
 }
