@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T10:54:37.919353+00:00",
+  "updatedAt": "2026-11-09T10:56:29.213222+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -54981,6 +54981,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Sifu — Sifu Reveal Trailer"
+        },
+        {
+          "id": "v_f3aa4644",
+          "name": "Rainy Alley The Club Sifu",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1iAP0B2sLR0eCuoTtiFqa3q6c7LiCUKyc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1iAP0B2sLR0eCuoTtiFqa3q6c7LiCUKyc&sz=w640",
+          "sizeBytes": 1384695,
+          "sha256": "7EF30C774C6A6A025261446A06C0804BE34CADBCF8C0CF53EB83644EE9C841D8",
+          "durationSec": 18.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Rainy Alley The Club Sifu"
         }
       ]
     },
@@ -60784,6 +60802,6 @@
     }
   ],
   "totalGames": 1303,
-  "totalVariants": 2697,
-  "lastUpdated": "2026-11-09T10:54:37.919353+00:00"
+  "totalVariants": 2698,
+  "lastUpdated": "2026-11-09T10:56:29.213222+00:00"
 }
