@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T05:44:41.878436+00:00",
+  "updatedAt": "2026-11-09T05:45:59.347435+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -50959,6 +50959,24 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_00c8314d",
+          "name": "Cereza Bayonetta",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IaEUQw88BCckMyiij8uduLc8Q7DlGF3J",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IaEUQw88BCckMyiij8uduLc8Q7DlGF3J&sz=w640",
+          "sizeBytes": 1832349,
+          "sha256": "80D9FBE212698B9E28D580B24660A41F9D2F8CD6E7BF341F8BCD7C9F9ED39A6C",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cereza Bayonetta"
         }
       ]
     },
@@ -60388,6 +60406,6 @@
     }
   ],
   "totalGames": 1297,
-  "totalVariants": 2679,
-  "lastUpdated": "2026-11-09T05:44:41.878436+00:00"
+  "totalVariants": 2680,
+  "lastUpdated": "2026-11-09T05:45:59.347435+00:00"
 }
