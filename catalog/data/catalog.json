@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T20:07:12.333026+00:00",
+  "updatedAt": "2026-11-09T20:17:20.919203+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -75628,9 +75628,269 @@
           "notes": "Switch 720p 30fps H264 | Ski Jump Challenge 2024 — PromoVideoEN"
         }
       ]
+    },
+    {
+      "titleId": "010017D0130C4000",
+      "title": "Destropolis",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010017D0130C4000.jpg",
+      "variants": [
+        {
+          "id": "v_a8f9d42e",
+          "name": "Destropolis 2 — Trailer 1",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12ObL409bNykda_dTS4S16Crs--Sv9vwL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12ObL409bNykda_dTS4S16Crs--Sv9vwL&sz=w640",
+          "sizeBytes": 5426265,
+          "sha256": "710FF067A7714A2A4C3A621D594AD6CCD2D0741D12A6C893A53E82A99B8C403C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Destropolis 2 — Trailer 1"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E11019268000",
+      "title": "Home Deco Puzzles",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E11019268000.jpg",
+      "variants": [
+        {
+          "id": "v_738f3338",
+          "name": "Home Deco Puzzles — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=103IqsRg-pwEHEjbnPN0gWc2wStld6wFk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=103IqsRg-pwEHEjbnPN0gWc2wStld6wFk&sz=w640",
+          "sizeBytes": 4946202,
+          "sha256": "AB0C716BC333A3EC774C0888E4E63ED9AA18151741321774531F0EAD91DA23E9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Home Deco Puzzles — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100650010DD4000",
+      "title": "Battleground",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100650010DD4000.jpg",
+      "variants": [
+        {
+          "id": "v_59ebd7ae",
+          "name": "Warlords Battleground: Extraction — NextFest_en",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DYylPr96Ryreib-US23bWLel6qBLYlkz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DYylPr96Ryreib-US23bWLel6qBLYlkz&sz=w640",
+          "sizeBytes": 5012234,
+          "sha256": "9230440CF314CA92A71B184AE4A7685DCE6A0B0870779D1F63AD1E296AAE113B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Warlords Battleground: Extraction — Next"
+        }
+      ]
+    },
+    {
+      "titleId": "010087E014832000",
+      "title": "Airborne Kingdom",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010087E014832000.jpg",
+      "variants": [
+        {
+          "id": "v_bc1dbac8",
+          "name": "Airborne Kingdom — Accolades Trailer 3/7/22",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1a8TdiBUh_YRSd1SjNbE0fGf30mGnEOFW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1a8TdiBUh_YRSd1SjNbE0fGf30mGnEOFW&sz=w640",
+          "sizeBytes": 5329559,
+          "sha256": "495A8BBCD11AAD7543A92E28DDEF32EA186BB5FD44FA9A965DD267431837A71B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Airborne Kingdom — Accolades Trailer 3/7"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C5B00FADE000",
+      "title": "Invisible Fist",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C5B00FADE000.jpg",
+      "variants": [
+        {
+          "id": "v_bbfbeae0",
+          "name": "Invisible Fist — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fpV7tfZicooqR_TvgoPMv9w1NtXoWZPX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fpV7tfZicooqR_TvgoPMv9w1NtXoWZPX&sz=w640",
+          "sizeBytes": 5397603,
+          "sha256": "F3F3FB8E8B4C259B56261255FA2DBFAF7F4D3C50D9358914ED84E14AA55F6501",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Invisible Fist — Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01003C101481E000",
+      "title": "Football Drama",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003C101481E000.jpg",
+      "variants": [
+        {
+          "id": "v_68274ef7",
+          "name": "Football Drama — Every Goal Has A Story (HD game",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MhOYfgQJTVJYlueULjEib2POvyxUxVwM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MhOYfgQJTVJYlueULjEib2POvyxUxVwM&sz=w640",
+          "sizeBytes": 5079445,
+          "sha256": "F6D30C4E96D11C5A598A44B7560EC7B3B4CDE056E8370782046D61FFAA6E1824",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Football Drama — Every Goal Has A Story "
+        }
+      ]
+    },
+    {
+      "titleId": "010072C010002000",
+      "title": "Event Horizon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010072C010002000.jpg",
+      "variants": [
+        {
+          "id": "v_100ec1ac",
+          "name": "Event Horizon — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17eZ7qAEbAtb2Ke66hQ6ahbfgZvLtaYHj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17eZ7qAEbAtb2Ke66hQ6ahbfgZvLtaYHj&sz=w640",
+          "sizeBytes": 5407623,
+          "sha256": "ECEEE206B68B44FC1BA5D8FA9D545345B9A984CFCC4B6A0D5EA2AC4D142C549B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Event Horizon — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100523021E2C000",
+      "title": "Detective Instinct Farewell My Beloved",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100523021E2C000.jpg",
+      "variants": [
+        {
+          "id": "v_ed81cddc",
+          "name": "Detective Instinct: Farewell, My Beloved — Relea",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Va7lPbXAVXki_Q7ueulokSIjg6Y8fL1s",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Va7lPbXAVXki_Q7ueulokSIjg6Y8fL1s&sz=w640",
+          "sizeBytes": 5385777,
+          "sha256": "7C08E54DB8AF7EB124658991A956CE839C8288E2CCD4974AA87A5B50A259E5B5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Detective Instinct: Farewell, My Beloved"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F7C00DFCA000",
+      "title": "Sail Forth",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F7C00DFCA000.jpg",
+      "variants": [
+        {
+          "id": "v_d77a15c6",
+          "name": "Sail Forth — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WKGIdpJ6OpRnyqcKCXChyeF03G70HWzx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WKGIdpJ6OpRnyqcKCXChyeF03G70HWzx&sz=w640",
+          "sizeBytes": 5492095,
+          "sha256": "2227FEF756DA313D9FFC9CE6EA308226BD07407E92143CFD36D0A6054AFA06FD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sail Forth — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01002C70149B4000",
+      "title": "Mayhem Brawler",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002C70149B4000.jpg",
+      "variants": [
+        {
+          "id": "v_b0d37a28",
+          "name": "Mayhem Brawler — Mayhem Brawler - Wolfpack",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1S7eNw9WPl7olXbbOZV3PRRcYsirECNFR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1S7eNw9WPl7olXbbOZV3PRRcYsirECNFR&sz=w640",
+          "sizeBytes": 5337066,
+          "sha256": "11B177AE03A95AE128A355A58919D2EA3FF8E2AE217C464D0DE346175CB0B655",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mayhem Brawler — Mayhem Brawler - Wolfpa"
+        }
+      ]
     }
   ],
-  "totalGames": 1853,
-  "totalVariants": 3277,
-  "lastUpdated": "2026-11-09T20:07:12.333026+00:00"
+  "totalGames": 1863,
+  "totalVariants": 3287,
+  "lastUpdated": "2026-11-09T20:17:20.919203+00:00"
 }
