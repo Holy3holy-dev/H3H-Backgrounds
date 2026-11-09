@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T07:21:03.122573+00:00",
+  "updatedAt": "2026-11-09T07:22:42.431926+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -60841,9 +60841,53 @@
           "notes": "Switch 720p 30fps H264 | Cereza Bayonetta"
         }
       ]
+    },
+    {
+      "titleId": "01004060153FA000",
+      "title": "Sonic Frontiers",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004060153FA000.jpg",
+      "variants": [
+        {
+          "id": "v_6a913646",
+          "name": "Sonic Frontiers Starfall",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BMiZ2R8k6jr8Wvp-tbLif8orcuOTcxds",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BMiZ2R8k6jr8Wvp-tbLif8orcuOTcxds&sz=w640",
+          "sizeBytes": 1441394,
+          "sha256": "2F6DAF53A18CACF1B0895BA1C5815FE795C0DF3AD7600EF4D13E0FC3B3C609D5",
+          "durationSec": 18.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sonic Frontiers Starfall"
+        },
+        {
+          "id": "v_53c8a2a6",
+          "name": "Sonic The Hedgehog",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eZrVKfCy2sHxm5WYs34eWY0MVohmPwC5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eZrVKfCy2sHxm5WYs34eWY0MVohmPwC5&sz=w640",
+          "sizeBytes": 553379,
+          "sha256": "12E649CAF3B5E8EF446DD31CACB1FDEB2325E8C89669D481AFC618E545B6F647",
+          "durationSec": 18.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sonic The Hedgehog"
+        }
+      ]
     }
   ],
-  "totalGames": 1301,
-  "totalVariants": 2703,
-  "lastUpdated": "2026-11-09T07:21:03.122573+00:00"
+  "totalGames": 1302,
+  "totalVariants": 2705,
+  "lastUpdated": "2026-11-09T07:22:42.431926+00:00"
 }
