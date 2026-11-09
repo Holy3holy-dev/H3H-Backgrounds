@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T22:03:02.436419+00:00",
+  "updatedAt": "2026-11-09T22:06:24.388224+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -84208,9 +84208,269 @@
           "notes": "Switch 720p 30fps H264 | Glittering Sword — Glittering Sword"
         }
       ]
+    },
+    {
+      "titleId": "0100B0600ABE6000",
+      "title": "Treachery in Beatdown City Ultra Remix",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B0600ABE6000.jpg",
+      "variants": [
+        {
+          "id": "v_ab931056",
+          "name": "Treachery in Beatdown City: Ultra Remix — Treach",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kI9g89ctyWwnvgW2Sl3rb_4q54LYk37o",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kI9g89ctyWwnvgW2Sl3rb_4q54LYk37o&sz=w640",
+          "sizeBytes": 5523935,
+          "sha256": "171C76112A17C9B743EFB9FA12594B099E5652AE09947B62E6A1E822800F12F4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Treachery in Beatdown City: Ultra Remix "
+        }
+      ]
+    },
+    {
+      "titleId": "0100907011392000",
+      "title": "Okunoka Madness",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100907011392000.jpg",
+      "variants": [
+        {
+          "id": "v_f1d0dca3",
+          "name": "OkunoKA Madness — OkunoKA Madness Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oVvIl-fGCzFLvvgrHBH6iBJ2pDyr7A1G",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oVvIl-fGCzFLvvgrHBH6iBJ2pDyr7A1G&sz=w640",
+          "sizeBytes": 5504435,
+          "sha256": "3C49DDF7F3265C97E134FDA2BFC023BB4BB6A489E2B673C671865416B2795F69",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | OkunoKA Madness — OkunoKA Madness Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C6301324C000",
+      "title": "Electro Ride The Neon Racing",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C6301324C000.jpg",
+      "variants": [
+        {
+          "id": "v_25810b5f",
+          "name": "Electro Ride: The Neon Racing — Electro Ride tra",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VU7pOg7p1PYKUcYxMEbwsdVcZcW76C92",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VU7pOg7p1PYKUcYxMEbwsdVcZcW76C92&sz=w640",
+          "sizeBytes": 5477154,
+          "sha256": "F019AFC6EBC3972CAE4E71E7025D0161B1E2166C4B6B0C30FA1DE53D07C5914A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Electro Ride: The Neon Racing — Electro "
+        }
+      ]
+    },
+    {
+      "titleId": "0100C18016896000",
+      "title": "Marble It Up",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C18016896000.jpg",
+      "variants": [
+        {
+          "id": "v_e279d996",
+          "name": "Marble It Up! Ultra — Marble It Up! Ultra Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OrcDc33DCSmfwwEdA5F4cifk_GzNA1Tw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OrcDc33DCSmfwwEdA5F4cifk_GzNA1Tw&sz=w640",
+          "sizeBytes": 5531823,
+          "sha256": "40B187B0164380E793443FD856F320B1DE26355F656EBB18EB47BBD6B417BF5A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Marble It Up! Ultra — Marble It Up! Ultr"
+        }
+      ]
+    },
+    {
+      "titleId": "010011000EA7A000",
+      "title": "Brigandine The Legend of Runersia",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010011000EA7A000.jpg",
+      "variants": [
+        {
+          "id": "v_f4ce3b41",
+          "name": "Brigandine The Legend of Runersia — Brigandine: ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=183MFCI_0FVtKnbI7MFKINJFrIeylCj87",
+          "previewUrl": "https://drive.google.com/thumbnail?id=183MFCI_0FVtKnbI7MFKINJFrIeylCj87&sz=w640",
+          "sizeBytes": 5204382,
+          "sha256": "B458AF836C58A68ABBB5992247A69A59FF411CFF20ACB0AE63E6DC9BFE0710B1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Brigandine The Legend of Runersia — Brig"
+        }
+      ]
+    },
+    {
+      "titleId": "01001F90122B2000",
+      "title": "Super Punch Patrol",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001F90122B2000.jpg",
+      "variants": [
+        {
+          "id": "v_cb7d90bb",
+          "name": "Super Punch Patrol — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eCwHyO-ct8qzEkaEHfnTu8MaaWaHFiRD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eCwHyO-ct8qzEkaEHfnTu8MaaWaHFiRD&sz=w640",
+          "sizeBytes": 5258523,
+          "sha256": "52653237B4214A8DF68E8F40795BC40124D5C7BC1DE720C40FE71DB5E5E5634F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Super Punch Patrol — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01003190255F4000",
+      "title": "Fida Puti Samurai",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003190255F4000.jpg",
+      "variants": [
+        {
+          "id": "v_972f11f8",
+          "name": "Fida Puti Samurai — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1i5xU-MOOosW7wmRiycXa3JFDJzDctGKs",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1i5xU-MOOosW7wmRiycXa3JFDJzDctGKs&sz=w640",
+          "sizeBytes": 4016702,
+          "sha256": "A8426FA709140DF30AB897377D7262EE01FF462BAFE2867D42B5240F9DCA2AAD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fida Puti Samurai — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01006C500A29C000",
+      "title": "Hyperbrawl Tournament",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006C500A29C000.jpg",
+      "variants": [
+        {
+          "id": "v_b568b9b0",
+          "name": "HyperBrawl Tournament — Update Trailer Dec 2021",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PVf5m8kiTKmx9sByx8jCoXXnaxgL3NqS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PVf5m8kiTKmx9sByx8jCoXXnaxgL3NqS&sz=w640",
+          "sizeBytes": 5500227,
+          "sha256": "5C56C02B8B6551FC5BA1EB49336804BD0FAF2D8A1159EC1331877834CDA0F1CF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | HyperBrawl Tournament — Update Trailer D"
+        }
+      ]
+    },
+    {
+      "titleId": "01003A30253C0000",
+      "title": "Thomas and Friends Wonders of Sodor",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003A30253C0000.jpg",
+      "variants": [
+        {
+          "id": "v_2614acf8",
+          "name": "Thomas & Friends™: Wonders of Sodor — Thomas & F",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rIUtzlYdHzTQPDIe43Nxdx0BKPawXkN_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rIUtzlYdHzTQPDIe43Nxdx0BKPawXkN_&sz=w640",
+          "sizeBytes": 5529720,
+          "sha256": "DBD89E08C7DBC76B5864B10AB53165798AE1DA51F71F0246D9959FA74EDE4D7A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Thomas & Friends™: Wonders of Sodor — Th"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BD7018128000",
+      "title": "Moonshine Inc",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BD7018128000.jpg",
+      "variants": [
+        {
+          "id": "v_6b43b1dc",
+          "name": "Moonshine Inc. — Moonshine Inc - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1aTyMFb8asJIYVFg8plf7pT5e8On9gyG5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1aTyMFb8asJIYVFg8plf7pT5e8On9gyG5&sz=w640",
+          "sizeBytes": 5128264,
+          "sha256": "8DFAB6723AE7A63BB82A9B8BA4FD2D86B4432E0E98671157C7862DDE45DE37F0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Moonshine Inc. — Moonshine Inc - Launch "
+        }
+      ]
     }
   ],
-  "totalGames": 2183,
-  "totalVariants": 3607,
-  "lastUpdated": "2026-11-09T22:03:02.436419+00:00"
+  "totalGames": 2193,
+  "totalVariants": 3617,
+  "lastUpdated": "2026-11-09T22:06:24.388224+00:00"
 }
