@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T11:06:34.012223+00:00",
+  "updatedAt": "2026-11-09T12:32:30.025618+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -61571,9 +61571,269 @@
           "notes": "Switch 720p 30fps H264 | Return to abyss 重返深渊 — preview_en"
         }
       ]
+    },
+    {
+      "titleId": "0100527019282000",
+      "title": "Savior of the Abyss",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100527019282000.jpg",
+      "variants": [
+        {
+          "id": "v_a4ea0456",
+          "name": "Savior of the Abyss — Trailer_Ingame",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1j9NkQefU9IqpbnwKdSKHRK2jq4EicM9D",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1j9NkQefU9IqpbnwKdSKHRK2jq4EicM9D&sz=w640",
+          "sizeBytes": 4091374,
+          "sha256": "56305DF56D54B2D85A5ECD66466C2FDA441E5F8A8F3A55AA4A3B02A127FE1BA7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Savior of the Abyss — Trailer_Ingame"
+        }
+      ]
+    },
+    {
+      "titleId": "0100082015108000",
+      "title": "Let's Get Fit",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100082015108000.jpg",
+      "variants": [
+        {
+          "id": "v_e5355eac",
+          "name": "Let's Get Fit at Midnight, Shall We? — PV",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1iEgP7N2JCX5D14wHzkXRVapTg4HyRA_V",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1iEgP7N2JCX5D14wHzkXRVapTg4HyRA_V&sz=w640",
+          "sizeBytes": 5327896,
+          "sha256": "E5B36AD3B8611E51816927364BFFFC764556E7CF25C03834FA9D86FD7F3982B8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Let's Get Fit at Midnight, Shall We? — P"
+        }
+      ]
+    },
+    {
+      "titleId": "01001BB014512000",
+      "title": "Alchemist Simulator",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001BB014512000.jpg",
+      "variants": [
+        {
+          "id": "v_7eb7baa7",
+          "name": "Alchemist Simulator — Alchemist Simulator Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1EunpYkYjnfM66bRLMIwbO3N8AtvFEuKC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1EunpYkYjnfM66bRLMIwbO3N8AtvFEuKC&sz=w640",
+          "sizeBytes": 5205914,
+          "sha256": "11AC04A1B4A6E886B6868D3B9C0F5D26387FE89E36050D6EEC1A15D750E1E68F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Alchemist Simulator — Alchemist Simulato"
+        }
+      ]
+    },
+    {
+      "titleId": "01008B900DC0A000",
+      "title": "Final Fantasy VIII Remastered",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008B900DC0A000.jpg",
+      "variants": [
+        {
+          "id": "v_aea5f881",
+          "name": "FINAL FANTASY VIII - REMASTERED — ESRB EN FFVIII",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Qz4ip2KpMgCj26RyhXzk5bnfo2VBpBwY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Qz4ip2KpMgCj26RyhXzk5bnfo2VBpBwY&sz=w640",
+          "sizeBytes": 4068023,
+          "sha256": "7A7EA1CD4F06B09B3994966C3411D120713BD1D7D381C7D19887829802F498A5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | FINAL FANTASY VIII - REMASTERED — ESRB E"
+        }
+      ]
+    },
+    {
+      "titleId": "010091D00BE38000",
+      "title": "Rock of Ages II Bigger and Boulder",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010091D00BE38000.jpg",
+      "variants": [
+        {
+          "id": "v_b15b1914",
+          "name": "Rock of Ages 2: Bigger & Boulder™ — Rockin' Trai",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MCXPZJAyrvRiQK3QRL_UCRNttOhlxF4r",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MCXPZJAyrvRiQK3QRL_UCRNttOhlxF4r&sz=w640",
+          "sizeBytes": 4941995,
+          "sha256": "EF556C6F8B55E849C7A87810D3929CB2222871BE103B98123D8D53E0D13E8A1D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rock of Ages 2: Bigger & Boulder™ — Rock"
+        }
+      ]
+    },
+    {
+      "titleId": "01001A0011798000",
+      "title": "WRC 8 FIA World Rally Championship",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001A0011798000.jpg",
+      "variants": [
+        {
+          "id": "v_f7f14b78",
+          "name": "WRC 8 FIA World Rally Championship — WRC8 Accola",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15v1vqvPauB-lXp_q1UU-sZmJQ4JE4GSq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15v1vqvPauB-lXp_q1UU-sZmJQ4JE4GSq&sz=w640",
+          "sizeBytes": 5370778,
+          "sha256": "42935EB39BE7746A9C77CD8AD09565FBF7762A084A7B873AD2E79DA58EC8B75C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | WRC 8 FIA World Rally Championship — WRC"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BDB01150E000",
+      "title": "Project Warlock",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BDB01150E000.jpg",
+      "variants": [
+        {
+          "id": "v_2378aae8",
+          "name": "Project Warlock — Project Warlock Steam launch t",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tgEtzmPFof2o47m9kAaSXfzeZPmNHjDV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tgEtzmPFof2o47m9kAaSXfzeZPmNHjDV&sz=w640",
+          "sizeBytes": 5028406,
+          "sha256": "E39E0B2CEF7D8A0EAB3036D25F48580364E98C93F3FA98B815A08CB63E4EC093",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Project Warlock — Project Warlock Steam "
+        }
+      ]
+    },
+    {
+      "titleId": "0100FC101513E000",
+      "title": "Train Life a Railway Simulator",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FC101513E000.jpg",
+      "variants": [
+        {
+          "id": "v_c66d2c96",
+          "name": "Train Life: A Railway Simulator — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=175QrjnCFRb2i3W0T_2V2zQ3_PyZ5v7OP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=175QrjnCFRb2i3W0T_2V2zQ3_PyZ5v7OP&sz=w640",
+          "sizeBytes": 5392325,
+          "sha256": "85ECB59E7656F097B8210C20592C6E5C6849B5BF65BC7D674E5ACE0A8CAFDBA5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Train Life: A Railway Simulator — Launch"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D010113A8000",
+      "title": "Void Bastards",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D010113A8000.jpg",
+      "variants": [
+        {
+          "id": "v_393eea81",
+          "name": "Void Bastards — Announce Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=109UhGv94lWl792FuGjy9vjycbHnBP2UK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=109UhGv94lWl792FuGjy9vjycbHnBP2UK&sz=w640",
+          "sizeBytes": 5444564,
+          "sha256": "6C70C2D6020BF841FA06B20DFCF7E849F0720F12B5C763585A1E4E2F931B15DD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Void Bastards — Announce Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E12013C1A000",
+      "title": "Tactics Ogre Reborn",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E12013C1A000.jpg",
+      "variants": [
+        {
+          "id": "v_129a751f",
+          "name": "Tactics Ogre: Reborn — ESRB EN Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12szA1hXDaGvRKu1bU6H3DJwACn5l5_sh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12szA1hXDaGvRKu1bU6H3DJwACn5l5_sh&sz=w640",
+          "sizeBytes": 2506735,
+          "sha256": "F59879F5FB38DA7C39BCE8E6774A722805AC0AFB046C1E574F7B10FC3BEABC2E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tactics Ogre: Reborn — ESRB EN Launch Tr"
+        }
+      ]
     }
   ],
-  "totalGames": 1314,
-  "totalVariants": 2736,
-  "lastUpdated": "2026-11-09T11:06:34.012223+00:00"
+  "totalGames": 1324,
+  "totalVariants": 2746,
+  "lastUpdated": "2026-11-09T12:32:30.025618+00:00"
 }
