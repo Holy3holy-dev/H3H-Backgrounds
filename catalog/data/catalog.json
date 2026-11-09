@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T07:09:08.140500+00:00",
+  "updatedAt": "2026-11-09T07:09:47.553503+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -60475,9 +60475,35 @@
       "publisher": "Nintendo Switch",
       "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100702008E12000.jpg",
       "variants": []
+    },
+    {
+      "titleId": "01002F401C950000",
+      "title": "Tsukihime -A piece of blue glass moon-",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002F401C950000.jpg",
+      "variants": [
+        {
+          "id": "v_dd2b0e3b",
+          "name": "Arcueid Brunestud Lunar Legend Tsukihime",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18cg47RfdJD_UKg2zeVa99UI_saTafwj0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18cg47RfdJD_UKg2zeVa99UI_saTafwj0&sz=w640",
+          "sizeBytes": 1417723,
+          "sha256": "319AD80476C332416BDCE62A257A60393193682C831E2E686B69B2D5FC551975",
+          "durationSec": 18.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Arcueid Brunestud Lunar Legend Tsukihime"
+        }
+      ]
     }
   ],
-  "totalGames": 1298,
-  "totalVariants": 2684,
-  "lastUpdated": "2026-11-09T07:09:08.140500+00:00"
+  "totalGames": 1299,
+  "totalVariants": 2685,
+  "lastUpdated": "2026-11-09T07:09:47.553503+00:00"
 }
