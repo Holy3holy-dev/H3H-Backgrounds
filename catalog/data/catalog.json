@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T23:17:15.019707+00:00",
+  "updatedAt": "2026-11-09T23:20:07.756770+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -90708,9 +90708,269 @@
           "notes": "Switch 720p 30fps H264 | Strayed Lights — Accolades Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100E8F026846000",
+      "title": "Lost to Time",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E8F026846000.jpg",
+      "variants": [
+        {
+          "id": "v_94afe3c1",
+          "name": "Lost to Time — Lost to Time - Teaser 2",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FtKp6uiD4NyKQY_KBMtzxZAxTUI7R-fW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FtKp6uiD4NyKQY_KBMtzxZAxTUI7R-fW&sz=w640",
+          "sizeBytes": 4979210,
+          "sha256": "BFFC4C23E187F1CA18B54ABD4761A792EC0675911902748E369EA76A672BC127",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lost to Time — Lost to Time - Teaser 2"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E1201803A000",
+      "title": "New Star GP",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E1201803A000.jpg",
+      "variants": [
+        {
+          "id": "v_3125b326",
+          "name": "New Star™ GP — Out Now!",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Fyw3U-XY_GqBA8O5RPyNOPmW9I8E6oSG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Fyw3U-XY_GqBA8O5RPyNOPmW9I8E6oSG&sz=w640",
+          "sizeBytes": 5263165,
+          "sha256": "11803EEA4FEF1067B5C582B0B213AD19FCD6219E84983CB4D345F5EE862022B4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | New Star™ GP — Out Now!"
+        }
+      ]
+    },
+    {
+      "titleId": "010059301E612000",
+      "title": "Hot Lap Racing",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010059301E612000.jpg",
+      "variants": [
+        {
+          "id": "v_c49ec984",
+          "name": "Hot Lap Racing — Hot Lap Racing - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13BZMs1WiLprJ0GvYvh9eV1lQVTdgWQPD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13BZMs1WiLprJ0GvYvh9eV1lQVTdgWQPD&sz=w640",
+          "sizeBytes": 5161611,
+          "sha256": "3BB732BF2C9E9680861BF5DF2BF48858920483E17EB7B794352E899933802CC9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hot Lap Racing — Hot Lap Racing - Launch"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E5000DDD2000",
+      "title": "Police Stories",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E5000DDD2000.jpg",
+      "variants": [
+        {
+          "id": "v_f737f6fe",
+          "name": "Police Stories — Release Date",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XPvFT5gBcO_RPkQ5fDAH49yaFv5h47wu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XPvFT5gBcO_RPkQ5fDAH49yaFv5h47wu&sz=w640",
+          "sizeBytes": 5233294,
+          "sha256": "DBB851C2A60F42A7709802736AD9DCC78DB1856A83091CECED21AA400A38E617",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Police Stories — Release Date"
+        }
+      ]
+    },
+    {
+      "titleId": "01003570130E2000",
+      "title": "Legend of Mana Remastered",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003570130E2000.jpg",
+      "variants": [
+        {
+          "id": "v_828ce3e0",
+          "name": "Legend of Mana — JP - LoM Pre-Purchase start",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1D_yzQg22_Q1NNV4Log7aJubofzAs94wg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1D_yzQg22_Q1NNV4Log7aJubofzAs94wg&sz=w640",
+          "sizeBytes": 5363079,
+          "sha256": "B898E5F46787F1CBB4DE84A8808351AD715FE8EC6B780EB014413D1EE07C374C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Legend of Mana — JP - LoM Pre-Purchase s"
+        }
+      ]
+    },
+    {
+      "titleId": "01006C4017F40000",
+      "title": "Eastern Exorcist",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006C4017F40000.jpg",
+      "variants": [
+        {
+          "id": "v_cdb5258c",
+          "name": "Eastern Exorcist — 男女主pv",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lz_nfW4ypn2JHl91cd3ob91u0d5Q0Dqg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lz_nfW4ypn2JHl91cd3ob91u0d5Q0Dqg&sz=w640",
+          "sizeBytes": 4752620,
+          "sha256": "4BBE43790311DB6D17C47F04B62305CB86392DB1263FCC26DB65AE51B7EB3441",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Eastern Exorcist — 男女主pv"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F69020BD8000",
+      "title": "DreamWorks Gabby's Dollhouse Ready to Party",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F69020BD8000.jpg",
+      "variants": [
+        {
+          "id": "v_27fb627c",
+          "name": "DreamWorks Gabby’s Dollhouse: Ready to Party — L",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1q9n1EdduSUSPKbogUMjJVdlE9gDlkKUN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1q9n1EdduSUSPKbogUMjJVdlE9gDlkKUN&sz=w640",
+          "sizeBytes": 5253195,
+          "sha256": "5E7A19F0E108EC462AF006DEB00FBFD925F0424F890CD0F8657F6E90399C2967",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | DreamWorks Gabby’s Dollhouse: Ready to P"
+        }
+      ]
+    },
+    {
+      "titleId": "01001A100C0E8000",
+      "title": "Caveblazers",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001A100C0E8000.jpg",
+      "variants": [
+        {
+          "id": "v_6225e4bc",
+          "name": "Caveblazers Together — Main",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qjfiJ7_hiJj1G0jTpZo8oYJyfh1tfiLn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qjfiJ7_hiJj1G0jTpZo8oYJyfh1tfiLn&sz=w640",
+          "sizeBytes": 5321760,
+          "sha256": "9B1D3F38F5900C791615885A7CD1163C471B6C0FA91E7A2DFAC4CB3484DEE6B3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Caveblazers Together — Main"
+        }
+      ]
+    },
+    {
+      "titleId": "010083501AB36000",
+      "title": "Solar Ash",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010083501AB36000.jpg",
+      "variants": [
+        {
+          "id": "v_475989c4",
+          "name": "Solar Ash — Solar Ash - Release Date Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1uFZpshvIYS0v5IsfGJuPO_bGXAAP3PIC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1uFZpshvIYS0v5IsfGJuPO_bGXAAP3PIC&sz=w640",
+          "sizeBytes": 4805205,
+          "sha256": "CE2B3231E900019C83E3BC86D2B87A381F01F7AFE2EFBB30E2E2F70A1B202921",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Solar Ash — Solar Ash - Release Date Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D49008748000",
+      "title": "Joe Dever's Lone Wolf",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D49008748000.jpg",
+      "variants": [
+        {
+          "id": "v_9cf5be6b",
+          "name": "Joe Dever's Lone Wolf HD Remastered — Joe Dever'",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jbeJN9rL-l9wjlN_yc4Uq6Iz4aE1q5p5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jbeJN9rL-l9wjlN_yc4Uq6Iz4aE1q5p5&sz=w640",
+          "sizeBytes": 5253326,
+          "sha256": "47C408E3F8B2304384964BD76DED88230C80F75169BBF4A0364D09792A1D186D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Joe Dever's Lone Wolf HD Remastered — Jo"
+        }
+      ]
     }
   ],
-  "totalGames": 2433,
-  "totalVariants": 3857,
-  "lastUpdated": "2026-11-09T23:17:15.019707+00:00"
+  "totalGames": 2443,
+  "totalVariants": 3867,
+  "lastUpdated": "2026-11-09T23:20:07.756770+00:00"
 }
