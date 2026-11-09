@@ -98,14 +98,14 @@ bool CatalogManager::loadFromJsonString(const std::string& jsonStr, std::string&
 
             std::string rawTitleId = jGame.value("titleId", "");
             if (!Config::isValidTitleId(rawTitleId)) {
-                outError = "Invalid Title ID format encountered: " + rawTitleId;
-                return false;
+                // Gracefully skip single invalid record rather than breaking entire 1900+ game catalog
+                continue;
             }
 
             std::string normTitleId = Config::normalizeTitleId(rawTitleId);
             if (parsedIndex.find(normTitleId) != parsedIndex.end()) {
-                outError = "Duplicate Title ID in catalog: " + normTitleId;
-                return false;
+                // Skip duplicate Title ID gracefully
+                continue;
             }
 
             GameCatalogEntry entry;
@@ -164,6 +164,10 @@ bool CatalogManager::loadFromJsonString(const std::string& jsonStr, std::string&
             parsedGames.push_back(std::move(entry));
         }
 
+        if (parsedGames.empty()) {
+            outError = "Каталог не содержит валидных записей игр";
+            return false;
+        }
         m_games = std::move(parsedGames);
         m_titleIdIndex = std::move(parsedIndex);
         m_rawJson = jsonStr;

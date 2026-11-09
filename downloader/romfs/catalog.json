@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T20:07:12.333026+00:00",
+  "updatedAt": "2026-11-09T20:47:02.168496+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -75628,9 +75628,88 @@
           "notes": "Switch 720p 30fps H264 | Ski Jump Challenge 2024 — PromoVideoEN"
         }
       ]
+    },
+    {
+      "titleId": "01FF575748440000",
+      "title": "The Legend of Zelda: The Wind Waker HD",
+      "publisher": "Nintendo / SwitchWakerHD",
+      "variants": [
+        {
+          "id": "var-sw-1",
+          "name": "The Great Sea Intro & Sailing",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Jb8_zkql6D8W18F-WTC4tmgsFpu_JSTR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Jb8_zkql6D8W18F-WTC4tmgsFpu_JSTR&sz=w640",
+          "sizeBytes": 19192088,
+          "sha256": "",
+          "durationSec": 20.0,
+          "author": "@Secondchancetomourn",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "notes": "Submitted via Telegram by @Secondchancetomourn",
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1BxMmUwbspG5rySvXLALDjgyEByLTI0Tw",
+          "iconSizeBytes": 373219,
+          "iconCodec": "hevc",
+          "iconWidth": 256,
+          "iconHeight": 256
+        },
+        {
+          "id": "var-sw-2",
+          "name": "The Great Sea Pixel Art (60fps)",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11DdfW_4zMJ8fqqMFgWz-GPva_eD0D0R6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11DdfW_4zMJ8fqqMFgWz-GPva_eD0D0R6&sz=w640",
+          "sizeBytes": 1123047,
+          "sha256": "",
+          "durationSec": 15.0,
+          "author": "MoeWalls / Wallpaper Engine",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1BxMmUwbspG5rySvXLALDjgyEByLTI0Tw",
+          "iconSizeBytes": 373219,
+          "iconCodec": "hevc",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "Pixel Animated Ocean Theme from Wallpaper Engine"
+        },
+        {
+          "id": "var-sw-3",
+          "name": "4IFIR Иконка: The Legend of Zelda: The Wind Waker HD",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BxMmUwbspG5rySvXLALDjgyEByLTI0Tw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BxMmUwbspG5rySvXLALDjgyEByLTI0Tw&sz=w256",
+          "sizeBytes": 373219,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@Secondchancetomourn / 4IFIR",
+          "codec": "hevc",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1BxMmUwbspG5rySvXLALDjgyEByLTI0Tw",
+          "iconSizeBytes": 373219,
+          "iconCodec": "hevc",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 Animated Icon (Great Sea Water Logo)"
+        }
+      ]
     }
   ],
-  "totalGames": 1853,
-  "totalVariants": 3277,
-  "lastUpdated": "2026-11-09T20:07:12.333026+00:00"
+  "totalGames": 1854,
+  "totalVariants": 3280,
+  "lastUpdated": "2026-11-09T20:47:02.168496+00:00"
 }
