@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T06:18:08.567803+00:00",
+  "updatedAt": "2026-11-09T06:19:54.959894+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -33902,6 +33902,24 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Doom Argent Tower"
+        },
+        {
+          "id": "v_b08fcc59",
+          "name": "Doom Marine Pixel",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17h654LaqtalFcmrpsp_eCF9eX_eHZ2o_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17h654LaqtalFcmrpsp_eCF9eX_eHZ2o_&sz=w640",
+          "sizeBytes": 2842254,
+          "sha256": "003CD73D1C1C63899BAA37B18CC1F188A7AA924FF5FFCE7D866E10C2C253660C",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Doom Marine Pixel"
         }
       ]
     },
@@ -60700,6 +60718,6 @@
     }
   ],
   "totalGames": 1298,
-  "totalVariants": 2696,
-  "lastUpdated": "2026-11-09T06:18:08.567803+00:00"
+  "totalVariants": 2697,
+  "lastUpdated": "2026-11-09T06:19:54.959894+00:00"
 }
