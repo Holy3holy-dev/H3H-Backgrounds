@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T05:39:07.545404+00:00",
+  "updatedAt": "2026-11-09T05:40:24.289816+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -162,6 +162,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Bowser Vs Super Mario"
+        },
+        {
+          "id": "v_1fb3416c",
+          "name": "Super Mario Rainbow Run",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15JU1wjnwCwDU5eP-73bg41kbCe5LP5F4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15JU1wjnwCwDU5eP-73bg41kbCe5LP5F4&sz=w640",
+          "sizeBytes": 6285380,
+          "sha256": "5ADEC7C0586DA9A9EB5709587B5140F8A2E7604416780F0FEA95F8A6DF2A59F0",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Super Mario Rainbow Run"
+        },
+        {
+          "id": "v_7773319d",
+          "name": "Chill Mario Pixel",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13Lu5lmszg1kQbjEB6eQ4PnbOPhBHIUL5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13Lu5lmszg1kQbjEB6eQ4PnbOPhBHIUL5&sz=w640",
+          "sizeBytes": 472220,
+          "sha256": "A17CDB9D9FE82582F72253DB3347FA6189E02642AD6D0626B30031F04E604F6A",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Chill Mario Pixel"
         }
       ]
     },
@@ -60316,6 +60352,6 @@
     }
   ],
   "totalGames": 1297,
-  "totalVariants": 2675,
-  "lastUpdated": "2026-11-09T05:39:07.545404+00:00"
+  "totalVariants": 2677,
+  "lastUpdated": "2026-11-09T05:40:24.289816+00:00"
 }
