@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T23:22:56.506472+00:00",
+  "updatedAt": "2026-11-09T23:25:42.346702+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -91228,9 +91228,269 @@
           "notes": "Switch 720p 30fps H264 | Blood will be Spilled — Blood will be Sp"
         }
       ]
+    },
+    {
+      "titleId": "01008AF01AD22000",
+      "title": "SpongeBob SquarePants the Patrick Star Game",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008AF01AD22000.jpg",
+      "variants": [
+        {
+          "id": "v_28984ef5",
+          "name": "SpongeBob SquarePants™: The Patrick Star Game — ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Wa1xH1Pz_9BXREdFOK_s-vjuiAxwD1gI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Wa1xH1Pz_9BXREdFOK_s-vjuiAxwD1gI&sz=w640",
+          "sizeBytes": 4505625,
+          "sha256": "AA8EDCA5937F2C21BBC3FD0E095910B8D486E180C601626738225F98FF46EB0C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | SpongeBob SquarePants™: The Patrick Star"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BB50156FC000",
+      "title": "Make Way",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BB50156FC000.jpg",
+      "variants": [
+        {
+          "id": "v_736c46e4",
+          "name": "Make Way — World Tour Update & Legends Pack Rele",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WytXC6OLGqDhd9OP_VHcp8LJtYKOLClo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WytXC6OLGqDhd9OP_VHcp8LJtYKOLClo&sz=w640",
+          "sizeBytes": 5350903,
+          "sha256": "F64B54BAD0352409BC7CE8F1D9D68B2604BB11619068BA07854F76D5551DE76E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Make Way — World Tour Update & Legends P"
+        }
+      ]
+    },
+    {
+      "titleId": "01007E9017BA4000",
+      "title": "ElecHead",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007E9017BA4000.jpg",
+      "variants": [
+        {
+          "id": "v_5f81cfad",
+          "name": "ElecHead — ElecHeadReleaseTrailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1u2sp3M9Ajl_MbRjnjuE89Q6Yqv915Uxt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1u2sp3M9Ajl_MbRjnjuE89Q6Yqv915Uxt&sz=w640",
+          "sizeBytes": 4607524,
+          "sha256": "AA10049BDFDF1D101B24B463EDAED35332733C35C81CAFD9A9D5CF480D02611C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | ElecHead — ElecHeadReleaseTrailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010040E00F642000",
+      "title": "Morbid the Seven Acolytes",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010040E00F642000.jpg",
+      "variants": [
+        {
+          "id": "v_0ec753e7",
+          "name": "Morbid: The Seven Acolytes — Morbid: The Seven A",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Lsc9DlrLEQHdqc3RkcVl70H-KE1DkohH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Lsc9DlrLEQHdqc3RkcVl70H-KE1DkohH&sz=w640",
+          "sizeBytes": 4753769,
+          "sha256": "342CB8761ADF9728C0E072C97F656490F53778E44C2BEB8041660179CB1D63AE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Morbid: The Seven Acolytes — Morbid: The"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DB8010DBE000",
+      "title": "Gearshifters",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DB8010DBE000.jpg",
+      "variants": [
+        {
+          "id": "v_f19f7c1c",
+          "name": "Gearshifters — Gameplay Video",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xQF0QN7h2YZjBAog9YCDP2c_HXwlg1WP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xQF0QN7h2YZjBAog9YCDP2c_HXwlg1WP&sz=w640",
+          "sizeBytes": 5585021,
+          "sha256": "D7D366E1521A3D2C3A9368FEA180EEAFF4AEDC34D7E3B1EE9608550FD8545ACB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Gearshifters — Gameplay Video"
+        }
+      ]
+    },
+    {
+      "titleId": "0100031013CB2000",
+      "title": "Endless Memories",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100031013CB2000.jpg",
+      "variants": [
+        {
+          "id": "v_8027d2ba",
+          "name": "ENDLESS™ Space 2 - Harmonic Memories — ESRB",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1INW_0ht7M_Eie3HWCluv8lHVlyd-MKp7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1INW_0ht7M_Eie3HWCluv8lHVlyd-MKp7&sz=w640",
+          "sizeBytes": 3615944,
+          "sha256": "32C111CAA677399E51CFFD8ED79EAF5496907FDA76E33212D165EEBC28E94DFA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | ENDLESS™ Space 2 - Harmonic Memories — E"
+        }
+      ]
+    },
+    {
+      "titleId": "0100307014A08000",
+      "title": "Demoniaca Everlasting Night",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100307014A08000.jpg",
+      "variants": [
+        {
+          "id": "v_90e95052",
+          "name": "Demoniaca: Everlasting Night — Open",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QwyJ37QZsOe0Qe384hL5X33AXIyX9en4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QwyJ37QZsOe0Qe384hL5X33AXIyX9en4&sz=w640",
+          "sizeBytes": 4697694,
+          "sha256": "A78574A36B3ED94F42EB278B69E626BCE99749DA679018447FB4B4757F4E49DA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Demoniaca: Everlasting Night — Open"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B970138FA000",
+      "title": "Curse of the Sea Rats",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B970138FA000.jpg",
+      "variants": [
+        {
+          "id": "v_bd1a95ef",
+          "name": "Curse of the Sea Rats — Curse of the Sea Rats - ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1sMjVAfgO9bzyPkHVdnp0Uaatj0aHwB0W",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1sMjVAfgO9bzyPkHVdnp0Uaatj0aHwB0W&sz=w640",
+          "sizeBytes": 5322733,
+          "sha256": "4F240B9E65EB21737D5E78FDBED09D333A4F5530BB2EFA4225FB8AEA44F31A9C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Curse of the Sea Rats — Curse of the Sea"
+        }
+      ]
+    },
+    {
+      "titleId": "010026A018DE2000",
+      "title": "Biomorph",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010026A018DE2000.jpg",
+      "variants": [
+        {
+          "id": "v_65ed6a8b",
+          "name": "BIOMORPH — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mZ7jR6QbKcgL0E-7Im_DSFIc7CM3PFNI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mZ7jR6QbKcgL0E-7Im_DSFIc7CM3PFNI&sz=w640",
+          "sizeBytes": 5143169,
+          "sha256": "A65B7B854CA0FB4ED1F7C7E34D205F221D0AF38A22AA14B24A81B16C9D9DBA5E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | BIOMORPH — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01004C200B0B4000",
+      "title": "Alwa's Awakening",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004C200B0B4000.jpg",
+      "variants": [
+        {
+          "id": "v_af061106",
+          "name": "Alwa's Awakening — Alwa's Awakening Launch Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12COY7omNX53TqGwIcjPkJ9D7ImaDzt3S",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12COY7omNX53TqGwIcjPkJ9D7ImaDzt3S&sz=w640",
+          "sizeBytes": 4332571,
+          "sha256": "4F039904B90886E690840385477C1F3787F5C4A4214245C10B0A9B6530C44FCB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Alwa's Awakening — Alwa's Awakening Laun"
+        }
+      ]
     }
   ],
-  "totalGames": 2453,
-  "totalVariants": 3877,
-  "lastUpdated": "2026-11-09T23:22:56.506472+00:00"
+  "totalGames": 2463,
+  "totalVariants": 3887,
+  "lastUpdated": "2026-11-09T23:25:42.346702+00:00"
 }
