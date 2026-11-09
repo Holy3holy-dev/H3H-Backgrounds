@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T06:07:44.642472+00:00",
+  "updatedAt": "2026-11-09T06:08:47.044321+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -2304,6 +2304,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Link Journey The Legend Of Zelda: Brea"
+        },
+        {
+          "id": "v_349a8a69",
+          "name": "Link Constellations The Legend Of Zelda: Brea",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1aNMObbKLGkHbl1tjuX-42xrds4-kCNBs",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1aNMObbKLGkHbl1tjuX-42xrds4-kCNBs&sz=w640",
+          "sizeBytes": 2267341,
+          "sha256": "34A9437CFE5B845E440AF2CCF53353458C31D581092661A3385A94018FA43190",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Link Constellations The Legend Of Zeld"
         }
       ]
     },
@@ -60574,6 +60592,6 @@
     }
   ],
   "totalGames": 1298,
-  "totalVariants": 2689,
-  "lastUpdated": "2026-11-09T06:07:44.642472+00:00"
+  "totalVariants": 2690,
+  "lastUpdated": "2026-11-09T06:08:47.044321+00:00"
 }
