@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T23:55:27.197616+00:00",
+  "updatedAt": "2026-11-09T23:58:19.056356+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -94088,9 +94088,269 @@
           "notes": "Switch 720p 30fps H264 | REMEDIUM: Sentinels — Launch Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100CC101E80E000",
+      "title": "Night Reverie",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CC101E80E000.jpg",
+      "variants": [
+        {
+          "id": "v_490804db",
+          "name": "Night Reverie — Night Reverie - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VAl-n9RiWSkMrYKeOqHd-Jvremp7aXQP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VAl-n9RiWSkMrYKeOqHd-Jvremp7aXQP&sz=w640",
+          "sizeBytes": 4365908,
+          "sha256": "C7464F8B396D77604C1F9392D35B3D64E14B2BF71B2C74086CF03A7D1747713F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Night Reverie — Night Reverie - Launch T"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C3300C68C000",
+      "title": "Creepy Road",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C3300C68C000.jpg",
+      "variants": [
+        {
+          "id": "v_7d691055",
+          "name": "Creepy Road — Creepy Road Announcement Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ff3QovwyYvVRIVNB9Gbb6uR8cs3pMzXE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ff3QovwyYvVRIVNB9Gbb6uR8cs3pMzXE&sz=w640",
+          "sizeBytes": 3695050,
+          "sha256": "77E1C55421412201D6B6617B09AFA7572205ABDB89D467A9688780374427E420",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Creepy Road — Creepy Road Announcement T"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FBF017D72000",
+      "title": "Mr. Prepper",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FBF017D72000.jpg",
+      "variants": [
+        {
+          "id": "v_7a42c8be",
+          "name": "Mr. Prepper — Mr. Prepper - Official Teaser 2",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Uxt1_Tl13xAsO8jY6oFqmfg4m9myjQ9g",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Uxt1_Tl13xAsO8jY6oFqmfg4m9myjQ9g&sz=w640",
+          "sizeBytes": 5428994,
+          "sha256": "80EFAACE348C4C40BF1AE99DE88C935530E841671E1212A101EAB2113C56B5FE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mr. Prepper — Mr. Prepper - Official Tea"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C3300D8C4000",
+      "title": "The Touryst",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C3300D8C4000.jpg",
+      "variants": [
+        {
+          "id": "v_99efe9d4",
+          "name": "The Touryst — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PtdkddKee_nk1yBpc43kskGSqqW9UHyq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PtdkddKee_nk1yBpc43kskGSqqW9UHyq&sz=w640",
+          "sizeBytes": 4886292,
+          "sha256": "3246247DAC2EE577327EF8B814C55251419896D482BD0B03EB3B35CBFD43ECA2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Touryst — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AD801E6F8000",
+      "title": "Trackline Express",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AD801E6F8000.jpg",
+      "variants": [
+        {
+          "id": "v_bd20c017",
+          "name": "Trackline Express — Gameplay trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Q1V9gEdRYi96aT9hb0yTD6e0-biACZIK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Q1V9gEdRYi96aT9hb0yTD6e0-biACZIK&sz=w640",
+          "sizeBytes": 5536297,
+          "sha256": "0A889AD97DDB88AEDFA96C3CD65B1F57316C21109E8C981256C9986691129560",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Trackline Express — Gameplay trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010095500D9F4000",
+      "title": "Quest Hunter",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010095500D9F4000.jpg",
+      "variants": [
+        {
+          "id": "v_a73a254b",
+          "name": "Quest Hunter — Quest Hunter - Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1r0eRuN3h5TZyIYhk-wb5tvEAV4z63qZS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1r0eRuN3h5TZyIYhk-wb5tvEAV4z63qZS&sz=w640",
+          "sizeBytes": 5310714,
+          "sha256": "57F356DB810C48F5FFF3FBBE3BFE1D5D4B0479CCB023B16E80224270EB0CCD74",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Quest Hunter — Quest Hunter - Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010080600B53E000",
+      "title": "Evil Defenders",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010080600B53E000.jpg",
+      "variants": [
+        {
+          "id": "v_8fd315e9",
+          "name": "Evil Defenders — Evil Defenders - Cinematic Trai",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QbtlUFh9KVUznZnKeqwjkYae-XGD2G3r",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QbtlUFh9KVUznZnKeqwjkYae-XGD2G3r&sz=w640",
+          "sizeBytes": 5448962,
+          "sha256": "262D775C5CACB1B98AD6967E6681321611F144D7AB9E5D280CA7A6EAEBA815F9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Evil Defenders — Evil Defenders - Cinema"
+        }
+      ]
+    },
+    {
+      "titleId": "010072601DB8C000",
+      "title": "Shadow of the Ninja Reborn",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010072601DB8C000.jpg",
+      "variants": [
+        {
+          "id": "v_4e231a63",
+          "name": "Shadow of the Ninja - Reborn — Shadow of the Nin",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13k6cURGczgYGx3s7CT8_DyfJMN9yYeDG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13k6cURGczgYGx3s7CT8_DyfJMN9yYeDG&sz=w640",
+          "sizeBytes": 3633292,
+          "sha256": "110FF65BDCA61F8EFA284F8864BF6565521ECE11F4CE2023E81CAFC205C6D463",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Shadow of the Ninja - Reborn — Shadow of"
+        }
+      ]
+    },
+    {
+      "titleId": "010032401A9B0000",
+      "title": "Ninja Kidz Time Masters",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010032401A9B0000.jpg",
+      "variants": [
+        {
+          "id": "v_92baaa9b",
+          "name": "NINJA KIDZ: TIME MASTERS — Trailer EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Vb7AUWNvr5ICDpBxA1m8sOIRGP1rerMc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Vb7AUWNvr5ICDpBxA1m8sOIRGP1rerMc&sz=w640",
+          "sizeBytes": 5444768,
+          "sha256": "697D49CD894232FE345545B989B51D67DB0F606BFFBECCBC9DE1D1CDFAF5D6C2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | NINJA KIDZ: TIME MASTERS — Trailer EN"
+        }
+      ]
+    },
+    {
+      "titleId": "0100001017216000",
+      "title": "Labyrinth of Galleria: The Moon Society",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100001017216000.jpg",
+      "variants": [
+        {
+          "id": "v_d9d79534",
+          "name": "Labyrinth of Galleria: The Moon Society — Labyri",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BPZR1S8MAVzx3ZQ2Qm3OOGp0jTSzSlnd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BPZR1S8MAVzx3ZQ2Qm3OOGp0jTSzSlnd&sz=w640",
+          "sizeBytes": 4924936,
+          "sha256": "3F952054BFD3C9147E3DF1B03903E513A203DC4BB56251940E40481F01D09EFC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Labyrinth of Galleria: The Moon Society "
+        }
+      ]
     }
   ],
-  "totalGames": 2563,
-  "totalVariants": 3987,
-  "lastUpdated": "2026-11-09T23:55:27.197616+00:00"
+  "totalGames": 2573,
+  "totalVariants": 3997,
+  "lastUpdated": "2026-11-09T23:58:19.056356+00:00"
 }
