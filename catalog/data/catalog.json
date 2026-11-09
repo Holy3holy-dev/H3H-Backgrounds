@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T20:48:58.576856+00:00",
+  "updatedAt": "2026-11-09T20:52:02.141190+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -78228,9 +78228,269 @@
           "notes": "Switch 720p 30fps H264 | Before I Go — Launch Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100FA801DB0A000",
+      "title": "Paranormasight: The Seven Mysteries of Honjo",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FA801DB0A000.jpg",
+      "variants": [
+        {
+          "id": "v_fafc9e10",
+          "name": "PARANORMASIGHT: The Seven Mysteries of Honjo — E",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1y0ni97imo-4KPv1iD-AGLO0th7jYRczW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1y0ni97imo-4KPv1iD-AGLO0th7jYRczW&sz=w640",
+          "sizeBytes": 5553666,
+          "sha256": "EF3FF7237F2436A00D014680190C38039855862A6DF1BDAF6BE6906B2D3F3622",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | PARANORMASIGHT: The Seven Mysteries of H"
+        }
+      ]
+    },
+    {
+      "titleId": "010016F025208000",
+      "title": "Arashi Gaiden",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010016F025208000.jpg",
+      "variants": [
+        {
+          "id": "v_9cacc8fc",
+          "name": "Arashi Gaiden — Arashi Gaiden | Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XFy2iC2CZXNatfqWkzuoXZEVpyWogdsQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XFy2iC2CZXNatfqWkzuoXZEVpyWogdsQ&sz=w640",
+          "sizeBytes": 5557094,
+          "sha256": "DB4FFC898FE6D98A37E8F7276967C8AB866B6A60A358D7357CCBB9F9D1DF7A2B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Arashi Gaiden — Arashi Gaiden | Launch T"
+        }
+      ]
+    },
+    {
+      "titleId": "010027100C79A000",
+      "title": "Rune Factory 4 Special",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010027100C79A000.jpg",
+      "variants": [
+        {
+          "id": "v_1f5f8ae3",
+          "name": "Rune Factory 4 Special — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PtRHZGv_xblLQJF6wGJo1UcaNT6xNIW-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PtRHZGv_xblLQJF6wGJo1UcaNT6xNIW-&sz=w640",
+          "sizeBytes": 4479479,
+          "sha256": "BA04631A33C0A7CBC4FC389DAA8BA2EEB6733559786A8BB49AC100739D318B6C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rune Factory 4 Special — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010081C0191D8000",
+      "title": "Rune Factory 3 Special",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010081C0191D8000.jpg",
+      "variants": [
+        {
+          "id": "v_4e50457e",
+          "name": "Rune Factory 3 Special — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1q9v-PSc5iXnorkePat0hMq7mttVTpXYY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1q9v-PSc5iXnorkePat0hMq7mttVTpXYY&sz=w640",
+          "sizeBytes": 4216833,
+          "sha256": "7DCA58089303BD11D19C7574542F49073B862FDB620F1C763083ABAF50267C1C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rune Factory 3 Special — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01006F401FFF4000",
+      "title": "Shadow of the Ninja Reborn",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006F401FFF4000.jpg",
+      "variants": [
+        {
+          "id": "v_79718dd3",
+          "name": "Shadow of the Ninja - Reborn — Shadow of the Nin",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ke4xUQDL03rSDUROdBt48uF9IXUjZgx7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ke4xUQDL03rSDUROdBt48uF9IXUjZgx7&sz=w640",
+          "sizeBytes": 3633292,
+          "sha256": "110FF65BDCA61F8EFA284F8864BF6565521ECE11F4CE2023E81CAFC205C6D463",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Shadow of the Ninja - Reborn — Shadow of"
+        }
+      ]
+    },
+    {
+      "titleId": "01009C6026008000",
+      "title": "Deathbulge Battle of the Bands",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009C6026008000.jpg",
+      "variants": [
+        {
+          "id": "v_3c80828d",
+          "name": "Deathbulge: Battle of the Bands — Deathbulge: Ba",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wBPB1Hnxx7n2Ql06h8di_x2f15_Qmby_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wBPB1Hnxx7n2Ql06h8di_x2f15_Qmby_&sz=w640",
+          "sizeBytes": 5510888,
+          "sha256": "9D57A8EA5A4CA5A3F4AEB6FCA5BF3066BDE24BC42289B839DBA3C4164347DF17",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Deathbulge: Battle of the Bands — Deathb"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AE67E377F000",
+      "title": "Clarity the Seven Demons of Vanguardia",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AE67E377F000.jpg",
+      "variants": [
+        {
+          "id": "v_705e9ac1",
+          "name": "Clarity: The Seven Demons of Vanguardia — Steam ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wszqC_PD7oV9zQ2E7regtQ_fVrNC-WX_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wszqC_PD7oV9zQ2E7regtQ_fVrNC-WX_&sz=w640",
+          "sizeBytes": 4857869,
+          "sha256": "7D00332C88DAB0806AEF9681414E7EF7904225CDA36325AE2AB57D1A6222BB0D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Clarity: The Seven Demons of Vanguardia "
+        }
+      ]
+    },
+    {
+      "titleId": "010032702667A000",
+      "title": "Kabuto Park",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010032702667A000.jpg",
+      "variants": [
+        {
+          "id": "v_f34bf19b",
+          "name": "Kabuto Park — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1f9Sp0hCXxtm2uEdodVO61n8hC0-jweJU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1f9Sp0hCXxtm2uEdodVO61n8hC0-jweJU&sz=w640",
+          "sizeBytes": 5470113,
+          "sha256": "CFB160E62FAA5AA82C5A35C4BCBE966D71BA2B93D3ABB564C5590DB5E3A81997",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kabuto Park — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C5D01281E000",
+      "title": "Wagamama High Spec",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C5D01281E000.jpg",
+      "variants": [
+        {
+          "id": "v_551e3021",
+          "name": "WAGAMAMA HIGH SPEC — PV",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yY6qtjIFlf50KlHxfwRD-LKkFG80L35s",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yY6qtjIFlf50KlHxfwRD-LKkFG80L35s&sz=w640",
+          "sizeBytes": 2739955,
+          "sha256": "E6D2CCE4696C705A6DE299A1BBF2D06BDF19227BD9EB2F640ABB6A718540C158",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | WAGAMAMA HIGH SPEC — PV"
+        }
+      ]
+    },
+    {
+      "titleId": "0100043021472000",
+      "title": "Esophaguys",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100043021472000.jpg",
+      "variants": [
+        {
+          "id": "v_20e6cc40",
+          "name": "Esophaguys — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1sa2mwMovp5iz5nOV-0wcTUQZvVTDeShg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1sa2mwMovp5iz5nOV-0wcTUQZvVTDeShg&sz=w640",
+          "sizeBytes": 5238814,
+          "sha256": "1BA75F8BCAB49A9E27A47F92367F3F511602E757EFF2CF513823F7AB6E09B436",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Esophaguys — Gameplay Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 1953,
-  "totalVariants": 3377,
-  "lastUpdated": "2026-11-09T20:48:58.576856+00:00"
+  "totalGames": 1963,
+  "totalVariants": 3387,
+  "lastUpdated": "2026-11-09T20:52:02.141190+00:00"
 }
