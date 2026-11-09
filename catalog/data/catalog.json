@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T21:30:31.320170+00:00",
+  "updatedAt": "2026-11-09T21:33:33.473324+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -81608,9 +81608,269 @@
           "notes": "Switch 720p 30fps H264 | Path of Giants — Cinematic Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100CAC01C2E4000",
+      "title": "Mighty Morphin Power Rangers Rita's Rewind",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CAC01C2E4000.jpg",
+      "variants": [
+        {
+          "id": "v_5ebefaf2",
+          "name": "Mighty Morphin Power Rangers: Rita's Rewind — Mi",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eN6QjVoRt3pRNTPr-C025zo2gF1a_q3C",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eN6QjVoRt3pRNTPr-C025zo2gF1a_q3C&sz=w640",
+          "sizeBytes": 4986188,
+          "sha256": "EFE6C4BCDA42429BC850038808ADD39266DA9A45B69E8A73D5172DF2941AA1A1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mighty Morphin Power Rangers: Rita's Rew"
+        }
+      ]
+    },
+    {
+      "titleId": "010042500FABA000",
+      "title": "Ritual Crown of Horns",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010042500FABA000.jpg",
+      "variants": [
+        {
+          "id": "v_672641a9",
+          "name": "Ritual: Crown of Horns — Ritual: Crown of Horns ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Gm4UfaMM0XNNkcPpAnAvzGW0xFfkjebC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Gm4UfaMM0XNNkcPpAnAvzGW0xFfkjebC&sz=w640",
+          "sizeBytes": 5368136,
+          "sha256": "D3F86B62266367E108880B80B9BE9F990C76DEA626C6B87F01DD0377C7BBAE0C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ritual: Crown of Horns — Ritual: Crown o"
+        }
+      ]
+    },
+    {
+      "titleId": "010038B012EFE000",
+      "title": "Trash Sailors",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010038B012EFE000.jpg",
+      "variants": [
+        {
+          "id": "v_e1325200",
+          "name": "Trash Sailors: Co-Op Trash Raft Simulator — Rele",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QkogfkA8mKkKe6OBIuwF2kDi9AXloTlK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QkogfkA8mKkKe6OBIuwF2kDi9AXloTlK&sz=w640",
+          "sizeBytes": 5135764,
+          "sha256": "BB3F2F201E462FE190EE17A283CDECD3AB4064B654E69C57A16873E53FC7E9C8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Trash Sailors: Co-Op Trash Raft Simulato"
+        }
+      ]
+    },
+    {
+      "titleId": "010082A019CF2000",
+      "title": "Swordbreaker the Game",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010082A019CF2000.jpg",
+      "variants": [
+        {
+          "id": "v_c466ffd8",
+          "name": "Swordbreaker The Game — Swordbreaker The Game эп",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tGwF4o9XtZqHaHYNOs2xtreZC9I8efXF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tGwF4o9XtZqHaHYNOs2xtreZC9I8efXF&sz=w640",
+          "sizeBytes": 5148602,
+          "sha256": "2F973D2A82E9017B317859AF8F3884C40C52992E2A947749F35E819AEAAF180F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Swordbreaker The Game — Swordbreaker The"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AF00185F2000",
+      "title": "RWBY Arrowfell",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AF00185F2000.jpg",
+      "variants": [
+        {
+          "id": "v_6cbc0f33",
+          "name": "RWBY: Arrowfell — Team RWBY",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wpi8S0r4IAcALBWW9OnQEhh72e3OeUi1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wpi8S0r4IAcALBWW9OnQEhh72e3OeUi1&sz=w640",
+          "sizeBytes": 5111795,
+          "sha256": "3736E1E756F28D11F7A95876C59B792E2B62331CF81460D16AEE70C097239834",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | RWBY: Arrowfell — Team RWBY"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C2000F468000",
+      "title": "Wintermoor Tactics Club",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C2000F468000.jpg",
+      "variants": [
+        {
+          "id": "v_58aadb6d",
+          "name": "Wintermoor Tactics Club — Wintermoor Tactics Clu",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Bm07qEnPX9GPNS9fIBI_FC_BT8MocYWc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Bm07qEnPX9GPNS9fIBI_FC_BT8MocYWc&sz=w640",
+          "sizeBytes": 5387144,
+          "sha256": "D2405F75ACF045577D6B11496CB46F1D0A266F81D00F7B1BE283B977A96C9086",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wintermoor Tactics Club — Wintermoor Tac"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C040270B6000",
+      "title": "Avilion Forever",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C040270B6000.jpg",
+      "variants": [
+        {
+          "id": "v_b330cdd6",
+          "name": "AVILION forever — 公開後動画",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10pFaY-wOEheaJLrnRz9zFTY_HNhp8nqU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10pFaY-wOEheaJLrnRz9zFTY_HNhp8nqU&sz=w640",
+          "sizeBytes": 5390670,
+          "sha256": "CB0BBD3D204B7C403A1EF5BDB4F96051ABD5D371C2FCA92CCE579EBDC6F7FD0A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | AVILION forever — 公開後動画"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A4E00F670000",
+      "title": "Barony",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A4E00F670000.jpg",
+      "variants": [
+        {
+          "id": "v_72a74ccc",
+          "name": "Barony — Quality of Death Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RLsl-l_CT6P42Dzf9aDUu9sXZfInmN-L",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RLsl-l_CT6P42Dzf9aDUu9sXZfInmN-L&sz=w640",
+          "sizeBytes": 5435105,
+          "sha256": "044872A2216B68E25AFD069A0777735788C81DED68067DAC2984D29C39D861BA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Barony — Quality of Death Release Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "0100760020BBA000",
+      "title": "Everybody's Golf Hot Shots",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100760020BBA000.jpg",
+      "variants": [
+        {
+          "id": "v_8cd2275c",
+          "name": "EVERYBODY'S GOLF HOT SHOTS — EVERYBODY’S GOLF HO",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Kvb9ADTIAQK6NX4zILM96p5zYBG9RS1H",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Kvb9ADTIAQK6NX4zILM96p5zYBG9RS1H&sz=w640",
+          "sizeBytes": 5270450,
+          "sha256": "59AB1BE32E6BF73BDEA034AA799716C5D7BC4338CD34AA0932089BED03BEB8CC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | EVERYBODY'S GOLF HOT SHOTS — EVERYBODY’S"
+        }
+      ]
+    },
+    {
+      "titleId": "010063901024A000",
+      "title": "Projection First Light",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010063901024A000.jpg",
+      "variants": [
+        {
+          "id": "v_82424e86",
+          "name": "Projection: First Light — Announcement",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nEwoMvXtqWK0ztJqP6Zwbm0x0H_Bw-_3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nEwoMvXtqWK0ztJqP6Zwbm0x0H_Bw-_3&sz=w640",
+          "sizeBytes": 5130104,
+          "sha256": "588E97E7807D833CA1C23665C042D19F93CA1FE41C4A2FF694D1A8A931AEE33B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Projection: First Light — Announcement"
+        }
+      ]
     }
   ],
-  "totalGames": 2083,
-  "totalVariants": 3507,
-  "lastUpdated": "2026-11-09T21:30:31.320170+00:00"
+  "totalGames": 2093,
+  "totalVariants": 3517,
+  "lastUpdated": "2026-11-09T21:33:33.473324+00:00"
 }
