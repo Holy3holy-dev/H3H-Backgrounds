@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T21:33:33.473324+00:00",
+  "updatedAt": "2026-11-09T21:36:30.718826+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -81868,9 +81868,269 @@
           "notes": "Switch 720p 30fps H264 | Projection: First Light — Announcement"
         }
       ]
+    },
+    {
+      "titleId": "0100E390155E4000",
+      "title": "Haven Park",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E390155E4000.jpg",
+      "variants": [
+        {
+          "id": "v_b0602a9d",
+          "name": "Haven Park — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1orq_OiY14lwsNpYdVMMTBbj-mUbxFt6R",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1orq_OiY14lwsNpYdVMMTBbj-mUbxFt6R&sz=w640",
+          "sizeBytes": 5465637,
+          "sha256": "53F63691BB733B480016714BB4ABA763814948B4B033F57D633AE8C76B5D28FE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Haven Park — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01005450178B0000",
+      "title": "HammerHelm",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005450178B0000.jpg",
+      "variants": [
+        {
+          "id": "v_0eea425d",
+          "name": "HammerHelm — HammerHelm - Update Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VzPtaaggwWjz9Dd70wLrAjJuA0p6kFNz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VzPtaaggwWjz9Dd70wLrAjJuA0p6kFNz&sz=w640",
+          "sizeBytes": 5216723,
+          "sha256": "8A830BFB94BF8E7095472A3029849047CC7317508C7D2F0A7F480E6A73231E20",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | HammerHelm — HammerHelm - Update Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010038C00EC34000",
+      "title": "Under Night In-birth Exe Late Cl-r",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010038C00EC34000.jpg",
+      "variants": [
+        {
+          "id": "v_bdaf29a8",
+          "name": "UNDER NIGHT IN-BIRTH Exe:Late[cl-r] — UNDER NIGH",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_9AvtaD9StHiyM_dWxbCB0hkSl3Rw3Ub",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_9AvtaD9StHiyM_dWxbCB0hkSl3Rw3Ub&sz=w640",
+          "sizeBytes": 5441672,
+          "sha256": "5C4B587897B39271BE911EB7E18585F78B8FCD5E5F35BF5960E6E6F84D6150A7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | UNDER NIGHT IN-BIRTH Exe:Late[cl-r] — UN"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BD401D18A000",
+      "title": "Under Night In-birth II Sys Celes",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BD401D18A000.jpg",
+      "variants": [
+        {
+          "id": "v_1e88aa4e",
+          "name": "UNDER NIGHT IN-BIRTH II Sys:Celes — AWT25_26 Tra",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1e7X6_JP2zhBMmQkLQoFM7yJaqIGPUMlp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1e7X6_JP2zhBMmQkLQoFM7yJaqIGPUMlp&sz=w640",
+          "sizeBytes": 5378887,
+          "sha256": "D483C32D10DAB65EF9DA15B1579DB8AD0B0F6DEA95A3ECC7424BC64B104BA95A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | UNDER NIGHT IN-BIRTH II Sys:Celes — AWT2"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AEC013DDA000",
+      "title": "Death End re Quest 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AEC013DDA000.jpg",
+      "variants": [
+        {
+          "id": "v_a97b13ce",
+          "name": "Death end re;Quest 2 — Death end re;Quest 2 Game",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1K8Ih78E-51GqiuBr07p8J_OuiccPXBLC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1K8Ih78E-51GqiuBr07p8J_OuiccPXBLC&sz=w640",
+          "sizeBytes": 4941173,
+          "sha256": "7517701A1FFB060D94B3DA05334952432F753DEB3023529617B27268CBA786B9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Death end re;Quest 2 — Death end re;Ques"
+        }
+      ]
+    },
+    {
+      "titleId": "0100808018268000",
+      "title": "I Was a Teenage Exocolonist",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100808018268000.jpg",
+      "variants": [
+        {
+          "id": "v_a3e07a6f",
+          "name": "I Was a Teenage Exocolonist — Announcement Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BSm7MHahdpLzEndVv6XjeIvzjPaAw_vU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BSm7MHahdpLzEndVv6XjeIvzjPaAw_vU&sz=w640",
+          "sizeBytes": 4806232,
+          "sha256": "927E52E92464547AEB5BC5B2936D207372FB7D8F107454E8EB3CEBE3D5ECEF8E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | I Was a Teenage Exocolonist — Announceme"
+        }
+      ]
+    },
+    {
+      "titleId": "010004201A794000",
+      "title": "The Murder Hotel",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010004201A794000.jpg",
+      "variants": [
+        {
+          "id": "v_233f884f",
+          "name": "The Murder Hotel — The Murder Hotel - Final Trai",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ox8HD9kYxG3EqNv1FjWx8ysrznTxLQ9e",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ox8HD9kYxG3EqNv1FjWx8ysrznTxLQ9e&sz=w640",
+          "sizeBytes": 3972168,
+          "sha256": "8A5E9FF198B172551E0179FA6D3019C45AE5247A1DAA808631A6D4BB31877AF7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Murder Hotel — The Murder Hotel - Fi"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D7C021496000",
+      "title": "Twilight Monk",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D7C021496000.jpg",
+      "variants": [
+        {
+          "id": "v_e9e4a37d",
+          "name": "Twilight Monk — Release Trailer EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13IkHELBu6jQrtdBuvRY30rUcb1WIwvSW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13IkHELBu6jQrtdBuvRY30rUcb1WIwvSW&sz=w640",
+          "sizeBytes": 5595409,
+          "sha256": "181127A37071BAA594FC31D94F90D9AE7CE32A356FE369F67805862A28DCA465",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Twilight Monk — Release Trailer EN"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F26023848000",
+      "title": "The Perfect Pencil",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F26023848000.jpg",
+      "variants": [
+        {
+          "id": "v_0fe8dfb1",
+          "name": "The Perfect Pencil — Gameplay trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xizhXlyBSiz74-x7GLIhdjS6Xf7wCqO7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xizhXlyBSiz74-x7GLIhdjS6Xf7wCqO7&sz=w640",
+          "sizeBytes": 5222867,
+          "sha256": "4750A8A5188DB01FC2D68B14A41855D5A9288EB6EA4C9C48450C37996C34CA60",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Perfect Pencil — Gameplay trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A840047C2000",
+      "title": "12 orbits",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A840047C2000.jpg",
+      "variants": [
+        {
+          "id": "v_a472e095",
+          "name": "12 orbits — 12 orbits ◦ Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RcohMYZaT5m2ryFME0SQOkrK1CLCbXu5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RcohMYZaT5m2ryFME0SQOkrK1CLCbXu5&sz=w640",
+          "sizeBytes": 5175178,
+          "sha256": "E7586A1075F46D28B5251ACDF767CE35BC8E178902882CEC86EA884F2E008836",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 12 orbits — 12 orbits ◦ Gameplay Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 2093,
-  "totalVariants": 3517,
-  "lastUpdated": "2026-11-09T21:33:33.473324+00:00"
+  "totalGames": 2103,
+  "totalVariants": 3527,
+  "lastUpdated": "2026-11-09T21:36:30.718826+00:00"
 }
