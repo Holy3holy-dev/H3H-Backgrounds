@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T23:43:31.141153+00:00",
+  "updatedAt": "2026-11-09T23:46:32.212476+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -93048,9 +93048,269 @@
           "notes": "Switch 720p 30fps H264 | LUMINES REMASTERED — LUMINES REMASTERED "
         }
       ]
+    },
+    {
+      "titleId": "0100E82015112000",
+      "title": "Super Impossible Road",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E82015112000.jpg",
+      "variants": [
+        {
+          "id": "v_930606aa",
+          "name": "Super Impossible Road — Super Impossible Road La",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Z_HNoFg3pXh9cJahYxfWc1dyfw84qQ8-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Z_HNoFg3pXh9cJahYxfWc1dyfw84qQ8-&sz=w640",
+          "sizeBytes": 5443387,
+          "sha256": "5AE497E56775B6F454A7C7F11F708D12936A7BCAF905640A32B456A5EB01A138",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Super Impossible Road — Super Impossible"
+        }
+      ]
+    },
+    {
+      "titleId": "01005F80166FA000",
+      "title": "Senren Banka",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005F80166FA000.jpg",
+      "variants": [
+        {
+          "id": "v_1aeb51fa",
+          "name": "Senren＊Banka — OPEN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1esBXt_VRw3tQ4xJQMxyMmPIYtGrCG43F",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1esBXt_VRw3tQ4xJQMxyMmPIYtGrCG43F&sz=w640",
+          "sizeBytes": 4937196,
+          "sha256": "BDF009C17BF956E5DF88E1AF040BB5E76B4735F87CDE14B1A6120B14C998A8D3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Senren＊Banka — OPEN"
+        }
+      ]
+    },
+    {
+      "titleId": "01004220240B9000",
+      "title": "Simon the Sorcerer Origins",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004220240B9000.jpg",
+      "variants": [
+        {
+          "id": "v_2e0fc307",
+          "name": "Simon the Sorcerer Origins — Simon the Sorcerer ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1x9gEiOLYf1lA7dRzbXnsEizGUAv5QM6j",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1x9gEiOLYf1lA7dRzbXnsEizGUAv5QM6j&sz=w640",
+          "sizeBytes": 5318706,
+          "sha256": "9C421711F67665B8FDB4739A44BE9DE40D1CC895FDE333797E632DAB0A2C0CA3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Simon the Sorcerer Origins — Simon the S"
+        }
+      ]
+    },
+    {
+      "titleId": "01002A900EE8A000",
+      "title": "Robotics Notes Elite",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002A900EE8A000.jpg",
+      "variants": [
+        {
+          "id": "v_8ddf30af",
+          "name": "ROBOTICS;NOTES ELITE — Release Trailer (RNED)",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-A0DcLFaDi0MDysgDikj6JAbAhy_LXYz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-A0DcLFaDi0MDysgDikj6JAbAhy_LXYz&sz=w640",
+          "sizeBytes": 5118301,
+          "sha256": "EB597D18CC20977EB0295E3DC8C77FC7B626FB8468114342D7501F29275A16EE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | ROBOTICS;NOTES ELITE — Release Trailer ("
+        }
+      ]
+    },
+    {
+      "titleId": "01003C900EFF6000",
+      "title": "Devil Slayer Raksasi",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003C900EFF6000.jpg",
+      "variants": [
+        {
+          "id": "v_fc1cb758",
+          "name": "Devil Slayer - Raksasi 2 — Raksasi2 Trailer v2",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wEKU5XdmLNa2RmPXOVpEoTdBpheMhkS1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wEKU5XdmLNa2RmPXOVpEoTdBpheMhkS1&sz=w640",
+          "sizeBytes": 3718636,
+          "sha256": "1E22C2B009200EFBD40EA62DE9A8BE5AE7316C32EC7E1A7639AE83AD320F542B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Devil Slayer - Raksasi 2 — Raksasi2 Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "01000D001FF18000",
+      "title": "Yu-Gi-Oh! Early Days Collection",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000D001FF18000.jpg",
+      "variants": [
+        {
+          "id": "v_34567a8f",
+          "name": "Yu-Gi-Oh! EARLY DAYS COLLECTION — Yu-Gi-Oh! EARL",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1F3Tn8jLr7_o8HpruUm5c6tUOUhOdF13P",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1F3Tn8jLr7_o8HpruUm5c6tUOUhOdF13P&sz=w640",
+          "sizeBytes": 4616650,
+          "sha256": "5424D4FE0B24CADD4110DBE40E1B773F70C7DBD199E0249AA644E9E5B33F51F3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Yu-Gi-Oh! EARLY DAYS COLLECTION — Yu-Gi-"
+        }
+      ]
+    },
+    {
+      "titleId": "01006F100EB16000",
+      "title": "Woven",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006F100EB16000.jpg",
+      "variants": [
+        {
+          "id": "v_86fca8dd",
+          "name": "Woven Horizons — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12OmjejjRyGxHo2IVpNw6-iSQFfUD0K9L",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12OmjejjRyGxHo2IVpNw6-iSQFfUD0K9L&sz=w640",
+          "sizeBytes": 4809969,
+          "sha256": "C85C1A4DAA95C08A655ACD833B930C55AA119F5E7E95DDD6B530BF74D6E684F3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Woven Horizons — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BF40199F0000",
+      "title": "Pupperazzi",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BF40199F0000.jpg",
+      "variants": [
+        {
+          "id": "v_81bac007",
+          "name": "Pupperazzi: The Dog Photography Game — Pupperazz",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11phKrrGPfQ2PO59Sy2RjQglqsri-IF-a",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11phKrrGPfQ2PO59Sy2RjQglqsri-IF-a&sz=w640",
+          "sizeBytes": 5191001,
+          "sha256": "0BD1B5D730F9662CEB570D5464C767EF3B68E0CB53103F08E0447888418F4D62",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Pupperazzi: The Dog Photography Game — P"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C6C01C6F0000",
+      "title": "Cat's Cosmic Atlas",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C6C01C6F0000.jpg",
+      "variants": [
+        {
+          "id": "v_1fd5ad2c",
+          "name": "Cat's Cosmic Atlas — Cat's Cosmic Atlas Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WlD7k2M0FFsYvvv3DDqe18cuArdSdFRH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WlD7k2M0FFsYvvv3DDqe18cuArdSdFRH&sz=w640",
+          "sizeBytes": 5408458,
+          "sha256": "6C4BCF74D98BB885EEE1574C3CDF060B85BD7FE052F0B4DB7925F3BA0C762893",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cat's Cosmic Atlas — Cat's Cosmic Atlas "
+        }
+      ]
+    },
+    {
+      "titleId": "0100EBC019652000",
+      "title": "Crystal Goddess",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EBC019652000.jpg",
+      "variants": [
+        {
+          "id": "v_c2216c81",
+          "name": "Crystal Goddess — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1B2McbtZ07pY12r6IEwdCx3_J0py9e_io",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1B2McbtZ07pY12r6IEwdCx3_J0py9e_io&sz=w640",
+          "sizeBytes": 5280060,
+          "sha256": "C605051459C28A3F4AEC78052CC1890CE31868A0B04BB05D31C18B8ACD034CF1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Crystal Goddess — Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 2523,
-  "totalVariants": 3947,
-  "lastUpdated": "2026-11-09T23:43:31.141153+00:00"
+  "totalGames": 2533,
+  "totalVariants": 3957,
+  "lastUpdated": "2026-11-09T23:46:32.212476+00:00"
 }
