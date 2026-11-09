@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T05:37:38.729985+00:00",
+  "updatedAt": "2026-11-09T05:39:07.545404+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -2196,6 +2196,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Link And Zelda Legend Of Zelda: Breath"
+        },
+        {
+          "id": "v_b45dd123",
+          "name": "Link Journey The Legend Of Zelda: Breath Of T",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qMNAs_vXOHJF5F48XHzj7BZY496lXyH9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qMNAs_vXOHJF5F48XHzj7BZY496lXyH9&sz=w640",
+          "sizeBytes": 1386182,
+          "sha256": "87BA614AEAA86E1D5C6BA66792CB10ABCF7A4C6C83404A85AEE8637D023E7F1B",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Link Journey The Legend Of Zelda: Brea"
         }
       ]
     },
@@ -60298,6 +60316,6 @@
     }
   ],
   "totalGames": 1297,
-  "totalVariants": 2674,
-  "lastUpdated": "2026-11-09T05:37:38.729985+00:00"
+  "totalVariants": 2675,
+  "lastUpdated": "2026-11-09T05:39:07.545404+00:00"
 }
