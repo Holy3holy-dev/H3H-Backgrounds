@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T21:19:00.569857+00:00",
+  "updatedAt": "2026-11-09T21:21:56.585424+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -80828,9 +80828,269 @@
           "notes": "Switch 720p 30fps H264 | Berzerk Flashback — intro"
         }
       ]
+    },
+    {
+      "titleId": "0100A6901967E000",
+      "title": "Sven Completely Screwed",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A6901967E000.jpg",
+      "variants": [
+        {
+          "id": "v_6c57fae1",
+          "name": "Sven - Completely Screwed — ReleaseTrailerEN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QpxtmnU5-w0OWf-ubBBOIBiDtRkJvS8k",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QpxtmnU5-w0OWf-ubBBOIBiDtRkJvS8k&sz=w640",
+          "sizeBytes": 4554530,
+          "sha256": "8F230F329E0E9B77133FD7587F1F58697CD9BD9B3F93A36724C213371C6A6D72",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sven - Completely Screwed — ReleaseTrail"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BE800E6D8000",
+      "title": "Demon's Tilt",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BE800E6D8000.jpg",
+      "variants": [
+        {
+          "id": "v_684e5129",
+          "name": "DEMON'S TILT — Post Launch",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1uojKQXYEH0tHFZ9-DX2JGsjBPyw4Jb8o",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1uojKQXYEH0tHFZ9-DX2JGsjBPyw4Jb8o&sz=w640",
+          "sizeBytes": 5541726,
+          "sha256": "947D16F170AE8D2D97592DDC392F121E6D69A9E6B5C3EA320C1094F13B21F4CA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | DEMON'S TILT — Post Launch"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C3E00D68E000",
+      "title": "Deep Sky Derelicts",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C3E00D68E000.jpg",
+      "variants": [
+        {
+          "id": "v_cd97d414",
+          "name": "Deep Sky Derelicts — Release Launch Trailer Engl",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1j2U8MCSxdOgtMR4kCITwwLsTdqiPyTXo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1j2U8MCSxdOgtMR4kCITwwLsTdqiPyTXo&sz=w640",
+          "sizeBytes": 5464601,
+          "sha256": "D95442EAD8274778658D6ABE71EE726CAB423E87E3750E94F931481E9175C936",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Deep Sky Derelicts — Release Launch Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "0100052004384000",
+      "title": "Axiom Verge",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100052004384000.jpg",
+      "variants": [
+        {
+          "id": "v_7632847c",
+          "name": "Axiom Verge — Release Date Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DP_enfmDqIlR2QEsFwf3TP0oYvKzXefJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DP_enfmDqIlR2QEsFwf3TP0oYvKzXefJ&sz=w640",
+          "sizeBytes": 4011988,
+          "sha256": "17B1A0A378DDC606A7CC7A44E8586285AC0AAFAD0906B37DFE93AE47FA2E870E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Axiom Verge — Release Date Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01000E000DD40000",
+      "title": "Vambrace Cold Soul",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000E000DD40000.jpg",
+      "variants": [
+        {
+          "id": "v_630f14bb",
+          "name": "Vambrace: Cold Soul — Vambrace: Cold Soul - Laun",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zlKYbnegoubkH3PXb6Af3E1vJaPjvYKL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zlKYbnegoubkH3PXb6Af3E1vJaPjvYKL&sz=w640",
+          "sizeBytes": 4279701,
+          "sha256": "ED9658D439F05CDD1EBA59DE0C6B77CBB03E279E3B7CDEA4523C76FA7D782332",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Vambrace: Cold Soul — Vambrace: Cold Sou"
+        }
+      ]
+    },
+    {
+      "titleId": "01007BE01FCC2000",
+      "title": "Achilles Legends Untold",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007BE01FCC2000.jpg",
+      "variants": [
+        {
+          "id": "v_34e2eb33",
+          "name": "Achilles: Legends Untold — Achilles: Legends Unt",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jM04NUYPT8ScvztCWEzRn3kxT-i_opy0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jM04NUYPT8ScvztCWEzRn3kxT-i_opy0&sz=w640",
+          "sizeBytes": 5241529,
+          "sha256": "6D42E2FB687C7BE6607F5B847BE818CA3C5647D4B6D8296FAB28C97F7652CEEE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Achilles: Legends Untold — Achilles: Leg"
+        }
+      ]
+    },
+    {
+      "titleId": "010069B00D9FE000",
+      "title": "Wonder Boy Returns remix",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010069B00D9FE000.jpg",
+      "variants": [
+        {
+          "id": "v_2497b712",
+          "name": "Wonder Boy Returns Remix — WonderBoy_T_2",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1uWC0_wk6r790TXW2xl-Keq3TZiR_-eMx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1uWC0_wk6r790TXW2xl-Keq3TZiR_-eMx&sz=w640",
+          "sizeBytes": 4796871,
+          "sha256": "148036CA724BB052F4054E6AD363235814CCE36510FFBDF41435AC3CADAAEB92",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wonder Boy Returns Remix — WonderBoy_T_2"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E2201D1FC000",
+      "title": "Cricket Through the Ages",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E2201D1FC000.jpg",
+      "variants": [
+        {
+          "id": "v_35d34fdf",
+          "name": "Cricket Through the Ages — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KFL6EsruRSUgpKYZcDUNi97NpBER6GeE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KFL6EsruRSUgpKYZcDUNi97NpBER6GeE&sz=w640",
+          "sizeBytes": 5280601,
+          "sha256": "2804F8056B7692F503014F4432C9BC2701E9D3C19532F53E1D1129429BDBC8A3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cricket Through the Ages — Gameplay Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "010010901AFB0000",
+      "title": "The Walking Dead Destinies",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010010901AFB0000.jpg",
+      "variants": [
+        {
+          "id": "v_4faf05c8",
+          "name": "The Walking Dead: Destinies — Launch Trailer - A",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NbuJXmSpMy4JK1VpO_Xll1QtK-7N4IjW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NbuJXmSpMy4JK1VpO_Xll1QtK-7N4IjW&sz=w640",
+          "sizeBytes": 5142086,
+          "sha256": "38F68837562660DD5E61047B2788236E221E6F4B5A32F144A9CE32AC0DD0A379",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Walking Dead: Destinies — Launch Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "0100890024498000",
+      "title": "Monster Crown",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100890024498000.jpg",
+      "variants": [
+        {
+          "id": "v_bd3fee91",
+          "name": "Monster Crown — Monster Crown - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ewo7zxwotQTnf3am22PWb616RgPE7wP3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ewo7zxwotQTnf3am22PWb616RgPE7wP3&sz=w640",
+          "sizeBytes": 4962056,
+          "sha256": "F8E3BE2E52CEC9A91F18801AAF2A0BD596F6800BE0D64773E56795FC4C1CF122",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Monster Crown — Monster Crown - Launch T"
+        }
+      ]
     }
   ],
-  "totalGames": 2053,
-  "totalVariants": 3477,
-  "lastUpdated": "2026-11-09T21:19:00.569857+00:00"
+  "totalGames": 2063,
+  "totalVariants": 3487,
+  "lastUpdated": "2026-11-09T21:21:56.585424+00:00"
 }
