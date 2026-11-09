@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T11:02:40.776942+00:00",
+  "updatedAt": "2026-11-09T11:03:05.304786+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -17284,6 +17284,42 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_10787570",
+          "name": "Ghost Midnight Hollow Knight",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1g2ToXiizFHnC-W46o-SoWpkGJvgBmsNL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1g2ToXiizFHnC-W46o-SoWpkGJvgBmsNL&sz=w640",
+          "sizeBytes": 342100,
+          "sha256": "1BCF3829B0580DB2E926132C6F64789BE1DD2EF0DAB69902DBBCF14870C08CD8",
+          "durationSec": 18.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Ghost Midnight Hollow Knight"
+        },
+        {
+          "id": "v_feb6152f",
+          "name": "Hornet Red Cloak Hollow Knight Silksong",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yBRDp-8hZoujJOnTTTrC4bnPur-KeiTZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yBRDp-8hZoujJOnTTTrC4bnPur-KeiTZ&sz=w640",
+          "sizeBytes": 1262552,
+          "sha256": "E9B969E0EEF5C64A9C76DC116917B9D649F454C6A66F81BEEBBDB3F1F41D742C",
+          "durationSec": 18.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hornet Red Cloak Hollow Knight Silksong"
         }
       ]
     },
@@ -61382,6 +61418,6 @@
     }
   ],
   "totalGames": 1308,
-  "totalVariants": 2728,
-  "lastUpdated": "2026-11-09T11:02:40.776942+00:00"
+  "totalVariants": 2730,
+  "lastUpdated": "2026-11-09T11:03:05.304786+00:00"
 }
