@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T22:28:30.887530+00:00",
+  "updatedAt": "2026-11-09T22:31:28.639511+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -86288,9 +86288,269 @@
           "notes": "Switch 720p 30fps H264 | Hero Survival — Hero Survival Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100AAE01E39C000",
+      "title": "Escape Game Fort Boyard",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AAE01E39C000.jpg",
+      "variants": [
+        {
+          "id": "v_47d9c6f1",
+          "name": "Escape Game Fort Boyard — Escape Game TEASER - U",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CNWWDkdzApoHO5ib7ibNicEpT5G4v-Z-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CNWWDkdzApoHO5ib7ibNicEpT5G4v-Z-&sz=w640",
+          "sizeBytes": 4838936,
+          "sha256": "789B551707930114216B6322545D65B001EB3351A60DFB652E4634851357E021",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Escape Game Fort Boyard — Escape Game TE"
+        }
+      ]
+    },
+    {
+      "titleId": "010018F01DC7A000",
+      "title": "The Kindeman Remedy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010018F01DC7A000.jpg",
+      "variants": [
+        {
+          "id": "v_54a84d43",
+          "name": "The Kindeman Remedy — The Kindeman Remedy - Laun",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ncYlcK9bYeMkaDvJrn729IS19FNVz4kA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ncYlcK9bYeMkaDvJrn729IS19FNVz4kA&sz=w640",
+          "sizeBytes": 4763600,
+          "sha256": "E5E32ABBB4F59F2D6BCC41F11D33E0BFABFA4F922269AFCCE9220164CB9B337B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Kindeman Remedy — The Kindeman Remed"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D150131F8000",
+      "title": "Deiland Pocket Planet edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D150131F8000.jpg",
+      "variants": [
+        {
+          "id": "v_4aa6f9bb",
+          "name": "Deiland: Pocket Planet — Deiland Pocket Planet -",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lj2PMLflWCGJrp0_hXwuK_BzNYqiVVhe",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lj2PMLflWCGJrp0_hXwuK_BzNYqiVVhe&sz=w640",
+          "sizeBytes": 5021864,
+          "sha256": "F08F88E1CF0C2C22F2DC6E1B0AA0110FD2AA530C24845BF27FAC51BDA1203B4B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Deiland: Pocket Planet — Deiland Pocket "
+        }
+      ]
+    },
+    {
+      "titleId": "0100AE0017698000",
+      "title": "Godlike Burger",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AE0017698000.jpg",
+      "variants": [
+        {
+          "id": "v_049b749f",
+          "name": "Godlike Burger — OUTNOW Trailer EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-OaLH1RFyShwy_ObA976EF4wWeG_xeAM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-OaLH1RFyShwy_ObA976EF4wWeG_xeAM&sz=w640",
+          "sizeBytes": 5280922,
+          "sha256": "8806257898645F6A23B5DBD33F5A04ABAFA9513C834C4C44EECDDCDA77B63D91",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Godlike Burger — OUTNOW Trailer EN"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A0300D1A0000",
+      "title": "Hellmut: The Badass from Hell",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A0300D1A0000.jpg",
+      "variants": [
+        {
+          "id": "v_95106e42",
+          "name": "HELLMUT: The Badass from Hell — Gates of Hell Op",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10v66NBWclWSgLyynXmtJeEEWrgbcowIQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10v66NBWclWSgLyynXmtJeEEWrgbcowIQ&sz=w640",
+          "sizeBytes": 5519702,
+          "sha256": "5759E65C2701AA0D5F05E1D62837D21D759823DF2A08148C8F20A3BF35E56F44",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | HELLMUT: The Badass from Hell — Gates of"
+        }
+      ]
+    },
+    {
+      "titleId": "010001A00A1F6000",
+      "title": "Knock-knock",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010001A00A1F6000.jpg",
+      "variants": [
+        {
+          "id": "v_2e5cc4f2",
+          "name": "Knock-knock — Teaser",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eL1GeYvVmrmDQSVK6uVb90tmjndba_6C",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eL1GeYvVmrmDQSVK6uVb90tmjndba_6C&sz=w640",
+          "sizeBytes": 5415450,
+          "sha256": "B5AC5614F0F5983727B2D0B0DDCEC6CFA3664142ADE477B36FFF557B4E6ED0B0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Knock-knock — Teaser"
+        }
+      ]
+    },
+    {
+      "titleId": "010029100D412000",
+      "title": "Know by Heart",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010029100D412000.jpg",
+      "variants": [
+        {
+          "id": "v_70a99d79",
+          "name": "Know by heart — Release_eng",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11-Gxeb3v76uKEYufMfcxv5gSkcf4t5Ef",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11-Gxeb3v76uKEYufMfcxv5gSkcf4t5Ef&sz=w640",
+          "sizeBytes": 4175946,
+          "sha256": "8749048BAA39C413EA12042EA5AE1BCC38690874CBD56D015213BB769F733A7F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Know by heart — Release_eng"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C27011544000",
+      "title": "The Last Kids on Earth and the Staff of Doom",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C27011544000.jpg",
+      "variants": [
+        {
+          "id": "v_efeb34ff",
+          "name": "Last Kids on Earth and the Staff of Doom — Launc",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yuUx3wvnUBeZCZUs46u40b605FYHmnJS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yuUx3wvnUBeZCZUs46u40b605FYHmnJS&sz=w640",
+          "sizeBytes": 5185945,
+          "sha256": "A3BF510ECAACA7F6E2743925130F431AD800550ABE70B08C10C5A065EAFEB88F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Last Kids on Earth and the Staff of Doom"
+        }
+      ]
+    },
+    {
+      "titleId": "010036601ACAE000",
+      "title": "Days of Doom",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010036601ACAE000.jpg",
+      "variants": [
+        {
+          "id": "v_9477b22c",
+          "name": "Days of Doom — Days of Doom Announce Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mppVoDfDx--u1oKAh3hWT6R6iFX4JUfq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mppVoDfDx--u1oKAh3hWT6R6iFX4JUfq&sz=w640",
+          "sizeBytes": 4755823,
+          "sha256": "4B0438A4155BF45E2BBB59559C81B9AB32328E9B1F9691B9E3FA1A389F3A3961",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Days of Doom — Days of Doom Announce Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "010019F00CF92000",
+      "title": "Doom and Destiny Worlds",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010019F00CF92000.jpg",
+      "variants": [
+        {
+          "id": "v_30df1728",
+          "name": "Doom & Destiny Worlds — Survive without Wi-Fi",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZRnQcGW17jNRWIQs-N89Yp2-cbO47QiM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZRnQcGW17jNRWIQs-N89Yp2-cbO47QiM&sz=w640",
+          "sizeBytes": 5158619,
+          "sha256": "D67ED2002F7953701D6C7CDF1F5D7FB20373601B22A2F28722305C5298663B40",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Doom & Destiny Worlds — Survive without "
+        }
+      ]
     }
   ],
-  "totalGames": 2263,
-  "totalVariants": 3687,
-  "lastUpdated": "2026-11-09T22:28:30.887530+00:00"
+  "totalGames": 2273,
+  "totalVariants": 3697,
+  "lastUpdated": "2026-11-09T22:31:28.639511+00:00"
 }
