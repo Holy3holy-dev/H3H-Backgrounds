@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T06:04:03.412258+00:00",
+  "updatedAt": "2026-11-09T06:05:03.546532+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -52797,6 +52797,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Barbarian Warrior Fighting Monster Eld"
+        },
+        {
+          "id": "v_d521f4db",
+          "name": "Dark Brotherhood The Elder Scrolls IV Oblivio",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xbGiEmz38_iJj1MH9r4Jvn8ApWgt4PlD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xbGiEmz38_iJj1MH9r4Jvn8ApWgt4PlD&sz=w640",
+          "sizeBytes": 714572,
+          "sha256": "67D04FD24A4265B7E2728FCA75B758A266348EEC278E619C0691C814D79B50B1",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dark Brotherhood The Elder Scrolls IV "
+        },
+        {
+          "id": "v_9fae9d4b",
+          "name": "Ayleid Ruins The Elder Scrolls IV Oblivion",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mJ4mBI-4jtznIWLK838sOoX8DWRi5vdy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mJ4mBI-4jtznIWLK838sOoX8DWRi5vdy&sz=w640",
+          "sizeBytes": 1439721,
+          "sha256": "B50BF9977AC87548AE7F97F690D2C70C067F52B7EAE2A724815F38B01EF3BA02",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ayleid Ruins The Elder Scrolls IV Obli"
         }
       ]
     },
@@ -60520,6 +60556,6 @@
     }
   ],
   "totalGames": 1298,
-  "totalVariants": 2686,
-  "lastUpdated": "2026-11-09T06:04:03.412258+00:00"
+  "totalVariants": 2688,
+  "lastUpdated": "2026-11-09T06:05:03.546532+00:00"
 }
