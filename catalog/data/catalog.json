@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T21:48:21.915377+00:00",
+  "updatedAt": "2026-11-09T21:51:09.565013+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -83168,9 +83168,269 @@
           "notes": "Switch 720p 30fps H264 | Spacebase Startopia — Spacebase Startopi"
         }
       ]
+    },
+    {
+      "titleId": "0100F610122F6000",
+      "title": "Good Pizza Great Pizza",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F610122F6000.jpg",
+      "variants": [
+        {
+          "id": "v_6984bdf2",
+          "name": "Good Pizza, Great Pizza - Cozy Cooking Simulator",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AHMiANG0EcAOb9qUdOJ4DegwimSuHMH2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AHMiANG0EcAOb9qUdOJ4DegwimSuHMH2&sz=w640",
+          "sizeBytes": 4840020,
+          "sha256": "0647F68CBF4FCE1FA42E8494E7AAF8AF823DE044D8BBDBB7FA7D886D941B58B9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Good Pizza, Great Pizza - Cozy Cooking S"
+        }
+      ]
+    },
+    {
+      "titleId": "010079901D55C000",
+      "title": "Inkulinati",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010079901D55C000.jpg",
+      "variants": [
+        {
+          "id": "v_8a10d576",
+          "name": "Inkulinati — 1.0 RELEASE EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pxRgI_U6lyvWSnPQ286h_3C2-IVJmGAA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pxRgI_U6lyvWSnPQ286h_3C2-IVJmGAA&sz=w640",
+          "sizeBytes": 5061527,
+          "sha256": "2D677A2341AA8B1D669742C4A585387E020C7DBA70043DA9093BC80B4F54503D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Inkulinati — 1.0 RELEASE EN"
+        }
+      ]
+    },
+    {
+      "titleId": "010049E013134000",
+      "title": "Actraiser Renaissance",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010049E013134000.jpg",
+      "variants": [
+        {
+          "id": "v_3dcc7654",
+          "name": "Actraiser Renaissance — PEGI EN Launch Actraiser",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yq-lfm35ORK5A7ayj9WfiIBWqmV2tR8g",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yq-lfm35ORK5A7ayj9WfiIBWqmV2tR8g&sz=w640",
+          "sizeBytes": 3090430,
+          "sha256": "0313B9A169F9AC3D11B0EB0E28F135815EE7CBF24FFFA5339C31F8D9F8917033",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Actraiser Renaissance — PEGI EN Launch A"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E4600F188000",
+      "title": "Oliver's Adventures in the Fairyland",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E4600F188000.jpg",
+      "variants": [
+        {
+          "id": "v_32f73e56",
+          "name": "Oliver's Adventures in the Fairyland — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1A1777PwnEaNhF4UhmWSD9151TYiz71zP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1A1777PwnEaNhF4UhmWSD9151TYiz71zP&sz=w640",
+          "sizeBytes": 1880018,
+          "sha256": "265A434D3377DF1586F4AF08124A7329FFE54367D78C6A92ECD63FC0E95D179C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Oliver's Adventures in the Fairyland — T"
+        }
+      ]
+    },
+    {
+      "titleId": "010036B016EDC000",
+      "title": "Slime's Journey",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010036B016EDC000.jpg",
+      "variants": [
+        {
+          "id": "v_01a6d576",
+          "name": "Slime's Journey — Slime's Journey - Official Sho",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16ZjiQQw9cFfmvGVrn75NuOYks5eR9w7a",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16ZjiQQw9cFfmvGVrn75NuOYks5eR9w7a&sz=w640",
+          "sizeBytes": 5026131,
+          "sha256": "EBC3FC16094C849523ED16259292ED15D2EDAEAFAADE919906D80D388ABF1466",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Slime's Journey — Slime's Journey - Offi"
+        }
+      ]
+    },
+    {
+      "titleId": "010014D01A9D8000",
+      "title": "Live Factory",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010014D01A9D8000.jpg",
+      "variants": [
+        {
+          "id": "v_54ce827b",
+          "name": "Live Factory — Live Factory",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fsU3LHLgji5KzgupCpak-FEusCSOZGT3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fsU3LHLgji5KzgupCpak-FEusCSOZGT3&sz=w640",
+          "sizeBytes": 5330075,
+          "sha256": "5FE4BDEA47C43C8EB3DBC211820915E3CFEFBF1A7054A4297AF308DD1392581A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Live Factory — Live Factory"
+        }
+      ]
+    },
+    {
+      "titleId": "010047B010260000",
+      "title": "Space Pioneer",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010047B010260000.jpg",
+      "variants": [
+        {
+          "id": "v_d0741751",
+          "name": "Space Pioneer — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vsr3sO3XsbYAoeeqhF2lvbW67wuE4tTb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vsr3sO3XsbYAoeeqhF2lvbW67wuE4tTb&sz=w640",
+          "sizeBytes": 5095266,
+          "sha256": "75D548C45F13BBF2C8CC4B3DF5699440F26C859F80ACD8F34B3EEB4D94327509",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Space Pioneer — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A4101C036000",
+      "title": "Beatbuddy Tale of the Guardians",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A4101C036000.jpg",
+      "variants": [
+        {
+          "id": "v_a51fc2b7",
+          "name": "Beatbuddy: Tale of the Guardians — Beatbuddy: Ta",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yqHo6kkV2qlVWQ0TTutv7LOPz29UbSTb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yqHo6kkV2qlVWQ0TTutv7LOPz29UbSTb&sz=w640",
+          "sizeBytes": 4952794,
+          "sha256": "240ABFF5601A99C3062C28D07902512B75304E6B92346415EC98EAE8CF38974D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Beatbuddy: Tale of the Guardians — Beatb"
+        }
+      ]
+    },
+    {
+      "titleId": "010093F00E818000",
+      "title": "Tools Up Ultimate edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010093F00E818000.jpg",
+      "variants": [
+        {
+          "id": "v_aaf30e6a",
+          "name": "Tools Up! Ultimate Edition — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KdVOZtyKxPAWeK95iDrN-HeKNGuiKc00",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KdVOZtyKxPAWeK95iDrN-HeKNGuiKc00&sz=w640",
+          "sizeBytes": 5526442,
+          "sha256": "60AE197960588B5FEBDEDC39CD89B2120C41D1EF08CF32B14CB5AF625F060DD8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tools Up! Ultimate Edition — Launch Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B5C01F99C000",
+      "title": "Fate Reawakened",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B5C01F99C000.jpg",
+      "variants": [
+        {
+          "id": "v_16e128e6",
+          "name": "FATE: Reawakened — FATE: Reawakened Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WNKifeiVD4FONZMopaCY6fmNEwELzBhb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WNKifeiVD4FONZMopaCY6fmNEwELzBhb&sz=w640",
+          "sizeBytes": 5381876,
+          "sha256": "6992FA956A08DC37CE3DC8F86C6FBA7AEBF2E7FC32EF89CF6F0A1DD6BC669584",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | FATE: Reawakened — FATE: Reawakened Trai"
+        }
+      ]
     }
   ],
-  "totalGames": 2143,
-  "totalVariants": 3567,
-  "lastUpdated": "2026-11-09T21:48:21.915377+00:00"
+  "totalGames": 2153,
+  "totalVariants": 3577,
+  "lastUpdated": "2026-11-09T21:51:09.565013+00:00"
 }
