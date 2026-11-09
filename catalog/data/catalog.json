@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T22:10:49.239675+00:00",
+  "updatedAt": "2026-11-09T22:13:47.673683+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -84728,9 +84728,269 @@
           "notes": "Switch 720p 30fps H264 | Danger Scavenger — Danger Scavenger Rele"
         }
       ]
+    },
+    {
+      "titleId": "0100DA200A09A000",
+      "title": "Kero Blaster",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DA200A09A000.jpg",
+      "variants": [
+        {
+          "id": "v_cd4652dd",
+          "name": "Kero Blaster — kero_new",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1sV6VwNC-j_P-Rzobgvxb0EmZvx1n4a2Q",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1sV6VwNC-j_P-Rzobgvxb0EmZvx1n4a2Q&sz=w640",
+          "sizeBytes": 4655425,
+          "sha256": "6D61BF75803240AF9B5FC633835D08AF981BB7FF9A17DAF0001308C4E10313C8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kero Blaster — kero_new"
+        }
+      ]
+    },
+    {
+      "titleId": "010040F00AA9A000",
+      "title": "Speed Brawl",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010040F00AA9A000.jpg",
+      "variants": [
+        {
+          "id": "v_429640a4",
+          "name": "Speed Brawl — Speed Brawl Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1myapxvZI_YZ8oD2slmBqjtg73kDix7f0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1myapxvZI_YZ8oD2slmBqjtg73kDix7f0&sz=w640",
+          "sizeBytes": 5420241,
+          "sha256": "AF813C3544EBE3A1EA05A2AB023B7C59538E2E448A005EF3888317997004C3A1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Speed Brawl — Speed Brawl Gameplay Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "01009A500D4A8000",
+      "title": "Metagal",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009A500D4A8000.jpg",
+      "variants": [
+        {
+          "id": "v_ef71da4c",
+          "name": "METAGAL — Metagal Coming Soon!",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10vJ2fa-OjeK1HsmZ0LiMWnMRmdBBqwNR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10vJ2fa-OjeK1HsmZ0LiMWnMRmdBBqwNR&sz=w640",
+          "sizeBytes": 4421644,
+          "sha256": "6C56B82033661DF9AE37E13DDD3348E2D81E9B915BA60633070ECCE8645E7BAD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | METAGAL — Metagal Coming Soon!"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B3300B4AA000",
+      "title": "Hyper Jam",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B3300B4AA000.jpg",
+      "variants": [
+        {
+          "id": "v_eeee18f1",
+          "name": "Hyper Jam — Hyper Jam Release Date Trailer Trimm",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CD_dm7EmuP7O-uAVoSc4aNAf0Cu7Uv98",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CD_dm7EmuP7O-uAVoSc4aNAf0Cu7Uv98&sz=w640",
+          "sizeBytes": 5606897,
+          "sha256": "99243A927E8F2485B46672558B8997EFCEEF1072BC677FC168561254B439FC4D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hyper Jam — Hyper Jam Release Date Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "01004DE013EDE000",
+      "title": "Youtubers Life 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004DE013EDE000.jpg",
+      "variants": [
+        {
+          "id": "v_a3e62571",
+          "name": "Youtubers Life 2 — Youtubers Life 2 #CityStories",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_V6yUpFOlV7SWnWDDB1k1o2l4D8dUqzC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_V6yUpFOlV7SWnWDDB1k1o2l4D8dUqzC&sz=w640",
+          "sizeBytes": 5461158,
+          "sha256": "28EA122EC2AB5D45A36B02D438659EAA4CA53857C5CB56BE42939ABB1C58FBAA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Youtubers Life 2 — Youtubers Life 2 #Cit"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BE5011486000",
+      "title": "Within the Blade",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BE5011486000.jpg",
+      "variants": [
+        {
+          "id": "v_9da89314",
+          "name": "Within the blade — Within the Blade",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1frnHEg4xp5m2sXg1sUTkYUVY-L3P4P13",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1frnHEg4xp5m2sXg1sUTkYUVY-L3P4P13&sz=w640",
+          "sizeBytes": 5464723,
+          "sha256": "11E7414F12381A01BB15F048AB7BF1569A9471E9560BBA486DDD88A365CF63E5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Within the blade — Within the Blade"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BA5011E16000",
+      "title": "Skeletal Avenger",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BA5011E16000.jpg",
+      "variants": [
+        {
+          "id": "v_8b77894c",
+          "name": "Skeletal Avenger — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=177FvZel6PJroJ6QUCrp9Vilp7jixAgqd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=177FvZel6PJroJ6QUCrp9Vilp7jixAgqd&sz=w640",
+          "sizeBytes": 5508261,
+          "sha256": "725EFE7FA6480764EBE71882B2F28697E75C19ADE56DF718C02259B225656904",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Skeletal Avenger — Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100256019A88000",
+      "title": "Arcane Vale",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100256019A88000.jpg",
+      "variants": [
+        {
+          "id": "v_fe068392",
+          "name": "Arcane Vale — Arcane Vale Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1n3txfU199CjFvZKHFqc_Rf8fbbyrZvZq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1n3txfU199CjFvZKHFqc_Rf8fbbyrZvZq&sz=w640",
+          "sizeBytes": 5449032,
+          "sha256": "50A452F1DA470647A3070D753B47601D987477D439FD56B81051B1EDB1271812",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Arcane Vale — Arcane Vale Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01004EF01E5B0000",
+      "title": "Scarlet Tower",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004EF01E5B0000.jpg",
+      "variants": [
+        {
+          "id": "v_91ea702d",
+          "name": "Scarlet Tower — Scarlet Tower Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1D-43nc52fS5kTmTR2o-X5w8xsPAQUZ5r",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1D-43nc52fS5kTmTR2o-X5w8xsPAQUZ5r&sz=w640",
+          "sizeBytes": 5312910,
+          "sha256": "1B9835DA577DFF5E4A8A82FCC115382E25654E7860BD8089DA7ADEE3D4FC47A9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Scarlet Tower — Scarlet Tower Launch Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "0100639025450000",
+      "title": "Ratcheteer DX",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100639025450000.jpg",
+      "variants": [
+        {
+          "id": "v_ab24de04",
+          "name": "Ratcheteer DX — Ratcheteer DX - Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RnYVbg8OZvKVdP-JAxpMcfTd9K5y_Jk0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RnYVbg8OZvKVdP-JAxpMcfTd9K5y_Jk0&sz=w640",
+          "sizeBytes": 5086620,
+          "sha256": "9CEDCE874F133E9124D54BA106537F8B5E2F490AB3A36B8038D594A23239A054",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ratcheteer DX — Ratcheteer DX - Release "
+        }
+      ]
     }
   ],
-  "totalGames": 2203,
-  "totalVariants": 3627,
-  "lastUpdated": "2026-11-09T22:10:49.239675+00:00"
+  "totalGames": 2213,
+  "totalVariants": 3637,
+  "lastUpdated": "2026-11-09T22:13:47.673683+00:00"
 }
