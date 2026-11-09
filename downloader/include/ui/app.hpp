@@ -109,6 +109,9 @@ public:
 
     void executeRestoreBackup(const std::string& titleId);
     void executeDeleteCover(const std::string& titleId);
+    void executeCycleNextCover(const std::string& titleId);
+    void executeDeleteCoverVariant(const std::string& titleId, int index);
+    void executeDeleteAllCovers(const std::string& titleId);
     void executeDeleteIcon(const std::string& titleId);
     void updateApplicationNro();
     void checkForUpdates(bool manualTrigger);

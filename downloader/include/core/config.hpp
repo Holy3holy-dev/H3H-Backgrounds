@@ -127,6 +127,12 @@ public:
 
     }
 
+    // Computes numbered cover variant filename strictly from Title ID and index (1, 2, 3...)
+    static std::string getCoverVariantFileName(const std::string& titleId, int index) {
+        if (index <= 0) return getTargetCoverFileName(titleId);
+        return normalizeTitleId(titleId) + "_" + std::to_string(index) + ".mp4";
+    }
+
 
 
     // Computes backup filename strictly from Title ID

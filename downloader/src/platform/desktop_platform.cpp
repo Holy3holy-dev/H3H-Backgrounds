@@ -64,15 +64,27 @@ public:
             t.name = g.name;
             t.author = g.author;
 
-            // Check SD card mock covers
-            std::string coverPath;
-            uint64_t coverSize = 0;
-            if (Installer::findExistingCover(coversDir, t.titleId, coverPath, coverSize)) {
+            // Multi-cover variant detection
+            t.installedCoverVariants = Installer::findInstalledCoverVariants(coversDir, t.titleId);
+            t.installedCoversCount = static_cast<int>(t.installedCoverVariants.size());
+            if (!t.installedCoverVariants.empty()) {
                 t.hasInstalledCover = true;
-                t.installedCoverPath = coverPath;
-                t.installedCoverSizeBytes = coverSize;
+                bool foundActive = false;
+                for (const auto& var : t.installedCoverVariants) {
+                    if (var.isActive) {
+                        t.installedCoverPath = var.filePath;
+                        t.installedCoverSizeBytes = var.sizeBytes;
+                        foundActive = true;
+                        break;
+                    }
+                }
+                if (!foundActive) {
+                    t.installedCoverPath = t.installedCoverVariants[0].filePath;
+                    t.installedCoverSizeBytes = t.installedCoverVariants[0].sizeBytes;
+                }
                 t.status = CoverStatus::Installed;
             } else {
+                t.hasInstalledCover = false;
                 t.status = CoverStatus::NoCover;
             }
 

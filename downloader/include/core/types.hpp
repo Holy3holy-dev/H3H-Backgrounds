@@ -83,6 +83,14 @@ enum class CoverStatus {
     CustomCover
 };
 
+struct InstalledCoverVariant {
+    std::string filePath;
+    std::string filename;
+    uint64_t sizeBytes{0};
+    int index{0}; // 0 = active (TITLEID.mp4), 1 = TITLEID_1.mp4, 2 = TITLEID_2.mp4...
+    bool isActive{false};
+};
+
 struct InstalledTitle {
     uint64_t titleIdNumeric{0};
     std::string titleId;       // Uppercase 16-hex string
@@ -102,6 +110,10 @@ struct InstalledTitle {
     bool hasInstalledIcon{false};
     std::string installedIconPath;
     uint64_t installedIconSizeBytes{0};
+
+    // Multi-cover variant support (TITLEID.mp4, TITLEID_1.mp4, TITLEID_2.mp4...)
+    std::vector<InstalledCoverVariant> installedCoverVariants;
+    int installedCoversCount{0};
     
     // Matched catalog data
     bool hasCatalogMatch{false};

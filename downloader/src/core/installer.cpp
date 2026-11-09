@@ -27,6 +27,199 @@ bool caseInsensitiveCompare(const std::string& a, const std::string& b) {
 
 } // namespace
 
+
+std::vector<InstalledCoverVariant> Installer::findInstalledCoverVariants(
+    const std::string& coversDir,
+    const std::string& titleId
+) {
+    std::vector<InstalledCoverVariant> variants;
+    if (!Config::isValidTitleId(titleId)) return variants;
+
+    std::error_code ec;
+    if (!fs::exists(coversDir, ec) || !fs::is_directory(coversDir, ec)) {
+        return variants;
+    }
+
+    std::string normTitleId = Config::normalizeTitleId(titleId);
+    std::string lowerTitleId = toLowerString(normTitleId);
+
+    for (const auto& entry : fs::directory_iterator(coversDir, ec)) {
+        if (ec) break;
+        if (!entry.is_regular_file(ec)) continue;
+
+        std::string filename = entry.path().filename().string();
+        std::string lowerFilename = toLowerString(filename);
+
+        // Name must start with lowerTitleId and end with .mp4
+        if (lowerFilename.length() >= 20 &&
+            lowerFilename.rfind(".mp4") == (lowerFilename.length() - 4) &&
+            lowerFilename.rfind(lowerTitleId, 0) == 0) {
+
+            std::string middle = lowerFilename.substr(lowerTitleId.length(), lowerFilename.length() - 4 - lowerTitleId.length());
+            InstalledCoverVariant var;
+            var.filePath = entry.path().string();
+            var.filename = filename;
+            var.sizeBytes = entry.file_size(ec);
+
+            if (middle.empty()) {
+                // Exact match: TITLEID.mp4 -> Active cover (index 0)
+                var.index = 0;
+                var.isActive = true;
+                variants.push_back(var);
+            } else if (middle.length() >= 2 && middle[0] == '_') {
+                // Numbered match: TITLEID_1.mp4, TITLEID_2.mp4, etc.
+                std::string numPart = middle.substr(1);
+                bool allDigits = !numPart.empty() && std::all_of(numPart.begin(), numPart.end(), [](unsigned char c) {
+                    return std::isdigit(c);
+                });
+                if (allDigits) {
+                    try {
+                        var.index = std::stoi(numPart);
+                        var.isActive = false;
+                        variants.push_back(var);
+                    } catch (...) {
+                    }
+                }
+            }
+        }
+    }
+
+    // Sort: active first, then ascending by index
+    std::sort(variants.begin(), variants.end(), [](const InstalledCoverVariant& a, const InstalledCoverVariant& b) {
+        if (a.isActive != b.isActive) return a.isActive;
+        return a.index < b.index;
+    });
+
+    return variants;
+}
+
+std::string Installer::getNextAvailableCoverPath(
+    const std::string& coversDir,
+    const std::string& titleId,
+    int* outIndex
+) {
+    auto existing = findInstalledCoverVariants(coversDir, titleId);
+    std::string normTitleId = Config::normalizeTitleId(titleId);
+
+    bool hasActive = false;
+    std::vector<int> usedIndices;
+    for (const auto& v : existing) {
+        if (v.index == 0) hasActive = true;
+        usedIndices.push_back(v.index);
+    }
+
+    if (!hasActive) {
+        if (outIndex) *outIndex = 0;
+        return (fs::path(coversDir) / Config::getTargetCoverFileName(normTitleId)).string();
+    }
+
+    int nextIdx = 1;
+    while (std::find(usedIndices.begin(), usedIndices.end(), nextIdx) != usedIndices.end()) {
+        nextIdx++;
+    }
+
+    if (outIndex) *outIndex = nextIdx;
+    return (fs::path(coversDir) / Config::getCoverVariantFileName(normTitleId, nextIdx)).string();
+}
+
+bool Installer::switchActiveCover(
+    const std::string& coversDir,
+    const std::string& titleId,
+    int targetIndex
+) {
+    if (!Config::isValidTitleId(titleId) || targetIndex <= 0) return false;
+
+    std::error_code ec;
+    std::string normTitleId = Config::normalizeTitleId(titleId);
+    fs::path activePath = fs::path(coversDir) / Config::getTargetCoverFileName(normTitleId);
+    fs::path targetPath = fs::path(coversDir) / Config::getCoverVariantFileName(normTitleId, targetIndex);
+
+    if (!fs::exists(targetPath, ec)) return false;
+
+    if (!fs::exists(activePath, ec)) {
+        fs::rename(targetPath, activePath, ec);
+        return !ec;
+    }
+
+    fs::path swapPath = fs::path(coversDir) / (normTitleId + ".swap.tmp");
+    if (fs::exists(swapPath, ec)) {
+        fs::remove(swapPath, ec);
+    }
+
+    fs::rename(activePath, swapPath, ec);
+    if (ec) return false;
+
+    fs::rename(targetPath, activePath, ec);
+    if (ec) {
+        std::error_code rb;
+        fs::rename(swapPath, activePath, rb);
+        return false;
+    }
+
+    fs::rename(swapPath, targetPath, ec);
+    if (ec) {
+        std::error_code rb;
+        fs::rename(activePath, targetPath, rb);
+        fs::rename(swapPath, activePath, rb);
+        return false;
+    }
+
+    return true;
+}
+
+bool Installer::deleteCoverVariant(
+    const std::string& coversDir,
+    const std::string& titleId,
+    int index
+) {
+    if (!Config::isValidTitleId(titleId)) return false;
+    std::string normTitleId = Config::normalizeTitleId(titleId);
+    std::error_code ec;
+
+    if (index > 0) {
+        fs::path varPath = fs::path(coversDir) / Config::getCoverVariantFileName(normTitleId, index);
+        if (fs::exists(varPath, ec)) {
+            fs::remove(varPath, ec);
+            return !ec;
+        }
+        return false;
+    }
+
+    fs::path activePath = fs::path(coversDir) / Config::getTargetCoverFileName(normTitleId);
+    if (fs::exists(activePath, ec)) {
+        fs::remove(activePath, ec);
+
+        // Auto-promote TITLEID_1.mp4 to TITLEID.mp4 if present
+        fs::path alt1Path = fs::path(coversDir) / Config::getCoverVariantFileName(normTitleId, 1);
+        if (fs::exists(alt1Path, ec)) {
+            fs::rename(alt1Path, activePath, ec);
+        }
+        return true;
+    }
+    return false;
+}
+
+bool Installer::deleteAllCoverVariants(
+    const std::string& coversDir,
+    const std::string& titleId
+) {
+    auto variants = findInstalledCoverVariants(coversDir, titleId);
+    std::error_code ec;
+    bool anyDeleted = false;
+    for (const auto& v : variants) {
+        if (fs::exists(v.filePath, ec)) {
+            fs::remove(v.filePath, ec);
+            anyDeleted = true;
+        }
+    }
+    std::string bPath;
+    uint64_t bSize = 0;
+    if (findExistingBackup(coversDir, titleId, bPath, bSize)) {
+        fs::remove(bPath, ec);
+    }
+    return anyDeleted;
+}
+
 bool Installer::findExistingCover(
     const std::string& coversDir,
     const std::string& titleId,
@@ -275,46 +468,43 @@ uint64_t actualSize = fs::file_size(tempFilePath, ec);
     std::string backupCreatedFrom;
 
     if (hadExistingCover) {
-        if (createBackup) {
-            // Remove old stale backup if present
-            if (fs::exists(backupPath, ec)) {
-                fs::remove(backupPath, ec);
-            }
+        // Multi-cover support: NEVER delete old video covers!
+        // Find next free numbered index for alternative cover
+        int nextIndex = 1;
+        getNextAvailableCoverPath(coversDir, normTitleId, &nextIndex);
+        if (nextIndex <= 0) nextIndex = 1;
 
-            // Rename existing cover to backup
-            fs::rename(existingCoverPath, backupPath, ec);
-            if (ec) {
-                fs::remove(tempFilePath, ec);
-                result.success = false;
-                result.message = "Failed to create backup of existing cover: " + ec.message();
-                return result;
-            }
-            backupCreated = true;
-            backupCreatedFrom = existingCoverPath;
-            result.backupPath = backupPath.string();
-        } else {
+        // Move existing active cover to TITLEID_N.mp4
+        fs::path altPath = fs::path(coversDir) / Config::getCoverVariantFileName(normTitleId, nextIndex);
+        fs::rename(existingCoverPath, altPath, ec);
+        if (ec) {
+            fs::copy_file(existingCoverPath, altPath, fs::copy_options::overwrite_existing, ec);
             fs::remove(existingCoverPath, ec);
         }
+
+        // Install downloaded file as active TITLEID.mp4
+        fs::rename(tempFilePath, targetPath, ec);
+        if (ec) {
+            fs::copy_file(tempFilePath, targetPath, fs::copy_options::overwrite_existing, ec);
+            fs::remove(tempFilePath, ec);
+        }
+
+        result.success = true;
+        result.installedPath = targetPath.string();
+        result.message = "Новый видеофон установлен как активный. Прежний сохранён как вариант #" + std::to_string(nextIndex);
+        return result;
     }
 
-    // 7. Atomic Commit Point: rename temp file to target cover
+    // Direct installation for first cover
     fs::rename(tempFilePath, targetPath, ec);
     if (ec) {
-        // Rollback: restore backup if we created one
-        if (backupCreated) {
-            std::error_code rb_ec;
-            fs::rename(backupPath, backupCreatedFrom, rb_ec);
-            result.rollbackOccurred = true;
-        }
+        fs::copy_file(tempFilePath, targetPath, fs::copy_options::overwrite_existing, ec);
         fs::remove(tempFilePath, ec);
-        result.success = false;
-        result.message = "Atomic commit failed: " + ec.message() + (result.rollbackOccurred ? " (Rollback successful)" : "");
-        return result;
     }
 
     result.success = true;
     result.installedPath = targetPath.string();
-    result.message = "Successfully installed video cover for " + normTitleId;
+    result.message = "Видеофон успешно установлен для " + normTitleId;
     return result;
 }
 

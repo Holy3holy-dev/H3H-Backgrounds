@@ -289,15 +289,27 @@ public:
                     }
                 }
 
-                // Check local cover on SD card
-                std::string coverPath;
-                uint64_t coverSize = 0;
-                if (Installer::findExistingCover(coversDir, titleIdStr, coverPath, coverSize)) {
+                // Multi-cover variant detection
+                title.installedCoverVariants = Installer::findInstalledCoverVariants(coversDir, titleIdStr);
+                title.installedCoversCount = static_cast<int>(title.installedCoverVariants.size());
+                if (!title.installedCoverVariants.empty()) {
                     title.hasInstalledCover = true;
-                    title.installedCoverPath = coverPath;
-                    title.installedCoverSizeBytes = coverSize;
+                    bool foundActive = false;
+                    for (const auto& var : title.installedCoverVariants) {
+                        if (var.isActive) {
+                            title.installedCoverPath = var.filePath;
+                            title.installedCoverSizeBytes = var.sizeBytes;
+                            foundActive = true;
+                            break;
+                        }
+                    }
+                    if (!foundActive) {
+                        title.installedCoverPath = title.installedCoverVariants[0].filePath;
+                        title.installedCoverSizeBytes = title.installedCoverVariants[0].sizeBytes;
+                    }
                     title.status = CoverStatus::Installed;
                 } else {
+                    title.hasInstalledCover = false;
                     title.status = CoverStatus::NoCover;
                 }
 

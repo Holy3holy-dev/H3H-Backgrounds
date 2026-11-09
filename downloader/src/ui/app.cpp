@@ -1013,6 +1013,25 @@ void App::refreshInstalledGames() {
         // Check for 4IFIR video icon on SD card (sdmc:/recordings/icons/<TitleID>.mp4)
         std::string iconPath;
         uint64_t iconSize = 0;
+        // Refresh multi-cover variants
+        game.installedCoverVariants = Installer::findInstalledCoverVariants(m_platform->getCoversDirectory(), game.titleId);
+        game.installedCoversCount = static_cast<int>(game.installedCoverVariants.size());
+        if (game.installedCoversCount > 0) {
+            game.hasInstalledCover = true;
+            for (const auto& var : game.installedCoverVariants) {
+                if (var.isActive) {
+                    game.installedCoverPath = var.filePath;
+                    game.installedCoverSizeBytes = var.sizeBytes;
+                    break;
+                }
+            }
+            if (game.installedCoverPath.empty()) {
+                game.installedCoverPath = game.installedCoverVariants[0].filePath;
+                game.installedCoverSizeBytes = game.installedCoverVariants[0].sizeBytes;
+            }
+            game.status = CoverStatus::Installed;
+        }
+
         if (Installer::findExistingIcon(m_platform->getIconsDirectory(), game.titleId, iconPath, iconSize)) {
             game.hasInstalledIcon = true;
             game.installedIconPath = iconPath;
@@ -2056,6 +2075,58 @@ void App::executeDeleteCover(const std::string& titleId) {
         m_statusNotification = "Видеофон удалён (копия .bak сохранена)";
     } else {
         m_statusNotification = "Видеофон не найден";
+    }
+    m_notificationFramesRemaining = 180;
+    refreshInstalledGames();
+    rebuildVideoIconsFilter();
+}
+
+void App::executeCycleNextCover(const std::string& titleId) {
+    auto variants = Installer::findInstalledCoverVariants(m_platform->getCoversDirectory(), titleId);
+    if (variants.size() <= 1) return;
+
+    int targetIndex = 1;
+    for (const auto& v : variants) {
+        if (!v.isActive && v.index > 0) {
+            targetIndex = v.index;
+            break;
+        }
+    }
+
+    bool switched = Installer::switchActiveCover(m_platform->getCoversDirectory(), titleId, targetIndex);
+    if (switched) {
+        m_statusNotification = (m_language == Language::Russian)
+            ? ("Активным назначен видеофон #" + std::to_string(targetIndex))
+            : ("Active video cover switched to #" + std::to_string(targetIndex));
+    } else {
+        m_statusNotification = "Не удалось сменить видеофон";
+    }
+    m_notificationFramesRemaining = 180;
+    refreshInstalledGames();
+}
+
+void App::executeDeleteCoverVariant(const std::string& titleId, int index) {
+    bool deleted = Installer::deleteCoverVariant(m_platform->getCoversDirectory(), titleId, index);
+    if (deleted) {
+        m_statusNotification = (m_language == Language::Russian)
+            ? ("Вариант видеофона #" + std::to_string(index) + " удалён")
+            : ("Cover variant #" + std::to_string(index) + " deleted");
+    } else {
+        m_statusNotification = "Файл видеофона не найден";
+    }
+    m_notificationFramesRemaining = 180;
+    refreshInstalledGames();
+}
+
+void App::executeDeleteAllCovers(const std::string& titleId) {
+    bool deleted = Installer::deleteAllCoverVariants(m_platform->getCoversDirectory(), titleId);
+    if (deleted) {
+        InstalledRegistry::instance().remove(m_platform->getAppDirectory(), titleId);
+        m_statusNotification = (m_language == Language::Russian)
+            ? "Все видеофоны игры удалены с консоли"
+            : "All video covers removed for this game";
+    } else {
+        m_statusNotification = "Видеофоны не найдены";
     }
     m_notificationFramesRemaining = 180;
     refreshInstalledGames();
@@ -3126,7 +3197,10 @@ void App::onButtonPress(int button) {
             if (!m_installedGames.empty()) {
                 int idx = std::clamp(m_myGamesSelectedIndex, 0, static_cast<int>(m_installedGames.size()) - 1);
                 const auto& g = m_installedGames[idx];
-                if (g.hasBackup) {
+                if (g.installedCoversCount > 1) {
+                    executeCycleNextCover(g.titleId);
+                    return;
+                } else if (g.hasBackup) {
                     m_pendingActionTitleId = g.titleId;
                     m_activeDialog = DialogType::ConfirmRestore;
                     m_dialogOpenedAt = SDL_GetTicks();
@@ -4018,12 +4092,19 @@ void App::renderTabMyGames() {
         drawText(selGame.name, 530, 110, Theme::COLOR_TEXT_PRIMARY, 22, 410);
         drawText("Title ID: " + selGame.titleId + "  |  " + selGame.author, 530, 145, Theme::COLOR_TEXT_MUTED, 14, 410);
 
-        // Status details
+        // Status details (with multi-cover support)
         std::string coverInfo;
         if (selGame.hasInstalledCover && selGame.hasInstalledIcon) {
-            coverInfo = "Активно на консоли: Видеофон (" + std::to_string(selGame.installedCoverSizeBytes / 1024) + " KB) + Иконка 4IFIR (" + std::to_string(selGame.installedIconSizeBytes / 1024) + " KB)";
+            std::string covSub = (selGame.installedCoversCount > 1)
+                ? (std::to_string(selGame.installedCoversCount) + " видеофона (активный + " + std::to_string(selGame.installedCoversCount - 1) + " доп.)")
+                : ("Видеофон (" + std::to_string(selGame.installedCoverSizeBytes / 1024) + " KB)");
+            coverInfo = "Активно: " + covSub + " + Иконка 4IFIR (" + std::to_string(selGame.installedIconSizeBytes / 1024) + " KB)";
         } else if (selGame.hasInstalledCover) {
-            coverInfo = "Активный видеофон: " + Config::getTargetCoverFileName(selGame.titleId) + " (" + std::to_string(selGame.installedCoverSizeBytes / 1024) + " KB)";
+            if (selGame.installedCoversCount > 1) {
+                coverInfo = "Активный фон: " + Config::getTargetCoverFileName(selGame.titleId) + "  |  Всего: " + std::to_string(selGame.installedCoversCount) + " видеофона ([-] Сменить фон)";
+            } else {
+                coverInfo = "Активный видеофон: " + Config::getTargetCoverFileName(selGame.titleId) + " (" + std::to_string(selGame.installedCoverSizeBytes / 1024) + " KB)";
+            }
         } else if (selGame.hasInstalledIcon) {
             coverInfo = "Активно на консоли: Иконка 4IFIR (" + std::to_string(selGame.installedIconSizeBytes / 1024) + " KB, без видеофона)";
         } else {

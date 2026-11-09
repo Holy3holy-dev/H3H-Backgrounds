@@ -223,14 +223,14 @@ class ExpressProcessor:
             sq_size = video_h
             max_offset = video_w - video_h
             offset_x = int(max_offset * (max(0.0, min(100.0, crop_pan_percent)) / 100.0))
-            crop_filter = f"crop={sq_size}:{sq_size}:{offset_x}:0,scale=256:256:flags=fast_bilinear"
+            crop_filter = f"crop={sq_size}:{sq_size}:{offset_x}:0,scale=256:256:flags=lanczos,unsharp=3:3:0.6:3:3:0.0"
         elif video_h > video_w:
             sq_size = video_w
             max_offset = video_h - video_w
             offset_y = int(max_offset * (max(0.0, min(100.0, crop_pan_percent)) / 100.0))
-            crop_filter = f"crop={sq_size}:{sq_size}:0:{offset_y},scale=256:256:flags=fast_bilinear"
+            crop_filter = f"crop={sq_size}:{sq_size}:0:{offset_y},scale=256:256:flags=lanczos,unsharp=3:3:0.6:3:3:0.0"
         else:
-            crop_filter = "scale=256:256:flags=fast_bilinear"
+            crop_filter = "scale=256:256:flags=lanczos,unsharp=3:3:0.6:3:3:0.0"
 
         cmd = [
             "ffmpeg", "-y", "-nostdin",

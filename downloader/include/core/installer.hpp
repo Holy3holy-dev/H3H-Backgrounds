@@ -17,7 +17,39 @@ struct InstallResult {
 
 class Installer {
 public:
-    // Finds existing cover on disk (strictly case-insensitive match for FAT32/exFAT compatibility)
+    // Finds existing cover on disk (strictly case-insensitive match for FAT32/exFAT compatibility)    // Multi-cover variant detection (TITLEID.mp4, TITLEID_1.mp4, TITLEID_2.mp4...)
+    static std::vector<InstalledCoverVariant> findInstalledCoverVariants(
+        const std::string& coversDir,
+        const std::string& titleId
+    );
+
+    static std::string getNextAvailableCoverPath(
+        const std::string& coversDir,
+        const std::string& titleId,
+        int* outIndex = nullptr
+    );
+
+    // Switch active cover (atomic swap between TITLEID.mp4 and TITLEID_<targetIndex>.mp4)
+    static bool switchActiveCover(
+        const std::string& coversDir,
+        const std::string& titleId,
+        int targetIndex
+    );
+
+    // Delete single variant (or active)
+    static bool deleteCoverVariant(
+        const std::string& coversDir,
+        const std::string& titleId,
+        int index
+    );
+
+    // Delete all variants for a game
+    static bool deleteAllCoverVariants(
+        const std::string& coversDir,
+        const std::string& titleId
+    );
+
+
     static bool findExistingCover(
         const std::string& coversDir,
         const std::string& titleId,

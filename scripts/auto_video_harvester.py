@@ -962,7 +962,7 @@ class AutoVideoHarvester:
 
         if self.mode == "main":
             # Strictly curated Switch 1 games mapped to Wallpaper Engine /games/ repository tags & queries
-            for tid, gname, qlist in POPULAR_SWITCH_SFW_GAMES:
+            for tid, gname, qlist in sorted(POPULAR_SWITCH_SFW_GAMES, key=lambda item: len(games_map.get(item[0].upper(), {}).get('variants', []))):
                 vcount = len(games_map.get(tid.upper(), {}).get("variants", []))
                 if vcount < 65:
                     for q in qlist:
