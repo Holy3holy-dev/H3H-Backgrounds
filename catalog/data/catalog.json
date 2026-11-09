@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T06:19:54.959894+00:00",
+  "updatedAt": "2026-11-09T06:20:35.834504+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -34041,6 +34041,24 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_e309095d",
+          "name": "DOOM",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14bbEQU4lk_ovDXXbsrmpTfDL6p3m6WNy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14bbEQU4lk_ovDXXbsrmpTfDL6p3m6WNy&sz=w640",
+          "sizeBytes": 1471142,
+          "sha256": "E27E6BECDE9D091DBE3C0243028E67D02BAA9E7D9C1E820011845F235D57692B",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | DOOM"
         }
       ]
     },
@@ -60718,6 +60736,6 @@
     }
   ],
   "totalGames": 1298,
-  "totalVariants": 2697,
-  "lastUpdated": "2026-11-09T06:19:54.959894+00:00"
+  "totalVariants": 2698,
+  "lastUpdated": "2026-11-09T06:20:35.834504+00:00"
 }
