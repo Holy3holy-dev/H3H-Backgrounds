@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T21:04:19.162845+00:00",
+  "updatedAt": "2026-11-09T21:07:22.017606+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -79528,9 +79528,269 @@
           "notes": "Switch 720p 30fps H264 | Paint the Town Red — Paint the Town Red "
         }
       ]
+    },
+    {
+      "titleId": "0100C5601815E000",
+      "title": "Rise of the Triad Ludicrous edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C5601815E000.jpg",
+      "variants": [
+        {
+          "id": "v_62d71c43",
+          "name": "Rise of the Triad: Ludicrous Edition — ROTT Ludi",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bVkAtu5JrRLYG1-I_u-lwMRT7VwsTu2I",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bVkAtu5JrRLYG1-I_u-lwMRT7VwsTu2I&sz=w640",
+          "sizeBytes": 5583023,
+          "sha256": "49BB6F99063C26C14A3D64E70695B5AD3A97762DFD3EF29A19C59DB26B848FC8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rise of the Triad: Ludicrous Edition — R"
+        }
+      ]
+    },
+    {
+      "titleId": "01007B501C07A000",
+      "title": "Hookah Haze",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007B501C07A000.jpg",
+      "variants": [
+        {
+          "id": "v_e0df6eff",
+          "name": "Hookah Haze — Hookah Haze PV（Now On Sale）",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Hisi_NgH63XJIJ-yc8VGJeWZXdLt7-BU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Hisi_NgH63XJIJ-yc8VGJeWZXdLt7-BU&sz=w640",
+          "sizeBytes": 4875743,
+          "sha256": "C5A8E5C7B959FA343799C0FE02E0B431D9E5852F0F7DCAF46BE4C9B367573246",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hookah Haze — Hookah Haze PV（Now On Sale"
+        }
+      ]
+    },
+    {
+      "titleId": "01004A400C320000",
+      "title": "Momodora: Reverie Under the Moonlight",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004A400C320000.jpg",
+      "variants": [
+        {
+          "id": "v_3961bdf7",
+          "name": "Momodora: Reverie Under The Moonlight — Momodora",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=106jNQlm1hkqGwKhi6RVoRPIIhqo0is0X",
+          "previewUrl": "https://drive.google.com/thumbnail?id=106jNQlm1hkqGwKhi6RVoRPIIhqo0is0X&sz=w640",
+          "sizeBytes": 2629237,
+          "sha256": "3533ABCA7AB238EC9992D9520F512A9FA2BE3A9802C400A24919B45CDD9F7A19",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Momodora: Reverie Under The Moonlight — "
+        }
+      ]
+    },
+    {
+      "titleId": "01005950022EC000",
+      "title": "Blade Strangers",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005950022EC000.jpg",
+      "variants": [
+        {
+          "id": "v_910af371",
+          "name": "Blade Strangers — Release Date Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VgZeZm9aOen3NfUp0jbXH_KSicOlznTt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VgZeZm9aOen3NfUp0jbXH_KSicOlznTt&sz=w640",
+          "sizeBytes": 5520992,
+          "sha256": "973729F89CDC021C5AC87DAEA678C98722D6FC5D12CCDDE91A47D1FFC66F89A1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Blade Strangers — Release Date Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010028901FF00000",
+      "title": "The Beast Inside",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010028901FF00000.jpg",
+      "variants": [
+        {
+          "id": "v_2020c058",
+          "name": "The Beast Inside — The Beast Inside Launch Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11rnR2X_VxHtR_UjW6wA_JZcFqGmI_Ini",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11rnR2X_VxHtR_UjW6wA_JZcFqGmI_Ini&sz=w640",
+          "sizeBytes": 5429169,
+          "sha256": "C9F37E045195E576DE5DA24DB234DD735289A0D24688882D439F715F7D7644D1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Beast Inside — The Beast Inside Laun"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AFE01EC6C000",
+      "title": "Kiborg",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AFE01EC6C000.jpg",
+      "variants": [
+        {
+          "id": "v_5e0e333e",
+          "name": "KIBORG — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pibb9z9qeYlwmJ-aovglWU75K_WYAV2J",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pibb9z9qeYlwmJ-aovglWU75K_WYAV2J&sz=w640",
+          "sizeBytes": 5535524,
+          "sha256": "6CE63016ED121A5736D238162A608E7E61DF7C3FA0555A031B4296A685FFD522",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | KIBORG — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010014902640A000",
+      "title": "Ebola Village",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010014902640A000.jpg",
+      "variants": [
+        {
+          "id": "v_fc1c7558",
+          "name": "EBOLA VILLAGE — EBOLA VILLAGE - Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KzZLAivg35YLznpxIjJKSAy_zA-omxtD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KzZLAivg35YLznpxIjJKSAy_zA-omxtD&sz=w640",
+          "sizeBytes": 5437567,
+          "sha256": "764AE372C9FBCC911AA647D5B0A7150414B2F87B671BDAD925C0324197195FE5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | EBOLA VILLAGE — EBOLA VILLAGE - Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E8300A67A000",
+      "title": "Risk Global Domination",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E8300A67A000.jpg",
+      "variants": [
+        {
+          "id": "v_c8fb9238",
+          "name": "RISK: Global Domination — RISK Steam Release Tra",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kHb4o_Cl7qd25ZYhMab3DhedKAQGIhdf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kHb4o_Cl7qd25ZYhMab3DhedKAQGIhdf&sz=w640",
+          "sizeBytes": 5246126,
+          "sha256": "E945C153335EE5AA81E6F635BAD9FFF25DA115C2C1BD54223198CC4EBAE4BB52",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | RISK: Global Domination — RISK Steam Rel"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B8D022F6A000",
+      "title": "Bosorka",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B8D022F6A000.jpg",
+      "variants": [
+        {
+          "id": "v_b5012921",
+          "name": "Bosorka — Bosorka Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jFawFleZMzhtMesUW2gFLgQ7GLRWzYqr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jFawFleZMzhtMesUW2gFLgQ7GLRWzYqr&sz=w640",
+          "sizeBytes": 5538033,
+          "sha256": "F2C4F0E34500C22D486DF8AD5FB839699A0F44FA699F94B3488378ECCD45AB68",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bosorka — Bosorka Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FBE015910000",
+      "title": "The Legend of Heroes: Trails to Azure",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FBE015910000.jpg",
+      "variants": [
+        {
+          "id": "v_5c20cc5f",
+          "name": "The Legend of Heroes: Trails to Azure — Launch T",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eaape_hMHJceYWOEhYxmJp68k7scdMu5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eaape_hMHJceYWOEhYxmJp68k7scdMu5&sz=w640",
+          "sizeBytes": 4602571,
+          "sha256": "A56B1A6EADB0E19392146655650CDDBBFEBCD9EDB404B7CDA11DF188349C0112",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Legend of Heroes: Trails to Azure — "
+        }
+      ]
     }
   ],
-  "totalGames": 2003,
-  "totalVariants": 3427,
-  "lastUpdated": "2026-11-09T21:04:19.162845+00:00"
+  "totalGames": 2013,
+  "totalVariants": 3437,
+  "lastUpdated": "2026-11-09T21:07:22.017606+00:00"
 }
