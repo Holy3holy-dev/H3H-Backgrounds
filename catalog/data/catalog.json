@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T21:10:15.927480+00:00",
+  "updatedAt": "2026-11-09T21:13:13.118992+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -80048,9 +80048,269 @@
           "notes": "Switch 720p 30fps H264 | SpiderHeck — Release trailer"
         }
       ]
+    },
+    {
+      "titleId": "01005420101DA000",
+      "title": "The Legend of Heroes: Trails of Cold Steel III",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005420101DA000.jpg",
+      "variants": [
+        {
+          "id": "v_ab65422c",
+          "name": "The Legend of Heroes: Trails of Cold Steel III —",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12qMOLrBIO29_hhCciq29utFN5RoWPfYX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12qMOLrBIO29_hhCciq29utFN5RoWPfYX&sz=w640",
+          "sizeBytes": 2803954,
+          "sha256": "BD636317E4BF398CB02991A3888DF787F138BA5DA7CD59E710A82817CDA011BE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Legend of Heroes: Trails of Cold Ste"
+        }
+      ]
+    },
+    {
+      "titleId": "01007D901FF7C000",
+      "title": "Riviera the Promised Land",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007D901FF7C000.jpg",
+      "variants": [
+        {
+          "id": "v_40348c12",
+          "name": "Riviera: The Promised Land — Riviera: The Promis",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SusPg2i_E0dgHvhcB7UIw7on9CYt_Y4a",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SusPg2i_E0dgHvhcB7UIw7on9CYt_Y4a&sz=w640",
+          "sizeBytes": 5241542,
+          "sha256": "EFBC6AC9FF74B8A6DC79F6F64E9BA8C06F352FED60E9E918193636B15775F716",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Riviera: The Promised Land — Riviera: Th"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F05015052000",
+      "title": "Rise of the Third Power",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F05015052000.jpg",
+      "variants": [
+        {
+          "id": "v_831f63f0",
+          "name": "Rise of the Third Power — Release Date Announcem",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PRKuNAPHGJP4rw5XiSlyB7oRfrtEAHGK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PRKuNAPHGJP4rw5XiSlyB7oRfrtEAHGK&sz=w640",
+          "sizeBytes": 4885863,
+          "sha256": "1007176C3EFFB3C27DC3AEDD604F00968D0710BDE4CF6A660F3C8D64CC585DDC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rise of the Third Power — Release Date A"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DF100B97C000",
+      "title": "X-Morph Defense",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DF100B97C000.jpg",
+      "variants": [
+        {
+          "id": "v_f46ce5d3",
+          "name": "X-Morph: Defense — X-Morph: Defense Announcemet ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ThT8nfSzbh56L6SmpTfCIBfPfmJiiOhq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ThT8nfSzbh56L6SmpTfCIBfPfmJiiOhq&sz=w640",
+          "sizeBytes": 4785331,
+          "sha256": "420365D05E7BD1971324F6D4CE0F6A48A076C20646A3426460757924A30AC2DF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | X-Morph: Defense — X-Morph: Defense Anno"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A4401D164000",
+      "title": "Tales of Graces F Remastered",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A4401D164000.jpg",
+      "variants": [
+        {
+          "id": "v_54d65f07",
+          "name": "Tales of Graces f Remastered — Tales of Graces f",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1agQAZ-p6lSP3jIPpkVZAD_T7Fh0TAVHX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1agQAZ-p6lSP3jIPpkVZAD_T7Fh0TAVHX&sz=w640",
+          "sizeBytes": 3112247,
+          "sha256": "3B5A64F3FDF38CD00A3DB74F10C6AA065984D4A5D0BFB0A5FC848C823A88C256",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tales of Graces f Remastered — Tales of "
+        }
+      ]
+    },
+    {
+      "titleId": "010085801B348000",
+      "title": "Fling to the Finish",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010085801B348000.jpg",
+      "variants": [
+        {
+          "id": "v_142feb28",
+          "name": "Fling to the Finish — 1.0 Trailer EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15f4eGjdDEnyVieh5N4HIX6--S6tlwMSC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15f4eGjdDEnyVieh5N4HIX6--S6tlwMSC&sz=w640",
+          "sizeBytes": 5136295,
+          "sha256": "392CB9F0EB720CB84241851ED8460E555BC19B4624D48910743AB99433473738",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fling to the Finish — 1.0 Trailer EN"
+        }
+      ]
+    },
+    {
+      "titleId": "010019C023004000",
+      "title": "Until Then",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010019C023004000.jpg",
+      "variants": [
+        {
+          "id": "v_e2c05be8",
+          "name": "Until Then — Until Then - Accolades Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-x-xrCuA9KzlPRoV1572o1Kw2IyLcv6B",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-x-xrCuA9KzlPRoV1572o1Kw2IyLcv6B&sz=w640",
+          "sizeBytes": 5365402,
+          "sha256": "9D5AC6AB05E38DBDCDD428FE910889315A9FA1318D9277849EA79C0902DA6980",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Until Then — Until Then - Accolades Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "010034300F0E2000",
+      "title": "Dungeon of the Endless",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010034300F0E2000.jpg",
+      "variants": [
+        {
+          "id": "v_f607de21",
+          "name": "Dungeon of the ENDLESS™ — Dungeon of the Endless",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oDJgNi4-TUodW5ZRcUlkC2gURpODtGUm",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oDJgNi4-TUodW5ZRcUlkC2gURpODtGUm&sz=w640",
+          "sizeBytes": 4700545,
+          "sha256": "B90FC28A1F284E6D72BE93DDFFC9F74FFB5EAE76ECB6D19F506A44ACF7E07586",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dungeon of the ENDLESS™ — Dungeon of the"
+        }
+      ]
+    },
+    {
+      "titleId": "01002A4021B86000",
+      "title": "Storm Lancers",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002A4021B86000.jpg",
+      "variants": [
+        {
+          "id": "v_beed8eaa",
+          "name": "Storm Lancers — Storm Lancers - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1z04PgWLsznrYC_rFeiEBfqq3pO0OZ4-4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1z04PgWLsznrYC_rFeiEBfqq3pO0OZ4-4&sz=w640",
+          "sizeBytes": 5559459,
+          "sha256": "186CE36633677B1A1389358FD89C29E5174BBC73147DB7CA4035FE6A8D4091A5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Storm Lancers — Storm Lancers - Launch T"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DAE01E9C6000",
+      "title": "Voidwrought",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DAE01E9C6000.jpg",
+      "variants": [
+        {
+          "id": "v_adfd54ed",
+          "name": "Voidwrought — Accolades Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FSoT7jsr-l3qkJck-k4l6gVWv8Qsr0DC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FSoT7jsr-l3qkJck-k4l6gVWv8Qsr0DC&sz=w640",
+          "sizeBytes": 5587551,
+          "sha256": "3E9709541E92B005BF892BBA6E3C27E74A8E8FB8CBDCD3D95D59C1AFC2849882",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Voidwrought — Accolades Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 2023,
-  "totalVariants": 3447,
-  "lastUpdated": "2026-11-09T21:10:15.927480+00:00"
+  "totalGames": 2033,
+  "totalVariants": 3457,
+  "lastUpdated": "2026-11-09T21:13:13.118992+00:00"
 }
