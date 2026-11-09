@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T20:36:40.627525+00:00",
+  "updatedAt": "2026-11-09T20:42:42.069743+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -77448,9 +77448,269 @@
           "notes": "Switch 720p 30fps H264 | Backpack Hero — 1.0 Launch"
         }
       ]
+    },
+    {
+      "titleId": "010008D020F8A000",
+      "title": "Rogue Flight",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010008D020F8A000.jpg",
+      "variants": [
+        {
+          "id": "v_4801e989",
+          "name": "ROGUE FLIGHT — Accolade Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ez3F3mBQY7en259u1VKgxI6GpHorjc3e",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ez3F3mBQY7en259u1VKgxI6GpHorjc3e&sz=w640",
+          "sizeBytes": 5456116,
+          "sha256": "5084EB9643A4DBA22C6390FC7C99E99A09D4EC6A59301A8B29F9B06B25060BDD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | ROGUE FLIGHT — Accolade Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01009B9017D8E000",
+      "title": "Pascal's Wager Definitive edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009B9017D8E000.jpg",
+      "variants": [
+        {
+          "id": "v_992e5f56",
+          "name": "Pascal's Wager: Definitive Edition — Pascal's Wa",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1e_yWo5DeEgK3QLoHMoeEdrqyW7sXs_31",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1e_yWo5DeEgK3QLoHMoeEdrqyW7sXs_31&sz=w640",
+          "sizeBytes": 3994098,
+          "sha256": "A6D08E19CEA644A7E32068DB8DDED61AE0F861C8B96F9250F8C160FD70DC6817",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Pascal's Wager: Definitive Edition — Pas"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D3C017780000",
+      "title": "Beacon Pines",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D3C017780000.jpg",
+      "variants": [
+        {
+          "id": "v_73380ce1",
+          "name": "Beacon Pines — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gm-ySCw8uAoX-Cjz8r-SjMVJywIALEgy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gm-ySCw8uAoX-Cjz8r-SjMVJywIALEgy&sz=w640",
+          "sizeBytes": 5309802,
+          "sha256": "5BD412F4B3314BB3284FF48FE1D3BF988A379C2A47A59916001DF82DD1E2EC0C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Beacon Pines — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01000BC01E3E6000",
+      "title": "Totally Spies Cyber Mission",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000BC01E3E6000.jpg",
+      "variants": [
+        {
+          "id": "v_9ed8d9f6",
+          "name": "Totally Spies! - Cyber Mission — Totally Spies! ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TCweZtio_q_fZaD8y9E5hnTXEGV2AJhP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TCweZtio_q_fZaD8y9E5hnTXEGV2AJhP&sz=w640",
+          "sizeBytes": 5467877,
+          "sha256": "16BB9CB2865779C999FD7C6D032D1D3254412E6DA324961F367BC103BB727A88",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Totally Spies! - Cyber Mission — Totally"
+        }
+      ]
+    },
+    {
+      "titleId": "0100849000BDA000",
+      "title": "I am Setsuna",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100849000BDA000.jpg",
+      "variants": [
+        {
+          "id": "v_59bdf26e",
+          "name": "I am Setsuna — I am Setsuna French PEGI EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hcjPmJbsDcVPyeUHUwF0cLBlJV7FbT3J",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hcjPmJbsDcVPyeUHUwF0cLBlJV7FbT3J&sz=w640",
+          "sizeBytes": 4907955,
+          "sha256": "9F66FCA21F9FE0A2C17B55544C8D15512ECE3A01CDEB4799AF4F21E865FB2B1E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | I am Setsuna — I am Setsuna French PEGI "
+        }
+      ]
+    },
+    {
+      "titleId": "010093C00F30A000",
+      "title": "Eldest Souls",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010093C00F30A000.jpg",
+      "variants": [
+        {
+          "id": "v_84c30730",
+          "name": "Eldest Souls — Launch_Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1620mL6U5WW_uKqOCLrqxnV_VxwgXPanW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1620mL6U5WW_uKqOCLrqxnV_VxwgXPanW&sz=w640",
+          "sizeBytes": 5359457,
+          "sha256": "73E9B1D79D8DFD22140C61470ED433B02A9F5224B4EDD42EEB7E4EC1E55277F9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Eldest Souls — Launch_Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100ECD017888000",
+      "title": "Life of Delta",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100ECD017888000.jpg",
+      "variants": [
+        {
+          "id": "v_ed53756b",
+          "name": "Life of Delta — Release Trailer EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nL3_Eo6UwXexFlfuGZbCeoYtOd_6GmA1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nL3_Eo6UwXexFlfuGZbCeoYtOd_6GmA1&sz=w640",
+          "sizeBytes": 5166892,
+          "sha256": "61226AD7EEBFD1698916D13A5D62B7AB4372B638CF4747DDF914D3E1F1818F5F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Life of Delta — Release Trailer EN"
+        }
+      ]
+    },
+    {
+      "titleId": "010038B00F142000",
+      "title": "Kaze and the Wild Masks",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010038B00F142000.jpg",
+      "variants": [
+        {
+          "id": "v_730ad36b",
+          "name": "Kaze and the Wild Masks — Kaze and the Wild Mask",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hKsyVB9O-mz0nSDN_Wwdh2VOuvafsNwd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hKsyVB9O-mz0nSDN_Wwdh2VOuvafsNwd&sz=w640",
+          "sizeBytes": 5405626,
+          "sha256": "92E1190888E553799EECACCAA89808BF961F295F2F34F9D88CEC99A490E5FE46",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kaze and the Wild Masks — Kaze and the W"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B0E010CF8000",
+      "title": "Creaks",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B0E010CF8000.jpg",
+      "variants": [
+        {
+          "id": "v_41c9d760",
+          "name": "Creaks — Creaks Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dmRtpHJ1vv9LJXixhpxD0rItvE3Z6Kus",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dmRtpHJ1vv9LJXixhpxD0rItvE3Z6Kus&sz=w640",
+          "sizeBytes": 5299710,
+          "sha256": "570946E60FC41266704D27DF4E7B23BCCAE89DDC7D1EC822B28C9FD3766F664B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Creaks — Creaks Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F46011B50000",
+      "title": "Asterix and Obelix XXL Romastered",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F46011B50000.jpg",
+      "variants": [
+        {
+          "id": "v_0d86bbff",
+          "name": "Asterix & Obelix XXL: Romastered — Asterix & Obe",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ypd9LtpYGHwhHa8LBRWYPZt0WmUrZ9oH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ypd9LtpYGHwhHa8LBRWYPZt0WmUrZ9oH&sz=w640",
+          "sizeBytes": 3969332,
+          "sha256": "1F804581686B12FE560B39CC274DD7863EC6B01C85D5FA919AB552AE08FA5402",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Asterix & Obelix XXL: Romastered — Aster"
+        }
+      ]
     }
   ],
-  "totalGames": 1923,
-  "totalVariants": 3347,
-  "lastUpdated": "2026-11-09T20:36:40.627525+00:00"
+  "totalGames": 1933,
+  "totalVariants": 3357,
+  "lastUpdated": "2026-11-09T20:42:42.069743+00:00"
 }
