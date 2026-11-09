@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T22:54:45.322332+00:00",
+  "updatedAt": "2026-11-09T22:57:38.703870+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -88628,9 +88628,269 @@
           "notes": "Switch 720p 30fps H264 | Wobbly Life — Wobbly Life - Space Update"
         }
       ]
+    },
+    {
+      "titleId": "01000D50144D2000",
+      "title": "Labyrinth City: Pierre the Maze Detective",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000D50144D2000.jpg",
+      "variants": [
+        {
+          "id": "v_0e61b598",
+          "name": "Labyrinth City: Pierre the Maze Detective — Laby",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QeykA13rXHnAIeNSBgyyw56IHeR6fqFd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QeykA13rXHnAIeNSBgyyw56IHeR6fqFd&sz=w640",
+          "sizeBytes": 3419415,
+          "sha256": "5F650E279D190366B93DF43962924BE182B068C2533A7FE5D6F6C21D869849A0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Labyrinth City: Pierre the Maze Detectiv"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B3202490A000",
+      "title": "Windswept",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B3202490A000.jpg",
+      "variants": [
+        {
+          "id": "v_4125fe34",
+          "name": "Windswept — Release Date",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OPNJYzaOC_XyRuvxUXDr74KEww414ljx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OPNJYzaOC_XyRuvxUXDr74KEww414ljx&sz=w640",
+          "sizeBytes": 5593231,
+          "sha256": "DD589AEA9590765CABBDB777B639BE9DB1D140B1A79F3E70D56C6E6DB7824AAE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Windswept — Release Date"
+        }
+      ]
+    },
+    {
+      "titleId": "0100086024282000",
+      "title": "Overpowered 2 Crux of Fate",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100086024282000.jpg",
+      "variants": [
+        {
+          "id": "v_67911799",
+          "name": "Overpowered 2 - Crux of Fate — Overpowered 2 - C",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MAszH1ZmdOA7c2vam8QMk6u7-9myRnL8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MAszH1ZmdOA7c2vam8QMk6u7-9myRnL8&sz=w640",
+          "sizeBytes": 5498609,
+          "sha256": "E2168C7A82906DE0AF49204FAD15361CBA2492D92F1512DE6F687513D89A6AB0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Overpowered 2 - Crux of Fate — Overpower"
+        }
+      ]
+    },
+    {
+      "titleId": "01000AF013090000",
+      "title": "Gravity Heroes",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000AF013090000.jpg",
+      "variants": [
+        {
+          "id": "v_781db4c6",
+          "name": "Gravity Heroes — Gravity Heroes - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11EgrIcgnDEVZ_dBA6Z0JjwcFnN9XZxG2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11EgrIcgnDEVZ_dBA6Z0JjwcFnN9XZxG2&sz=w640",
+          "sizeBytes": 5453747,
+          "sha256": "828955ADA6F1A0367735F827F368F61DC45177EC06198BAA560F97505ED4A978",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Gravity Heroes — Gravity Heroes - Launch"
+        }
+      ]
+    },
+    {
+      "titleId": "010066A019BAA000",
+      "title": "Hellboy Web of Wyrd",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010066A019BAA000.jpg",
+      "variants": [
+        {
+          "id": "v_6150fad4",
+          "name": "Hellboy Web of Wyrd — Launch trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-JLxTUEhUpCAPSG5R8PYuoMNt71lIonT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-JLxTUEhUpCAPSG5R8PYuoMNt71lIonT&sz=w640",
+          "sizeBytes": 5231107,
+          "sha256": "AEAFE66842C84EF5D44488B3B735D19F55C216A92DC617FD61795FB95C0B7C7F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hellboy Web of Wyrd — Launch trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01003F000973E000",
+      "title": "Metropolis Lux Obscura",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003F000973E000.jpg",
+      "variants": [
+        {
+          "id": "v_4718e35b",
+          "name": "Metropolis: Lux Obscura — Teaser",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VsrthdkXvRu-fZ2L7JvdyMtMfBSpHVOg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VsrthdkXvRu-fZ2L7JvdyMtMfBSpHVOg&sz=w640",
+          "sizeBytes": 5307034,
+          "sha256": "2721B607AACC1FD3288C6FCAD8009C3F200206B36435CE1D8E5DA1FC13A780B7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Metropolis: Lux Obscura — Teaser"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BA80222B0000",
+      "title": "Jerry Wanker and the Quest to get Laid",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BA80222B0000.jpg",
+      "variants": [
+        {
+          "id": "v_ba927eca",
+          "name": "Jerry Wanker and the Quest to get Laid — intro_f",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1j_q1aYJITwsKhGw6UO0Lb5YbpDiqAZ3_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1j_q1aYJITwsKhGw6UO0Lb5YbpDiqAZ3_&sz=w640",
+          "sizeBytes": 5380534,
+          "sha256": "37DE460F620DDBB871F0CA7BBE9AB9F154923D27E893E891E9D7D60FA3C671AB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Jerry Wanker and the Quest to get Laid —"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CFF0048D2000",
+      "title": "Milanoir",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CFF0048D2000.jpg",
+      "variants": [
+        {
+          "id": "v_266b3d70",
+          "name": "Milanoir — Milanoir - Cinematic Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1I8HYc1cIBl6OqYG-hhj_wAo3e0TpQPNT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1I8HYc1cIBl6OqYG-hhj_wAo3e0TpQPNT&sz=w640",
+          "sizeBytes": 4390548,
+          "sha256": "2EB872B9CDAAC3207A636CE6E7671A8B3FEFDBB0189C44AF88A5313F0971E937",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Milanoir — Milanoir - Cinematic Launch T"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E0F01C24A000",
+      "title": "Symphonia",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E0F01C24A000.jpg",
+      "variants": [
+        {
+          "id": "v_ac355a4b",
+          "name": "Tales of Symphonia — Trailer 1",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1grfsrsd-sTAXji-3OftvM938b1439kAT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1grfsrsd-sTAXji-3OftvM938b1439kAT&sz=w640",
+          "sizeBytes": 4039280,
+          "sha256": "EDDA7BBF42E4F42A681651F40B36B87D4D907C8D81099C33E677B1FD8696CDA3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tales of Symphonia — Trailer 1"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FAE017F88000",
+      "title": "Wobbledogs",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FAE017F88000.jpg",
+      "variants": [
+        {
+          "id": "v_cf5d4a03",
+          "name": "Wobbledogs — Wobbledog 1.0 Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qq5Rt-yxUcN4WyipqRz2sVC6gf66PtvH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qq5Rt-yxUcN4WyipqRz2sVC6gf66PtvH&sz=w640",
+          "sizeBytes": 5230358,
+          "sha256": "ACA89378BB594F4F1F152D58484CBCF60C44FF88CE1BCD9D3F4A55A6E3F2AEB1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wobbledogs — Wobbledog 1.0 Launch Traile"
+        }
+      ]
     }
   ],
-  "totalGames": 2353,
-  "totalVariants": 3777,
-  "lastUpdated": "2026-11-09T22:54:45.322332+00:00"
+  "totalGames": 2363,
+  "totalVariants": 3787,
+  "lastUpdated": "2026-11-09T22:57:38.703870+00:00"
 }
