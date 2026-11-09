@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T06:16:27.755923+00:00",
+  "updatedAt": "2026-11-09T06:17:16.515706+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -15484,6 +15484,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | The Eternal Hunters Kindred League Of Le | ЗВУК"
+        },
+        {
+          "id": "v_3ba44dec",
+          "name": "Zinogre Monster Hunter",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1JHCIlxEUaSzXo3inm9y25u09lYwE8C5V",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1JHCIlxEUaSzXo3inm9y25u09lYwE8C5V&sz=w640",
+          "sizeBytes": 956354,
+          "sha256": "0E530EB6FE08B764B3AA744879208173414F811A122329B0C7B92BC590CF0338",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Zinogre Monster Hunter"
+        },
+        {
+          "id": "v_a360bfb4",
+          "name": "Afflicted Zinogre Monster Hunter Rise",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Yn_kNRTv8DjaqkBCOJ93tw7ovhlylGw4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Yn_kNRTv8DjaqkBCOJ93tw7ovhlylGw4&sz=w640",
+          "sizeBytes": 1829981,
+          "sha256": "55B39EC3F8B8E84723D40A2EB804641720605694E5A85FEEBD7527945695A8DE",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Afflicted Zinogre Monster Hunter Rise"
         }
       ]
     },
@@ -60628,6 +60664,6 @@
     }
   ],
   "totalGames": 1298,
-  "totalVariants": 2692,
-  "lastUpdated": "2026-11-09T06:16:27.755923+00:00"
+  "totalVariants": 2694,
+  "lastUpdated": "2026-11-09T06:17:16.515706+00:00"
 }
