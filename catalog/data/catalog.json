@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T23:03:20.561022+00:00",
+  "updatedAt": "2026-11-09T23:06:09.248996+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -89408,9 +89408,269 @@
           "notes": "Switch 720p 30fps H264 | Can't Drive This — Trailer English ESRB"
         }
       ]
+    },
+    {
+      "titleId": "010088D014258000",
+      "title": "Matchpoint Tennis Championships",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010088D014258000.jpg",
+      "variants": [
+        {
+          "id": "v_42c18aab",
+          "name": "Matchpoint - Tennis Championships — Matchpoint -",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XmBdwszPom5UhmdBEGoiUMQfbG2buW_i",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XmBdwszPom5UhmdBEGoiUMQfbG2buW_i&sz=w640",
+          "sizeBytes": 5324289,
+          "sha256": "0FA0BD0C528CADC109D3109A7E038B205B32096E54ECCF94BB7249B14571E3C7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Matchpoint - Tennis Championships — Matc"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BE301CD42000",
+      "title": "Slave Zero X",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BE301CD42000.jpg",
+      "variants": [
+        {
+          "id": "v_b1a46cae",
+          "name": "Slave Zero X — Slave Zero X Steam Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rtbhX-fS3pBAk3xEt5mRC4PpvI4eQ3tf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rtbhX-fS3pBAk3xEt5mRC4PpvI4eQ3tf&sz=w640",
+          "sizeBytes": 4729051,
+          "sha256": "90732C08E80B07FE4CD56F83BBCDD8F963DC516CA273B8861D010D9D24E37313",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Slave Zero X — Slave Zero X Steam Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "0100842014E72000",
+      "title": "Webbed",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100842014E72000.jpg",
+      "variants": [
+        {
+          "id": "v_d898ab36",
+          "name": "Webbed — Webbed - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1N_XL_TdBEQHKxFZ-Fczrda3mGWpW31x8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1N_XL_TdBEQHKxFZ-Fczrda3mGWpW31x8&sz=w640",
+          "sizeBytes": 5527524,
+          "sha256": "6E568EC485F81906E84D365CF93F16B13667258B13F9DB251FFC9ED73F4D5E40",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Webbed — Webbed - Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01006C4014720000",
+      "title": "Murder Mystery Machine",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006C4014720000.jpg",
+      "variants": [
+        {
+          "id": "v_f1c29adb",
+          "name": "Murder Mystery Machine — Launch Trailer - Murder",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RloSEVvGZ3Z_B7skj7x32dtPxi-oUEsS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RloSEVvGZ3Z_B7skj7x32dtPxi-oUEsS&sz=w640",
+          "sizeBytes": 5437152,
+          "sha256": "D91D95633AC7746070DC29CA7231F87297F259E751AD1688856277E6E278305F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Murder Mystery Machine — Launch Trailer "
+        }
+      ]
+    },
+    {
+      "titleId": "01004A40167C2000",
+      "title": "Pocky & Rocky Reshrined",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004A40167C2000.jpg",
+      "variants": [
+        {
+          "id": "v_96db188e",
+          "name": "Pocky & Rocky Reshrined — kikikaikai_PV05",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wpP6JSpB8yPgbH78APT65oKOa-yHboHL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wpP6JSpB8yPgbH78APT65oKOa-yHboHL&sz=w640",
+          "sizeBytes": 4122560,
+          "sha256": "BCA942D128CDF5A30093CC15DCEEED74DF878621CCA55B8570B0918D22349184",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Pocky & Rocky Reshrined — kikikaikai_PV0"
+        }
+      ]
+    },
+    {
+      "titleId": "01000850037C0000",
+      "title": "The Count Lucanor",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000850037C0000.jpg",
+      "variants": [
+        {
+          "id": "v_071fb00d",
+          "name": "The Count Lucanor — Second Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=181KbNFauu20PkfAEvdLhS6l_hCaIDkeC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=181KbNFauu20PkfAEvdLhS6l_hCaIDkeC&sz=w640",
+          "sizeBytes": 5342481,
+          "sha256": "48851F4D55682ED3F34176D03302A55645FEC25B54C8D5C7720A91FA56782E84",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Count Lucanor — Second Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010009F011FB2000",
+      "title": "Spectacular Sparky",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010009F011FB2000.jpg",
+      "variants": [
+        {
+          "id": "v_c2bd3cb7",
+          "name": "Spectacular Sparky — Sparky Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RYy8iuctZ33Uj0RRn4bev1TtElo9Z17_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RYy8iuctZ33Uj0RRn4bev1TtElo9Z17_&sz=w640",
+          "sizeBytes": 5303466,
+          "sha256": "BFEB194B8F5F5A5378803B3E57C649C6BBC80F06E2E98B71A29A7777173FC443",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Spectacular Sparky — Sparky Launch Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E2F0128B4000",
+      "title": "Colossus Down",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E2F0128B4000.jpg",
+      "variants": [
+        {
+          "id": "v_9462faf5",
+          "name": "Colossus Down — Get ready for destruction",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1drykBNs00lr4Qu4NQMMRx7ckUfrgKc_R",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1drykBNs00lr4Qu4NQMMRx7ckUfrgKc_R&sz=w640",
+          "sizeBytes": 5543150,
+          "sha256": "F6F7A5F10541B86C3F43BC22D6D371824571803C01E2C9E3900BF301C24110E8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Colossus Down — Get ready for destructio"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FBD00ED24000",
+      "title": "Monkey Barrels",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FBD00ED24000.jpg",
+      "variants": [
+        {
+          "id": "v_99e28b3d",
+          "name": "Monkey Barrels — Coming Soon Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hCn1JprGFTM6jPg5DJQ_zynsIv6i9GPF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hCn1JprGFTM6jPg5DJQ_zynsIv6i9GPF&sz=w640",
+          "sizeBytes": 5237442,
+          "sha256": "30F6BF1D60DCDBBCA7EE876FFA4DB7F0CDAC5A97233A09BDDB33C0DEE4A9EC60",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Monkey Barrels — Coming Soon Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01005441A6FFD000",
+      "title": "Time Treker",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005441A6FFD000.jpg",
+      "variants": [
+        {
+          "id": "v_3667a6c4",
+          "name": "Time Treker — EA Release trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1YlFTeDPK4IFCcgIwfTxqlOLNUcjwT8WM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1YlFTeDPK4IFCcgIwfTxqlOLNUcjwT8WM&sz=w640",
+          "sizeBytes": 5139894,
+          "sha256": "B8BA84B10383C133FEE00F815213D2DAC5D4B251CEE33EF211F7641DC8E4464B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Time Treker — EA Release trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 2383,
-  "totalVariants": 3807,
-  "lastUpdated": "2026-11-09T23:03:20.561022+00:00"
+  "totalGames": 2393,
+  "totalVariants": 3817,
+  "lastUpdated": "2026-11-09T23:06:09.248996+00:00"
 }
