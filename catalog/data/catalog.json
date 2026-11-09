@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T06:17:16.515706+00:00",
+  "updatedAt": "2026-11-09T06:18:08.567803+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -16153,6 +16153,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Hrothgar Final Fantasy XIV"
+        },
+        {
+          "id": "v_c6fcec5b",
+          "name": "Final Fantasy VII Main Menu Theme Buster Swor",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1aeCVS5jfSPZtJqYfssFFChFL--R4MjAD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1aeCVS5jfSPZtJqYfssFFChFL--R4MjAD&sz=w640",
+          "sizeBytes": 562096,
+          "sha256": "1EE77F468277B3F78CAA7F56B68CC4F0EB6D04CBE40AD7912B8CDA2BFE02F3F5",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Final Fantasy VII Main Menu Theme Bust"
+        },
+        {
+          "id": "v_29f9e47a",
+          "name": "Dark Knight Final Fantasy XIV",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vjWO0IUnX3PBs5WBZjACYe86exRNbJLN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vjWO0IUnX3PBs5WBZjACYe86exRNbJLN&sz=w640",
+          "sizeBytes": 2039851,
+          "sha256": "C41D9DBA65A841800A0284BB59424DB7C76BE90811D9BFB9AC1E671D55559D27",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dark Knight Final Fantasy XIV"
         }
       ]
     },
@@ -60664,6 +60700,6 @@
     }
   ],
   "totalGames": 1298,
-  "totalVariants": 2694,
-  "lastUpdated": "2026-11-09T06:17:16.515706+00:00"
+  "totalVariants": 2696,
+  "lastUpdated": "2026-11-09T06:18:08.567803+00:00"
 }
