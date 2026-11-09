@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T11:01:31.375570+00:00",
+  "updatedAt": "2026-11-09T11:02:09.182101+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -4336,6 +4336,60 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | The Elder Scrolls V: Skyrim Hero"
+        },
+        {
+          "id": "v_19b5541d",
+          "name": "Kasumi Yoshizawa Persona 5 Royal X Heaven Burns ",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1d8z2BGt0whOWLdsf5xlaH0ohe91VnZt1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1d8z2BGt0whOWLdsf5xlaH0ohe91VnZt1&sz=w640",
+          "sizeBytes": 4275120,
+          "sha256": "30D9424A13B1FDD477C91DD73C416D9BB6050693D01C56997ACAD734753FFD1C",
+          "durationSec": 18.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Kasumi Yoshizawa Persona 5 Royal X Heave"
+        },
+        {
+          "id": "v_62f49984",
+          "name": "Persona 5 Tokyo Rainy Night",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lbsp8wuoZAPtI7OrUaf7Zvbmtj1DAys6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lbsp8wuoZAPtI7OrUaf7Zvbmtj1DAys6&sz=w640",
+          "sizeBytes": 1507628,
+          "sha256": "B86B99647B55199E85A47382757EB48AA0EB0A8113FE0977C9333B9DAF3D0E3C",
+          "durationSec": 18.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Persona 5 Tokyo Rainy Night"
+        },
+        {
+          "id": "v_b2d38151",
+          "name": "Joker Persona 5 Royal",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KbslCJQf5GeRaii76UedO5iBgPsuW4DQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KbslCJQf5GeRaii76UedO5iBgPsuW4DQ&sz=w640",
+          "sizeBytes": 1226863,
+          "sha256": "A907CFAD803BFB2603246B16DB63547A12922983231F40EFEF85B4645A1DACE8",
+          "durationSec": 18.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Joker Persona 5 Royal"
         }
       ]
     },
@@ -61266,6 +61320,6 @@
     }
   ],
   "totalGames": 1307,
-  "totalVariants": 2722,
-  "lastUpdated": "2026-11-09T11:01:31.375570+00:00"
+  "totalVariants": 2725,
+  "lastUpdated": "2026-11-09T11:02:09.182101+00:00"
 }
