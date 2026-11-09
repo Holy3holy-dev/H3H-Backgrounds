@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T21:24:55.327362+00:00",
+  "updatedAt": "2026-11-09T21:30:31.320170+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -81348,9 +81348,269 @@
           "notes": "Switch 720p 30fps H264 | The Tale of Bistun — The Tale of Bistun "
         }
       ]
+    },
+    {
+      "titleId": "0100416008A12000",
+      "title": "Onimusha Warlords",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100416008A12000.jpg",
+      "variants": [
+        {
+          "id": "v_693b8a78",
+          "name": "Onimusha: Warlords — Onimusha: Warlords Trailer_",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ta-CXjNMNBg9OMb24w0upNQiLNGx8hmX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ta-CXjNMNBg9OMb24w0upNQiLNGx8hmX&sz=w640",
+          "sizeBytes": 2548304,
+          "sha256": "347A07029C7894CA37BDBC1C4524D5891E35FCE1E0A901C55F35ACBD45BF98EC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Onimusha: Warlords — Onimusha: Warlords "
+        }
+      ]
+    },
+    {
+      "titleId": "01008FD01FD42000",
+      "title": "Onimusha 2 Samurai's Destiny",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008FD01FD42000.jpg",
+      "variants": [
+        {
+          "id": "v_d3fc4c7e",
+          "name": "Onimusha 2: Samurai's Destiny — 07_Onimusha2_PV3",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VpQ1uR0Sw1B-OpQAC3hbmhS9dWnZPrnO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VpQ1uR0Sw1B-OpQAC3hbmhS9dWnZPrnO&sz=w640",
+          "sizeBytes": 4803498,
+          "sha256": "495DCD0A3C3222BDA5AF2F3AB635E8BB77D54AF8311AFDE1680F609FF7B7EF25",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Onimusha 2: Samurai's Destiny — 07_Onimu"
+        }
+      ]
+    },
+    {
+      "titleId": "010029F01BA3E000",
+      "title": "Xuan Yuan Sword VII",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010029F01BA3E000.jpg",
+      "variants": [
+        {
+          "id": "v_2f5c1391",
+          "name": "Xuan-Yuan Sword VII — X7_PV04_EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1YK4STrUghIaF8EeZFM0q9NjP8xYyQrqe",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1YK4STrUghIaF8EeZFM0q9NjP8xYyQrqe&sz=w640",
+          "sizeBytes": 4743706,
+          "sha256": "4065C29416972763F45D16FDD7CDA24245DA0E1E9443289482F35D671ECEB49B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Xuan-Yuan Sword VII — X7_PV04_EN"
+        }
+      ]
+    },
+    {
+      "titleId": "0100118016036000",
+      "title": "Hatsune Miku Connecting Puzzle Tamagotori",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100118016036000.jpg",
+      "variants": [
+        {
+          "id": "v_87e2985b",
+          "name": "Hatsune Miku Connecting Puzzle TAMAGOTORI Deluxe",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TnuAzDWJEpCyqDaHBxjylDY5UuEW38ce",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TnuAzDWJEpCyqDaHBxjylDY5UuEW38ce&sz=w640",
+          "sizeBytes": 5322196,
+          "sha256": "E0FBF57597C03CFA4AFA1997892EC1FEB8114AB197021103007F5BF7085C6378",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hatsune Miku Connecting Puzzle TAMAGOTOR"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D0B01135C000",
+      "title": "Cyanide and Happiness Freakpocalypse",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D0B01135C000.jpg",
+      "variants": [
+        {
+          "id": "v_45e95a81",
+          "name": "Cyanide & Happiness - Freakpocalypse (Episode 1)",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hS9PLRQvUBCkVE3-YGbENWNODLavut0Y",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hS9PLRQvUBCkVE3-YGbENWNODLavut0Y&sz=w640",
+          "sizeBytes": 4591105,
+          "sha256": "F7F9AB950B80B3F2346F6CF152FA3B8123B615DAA4F7050C9871C20E46CAABE8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cyanide & Happiness - Freakpocalypse (Ep"
+        }
+      ]
+    },
+    {
+      "titleId": "010084501672E000",
+      "title": "Islets",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010084501672E000.jpg",
+      "variants": [
+        {
+          "id": "v_9126d11b",
+          "name": "Islets Defense — Islets Defense: Official Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Hiy6esP33J7imGghX6mq1afh9gr-Ks8c",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Hiy6esP33J7imGghX6mq1afh9gr-Ks8c&sz=w640",
+          "sizeBytes": 4990315,
+          "sha256": "B758142CCD017BDA04C52FAE6D38A09CC2770054647E81024294880E41F96792",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Islets Defense — Islets Defense: Officia"
+        }
+      ]
+    },
+    {
+      "titleId": "010012E00EA66000",
+      "title": "Chroma Squad",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010012E00EA66000.jpg",
+      "variants": [
+        {
+          "id": "v_5d72fe3a",
+          "name": "Chroma Squad — Chroma Squad - Official Launch Tr",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12F9EqIo9kRMRQ69Kjd5BjMLz0xHZ3fPv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12F9EqIo9kRMRQ69Kjd5BjMLz0xHZ3fPv&sz=w640",
+          "sizeBytes": 5312038,
+          "sha256": "B13F99ADF52BEB7308AE6B40B65BC27ACB712675211D6E1B691B0D396D625728",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Chroma Squad — Chroma Squad - Official L"
+        }
+      ]
+    },
+    {
+      "titleId": "010023301E41C000",
+      "title": "Fate/Stay Night Remastered",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010023301E41C000.jpg",
+      "variants": [
+        {
+          "id": "v_b093706c",
+          "name": "Fate/stay night REMASTERED — Launch PV English v",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_VOd5VGOHEJPEGwjiRUkTGSoNfVs7x9H",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_VOd5VGOHEJPEGwjiRUkTGSoNfVs7x9H&sz=w640",
+          "sizeBytes": 3305671,
+          "sha256": "395335039AE47EDE543413FE1D74EC5D5578107F28200A6E28A5FC5FC596BBC9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fate/stay night REMASTERED — Launch PV E"
+        }
+      ]
+    },
+    {
+      "titleId": "010006A01441C000",
+      "title": "Trigger Witch",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010006A01441C000.jpg",
+      "variants": [
+        {
+          "id": "v_d32cdb54",
+          "name": "Trigger Witch — TriggerWitch_Base",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1G7b5v5xRIpJyl3XzCdtmmoL_85UMEGts",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1G7b5v5xRIpJyl3XzCdtmmoL_85UMEGts&sz=w640",
+          "sizeBytes": 5251406,
+          "sha256": "E2AC99A116D1DA09FEBD3DFFA9B6660A58E20C400B66699AD041AD1D151156FD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Trigger Witch — TriggerWitch_Base"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CAD011462000",
+      "title": "Path of Giants",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CAD011462000.jpg",
+      "variants": [
+        {
+          "id": "v_fe4b03e9",
+          "name": "Path of Giants — Cinematic Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15_0s2mgZOWWlJrUp6UN5aY_9MFm2oeBu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15_0s2mgZOWWlJrUp6UN5aY_9MFm2oeBu&sz=w640",
+          "sizeBytes": 5176418,
+          "sha256": "087FA251A438ADF8CA30C2309D0A73630524F4092828339D0863E3D1EE91A82F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Path of Giants — Cinematic Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 2073,
-  "totalVariants": 3497,
-  "lastUpdated": "2026-11-09T21:24:55.327362+00:00"
+  "totalGames": 2083,
+  "totalVariants": 3507,
+  "lastUpdated": "2026-11-09T21:30:31.320170+00:00"
 }
