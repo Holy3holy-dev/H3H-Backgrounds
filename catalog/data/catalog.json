@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T05:48:29.447142+00:00",
+  "updatedAt": "2026-11-09T05:58:26.875836+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -882,24 +882,6 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Joker Persona 5 Royal"
-        },
-        {
-          "id": "v_c8cbcc5b",
-          "name": "Crystal Maiden Persona Dota 2",
-          "style": "Wallpaper Engine 60fps",
-          "version": "1.0",
-          "url": "https://drive.google.com/uc?export=download&id=1MHDPnngYwzwJTthy9QN8x4LJYRsx40BJ",
-          "previewUrl": "https://drive.google.com/thumbnail?id=1MHDPnngYwzwJTthy9QN8x4LJYRsx40BJ&sz=w640",
-          "sizeBytes": 2605837,
-          "sha256": "662EA5DAE70EF7F7D8FE633F70023780164A4EA0B2DAD5DDA3B4BD0299E1A4D6",
-          "durationSec": 28.0,
-          "author": "Wallpaper Engine / MoeWalls",
-          "codec": "h264",
-          "width": 1280,
-          "height": 720,
-          "fps": 30.0,
-          "hasAudio": true,
-          "notes": "Switch 720p 30fps H264 | Crystal Maiden Persona Dota 2"
         }
       ]
     },
@@ -5370,6 +5352,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | The Witcher 3: Wild Hunt 7th Anniversa"
+        },
+        {
+          "id": "v_27ba02e8",
+          "name": "Geralt And Yennefer The Witcher 3: Wild Hunt",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vkrHoqM-ieHkM90PEXNcAz5go2seGggo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vkrHoqM-ieHkM90PEXNcAz5go2seGggo&sz=w640",
+          "sizeBytes": 1069462,
+          "sha256": "54E2A19FBC7E2413518F37B532599B6572B6D582A1B06DDA26F45C2682E9B54E",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Geralt And Yennefer The Witcher 3: Wil"
         }
       ]
     },
@@ -9683,24 +9683,6 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
-        },
-        {
-          "id": "v_bb1c68e9",
-          "name": "Crystal Maiden Persona Dota 2",
-          "style": "Cinematic",
-          "version": "1.0",
-          "url": "https://drive.google.com/uc?export=download&id=1ZcF8OmpFjBWF-s4rGJis6UGBJlHAv1ME",
-          "previewUrl": "https://drive.google.com/thumbnail?id=1ZcF8OmpFjBWF-s4rGJis6UGBJlHAv1ME&sz=w640",
-          "sizeBytes": 4719885,
-          "sha256": "0CDCB5F78C4D594DEF4B452FAC41820CD45E0357C20142924FB57CCAB6AA631E",
-          "durationSec": 30.0,
-          "author": "MoeWalls / Community",
-          "codec": "h264",
-          "width": 1280,
-          "height": 720,
-          "fps": 30.0,
-          "hasAudio": true,
-          "notes": "Switch 720p 30fps H264 | Crystal Maiden Persona Dota 2 | ЗВУК"
         }
       ]
     },
@@ -39264,44 +39246,7 @@
       "title": "Dot Age",
       "publisher": "Nintendo Switch",
       "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010020E01EB72000.jpg",
-      "variants": [
-        {
-          "id": "v_1dcd5b76",
-          "name": "Skywrath Mage Dota 2",
-          "style": "Cinematic",
-          "version": "1.0",
-          "url": "https://drive.google.com/uc?export=download&id=1Vlca9EBgzntcNPIbyAtgH0p-Hg_gIrW0",
-          "previewUrl": "https://drive.google.com/thumbnail?id=1Vlca9EBgzntcNPIbyAtgH0p-Hg_gIrW0&sz=w640",
-          "sizeBytes": 4695702,
-          "sha256": "ADE1DF183A560251117924F7772A7411CE6C88921871436242964F98EE5F7D37",
-          "durationSec": 30.0,
-          "author": "MoeWalls / Community",
-          "codec": "h264",
-          "width": 1280,
-          "height": 720,
-          "fps": 30.0,
-          "hasAudio": true,
-          "notes": "Switch 720p 30fps H264 | Skywrath Mage Dota 2 | ЗВУК"
-        },
-        {
-          "id": "v_9ec46859",
-          "name": "Invoker Covenant Of The Depths Dota 2",
-          "style": "Cinematic",
-          "version": "1.0",
-          "url": "https://drive.google.com/uc?export=download&id=18lI9CDsLwzZgPvJ0brEut7nGmqs-qHWW",
-          "previewUrl": "https://drive.google.com/thumbnail?id=18lI9CDsLwzZgPvJ0brEut7nGmqs-qHWW&sz=w640",
-          "sizeBytes": 4739992,
-          "sha256": "19795756F78FA946BC74C12108DF8287C163831A47882BF27591BEFB17AD005F",
-          "durationSec": 30.0,
-          "author": "MoeWalls / Community",
-          "codec": "h264",
-          "width": 1280,
-          "height": 720,
-          "fps": 30.0,
-          "hasAudio": true,
-          "notes": "Switch 720p 30fps H264 | Invoker Covenant Of The Depths Dota 2 | ЗВУК"
-        }
-      ]
+      "variants": []
     },
     {
       "titleId": "01008E200C5C2000",
@@ -60467,6 +60412,6 @@
     }
   ],
   "totalGames": 1298,
-  "totalVariants": 2683,
-  "lastUpdated": "2026-11-09T05:48:29.447142+00:00"
+  "totalVariants": 2680,
+  "lastUpdated": "2026-11-09T05:58:26.875836+00:00"
 }
