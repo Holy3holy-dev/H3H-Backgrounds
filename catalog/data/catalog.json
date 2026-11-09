@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T07:20:16.811502+00:00",
+  "updatedAt": "2026-11-09T07:21:03.122573+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -23765,6 +23765,42 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "SteamGridDB Animated Grid: 0100BF500207C000_Bloodstained__Ritual_of_the_Night___5.mp4"
+        },
+        {
+          "id": "v_21d9f68c",
+          "name": "Metroid Dread",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UUZCB59vxW9UmMMcMRHETAUdNy-xZ0av",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UUZCB59vxW9UmMMcMRHETAUdNy-xZ0av&sz=w640",
+          "sizeBytes": 725437,
+          "sha256": "8CB548151289DD1B2F20287B5E0DE0F5A0F92FCF49F66B3068FB593B6E2F0A75",
+          "durationSec": 18.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Metroid Dread"
+        },
+        {
+          "id": "v_a350ea00",
+          "name": "Samus Aran",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1W7VORUs2vDD00t93-Bg-WLsMmCMuDAlX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1W7VORUs2vDD00t93-Bg-WLsMmCMuDAlX&sz=w640",
+          "sizeBytes": 1030331,
+          "sha256": "6A88C215A6A9DBC3496B015F93D1877D2207BDCE0B226B54EE555B2204B79BD3",
+          "durationSec": 18.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Samus Aran"
         }
       ]
     },
@@ -60808,6 +60844,6 @@
     }
   ],
   "totalGames": 1301,
-  "totalVariants": 2701,
-  "lastUpdated": "2026-11-09T07:20:16.811502+00:00"
+  "totalVariants": 2703,
+  "lastUpdated": "2026-11-09T07:21:03.122573+00:00"
 }
