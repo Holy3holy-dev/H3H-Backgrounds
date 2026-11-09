@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T23:14:22.706162+00:00",
+  "updatedAt": "2026-11-09T23:17:15.019707+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -90448,9 +90448,269 @@
           "notes": "Switch 720p 30fps H264 | The Great Perhaps — Trailer_OUTNOW"
         }
       ]
+    },
+    {
+      "titleId": "0100EA4011484000",
+      "title": "Random Heroes",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EA4011484000.jpg",
+      "variants": [
+        {
+          "id": "v_e90778c8",
+          "name": "Random Heroes: Gold Edition — Trailer v1",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1viYtiGDljebMkGyezbQ14YEj5fyO8ZL4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1viYtiGDljebMkGyezbQ14YEj5fyO8ZL4&sz=w640",
+          "sizeBytes": 4115257,
+          "sha256": "491721772D55EC03623F46CA31E6499F356CEACA8E6DE526FEECFB5E1E773E39",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Random Heroes: Gold Edition — Trailer v1"
+        }
+      ]
+    },
+    {
+      "titleId": "010040F011DE4000",
+      "title": "Devious Dungeon Collection",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010040F011DE4000.jpg",
+      "variants": [
+        {
+          "id": "v_0d3c9201",
+          "name": "Devious Dungeon — DD - Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Su4kByRWjrervFC7qlP6ulI662WhGCZy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Su4kByRWjrervFC7qlP6ulI662WhGCZy&sz=w640",
+          "sizeBytes": 5339028,
+          "sha256": "D23E14F879D6736B4F8E1E40A40A3D7C3CB4AB8EC970188613B2E667DD7521E9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Devious Dungeon — DD - Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FE10223C2000",
+      "title": "Cozy Caravan",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FE10223C2000.jpg",
+      "variants": [
+        {
+          "id": "v_e96d34c1",
+          "name": "Cozy Caravan — Cozy Caravan Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yvOjGWyZv8nOwzfPzrv1l8yvMGB4wXZd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yvOjGWyZv8nOwzfPzrv1l8yvMGB4wXZd&sz=w640",
+          "sizeBytes": 5482642,
+          "sha256": "24B95A9AC3C4A8616869983C834819CF8E36AC065D06258BF88747F69DBFB99B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cozy Caravan — Cozy Caravan Release Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AA8012EF2000",
+      "title": "Steampunk Tower 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AA8012EF2000.jpg",
+      "variants": [
+        {
+          "id": "v_0e7e531e",
+          "name": "Steampunk Tower 2 — Release Date Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1uIFgx1xeY_HMADppoO4L-tW2UDu2U-vA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1uIFgx1xeY_HMADppoO4L-tW2UDu2U-vA&sz=w640",
+          "sizeBytes": 4764567,
+          "sha256": "EDEF265989635D0B50C68D99AA004BEED1E2B54724CC9D3A84DE42106F4029FF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Steampunk Tower 2 — Release Date Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100454006F1E000",
+      "title": "Bugsnax",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100454006F1E000.jpg",
+      "variants": [
+        {
+          "id": "v_47fe87b8",
+          "name": "Bugsnax — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ej2yqC71j-fZwqksrOpzd4waiqZTLw72",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ej2yqC71j-fZwqksrOpzd4waiqZTLw72&sz=w640",
+          "sizeBytes": 5550155,
+          "sha256": "4A6614963C97E31F18D60FB2806CF21B1BEFB418F0B8DCD9002CE9FFB9805793",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bugsnax — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DFB011B12000",
+      "title": "Warsaw",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DFB011B12000.jpg",
+      "variants": [
+        {
+          "id": "v_db68ba30",
+          "name": "Trouble in Warsaw — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZUVgn6d5PX_2H53RDBMFreBitMfnnotb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZUVgn6d5PX_2H53RDBMFreBitMfnnotb&sz=w640",
+          "sizeBytes": 3807338,
+          "sha256": "E5E1D4DDEDF877F16E5029EFD27C7C87593671F92D6E4B1E1A8EBE711E2FB8D7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Trouble in Warsaw — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010064400B138000",
+      "title": "V-Rally 4 Ultimate Edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010064400B138000.jpg",
+      "variants": [
+        {
+          "id": "v_98f941a6",
+          "name": "V-Rally 4 — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1U1w5THtNRx7VKEq8V46fIzxJYMr04RNZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1U1w5THtNRx7VKEq8V46fIzxJYMr04RNZ&sz=w640",
+          "sizeBytes": 5492001,
+          "sha256": "7CBBD0D889AD4E45643443588BC9FD8488C6DDBB0A05E7BA9FFA20DC03EE6132",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | V-Rally 4 — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AAC00E692000",
+      "title": "Zenith",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AAC00E692000.jpg",
+      "variants": [
+        {
+          "id": "v_2d4ba042",
+          "name": "Zenith Expanse — Zenith Expanse - Cinematic Trai",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1y0H8Ul8sRGReDuWQnzDvbgbINuGD0nWU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1y0H8Ul8sRGReDuWQnzDvbgbINuGD0nWU&sz=w640",
+          "sizeBytes": 5504960,
+          "sha256": "485D21AF377DD08DEAE5C3B2307EFCD475470B5E4D3639626DDDF9EE61BBF219",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Zenith Expanse — Zenith Expanse - Cinema"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B1A023F18000",
+      "title": "Sands of Aura",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B1A023F18000.jpg",
+      "variants": [
+        {
+          "id": "v_ac9f059a",
+          "name": "Sands of Aura — Cinematic",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FRfFB4QuPZdjdMoZxZkWdc-yqSLPvN-D",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FRfFB4QuPZdjdMoZxZkWdc-yqSLPvN-D&sz=w640",
+          "sizeBytes": 4963112,
+          "sha256": "985C88156079B5BCDBC729148441BAC5CFC02BB0FB92F4E47EE1035AE3873C3A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sands of Aura — Cinematic"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F83019B9C000",
+      "title": "Strayed Lights",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F83019B9C000.jpg",
+      "variants": [
+        {
+          "id": "v_bc5cceb9",
+          "name": "Strayed Lights — Accolades Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lKx-0XxiWNTBM8Zrr_hn0FITMNCm6g29",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lKx-0XxiWNTBM8Zrr_hn0FITMNCm6g29&sz=w640",
+          "sizeBytes": 5119360,
+          "sha256": "AC257409A06F6E59D3802628B3468FB7499234F61011C65601D8BE27AFA0DC35",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Strayed Lights — Accolades Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 2423,
-  "totalVariants": 3847,
-  "lastUpdated": "2026-11-09T23:14:22.706162+00:00"
+  "totalGames": 2433,
+  "totalVariants": 3857,
+  "lastUpdated": "2026-11-09T23:17:15.019707+00:00"
 }
