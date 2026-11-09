@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T11:04:05.243732+00:00",
+  "updatedAt": "2026-11-09T11:06:34.012223+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -61441,9 +61441,139 @@
           "notes": "Switch 720p 30fps H264 | Ori And The Will Of The Wisps Swamp"
         }
       ]
+    },
+    {
+      "titleId": "010060801843A000",
+      "title": "Rubber Bandits",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010060801843A000.jpg",
+      "variants": [
+        {
+          "id": "v_998cf3f9",
+          "name": "Rubber Bandits — What is Rubber Bandits?",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Zf9tIWbH2hqMlE7pzaf3Fqm-CuWVvMXK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Zf9tIWbH2hqMlE7pzaf3Fqm-CuWVvMXK&sz=w640",
+          "sizeBytes": 5516083,
+          "sha256": "8E0B8C3CF45B41085EEA54C4F4EE0254E158CFC5251B98D95409E6F40B8D74FA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rubber Bandits — What is Rubber Bandits?"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D730151C8000",
+      "title": "Badland Game of the Year edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D730151C8000.jpg",
+      "variants": [
+        {
+          "id": "v_c0991974",
+          "name": "BADLAND: Game of the Year Edition — BADLAND: Gam",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mj_ttv_F6LF1VQaTgimGOyVukGoFgTSe",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mj_ttv_F6LF1VQaTgimGOyVukGoFgTSe&sz=w640",
+          "sizeBytes": 5129291,
+          "sha256": "7E2FDA843B14B7908D4151395A6225C8E5E0A91F6594642DA5972AD04A1C7FB2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | BADLAND: Game of the Year Edition — BADL"
+        }
+      ]
+    },
+    {
+      "titleId": "010054E01D878000",
+      "title": "EA Sports FC 25",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010054E01D878000.jpg",
+      "variants": [
+        {
+          "id": "v_92d5c861",
+          "name": "EA SPORTS FC™ 25 — EA SPORTS FC 25 | Official La",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1f4YX1robUA76Usg-rfaGd3bD0s31a1Zq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1f4YX1robUA76Usg-rfaGd3bD0s31a1Zq&sz=w640",
+          "sizeBytes": 5329568,
+          "sha256": "124D979169BE3EBB0133F35FF298161E39BD6A691F5F037790E36C94F9C02C26",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | EA SPORTS FC™ 25 — EA SPORTS FC 25 | Off"
+        }
+      ]
+    },
+    {
+      "titleId": "01009E701356A000",
+      "title": "Destroy All Humans",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009E701356A000.jpg",
+      "variants": [
+        {
+          "id": "v_a5f611ac",
+          "name": "Destroy All Humans! — Accolades Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UIE91afisPCR0yUEwNTCJODm9GKldtLn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UIE91afisPCR0yUEwNTCJODm9GKldtLn&sz=w640",
+          "sizeBytes": 5122071,
+          "sha256": "0E78924D21F3243E95345C76CAF0790FE19E2AFD3FB9CF104958AC1B8BC284E3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Destroy All Humans! — Accolades Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01009E301E73A000",
+      "title": "Return to Abyss",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009E301E73A000.jpg",
+      "variants": [
+        {
+          "id": "v_29de51cc",
+          "name": "Return to abyss 重返深渊 — preview_en",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oOdyF01FMuc-ZST_IvbXxNNcjNCdpeBs",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oOdyF01FMuc-ZST_IvbXxNNcjNCdpeBs&sz=w640",
+          "sizeBytes": 5429974,
+          "sha256": "8C3B520132558E6F7B63AC19B41444693D901729D6DDE955278E89F528C87A46",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Return to abyss 重返深渊 — preview_en"
+        }
+      ]
     }
   ],
-  "totalGames": 1309,
-  "totalVariants": 2731,
-  "lastUpdated": "2026-11-09T11:04:05.243732+00:00"
+  "totalGames": 1314,
+  "totalVariants": 2736,
+  "lastUpdated": "2026-11-09T11:06:34.012223+00:00"
 }
