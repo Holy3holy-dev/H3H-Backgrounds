@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T20:33:44.444220+00:00",
+  "updatedAt": "2026-11-09T20:36:40.627525+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -77188,9 +77188,269 @@
           "notes": "Switch 720p 30fps H264 | Penko Park — 2023 Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100AA400C396000",
+      "title": "Superbrothers Sword and Sworcery EP",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AA400C396000.jpg",
+      "variants": [
+        {
+          "id": "v_0940cc52",
+          "name": "Superbrothers: Sword & Sworcery EP — Superbrothe",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1x8M4I-Rq9jOHMxXLxKinRA03VslQw_Cf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1x8M4I-Rq9jOHMxXLxKinRA03VslQw_Cf&sz=w640",
+          "sizeBytes": 4962203,
+          "sha256": "3FC3B94B32E330F559B7D01F38012E8745E838D463D15BD2E483BB057586963A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Superbrothers: Sword & Sworcery EP — Sup"
+        }
+      ]
+    },
+    {
+      "titleId": "01002650214AC000",
+      "title": "Stray Children",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002650214AC000.jpg",
+      "variants": [
+        {
+          "id": "v_baf6f7ec",
+          "name": "Stray Children — StrayChildren_PlayMovie_EN3",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WYCykvJ9uY41TY2kxsDBQ3WEBvWy-q8u",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WYCykvJ9uY41TY2kxsDBQ3WEBvWy-q8u&sz=w640",
+          "sizeBytes": 4012706,
+          "sha256": "CA93358A98286413A8F6F3E21A29E052A35026AF5829B153CCC8694F50DEE752",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Stray Children — StrayChildren_PlayMovie"
+        }
+      ]
+    },
+    {
+      "titleId": "01004D501230A000",
+      "title": "Olija",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004D501230A000.jpg",
+      "variants": [
+        {
+          "id": "v_3788ee54",
+          "name": "Olija — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1h7_nmez71Y20yhNpX3AObw_NwPJMduGt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1h7_nmez71Y20yhNpX3AObw_NwPJMduGt&sz=w640",
+          "sizeBytes": 10196242,
+          "sha256": "4821D4A1568484ADE2614A600B416BD60462C7CB90C52FE87B737E6D630240E1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Olija — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010055501B14C000",
+      "title": "Wartales",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010055501B14C000.jpg",
+      "variants": [
+        {
+          "id": "v_21761659",
+          "name": "Wartales — Official Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UQ_ZmLSloIuPAWNCNj3xF6UCeZlt3L2K",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UQ_ZmLSloIuPAWNCNj3xF6UCeZlt3L2K&sz=w640",
+          "sizeBytes": 5153179,
+          "sha256": "AB4F99803577BAFB3CFB591B82E852DCE17071ADC4DE5C398F5DAD1BA8368E5A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wartales — Official Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010072D0212E0000",
+      "title": "Fear Effect 2 Retro Helix",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010072D0212E0000.jpg",
+      "variants": [
+        {
+          "id": "v_cc350286",
+          "name": "Fear Effect 2: Retro Helix — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1t5wP3EnMQ667ZxZJ5oCx3bXClrfg8iHb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1t5wP3EnMQ667ZxZJ5oCx3bXClrfg8iHb&sz=w640",
+          "sizeBytes": 5626763,
+          "sha256": "A8C357322486E70E1BF90B7A123429CB7603D9AF618AA5FF3CB09A59540B944B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fear Effect 2: Retro Helix — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01008BB0212BC000",
+      "title": "Fear Effect",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008BB0212BC000.jpg",
+      "variants": [
+        {
+          "id": "v_0b0abbef",
+          "name": "Fear Effect — Reveal Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1YHxKzZD74vtWqTG5jrtVHsH_VAhXAe_e",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1YHxKzZD74vtWqTG5jrtVHsH_VAhXAe_e&sz=w640",
+          "sizeBytes": 5384282,
+          "sha256": "BADDCFCB7D9BEBB3C4B330FC175D4A55B11A0FE852DC907D57FC458EFC88E53C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fear Effect — Reveal Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01004D5022454000",
+      "title": "Mado Monogatari: Fia and the Wondrous Academy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004D5022454000.jpg",
+      "variants": [
+        {
+          "id": "v_3f29d540",
+          "name": "MADO MONOGATARI: Fia and the Wondrous Academy — ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1F5tPjY-g_20SQRH22bt3irttpnV0diO8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1F5tPjY-g_20SQRH22bt3irttpnV0diO8&sz=w640",
+          "sizeBytes": 5443851,
+          "sha256": "C8EFA8644EC345C31C7FFFEBFF0F35D6D25059F5EF73054138229458453C8A8D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | MADO MONOGATARI: Fia and the Wondrous Ac"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A77018EA0000",
+      "title": "Dragon Quest Monsters the Dark Prince",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A77018EA0000.jpg",
+      "variants": [
+        {
+          "id": "v_f208d439",
+          "name": "DRAGON QUEST MONSTERS: The Dark Prince — ESRB EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1v4QUFln0vo7beyPyCTdzHKh7MFoGElt8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1v4QUFln0vo7beyPyCTdzHKh7MFoGElt8&sz=w640",
+          "sizeBytes": 5058874,
+          "sha256": "120941B8A30585C106101E4A97EC72EECB8A7E813CFCD620D187CB3A0FFCE220",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | DRAGON QUEST MONSTERS: The Dark Prince —"
+        }
+      ]
+    },
+    {
+      "titleId": "01004C4026206000",
+      "title": "Etrange Overlord",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004C4026206000.jpg",
+      "variants": [
+        {
+          "id": "v_279ecd7b",
+          "name": "Etrange Overlord — Launch",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DmUf9tyqzKYk8dFk0rLIVH8AvNhn-pgc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DmUf9tyqzKYk8dFk0rLIVH8AvNhn-pgc&sz=w640",
+          "sizeBytes": 5339697,
+          "sha256": "3FF87E7A7260AF1AC4B57C8369029B3B43B29F179A9AAB1560B8F05C64DA22DF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Etrange Overlord — Launch"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B6301ABD6000",
+      "title": "Backpack Hero",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B6301ABD6000.jpg",
+      "variants": [
+        {
+          "id": "v_abaefc1d",
+          "name": "Backpack Hero — 1.0 Launch",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UO69AgXcf9h5xkDWWXVSMKSBnrzpao4X",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UO69AgXcf9h5xkDWWXVSMKSBnrzpao4X&sz=w640",
+          "sizeBytes": 5060229,
+          "sha256": "6E1C004BD7765222AE699B2D5799E466FC6DE86C48DF4125F815D3D2266FCAE5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Backpack Hero — 1.0 Launch"
+        }
+      ]
     }
   ],
-  "totalGames": 1913,
-  "totalVariants": 3337,
-  "lastUpdated": "2026-11-09T20:33:44.444220+00:00"
+  "totalGames": 1923,
+  "totalVariants": 3347,
+  "lastUpdated": "2026-11-09T20:36:40.627525+00:00"
 }
