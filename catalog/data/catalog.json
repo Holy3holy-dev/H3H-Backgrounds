@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T10:57:55.672390+00:00",
+  "updatedAt": "2026-11-09T10:58:10.018672+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -60933,9 +60933,35 @@
           "notes": "Switch 720p 30fps H264 | Arcueid Brunestud Lunar Legend Tsukihime"
         }
       ]
+    },
+    {
+      "titleId": "0100057003A40000",
+      "title": "Bayonetta 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100057003A40000.jpg",
+      "variants": [
+        {
+          "id": "v_9869eff5",
+          "name": "Cereza Bayonetta",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1H0GIK6XIGvdHdYLFFl37sN-YKdY4NPOr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1H0GIK6XIGvdHdYLFFl37sN-YKdY4NPOr&sz=w640",
+          "sizeBytes": 1832349,
+          "sha256": "80D9FBE212698B9E28D580B24660A41F9D2F8CD6E7BF341F8BCD7C9F9ED39A6C",
+          "durationSec": 18.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cereza Bayonetta"
+        }
+      ]
     }
   ],
-  "totalGames": 1304,
-  "totalVariants": 2705,
-  "lastUpdated": "2026-11-09T10:57:55.672390+00:00"
+  "totalGames": 1305,
+  "totalVariants": 2706,
+  "lastUpdated": "2026-11-09T10:58:10.018672+00:00"
 }
