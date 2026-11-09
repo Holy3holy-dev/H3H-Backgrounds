@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T05:40:24.289816+00:00",
+  "updatedAt": "2026-11-09T05:43:57.829309+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -35664,6 +35664,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Kirby And Gooey In The Rain Pokemon | ЗВУК"
+        },
+        {
+          "id": "v_e842d564",
+          "name": "Swimming Kirkby",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13mzRAm0CdxuNHTTC4VvZP7soX3q2BmMk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13mzRAm0CdxuNHTTC4VvZP7soX3q2BmMk&sz=w640",
+          "sizeBytes": 2735907,
+          "sha256": "58608E5C02F64CCCA191AF0F20202C6BBF8147627D4EFDBC0E38DE84D41536F9",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Swimming Kirkby"
         }
       ]
     },
@@ -60352,6 +60370,6 @@
     }
   ],
   "totalGames": 1297,
-  "totalVariants": 2677,
-  "lastUpdated": "2026-11-09T05:40:24.289816+00:00"
+  "totalVariants": 2678,
+  "lastUpdated": "2026-11-09T05:43:57.829309+00:00"
 }
