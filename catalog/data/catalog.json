@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T05:58:26.875836+00:00",
+  "updatedAt": "2026-11-09T06:00:21.630935+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -7023,6 +7023,42 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_987f83bf",
+          "name": "Yuki X Aigis In The Train Persona 3 Reload",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1V4olJBu8Yr3h4Vy7ZIsyfNf2Jlpjp33i",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1V4olJBu8Yr3h4Vy7ZIsyfNf2Jlpjp33i&sz=w640",
+          "sizeBytes": 2359579,
+          "sha256": "9708B587FA4BDC4EF81989179ABF73E2585DEAFA1E1E83267539C51F0C30A103",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Yuki X Aigis In The Train Persona 3 Re"
+        },
+        {
+          "id": "v_6afbdcb3",
+          "name": "Mitsuru Kirijou Persona 3",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_C6nyNB-j0mVhbk-_qIQx_6921AoZlMW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_C6nyNB-j0mVhbk-_qIQx_6921AoZlMW&sz=w640",
+          "sizeBytes": 1096348,
+          "sha256": "EC216BCC4EE0108CC45F4CC1B04EF5AA36D473D41D6433EB4D073CA105891ED6",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mitsuru Kirijou Persona 3"
         }
       ]
     },
@@ -60412,6 +60448,6 @@
     }
   ],
   "totalGames": 1298,
-  "totalVariants": 2680,
-  "lastUpdated": "2026-11-09T05:58:26.875836+00:00"
+  "totalVariants": 2682,
+  "lastUpdated": "2026-11-09T06:00:21.630935+00:00"
 }
