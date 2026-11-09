@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T06:29:35.561253+00:00",
+  "updatedAt": "2026-11-09T06:32:13.156363+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -36260,6 +36260,24 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_445abbf2",
+          "name": "Stardew Valley Bus",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KNn2AcJ6voOEHmpPyhC0m70d8ea_2wxf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KNn2AcJ6voOEHmpPyhC0m70d8ea_2wxf&sz=w640",
+          "sizeBytes": 2753975,
+          "sha256": "58C13CA2A716D5D3D787383E8E6875CF8F16F4366E77494E31F09A71F9346F5E",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Stardew Valley Bus"
         }
       ]
     },
@@ -60934,6 +60952,6 @@
     }
   ],
   "totalGames": 1298,
-  "totalVariants": 2709,
-  "lastUpdated": "2026-11-09T06:29:35.561253+00:00"
+  "totalVariants": 2710,
+  "lastUpdated": "2026-11-09T06:32:13.156363+00:00"
 }
