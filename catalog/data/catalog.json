@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T07:45:54.203915+00:00",
+  "updatedAt": "2026-11-09T10:53:12.238190+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -39462,7 +39462,26 @@
       "title": "Dot Age",
       "publisher": "Nintendo Switch",
       "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010020E01EB72000.jpg",
-      "variants": []
+      "variants": [
+        {
+          "id": "v_848e2547",
+          "name": "Krimson — Krimson Out Now on Steam",
+          "style": "cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13Td_UodRU5b172sxzESq2_zpguBNLlLS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13Td_UodRU5b172sxzESq2_zpguBNLlLS&sz=w640",
+          "sizeBytes": 5563581,
+          "sha256": "BE0EB6471E2AFB6DD857B295B8D2C2191EA5D76FDB481AA89AE2C6C2239A00AD",
+          "durationSec": 15.0,
+          "author": "Steam Official",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Krimson — Krimson Out Now on Steam"
+        }
+      ]
     },
     {
       "titleId": "01008E200C5C2000",
@@ -41065,7 +41084,26 @@
       "title": "Blanc",
       "publisher": "Nintendo Switch",
       "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010039501405E000.jpg",
-      "variants": []
+      "variants": [
+        {
+          "id": "v_33a2ca1d",
+          "name": "Blanc — CG Trailer",
+          "style": "cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IyMO9nRE-DyNoYFVwHkQ7f7QzDpu7XkI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IyMO9nRE-DyNoYFVwHkQ7f7QzDpu7XkI&sz=w640",
+          "sizeBytes": 5346190,
+          "sha256": "AF574C3C1EC64A020094F925B8959BFB18466B8FAAFEAF2C11A6382E9B7E7189",
+          "durationSec": 15.0,
+          "author": "Steam Official",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Blanc — CG Trailer"
+        }
+      ]
     },
     {
       "titleId": "010032000EAC6000",
@@ -41416,7 +41454,26 @@
       "title": "Primordia",
       "publisher": "Nintendo Switch",
       "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007D4017740000.jpg",
-      "variants": []
+      "variants": [
+        {
+          "id": "v_144350d2",
+          "name": "Primordia — Primordia Trailer",
+          "style": "cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SiEjRKI01sZn8QKpyaXDwVjr9BMpGK8K",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SiEjRKI01sZn8QKpyaXDwVjr9BMpGK8K&sz=w640",
+          "sizeBytes": 4979447,
+          "sha256": "805DD639248206DCA81FCF804203A74BFC05F70AC2D34885CADDE8DFE783B745",
+          "durationSec": 15.0,
+          "author": "Steam Official",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Primordia — Primordia Trailer"
+        }
+      ]
     },
     {
       "titleId": "0100A62002042000",
@@ -42173,7 +42230,26 @@
       "title": "Green Hell",
       "publisher": "Nintendo Switch",
       "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100453012FEA000.jpg",
-      "variants": []
+      "variants": [
+        {
+          "id": "v_22bcc450",
+          "name": "Green Hell — Green Hell - 12 Million Players Tra",
+          "style": "cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pComEjVNd8J5eGNrbZCoGGQ54ZQFonbg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pComEjVNd8J5eGNrbZCoGGQ54ZQFonbg&sz=w640",
+          "sizeBytes": 5114900,
+          "sha256": "165352F7321000B5583B8318D22649DC61C8A6C93FFF9C32F62681877A57DFA7",
+          "durationSec": 15.0,
+          "author": "Steam Official",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Green Hell — Green Hell - 12 Million Pla"
+        }
+      ]
     },
     {
       "titleId": "01006FE0146EC000",
@@ -43008,7 +43084,26 @@
       "title": "Kunai",
       "publisher": "Nintendo Switch",
       "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010035A00DF62000.jpg",
-      "variants": []
+      "variants": [
+        {
+          "id": "v_e2cbe373",
+          "name": "KUNAI — KUNAI - Release Trailer",
+          "style": "cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18812jCAI4Ev3_HB0SykezFmBs--LYynA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18812jCAI4Ev3_HB0SykezFmBs--LYynA&sz=w640",
+          "sizeBytes": 5475449,
+          "sha256": "F0F0CE9703A5CB0B067617B0D2E6B05A120DF42869B03570FCF47CB4961AF02A",
+          "durationSec": 15.0,
+          "author": "Steam Official",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | KUNAI — KUNAI - Release Trailer"
+        }
+      ]
     },
     {
       "titleId": "0100C6800D9D0000",
@@ -60651,6 +60746,6 @@
     }
   ],
   "totalGames": 1303,
-  "totalVariants": 2690,
-  "lastUpdated": "2026-11-09T07:45:54.203915+00:00"
+  "totalVariants": 2695,
+  "lastUpdated": "2026-11-09T10:53:12.238190+00:00"
 }
