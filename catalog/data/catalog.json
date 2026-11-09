@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T06:24:42.421004+00:00",
+  "updatedAt": "2026-11-09T06:25:54.352089+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -3985,6 +3985,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Batgirl | ЗВУК"
+        },
+        {
+          "id": "v_f4c1a0c6",
+          "name": "Batman Overlooking Gotham City Arkham Knight",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NWXJT0crB2Kkq6gd9GPnp_pyahHjco6_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NWXJT0crB2Kkq6gd9GPnp_pyahHjco6_&sz=w640",
+          "sizeBytes": 3623714,
+          "sha256": "E47720AED90A28D51EF74A7F680FABC0B8174E662551D1F5E0C1B5C5220B6BE7",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Batman Overlooking Gotham City Arkham "
+        },
+        {
+          "id": "v_61ede44c",
+          "name": "Moonlight Dark Knight Batman",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qVS50PhGpk-jhw92OQaTlwxBkwyFpulb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qVS50PhGpk-jhw92OQaTlwxBkwyFpulb&sz=w640",
+          "sizeBytes": 1312850,
+          "sha256": "F69DC94F2A621FDE8AC7C5CA3DB5E9B4F654E03168D688C3CD2C64953C9931A3",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Moonlight Dark Knight Batman"
         }
       ]
     },
@@ -60808,6 +60844,6 @@
     }
   ],
   "totalGames": 1298,
-  "totalVariants": 2702,
-  "lastUpdated": "2026-11-09T06:24:42.421004+00:00"
+  "totalVariants": 2704,
+  "lastUpdated": "2026-11-09T06:25:54.352089+00:00"
 }
