@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T22:06:24.388224+00:00",
+  "updatedAt": "2026-11-09T22:10:49.239675+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -84468,9 +84468,269 @@
           "notes": "Switch 720p 30fps H264 | Moonshine Inc. — Moonshine Inc - Launch "
         }
       ]
+    },
+    {
+      "titleId": "01003AB010692000",
+      "title": "Freakout Calamity TV Show",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003AB010692000.jpg",
+      "variants": [
+        {
+          "id": "v_3b63d63a",
+          "name": "Freakout: Calamity TV Show — Freakout: Calamity ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1c-WIfW7n_VaAzwG7noC_5uIErilmH6lP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1c-WIfW7n_VaAzwG7noC_5uIErilmH6lP&sz=w640",
+          "sizeBytes": 5203162,
+          "sha256": "B339D7F29AE632948C5CF406E15CBD73895EDC07707E80023CAC320B6F11740A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Freakout: Calamity TV Show — Freakout: C"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C2E0129A6000",
+      "title": "The Executioner",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C2E0129A6000.jpg",
+      "variants": [
+        {
+          "id": "v_1a6e3c22",
+          "name": "The Executioner — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FKpaunWciULbsWucPjtqRRIjS27au53I",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FKpaunWciULbsWucPjtqRRIjS27au53I&sz=w640",
+          "sizeBytes": 5140254,
+          "sha256": "B45F8AAD3974F6C90925F6CB7730BCEDA723E575834FAE2FF5A0E941C8CF2B61",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Executioner — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01009940140D8000",
+      "title": "Mail Mole Xpress Deliveries",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009940140D8000.jpg",
+      "variants": [
+        {
+          "id": "v_28dc31a3",
+          "name": "Mail Mole + 'Xpress Deliveries — DLC_Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1aWf_YP94Lu_4J6cEtk67pWQxuybO4z0_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1aWf_YP94Lu_4J6cEtk67pWQxuybO4z0_&sz=w640",
+          "sizeBytes": 5206858,
+          "sha256": "41AC088A5D748A9D008B0C9B623F5451CD47A6A2BD1C903D41920FE23E9741B2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mail Mole + 'Xpress Deliveries — DLC_Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "0100623021594000",
+      "title": "Slasher Origins",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100623021594000.jpg",
+      "variants": [
+        {
+          "id": "v_1ec9aceb",
+          "name": "Slasher: Origins — Announcement Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vSZn_KMrxCtbJJ-rK9Fhn5YRyQnemOqT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vSZn_KMrxCtbJJ-rK9Fhn5YRyQnemOqT&sz=w640",
+          "sizeBytes": 4024199,
+          "sha256": "39D4C33C5E516735F03B07575B8D95585570D34C5182A8CAB8D29C78D70D1C98",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Slasher: Origins — Announcement Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DA1014B78000",
+      "title": "Tower Princess",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DA1014B78000.jpg",
+      "variants": [
+        {
+          "id": "v_c9b0c0bf",
+          "name": "Tower Princess — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1x2EK3aTDizgz8MAEwIruakBBxdbxTTUr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1x2EK3aTDizgz8MAEwIruakBBxdbxTTUr&sz=w640",
+          "sizeBytes": 5117262,
+          "sha256": "8ED84FD71C6295BCF0C6DCABF871816E68F9C1EFDB442A20CD96644404102503",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tower Princess — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01001C70191A6000",
+      "title": "Splatter Zombiecalypse Now",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001C70191A6000.jpg",
+      "variants": [
+        {
+          "id": "v_bf4434d4",
+          "name": "Splatter - Zombiecalypse Now — Splatter - Greenl",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_EDvSWt9y2C9_5dJYv-IjM1YC8aA0pCm",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_EDvSWt9y2C9_5dJYv-IjM1YC8aA0pCm&sz=w640",
+          "sizeBytes": 5042975,
+          "sha256": "622B7C185E306935F8F77F5AD396DB22EEBB8007EDDDAFE3D584D131E6755126",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Splatter - Zombiecalypse Now — Splatter "
+        }
+      ]
+    },
+    {
+      "titleId": "0100B340157CA000",
+      "title": "Weedcraft Inc",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B340157CA000.jpg",
+      "variants": [
+        {
+          "id": "v_df2bebe6",
+          "name": "Weedcraft Inc — Sandbox Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1egWgBiMwTaGmKOnCKvRAKtfr0SsOpVJe",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1egWgBiMwTaGmKOnCKvRAKtfr0SsOpVJe&sz=w640",
+          "sizeBytes": 5404668,
+          "sha256": "27AA9A8567160124131B3EC63D18AD1E1744697920A74C493DF1DC97B4DE7F84",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Weedcraft Inc — Sandbox Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AAB00E524000",
+      "title": "Boxing Champs",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AAB00E524000.jpg",
+      "variants": [
+        {
+          "id": "v_e94867e4",
+          "name": "Boxing Champs — Boxing Champs",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VulChlBue1L2M5Yc7PzdqWjl4LvfWF4P",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VulChlBue1L2M5Yc7PzdqWjl4LvfWF4P&sz=w640",
+          "sizeBytes": 5532119,
+          "sha256": "EE3272E1027B831FDFF792CEA515D155C77600724860DD7FB34FE9C39999FF78",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Boxing Champs — Boxing Champs"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BE0019E28000",
+      "title": "Bish Bash Bots",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BE0019E28000.jpg",
+      "variants": [
+        {
+          "id": "v_0f511ae3",
+          "name": "Bish Bash Bots — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_TY-9YDIDuwHCkGCWeBR_zQWgecNgCvr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_TY-9YDIDuwHCkGCWeBR_zQWgecNgCvr&sz=w640",
+          "sizeBytes": 5331749,
+          "sha256": "CD5D10691715633D72546631A9A3B58809E47CC3B8986B67CC689AAC7C9BF377",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bish Bash Bots — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EFA013E7C000",
+      "title": "Danger Scavenger",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EFA013E7C000.jpg",
+      "variants": [
+        {
+          "id": "v_cc645885",
+          "name": "Danger Scavenger — Danger Scavenger Release Trai",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1iTfHrRoNX8EaCecwtd5bx5zZG-nV1Zsv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1iTfHrRoNX8EaCecwtd5bx5zZG-nV1Zsv&sz=w640",
+          "sizeBytes": 5401456,
+          "sha256": "A2F949EC8DFB42809855F22AD34D54EA35D6A31B1AA4F34DD8BCCB5AD5400014",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Danger Scavenger — Danger Scavenger Rele"
+        }
+      ]
     }
   ],
-  "totalGames": 2193,
-  "totalVariants": 3617,
-  "lastUpdated": "2026-11-09T22:06:24.388224+00:00"
+  "totalGames": 2203,
+  "totalVariants": 3627,
+  "lastUpdated": "2026-11-09T22:10:49.239675+00:00"
 }
