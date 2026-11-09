@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T20:52:02.141190+00:00",
+  "updatedAt": "2026-11-09T20:55:10.435751+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -78488,9 +78488,269 @@
           "notes": "Switch 720p 30fps H264 | Esophaguys — Gameplay Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100DDF01FFCE000",
+      "title": "Mythmatch",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DDF01FFCE000.jpg",
+      "variants": [
+        {
+          "id": "v_2f897711",
+          "name": "Mythmatch — Gameplay Explainer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ETmGydts3g5FcLmvmGsOnWJd_A8dfVrZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ETmGydts3g5FcLmvmGsOnWJd_A8dfVrZ&sz=w640",
+          "sizeBytes": 5411237,
+          "sha256": "D031630D21576C66930D344A73AA6AE1F4027953A0CCD29F06524BE86368061E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mythmatch — Gameplay Explainer"
+        }
+      ]
+    },
+    {
+      "titleId": "01000A6023844000",
+      "title": "Stasis",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000A6023844000.jpg",
+      "variants": [
+        {
+          "id": "v_6bb10b3d",
+          "name": "STASIS: BONE TOTEM — GAME",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XeKZvXPe95b34Cpy88fv8-z2QcaOO6Mc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XeKZvXPe95b34Cpy88fv8-z2QcaOO6Mc&sz=w640",
+          "sizeBytes": 5379432,
+          "sha256": "08DF782A5AD417D1E77612B20B924DCE1F43DFD40062CED310D19FE04A7CA864",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | STASIS: BONE TOTEM — GAME"
+        }
+      ]
+    },
+    {
+      "titleId": "01007BC018C1C000",
+      "title": "Echo Generation Midnight edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007BC018C1C000.jpg",
+      "variants": [
+        {
+          "id": "v_a493a3c0",
+          "name": "Echo Generation: Midnight Edition — Echo Generat",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TqW0prwZTZMcbXLP4NMfDUFT8bXLLKJL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TqW0prwZTZMcbXLP4NMfDUFT8bXLLKJL&sz=w640",
+          "sizeBytes": 5408019,
+          "sha256": "30F533B809EC2FA524AED9F5D26E786279D4F599B43273479603C7B4311A9C6D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Echo Generation: Midnight Edition — Echo"
+        }
+      ]
+    },
+    {
+      "titleId": "01001110232DA000",
+      "title": "Puzzle Quest: Immortal edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001110232DA000.jpg",
+      "variants": [
+        {
+          "id": "v_7ea7183c",
+          "name": "Puzzle Quest: Immortal Edition — Puzzle Quest - ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1x2U_HM5SkH5MHroDKy-8D7G5E0vyYyhE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1x2U_HM5SkH5MHroDKy-8D7G5E0vyYyhE&sz=w640",
+          "sizeBytes": 5231599,
+          "sha256": "1AD177FB62357EBF3B1DC49E7E339F82DFD0B755FB6049B655586D1A36C1A4C3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Puzzle Quest: Immortal Edition — Puzzle "
+        }
+      ]
+    },
+    {
+      "titleId": "0100B2C0175C2000",
+      "title": "Might and Magic: Clash of Heroes Definitive edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B2C0175C2000.jpg",
+      "variants": [
+        {
+          "id": "v_d2d048f2",
+          "name": "Might & Magic: Clash of Heroes - Definitive Edit",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XO2G40JqyCnAOmIQWTE7yGwAKqaecfVS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XO2G40JqyCnAOmIQWTE7yGwAKqaecfVS&sz=w640",
+          "sizeBytes": 4413191,
+          "sha256": "2AECABAED0AFF7B6E0C328F072D51E7115318615C01DC89E75FA104AD55E357E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Might & Magic: Clash of Heroes - Definit"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A2A01A026000",
+      "title": "Forgive Me Father",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A2A01A026000.jpg",
+      "variants": [
+        {
+          "id": "v_b708ca67",
+          "name": "Forgive Me Father 2 — Forgive Me Father 2 - Full",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15e7fINzJsyIgOPtXlSbQS8bTn_XbkrA3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15e7fINzJsyIgOPtXlSbQS8bTn_XbkrA3&sz=w640",
+          "sizeBytes": 5622446,
+          "sha256": "48BAB6ED129954CBDD1D84E60C3152FB2445ABC14F2BED2BF2EC073EEFDDB8E4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Forgive Me Father 2 — Forgive Me Father "
+        }
+      ]
+    },
+    {
+      "titleId": "0100FA601A58C000",
+      "title": "Black Skylands",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FA601A58C000.jpg",
+      "variants": [
+        {
+          "id": "v_a609f547",
+          "name": "Black Skylands — Release Trailer GL",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FinR7J6o6tl8XeYg1aCG_QDLfkrS-zz7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FinR7J6o6tl8XeYg1aCG_QDLfkrS-zz7&sz=w640",
+          "sizeBytes": 5421910,
+          "sha256": "E30E4B3AC1C34CA4AF38B1454F6EBC971B08A42D60E4869E934D9F39A6D090B0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Black Skylands — Release Trailer GL"
+        }
+      ]
+    },
+    {
+      "titleId": "010001B005E5C000",
+      "title": "Double Dragon Advance",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010001B005E5C000.jpg",
+      "variants": [
+        {
+          "id": "v_ba9c7c4a",
+          "name": "Double Dragon Advance — Double Dragon Advance PV",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NeA5-WP7f8hmFXkLL9T0sZ-ARCciBgsk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NeA5-WP7f8hmFXkLL9T0sZ-ARCciBgsk&sz=w640",
+          "sizeBytes": 5378315,
+          "sha256": "85EDD54B6942B86AD67549F0F209E1236C30F89ACFAC94289C599574F6D8714B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Double Dragon Advance — Double Dragon Ad"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D250083B4000",
+      "title": "Salt and Sanctuary",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D250083B4000.jpg",
+      "variants": [
+        {
+          "id": "v_4404ad8d",
+          "name": "Salt and Sanctuary — Landfall",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bupHwvJ81uVmYXyp7wMXeQa-4NaZTKhs",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bupHwvJ81uVmYXyp7wMXeQa-4NaZTKhs&sz=w640",
+          "sizeBytes": 4439009,
+          "sha256": "B0BE5E6C44FC4F48A559F6C0326A49F9D2DB0984E4E8DCCA9FF5F0A4444E1A5A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Salt and Sanctuary — Landfall"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E21011447000",
+      "title": "Monster Hunter Stories 2: Wings of Ruin",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E21011447000.jpg",
+      "variants": [
+        {
+          "id": "v_ae62a823",
+          "name": "Monster Hunter Stories 2: Wings of Ruin — 20_RUS",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1JPx0lI8nb4sE9hysi5AQSJjKVpHpvkQ-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1JPx0lI8nb4sE9hysi5AQSJjKVpHpvkQ-&sz=w640",
+          "sizeBytes": 2154375,
+          "sha256": "FA54F95223CC8A8665795B5E850ACAD06BD66A4FA1BF2B93B400133CAAA0D519",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Monster Hunter Stories 2: Wings of Ruin "
+        }
+      ]
     }
   ],
-  "totalGames": 1963,
-  "totalVariants": 3387,
-  "lastUpdated": "2026-11-09T20:52:02.141190+00:00"
+  "totalGames": 1973,
+  "totalVariants": 3397,
+  "lastUpdated": "2026-11-09T20:55:10.435751+00:00"
 }
