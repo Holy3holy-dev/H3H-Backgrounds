@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T20:55:10.435751+00:00",
+  "updatedAt": "2026-11-09T20:58:17.913801+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -78748,9 +78748,269 @@
           "notes": "Switch 720p 30fps H264 | Monster Hunter Stories 2: Wings of Ruin "
         }
       ]
+    },
+    {
+      "titleId": "0100701015846000",
+      "title": "Unpacking",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100701015846000.jpg",
+      "variants": [
+        {
+          "id": "v_b71f8ade",
+          "name": "Unpacking — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1C3VFrI-oNxqahIomXNG_Q1Zfmaqv0kdf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1C3VFrI-oNxqahIomXNG_Q1Zfmaqv0kdf&sz=w640",
+          "sizeBytes": 5257176,
+          "sha256": "6CB901F7360C237646173E991B16E595D5A3687565119D5FAD4F1AFEEBC3C814",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Unpacking — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D2B00BC54000",
+      "title": "Heroes of Hammerwatch Ultimate",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D2B00BC54000.jpg",
+      "variants": [
+        {
+          "id": "v_81565f71",
+          "name": "Heroes of Hammerwatch — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1JHyr_M-_Va80ltoXlsP35bgdvYvaakkZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1JHyr_M-_Va80ltoXlsP35bgdvYvaakkZ&sz=w640",
+          "sizeBytes": 3983880,
+          "sha256": "4BE8EA3CA09EA47E95701A8343D846F3C2FDC010F4783315D7F588B7D63288A4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Heroes of Hammerwatch — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B08023EB8000",
+      "title": "The Nameless Slay Dragon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B08023EB8000.jpg",
+      "variants": [
+        {
+          "id": "v_1d2c84f1",
+          "name": "The Nameless: Slay Dragon — FinalPv",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16_WThBmM65jTs-6gzSJXpBZNS1G6TL6J",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16_WThBmM65jTs-6gzSJXpBZNS1G6TL6J&sz=w640",
+          "sizeBytes": 5083309,
+          "sha256": "D11FFE0F1E82938C7DFEB07156573D3997E36BEAE1C585B33E65320AC8395BA5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Nameless: Slay Dragon — FinalPv"
+        }
+      ]
+    },
+    {
+      "titleId": "01000B5025C24000",
+      "title": "Mori Carta",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000B5025C24000.jpg",
+      "variants": [
+        {
+          "id": "v_bca21386",
+          "name": "Mori Carta — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1geoSLP7jVfRTQnHZXMsbbbYu8WpDglUX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1geoSLP7jVfRTQnHZXMsbbbYu8WpDglUX&sz=w640",
+          "sizeBytes": 5445142,
+          "sha256": "11B87C3135A286EB5BCA73CC50EC61986364313A99E9506627787271FE6F1F7C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mori Carta — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010053000B986000",
+      "title": "Road Redemption",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010053000B986000.jpg",
+      "variants": [
+        {
+          "id": "v_cff7504e",
+          "name": "Road Redemption — Road Redemption Release Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12nWyKF7W4STn-dC9tMKj9SAF9P0xtn8r",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12nWyKF7W4STn-dC9tMKj9SAF9P0xtn8r&sz=w640",
+          "sizeBytes": 5575997,
+          "sha256": "FD121BF3628BE848924559C18F53C92BE168BA8E3ED0169DC28B3EE32979E84D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Road Redemption — Road Redemption Releas"
+        }
+      ]
+    },
+    {
+      "titleId": "01000BE014F78000",
+      "title": "Aerofly FS Flight Simulator",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000BE014F78000.jpg",
+      "variants": [
+        {
+          "id": "v_60c7bc15",
+          "name": "Aerofly FS 4 Flight Simulator — Aerofly FS 4 Tra",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Kick65PwY364MhWrWO11uUwS_D3nPZef",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Kick65PwY364MhWrWO11uUwS_D3nPZef&sz=w640",
+          "sizeBytes": 5232742,
+          "sha256": "1388D2B60C892CA304122E5A1DD5CF5D1CF4C0333CB6D956E748D079CAF46BC2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Aerofly FS 4 Flight Simulator — Aerofly "
+        }
+      ]
+    },
+    {
+      "titleId": "0100D43013A90000",
+      "title": "Salt and Sacrifice",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D43013A90000.jpg",
+      "variants": [
+        {
+          "id": "v_24cc2eec",
+          "name": "Salt and Sacrifice — Launch Trailer - Coming Soo",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Fq8XhVMy-6SjbZ4FDBuk-vpznM0ViMCg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Fq8XhVMy-6SjbZ4FDBuk-vpznM0ViMCg&sz=w640",
+          "sizeBytes": 5564867,
+          "sha256": "F8782C74F9260911519F6EDB0D9475766F9500921B86E7D7A44936A14298C93B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Salt and Sacrifice — Launch Trailer - Co"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C1201A558000",
+      "title": "Speed Crew",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C1201A558000.jpg",
+      "variants": [
+        {
+          "id": "v_163fa77d",
+          "name": "Speed Crew — Speed Crew - Launch Trailer EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Gd-SCkiBarGcV1nc62q4wa2fDsBLhRKB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Gd-SCkiBarGcV1nc62q4wa2fDsBLhRKB&sz=w640",
+          "sizeBytes": 5429386,
+          "sha256": "3A3A6568E352F6F3EB31CEBBB8E54212835E9D40BD03F01C5C7849664E49A07F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Speed Crew — Speed Crew - Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AC600CF0A000",
+      "title": "Just Die Already",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AC600CF0A000.jpg",
+      "variants": [
+        {
+          "id": "v_8426c722",
+          "name": "Just Die Already — JDA_Launch_Steam_ESRB_store_V",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1j_z2RS1Rw6wVWa-JmuF5sIshScKl5wgD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1j_z2RS1Rw6wVWa-JmuF5sIshScKl5wgD&sz=w640",
+          "sizeBytes": 4572097,
+          "sha256": "461F0F2F008E46E971359A8A24844B13B5C170A457710FE1D276EE5454A1F65D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Just Die Already — JDA_Launch_Steam_ESRB"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A62027346000",
+      "title": "Momento",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A62027346000.jpg",
+      "variants": [
+        {
+          "id": "v_16c14639",
+          "name": "Momento — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Oknb9B8d80Enob8RZI9Sj3XqsKGpuYC-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Oknb9B8d80Enob8RZI9Sj3XqsKGpuYC-&sz=w640",
+          "sizeBytes": 5329053,
+          "sha256": "0407C710E65D94F326277AFB1A284B49EA7635697BBBDA293FD331DF14B275A9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Momento — Release Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 1973,
-  "totalVariants": 3397,
-  "lastUpdated": "2026-11-09T20:55:10.435751+00:00"
+  "totalGames": 1983,
+  "totalVariants": 3407,
+  "lastUpdated": "2026-11-09T20:58:17.913801+00:00"
 }
