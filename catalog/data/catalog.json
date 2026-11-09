@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T07:16:47.621378+00:00",
+  "updatedAt": "2026-11-09T07:19:00.542959+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -16937,6 +16937,60 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_c983710e",
+          "name": "Zelda Ultrahand Tears Of The Kingdom",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WP4i7nY1CI0g6T5nhN9m16YwydkPO6Eh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WP4i7nY1CI0g6T5nhN9m16YwydkPO6Eh&sz=w640",
+          "sizeBytes": 6918353,
+          "sha256": "EC16CC785ED997250EC36116713996BAB1AD2D65C65A40846832C99631E9101E",
+          "durationSec": 18.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Zelda Ultrahand Tears Of The Kingdom"
+        },
+        {
+          "id": "v_ce184b06",
+          "name": "Link And Zelda Tears Of The Kingdom Pixel",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13N7atLfjRnex0lRz38ESySxkL3JLlO2K",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13N7atLfjRnex0lRz38ESySxkL3JLlO2K&sz=w640",
+          "sizeBytes": 803534,
+          "sha256": "12ABB25A54031771866A95B74486EB878BD1C1ACF4BAE93F3FB07C87B8B7E196",
+          "durationSec": 18.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Link And Zelda Tears Of The Kingdom Pixe"
+        },
+        {
+          "id": "v_dfb7e146",
+          "name": "Zelda Holy Knight The Legend Of Zelda",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ur6c6IZQsGYHpBB_Mm0lhDydXttVGAhV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ur6c6IZQsGYHpBB_Mm0lhDydXttVGAhV&sz=w640",
+          "sizeBytes": 2569749,
+          "sha256": "484C3392CA8FFACAEE076589067300CFACB330202AF4C338FD611552B5F94AEA",
+          "durationSec": 18.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Zelda Holy Knight The Legend Of Zelda"
         }
       ]
     },
@@ -60718,6 +60772,6 @@
     }
   ],
   "totalGames": 1301,
-  "totalVariants": 2696,
-  "lastUpdated": "2026-11-09T07:16:47.621378+00:00"
+  "totalVariants": 2699,
+  "lastUpdated": "2026-11-09T07:19:00.542959+00:00"
 }
