@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T22:34:21.156728+00:00",
+  "updatedAt": "2026-11-09T22:37:06.665385+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -86808,9 +86808,269 @@
           "notes": "Switch 720p 30fps H264 | Silent Hope — Launch Trailer"
         }
       ]
+    },
+    {
+      "titleId": "01000B600F918000",
+      "title": "Aeon Must Die",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000B600F918000.jpg",
+      "variants": [
+        {
+          "id": "v_e0eb0c53",
+          "name": "Aeon Must Die! — Aeon Must Die! - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1J9FWepHry2cwVG3G08_ZqQYtTMaV_Cts",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1J9FWepHry2cwVG3G08_ZqQYtTMaV_Cts&sz=w640",
+          "sizeBytes": 4921200,
+          "sha256": "33D08872B63DED97C712124F12BC68D16F7BE7E044BDF81FF2ECFF990CEAC1F3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Aeon Must Die! — Aeon Must Die! - Launch"
+        }
+      ]
+    },
+    {
+      "titleId": "01002220138AE000",
+      "title": "The Mean Greens Plastic Warfare",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002220138AE000.jpg",
+      "variants": [
+        {
+          "id": "v_ffff054b",
+          "name": "The Mean Greens - Plastic Warfare — Launch Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10z3whVfJWXQlwrYePhdzpc7XrVS9nbxK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10z3whVfJWXQlwrYePhdzpc7XrVS9nbxK&sz=w640",
+          "sizeBytes": 4669903,
+          "sha256": "BEBDF2FAC0B09C94DB870B519507E9420C403EDCF599847A41204142889D53F5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Mean Greens - Plastic Warfare — Laun"
+        }
+      ]
+    },
+    {
+      "titleId": "01008A80180EA000",
+      "title": "Lonesome Village",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008A80180EA000.jpg",
+      "variants": [
+        {
+          "id": "v_b39502ac",
+          "name": "Lonesome Village — Lonesome Village - Steam",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1N40mT0dv-D4Rp8WNx3q4KeJC3mfHuQYe",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1N40mT0dv-D4Rp8WNx3q4KeJC3mfHuQYe&sz=w640",
+          "sizeBytes": 5109825,
+          "sha256": "EEC152A0E134E3DEB4B6BD01C9856768412E2DF1343FC3A4F0BA9983C4CFBF63",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lonesome Village — Lonesome Village - St"
+        }
+      ]
+    },
+    {
+      "titleId": "010021901966C000",
+      "title": "Fight of Steel Infinity Warrior",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010021901966C000.jpg",
+      "variants": [
+        {
+          "id": "v_16df2275",
+          "name": "Fight of Steel: Infinity Warrior — Fight of Stee",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1204QdpULauHgrkKD5woS6c-EDeHA9ESF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1204QdpULauHgrkKD5woS6c-EDeHA9ESF&sz=w640",
+          "sizeBytes": 4714838,
+          "sha256": "E7AA2FBDF17536D9D3920F7EC5BC8D9DE39CC0A5D0FC7059626F8CC3989EA1A2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fight of Steel: Infinity Warrior — Fight"
+        }
+      ]
+    },
+    {
+      "titleId": "01002F600C684000",
+      "title": "Fight of Gods",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002F600C684000.jpg",
+      "variants": [
+        {
+          "id": "v_7c28e156",
+          "name": "Fight of Gods — Susanoo Join the Fight",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1iD8fKJpamnn9v131ljtfZqC5QDZo2CPZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1iD8fKJpamnn9v131ljtfZqC5QDZo2CPZ&sz=w640",
+          "sizeBytes": 3935556,
+          "sha256": "1A0EDBDCDA78A1E9A1615C20703122F3D8D593D6C3D4AC4875D030144BFBAC7E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fight of Gods — Susanoo Join the Fight"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C5B01BB32000",
+      "title": "Faerie Afterlight",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C5B01BB32000.jpg",
+      "variants": [
+        {
+          "id": "v_c95432fc",
+          "name": "Faerie Afterlight — Gameplay Preview Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ExvMbFfAjFMn8dO37DMzJajIMjwq81pX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ExvMbFfAjFMn8dO37DMzJajIMjwq81pX&sz=w640",
+          "sizeBytes": 5566190,
+          "sha256": "3AD3F0FFE622ADDAFCDBDEB68D568BC5039764DCD62B21A9BF543EAE1648C01A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Faerie Afterlight — Gameplay Preview Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "01005FC010EB2000",
+      "title": "Potata Fairy Flower",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005FC010EB2000.jpg",
+      "variants": [
+        {
+          "id": "v_b2925ac0",
+          "name": "Potata: fairy flower — potata trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SlbMlykZdFXXkiHaFX5_xtESX0zwlKrG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SlbMlykZdFXXkiHaFX5_xtESX0zwlKrG&sz=w640",
+          "sizeBytes": 5450641,
+          "sha256": "7C343B04E6325BBCDE4F2207995419C130409F4BD95067CD858DA29CC7520802",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Potata: fairy flower — potata trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01009D30170D6000",
+      "title": "Slaughter the Lost Outpost",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009D30170D6000.jpg",
+      "variants": [
+        {
+          "id": "v_bae8a343",
+          "name": "Slaughter: The Lost Outpost — Slaughter: The Los",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gUYk_YkJN6q4E9dNaaqWVxZ7SNv2cmSQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gUYk_YkJN6q4E9dNaaqWVxZ7SNv2cmSQ&sz=w640",
+          "sizeBytes": 5234375,
+          "sha256": "D7CB4F4BD3ED639DEB58FDD5F0BCC876DB187969B595F4629BACFBC6D836A8B0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Slaughter: The Lost Outpost — Slaughter:"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E9201410E000",
+      "title": "Sir Lovelot",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E9201410E000.jpg",
+      "variants": [
+        {
+          "id": "v_201f5f69",
+          "name": "Sir Lovelot — Sir Lovelot Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BB_fpuVtSEuqiVc8ZcLF8GbYS5QBWwTn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BB_fpuVtSEuqiVc8ZcLF8GbYS5QBWwTn&sz=w640",
+          "sizeBytes": 5415933,
+          "sha256": "965B215136CB212C36E12375B93EC715BE5539C58D5CAD34998874D6DCD20D36",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sir Lovelot — Sir Lovelot Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CC501F764000",
+      "title": "Let's School",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CC501F764000.jpg",
+      "variants": [
+        {
+          "id": "v_1420cfc4",
+          "name": "Let's School — MagicCastle - EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NAJuZY-70rXveliemCraF7vHv4yaT8KM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NAJuZY-70rXveliemCraF7vHv4yaT8KM&sz=w640",
+          "sizeBytes": 5447777,
+          "sha256": "5F0478763A429A316C96D9D5023FE9872C367ABEBE778439CE2C62CC14B5E545",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Let's School — MagicCastle - EN"
+        }
+      ]
     }
   ],
-  "totalGames": 2283,
-  "totalVariants": 3707,
-  "lastUpdated": "2026-11-09T22:34:21.156728+00:00"
+  "totalGames": 2293,
+  "totalVariants": 3717,
+  "lastUpdated": "2026-11-09T22:37:06.665385+00:00"
 }
