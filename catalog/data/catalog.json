@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T23:09:01.957410+00:00",
+  "updatedAt": "2026-11-09T23:11:43.608466+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -89928,9 +89928,269 @@
           "notes": "Switch 720p 30fps H264 | The last door — 1"
         }
       ]
+    },
+    {
+      "titleId": "01002D901CDB6000",
+      "title": "Just Crow Things",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002D901CDB6000.jpg",
+      "variants": [
+        {
+          "id": "v_118c3d33",
+          "name": "Just Crow Things — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rs5kkQGblL2YkKxHqM_h75hjfKTlHwXF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rs5kkQGblL2YkKxHqM_h75hjfKTlHwXF&sz=w640",
+          "sizeBytes": 5504406,
+          "sha256": "3AC074B796BD24B7335DCA0054153A9E011C95F9A6F0FE53DB26786046025F4D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Just Crow Things — Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01002B202075A000",
+      "title": "Tiny Terry's Turbo Trip",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002B202075A000.jpg",
+      "variants": [
+        {
+          "id": "v_ba1ba458",
+          "name": "Tiny Terry's Turbo Trip — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pQQJGbwZV3CpDvW1AJaqK7i5sBxW4OqH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pQQJGbwZV3CpDvW1AJaqK7i5sBxW4OqH&sz=w640",
+          "sizeBytes": 5573290,
+          "sha256": "46C6758C5CE64B43B411C8D1421B2BFC7397B546BE11CF95CFDD5123EE9E6EB2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tiny Terry's Turbo Trip — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010092801D9BA000",
+      "title": "G.I. Joe Wrath of Cobra",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010092801D9BA000.jpg",
+      "variants": [
+        {
+          "id": "v_973b657a",
+          "name": "G.I. Joe: Wrath of Cobra — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15uiN2Z2d9IzWzCa9iZxB3va26lKlheZ0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15uiN2Z2d9IzWzCa9iZxB3va26lKlheZ0&sz=w640",
+          "sizeBytes": 5328092,
+          "sha256": "C7D59382C32E8A3B7B14845F0D0A7EA716751E126FB6B7BBCCC57BB81D8E9EB3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | G.I. Joe: Wrath of Cobra — Launch Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "010055201822E000",
+      "title": "Wylde Flowers",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010055201822E000.jpg",
+      "variants": [
+        {
+          "id": "v_a0d9e222",
+          "name": "Wylde Flowers — Wylde Flowers - Fabulous Farming",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PbZRDMUslFVDFIwlztEXjLtvZl8ItTZ6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PbZRDMUslFVDFIwlztEXjLtvZl8ItTZ6&sz=w640",
+          "sizeBytes": 5036667,
+          "sha256": "203737B464064F69A2E1873317B2D27042AE42495BFB09710377FC0E52B5CCED",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wylde Flowers — Wylde Flowers - Fabulous"
+        }
+      ]
+    },
+    {
+      "titleId": "01009C300BB4C000",
+      "title": "Beat Cop",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009C300BB4C000.jpg",
+      "variants": [
+        {
+          "id": "v_5fc684e7",
+          "name": "Beat Cop — Beat Cop",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mVycol4Jr_5niccKDcJvYXv3DDnLWZDm",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mVycol4Jr_5niccKDcJvYXv3DDnLWZDm&sz=w640",
+          "sizeBytes": 3870397,
+          "sha256": "CF234F6BCAC8A6AC9F49BF838C1FED965E3C4C0B3D0428A4626A1C7EAD5EF56C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Beat Cop — Beat Cop"
+        }
+      ]
+    },
+    {
+      "titleId": "01002C4017166000",
+      "title": "Despot's Game Dystopian Battle Simulator",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002C4017166000.jpg",
+      "variants": [
+        {
+          "id": "v_e9f44c6d",
+          "name": "Despot's Game: Dystopian Battle Simulator — Laun",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yM2rK5Vrvf_MXjE2QeoTuIphAoysfTRG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yM2rK5Vrvf_MXjE2QeoTuIphAoysfTRG&sz=w640",
+          "sizeBytes": 5514342,
+          "sha256": "C8A140EC50D9490B01A74AA7D5B8E4A52EEAA37333CFC303ECD0A58AB36E1DB1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Despot's Game: Dystopian Battle Simulato"
+        }
+      ]
+    },
+    {
+      "titleId": "01005FF013DC2000",
+      "title": "Monopoly Madness",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005FF013DC2000.jpg",
+      "variants": [
+        {
+          "id": "v_c6e81ab2",
+          "name": "Monopoly Madness — Game Trailer ESRB",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VotiAzySZIps6n6BmkjEl0I4Fh6twtkq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VotiAzySZIps6n6BmkjEl0I4Fh6twtkq&sz=w640",
+          "sizeBytes": 4605601,
+          "sha256": "2FA3BECF81A16281839C2726DEA25DB4BDB85129D3136D69AA70ACD32EEFF1C9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Monopoly Madness — Game Trailer ESRB"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C99024EDE000",
+      "title": "Mega Man Star Force Legacy Collection",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C99024EDE000.jpg",
+      "variants": [
+        {
+          "id": "v_1ebc34ff",
+          "name": "Mega Man Star Force Legacy Collection — 06_PV4_E",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1j4mWr_xjJ80VbNDDDC6ROM6kZNXop7fn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1j4mWr_xjJ80VbNDDDC6ROM6kZNXop7fn&sz=w640",
+          "sizeBytes": 2594653,
+          "sha256": "348896C7AC0ED00CF92B069468B736A51E6A4C0D26489C37FC6CE0225A807F2F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mega Man Star Force Legacy Collection — "
+        }
+      ]
+    },
+    {
+      "titleId": "0100018013124000",
+      "title": "Lost Words: Beyond the Page",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100018013124000.jpg",
+      "variants": [
+        {
+          "id": "v_e9fd698d",
+          "name": "Lost Words: Beyond the Page — Accolades Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1o_FHHSWLzA3Esdz-EOvWefZzOEf9Qehu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1o_FHHSWLzA3Esdz-EOvWefZzOEf9Qehu&sz=w640",
+          "sizeBytes": 4859782,
+          "sha256": "06C63BA49B2DFF9742C39F6475D30ABE024CB8D5466BC7E0B477B2E0C65AFDCA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lost Words: Beyond the Page — Accolades "
+        }
+      ]
+    },
+    {
+      "titleId": "01001040220E8000",
+      "title": "Troublemaker",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001040220E8000.jpg",
+      "variants": [
+        {
+          "id": "v_c4906738",
+          "name": "Jackal Class Troublemaker Nikke",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19GjQ40jpRZLAEDD2qxN_imFq-1c-hgY-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19GjQ40jpRZLAEDD2qxN_imFq-1c-hgY-&sz=w640",
+          "sizeBytes": 2054032,
+          "sha256": "F2CE6817A113C5BCC29CDDFC5859A181D20BB8386BE540CE77AF203ECC18492C",
+          "durationSec": 24.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Jackal Class Troublemaker Nikke"
+        }
+      ]
     }
   ],
-  "totalGames": 2403,
-  "totalVariants": 3827,
-  "lastUpdated": "2026-11-09T23:09:01.957410+00:00"
+  "totalGames": 2413,
+  "totalVariants": 3837,
+  "lastUpdated": "2026-11-09T23:11:43.608466+00:00"
 }
