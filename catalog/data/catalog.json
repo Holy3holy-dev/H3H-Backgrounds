@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T06:27:26.069227+00:00",
+  "updatedAt": "2026-11-09T06:28:18.316047+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -3321,6 +3321,24 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_ce1149e1",
+          "name": "Obito Kamui Naruto Mobile",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1K6_FifmOqJRN7QnzBW02ZoB50Ig4ty3n",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1K6_FifmOqJRN7QnzBW02ZoB50Ig4ty3n&sz=w640",
+          "sizeBytes": 6773303,
+          "sha256": "8A2C27218EE007E1F4102B59AF8C9529E35D93AF6898ED0CD60D3400F24ABEFC",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Obito Kamui Naruto Mobile"
         }
       ]
     },
@@ -60862,6 +60880,6 @@
     }
   ],
   "totalGames": 1298,
-  "totalVariants": 2705,
-  "lastUpdated": "2026-11-09T06:27:26.069227+00:00"
+  "totalVariants": 2706,
+  "lastUpdated": "2026-11-09T06:28:18.316047+00:00"
 }
