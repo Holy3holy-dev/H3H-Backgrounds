@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T07:13:03.324460+00:00",
+  "updatedAt": "2026-11-09T07:15:04.391167+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -15242,6 +15242,60 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_5a1fc70c",
+          "name": "Super Mario Floating Outer Space",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UaSIG9_5XJuVToafSWTCZ4ilCtrWMDZE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UaSIG9_5XJuVToafSWTCZ4ilCtrWMDZE&sz=w640",
+          "sizeBytes": 742279,
+          "sha256": "DC5B0F2E4F77EC48134E441B54D5A5573095B4E8DC6D0B98356FF38B43B2A9F3",
+          "durationSec": 18.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Super Mario Floating Outer Space"
+        },
+        {
+          "id": "v_5741a14b",
+          "name": "Bowser Vs Super Mario",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LgWls5oe6abqjuxvv1fI2GHHS9pVQ2d_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LgWls5oe6abqjuxvv1fI2GHHS9pVQ2d_&sz=w640",
+          "sizeBytes": 609380,
+          "sha256": "36F1C42D4D7D6E3D9EBE8EC190512F879A0FC904487C4D60B3C9E5971BA3C7AA",
+          "durationSec": 18.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Bowser Vs Super Mario"
+        },
+        {
+          "id": "v_4216c8bf",
+          "name": "Super Mario Rainbow Run",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mCgpEO67nVZwksYuqW2z6YaoO7H4oWsw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mCgpEO67nVZwksYuqW2z6YaoO7H4oWsw&sz=w640",
+          "sizeBytes": 6285380,
+          "sha256": "5ADEC7C0586DA9A9EB5709587B5140F8A2E7604416780F0FEA95F8A6DF2A59F0",
+          "durationSec": 18.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Super Mario Rainbow Run"
         }
       ]
     },
@@ -60610,6 +60664,6 @@
     }
   ],
   "totalGames": 1301,
-  "totalVariants": 2690,
-  "lastUpdated": "2026-11-09T07:13:03.324460+00:00"
+  "totalVariants": 2693,
+  "lastUpdated": "2026-11-09T07:15:04.391167+00:00"
 }
