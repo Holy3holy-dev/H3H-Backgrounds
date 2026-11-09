@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T06:01:18.593647+00:00",
+  "updatedAt": "2026-11-09T06:04:03.412258+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -1713,6 +1713,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Knight Campfire Dark Souls"
+        },
+        {
+          "id": "v_f73034dd",
+          "name": "Dark Souls Knight",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FOm5yWi82-tBMX4qJCp5T6Pw-Zpsy9pR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FOm5yWi82-tBMX4qJCp5T6Pw-Zpsy9pR&sz=w640",
+          "sizeBytes": 736035,
+          "sha256": "B17E05CBDDEFEA575EAE949744479C52A1DDFF420E92AD2E4721154BDB4B00E3",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dark Souls Knight"
+        },
+        {
+          "id": "v_f9128653",
+          "name": "Embers Of Comfort Dark Souls",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TC-s6iffjsFerdrsrklk8frWfjVQc1dF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TC-s6iffjsFerdrsrklk8frWfjVQc1dF&sz=w640",
+          "sizeBytes": 1004360,
+          "sha256": "9DF33CCC790957C9C48B228AB78957C7E60AE7E81F854111E82A02B293CB34AA",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Embers Of Comfort Dark Souls"
         }
       ]
     },
@@ -60484,6 +60520,6 @@
     }
   ],
   "totalGames": 1298,
-  "totalVariants": 2684,
-  "lastUpdated": "2026-11-09T06:01:18.593647+00:00"
+  "totalVariants": 2686,
+  "lastUpdated": "2026-11-09T06:04:03.412258+00:00"
 }
