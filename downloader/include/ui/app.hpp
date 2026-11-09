@@ -75,6 +75,7 @@ enum class DialogType {
     ConfirmDeleteCorrupted,
     IntegrityCheckResult,
     MessageAlert,
+    UpdateAvailable,
     UpdateProgress,
     UpdateSuccess
 };
@@ -388,6 +389,7 @@ private:
     std::atomic<bool> m_isCheckingUpdateStartup{false};
     std::atomic<bool> m_startupUpdateDone{false};
     std::string m_startupUpdateLatestVer;
+    std::string m_startupUpdateReleaseNotes;
     std::mutex m_startupUpdateMutex;
 
     // Thread-safe async download queue processing

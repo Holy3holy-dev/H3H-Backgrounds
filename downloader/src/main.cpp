@@ -2,6 +2,12 @@
 #include "platform/platform_interface.hpp"
 #include <iostream>
 
+#ifdef __SWITCH__
+#include <switch.h>
+// 2 MB thread stack size prevents mbedTLS / libcurl stack overflows
+size_t __nx_threads_stack_size = 0x200000;
+#endif
+
 int main(int argc, char* argv[]) {
     std::cout << "========================================" << std::endl;
     std::cout << "  H3H Backgrounds — 4IFIR Downloader    " << std::endl;

@@ -1588,8 +1588,13 @@ void App::update() {
                         if (vJson.contains("latestVersion")) {
                             std::string latestVer = vJson["latestVersion"].get<std::string>();
                             if (latestVer != Config::APP_VERSION) {
+                                std::string relNotes = "Вышла новая версия приложения с улучшениями и исправлениями.";
+                                if (vJson.contains("releaseNotes")) {
+                                    relNotes = vJson["releaseNotes"].get<std::string>();
+                                }
                                 std::lock_guard<std::mutex> lock(m_startupUpdateMutex);
                                 m_startupUpdateLatestVer = latestVer;
+                                m_startupUpdateReleaseNotes = relNotes;
                             }
                         }
                     } catch (...) {}
@@ -1605,15 +1610,22 @@ void App::update() {
             m_startupUpdateThread.join();
         }
         std::string newVer;
+        std::string notes;
         {
             std::lock_guard<std::mutex> lock(m_startupUpdateMutex);
             newVer = std::move(m_startupUpdateLatestVer);
+            notes = std::move(m_startupUpdateReleaseNotes);
         }
         if (!newVer.empty()) {
-            m_statusNotification = (m_language == Language::Russian)
-                ? ("Обнаружено обновление v" + newVer + "! Нажмите [-] в Настройках")
-                : ("New update v" + newVer + " detected! Press [-] in Settings");
-            m_notificationFramesRemaining = 240;
+            m_activeDialog = DialogType::UpdateAvailable;
+            m_dialogOpenedAt = SDL_GetTicks();
+            m_dialogTitle = (m_language == Language::Russian)
+                ? ("Доступно обновление v" + newVer)
+                : ("Update Available v" + newVer);
+            m_dialogMessage = (m_language == Language::Russian)
+                ? ("Вышла новая версия H3H-Backgrounds v" + newVer + ":\n\n" + (notes.empty() ? "Рекомендуется обновить приложение." : notes) + "\n\nОбновить приложение сейчас?")
+                : ("New version H3H-Backgrounds v" + newVer + " is available:\n\n" + notes + "\n\nDo you want to update now?");
+            m_dialogFocus = 0; // Default focus on 'Да, обновить'
         }
     }
 
@@ -2082,6 +2094,10 @@ void App::executeDeleteCover(const std::string& titleId) {
 }
 
 void App::executeCycleNextCover(const std::string& titleId) {
+    // 1. Release any open file handle in video player before filesystem swap
+    m_videoPlayer.close();
+    std::this_thread::sleep_for(std::chrono::milliseconds(20));
+
     auto variants = Installer::findInstalledCoverVariants(m_platform->getCoversDirectory(), titleId);
     if (variants.size() <= 1) return;
 
@@ -2102,7 +2118,22 @@ void App::executeCycleNextCover(const std::string& titleId) {
         m_statusNotification = "Не удалось сменить видеофон";
     }
     m_notificationFramesRemaining = 180;
-    refreshInstalledGames();
+
+    // Fast, safe local update: refresh variant state ONLY for this game without rescanning all SD games
+    for (auto& g : m_installedGames) {
+        if (g.titleId == titleId) {
+            g.installedCoverVariants = Installer::findInstalledCoverVariants(m_platform->getCoversDirectory(), titleId);
+            g.installedCoversCount = static_cast<int>(g.installedCoverVariants.size());
+            for (const auto& var : g.installedCoverVariants) {
+                if (var.isActive) {
+                    g.installedCoverPath = var.filePath;
+                    g.installedCoverSizeBytes = var.sizeBytes;
+                    break;
+                }
+            }
+            break;
+        }
+    }
 }
 
 void App::executeDeleteCoverVariant(const std::string& titleId, int index) {
@@ -2284,6 +2315,21 @@ void App::onButtonPress(int button) {
     // Top-Level Modal Dialog Handler: Must process first and block all underlying views
     if (m_activeDialog != DialogType::None) {
         if (SDL_GetTicks() - m_dialogOpenedAt < 150) {
+            return;
+        }
+        if (m_activeDialog == DialogType::UpdateAvailable) {
+            if (button == 13 /* DPAD_LEFT */ || button == 14 /* DPAD_RIGHT */) {
+                m_dialogFocus = 1 - m_dialogFocus;
+            } else if (button == 0 /* A */) {
+                if (m_dialogFocus == 0) {
+                    m_activeDialog = DialogType::None;
+                    updateApplicationNro();
+                } else {
+                    m_activeDialog = DialogType::None;
+                }
+            } else if (button == 1 /* B */) {
+                m_activeDialog = DialogType::None;
+            }
             return;
         }
         if (m_activeDialog == DialogType::UpdateProgress) {
@@ -3045,8 +3091,8 @@ void App::onButtonPress(int button) {
             fetchRemoteCatalog();
             return;
         }
-        if (button == 4 /* MINUS (-) - Refresh Catalog */) {
-            fetchRemoteCatalog();
+        if (button == 4 /* MINUS (-) */) {
+            checkForUpdates(true);
             return;
         }
         if (button == 6 /* START (+) - Integrity Check */) {
@@ -3210,6 +3256,7 @@ void App::onButtonPress(int button) {
                     return;
                 }
             }
+            return;
         }
 
         if (m_myGamesActivePane == MyGamesPane::GamesList) {
@@ -3442,8 +3489,6 @@ void App::onButtonPress(int button) {
                     saveFavorites();
                     rebuildCatalogFilter();
                 }
-            } else {
-                fetchRemoteCatalog();
             }
             return;
         }
@@ -5029,6 +5074,48 @@ void App::renderDialog() {
     }
 
     drawText(m_dialogTitle, dx + 35, dy + 25, Theme::COLOR_FOCUS_CYAN, 20);
+
+    // Specialized dialog: Update Available (Interactive Yes/No Prompt)
+    if (m_activeDialog == DialogType::UpdateAvailable) {
+        std::stringstream ss(m_dialogMessage);
+        std::string rawLine;
+        int msgY = dy + 68;
+        while (std::getline(ss, rawLine, '\n')) {
+            std::stringstream wordStream(rawLine);
+            std::string word;
+            std::string currentLine;
+            while (wordStream >> word) {
+                if (currentLine.empty()) {
+                    currentLine = word;
+                } else if (currentLine.length() + 1 + word.length() <= 54) {
+                    currentLine += " " + word;
+                } else {
+                    drawText(currentLine, dx + 35, msgY, Theme::COLOR_TEXT_PRIMARY, 14, dw - 70);
+                    msgY += 24;
+                    currentLine = word;
+                }
+            }
+            if (!currentLine.empty()) {
+                drawText(currentLine, dx + 35, msgY, Theme::COLOR_TEXT_PRIMARY, 14, dw - 70);
+                msgY += 24;
+            }
+        }
+
+        int btnW = 200;
+        int btnH = 44;
+        int btnY = dy + 200;
+
+        // Button 0: [A] Да, обновить
+        bool fYes = (m_dialogFocus == 0);
+        drawGlassCard(dx + 120, btnY, btnW, btnH, fYes, false);
+        drawText(tr("[A] Да, обновить", "[A] Yes, update"), dx + 145, btnY + 13, fYes ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 15);
+
+        // Button 1: [B] Нет, позже
+        bool fNo = (m_dialogFocus == 1);
+        drawGlassCard(dx + 380, btnY, btnW, btnH, fNo, false);
+        drawText(tr("[B] Нет, позже", "[B] No, later"), dx + 420, btnY + 13, fNo ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 15);
+        return;
+    }
 
     // Specialized dialog: Update Success
     if (m_activeDialog == DialogType::UpdateSuccess) {
