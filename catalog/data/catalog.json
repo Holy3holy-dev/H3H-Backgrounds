@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T21:45:29.767085+00:00",
+  "updatedAt": "2026-11-09T21:48:21.915377+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -82908,9 +82908,269 @@
           "notes": "Switch 720p 30fps H264 | Picklock — StoryEN"
         }
       ]
+    },
+    {
+      "titleId": "01008E1012FE6000",
+      "title": "Apple Slash",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008E1012FE6000.jpg",
+      "variants": [
+        {
+          "id": "v_ae6fc178",
+          "name": "Apple Slash — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1aHjymWU_GS019-oOXbbRIAeM83iSpluD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1aHjymWU_GS019-oOXbbRIAeM83iSpluD&sz=w640",
+          "sizeBytes": 5461279,
+          "sha256": "63198CD465C763C3B30D642D32EB81893C1EE4BC04B88551601D65760F7D3958",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Apple Slash — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E3A00A9D4000",
+      "title": "Rush Rover",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E3A00A9D4000.jpg",
+      "variants": [
+        {
+          "id": "v_9af7a10f",
+          "name": "Rush Rover — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hlmDh2Xbpxf_4ily6bqTN0t1FPPYctHM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hlmDh2Xbpxf_4ily6bqTN0t1FPPYctHM&sz=w640",
+          "sizeBytes": 4103167,
+          "sha256": "E0B4D29A96D417C7FF12A6C101A830BFBAFBCDAC6894B4A3B850BF022600AB3D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rush Rover — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01007FA00DA22000",
+      "title": "The Story Goes On",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007FA00DA22000.jpg",
+      "variants": [
+        {
+          "id": "v_0f30b9a9",
+          "name": "The Story Goes On — The Story Goes On - RE-RELEA",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1YfQOm70gN1kzIgAhEnv4aJc-UqQ0Pg_0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1YfQOm70gN1kzIgAhEnv4aJc-UqQ0Pg_0&sz=w640",
+          "sizeBytes": 4110450,
+          "sha256": "D12B01A3F09A0979CD499705D5B5A924603CA4C8739A538C37314C24F0D9367F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Story Goes On — The Story Goes On - "
+        }
+      ]
+    },
+    {
+      "titleId": "010076B0101A0000",
+      "title": "Yestermorrow",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010076B0101A0000.jpg",
+      "variants": [
+        {
+          "id": "v_1188b98b",
+          "name": "YesterMorrow — Date Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1JxiRifDy6oP2nsgVtMUtoVcZDGjZdck0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1JxiRifDy6oP2nsgVtMUtoVcZDGjZdck0&sz=w640",
+          "sizeBytes": 4506876,
+          "sha256": "0D034CA49402BD0A4414CDD53738F0A759C240F82D1D52ABD8D721DABE38A533",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | YesterMorrow — Date Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FF1012C1C000",
+      "title": "Drawn To Life Two Realms",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FF1012C1C000.jpg",
+      "variants": [
+        {
+          "id": "v_34db83a6",
+          "name": "Drawn to Life: Two Realms — Drawn To Life: Two R",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IVA_lNCvdgZGP87xzgACuvcaNUcWtnXu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IVA_lNCvdgZGP87xzgACuvcaNUcWtnXu&sz=w640",
+          "sizeBytes": 4315536,
+          "sha256": "85F65334CF00C21EB7EBF4A9B2AE50455D31208E705780A8FC73DFE74AD0ED1F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Drawn to Life: Two Realms — Drawn To Lif"
+        }
+      ]
+    },
+    {
+      "titleId": "010053C014E1A000",
+      "title": "Heart Chain Kitty",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010053C014E1A000.jpg",
+      "variants": [
+        {
+          "id": "v_596e2b59",
+          "name": "Heart Chain Kitty — Adventure Kitten Skills",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1sbOvTTkKSkHNYeh9D6voNdh2Xyvag_if",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1sbOvTTkKSkHNYeh9D6voNdh2Xyvag_if&sz=w640",
+          "sizeBytes": 5467155,
+          "sha256": "9BBD01BB55180C7F9674E44789003C9FC4CF60B37A59919FA35AFF8240F76B47",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Heart Chain Kitty — Adventure Kitten Ski"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DE2016A2C000",
+      "title": "Primal Light",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DE2016A2C000.jpg",
+      "variants": [
+        {
+          "id": "v_93da2cbd",
+          "name": "Primal Light — Release Date Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=194py_wquEJo9_e4RrMsUaWJU1mt-PaYv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=194py_wquEJo9_e4RrMsUaWJU1mt-PaYv&sz=w640",
+          "sizeBytes": 5215038,
+          "sha256": "9FFD9D123383754194F78834451B002AC59C90FD1ADC16857B81AAAAF72580D6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Primal Light — Release Date Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01000F000D9F0000",
+      "title": "Geki Yaba Runner",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000F000D9F0000.jpg",
+      "variants": [
+        {
+          "id": "v_88e965fd",
+          "name": "Geki Yaba Runner — Geki Yaba Runner | Official T",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pXZjnuBbyuN6UBzQwR_8-e1cfNF9GDPQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pXZjnuBbyuN6UBzQwR_8-e1cfNF9GDPQ&sz=w640",
+          "sizeBytes": 5022501,
+          "sha256": "8B18B480130F25D9E897CD7C37356995DC4C173B51BC12F6CF842ACA471A94FF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Geki Yaba Runner — Geki Yaba Runner | Of"
+        }
+      ]
+    },
+    {
+      "titleId": "01007E302274A000",
+      "title": "War Mongrels",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007E302274A000.jpg",
+      "variants": [
+        {
+          "id": "v_f5a675b1",
+          "name": "War Mongrels — War Mongrels Polished Edition Tra",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1INBJDzFZ6Tc8bQVJDepWxFvd90jYI3du",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1INBJDzFZ6Tc8bQVJDepWxFvd90jYI3du&sz=w640",
+          "sizeBytes": 5247262,
+          "sha256": "09EBE5A68407A6BF98FFB3C278599683618414FECB74143C07BD2CADD6EE1944",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | War Mongrels — War Mongrels Polished Edi"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BF4013D70000",
+      "title": "Spacebase Startopia",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BF4013D70000.jpg",
+      "variants": [
+        {
+          "id": "v_2e1da55c",
+          "name": "Spacebase Startopia — Spacebase Startopia Releas",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MfcJSX6JafiGUXHvloreQm3iLsOywCfy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MfcJSX6JafiGUXHvloreQm3iLsOywCfy&sz=w640",
+          "sizeBytes": 5198788,
+          "sha256": "E069AF7F8489747834EB90B009B8FF8C632CCCD7758C4DC69D1E40D0B4619DEB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Spacebase Startopia — Spacebase Startopi"
+        }
+      ]
     }
   ],
-  "totalGames": 2133,
-  "totalVariants": 3557,
-  "lastUpdated": "2026-11-09T21:45:29.767085+00:00"
+  "totalGames": 2143,
+  "totalVariants": 3567,
+  "lastUpdated": "2026-11-09T21:48:21.915377+00:00"
 }
