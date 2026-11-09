@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T22:31:28.639511+00:00",
+  "updatedAt": "2026-11-09T22:34:21.156728+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -86548,9 +86548,269 @@
           "notes": "Switch 720p 30fps H264 | Doom & Destiny Worlds — Survive without "
         }
       ]
+    },
+    {
+      "titleId": "01000060085D2000",
+      "title": "A Hole New World",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000060085D2000.jpg",
+      "variants": [
+        {
+          "id": "v_2666724b",
+          "name": "A Hole New World — A Hole New World -Steam Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HlW9051kekOeGvo8N1GBvSpgiLs0jEPH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HlW9051kekOeGvo8N1GBvSpgiLs0jEPH&sz=w640",
+          "sizeBytes": 5247788,
+          "sha256": "5EF61C830178786665916AE91065F9D51374457A78EF3C05F918558851AE2223",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | A Hole New World — A Hole New World -Ste"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F53017624000",
+      "title": "Fall of Porcupine",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F53017624000.jpg",
+      "variants": [
+        {
+          "id": "v_3d0f01ae",
+          "name": "Fall of Porcupine — Release Trailer German",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vXbLFaEOxSGTG9qpM0dcX2mvdmTOsjhS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vXbLFaEOxSGTG9qpM0dcX2mvdmTOsjhS&sz=w640",
+          "sizeBytes": 5453095,
+          "sha256": "E053F08C4D394115C87121928BCD2263FC1951C06971006970C3C6650542557C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fall of Porcupine — Release Trailer Germ"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C7F01584E000",
+      "title": "Gloom and Doom",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C7F01584E000.jpg",
+      "variants": [
+        {
+          "id": "v_0d0614b5",
+          "name": "Gloom and Doom — 90s Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bIPNfDkp1GCYk7tR7iDjE-vBPZ9N5DHG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bIPNfDkp1GCYk7tR7iDjE-vBPZ9N5DHG&sz=w640",
+          "sizeBytes": 5323932,
+          "sha256": "307CF6DFE929EEABECF5C61339B464A5867DFFE6D3017C9CCEA0595BA358A750",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Gloom and Doom — 90s Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01000CE01428C000",
+      "title": "Tunnel of Doom",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000CE01428C000.jpg",
+      "variants": [
+        {
+          "id": "v_c2be4f2d",
+          "name": "Tunnel of Doom — Tunnel of Doom | Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZGy0tQmTulfOYQxQPTUucSJOht8XI5LK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZGy0tQmTulfOYQxQPTUucSJOht8XI5LK&sz=w640",
+          "sizeBytes": 4777805,
+          "sha256": "D6CC7B91C8A417C5970E4802AEE472C00070C44E6E2BDB3D3B6DEE2191A147BF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tunnel of Doom — Tunnel of Doom | Launch"
+        }
+      ]
+    },
+    {
+      "titleId": "01007EE01318E000",
+      "title": "Vampire the Masquerade: Swansong",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007EE01318E000.jpg",
+      "variants": [
+        {
+          "id": "v_2986ebfc",
+          "name": "Vampire: The Masquerade – Swansong — Accolade",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1R_mxTVkdmEXxT8UydgYUxrJUy7s-zPvE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1R_mxTVkdmEXxT8UydgYUxrJUy7s-zPvE&sz=w640",
+          "sizeBytes": 4970097,
+          "sha256": "5F730D7E44132E2CE1C73C3CDB094091C5501A70153C51297B475252131CB2F9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Vampire: The Masquerade – Swansong — Acc"
+        }
+      ]
+    },
+    {
+      "titleId": "01008D700AB14000",
+      "title": "The Bug Butcher",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008D700AB14000.jpg",
+      "variants": [
+        {
+          "id": "v_1e25d910",
+          "name": "The Bug Butcher — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1v3BLs-O8A4bmh65Hc9UaaS3Uhg8s2gIh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1v3BLs-O8A4bmh65Hc9UaaS3Uhg8s2gIh&sz=w640",
+          "sizeBytes": 5478199,
+          "sha256": "AAB97C45D3122ED0AC36CEEE0FE417E4F06805205CEFF716B27D5E6FA1FE526E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Bug Butcher — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01008BE0179BC000",
+      "title": "Airoheart",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008BE0179BC000.jpg",
+      "variants": [
+        {
+          "id": "v_dc55c2bf",
+          "name": "Airoheart — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wzgSkskOnKA0hIQvZcnSp8p6-xTBJQfJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wzgSkskOnKA0hIQvZcnSp8p6-xTBJQfJ&sz=w640",
+          "sizeBytes": 3890385,
+          "sha256": "A2321196DC91BB42B5C9428643250786129089A4258A65B6870C350649614816",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Airoheart — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F1F00D5B2000",
+      "title": "Darkest Hunters",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F1F00D5B2000.jpg",
+      "variants": [
+        {
+          "id": "v_5a13faeb",
+          "name": "Darkest Hunters — Darkest Hunters - Official Tra",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gCirQT5yZcoQyluDx-YFfabtsQZvVLwp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gCirQT5yZcoQyluDx-YFfabtsQZvVLwp&sz=w640",
+          "sizeBytes": 5103298,
+          "sha256": "60E6B1CA8EE00ADBCEE7988532DB7B17973E2463E9EB77FC9C09AF6BA09AA1F0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Darkest Hunters — Darkest Hunters - Offi"
+        }
+      ]
+    },
+    {
+      "titleId": "010001F014D9A000",
+      "title": "Dodgeball Academia",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010001F014D9A000.jpg",
+      "variants": [
+        {
+          "id": "v_1dd5a886",
+          "name": "Dodgeball Academia — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1e__-7BuR4B_hEvqEq0SlxaybNOzzfdOK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1e__-7BuR4B_hEvqEq0SlxaybNOzzfdOK&sz=w640",
+          "sizeBytes": 5187689,
+          "sha256": "C342B7D96EDFF99CED0C583595A71F225EEA92CD79B18210966D290296CBA1E3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dodgeball Academia — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BAE01A078000",
+      "title": "Silent Hope",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BAE01A078000.jpg",
+      "variants": [
+        {
+          "id": "v_46e8e0a7",
+          "name": "Silent Hope — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1sLFr0k4qhd4KPR7bY3Pc1Tm578WxrdF1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1sLFr0k4qhd4KPR7bY3Pc1Tm578WxrdF1&sz=w640",
+          "sizeBytes": 4198441,
+          "sha256": "95F34CF65859B84CBA0D7A89D2FDE5510D55B77911DC1950996AC3185A5F0123",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Silent Hope — Launch Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 2273,
-  "totalVariants": 3697,
-  "lastUpdated": "2026-11-09T22:31:28.639511+00:00"
+  "totalGames": 2283,
+  "totalVariants": 3707,
+  "lastUpdated": "2026-11-09T22:34:21.156728+00:00"
 }
