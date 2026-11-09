@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T23:28:43.065668+00:00",
+  "updatedAt": "2026-11-09T23:31:38.906282+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -91748,9 +91748,269 @@
           "notes": "Switch 720p 30fps H264 | Mable & The Wood — Available Now trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100DB6020CCE000",
+      "title": "Little Droid",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DB6020CCE000.jpg",
+      "variants": [
+        {
+          "id": "v_e27e5646",
+          "name": "Little Droid — littledroid",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Nnm4Dk4N-CyGPPXSxnp4w6U4f7H05zMe",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Nnm4Dk4N-CyGPPXSxnp4w6U4f7H05zMe&sz=w640",
+          "sizeBytes": 4929670,
+          "sha256": "1E38E694A622515104549675D045D3F09EF769531A260C42B87D9BB8D513C3F2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Little Droid — littledroid"
+        }
+      ]
+    },
+    {
+      "titleId": "01003B7018446000",
+      "title": "Itorah",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003B7018446000.jpg",
+      "variants": [
+        {
+          "id": "v_3dff8940",
+          "name": "ITORAH — Itorah Boss Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IpA5CzYFf6NNYW8PUklJpUDYKs0YMx7Y",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IpA5CzYFf6NNYW8PUklJpUDYKs0YMx7Y&sz=w640",
+          "sizeBytes": 5369723,
+          "sha256": "7AAFB0326F56F0817C8AF754C37E2EB7D81074EDAE2C1C457431B5811E72FF67",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | ITORAH — Itorah Boss Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010069D018AC2000",
+      "title": "HunterX",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010069D018AC2000.jpg",
+      "variants": [
+        {
+          "id": "v_1e8a9d87",
+          "name": "HunterX — HunterX Steam Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1e4KFrf6MJwYiMXzM7AiegOjeb4nWG0G0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1e4KFrf6MJwYiMXzM7AiegOjeb4nWG0G0&sz=w640",
+          "sizeBytes": 5550657,
+          "sha256": "1ACB582211D3DD2A90A97D47ADAEDE8FD4D2F43434AB937DAFA97E6A2510E48C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | HunterX — HunterX Steam Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010057B014252000",
+      "title": "Digimon World Next Order",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010057B014252000.jpg",
+      "variants": [
+        {
+          "id": "v_de482a26",
+          "name": "Digimon World: Next Order — Digimon World: Next ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Cy62tyoL2GBqrT5DHtnccM5rH1BIU1-c",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Cy62tyoL2GBqrT5DHtnccM5rH1BIU1-c&sz=w640",
+          "sizeBytes": 5504061,
+          "sha256": "A4F814875121A7EF802B5498DE59E35CB63DE93433AA7F21ADA5A57AF19D2F36",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Digimon World: Next Order — Digimon Worl"
+        }
+      ]
+    },
+    {
+      "titleId": "0100496004194000",
+      "title": "The Mummy Demastered",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100496004194000.jpg",
+      "variants": [
+        {
+          "id": "v_07fc746d",
+          "name": "The Mummy Demastered — The Mummy Demastered Laun",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ES07yQPofU-GfcGX6D8wYcefXYzldK8Z",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ES07yQPofU-GfcGX6D8wYcefXYzldK8Z&sz=w640",
+          "sizeBytes": 4884684,
+          "sha256": "72E7E98D93B2D1119D7AD3416F18E36EEA18CF6A08B1F7FEC116C656EDF76813",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Mummy Demastered — The Mummy Demaste"
+        }
+      ]
+    },
+    {
+      "titleId": "0100400013E20000",
+      "title": "Sun Wukong vs Robot",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100400013E20000.jpg",
+      "variants": [
+        {
+          "id": "v_8f925679",
+          "name": "孙悟空大战机器金刚 / Sun Wukong VS Robot — Sun Wukong VS ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lw0u0YclzpYTVjPXq5_4OskCO1_E-p2C",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lw0u0YclzpYTVjPXq5_4OskCO1_E-p2C&sz=w640",
+          "sizeBytes": 4944044,
+          "sha256": "5F85FD3A0886BCD46A59C9F615AC808D57681B6EF310EFE2AD6EE71104352D80",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 孙悟空大战机器金刚 / Sun Wukong VS Robot — Sun Wu"
+        }
+      ]
+    },
+    {
+      "titleId": "01004E301CB88000",
+      "title": "Rebel Transmute",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004E301CB88000.jpg",
+      "variants": [
+        {
+          "id": "v_5cff9a9f",
+          "name": "Rebel Transmute — Rebel Transmute - Official Tra",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eBc9kbi1hVhBktESoSrfe3H738HaNvAF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eBc9kbi1hVhBktESoSrfe3H738HaNvAF&sz=w640",
+          "sizeBytes": 5051914,
+          "sha256": "A6421C244E8D1BF2B7D257F221487D9DF4B6169082AAD30AE6FED251D1BBEA70",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rebel Transmute — Rebel Transmute - Offi"
+        }
+      ]
+    },
+    {
+      "titleId": "01007AD01C432000",
+      "title": "SNK vs Capcom SVC Chaos",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007AD01C432000.jpg",
+      "variants": [
+        {
+          "id": "v_bb987664",
+          "name": "SNK VS. CAPCOM SVC CHAOS — SVCTrailerEN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nDEqPivALr6xURN3DVKTqoqUUZBJCT8_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nDEqPivALr6xURN3DVKTqoqUUZBJCT8_&sz=w640",
+          "sizeBytes": 4729259,
+          "sha256": "0689E4D0526A6699B713B082793D9AD2D7171BAB08C7C401ECD59BF8CF030083",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | SNK VS. CAPCOM SVC CHAOS — SVCTrailerEN"
+        }
+      ]
+    },
+    {
+      "titleId": "01002C101E2C4000",
+      "title": "Farmagia",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002C101E2C4000.jpg",
+      "variants": [
+        {
+          "id": "v_a5c24b4d",
+          "name": "Farmagia — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KMLmWaS98m5fK0lXDqw6kO1Jn4kQ9JlD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KMLmWaS98m5fK0lXDqw6kO1Jn4kQ9JlD&sz=w640",
+          "sizeBytes": 4928518,
+          "sha256": "79BC27DF7BA49F8226C341C05C77E58A24510F909F00FE690058A08D8F57CD58",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Farmagia — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01004FD0213C6000",
+      "title": "Conquistadorio",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004FD0213C6000.jpg",
+      "variants": [
+        {
+          "id": "v_219bbdb9",
+          "name": "Conquistadorio: Prologue — prologue",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pTvdQ1DDhsOYSf45H5w4y0AQQWWaPYDi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pTvdQ1DDhsOYSf45H5w4y0AQQWWaPYDi&sz=w640",
+          "sizeBytes": 5365013,
+          "sha256": "CB16CDC9FFBB5F22358324B3E3EC4E6339A5915D7BDC9F31B477330A52B5C112",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Conquistadorio: Prologue — prologue"
+        }
+      ]
     }
   ],
-  "totalGames": 2473,
-  "totalVariants": 3897,
-  "lastUpdated": "2026-11-09T23:28:43.065668+00:00"
+  "totalGames": 2483,
+  "totalVariants": 3907,
+  "lastUpdated": "2026-11-09T23:31:38.906282+00:00"
 }
