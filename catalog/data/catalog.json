@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T10:53:12.238190+00:00",
+  "updatedAt": "2026-11-09T10:54:37.919353+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -43436,7 +43436,26 @@
       "title": "Sworn",
       "publisher": "Nintendo Switch",
       "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BED01E6EE000.jpg",
-      "variants": []
+      "variants": [
+        {
+          "id": "v_bf46a7cd",
+          "name": "SWORN — SWORN -  1.0 Launch Trailer",
+          "style": "cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1osY96iUwsCumVqPpyukq5KOTznpj8Yiv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1osY96iUwsCumVqPpyukq5KOTznpj8Yiv&sz=w640",
+          "sizeBytes": 5090818,
+          "sha256": "BF8D58E107066B033E71AB9D9AD051A4834F73BAC78535EF8E0EF8D36D671421",
+          "durationSec": 15.0,
+          "author": "Steam Official",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | SWORN — SWORN -  1.0 Launch Trailer"
+        }
+      ]
     },
     {
       "titleId": "01004A9006B84000",
@@ -44953,7 +44972,26 @@
       "title": "Legend of Kay Anniversary",
       "publisher": "Nintendo Switch",
       "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002DB007A96000.jpg",
-      "variants": []
+      "variants": [
+        {
+          "id": "v_329a2185",
+          "name": "Legend of Kay Anniversary — Legend of Kay Annive",
+          "style": "cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_U_rGWmb-xVx2oUoh4pddKgbtrFIuyHe",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_U_rGWmb-xVx2oUoh4pddKgbtrFIuyHe&sz=w640",
+          "sizeBytes": 4176774,
+          "sha256": "4C41D41F9FA5962464A24DF9849020DD2FB280530E080FBEF4387158B54F435F",
+          "durationSec": 15.0,
+          "author": "Steam Official",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Legend of Kay Anniversary — Legend of Ka"
+        }
+      ]
     },
     {
       "titleId": "0100172012F88000",
@@ -60746,6 +60784,6 @@
     }
   ],
   "totalGames": 1303,
-  "totalVariants": 2695,
-  "lastUpdated": "2026-11-09T10:53:12.238190+00:00"
+  "totalVariants": 2697,
+  "lastUpdated": "2026-11-09T10:54:37.919353+00:00"
 }
