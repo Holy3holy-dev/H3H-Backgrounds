@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T21:13:13.118992+00:00",
+  "updatedAt": "2026-11-09T21:16:08.894948+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -80308,9 +80308,269 @@
           "notes": "Switch 720p 30fps H264 | Voidwrought — Accolades Trailer"
         }
       ]
+    },
+    {
+      "titleId": "01009C200D60E000",
+      "title": "Super Meat Boy Forever",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009C200D60E000.jpg",
+      "variants": [
+        {
+          "id": "v_90a2b117",
+          "name": "Super Meat Boy Forever — SMBF Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-mYwukghfCTM28eOpq4lPQi4wy4SfXrf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-mYwukghfCTM28eOpq4lPQi4wy4SfXrf&sz=w640",
+          "sizeBytes": 5520997,
+          "sha256": "9FA5EDA097672F19C051DAF22AD246B256DD791B7250B87F0A7ED9E7E017A9FB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Super Meat Boy Forever — SMBF Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E6200D56E000",
+      "title": "The World Next Door",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E6200D56E000.jpg",
+      "variants": [
+        {
+          "id": "v_c1c1daa7",
+          "name": "The World Next Door — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VDCP5H6RAwRw4Aqsmk5-5JKwm2dwG3p6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VDCP5H6RAwRw4Aqsmk5-5JKwm2dwG3p6&sz=w640",
+          "sizeBytes": 4792566,
+          "sha256": "D915E5CA2DCCD3BDDC93F7FB8476D872BEF4AAD7DFED32947278FA5C1C27FC07",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The World Next Door — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010088100DD42000",
+      "title": "Roof Rage",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010088100DD42000.jpg",
+      "variants": [
+        {
+          "id": "v_747b0c73",
+          "name": "Roof Rage — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DfoGtjCNVcg88C6yTtxKy6sfpRYPTW7a",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DfoGtjCNVcg88C6yTtxKy6sfpRYPTW7a&sz=w640",
+          "sizeBytes": 4946857,
+          "sha256": "E8F7503F30FCAC9CE3FC9C9415D66AEFC78C6A31CF3B0DC6A0A8553FAD21B6D1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Roof Rage — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100787024044000",
+      "title": "The Legend of Heroes: Trails Beyond the Horizon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100787024044000.jpg",
+      "variants": [
+        {
+          "id": "v_513eb4bb",
+          "name": "The Legend of Heroes: Trails beyond the Horizon ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Snc5dCnvbJpPF9PcDwJ5HqOuNZa06Uzr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Snc5dCnvbJpPF9PcDwJ5HqOuNZa06Uzr&sz=w640",
+          "sizeBytes": 5240764,
+          "sha256": "DAEBD1E88141FB053D24A79152633A8FABFF1914462771B4F41CC1DE802DF378",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Legend of Heroes: Trails beyond the "
+        }
+      ]
+    },
+    {
+      "titleId": "01006F7001D10000",
+      "title": "Monster Boy and the Cursed Kingdom",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006F7001D10000.jpg",
+      "variants": [
+        {
+          "id": "v_d20a91ac",
+          "name": "Monster Boy and the Cursed Kingdom — E3 Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1P4foFhosrywcguHmghoiwmuFjikTKwQa",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1P4foFhosrywcguHmghoiwmuFjikTKwQa&sz=w640",
+          "sizeBytes": 4348778,
+          "sha256": "45FFA49514B5F0E1372A601D640328627FBC98903E47B2C81397FB0A084F497B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Monster Boy and the Cursed Kingdom — E3 "
+        }
+      ]
+    },
+    {
+      "titleId": "01006CD01A068000",
+      "title": "Rakuen Deluxe edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006CD01A068000.jpg",
+      "variants": [
+        {
+          "id": "v_1a00a4a0",
+          "name": "Rakuen — Release Date Announcement Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_2Lvg_n_r6YKPWC5OS77ziFl7Mg5Gx8V",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_2Lvg_n_r6YKPWC5OS77ziFl7Mg5Gx8V&sz=w640",
+          "sizeBytes": 3972161,
+          "sha256": "98512A0D53A794776C5DFD613AA1F02B1A8DAFE180EF82A85403CFC486E39A05",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rakuen — Release Date Announcement Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "01006CF00CFA4000",
+      "title": "Operencia the Stolen Sun",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006CF00CFA4000.jpg",
+      "variants": [
+        {
+          "id": "v_e0f303c2",
+          "name": "Operencia: The Stolen Sun — Operencia - Launch n",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13WTHo1Aaoi_XwcLzJSr4dfFEvlwHjnOD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13WTHo1Aaoi_XwcLzJSr4dfFEvlwHjnOD&sz=w640",
+          "sizeBytes": 5450325,
+          "sha256": "88F67F19225E99ACD3D11F6DD389B390451489E60988D2245633C3D84EEF25E5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Operencia: The Stolen Sun — Operencia - "
+        }
+      ]
+    },
+    {
+      "titleId": "0100811017B48000",
+      "title": "Labyrinth of Zangetsu",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100811017B48000.jpg",
+      "variants": [
+        {
+          "id": "v_f41bf16a",
+          "name": "Labyrinth of Zangetsu — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16hZ1d0D3HM21vCTAD1E-0mvHImxkQbb-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16hZ1d0D3HM21vCTAD1E-0mvHImxkQbb-&sz=w640",
+          "sizeBytes": 4545570,
+          "sha256": "6029A9257C75BDF560C1EBBB5E47905D2097F1EF91AB0551B167D662285A9B27",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Labyrinth of Zangetsu — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F3100EB44000",
+      "title": "Lust for Darkness",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F3100EB44000.jpg",
+      "variants": [
+        {
+          "id": "v_d652e1db",
+          "name": "Lust for Darkness — Cinematic Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ourw0lpPZbjx3iujc_GLjHDT6EYnCE2-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ourw0lpPZbjx3iujc_GLjHDT6EYnCE2-&sz=w640",
+          "sizeBytes": 5314883,
+          "sha256": "635999E3105C3F32A413717CDDA7953C49E78836725DCB104C0D957BB37A9065",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lust for Darkness — Cinematic Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010036601EB1E000",
+      "title": "Mark of the Deep",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010036601EB1E000.jpg",
+      "variants": [
+        {
+          "id": "v_55de67d0",
+          "name": "Mark of the Deep — Mark of the Deep Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1C_wjGQIeF_Ovpp_pr8xKN0XT-2H1r5vP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1C_wjGQIeF_Ovpp_pr8xKN0XT-2H1r5vP&sz=w640",
+          "sizeBytes": 5178196,
+          "sha256": "8B1B963F6BC57243B1CB911D4E33A5A88483B6398F5BEA88AB80F4BAECBEB3AB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mark of the Deep — Mark of the Deep Trai"
+        }
+      ]
     }
   ],
-  "totalGames": 2033,
-  "totalVariants": 3457,
-  "lastUpdated": "2026-11-09T21:13:13.118992+00:00"
+  "totalGames": 2043,
+  "totalVariants": 3467,
+  "lastUpdated": "2026-11-09T21:16:08.894948+00:00"
 }
