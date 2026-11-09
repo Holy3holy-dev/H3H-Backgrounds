@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T23:25:42.346702+00:00",
+  "updatedAt": "2026-11-09T23:28:43.065668+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -91488,9 +91488,269 @@
           "notes": "Switch 720p 30fps H264 | Alwa's Awakening — Alwa's Awakening Laun"
         }
       ]
+    },
+    {
+      "titleId": "01000C9015D42000",
+      "title": "9 Years of Shadows",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000C9015D42000.jpg",
+      "variants": [
+        {
+          "id": "v_f66512cd",
+          "name": "9 Years of Shadows — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OrVhpE5ZCZub8RQj0wuBtzTQf_p3vYdD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OrVhpE5ZCZub8RQj0wuBtzTQf_p3vYdD&sz=w640",
+          "sizeBytes": 5188930,
+          "sha256": "92FA7ADC818011908B02A31161D6B884194A4D0A0D6972F1499FE6DF9E636646",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 9 Years of Shadows — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01007520238BA000",
+      "title": "Adrenaline Rampage",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007520238BA000.jpg",
+      "variants": [
+        {
+          "id": "v_0ae5afec",
+          "name": "Adrenaline Rampage — Adrenaline Rampage - Hardco",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1s1HmM0jzdGHkKqjKaRGdNdnnirxVWd1Y",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1s1HmM0jzdGHkKqjKaRGdNdnnirxVWd1Y&sz=w640",
+          "sizeBytes": 5153234,
+          "sha256": "05CE78A38FAD189FEE5C5DCEA25EB9ADB25BC64FC96752590BBAEB1C755A346F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Adrenaline Rampage — Adrenaline Rampage "
+        }
+      ]
+    },
+    {
+      "titleId": "010073C01B7FE000",
+      "title": "The Smurfs 2 The Prisoner of the Green Stone",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010073C01B7FE000.jpg",
+      "variants": [
+        {
+          "id": "v_a9aa1c3d",
+          "name": "The Smurfs 2 - The Prisoner of the Green Stone —",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gN1Wb2bnAKAYwuvqOH2LsTUhadGFiDIk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gN1Wb2bnAKAYwuvqOH2LsTUhadGFiDIk&sz=w640",
+          "sizeBytes": 5120397,
+          "sha256": "BBA5566A9CE216D665CAF022D611AAD1D850503D07F777D40202C38C80609B94",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Smurfs 2 - The Prisoner of the Green"
+        }
+      ]
+    },
+    {
+      "titleId": "01002BF01F97C000",
+      "title": "No Case Should Remain Unsolved",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002BF01F97C000.jpg",
+      "variants": [
+        {
+          "id": "v_a7a1aa54",
+          "name": "No Case Should Remain Unsolved — No Case Should ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KTLhsLRkXbaZQH48LJDBcF8aLIdxNnH0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KTLhsLRkXbaZQH48LJDBcF8aLIdxNnH0&sz=w640",
+          "sizeBytes": 4489676,
+          "sha256": "C166991CF2A77F5706D63C10C977F234FEA139740EEDCD7DBFC270415691938B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | No Case Should Remain Unsolved — No Case"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BEA015472000",
+      "title": "Flippin Kaktus",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BEA015472000.jpg",
+      "variants": [
+        {
+          "id": "v_089f1773",
+          "name": "Flippin Kaktus — Announcement trailer 2021",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WK2HcTSAv75powV2jaOyB6cx79nfc-QW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WK2HcTSAv75powV2jaOyB6cx79nfc-QW&sz=w640",
+          "sizeBytes": 5371616,
+          "sha256": "A3DF0CC03E8C4B64C97AADA78EF7AC08946A49361B0723784E667D102B974577",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Flippin Kaktus — Announcement trailer 20"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AA3009738000",
+      "title": "Feudal Alloy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AA3009738000.jpg",
+      "variants": [
+        {
+          "id": "v_be13e590",
+          "name": "Feudal Alloy — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CLIo0TYE_O32Txw_iMgsMb59HH18MIsW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CLIo0TYE_O32Txw_iMgsMb59HH18MIsW&sz=w640",
+          "sizeBytes": 5215502,
+          "sha256": "DFBF751769FB50891F4A3F8D4BA755E947DD2FBA775FCAAB4A656BA828D28BD1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Feudal Alloy — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010091201A3F2000",
+      "title": "Bzzzt",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010091201A3F2000.jpg",
+      "variants": [
+        {
+          "id": "v_d1bf1a97",
+          "name": "BZZZT — 1 Year Anniversary Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1D_GPSGR7l3zMzr9D6OpTbv5VBwJ3awlV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1D_GPSGR7l3zMzr9D6OpTbv5VBwJ3awlV&sz=w640",
+          "sizeBytes": 5401835,
+          "sha256": "26BA4E73E872BED08AB3923E37811DC930705CF5EB6466DA859F9A4B8965A3FC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | BZZZT — 1 Year Anniversary Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01008EE012CD4000",
+      "title": "Legends of Ethernal",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008EE012CD4000.jpg",
+      "variants": [
+        {
+          "id": "v_0cc78ee0",
+          "name": "Legends of Ethernal — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1uYbiFZ8D_5hKf_GE6wBPsuXAeGNRYQPx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1uYbiFZ8D_5hKf_GE6wBPsuXAeGNRYQPx&sz=w640",
+          "sizeBytes": 5072958,
+          "sha256": "DBF7F4BDDE02E99CEB9C286D87FF7688CF49F20D93D3348884210C039955B38B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Legends of Ethernal — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01002ED00ACC0000",
+      "title": "Deadbolt",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002ED00ACC0000.jpg",
+      "variants": [
+        {
+          "id": "v_507d8b88",
+          "name": "DEADBOLT — DEADBOLT Debut Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tezKM1Gc92Gqh67fH2AmIMLbIaeAB2xu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tezKM1Gc92Gqh67fH2AmIMLbIaeAB2xu&sz=w640",
+          "sizeBytes": 2771310,
+          "sha256": "E6BF4CBC5FF4B55C80E1C38FEEA0B189EEDC7D9C49DB08D2DB766BE4E0BE02A6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | DEADBOLT — DEADBOLT Debut Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01000B400E53A000",
+      "title": "Mable and The Wood",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000B400E53A000.jpg",
+      "variants": [
+        {
+          "id": "v_f3f85368",
+          "name": "Mable & The Wood — Available Now trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xKENidcFWi3h9gyjyFWSkgA7epS_k8wi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xKENidcFWi3h9gyjyFWSkgA7epS_k8wi&sz=w640",
+          "sizeBytes": 5345518,
+          "sha256": "4209F761BF0317E6FF68568209B595CAFE5B363FBBF08486CEE926BDE40E78FB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mable & The Wood — Available Now trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 2463,
-  "totalVariants": 3887,
-  "lastUpdated": "2026-11-09T23:25:42.346702+00:00"
+  "totalGames": 2473,
+  "totalVariants": 3897,
+  "lastUpdated": "2026-11-09T23:28:43.065668+00:00"
 }
