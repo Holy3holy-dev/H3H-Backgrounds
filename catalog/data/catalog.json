@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T11:02:09.182101+00:00",
+  "updatedAt": "2026-11-09T11:02:40.776942+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -61317,9 +61317,71 @@
           "notes": "Switch 720p 30fps H264 | Sonic The Hedgehog"
         }
       ]
+    },
+    {
+      "titleId": "0100C4601445E000",
+      "title": "NieR:Automata The End of YoRHa Edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C4601445E000.jpg",
+      "variants": [
+        {
+          "id": "v_de2220e0",
+          "name": "2B Monochrome NieR Automata",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1m02xwHrpwE2X0RgWTa6bHOC0hTLcZ7yk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1m02xwHrpwE2X0RgWTa6bHOC0hTLcZ7yk&sz=w640",
+          "sizeBytes": 2296959,
+          "sha256": "6F1586D54DEF137FD4697F309E02573B88C6B9B88A334821291F0FA9FD4CAEF8",
+          "durationSec": 18.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 2B Monochrome NieR Automata"
+        },
+        {
+          "id": "v_be9051a5",
+          "name": "Lunar Tears Nier Automata Flowers",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13U2M_u7G5O49OUfLJ0hAn_80eps2LgdN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13U2M_u7G5O49OUfLJ0hAn_80eps2LgdN&sz=w640",
+          "sizeBytes": 538586,
+          "sha256": "3DEA44A0BAE6F4F7D52CE5C145EED9530A550D06CDCEF5420B4145955F82AEA9",
+          "durationSec": 18.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lunar Tears Nier Automata Flowers"
+        },
+        {
+          "id": "v_61427ae1",
+          "name": "2B In The Field Of Blue Lilies Nier Automata",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KXPuEa04SQPZIZUd_Xtdwwe55r1KEZUO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KXPuEa04SQPZIZUd_Xtdwwe55r1KEZUO&sz=w640",
+          "sizeBytes": 1506085,
+          "sha256": "58BEF356D1F1FAD96A461F6B7388F80D6661BF2995C84892E4B6E606FDB1F70A",
+          "durationSec": 18.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 2B In The Field Of Blue Lilies Nier Auto"
+        }
+      ]
     }
   ],
-  "totalGames": 1307,
-  "totalVariants": 2725,
-  "lastUpdated": "2026-11-09T11:02:09.182101+00:00"
+  "totalGames": 1308,
+  "totalVariants": 2728,
+  "lastUpdated": "2026-11-09T11:02:40.776942+00:00"
 }
