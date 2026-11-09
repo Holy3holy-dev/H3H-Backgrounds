@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T22:13:47.673683+00:00",
+  "updatedAt": "2026-11-09T22:16:43.774668+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -84988,9 +84988,269 @@
           "notes": "Switch 720p 30fps H264 | Ratcheteer DX — Ratcheteer DX - Release "
         }
       ]
+    },
+    {
+      "titleId": "0100B30021E16000",
+      "title": "Cardboard Town",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B30021E16000.jpg",
+      "variants": [
+        {
+          "id": "v_9507b07d",
+          "name": "Cardboard Town — Booster Packs Update Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jl6x1lpekEKfzkToLFI7Y_ilyGfnjj-o",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jl6x1lpekEKfzkToLFI7Y_ilyGfnjj-o&sz=w640",
+          "sizeBytes": 5426068,
+          "sha256": "6AC65B8F9887AAB904F3A8A0801610E67443DE2286B4729A3E833548C42283B2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cardboard Town — Booster Packs Update Tr"
+        }
+      ]
+    },
+    {
+      "titleId": "01000AE01FF16000",
+      "title": "Hidden in my Paradise",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000AE01FF16000.jpg",
+      "variants": [
+        {
+          "id": "v_40bac2cf",
+          "name": "Hidden in my Paradise — Launch Date Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1uQbVo0X8WBg-1mYyh8qYVVNs4yMvq-h2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1uQbVo0X8WBg-1mYyh8qYVVNs4yMvq-h2&sz=w640",
+          "sizeBytes": 5138287,
+          "sha256": "22A691AC86D06333881AA9262D0F048D019E5925B9330E60DDB87F7F3D430D91",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hidden in my Paradise — Launch Date Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "01004CC021232000",
+      "title": "Mission in Snowdriftland",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004CC021232000.jpg",
+      "variants": [
+        {
+          "id": "v_2a0d4219",
+          "name": "Mission in Snowdriftland — Trailer_en",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XEtqQ3gmobAON-CC3tVPmyo1qyetW9Tb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XEtqQ3gmobAON-CC3tVPmyo1qyetW9Tb&sz=w640",
+          "sizeBytes": 5479650,
+          "sha256": "E7846903229D89AE4255DECD48E0795BB20E3674434DE2E367B851238B37C9AF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mission in Snowdriftland — Trailer_en"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BE8019834000",
+      "title": "Dire Vengeance Deluxe",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BE8019834000.jpg",
+      "variants": [
+        {
+          "id": "v_aa7d5508",
+          "name": "Dire Vengeance — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DOcbQs84bF8KQPd8t8eNzRdpYB6qQA0v",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DOcbQs84bF8KQPd8t8eNzRdpYB6qQA0v&sz=w640",
+          "sizeBytes": 4933694,
+          "sha256": "C8F9EEC6B0045CB390680A754E6C16CE81B574857FC7C13B4DE8DFB2E7749800",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dire Vengeance — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01003AD013BD2000",
+      "title": "Eight Dragons",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003AD013BD2000.jpg",
+      "variants": [
+        {
+          "id": "v_82f9cc85",
+          "name": "Eight Dragons — New Animated Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1czXXvKNcoaD1j6fIp3L3qMgc7tG8F3Pz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1czXXvKNcoaD1j6fIp3L3qMgc7tG8F3Pz&sz=w640",
+          "sizeBytes": 5098234,
+          "sha256": "C1618891D5F6AE15DD12B786EB0B852941DDD178ACF6ADF8D8A673B65DA02757",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Eight Dragons — New Animated Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010006300AFFE000",
+      "title": "Life Goes On Done to Death",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010006300AFFE000.jpg",
+      "variants": [
+        {
+          "id": "v_7d912dee",
+          "name": "Life Goes On: Done to Death — Life Goes On: Done",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18pVT0_KMlhIYd_NJ5IdCR262CcCGJyaA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18pVT0_KMlhIYd_NJ5IdCR262CcCGJyaA&sz=w640",
+          "sizeBytes": 5205010,
+          "sha256": "9210D99BC208022474F290AEC586C1AC655C73BD1D8005A2629E8B00FDEC5C8E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Life Goes On: Done to Death — Life Goes "
+        }
+      ]
+    },
+    {
+      "titleId": "01006C6014878000",
+      "title": "Ayo the Clown",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006C6014878000.jpg",
+      "variants": [
+        {
+          "id": "v_c0bfcced",
+          "name": "Ayo the Clown — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13bTfLJ-d1ujzg7WbGsmAPRWRm2g-pxJE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13bTfLJ-d1ujzg7WbGsmAPRWRm2g-pxJE&sz=w640",
+          "sizeBytes": 5585111,
+          "sha256": "16896302F0DF27BAB35D458C9F3863BE700D265E09E3653F66CE2CC7E46553C4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ayo the Clown — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100753018100000",
+      "title": "World Championship Boxing Manager 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100753018100000.jpg",
+      "variants": [
+        {
+          "id": "v_1c64d395",
+          "name": "World Championship Boxing Manager™ 2 — World Cha",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SiyVQRea2tKCNUoFR9vOB24zVE1tD_ef",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SiyVQRea2tKCNUoFR9vOB24zVE1tD_ef&sz=w640",
+          "sizeBytes": 4662431,
+          "sha256": "12A6534090B174D4058073F96B63C29F36A83B804422B061A3343F740BAEB67D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | World Championship Boxing Manager™ 2 — W"
+        }
+      ]
+    },
+    {
+      "titleId": "01003F300C6BC000",
+      "title": "Pressure Overdrive",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003F300C6BC000.jpg",
+      "variants": [
+        {
+          "id": "v_d2d2967f",
+          "name": "Pressure Overdrive — Pressure Overdrive",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tyA-WOyej8DcP2c_ZM5PfLfptJMGpBRg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tyA-WOyej8DcP2c_ZM5PfLfptJMGpBRg&sz=w640",
+          "sizeBytes": 3471901,
+          "sha256": "2FF1F58392C2C81D4263077D9838027FA77573AA3C575F60B63F06F75AF443C8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Pressure Overdrive — Pressure Overdrive"
+        }
+      ]
+    },
+    {
+      "titleId": "01008AB00FBA6000",
+      "title": "The Casebook of Arkady Smith",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008AB00FBA6000.jpg",
+      "variants": [
+        {
+          "id": "v_b346d321",
+          "name": "The Casebook of Arkady Smith — The Casebook of A",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1beRb28U-5Fcsng39QxFg8xFcln-bgLxc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1beRb28U-5Fcsng39QxFg8xFcln-bgLxc&sz=w640",
+          "sizeBytes": 4655444,
+          "sha256": "0BE326BAABEEB54905B373839E715597BE7544B866107EE68F4023CF0056F0AE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Casebook of Arkady Smith — The Caseb"
+        }
+      ]
     }
   ],
-  "totalGames": 2213,
-  "totalVariants": 3637,
-  "lastUpdated": "2026-11-09T22:13:47.673683+00:00"
+  "totalGames": 2223,
+  "totalVariants": 3647,
+  "lastUpdated": "2026-11-09T22:16:43.774668+00:00"
 }
