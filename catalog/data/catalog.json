@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T07:19:38.064489+00:00",
+  "updatedAt": "2026-11-10T07:22:30.347041+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -131008,9 +131008,269 @@
           "notes": "Switch 720p 30fps H264 | GladMort — GladMort Release Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100C0E014A4E000",
+      "title": "Bear's Restaurant",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C0E014A4E000.jpg",
+      "variants": [
+        {
+          "id": "v_253df0be",
+          "name": "Bear's Restaurant — Short Version",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19a-AmCrKTWiBLmofzqlohbAbZeLhVrWV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19a-AmCrKTWiBLmofzqlohbAbZeLhVrWV&sz=w640",
+          "sizeBytes": 4437202,
+          "sha256": "0845BD52ECA85CA266F57CDFCA14D2632B0DF22854A5952B3E192FEFD2AB7C38",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bear's Restaurant — Short Version"
+        }
+      ]
+    },
+    {
+      "titleId": "010012F01D8DA000",
+      "title": "Overdungeon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010012F01D8DA000.jpg",
+      "variants": [
+        {
+          "id": "v_eaeb6f87",
+          "name": "Overdungeon — NewCharacter Craftopian",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Qj0mjWagml5_Wx0-QvF37XEhbh8n_K9M",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Qj0mjWagml5_Wx0-QvF37XEhbh8n_K9M&sz=w640",
+          "sizeBytes": 5239795,
+          "sha256": "1201A4B7EC0F8B5C71AF1E300C63FE6421F06AD9F0CC7296D96D78A5C858113F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Overdungeon — NewCharacter Craftopian"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F62020A52000",
+      "title": "Omega 6 The Triangle Stars",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F62020A52000.jpg",
+      "variants": [
+        {
+          "id": "v_d897db47",
+          "name": "OMEGA 6 The Triangle Stars — OMEGA 6: The Triang",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Cf9BOGXl3hBhUDE2DDUo7Xg08UpG2OQW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Cf9BOGXl3hBhUDE2DDUo7Xg08UpG2OQW&sz=w640",
+          "sizeBytes": 5344075,
+          "sha256": "5F01696CDC2982F6BE93D86951BA2305411B5000F3270D17AF7DB390F4F3E6AF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | OMEGA 6 The Triangle Stars — OMEGA 6: Th"
+        }
+      ]
+    },
+    {
+      "titleId": "010061901EC2A000",
+      "title": "Neckbreak",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010061901EC2A000.jpg",
+      "variants": [
+        {
+          "id": "v_67917b78",
+          "name": "Neckbreak — Neckbreak Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yqvZaxDOPbgj65KiZTXmIel6a5vdgaVM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yqvZaxDOPbgj65KiZTXmIel6a5vdgaVM&sz=w640",
+          "sizeBytes": 5470140,
+          "sha256": "CFB6B8EAB87B96EA0F881FE7F47A7C112EADFFABBC59DC1C552E96E1A2B3E20F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Neckbreak — Neckbreak Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010075801F788000",
+      "title": "Mostroscopy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010075801F788000.jpg",
+      "variants": [
+        {
+          "id": "v_9249b146",
+          "name": "Mostroscopy — Lisa Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11PnAeRgaaPnt4qC5-aynnUhPOZMWK-KP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11PnAeRgaaPnt4qC5-aynnUhPOZMWK-KP&sz=w640",
+          "sizeBytes": 4708648,
+          "sha256": "0063FF590A85869D93FE48F450F503778F0EBFBA33F64F51B78C1C08CCF4767D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mostroscopy — Lisa Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010028601190C000",
+      "title": "Dungeon & Gravestone",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010028601190C000.jpg",
+      "variants": [
+        {
+          "id": "v_bc074420",
+          "name": "Dungeon and Gravestone — V1.2 English",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1C5Q88E_KfPhEBLTE_b01CmeKsTQ-N7C1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1C5Q88E_KfPhEBLTE_b01CmeKsTQ-N7C1&sz=w640",
+          "sizeBytes": 4674909,
+          "sha256": "8C56CF90851F15AECAAB21112AC28043FE3880CAF1AC21372779B495476CDB8E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dungeon and Gravestone — V1.2 English"
+        }
+      ]
+    },
+    {
+      "titleId": "01007510040E8000",
+      "title": "FIA European Truck Racing Championship",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007510040E8000.jpg",
+      "variants": [
+        {
+          "id": "v_034d2d57",
+          "name": "FIA European Truck Racing Championship — ETRC - ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cdD0-KgfU_wtEO_DmRRWjDQ_YboqD0GY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cdD0-KgfU_wtEO_DmRRWjDQ_YboqD0GY&sz=w640",
+          "sizeBytes": 4776127,
+          "sha256": "E00B4D182FA84BBBD7ECBFE7D3E132D3F65913B0FB33FC508B79C1E013B14931",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | FIA European Truck Racing Championship —"
+        }
+      ]
+    },
+    {
+      "titleId": "0100077019A98000",
+      "title": "Atone Heart of the Elder Tree",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100077019A98000.jpg",
+      "variants": [
+        {
+          "id": "v_814ea1e4",
+          "name": "ATONE: Heart of the Elder Tree — Gameplay Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fQpRXWFBQgTZVsDJsGRxJFHniLcCvp57",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fQpRXWFBQgTZVsDJsGRxJFHniLcCvp57&sz=w640",
+          "sizeBytes": 5293031,
+          "sha256": "B5EADCDB58D9833E54A84476EB92CF159F7411B815F86489770E38FB34918DEC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | ATONE: Heart of the Elder Tree — Gamepla"
+        }
+      ]
+    },
+    {
+      "titleId": "0100829010F4A000",
+      "title": "1971 Project Helios",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100829010F4A000.jpg",
+      "variants": [
+        {
+          "id": "v_a7d007d5",
+          "name": "1971 PROJECT HELIOS — Teaser trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UWiU-87wfMEhfCQcHDc1XCytdbxrw9Co",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UWiU-87wfMEhfCQcHDc1XCytdbxrw9Co&sz=w640",
+          "sizeBytes": 3985677,
+          "sha256": "C2E227EB3977A893466336BA4E0293DF70FF8D31B794415BC2ECE8829255D11C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 1971 PROJECT HELIOS — Teaser trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A65017D68000",
+      "title": "Harmony the Fall of Reverie",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A65017D68000.jpg",
+      "variants": [
+        {
+          "id": "v_ce48dd82",
+          "name": "Harmony: The Fall of Reverie — Accolades Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1etHRbKSDSBt5pZmdtabsJ76ESfdXU9Z9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1etHRbKSDSBt5pZmdtabsJ76ESfdXU9Z9&sz=w640",
+          "sizeBytes": 5573340,
+          "sha256": "B2DA192BE882AB16D56AE9166102717A77DE31359D003D132351D537BC2487FC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Harmony: The Fall of Reverie — Accolades"
+        }
+      ]
     }
   ],
-  "totalGames": 3983,
-  "totalVariants": 5407,
-  "lastUpdated": "2026-11-10T07:19:38.064489+00:00"
+  "totalGames": 3993,
+  "totalVariants": 5417,
+  "lastUpdated": "2026-11-10T07:22:30.347041+00:00"
 }
