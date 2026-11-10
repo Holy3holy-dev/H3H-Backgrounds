@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T09:51:31.354802+00:00",
+  "updatedAt": "2026-11-10T09:54:35.648212+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -143748,9 +143748,269 @@
           "notes": "Switch 720p 30fps H264 | Reflection of Mine — Reflection of Mine "
         }
       ]
+    },
+    {
+      "titleId": "0100D9F013102000",
+      "title": "Outbreak The Nightmare Chronicles",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D9F013102000.jpg",
+      "variants": [
+        {
+          "id": "v_3b0a5aef",
+          "name": "Outbreak: The Nightmare Chronicles — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17Ii5ZtEoqk68pC2G9tVY21wHMee2fdAu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17Ii5ZtEoqk68pC2G9tVY21wHMee2fdAu&sz=w640",
+          "sizeBytes": 4983813,
+          "sha256": "6FC8C6F7C86CC72058BA65BA4B37DDDADA4B99DF9C6433D8998ED7830599BC7F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Outbreak: The Nightmare Chronicles — Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C5F012A3C000",
+      "title": "Mad Tower Tycoon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C5F012A3C000.jpg",
+      "variants": [
+        {
+          "id": "v_46094c1b",
+          "name": "Mad Tower Tycoon — Mad Tower Tycoon Gameplay Tra",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wDyfMmoGSSU8soxDForY7IzyzS4b8j-P",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wDyfMmoGSSU8soxDForY7IzyzS4b8j-P&sz=w640",
+          "sizeBytes": 5610979,
+          "sha256": "1D3D33E6131157ED941A92E3405DDE511EC2F418523AC483C711655DAE7D8E81",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mad Tower Tycoon — Mad Tower Tycoon Game"
+        }
+      ]
+    },
+    {
+      "titleId": "01009A200BE42000",
+      "title": "Levelhead",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009A200BE42000.jpg",
+      "variants": [
+        {
+          "id": "v_56f4f39d",
+          "name": "Levelhead — Can You Deliver?",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15BTEgpQJNyHH-ptYLTyLetN7ZzKfr_ZE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15BTEgpQJNyHH-ptYLTyLetN7ZzKfr_ZE&sz=w640",
+          "sizeBytes": 5382591,
+          "sha256": "4473C4D0C1DB53DA66AA2E0F60B0D164D169F952DE1A1A57847FF930632F27A1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Levelhead — Can You Deliver?"
+        }
+      ]
+    },
+    {
+      "titleId": "01008280119B2000",
+      "title": "Lair of the Clockwork God",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008280119B2000.jpg",
+      "variants": [
+        {
+          "id": "v_c2b77a8b",
+          "name": "Lair of the Clockwork God — Date Announce Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WG_pQx7iw1bYBVKAu5UYqrIVFYmng9aF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WG_pQx7iw1bYBVKAu5UYqrIVFYmng9aF&sz=w640",
+          "sizeBytes": 4921690,
+          "sha256": "222904AE27A1CDFB7C651E95698D7B70D9781379E826705D3132355A731397B3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lair of the Clockwork God — Date Announc"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FE1020F6E000",
+      "title": "Kuukiyomi 3 Consider It More and More! Father to Son",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FE1020F6E000.jpg",
+      "variants": [
+        {
+          "id": "v_6b5a43c5",
+          "name": "KUUKIYOMI 3: Consider It More and More!! - Fathe",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1G2XLZe2KRv2hdXs8pxE2BOE9s7fWXcWo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1G2XLZe2KRv2hdXs8pxE2BOE9s7fWXcWo&sz=w640",
+          "sizeBytes": 3413636,
+          "sha256": "4AED1D874CB8DFFE442C6F2778F96D344BB96CBE96D20F2509069D7F6D38F501",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | KUUKIYOMI 3: Consider It More and More!!"
+        }
+      ]
+    },
+    {
+      "titleId": "01005960159D8000",
+      "title": "Eufloria HD",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005960159D8000.jpg",
+      "variants": [
+        {
+          "id": "v_505d4a6e",
+          "name": "Eufloria HD — Eufloria HD",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lIeCxIPLNmvIXVjEfW5P17jZv4OensWi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lIeCxIPLNmvIXVjEfW5P17jZv4OensWi&sz=w640",
+          "sizeBytes": 3571257,
+          "sha256": "E8C98DE8132AD45E421862D050E31D36322D09336464A9889A4913035B678D28",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Eufloria HD — Eufloria HD"
+        }
+      ]
+    },
+    {
+      "titleId": "01004ED017B22000",
+      "title": "Tricky Doors",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004ED017B22000.jpg",
+      "variants": [
+        {
+          "id": "v_f36ef9e0",
+          "name": "Tricky Doors — Tricky Doors",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_M1qB3C7SpJZKMOgUtGiqn5DAu3vWfgt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_M1qB3C7SpJZKMOgUtGiqn5DAu3vWfgt&sz=w640",
+          "sizeBytes": 4370696,
+          "sha256": "4948F163ECB011671CA416B03FD6DBCB0FC8BDA9E2F80DA6A6757A29EA3A67EC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tricky Doors — Tricky Doors"
+        }
+      ]
+    },
+    {
+      "titleId": "010044E008FC6000",
+      "title": "Platago Super Platform Game Maker",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010044E008FC6000.jpg",
+      "variants": [
+        {
+          "id": "v_4b958a4c",
+          "name": "PlataGO! Super Platform Game Maker — PlataGO! La",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1E5TLJviOYN06mfk_YyWtR4cgHQW3JUvn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1E5TLJviOYN06mfk_YyWtR4cgHQW3JUvn&sz=w640",
+          "sizeBytes": 4721167,
+          "sha256": "911223536F5C8CEA7308ED8933138E050CEDA7808D1C9F66FC924294544BD2EE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | PlataGO! Super Platform Game Maker — Pla"
+        }
+      ]
+    },
+    {
+      "titleId": "01008780123A0000",
+      "title": "Iris and the Giant",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008780123A0000.jpg",
+      "variants": [
+        {
+          "id": "v_9213a95c",
+          "name": "Iris and the Giant — Release trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1auL4kxDuVnzg3FTgDlslTmmfNLKfBQ3y",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1auL4kxDuVnzg3FTgDlslTmmfNLKfBQ3y&sz=w640",
+          "sizeBytes": 5380143,
+          "sha256": "3D02C33BEAD84D97F69B60FC23C15AC6049449D2CCB2A12E157EBC90E4D8E08C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Iris and the Giant — Release trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100ED2010292000",
+      "title": "Gleamlight",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100ED2010292000.jpg",
+      "variants": [
+        {
+          "id": "v_42df5aef",
+          "name": "Gleamlight — Gleamlight_PV3_Steam_v5",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OTTtTFKYcrmZJnY4mtYBPqozLgODDBQq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OTTtTFKYcrmZJnY4mtYBPqozLgODDBQq&sz=w640",
+          "sizeBytes": 4675491,
+          "sha256": "47560B1D9B7B124E381192F0D41D6A3F7C1F56D165F45BC3B5EBE3C6967F58F0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Gleamlight — Gleamlight_PV3_Steam_v5"
+        }
+      ]
     }
   ],
-  "totalGames": 4473,
-  "totalVariants": 5897,
-  "lastUpdated": "2026-11-10T09:51:31.354802+00:00"
+  "totalGames": 4483,
+  "totalVariants": 5907,
+  "lastUpdated": "2026-11-10T09:54:35.648212+00:00"
 }
