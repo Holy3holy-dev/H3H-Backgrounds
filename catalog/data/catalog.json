@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T13:48:24.692193+00:00",
+  "updatedAt": "2026-11-10T13:52:00.993280+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -160908,9 +160908,269 @@
           "notes": "Switch 720p 30fps H264 | Guild of Darksteel — Guild of Darksteel "
         }
       ]
+    },
+    {
+      "titleId": "0100804014922000",
+      "title": "Gallic Wars Battle Simulator",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100804014922000.jpg",
+      "variants": [
+        {
+          "id": "v_b34dfe31",
+          "name": "Gallic Wars: Battle Simulator — Gallic Wars: Bat",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=194a13m2JXLm-Enp3iTjD9kfq6e-SJ5Zb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=194a13m2JXLm-Enp3iTjD9kfq6e-SJ5Zb&sz=w640",
+          "sizeBytes": 5514928,
+          "sha256": "1F1D210AB0503306B2FB9CE077D6971AD603172600E8D70F7D9AC49FBE148D70",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Gallic Wars: Battle Simulator — Gallic W"
+        }
+      ]
+    },
+    {
+      "titleId": "01001AF01D4E6000",
+      "title": "Superfluous Returnz",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001AF01D4E6000.jpg",
+      "variants": [
+        {
+          "id": "v_2046cad4",
+          "name": "Superfluous Returnz — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ThECMtx4d-KxvgLTV6JQu3Kosx9DbcYF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ThECMtx4d-KxvgLTV6JQu3Kosx9DbcYF&sz=w640",
+          "sizeBytes": 4283706,
+          "sha256": "E1663BE173E1986170F25BEA62DD80E9F0A80046A428283B725F3EC046C11A39",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Superfluous Returnz — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E03012B3C000",
+      "title": "Signs of the Sojourner",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E03012B3C000.jpg",
+      "variants": [
+        {
+          "id": "v_bba70992",
+          "name": "Signs of the Sojourner — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gg18ZRMqyF6WQR9pbA51ghuG0GVXl5wp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gg18ZRMqyF6WQR9pbA51ghuG0GVXl5wp&sz=w640",
+          "sizeBytes": 5541272,
+          "sha256": "3F37728E62285113B6741D726E2FD9B016F7B1F485222BFA0E86147783ABF704",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Signs of the Sojourner — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010067A01BFCC000",
+      "title": "Enjoy the Diner",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010067A01BFCC000.jpg",
+      "variants": [
+        {
+          "id": "v_cd2ff111",
+          "name": "Enjoy the Diner — Enjoy the Diner Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bFzPPALG_FnKlfmzO8zd-pBTmxPB7NJM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bFzPPALG_FnKlfmzO8zd-pBTmxPB7NJM&sz=w640",
+          "sizeBytes": 1807432,
+          "sha256": "DB561A5E224123301DCFAE0DB01986C9AF4756121139C4EDA2AD54826B715BEE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Enjoy the Diner — Enjoy the Diner Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AE300CB00000",
+      "title": "Duke of Defense",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AE300CB00000.jpg",
+      "variants": [
+        {
+          "id": "v_1df04f99",
+          "name": "Duke of Defense — Final Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1aSAOFnO8xI9Yg0Al1pdk1yAAPeq45ToI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1aSAOFnO8xI9Yg0Al1pdk1yAAPeq45ToI&sz=w640",
+          "sizeBytes": 4763344,
+          "sha256": "47AAFF07C5B5989D23E2D212E22FF52F961FC5D7D76BDBAC2465266A101FDD96",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Duke of Defense — Final Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D3001CEBE000",
+      "title": "Ikki Unite",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D3001CEBE000.jpg",
+      "variants": [
+        {
+          "id": "v_5365c4ef",
+          "name": "Ikki Unite — IKKI IS BACK",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=153XvwB-08JJIS9hjdhT0OyLE5hCz2J2W",
+          "previewUrl": "https://drive.google.com/thumbnail?id=153XvwB-08JJIS9hjdhT0OyLE5hCz2J2W&sz=w640",
+          "sizeBytes": 4005589,
+          "sha256": "600DFEF342B151CC621D8E8864A5B704977D508534EC2DFFCE4E949C9CF285E7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ikki Unite — IKKI IS BACK"
+        }
+      ]
+    },
+    {
+      "titleId": "010075100ED92000",
+      "title": "Best Friend Forever",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010075100ED92000.jpg",
+      "variants": [
+        {
+          "id": "v_d456ce9a",
+          "name": "Best Friend Forever — Best Friend Forever Gamepl",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12PhpDyGb0EBL_yUudAuYDzqW16fb-WD8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12PhpDyGb0EBL_yUudAuYDzqW16fb-WD8&sz=w640",
+          "sizeBytes": 5237388,
+          "sha256": "10798B01C4F445F6ABFCB03ED76F52EA966BC411DA91B0568E6CCA81B13EA6D0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Best Friend Forever — Best Friend Foreve"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C69010522000",
+      "title": "Guard Duty",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C69010522000.jpg",
+      "variants": [
+        {
+          "id": "v_f7b3ff12",
+          "name": "Guard Duty — Guard Duty Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MeH_njENCT556w5IkXerRz2pHy19v7OL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MeH_njENCT556w5IkXerRz2pHy19v7OL&sz=w640",
+          "sizeBytes": 5520952,
+          "sha256": "BD1DA829C68A43B303AF8DD2CE31FA2671562F5DAAF2437E9774A4B10076ED5D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Guard Duty — Guard Duty Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DFC018D86000",
+      "title": "Star Seeker in the Secret of the Sorcerous Standoff",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DFC018D86000.jpg",
+      "variants": [
+        {
+          "id": "v_cc26ac7e",
+          "name": "Star Seeker in: the Secret of the Sorcerous Stan",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1p3EQHFY2muKgnIcCfoQCRHTdae5E-Vdw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1p3EQHFY2muKgnIcCfoQCRHTdae5E-Vdw&sz=w640",
+          "sizeBytes": 3671278,
+          "sha256": "80DCB50E9780E10D3ABCADB1740FFCF80AC112EDD94AD597F221D469AAE54638",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Star Seeker in: the Secret of the Sorcer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100810013704000",
+      "title": "Fire Tonight",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100810013704000.jpg",
+      "variants": [
+        {
+          "id": "v_ad9de7c5",
+          "name": "Fire Tonight — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wXmzErKXm7bENGF5bGTt-FQKGsycOku0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wXmzErKXm7bENGF5bGTt-FQKGsycOku0&sz=w640",
+          "sizeBytes": 4969491,
+          "sha256": "6A7032D5C066B7925B98D6DAB8EE273552799894C067121D6FE7C3ED051C65D3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fire Tonight — Launch Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 5133,
-  "totalVariants": 6557,
-  "lastUpdated": "2026-11-10T13:48:24.692193+00:00"
+  "totalGames": 5143,
+  "totalVariants": 6567,
+  "lastUpdated": "2026-11-10T13:52:00.993280+00:00"
 }
