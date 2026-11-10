@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T12:35:24.394979+00:00",
+  "updatedAt": "2026-11-10T12:39:07.095148+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -155968,9 +155968,269 @@
           "notes": "Switch 720p 30fps H264 | GRIDD: Retroenhanced — Launch Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100B5D012F38000",
+      "title": "One Deck Dungeon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B5D012F38000.jpg",
+      "variants": [
+        {
+          "id": "v_b7963639",
+          "name": "One Deck Dungeon — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1l1O0q16FhZZVSl3GV6WTBixjDe2q9A4M",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1l1O0q16FhZZVSl3GV6WTBixjDe2q9A4M&sz=w640",
+          "sizeBytes": 5600968,
+          "sha256": "562705B4D7120B8B2662669F2D4FA0A5288F707046865DB30D6F804FC0B38ADD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | One Deck Dungeon — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010078102006A000",
+      "title": "Pureya",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010078102006A000.jpg",
+      "variants": [
+        {
+          "id": "v_f81a6a25",
+          "name": "pureya — Pureya trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10l0VXNMMVH5xEnSTpSsIG8lwLfS1OcN2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10l0VXNMMVH5xEnSTpSsIG8lwLfS1OcN2&sz=w640",
+          "sizeBytes": 4913239,
+          "sha256": "9FFC690654D65401926F09932824361E5CBE4A167AA3423AFF4CF1C2D671BDD0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | pureya — Pureya trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100687019644000",
+      "title": "Grammarian Ltd",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100687019644000.jpg",
+      "variants": [
+        {
+          "id": "v_d572ae2f",
+          "name": "Grammarian Ltd — Cinematic Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RQFzoHLP3GdXRSdDRxNoFPrFBCXYg3h9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RQFzoHLP3GdXRSdDRxNoFPrFBCXYg3h9&sz=w640",
+          "sizeBytes": 5265030,
+          "sha256": "729EB0817D2081B3BF7B2CF84C1CB20A9B072D487B930454D4C6D08398108EDC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Grammarian Ltd — Cinematic Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010044F018C30000",
+      "title": "Encounters Music Stories",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010044F018C30000.jpg",
+      "variants": [
+        {
+          "id": "v_9c1632cc",
+          "name": "Encounters: Music Stories — Gameplay",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1po_Rx3x0yfUKUB6DseWFz8SCSP_vCosX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1po_Rx3x0yfUKUB6DseWFz8SCSP_vCosX&sz=w640",
+          "sizeBytes": 5283318,
+          "sha256": "B9AC4EB2B401DD5B4591B48B5A1FEC2CDC96E2474F3E81B8801C283E589214C4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Encounters: Music Stories — Gameplay"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AC40108D8000",
+      "title": "Frederic Resurrection of Music",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AC40108D8000.jpg",
+      "variants": [
+        {
+          "id": "v_1fa65863",
+          "name": "Frederic: Resurrection of Music — Frederic Resur",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gG76MIhUNAgu0razZh_beZuih561-T8c",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gG76MIhUNAgu0razZh_beZuih561-T8c&sz=w640",
+          "sizeBytes": 5215837,
+          "sha256": "F4643B7D9A1B6C4CB5892BE630FC0A86DCEFF3D198DD2D7819180B158CA3AD8C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Frederic: Resurrection of Music — Freder"
+        }
+      ]
+    },
+    {
+      "titleId": "0100270015190000",
+      "title": "Galaxy Squad",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100270015190000.jpg",
+      "variants": [
+        {
+          "id": "v_7087d2fc",
+          "name": "Galaxy Squad — Game trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FWZPf0OFblAws66evI0OGahr3nnkdEZh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FWZPf0OFblAws66evI0OGahr3nnkdEZh&sz=w640",
+          "sizeBytes": 5223022,
+          "sha256": "65F34CB4AEDACE12765E2752B81D2C34EDB8CACBC8C26DE1EA3D658976424485",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Galaxy Squad — Game trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AE5022168000",
+      "title": "ReMix",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AE5022168000.jpg",
+      "variants": [
+        {
+          "id": "v_fae1e9f8",
+          "name": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX- — PEGI EN Laun",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WNETMOROxqUHKb9euKZrXhnSTdJv4n5v",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WNETMOROxqUHKb9euKZrXhnSTdJv4n5v&sz=w640",
+          "sizeBytes": 4517703,
+          "sha256": "2B470F94CC3C6242E3546015798837F6E02807AF247BE13ADF5D077EB15DF4A4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | KINGDOM HEARTS -HD 1.5+2.5 ReMIX- — PEGI"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BAB00A116000",
+      "title": "The Low Road",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BAB00A116000.jpg",
+      "variants": [
+        {
+          "id": "v_ff8b71a9",
+          "name": "The Low Road — The Low Road - Official Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1i5JkMtwBFY3D0nlEfjwk_ytqZ-dCyL0u",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1i5JkMtwBFY3D0nlEfjwk_ytqZ-dCyL0u&sz=w640",
+          "sizeBytes": 5260968,
+          "sha256": "DFF87BC151538EBF6AAD1F904E51FAFCE365123A60C61617677D0626DC6CFBFE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Low Road — The Low Road - Official T"
+        }
+      ]
+    },
+    {
+      "titleId": "01005F000B784000",
+      "title": "Nelly Cootalot: The Fowl Fleet",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005F000B784000.jpg",
+      "variants": [
+        {
+          "id": "v_a3b78378",
+          "name": "Nelly Cootalot: The Fowl Fleet — Nelly Cootalot:",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19WC4eQoXMx9blobXayqu5fdIJcDLJZxC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19WC4eQoXMx9blobXayqu5fdIJcDLJZxC&sz=w640",
+          "sizeBytes": 5548808,
+          "sha256": "827DDA47CFA1195FF255FE57120717CDE6EF59C9AADB58A1FA8A934A6FF8D9ED",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Nelly Cootalot: The Fowl Fleet — Nelly C"
+        }
+      ]
+    },
+    {
+      "titleId": "0100987020138000",
+      "title": "Moonless Moon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100987020138000.jpg",
+      "variants": [
+        {
+          "id": "v_004d1bd2",
+          "name": "Moonless Moon — ローンチトレーラー",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1JSULxVdjSbW8JzoYJIeNhtYc7O9t3hKJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1JSULxVdjSbW8JzoYJIeNhtYc7O9t3hKJ&sz=w640",
+          "sizeBytes": 4125395,
+          "sha256": "808E913302878F69682C42A3EBEFBE6A74487A043A402F43236961130D3F9924",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Moonless Moon — ローンチトレーラー"
+        }
+      ]
     }
   ],
-  "totalGames": 4943,
-  "totalVariants": 6367,
-  "lastUpdated": "2026-11-10T12:35:24.394979+00:00"
+  "totalGames": 4953,
+  "totalVariants": 6377,
+  "lastUpdated": "2026-11-10T12:39:07.095148+00:00"
 }
