@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T06:19:32.144332+00:00",
+  "updatedAt": "2026-11-10T06:22:32.320662+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -125808,9 +125808,269 @@
           "notes": "Switch 720p 30fps H264 | Thunder Ray — Thunder Ray Official trail"
         }
       ]
+    },
+    {
+      "titleId": "01006EB004B0E000",
+      "title": "Treadnauts",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006EB004B0E000.jpg",
+      "variants": [
+        {
+          "id": "v_4d81235f",
+          "name": "Treadnauts — Treadnauts Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12CN_2Oogrd7AniI3PsWN-o9yfxDmTTF4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12CN_2Oogrd7AniI3PsWN-o9yfxDmTTF4&sz=w640",
+          "sizeBytes": 4723005,
+          "sha256": "FBD30F6EBFBC7694A755B5B255D5E655920E2C124032EFAF3D4A133690A8DCE8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Treadnauts — Treadnauts Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010037C01B982000",
+      "title": "Xuan Yuan Sword: Mists Beyond the Mountains",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010037C01B982000.jpg",
+      "variants": [
+        {
+          "id": "v_5c182508",
+          "name": "Xuan-Yuan Sword: Mists Beyond the Mountains — 宣傳",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1uO4MMjVxBZwgZDWsruX7OycF4OSoDmRL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1uO4MMjVxBZwgZDWsruX7OycF4OSoDmRL&sz=w640",
+          "sizeBytes": 4293442,
+          "sha256": "7B43D82711E9C95BDF1FED73A3C2DC9B17CF28BBD45AD6A61CDB9886B05F831C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Xuan-Yuan Sword: Mists Beyond the Mounta"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F1A011222000",
+      "title": "Megadimension Neptunia VII",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F1A011222000.jpg",
+      "variants": [
+        {
+          "id": "v_e5c13db2",
+          "name": "Megadimension Neptunia VII — Megadimension Neptu",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17I5KBZt2F8pZOcFaPKP425_szVg5q7E8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17I5KBZt2F8pZOcFaPKP425_szVg5q7E8&sz=w640",
+          "sizeBytes": 4846808,
+          "sha256": "77ABD97A539E8C639EDEC171EFE9AD744CE18CB7EA673AF1DF75B0D2A7E4F449",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Megadimension Neptunia VII — Megadimensi"
+        }
+      ]
+    },
+    {
+      "titleId": "01000C2013F88000",
+      "title": "Reverie Knights Tactics",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000C2013F88000.jpg",
+      "variants": [
+        {
+          "id": "v_f4ab1e6d",
+          "name": "Reverie Knights Tactics — Reverie Knights Tactic",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mcGcc5HB4OkvC9sciYqq-68_YbPfNNPj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mcGcc5HB4OkvC9sciYqq-68_YbPfNNPj&sz=w640",
+          "sizeBytes": 5483037,
+          "sha256": "C01C3EC7F0F5952FB059608FE383D959004B282EBF9CC6EBA42188F25F745B56",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Reverie Knights Tactics — Reverie Knight"
+        }
+      ]
+    },
+    {
+      "titleId": "01002C0015644000",
+      "title": "Maglam Lord",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002C0015644000.jpg",
+      "variants": [
+        {
+          "id": "v_0cbd7faf",
+          "name": "MAGLAM LORD — PV",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1brlpobaidt0KNnpT0qz8a2UJ4dGXde_m",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1brlpobaidt0KNnpT0qz8a2UJ4dGXde_m&sz=w640",
+          "sizeBytes": 5439429,
+          "sha256": "6C4C2777E190DE9C3EA02E48F0FA39FC2C15BE1385A441597138B3FC4E7C6C71",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | MAGLAM LORD — PV"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C53004C52000",
+      "title": "Flat Heroes",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C53004C52000.jpg",
+      "variants": [
+        {
+          "id": "v_02668745",
+          "name": "Flat Heroes — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zxwu1Fm08dpBm57KVe6jNju4JOMxFxaQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zxwu1Fm08dpBm57KVe6jNju4JOMxFxaQ&sz=w640",
+          "sizeBytes": 5022775,
+          "sha256": "E8F55D8DFA6E9B2D0258CB1DC84DD0C6664858D3B1A08A050E44EA986B288434",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Flat Heroes — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010058800E90A000",
+      "title": "Convoy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010058800E90A000.jpg",
+      "variants": [
+        {
+          "id": "v_0ac2227f",
+          "name": "Ambush: Convoy Strike — Official Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WTZTwSmyqLaaWanjerngG2yGHrIDQAYR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WTZTwSmyqLaaWanjerngG2yGHrIDQAYR&sz=w640",
+          "sizeBytes": 2826304,
+          "sha256": "AC7C3C1E78592FDF0A6DCCEEE0A64EF21792B41043FCB10A25A351CD9BCFFB5F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ambush: Convoy Strike — Official Launch "
+        }
+      ]
+    },
+    {
+      "titleId": "01003FF011856000",
+      "title": "Climbros",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003FF011856000.jpg",
+      "variants": [
+        {
+          "id": "v_0bef91d1",
+          "name": "Climbros — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Lmz4U0l2QwjAPqKe40r4lImu8QY546rh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Lmz4U0l2QwjAPqKe40r4lImu8QY546rh&sz=w640",
+          "sizeBytes": 4238304,
+          "sha256": "B84A0744278B9DE4370A7C1DD0B94435000E617A09D7114ACF690A82DCF899DB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Climbros — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100661020C1A000",
+      "title": "Spy Drops",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100661020C1A000.jpg",
+      "variants": [
+        {
+          "id": "v_cb59fabd",
+          "name": "Spy Drops — Dec 2025 Update",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1e_B2XZSQZp-Tj4Sbkro3MX1zplKsZlyL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1e_B2XZSQZp-Tj4Sbkro3MX1zplKsZlyL&sz=w640",
+          "sizeBytes": 3692821,
+          "sha256": "3FC6B337F7D84C680F75C305EAFFF274CBC1B5FD7467028652505421C9E92AA2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Spy Drops — Dec 2025 Update"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BE4016674000",
+      "title": "Time Loader",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BE4016674000.jpg",
+      "variants": [
+        {
+          "id": "v_6033e6fd",
+          "name": "Time Loader — Release trailer_all platforms logo",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hM4sLOMsHHO9MGr7e8-_NZ8OJaq3doGI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hM4sLOMsHHO9MGr7e8-_NZ8OJaq3doGI&sz=w640",
+          "sizeBytes": 5361853,
+          "sha256": "5D30DFC9B32AF2373FB8BFA29B7778E1A2E82AF9F7BA4C895E73DEC4DFC6A422",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Time Loader — Release trailer_all platfo"
+        }
+      ]
     }
   ],
-  "totalGames": 3783,
-  "totalVariants": 5207,
-  "lastUpdated": "2026-11-10T06:19:32.144332+00:00"
+  "totalGames": 3793,
+  "totalVariants": 5217,
+  "lastUpdated": "2026-11-10T06:22:32.320662+00:00"
 }
