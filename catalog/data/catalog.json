@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T02:08:53.343217+00:00",
+  "updatedAt": "2026-11-10T02:12:02.453031+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -104748,9 +104748,269 @@
           "notes": "Switch 720p 30fps H264 | Democracy 4 — Release Trailer"
         }
       ]
+    },
+    {
+      "titleId": "01001B2017C28000",
+      "title": "Get Me Out Please",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001B2017C28000.jpg",
+      "variants": [
+        {
+          "id": "v_7bc5d237",
+          "name": "Get Me Out, Please — ゲームプレイ動画_EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SwMNIkgSDhNvjI-nS3YdjfwONyqRw0dB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SwMNIkgSDhNvjI-nS3YdjfwONyqRw0dB&sz=w640",
+          "sizeBytes": 5134088,
+          "sha256": "8F84A88704F6950782F3BF5C615D749F3B2ACE6B8AFF7B5CC848A8BBD4AB0CDF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Get Me Out, Please — ゲームプレイ動画_EN"
+        }
+      ]
+    },
+    {
+      "titleId": "01000E801ACDE000",
+      "title": "Desolatium",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000E801ACDE000.jpg",
+      "variants": [
+        {
+          "id": "v_97df232f",
+          "name": "DESOLATIUM: Prologue — DESOLATIUM: PROLOGUE - Of",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18DDkWMC5YFzgLaWKThqcI4IXxXzxyo6g",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18DDkWMC5YFzgLaWKThqcI4IXxXzxyo6g&sz=w640",
+          "sizeBytes": 5210678,
+          "sha256": "EE4DDDCB5507167EEA76C372D9050E71AFD57366B5833AB3A029E9CC2BDA76BB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | DESOLATIUM: Prologue — DESOLATIUM: PROLO"
+        }
+      ]
+    },
+    {
+      "titleId": "010006F02338A000",
+      "title": "Cthuloot",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010006F02338A000.jpg",
+      "variants": [
+        {
+          "id": "v_1c36f376",
+          "name": "CTHULOOT — Cthuloot_Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11JJffieixf-GqJ_81LiqyTEynWLtSjcO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11JJffieixf-GqJ_81LiqyTEynWLtSjcO&sz=w640",
+          "sizeBytes": 5149958,
+          "sha256": "E4F5092E63E8EC5A40BDA74572D8B65885BA8E3D33878BB9E3C95CFE04B17208",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | CTHULOOT — Cthuloot_Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01009C100390E000",
+      "title": "League of Evil",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009C100390E000.jpg",
+      "variants": [
+        {
+          "id": "v_fd166a8e",
+          "name": "League of Evil — EN_final",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1E4bmRn67z_nlbB2unSVPAltCK1l4Xrhd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1E4bmRn67z_nlbB2unSVPAltCK1l4Xrhd&sz=w640",
+          "sizeBytes": 5398655,
+          "sha256": "98EB20AC9A8CCD78696F918536E81CE3D0108355DCEA0D1F9D659889F7853A4A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | League of Evil — EN_final"
+        }
+      ]
+    },
+    {
+      "titleId": "010070E022546000",
+      "title": "Fate/Hollow Ataraxia Remastered",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010070E022546000.jpg",
+      "variants": [
+        {
+          "id": "v_85f7dd3d",
+          "name": "Fate/hollow ataraxia REMASTERED — main_EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CwpB4wWy94JmItE6hlA8y6CGRLFbXfMR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CwpB4wWy94JmItE6hlA8y6CGRLFbXfMR&sz=w640",
+          "sizeBytes": 3842179,
+          "sha256": "F2D497C2E0071C7E585DFFD884651E0280BD44167B96F789A523AD9C602F2030",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fate/hollow ataraxia REMASTERED — main_E"
+        }
+      ]
+    },
+    {
+      "titleId": "01004DD01A2C4000",
+      "title": "Bleak Sword DX",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004DD01A2C4000.jpg",
+      "variants": [
+        {
+          "id": "v_03c0bbbc",
+          "name": "Bleak Sword DX — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1htHXI3wIxMG3v00UgV00D_s7qaaXTmH2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1htHXI3wIxMG3v00UgV00D_s7qaaXTmH2&sz=w640",
+          "sizeBytes": 5259665,
+          "sha256": "7DC8DC3DC4F431D756FC558E46B2BDED635BB89919E13C611547E92E238B73A6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bleak Sword DX — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01004A7024104000",
+      "title": "Bring You Home",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004A7024104000.jpg",
+      "variants": [
+        {
+          "id": "v_ce194f49",
+          "name": "Bring You Home — Bring You Home Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16mcThkcV1GE96WsM7t35GEfmjxlFN1VX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16mcThkcV1GE96WsM7t35GEfmjxlFN1VX&sz=w640",
+          "sizeBytes": 5032877,
+          "sha256": "6D971CB94AA792CB40CB3C747388FA51C5BC6185F1F86F9F3A255AE19378FC65",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bring You Home — Bring You Home Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010015D01E28A000",
+      "title": "Pine Hearts",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010015D01E28A000.jpg",
+      "variants": [
+        {
+          "id": "v_cc33e147",
+          "name": "Pine Hearts — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ocjIi4wRaI0QA4xL9L26c4QSProSrtvI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ocjIi4wRaI0QA4xL9L26c4QSProSrtvI&sz=w640",
+          "sizeBytes": 5595090,
+          "sha256": "83EF5F3233D1EDCD9B15FF6DF776046CFA0D68222C97122CE70CE909889691E7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Pine Hearts — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B8B02479A000",
+      "title": "Gnomdom",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B8B02479A000.jpg",
+      "variants": [
+        {
+          "id": "v_6232170e",
+          "name": "Gnomdom — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZOE-av179HOMPT5DBiDMTwF7eYe1xuIz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZOE-av179HOMPT5DBiDMTwF7eYe1xuIz&sz=w640",
+          "sizeBytes": 5392768,
+          "sha256": "F38EC91D0C888CECB9F0E2FA22E69FC89AB89404F657B79A818B85583DB58C55",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Gnomdom — Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010018301EA48000",
+      "title": "Disaster Band",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010018301EA48000.jpg",
+      "variants": [
+        {
+          "id": "v_7ddc0e0d",
+          "name": "Disaster Band — Disaster Band - Update Trailer (",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11-8FShr9mwC0La_GFD_UbJERaRq6qEU7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11-8FShr9mwC0La_GFD_UbJERaRq6qEU7&sz=w640",
+          "sizeBytes": 5182472,
+          "sha256": "BE93E1B13905986D6EEA94F2094C734F6FEC56B679508A3F8F54EE74420F2992",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Disaster Band — Disaster Band - Update T"
+        }
+      ]
     }
   ],
-  "totalGames": 2973,
-  "totalVariants": 4397,
-  "lastUpdated": "2026-11-10T02:08:53.343217+00:00"
+  "totalGames": 2983,
+  "totalVariants": 4407,
+  "lastUpdated": "2026-11-10T02:12:02.453031+00:00"
 }
