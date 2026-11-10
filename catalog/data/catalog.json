@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T02:59:13.968715+00:00",
+  "updatedAt": "2026-11-10T03:02:04.453326+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -108908,9 +108908,269 @@
           "notes": "Switch 720p 30fps H264 | Mokoko X — Gameplay Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100E75014D7A000",
+      "title": "Kasiori",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E75014D7A000.jpg",
+      "variants": [
+        {
+          "id": "v_23069d67",
+          "name": "KASIORI — Kasiori_gameplay01",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1M0tI-pbr8J_t0LCxhr9URuxaZaWWkoc1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1M0tI-pbr8J_t0LCxhr9URuxaZaWWkoc1&sz=w640",
+          "sizeBytes": 4839066,
+          "sha256": "7678C3E9F76A0CDB04BADAEDA04A2C40CF50C669F4EB79D7E6D310AB77A2C1E7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | KASIORI — Kasiori_gameplay01"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C4301F3D0000",
+      "title": "Shinonome Abyss the Maiden Exorcist",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C4301F3D0000.jpg",
+      "variants": [
+        {
+          "id": "v_35ffa115",
+          "name": "SHINONOME ABYSS The Maiden Exorcist — 深 四のの目70秒新",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GIYyaHCX6Rvs_HXbYtFfczpLujCeEVhI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GIYyaHCX6Rvs_HXbYtFfczpLujCeEVhI&sz=w640",
+          "sizeBytes": 5168355,
+          "sha256": "E23E8FDB3CE632658A1DF4B7ACEB5AF865F920EE57337969F8722859D32647DD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | SHINONOME ABYSS The Maiden Exorcist — 深 "
+        }
+      ]
+    },
+    {
+      "titleId": "0100347013E4C000",
+      "title": "Tiny Troopers Joint Ops XL",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100347013E4C000.jpg",
+      "variants": [
+        {
+          "id": "v_6cd03b26",
+          "name": "Tiny Troopers: Joint Ops XL — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1h6q7BC1GRWgMh6X4-e1s8wvqNY_nqnQE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1h6q7BC1GRWgMh6X4-e1s8wvqNY_nqnQE&sz=w640",
+          "sizeBytes": 3476141,
+          "sha256": "8E882B6819869606810101288A84C875BCDD747C5410CF0587FA89E92C4A0F5F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tiny Troopers: Joint Ops XL — Launch Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "01005A2014362000",
+      "title": "World's End Club",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005A2014362000.jpg",
+      "variants": [
+        {
+          "id": "v_a1e5bc96",
+          "name": "World's End Club — PlayMovie_2",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11HMwJQw7wdD9VTwibEfYiBIxrDahd791",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11HMwJQw7wdD9VTwibEfYiBIxrDahd791&sz=w640",
+          "sizeBytes": 5351353,
+          "sha256": "FD8F78ACD6792E157649FE2EE66D12872A1DBC71A5F605279E448C4F419DA616",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | World's End Club — PlayMovie_2"
+        }
+      ]
+    },
+    {
+      "titleId": "010039B015CB6000",
+      "title": "Eiyuden Chronicle Rising",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010039B015CB6000.jpg",
+      "variants": [
+        {
+          "id": "v_81746799",
+          "name": "Eiyuden Chronicle: Rising — Launch Trailer - ENG",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vNMM8jJOI1_46b8lXJM4t7d-q999pOfe",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vNMM8jJOI1_46b8lXJM4t7d-q999pOfe&sz=w640",
+          "sizeBytes": 4784692,
+          "sha256": "24226CA8C1AE49A94F454CE0FA071BCBA566FAADFFE071239DFE2AE4AFBED0DF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Eiyuden Chronicle: Rising — Launch Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "01002840271CC000",
+      "title": "Drop Duchy Complete edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002840271CC000.jpg",
+      "variants": [
+        {
+          "id": "v_66e09165",
+          "name": "Drop Duchy — 1.2 Update + The North DLC",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1suZRzCzPifQ0jlftuMf-YmBurrfu-7qh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1suZRzCzPifQ0jlftuMf-YmBurrfu-7qh&sz=w640",
+          "sizeBytes": 4680591,
+          "sha256": "C00619226ED37D4830D91C06E6F88E61797FD1A79EC73F060982E79E1C5775CF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Drop Duchy — 1.2 Update + The North DLC"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BD10190C1000",
+      "title": "AEW Fight Forever",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BD10190C1000.jpg",
+      "variants": [
+        {
+          "id": "v_6f83828b",
+          "name": "AEW: Fight Forever — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vDDmiwkWdAFDtg49g62ZpZIe7kqeeekf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vDDmiwkWdAFDtg49g62ZpZIe7kqeeekf&sz=w640",
+          "sizeBytes": 5419349,
+          "sha256": "231F7B16B527A682F37C6E36C11BE815122B9B1DB97941541BC27F6E11C1D28A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | AEW: Fight Forever — Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01008E401E6D0000",
+      "title": "The Smurfs Dreams",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008E401E6D0000.jpg",
+      "variants": [
+        {
+          "id": "v_8302622a",
+          "name": "The Smurfs – Dreams — The Smurfs – Dreams - Acco",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xa2NvIcfMzChuf9AspMI4X_Wevj0mpYu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xa2NvIcfMzChuf9AspMI4X_Wevj0mpYu&sz=w640",
+          "sizeBytes": 5201573,
+          "sha256": "03AC691874E8F606F6BD6A32F26C3336BF7C29ED184BD5B6B37D44D15879B775",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Smurfs – Dreams — The Smurfs – Dream"
+        }
+      ]
+    },
+    {
+      "titleId": "01006040110AE000",
+      "title": "Yes Your Grace",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006040110AE000.jpg",
+      "variants": [
+        {
+          "id": "v_ca0409b6",
+          "name": "Yes, Your Grace — Yes, Your Grace Reveal Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1df-YlxWGni3ZAjeYeWlXyebHndSMpmR6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1df-YlxWGni3ZAjeYeWlXyebHndSMpmR6&sz=w640",
+          "sizeBytes": 4671459,
+          "sha256": "5913422023448608392AD87C3EA66E45E6508E8A9E9D4824AE8E247F23B38676",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Yes, Your Grace — Yes, Your Grace Reveal"
+        }
+      ]
+    },
+    {
+      "titleId": "01002C301280E000",
+      "title": "Vampire the Masquerade: Coteries of New York",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002C301280E000.jpg",
+      "variants": [
+        {
+          "id": "v_269473bc",
+          "name": "Vampire: The Masquerade - Coteries of New York —",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Md63bOTs5EOJP0uH2RrG3XLcUz7UU20O",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Md63bOTs5EOJP0uH2RrG3XLcUz7UU20O&sz=w640",
+          "sizeBytes": 5538284,
+          "sha256": "A2F4292A1E5F3D684D0C2EB33E084A32A9F71CAA2AD6C50E6E06CB4C71AF09E2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Vampire: The Masquerade - Coteries of Ne"
+        }
+      ]
     }
   ],
-  "totalGames": 3133,
-  "totalVariants": 4557,
-  "lastUpdated": "2026-11-10T02:59:13.968715+00:00"
+  "totalGames": 3143,
+  "totalVariants": 4567,
+  "lastUpdated": "2026-11-10T03:02:04.453326+00:00"
 }
