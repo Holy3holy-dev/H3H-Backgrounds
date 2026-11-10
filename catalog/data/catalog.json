@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T14:03:21.858552+00:00",
+  "updatedAt": "2026-11-10T14:06:46.067585+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -161948,9 +161948,269 @@
           "notes": "Switch 720p 30fps H264 | Beatus Creation Solitaire — 1st Trailer"
         }
       ]
+    },
+    {
+      "titleId": "01004060145C0000",
+      "title": "Bunny Bounce remastered",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004060145C0000.jpg",
+      "variants": [
+        {
+          "id": "v_fff53338",
+          "name": "Bunny Bounce — Promo Video",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zHzsi7Pnz6IqdvRKHOX1rM-OMR8yikUB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zHzsi7Pnz6IqdvRKHOX1rM-OMR8yikUB&sz=w640",
+          "sizeBytes": 4183710,
+          "sha256": "F08A768C13F3AF3518ABCE8D123B4CFAB2DC06ED75B0DC04D8B6C3D4698DA92E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bunny Bounce — Promo Video"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A4E01921C000",
+      "title": "Arctictopia",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A4E01921C000.jpg",
+      "variants": [
+        {
+          "id": "v_4aac093e",
+          "name": "Arctictopia — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fwV5moWrt9aSXO51ny5cem3YrPfbaKHj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fwV5moWrt9aSXO51ny5cem3YrPfbaKHj&sz=w640",
+          "sizeBytes": 5174623,
+          "sha256": "5AC9A85CA79DEC537B1BF668E91E2256D0BBCD32FB15731DE6910FD8AA887E56",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Arctictopia — Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100288012966000",
+      "title": "Woodsalt",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100288012966000.jpg",
+      "variants": [
+        {
+          "id": "v_26d3a637",
+          "name": "Woodsalt — Announcement",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1R1jRiMAfBbCEyEps8pt9-4fL0bb0SEgZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1R1jRiMAfBbCEyEps8pt9-4fL0bb0SEgZ&sz=w640",
+          "sizeBytes": 5033520,
+          "sha256": "ECB3CAA322340B6F97A554F2179127730208B8B97AB937C7141EEA045C536DC6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Woodsalt — Announcement"
+        }
+      ]
+    },
+    {
+      "titleId": "010076F011F54000",
+      "title": "Undead and Beyond",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010076F011F54000.jpg",
+      "variants": [
+        {
+          "id": "v_479186e2",
+          "name": "Undead & Beyond — UNDEAD & BEYOND REVEAL TRAILER",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1l2PDYgSGNe4Bw3z1oTPrBqVmocnDtoxq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1l2PDYgSGNe4Bw3z1oTPrBqVmocnDtoxq&sz=w640",
+          "sizeBytes": 5443435,
+          "sha256": "DE33EA72C559A022A28764785D7ED6BBDF97441EA2D6B47E682FC37A781C3718",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Undead & Beyond — UNDEAD & BEYOND REVEAL"
+        }
+      ]
+    },
+    {
+      "titleId": "0100725017244000",
+      "title": "Salaryman Shi",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100725017244000.jpg",
+      "variants": [
+        {
+          "id": "v_c3641d71",
+          "name": "Salaryman Shi — Salaryman Shi ESRB demo trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1A6TU93nU4OAB4bjTDy-B5j6ycZnV1jjx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1A6TU93nU4OAB4bjTDy-B5j6ycZnV1jjx&sz=w640",
+          "sizeBytes": 4687482,
+          "sha256": "86B0C0F61E524591D8890534BC7EC27E0F4AA90253354B0067197ED121A62079",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Salaryman Shi — Salaryman Shi ESRB demo "
+        }
+      ]
+    },
+    {
+      "titleId": "0100D7D0138A2000",
+      "title": "Ruin Raiders",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D7D0138A2000.jpg",
+      "variants": [
+        {
+          "id": "v_e108c454",
+          "name": "Ruin Raiders — No dog update Aug 2021",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_kThx7YEmtrEToCZ2PUAs6myoSZjFoIP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_kThx7YEmtrEToCZ2PUAs6myoSZjFoIP&sz=w640",
+          "sizeBytes": 5356847,
+          "sha256": "5A0C7284F835A52A3BBE75B8D3EE4B3C3996FD3ED94F90C3FBA691F851ED40B7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ruin Raiders — No dog update Aug 2021"
+        }
+      ]
+    },
+    {
+      "titleId": "01001F20100B8000",
+      "title": "Eclipse Edge of Light",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001F20100B8000.jpg",
+      "variants": [
+        {
+          "id": "v_9760cd4b",
+          "name": "Eclipse Edge of Light — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SrOTsfUIhvcvLnpWUcf3TiTZs_ica9SJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SrOTsfUIhvcvLnpWUcf3TiTZs_ica9SJ&sz=w640",
+          "sizeBytes": 5350125,
+          "sha256": "1C6DDC6E6F74090D63BA92A3793FBB9B14E6C3A024B2EB1CB4E5C2046E2F1D17",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Eclipse Edge of Light — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01009C301A210000",
+      "title": "Mr. Run and Jump",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009C301A210000.jpg",
+      "variants": [
+        {
+          "id": "v_13019ce9",
+          "name": "Mr. Run and Jump — Mr. Run and Jump Announcement",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18tUy072Mrs-MrBOmpq-YS3Q7HbComUXG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18tUy072Mrs-MrBOmpq-YS3Q7HbComUXG&sz=w640",
+          "sizeBytes": 4742620,
+          "sha256": "0D91647BCCEFC36FBF3EABBAB1C8CC6E1C73563540956CB89367E85A88CFF1AE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mr. Run and Jump — Mr. Run and Jump Anno"
+        }
+      ]
+    },
+    {
+      "titleId": "010076301319C000",
+      "title": "Rogue Wizards",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010076301319C000.jpg",
+      "variants": [
+        {
+          "id": "v_b5d8ce68",
+          "name": "Rogue Wizards — Rogue Wizards Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LtCauSDLO7_Gwx1BYnWrLFk3v3Jex-pv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LtCauSDLO7_Gwx1BYnWrLFk3v3Jex-pv&sz=w640",
+          "sizeBytes": 5312960,
+          "sha256": "DA2DF6ED890700A6EA0A3C2C8F22F64158066C28813896F90F47B3ABA454EA4F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rogue Wizards — Rogue Wizards Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E3A013DB2000",
+      "title": "The Long Gate",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E3A013DB2000.jpg",
+      "variants": [
+        {
+          "id": "v_e214aa85",
+          "name": "The Long Gate — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eWlmHBIH-CFGU6qopfoC27Lr3xe4nnMB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eWlmHBIH-CFGU6qopfoC27Lr3xe4nnMB&sz=w640",
+          "sizeBytes": 4785035,
+          "sha256": "75119029CEFB7009DBAF6F388939D9891596C1145E43A9753491C5D6A42AEC77",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Long Gate — Launch Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 5173,
-  "totalVariants": 6597,
-  "lastUpdated": "2026-11-10T14:03:21.858552+00:00"
+  "totalGames": 5183,
+  "totalVariants": 6607,
+  "lastUpdated": "2026-11-10T14:06:46.067585+00:00"
 }
