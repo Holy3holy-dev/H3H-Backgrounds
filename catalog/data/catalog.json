@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T05:11:07.927046+00:00",
+  "updatedAt": "2026-11-10T05:14:08.864718+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -120348,9 +120348,269 @@
           "notes": "Switch 720p 30fps H264 | Fire: Ungh’s Quest — Fire Trailer ENG"
         }
       ]
+    },
+    {
+      "titleId": "0100E29001298000",
+      "title": "Has Been Heroes",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E29001298000.jpg",
+      "variants": [
+        {
+          "id": "v_c55fe544",
+          "name": "Has-Been Heroes — Has-Been Heroes Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NzrHV3gXtj5wr8r5JkxXTCv7QW2D8Rq7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NzrHV3gXtj5wr8r5JkxXTCv7QW2D8Rq7&sz=w640",
+          "sizeBytes": 4821705,
+          "sha256": "CC86107932A49FAAEE4D3B07922DE8BD1988B601FA4D47A31B4BDD25AA192B29",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Has-Been Heroes — Has-Been Heroes Launch"
+        }
+      ]
+    },
+    {
+      "titleId": "01003FD01A78E000",
+      "title": "Urbek City Builder",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003FD01A78E000.jpg",
+      "variants": [
+        {
+          "id": "v_427d5f78",
+          "name": "Urbek City Builder — releaseTrailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1R4xsvbpIhD__xYLRROMNo5p0unPRG2EV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1R4xsvbpIhD__xYLRROMNo5p0unPRG2EV&sz=w640",
+          "sizeBytes": 5396643,
+          "sha256": "D18A9640222DD0F5052299637BEFE629849A57606A1EDB2F9402D90A667E7CF3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Urbek City Builder — releaseTrailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BD8011BCC000",
+      "title": "Broken Lines",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BD8011BCC000.jpg",
+      "variants": [
+        {
+          "id": "v_ca72e0a4",
+          "name": "Broken Lines — Zombie trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yePAySD1COiZwIukxVx9s5QBRbl3mw1d",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yePAySD1COiZwIukxVx9s5QBRbl3mw1d&sz=w640",
+          "sizeBytes": 5143559,
+          "sha256": "5AB28F2C020B1E5D8EB539EF3E12B0F172A2667A3CA802E0FA9E1DD0021EB006",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Broken Lines — Zombie trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F8900E878000",
+      "title": "Dungeon Warfare",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F8900E878000.jpg",
+      "variants": [
+        {
+          "id": "v_6eaea775",
+          "name": "Dungeon Warfare — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19Ha0mI2UlFZLsKn_Pd4l5M1JFNP4KwPV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19Ha0mI2UlFZLsKn_Pd4l5M1JFNP4KwPV&sz=w640",
+          "sizeBytes": 5041356,
+          "sha256": "8E9EF58672C13911ECA981F57F58C0D11991258AFEB48D73FDB936E7D6D169BB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dungeon Warfare — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B62019A82000",
+      "title": "Sword and Fairy Inn 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B62019A82000.jpg",
+      "variants": [
+        {
+          "id": "v_9d9f483d",
+          "name": "Sword and Fairy Inn 2 — DLC宣传PV",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CLu6Is-e5I0Us6Z_-oswQbY1AlbMy0ko",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CLu6Is-e5I0Us6Z_-oswQbY1AlbMy0ko&sz=w640",
+          "sizeBytes": 4854295,
+          "sha256": "CF5552FEE342F3787664CF692CA08B2A781443881C2E927729D539FDC1D95527",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sword and Fairy Inn 2 — DLC宣传PV"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D1101445C000",
+      "title": "Castaway Paradise",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D1101445C000.jpg",
+      "variants": [
+        {
+          "id": "v_df232c37",
+          "name": "Castaway Paradise - live among the animals — Cas",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jcGjAko9a_a3xZtnvqByjENVdM7v-OPN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jcGjAko9a_a3xZtnvqByjENVdM7v-OPN&sz=w640",
+          "sizeBytes": 4931260,
+          "sha256": "9B1992CBE735D275E4AEBC557E9DAEFCF512D262C20E93194E98FB66E28A30A7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Castaway Paradise - live among the anima"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F89003BC8000",
+      "title": "The Sexy Brutale",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F89003BC8000.jpg",
+      "variants": [
+        {
+          "id": "v_d26f8e5a",
+          "name": "The Sexy Brutale — The Sexy Brutale Launch trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1B_73qp3q-H6JbsiqoJZHOQwcILQv-w_L",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1B_73qp3q-H6JbsiqoJZHOQwcILQv-w_L&sz=w640",
+          "sizeBytes": 5333120,
+          "sha256": "D619F6764E6378371C569190036B204B5AE768B6693BA23B514FEE0FE3EAE4AB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Sexy Brutale — The Sexy Brutale Laun"
+        }
+      ]
+    },
+    {
+      "titleId": "01004F0013BAA000",
+      "title": "Love A Puzzle Box Filled with Stories",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004F0013BAA000.jpg",
+      "variants": [
+        {
+          "id": "v_e708ba43",
+          "name": "LOVE - A Puzzle Box Filled with Stories — LOVE T",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MApX036WuxOMV2K4SCikegeW88rSXp8e",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MApX036WuxOMV2K4SCikegeW88rSXp8e&sz=w640",
+          "sizeBytes": 5567920,
+          "sha256": "7B31F898E82758DAA3F07960C3DDCE34F9ED4CD2A3BF3D1C631AF3A14DDBD9B0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | LOVE - A Puzzle Box Filled with Stories "
+        }
+      ]
+    },
+    {
+      "titleId": "01003E8019490000",
+      "title": "Lucy Dreaming",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003E8019490000.jpg",
+      "variants": [
+        {
+          "id": "v_14905edb",
+          "name": "Lucy Dreaming — Lucy Dreaming Trailer EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16NcpMK1xnjkYuNIR-vxRHMVgvHo7m6oj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16NcpMK1xnjkYuNIR-vxRHMVgvHo7m6oj&sz=w640",
+          "sizeBytes": 5402411,
+          "sha256": "AE0930E992D9FE2DD2263D768793487284E521C9E1217488C10317B66D57B83B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lucy Dreaming — Lucy Dreaming Trailer EN"
+        }
+      ]
+    },
+    {
+      "titleId": "010094F01ABCC000",
+      "title": "Boxville",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010094F01ABCC000.jpg",
+      "variants": [
+        {
+          "id": "v_92985670",
+          "name": "Boxville 2 — Boxville 2 trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ylxi2LbourRqfZHHRsgCbdWpOYNn2zFm",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ylxi2LbourRqfZHHRsgCbdWpOYNn2zFm&sz=w640",
+          "sizeBytes": 5348791,
+          "sha256": "8A59EC1D276D07E06D2FE14AEB4B714E11CCBBF88C22EB6B63BD16421C165A19",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Boxville 2 — Boxville 2 trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 3573,
-  "totalVariants": 4997,
-  "lastUpdated": "2026-11-10T05:11:07.927046+00:00"
+  "totalGames": 3583,
+  "totalVariants": 5007,
+  "lastUpdated": "2026-11-10T05:14:08.864718+00:00"
 }
