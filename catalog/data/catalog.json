@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T08:46:17.661786+00:00",
+  "updatedAt": "2026-11-10T08:49:12.093965+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -138288,9 +138288,269 @@
           "notes": "Switch 720p 30fps H264 | BIG-Bobby-Car – The Big Race — BIG-Bobby"
         }
       ]
+    },
+    {
+      "titleId": "0100806017374000",
+      "title": "Defend the Rook",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100806017374000.jpg",
+      "variants": [
+        {
+          "id": "v_a5a054b8",
+          "name": "Defend the Rook — Official Trailer - EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17L8hwqO4iQkxFc1t5PqFPBdcguhUV00c",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17L8hwqO4iQkxFc1t5PqFPBdcguhUV00c&sz=w640",
+          "sizeBytes": 5138573,
+          "sha256": "756800D39032FF965EFDC734FFEC0832498076D8481235E6D2D48CA2996A7019",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Defend the Rook — Official Trailer - EN"
+        }
+      ]
+    },
+    {
+      "titleId": "01008D4018260000",
+      "title": "Master Spy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008D4018260000.jpg",
+      "variants": [
+        {
+          "id": "v_6432d6a2",
+          "name": "Master Spy — Master Spy Cinema Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1N9ChS0550iHo4iFJ16NdNSJxQzs4r7OR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1N9ChS0550iHo4iFJ16NdNSJxQzs4r7OR&sz=w640",
+          "sizeBytes": 4731816,
+          "sha256": "CDC706CC5A1A56077EA034FE5FEFF6EC88B8AC5C463160E71FF9DAF2B0DD2A56",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Master Spy — Master Spy Cinema Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01002BB013BF8000",
+      "title": "Stealth",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002BB013BF8000.jpg",
+      "variants": [
+        {
+          "id": "v_009d690c",
+          "name": "Ninja Stealth 3 — Ninja Stealth 3",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1V5TTpH0K9GFfDlUn9_pQvrp46SsYldbg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1V5TTpH0K9GFfDlUn9_pQvrp46SsYldbg&sz=w640",
+          "sizeBytes": 4764827,
+          "sha256": "F7E3AA825223CC26137586BA9834762460772428EFD80F966D90962084F09635",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ninja Stealth 3 — Ninja Stealth 3"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FFD00FDF8000",
+      "title": "Tesla Force",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FFD00FDF8000.jpg",
+      "variants": [
+        {
+          "id": "v_28cfebac",
+          "name": "Tesla Force — Tesla Force Teaser",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Jqcfw4X5atgWXr8cMbJBBTeAnh_c16yh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Jqcfw4X5atgWXr8cMbJBBTeAnh_c16yh&sz=w640",
+          "sizeBytes": 5371062,
+          "sha256": "A564909B25DD6F8F2989A110C532521831E628C6CB4D7B33F5987F4471D6755A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tesla Force — Tesla Force Teaser"
+        }
+      ]
+    },
+    {
+      "titleId": "01000DC00AF1C000",
+      "title": "Desert Child",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000DC00AF1C000.jpg",
+      "variants": [
+        {
+          "id": "v_1dc7b48c",
+          "name": "Desert Child — E3 2018 Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10p03U3WzzaDPvusOcFvxExBR9VYtTHoM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10p03U3WzzaDPvusOcFvxExBR9VYtTHoM&sz=w640",
+          "sizeBytes": 4899871,
+          "sha256": "CA034DFF61D5450B8D1D42F3E1E6ED9A1033CE5DE5E178A0C49263C48218C6AC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Desert Child — E3 2018 Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010024C017CF8000",
+      "title": "Slaycation Paradise",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010024C017CF8000.jpg",
+      "variants": [
+        {
+          "id": "v_b937bac2",
+          "name": "Slaycation Paradise — New Content Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nBo_aLJ705_ZuO5b8ZD7O9so4gq7dXNS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nBo_aLJ705_ZuO5b8ZD7O9so4gq7dXNS&sz=w640",
+          "sizeBytes": 5265184,
+          "sha256": "A80E11101ECE309AAE428404AE8E20D585E81B22E90E04D0918B4C499D4F37EF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Slaycation Paradise — New Content Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D1301367A000",
+      "title": "Kraken Academy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D1301367A000.jpg",
+      "variants": [
+        {
+          "id": "v_450c2bbe",
+          "name": "Kraken Academy!! — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_HKfxt2RD3kXMCvWkpQgY7-QpNcdo2yZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_HKfxt2RD3kXMCvWkpQgY7-QpNcdo2yZ&sz=w640",
+          "sizeBytes": 5222500,
+          "sha256": "2DFFDE765AC266811B46792E745570C998403DB0CD851A2DC7F639BFE95FF96B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kraken Academy!! — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01009D701F16A000",
+      "title": "Verne: The Shape of Fantasy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009D701F16A000.jpg",
+      "variants": [
+        {
+          "id": "v_23b03e8b",
+          "name": "Verne: The Shape of Fantasy — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lWK5rCrrimTKdbuWT0teKB6aZsV7PAdL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lWK5rCrrimTKdbuWT0teKB6aZsV7PAdL&sz=w640",
+          "sizeBytes": 5478405,
+          "sha256": "EDD381CBF74AC3A0E19194FB83021DD0C5E613299D6D05CF5CC8A839FD2769B0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Verne: The Shape of Fantasy — Release Tr"
+        }
+      ]
+    },
+    {
+      "titleId": "01005E2018FCC000",
+      "title": "Freud's Bones The Game",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005E2018FCC000.jpg",
+      "variants": [
+        {
+          "id": "v_09f218db",
+          "name": "Freud's Bones-the game — Trailer ENG",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oygykrehYJ3BRChOynixv1r9_CXuu30A",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oygykrehYJ3BRChOynixv1r9_CXuu30A&sz=w640",
+          "sizeBytes": 5302941,
+          "sha256": "923BC3D99AE59F1254AB5EBC3B9B1308D6C18463770D0B7230BB194A8B0D7522",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Freud's Bones-the game — Trailer ENG"
+        }
+      ]
+    },
+    {
+      "titleId": "0100761019082000",
+      "title": "The Dark Prophecy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100761019082000.jpg",
+      "variants": [
+        {
+          "id": "v_7e86ff5e",
+          "name": "The Dark Prophecy — The Prophecy - trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1v1ClP0Io2NK5Iriyr2YWHPCptJKa5g7e",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1v1ClP0Io2NK5Iriyr2YWHPCptJKa5g7e&sz=w640",
+          "sizeBytes": 4420276,
+          "sha256": "9C6E90FBF27ABCDEEB14EED8CFD79D3A5CD999831E7E686C280A3FE9EC16CDEA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Dark Prophecy — The Prophecy - trail"
+        }
+      ]
     }
   ],
-  "totalGames": 4263,
-  "totalVariants": 5687,
-  "lastUpdated": "2026-11-10T08:46:17.661786+00:00"
+  "totalGames": 4273,
+  "totalVariants": 5697,
+  "lastUpdated": "2026-11-10T08:49:12.093965+00:00"
 }
