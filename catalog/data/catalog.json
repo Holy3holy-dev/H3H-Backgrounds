@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T01:17:39.588279+00:00",
+  "updatedAt": "2026-11-10T01:20:37.786862+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -101368,9 +101368,269 @@
           "notes": "Switch 720p 30fps H264 | Chasing Static — Chasing Static - Reveal"
         }
       ]
+    },
+    {
+      "titleId": "0100D5501522C000",
+      "title": "The Pathless",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D5501522C000.jpg",
+      "variants": [
+        {
+          "id": "v_cecb64b9",
+          "name": "The Pathless — The Pathless - Available Now",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ui0U0BciuQH2sQ0xwV9XgT6VDIS0YT_A",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ui0U0BciuQH2sQ0xwV9XgT6VDIS0YT_A&sz=w640",
+          "sizeBytes": 4271063,
+          "sha256": "465A5CC14E9413A7647A15DFC4CE7754CA0619D3802E70FACFE2699261EF39A4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Pathless — The Pathless - Available "
+        }
+      ]
+    },
+    {
+      "titleId": "01003B40179BE000",
+      "title": "Seven Doors",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003B40179BE000.jpg",
+      "variants": [
+        {
+          "id": "v_42e45620",
+          "name": "Seven Doors — Seven Doors - DLC Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1APJWVZzGJqPmnIHx_FLBvXeNy5MuQHFE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1APJWVZzGJqPmnIHx_FLBvXeNy5MuQHFE&sz=w640",
+          "sizeBytes": 4992318,
+          "sha256": "2BDDA5CA573F999F88C4FD1DCA737A4D402C04D7AB78905AFD2A4F2AC58C40FE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Seven Doors — Seven Doors - DLC Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E26019422000",
+      "title": "Oni: Road to be the Mightiest Oni",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E26019422000.jpg",
+      "variants": [
+        {
+          "id": "v_6e344147",
+          "name": "ONI : Road to be the Mightiest Oni — 発売日発表（EN）",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ShmNWm1eGjKuROp6_JtMkSoneLkokim_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ShmNWm1eGjKuROp6_JtMkSoneLkokim_&sz=w640",
+          "sizeBytes": 4611234,
+          "sha256": "21498E749CCD55302EEC9B7CCF0187C4596EBCA1E386ECF1BC843A7DAF803A9F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | ONI : Road to be the Mightiest Oni — 発売日"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C3701C19A000",
+      "title": "Rogue Glitch Ultra",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C3701C19A000.jpg",
+      "variants": [
+        {
+          "id": "v_c15e618c",
+          "name": "Rogue Glitch Ultra — Rogue Glitch Ultra Out Now",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZALMvt5jE-xlbZ-13LF8Qo1JKnj1H14Q",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZALMvt5jE-xlbZ-13LF8Qo1JKnj1H14Q&sz=w640",
+          "sizeBytes": 5241255,
+          "sha256": "3E89E2F501B09CF7B170F37A9D5BF8F76F5D2F5E8C9F789D5257B07C666B119D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rogue Glitch Ultra — Rogue Glitch Ultra "
+        }
+      ]
+    },
+    {
+      "titleId": "010020C012F48000",
+      "title": "Rising Hell",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010020C012F48000.jpg",
+      "variants": [
+        {
+          "id": "v_28c5121e",
+          "name": "Rising Hell — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1s1ajreGwLKvvoOGdMTXa7B-k-HJpW6ul",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1s1ajreGwLKvvoOGdMTXa7B-k-HJpW6ul&sz=w640",
+          "sizeBytes": 5322569,
+          "sha256": "4BB3C43ADA504A688078A69B4CEFE1F352ECEE0D23647CE155B1EB7BDDDC9DBC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rising Hell — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010063E014AFC000",
+      "title": "Revita",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010063E014AFC000.jpg",
+      "variants": [
+        {
+          "id": "v_1c377548",
+          "name": "Revita — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jFGqiPGR8AqgU8nm_XB4cApoEplp9A7W",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jFGqiPGR8AqgU8nm_XB4cApoEplp9A7W&sz=w640",
+          "sizeBytes": 5470230,
+          "sha256": "D285659A93E079755C588A4A0C950D5CA4A5C454AEF5D3924948104587638189",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Revita — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F9C01A126000",
+      "title": "Replikator",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F9C01A126000.jpg",
+      "variants": [
+        {
+          "id": "v_f69bf28e",
+          "name": "REPLIKATOR — Official Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vJfN_25SBtUSWxO8GryUopjJ2IB_PLO0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vJfN_25SBtUSWxO8GryUopjJ2IB_PLO0&sz=w640",
+          "sizeBytes": 5009830,
+          "sha256": "89ED6B1641EF447618B145CC78CAE20BA75A45A3504368C183C96E9CFBEEAE7E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | REPLIKATOR — Official Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010025601A0E2000",
+      "title": "Mr. Sun's Hatbox",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010025601A0E2000.jpg",
+      "variants": [
+        {
+          "id": "v_450fe65e",
+          "name": "Mr. Sun's Hatbox — Accolades Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pMuD_T9eKCMTTrIdoKaMRFUtV8MkivFL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pMuD_T9eKCMTTrIdoKaMRFUtV8MkivFL&sz=w640",
+          "sizeBytes": 5294075,
+          "sha256": "E978ED8EBC3D9E4C8BF40B7ECB84AE996243D41562CA51288293BCEA57354C71",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mr. Sun's Hatbox — Accolades Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F25014BD6000",
+      "title": "Metal Unit",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F25014BD6000.jpg",
+      "variants": [
+        {
+          "id": "v_6ee5f057",
+          "name": "Metal Unit — Official Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zVc4SdqzSmdQC5CyoRPQLdr89UKxIm2o",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zVc4SdqzSmdQC5CyoRPQLdr89UKxIm2o&sz=w640",
+          "sizeBytes": 5183005,
+          "sha256": "C735D94B81C500EED8063D307564F75D4C6C59354A20F5C7FC34529C682BC249",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Metal Unit — Official Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010059C01A742000",
+      "title": "Madshot",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010059C01A742000.jpg",
+      "variants": [
+        {
+          "id": "v_b15b0a0c",
+          "name": "Madshot: Road to Madness — MRTM - launch EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=199aTRxHDhdUCrJ2BGueDwIKBPcjFVqUd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=199aTRxHDhdUCrJ2BGueDwIKBPcjFVqUd&sz=w640",
+          "sizeBytes": 5075867,
+          "sha256": "C6D6FDFF70D166511F40AAEBADEDEEA134E6435DE4AA84653EC8EF20E14077E7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Madshot: Road to Madness — MRTM - launch"
+        }
+      ]
     }
   ],
-  "totalGames": 2843,
-  "totalVariants": 4267,
-  "lastUpdated": "2026-11-10T01:17:39.588279+00:00"
+  "totalGames": 2853,
+  "totalVariants": 4277,
+  "lastUpdated": "2026-11-10T01:20:37.786862+00:00"
 }
