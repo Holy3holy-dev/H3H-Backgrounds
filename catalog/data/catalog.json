@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T06:37:33.675210+00:00",
+  "updatedAt": "2026-11-10T06:40:29.339310+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -127368,9 +127368,269 @@
           "notes": "Switch 720p 30fps H264 | Luck be a Landlord — Luck be a Landlord "
         }
       ]
+    },
+    {
+      "titleId": "0100618010D76000",
+      "title": "Hakoniwa Explorer Plus",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100618010D76000.jpg",
+      "variants": [
+        {
+          "id": "v_50049e63",
+          "name": "Hakoniwa Explorer Plus — EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ncy5VSMhj_DqSoBVXXNV4Re9p4H4UxH1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ncy5VSMhj_DqSoBVXXNV4Re9p4H4UxH1&sz=w640",
+          "sizeBytes": 6884231,
+          "sha256": "CDDB9C3D7A2F794DC59D5A6F3705FBDD53B32EB75E261D4BC08C79087DA9A549",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hakoniwa Explorer Plus — EN"
+        }
+      ]
+    },
+    {
+      "titleId": "01004FD00382A000",
+      "title": "Moon Hunters",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004FD00382A000.jpg",
+      "variants": [
+        {
+          "id": "v_c99f84f5",
+          "name": "Moon Hunters — Updated Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1La6UDi3OvkXwfFWBK8lWg69AvlGIcSqU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1La6UDi3OvkXwfFWBK8lWg69AvlGIcSqU&sz=w640",
+          "sizeBytes": 5139793,
+          "sha256": "3937B7FDC5EB3D9799B912DE00BCE264E43611CBB58B1463AB6908DB3AB4D0F6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Moon Hunters — Updated Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D69018122000",
+      "title": "The Witch's House MV",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D69018122000.jpg",
+      "variants": [
+        {
+          "id": "v_b98ebd1e",
+          "name": "The Witch's House MV — TWH Release Trailer - EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OKnhVLcTZC4kNBcRaTEYA3X_-3vKHtlK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OKnhVLcTZC4kNBcRaTEYA3X_-3vKHtlK&sz=w640",
+          "sizeBytes": 5324398,
+          "sha256": "4707CAA5CF20919DCC0E2A45A5E69990550B00A4AB8E1FE1BD56C341D64FD1F0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Witch's House MV — TWH Release Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "0100938017E5C000",
+      "title": "Hell Pie",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100938017E5C000.jpg",
+      "variants": [
+        {
+          "id": "v_50630bd1",
+          "name": "Hell Pie — Hell Pie - Gameplay Trailer 2",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hPsQFtbvpl93vF5IwaqgHPTAf-JTPi3V",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hPsQFtbvpl93vF5IwaqgHPTAf-JTPi3V&sz=w640",
+          "sizeBytes": 5404026,
+          "sha256": "65751169A5D6D4DAFFC713326487FBC560E8E80838CC56911F290F8FCC0995A6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hell Pie — Hell Pie - Gameplay Trailer 2"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C1401B5BC000",
+      "title": "Hidden Through Time 2 Myths and Magic",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C1401B5BC000.jpg",
+      "variants": [
+        {
+          "id": "v_b48e483d",
+          "name": "Hidden Through Time 2: Myths & Magic — Game Trai",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yoMJVSmafmgxVpwBVJvHAELsbE34CmBO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yoMJVSmafmgxVpwBVJvHAELsbE34CmBO&sz=w640",
+          "sizeBytes": 4787282,
+          "sha256": "F3B9D5C6C2D6D7C9C9A9D825A0006274F62D58D8B99469529BC9B22A90FA5062",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hidden Through Time 2: Myths & Magic — G"
+        }
+      ]
+    },
+    {
+      "titleId": "010062D013F76000",
+      "title": "Catie in Meowmeowland",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010062D013F76000.jpg",
+      "variants": [
+        {
+          "id": "v_458615b2",
+          "name": "Catie in MeowmeowLand — Catie in MeowmeowLand Re",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ba5v4WZs-uFUrC2Wn34xBK6Xlcb04hF1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ba5v4WZs-uFUrC2Wn34xBK6Xlcb04hF1&sz=w640",
+          "sizeBytes": 5352435,
+          "sha256": "81CACA4A01040B277BB53DD08574DAAA474D4AB0F842438333EA01D8E4FDF40F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Catie in MeowmeowLand — Catie in Meowmeo"
+        }
+      ]
+    },
+    {
+      "titleId": "0100052012B02000",
+      "title": "Wolfstride",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100052012B02000.jpg",
+      "variants": [
+        {
+          "id": "v_0273b2f5",
+          "name": "Wolfstride — Wolfstride Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VCkbIBsu6XMByxaLikCpS2pzDeO8CcAB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VCkbIBsu6XMByxaLikCpS2pzDeO8CcAB&sz=w640",
+          "sizeBytes": 4989145,
+          "sha256": "ED9465178D1BD93F837C6AC4753CD801CB8A113DA5AB83B035164FAAB2F02502",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wolfstride — Wolfstride Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010072401C778000",
+      "title": "Seed of Life",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010072401C778000.jpg",
+      "variants": [
+        {
+          "id": "v_2d6c7111",
+          "name": "Seed of Life — Gameplay trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1m12Tay_XaNoIS0ieJtB-lHWxKOjl0gce",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1m12Tay_XaNoIS0ieJtB-lHWxKOjl0gce&sz=w640",
+          "sizeBytes": 5081498,
+          "sha256": "AE46BAC5A3B5DEDD85229D2B071CE46B8194E00DE4D8031D3774CCB9F4E89121",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Seed of Life — Gameplay trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100393013A10000",
+      "title": "Timothy and the Mysterious Forest",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100393013A10000.jpg",
+      "variants": [
+        {
+          "id": "v_431a1f8b",
+          "name": "Timothy and the Mysterious Forest — Timothy and ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AqYX67Ejr7KsRGSe381Yb25J_irUdoTF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AqYX67Ejr7KsRGSe381Yb25J_irUdoTF&sz=w640",
+          "sizeBytes": 3395488,
+          "sha256": "BE9AE1D248555FFC420C7D221556E2C7CD5A1FECF787AB951E2353E39FEAA469",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Timothy and the Mysterious Forest — Timo"
+        }
+      ]
+    },
+    {
+      "titleId": "010033300EC86000",
+      "title": "Sea Salt",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010033300EC86000.jpg",
+      "variants": [
+        {
+          "id": "v_64128f2b",
+          "name": "Sea Salt — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pkjNtjooSGobpHUs0lwlDJWXR6Pa1cDK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pkjNtjooSGobpHUs0lwlDJWXR6Pa1cDK&sz=w640",
+          "sizeBytes": 4903223,
+          "sha256": "7B502B77E7902BCD53B2B676154241CEF4F11A8FE56CE77A62AC01BB47AB51A6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sea Salt — Launch Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 3843,
-  "totalVariants": 5267,
-  "lastUpdated": "2026-11-10T06:37:33.675210+00:00"
+  "totalGames": 3853,
+  "totalVariants": 5277,
+  "lastUpdated": "2026-11-10T06:40:29.339310+00:00"
 }
