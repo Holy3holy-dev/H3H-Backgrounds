@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T09:30:36.779132+00:00",
+  "updatedAt": "2026-11-10T09:33:39.735470+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -141928,9 +141928,269 @@
           "notes": "Switch 720p 30fps H264 | Hirilun — HIRILUN RELEASE TRAILER"
         }
       ]
+    },
+    {
+      "titleId": "01001D701C290000",
+      "title": "Chipmonk",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001D701C290000.jpg",
+      "variants": [
+        {
+          "id": "v_e54e461b",
+          "name": "Chipmonk! — Chipmonk! v2.0 Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LB8v5kGK1hsCLhfV8z3V9FDAkz6E4mlH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LB8v5kGK1hsCLhfV8z3V9FDAkz6E4mlH&sz=w640",
+          "sizeBytes": 4965441,
+          "sha256": "7F1F99BA8C633143AA77B6CEF9CAFC5CEE3FB93B00206717C0D3610804337878",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Chipmonk! — Chipmonk! v2.0 Release Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "0100ED90143F8000",
+      "title": "Harmony's Odyssey",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100ED90143F8000.jpg",
+      "variants": [
+        {
+          "id": "v_6cbca044",
+          "name": "Harmony's Odyssey — Harmony's Odyssey - Official",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dw7QC1Zb23-GV3esY6uruI4q2tUJ38L4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dw7QC1Zb23-GV3esY6uruI4q2tUJ38L4&sz=w640",
+          "sizeBytes": 5650636,
+          "sha256": "12ECDB23943A8263092941D3747EBCF25FBC4A66D821AA22DA0B738CF92CF83A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Harmony's Odyssey — Harmony's Odyssey - "
+        }
+      ]
+    },
+    {
+      "titleId": "0100BE901801C000",
+      "title": "Gravitar Recharged",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BE901801C000.jpg",
+      "variants": [
+        {
+          "id": "v_59a8b427",
+          "name": "Gravitar: Recharged — Gravitar Announcement Trai",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1EfZyyDYHtAnbZxcPQWEGsyyQjoLimcJi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1EfZyyDYHtAnbZxcPQWEGsyyQjoLimcJi&sz=w640",
+          "sizeBytes": 5109738,
+          "sha256": "A6FFA21C8CE60CEE7BD50CB7256502104C298ACE923E3D50D06C9C4C28E8679F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Gravitar: Recharged — Gravitar Announcem"
+        }
+      ]
+    },
+    {
+      "titleId": "01005FC019C00000",
+      "title": "Flashout 3",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005FC019C00000.jpg",
+      "variants": [
+        {
+          "id": "v_52f666ea",
+          "name": "FLASHOUT 3 — F3 Gameplay Dark Moon",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qHRgSIIXXQRecTHva7FqWArh9i9_Gy6x",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qHRgSIIXXQRecTHva7FqWArh9i9_Gy6x&sz=w640",
+          "sizeBytes": 11064695,
+          "sha256": "745EDF6B9817DE256B3C3355FEF16351D049BD2744BB51A5E318A1C59C0FDFFE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | FLASHOUT 3 — F3 Gameplay Dark Moon"
+        }
+      ]
+    },
+    {
+      "titleId": "01004F50085F2000",
+      "title": "She Remembered Caterpillars",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004F50085F2000.jpg",
+      "variants": [
+        {
+          "id": "v_a854d930",
+          "name": "She Remembered Caterpillars — She Remembered Cat",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zGZz85GOlkR3r7Q1VXrxwUQnGMImqPB9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zGZz85GOlkR3r7Q1VXrxwUQnGMImqPB9&sz=w640",
+          "sizeBytes": 5104034,
+          "sha256": "3B8E1577434D8C8908058A60346898AF71B448E85042696270F878D63A956D40",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | She Remembered Caterpillars — She Rememb"
+        }
+      ]
+    },
+    {
+      "titleId": "010064F00C212000",
+      "title": "Soul Axiom Rebooted",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010064F00C212000.jpg",
+      "variants": [
+        {
+          "id": "v_a787b4b9",
+          "name": "Soul Axiom Rebooted — Story Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1D2WcxN482TRZ4vG7nYrDQZW-b2OrRQwr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1D2WcxN482TRZ4vG7nYrDQZW-b2OrRQwr&sz=w640",
+          "sizeBytes": 5121167,
+          "sha256": "93A9F1E77376B0A08E33931860DA39EBA85CC3020EB5C45D7C68793F325A967F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Soul Axiom Rebooted — Story Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010025B01585A000",
+      "title": "Deathrun TV",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010025B01585A000.jpg",
+      "variants": [
+        {
+          "id": "v_cd52f961",
+          "name": "DEATHRUN TV — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1naia9PdafLsuk8mg-OVrtFoGwy6Bq6Ou",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1naia9PdafLsuk8mg-OVrtFoGwy6Bq6Ou&sz=w640",
+          "sizeBytes": 5645860,
+          "sha256": "C2C8017AD9C180C114E647FA27C06DE7AF85A4C7F6AA276FA54EE5A3FC031E79",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | DEATHRUN TV — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01006590187FC000",
+      "title": "Dark Minute Kira's Adventure",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006590187FC000.jpg",
+      "variants": [
+        {
+          "id": "v_d5e555bb",
+          "name": "DARK MINUTE: Kira's Adventure — Full Release Tra",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VkblLGvR9yZcY_JGV6RZdmqk_f4ALDxU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VkblLGvR9yZcY_JGV6RZdmqk_f4ALDxU&sz=w640",
+          "sizeBytes": 5447403,
+          "sha256": "AAD39AE2C2C1CFA78FCBC877F687677CA239F0953C8F9F1C552A757081E8BF03",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | DARK MINUTE: Kira's Adventure — Full Rel"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C8F01C018000",
+      "title": "Crypto Miner Tycoon Simulator",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C8F01C018000.jpg",
+      "variants": [
+        {
+          "id": "v_aa027a11",
+          "name": "Crypto Miner Tycoon Simulator — Release trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ysn-QY-Odvi0AZ9CqV9FTqJwjncaPaYr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ysn-QY-Odvi0AZ9CqV9FTqJwjncaPaYr&sz=w640",
+          "sizeBytes": 5537614,
+          "sha256": "B6F29B62DC6EFEFB4BD030829E7B9AD298C757F71B531C116A610E7C7520D9FF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Crypto Miner Tycoon Simulator — Release "
+        }
+      ]
+    },
+    {
+      "titleId": "0100D9501A2F4000",
+      "title": "Crowns and Pawns Kingdom of Deceit",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D9501A2F4000.jpg",
+      "variants": [
+        {
+          "id": "v_e79ec038",
+          "name": "Crowns and Pawns: Kingdom of Deceit — Gameplay t",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DxfROqqbeH2KesQ6AjxCKOaOIFoxLynx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DxfROqqbeH2KesQ6AjxCKOaOIFoxLynx&sz=w640",
+          "sizeBytes": 5666516,
+          "sha256": "C6B82A39B75C5B0445129B51CB01CD84B8739944B701F40EBD135D859E6651D1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Crowns and Pawns: Kingdom of Deceit — Ga"
+        }
+      ]
     }
   ],
-  "totalGames": 4403,
-  "totalVariants": 5827,
-  "lastUpdated": "2026-11-10T09:30:36.779132+00:00"
+  "totalGames": 4413,
+  "totalVariants": 5837,
+  "lastUpdated": "2026-11-10T09:33:39.735470+00:00"
 }
