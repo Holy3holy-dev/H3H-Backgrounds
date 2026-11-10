@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T11:55:34.882723+00:00",
+  "updatedAt": "2026-11-10T11:58:53.578553+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -153108,9 +153108,269 @@
           "notes": "Switch 720p 30fps H264 | I’ll KILL HER — Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100EEF01E50A000",
+      "title": "Ratyrinth",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EEF01E50A000.jpg",
+      "variants": [
+        {
+          "id": "v_ee458e07",
+          "name": "Ratyrinth — Ratyrinth Traileir 01",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1irpK4DqjOCfIyatpedngX8nGHS1sx39o",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1irpK4DqjOCfIyatpedngX8nGHS1sx39o&sz=w640",
+          "sizeBytes": 4542317,
+          "sha256": "73CF8EF031C9A2BE523ECFFDB8C3570B0C7470E3BD4971A00A16A0B7C65B645A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ratyrinth — Ratyrinth Traileir 01"
+        }
+      ]
+    },
+    {
+      "titleId": "010070B016468000",
+      "title": "Family Man",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010070B016468000.jpg",
+      "variants": [
+        {
+          "id": "v_7bbbdded",
+          "name": "Family Man — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1EZBXfvbPzd5xjU0Rva7pI58KCV89fbAl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1EZBXfvbPzd5xjU0Rva7pI58KCV89fbAl&sz=w640",
+          "sizeBytes": 5392044,
+          "sha256": "DA04F313A84D7E09E4BD433F8CC15A9A94010E10CCE1C4866CF75248347AD262",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Family Man — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010005201FB06000",
+      "title": "Evomon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010005201FB06000.jpg",
+      "variants": [
+        {
+          "id": "v_0ce13131",
+          "name": "EvoMon — Update Pre Historico 1.2",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18QMaZWkkT-OFhmFKjTJ59gxazwGKZ5VA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18QMaZWkkT-OFhmFKjTJ59gxazwGKZ5VA&sz=w640",
+          "sizeBytes": 5241407,
+          "sha256": "1622163428B838400E42B094FBC03405A551F95DCA9FAE4F239B4687F6D9F48F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | EvoMon — Update Pre Historico 1.2"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C7D00DE24000",
+      "title": "Azuran Tales Trials",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C7D00DE24000.jpg",
+      "variants": [
+        {
+          "id": "v_62436180",
+          "name": "Azuran Tales: Trials — Instant Gameplay",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_ADtVfy8Ap3s-qqFAv2M3cnMxfDqLqKA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_ADtVfy8Ap3s-qqFAv2M3cnMxfDqLqKA&sz=w640",
+          "sizeBytes": 5463361,
+          "sha256": "9A91FE9A3EF5BAB7101A5757A52FFB4B7D770138E1102B0FC586731E2D82EEDA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Azuran Tales: Trials — Instant Gameplay"
+        }
+      ]
+    },
+    {
+      "titleId": "010031D012BA4000",
+      "title": "Azurebreak Heroes",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010031D012BA4000.jpg",
+      "variants": [
+        {
+          "id": "v_fa4642cd",
+          "name": "Azurebreak Heroes — Release Date Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12W79FDP4zjq9DIy3gsEopRlSTeX3F-e5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12W79FDP4zjq9DIy3gsEopRlSTeX3F-e5&sz=w640",
+          "sizeBytes": 4826819,
+          "sha256": "4C2A20B8370EFF050014FE094FA4ADFF0BEC16366030CFCB212D28A949EDFDFB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Azurebreak Heroes — Release Date Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FE0010886000",
+      "title": "Aqua Lungers",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FE0010886000.jpg",
+      "variants": [
+        {
+          "id": "v_431a11eb",
+          "name": "Aqua Lungers — Version 1.1 Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rThJJJ2AMlmfZv3DbXVKmKYAudDXoFIF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rThJJJ2AMlmfZv3DbXVKmKYAudDXoFIF&sz=w640",
+          "sizeBytes": 5224516,
+          "sha256": "786A7E810BDC908D0FCEEB36894B3ABE7D2685E815B8F2D4FBA3DC4148DA7088",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Aqua Lungers — Version 1.1 Release Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E9901D004000",
+      "title": "Life of Slime",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E9901D004000.jpg",
+      "variants": [
+        {
+          "id": "v_4733418b",
+          "name": "Life of Slime — Life of Slime Trailer - Life",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1e1n6Qms-nV9N1fD8GGzVlPwrJWkffoiA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1e1n6Qms-nV9N1fD8GGzVlPwrJWkffoiA&sz=w640",
+          "sizeBytes": 5463613,
+          "sha256": "0C4822FB9623A340135BEFA0EBA7FA595E8932EA0E0E1F1489642E7C63C3281F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Life of Slime — Life of Slime Trailer - "
+        }
+      ]
+    },
+    {
+      "titleId": "01002DF015A30000",
+      "title": "Chasing Light",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002DF015A30000.jpg",
+      "variants": [
+        {
+          "id": "v_d613f933",
+          "name": "Chasing Light — Chasing Light – Reveal Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QqBZGtHIEVjJSMsPVpobRj5VlMWhgfPg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QqBZGtHIEVjJSMsPVpobRj5VlMWhgfPg&sz=w640",
+          "sizeBytes": 1623734,
+          "sha256": "DAF3EEC242084774A592BE6F108AE6B612B751558DD9C9DA44CDF7C7EF879713",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Chasing Light — Chasing Light – Reveal T"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C5C01771C000",
+      "title": "Pill Baby",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C5C01771C000.jpg",
+      "variants": [
+        {
+          "id": "v_0400bc45",
+          "name": "Pill Baby — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_7EvBBorrHmjLGZYUE2cqfIDATNV24kB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_7EvBBorrHmjLGZYUE2cqfIDATNV24kB&sz=w640",
+          "sizeBytes": 5443770,
+          "sha256": "959A457C028BC56AE03217FB49657C9D0E19A515F0BFE49E6DB782DD4C7AFC83",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Pill Baby — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AB70177F7000",
+      "title": "To Leave",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AB70177F7000.jpg",
+      "variants": [
+        {
+          "id": "v_232d3b67",
+          "name": "To Leave — Winter Sale Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zgiaXeAqgFdjvvAz2LPXwsKB_nUm-ub5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zgiaXeAqgFdjvvAz2LPXwsKB_nUm-ub5&sz=w640",
+          "sizeBytes": 5231969,
+          "sha256": "3F21C27DFABF5E5ECAE2077A4C334B16F77A5CF16DF259D90213B79B96C40401",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | To Leave — Winter Sale Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 4833,
-  "totalVariants": 6257,
-  "lastUpdated": "2026-11-10T11:55:34.882723+00:00"
+  "totalGames": 4843,
+  "totalVariants": 6267,
+  "lastUpdated": "2026-11-10T11:58:53.578553+00:00"
 }
