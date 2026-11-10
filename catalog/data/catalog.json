@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T00:53:40.420392+00:00",
+  "updatedAt": "2026-11-10T00:56:37.138314+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -99288,9 +99288,269 @@
           "notes": "Switch 720p 30fps H264 | Sydney Hunter and the Curse of the Mayan"
         }
       ]
+    },
+    {
+      "titleId": "010039700D200000",
+      "title": "Super Skelemania",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010039700D200000.jpg",
+      "variants": [
+        {
+          "id": "v_1327dd72",
+          "name": "Super Skelemania — Super Skelemania - Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qfdsfV3ALp39tvxIERqtFXblh1Ba20Dy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qfdsfV3ALp39tvxIERqtFXblh1Ba20Dy&sz=w640",
+          "sizeBytes": 5373433,
+          "sha256": "8A391F8F11138452F371403B7E35111426A20146CDBC57EEE9C39A2F6E5323A9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Super Skelemania — Super Skelemania - Tr"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C6100D75E000",
+      "title": "Spooky Ghosts dot Com",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C6100D75E000.jpg",
+      "variants": [
+        {
+          "id": "v_1359c484",
+          "name": "Spooky Ghosts Dot Com — Spooky Ghosts Dot Com Tr",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rK-mIeAUUz7Uct_MyWo2pb11ZwG89cU7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rK-mIeAUUz7Uct_MyWo2pb11ZwG89cU7&sz=w640",
+          "sizeBytes": 5121794,
+          "sha256": "EBB7ED279426657939791BEBDF98DEF8A3D9C328C189844EDB4A554475DF4629",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Spooky Ghosts Dot Com — Spooky Ghosts Do"
+        }
+      ]
+    },
+    {
+      "titleId": "01003080234F2000",
+      "title": "Souno's Curse",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003080234F2000.jpg",
+      "variants": [
+        {
+          "id": "v_d7bddbfa",
+          "name": "Souno's Curse — Souno's Curse Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mCCAoE7b7pISfG6J7rykGpnIcc_fcVuk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mCCAoE7b7pISfG6J7rykGpnIcc_fcVuk&sz=w640",
+          "sizeBytes": 4637858,
+          "sha256": "A103E5C66575C7DFE5319574FAF164CA7279B7729B66CA50900B1653FD7C3172",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Souno's Curse — Souno's Curse Launch Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B45010E9C000",
+      "title": "Smelter",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B45010E9C000.jpg",
+      "variants": [
+        {
+          "id": "v_3fdb231f",
+          "name": "Smelter — Forged in Hell (EN)",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=108vgTe4ATBaHZ4ZXCgE_ZTftTgdnlTI7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=108vgTe4ATBaHZ4ZXCgE_ZTftTgdnlTI7&sz=w640",
+          "sizeBytes": 5345410,
+          "sha256": "00BEE6C93A61DB90BB0D5D4324F361A381A228DA8205CE07472C6A97A24A4B95",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Smelter — Forged in Hell (EN)"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E3401EC1E000",
+      "title": "Skelethrone the Chronicles of Ericona",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E3401EC1E000.jpg",
+      "variants": [
+        {
+          "id": "v_d3a26ed8",
+          "name": "Skelethrone: The Chronicles of Ericona — New Gam",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ifj7OCDO9MUd-2plIZ_nbcvInlef4BzL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ifj7OCDO9MUd-2plIZ_nbcvInlef4BzL&sz=w640",
+          "sizeBytes": 5406591,
+          "sha256": "EF8FEE6C13D5E349C52AD109FDC3F55C06204A326FD5A3379284C550A17517B0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Skelethrone: The Chronicles of Ericona —"
+        }
+      ]
+    },
+    {
+      "titleId": "010095C014068000",
+      "title": "Sheepo",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010095C014068000.jpg",
+      "variants": [
+        {
+          "id": "v_f696259c",
+          "name": "SHEEPO — Sheepo Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1o0ZqqjZiSTlQijzW6dY3QeB4L5AkYgLm",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1o0ZqqjZiSTlQijzW6dY3QeB4L5AkYgLm&sz=w640",
+          "sizeBytes": 5567018,
+          "sha256": "9345DDA0EF31B4D15238AFF098268D07E112C744E6889F2CC6DCE50DA30D8375",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | SHEEPO — Sheepo Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010099601473E000",
+      "title": "Save Me Mr. Tako Definitive edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010099601473E000.jpg",
+      "variants": [
+        {
+          "id": "v_17ffb2f4",
+          "name": "Save me Mr Tako: Definitive Edition — Save me Mr",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ifP_s40zhp1Bjljhoiru6jFMbk-xuk0A",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ifP_s40zhp1Bjljhoiru6jFMbk-xuk0A&sz=w640",
+          "sizeBytes": 5054898,
+          "sha256": "299BB67AB08E139BA32410079EEAB8A9E31565A065B567D8B7EC82A2D2BA206C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Save me Mr Tako: Definitive Edition — Sa"
+        }
+      ]
+    },
+    {
+      "titleId": "01006E701D1FA000",
+      "title": "Runnyk",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006E701D1FA000.jpg",
+      "variants": [
+        {
+          "id": "v_677c86aa",
+          "name": "Runnyk — Runnyk - Official Short Gameplay Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16y0tUZCNNKhikOFrfv5uQ64WhDdEvUUT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16y0tUZCNNKhikOFrfv5uQ64WhDdEvUUT&sz=w640",
+          "sizeBytes": 5100681,
+          "sha256": "A13629596EA2D3C64D935F80E0278E2F7219D1D24B72B96B20EA5E762DD5E86A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Runnyk — Runnyk - Official Short Gamepla"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AC600D898000",
+      "title": "Rift Keeper",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AC600D898000.jpg",
+      "variants": [
+        {
+          "id": "v_1a8fe435",
+          "name": "Rift Keeper — English Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Gn52slUWLB7Il8K5RAiZr6vQXD-krHSZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Gn52slUWLB7Il8K5RAiZr6vQXD-krHSZ&sz=w640",
+          "sizeBytes": 5346680,
+          "sha256": "FC169E82AE7DDC332C4DF5621E79791D6F9C98866F650291976AB324F3694E37",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rift Keeper — English Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01008E100E416000",
+      "title": "Powerslave Exhumed",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008E100E416000.jpg",
+      "variants": [
+        {
+          "id": "v_dc6108f0",
+          "name": "PowerSlave Exhumed — PowerSlave Exhumed Nightdiv",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HsWyWL8tMhHbGoNyXbHx2gCx6hWTxAXD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HsWyWL8tMhHbGoNyXbHx2gCx6hWTxAXD&sz=w640",
+          "sizeBytes": 4832130,
+          "sha256": "F4808C6CB21D14287F49776E1EA9019620CE1226AA2E54C342E9196D97E72640",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | PowerSlave Exhumed — PowerSlave Exhumed "
+        }
+      ]
     }
   ],
-  "totalGames": 2763,
-  "totalVariants": 4187,
-  "lastUpdated": "2026-11-10T00:53:40.420392+00:00"
+  "totalGames": 2773,
+  "totalVariants": 4197,
+  "lastUpdated": "2026-11-10T00:56:37.138314+00:00"
 }
