@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T04:02:12.857407+00:00",
+  "updatedAt": "2026-11-10T04:04:57.146116+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -114368,9 +114368,269 @@
           "notes": "Switch 720p 30fps H264 | Townsmen VR — Townsmen VR - Full Release"
         }
       ]
+    },
+    {
+      "titleId": "01006FD019A36000",
+      "title": "Dokapon Kingdom Connect",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006FD019A36000.jpg",
+      "variants": [
+        {
+          "id": "v_4a93cf52",
+          "name": "Dokapon Kingdom: Connect 2 — Announcement Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OAyE2ahB-djRFnnz6wIubs2BiHX2mPKl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OAyE2ahB-djRFnnz6wIubs2BiHX2mPKl&sz=w640",
+          "sizeBytes": 5137099,
+          "sha256": "61364C2994366D81E7AF159A6B328DA12E80F7DCB786EF2B6D9DEAC65FE60CC8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dokapon Kingdom: Connect 2 — Announcemen"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BE6015772000",
+      "title": "Metal Slug Tactics",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BE6015772000.jpg",
+      "variants": [
+        {
+          "id": "v_f1b0b03d",
+          "name": "Metal Slug Tactics — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BSmrw2gZAwnJBFip4Or53QXF93LvpQwE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BSmrw2gZAwnJBFip4Or53QXF93LvpQwE&sz=w640",
+          "sizeBytes": 3788512,
+          "sha256": "5B524CF441533777B1A995D37E370F5773DBF3140B98F36C45CBB23DB26093CB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Metal Slug Tactics — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010020500BD86000",
+      "title": "Colors Live",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010020500BD86000.jpg",
+      "variants": [
+        {
+          "id": "v_98f5a930",
+          "name": "Colors Live — Kickstarter Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_JEY6Zcd0MFzypF2gkQ9NcKstftw9a2E",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_JEY6Zcd0MFzypF2gkQ9NcKstftw9a2E&sz=w640",
+          "sizeBytes": 4823774,
+          "sha256": "C5F9C0BAAAC06967FF3BE9E12565801684A163045E4148844CB6C10E26886B3A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Colors Live — Kickstarter Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B8401EED6000",
+      "title": "Architect Life a House Design Simulator",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B8401EED6000.jpg",
+      "variants": [
+        {
+          "id": "v_af94a53c",
+          "name": "Architect Life: A House Design Simulator — Launc",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1L3alN5do2owfStyWYqMXxPWus8oAnHfz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1L3alN5do2owfStyWYqMXxPWus8oAnHfz&sz=w640",
+          "sizeBytes": 5520102,
+          "sha256": "8A3FFA4A7975188ABCD8EB44CF3B49547334763994A58F9E2C683CEE5B7D16C7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Architect Life: A House Design Simulator"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A5000D590000",
+      "title": "The Little Acre",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A5000D590000.jpg",
+      "variants": [
+        {
+          "id": "v_9086aa91",
+          "name": "The Little Acre — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bTnK2VBXYVqX5WbW3fqcTlZ_wegqB1DK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bTnK2VBXYVqX5WbW3fqcTlZ_wegqB1DK&sz=w640",
+          "sizeBytes": 5270270,
+          "sha256": "C585C873854C4E9BA457F805C95EBCAF927F75FA83BE35C6A4D53FD0FCD0AA36",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Little Acre — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A93016BF4000",
+      "title": "Batora Lost Haven",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A93016BF4000.jpg",
+      "variants": [
+        {
+          "id": "v_19fb7c2d",
+          "name": "Batora: Lost Haven — Batora: Lost Haven | Accola",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1izqE9uzFBjtKdf81peCYsQDJMjTjB5SH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1izqE9uzFBjtKdf81peCYsQDJMjTjB5SH&sz=w640",
+          "sizeBytes": 4811026,
+          "sha256": "CCB25FAC4B98C2D3582E1C57B92B6EEE8294327038590F41A978207AAE20F3F0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Batora: Lost Haven — Batora: Lost Haven "
+        }
+      ]
+    },
+    {
+      "titleId": "0100D8501F976000",
+      "title": "Hyperdevotion Noire: Goddess Black Heart",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D8501F976000.jpg",
+      "variants": [
+        {
+          "id": "v_e538e538",
+          "name": "Hyperdevotion Noire: Goddess Black Heart (Neptun",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KpOJGj9wXB2_CfLFafMzTIfhHelCQrzl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KpOJGj9wXB2_CfLFafMzTIfhHelCQrzl&sz=w640",
+          "sizeBytes": 2050956,
+          "sha256": "FB95A8FFD4E8A3E1D71FB904670937B05341CA65C3223FCBDBDD4BF2E735E283",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hyperdevotion Noire: Goddess Black Heart"
+        }
+      ]
+    },
+    {
+      "titleId": "0100056023A46000",
+      "title": "Magicbook Autobattler",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100056023A46000.jpg",
+      "variants": [
+        {
+          "id": "v_d8620cab",
+          "name": "Magicbook AutoBattler: Contract — 1",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1riOPo-1ZhoDszXNlRN01BRMqjRrbqQcW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1riOPo-1ZhoDszXNlRN01BRMqjRrbqQcW&sz=w640",
+          "sizeBytes": 5134109,
+          "sha256": "7FFD74491FEBB87BE3B7EFDEFB7C12D35E4CB39C6301308320264B37E3E71768",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Magicbook AutoBattler: Contract — 1"
+        }
+      ]
+    },
+    {
+      "titleId": "01009B7010B42000",
+      "title": "Explosive Jake",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009B7010B42000.jpg",
+      "variants": [
+        {
+          "id": "v_ad3b02aa",
+          "name": "Explosive Jake — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dQZje-T-QEZd8S3jIr2MSPBihZ-f1Ax9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dQZje-T-QEZd8S3jIr2MSPBihZ-f1Ax9&sz=w640",
+          "sizeBytes": 5197920,
+          "sha256": "CABE7AAC48242B6A1543F20562942D75AF8DE58F3A228850C5575CD39F649B90",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Explosive Jake — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01009D70230B2000",
+      "title": "Milano's Odd Job Collection",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009D70230B2000.jpg",
+      "variants": [
+        {
+          "id": "v_6000285f",
+          "name": "Milano's Odd Job Collection — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fyQGDcL-m0CyykyFRnC6RY8Hwxhw836c",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fyQGDcL-m0CyykyFRnC6RY8Hwxhw836c&sz=w640",
+          "sizeBytes": 4948573,
+          "sha256": "E6FF90928F0ADE2BA61992ADE4098687BC70102D86EDBA016F46E7B8E5F60806",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Milano's Odd Job Collection — Launch Tra"
+        }
+      ]
     }
   ],
-  "totalGames": 3343,
-  "totalVariants": 4767,
-  "lastUpdated": "2026-11-10T04:02:12.857407+00:00"
+  "totalGames": 3353,
+  "totalVariants": 4777,
+  "lastUpdated": "2026-11-10T04:04:57.146116+00:00"
 }
