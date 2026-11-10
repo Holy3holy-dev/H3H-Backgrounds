@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T12:27:36.480547+00:00",
+  "updatedAt": "2026-11-10T12:31:35.156976+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -155448,9 +155448,269 @@
           "notes": "Switch 720p 30fps H264 | Blade Jumper — Blade Jumper Official Tra"
         }
       ]
+    },
+    {
+      "titleId": "01007D50140E4000",
+      "title": "The Skylia Prophecy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007D50140E4000.jpg",
+      "variants": [
+        {
+          "id": "v_86b33d17",
+          "name": "The Skylia Prophecy — The Skylia Prophecy Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1JDhYoDhRsf5jgN-iOK6Ah9ReqNhoNRri",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1JDhYoDhRsf5jgN-iOK6Ah9ReqNhoNRri&sz=w640",
+          "sizeBytes": 5211498,
+          "sha256": "D614B14E549F59EDF0C4BE3A5D6BF14AD9E618FF9192F55AEA3D291436488DE5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Skylia Prophecy — The Skylia Prophec"
+        }
+      ]
+    },
+    {
+      "titleId": "01005E90160E0000",
+      "title": "Hidden Paws Mystery",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005E90160E0000.jpg",
+      "variants": [
+        {
+          "id": "v_b560f68d",
+          "name": "Hidden Paws Mystery — Hidden Paws Mystery Teaser",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FsJqXGJiEHYMX2BHysPId_8eLjZznLz0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FsJqXGJiEHYMX2BHysPId_8eLjZznLz0&sz=w640",
+          "sizeBytes": 5290555,
+          "sha256": "D8A2C746E76FF47BF929B7F591F8FF6FA0D47D2F4CC19CAB9843ADC4297B2319",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hidden Paws Mystery — Hidden Paws Myster"
+        }
+      ]
+    },
+    {
+      "titleId": "010069900F270000",
+      "title": "Himno",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010069900F270000.jpg",
+      "variants": [
+        {
+          "id": "v_fff2627d",
+          "name": "Himno - The Silent Melody — Trailer Journey 1",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kAsJaXI1M9comTx6bFIy_eQPxYEN5SjM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kAsJaXI1M9comTx6bFIy_eQPxYEN5SjM&sz=w640",
+          "sizeBytes": 4623989,
+          "sha256": "21C2F7983262DC4BB9FC1B22E41C8099CD5C7DAC03880D7D98D20AFD55618056",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Himno - The Silent Melody — Trailer Jour"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F29018F9C000",
+      "title": "Hatchwell",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F29018F9C000.jpg",
+      "variants": [
+        {
+          "id": "v_15a5ce48",
+          "name": "Hatchwell — Hatchwell (Out Now!)",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14npQE9rF1PliaoLWY_Jg0khY7eFjSnP_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14npQE9rF1PliaoLWY_Jg0khY7eFjSnP_&sz=w640",
+          "sizeBytes": 5266057,
+          "sha256": "06DA030287B0CDE2BAEB55F30E484FF851C604CD1D1D78E0E908CFFA6DA847A9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hatchwell — Hatchwell (Out Now!)"
+        }
+      ]
+    },
+    {
+      "titleId": "01003580162D8000",
+      "title": "Henchman Story",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003580162D8000.jpg",
+      "variants": [
+        {
+          "id": "v_83258119",
+          "name": "Henchman Story — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bQvm13JZwUR_iP6XeZBWo16LpScPfpQ9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bQvm13JZwUR_iP6XeZBWo16LpScPfpQ9&sz=w640",
+          "sizeBytes": 5335068,
+          "sha256": "8B3EF5C5512B9B126667BAAF3DACC2C3DDA15D66F588139D660BE4FDDBAD0E4F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Henchman Story — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010051201DB72000",
+      "title": "Stone Age Digital edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010051201DB72000.jpg",
+      "variants": [
+        {
+          "id": "v_95bbd105",
+          "name": "Stone Age: Digital Edition — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1x4x_DgiszrKPyjbSsL3sDstdeLRsbRkB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1x4x_DgiszrKPyjbSsL3sDstdeLRsbRkB&sz=w640",
+          "sizeBytes": 5201910,
+          "sha256": "4DF5E2B88093A69C7FC1DBD282AA13F4BAAFC3DDF66550BF528210C13DA0F6BB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Stone Age: Digital Edition — Gameplay Tr"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BF200CD74000",
+      "title": "Crashbots",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BF200CD74000.jpg",
+      "variants": [
+        {
+          "id": "v_d492a89c",
+          "name": "Crashbots — Steam Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19NwxnSps-uWfI0BtQ7gZvT9eT7WoZBC-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19NwxnSps-uWfI0BtQ7gZvT9eT7WoZBC-&sz=w640",
+          "sizeBytes": 5499733,
+          "sha256": "8172C417BCD7A9DA33977CAB20FDE3A6FFA18DD7BDA68E50336BCAD38A2B1A31",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Crashbots — Steam Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01005FF01ECE4000",
+      "title": "Overmorrow",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005FF01ECE4000.jpg",
+      "variants": [
+        {
+          "id": "v_0e26da34",
+          "name": "Overmorrow — Steam Release",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1F1v9TV90Bw_Nn9F79wsf_Yhps3wKXPIs",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1F1v9TV90Bw_Nn9F79wsf_Yhps3wKXPIs&sz=w640",
+          "sizeBytes": 5149832,
+          "sha256": "ECD497087F5E2F5A866037D4C1277D975ED6A45EFE2F6E3964157E9093ADA1CD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Overmorrow — Steam Release"
+        }
+      ]
+    },
+    {
+      "titleId": "010086C016670000",
+      "title": "Lit Bend the Light",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010086C016670000.jpg",
+      "variants": [
+        {
+          "id": "v_c74787fb",
+          "name": "LIT: Bend the Light — Trailer 17.04.2019",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1YsUw_nGDw6lLRMhxZv6k4wJgpMWtzIML",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1YsUw_nGDw6lLRMhxZv6k4wJgpMWtzIML&sz=w640",
+          "sizeBytes": 5460787,
+          "sha256": "B0E0375952B79C54FE4B93FF935E7868CCD4AF8B7512A4CECF3A94E06DBA8312",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | LIT: Bend the Light — Trailer 17.04.2019"
+        }
+      ]
+    },
+    {
+      "titleId": "010077D01094C000",
+      "title": "Hero-U Rogue to Redemption",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010077D01094C000.jpg",
+      "variants": [
+        {
+          "id": "v_16ca25be",
+          "name": "Hero-U: Rogue to Redemption — Hero-U: Rogue to R",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Kw9fB_O_tXFdncYSuCueBehTrgxDzGZu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Kw9fB_O_tXFdncYSuCueBehTrgxDzGZu&sz=w640",
+          "sizeBytes": 4840300,
+          "sha256": "84A8D2E7EC418998E384A5CF4CA8EF4996AB9D78CC815BDC294A8D05985C9AA6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hero-U: Rogue to Redemption — Hero-U: Ro"
+        }
+      ]
     }
   ],
-  "totalGames": 4923,
-  "totalVariants": 6347,
-  "lastUpdated": "2026-11-10T12:27:36.480547+00:00"
+  "totalGames": 4933,
+  "totalVariants": 6357,
+  "lastUpdated": "2026-11-10T12:31:35.156976+00:00"
 }
