@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T10:27:21.573857+00:00",
+  "updatedAt": "2026-11-10T10:31:37.666599+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -146608,9 +146608,269 @@
           "notes": "Switch 720p 30fps H264 | Seedsow Lullaby — Opening Movie"
         }
       ]
+    },
+    {
+      "titleId": "010044B01E6C4000",
+      "title": "Horrific Xanatorium",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010044B01E6C4000.jpg",
+      "variants": [
+        {
+          "id": "v_912d255d",
+          "name": "Horrific Xanatorium — Xanatorium_EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Azu6s8AZMD9cTrwD2NF0kvxHjztN7pED",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Azu6s8AZMD9cTrwD2NF0kvxHjztN7pED&sz=w640",
+          "sizeBytes": 4150706,
+          "sha256": "438FD605208097249439F3951DE26A61DE5A5A7FEC0BE5690C371E2C0930E62A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Horrific Xanatorium — Xanatorium_EN"
+        }
+      ]
+    },
+    {
+      "titleId": "010098D01BC02000",
+      "title": "Crimson Song",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010098D01BC02000.jpg",
+      "variants": [
+        {
+          "id": "v_8ba50abb",
+          "name": "Crimson Song - Yuri Visual Novel — Official Trai",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16tg5upWUZVY5sXvMO2cLtXwUeBygwP6Q",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16tg5upWUZVY5sXvMO2cLtXwUeBygwP6Q&sz=w640",
+          "sizeBytes": 4635018,
+          "sha256": "2ABC925E7BE7591D6439B767F595407C3BD7DBFA825580E910991E116E589C2A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Crimson Song - Yuri Visual Novel — Offic"
+        }
+      ]
+    },
+    {
+      "titleId": "010039D015FE2000",
+      "title": "Song of Memories",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010039D015FE2000.jpg",
+      "variants": [
+        {
+          "id": "v_16218f10",
+          "name": "Song of Memories (Complete Scenario) — PV①Englis",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rr9qv1b5MJOBgIgUh3IDCSQ2br2Qad-R",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rr9qv1b5MJOBgIgUh3IDCSQ2br2Qad-R&sz=w640",
+          "sizeBytes": 4770553,
+          "sha256": "0BA9EC608B2AEB19D11FA73A8B8E9566FDE4C3217A1D43CCE3E415C92BF8F189",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Song of Memories (Complete Scenario) — P"
+        }
+      ]
+    },
+    {
+      "titleId": "0100355015F0A000",
+      "title": "Pirated Code Admin edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100355015F0A000.jpg",
+      "variants": [
+        {
+          "id": "v_bbd3fa01",
+          "name": "Pirated Code: Admin Edition — English Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fhvJKnGrZHUCqA_YdMpqAROYCpwCqLg-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fhvJKnGrZHUCqA_YdMpqAROYCpwCqLg-&sz=w640",
+          "sizeBytes": 5266473,
+          "sha256": "0D692F4C31E63CC2223A23588167CF7CFF3844BE84A875BA99F2ADBB75DA2442",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Pirated Code: Admin Edition — English Tr"
+        }
+      ]
+    },
+    {
+      "titleId": "010076201530C000",
+      "title": "Star Melody Yumemi Dreamer",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010076201530C000.jpg",
+      "variants": [
+        {
+          "id": "v_529d60b9",
+          "name": "Star Melody Yumemi Dreamer — Without Bath Scene",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XYTrjeqxNMNO8uf1EjDlIJ_6K8DTLFOx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XYTrjeqxNMNO8uf1EjDlIJ_6K8DTLFOx&sz=w640",
+          "sizeBytes": 5458466,
+          "sha256": "8712CA3521B0D43065FAA2E721F1D6D2E48F4FF053672B556482E67D162C8B48",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Star Melody Yumemi Dreamer — Without Bat"
+        }
+      ]
+    },
+    {
+      "titleId": "010018701776E000",
+      "title": "Murder on the Marine Express",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010018701776E000.jpg",
+      "variants": [
+        {
+          "id": "v_793f2991",
+          "name": "Murder on the Marine Express — Preview",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tIQLdVjfT3hT7gSNR8qxsr8JszpUl-on",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tIQLdVjfT3hT7gSNR8qxsr8JszpUl-on&sz=w640",
+          "sizeBytes": 2077824,
+          "sha256": "8C7A4103ABE6E6EF996D30CE842AA00B36E08F7232571C531FED6674B8FC23AF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Murder on the Marine Express — Preview"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B4D016A30000",
+      "title": "The Longest Road On Earth",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B4D016A30000.jpg",
+      "variants": [
+        {
+          "id": "v_1ec46152",
+          "name": "The Longest Road on Earth — Date Announcement Tr",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1sVyJpTj7VG-Mquy8U0UQvBEv3l7XTLNH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1sVyJpTj7VG-Mquy8U0UQvBEv3l7XTLNH&sz=w640",
+          "sizeBytes": 4781829,
+          "sha256": "961B25F818E275317A14A56673B843596021FB8DF05E664F6F424CD486469A51",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Longest Road on Earth — Date Announc"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F1B015400000",
+      "title": "Venus Improbable Dream",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F1B015400000.jpg",
+      "variants": [
+        {
+          "id": "v_70f2288c",
+          "name": "Venus: Improbable Dream — Venus: Improbable Drea",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14zdMajIMR1mdXz8rQw15t9eEEJxEDZW-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14zdMajIMR1mdXz8rQw15t9eEEJxEDZW-&sz=w640",
+          "sizeBytes": 4731957,
+          "sha256": "9EA2F128D2F126F49060135D0960C6B282CD4FC6605B073A4CE9E3460C79E792",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Venus: Improbable Dream — Venus: Improba"
+        }
+      ]
+    },
+    {
+      "titleId": "01002B500FEE6000",
+      "title": "The Medical Examination Diary: The Exciting Days of Me and my Senpai",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002B500FEE6000.jpg",
+      "variants": [
+        {
+          "id": "v_06f8939a",
+          "name": "The medical examination diary: the exciting days",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1p-xmDmEMhIojrhTQcJprDQb70iKgJwrb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1p-xmDmEMhIojrhTQcJprDQb70iKgJwrb&sz=w640",
+          "sizeBytes": 5307587,
+          "sha256": "FC5474AE3056C6BE30F4DC586B568BBEF03DBBDF5C05E09F78EF50220CE41D09",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The medical examination diary: the excit"
+        }
+      ]
+    },
+    {
+      "titleId": "010049901561C000",
+      "title": "Lotus Reverie First Nexus",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010049901561C000.jpg",
+      "variants": [
+        {
+          "id": "v_cd439f0e",
+          "name": "Lotus Reverie: First Nexus — Lotus Reverie First",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=188CzLfY28e6QIYCdYqxsk8WekFlyVnMQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=188CzLfY28e6QIYCdYqxsk8WekFlyVnMQ&sz=w640",
+          "sizeBytes": 11197195,
+          "sha256": "1E0DCD8257D221F336824263BE053CA30CA86818C0A92D140CC4A53FA296B3C7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lotus Reverie: First Nexus — Lotus Rever"
+        }
+      ]
     }
   ],
-  "totalGames": 4583,
-  "totalVariants": 6007,
-  "lastUpdated": "2026-11-10T10:27:21.573857+00:00"
+  "totalGames": 4593,
+  "totalVariants": 6017,
+  "lastUpdated": "2026-11-10T10:31:37.666599+00:00"
 }
