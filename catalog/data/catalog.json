@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T15:40:24.454987+00:00",
+  "updatedAt": "2026-11-10T15:42:12.676426+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -168188,9 +168188,139 @@
           "notes": "Switch 720p 30fps H264 | T-51 Power Armor Fallout 76"
         }
       ]
+    },
+    {
+      "titleId": "0100888000001007",
+      "title": "Fallout 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100888000001007.jpg",
+      "variants": [
+        {
+          "id": "v_2019c462",
+          "name": "Fallout 76",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13NTUTfq6SeoApS481TaMg_2UVRa1iJgp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13NTUTfq6SeoApS481TaMg_2UVRa1iJgp&sz=w640",
+          "sizeBytes": 3651121,
+          "sha256": "91303AF39F15B3157E1CAE2F5887C64A66F7283501DB31E19A048BBE572B70DC",
+          "durationSec": 24.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Fallout 76"
+        }
+      ]
+    },
+    {
+      "titleId": "0100888000001008",
+      "title": "Diablo",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100888000001008.jpg",
+      "variants": [
+        {
+          "id": "v_3524ff9b",
+          "name": "Lamborghini Diablo GTR Green Neon",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZkWEPDb85uV27Pb8NOMxbnDDSWgHu1Gd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZkWEPDb85uV27Pb8NOMxbnDDSWgHu1Gd&sz=w640",
+          "sizeBytes": 919845,
+          "sha256": "3CA5D0BE9B035556CED22F295CBE3E097F4C626991C5DF4AE20C6EAA23DAF2F0",
+          "durationSec": 24.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lamborghini Diablo GTR Green Neon"
+        }
+      ]
+    },
+    {
+      "titleId": "0100888000001009",
+      "title": "Heroes of Might and Magic III",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100888000001009.jpg",
+      "variants": [
+        {
+          "id": "v_f935cd03",
+          "name": "Heroes Of Might And Magic III — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17EbkQG7vnjUUM9sJlZh55U0vnxOxJk-5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17EbkQG7vnjUUM9sJlZh55U0vnxOxJk-5&sz=w640",
+          "sizeBytes": 4386824,
+          "sha256": "192F39B0F5C25CE5910B9047C240FA5F96F3C4CA65A569AA6223E0CEECF4E17A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Heroes Of Might And Magic III — Gameplay"
+        }
+      ]
+    },
+    {
+      "titleId": "0100888000001010",
+      "title": "Max Payne",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100888000001010.jpg",
+      "variants": [
+        {
+          "id": "v_90268997",
+          "name": "Max Payne 3 — Max Payne 3 Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19lKng6DPqQgwaCA7a03ZzDTxvd2soKRl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19lKng6DPqQgwaCA7a03ZzDTxvd2soKRl&sz=w640",
+          "sizeBytes": 4171357,
+          "sha256": "49D9F41D28838475056B7A8EF1AF0CE76CBEFDD7360B2004908CB580321F0CA7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Max Payne 3 — Max Payne 3 Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01005A454C444101",
+      "title": "The Legend of Zelda: Ocarina of Time",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005A454C444101.jpg",
+      "variants": [
+        {
+          "id": "v_6d6f6647",
+          "name": "Master Sword The Legend Of Zelda: Ocarina Of Tim",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16U5lAyRnqr4dxwr7V77Z46HeTVh0kXX5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16U5lAyRnqr4dxwr7V77Z46HeTVh0kXX5&sz=w640",
+          "sizeBytes": 346821,
+          "sha256": "852E99C9E932BEC2B98E5966B88AE4424F0DD1D4B9C8BBA5AF48CFFB6481E611",
+          "durationSec": 24.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Master Sword The Legend Of Zelda: Ocarin"
+        }
+      ]
     }
   ],
-  "totalGames": 5413,
-  "totalVariants": 6837,
-  "lastUpdated": "2026-11-10T15:40:24.454987+00:00"
+  "totalGames": 5418,
+  "totalVariants": 6842,
+  "lastUpdated": "2026-11-10T15:42:12.676426+00:00"
 }
