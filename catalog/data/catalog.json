@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T07:46:23.660800+00:00",
+  "updatedAt": "2026-11-10T07:49:23.082678+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -133348,9 +133348,269 @@
           "notes": "Switch 720p 30fps H264 | Speed 3: Grand Prix — Speed 3: Grand Pri"
         }
       ]
+    },
+    {
+      "titleId": "0100A780135C8000",
+      "title": "Death Crown",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A780135C8000.jpg",
+      "variants": [
+        {
+          "id": "v_175cd369",
+          "name": "Death Crown — DEATH CROWN — FINAL TRAILER",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lDrcyvvH5R-5un4jOolYXeP-EkDpyVCt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lDrcyvvH5R-5un4jOolYXeP-EkDpyVCt&sz=w640",
+          "sizeBytes": 5310400,
+          "sha256": "FAB7A59EF9DA8BD6869E06116EE1CCD92B13E2D87A79BE9994C1D747BE087893",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Death Crown — DEATH CROWN — FINAL TRAILE"
+        }
+      ]
+    },
+    {
+      "titleId": "01009EA00F180000",
+      "title": "Sorry James",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009EA00F180000.jpg",
+      "variants": [
+        {
+          "id": "v_ab98c28f",
+          "name": "Sorry, James — Launch trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tRO35VEBWf8vv9gN0vwuvAAm52D3SshJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tRO35VEBWf8vv9gN0vwuvAAm52D3SshJ&sz=w640",
+          "sizeBytes": 4841011,
+          "sha256": "1F81F17FE1AA6A9A0E32D558037D3575D00199B2470C10D165C85D28279F13C2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sorry, James — Launch trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01004E900EDDA000",
+      "title": "Slayin 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004E900EDDA000.jpg",
+      "variants": [
+        {
+          "id": "v_4ad0e1fa",
+          "name": "Slayin 2 — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MtAYecPVPvcXnMTJ-FLfgGpUQoT6azMX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MtAYecPVPvcXnMTJ-FLfgGpUQoT6azMX&sz=w640",
+          "sizeBytes": 5165674,
+          "sha256": "5425FD6B00283E7DAB2661139D6C6952AE805F92E2A4B427E914CD02506908A4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Slayin 2 — Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010052A01A384000",
+      "title": "The Creepy Syndrome",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010052A01A384000.jpg",
+      "variants": [
+        {
+          "id": "v_2bcda825",
+          "name": "The Creepy Syndrome — new trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1sYBUBwEa5nNg80RgYaUZXxDK73TBB_F5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1sYBUBwEa5nNg80RgYaUZXxDK73TBB_F5&sz=w640",
+          "sizeBytes": 5648269,
+          "sha256": "E7A270320C0B4C228A6A8C3840B3E59582F63559E935584752AE88F8922B3CCA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Creepy Syndrome — new trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F7901B042000",
+      "title": "Mists of Noyah",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F7901B042000.jpg",
+      "variants": [
+        {
+          "id": "v_89caceb9",
+          "name": "Mists of Noyah — Mists of Noyah - Final Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cIDYs9-JQB7joaZGXrIdGfFbYR9uCv8D",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cIDYs9-JQB7joaZGXrIdGfFbYR9uCv8D&sz=w640",
+          "sizeBytes": 8685918,
+          "sha256": "3861DA229DD42B67BB6563A120BE3C25618B4582FCA468DCBBEC16BCD27AD697",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mists of Noyah — Mists of Noyah - Final "
+        }
+      ]
+    },
+    {
+      "titleId": "01000AA0207A2000",
+      "title": "Micegard",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000AA0207A2000.jpg",
+      "variants": [
+        {
+          "id": "v_d3eff187",
+          "name": "MiceGard — MiceGard mini-trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1uku6Hewo1Zt06MjRTe0sjHJYT9ygeuln",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1uku6Hewo1Zt06MjRTe0sjHJYT9ygeuln&sz=w640",
+          "sizeBytes": 5043589,
+          "sha256": "38E111B867440C651840B5FB5F12B401504974933BCB3F1A64BD317252FEDBF3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | MiceGard — MiceGard mini-trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C8C01C75C000",
+      "title": "Matchbox Driving Adventures",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C8C01C75C000.jpg",
+      "variants": [
+        {
+          "id": "v_1e056312",
+          "name": "Matchbox™ Driving Adventures — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Oqd69GVEe2kPJ1UxuXgtmQgmyLlki_sA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Oqd69GVEe2kPJ1UxuXgtmQgmyLlki_sA&sz=w640",
+          "sizeBytes": 5431055,
+          "sha256": "095122627677670B86B82018F31AFB8FA4FC0B89845DAB7FED8C77F12BAD9061",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Matchbox™ Driving Adventures — Launch Tr"
+        }
+      ]
+    },
+    {
+      "titleId": "01002A601C4DA000",
+      "title": "Master Key",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002A601C4DA000.jpg",
+      "variants": [
+        {
+          "id": "v_e7407c97",
+          "name": "Master Key — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jadfhk_2ZkH6LDV_NWmO7N6UzHDtzBDu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jadfhk_2ZkH6LDV_NWmO7N6UzHDtzBDu&sz=w640",
+          "sizeBytes": 8783249,
+          "sha256": "5DB28A6C5935E2C4611DDECF1972F94DEB27C4380B44DF10AF070A26C44F2700",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Master Key — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010024701F4FE000",
+      "title": "Marble Abduction Patti Hattu",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010024701F4FE000.jpg",
+      "variants": [
+        {
+          "id": "v_1af5d730",
+          "name": "Marble Abduction! Patti Hattu — Marble Abduction",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mBjj7ltegn8gE98_8dcoQ2CkR9yNzeaD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mBjj7ltegn8gE98_8dcoQ2CkR9yNzeaD&sz=w640",
+          "sizeBytes": 5316154,
+          "sha256": "D6A417903A71D7C7F81A4B2985578423BB78BE3D9D832B75BC458A73E4D95D42",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Marble Abduction! Patti Hattu — Marble A"
+        }
+      ]
+    },
+    {
+      "titleId": "01008380172E8000",
+      "title": "Magical Delicacy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008380172E8000.jpg",
+      "variants": [
+        {
+          "id": "v_641be070",
+          "name": "Magical Delicacy — Release Date Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10lI-uV4F9W0QGIA2a15n9zT8Igz9rJQR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10lI-uV4F9W0QGIA2a15n9zT8Igz9rJQR&sz=w640",
+          "sizeBytes": 5544087,
+          "sha256": "01EDB92316AC543901556EF47787346AE41B7B10C4FB667B927E957BDD46CFAF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Magical Delicacy — Release Date Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 4073,
-  "totalVariants": 5497,
-  "lastUpdated": "2026-11-10T07:46:23.660800+00:00"
+  "totalGames": 4083,
+  "totalVariants": 5507,
+  "lastUpdated": "2026-11-10T07:49:23.082678+00:00"
 }
