@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T15:14:42.918831+00:00",
+  "updatedAt": "2026-11-10T15:18:53.090163+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -166628,9 +166628,269 @@
           "notes": "Switch 720p 30fps H264 | Paperball — Paperball 2.0.0 Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100F1400BA88000",
+      "title": "Subsurface Circular",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F1400BA88000.jpg",
+      "variants": [
+        {
+          "id": "v_fb39389f",
+          "name": "Subsurface Circular — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fHj7htd6Ao1dvR6SmcM-vVWIN4ytvBs-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fHj7htd6Ao1dvR6SmcM-vVWIN4ytvBs-&sz=w640",
+          "sizeBytes": 2061327,
+          "sha256": "F53345C6BA8F0B04EA0B8ADB2E1197CAC0101DCA76F004438950323BB9D4EDC5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Subsurface Circular — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010086100CDCA000",
+      "title": "Code Shifter",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010086100CDCA000.jpg",
+      "variants": [
+        {
+          "id": "v_8f910623",
+          "name": "CODE SHIFTER — CODE SHIFTER TRAILER",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MPP3VTMAAUwCNaU-4RaPrny-0KhxmUB7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MPP3VTMAAUwCNaU-4RaPrny-0KhxmUB7&sz=w640",
+          "sizeBytes": 4297138,
+          "sha256": "736D82C1A7DF1DB53E1E6B331D01E5D7F7EC9505E4EC5A00A217935E0CBAA82B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | CODE SHIFTER — CODE SHIFTER TRAILER"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E1D019A3A000",
+      "title": "Spectator",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E1D019A3A000.jpg",
+      "variants": [
+        {
+          "id": "v_860ad3c4",
+          "name": "Spectator 3 — Trailer demo",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DqmP__MsBvulRZ2Kdjk5InmGC61Shgtq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DqmP__MsBvulRZ2Kdjk5InmGC61Shgtq&sz=w640",
+          "sizeBytes": 5400099,
+          "sha256": "6CA857C2AE4EB3BADA88C4DBC09E52B6F6D4D0972A890449B2D2119D51F91A23",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Spectator 3 — Trailer demo"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D99014262000",
+      "title": "No Longer Home",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D99014262000.jpg",
+      "variants": [
+        {
+          "id": "v_2168b3ba",
+          "name": "No Longer Home — Out Now - English",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IzdpyjOLli3vEbEPvhatCg7E-nFtAKQ4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IzdpyjOLli3vEbEPvhatCg7E-nFtAKQ4&sz=w640",
+          "sizeBytes": 5355982,
+          "sha256": "640DB42AE86DA8A583B532344A88D1B859E4399BAB2971E37521CF8B5EEDF92E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | No Longer Home — Out Now - English"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AE600DBE4000",
+      "title": "From Orbit",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AE600DBE4000.jpg",
+      "variants": [
+        {
+          "id": "v_ecef383f",
+          "name": "From Orbit — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1W1O3EIGifT9hdxebiLwjwytutEVnxQJK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1W1O3EIGifT9hdxebiLwjwytutEVnxQJK&sz=w640",
+          "sizeBytes": 5351887,
+          "sha256": "50A51296E18DEF516E6269C60591504660AF51652B0CC2D0D7F2B2B30B73A18D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | From Orbit — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010098400E39E000",
+      "title": "Vektor Wars",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010098400E39E000.jpg",
+      "variants": [
+        {
+          "id": "v_e8a68e0e",
+          "name": "Vektor Wars — Vektor Wars – Official Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PRMMrIGig0g4hZ_eEtINRokrjvl_x173",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PRMMrIGig0g4hZ_eEtINRokrjvl_x173&sz=w640",
+          "sizeBytes": 5423253,
+          "sha256": "1F4F1158785B56634365595E7C8AD4BD2DC9A177D83D409DB3EBA300AFA2E24D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Vektor Wars — Vektor Wars – Official Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F0E013F16000",
+      "title": "Glam's Incredible Run Escape from Dukha",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F0E013F16000.jpg",
+      "variants": [
+        {
+          "id": "v_1b528d5d",
+          "name": "Glam's Incredible Run: Escape from Dukha — Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Sz8c640_EUeTgLco8rgUcps5BJ1cBpP2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Sz8c640_EUeTgLco8rgUcps5BJ1cBpP2&sz=w640",
+          "sizeBytes": 5384471,
+          "sha256": "1CFF234AD20DD4033A13AEA6D15DDB27EEF1EA23B8F688827E0F4B345A41EE9B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Glam's Incredible Run: Escape from Dukha"
+        }
+      ]
+    },
+    {
+      "titleId": "010039300BDB2000",
+      "title": "Defunct",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010039300BDB2000.jpg",
+      "variants": [
+        {
+          "id": "v_28be9f29",
+          "name": "Defunct — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GrXlu4RNj8aC6yHImSrSX1UpLFls-UIj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GrXlu4RNj8aC6yHImSrSX1UpLFls-UIj&sz=w640",
+          "sizeBytes": 5638475,
+          "sha256": "251B603F87914AD4EB96AE4430A132E53E6878FC351660A726F087A5FB48D671",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Defunct — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010001B01398C000",
+      "title": "Spirit Arena",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010001B01398C000.jpg",
+      "variants": [
+        {
+          "id": "v_1dbfc027",
+          "name": "Spirit Arena — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eerefv-jW_B54P0myuWHOggbsfz1Y3Ff",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eerefv-jW_B54P0myuWHOggbsfz1Y3Ff&sz=w640",
+          "sizeBytes": 5176709,
+          "sha256": "D8626B8273644EE1275A14E36FD3CC074F4E4F9845458BE605DE93F94ECE56C7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Spirit Arena — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A55014E2C000",
+      "title": "Frontier Quest",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A55014E2C000.jpg",
+      "variants": [
+        {
+          "id": "v_c2a705e2",
+          "name": "Frontier Quest — Frontier Quest Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bIGliBLkbqLejItYcBzE-LAxSxRqeJHZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bIGliBLkbqLejItYcBzE-LAxSxRqeJHZ&sz=w640",
+          "sizeBytes": 4510047,
+          "sha256": "D98803C649FC257F75009C74F735CE769A951C85360450E532D32E69EE67E303",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Frontier Quest — Frontier Quest Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 5353,
-  "totalVariants": 6777,
-  "lastUpdated": "2026-11-10T15:14:42.918831+00:00"
+  "totalGames": 5363,
+  "totalVariants": 6787,
+  "lastUpdated": "2026-11-10T15:18:53.090163+00:00"
 }
