@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T09:54:35.648212+00:00",
+  "updatedAt": "2026-11-10T09:57:35.251897+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -144008,9 +144008,269 @@
           "notes": "Switch 720p 30fps H264 | Gleamlight — Gleamlight_PV3_Steam_v5"
         }
       ]
+    },
+    {
+      "titleId": "0100C3F011B58000",
+      "title": "Falcon Age",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C3F011B58000.jpg",
+      "variants": [
+        {
+          "id": "v_a6b29bd6",
+          "name": "Falcon Age — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dywhQVljOfD-XDiDtuIVXDQekdptoij3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dywhQVljOfD-XDiDtuIVXDQekdptoij3&sz=w640",
+          "sizeBytes": 5526838,
+          "sha256": "CECD09114CB96727589D25F20A8F252FE4214272A782D51EA851F41A6C3B340E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Falcon Age — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010061000D82C000",
+      "title": "Even The Ocean",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010061000D82C000.jpg",
+      "variants": [
+        {
+          "id": "v_65341745",
+          "name": "Even the Ocean — Even the Ocean Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-oIdpF1rJaUxmQnMCZdEsUediojnRMtV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-oIdpF1rJaUxmQnMCZdEsUediojnRMtV&sz=w640",
+          "sizeBytes": 5565138,
+          "sha256": "A29B4F801F69A03589FD8B728A367D27325DEF4EB5886451F4296C4F4603A560",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Even the Ocean — Even the Ocean Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01002E801F2CA000",
+      "title": "Eldrador Creatures",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002E801F2CA000.jpg",
+      "variants": [
+        {
+          "id": "v_fde5837c",
+          "name": "Eldrador® Creatures — Eldrador Creatures Launch ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13-TcVl_pytQif6b_QxgXlQCyYTA0ScnV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13-TcVl_pytQif6b_QxgXlQCyYTA0ScnV&sz=w640",
+          "sizeBytes": 4717225,
+          "sha256": "FA46803209430F878DC525D8FBFA9BB1C5FD550A55ACE2AA0F758DCD5F02603F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Eldrador® Creatures — Eldrador Creatures"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E9B010028000",
+      "title": "Duck Souls",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E9B010028000.jpg",
+      "variants": [
+        {
+          "id": "v_4e7dae6c",
+          "name": "Duck Souls — Duck Souls - Release Trailer (1080P",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UBUhlan7_F2T78wd4ESpQsEOnySBU2U7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UBUhlan7_F2T78wd4ESpQsEOnySBU2U7&sz=w640",
+          "sizeBytes": 5251575,
+          "sha256": "95412546F782C87CDBBAA78DCFA487F67E61A3A83C551998E8A70DE6FDBCF96E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Duck Souls — Duck Souls - Release Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "010096300DE22000",
+      "title": "Depth of Extinction",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010096300DE22000.jpg",
+      "variants": [
+        {
+          "id": "v_e9d74e61",
+          "name": "Depth of Extinction — Definitive Edition Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13OJ1EGhymxqf-G1wHAmstFVmJJ3KkyWx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13OJ1EGhymxqf-G1wHAmstFVmJJ3KkyWx&sz=w640",
+          "sizeBytes": 5089858,
+          "sha256": "CCF68A0775D1CC6AB4D478C0F39C96834E5EB1C8B0EE2E97D7E72D8BB480A6EF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Depth of Extinction — Definitive Edition"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C1A00AC3E000",
+      "title": "Children of Zodiarcs",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C1A00AC3E000.jpg",
+      "variants": [
+        {
+          "id": "v_071b75d0",
+          "name": "Children of Zodiarcs — Children of Zodiarcs Laun",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1U3Nc8Vbrz9GoxvgHPA-xK0NIPKX8wveI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1U3Nc8Vbrz9GoxvgHPA-xK0NIPKX8wveI&sz=w640",
+          "sizeBytes": 5155415,
+          "sha256": "969D89F5E64BFC59E598C03F66ED0D8CC2B9B5541D413C64A7C83F66A2430A0E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Children of Zodiarcs — Children of Zodia"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EF600F6C4000",
+      "title": "Still There",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EF600F6C4000.jpg",
+      "variants": [
+        {
+          "id": "v_18a06ea8",
+          "name": "Still There — Still There - Announcement Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ph7_IJslnzxr13_yPEtQanrE2J_ojrDC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ph7_IJslnzxr13_yPEtQanrE2J_ojrDC&sz=w640",
+          "sizeBytes": 5137505,
+          "sha256": "8268863116970AA26E105BF79147057DAF8201D051929D9B6EAAC53FEDCACDB9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Still There — Still There - Announcement"
+        }
+      ]
+    },
+    {
+      "titleId": "010033301690E000",
+      "title": "Orbit Industries",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010033301690E000.jpg",
+      "variants": [
+        {
+          "id": "v_639ee0e8",
+          "name": "orbit.industries — Announcement trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jTvHB_LAnYiUn6YyZLFtUSbb0StaW8Ha",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jTvHB_LAnYiUn6YyZLFtUSbb0StaW8Ha&sz=w640",
+          "sizeBytes": 5306023,
+          "sha256": "CC1ADA59E8555B1FEB724302908F11DDC48927823BA206DEB9FD534FE8D3580C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | orbit.industries — Announcement trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010035B01706E000",
+      "title": "Cold Silence",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010035B01706E000.jpg",
+      "variants": [
+        {
+          "id": "v_d701af15",
+          "name": "Cold Silence — Complete Edition trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1K0qKK-rMYb_gdl7sDgo8ZPjhc_GO8jYy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1K0qKK-rMYb_gdl7sDgo8ZPjhc_GO8jYy&sz=w640",
+          "sizeBytes": 4822943,
+          "sha256": "1F176475CFE70AB549C57471221D936332A0C596479D176108C74D590432D3B2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cold Silence — Complete Edition trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C2500CAB6000",
+      "title": "Ary and the Secret of Seasons",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C2500CAB6000.jpg",
+      "variants": [
+        {
+          "id": "v_90fb412d",
+          "name": "Ary and the Secret of Seasons — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1H9YmBM_vNeMUAbeTegfzt3c6W0vJk6YL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1H9YmBM_vNeMUAbeTegfzt3c6W0vJk6YL&sz=w640",
+          "sizeBytes": 5236381,
+          "sha256": "B2D5144724B53382466943957A7A535A4DEA52283541496B5B9945F454A2349E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ary and the Secret of Seasons — Launch T"
+        }
+      ]
     }
   ],
-  "totalGames": 4483,
-  "totalVariants": 5907,
-  "lastUpdated": "2026-11-10T09:54:35.648212+00:00"
+  "totalGames": 4493,
+  "totalVariants": 5917,
+  "lastUpdated": "2026-11-10T09:57:35.251897+00:00"
 }
