@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T14:44:32.417009+00:00",
+  "updatedAt": "2026-11-10T14:48:40.045492+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -164808,9 +164808,269 @@
           "notes": "Switch 720p 30fps H264 | UNDEMON — UNDEMON_Trailer_1_kr"
         }
       ]
+    },
+    {
+      "titleId": "0100039014408000",
+      "title": "Millie and Molly",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100039014408000.jpg",
+      "variants": [
+        {
+          "id": "v_e1ae70e6",
+          "name": "Millie and Molly — Steam Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qqhqgm-FBoEu1IAewM_G0AuK6PZXBYp2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qqhqgm-FBoEu1IAewM_G0AuK6PZXBYp2&sz=w640",
+          "sizeBytes": 4815044,
+          "sha256": "6F61AD15C0BA75735CEEB002BEBE2552603EC15B1ADF07BA6621ADD34380AC3C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Millie and Molly — Steam Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01002FB01B55A000",
+      "title": "Supfly Delivery Simulator",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002FB01B55A000.jpg",
+      "variants": [
+        {
+          "id": "v_556fbb81",
+          "name": "Supfly Delivery Simulator — Trailer Supfly",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1P_MVByKO1LPDOpaVwlyLnt_Y4R3e6Zth",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1P_MVByKO1LPDOpaVwlyLnt_Y4R3e6Zth&sz=w640",
+          "sizeBytes": 4876272,
+          "sha256": "4C78E033994F07374D83155847AD7019881B97CC0097368652AD6A783096D1D6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Supfly Delivery Simulator — Trailer Supf"
+        }
+      ]
+    },
+    {
+      "titleId": "01003CE00EAF0000",
+      "title": "Holedown",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003CE00EAF0000.jpg",
+      "variants": [
+        {
+          "id": "v_7c60e845",
+          "name": "holedown — announce",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14UUb20cSz7ZEOE8pCeLP9vBeEKisqNnr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14UUb20cSz7ZEOE8pCeLP9vBeEKisqNnr&sz=w640",
+          "sizeBytes": 5659045,
+          "sha256": "884D80C967535BED06517AE4F288277BD3754351AAD78B200C56A118AE42B8BD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | holedown — announce"
+        }
+      ]
+    },
+    {
+      "titleId": "01005EA01B978000",
+      "title": "Seven Spirits",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005EA01B978000.jpg",
+      "variants": [
+        {
+          "id": "v_8c77a315",
+          "name": "Seven Spirits — Seven Spirits Trailer 2",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QOzSJjTc6Tjt-Y5ijbz6UBkcNjajqXfo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QOzSJjTc6Tjt-Y5ijbz6UBkcNjajqXfo&sz=w640",
+          "sizeBytes": 4356366,
+          "sha256": "41B7369678819774FE46F61641EF41915A84D42E412E5F5405BD3BD3D97332C1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Seven Spirits — Seven Spirits Trailer 2"
+        }
+      ]
+    },
+    {
+      "titleId": "010067801C7FA000",
+      "title": "Tenement",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010067801C7FA000.jpg",
+      "variants": [
+        {
+          "id": "v_11230c0f",
+          "name": "Operation: Outbreak - The Tenement — Operation: ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1orbKNMxpJtKYlUJCHMmEuCWfDMELV7wa",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1orbKNMxpJtKYlUJCHMmEuCWfDMELV7wa&sz=w640",
+          "sizeBytes": 5354370,
+          "sha256": "78EF4423C800A7EF629ED7DA672591CD99208AA96DD773FCF61C66035ED19DC3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Operation: Outbreak - The Tenement — Ope"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C1601D1CC000",
+      "title": "Carry Onward",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C1601D1CC000.jpg",
+      "variants": [
+        {
+          "id": "v_d9b4e8d2",
+          "name": "Carry Onward — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1o8jBoaYn1ZFFKoCEQEBnnrDOZBG7eklF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1o8jBoaYn1ZFFKoCEQEBnnrDOZBG7eklF&sz=w640",
+          "sizeBytes": 5201811,
+          "sha256": "63F70B964058B2D3FE5A29E8B8E1BF750BBAF0324A37996674CC6A659D2644AB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Carry Onward — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010017301CF30000",
+      "title": "Piggy Gambit",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010017301CF30000.jpg",
+      "variants": [
+        {
+          "id": "v_082f4f54",
+          "name": "Piggy Gambit — release date announcement trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1a0pcha0eDSGXmiJ9z4QMtheRfMJcb1yY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1a0pcha0eDSGXmiJ9z4QMtheRfMJcb1yY&sz=w640",
+          "sizeBytes": 4254362,
+          "sha256": "F030979B4ABF7E054A96C07E1B9C29E8C799CDA8AF766D17B4C0B6D79BC5DD75",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Piggy Gambit — release date announcement"
+        }
+      ]
+    },
+    {
+      "titleId": "0100ED4017AD2000",
+      "title": "Amazing Superhero Squad",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100ED4017AD2000.jpg",
+      "variants": [
+        {
+          "id": "v_a7f2a98b",
+          "name": "Amazing Superhero Squad — Amazing Superhero Squa",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zgsIeOIEzBbgs7XwwzG0aFFyLvbTivsc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zgsIeOIEzBbgs7XwwzG0aFFyLvbTivsc&sz=w640",
+          "sizeBytes": 5432858,
+          "sha256": "E0A16ABEBD59CD72CC45347F9157C2F9F7CE477FDCB8BB7B9435D52D734F465A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Amazing Superhero Squad — Amazing Superh"
+        }
+      ]
+    },
+    {
+      "titleId": "010072301D4D2000",
+      "title": "Froggie",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010072301D4D2000.jpg",
+      "variants": [
+        {
+          "id": "v_de7010f7",
+          "name": "Froggie — Trailer_01",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1y_E3NxSyUbK6nEI7xCMS9CNYO0GWZZX-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1y_E3NxSyUbK6nEI7xCMS9CNYO0GWZZX-&sz=w640",
+          "sizeBytes": 4047050,
+          "sha256": "1C31D1021876B44D35695137B092B887C72A6588AF7079BAF7DA26B1E0AE4ECA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Froggie — Trailer_01"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D9A01D760000",
+      "title": "Violet Wisteria",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D9A01D760000.jpg",
+      "variants": [
+        {
+          "id": "v_b4058b03",
+          "name": "Violet Wisteria — Violet Wisteria Second Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HD1mo-k0J6OO0OiriDXO8Lkar_z4ImZG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HD1mo-k0J6OO0OiriDXO8Lkar_z4ImZG&sz=w640",
+          "sizeBytes": 5003467,
+          "sha256": "BE75536374D63A6CE264FF9B7E31404EE8A9110009F77577588403AD65AC3010",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Violet Wisteria — Violet Wisteria Second"
+        }
+      ]
     }
   ],
-  "totalGames": 5283,
-  "totalVariants": 6707,
-  "lastUpdated": "2026-11-10T14:44:32.417009+00:00"
+  "totalGames": 5293,
+  "totalVariants": 6717,
+  "lastUpdated": "2026-11-10T14:48:40.045492+00:00"
 }
