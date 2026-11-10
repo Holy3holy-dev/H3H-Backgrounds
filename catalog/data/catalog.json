@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T01:11:41.716469+00:00",
+  "updatedAt": "2026-11-10T01:14:41.957657+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -100848,9 +100848,269 @@
           "notes": "Switch 720p 30fps H264 | Mute Crimson DX — Mute Crimson DX - Game"
         }
       ]
+    },
+    {
+      "titleId": "010057D026BCA000",
+      "title": "Gridbeat",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010057D026BCA000.jpg",
+      "variants": [
+        {
+          "id": "v_a3bbe3ba",
+          "name": "GRIDbeat! — GRIDbeat! Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Dj0a3xAYWijvImtyHI6nhTpVxT_iGvjC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Dj0a3xAYWijvImtyHI6nhTpVxT_iGvjC&sz=w640",
+          "sizeBytes": 4640662,
+          "sha256": "EFB601C3A783AB47BDE789C6AB523416B36D025B71DBB5C8F3B1C8AD1CAA009E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | GRIDbeat! — GRIDbeat! Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A0A01D520000",
+      "title": "Snow Bros Wonderland",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A0A01D520000.jpg",
+      "variants": [
+        {
+          "id": "v_87984c28",
+          "name": "Snow Bros. Wonderland — Snow Bros. Wonderland - ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1T4Jq6MDzFoCnoBoGSPVD6P8mi2GEeVh5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1T4Jq6MDzFoCnoBoGSPVD6P8mi2GEeVh5&sz=w640",
+          "sizeBytes": 5366223,
+          "sha256": "9A6B146DBD8163711B81CB33478D59E0DA4D1D225DD4739CF0177F0683692CB2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Snow Bros. Wonderland — Snow Bros. Wonde"
+        }
+      ]
+    },
+    {
+      "titleId": "01008770162FA000",
+      "title": "Rising Lords",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008770162FA000.jpg",
+      "variants": [
+        {
+          "id": "v_ac147bdf",
+          "name": "Rising Lords — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1d7wYH5EhvJ-NX4UvQyCJlP9U7o7SG6dG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1d7wYH5EhvJ-NX4UvQyCJlP9U7o7SG6dG&sz=w640",
+          "sizeBytes": 5440270,
+          "sha256": "7507CFC5BA96A0766552495E94556D1E16D39EFD1AEE36903DC26032EFF0477B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rising Lords — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01008D101EC40000",
+      "title": "The Ancient Magus Bride: Midsummer Pilgrimage",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008D101EC40000.jpg",
+      "variants": [
+        {
+          "id": "v_cf82d022",
+          "name": "The Ancient Magus' Bride Midsummer Pilgrimage — ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-8HB_QuFN3LcIozOOme-x3PACqsb5RtW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-8HB_QuFN3LcIozOOme-x3PACqsb5RtW&sz=w640",
+          "sizeBytes": 5314989,
+          "sha256": "F2EE536F50EC1EEF814762B6B696506D134D93DF70DA82A5242DF560E2269B41",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Ancient Magus' Bride Midsummer Pilgr"
+        }
+      ]
+    },
+    {
+      "titleId": "0100535014D76000",
+      "title": "Little Noah: Scion of Paradise",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100535014D76000.jpg",
+      "variants": [
+        {
+          "id": "v_74d15a14",
+          "name": "Little Noah: Scion of Paradise — EN_【リトルノア楽園の後継者",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MYUknjMpKTPDZ3zZWOwGQZWHku9D79A5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MYUknjMpKTPDZ3zZWOwGQZWHku9D79A5&sz=w640",
+          "sizeBytes": 3829427,
+          "sha256": "D74333580E77E90DDBED0BE3D4C2647883300E726ED2F844D0D22D0AF9A59C64",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Little Noah: Scion of Paradise — EN_【リトル"
+        }
+      ]
+    },
+    {
+      "titleId": "01007B0017C90000",
+      "title": "Morbid the Lords of Ire",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007B0017C90000.jpg",
+      "variants": [
+        {
+          "id": "v_61c2ba80",
+          "name": "Morbid: The Lords of Ire — Morbid: The Lords of ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OegggGl46jojhGAqJVJTi8lDTu3CM7dz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OegggGl46jojhGAqJVJTi8lDTu3CM7dz&sz=w640",
+          "sizeBytes": 5393991,
+          "sha256": "E4621C7635DD735569A4AE4AA97BBF6F783DC07D927860EE5F48C5FBF3795AF4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Morbid: The Lords of Ire — Morbid: The L"
+        }
+      ]
+    },
+    {
+      "titleId": "01007A9015620000",
+      "title": "Hextech Mayhem",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007A9015620000.jpg",
+      "variants": [
+        {
+          "id": "v_8b004f96",
+          "name": "Hextech Mayhem: A League of Legends Story™ — Lau",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RfG65GvBW7kHK5lIpcjf62ub5viHoJ7q",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RfG65GvBW7kHK5lIpcjf62ub5viHoJ7q&sz=w640",
+          "sizeBytes": 5510588,
+          "sha256": "4687FAB7D40F8F37B62490B633B10667A04A6D1A262A60DA3B29B5BBCEDA80CC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hextech Mayhem: A League of Legends Stor"
+        }
+      ]
+    },
+    {
+      "titleId": "010012D01215C000",
+      "title": "Deck of Ashes",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010012D01215C000.jpg",
+      "variants": [
+        {
+          "id": "v_8dc09138",
+          "name": "Deck of Ashes — Tome of Dimensions DLC RELEASE",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PxJanVJiPixb7nxBjpprQgQGTXwVWyiB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PxJanVJiPixb7nxBjpprQgQGTXwVWyiB&sz=w640",
+          "sizeBytes": 5009992,
+          "sha256": "185E2291EC323AAF36E7804385AEE81D55F14CA0ACB54F7FBC081148A03AE8A4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Deck of Ashes — Tome of Dimensions DLC R"
+        }
+      ]
+    },
+    {
+      "titleId": "01004B301BD39000",
+      "title": "Gunvolt Records Cychronicle",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004B301BD39000.jpg",
+      "variants": [
+        {
+          "id": "v_787a9b48",
+          "name": "GUNVOLT RECORDS Cychronicle — GUNVOLT RECORDS Cy",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nrwvSkzNkhyWIQGJKh17_pGJ7qYDAMqT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nrwvSkzNkhyWIQGJKh17_pGJ7qYDAMqT&sz=w640",
+          "sizeBytes": 4556077,
+          "sha256": "7FDCAB2B6DB5A8F5E8D1AABC3FD62C233E82BB5A458F8897037843776025655D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | GUNVOLT RECORDS Cychronicle — GUNVOLT RE"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A130109B2000",
+      "title": "Summer in Mara",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A130109B2000.jpg",
+      "variants": [
+        {
+          "id": "v_34c0b7db",
+          "name": "Summer in Mara — Summer in Mara Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gkrU4gl4_TKOyakaCrFvBe2voTeniAv0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gkrU4gl4_TKOyakaCrFvBe2voTeniAv0&sz=w640",
+          "sizeBytes": 5279843,
+          "sha256": "F5DA780E84114FA0ADDD1931348E0D711F7FA0D0943CD7C0BEF9417FC54C0DB6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Summer in Mara — Summer in Mara Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 2823,
-  "totalVariants": 4247,
-  "lastUpdated": "2026-11-10T01:11:41.716469+00:00"
+  "totalGames": 2833,
+  "totalVariants": 4257,
+  "lastUpdated": "2026-11-10T01:14:41.957657+00:00"
 }
