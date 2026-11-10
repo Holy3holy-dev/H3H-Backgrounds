@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T00:50:45.598045+00:00",
+  "updatedAt": "2026-11-10T00:53:40.420392+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -99028,9 +99028,269 @@
           "notes": "Switch 720p 30fps H264 | Two Parsecs From Earth — Two Parsecs Fro"
         }
       ]
+    },
+    {
+      "titleId": "010094001DB1C000",
+      "title": "Turbo Kid",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010094001DB1C000.jpg",
+      "variants": [
+        {
+          "id": "v_ccc5a152",
+          "name": "Turbo Kid — Turbo Kid is Out Now!",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1d2_7VTnvZFlkBWU6OwKHuHne19O8Nyxk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1d2_7VTnvZFlkBWU6OwKHuHne19O8Nyxk&sz=w640",
+          "sizeBytes": 5283931,
+          "sha256": "67871AFD8B20259198E67D1E9559DEEE6EC595970EF3039AE76CB3B5D7B81EA8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Turbo Kid — Turbo Kid is Out Now!"
+        }
+      ]
+    },
+    {
+      "titleId": "010099A0235F0000",
+      "title": "Traveler's Refrain",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010099A0235F0000.jpg",
+      "variants": [
+        {
+          "id": "v_5af3eb98",
+          "name": "Traveler's Refrain — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xrGYs8vJFoxr0mOCL22pnJY35kjowE8Y",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xrGYs8vJFoxr0mOCL22pnJY35kjowE8Y&sz=w640",
+          "sizeBytes": 5415586,
+          "sha256": "7078A37D3D5D3B7DC4D481E35AAE8030E48775E7F0C1EEEEAE615289698138C0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Traveler's Refrain — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F19016702000",
+      "title": "Trash Quest",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F19016702000.jpg",
+      "variants": [
+        {
+          "id": "v_3afb931c",
+          "name": "Trash Quest — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12EE4e6m__2aLOF6uWLUek8OM_W4XUlFO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12EE4e6m__2aLOF6uWLUek8OM_W4XUlFO&sz=w640",
+          "sizeBytes": 5520242,
+          "sha256": "FD6BB70DACEC894B43C17CC83DA727E81FB60D77C49CC510874F6C7AE25B75D8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Trash Quest — Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A86014332000",
+      "title": "Transiruby",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A86014332000.jpg",
+      "variants": [
+        {
+          "id": "v_ef1b893c",
+          "name": "Transiruby — 1st trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vgzUvL_CaiAdRMLrOnEDmnr9YH6ObPxJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vgzUvL_CaiAdRMLrOnEDmnr9YH6ObPxJ&sz=w640",
+          "sizeBytes": 4171228,
+          "sha256": "ADB537FC6191DC79261D2EDFCA83E520CF2B812E8345A3A8081B6174D510409D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Transiruby — 1st trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BD1024860000",
+      "title": "Rolling Star",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BD1024860000.jpg",
+      "variants": [
+        {
+          "id": "v_b8bdb09c",
+          "name": "ROLLING STAR — PV_JP",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1e3S7jruXBsZvFL8u0posB4Xfi99s-2Q1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1e3S7jruXBsZvFL8u0posB4Xfi99s-2Q1&sz=w640",
+          "sizeBytes": 5172103,
+          "sha256": "3549C7F355F84CBBC8D90F3D436A077AC3D7B31E9D80AEB4547DDBFDADAFB727",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | ROLLING STAR — PV_JP"
+        }
+      ]
+    },
+    {
+      "titleId": "01000CB016F3A000",
+      "title": "The Serpent Rogue",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000CB016F3A000.jpg",
+      "variants": [
+        {
+          "id": "v_5ac1507a",
+          "name": "The Serpent Rogue — Accolades Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KfHxqpbaA8RNyqevCyQo-FIluhy4CLK8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KfHxqpbaA8RNyqevCyQo-FIluhy4CLK8&sz=w640",
+          "sizeBytes": 5401914,
+          "sha256": "072419AFA3EF5227CE3C2E04C385344C6348A60424D2E32CC2882B35A489681A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Serpent Rogue — Accolades Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010059C0192EA000",
+      "title": "The Bounty Huntress",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010059C0192EA000.jpg",
+      "variants": [
+        {
+          "id": "v_3d0a543d",
+          "name": "The Bounty Huntress — First trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IMetDPY-DtsjgIS-Y2zMk-jg1JZXfPbT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IMetDPY-DtsjgIS-Y2zMk-jg1JZXfPbT&sz=w640",
+          "sizeBytes": 5327472,
+          "sha256": "001732EA728248676CE9A2C184EF6F23E9D74C4FF89013AFC186AB62CD67C509",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Bounty Huntress — First trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A6F00C34E000",
+      "title": "The Aquatic Adventure of the Last Human",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A6F00C34E000.jpg",
+      "variants": [
+        {
+          "id": "v_7e86f298",
+          "name": "The Aquatic Adventure of the Last Human — The Aq",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12B2NT1qO7vNdPcOxYTKM5o83o0MOFjMd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12B2NT1qO7vNdPcOxYTKM5o83o0MOFjMd&sz=w640",
+          "sizeBytes": 3921607,
+          "sha256": "256E2C50F4CCAA51F91806A96EC9885C0EEB9F992E38CC5EBA3B7F3993C2F141",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Aquatic Adventure of the Last Human "
+        }
+      ]
+    },
+    {
+      "titleId": "010078801815C000",
+      "title": "Teslagrad Remastered",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010078801815C000.jpg",
+      "variants": [
+        {
+          "id": "v_60c67892",
+          "name": "Teslagrad Remastered — Teslagrad Remastered – La",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gD8aPsu0SwpSFMJR8DUmLr3QRlFKHxci",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gD8aPsu0SwpSFMJR8DUmLr3QRlFKHxci&sz=w640",
+          "sizeBytes": 4974627,
+          "sha256": "E6202DC7BB8B181C5027BD18A917BD54FF3BB9618115210DB825ED2AF1C9A8D3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Teslagrad Remastered — Teslagrad Remaste"
+        }
+      ]
+    },
+    {
+      "titleId": "010007300C482000",
+      "title": "Sydney Hunter and the Curse of the Mayan",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010007300C482000.jpg",
+      "variants": [
+        {
+          "id": "v_ed6fde7b",
+          "name": "Sydney Hunter and the Curse of the Mayan — Sydne",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15ha9iPiWi2E2iMWrP3aL4mi26SPVkD-2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15ha9iPiWi2E2iMWrP3aL4mi26SPVkD-2&sz=w640",
+          "sizeBytes": 5200766,
+          "sha256": "A79CD5ADCDBB5C875D32D49127439E42FC266F5555CB608B194B199BCD534FDD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sydney Hunter and the Curse of the Mayan"
+        }
+      ]
     }
   ],
-  "totalGames": 2753,
-  "totalVariants": 4177,
-  "lastUpdated": "2026-11-10T00:50:45.598045+00:00"
+  "totalGames": 2763,
+  "totalVariants": 4187,
+  "lastUpdated": "2026-11-10T00:53:40.420392+00:00"
 }
