@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T01:20:37.786862+00:00",
+  "updatedAt": "2026-11-10T01:23:29.475274+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -101628,9 +101628,269 @@
           "notes": "Switch 720p 30fps H264 | Madshot: Road to Madness — MRTM - launch"
         }
       ]
+    },
+    {
+      "titleId": "0100729025440000",
+      "title": "Lia Hacking Destiny",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100729025440000.jpg",
+      "variants": [
+        {
+          "id": "v_886f4bee",
+          "name": "Lia: Hacking Destiny — Lia: Hacking Destiny",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16jzNmcTV6xoab-HkkWIGT5HiisD58ZvN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16jzNmcTV6xoab-HkkWIGT5HiisD58ZvN&sz=w640",
+          "sizeBytes": 5234644,
+          "sha256": "5E39D9360207CA75A64C0989482374370F52FA3874BBE32223306F2FA5262431",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lia: Hacking Destiny — Lia: Hacking Dest"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EA20207FA000",
+      "title": "Lonestar",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EA20207FA000.jpg",
+      "variants": [
+        {
+          "id": "v_629fa3fe",
+          "name": "LONESTAR — LONESTAR Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ri3MYw3kZBwWo825vbWYQTpY5Cv7tJr1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ri3MYw3kZBwWo825vbWYQTpY5Cv7tJr1&sz=w640",
+          "sizeBytes": 4972645,
+          "sha256": "07FF6DF10FCB84D6B71D9A764A799A1C02512CADD58DA8C7032984873FB28640",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | LONESTAR — LONESTAR Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010089701934C000",
+      "title": "Helvetii",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010089701934C000.jpg",
+      "variants": [
+        {
+          "id": "v_f6490434",
+          "name": "Helvetii — Helvetii | Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TpglpVM8RA4a0h6uNj2xbMmqKrpmioRA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TpglpVM8RA4a0h6uNj2xbMmqKrpmioRA&sz=w640",
+          "sizeBytes": 4764738,
+          "sha256": "6F18E5C0893E34A44A80FC793837B6E3E29D9A6F30A2EF028C83FC5AC0592ED0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Helvetii — Helvetii | Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100953014DCA000",
+      "title": "Gutwhale",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100953014DCA000.jpg",
+      "variants": [
+        {
+          "id": "v_b26616a7",
+          "name": "Gutwhale — Gutwhale - Out Now!",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1d2XM4GSlBnP2kQyySG4f-YgP67GVNUja",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1d2XM4GSlBnP2kQyySG4f-YgP67GVNUja&sz=w640",
+          "sizeBytes": 4868809,
+          "sha256": "6911F20300BE512B30EB60C2A5CFB90DF0BC64870A5A120C51CD3B8F0678093F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Gutwhale — Gutwhale - Out Now!"
+        }
+      ]
+    },
+    {
+      "titleId": "01006DC020A08000",
+      "title": "Grit and Valor 1949",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006DC020A08000.jpg",
+      "variants": [
+        {
+          "id": "v_a486a3f6",
+          "name": "Grit and Valor - 1949 — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eud4y4BQardWzdNvEfNPZ0qe6rzty40M",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eud4y4BQardWzdNvEfNPZ0qe6rzty40M&sz=w640",
+          "sizeBytes": 4814575,
+          "sha256": "4F022A5F467D29B301A7BF009C0DFCF9BD45B9DD45CE0C8EF7D7FE5B00C08891",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Grit and Valor - 1949 — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01002C0020DD2000",
+      "title": "Footgun Underground",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002C0020DD2000.jpg",
+      "variants": [
+        {
+          "id": "v_a670b453",
+          "name": "Footgun: Underground — Release Trailer - EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jA9ioEg7CPpnn-T-VR2ztr5NFZYvjTpu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jA9ioEg7CPpnn-T-VR2ztr5NFZYvjTpu&sz=w640",
+          "sizeBytes": 5425743,
+          "sha256": "B2B08AFA0245F12E4D58F5708C7789282F004D0837EF63962831FB8B3147EDAC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Footgun: Underground — Release Trailer -"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FCC02450E000",
+      "title": "Eko and the Bewitched Lands",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FCC02450E000.jpg",
+      "variants": [
+        {
+          "id": "v_5f214644",
+          "name": "Eko and the Bewitched Lands — Gameplay",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CtKGkHkLyggG0D3K8byYcr9ghtfQ7Dcp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CtKGkHkLyggG0D3K8byYcr9ghtfQ7Dcp&sz=w640",
+          "sizeBytes": 5351048,
+          "sha256": "A9A1C38834473CA6F37F1050EA70AA4B96898F90E675E9A52B39D5AA75EAC580",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Eko and the Bewitched Lands — Gameplay"
+        }
+      ]
+    },
+    {
+      "titleId": "01000B501B728000",
+      "title": "Elsie",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000B501B728000.jpg",
+      "variants": [
+        {
+          "id": "v_6715c684",
+          "name": "Clandestinity of Elsie — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12j1ZbigGkE1Ow5sGVg21kw8PGDe5lI2B",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12j1ZbigGkE1Ow5sGVg21kw8PGDe5lI2B&sz=w640",
+          "sizeBytes": 5151021,
+          "sha256": "97F273A39A31C7FAA42FAEEB73A4B8BB3083632E4622BF7A532D1EDC87C516BD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Clandestinity of Elsie — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B1C019988000",
+      "title": "The Last Hero of Nostalgaia",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B1C019988000.jpg",
+      "variants": [
+        {
+          "id": "v_75812777",
+          "name": "The Last Hero of Nostalgaia — The Last Hero of N",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1auH3OiMw9bvTLjnXttKBEPkic0q8FgMN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1auH3OiMw9bvTLjnXttKBEPkic0q8FgMN&sz=w640",
+          "sizeBytes": 4643355,
+          "sha256": "DF5E1A721710128FF857946C56674E48ECFDA43D2B46B70BB7F63E06B6163473",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Last Hero of Nostalgaia — The Last H"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C6A00E94A000",
+      "title": "Panzer Dragoon Remake",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C6A00E94A000.jpg",
+      "variants": [
+        {
+          "id": "v_b48ed7d1",
+          "name": "Panzer Dragoon: Remake — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GFTkfzUIscGFv1a1Bo-C-VUDPGbMvjeF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GFTkfzUIscGFv1a1Bo-C-VUDPGbMvjeF&sz=w640",
+          "sizeBytes": 11142754,
+          "sha256": "5E8388E73AAC75B1B5B5E90C484E3FA695B4F30BFBDDC25C0EA2F8A620279640",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Panzer Dragoon: Remake — Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 2853,
-  "totalVariants": 4277,
-  "lastUpdated": "2026-11-10T01:20:37.786862+00:00"
+  "totalGames": 2863,
+  "totalVariants": 4287,
+  "lastUpdated": "2026-11-10T01:23:29.475274+00:00"
 }
