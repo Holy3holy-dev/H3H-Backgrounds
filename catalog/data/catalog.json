@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T09:27:43.556205+00:00",
+  "updatedAt": "2026-11-10T09:30:36.779132+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -141668,9 +141668,269 @@
           "notes": "Switch 720p 30fps H264 | Land of Screens — Land of Screens - Reve"
         }
       ]
+    },
+    {
+      "titleId": "0100F3E016D34000",
+      "title": "Kurokami-sama's Feast",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F3E016D34000.jpg",
+      "variants": [
+        {
+          "id": "v_d07dc5e5",
+          "name": "Kurokami-sama's Feast — Kurokami-sama's Feast EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CwUgz76i5d5-eB6cOKxfhDEIFwDipQUU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CwUgz76i5d5-eB6cOKxfhDEIFwDipQUU&sz=w640",
+          "sizeBytes": 5274207,
+          "sha256": "EB78646E8AD1F4F9CE8FAFBED18436B62E0CD8B66E9BBB11A3C3D947B8E88C4E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kurokami-sama's Feast — Kurokami-sama's "
+        }
+      ]
+    },
+    {
+      "titleId": "0100844019F34000",
+      "title": "Kraino Origins",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100844019F34000.jpg",
+      "variants": [
+        {
+          "id": "v_5fc76ef4",
+          "name": "Kraino Origins — Plus Mode",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=163MfNUXk-uyF_QLWji24ezXw00_3pJjK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=163MfNUXk-uyF_QLWji24ezXw00_3pJjK&sz=w640",
+          "sizeBytes": 5227579,
+          "sha256": "1DFCC1FA3037F8A55CB14ACC2F83DB539300401CB30C4D3F6F08C3CDF56209C0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kraino Origins — Plus Mode"
+        }
+      ]
+    },
+    {
+      "titleId": "010024A019B64000",
+      "title": "Kamikaze Veggies",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010024A019B64000.jpg",
+      "variants": [
+        {
+          "id": "v_ae2d18a9",
+          "name": "Kamikaze Veggies — Kamikaze Veggies - Official T",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1EakEKORApxoW0L2-3_uGKLWBXsAFak5T",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1EakEKORApxoW0L2-3_uGKLWBXsAFak5T&sz=w640",
+          "sizeBytes": 5197196,
+          "sha256": "169F242AB7D9290392C0403AF6281C9FBCA33E588AD5CD24A541C89E7DF4F96A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kamikaze Veggies — Kamikaze Veggies - Of"
+        }
+      ]
+    },
+    {
+      "titleId": "01008E7017942000",
+      "title": "Justice Sucks Tactical Vacuum Action",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008E7017942000.jpg",
+      "variants": [
+        {
+          "id": "v_41901a4f",
+          "name": "JUSTICE SUCKS: Tactical Vacuum Action — Vacuum o",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yXMbbdii6N_WuvV8TrE-JIULi-Zg0Z8o",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yXMbbdii6N_WuvV8TrE-JIULi-Zg0Z8o&sz=w640",
+          "sizeBytes": 4670999,
+          "sha256": "380A0B7CBCF711731CFD9FFC4D2F176625F98B721875238E77748958B332C12A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | JUSTICE SUCKS: Tactical Vacuum Action — "
+        }
+      ]
+    },
+    {
+      "titleId": "0100A5A022B14000",
+      "title": "Fruitbus",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A5A022B14000.jpg",
+      "variants": [
+        {
+          "id": "v_dedb061c",
+          "name": "Fruitbus — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PPF309A7tpCJburqkhDzTCAeudld_0Rq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PPF309A7tpCJburqkhDzTCAeudld_0Rq&sz=w640",
+          "sizeBytes": 5224907,
+          "sha256": "8CB4ECAEF4237615DC4311A717EF7F5C9B86859B43159869D12E56BBC8F6C681",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fruitbus — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FF401F79E000",
+      "title": "Meteorfall Krumit's Tale",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FF401F79E000.jpg",
+      "variants": [
+        {
+          "id": "v_2dd909dd",
+          "name": "Meteorfall: Krumit's Tale — Krumit Trailer 2 (En",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11Xmsd0fVKtvx3VYap5xDLWvHPXX7TT_L",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11Xmsd0fVKtvx3VYap5xDLWvHPXX7TT_L&sz=w640",
+          "sizeBytes": 5409030,
+          "sha256": "CE8CF736BD89B9C4F802D49B9FC3131AE1B093757073A072EFA34A93E00F8959",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Meteorfall: Krumit's Tale — Krumit Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "010065D012FA0000",
+      "title": "Azur Lane Crosswave",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010065D012FA0000.jpg",
+      "variants": [
+        {
+          "id": "v_fa758c7a",
+          "name": "Azur Lane Crosswave — Azur Lane Crosswave Launch",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oUvw85PSZ6wTCBzkw2V1Lr5kK5wfq0At",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oUvw85PSZ6wTCBzkw2V1Lr5kK5wfq0At&sz=w640",
+          "sizeBytes": 5586243,
+          "sha256": "4D45D7BAA79B50768BAA5F99FD280982F05AF6C2129CB4DA8CC4F96C9D35B905",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Azur Lane Crosswave — Azur Lane Crosswav"
+        }
+      ]
+    },
+    {
+      "titleId": "010024F01607A000",
+      "title": "Inua a Story in Ice and Time",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010024F01607A000.jpg",
+      "variants": [
+        {
+          "id": "v_c3d77bd1",
+          "name": "Inua - A Story in Ice and Time — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1a_WveBF2b5IQwki67dHnVO7wxL-LZ9NW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1a_WveBF2b5IQwki67dHnVO7wxL-LZ9NW&sz=w640",
+          "sizeBytes": 5104770,
+          "sha256": "2E2D7209521C7FC31DF96B264ED195FBB57B7D7C14E40F5D7E2C0F8EF6FE4C29",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Inua - A Story in Ice and Time — Release"
+        }
+      ]
+    },
+    {
+      "titleId": "01006E90198A2000",
+      "title": "Crush Crush",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006E90198A2000.jpg",
+      "variants": [
+        {
+          "id": "v_f123b6b0",
+          "name": "Crush Crush — Outfits Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1iz13unZfWfWuh389nMjRrNxBncXtsrRU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1iz13unZfWfWuh389nMjRrNxBncXtsrRU&sz=w640",
+          "sizeBytes": 5610059,
+          "sha256": "9A247B0DFD110DF4188C5F3411F5A5F22D8F0F4CB9B17CD67FCA2BCDF9FB8ED1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Crush Crush — Outfits Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010022B01D488000",
+      "title": "Hirilun",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010022B01D488000.jpg",
+      "variants": [
+        {
+          "id": "v_495f5e44",
+          "name": "Hirilun — HIRILUN RELEASE TRAILER",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AGt684Tw8rqAnRyrXVdJP6rICc0BDiri",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AGt684Tw8rqAnRyrXVdJP6rICc0BDiri&sz=w640",
+          "sizeBytes": 5304943,
+          "sha256": "801AAC62669D444416702004DB25FFC5FC3D10914B0A869C34AC6358BE0BC571",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hirilun — HIRILUN RELEASE TRAILER"
+        }
+      ]
     }
   ],
-  "totalGames": 4393,
-  "totalVariants": 5817,
-  "lastUpdated": "2026-11-10T09:27:43.556205+00:00"
+  "totalGames": 4403,
+  "totalVariants": 5827,
+  "lastUpdated": "2026-11-10T09:30:36.779132+00:00"
 }
