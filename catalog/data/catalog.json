@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T04:34:52.878172+00:00",
+  "updatedAt": "2026-11-10T04:38:06.066126+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -117228,9 +117228,269 @@
           "notes": "Switch 720p 30fps H264 | Alice's Warped Wonderland:REcollection —"
         }
       ]
+    },
+    {
+      "titleId": "01008CB0156BD000",
+      "title": "The Legend of Heroes: Trails into Reverie",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008CB0156BD000.jpg",
+      "variants": [
+        {
+          "id": "v_3cf42eec",
+          "name": "The Legend of Heroes: Trails into Reverie — PV06",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LZArwN4xuCeFTQwGJbmsjvJJpqcDFFDU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LZArwN4xuCeFTQwGJbmsjvJJpqcDFFDU&sz=w640",
+          "sizeBytes": 2102682,
+          "sha256": "F23A32B3D2CB25EF9EC14E090A3ADE6C322964CBB9FC0FEF615BD51924375BC4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Legend of Heroes: Trails into Reveri"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B1900F0B6000",
+      "title": "The Legend of Dark Witch",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B1900F0B6000.jpg",
+      "variants": [
+        {
+          "id": "v_d1a7f5e5",
+          "name": "The Legend of Dark Witch — The Legend of Dark Wi",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Rc9eL3LuLmppqMi5Ak-W-oIw1F27f-fd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Rc9eL3LuLmppqMi5Ak-W-oIw1F27f-fd&sz=w640",
+          "sizeBytes": 4839385,
+          "sha256": "2CE3DFB82B75E585F5D0CD6FDE5B6DF2852D3868DA1B1E256D3FBBEF576120EB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Legend of Dark Witch — The Legend of"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C4D0093EA000",
+      "title": "Battle Princess Madelyn",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C4D0093EA000.jpg",
+      "variants": [
+        {
+          "id": "v_d19ffbaa",
+          "name": "Battle Princess Madelyn — Battle Princess Madely",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Sq7-86xg07DCA-F113-Ar5tYqcHlVGCQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Sq7-86xg07DCA-F113-Ar5tYqcHlVGCQ&sz=w640",
+          "sizeBytes": 5258907,
+          "sha256": "2E37F1C77978FCAC93141C89051D8575754C56ABCDD64AF9924D879C863ADB1F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Battle Princess Madelyn — Battle Princes"
+        }
+      ]
+    },
+    {
+      "titleId": "010047F018D5C000",
+      "title": "The Library of Babel",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010047F018D5C000.jpg",
+      "variants": [
+        {
+          "id": "v_e433b48d",
+          "name": "The Library of Babel — Release Date",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17ZUTkqbGc4Obr07dWK8IOFLIdtH2u21C",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17ZUTkqbGc4Obr07dWK8IOFLIdtH2u21C&sz=w640",
+          "sizeBytes": 4944780,
+          "sha256": "A9C14559911CA5DABE3AEE6BEAE565D0146621F5D68E0D43962AC521E4E0C1B2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Library of Babel — Release Date"
+        }
+      ]
+    },
+    {
+      "titleId": "010040401D564000",
+      "title": "MotoGP 24",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010040401D564000.jpg",
+      "variants": [
+        {
+          "id": "v_871e803a",
+          "name": "MotoGP™24 — MotoGP™24 - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1g3dBa6HTdX5I-LpEPU2Hjjl_nPhmUScX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1g3dBa6HTdX5I-LpEPU2Hjjl_nPhmUScX&sz=w640",
+          "sizeBytes": 5285959,
+          "sha256": "1F9D553EC199A274ADD2A5C94771836C0EE76F54EA6EA6AFA33B284F831E6694",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | MotoGP™24 — MotoGP™24 - Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DFF00C5E6000",
+      "title": "Noir Chronicles: City of Crime",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DFF00C5E6000.jpg",
+      "variants": [
+        {
+          "id": "v_e5b0bb67",
+          "name": "Noir Chronicles: City of Crime — Noir Chronicles",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SriV6HZ9Zo9ny3wV6isnVeyuCDWmtroo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SriV6HZ9Zo9ny3wV6isnVeyuCDWmtroo&sz=w640",
+          "sizeBytes": 5554552,
+          "sha256": "2ECBA6047A887C4A4090C073A94F5653A091055A69586D4779FF7F16BD684E07",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Noir Chronicles: City of Crime — Noir Ch"
+        }
+      ]
+    },
+    {
+      "titleId": "01003D301357A000",
+      "title": "Dark Arcana: The Carnival",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003D301357A000.jpg",
+      "variants": [
+        {
+          "id": "v_93d202b0",
+          "name": "Dark Arcana: The Carnival — Dark Arcana: The Car",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NJvLZGM_FezH_tpy9L0vvo1K_Gl0EsUt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NJvLZGM_FezH_tpy9L0vvo1K_Gl0EsUt&sz=w640",
+          "sizeBytes": 11510980,
+          "sha256": "BEAA6B5E03A924BEC50B16BF30BB4A9D2C2FB5F82ABC4E8F9F4560AB7E26F3B5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dark Arcana: The Carnival — Dark Arcana:"
+        }
+      ]
+    },
+    {
+      "titleId": "01006A800FD60000",
+      "title": "Scarlett Mysteries: Cursed Child",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006A800FD60000.jpg",
+      "variants": [
+        {
+          "id": "v_8c879614",
+          "name": "Scarlett Mysteries: Cursed Child — Scarlett Myst",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1b1FGBJwTjsoe0Ouxnq1OO3UeOiqzfeF0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1b1FGBJwTjsoe0Ouxnq1OO3UeOiqzfeF0&sz=w640",
+          "sizeBytes": 4581276,
+          "sha256": "D11493063BCBCB3AD87462FEFF6C4564482945686692F1E1F81A0252D6721A5D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Scarlett Mysteries: Cursed Child — Scarl"
+        }
+      ]
+    },
+    {
+      "titleId": "01007860144F4000",
+      "title": "Skyland: Heart of the Mountain",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007860144F4000.jpg",
+      "variants": [
+        {
+          "id": "v_98a7ea85",
+          "name": "Skyland: Heart of the Mountain — Skyland: Heart ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hTkcpRnTYVRQXzAvMtQZCFhimLt9LcAk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hTkcpRnTYVRQXzAvMtQZCFhimLt9LcAk&sz=w640",
+          "sizeBytes": 5605801,
+          "sha256": "8805DE87A552BAB49F3CE5166C0B60224B4DC27ABD2FC52BD5A21AA8D29E34CE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Skyland: Heart of the Mountain — Skyland"
+        }
+      ]
+    },
+    {
+      "titleId": "01006E4012882000",
+      "title": "Sigma Theory",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006E4012882000.jpg",
+      "variants": [
+        {
+          "id": "v_7c137cec",
+          "name": "Sigma Theory: Global Cold War — 1.0 Launch Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xThVLHrAKessQ8pGKfQEGGoueT40JMpt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xThVLHrAKessQ8pGKfQEGGoueT40JMpt&sz=w640",
+          "sizeBytes": 4919299,
+          "sha256": "F0F2F45BF012E0637DF999E8DC50989508BC36592B55D1D5FF03760B6CF548F3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sigma Theory: Global Cold War — 1.0 Laun"
+        }
+      ]
     }
   ],
-  "totalGames": 3453,
-  "totalVariants": 4877,
-  "lastUpdated": "2026-11-10T04:34:52.878172+00:00"
+  "totalGames": 3463,
+  "totalVariants": 4887,
+  "lastUpdated": "2026-11-10T04:38:06.066126+00:00"
 }
