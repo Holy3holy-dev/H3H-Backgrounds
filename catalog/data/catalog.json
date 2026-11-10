@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T14:24:40.612079+00:00",
+  "updatedAt": "2026-11-10T14:28:32.237070+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -163508,9 +163508,269 @@
           "notes": "Switch 720p 30fps H264 | Extinction Eclipse — Gameplay trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100A82013976000",
+      "title": "Exodemon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A82013976000.jpg",
+      "variants": [
+        {
+          "id": "v_5900ae6b",
+          "name": "Exodemon — EXODEMON - LAUNCH TRAILER",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18_PawTs8o89179uCOKjHqu7s7JYxaCbg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18_PawTs8o89179uCOKjHqu7s7JYxaCbg&sz=w640",
+          "sizeBytes": 5638839,
+          "sha256": "763B6A641A7485F049191B63C162074B6D40AD625875BE162FA6B3DE80A45C9E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Exodemon — EXODEMON - LAUNCH TRAILER"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CAF01349C000",
+      "title": "Dark Sauce",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CAF01349C000.jpg",
+      "variants": [
+        {
+          "id": "v_45e3b8ae",
+          "name": "Dark Sauce — Dark Sauce Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15v6coSTSGnCdIK1NQZ7mHyYzqfcgh-RA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15v6coSTSGnCdIK1NQZ7mHyYzqfcgh-RA&sz=w640",
+          "sizeBytes": 5541086,
+          "sha256": "0B100433A2E431E68A3D16A178232B9598CC2B6E8CF5280FC2FB7EF6288B7894",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dark Sauce — Dark Sauce Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B70014700000",
+      "title": "Skycadia",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B70014700000.jpg",
+      "variants": [
+        {
+          "id": "v_f49290a0",
+          "name": "Skycadia — Skycadia 2.0 Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pHYxYdxL8EQUVE8n_S30OlAfDEwCOCrR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pHYxYdxL8EQUVE8n_S30OlAfDEwCOCrR&sz=w640",
+          "sizeBytes": 11256779,
+          "sha256": "232CB1BAF4175FD5C6D82B3281DE21D63995BBF6921E813380860B667641847A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Skycadia — Skycadia 2.0 Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010071C017DF6000",
+      "title": "Blow & Fly",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010071C017DF6000.jpg",
+      "variants": [
+        {
+          "id": "v_25aa3599",
+          "name": "Blow & Fly — Blow & Fly",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1misEpgBfG2rS-eWuk9lurlN2FLZPVlm2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1misEpgBfG2rS-eWuk9lurlN2FLZPVlm2&sz=w640",
+          "sizeBytes": 5140923,
+          "sha256": "657728C2B28C81EBF6B7FF63EB2672A7B6C942847907F6FB551A8BD0FF87BA32",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Blow & Fly — Blow & Fly"
+        }
+      ]
+    },
+    {
+      "titleId": "01000B6007A3C000",
+      "title": "The Deer God",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000B6007A3C000.jpg",
+      "variants": [
+        {
+          "id": "v_f3471c63",
+          "name": "The Deer God — The Deer God Early Access Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eJoYsTdEUcG5MEG7sbyIn-GK5rqt__yf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eJoYsTdEUcG5MEG7sbyIn-GK5rqt__yf&sz=w640",
+          "sizeBytes": 3660748,
+          "sha256": "F4B38EBDEE5E3A97E9DF88B609004908B61FA66A0DF541AFF593F3A52A9C7DE7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Deer God — The Deer God Early Access"
+        }
+      ]
+    },
+    {
+      "titleId": "01005B7016584000",
+      "title": "Will You Snail",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005B7016584000.jpg",
+      "variants": [
+        {
+          "id": "v_3ca8d73d",
+          "name": "Will You Snail? — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lQhuEiMIoswhQ3vxHWelbglu2o_ScPy0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lQhuEiMIoswhQ3vxHWelbglu2o_ScPy0&sz=w640",
+          "sizeBytes": 5350776,
+          "sha256": "9C83E9197F658FED23C67326931C1C8503C333AB3BA13A0A12A906B51A740980",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Will You Snail? — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C9E01BA72000",
+      "title": "Legends of the Eternal Flame",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C9E01BA72000.jpg",
+      "variants": [
+        {
+          "id": "v_3b83a7c4",
+          "name": "Legends Of The Eternal Flame — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ct-zESE4t741kXFgl8HUVy9q_lsmMeYi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ct-zESE4t741kXFgl8HUVy9q_lsmMeYi&sz=w640",
+          "sizeBytes": 5300050,
+          "sha256": "435BFE8646BC9338F8F9CCD1A62E97670492B2202D69F1D83B70C476B6EC97A7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Legends Of The Eternal Flame — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01000E400ED98000",
+      "title": "Farm Mystery",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000E400ED98000.jpg",
+      "variants": [
+        {
+          "id": "v_af63c46d",
+          "name": "Mystery At Windmill Farm — MysteryAtWindmillFarm",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=171K5Iam4h90O7lRC8JmTuL5GxIQrZm1-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=171K5Iam4h90O7lRC8JmTuL5GxIQrZm1-&sz=w640",
+          "sizeBytes": 5357455,
+          "sha256": "8931F31F4DEBF3243354B342CA4FC6B1246EDCB1DD8E032CD316E0DEAF3C0FA8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mystery At Windmill Farm — MysteryAtWind"
+        }
+      ]
+    },
+    {
+      "titleId": "01005A8015436000",
+      "title": "OS Omega",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005A8015436000.jpg",
+      "variants": [
+        {
+          "id": "v_17575b9b",
+          "name": "OS Omega: Retro Shooter — OS Omega 111 Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xG7pF0pA1QvmkWkPH6klS1lzAmUSW-fe",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xG7pF0pA1QvmkWkPH6klS1lzAmUSW-fe&sz=w640",
+          "sizeBytes": 5458863,
+          "sha256": "A427AB8EF8C72BAC1E98BE7CCA5087D8F1F7A52793164018858BEBAB9E7C78C9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | OS Omega: Retro Shooter — OS Omega 111 T"
+        }
+      ]
+    },
+    {
+      "titleId": "01009BD0128EC000",
+      "title": "Super Squidlit",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009BD0128EC000.jpg",
+      "variants": [
+        {
+          "id": "v_7201272a",
+          "name": "Super Squidlit — Super Squidlit Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VwL0JitNHWSrZ_AGnWo9ZBaSqiSWHdF7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VwL0JitNHWSrZ_AGnWo9ZBaSqiSWHdF7&sz=w640",
+          "sizeBytes": 4908676,
+          "sha256": "6A7F743F4E71A86F1F0BB2C2C63F3022004FFFEAFFF3B42C7D38606BCD7CBB72",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Super Squidlit — Super Squidlit Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 5233,
-  "totalVariants": 6657,
-  "lastUpdated": "2026-11-10T14:24:40.612079+00:00"
+  "totalGames": 5243,
+  "totalVariants": 6667,
+  "lastUpdated": "2026-11-10T14:28:32.237070+00:00"
 }
