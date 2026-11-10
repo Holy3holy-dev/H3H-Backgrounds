@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T02:26:53.403933+00:00",
+  "updatedAt": "2026-11-10T02:29:49.558988+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -106308,9 +106308,269 @@
           "notes": "Switch 720p 30fps H264 | Nidhogg 2 — launch trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100DD8021B5E000",
+      "title": "Into the Restless Ruins",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DD8021B5E000.jpg",
+      "variants": [
+        {
+          "id": "v_063200ea",
+          "name": "Into the Restless Ruins — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WCaKc2oTtMkHyoe-dgnLSQCloh3ryDLT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WCaKc2oTtMkHyoe-dgnLSQCloh3ryDLT&sz=w640",
+          "sizeBytes": 3171721,
+          "sha256": "50519CBE7AD21D7493BAF4556EF73DF971C428B2182BFE89F59C63233DC47451",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Into the Restless Ruins — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010067601AEEE000",
+      "title": "Llamasoft the Jeff Minter Story",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010067601AEEE000.jpg",
+      "variants": [
+        {
+          "id": "v_b90e4042",
+          "name": "Llamasoft: The Jeff Minter Story — Llamasofe: Th",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IOdlY9ao2hoCVLpd25Agzy3q-mveY6hq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IOdlY9ao2hoCVLpd25Agzy3q-mveY6hq&sz=w640",
+          "sizeBytes": 5047231,
+          "sha256": "A53E14AEE6ABE59F9E40412895B778F4DED98AE28F35E2983FB87A89487246D8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Llamasoft: The Jeff Minter Story — Llama"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AAF01D9E0000",
+      "title": "Operation Night Strikers",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AAF01D9E0000.jpg",
+      "variants": [
+        {
+          "id": "v_ff40ce9c",
+          "name": "Operation Night Strikers — Operation Night Strik",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lAOT25K7JwP6D4236BrnSfs12__MqZoM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lAOT25K7JwP6D4236BrnSfs12__MqZoM&sz=w640",
+          "sizeBytes": 5003786,
+          "sha256": "E2A40390F167A7E78C9FF79854797D2EED177012A08FA5CF535C9427503C31D4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Operation Night Strikers — Operation Nig"
+        }
+      ]
+    },
+    {
+      "titleId": "010012A017F18000",
+      "title": "Witch on the Holy Night",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010012A017F18000.jpg",
+      "variants": [
+        {
+          "id": "v_3bae5ab4",
+          "name": "WITCH ON THE HOLY NIGHT — PV with English subtit",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vZoCTO9_UfC3eSKRBZOGShipJl0Uqii1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vZoCTO9_UfC3eSKRBZOGShipJl0Uqii1&sz=w640",
+          "sizeBytes": 5536038,
+          "sha256": "9D804A1AFFB0B76B1A39E76FC964E6C49140D99E399473DE74927046FC5600FF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | WITCH ON THE HOLY NIGHT — PV with Englis"
+        }
+      ]
+    },
+    {
+      "titleId": "01008940086E0000",
+      "title": "The Infectious Madness of Doctor Dekker",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008940086E0000.jpg",
+      "variants": [
+        {
+          "id": "v_3075427b",
+          "name": "The Infectious Madness of Doctor Dekker — The In",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MCLhP2AWyJJVHv5RP-eUCMcfCnIv08XW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MCLhP2AWyJJVHv5RP-eUCMcfCnIv08XW&sz=w640",
+          "sizeBytes": 5264544,
+          "sha256": "D903399D314782BCFCC99CBDEE567F21F5CD497E934EB6E0CB231E36A49796EE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Infectious Madness of Doctor Dekker "
+        }
+      ]
+    },
+    {
+      "titleId": "01003CF020DBA000",
+      "title": "Best Served Cold",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003CF020DBA000.jpg",
+      "variants": [
+        {
+          "id": "v_00b53fbb",
+          "name": "Best Served Cold — Release Date Trailer EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18wthSlaBDWOSbw35tM7gwLIGDdamu9XX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18wthSlaBDWOSbw35tM7gwLIGDdamu9XX&sz=w640",
+          "sizeBytes": 4648302,
+          "sha256": "A5588177E919494C0714B7798E1E1A8D7387FC54DDA1E27A7A272DDD450BE81E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Best Served Cold — Release Date Trailer "
+        }
+      ]
+    },
+    {
+      "titleId": "0100748009A28000",
+      "title": "Manual Samuel",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100748009A28000.jpg",
+      "variants": [
+        {
+          "id": "v_7c2de269",
+          "name": "Manual Samuel - Last Tuesday Edition — Manual Sa",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LpXVQsEyhBVmZ4nhfklfXmY88n-cFqdj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LpXVQsEyhBVmZ4nhfklfXmY88n-cFqdj&sz=w640",
+          "sizeBytes": 5265355,
+          "sha256": "38FCB551F317B0DB277E8BE2A13EDC83F66F3D6123B3B6C2FD94B61C949588E6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Manual Samuel - Last Tuesday Edition — M"
+        }
+      ]
+    },
+    {
+      "titleId": "010022A01E1F0000",
+      "title": "Fueled Up",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010022A01E1F0000.jpg",
+      "variants": [
+        {
+          "id": "v_db46d56b",
+          "name": "Fueled Up — Fueled Up - Release Date Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14f8-r0pmLpnLN0GDAAeKPRXh9jU_ltrT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14f8-r0pmLpnLN0GDAAeKPRXh9jU_ltrT&sz=w640",
+          "sizeBytes": 4922850,
+          "sha256": "D0A27B02864A237C34E181E14C65F9D0275F4E9060B8069D98CE7910CAB24AE5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fueled Up — Fueled Up - Release Date Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A500257A4000",
+      "title": "Dungeon Clawler",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A500257A4000.jpg",
+      "variants": [
+        {
+          "id": "v_295683b9",
+          "name": "Dungeon Clawler — 1.0 Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jQ3WmHz7JpJpwtKp3diJsLPerlJXxUcw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jQ3WmHz7JpJpwtKp3diJsLPerlJXxUcw&sz=w640",
+          "sizeBytes": 5245494,
+          "sha256": "9B7859ADE1C18B39FBE91480E6FC8988CFB22246815057334A2C4611EEAD57D9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dungeon Clawler — 1.0 Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100664019632000",
+      "title": "Slayers X Terminal Aftermath: Vengance of the Slayer",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100664019632000.jpg",
+      "variants": [
+        {
+          "id": "v_9e913707",
+          "name": "Slayers X: Terminal Aftermath: Vengance of the S",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FrvLyvV5jBucEjj1AgKysijwoTv93yeL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FrvLyvV5jBucEjj1AgKysijwoTv93yeL&sz=w640",
+          "sizeBytes": 5345996,
+          "sha256": "11FD5F82DFB7288BD28A5AC72E694435746332D5D36E559B0BB0A73EEDB27488",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Slayers X: Terminal Aftermath: Vengance "
+        }
+      ]
     }
   ],
-  "totalGames": 3033,
-  "totalVariants": 4457,
-  "lastUpdated": "2026-11-10T02:26:53.403933+00:00"
+  "totalGames": 3043,
+  "totalVariants": 4467,
+  "lastUpdated": "2026-11-10T02:29:49.558988+00:00"
 }
