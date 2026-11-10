@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T01:08:37.387838+00:00",
+  "updatedAt": "2026-11-10T01:11:41.716469+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -100588,9 +100588,269 @@
           "notes": "Switch 720p 30fps H264 | Depths of Sanity — Depths of Sanity - St"
         }
       ]
+    },
+    {
+      "titleId": "0100BFC002B4E000",
+      "title": "Dandara",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BFC002B4E000.jpg",
+      "variants": [
+        {
+          "id": "v_f52d071f",
+          "name": "Dandara: Trials of Fear Edition — Dandara: Trial",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1z5npp5lu5ZuqtITvJBNAE9EpPxNvKZnF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1z5npp5lu5ZuqtITvJBNAE9EpPxNvKZnF&sz=w640",
+          "sizeBytes": 5164079,
+          "sha256": "DD076FC9A28FDB481A56C015925C7E5139ABA7D462DAAC35479763FA5CFA98BD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dandara: Trials of Fear Edition — Dandar"
+        }
+      ]
+    },
+    {
+      "titleId": "010054500F564000",
+      "title": "Bookbound Brigade",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010054500F564000.jpg",
+      "variants": [
+        {
+          "id": "v_f70f8107",
+          "name": "Bookbound Brigade — Launch Trailer_EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AgPV2v2M1JvRqYCJGp8-LnngJhaisVxS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AgPV2v2M1JvRqYCJGp8-LnngJhaisVxS&sz=w640",
+          "sizeBytes": 3915751,
+          "sha256": "DCE5FBBEFCB2E9B8C3CB3ACDF7299035272022DE143CA55A08136705AEA7867B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bookbound Brigade — Launch Trailer_EN"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FD6018690000",
+      "title": "Astronite",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FD6018690000.jpg",
+      "variants": [
+        {
+          "id": "v_202798d7",
+          "name": "Astronite - Landing on Neplea — Astronite Landin",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NZOuqXN9jJweiWOF1Gj4CyTuhTLZQX07",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NZOuqXN9jJweiWOF1Gj4CyTuhTLZQX07&sz=w640",
+          "sizeBytes": 4492917,
+          "sha256": "417A04A18A4F7063CAD356CFB8E9E03718B9A544C9A13577BCBD8DEFCF29EA57",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Astronite - Landing on Neplea — Astronit"
+        }
+      ]
+    },
+    {
+      "titleId": "010035D0214E8000",
+      "title": "Alruna and the Necro Industrialists",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010035D0214E8000.jpg",
+      "variants": [
+        {
+          "id": "v_8abc66ce",
+          "name": "Alruna and the Necro-Industrialists — Alruna Sec",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WwN5sVpyBp8llmrPRmpZjO6dWhud40i9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WwN5sVpyBp8llmrPRmpZjO6dWhud40i9&sz=w640",
+          "sizeBytes": 3113144,
+          "sha256": "DBD18FBDA364F8A21105EBDECFD44A8A3FCE92DBAA38249CF4CC38286BE731CD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Alruna and the Necro-Industrialists — Al"
+        }
+      ]
+    },
+    {
+      "titleId": "0100272013014000",
+      "title": "Airhead",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100272013014000.jpg",
+      "variants": [
+        {
+          "id": "v_a10a0734",
+          "name": "Airhead — Gameplay Trailer 2024",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ub1suJ39aMjWKjcTslOZCEUhG2eqtKt5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ub1suJ39aMjWKjcTslOZCEUhG2eqtKt5&sz=w640",
+          "sizeBytes": 5111949,
+          "sha256": "1152ACB030B21F779E748E71C14F34954713A7ECAEE848E123766BAC1D95EAEB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Airhead — Gameplay Trailer 2024"
+        }
+      ]
+    },
+    {
+      "titleId": "010038701F412000",
+      "title": "Adventure of Samsara",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010038701F412000.jpg",
+      "variants": [
+        {
+          "id": "v_81250c05",
+          "name": "Adventure of Samsara — Adventure of Samsara - 2.",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13ATuRJucHkQ-ec4mRxE3ImShoHkKJ7r9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13ATuRJucHkQ-ec4mRxE3ImShoHkKJ7r9&sz=w640",
+          "sizeBytes": 5435779,
+          "sha256": "19D0B18C9AD0ADE54ED71D2FC561493FCA07425A3A8A71C35B38F83152F263A0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Adventure of Samsara — Adventure of Sams"
+        }
+      ]
+    },
+    {
+      "titleId": "010092901DAE0000",
+      "title": "Voltaire the Vegan Vampire",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010092901DAE0000.jpg",
+      "variants": [
+        {
+          "id": "v_f6a7eecd",
+          "name": "Voltaire: The Vegan Vampire — 1.0 Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gTFLRaEmeE4pHGR5iYrnq9E6g__TefF4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gTFLRaEmeE4pHGR5iYrnq9E6g__TefF4&sz=w640",
+          "sizeBytes": 5607205,
+          "sha256": "D04C0A3607950471BA6B073B8BC779E6006D97A368E254CB81066F1B0295CF46",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Voltaire: The Vegan Vampire — 1.0 Launch"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CA3018EA4000",
+      "title": "Undungeon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CA3018EA4000.jpg",
+      "variants": [
+        {
+          "id": "v_55240bc0",
+          "name": "Undungeon — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15dwRRNhJds_GZXuTOlWNn2jnmUiUADV_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15dwRRNhJds_GZXuTOlWNn2jnmUiUADV_&sz=w640",
+          "sizeBytes": 5118481,
+          "sha256": "DE8ABFDD7A39E3A767E81C9846A04532FC8786E32A66878573BBA57D31FC048E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Undungeon — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01000B3012F3A000",
+      "title": "Undermine",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000B3012F3A000.jpg",
+      "variants": [
+        {
+          "id": "v_4a263971",
+          "name": "UnderMine — UnderMine Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fKPJpfI8BlIlfn9J8Wl_ry-TLRX1FnFa",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fKPJpfI8BlIlfn9J8Wl_ry-TLRX1FnFa&sz=w640",
+          "sizeBytes": 5421314,
+          "sha256": "E9A9E1DC52EFD94EE1DF68A3FC8A5477785965FB713AA4CCA0ED67CE586F930B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | UnderMine — UnderMine Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010037501F864000",
+      "title": "Mute Crimson DX",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010037501F864000.jpg",
+      "variants": [
+        {
+          "id": "v_b23eff00",
+          "name": "Mute Crimson DX — Mute Crimson DX - Gameplay Tra",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gU0iilz-ME-rm6VkrGpfE_drMliIW3GD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gU0iilz-ME-rm6VkrGpfE_drMliIW3GD&sz=w640",
+          "sizeBytes": 5178242,
+          "sha256": "4E39B68EC2F0F0799F1D2FEF3D1D6B5D9A5F3A580A317697C4F631BA710BC409",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mute Crimson DX — Mute Crimson DX - Game"
+        }
+      ]
     }
   ],
-  "totalGames": 2813,
-  "totalVariants": 4237,
-  "lastUpdated": "2026-11-10T01:08:37.387838+00:00"
+  "totalGames": 2823,
+  "totalVariants": 4247,
+  "lastUpdated": "2026-11-10T01:11:41.716469+00:00"
 }
