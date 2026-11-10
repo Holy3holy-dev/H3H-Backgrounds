@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T12:09:14.967945+00:00",
+  "updatedAt": "2026-11-10T12:13:09.632483+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -154148,9 +154148,269 @@
           "notes": "Switch 720p 30fps H264 | Ryan's Rescue Squad — Launch PEGI USK"
         }
       ]
+    },
+    {
+      "titleId": "010087301D8C6000",
+      "title": "Surmount",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010087301D8C6000.jpg",
+      "variants": [
+        {
+          "id": "v_ffc1cb6b",
+          "name": "奇迹一刻 Surmount — PV03_SC",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VSxoP50lHIJmcfF3KJXp7DQs8pew1RS-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VSxoP50lHIJmcfF3KJXp7DQs8pew1RS-&sz=w640",
+          "sizeBytes": 4927106,
+          "sha256": "3D183C06F2C038918DFC94A4191ABC6733D2C5A487E09FF732B08A75AFCC855F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 奇迹一刻 Surmount — PV03_SC"
+        }
+      ]
+    },
+    {
+      "titleId": "01007690147D8000",
+      "title": "Ruvato Original Complex",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007690147D8000.jpg",
+      "variants": [
+        {
+          "id": "v_92b7bd43",
+          "name": "Ruvato: Original Complex — Ruvato: Original Comp",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jM1bekxJkF_AtRSi9qlho2kgeULTjm8h",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jM1bekxJkF_AtRSi9qlho2kgeULTjm8h&sz=w640",
+          "sizeBytes": 5509274,
+          "sha256": "613844FF80D01850D3DC28166D6E3033D54619FCC6AE0222B1F838F2E71FA80D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ruvato: Original Complex — Ruvato: Origi"
+        }
+      ]
+    },
+    {
+      "titleId": "010000E015046000",
+      "title": "Eternal Hope",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010000E015046000.jpg",
+      "variants": [
+        {
+          "id": "v_a067ed2d",
+          "name": "Eternal Hope — Eternal Hope Logo Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17LU9k5feYs71Gks5vvwUU0Oftbd_SnKe",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17LU9k5feYs71Gks5vvwUU0Oftbd_SnKe&sz=w640",
+          "sizeBytes": 5232212,
+          "sha256": "222D4577CBE2A32CA32E524B430855D56339682F31855B5D1D4BE37BBABF8D88",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Eternal Hope — Eternal Hope Logo Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B5B00EF38000",
+      "title": "Elden Path of the Forgotten",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B5B00EF38000.jpg",
+      "variants": [
+        {
+          "id": "v_f2eb4a89",
+          "name": "Elden: Path of the Forgotten — Release Date Anno",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-l0GhQxOPa_o12Js0INlIW_nGN_BgXMQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-l0GhQxOPa_o12Js0INlIW_nGN_BgXMQ&sz=w640",
+          "sizeBytes": 5069587,
+          "sha256": "2DCE7E0E8680AE2A2284D1C83992446E8AB4A4FCED291637A8CB603A76537CBE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Elden: Path of the Forgotten — Release D"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EB70172A2000",
+      "title": "Chex Quest HD",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EB70172A2000.jpg",
+      "variants": [
+        {
+          "id": "v_e5203b47",
+          "name": "Chex Quest HD — Chex Quest HD Trailer 1",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_V_Joc9O4tlXLqfSpg6FQ5cxrQFWPwED",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_V_Joc9O4tlXLqfSpg6FQ5cxrQFWPwED&sz=w640",
+          "sizeBytes": 5254651,
+          "sha256": "9363E3E0A78206449A02DBE168A730E0A1D2591FCEEB0B13951C6A430B876380",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Chex Quest HD — Chex Quest HD Trailer 1"
+        }
+      ]
+    },
+    {
+      "titleId": "01007C801D5B8000",
+      "title": "Forrader Hero",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007C801D5B8000.jpg",
+      "variants": [
+        {
+          "id": "v_0f47f233",
+          "name": "Forrader Hero — Release_Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1A75W8ImHi_QOZG0RmaP0P3qEQ6puI5je",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1A75W8ImHi_QOZG0RmaP0P3qEQ6puI5je&sz=w640",
+          "sizeBytes": 5451991,
+          "sha256": "A3922BFD35E14AD555933801C4476D79F62FBB4A32C658CBDD0C4F5087C13767",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Forrader Hero — Release_Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CBF018C4A000",
+      "title": "Speedgunner Ultra",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CBF018C4A000.jpg",
+      "variants": [
+        {
+          "id": "v_a5e42cbb",
+          "name": "Speedgunner Ultra — Speedgunner Ultra Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ISeB9hNwjxgSgqWoMWz8RBHcq2pAiMzn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ISeB9hNwjxgSgqWoMWz8RBHcq2pAiMzn&sz=w640",
+          "sizeBytes": 4739533,
+          "sha256": "652740AD2F4985ACABC874D03C27A993E7B0A88069B98E2E2CB404B5D3723CDE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Speedgunner Ultra — Speedgunner Ultra Tr"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B650198EC000",
+      "title": "Dead Station",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B650198EC000.jpg",
+      "variants": [
+        {
+          "id": "v_481b7fdd",
+          "name": "Dead Station Together — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RxQxT5OLsdieRkR2vdVAdvSxUpUfZI_A",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RxQxT5OLsdieRkR2vdVAdvSxUpUfZI_A&sz=w640",
+          "sizeBytes": 5614096,
+          "sha256": "68A2283434B65E72ADFFEE480095C346D6C3A6C4002737A718017CDB15633419",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dead Station Together — Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010059200CC40000",
+      "title": "Mist Hunter",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010059200CC40000.jpg",
+      "variants": [
+        {
+          "id": "v_641f4cdc",
+          "name": "Mist Hunter — Mist Hunter",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12CZp3p9t6gYTTDoHXrKjXgcGv-ALC-sD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12CZp3p9t6gYTTDoHXrKjXgcGv-ALC-sD&sz=w640",
+          "sizeBytes": 5189534,
+          "sha256": "0C9CD9B1B489EB5C034C40CD60678A75B223A75D8D08FD79E4C211A3FFABE325",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mist Hunter — Mist Hunter"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B95016F16000",
+      "title": "Live by the Sword Tactics",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B95016F16000.jpg",
+      "variants": [
+        {
+          "id": "v_ab943031",
+          "name": "Live by the Sword: Tactics — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13xeBXsgWaUODLdWm3Pb_gWmo3EUAgr5u",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13xeBXsgWaUODLdWm3Pb_gWmo3EUAgr5u&sz=w640",
+          "sizeBytes": 4744002,
+          "sha256": "054699CA42A6DD99BEBC1AE1220DE7DEC08567B12175238DA2826780F7477E3F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Live by the Sword: Tactics — Launch Trai"
+        }
+      ]
     }
   ],
-  "totalGames": 4873,
-  "totalVariants": 6297,
-  "lastUpdated": "2026-11-10T12:09:14.967945+00:00"
+  "totalGames": 4883,
+  "totalVariants": 6307,
+  "lastUpdated": "2026-11-10T12:13:09.632483+00:00"
 }
