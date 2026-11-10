@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T09:24:46.557953+00:00",
+  "updatedAt": "2026-11-10T09:27:43.556205+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -141408,9 +141408,269 @@
           "notes": "Switch 720p 30fps H264 | Tobari 2: Dream Ocean — English PV"
         }
       ]
+    },
+    {
+      "titleId": "010095900B436000",
+      "title": "RemiLore: Lost Girl in the Lands of Lore",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010095900B436000.jpg",
+      "variants": [
+        {
+          "id": "v_b2a1bcb8",
+          "name": "RemiLore: Lost Girl in the Lands of Lore — Relea",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12yOZyrvy5JF-Bk0HmOOsMQ6w8kDU0r5E",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12yOZyrvy5JF-Bk0HmOOsMQ6w8kDU0r5E&sz=w640",
+          "sizeBytes": 5489208,
+          "sha256": "BE2D9C54E18A3D6AE91893674B5C0E1105D91E7BBB6E113B3FD3B76017BFBD02",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | RemiLore: Lost Girl in the Lands of Lore"
+        }
+      ]
+    },
+    {
+      "titleId": "01009E201F358000",
+      "title": "Bug and Seek",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009E201F358000.jpg",
+      "variants": [
+        {
+          "id": "v_7b47cb7c",
+          "name": "Bug & Seek — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UQbUyo3eBdOp80ki8aWDn4lqeVglAbHV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UQbUyo3eBdOp80ki8aWDn4lqeVglAbHV&sz=w640",
+          "sizeBytes": 3711208,
+          "sha256": "3F1F1CAF4F429329A398CA8D74529E0EC46F62F981A7F66A5F7C149B8A502A3B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bug & Seek — Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DA0006F50000",
+      "title": "DragonFangZ The Rose and Dungeon of Time",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DA0006F50000.jpg",
+      "variants": [
+        {
+          "id": "v_30791e69",
+          "name": "DragonFangZ - The Rose & Dungeon of Time — DFZ_T",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13fLWAqiLFZYbgcjYYoMnr0HGw-4ZU5DR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13fLWAqiLFZYbgcjYYoMnr0HGw-4ZU5DR&sz=w640",
+          "sizeBytes": 4791968,
+          "sha256": "69FFDCC119DBC573F4C9A55AAE468A9ACCF757E1E41FD7DADD1D649115850F91",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | DragonFangZ - The Rose & Dungeon of Time"
+        }
+      ]
+    },
+    {
+      "titleId": "010068A00DAFC000",
+      "title": "Brave Dungeon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010068A00DAFC000.jpg",
+      "variants": [
+        {
+          "id": "v_af6bb5a6",
+          "name": "Brave Dungeon - The Meaning of Justice - — Tease",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1j-2zBADFmaELrLQhe2aaFr4gfkcGu6pu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1j-2zBADFmaELrLQhe2aaFr4gfkcGu6pu&sz=w640",
+          "sizeBytes": 5483763,
+          "sha256": "75C961A2D5AB674D8EB925A853BCA1D46A6EB29378C05B65518AC637478B8DB7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Brave Dungeon - The Meaning of Justice -"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FED0137FE000",
+      "title": "Boot Hill Bounties",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FED0137FE000.jpg",
+      "variants": [
+        {
+          "id": "v_d2623ea7",
+          "name": "Boot Hill Bounties — Boot Hill Bounties Trailer ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1n5uGLhZYytBvJwNZI3xNnnyjtEXkejUj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1n5uGLhZYytBvJwNZI3xNnnyjtEXkejUj&sz=w640",
+          "sizeBytes": 5036314,
+          "sha256": "5F8E96E58B5937F56865929C772DC5A294F39DD8BBC04A177B677F094DF6F4B9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Boot Hill Bounties — Boot Hill Bounties "
+        }
+      ]
+    },
+    {
+      "titleId": "01004D8007368000",
+      "title": "Vostok Inc",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004D8007368000.jpg",
+      "variants": [
+        {
+          "id": "v_8e9f3572",
+          "name": "Vostok Inc. — Vostok Inc Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1R98g6qvbLGzf1KyXydUfk61jNcY3NChp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1R98g6qvbLGzf1KyXydUfk61jNcY3NChp&sz=w640",
+          "sizeBytes": 5545620,
+          "sha256": "2C1E696FFEF921ADE1B52087A40BDDF08633B75CFEA9FACF3579B00DA2DC8BCA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Vostok Inc. — Vostok Inc Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CB5009A2C000",
+      "title": "Razed",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CB5009A2C000.jpg",
+      "variants": [
+        {
+          "id": "v_754675c2",
+          "name": "RAZED — Launch",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WWpIsVZHOrIa-TPD-gkEbcEz8eVBPFNi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WWpIsVZHOrIa-TPD-gkEbcEz8eVBPFNi&sz=w640",
+          "sizeBytes": 5223836,
+          "sha256": "0256E3B0AD16D786552B09190F7DA67765E8592D1F7E70FCD3213D2BBECBD3C5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | RAZED — Launch"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C9C0178A6000",
+      "title": "Harmonia",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C9C0178A6000.jpg",
+      "variants": [
+        {
+          "id": "v_ec5d154a",
+          "name": "Harmonia Full HD Edition — Harmonia FHD PV Engli",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15eTNxLdM8ckjUM9a2GIQzY30tgYZzpL_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15eTNxLdM8ckjUM9a2GIQzY30tgYZzpL_&sz=w640",
+          "sizeBytes": 1174486,
+          "sha256": "69307182DE425955A8C15F350070DD070143F56C54C53A48C00434354F7A5C09",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Harmonia Full HD Edition — Harmonia FHD "
+        }
+      ]
+    },
+    {
+      "titleId": "0100027017D4C000",
+      "title": "Beasties",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100027017D4C000.jpg",
+      "variants": [
+        {
+          "id": "v_c9522bf0",
+          "name": "Beasties' Shelter — Default Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wnaTsKzTs20FE0Dy-D5q6RrfjEGVuBNW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wnaTsKzTs20FE0Dy-D5q6RrfjEGVuBNW&sz=w640",
+          "sizeBytes": 4638321,
+          "sha256": "383AB5D897E7642C5E147E781B31F4776DD5A5FA6B3AC7C8B747E293AD601592",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Beasties' Shelter — Default Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BC8011E90000",
+      "title": "Land of Screens",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BC8011E90000.jpg",
+      "variants": [
+        {
+          "id": "v_64864f8c",
+          "name": "Land of Screens — Land of Screens - Reveal Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vN2R0MsoIHenKHfRLDurT74jfh_Z7Ts6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vN2R0MsoIHenKHfRLDurT74jfh_Z7Ts6&sz=w640",
+          "sizeBytes": 5361937,
+          "sha256": "ECFB2AA59675D0605EC61D960E83D59F1C0598F934F9A920EF36F0E7C12B7207",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Land of Screens — Land of Screens - Reve"
+        }
+      ]
     }
   ],
-  "totalGames": 4383,
-  "totalVariants": 5807,
-  "lastUpdated": "2026-11-10T09:24:46.557953+00:00"
+  "totalGames": 4393,
+  "totalVariants": 5817,
+  "lastUpdated": "2026-11-10T09:27:43.556205+00:00"
 }
