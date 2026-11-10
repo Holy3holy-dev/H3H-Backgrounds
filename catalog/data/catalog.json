@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T06:40:29.339310+00:00",
+  "updatedAt": "2026-11-10T06:43:26.574654+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -127628,9 +127628,269 @@
           "notes": "Switch 720p 30fps H264 | Sea Salt — Launch Trailer"
         }
       ]
+    },
+    {
+      "titleId": "01002DF01599E000",
+      "title": "Lovekami: Divinity Stage",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002DF01599E000.jpg",
+      "variants": [
+        {
+          "id": "v_0d24ef69",
+          "name": "LoveKami -Divinity Stage- — LoveKami_Launch Trai",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1B_b-CbAlycEqlS5kwp34r4TxyP-S7wGf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1B_b-CbAlycEqlS5kwp34r4TxyP-S7wGf&sz=w640",
+          "sizeBytes": 4915901,
+          "sha256": "B1AD8B3A5C24358A43AE8ABC4CB6EC6935DE038252164408D47F55BFE260A3E8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | LoveKami -Divinity Stage- — LoveKami_Lau"
+        }
+      ]
+    },
+    {
+      "titleId": "0100ACF00CD2E000",
+      "title": "Robothorium",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100ACF00CD2E000.jpg",
+      "variants": [
+        {
+          "id": "v_d550d5e7",
+          "name": "Robothorium — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RSdnpcynpJvo34lyshhRA0DlqQR7LwN4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RSdnpcynpJvo34lyshhRA0DlqQR7LwN4&sz=w640",
+          "sizeBytes": 4707743,
+          "sha256": "AEAB81C4034944D934F497103742A5BC00405289B3B6BA77266C41626123A6DB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Robothorium — Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010058A00BF1C000",
+      "title": "The Raven Remastered",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010058A00BF1C000.jpg",
+      "variants": [
+        {
+          "id": "v_0a29b90d",
+          "name": "Lucia Homecoming Voyage Punishing Gray Raven",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1iZQE0ycUy_OLW9kU3D2KLIuiqwmMO7YB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1iZQE0ycUy_OLW9kU3D2KLIuiqwmMO7YB&sz=w640",
+          "sizeBytes": 1065810,
+          "sha256": "AAD8276890287595AA5D7CBD1741A8839C0E827018FF220B2B0FC108B476D503",
+          "durationSec": 24.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lucia Homecoming Voyage Punishing Gray R"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B4101CB08000",
+      "title": "Freaky Trip",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B4101CB08000.jpg",
+      "variants": [
+        {
+          "id": "v_d347f92b",
+          "name": "Freaky Trip — Freaky Trip – Release Date Announc",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1W3KXE8Y-xpJBUkCVnCms5SY3XWZmcX1I",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1W3KXE8Y-xpJBUkCVnCms5SY3XWZmcX1I&sz=w640",
+          "sizeBytes": 5541087,
+          "sha256": "1AE925ABC91B4652762D7AC0902B315C29B3C6B6D81125E17B26C0F7F1AD7B8F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Freaky Trip — Freaky Trip – Release Date"
+        }
+      ]
+    },
+    {
+      "titleId": "010077A012A5C000",
+      "title": "Paradise Lost",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010077A012A5C000.jpg",
+      "variants": [
+        {
+          "id": "v_e6303a5f",
+          "name": "Paradise Lost — Paradise Lost - Accolades Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1W4vfagHbFSF9z3AD9906dpdE5Fc-ZYTq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1W4vfagHbFSF9z3AD9906dpdE5Fc-ZYTq&sz=w640",
+          "sizeBytes": 5224333,
+          "sha256": "0D4BCF8AD7E6F5C6DBFF56D0253585A9286340B8AC8325755E689796657C0E2F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Paradise Lost — Paradise Lost - Accolade"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E9D00D268000",
+      "title": "Verlet Swing",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E9D00D268000.jpg",
+      "variants": [
+        {
+          "id": "v_18350e54",
+          "name": "Verlet Swing — Verlet Swing Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1k9oIotADiX-lDEpuBjOqC0aGY-a0gho4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1k9oIotADiX-lDEpuBjOqC0aGY-a0gho4&sz=w640",
+          "sizeBytes": 5543190,
+          "sha256": "9DF0D59093E15A81858AF70093851A3B7CC471FE230B4B30C4C0B1ABC47375C0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Verlet Swing — Verlet Swing Release Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "0100150018282000",
+      "title": "Senses Midnight",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100150018282000.jpg",
+      "variants": [
+        {
+          "id": "v_59c3981b",
+          "name": "SENSEs: Midnight — SENSEs: Midnight Preview Trai",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KIbeQJIgyRTforEkYQpCb_dQ9fyX4PhS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KIbeQJIgyRTforEkYQpCb_dQ9fyX4PhS&sz=w640",
+          "sizeBytes": 5469361,
+          "sha256": "9A0A19AB63F894E2C4F7DD9F51ACF654348DDEFD4E78341F8FF7C3F1C007EEB8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | SENSEs: Midnight — SENSEs: Midnight Prev"
+        }
+      ]
+    },
+    {
+      "titleId": "0100853013824000",
+      "title": "Summer Catchers",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100853013824000.jpg",
+      "variants": [
+        {
+          "id": "v_9fc17ec4",
+          "name": "Summer Catchers — Summer Catchers - Launch Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bJs_K0RRT7_-6bnAp7hzyUdDg20RVHz9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bJs_K0RRT7_-6bnAp7hzyUdDg20RVHz9&sz=w640",
+          "sizeBytes": 5472015,
+          "sha256": "578B96C12F294D6C7464014E2918F93E6820E301C9088EF684D6E8E9199EC5AD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Summer Catchers — Summer Catchers - Laun"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E3E01A9AC000",
+      "title": "Pocket Bravery",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E3E01A9AC000.jpg",
+      "variants": [
+        {
+          "id": "v_407032e8",
+          "name": "Pocket Bravery — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1x_ymeVf7OlXv4LybsXUf0hxaa3Oq1RDu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1x_ymeVf7OlXv4LybsXUf0hxaa3Oq1RDu&sz=w640",
+          "sizeBytes": 3880681,
+          "sha256": "E17F7E26E954E5561D1CFF538A9280D4F642B98BAA83F0C1F5D120361ECE48A1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Pocket Bravery — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C010181FE000",
+      "title": "Cloud Gardens",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C010181FE000.jpg",
+      "variants": [
+        {
+          "id": "v_99a4998c",
+          "name": "Cloud Gardens — Industrial Update Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VyafNwK9QVVT1KfK7zbjc3wbCuyrpGUc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VyafNwK9QVVT1KfK7zbjc3wbCuyrpGUc&sz=w640",
+          "sizeBytes": 3709113,
+          "sha256": "7D1E13330087E1C18B2B60055D75A97F8B9E586F29A7D72E900CD9826A71EA90",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cloud Gardens — Industrial Update Traile"
+        }
+      ]
     }
   ],
-  "totalGames": 3853,
-  "totalVariants": 5277,
-  "lastUpdated": "2026-11-10T06:40:29.339310+00:00"
+  "totalGames": 3863,
+  "totalVariants": 5287,
+  "lastUpdated": "2026-11-10T06:43:26.574654+00:00"
 }
