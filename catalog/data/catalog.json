@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T13:33:07.893307+00:00",
+  "updatedAt": "2026-11-10T13:37:28.771020+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -159868,9 +159868,269 @@
           "notes": "Switch 720p 30fps H264 | REZ PLZ — REZ PLZ Release Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100C2B013B70000",
+      "title": "Kosmokrats",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C2B013B70000.jpg",
+      "variants": [
+        {
+          "id": "v_b2a6a67f",
+          "name": "Kosmokrats — Kosmokrats Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PRpMEjHB5h9w2oIQrrOfLX4AIKwX7Df6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PRpMEjHB5h9w2oIQrrOfLX4AIKwX7Df6&sz=w640",
+          "sizeBytes": 5608856,
+          "sha256": "9C513BEF9445A52E298539B4EC9B0B942FF4F1190D8E92A41131E5E289B58858",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kosmokrats — Kosmokrats Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C88014614000",
+      "title": "Dark Water: Slime Invader",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C88014614000.jpg",
+      "variants": [
+        {
+          "id": "v_38c774d4",
+          "name": "Dark Water : Slime Invader — DW_Trailer_2021_03",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12RTCIUyTVuVo1wCh9BgUj-WZdT-jFftO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12RTCIUyTVuVo1wCh9BgUj-WZdT-jFftO&sz=w640",
+          "sizeBytes": 5330521,
+          "sha256": "59FD17738EF565F019D0BE5B769669AEA62CFF442091E20526C386A4CD4C7AEE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dark Water : Slime Invader — DW_Trailer_"
+        }
+      ]
+    },
+    {
+      "titleId": "0100700018868000",
+      "title": "Cursed Island",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100700018868000.jpg",
+      "variants": [
+        {
+          "id": "v_9e57530a",
+          "name": "Cursed Island — Cursed Island Steam Release Trai",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Qjh3S_MmparSVELISEbE0VC59GVFVOtg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Qjh3S_MmparSVELISEbE0VC59GVFVOtg&sz=w640",
+          "sizeBytes": 11505851,
+          "sha256": "3FBC28C7A3351D73C4D088E5A5A7D2B7E8211B7B2B579AB824112E08FD8B55CC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cursed Island — Cursed Island Steam Rele"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CCB012D4C000",
+      "title": "Tribal Pass",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CCB012D4C000.jpg",
+      "variants": [
+        {
+          "id": "v_248076c0",
+          "name": "Tribal Pass — Tribal Pass Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1S7Qeg2Hq9Y_8a4PF0LzYHd4koeWJr4mZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1S7Qeg2Hq9Y_8a4PF0LzYHd4koeWJr4mZ&sz=w640",
+          "sizeBytes": 4304480,
+          "sha256": "32DB58D1554E875E3F9866405EF08EFB26FEC0C092F9ED3135C097B461BB2880",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tribal Pass — Tribal Pass Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01001EE00AD4C000",
+      "title": "Freaky Awesome",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001EE00AD4C000.jpg",
+      "variants": [
+        {
+          "id": "v_14e485ed",
+          "name": "Freaky Awesome — Release trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Th6eMtIt04K_FBXHBO3yboNsflr51bI6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Th6eMtIt04K_FBXHBO3yboNsflr51bI6&sz=w640",
+          "sizeBytes": 4991912,
+          "sha256": "8812D00E4DAD6AF159D9BD78CFCD700DCFC444B5F141C3CEF94129123D98E41C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Freaky Awesome — Release trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01000D101FB6C000",
+      "title": "Time Walker Dark World",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000D101FB6C000.jpg",
+      "variants": [
+        {
+          "id": "v_9f605f85",
+          "name": "Time Walker: Dark World — Time Walker",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11lTu7bb5DeJBshvYOyc3X1uzMhbN4tBI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11lTu7bb5DeJBshvYOyc3X1uzMhbN4tBI&sz=w640",
+          "sizeBytes": 4913013,
+          "sha256": "83F4F62B362B8A41548907B27B093B85098492D0464C7B6AD3510929078BAD14",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Time Walker: Dark World — Time Walker"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F2D00C7DE000",
+      "title": "Exception",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F2D00C7DE000.jpg",
+      "variants": [
+        {
+          "id": "v_99f7b093",
+          "name": "异常 | Exception — 异常预告片",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lGHOOiupjEHnjNFVj9AXvynvmnr7gT8T",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lGHOOiupjEHnjNFVj9AXvynvmnr7gT8T&sz=w640",
+          "sizeBytes": 5533062,
+          "sha256": "ABEB5431ACFCE9E3FB8C728510E2516C514EDC4B74DE411BBA2516DC2394C087",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 异常 | Exception — 异常预告片"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F7C012D68000",
+      "title": "Juiced",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F7C012D68000.jpg",
+      "variants": [
+        {
+          "id": "v_cf082219",
+          "name": "Kiwi Clicker - Juiced Up — Main - EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1e3IiJzOJUs5zESKWwxTrbY82QpMa1CqO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1e3IiJzOJUs5zESKWwxTrbY82QpMa1CqO&sz=w640",
+          "sizeBytes": 5389993,
+          "sha256": "F88ABE164CA84C3A6B4DEBB1F3E635679DA809BBD8407CEBF908A0EB521DA567",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kiwi Clicker - Juiced Up — Main - EN"
+        }
+      ]
+    },
+    {
+      "titleId": "01009EC01545E000",
+      "title": "Tails of Trainspot",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009EC01545E000.jpg",
+      "variants": [
+        {
+          "id": "v_5c9f08a8",
+          "name": "Tails of Trainspot — Steam Teaser",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lD2pVgmwWzaWBsn28fES_bIAv1qZzHmL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lD2pVgmwWzaWBsn28fES_bIAv1qZzHmL&sz=w640",
+          "sizeBytes": 5482222,
+          "sha256": "BFE1FF393904A78F97CE3D590FDEF658534E830D14B4FB6D51DBAA5FABF87C67",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tails of Trainspot — Steam Teaser"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C7A01F5E2000",
+      "title": "Byte the Bullet",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C7A01F5E2000.jpg",
+      "variants": [
+        {
+          "id": "v_84c893ee",
+          "name": "Byte The Bullet — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1838AJ-fRMhh9d603DhzQNbZL9D-aX4nb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1838AJ-fRMhh9d603DhzQNbZL9D-aX4nb&sz=w640",
+          "sizeBytes": 5197020,
+          "sha256": "7FB446FF8224229EA060205A8AB861E1925ACD34E1E97C84A068F2C26872FFED",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Byte The Bullet — Launch Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 5093,
-  "totalVariants": 6517,
-  "lastUpdated": "2026-11-10T13:33:07.893307+00:00"
+  "totalGames": 5103,
+  "totalVariants": 6527,
+  "lastUpdated": "2026-11-10T13:37:28.771020+00:00"
 }
