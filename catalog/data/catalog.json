@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T00:33:25.426137+00:00",
+  "updatedAt": "2026-11-10T00:36:14.262644+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -97468,9 +97468,269 @@
           "notes": "Switch 720p 30fps H264 | Yars Rising — Yars Rising - Launch Trail"
         }
       ]
+    },
+    {
+      "titleId": "010063601B386000",
+      "title": "Venatrix",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010063601B386000.jpg",
+      "variants": [
+        {
+          "id": "v_fccff9db",
+          "name": "Venatrix — Venatrix Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1JioxbgsvXdibXsP9kyIhpbX5ExmydHMU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1JioxbgsvXdibXsP9kyIhpbX5ExmydHMU&sz=w640",
+          "sizeBytes": 3056462,
+          "sha256": "E21FB5A01DC82B07EA227E89E227B707D965412C45A83B4F2C6DDBBB129B33CF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Venatrix — Venatrix Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100772022592000",
+      "title": "Dead Reset",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100772022592000.jpg",
+      "variants": [
+        {
+          "id": "v_e24fa0cc",
+          "name": "Dead Reset — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zpQNjo1njTRI1n3ncuvIOBXd767fCXWi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zpQNjo1njTRI1n3ncuvIOBXd767fCXWi&sz=w640",
+          "sizeBytes": 4412492,
+          "sha256": "7515DE8DEE4276EB27E1EB6B93BA607C361A44194C81860C098A023DB2C05349",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dead Reset — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01008ED024492000",
+      "title": "Star Ores Inc",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008ED024492000.jpg",
+      "variants": [
+        {
+          "id": "v_34b8c4b1",
+          "name": "Star Ores Inc. — Star Ores Inc. - Release Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CUYeBR0tahzszYKmHSvGHFcai5CKBfoT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CUYeBR0tahzszYKmHSvGHFcai5CKBfoT&sz=w640",
+          "sizeBytes": 5159107,
+          "sha256": "10B9359C2E178E84804C2FCB9D4F340D64A8D65FABC63F86A163F05124A29859",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Star Ores Inc. — Star Ores Inc. - Releas"
+        }
+      ]
+    },
+    {
+      "titleId": "0100248022988000",
+      "title": "Soulbind: Tales of the Underworld",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100248022988000.jpg",
+      "variants": [
+        {
+          "id": "v_1332ca17",
+          "name": "Soulbind: Tales Of The Underworld — Release trai",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1EI0mgW5O-1nGH5yV4Zog9CA9u7oBDsB4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1EI0mgW5O-1nGH5yV4Zog9CA9u7oBDsB4&sz=w640",
+          "sizeBytes": 5169349,
+          "sha256": "37C83AB85ABA10F305667105C699F823C99F0024E72F621DAAB92C5D07B6B84A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Soulbind: Tales Of The Underworld — Rele"
+        }
+      ]
+    },
+    {
+      "titleId": "010073400B696000",
+      "title": "Shadowgate",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010073400B696000.jpg",
+      "variants": [
+        {
+          "id": "v_b9a4c1e8",
+          "name": "Beyond Shadowgate — Beyond Shadowgate",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hWU5pntvgmFuqnXHeN75qyubP7r6xBNa",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hWU5pntvgmFuqnXHeN75qyubP7r6xBNa&sz=w640",
+          "sizeBytes": 5224764,
+          "sha256": "0F079C0160851443BCACD477FA41D09F6DFCE7A32A6326C1C76E93E7207CD82C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Beyond Shadowgate — Beyond Shadowgate"
+        }
+      ]
+    },
+    {
+      "titleId": "0100170017742000",
+      "title": "Saviorless",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100170017742000.jpg",
+      "variants": [
+        {
+          "id": "v_fe68066d",
+          "name": "Saviorless — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1szM9w2sS-1z4fFz94gj0LKK8h01p90Ve",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1szM9w2sS-1z4fFz94gj0LKK8h01p90Ve&sz=w640",
+          "sizeBytes": 5294838,
+          "sha256": "4E315072AE0B43D3CE586CBA3643675E60E071A5C4AD49376BC401B4B2C48D79",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Saviorless — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CC701DF1E000",
+      "title": "Sacre Bleu",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CC701DF1E000.jpg",
+      "variants": [
+        {
+          "id": "v_784117b8",
+          "name": "Sacre Bleu — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dwlxz3inV0VEU7hHKOGvJ9PHXIX--HVo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dwlxz3inV0VEU7hHKOGvJ9PHXIX--HVo&sz=w640",
+          "sizeBytes": 4779138,
+          "sha256": "B731745FACDD68675EEA82199690AA91225CE80CD52B1D2CB1D031D5597951EB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sacre Bleu — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010051D0175A4000",
+      "title": "Run the World In Between",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010051D0175A4000.jpg",
+      "variants": [
+        {
+          "id": "v_2f889f0a",
+          "name": "RUN: The world in-between — Launch trailer - now",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1iagyqZnd0lVa36cgwOPxzf8m01mnCK_N",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1iagyqZnd0lVa36cgwOPxzf8m01mnCK_N&sz=w640",
+          "sizeBytes": 4677553,
+          "sha256": "319236C238C762202E35B595A9D32FDAE1CBEBDBFC8228EF808DBE3D1B7BF519",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | RUN: The world in-between — Launch trail"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EAB00605C000",
+      "title": "Poly Bridge",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EAB00605C000.jpg",
+      "variants": [
+        {
+          "id": "v_37509232",
+          "name": "Poly Bridge 3 — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1URv2bpUL4yCpc7QwIoCG8BirlUHN1QUG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1URv2bpUL4yCpc7QwIoCG8BirlUHN1QUG&sz=w640",
+          "sizeBytes": 4994689,
+          "sha256": "130E0CC89CF3E9AAD7BCC0727D1E8946862D815109EA2957CA188FD438ECF803",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Poly Bridge 3 — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CC700B2B4000",
+      "title": "Pixark",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CC700B2B4000.jpg",
+      "variants": [
+        {
+          "id": "v_00439459",
+          "name": "PixARK — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jHmNCEWiqG86S2XXbRh0TMY3Tg5BNtNM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jHmNCEWiqG86S2XXbRh0TMY3Tg5BNtNM&sz=w640",
+          "sizeBytes": 5592596,
+          "sha256": "5E77933D187B42B915A8000C6ED2B28B874C931897CD3D22A10FB60BD0B23840",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | PixARK — Launch Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 2693,
-  "totalVariants": 4117,
-  "lastUpdated": "2026-11-10T00:33:25.426137+00:00"
+  "totalGames": 2703,
+  "totalVariants": 4127,
+  "lastUpdated": "2026-11-10T00:36:14.262644+00:00"
 }
