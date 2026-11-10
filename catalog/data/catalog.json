@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T13:37:28.771020+00:00",
+  "updatedAt": "2026-11-10T13:41:26.005961+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -160128,9 +160128,269 @@
           "notes": "Switch 720p 30fps H264 | Byte The Bullet — Launch Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100DEB00D76E000",
+      "title": "Bard's Gold",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DEB00D76E000.jpg",
+      "variants": [
+        {
+          "id": "v_4ee3f32a",
+          "name": "Bard's Gold — Bard's Gold Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12kSJAmMggqtT8-mXLg_yGRN8WFxRVOnP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12kSJAmMggqtT8-mXLg_yGRN8WFxRVOnP&sz=w640",
+          "sizeBytes": 5515762,
+          "sha256": "12A5E6FA6DF8CF04DA8E8DFAE96B33996688803BF1CF60654EECAAAC4F43D701",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bard's Gold — Bard's Gold Gameplay Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BCD010E88000",
+      "title": "Brotherhood United",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BCD010E88000.jpg",
+      "variants": [
+        {
+          "id": "v_59c9629f",
+          "name": "Brotherhood United — Brotherhood United Official",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kfzsrgLe7V2QJD0ZkdjgP5WgvIFj4kFL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kfzsrgLe7V2QJD0ZkdjgP5WgvIFj4kFL&sz=w640",
+          "sizeBytes": 4736060,
+          "sha256": "9DE6A8E93AB564276255FD246E10C63CD74A42D02A03026434C8B17169284ABB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Brotherhood United — Brotherhood United "
+        }
+      ]
+    },
+    {
+      "titleId": "01006F50152B8000",
+      "title": "Mastho is Together",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006F50152B8000.jpg",
+      "variants": [
+        {
+          "id": "v_e03bd30b",
+          "name": "Mastho is Together — Gameplay",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=149fkMpf80D9VdT0PUUZ8qUrXFVwChvEo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=149fkMpf80D9VdT0PUUZ8qUrXFVwChvEo&sz=w640",
+          "sizeBytes": 5371668,
+          "sha256": "002579CFFC33471583487B31C73D966ED2FD85CE6DB6F362CBACDE306232B2A8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mastho is Together — Gameplay"
+        }
+      ]
+    },
+    {
+      "titleId": "010044A010BB8000",
+      "title": "Robozarro",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010044A010BB8000.jpg",
+      "variants": [
+        {
+          "id": "v_50971bd2",
+          "name": "Robozarro — Robozarro Multi-Plat Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qDeWW2lO6-wG7hWHcaeaezFL22etsPAr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qDeWW2lO6-wG7hWHcaeaezFL22etsPAr&sz=w640",
+          "sizeBytes": 4886462,
+          "sha256": "C271FA8F248BEF47246B52ED474A18273FCB9AAE89DBC8ED688833D7C7B3605B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Robozarro — Robozarro Multi-Plat Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D4902017C000",
+      "title": "Crash Puzzle Hammer San",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D4902017C000.jpg",
+      "variants": [
+        {
+          "id": "v_59378da8",
+          "name": "Crash Puzzle Hammer-San — play movie",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ipyqqgT4M23Juf-zMv1w7Zdv4rNz6PpD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ipyqqgT4M23Juf-zMv1w7Zdv4rNz6PpD&sz=w640",
+          "sizeBytes": 5284408,
+          "sha256": "D8090610C428CF250E13E1C5C59D1FB5425C07FB9531F295EDDFCE7A3500D19E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Crash Puzzle Hammer-San — play movie"
+        }
+      ]
+    },
+    {
+      "titleId": "010095901925C000",
+      "title": "Gunslingers & Zombies",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010095901925C000.jpg",
+      "variants": [
+        {
+          "id": "v_65150250",
+          "name": "Gunslingers & Zombies — Gunslingers & Zombies La",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1f-Sx4G2DPszZCuOSGnrqQdhKW1BsOg6A",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1f-Sx4G2DPszZCuOSGnrqQdhKW1BsOg6A&sz=w640",
+          "sizeBytes": 5372265,
+          "sha256": "F8A6EF8CB7E0131B8F0D7FB24650C06C2FD680EF708F3694B521CBACE9C2099B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Gunslingers & Zombies — Gunslingers & Zo"
+        }
+      ]
+    },
+    {
+      "titleId": "010011401AE62000",
+      "title": "Trip World DX",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010011401AE62000.jpg",
+      "variants": [
+        {
+          "id": "v_686e01b1",
+          "name": "Road Trip to the End of the World — Road Trip to",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1YVXeGVga0Tpo3RN4gK2ROCzaSfrFI2VW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1YVXeGVga0Tpo3RN4gK2ROCzaSfrFI2VW&sz=w640",
+          "sizeBytes": 5441242,
+          "sha256": "4414F296CCC9905BA5D4C163C467682C1F0EE8C9585798D4D1940F5FF79F7BC1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Road Trip to the End of the World — Road"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F5A016B0A000",
+      "title": "Explosive Candy World",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F5A016B0A000.jpg",
+      "variants": [
+        {
+          "id": "v_cd21f6cc",
+          "name": "Explosive Candy World — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wQnU-zkB2VO7gmy0kPgoQAsi7plwYlKs",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wQnU-zkB2VO7gmy0kPgoQAsi7plwYlKs&sz=w640",
+          "sizeBytes": 5364614,
+          "sha256": "5D6E031B116322A4111743E825C19166B167CBB663B13D61D6869F296FE6D2DA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Explosive Candy World — Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01000F101286A000",
+      "title": "We Are Doomed",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000F101286A000.jpg",
+      "variants": [
+        {
+          "id": "v_f046f1ec",
+          "name": "WE ARE DOOMED — WE ARE DOOMED",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1s7JwvoNe3Um5bM9yiTCGPcFwPHLp4NtQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1s7JwvoNe3Um5bM9yiTCGPcFwPHLp4NtQ&sz=w640",
+          "sizeBytes": 4986605,
+          "sha256": "BA8395C67B259D87B34E928F43E3AB4BF9B6761BEFB550CB6777DB5E7DB4D062",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | WE ARE DOOMED — WE ARE DOOMED"
+        }
+      ]
+    },
+    {
+      "titleId": "01002C6016144000",
+      "title": "Kharon's Crypt Even Death May Die",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002C6016144000.jpg",
+      "variants": [
+        {
+          "id": "v_16fa486c",
+          "name": "Kharon's Crypt - Even Death May Die — Kharon's C",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gNBu1LHAKTBVgUB8R6irs4X7SkaJOTlO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gNBu1LHAKTBVgUB8R6irs4X7SkaJOTlO&sz=w640",
+          "sizeBytes": 4469440,
+          "sha256": "867A1ECDACB80438A028E63E55DBE03ADBDDD9B5E0FD6E2093CDA5579CCA386B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kharon's Crypt - Even Death May Die — Kh"
+        }
+      ]
     }
   ],
-  "totalGames": 5103,
-  "totalVariants": 6527,
-  "lastUpdated": "2026-11-10T13:37:28.771020+00:00"
+  "totalGames": 5113,
+  "totalVariants": 6537,
+  "lastUpdated": "2026-11-10T13:41:26.005961+00:00"
 }
