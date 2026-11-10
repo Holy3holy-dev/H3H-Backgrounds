@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T14:36:53.849932+00:00",
+  "updatedAt": "2026-11-10T14:40:35.465845+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -164288,9 +164288,269 @@
           "notes": "Switch 720p 30fps H264 | Corridor Z — Corridor Z PC Trailer"
         }
       ]
+    },
+    {
+      "titleId": "01003E401A8D0000",
+      "title": "Holyhunt",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003E401A8D0000.jpg",
+      "variants": [
+        {
+          "id": "v_f6a60dcd",
+          "name": "HOLYHUNT — Video Release",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wZhs88tRVKqUZeuDa9-Xb3VIgTkhYPZK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wZhs88tRVKqUZeuDa9-Xb3VIgTkhYPZK&sz=w640",
+          "sizeBytes": 5480922,
+          "sha256": "20957E59EEB6C1D7CF6CAABB0B25B00F1ED257E6D255DC680322729A9C66AEDB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | HOLYHUNT — Video Release"
+        }
+      ]
+    },
+    {
+      "titleId": "01000AA013BFE000",
+      "title": "Legal Dungeon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000AA013BFE000.jpg",
+      "variants": [
+        {
+          "id": "v_a8d3b241",
+          "name": "Legal Dungeon — Legal Dungeon Official Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15cdKt9wva9MHtKg_lYxSjn7FOkaXlIDs",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15cdKt9wva9MHtKg_lYxSjn7FOkaXlIDs&sz=w640",
+          "sizeBytes": 3597605,
+          "sha256": "326B64C894E4637864C7D345C8CF7EE7FB9E95389ACDE40F61C30D27FFEFAAA6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Legal Dungeon — Legal Dungeon Official T"
+        }
+      ]
+    },
+    {
+      "titleId": "0100394010844000",
+      "title": "Seers Isle",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100394010844000.jpg",
+      "variants": [
+        {
+          "id": "v_9e1da3ad",
+          "name": "Seers Isle — Seers Isle Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1F7w2PvxmDzEPS8iMmjlzZmLpsULRVJ8p",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1F7w2PvxmDzEPS8iMmjlzZmLpsULRVJ8p&sz=w640",
+          "sizeBytes": 5111467,
+          "sha256": "0EB75A037E330846756461443E0FF2D829EDDCADDEF0CB0CC0D70F630B9D0314",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Seers Isle — Seers Isle Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100346018A64000",
+      "title": "Aquadine",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100346018A64000.jpg",
+      "variants": [
+        {
+          "id": "v_a0299d2d",
+          "name": "Aquadine — Aquadine OP",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Uxf3oz4tLDu6-mY5rYG5StzHGmmIkwbb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Uxf3oz4tLDu6-mY5rYG5StzHGmmIkwbb&sz=w640",
+          "sizeBytes": 4583201,
+          "sha256": "AE23C9C2BF8219F7A88B6B144384C76233D7733FAD4D629DF6C5165A92D55502",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Aquadine — Aquadine OP"
+        }
+      ]
+    },
+    {
+      "titleId": "01008DF00B78E000",
+      "title": "Gunbrick Reloaded",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008DF00B78E000.jpg",
+      "variants": [
+        {
+          "id": "v_e628c374",
+          "name": "Gunbrick: Reloaded — Gunbrick: Reloaded",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_XcpFp1jxJaEohPtRpS34yaV5GNjyiMK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_XcpFp1jxJaEohPtRpS34yaV5GNjyiMK&sz=w640",
+          "sizeBytes": 5282400,
+          "sha256": "C9F1B7DA77E7B57639ACE6F954E80E8BC881EC2AB7AF9F9F7B46534B9054BAE3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Gunbrick: Reloaded — Gunbrick: Reloaded"
+        }
+      ]
+    },
+    {
+      "titleId": "010011700D1B2000",
+      "title": "Perchang",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010011700D1B2000.jpg",
+      "variants": [
+        {
+          "id": "v_b21d7f43",
+          "name": "Perchang — Perchang PC Launch",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AWYpqoXCMTto5OTA6g9jvprnFXdSBcEj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AWYpqoXCMTto5OTA6g9jvprnFXdSBcEj&sz=w640",
+          "sizeBytes": 4351620,
+          "sha256": "3D6C42A9EF9C2F36827042EC190C7612AA2FE1F887633128D72EF15CAA353BDA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Perchang — Perchang PC Launch"
+        }
+      ]
+    },
+    {
+      "titleId": "0100ED700469A000",
+      "title": "Deru the Art of Cooperation",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100ED700469A000.jpg",
+      "variants": [
+        {
+          "id": "v_b7d586c6",
+          "name": "DERU - The Art of Cooperation — DERU - Release G",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19pxV1e4VJ_tYkbI6nGKyVqZPPUflFDMC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19pxV1e4VJ_tYkbI6nGKyVqZPPUflFDMC&sz=w640",
+          "sizeBytes": 5097299,
+          "sha256": "8E81354910DBB5882178983594B02F7791DDDF5EC9CFF379DA08E6FF61472841",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | DERU - The Art of Cooperation — DERU - R"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E0B017FA2000",
+      "title": "Mission 1985",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E0B017FA2000.jpg",
+      "variants": [
+        {
+          "id": "v_e8870d79",
+          "name": "Mission 1985 — Mission 1985 Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1EbVEBCR_-COQlHdtixRRVzc3zN7iYLgf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1EbVEBCR_-COQlHdtixRRVzc3zN7iYLgf&sz=w640",
+          "sizeBytes": 5267131,
+          "sha256": "ABECBEE326C384A3312B0E9994ECB3DDF5CE219AD53B2F104248E84ED9DA1228",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mission 1985 — Mission 1985 Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010061A018D8C000",
+      "title": "Escape Goat",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010061A018D8C000.jpg",
+      "variants": [
+        {
+          "id": "v_32917380",
+          "name": "Escape Goat — PC Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_1q2TCnnafKyNYB2INEo_h-yV3cZORSC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_1q2TCnnafKyNYB2INEo_h-yV3cZORSC&sz=w640",
+          "sizeBytes": 4509603,
+          "sha256": "DF196AE6442D84713CD21E9DBBCAC2778D5C8AC566403F6F0CAA1184EB0A2A46",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Escape Goat — PC Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A4A014AF4000",
+      "title": "The Mysterious Case of Dr Jekyll and Mr Hyde",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A4A014AF4000.jpg",
+      "variants": [
+        {
+          "id": "v_613752ff",
+          "name": "The mysterious Case of Dr. Jekyll and Mr. Hyde —",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oPBZP1h0z16pcHYk5AlFIy_tZbnrisZL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oPBZP1h0z16pcHYk5AlFIy_tZbnrisZL&sz=w640",
+          "sizeBytes": 5300173,
+          "sha256": "60D6E1B31BA890218DEC25B2156BAACE3E313B1389659982B9800D9D54E3DF83",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The mysterious Case of Dr. Jekyll and Mr"
+        }
+      ]
     }
   ],
-  "totalGames": 5263,
-  "totalVariants": 6687,
-  "lastUpdated": "2026-11-10T14:36:53.849932+00:00"
+  "totalGames": 5273,
+  "totalVariants": 6697,
+  "lastUpdated": "2026-11-10T14:40:35.465845+00:00"
 }
