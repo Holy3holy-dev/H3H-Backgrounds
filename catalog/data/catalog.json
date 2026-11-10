@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T03:50:12.224475+00:00",
+  "updatedAt": "2026-11-10T03:53:10.459313+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -113328,9 +113328,269 @@
           "notes": "Switch 720p 30fps H264 | Timelie — Timelie - Accolades Trailer"
         }
       ]
+    },
+    {
+      "titleId": "01002530181E8000",
+      "title": "Underland the Climb",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002530181E8000.jpg",
+      "variants": [
+        {
+          "id": "v_05e53e0c",
+          "name": "Underland: The Climb — TrailerFinal",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TKejG8GS_BzgRqP6u5KRRnlaHz278yMb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TKejG8GS_BzgRqP6u5KRRnlaHz278yMb&sz=w640",
+          "sizeBytes": 5306875,
+          "sha256": "CFE783E82BE044A9C07D0B5D3C2EDD3FF7EFBADB912F923A1095ABD2AA43AD4E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Underland: The Climb — TrailerFinal"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C94015CBA000",
+      "title": "Underland",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C94015CBA000.jpg",
+      "variants": [
+        {
+          "id": "v_da548294",
+          "name": "Underland: The Climb — TrailerFinal",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FzSkGfgoB5tyE1BjyJIt7hzRDKD1lV2T",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FzSkGfgoB5tyE1BjyJIt7hzRDKD1lV2T&sz=w640",
+          "sizeBytes": 5306875,
+          "sha256": "CFE783E82BE044A9C07D0B5D3C2EDD3FF7EFBADB912F923A1095ABD2AA43AD4E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Underland: The Climb — TrailerFinal"
+        }
+      ]
+    },
+    {
+      "titleId": "010047F014B82000",
+      "title": "Where's Samantha",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010047F014B82000.jpg",
+      "variants": [
+        {
+          "id": "v_de37bb97",
+          "name": "Where's Samantha? — Update and Discount",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ctSAqQ1eK2SKa-3o0TuQLZFRdD223zsX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ctSAqQ1eK2SKa-3o0TuQLZFRdD223zsX&sz=w640",
+          "sizeBytes": 5187270,
+          "sha256": "3D3D09B605C4FDD729A54325CC881FB6040717C513D4EE616D066BBAA92A1783",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Where's Samantha? — Update and Discount"
+        }
+      ]
+    },
+    {
+      "titleId": "010036D00C362000",
+      "title": "Sheltered",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010036D00C362000.jpg",
+      "variants": [
+        {
+          "id": "v_e3a447fa",
+          "name": "Sheltered 2 — Sheltered 2 Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14hJSvbQI13dAUmEJR7h5sGjcvfzmcPVs",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14hJSvbQI13dAUmEJR7h5sGjcvfzmcPVs&sz=w640",
+          "sizeBytes": 5577979,
+          "sha256": "6EB20F665CAFD1A3D60F23F9764049180CE32CD493CC80D2C80E3F9E0CA7E86B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sheltered 2 — Sheltered 2 Release Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D67013910000",
+      "title": "Wanna Survive",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D67013910000.jpg",
+      "variants": [
+        {
+          "id": "v_0e517133",
+          "name": "Wanna Survive — let you know the gameplay in 13 ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jtBVdRAJTXCAv_B-iQbzL6kyP8H4R6Bw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jtBVdRAJTXCAv_B-iQbzL6kyP8H4R6Bw&sz=w640",
+          "sizeBytes": 9256070,
+          "sha256": "F038371496E38C1B8459EF9044AC3CEBB1DAC4BD5F3A33CD8B07AD74F9459C1F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wanna Survive — let you know the gamepla"
+        }
+      ]
+    },
+    {
+      "titleId": "0100736018592000",
+      "title": "Kona II Brume",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100736018592000.jpg",
+      "variants": [
+        {
+          "id": "v_8e4247bd",
+          "name": "Kona II: Brume — Release Trailer - ESRB",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18N1Rogh19yEXdqQBLqW4hjnXqsnaMMh3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18N1Rogh19yEXdqQBLqW4hjnXqsnaMMh3&sz=w640",
+          "sizeBytes": 5396429,
+          "sha256": "578A54D8DEA113C36ABD13BB5140EBF1AC7A8A3358D8DB014C7D86FA35F38E8B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kona II: Brume — Release Trailer - ESRB"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E4900D266000",
+      "title": "Jet Kave Adventure",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E4900D266000.jpg",
+      "variants": [
+        {
+          "id": "v_8b00c4d7",
+          "name": "Jet Kave Adventure — Jet Kave Adventure Launch T",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1I-WCHm3ZiT1eTKRslAbdep7eqE7Rs_2p",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1I-WCHm3ZiT1eTKRslAbdep7eqE7Rs_2p&sz=w640",
+          "sizeBytes": 5277252,
+          "sha256": "5F63BB4196A24B056E8A6AB938E05744482E809679A1A081051E17CD99BB0181",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Jet Kave Adventure — Jet Kave Adventure "
+        }
+      ]
+    },
+    {
+      "titleId": "0100D1A019EBA000",
+      "title": "Highwater",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D1A019EBA000.jpg",
+      "variants": [
+        {
+          "id": "v_6caee718",
+          "name": "Highwater — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Kl6G3sO9nORgIW3A2DYm4wAq_gUr1M0f",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Kl6G3sO9nORgIW3A2DYm4wAq_gUr1M0f&sz=w640",
+          "sizeBytes": 4834668,
+          "sha256": "4D3B3D0089E28E49F6C8660DA1C971105DCD93EF83C772E48875B825CA8DC5B2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Highwater — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01003CA01F3AE000",
+      "title": "Please be Happy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003CA01F3AE000.jpg",
+      "variants": [
+        {
+          "id": "v_8e1d1438",
+          "name": "Please Be Happy — Main PV EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xas5iqhpK0JHm3BqxxgF5vpa45UGz6TP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xas5iqhpK0JHm3BqxxgF5vpa45UGz6TP&sz=w640",
+          "sizeBytes": 5150047,
+          "sha256": "1B68B9597BE5E261169BA170C364AD4B077AE3A51457794CDA91FC0C704CDF42",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Please Be Happy — Main PV EN"
+        }
+      ]
+    },
+    {
+      "titleId": "010073A010430000",
+      "title": "Taxi Driver The Simulation",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010073A010430000.jpg",
+      "variants": [
+        {
+          "id": "v_e815e6d8",
+          "name": "Taxi Driver - The Simulation — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qfzz1Rs5sZywUjDbZym-gtx5RMODST4R",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qfzz1Rs5sZywUjDbZym-gtx5RMODST4R&sz=w640",
+          "sizeBytes": 5463340,
+          "sha256": "38F3253AAAF85ED772DA19B56C2106FE6704DCAD5E57AB9AD08DAD96D292E5FD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Taxi Driver - The Simulation — Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 3303,
-  "totalVariants": 4727,
-  "lastUpdated": "2026-11-10T03:50:12.224475+00:00"
+  "totalGames": 3313,
+  "totalVariants": 4737,
+  "lastUpdated": "2026-11-10T03:53:10.459313+00:00"
 }
