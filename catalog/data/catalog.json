@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T06:43:26.574654+00:00",
+  "updatedAt": "2026-11-10T06:46:23.968246+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -127888,9 +127888,269 @@
           "notes": "Switch 720p 30fps H264 | Cloud Gardens — Industrial Update Traile"
         }
       ]
+    },
+    {
+      "titleId": "0100E4A0194DE000",
+      "title": "Crowded Mysteries",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E4A0194DE000.jpg",
+      "variants": [
+        {
+          "id": "v_2871daa1",
+          "name": "Crowded Mysteries — Crowded Mysteries",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Vvefc2wqURmMjl4rJaqzpWNN3kLm7Nj_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Vvefc2wqURmMjl4rJaqzpWNN3kLm7Nj_&sz=w640",
+          "sizeBytes": 5389268,
+          "sha256": "D0A52AEB9AACC7FC488AB253E933D71A3B81D9223E3093E2F838725C247A427F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Crowded Mysteries — Crowded Mysteries"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E4701373E000",
+      "title": "My Hidden Things",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E4701373E000.jpg",
+      "variants": [
+        {
+          "id": "v_cd63ad5c",
+          "name": "My Hidden Things — Main-video",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1YYqTAnTBfL_lD_qmHZ4T-8OV77I7v3A2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1YYqTAnTBfL_lD_qmHZ4T-8OV77I7v3A2&sz=w640",
+          "sizeBytes": 5481227,
+          "sha256": "4F1E8B946795974D8CD4055809190795AC73AB8332E3AB5794D3AF377E5663E0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | My Hidden Things — Main-video"
+        }
+      ]
+    },
+    {
+      "titleId": "01006290179AC000",
+      "title": "Meg's Monster",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006290179AC000.jpg",
+      "variants": [
+        {
+          "id": "v_30a32a1e",
+          "name": "Meg's Monster — Teaser",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eGeoIUddtGH9GSVGCvbYME_RFCC0ftcQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eGeoIUddtGH9GSVGCvbYME_RFCC0ftcQ&sz=w640",
+          "sizeBytes": 4917850,
+          "sha256": "9885F831D6CA5BC3CBB43144579CB82C1ADC7438620792AC39CD479B997273C2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Meg's Monster — Teaser"
+        }
+      ]
+    },
+    {
+      "titleId": "010012B019ACA000",
+      "title": "Desta the Memories Between",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010012B019ACA000.jpg",
+      "variants": [
+        {
+          "id": "v_e1588a4b",
+          "name": "Desta: The Memories Between — Desta: The Memorie",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18LfyrTXXOJMhZ2w-Ly8_FTq2XO98w-YZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18LfyrTXXOJMhZ2w-Ly8_FTq2XO98w-YZ&sz=w640",
+          "sizeBytes": 5297430,
+          "sha256": "2089145F160C76344A89753582F52E594B5EB1961431260CBDBF6EE9FF547C06",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Desta: The Memories Between — Desta: The"
+        }
+      ]
+    },
+    {
+      "titleId": "010045000BF6A000",
+      "title": "Mitsurugi Kamui Hikae",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010045000BF6A000.jpg",
+      "variants": [
+        {
+          "id": "v_f055ea51",
+          "name": "Mitsurugi Kamui Hikae — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PG5c0fb5T3f_ugLTLDcac63cxINIa4GA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PG5c0fb5T3f_ugLTLDcac63cxINIa4GA&sz=w640",
+          "sizeBytes": 5461354,
+          "sha256": "FA542AC70427955453EBC1CF44BF90CCD29A7476809DC44FEA831C8E7860A392",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mitsurugi Kamui Hikae — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100003020D46000",
+      "title": "StreamLove Voyage",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100003020D46000.jpg",
+      "variants": [
+        {
+          "id": "v_f7a3f5ea",
+          "name": "StreamLove Voyage — TrailerMovie_en",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DhL1Iro3oGrpJTEgHiBzCtwhpUDJlknW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DhL1Iro3oGrpJTEgHiBzCtwhpUDJlknW&sz=w640",
+          "sizeBytes": 4024129,
+          "sha256": "D5F55366D8B6CA2B1259023901CA5B983AA8AAB1147CCD0DFADEE36A7321FDCE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | StreamLove Voyage — TrailerMovie_en"
+        }
+      ]
+    },
+    {
+      "titleId": "01006EC0200A4000",
+      "title": "Azura's Crystals",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006EC0200A4000.jpg",
+      "variants": [
+        {
+          "id": "v_45643d7c",
+          "name": "Azura's Crystals — Announcement Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mACCvPfwDLXdhKQv5TyXsNiahGn8DMme",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mACCvPfwDLXdhKQv5TyXsNiahGn8DMme&sz=w640",
+          "sizeBytes": 4880394,
+          "sha256": "DF62900BC79136873255AE062C6F323C73870B64853FA2651615E66D45270A38",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Azura's Crystals — Announcement Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01009F5017B2E000",
+      "title": "Hourglass",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009F5017B2E000.jpg",
+      "variants": [
+        {
+          "id": "v_ac299aa1",
+          "name": "Shattered Hourglass — Shattered Hourglass Steam ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GsuoAAKK0lZGDVBjMHgpBqX8ioW-Wdo4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GsuoAAKK0lZGDVBjMHgpBqX8ioW-Wdo4&sz=w640",
+          "sizeBytes": 5283231,
+          "sha256": "F010153827200966E6E4D9D6D42D031B1F13AE017DE5B9E1CBCC70AE990D9421",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Shattered Hourglass — Shattered Hourglas"
+        }
+      ]
+    },
+    {
+      "titleId": "010031F002B66000",
+      "title": "Mr Shifty",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010031F002B66000.jpg",
+      "variants": [
+        {
+          "id": "v_db5175d2",
+          "name": "Mr. Shifty — Mr. Shifty Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Jj3HMe_yzPd3TTkClnyE0iYalJDD6VrN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Jj3HMe_yzPd3TTkClnyE0iYalJDD6VrN&sz=w640",
+          "sizeBytes": 5576756,
+          "sha256": "4BBB7270D9A898355EA5283460EEE79C660C92AA1824F253F01430F5A9C45105",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mr. Shifty — Mr. Shifty Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100519007636000",
+      "title": "Cube Life Island Survival",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100519007636000.jpg",
+      "variants": [
+        {
+          "id": "v_234a6ed9",
+          "name": "Cube Life: Island Survival — Cube Life: Island S",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fXs9JoPlDP7tyeoa6OVvUEtfAYTwXkzG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fXs9JoPlDP7tyeoa6OVvUEtfAYTwXkzG&sz=w640",
+          "sizeBytes": 4763733,
+          "sha256": "85CA57195E6354995AF247D1BBE975BFEBA8E822D6B2158732A4ECF646786355",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cube Life: Island Survival — Cube Life: "
+        }
+      ]
     }
   ],
-  "totalGames": 3863,
-  "totalVariants": 5287,
-  "lastUpdated": "2026-11-10T06:43:26.574654+00:00"
+  "totalGames": 3873,
+  "totalVariants": 5297,
+  "lastUpdated": "2026-11-10T06:46:23.968246+00:00"
 }
