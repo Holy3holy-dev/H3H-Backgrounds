@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T02:44:29.489858+00:00",
+  "updatedAt": "2026-11-10T02:47:32.536156+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -107608,9 +107608,269 @@
           "notes": "Switch 720p 30fps H264 | ESCAPE SITE 13 — Trailer #1"
         }
       ]
+    },
+    {
+      "titleId": "010089200F0E4000",
+      "title": "Turmoil",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010089200F0E4000.jpg",
+      "variants": [
+        {
+          "id": "v_143ba359",
+          "name": "Turmoil — New with multiplayer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xtuSJ_fDdBI5GSI1OPNuulcBDdJLnM2P",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xtuSJ_fDdBI5GSI1OPNuulcBDdJLnM2P&sz=w640",
+          "sizeBytes": 5438486,
+          "sha256": "D692AEFC5AF6F77E3D3B0A1E1F9C43F723966A4FF13E3CF0FB9D5658CE66AC3F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Turmoil — New with multiplayer"
+        }
+      ]
+    },
+    {
+      "titleId": "010089C00B026000",
+      "title": "Braid Anniversary edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010089C00B026000.jpg",
+      "variants": [
+        {
+          "id": "v_ab8cddb7",
+          "name": "Braid, Anniversary Edition — Braid, Anniversary ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1a4mYGJj61KsDGxFdqO0hZZ9YpdVrntd_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1a4mYGJj61KsDGxFdqO0hZZ9YpdVrntd_&sz=w640",
+          "sizeBytes": 4999677,
+          "sha256": "BC32D392E062DD661166BFD5161FAF8DC9D6E0C2EB51A1A59AFCB00E2E71AF21",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Braid, Anniversary Edition — Braid, Anni"
+        }
+      ]
+    },
+    {
+      "titleId": "01005AE0209A8000",
+      "title": "Warriors Abyss",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005AE0209A8000.jpg",
+      "variants": [
+        {
+          "id": "v_e0db7f23",
+          "name": "WARRIORS: Abyss — WARRIORS: Abyss - DYNASTY WARR",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Dex70cklO1WJa-cpvQblUtki7LFo-ehf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Dex70cklO1WJa-cpvQblUtki7LFo-ehf&sz=w640",
+          "sizeBytes": 5284594,
+          "sha256": "D2707B06686AC6B6803524A6EEFCBD60D04562AEE72E5647F652593949008561",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | WARRIORS: Abyss — WARRIORS: Abyss - DYNA"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E9000C42C000",
+      "title": "Tick Tock a Tale for Two",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E9000C42C000.jpg",
+      "variants": [
+        {
+          "id": "v_51a34600",
+          "name": "Tick Tock: A Tale for Two — Tick Tock: A Tale fo",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dtMQv1ibULQmDHHsnWdqvFht8jWZ0K4T",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dtMQv1ibULQmDHHsnWdqvFht8jWZ0K4T&sz=w640",
+          "sizeBytes": 5388436,
+          "sha256": "88C4F631C64EC73CF29B2A7D1CBE6137BE2CC40A5274B1A76779DB7FD35EFD5D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tick Tock: A Tale for Two — Tick Tock: A"
+        }
+      ]
+    },
+    {
+      "titleId": "01007010157EC000",
+      "title": "The Past Within",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007010157EC000.jpg",
+      "variants": [
+        {
+          "id": "v_53c6eb9e",
+          "name": "The Past Within — The Past Within - Official Tra",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GEG6sdBIhlZIDkJRgTLqfjt0Ne2j83k4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GEG6sdBIhlZIDkJRgTLqfjt0Ne2j83k4&sz=w640",
+          "sizeBytes": 9188418,
+          "sha256": "804A44D90DD1F7DB519ED87198A65F3F9FB9D00AA93C62AAFC1FB19E4F5B06A3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Past Within — The Past Within - Offi"
+        }
+      ]
+    },
+    {
+      "titleId": "0100134011E32000",
+      "title": "Skate City",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100134011E32000.jpg",
+      "variants": [
+        {
+          "id": "v_d673d2c1",
+          "name": "Skate City — Skate City Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BrcaTJEDvxbich3FBnvTHwDzqnN7P88B",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BrcaTJEDvxbich3FBnvTHwDzqnN7P88B&sz=w640",
+          "sizeBytes": 5415019,
+          "sha256": "D023B0DC5C5E39576A3F6F2361947F13DD118F5C5E16D69E3C353535A0342F27",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Skate City — Skate City Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010003301E4DC000",
+      "title": "Morsels",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010003301E4DC000.jpg",
+      "variants": [
+        {
+          "id": "v_2cbb0168",
+          "name": "Morsels — Morsels | Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IdbV9mDWkcgLcZyU-q4pamA3cq8P9IC9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IdbV9mDWkcgLcZyU-q4pamA3cq8P9IC9&sz=w640",
+          "sizeBytes": 5304641,
+          "sha256": "5FB41485F3C5651EA65336F718019E1566CFD5482FB7338C9C9108E1DA3B79B0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Morsels — Morsels | Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01003E50243E4000",
+      "title": "Castle Crumble",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003E50243E4000.jpg",
+      "variants": [
+        {
+          "id": "v_2461bc8e",
+          "name": "Castle Crumble — Castle Crumble Is Coming",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11a9tYF9s-hSMFLFmNYYxe5AYwzf7BuoW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11a9tYF9s-hSMFLFmNYYxe5AYwzf7BuoW&sz=w640",
+          "sizeBytes": 5275951,
+          "sha256": "AC24C41C78C420DFCF5DD2120B90B13B8009A4E7C51DCE83FC5D7D6B024810FC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Castle Crumble — Castle Crumble Is Comin"
+        }
+      ]
+    },
+    {
+      "titleId": "0100736019D8E000",
+      "title": "Project Nightmares Case 36 Henrietta Kedward",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100736019D8E000.jpg",
+      "variants": [
+        {
+          "id": "v_075ef181",
+          "name": "Project Nightmares Case 36: Henrietta Kedward — ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yLlmG1SvEnq7-8wlN2ozI3C4qCeA4st2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yLlmG1SvEnq7-8wlN2ozI3C4qCeA4st2&sz=w640",
+          "sizeBytes": 5343719,
+          "sha256": "2901ED3FB92F3621EDA8F0CD0373AC8F4393E63CF961956E50D7186B8E552D07",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Project Nightmares Case 36: Henrietta Ke"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E3901959C000",
+      "title": "Neon Blood",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E3901959C000.jpg",
+      "variants": [
+        {
+          "id": "v_bf540b01",
+          "name": "Neon Blood — Neon Blood Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QySH_K2OsO37KOvzfBBg8njZtYpXzRV5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QySH_K2OsO37KOvzfBBg8njZtYpXzRV5&sz=w640",
+          "sizeBytes": 4566805,
+          "sha256": "FA98F995E148A0C79C698B5AF7E4C38BDDA094539CAEA362D2BDAE9810D23564",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Neon Blood — Neon Blood Launch Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 3083,
-  "totalVariants": 4507,
-  "lastUpdated": "2026-11-10T02:44:29.489858+00:00"
+  "totalGames": 3093,
+  "totalVariants": 4517,
+  "lastUpdated": "2026-11-10T02:47:32.536156+00:00"
 }
