@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T01:02:38.914196+00:00",
+  "updatedAt": "2026-11-10T01:05:36.689243+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -100068,9 +100068,269 @@
           "notes": "Switch 720p 30fps H264 | Distrust: Polar Survival — coop_trailer"
         }
       ]
+    },
+    {
+      "titleId": "01002A8017A7C000",
+      "title": "Foreign Sun",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002A8017A7C000.jpg",
+      "variants": [
+        {
+          "id": "v_488c2b44",
+          "name": "Foreign Sun — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1w4Grl5VYL6qUrRVDEEp0pscyfaKY_V81",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1w4Grl5VYL6qUrRVDEEp0pscyfaKY_V81&sz=w640",
+          "sizeBytes": 5604543,
+          "sha256": "E67769962609C2F8D41DC19F7F28FCBA345F4DBF23150693BB574128809FB7E7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Foreign Sun — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F6C01AE96000",
+      "title": "Crown Wars the Black Prince",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F6C01AE96000.jpg",
+      "variants": [
+        {
+          "id": "v_2ea452d9",
+          "name": "Crown Wars: The Black Prince — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12J-OngQuBzvi7dbOKrV7xml2pUlH3dLl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12J-OngQuBzvi7dbOKrV7xml2pUlH3dLl&sz=w640",
+          "sizeBytes": 4105791,
+          "sha256": "CA87B96067998B120A2811ED18FAB2A6FE2060B7A900978DBF2492F581C300A6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Crown Wars: The Black Prince — Launch Tr"
+        }
+      ]
+    },
+    {
+      "titleId": "010094600DC86000",
+      "title": "Tower of Time",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010094600DC86000.jpg",
+      "variants": [
+        {
+          "id": "v_73ef6008",
+          "name": "Tower of Time — Tower of Time | Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ugK-PaqoHpXR1P2NeOPKYZYq8ngRlHzw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ugK-PaqoHpXR1P2NeOPKYZYq8ngRlHzw&sz=w640",
+          "sizeBytes": 5465118,
+          "sha256": "E88B890B82E2BDC2089C3CFAB4340EC9EA40CCBB069ADEC4309908531535E1E7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tower of Time — Tower of Time | Gameplay"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DD90222A8000",
+      "title": "Kimono Cats",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DD90222A8000.jpg",
+      "variants": [
+        {
+          "id": "v_e9831aa3",
+          "name": "Kimono Cats — Kimono Cats Demo Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LdHRLsshSKYEFgknwZHd2kENEF2cL30B",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LdHRLsshSKYEFgknwZHd2kENEF2cL30B&sz=w640",
+          "sizeBytes": 5376227,
+          "sha256": "FF836CA44BD9FD47E49CD6EB8F603411F8E40B8745B3CD0D5244B99BBA0931F7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kimono Cats — Kimono Cats Demo Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01008F0022CD2000",
+      "title": "Kentum",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008F0022CD2000.jpg",
+      "variants": [
+        {
+          "id": "v_d04851c5",
+          "name": "Kentum — Kentum - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DwdjrK4E4REpS7ovjJp8RITZCYveX2Mz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DwdjrK4E4REpS7ovjJp8RITZCYveX2Mz&sz=w640",
+          "sizeBytes": 5575033,
+          "sha256": "A1B4F6279E1714D3B74032B24413FC09963EB7F2F8C4220604DAF79C8649B519",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kentum — Kentum - Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DDD01ACAA000",
+      "title": "The Entropy Centre",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DDD01ACAA000.jpg",
+      "variants": [
+        {
+          "id": "v_6b4771df",
+          "name": "The Entropy Centre — The Entropy Centre Gameplay",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fO5CpdbZg8xbasWP98mA9GBPmVUNM7g5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fO5CpdbZg8xbasWP98mA9GBPmVUNM7g5&sz=w640",
+          "sizeBytes": 5536998,
+          "sha256": "8C542D68384943382731755F02090916A7292C8338EFEABE41AEF1437B44E688",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Entropy Centre — The Entropy Centre "
+        }
+      ]
+    },
+    {
+      "titleId": "010035A01A73A000",
+      "title": "Folk Hero",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010035A01A73A000.jpg",
+      "variants": [
+        {
+          "id": "v_34fde63a",
+          "name": "Folk Hero — Visual Overhaul",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13rAZBT5lfMTEwFbGGVc54XMbzFK9nRrd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13rAZBT5lfMTEwFbGGVc54XMbzFK9nRrd&sz=w640",
+          "sizeBytes": 5194731,
+          "sha256": "43807DB1D0A11018DFAC08DB904B463BB949111DF094626E234269230246B8ED",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Folk Hero — Visual Overhaul"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A0D0225DA000",
+      "title": "Hannah's Day",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A0D0225DA000.jpg",
+      "variants": [
+        {
+          "id": "v_ef2bb668",
+          "name": "Hannah’s Day — Hannah's Day — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LErYpN8cDftLqBP9m79-zRV3P2IdDKWk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LErYpN8cDftLqBP9m79-zRV3P2IdDKWk&sz=w640",
+          "sizeBytes": 4968622,
+          "sha256": "42E8615E8138CE9FEB19F29589CE1BE69091C336F5FEEECAC574D5F1F1465E9E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hannah’s Day — Hannah's Day — Release Tr"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DC2020C50000",
+      "title": "Call of Sentinels",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DC2020C50000.jpg",
+      "variants": [
+        {
+          "id": "v_dfc6871e",
+          "name": "Call of Sentinels — Main trailer for release #1",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Pz9BV4NOohlMFhYjJtx-Ldz2U0VzIPUO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Pz9BV4NOohlMFhYjJtx-Ldz2U0VzIPUO&sz=w640",
+          "sizeBytes": 5329321,
+          "sha256": "EA03FB93B8B5ADD174AC6EA45A79559764A19BAFA94CCE952D9F771E25812BDC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Call of Sentinels — Main trailer for rel"
+        }
+      ]
+    },
+    {
+      "titleId": "010096D0164DE000",
+      "title": "Terra Alia the Language Discovery",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010096D0164DE000.jpg",
+      "variants": [
+        {
+          "id": "v_7535cdf8",
+          "name": "Terra Alia: The Language Discovery RPG — Dramati",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AfR_TfC1G21G9Kso7dincWHzHIcTtswv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AfR_TfC1G21G9Kso7dincWHzHIcTtswv&sz=w640",
+          "sizeBytes": 5520846,
+          "sha256": "A130F315894040D65DF23D91DDD94FB6A3CDA4E706430B423097D97833B86E74",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Terra Alia: The Language Discovery RPG —"
+        }
+      ]
     }
   ],
-  "totalGames": 2793,
-  "totalVariants": 4217,
-  "lastUpdated": "2026-11-10T01:02:38.914196+00:00"
+  "totalGames": 2803,
+  "totalVariants": 4227,
+  "lastUpdated": "2026-11-10T01:05:36.689243+00:00"
 }
