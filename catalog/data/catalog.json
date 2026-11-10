@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T08:07:10.975800+00:00",
+  "updatedAt": "2026-11-10T08:10:15.903205+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -134908,9 +134908,269 @@
           "notes": "Switch 720p 30fps H264 | Zomborg — Zomborg Original Trailer"
         }
       ]
+    },
+    {
+      "titleId": "010075E01C1B4000",
+      "title": "While the Iron's Hot",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010075E01C1B4000.jpg",
+      "variants": [
+        {
+          "id": "v_0afdc587",
+          "name": "While the Iron's Hot — While the Iron's Hot Laun",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Bj32j2gDOSMBwdfwWS1fgZfXvyIt54nn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Bj32j2gDOSMBwdfwWS1fgZfXvyIt54nn&sz=w640",
+          "sizeBytes": 4914313,
+          "sha256": "FDAD88D69040C9C4066B494E746F75D5162151BBD4DD30896BF0236BF78FEA9D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | While the Iron's Hot — While the Iron's "
+        }
+      ]
+    },
+    {
+      "titleId": "010098201A97C000",
+      "title": "Wild Dogs",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010098201A97C000.jpg",
+      "variants": [
+        {
+          "id": "v_ccd2722d",
+          "name": "Wild Dogs — Steam Trailer v2",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pTa0JdDWktea2O_FO7LxTGvzkPWRb2Mw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pTa0JdDWktea2O_FO7LxTGvzkPWRb2Mw&sz=w640",
+          "sizeBytes": 5419385,
+          "sha256": "14E12885B598F3F876C03CDA5F176D20C79702B83E3074D3855B61F6DE6736BF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wild Dogs — Steam Trailer v2"
+        }
+      ]
+    },
+    {
+      "titleId": "01003A301A29E000",
+      "title": "Volley Pals",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003A301A29E000.jpg",
+      "variants": [
+        {
+          "id": "v_76209ebe",
+          "name": "Volley Pals — Trailer No Intro",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14EpaHXjJLfDgRBaCKH9hfrW-F4NhXm4E",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14EpaHXjJLfDgRBaCKH9hfrW-F4NhXm4E&sz=w640",
+          "sizeBytes": 5411500,
+          "sha256": "4E065F581552E82ABC3C5575940CD1C567D228DE0DEB59E0674CA05A216BD1D5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Volley Pals — Trailer No Intro"
+        }
+      ]
+    },
+    {
+      "titleId": "01006E7018F8A000",
+      "title": "Valthirian Arc Hero School Story 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006E7018F8A000.jpg",
+      "variants": [
+        {
+          "id": "v_b29750ef",
+          "name": "Valthirian Arc: Hero School Story 2 — Launch Tra",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ozSzYYJdEcXgRhvLuTxK9RQGe5gxW9XE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ozSzYYJdEcXgRhvLuTxK9RQGe5gxW9XE&sz=w640",
+          "sizeBytes": 5560692,
+          "sha256": "D2652A30B28BBBA4FADB8CE548B35B87918B13166A92E4AAE595D1C011C3E093",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Valthirian Arc: Hero School Story 2 — La"
+        }
+      ]
+    },
+    {
+      "titleId": "010063B0198EA000",
+      "title": "Vanaris Tactics",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010063B0198EA000.jpg",
+      "variants": [
+        {
+          "id": "v_0acbfdbe",
+          "name": "Vanaris Tactics — Vanaris Release Date Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oOHM53zB74OiG5YKnV70RSWl2alUYEUL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oOHM53zB74OiG5YKnV70RSWl2alUYEUL&sz=w640",
+          "sizeBytes": 5135612,
+          "sha256": "2F55EE65E9CA835A3A3269B5777AAE2C8BD81D07867EC2322C44A8CB71F987FA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Vanaris Tactics — Vanaris Release Date T"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FB2019D0C000",
+      "title": "Velocity Noodle",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FB2019D0C000.jpg",
+      "variants": [
+        {
+          "id": "v_b13478b0",
+          "name": "Velocity Noodle — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1k_yDFRQbYHCgQINSjaX4mV3YOH1Lsv7L",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1k_yDFRQbYHCgQINSjaX4mV3YOH1Lsv7L&sz=w640",
+          "sizeBytes": 5169514,
+          "sha256": "04E7AF8225BE272388E2860BCE2628A09345E1B26B02EBBB301E40A68CFAD784",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Velocity Noodle — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E450187F6000",
+      "title": "Velone",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E450187F6000.jpg",
+      "variants": [
+        {
+          "id": "v_edef3018",
+          "name": "VELONE — ReleaseTrailer EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1A7CidApfN-WTpK7308I7I_38rcVttpzK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1A7CidApfN-WTpK7308I7I_38rcVttpzK&sz=w640",
+          "sizeBytes": 4833494,
+          "sha256": "06FE3C3253B152C927A286AFBBA258E15906091DF81290498E1DDF647C31CC04",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | VELONE — ReleaseTrailer EN"
+        }
+      ]
+    },
+    {
+      "titleId": "01004170113D4000",
+      "title": "The Complex",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004170113D4000.jpg",
+      "variants": [
+        {
+          "id": "v_b79fb0a8",
+          "name": "The Complex — The Complex - Announcement Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Nji0Av4fadQnvv7wI2Nbq5UOhy7ug6ZL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Nji0Av4fadQnvv7wI2Nbq5UOhy7ug6ZL&sz=w640",
+          "sizeBytes": 5475942,
+          "sha256": "93AB8C3C67DBA5324ACC4DEA7333C54185E77E38802C5AF89C65EF0374515E3F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Complex — The Complex - Announcement"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D71019232000",
+      "title": "UFO Unidentified Falling Objects",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D71019232000.jpg",
+      "variants": [
+        {
+          "id": "v_ce662749",
+          "name": "UFO: Unidentified Falling Objects — Launch Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UACPXqXvy7B0FvFqVidVmMmviCxcYrGB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UACPXqXvy7B0FvFqVidVmMmviCxcYrGB&sz=w640",
+          "sizeBytes": 5463293,
+          "sha256": "765BBE837D6DDE98CDE638A309E7EDEA8AF2E533D3536DC7CC2E93AC3F85A9FB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | UFO: Unidentified Falling Objects — Laun"
+        }
+      ]
+    },
+    {
+      "titleId": "01001E50196F0000",
+      "title": "Tristia Restore",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001E50196F0000.jpg",
+      "variants": [
+        {
+          "id": "v_19f1fc1d",
+          "name": "Tristia:restore — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RgAzfnhYM6VfhWQDU9lIgoRX3CsT8ly2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RgAzfnhYM6VfhWQDU9lIgoRX3CsT8ly2&sz=w640",
+          "sizeBytes": 5076313,
+          "sha256": "8D9A404469EBB82775678C1314E6FCA47E1F9E646A90F17C2C08789C70FC03D1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tristia:restore — Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 4133,
-  "totalVariants": 5557,
-  "lastUpdated": "2026-11-10T08:07:10.975800+00:00"
+  "totalGames": 4143,
+  "totalVariants": 5567,
+  "lastUpdated": "2026-11-10T08:10:15.903205+00:00"
 }
