@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T08:13:18.165065+00:00",
+  "updatedAt": "2026-11-10T08:16:37.824990+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -135428,9 +135428,269 @@
           "notes": "Switch 720p 30fps H264 | Terminal Velocity™: Boosted Edition — Te"
         }
       ]
+    },
+    {
+      "titleId": "0100D1A019D9A000",
+      "title": "The Blind Prophet",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D1A019D9A000.jpg",
+      "variants": [
+        {
+          "id": "v_8e8db142",
+          "name": "The Blind Prophet — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XJ9H-oh5-gnTubSYwuL5fS4artPop8y5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XJ9H-oh5-gnTubSYwuL5fS4artPop8y5&sz=w640",
+          "sizeBytes": 5434139,
+          "sha256": "4B95E4584D7F72454B76121BCEB5229C74B56AE0FD7CC25B392A1059FAC81056",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Blind Prophet — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BF301AD60000",
+      "title": "Tape: Unveil the Memories",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BF301AD60000.jpg",
+      "variants": [
+        {
+          "id": "v_4ac10d2a",
+          "name": "TAPE: Unveil the Memories — TAPE: Unveil the Mem",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-tFSlsPDpoEmLINGsMIeZ4U4nJY1Eu1B",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-tFSlsPDpoEmLINGsMIeZ4U4nJY1Eu1B&sz=w640",
+          "sizeBytes": 9303923,
+          "sha256": "63DA2A1CE0F8556F4683B5A1E1D1061391DE74B57FE64D28BCA1F409C1E4AF00",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | TAPE: Unveil the Memories — TAPE: Unveil"
+        }
+      ]
+    },
+    {
+      "titleId": "01009A8019090000",
+      "title": "Sunshine Manor",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009A8019090000.jpg",
+      "variants": [
+        {
+          "id": "v_8c1d1953",
+          "name": "Sunshine Manor — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ogdabO-M4EnO9JpfzZrHrYPfwaArLBwC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ogdabO-M4EnO9JpfzZrHrYPfwaArLBwC&sz=w640",
+          "sizeBytes": 3753036,
+          "sha256": "E18D254051D33E663361DCA8014B3FECD8674977CA385DC4AFA3DE29E8EBC58C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sunshine Manor — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010039A019B20000",
+      "title": "Sunwards",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010039A019B20000.jpg",
+      "variants": [
+        {
+          "id": "v_714c28dc",
+          "name": "逆光 Sunwards — battle",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1elT77sqhxm3EZfkggWb8Llck06Sb3B1V",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1elT77sqhxm3EZfkggWb8Llck06Sb3B1V&sz=w640",
+          "sizeBytes": 9964011,
+          "sha256": "95AD2F35CB463CC46EB76940DBC67637556BC4961DBDB3FB1DFDCDC93B51FDB1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 逆光 Sunwards — battle"
+        }
+      ]
+    },
+    {
+      "titleId": "01005B7017828000",
+      "title": "Super Crazy Rhythm Castle",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005B7017828000.jpg",
+      "variants": [
+        {
+          "id": "v_f766abd8",
+          "name": "SUPER CRAZY RHYTHM CASTLE — Explainer Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ah9DU7IrnOWhQjABxy1l8HEmpTqvAc1x",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ah9DU7IrnOWhQjABxy1l8HEmpTqvAc1x&sz=w640",
+          "sizeBytes": 5184459,
+          "sha256": "8562FF57E74416941C9044050DE78E8B5CB4F4F04767477042B1368FCED17932",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | SUPER CRAZY RHYTHM CASTLE — Explainer Tr"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CBC018546000",
+      "title": "Super Dungeon Maker",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CBC018546000.jpg",
+      "variants": [
+        {
+          "id": "v_223ddd14",
+          "name": "Super Dungeon Maker — Huge Update 1.1 Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gGC7YwHIyFtrQTUrOtYJa-2S_5a8WgLZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gGC7YwHIyFtrQTUrOtYJa-2S_5a8WgLZ&sz=w640",
+          "sizeBytes": 5466134,
+          "sha256": "8FDC02D8D838191CFC13EC038106C4C34A870DED9D34E1211F09AE6C3BB3A9EB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Super Dungeon Maker — Huge Update 1.1 Tr"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F2101A644000",
+      "title": "Super Geisha Neon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F2101A644000.jpg",
+      "variants": [
+        {
+          "id": "v_3aaa3293",
+          "name": "Super Geisha Neon — geisha",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DdNIlduxPeZmjmkXg_iAGEgXyYJ57JtF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DdNIlduxPeZmjmkXg_iAGEgXyYJ57JtF&sz=w640",
+          "sizeBytes": 3985545,
+          "sha256": "59C55BAA43B17B4B833B52E1EAB4FA14D0142B36807109071095C17AECE526F3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Super Geisha Neon — geisha"
+        }
+      ]
+    },
+    {
+      "titleId": "01008BE01422C000",
+      "title": "Startup Company",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008BE01422C000.jpg",
+      "variants": [
+        {
+          "id": "v_7f302f82",
+          "name": "Startup Company — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1f2mUyleC30II-hlKVPqSJ96VjjGwL9FG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1f2mUyleC30II-hlKVPqSJ96VjjGwL9FG&sz=w640",
+          "sizeBytes": 5360052,
+          "sha256": "E34A578FDF064F0AF4C54ECA0F13D781E52702641C412ABFBDE9B5B74B129FDA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Startup Company — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01004A10198F2000",
+      "title": "Souls of Chronos",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004A10198F2000.jpg",
+      "variants": [
+        {
+          "id": "v_53a8fb3e",
+          "name": "Souls of Chronos — Announcement Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FjXiGfHY6iqWJbWz7Eb1AYcinUyReITH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FjXiGfHY6iqWJbWz7Eb1AYcinUyReITH&sz=w640",
+          "sizeBytes": 2665338,
+          "sha256": "8198D199A5F541A663BD457A2581E0586FB4A8F9E0A73A25FB890010791ED9BE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Souls of Chronos — Announcement Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AA20190D4000",
+      "title": "Spells and Secrets",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AA20190D4000.jpg",
+      "variants": [
+        {
+          "id": "v_f3515598",
+          "name": "Spells & Secrets — Spells and Secrets - LaunchTr",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Y0JtPA4AbqSEJcChwYRkmmcAx3opufu1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Y0JtPA4AbqSEJcChwYRkmmcAx3opufu1&sz=w640",
+          "sizeBytes": 5400733,
+          "sha256": "6DB436F154F372DF10B221137B1228F6957B45C8834EEB57A8580362BD34D2FE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Spells & Secrets — Spells and Secrets - "
+        }
+      ]
     }
   ],
-  "totalGames": 4153,
-  "totalVariants": 5577,
-  "lastUpdated": "2026-11-10T08:13:18.165065+00:00"
+  "totalGames": 4163,
+  "totalVariants": 5587,
+  "lastUpdated": "2026-11-10T08:16:37.824990+00:00"
 }
