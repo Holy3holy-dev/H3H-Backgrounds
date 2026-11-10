@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T10:23:38.611288+00:00",
+  "updatedAt": "2026-11-10T10:27:21.573857+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -146348,9 +146348,269 @@
           "notes": "Switch 720p 30fps H264 | Neon Noodles — Launch Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100D48016014000",
+      "title": "Virtuous Western",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D48016014000.jpg",
+      "variants": [
+        {
+          "id": "v_6257d1e3",
+          "name": "Virtuous Western — trailer_western",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IBv_7R3QIU5bbmshEJB4mY0NsukXfeOA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IBv_7R3QIU5bbmshEJB4mY0NsukXfeOA&sz=w640",
+          "sizeBytes": 4761939,
+          "sha256": "0E3A4CB4519E2EFA866A0757583492DC66890C2686A1AC9B9E8572D258B0311A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Virtuous Western — trailer_western"
+        }
+      ]
+    },
+    {
+      "titleId": "010033A0144E6000",
+      "title": "As Far As The Eye",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010033A0144E6000.jpg",
+      "variants": [
+        {
+          "id": "v_5da7acc6",
+          "name": "As Far As The Eye — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dpSXRyQmYafiXOinyIRtOOHmHuWK9NUQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dpSXRyQmYafiXOinyIRtOOHmHuWK9NUQ&sz=w640",
+          "sizeBytes": 4954420,
+          "sha256": "7604F808027093BE9718C028621361C348BFF97D751A1E4424A3502E97001D33",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | As Far As The Eye — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010076F00EBE4000",
+      "title": "Bossgard",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010076F00EBE4000.jpg",
+      "variants": [
+        {
+          "id": "v_6be6cd66",
+          "name": "BOSSGARD — Bossgard - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UGFBprW3D7QF9_hPWA4CYOG8P_52k4I4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UGFBprW3D7QF9_hPWA4CYOG8P_52k4I4&sz=w640",
+          "sizeBytes": 5607959,
+          "sha256": "74AD45B456919D54902F732A0B995CA70EB3FCB9D21A183EC54D66CACAFC6334",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | BOSSGARD — Bossgard - Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100748012BA8000",
+      "title": "Extra Coin",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100748012BA8000.jpg",
+      "variants": [
+        {
+          "id": "v_9b70a8d6",
+          "name": "Extra Coin — Date Reveal Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BHDh72Bm0b9cpT63whjwwChwgA7nEPwq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BHDh72Bm0b9cpT63whjwwChwgA7nEPwq&sz=w640",
+          "sizeBytes": 5450054,
+          "sha256": "6575A7AC857010DE443BFC06AD1B1AB7B952CB8CE1730C9DB37672F40D633B40",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Extra Coin — Date Reveal Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01003C201D482000",
+      "title": "Save The World",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003C201D482000.jpg",
+      "variants": [
+        {
+          "id": "v_989f9344",
+          "name": "Chtholly Nota Seniorious Worldend: What Do You D",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GZ2srKVX50b1T6kqhFfT6aZrHg7Azjez",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GZ2srKVX50b1T6kqhFfT6aZrHg7Azjez&sz=w640",
+          "sizeBytes": 1573317,
+          "sha256": "5FFCFBB252175BA06B837164ACED18C18F937D7174B150DBCFB8B81C328BEB6C",
+          "durationSec": 24.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Chtholly Nota Seniorious Worldend: What "
+        }
+      ]
+    },
+    {
+      "titleId": "010099201FBFA000",
+      "title": "Kingsgrave",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010099201FBFA000.jpg",
+      "variants": [
+        {
+          "id": "v_fcb2e7f1",
+          "name": "Kingsgrave — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bE8iXZDiEOGIJrSm5d5p5GnGPofgp6Em",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bE8iXZDiEOGIJrSm5d5p5GnGPofgp6Em&sz=w640",
+          "sizeBytes": 4991720,
+          "sha256": "987E4DDA6A42D465DD38B5F661501129901EB1A0DAA398B172240366DA2835B7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kingsgrave — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100492011A8A000",
+      "title": "Death's Hangover",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100492011A8A000.jpg",
+      "variants": [
+        {
+          "id": "v_e700b5ac",
+          "name": "Death's Hangover — Death's Hangover - Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BRpZxwazRnK-yQJydlwUZxQE1axggSmr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BRpZxwazRnK-yQJydlwUZxQE1axggSmr&sz=w640",
+          "sizeBytes": 4752148,
+          "sha256": "2A33F7EFE993739C48EA95CAC6D06A5C7C78351FE3DEF0146F20EC23E44887E4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Death's Hangover — Death's Hangover - Tr"
+        }
+      ]
+    },
+    {
+      "titleId": "010049000F6B0000",
+      "title": "Hyperspace Delivery Service",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010049000F6B0000.jpg",
+      "variants": [
+        {
+          "id": "v_1643625c",
+          "name": "Hyperspace Delivery Service — Teaser Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HP6f0oNq2L9JlUo7B1sWC_3-DQMlKl-r",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HP6f0oNq2L9JlUo7B1sWC_3-DQMlKl-r&sz=w640",
+          "sizeBytes": 4865332,
+          "sha256": "D1FD3877735A3A09873A1E35A1DCD3E12E4FA1BD12FBD2DE934798C9D6EB380F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hyperspace Delivery Service — Teaser Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C1B018DF2000",
+      "title": "Scar of the Doll a Psycho Horror Story About the Mystery of an Older Sister",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C1B018DF2000.jpg",
+      "variants": [
+        {
+          "id": "v_6b16e460",
+          "name": "Scar of the Doll: A Psycho-Horror Story about th",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mljUe25-U56vOp2cNZkxuPOUnB862qYs",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mljUe25-U56vOp2cNZkxuPOUnB862qYs&sz=w640",
+          "sizeBytes": 4014988,
+          "sha256": "889797C9B35CD007D7B02C09435E971EB7F0DCEE7952792B834B66B0DAD1B1C6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Scar of the Doll: A Psycho-Horror Story "
+        }
+      ]
+    },
+    {
+      "titleId": "0100EE5021C9E000",
+      "title": "Seedsow Lullaby",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EE5021C9E000.jpg",
+      "variants": [
+        {
+          "id": "v_db33ab15",
+          "name": "Seedsow Lullaby — Opening Movie",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UxFQ0it3tMTL4Z8fggHtyN4wv3EVQepT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UxFQ0it3tMTL4Z8fggHtyN4wv3EVQepT&sz=w640",
+          "sizeBytes": 5178136,
+          "sha256": "715A2928F675F5FC046550AA22B52178DA66872F3F08B05F5A764092EBDF3645",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Seedsow Lullaby — Opening Movie"
+        }
+      ]
     }
   ],
-  "totalGames": 4573,
-  "totalVariants": 5997,
-  "lastUpdated": "2026-11-10T10:23:38.611288+00:00"
+  "totalGames": 4583,
+  "totalVariants": 6007,
+  "lastUpdated": "2026-11-10T10:27:21.573857+00:00"
 }
