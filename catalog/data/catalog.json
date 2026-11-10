@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T01:26:20.716520+00:00",
+  "updatedAt": "2026-11-10T01:29:07.886400+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -102148,9 +102148,269 @@
           "notes": "Switch 720p 30fps H264 | Adore — Adore - Release Trailer"
         }
       ]
+    },
+    {
+      "titleId": "01009BC00B872000",
+      "title": "City of Brass",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009BC00B872000.jpg",
+      "variants": [
+        {
+          "id": "v_ec7c92a9",
+          "name": "City of Brass — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pmLtZN8M_A613QQa5-uk5SyW_91lrYnb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pmLtZN8M_A613QQa5-uk5SyW_91lrYnb&sz=w640",
+          "sizeBytes": 5464131,
+          "sha256": "75FCB08EDE7BA4C01B2C0D5695E827DC30FBCA508528819B738BC7FC14AD0E71",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | City of Brass — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E94016B9E000",
+      "title": "City of Beats",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E94016B9E000.jpg",
+      "variants": [
+        {
+          "id": "v_a7980d7d",
+          "name": "City of Beats — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NK1Xp0SkxwfbDhDbwup4hX7QtG1GuH3l",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NK1Xp0SkxwfbDhDbwup4hX7QtG1GuH3l&sz=w640",
+          "sizeBytes": 5315943,
+          "sha256": "311161930EF03943102DB584F6489E88BED0E4811EF800BF97DF14A577A449CE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | City of Beats — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01000E7026482000",
+      "title": "Cryptical Path",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000E7026482000.jpg",
+      "variants": [
+        {
+          "id": "v_cb397b26",
+          "name": "Cryptical Path — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nWFkB3eBZeaBNzgHyG9Fn8PIZpYiW_dx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nWFkB3eBZeaBNzgHyG9Fn8PIZpYiW_dx&sz=w640",
+          "sizeBytes": 4936625,
+          "sha256": "54C3497A540F8B9CDB84AF0EFFCC13658C731CBB1DF2CB896B54EF108046A7EA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cryptical Path — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F60017D4E000",
+      "title": "Bravery and Greed",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F60017D4E000.jpg",
+      "variants": [
+        {
+          "id": "v_cc72e0c2",
+          "name": "Bravery and Greed — Bravery and Greed Launch Tra",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1T0zeSMdTNawTYsOpWATBeNQBQH4yr3eg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1T0zeSMdTNawTYsOpWATBeNQBQH4yr3eg&sz=w640",
+          "sizeBytes": 5207254,
+          "sha256": "4FEE70AA209E3338000FEACDE527A1E899A050ABBF091B0780121B5ABF73F789",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bravery and Greed — Bravery and Greed La"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DA401EA2E000",
+      "title": "Block Tower TD",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DA401EA2E000.jpg",
+      "variants": [
+        {
+          "id": "v_7181d164",
+          "name": "Block Tower TD — MainTrailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=159UvLn4yjmZMotFmlW1DeVOH9tPLFcUQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=159UvLn4yjmZMotFmlW1DeVOH9tPLFcUQ&sz=w640",
+          "sizeBytes": 4942819,
+          "sha256": "12FD5EAC924C2D0E93044F902B0E6F2712566986E6135E05A893FD92D299E702",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Block Tower TD — MainTrailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DEC01FD24000",
+      "title": "Aura of Worlds",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DEC01FD24000.jpg",
+      "variants": [
+        {
+          "id": "v_b6f70b43",
+          "name": "Aura of Worlds — Gameplay Snapshot at 1.0",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dQD-Y72eJ_H-l6SrxDV8psHD_yjgNMvI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dQD-Y72eJ_H-l6SrxDV8psHD_yjgNMvI&sz=w640",
+          "sizeBytes": 5395615,
+          "sha256": "649C690220734607BD71CFEBA43F25994440628BDF1B00740A8F487EB13FA3ED",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Aura of Worlds — Gameplay Snapshot at 1."
+        }
+      ]
+    },
+    {
+      "titleId": "0100F7201D1B0000",
+      "title": "Ancient Weapon Holly",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F7201D1B0000.jpg",
+      "variants": [
+        {
+          "id": "v_1113ac74",
+          "name": "Ancient Weapon Holly — ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wCFx61uYIF_mJ9E_hpWO1YYcTtlBQXw3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wCFx61uYIF_mJ9E_hpWO1YYcTtlBQXw3&sz=w640",
+          "sizeBytes": 5100804,
+          "sha256": "B44C32A75DF10D4FD4F7345F2435C8CC4831248CAD737312F23DFEE5523DAF16",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ancient Weapon Holly — "
+        }
+      ]
+    },
+    {
+      "titleId": "0100F680116A2000",
+      "title": "Kholat",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F680116A2000.jpg",
+      "variants": [
+        {
+          "id": "v_34d3e9e4",
+          "name": "Kholat Aftermath Part 1 - Comic Book — Kholat Af",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1A5LadOlkiFStNGEp9qqtVo825AixH6ju",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1A5LadOlkiFStNGEp9qqtVo825AixH6ju&sz=w640",
+          "sizeBytes": 4953162,
+          "sha256": "E564FD650ACB10475BB03352C6583FF9513307689851559D74176D5FC8F9BA54",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kholat Aftermath Part 1 - Comic Book — K"
+        }
+      ]
+    },
+    {
+      "titleId": "01007F100DE52000",
+      "title": "Akane",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007F100DE52000.jpg",
+      "variants": [
+        {
+          "id": "v_78648dee",
+          "name": "Murokasa Akane Blue Archive",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hKoe98hM44lJHypU0qHyM15x8v9vkgKt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hKoe98hM44lJHypU0qHyM15x8v9vkgKt&sz=w640",
+          "sizeBytes": 2503807,
+          "sha256": "0D0B639D750370DC1B381DADC4171B968AE8F6CE541D4346886ACB4935F72FC4",
+          "durationSec": 24.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Murokasa Akane Blue Archive"
+        }
+      ]
+    },
+    {
+      "titleId": "010093D00C726000",
+      "title": "Downwell",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010093D00C726000.jpg",
+      "variants": [
+        {
+          "id": "v_b0c9c0cf",
+          "name": "Downwell — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qljg973D9o6WgO9bgQcZRBvMVn7dbcZ8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qljg973D9o6WgO9bgQcZRBvMVn7dbcZ8&sz=w640",
+          "sizeBytes": 5013407,
+          "sha256": "E520C5C8E7DF6AD0726814029ADB63B1C8C137923BB3A366169E3D8CDDC6FEFB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Downwell — Gameplay Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 2873,
-  "totalVariants": 4297,
-  "lastUpdated": "2026-11-10T01:26:20.716520+00:00"
+  "totalGames": 2883,
+  "totalVariants": 4307,
+  "lastUpdated": "2026-11-10T01:29:07.886400+00:00"
 }
