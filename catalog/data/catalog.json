@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T03:16:51.832089+00:00",
+  "updatedAt": "2026-11-10T03:19:52.293527+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -110468,9 +110468,269 @@
           "notes": "Switch 720p 30fps H264 | Embraced by Autumn — trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100CBE0224BA000",
+      "title": "The Fairy's Secret",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CBE0224BA000.jpg",
+      "variants": [
+        {
+          "id": "v_b422d6e7",
+          "name": "The Fairy's Secret — trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hR8D5kzp7TeGOPZvgY_v9Ithe10DYTBp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hR8D5kzp7TeGOPZvgY_v9Ithe10DYTBp&sz=w640",
+          "sizeBytes": 5534393,
+          "sha256": "9F05AB4B2849FE33F619494BC1E454BC15E734FDD079986DC945B58CFAB3B17E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Fairy's Secret — trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D3401AB18000",
+      "title": "The Fairy's Song",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D3401AB18000.jpg",
+      "variants": [
+        {
+          "id": "v_add80dab",
+          "name": "The Fairy's Song — trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1238Lf1wDGMRIZC7tuzsdGXyeEVOJMwZO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1238Lf1wDGMRIZC7tuzsdGXyeEVOJMwZO&sz=w640",
+          "sizeBytes": 4955628,
+          "sha256": "7DB34C444C380DCF3A546715CED39DE848101884B355F0CEE2568E4F5F187FFF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Fairy's Song — trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010091D016210000",
+      "title": "Blackberry Honey",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010091D016210000.jpg",
+      "variants": [
+        {
+          "id": "v_f7ef1d5a",
+          "name": "Blackberry Honey — Blackberry Honey trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17hw9cAbGcwXtm1kRwSy6WyVeVGkuDwW5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17hw9cAbGcwXtm1kRwSy6WyVeVGkuDwW5&sz=w640",
+          "sizeBytes": 4883797,
+          "sha256": "A59E3ED3FC63CDEFCB9479FA99DE25507801BFDFF579D2EFFB66A53C51F93025",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Blackberry Honey — Blackberry Honey trai"
+        }
+      ]
+    },
+    {
+      "titleId": "0100415022836000",
+      "title": "Scott Whiskers in the Search for Mr Fumbleclaw",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100415022836000.jpg",
+      "variants": [
+        {
+          "id": "v_faa55abd",
+          "name": "Scott Whiskers in: the Search for Mr. Fumbleclaw",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nE7N6agloP5oI1EF33KMV-Y4fEMdtA3X",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nE7N6agloP5oI1EF33KMV-Y4fEMdtA3X&sz=w640",
+          "sizeBytes": 5139945,
+          "sha256": "5487B3049651EA9F21D32D3E7DD2398F04985808A9051BED6E2F59F6396E7A65",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Scott Whiskers in: the Search for Mr. Fu"
+        }
+      ]
+    },
+    {
+      "titleId": "01009A601B032000",
+      "title": "WW2 Bunker Simulator",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009A601B032000.jpg",
+      "variants": [
+        {
+          "id": "v_9fff0d77",
+          "name": "WW2: Bunker Simulator — WW2: Bunker Simulator - ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1sy5Y324VJI6bWMh-CrfC0OV67aF5SioK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1sy5Y324VJI6bWMh-CrfC0OV67aF5SioK&sz=w640",
+          "sizeBytes": 5175747,
+          "sha256": "4F3650BC42CC2B5F51615825804518E8B9EBE31FEED801285AC693E69E8CB480",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | WW2: Bunker Simulator — WW2: Bunker Simu"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A7B0172EC000",
+      "title": "Mythwrecked Ambrosia Island",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A7B0172EC000.jpg",
+      "variants": [
+        {
+          "id": "v_42a20f1a",
+          "name": "Mythwrecked: Ambrosia Island — Release Date Trai",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1G0__l9dh51K6SxPzieRAEycK9BfGZ3oN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1G0__l9dh51K6SxPzieRAEycK9BfGZ3oN&sz=w640",
+          "sizeBytes": 5371442,
+          "sha256": "3A26BFC2666E52368AE5321A64935FF7104859E00CB9A3D6E5182DD62DE997F9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mythwrecked: Ambrosia Island — Release D"
+        }
+      ]
+    },
+    {
+      "titleId": "01004960212AA000",
+      "title": "Fool's Pub",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004960212AA000.jpg",
+      "variants": [
+        {
+          "id": "v_005c56d4",
+          "name": "Fool's Pub — Fool's Pub Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XmOHujXg4_J775nnqUXkDIzilUuNYFJ-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XmOHujXg4_J775nnqUXkDIzilUuNYFJ-&sz=w640",
+          "sizeBytes": 5511472,
+          "sha256": "AC7A33AC8BD4BC80C23525C310A4DEF077EBEFF45A955A3D1A480B08903F97C5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fool's Pub — Fool's Pub Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010072000BD32000",
+      "title": "World of Final Fantasy Maxima",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010072000BD32000.jpg",
+      "variants": [
+        {
+          "id": "v_8f9f541c",
+          "name": "WORLD OF FINAL FANTASY® MAXIMA Upgrade — ESRB EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OIUaRQE8YBWVO0r82WOmbCiI6SriwX7B",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OIUaRQE8YBWVO0r82WOmbCiI6SriwX7B&sz=w640",
+          "sizeBytes": 4679804,
+          "sha256": "DC8197839469DD24B9406DC9115BF66E19CC1D04F5C1F8730F0C7DCF4187C58B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | WORLD OF FINAL FANTASY® MAXIMA Upgrade —"
+        }
+      ]
+    },
+    {
+      "titleId": "010017E012888000",
+      "title": "Wallachia Reign of Dracula",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010017E012888000.jpg",
+      "variants": [
+        {
+          "id": "v_26a3dd1b",
+          "name": "Wallachia: Reign of Dracula — Wallachia official",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KbEmJBHTOQ2PwMhww63zm5XU_6brKLsS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KbEmJBHTOQ2PwMhww63zm5XU_6brKLsS&sz=w640",
+          "sizeBytes": 4983273,
+          "sha256": "44831320F94177547E75E699BD0DDF53C0FA4B39F9D9E5FB2BBE07A2CE21412E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wallachia: Reign of Dracula — Wallachia "
+        }
+      ]
+    },
+    {
+      "titleId": "0100353013D06000",
+      "title": "Odysseus Kosmos and his Robot Quest",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100353013D06000.jpg",
+      "variants": [
+        {
+          "id": "v_32ecf013",
+          "name": "Odysseus Kosmos and his Robot Quest (Complete Se",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11-G9o9WSgFD-tCDDNzIAIq74C4dS7DOa",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11-G9o9WSgFD-tCDDNzIAIq74C4dS7DOa&sz=w640",
+          "sizeBytes": 5400888,
+          "sha256": "55BC567A478441CA02CD3E1471E48AA5E3CACD5EAF59D88EF66D2936F6B3B40B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Odysseus Kosmos and his Robot Quest (Com"
+        }
+      ]
     }
   ],
-  "totalGames": 3193,
-  "totalVariants": 4617,
-  "lastUpdated": "2026-11-10T03:16:51.832089+00:00"
+  "totalGames": 3203,
+  "totalVariants": 4627,
+  "lastUpdated": "2026-11-10T03:19:52.293527+00:00"
 }
