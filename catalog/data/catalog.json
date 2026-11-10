@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T11:14:59.675576+00:00",
+  "updatedAt": "2026-11-10T11:18:16.116835+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -149988,9 +149988,269 @@
           "notes": "Switch 720p 30fps H264 | Mindball Play — Mindball Play Trailer"
         }
       ]
+    },
+    {
+      "titleId": "010039C00E2CE000",
+      "title": "Flux8",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010039C00E2CE000.jpg",
+      "variants": [
+        {
+          "id": "v_08bdc74c",
+          "name": "Flux8 — Flux8 Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17hLMaCvpQRjYfLa6BnV37nOGyD5pt4dp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17hLMaCvpQRjYfLa6BnV37nOGyD5pt4dp&sz=w640",
+          "sizeBytes": 5270452,
+          "sha256": "2C600B5B5C465BCC2B47848C04EEF06D34DBD71A752AA62360E57BB133B2F5F8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Flux8 — Flux8 Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01008B001ACCA000",
+      "title": "Super Intern Story",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008B001ACCA000.jpg",
+      "variants": [
+        {
+          "id": "v_743f89e1",
+          "name": "Super Intern Story — Release trailer EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Dnc-FoZei2QaXNEf1jhdaMW6q4RuYn2z",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Dnc-FoZei2QaXNEf1jhdaMW6q4RuYn2z&sz=w640",
+          "sizeBytes": 5175069,
+          "sha256": "84373B31BC93AB95F354155523A5F5E399138B772193D525CEE6576951911D0E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Super Intern Story — Release trailer EN"
+        }
+      ]
+    },
+    {
+      "titleId": "010097501DBCC000",
+      "title": "A Walk with Yiayia",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010097501DBCC000.jpg",
+      "variants": [
+        {
+          "id": "v_3d157588",
+          "name": "A Walk With Yiayia — A Walk With Yiayia - Offici",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TS0dWXSRKjB2pqwJMzNgrPDf0yPybBoe",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TS0dWXSRKjB2pqwJMzNgrPDf0yPybBoe&sz=w640",
+          "sizeBytes": 5435277,
+          "sha256": "914B6DE8DC95937D112A014FF8941C94DEE33BA8C4A99CDCDDEDC325D362C794",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | A Walk With Yiayia — A Walk With Yiayia "
+        }
+      ]
+    },
+    {
+      "titleId": "010077E013D60000",
+      "title": "Loot Hero DX",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010077E013D60000.jpg",
+      "variants": [
+        {
+          "id": "v_d3a5dfe8",
+          "name": "Loot Hero DX — Loot Hero DX Teaser",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PRVxMNp-6EHHDUQVIZF8HFailmSw8UUb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PRVxMNp-6EHHDUQVIZF8HFailmSw8UUb&sz=w640",
+          "sizeBytes": 4860162,
+          "sha256": "0FD132DB46B4772EF49229F1746FFE5E5680FE32E3191F2E3FC8473629999911",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Loot Hero DX — Loot Hero DX Teaser"
+        }
+      ]
+    },
+    {
+      "titleId": "010059C00E900000",
+      "title": "Community Inc",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010059C00E900000.jpg",
+      "variants": [
+        {
+          "id": "v_50e48a88",
+          "name": "Community Inc — Community Inc Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IHPPZjc9kENXBn9hYHTFFNLi5aFHqtjg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IHPPZjc9kENXBn9hYHTFFNLi5aFHqtjg&sz=w640",
+          "sizeBytes": 5205676,
+          "sha256": "B7327D8D5E829DD45E93589D71C184722FC4622F38901658B9A2ABC2FB437139",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Community Inc — Community Inc Launch Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A4E017372000",
+      "title": "Pyramid Quest",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A4E017372000.jpg",
+      "variants": [
+        {
+          "id": "v_8b4138ea",
+          "name": "Pyramid Quest — Pyramid Quest - Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10enH4hhxkyVGGPAKOrT4QNgIR9FALivc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10enH4hhxkyVGGPAKOrT4QNgIR9FALivc&sz=w640",
+          "sizeBytes": 5276491,
+          "sha256": "8D4511F8A0B5D8F8DAC69E88F53B400472E42EBB54C1AE2559E97FC0587DE405",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Pyramid Quest — Pyramid Quest - Gameplay"
+        }
+      ]
+    },
+    {
+      "titleId": "0100090014ABE000",
+      "title": "Kyle is Famous",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100090014ABE000.jpg",
+      "variants": [
+        {
+          "id": "v_5011c62b",
+          "name": "Kyle is Famous: Complete Edition — Kyle is Famou",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eRN5rkuKrz1kxI1Z_1qNRI9Q291411Va",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eRN5rkuKrz1kxI1Z_1qNRI9Q291411Va&sz=w640",
+          "sizeBytes": 5030417,
+          "sha256": "B71AA60FAEFB8CAEC68BCDAAA00D285C536E54EE2178D73B1FC3E4B76799B754",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kyle is Famous: Complete Edition — Kyle "
+        }
+      ]
+    },
+    {
+      "titleId": "0100E7101FF7A000",
+      "title": "My Big Sister",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E7101FF7A000.jpg",
+      "variants": [
+        {
+          "id": "v_debcf7c7",
+          "name": "My Big Sister — My Big Sister (Gameplay Trailer)",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nqLHx4e3vjkVGnxc6dacj3ieAltuaEl3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nqLHx4e3vjkVGnxc6dacj3ieAltuaEl3&sz=w640",
+          "sizeBytes": 8810936,
+          "sha256": "10D99AF8BC356B63A2B8DF4243CFA775B693CC33E1DD488EDCF93A75F8DACF13",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | My Big Sister — My Big Sister (Gameplay "
+        }
+      ]
+    },
+    {
+      "titleId": "0100D24016218000",
+      "title": "Abomi Nation",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D24016218000.jpg",
+      "variants": [
+        {
+          "id": "v_5d9bbbf1",
+          "name": "Abomi Nation — Abomi Nation - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13nsUnuUTqwfq_-QwR_E91EjvyoGbsMib",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13nsUnuUTqwfq_-QwR_E91EjvyoGbsMib&sz=w640",
+          "sizeBytes": 5098506,
+          "sha256": "DB510C2BF179405D839F61818E85FE1A940260FDD90DE900C269C0DA8607356C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Abomi Nation — Abomi Nation - Launch Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "01004B701AAA6000",
+      "title": "100animalease",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004B701AAA6000.jpg",
+      "variants": [
+        {
+          "id": "v_e081084d",
+          "name": "100animalease — first trailer_en",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ILoP5O6HuS185QG0gVOTGpVaKj-E9wNw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ILoP5O6HuS185QG0gVOTGpVaKj-E9wNw&sz=w640",
+          "sizeBytes": 4980008,
+          "sha256": "8EEF544DE4622025ABFB0CD33CCB0099AC4A3359CEF6529E38398517D7BA40DA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 100animalease — first trailer_en"
+        }
+      ]
     }
   ],
-  "totalGames": 4713,
-  "totalVariants": 6137,
-  "lastUpdated": "2026-11-10T11:14:59.675576+00:00"
+  "totalGames": 4723,
+  "totalVariants": 6147,
+  "lastUpdated": "2026-11-10T11:18:16.116835+00:00"
 }
