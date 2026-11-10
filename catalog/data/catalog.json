@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T14:28:32.237070+00:00",
+  "updatedAt": "2026-11-10T14:32:53.958123+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -163768,9 +163768,269 @@
           "notes": "Switch 720p 30fps H264 | Super Squidlit — Super Squidlit Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100358015762000",
+      "title": "Closer Anagnorisis",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100358015762000.jpg",
+      "variants": [
+        {
+          "id": "v_6401ed49",
+          "name": "CLOSER - anagnorisis — 120s",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16PorRUhVkyyIYYKI33Hu4d7NAPFU31lH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16PorRUhVkyyIYYKI33Hu4d7NAPFU31lH&sz=w640",
+          "sizeBytes": 5405964,
+          "sha256": "2F527C3BE3CF124BE50BA3D6C29AAE0F8D6C6345627FFCC2F3634000126DC125",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | CLOSER - anagnorisis — 120s"
+        }
+      ]
+    },
+    {
+      "titleId": "01001BB014EB6000",
+      "title": "Dogworld",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001BB014EB6000.jpg",
+      "variants": [
+        {
+          "id": "v_f2071167",
+          "name": "Dogworld — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1S9gaQpnFusoQIHYauA1CfpEbnALNC3Vk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1S9gaQpnFusoQIHYauA1CfpEbnALNC3Vk&sz=w640",
+          "sizeBytes": 5561981,
+          "sha256": "8FC5EE9CAD353EB4F5846123BEC45AE50869A37554C14396215BB205EF3B5F1C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dogworld — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100492015D02000",
+      "title": "Super Mega Zero",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100492015D02000.jpg",
+      "variants": [
+        {
+          "id": "v_04d0598c",
+          "name": "Super Mega Zero — Super Mega Zero Gameplay Foota",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xEQDLwO2cET-7v01cCkBIGAkrsB5ppdF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xEQDLwO2cET-7v01cCkBIGAkrsB5ppdF&sz=w640",
+          "sizeBytes": 5301866,
+          "sha256": "CAFB293740C58947F09F470CEAD6289D6FE247A11707F9DE7F973BA02537429B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Super Mega Zero — Super Mega Zero Gamepl"
+        }
+      ]
+    },
+    {
+      "titleId": "01009450158A4000",
+      "title": "Cardful Planning",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009450158A4000.jpg",
+      "variants": [
+        {
+          "id": "v_1ccb72f0",
+          "name": "Cardful Planning — V2 Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KwgckjwfotYgHL3Q-IdBQnDhXgF7iP5D",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KwgckjwfotYgHL3Q-IdBQnDhXgF7iP5D&sz=w640",
+          "sizeBytes": 4655226,
+          "sha256": "4125CF495F5E88EB5A998349C408B9EB3CF46CDD313FB160147D81719167A906",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cardful Planning — V2 Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010052C00ABFA000",
+      "title": "Snakes and Ladders",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010052C00ABFA000.jpg",
+      "variants": [
+        {
+          "id": "v_f317ca59",
+          "name": "Snakes and Ladders Championship — Snakes and Lad",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1E4ux6iemFllCsekOrDDLQGdkhuof3RTC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1E4ux6iemFllCsekOrDDLQGdkhuof3RTC&sz=w640",
+          "sizeBytes": 5223585,
+          "sha256": "73E78CEDD13C5621C3B869F176BA578CB0ECADB36957E8F5E762881D12B441EB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Snakes and Ladders Championship — Snakes"
+        }
+      ]
+    },
+    {
+      "titleId": "010076000C86E000",
+      "title": "Cat Girl Without Salad Amuse Bouche",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010076000C86E000.jpg",
+      "variants": [
+        {
+          "id": "v_8f8750c4",
+          "name": "Cat Girl Without Salad: Amuse-Bouche — Cat Girl ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cxhFOSGpnarbT4QiKWsmjSDuBEtkeLKj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cxhFOSGpnarbT4QiKWsmjSDuBEtkeLKj&sz=w640",
+          "sizeBytes": 5367683,
+          "sha256": "F5C8E55FF2D64A6C0A18D9717F407B2BEA73D06E7AD6F0487CEE0639C8CDE673",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cat Girl Without Salad: Amuse-Bouche — C"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E8400FDCA000",
+      "title": "Without Escape",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E8400FDCA000.jpg",
+      "variants": [
+        {
+          "id": "v_d29f6df0",
+          "name": "Without Escape — Without Escape - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ujipePsrSNXNUoNja8aamWUww3z5vDSA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ujipePsrSNXNUoNja8aamWUww3z5vDSA&sz=w640",
+          "sizeBytes": 4836767,
+          "sha256": "7198D088450F2ABED72A0DB4ED81E37BCEE81896326C894DEB53DE53C7AC3FF5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Without Escape — Without Escape - Launch"
+        }
+      ]
+    },
+    {
+      "titleId": "010047300EBA6000",
+      "title": "The Tower of Beatrice",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010047300EBA6000.jpg",
+      "variants": [
+        {
+          "id": "v_ab1d73dc",
+          "name": "The Tower of Beatrice — The Tower of Beatrice Of",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1igOVPuWYbn6s8PJpkkx7L7LlxBSgJHUb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1igOVPuWYbn6s8PJpkkx7L7LlxBSgJHUb&sz=w640",
+          "sizeBytes": 10362853,
+          "sha256": "08C168EFFBCA8C7D7B2195048CCB20DDCC25696568A9ED8D6813DB4A127A54DB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Tower of Beatrice — The Tower of Bea"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AD90153C8000",
+      "title": "Loopindex",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AD90153C8000.jpg",
+      "variants": [
+        {
+          "id": "v_737c0665",
+          "name": "Loopindex — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1veaMQ9pSNcxwZF0pt-oebHchswolJQ1j",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1veaMQ9pSNcxwZF0pt-oebHchswolJQ1j&sz=w640",
+          "sizeBytes": 5318122,
+          "sha256": "F98FC207EE334EB27337758D9E27FBC5431FE8947247CAB725DF7D8DD8BD7B93",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Loopindex — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100363015476000",
+      "title": "Woodcutter",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100363015476000.jpg",
+      "variants": [
+        {
+          "id": "v_c2f19820",
+          "name": "Drunk Woodcutter — Cinematic Trailer (1951)",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1W9nt8WU9ETbBDzky5KJ_pVeQT32J_ohv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1W9nt8WU9ETbBDzky5KJ_pVeQT32J_ohv&sz=w640",
+          "sizeBytes": 5295563,
+          "sha256": "3B092D14D08DD18E34050DC76843989B020861EFD59B4B269D6A5C58B1717D45",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Drunk Woodcutter — Cinematic Trailer (19"
+        }
+      ]
     }
   ],
-  "totalGames": 5243,
-  "totalVariants": 6667,
-  "lastUpdated": "2026-11-10T14:28:32.237070+00:00"
+  "totalGames": 5253,
+  "totalVariants": 6677,
+  "lastUpdated": "2026-11-10T14:32:53.958123+00:00"
 }
