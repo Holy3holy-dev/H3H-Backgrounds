@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T00:13:02.983358+00:00",
+  "updatedAt": "2026-11-10T00:15:44.512527+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -95648,9 +95648,269 @@
           "notes": "Switch 720p 30fps H264 | RiMS Racing — Launch Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100A80016A0C000",
+      "title": "Afterlove EP",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A80016A0C000.jpg",
+      "variants": [
+        {
+          "id": "v_32b94f33",
+          "name": "Afterlove EP — Available Now",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1u8SewUXIpx0A1muXxYh2XqJrahIawmhB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1u8SewUXIpx0A1muXxYh2XqJrahIawmhB&sz=w640",
+          "sizeBytes": 4813976,
+          "sha256": "2050BA79FEDD93FD56169EE78789AD70B35C8AE190A2D61867E18027950728DB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Afterlove EP — Available Now"
+        }
+      ]
+    },
+    {
+      "titleId": "01004A501D4DA000",
+      "title": "DarkStar One",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004A501D4DA000.jpg",
+      "variants": [
+        {
+          "id": "v_9693318e",
+          "name": "Darkstar One — Darkstar One Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CHP1m6lDLKnX6fszYvaFDez_6yPo3CLJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CHP1m6lDLKnX6fszYvaFDez_6yPo3CLJ&sz=w640",
+          "sizeBytes": 2314868,
+          "sha256": "A5921FB8BF76AF4ED4C101A1F00BA106E96EC82A1EE79411BAC5EA77E79B22C3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Darkstar One — Darkstar One Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100534009FF2000",
+      "title": "Yonder The Cloud Catcher Chronicles",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100534009FF2000.jpg",
+      "variants": [
+        {
+          "id": "v_a5cad418",
+          "name": "Yonder: The Cloud Catcher Chronicles — Announcem",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VfCLyzsZOQMP4ebbmFF0TU96moQ8voG0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VfCLyzsZOQMP4ebbmFF0TU96moQ8voG0&sz=w640",
+          "sizeBytes": 5053795,
+          "sha256": "7A8838853740AA8B2ED011732EC92E1C9BAD0DDFFBB141D911CCE4875156CE9D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Yonder: The Cloud Catcher Chronicles — A"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EF200DA60000",
+      "title": "The Survivalists",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EF200DA60000.jpg",
+      "variants": [
+        {
+          "id": "v_d6b65e60",
+          "name": "The Survivalists — The Survivalists - Launch Tra",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1j29Uhq18Gweak4NahhgXh0z-e0blQdqr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1j29Uhq18Gweak4NahhgXh0z-e0blQdqr&sz=w640",
+          "sizeBytes": 5274875,
+          "sha256": "02E57B00EDB29966410CF0B300B9B9398654AC8DB8F3CF3A7467F2CD4B391A4C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Survivalists — The Survivalists - La"
+        }
+      ]
+    },
+    {
+      "titleId": "0100195015AC6000",
+      "title": "Monster Rancher 1 & 2 DX",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100195015AC6000.jpg",
+      "variants": [
+        {
+          "id": "v_88a0a6c8",
+          "name": "Monster Rancher 1 & 2 DX — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mJr4tFnOPLK1vWoDLaLP5oJDiXoFT36B",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mJr4tFnOPLK1vWoDLaLP5oJDiXoFT36B&sz=w640",
+          "sizeBytes": 3698573,
+          "sha256": "691FC8EB4ECFEEB8B2437546AD8EF0FB3AF463873C1C36AF365E045FD2B1DF8E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Monster Rancher 1 & 2 DX — Launch Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "01000EC010BF4000",
+      "title": "Niche A Genetics Survival game",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000EC010BF4000.jpg",
+      "variants": [
+        {
+          "id": "v_adcf5a45",
+          "name": "Niche - a genetics survival game — Teaser",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RE4Y5XckB1Qw_pXJO6bhZgaZ8bsCtIE4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RE4Y5XckB1Qw_pXJO6bhZgaZ8bsCtIE4&sz=w640",
+          "sizeBytes": 5526795,
+          "sha256": "E826DDAD2AF9D481D619DB7E5DAC33DC53FA6DE0F30B9234831F0E018DCFF6C9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Niche - a genetics survival game — Tease"
+        }
+      ]
+    },
+    {
+      "titleId": "0100538017BAC000",
+      "title": "Various Daylife",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100538017BAC000.jpg",
+      "variants": [
+        {
+          "id": "v_b530204d",
+          "name": "VARIOUS DAYLIFE — ESRB EN Launch",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xiYTuAlzGG4f5-TFGkqGZ2JsapmTxPcF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xiYTuAlzGG4f5-TFGkqGZ2JsapmTxPcF&sz=w640",
+          "sizeBytes": 3936653,
+          "sha256": "22A1AFD1C1A2DA0FE8863A27665486E1FB5E7C83471D3D47676B9BF7C9B6EB24",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | VARIOUS DAYLIFE — ESRB EN Launch"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E95015392000",
+      "title": "Arietta of Spirits",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E95015392000.jpg",
+      "variants": [
+        {
+          "id": "v_0dc53d0b",
+          "name": "Arietta of Spirits — Arietta of Spirits Release ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=128x1_028octcco9T7QwZWscVO7XrcuLO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=128x1_028octcco9T7QwZWscVO7XrcuLO&sz=w640",
+          "sizeBytes": 5471831,
+          "sha256": "A9C00229589D601A1BF4C782DDC6F655B5477B2196B4BA9175FF1897A484143E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Arietta of Spirits — Arietta of Spirits "
+        }
+      ]
+    },
+    {
+      "titleId": "0100C6A0235D4000",
+      "title": "Devil Jam",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C6A0235D4000.jpg",
+      "variants": [
+        {
+          "id": "v_2cacc1fd",
+          "name": "Devil Jam — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11cAxWg10-Z9BK4RLKj3nwHfNdLHxA7si",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11cAxWg10-Z9BK4RLKj3nwHfNdLHxA7si&sz=w640",
+          "sizeBytes": 5073339,
+          "sha256": "924661D56F50B955E6EBCC275717F8219EA66EE9E2B78FD560366EF5AB78E7D3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Devil Jam — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D5C01FAAD000",
+      "title": "Goblin Slayer Another Adventurer: Nightmare Feast",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D5C01FAAD000.jpg",
+      "variants": [
+        {
+          "id": "v_e7568342",
+          "name": "GOBLIN SLAYER -ANOTHER ADVENTURER- NIGHTMARE FEA",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18BqsPWny9FXMvezuYhrB4aSHRjGWpS96",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18BqsPWny9FXMvezuYhrB4aSHRjGWpS96&sz=w640",
+          "sizeBytes": 4887800,
+          "sha256": "E80FC557BEE646900220D940248C37DBA27AC75F8821B87D46388A7ACC3ECAC2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | GOBLIN SLAYER -ANOTHER ADVENTURER- NIGHT"
+        }
+      ]
     }
   ],
-  "totalGames": 2623,
-  "totalVariants": 4047,
-  "lastUpdated": "2026-11-10T00:13:02.983358+00:00"
+  "totalGames": 2633,
+  "totalVariants": 4057,
+  "lastUpdated": "2026-11-10T00:15:44.512527+00:00"
 }
