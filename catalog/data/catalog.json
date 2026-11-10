@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T06:16:13.319581+00:00",
+  "updatedAt": "2026-11-10T06:19:32.144332+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -125548,9 +125548,269 @@
           "notes": "Switch 720p 30fps H264 | Yuuna and the Haunted Hot Springs The Th"
         }
       ]
+    },
+    {
+      "titleId": "0100E0E00C518000",
+      "title": "The Long Journey Home",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E0E00C518000.jpg",
+      "variants": [
+        {
+          "id": "v_7b66df01",
+          "name": "The Long Journey Home — The Long Journey Home Re",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IqyjedORAwgEHDD2CRfqUG6bJ3VveEJk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IqyjedORAwgEHDD2CRfqUG6bJ3VveEJk&sz=w640",
+          "sizeBytes": 4456595,
+          "sha256": "7071CC6E62EF45D447CA15261FFECEB26A1C56BBAC04665C5C26115F8EEC2132",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Long Journey Home — The Long Journey"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F4C013866000",
+      "title": "The Plane Effect",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F4C013866000.jpg",
+      "variants": [
+        {
+          "id": "v_6aef1a62",
+          "name": "The Plane Effect — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RBcSugkAsj6sP6GQM3fx8YPlYCt8FJvy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RBcSugkAsj6sP6GQM3fx8YPlYCt8FJvy&sz=w640",
+          "sizeBytes": 5424967,
+          "sha256": "58B6908FB514C7218866BA25C5E7DDFD167DA484DC6F0F87ED1394064DE3E65B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Plane Effect — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E3400F242000",
+      "title": "Lost Ember",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E3400F242000.jpg",
+      "variants": [
+        {
+          "id": "v_fca79c48",
+          "name": "LOST EMBER — Lost Ember - Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OmPFugskVJlUclP2iXCdjwc-acV0AB6_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OmPFugskVJlUclP2iXCdjwc-acV0AB6_&sz=w640",
+          "sizeBytes": 4204695,
+          "sha256": "403AA3DD3792E68EADFAB85B847CBDD6808FE6D6B2A6B3A055BF92FC220CBC64",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | LOST EMBER — Lost Ember - Release Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "01004C3470490000",
+      "title": "The Enchanted Forest",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004C3470490000.jpg",
+      "variants": [
+        {
+          "id": "v_bba874f4",
+          "name": "Galactic Heroes: The Enchanted Forest — The Ench",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VnwcA1OhMk9z22ASTyUW0iaUT1VJzzCK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VnwcA1OhMk9z22ASTyUW0iaUT1VJzzCK&sz=w640",
+          "sizeBytes": 5316349,
+          "sha256": "60D1EAECDF5B922CD2797F4280FD84F2B2B854092A3B497EBC9C7969B27CC63A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Galactic Heroes: The Enchanted Forest — "
+        }
+      ]
+    },
+    {
+      "titleId": "0100966013BB2000",
+      "title": "Raiders of the Lost Island",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100966013BB2000.jpg",
+      "variants": [
+        {
+          "id": "v_360f80ae",
+          "name": "Raiders Of The Lost Island — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1to3Xc5L35Zb1BRVQzHFq4-Mbh8Rkizor",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1to3Xc5L35Zb1BRVQzHFq4-Mbh8Rkizor&sz=w640",
+          "sizeBytes": 5236900,
+          "sha256": "3C07D6A4F138B546FFA4B73D708DE003153797C434ECDC0E78501CF2FF3D23E6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Raiders Of The Lost Island — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010036F018AC8000",
+      "title": "Nuclear Blaze",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010036F018AC8000.jpg",
+      "variants": [
+        {
+          "id": "v_91e7316f",
+          "name": "Nuclear Blaze — Release trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ix6h9Or2ciyF5FIr1C8nWmqZ1eTMBjjN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ix6h9Or2ciyF5FIr1C8nWmqZ1eTMBjjN&sz=w640",
+          "sizeBytes": 5362835,
+          "sha256": "D584FD2BAE4E4722A84D5E1FE6E3ACACBAAEBA136D985CC1C7548925A046C0F1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Nuclear Blaze — Release trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010048200B606000",
+      "title": "Mars or Die",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010048200B606000.jpg",
+      "variants": [
+        {
+          "id": "v_6929a848",
+          "name": "Mars or Die! — Mars or Die! - Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XW8fBQFkSFhBDiLvHmi8XsiAtiS4Xecn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XW8fBQFkSFhBDiLvHmi8XsiAtiS4Xecn&sz=w640",
+          "sizeBytes": 5232202,
+          "sha256": "4783D212858EBF9FF4B2660C584415141426DE91FC7A0C31014130AB69B8E4EF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mars or Die! — Mars or Die! - Gameplay T"
+        }
+      ]
+    },
+    {
+      "titleId": "0100971011AFC000",
+      "title": "Krystopia",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100971011AFC000.jpg",
+      "variants": [
+        {
+          "id": "v_c7a0a5fc",
+          "name": "Krystopia: A Puzzle Journey — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PVN8S0pEuqfWUS9sQ0clUIE0HTWt_daU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PVN8S0pEuqfWUS9sQ0clUIE0HTWt_daU&sz=w640",
+          "sizeBytes": 5465366,
+          "sha256": "224B82D05DA7EC9A26C19FE82891ACBE438B3B17F8FBF7D556CEE60116551398",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Krystopia: A Puzzle Journey — Gameplay T"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E0F017746000",
+      "title": "Kombinera",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E0F017746000.jpg",
+      "variants": [
+        {
+          "id": "v_19feecc8",
+          "name": "Kombinera — Vanilla Gameplay",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kLGgwa2hB_S1qwX_2LoMgouBJmm_X6DZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kLGgwa2hB_S1qwX_2LoMgouBJmm_X6DZ&sz=w640",
+          "sizeBytes": 5340209,
+          "sha256": "94C810B4FA0781B200D11EB442F329F88913BC68AA2260A222C068D964EAD6DE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kombinera — Vanilla Gameplay"
+        }
+      ]
+    },
+    {
+      "titleId": "010015C01812C000",
+      "title": "Thunder Ray",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010015C01812C000.jpg",
+      "variants": [
+        {
+          "id": "v_356b6701",
+          "name": "Thunder Ray — Thunder Ray Official trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KRk4mA0GAOSDIr5Md6sym0Ml7HPEWM0F",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KRk4mA0GAOSDIr5Md6sym0Ml7HPEWM0F&sz=w640",
+          "sizeBytes": 5312351,
+          "sha256": "642DFB1A6163908735E0343081C77B0EBC7C7A5244411D02B8BEE5CDCCB05F0A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Thunder Ray — Thunder Ray Official trail"
+        }
+      ]
     }
   ],
-  "totalGames": 3773,
-  "totalVariants": 5197,
-  "lastUpdated": "2026-11-10T06:16:13.319581+00:00"
+  "totalGames": 3783,
+  "totalVariants": 5207,
+  "lastUpdated": "2026-11-10T06:19:32.144332+00:00"
 }
