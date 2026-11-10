@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T04:23:00.603486+00:00",
+  "updatedAt": "2026-11-10T04:25:53.400105+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -116188,9 +116188,269 @@
           "notes": "Switch 720p 30fps H264 | Monaco: What's Yours Is Mine — Monaco Tr"
         }
       ]
+    },
+    {
+      "titleId": "01001F5006DF6000",
+      "title": "Jim is Moving Out",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001F5006DF6000.jpg",
+      "variants": [
+        {
+          "id": "v_dedbd29e",
+          "name": "Jim is Moving Out! — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dHqkXobmRwvATr1I_tKP3ce0gNl3TPBL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dHqkXobmRwvATr1I_tKP3ce0gNl3TPBL&sz=w640",
+          "sizeBytes": 4117106,
+          "sha256": "C881E050830B998B3A10739A01826FED7B3789C563E8F8D69012891BA09D245A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Jim is Moving Out! — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01000E200BE10000",
+      "title": "Etherborn",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000E200BE10000.jpg",
+      "variants": [
+        {
+          "id": "v_ea809112",
+          "name": "Etherborn — Etherborn Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MJ22VK4pMTZBFbteajBL5AnolKZ0C2-m",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MJ22VK4pMTZBFbteajBL5AnolKZ0C2-m&sz=w640",
+          "sizeBytes": 5438065,
+          "sha256": "F65EE5D2B175A9F7FDCA054CEEA582FF7B56C64F5227F3FAFFD72D8D74EC23D3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Etherborn — Etherborn Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01007C600D778000",
+      "title": "Creature in the Well",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007C600D778000.jpg",
+      "variants": [
+        {
+          "id": "v_7aabedcc",
+          "name": "Creature in the Well — Accolades Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zTLob_TXtH3VSiUkjg85kSeuHLBQmimJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zTLob_TXtH3VSiUkjg85kSeuHLBQmimJ&sz=w640",
+          "sizeBytes": 4823590,
+          "sha256": "AE3BC230B59A7A03393C3EFF9068E9920249EF5BABA6697B1B2485EB45BDB6A9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Creature in the Well — Accolades Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01003AF0200B0000",
+      "title": "Rune Factory: Guardians of Azuma",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003AF0200B0000.jpg",
+      "variants": [
+        {
+          "id": "v_e4a8026a",
+          "name": "Rune Factory: Guardians of Azuma — Launch Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BCKZ-zCg38dqDgK3-HXWmas1vDF4_q7D",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BCKZ-zCg38dqDgK3-HXWmas1vDF4_q7D&sz=w640",
+          "sizeBytes": 5636988,
+          "sha256": "16400731E03239A77DDD8C58B54C478A72F013435DFB411B0E7AE3DCA3F3345E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rune Factory: Guardians of Azuma — Launc"
+        }
+      ]
+    },
+    {
+      "titleId": "010027100C544000",
+      "title": "Dragon's Lair: Trilogy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010027100C544000.jpg",
+      "variants": [
+        {
+          "id": "v_b8895514",
+          "name": "Dragon&#8217;s Lair",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gOTonQTVKZUQlfZn6ZkWOzTSaH79AnUx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gOTonQTVKZUQlfZn6ZkWOzTSaH79AnUx&sz=w640",
+          "sizeBytes": 1764627,
+          "sha256": "57676FDCC35DA6529F6EF95A173CA16E478245DF3DFE4F77DD572E51AE1D16CA",
+          "durationSec": 24.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dragon&#8217;s Lair"
+        }
+      ]
+    },
+    {
+      "titleId": "0100993022D0E000",
+      "title": "Agarta",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100993022D0E000.jpg",
+      "variants": [
+        {
+          "id": "v_8f3121d2",
+          "name": "Agarta — AGARTA - INTERACTIVE MOVIE - OFFICIAL T",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pgIbvU5Io72rztPyg5r5nCNhFaoW5tpC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pgIbvU5Io72rztPyg5r5nCNhFaoW5tpC&sz=w640",
+          "sizeBytes": 4402131,
+          "sha256": "DEF147D3DB7FA187A24635BC3DDB6A2326CFC7FD348C113A23F7FD0926DCC26F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Agarta — AGARTA - INTERACTIVE MOVIE - OF"
+        }
+      ]
+    },
+    {
+      "titleId": "010077E00F30E000",
+      "title": "Big Pharma",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010077E00F30E000.jpg",
+      "variants": [
+        {
+          "id": "v_3ada0e20",
+          "name": "Big Pharma — Release trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kd9rKQ8zyXY5GfNd0nltuqljjjAODCn-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kd9rKQ8zyXY5GfNd0nltuqljjjAODCn-&sz=w640",
+          "sizeBytes": 5351316,
+          "sha256": "3BFE20C5CD770FCBC5EA035992132A522EE5EF80724BF4DD361909F361CD5516",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Big Pharma — Release trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EB600A4DA000",
+      "title": "A Robot Named Fight",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EB600A4DA000.jpg",
+      "variants": [
+        {
+          "id": "v_5cf479b5",
+          "name": "A Robot Named Fight! — Trailer 2020",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1C2do3bLDo0SDiWmFiwBBp5Fu73cKDf-A",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1C2do3bLDo0SDiWmFiwBBp5Fu73cKDf-A&sz=w640",
+          "sizeBytes": 5237530,
+          "sha256": "C53D1C85919B39D666E157C5B2367D3DACB1EC0443A73F157AD84A6ED1E178D6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | A Robot Named Fight! — Trailer 2020"
+        }
+      ]
+    },
+    {
+      "titleId": "0100489013A3C000",
+      "title": "Virus The Outbreak",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100489013A3C000.jpg",
+      "variants": [
+        {
+          "id": "v_e53224c6",
+          "name": "Pandemic: The Virus Outbreak — Pandemic: The Vir",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lv8RY2hEdqNY-aPvVkE3tHWKdXT3oMEj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lv8RY2hEdqNY-aPvVkE3tHWKdXT3oMEj&sz=w640",
+          "sizeBytes": 5159523,
+          "sha256": "C0159D6327C268FBF927D032ED7A652FEF82E4F7EBD808D83F5E57C468E3C86C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Pandemic: The Virus Outbreak — Pandemic:"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A2301CCBC000",
+      "title": "Makoto Wakaido's Case Files Trilogy Deluxe",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A2301CCBC000.jpg",
+      "variants": [
+        {
+          "id": "v_f6384b77",
+          "name": "MAKOTO WAKAIDO’s Case Files TRILOGY DELUXE — wak",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1L9l3AIxkoY9eSQq5vA-MPiHaEJK0DZNH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1L9l3AIxkoY9eSQq5vA-MPiHaEJK0DZNH&sz=w640",
+          "sizeBytes": 2071874,
+          "sha256": "695B82796F8D089FFB84972D9221E0CCB0D77B4ED3D7826D49F85935D73AF3AC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | MAKOTO WAKAIDO’s Case Files TRILOGY DELU"
+        }
+      ]
     }
   ],
-  "totalGames": 3413,
-  "totalVariants": 4837,
-  "lastUpdated": "2026-11-10T04:23:00.603486+00:00"
+  "totalGames": 3423,
+  "totalVariants": 4847,
+  "lastUpdated": "2026-11-10T04:25:53.400105+00:00"
 }
