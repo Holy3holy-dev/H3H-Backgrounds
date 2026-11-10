@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T06:49:29.806749+00:00",
+  "updatedAt": "2026-11-10T06:52:40.799442+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -128408,9 +128408,269 @@
           "notes": "Switch 720p 30fps H264 | AER Memories of Old — AER Release Traile"
         }
       ]
+    },
+    {
+      "titleId": "0100A970164A8000",
+      "title": "Absolute Tactics Daughters of Mercy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A970164A8000.jpg",
+      "variants": [
+        {
+          "id": "v_0b8ac0e5",
+          "name": "Absolute Tactics: Daughters of Mercy — 30 second",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1d9Ea7EdFDYZ9MWzOJIO7qqD7nzfS0JAh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1d9Ea7EdFDYZ9MWzOJIO7qqD7nzfS0JAh&sz=w640",
+          "sizeBytes": 5437580,
+          "sha256": "BF0428C4778C1AAA175C328805172613DAEAE4F99A4A0762FC8315962FEC25CE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Absolute Tactics: Daughters of Mercy — 3"
+        }
+      ]
+    },
+    {
+      "titleId": "010041301F1A8000",
+      "title": "Whacking Hell",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010041301F1A8000.jpg",
+      "variants": [
+        {
+          "id": "v_40c1b974",
+          "name": "Whacking Hell! — Whacking Hell! Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hiMBCSnP57TJmdCdy6d348wIqw484tr-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hiMBCSnP57TJmdCdy6d348wIqw484tr-&sz=w640",
+          "sizeBytes": 5303882,
+          "sha256": "9F53F9C4DF190B586CB4F9EAA9A0ADDA44C0B2E7857E866E9B8FBA983649708F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Whacking Hell! — Whacking Hell! Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010039802274C000",
+      "title": "Old Skies",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010039802274C000.jpg",
+      "variants": [
+        {
+          "id": "v_de02d78a",
+          "name": "Old Skies — Old Skies trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RcNpyoZZpVYTWE_0tnX3B6jhAwQyK6OT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RcNpyoZZpVYTWE_0tnX3B6jhAwQyK6OT&sz=w640",
+          "sizeBytes": 5418147,
+          "sha256": "8284C389B228BBA44FCB29038D3F786EFFA6F92F80E637E94D5749E01A3051BD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Old Skies — Old Skies trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010079B00B3F4000",
+      "title": "Achtung Cthulhu Tactics",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010079B00B3F4000.jpg",
+      "variants": [
+        {
+          "id": "v_a7578558",
+          "name": "Achtung! Cthulhu Tactics — Achtung! Cthulhu Tact",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SqC6MsuFi6jkkgxsL8-B3WAUxKONMWXF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SqC6MsuFi6jkkgxsL8-B3WAUxKONMWXF&sz=w640",
+          "sizeBytes": 5592064,
+          "sha256": "C8CDE6C7D5C4FCCD6D34EDE3366B3DC8BD61B447FE831C8B0B0BB8D88D3E0C10",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Achtung! Cthulhu Tactics — Achtung! Cthu"
+        }
+      ]
+    },
+    {
+      "titleId": "01007210128C0000",
+      "title": "Astro Aqua Kitty",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007210128C0000.jpg",
+      "variants": [
+        {
+          "id": "v_a349df10",
+          "name": "ASTRO AQUA KITTY — arcade challenge mode trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fI191bCvCY85FYw1d0yGH6F2d32L9pB_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fI191bCvCY85FYw1d0yGH6F2d32L9pB_&sz=w640",
+          "sizeBytes": 5403086,
+          "sha256": "3CC7476C63C57C09B8AE73C3C116DA9E75D58E4AD610AC01BDE334746FD0DD7E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | ASTRO AQUA KITTY — arcade challenge mode"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B4601500E000",
+      "title": "Titan Chaser",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B4601500E000.jpg",
+      "variants": [
+        {
+          "id": "v_5d04b7a2",
+          "name": "Titan Chaser — Titan Chaser full release trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1euinexlq7fdaARQIuao-FIwXtAMc4kZo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1euinexlq7fdaARQIuao-FIwXtAMc4kZo&sz=w640",
+          "sizeBytes": 5509203,
+          "sha256": "E1C948F0FA74A21C8B6AECE2215D914C3EDA3EA91E53BA98F551402DC7BB2BCD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Titan Chaser — Titan Chaser full release"
+        }
+      ]
+    },
+    {
+      "titleId": "010087300445A000",
+      "title": "Bombslinger",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010087300445A000.jpg",
+      "variants": [
+        {
+          "id": "v_90913f2f",
+          "name": "Bombslinger — Release trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eXn7XU3iCMDVPKeKEiJPFRnfb-3HWO-2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eXn7XU3iCMDVPKeKEiJPFRnfb-3HWO-2&sz=w640",
+          "sizeBytes": 5269326,
+          "sha256": "8157E80D7706E9F3022F72232B9BDA9C9958BB5DF5EA8DC671B6DE72930D5AC9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bombslinger — Release trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E2701A3D8000",
+      "title": "Imagine Earth",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E2701A3D8000.jpg",
+      "variants": [
+        {
+          "id": "v_3d20249b",
+          "name": "Imagine Earth — Imagine Earth - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Py24DjZiTbuPyq7RJUuP_OueclED_G_Q",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Py24DjZiTbuPyq7RJUuP_OueclED_G_Q&sz=w640",
+          "sizeBytes": 5401945,
+          "sha256": "6D4C73B7F59580A7FA772E4F683CA7F188DF84E4492102C6EFAF76EBF528EE6F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Imagine Earth — Imagine Earth - Launch T"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F4500AA4E000",
+      "title": "Slice Dice and Rice",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F4500AA4E000.jpg",
+      "variants": [
+        {
+          "id": "v_4d5197c7",
+          "name": "Slice, Dice & Rice — Slice Dice & Rice trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wqkR4gPoQRQLtz1Krdh7KRIvSvzJz_Qa",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wqkR4gPoQRQLtz1Krdh7KRIvSvzJz_Qa&sz=w640",
+          "sizeBytes": 5536997,
+          "sha256": "F6AC86937235702D91483201DD69C06AFC517F283C24473A6E691746FDA271EA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Slice, Dice & Rice — Slice Dice & Rice t"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B8000B190000",
+      "title": "Goosebumps Dead of Night",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B8000B190000.jpg",
+      "variants": [
+        {
+          "id": "v_65c98445",
+          "name": "Goosebumps Dead of Night — Goosebumps Dead of Ni",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1spkp-Px479jFjp5L48Tjm4fMpnGnldn7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1spkp-Px479jFjp5L48Tjm4fMpnGnldn7&sz=w640",
+          "sizeBytes": 4981927,
+          "sha256": "B89520B054A137B4200E48AAED3F1094C1A54FB16737727091B37A2CCF3AF643",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Goosebumps Dead of Night — Goosebumps De"
+        }
+      ]
     }
   ],
-  "totalGames": 3883,
-  "totalVariants": 5307,
-  "lastUpdated": "2026-11-10T06:49:29.806749+00:00"
+  "totalGames": 3893,
+  "totalVariants": 5317,
+  "lastUpdated": "2026-11-10T06:52:40.799442+00:00"
 }
