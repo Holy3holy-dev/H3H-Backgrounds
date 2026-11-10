@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T15:23:10.694391+00:00",
+  "updatedAt": "2026-11-10T15:27:23.064948+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -167148,9 +167148,269 @@
           "notes": "Switch 720p 30fps H264 | Jade Order — Jade Order - Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100010100000000",
+      "title": "Cubic Dweller",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100010100000000.jpg",
+      "variants": [
+        {
+          "id": "v_1ee00063",
+          "name": "Cubic Dweller — trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IC-jnse8JcuOQxetsBwi576179FLuh-p",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IC-jnse8JcuOQxetsBwi576179FLuh-p&sz=w640",
+          "sizeBytes": 1867114,
+          "sha256": "D064C22B7A1019DA0EDE46B68BBA46AE6E7FC35BAE257657B68232A13C5710D1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cubic Dweller — trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010066D013A8C000",
+      "title": "Air Bounce",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010066D013A8C000.jpg",
+      "variants": [
+        {
+          "id": "v_0fd57b70",
+          "name": "Air Bounce - The Jump 'n' Run Challenge — Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14YKtK9CqflNmtrrrjQun_cj62xJ0fzzf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14YKtK9CqflNmtrrrjQun_cj62xJ0fzzf&sz=w640",
+          "sizeBytes": 5353787,
+          "sha256": "733607BF808B701FD474F1CB7D40052276BACADE13A2D885F51DED05E34D357B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Air Bounce - The Jump 'n' Run Challenge "
+        }
+      ]
+    },
+    {
+      "titleId": "010080E00D3DE000",
+      "title": "Jungle Z",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010080E00D3DE000.jpg",
+      "variants": [
+        {
+          "id": "v_38993242",
+          "name": "Jungle Z — Jungle Z1",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FC_J8g7nVMMQ0wvNmLjaiH5BHPN5WQIM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FC_J8g7nVMMQ0wvNmLjaiH5BHPN5WQIM&sz=w640",
+          "sizeBytes": 5200887,
+          "sha256": "58167FFA0F7F2B5CC4810949ED5F3C67DFD6CA79258E53D949F9AADF304198A1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Jungle Z — Jungle Z1"
+        }
+      ]
+    },
+    {
+      "titleId": "0100646012282000",
+      "title": "Epitaph",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100646012282000.jpg",
+      "variants": [
+        {
+          "id": "v_f2062c92",
+          "name": "EPITAPH: The Parchment Anthology — Gameplay trai",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CVeO1NOeLyLugwf4T7zh7s7MN5qEAG0j",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CVeO1NOeLyLugwf4T7zh7s7MN5qEAG0j&sz=w640",
+          "sizeBytes": 5009442,
+          "sha256": "399AF538DF0B018C3FB5F1A0981FCBB618A63CA6832063F8F194390E24BB7C0E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | EPITAPH: The Parchment Anthology — Gamep"
+        }
+      ]
+    },
+    {
+      "titleId": "010044900CCCC000",
+      "title": "Miner Warfare",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010044900CCCC000.jpg",
+      "variants": [
+        {
+          "id": "v_8b4fb7a6",
+          "name": "Miner Warfare — For Glory!",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1swN7SmfyaTKnIjCRpzOdOKCwBCbzlqfh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1swN7SmfyaTKnIjCRpzOdOKCwBCbzlqfh&sz=w640",
+          "sizeBytes": 4913385,
+          "sha256": "9E9C35FFC031574CC48D9B11E7335FD4292569635C3506C7DDF1AC29FC55A914",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Miner Warfare — For Glory!"
+        }
+      ]
+    },
+    {
+      "titleId": "010033200D232000",
+      "title": "Domiverse",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010033200D232000.jpg",
+      "variants": [
+        {
+          "id": "v_09e25d47",
+          "name": "Domiverse — Domiverse Action Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Pj2OkR2ZTchyKSZll2x9n9TOdEiRsukN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Pj2OkR2ZTchyKSZll2x9n9TOdEiRsukN&sz=w640",
+          "sizeBytes": 5182904,
+          "sha256": "60443ACE6DBCF1188951F7ED94F217B344F425D40D898314E342B51462BE9C45",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Domiverse — Domiverse Action Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C8500CBC4000",
+      "title": "Conjurer Andy's Repeatable Dungeon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C8500CBC4000.jpg",
+      "variants": [
+        {
+          "id": "v_e48cb118",
+          "name": "Conjurer Andy's Repeatable Dungeon — Conjurer An",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1utY8PR5wxVaT9PQDqsCeClMfa7JG5Qh0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1utY8PR5wxVaT9PQDqsCeClMfa7JG5Qh0&sz=w640",
+          "sizeBytes": 4797573,
+          "sha256": "ECAC5B78A9D938EBD10E4E2901119C53A3260A69EC5156CF5DAB126FA2EF4944",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Conjurer Andy's Repeatable Dungeon — Con"
+        }
+      ]
+    },
+    {
+      "titleId": "010005300EDCC000",
+      "title": "Quench",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010005300EDCC000.jpg",
+      "variants": [
+        {
+          "id": "v_7a2551cf",
+          "name": "Vision Quench — Vision Quench Demo Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1F-oLwWd3aNXb86yiLBPCLAeJgnnVgONR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1F-oLwWd3aNXb86yiLBPCLAeJgnnVgONR&sz=w640",
+          "sizeBytes": 4817680,
+          "sha256": "4D9BD458DDA4BB176E748EF0009F35B4B2FD66B04704D8539E5F64717A207D28",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Vision Quench — Vision Quench Demo Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F6000EAA8000",
+      "title": "Must Dash Amigos",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F6000EAA8000.jpg",
+      "variants": [
+        {
+          "id": "v_a2031474",
+          "name": "Must Dash Amigos — Must Dash Amigos | Announceme",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1e_I-4eFTOJ68BjlTHKbpxd0H_DDFF79c",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1e_I-4eFTOJ68BjlTHKbpxd0H_DDFF79c&sz=w640",
+          "sizeBytes": 5714026,
+          "sha256": "EE6E8E091FBB61D742CF13348D9E0CE615C73FA54290F23AA6E7B6C5C2193440",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Must Dash Amigos — Must Dash Amigos | An"
+        }
+      ]
+    },
+    {
+      "titleId": "010018F007786000",
+      "title": "Beefense Beemastered",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010018F007786000.jpg",
+      "variants": [
+        {
+          "id": "v_36d223d7",
+          "name": "BeeFense BeeMastered — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Q1Es-1eBupMyWwpb85GwMwbJL2Hxiikv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Q1Es-1eBupMyWwpb85GwMwbJL2Hxiikv&sz=w640",
+          "sizeBytes": 5288230,
+          "sha256": "2E40DFD188DCBF5C060CD93328B74ECD147423BE4991C8E81173282F18FFD4B4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | BeeFense BeeMastered — Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 5373,
-  "totalVariants": 6797,
-  "lastUpdated": "2026-11-10T15:23:10.694391+00:00"
+  "totalGames": 5383,
+  "totalVariants": 6807,
+  "lastUpdated": "2026-11-10T15:27:23.064948+00:00"
 }
