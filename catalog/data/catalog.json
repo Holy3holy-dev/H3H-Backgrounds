@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T00:30:28.692131+00:00",
+  "updatedAt": "2026-11-10T00:33:25.426137+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -97208,9 +97208,269 @@
           "notes": "Switch 720p 30fps H264 | Autonauts vs Piratebots — AvsP - Full Tr"
         }
       ]
+    },
+    {
+      "titleId": "01006A30171A0000",
+      "title": "Floppy Knights",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006A30171A0000.jpg",
+      "variants": [
+        {
+          "id": "v_8a371d0a",
+          "name": "Floppy Knights — Version 2.0",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1774u6dRqauQA5ps3etc4kL34XP-M2eYz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1774u6dRqauQA5ps3etc4kL34XP-M2eYz&sz=w640",
+          "sizeBytes": 5153458,
+          "sha256": "FB5232D2777F6B088BB88C96EA2E494CFBD3DA05D458BA08B0F0E831835DA785",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Floppy Knights — Version 2.0"
+        }
+      ]
+    },
+    {
+      "titleId": "01002640165E4000",
+      "title": "Orbital Bullet",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002640165E4000.jpg",
+      "variants": [
+        {
+          "id": "v_24767318",
+          "name": "Orbital Bullet – The 360° Rogue-lite — Orbital B",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1l3y82rPQUH-sVsUtDrTemJ5DEELu0qV9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1l3y82rPQUH-sVsUtDrTemJ5DEELu0qV9&sz=w640",
+          "sizeBytes": 4997737,
+          "sha256": "1D4C5D9651640C0D97A621AE42F3E20708C9314503D8A1152A1DB24EBE3E04A7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Orbital Bullet – The 360° Rogue-lite — O"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B3C01E000000",
+      "title": "Spiritfall",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B3C01E000000.jpg",
+      "variants": [
+        {
+          "id": "v_ba89da89",
+          "name": "Spiritfall — Spiritfall Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ta8mM3_28wzX0_8KMWkbPJU9TyucSkcd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ta8mM3_28wzX0_8KMWkbPJU9TyucSkcd&sz=w640",
+          "sizeBytes": 4971207,
+          "sha256": "5E81B0F393026497A3F28479FE8BE29E89DB7B58DF5955A883A7A8776E5E8573",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Spiritfall — Spiritfall Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01000ED014A2C000",
+      "title": "Retro Machina",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000ED014A2C000.jpg",
+      "variants": [
+        {
+          "id": "v_c997f0d7",
+          "name": "Retro Machina — Scandroid",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zjXOEbmLIOlE6o0ftIac45Qz1nCW9pUY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zjXOEbmLIOlE6o0ftIac45Qz1nCW9pUY&sz=w640",
+          "sizeBytes": 4957682,
+          "sha256": "1A01776D057BFD9E5900B58B0B74CFD1F3BB26F27CB2A433A119B7B5A0248807",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Retro Machina — Scandroid"
+        }
+      ]
+    },
+    {
+      "titleId": "01008AE026542000",
+      "title": "Resetna",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008AE026542000.jpg",
+      "variants": [
+        {
+          "id": "v_bbff2663",
+          "name": "ReSetna — ReSetna The Warrior Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HR9lNrrKzfKWAIMw7rb-0b33N-aMhv1T",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HR9lNrrKzfKWAIMw7rb-0b33N-aMhv1T&sz=w640",
+          "sizeBytes": 5194243,
+          "sha256": "51D3E649098A02BB7E3209782E540500F865DB29D8109750A132676BED4CBBCE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | ReSetna — ReSetna The Warrior Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100695020E2A000",
+      "title": "Rusty Rabbit",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100695020E2A000.jpg",
+      "variants": [
+        {
+          "id": "v_b7467f3e",
+          "name": "Rusty Rabbit — Rusty Rabbit Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vavwt3zfoNoJYMYUlHCrI6UV5vtKKAiv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vavwt3zfoNoJYMYUlHCrI6UV5vtKKAiv&sz=w640",
+          "sizeBytes": 5161530,
+          "sha256": "C84D6DB3C615BE9F56B6701B839AC625A236796ADBDBFCF45C36D9948A95DDBD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rusty Rabbit — Rusty Rabbit Launch Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "010083A00BF6C000",
+      "title": "Dark Devotion",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010083A00BF6C000.jpg",
+      "variants": [
+        {
+          "id": "v_b897f80d",
+          "name": "Dark Devotion — Dark Devotion - Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bSeye624vgdDEY9gZwquw_6HzJb5VWAG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bSeye624vgdDEY9gZwquw_6HzJb5VWAG&sz=w640",
+          "sizeBytes": 5368029,
+          "sha256": "8002C8B364AD430C22C29422CF427FE1F42F57B747A1AF60FBCDB947F0476296",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dark Devotion — Dark Devotion - Release "
+        }
+      ]
+    },
+    {
+      "titleId": "0100FBF014064000",
+      "title": "Last Stop",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FBF014064000.jpg",
+      "variants": [
+        {
+          "id": "v_74033d0b",
+          "name": "Last Stop — Last Stop - Release Date Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1H3r2Q-TphZ6AlhnRxmW44dduFm_eGLGK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1H3r2Q-TphZ6AlhnRxmW44dduFm_eGLGK&sz=w640",
+          "sizeBytes": 4495635,
+          "sha256": "449C5E8932D3D138EB1F4FCFDFE533A54C5240B323AC9122D27DB46953A7CD9D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Last Stop — Last Stop - Release Date Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "01007E90116CE000",
+      "title": "Giraffe and Annika",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007E90116CE000.jpg",
+      "variants": [
+        {
+          "id": "v_af8f76b1",
+          "name": "Giraffe and Annika — Giraffe and Annika launch t",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zl8s4BgUvAQVxuxCxO6ocwWOaGuDA4Sa",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zl8s4BgUvAQVxuxCxO6ocwWOaGuDA4Sa&sz=w640",
+          "sizeBytes": 5556533,
+          "sha256": "D1A89846738A89BF27A2509E3B9A7546E8F48A66252CD1735D8ACD26F7351CD7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Giraffe and Annika — Giraffe and Annika "
+        }
+      ]
+    },
+    {
+      "titleId": "01007EA01E00A000",
+      "title": "Yars Rising",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007EA01E00A000.jpg",
+      "variants": [
+        {
+          "id": "v_c0593a6a",
+          "name": "Yars Rising — Yars Rising - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rRBENMF5EDxabqdYOH64SwwtD660Ho8A",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rRBENMF5EDxabqdYOH64SwwtD660Ho8A&sz=w640",
+          "sizeBytes": 5308391,
+          "sha256": "3C3A8AA6599F6CA94AE091B3715CA3D6FD76DB2DD8FFDDE7FA446BF5781A7AF2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Yars Rising — Yars Rising - Launch Trail"
+        }
+      ]
     }
   ],
-  "totalGames": 2683,
-  "totalVariants": 4107,
-  "lastUpdated": "2026-11-10T00:30:28.692131+00:00"
+  "totalGames": 2693,
+  "totalVariants": 4117,
+  "lastUpdated": "2026-11-10T00:33:25.426137+00:00"
 }
