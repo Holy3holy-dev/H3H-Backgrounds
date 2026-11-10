@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T14:48:40.045492+00:00",
+  "updatedAt": "2026-11-10T14:52:40.028684+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -165068,9 +165068,269 @@
           "notes": "Switch 720p 30fps H264 | Violet Wisteria — Violet Wisteria Second"
         }
       ]
+    },
+    {
+      "titleId": "010067901B8E4000",
+      "title": "Sunny Cafe",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010067901B8E4000.jpg",
+      "variants": [
+        {
+          "id": "v_b4a63ebb",
+          "name": "Sunny Cafe — SunnyCafe - Official Trailer (Engli",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cB3wgkb0SApn3fSy4YiscIy4MOTsvc6v",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cB3wgkb0SApn3fSy4YiscIy4MOTsvc6v&sz=w640",
+          "sizeBytes": 4008711,
+          "sha256": "8692DB2A46D0CF1EEF322D19259B7EEA369FE2E2C6293F51E7483AC9ECA89274",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sunny Cafe — SunnyCafe - Official Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "01009DE01E6B0000",
+      "title": "Last Bloody Snack",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009DE01E6B0000.jpg",
+      "variants": [
+        {
+          "id": "v_cbc4a8a7",
+          "name": "Last Bloody Snack — Last Blood Snack - Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1G_E3YAtSYLbDppe_NqWBQI7czi6YY5I6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1G_E3YAtSYLbDppe_NqWBQI7czi6YY5I6&sz=w640",
+          "sizeBytes": 2093268,
+          "sha256": "C4585028E4DEBBB620847A820AFA8FD1976DBA9E6880247A337DA0EC5A6F0F24",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Last Bloody Snack — Last Blood Snack - T"
+        }
+      ]
+    },
+    {
+      "titleId": "010059400E2FC000",
+      "title": "Damaged in Transit",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010059400E2FC000.jpg",
+      "variants": [
+        {
+          "id": "v_d6d15a8d",
+          "name": "Damaged In Transit — Damaged In Transit - Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WtAX0o64HzWxZNcpuQ1uYEvIzPYTl4an",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WtAX0o64HzWxZNcpuQ1uYEvIzPYTl4an&sz=w640",
+          "sizeBytes": 5151935,
+          "sha256": "213372F2F5021A25FBEAC6996B565E56CDBE36427290283D17C5E482C2EB4A43",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Damaged In Transit — Damaged In Transit "
+        }
+      ]
+    },
+    {
+      "titleId": "0100DA9013AB4000",
+      "title": "Smart Moves",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DA9013AB4000.jpg",
+      "variants": [
+        {
+          "id": "v_6b19899b",
+          "name": "Smart Moves — Smart Moves",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KstlIU7GkxNDL2NM7ro5EEVF0TlJbB2y",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KstlIU7GkxNDL2NM7ro5EEVF0TlJbB2y&sz=w640",
+          "sizeBytes": 5176506,
+          "sha256": "6F0CDDF548649251F1D09881CCA468E60F5C84BEBF0D3E0456E18DDB62FE60CD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Smart Moves — Smart Moves"
+        }
+      ]
+    },
+    {
+      "titleId": "010016E011EFA000",
+      "title": "Norman's Great Illusion",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010016E011EFA000.jpg",
+      "variants": [
+        {
+          "id": "v_006c3778",
+          "name": "Norman's Great Illusion — Norman's Great Illusio",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AdhG9MYgNzAHEKmSmiSatoOUhldUAwe5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AdhG9MYgNzAHEKmSmiSatoOUhldUAwe5&sz=w640",
+          "sizeBytes": 5048234,
+          "sha256": "FE6B3DD33D221B34E196596D9A156B47F67E1AAD0499DAAE8E748441BD012A84",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Norman's Great Illusion — Norman's Great"
+        }
+      ]
+    },
+    {
+      "titleId": "01009DF014F44000",
+      "title": "Merrily Perilly",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009DF014F44000.jpg",
+      "variants": [
+        {
+          "id": "v_ffced222",
+          "name": "Merrily Perilly — Gameplay Trailer 2022",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cYHiQteTJBuL2IVu8phkDKiXdtyWVTSs",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cYHiQteTJBuL2IVu8phkDKiXdtyWVTSs&sz=w640",
+          "sizeBytes": 4413114,
+          "sha256": "75106FCCE12E082D0D9C056B972D38D9B9E986142A0ADEC46ED271801206B184",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Merrily Perilly — Gameplay Trailer 2022"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DDD0131D6000",
+      "title": "Flowing Lights",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DDD0131D6000.jpg",
+      "variants": [
+        {
+          "id": "v_de4786f4",
+          "name": "Flowing Lights — Launch trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1YF1VCituI6OpMvpBs3u-tIMyI83LK2ak",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1YF1VCituI6OpMvpBs3u-tIMyI83LK2ak&sz=w640",
+          "sizeBytes": 5249908,
+          "sha256": "84AAABA00D936B761DC5ADB5C4ABC8D915B581B54C36B0E6427A625F80CEBFC6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Flowing Lights — Launch trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010043B00AAC0000",
+      "title": "Remnants of Naezith",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010043B00AAC0000.jpg",
+      "variants": [
+        {
+          "id": "v_92c0aab4",
+          "name": "Remnants of Naezith — Remnants of Naezith Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oFW4ZOQdREs0Db75Le2_dC3NysnUQWpt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oFW4ZOQdREs0Db75Le2_dC3NysnUQWpt&sz=w640",
+          "sizeBytes": 5250290,
+          "sha256": "77AED401647B9F9149FFBD092DF3DE29636DF43FA4B1A05148091040FC24E1A2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Remnants of Naezith — Remnants of Naezit"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C80018C0C000",
+      "title": "Understand",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C80018C0C000.jpg",
+      "variants": [
+        {
+          "id": "v_91f27f3b",
+          "name": "Understand — Fun",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Mx5MRUabTQ5DdPhVyTEVbw3CS6bvi6ak",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Mx5MRUabTQ5DdPhVyTEVbw3CS6bvi6ak&sz=w640",
+          "sizeBytes": 1278920,
+          "sha256": "6857EA8D1564A29A6988038D228AD0ECCF186D8B866474D56E9155B5827569E0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Understand — Fun"
+        }
+      ]
+    },
+    {
+      "titleId": "010050E00EC8E000",
+      "title": "Gunpowder on The Teeth Arcade",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010050E00EC8E000.jpg",
+      "variants": [
+        {
+          "id": "v_fde32a0d",
+          "name": "Gunpowder on The Teeth: Arcade — Gunpowder on Th",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Aja-xvTwgTPhLVDF5HzeHaqBU1wDNuac",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Aja-xvTwgTPhLVDF5HzeHaqBU1wDNuac&sz=w640",
+          "sizeBytes": 5152888,
+          "sha256": "017A46E3231B4B390736084824F35CC3761A40324D2F8B65F0ECE5ED932114BF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Gunpowder on The Teeth: Arcade — Gunpowd"
+        }
+      ]
     }
   ],
-  "totalGames": 5293,
-  "totalVariants": 6717,
-  "lastUpdated": "2026-11-10T14:48:40.045492+00:00"
+  "totalGames": 5303,
+  "totalVariants": 6727,
+  "lastUpdated": "2026-11-10T14:52:40.028684+00:00"
 }
