@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T08:16:37.824990+00:00",
+  "updatedAt": "2026-11-10T08:19:37.557599+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -135688,9 +135688,269 @@
           "notes": "Switch 720p 30fps H264 | Spells & Secrets — Spells and Secrets - "
         }
       ]
+    },
+    {
+      "titleId": "010004F00DA3E000",
+      "title": "Skye Tales",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010004F00DA3E000.jpg",
+      "variants": [
+        {
+          "id": "v_865d0f05",
+          "name": "Skye Tales — Short Out Now",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1w5nLRUJWpqEf4-D-1olUfHbSpBQRI1-F",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1w5nLRUJWpqEf4-D-1olUfHbSpBQRI1-F&sz=w640",
+          "sizeBytes": 5470207,
+          "sha256": "05EC38C9A0822F72AE5036FCD3C84FA24AAC388A1F16CEAC37927F65CB187EB6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Skye Tales — Short Out Now"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AB1019672000",
+      "title": "Snake Core",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AB1019672000.jpg",
+      "variants": [
+        {
+          "id": "v_fbc84f41",
+          "name": "Snake Core — Release trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Hf2EaZNDjzs-qwz4IHnweBAD7eCoI3wW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Hf2EaZNDjzs-qwz4IHnweBAD7eCoI3wW&sz=w640",
+          "sizeBytes": 5375565,
+          "sha256": "031615711633EA9961D5EB7967FE7FEB08D9F3A8DC9B2619E129563FEF3C2809",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Snake Core — Release trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01000FF01A7E0000",
+      "title": "Sky Caravan",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000FF01A7E0000.jpg",
+      "variants": [
+        {
+          "id": "v_db77d51d",
+          "name": "Sky Caravan — Sky Caravan - Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11aMbWdytOqbAlC3Bci07s4G6XtT7DCCZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11aMbWdytOqbAlC3Bci07s4G6XtT7DCCZ&sz=w640",
+          "sizeBytes": 5297285,
+          "sha256": "8FCA66A6C18118804F884F205A5AC871018C610984D526DB175F2C4406DFD43D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sky Caravan — Sky Caravan - Release Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BD801B2DE000",
+      "title": "Sentry City",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BD801B2DE000.jpg",
+      "variants": [
+        {
+          "id": "v_8a905929",
+          "name": "Sentry City — SentryReleaseTrailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BCGsJQSlu3_d_EuS9rdWBR7fFRUVOKho",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BCGsJQSlu3_d_EuS9rdWBR7fFRUVOKho&sz=w640",
+          "sizeBytes": 4305628,
+          "sha256": "71543196920B5100BA94A717024DAAC41755116633B7F06E10A3B181DAC22B5E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sentry City — SentryReleaseTrailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010048801ADF0000",
+      "title": "Sephonie",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010048801ADF0000.jpg",
+      "variants": [
+        {
+          "id": "v_fbf3e4c0",
+          "name": "Sephonie — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eCEp0KURpCqTdzirq_ogxqLnXwKhywTM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eCEp0KURpCqTdzirq_ogxqLnXwKhywTM&sz=w640",
+          "sizeBytes": 5648952,
+          "sha256": "BBC7F906AE632A103288118E7F4E4F41E552ADFB2462DF64594FA6315650E4AC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sephonie — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010066E01A9E2000",
+      "title": "Shadows Over Loathing",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010066E01A9E2000.jpg",
+      "variants": [
+        {
+          "id": "v_a1ca4619",
+          "name": "Shadows Over Loathing — Primary",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KzufusKtB-v2M39EjhRUB_NdgU-guJar",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KzufusKtB-v2M39EjhRUB_NdgU-guJar&sz=w640",
+          "sizeBytes": 5502883,
+          "sha256": "1FC2972AFBEE1435E0CF172FFB8DFCDAD587F611D63D1165DCA77E3F04CCCFC5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Shadows Over Loathing — Primary"
+        }
+      ]
+    },
+    {
+      "titleId": "01005C0016188000",
+      "title": "Shieldmaiden Remix Edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005C0016188000.jpg",
+      "variants": [
+        {
+          "id": "v_ef9f4c64",
+          "name": "Shieldmaiden: Remix Edition — Shieldmaiden Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SEfquLkrV7vTwOm_2lZkN-RT2095OCbx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SEfquLkrV7vTwOm_2lZkN-RT2095OCbx&sz=w640",
+          "sizeBytes": 5312504,
+          "sha256": "4CB7113129294799CBDA6AAAF6994990B245FDDD6952AD56CE12CBF60E2D5513",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Shieldmaiden: Remix Edition — Shieldmaid"
+        }
+      ]
+    },
+    {
+      "titleId": "01000D90199EA000",
+      "title": "Saltsea Chronicles",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000D90199EA000.jpg",
+      "variants": [
+        {
+          "id": "v_c23fbda5",
+          "name": "Saltsea Chronicles — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1l2e-GR9ZcL74I5vA0HX3lb75ZL7OH07O",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1l2e-GR9ZcL74I5vA0HX3lb75ZL7OH07O&sz=w640",
+          "sizeBytes": 5034422,
+          "sha256": "2A514E99C7E198026DBCC38A56483D9A81539641DA33704C6EEA11E143227FBB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Saltsea Chronicles — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EEA018BAC000",
+      "title": "Scrap Riders",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EEA018BAC000.jpg",
+      "variants": [
+        {
+          "id": "v_f04437b6",
+          "name": "Scrap Riders — Scrap Riders - Combat Trailer FR",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wGNpR-ZuDhyf91s3kDHB0hffLn1jl5F6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wGNpR-ZuDhyf91s3kDHB0hffLn1jl5F6&sz=w640",
+          "sizeBytes": 5079210,
+          "sha256": "2151520E251CA82603E4CBEFBABE170301D4FD3486FA0A92E5C71E52F5BB3467",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Scrap Riders — Scrap Riders - Combat Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "01009A400A97C000",
+      "title": "Assault Gunners",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009A400A97C000.jpg",
+      "variants": [
+        {
+          "id": "v_c027589b",
+          "name": "ASSAULT GUNNERS HD EDITION — ASSAULT GUNNERS HD ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14FhfFRucqD7egCnY9LcC0um5UhNcAlfa",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14FhfFRucqD7egCnY9LcC0um5UhNcAlfa&sz=w640",
+          "sizeBytes": 4647870,
+          "sha256": "CF94296C7916E186F9ECD4981F46B727EFA5A57E824BFEA16758CD7CE9A76BD3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | ASSAULT GUNNERS HD EDITION — ASSAULT GUN"
+        }
+      ]
     }
   ],
-  "totalGames": 4163,
-  "totalVariants": 5587,
-  "lastUpdated": "2026-11-10T08:16:37.824990+00:00"
+  "totalGames": 4173,
+  "totalVariants": 5597,
+  "lastUpdated": "2026-11-10T08:19:37.557599+00:00"
 }
