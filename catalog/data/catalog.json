@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T07:43:14.401659+00:00",
+  "updatedAt": "2026-11-10T07:46:23.660800+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -133088,9 +133088,269 @@
           "notes": "Switch 720p 30fps H264 | Howling Village: Echoes — Howling Villag"
         }
       ]
+    },
+    {
+      "titleId": "01007F001CB06000",
+      "title": "Lily in Puzzle World",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007F001CB06000.jpg",
+      "variants": [
+        {
+          "id": "v_13a041de",
+          "name": "Lily in Puzzle World — Lily in Puzzle World Trai",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19eDPZ9OqhsPRgbi6Oyno2_VEvmk2tJ_T",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19eDPZ9OqhsPRgbi6Oyno2_VEvmk2tJ_T&sz=w640",
+          "sizeBytes": 5294252,
+          "sha256": "DC4BD29A96E82C2F8E3A65D92FAB7A2360DC9A4B57E1F797D08DAC56190C5E84",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lily in Puzzle World — Lily in Puzzle Wo"
+        }
+      ]
+    },
+    {
+      "titleId": "010070B01F01C000",
+      "title": "Path to Purge",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010070B01F01C000.jpg",
+      "variants": [
+        {
+          "id": "v_18659a94",
+          "name": "Path to purge — pv",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MwKYtLC6T_Pxd-sihHBgIflwaGrauZ3d",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MwKYtLC6T_Pxd-sihHBgIflwaGrauZ3d&sz=w640",
+          "sizeBytes": 5292099,
+          "sha256": "8D6E21D72F00AE057710BEA2C7D6F7A2CB6DD771761C691BC32E597C93AAF34C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Path to purge — pv"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EC001F7F4000",
+      "title": "Otherwar",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EC001F7F4000.jpg",
+      "variants": [
+        {
+          "id": "v_c11647ef",
+          "name": "Otherwar — Otherwar - Launch Trailer (Steam, GOG",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jU0XpovYBR8UXctS_uKHAJdl8Wa-1f-h",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jU0XpovYBR8UXctS_uKHAJdl8Wa-1f-h&sz=w640",
+          "sizeBytes": 5342161,
+          "sha256": "875A1D67AFDCEFD573AFA20FA679A2BE61824764F7F72EA0C1C30D2BEFCB2E10",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Otherwar — Otherwar - Launch Trailer (St"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C3001D68E000",
+      "title": "OrbWars",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C3001D68E000.jpg",
+      "variants": [
+        {
+          "id": "v_ad554d18",
+          "name": "OrbWars — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1JYn7ckKyvmBnLXAkSlmCHyyld5XEUDrs",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1JYn7ckKyvmBnLXAkSlmCHyyld5XEUDrs&sz=w640",
+          "sizeBytes": 5489357,
+          "sha256": "4A8C2EBC3AFC883F98DF1A5C6060EFE24F79154475D2D165DF41A35B1B92E096",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | OrbWars — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010084501F592000",
+      "title": "Operation Polygon Storm",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010084501F592000.jpg",
+      "variants": [
+        {
+          "id": "v_59a936c4",
+          "name": "Operation: Polygon Storm — OPS Launch Trailer - ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Juv1qgeJM4Of-noUNJkPUzry4LWoi7ir",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Juv1qgeJM4Of-noUNJkPUzry4LWoi7ir&sz=w640",
+          "sizeBytes": 5316942,
+          "sha256": "58589D43E7FCFE400E3253ED88D2F116AE121931A9845FA926F0326657E436B8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Operation: Polygon Storm — OPS Launch Tr"
+        }
+      ]
+    },
+    {
+      "titleId": "010051B019EE6000",
+      "title": "No Umbrellas Allowed",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010051B019EE6000.jpg",
+      "variants": [
+        {
+          "id": "v_2b4683eb",
+          "name": "No Umbrellas Allowed — Short Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZnBnI8wLHAJ_bOIIZTGzfKjRoZAYpDLO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZnBnI8wLHAJ_bOIIZTGzfKjRoZAYpDLO&sz=w640",
+          "sizeBytes": 4903992,
+          "sha256": "DB3070543210F8B9104DE5DB4D260BCBC0DE8C39B90592AFB7EFF9F840C59CF3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | No Umbrellas Allowed — Short Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01002290204B8000",
+      "title": "Necro Story",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002290204B8000.jpg",
+      "variants": [
+        {
+          "id": "v_e8c8c65e",
+          "name": "Necro Story — Necro Story - Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yWwguK3B5f7LsftZtWeDtiRR5-AhsqTN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yWwguK3B5f7LsftZtWeDtiRR5-AhsqTN&sz=w640",
+          "sizeBytes": 5551650,
+          "sha256": "F3664DED302A1C601A991621488B512957326A32A755962973DAC9F0D17EA21E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Necro Story — Necro Story - Release Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FED01B726000",
+      "title": "NanoApostle",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FED01B726000.jpg",
+      "variants": [
+        {
+          "id": "v_49908599",
+          "name": "NanoApostle — NanoApostle: Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UJKypPKD6ZhbFJG2GPtnLtzcB8S1yBH2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UJKypPKD6ZhbFJG2GPtnLtzcB8S1yBH2&sz=w640",
+          "sizeBytes": 5453396,
+          "sha256": "F6F3EE9135E44F5E273B08B02CF189E52B152F9E01A1063573A622B06C925A45",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | NanoApostle — NanoApostle: Launch Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "0100402022A76000",
+      "title": "Folly of the Wizards",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100402022A76000.jpg",
+      "variants": [
+        {
+          "id": "v_815cbfa4",
+          "name": "Folly Of The Wizards — Folly of the Wizards Anno",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rd3f0jlOrvT0TgHOxFeZRyZ4i9JQRZ9k",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rd3f0jlOrvT0TgHOxFeZRyZ4i9JQRZ9k&sz=w640",
+          "sizeBytes": 4626205,
+          "sha256": "2E03DF99190D94121218F6E46702C6FBA1BE2B70D7C1322043CCBB660CD2F136",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Folly Of The Wizards — Folly of the Wiza"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F18010BA0000",
+      "title": "Speed 3 Grand Prix",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F18010BA0000.jpg",
+      "variants": [
+        {
+          "id": "v_9f20dcb9",
+          "name": "Speed 3: Grand Prix — Speed 3: Grand Prix - Laun",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IGuhlz9qvRvTLnwH2z01JH8JWDBjyfby",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IGuhlz9qvRvTLnwH2z01JH8JWDBjyfby&sz=w640",
+          "sizeBytes": 5511221,
+          "sha256": "F17290AAA1A4FCCC7827743E4CE04E91AE2D55A644CC7B28517E67447E6DC6A9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Speed 3: Grand Prix — Speed 3: Grand Pri"
+        }
+      ]
     }
   ],
-  "totalGames": 4063,
-  "totalVariants": 5487,
-  "lastUpdated": "2026-11-10T07:43:14.401659+00:00"
+  "totalGames": 4073,
+  "totalVariants": 5497,
+  "lastUpdated": "2026-11-10T07:46:23.660800+00:00"
 }
