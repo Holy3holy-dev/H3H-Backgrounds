@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T01:40:23.882168+00:00",
+  "updatedAt": "2026-11-10T01:44:17.419356+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -102928,9 +102928,269 @@
           "notes": "Switch 720p 30fps H264 | Surviving the Aftermath — Surviving the "
         }
       ]
+    },
+    {
+      "titleId": "010058F01DF8C000",
+      "title": "Funko Fusion",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010058F01DF8C000.jpg",
+      "variants": [
+        {
+          "id": "v_c5880dfc",
+          "name": "Funko Fusion — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19y1uPW3PaIJH4itlnhYEjok45Hro4YoQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19y1uPW3PaIJH4itlnhYEjok45Hro4YoQ&sz=w640",
+          "sizeBytes": 5533500,
+          "sha256": "FE8C11640C6CFA5BEA15A7A5DC31CAD2DBD2C62E57DD17CE55DCD02723E1C309",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Funko Fusion — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01005CF014794000",
+      "title": "GetsuFumaDen Undying Moon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005CF014794000.jpg",
+      "variants": [
+        {
+          "id": "v_c8349f85",
+          "name": "GetsuFumaDen: Undying Moon — Launch_V1.0_Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WivjRaV8BN9q7G1LIvQWM6JOaSE6Ipb-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WivjRaV8BN9q7G1LIvQWM6JOaSE6Ipb-&sz=w640",
+          "sizeBytes": 4398874,
+          "sha256": "629FB2B494E6E054C5C994902E60E6A9AAFD65F3BB572ED6A2CDF9343ECD1AA1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | GetsuFumaDen: Undying Moon — Launch_V1.0"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D880159D2000",
+      "title": "Residual",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D880159D2000.jpg",
+      "variants": [
+        {
+          "id": "v_f841f521",
+          "name": "Residual Light — Announcement Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13Nb-FQRxeo-n4IR3syoKIv-bcNu4PagI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13Nb-FQRxeo-n4IR3syoKIv-bcNu4PagI&sz=w640",
+          "sizeBytes": 5257224,
+          "sha256": "99903290E65C5DCFA72FB757D6D90DDF38A7DB86E4008E4510D9A72D5D14A2F7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Residual Light — Announcement Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010010701AFB2000",
+      "title": "Nickelodeon All-Star Brawl 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010010701AFB2000.jpg",
+      "variants": [
+        {
+          "id": "v_a469faea",
+          "name": "Nickelodeon All-Star Brawl 2 — Accolades Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dRnwD3DeIo87FnwdqrXWcnqasOEdU5uC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dRnwD3DeIo87FnwdqrXWcnqasOEdU5uC&sz=w640",
+          "sizeBytes": 5286745,
+          "sha256": "C82D4E8008FAB5347FD1FC30C4BABD244EE5BCDFCA5DC93D251A54AD2ED9C87E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Nickelodeon All-Star Brawl 2 — Accolades"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D090158FC000",
+      "title": "A Tale of Paper Refolded",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D090158FC000.jpg",
+      "variants": [
+        {
+          "id": "v_70ed3f8a",
+          "name": "A Tale of Paper: Refolded — A Tale of Paper | Ou",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GXS7AQlQDGzwMy5ox6CEyj11QM5GuR4F",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GXS7AQlQDGzwMy5ox6CEyj11QM5GuR4F&sz=w640",
+          "sizeBytes": 2016295,
+          "sha256": "2E69DDA1463CAAEB06F3F2D59AAD54AD45B9A8A6179082EBE755936A69C501DF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | A Tale of Paper: Refolded — A Tale of Pa"
+        }
+      ]
+    },
+    {
+      "titleId": "010099F01C258000",
+      "title": "The Legend of Legacy HD Remastered",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010099F01C258000.jpg",
+      "variants": [
+        {
+          "id": "v_f0579022",
+          "name": "The Legend of Legacy HD Remastered — PV3: Launch",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZEV_3-Zvk1ibUMAP7KFUmefUcjJ48WPF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZEV_3-Zvk1ibUMAP7KFUmefUcjJ48WPF&sz=w640",
+          "sizeBytes": 4589321,
+          "sha256": "77A076CB8C51C011A2E090BADF357C37EAACF706B54141E38052C907ECB49269",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Legend of Legacy HD Remastered — PV3"
+        }
+      ]
+    },
+    {
+      "titleId": "0100375019B2E000",
+      "title": "The Mageseeker",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100375019B2E000.jpg",
+      "variants": [
+        {
+          "id": "v_c5ba0bf7",
+          "name": "The Mageseeker: A League of Legends Story™ — Mag",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Hyx7X3XdTlX1BMzsOjclO0cpu08ololC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Hyx7X3XdTlX1BMzsOjclO0cpu08ololC&sz=w640",
+          "sizeBytes": 4737411,
+          "sha256": "43A9EC8FA151617C8B48119E5DF9DAC7A6FD41C58559854B1400E05C35D95E1C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Mageseeker: A League of Legends Stor"
+        }
+      ]
+    },
+    {
+      "titleId": "010093402290E000",
+      "title": "Ogu and the Secret Forest",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010093402290E000.jpg",
+      "variants": [
+        {
+          "id": "v_2e59a491",
+          "name": "Ogu and the Secret Forest — Full Release Announc",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vJQS892iDk6JVmey0-axnP6IX1Sup6Md",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vJQS892iDk6JVmey0-axnP6IX1Sup6Md&sz=w640",
+          "sizeBytes": 5135767,
+          "sha256": "4BEBC773BD42712A8F68CD907464CC832F916E60BF516A9608403320C7157F66",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ogu and the Secret Forest — Full Release"
+        }
+      ]
+    },
+    {
+      "titleId": "010088F01599C000",
+      "title": "Deadcraft Deluxe edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010088F01599C000.jpg",
+      "variants": [
+        {
+          "id": "v_202dc10b",
+          "name": "DEADCRAFT — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Fd1H8XOTK-Rhg0kBaKUgbfRGh5Ja2g-T",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Fd1H8XOTK-Rhg0kBaKUgbfRGh5Ja2g-T&sz=w640",
+          "sizeBytes": 5326637,
+          "sha256": "E22D8305EFE6BB6D7AF77334267A6D0BD307C9C77827EC7A2888DF86CFE24D66",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | DEADCRAFT — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010047E010B3E000",
+      "title": "Fight of Animals",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010047E010B3E000.jpg",
+      "variants": [
+        {
+          "id": "v_8d40e12d",
+          "name": "Fight of Animals — Fight of Animals 動物之鬪 - Costu",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LxYACZIcUi4xWU94TomTs7-FBEkRo8OF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LxYACZIcUi4xWU94TomTs7-FBEkRo8OF&sz=w640",
+          "sizeBytes": 3990960,
+          "sha256": "671D0F23A0F1BD96828F49F268A910D217CA71E78878346814BFD66440121C47",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fight of Animals — Fight of Animals 動物之鬪"
+        }
+      ]
     }
   ],
-  "totalGames": 2903,
-  "totalVariants": 4327,
-  "lastUpdated": "2026-11-10T01:40:23.882168+00:00"
+  "totalGames": 2913,
+  "totalVariants": 4337,
+  "lastUpdated": "2026-11-10T01:44:17.419356+00:00"
 }
