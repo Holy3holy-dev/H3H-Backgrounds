@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T05:26:21.698128+00:00",
+  "updatedAt": "2026-11-10T05:29:20.191238+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -121648,9 +121648,269 @@
           "notes": "Switch 720p 30fps H264 | Vault of the Void — Mobile Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100727019FC4000",
+      "title": "Super Kiwi 64",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100727019FC4000.jpg",
+      "variants": [
+        {
+          "id": "v_790b7112",
+          "name": "Super Kiwi 64 — Pirate Island",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1JTUF8WViNTtCYULFpPxCoEu5-8ON2p_e",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1JTUF8WViNTtCYULFpPxCoEu5-8ON2p_e&sz=w640",
+          "sizeBytes": 5490031,
+          "sha256": "B30E90503FF8F7568C4D3E23E067AA7288693403AAE05D66859DFA7846250682",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Super Kiwi 64 — Pirate Island"
+        }
+      ]
+    },
+    {
+      "titleId": "01009A401F742000",
+      "title": "Fit My Cat",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009A401F742000.jpg",
+      "variants": [
+        {
+          "id": "v_be12d72b",
+          "name": "Fit My Cat — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1joJeGsUTDN7PuIasI7Wklh_Y_svplcFB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1joJeGsUTDN7PuIasI7Wklh_Y_svplcFB&sz=w640",
+          "sizeBytes": 5223426,
+          "sha256": "5D53D15802B95BF70D5D4437E750F886CAEADB981626863CDF8F14EAB7F7366A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fit My Cat — Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E6B01BD3A000",
+      "title": "Card-en-Ciel",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E6B01BD3A000.jpg",
+      "variants": [
+        {
+          "id": "v_aff6b80f",
+          "name": "Card-en-Ciel — Card-en-Ciel GamePlay PV EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1aDJKPreZn4SfLfAMNrIeTmY5IelWg3J5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1aDJKPreZn4SfLfAMNrIeTmY5IelWg3J5&sz=w640",
+          "sizeBytes": 5548046,
+          "sha256": "1250188ABF651A977926FDCB9632D1CF1C35339B831AA565A7E773F47BE5E03E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Card-en-Ciel — Card-en-Ciel GamePlay PV "
+        }
+      ]
+    },
+    {
+      "titleId": "0100BDB020F62000",
+      "title": "Fiz and the Rainbow Planet",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BDB020F62000.jpg",
+      "variants": [
+        {
+          "id": "v_f21c92ad",
+          "name": "Fiz and the Rainbow Planet — MV_2024",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VokgXIEnOSEjgi6UzqkepKiU95HEIy0J",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VokgXIEnOSEjgi6UzqkepKiU95HEIy0J&sz=w640",
+          "sizeBytes": 5088362,
+          "sha256": "4542BF713091E0EB223B4B28CE8ABC30BE38529C22F51FDF97E4193A240B5DB9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fiz and the Rainbow Planet — MV_2024"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EF801B7FA000",
+      "title": "Fabled Lands",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EF801B7FA000.jpg",
+      "variants": [
+        {
+          "id": "v_6c9b353c",
+          "name": "Fabled Lands — Fabled Lands Final Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RpkyZn40awl0HG3fJejF6kc0n6zAdDxn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RpkyZn40awl0HG3fJejF6kc0n6zAdDxn&sz=w640",
+          "sizeBytes": 5216623,
+          "sha256": "57A404578AB469F20ACFB6B33FEA532193A461E26C73C397480193F1A673FE94",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fabled Lands — Fabled Lands Final Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "010039F0202BC000",
+      "title": "Kamitsubaki City Regenerate",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010039F0202BC000.jpg",
+      "variants": [
+        {
+          "id": "v_7c0be829",
+          "name": "KAMITSUBAKI CITY REGENERATE — 神椿市建設中。REGENERATE",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1YzAS_oFpuIFBNsqXPu1DS10B8YIaqrcn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1YzAS_oFpuIFBNsqXPu1DS10B8YIaqrcn&sz=w640",
+          "sizeBytes": 3739967,
+          "sha256": "9F0F822343E7095C6B8BBC50ADCCCBB08FD9AD4EA7E5DBCC1304308FB1F8B82B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | KAMITSUBAKI CITY REGENERATE — 神椿市建設中。REG"
+        }
+      ]
+    },
+    {
+      "titleId": "010058D01D775000",
+      "title": "Kamitsubaki City Ensemble",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010058D01D775000.jpg",
+      "variants": [
+        {
+          "id": "v_8bb941ac",
+          "name": "KAMITSUBAKI CITY ENSEMBLE — Season Pass  Vol.2",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mYSMDVsdOvULfhVb7OqouKBBVlsf6uF_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mYSMDVsdOvULfhVb7OqouKBBVlsf6uF_&sz=w640",
+          "sizeBytes": 5001414,
+          "sha256": "A8B834111A3773511428832F067D288451FCC654E01981EF0BE2ACFF44CCC100",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | KAMITSUBAKI CITY ENSEMBLE — Season Pass "
+        }
+      ]
+    },
+    {
+      "titleId": "01001AC00ED72000",
+      "title": "If My Heart Had Wings",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001AC00ED72000.jpg",
+      "variants": [
+        {
+          "id": "v_2d5cd436",
+          "name": "If My Heart Had Wings — IMH_PREVIEWMOVIE_TEEN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17ulO5KO-WzqxE2vRExck7BI-yfZ6RtYu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17ulO5KO-WzqxE2vRExck7BI-yfZ6RtYu&sz=w640",
+          "sizeBytes": 3199261,
+          "sha256": "FEBC434EDCD23B3FA8CF6C27A4A383B1E25F4775599F03A7D1C1B81FD8DA43CE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | If My Heart Had Wings — IMH_PREVIEWMOVIE"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DD501E87A000",
+      "title": "Despelote",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DD501E87A000.jpg",
+      "variants": [
+        {
+          "id": "v_2dfa728c",
+          "name": "despelote — despelote 1",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VOSgwR_9Vs7ObsTk6H_7gglxTyg4D1ri",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VOSgwR_9Vs7ObsTk6H_7gglxTyg4D1ri&sz=w640",
+          "sizeBytes": 5417134,
+          "sha256": "2C014E386A1DAD087A7AA77C9CBA5AE8268874BF5C0B3029E803DA31CA0C15F8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | despelote — despelote 1"
+        }
+      ]
+    },
+    {
+      "titleId": "01009E00196A0000",
+      "title": "Hyper Gunsport",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009E00196A0000.jpg",
+      "variants": [
+        {
+          "id": "v_c6b04777",
+          "name": "Hyper Gunsport — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1b3sKpPXvfoyaxHaqCAO9cMT_yPdFnpVG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1b3sKpPXvfoyaxHaqCAO9cMT_yPdFnpVG&sz=w640",
+          "sizeBytes": 5127799,
+          "sha256": "12F1C344BBD5D5D75F03FFCB03370DA3D59BFA70569FA38A5B90E81554BAEC20",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hyper Gunsport — Release Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 3623,
-  "totalVariants": 5047,
-  "lastUpdated": "2026-11-10T05:26:21.698128+00:00"
+  "totalGames": 3633,
+  "totalVariants": 5057,
+  "lastUpdated": "2026-11-10T05:29:20.191238+00:00"
 }
