@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T15:04:38.315637+00:00",
+  "updatedAt": "2026-11-10T15:09:43.227314+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -166108,9 +166108,269 @@
           "notes": "Switch 720p 30fps H264 | Crashnauts — Crashnauts Gameplay"
         }
       ]
+    },
+    {
+      "titleId": "0100BD3010934000",
+      "title": "Hell's High Harmonizers",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BD3010934000.jpg",
+      "variants": [
+        {
+          "id": "v_fbecdb84",
+          "name": "Hell's High Harmonizers — hhh_video",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eVoLQFWIH4-n2n0QO2sJ-d-fjmIyXHOn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eVoLQFWIH4-n2n0QO2sJ-d-fjmIyXHOn&sz=w640",
+          "sizeBytes": 5332163,
+          "sha256": "B192954EB2DD51844C47DCB54D9520869050022B7C580F38855415CB98A48617",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hell's High Harmonizers — hhh_video"
+        }
+      ]
+    },
+    {
+      "titleId": "01008B901DB52000",
+      "title": "Golfinite",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008B901DB52000.jpg",
+      "variants": [
+        {
+          "id": "v_bc0021e9",
+          "name": "Golfinite — Trailer_03",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FPP9OtaiHOVLxaUA3P2r1gb6FLbMJmI1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FPP9OtaiHOVLxaUA3P2r1gb6FLbMJmI1&sz=w640",
+          "sizeBytes": 5283940,
+          "sha256": "89FA704EE7C61635AE4AE8732D36D7D729B0B331093A23EA1FBD33D45E38E5F5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Golfinite — Trailer_03"
+        }
+      ]
+    },
+    {
+      "titleId": "01002100137BA000",
+      "title": "Stardash",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002100137BA000.jpg",
+      "variants": [
+        {
+          "id": "v_5c762ae4",
+          "name": "Stardash — Stardash Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zHX8K5mdO3b99JT8P7zwExtiuTa0PZ3Q",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zHX8K5mdO3b99JT8P7zwExtiuTa0PZ3Q&sz=w640",
+          "sizeBytes": 5224512,
+          "sha256": "6BECB749038760D51CBC104BAD5001D5DEEDD29988292B98CB32207367148B78",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Stardash — Stardash Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010012201B998000",
+      "title": "Dolmenjord Viking Islands",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010012201B998000.jpg",
+      "variants": [
+        {
+          "id": "v_6147ee40",
+          "name": "Dolmenjord - Viking Islands — Dolmenjord Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LFm_9iARtOBYBDcsP9qZLYtaFdtub19y",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LFm_9iARtOBYBDcsP9qZLYtaFdtub19y&sz=w640",
+          "sizeBytes": 4961706,
+          "sha256": "6557B7626264796924AC9C10868622E7E98EB1F3573BC3D26CDA359EEBE790F2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dolmenjord - Viking Islands — Dolmenjord"
+        }
+      ]
+    },
+    {
+      "titleId": "01009630106A6000",
+      "title": "Gun Crazy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009630106A6000.jpg",
+      "variants": [
+        {
+          "id": "v_2dc77fdf",
+          "name": "Gun Crazy — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1EpN9HKwOGr3KRRrorLnzUfe8yTFb2dnI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1EpN9HKwOGr3KRRrorLnzUfe8yTFb2dnI&sz=w640",
+          "sizeBytes": 5443673,
+          "sha256": "0B53A1396169C0FE3FBF102732C26723567FCF602CA341A1C583A58626B738BC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Gun Crazy — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01007490178F6000",
+      "title": "Plan B from Outer Space a Bavarian Odyssey",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007490178F6000.jpg",
+      "variants": [
+        {
+          "id": "v_538d27c2",
+          "name": "Plan B from Outer Space: A Bavarian Odyssey — Re",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HdgXg7ZFTeGZ2b-vJeYQUZkbtF7pJUZn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HdgXg7ZFTeGZ2b-vJeYQUZkbtF7pJUZn&sz=w640",
+          "sizeBytes": 3841375,
+          "sha256": "9BE98898CA5526F2B0F1F07D09F3E4B14AB2919349949015400871C138B95199",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Plan B from Outer Space: A Bavarian Odys"
+        }
+      ]
+    },
+    {
+      "titleId": "01006D0018222000",
+      "title": "Unimime Unicycle Madness",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006D0018222000.jpg",
+      "variants": [
+        {
+          "id": "v_e50c544c",
+          "name": "Unimime - Unicycle Madness — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Vt-gU0mC_5lY1HibHBpxGwpy44flD02t",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Vt-gU0mC_5lY1HibHBpxGwpy44flD02t&sz=w640",
+          "sizeBytes": 5498115,
+          "sha256": "BDBFF9D040EF528BD37512CDF1567CD105AA6F0480B0F347A060AE1FBA2DBC92",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Unimime - Unicycle Madness — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100152019706000",
+      "title": "Super Planet Life",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100152019706000.jpg",
+      "variants": [
+        {
+          "id": "v_571bef91",
+          "name": "Super Planet Life — Announcement trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PSA9zhwWfSzeUA8JPJtrkcEW5lcRvPQw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PSA9zhwWfSzeUA8JPJtrkcEW5lcRvPQw&sz=w640",
+          "sizeBytes": 4920661,
+          "sha256": "4D3F8E0D15444FBCB9836A1E3C27A0C0BA3FD39D27B74F021CE9F591D5562ECB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Super Planet Life — Announcement trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F73011456000",
+      "title": "Diabolic",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F73011456000.jpg",
+      "variants": [
+        {
+          "id": "v_9fab4074",
+          "name": "Diabolic — new",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UyJSKH_3A7Ng2uOFE4UGXepnHd-7YFS2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UyJSKH_3A7Ng2uOFE4UGXepnHd-7YFS2&sz=w640",
+          "sizeBytes": 4387504,
+          "sha256": "F1B95D36EB725F4BDB63578DE11FF0F2814036C5142C46A38924861775C701F3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Diabolic — new"
+        }
+      ]
+    },
+    {
+      "titleId": "010013601782E000",
+      "title": "Pixelbot Extreme",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010013601782E000.jpg",
+      "variants": [
+        {
+          "id": "v_20a33dd4",
+          "name": "pixelBOT EXTREME! — pixelBOT EXTREME! - PC Gamep",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mXYSs7jWPn3Yw5-pdcYbEhZYuifyUSSL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mXYSs7jWPn3Yw5-pdcYbEhZYuifyUSSL&sz=w640",
+          "sizeBytes": 5425310,
+          "sha256": "366C53DF2B538FBCFAB0BF4E91746677CF8AFC5685621BE31D7115B2DF53CD1A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | pixelBOT EXTREME! — pixelBOT EXTREME! - "
+        }
+      ]
     }
   ],
-  "totalGames": 5333,
-  "totalVariants": 6757,
-  "lastUpdated": "2026-11-10T15:04:38.315637+00:00"
+  "totalGames": 5343,
+  "totalVariants": 6767,
+  "lastUpdated": "2026-11-10T15:09:43.227314+00:00"
 }
