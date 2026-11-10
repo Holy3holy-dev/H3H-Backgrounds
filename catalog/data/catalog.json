@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T13:25:44.946858+00:00",
+  "updatedAt": "2026-11-10T13:29:10.134157+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -159348,9 +159348,269 @@
           "notes": "Switch 720p 30fps H264 | TAURONOS — TAURONOS trailer #1"
         }
       ]
+    },
+    {
+      "titleId": "010042101F76A000",
+      "title": "Metroplex Zero",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010042101F76A000.jpg",
+      "variants": [
+        {
+          "id": "v_9a4d0f37",
+          "name": "Metroplex Zero: Sci-Fi Card Battler — Gameplay T",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1n0F3WMQdvRyAyLlrto9f1qMSJj8xO1Ce",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1n0F3WMQdvRyAyLlrto9f1qMSJj8xO1Ce&sz=w640",
+          "sizeBytes": 5221994,
+          "sha256": "129748E6FF3F378EA33386650DA41D86DE740C2EE60F5FB0B16E5597D01B94B9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Metroplex Zero: Sci-Fi Card Battler — Ga"
+        }
+      ]
+    },
+    {
+      "titleId": "010029F020172000",
+      "title": "Neon Beats",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010029F020172000.jpg",
+      "variants": [
+        {
+          "id": "v_8f7b5c67",
+          "name": "Neon Beats — Neon Beats : A Beat Further - DLC t",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Xl0ODjzTk-6_A4E14xPCp30ArZHbU9Zf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Xl0ODjzTk-6_A4E14xPCp30ArZHbU9Zf&sz=w640",
+          "sizeBytes": 4446557,
+          "sha256": "9899BFF5E606E214189E172D2A77056C14B129CAB0B57C8810ED06D30A8E355E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Neon Beats — Neon Beats : A Beat Further"
+        }
+      ]
+    },
+    {
+      "titleId": "0100729012D18000",
+      "title": "Rhythm Fighter",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100729012D18000.jpg",
+      "variants": [
+        {
+          "id": "v_9750f925",
+          "name": "Rhythm Fighter — New Fighter Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HfjpY0ZvRrd5xqFlVZedvHbR3FieaOai",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HfjpY0ZvRrd5xqFlVZedvHbR3FieaOai&sz=w640",
+          "sizeBytes": 5258769,
+          "sha256": "9E8F4622D7C635E9FA6DDE4978E7E5A5E29139E85BFBED85251CD2AA820E006A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rhythm Fighter — New Fighter Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010054501075C000",
+      "title": "Curious Cases",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010054501075C000.jpg",
+      "variants": [
+        {
+          "id": "v_468ed12d",
+          "name": "Curious Cases — Curious Cases Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UOt5ReOJxyAD5cTOrAVPO4qDYodZSoN6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UOt5ReOJxyAD5cTOrAVPO4qDYodZSoN6&sz=w640",
+          "sizeBytes": 5613181,
+          "sha256": "5EB8384184F576396EF3BB2E5E88D009DA3B321F54E68846EC7FB5113F188346",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Curious Cases — Curious Cases Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010045C00E27C000",
+      "title": "We. The Revolution",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010045C00E27C000.jpg",
+      "variants": [
+        {
+          "id": "v_e99e6e15",
+          "name": "We. The Revolution — We. The Revolution - Launch",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13HA7gPeCq9W9WElmVzGijnHEhcT-48of",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13HA7gPeCq9W9WElmVzGijnHEhcT-48of&sz=w640",
+          "sizeBytes": 4575087,
+          "sha256": "C2353202978C4BC95AD3EE1ABC2DF9D730A8E78D78F5A53FC467D65030BE09F7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | We. The Revolution — We. The Revolution "
+        }
+      ]
+    },
+    {
+      "titleId": "010011401CA3C000",
+      "title": "Heads Up Phones Down edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010011401CA3C000.jpg",
+      "variants": [
+        {
+          "id": "v_d4d4794f",
+          "name": "Heads Up! Phones Down Edition — Heads Up! Phones",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HtYYoDQ0YR7fuQQrS1PPyOSp2BvO0wbs",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HtYYoDQ0YR7fuQQrS1PPyOSp2BvO0wbs&sz=w640",
+          "sizeBytes": 5049467,
+          "sha256": "8B685A5D545FC22B0863F839220DD34F481C2C8C19E5F1ABDF5702109ED2A15A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Heads Up! Phones Down Edition — Heads Up"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FA800A1F4000",
+      "title": "Exorder",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FA800A1F4000.jpg",
+      "variants": [
+        {
+          "id": "v_4429cdee",
+          "name": "Exorder — New trailer - Trailer Farm",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17QJSgtFzJ8RVSz476tAk96PypXIxv0JC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17QJSgtFzJ8RVSz476tAk96PypXIxv0JC&sz=w640",
+          "sizeBytes": 5461523,
+          "sha256": "32C7CE88DCAE2CD524D50CC821A4DF4757538036AC2E80F595800851B16CA7A9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Exorder — New trailer - Trailer Farm"
+        }
+      ]
+    },
+    {
+      "titleId": "01008DB01CFD2000",
+      "title": "Lazriel the Demon's Fall",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008DB01CFD2000.jpg",
+      "variants": [
+        {
+          "id": "v_b84b3026",
+          "name": "Lazriel: The Demon's Fall — 魔界堕ちのラズリエル_30秒Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eFfztMEYPLL8hU1OGYYtcwYSSLuvqQWr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eFfztMEYPLL8hU1OGYYtcwYSSLuvqQWr&sz=w640",
+          "sizeBytes": 5423682,
+          "sha256": "874A0F84D96C44542A66637F6D3BB79CF4CAC61CC690CB1CD3A64F5567941350",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lazriel: The Demon's Fall — 魔界堕ちのラズリエル_3"
+        }
+      ]
+    },
+    {
+      "titleId": "010017B01D90E000",
+      "title": "Shikon-X Astro Defense Fortress",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010017B01D90E000.jpg",
+      "variants": [
+        {
+          "id": "v_ef2dff9c",
+          "name": "四魂-X Shikon-X Astro Defense Fortress — Shikon-X ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qCwwpSb-bik5OF6v83cIDEsq72IOFJ9D",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qCwwpSb-bik5OF6v83cIDEsq72IOFJ9D&sz=w640",
+          "sizeBytes": 4689845,
+          "sha256": "45C06B6D78AF76E702C52BFBCB272235489E2E35592F83EB359F1E1E3E5C9891",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 四魂-X Shikon-X Astro Defense Fortress — S"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DDC018870000",
+      "title": "Funtasia",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DDC018870000.jpg",
+      "variants": [
+        {
+          "id": "v_9e6e0352",
+          "name": "Funtasia — Launch Trailer 9/29/22",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14MVy-ySdm4VVu_ejucoqOSCjGZE5piQH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14MVy-ySdm4VVu_ejucoqOSCjGZE5piQH&sz=w640",
+          "sizeBytes": 5500191,
+          "sha256": "0A4085AE72D425857E679526862FD7DB46B4359B5E59DE2F8742DA08492B9B81",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Funtasia — Launch Trailer 9/29/22"
+        }
+      ]
     }
   ],
-  "totalGames": 5073,
-  "totalVariants": 6497,
-  "lastUpdated": "2026-11-10T13:25:44.946858+00:00"
+  "totalGames": 5083,
+  "totalVariants": 6507,
+  "lastUpdated": "2026-11-10T13:29:10.134157+00:00"
 }
