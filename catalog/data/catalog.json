@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T05:45:38.404298+00:00",
+  "updatedAt": "2026-11-10T05:48:48.558032+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -123208,9 +123208,269 @@
           "notes": "Switch 720p 30fps H264 | Dry Drowning — Dry Drowning - OUT NOW Tr"
         }
       ]
+    },
+    {
+      "titleId": "01006B8014020000",
+      "title": "Fhtagn Tales of the Creeping Madness",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006B8014020000.jpg",
+      "variants": [
+        {
+          "id": "v_99b8993e",
+          "name": "Fhtagn! - Tales of the Creeping Madness — Fhtagn",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NczLjJaiMoCrV6IORrlNhUJ09eohRpge",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NczLjJaiMoCrV6IORrlNhUJ09eohRpge&sz=w640",
+          "sizeBytes": 5072381,
+          "sha256": "3ADF61891DB76917E0C642B407B830944D8C0EDD95621D16E83126E396DB5D23",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fhtagn! - Tales of the Creeping Madness "
+        }
+      ]
+    },
+    {
+      "titleId": "0100C94016020000",
+      "title": "Scrapnaut",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C94016020000.jpg",
+      "variants": [
+        {
+          "id": "v_e25ec93f",
+          "name": "Scrapnaut — FR_Trailer_steam",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1O0QvnjZKpBGQ387pActDmU2UHfEaOihY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1O0QvnjZKpBGQ387pActDmU2UHfEaOihY&sz=w640",
+          "sizeBytes": 5514053,
+          "sha256": "F63B692EF8E0682C231231DB81918D5C4179EC911CB808667793314275A61252",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Scrapnaut — FR_Trailer_steam"
+        }
+      ]
+    },
+    {
+      "titleId": "01009BE01719C000",
+      "title": "Lamplight City",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009BE01719C000.jpg",
+      "variants": [
+        {
+          "id": "v_597ad04e",
+          "name": "Lamplight City — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=142qIVJUWK0zHtIQ6BSkna-k2VTU07_Ju",
+          "previewUrl": "https://drive.google.com/thumbnail?id=142qIVJUWK0zHtIQ6BSkna-k2VTU07_Ju&sz=w640",
+          "sizeBytes": 5443083,
+          "sha256": "4B0782EB891725D1D29887E31FEC6226D9C44AAC4A71C1C95B873ED035498579",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lamplight City — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100104016BEE000",
+      "title": "Pendula Swing the Complete Journey",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100104016BEE000.jpg",
+      "variants": [
+        {
+          "id": "v_ef38e272",
+          "name": "Pendula Swing - The Complete Journey — Pendula S",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AiUITgLvV0n6SwtQCh3Fu1_ol6_fNTTM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AiUITgLvV0n6SwtQCh3Fu1_ol6_fNTTM&sz=w640",
+          "sizeBytes": 5313025,
+          "sha256": "DDA74575A64E9F93A43F77435F51BA5275B15476851DC77D610A7873EB382AC5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Pendula Swing - The Complete Journey — P"
+        }
+      ]
+    },
+    {
+      "titleId": "01004DD00C87A000",
+      "title": "Steamburg",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004DD00C87A000.jpg",
+      "variants": [
+        {
+          "id": "v_cc878da8",
+          "name": "Steamburg — steamburg_trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eMCqt-gzqRe_NFfZW_aGUcFKjjG51vLI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eMCqt-gzqRe_NFfZW_aGUcFKjjG51vLI&sz=w640",
+          "sizeBytes": 4376062,
+          "sha256": "0F720895E9348EE740DA8BE64086AB944D83E93BFD38992CD6F4D94B89FA7F2A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Steamburg — steamburg_trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01002D201B52A000",
+      "title": "Sunshine Shuffle",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002D201B52A000.jpg",
+      "variants": [
+        {
+          "id": "v_f297dce9",
+          "name": "Sunshine Shuffle — Release Date Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Vm40O_lLh31P85Ejga_snqY_8L7DrZks",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Vm40O_lLh31P85Ejga_snqY_8L7DrZks&sz=w640",
+          "sizeBytes": 5363637,
+          "sha256": "5CA878106EB0E5CE7E165F98DEAF438FB1A7ED30E02702A747E1C429B2C23A52",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sunshine Shuffle — Release Date Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010055201BB44000",
+      "title": "Rough Justice 84",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010055201BB44000.jpg",
+      "variants": [
+        {
+          "id": "v_de3eaab8",
+          "name": "Rough Justice: '84 — ReleasetrailerEN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11IM0SB5oAi7rLS5BWLBI-k6-4aGMxXM3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11IM0SB5oAi7rLS5BWLBI-k6-4aGMxXM3&sz=w640",
+          "sizeBytes": 5168214,
+          "sha256": "11CE5560E149BB30DDE4DFD1146CE96EC3FA99150F1E0799B5C3C549334C022D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rough Justice: '84 — ReleasetrailerEN"
+        }
+      ]
+    },
+    {
+      "titleId": "01007ED01B0C0000",
+      "title": "Three Minutes to Eight",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007ED01B0C0000.jpg",
+      "variants": [
+        {
+          "id": "v_725722e4",
+          "name": "Three Minutes To Eight — Release",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1b53LyZ2D-bSa4Aurm-HpdwhXJxGS_j9A",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1b53LyZ2D-bSa4Aurm-HpdwhXJxGS_j9A&sz=w640",
+          "sizeBytes": 5175044,
+          "sha256": "A7EC1C4929C042292F5CA3A82F00803704A7F88C7688376B874D318F6A85E143",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Three Minutes To Eight — Release"
+        }
+      ]
+    },
+    {
+      "titleId": "010028701D06C000",
+      "title": "One Night Burlesque",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010028701D06C000.jpg",
+      "variants": [
+        {
+          "id": "v_59234995",
+          "name": "One Night: Burlesque — One Night: Burlesque Offi",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1W35vjXGcCTdYWoHCh2RUHTY8LhEel1Ir",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1W35vjXGcCTdYWoHCh2RUHTY8LhEel1Ir&sz=w640",
+          "sizeBytes": 5299060,
+          "sha256": "1BD255A7F343CAF015752AF2A5DDE8D105968FBAFC2968B6FF42C2D5623B0B20",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | One Night: Burlesque — One Night: Burles"
+        }
+      ]
+    },
+    {
+      "titleId": "01002E4013EAE000",
+      "title": "Dice Legacy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002E4013EAE000.jpg",
+      "variants": [
+        {
+          "id": "v_888e7717",
+          "name": "Dice Legacy — DiceLegacy-AccoladesTrailer_ENG_St",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1F5SnKR8ptWMiIhRtrU45B3ipAA2rEl-b",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1F5SnKR8ptWMiIhRtrU45B3ipAA2rEl-b&sz=w640",
+          "sizeBytes": 5349330,
+          "sha256": "FA1AF81A4D47D63D7B34D1A1E34BF761AFC21A0AE39036BC451E7C016A27AD88",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dice Legacy — DiceLegacy-AccoladesTraile"
+        }
+      ]
     }
   ],
-  "totalGames": 3683,
-  "totalVariants": 5107,
-  "lastUpdated": "2026-11-10T05:45:38.404298+00:00"
+  "totalGames": 3693,
+  "totalVariants": 5117,
+  "lastUpdated": "2026-11-10T05:48:48.558032+00:00"
 }
