@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T15:18:53.090163+00:00",
+  "updatedAt": "2026-11-10T15:23:10.694391+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -166888,9 +166888,269 @@
           "notes": "Switch 720p 30fps H264 | Frontier Quest — Frontier Quest Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100EF0018106000",
+      "title": "Cosmo Player Z",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EF0018106000.jpg",
+      "variants": [
+        {
+          "id": "v_80fb23c5",
+          "name": "Cosmo Player Z — CosmoPlayerZEn",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1m6yWa4H54z57D3kPb3cPSMDdaPgJfJ7Z",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1m6yWa4H54z57D3kPb3cPSMDdaPgJfJ7Z&sz=w640",
+          "sizeBytes": 5431857,
+          "sha256": "43D1DB90722E88EB09849E46A11976B7B951A239815FEBCFC7A82FC634D0A64C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cosmo Player Z — CosmoPlayerZEn"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A7B018668000",
+      "title": "Chameneon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A7B018668000.jpg",
+      "variants": [
+        {
+          "id": "v_216cf6a3",
+          "name": "Chameneon — Chameneon Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1G9xiA9-YyEvFwSuLPgjS1QeKiycAFcf1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1G9xiA9-YyEvFwSuLPgjS1QeKiycAFcf1&sz=w640",
+          "sizeBytes": 5273981,
+          "sha256": "37A22E9196E9551752942A2FB8F5BD5A5CF61A3BAE42212D9293103A8E121AC3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Chameneon — Chameneon Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A4A0129BC000",
+      "title": "Slinki",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A4A0129BC000.jpg",
+      "variants": [
+        {
+          "id": "v_059dde4b",
+          "name": "Slinki — Slinki Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tF-JN0a7tKr6G_wZNr8g0hhcG6s5I_je",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tF-JN0a7tKr6G_wZNr8g0hhcG6s5I_je&sz=w640",
+          "sizeBytes": 2781309,
+          "sha256": "BA6C8E10D019196499382699C08704B178AB559338BC548484EFED077AB2598B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Slinki — Slinki Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010032200BBC0000",
+      "title": "Ragtag Adventurers",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010032200BBC0000.jpg",
+      "variants": [
+        {
+          "id": "v_0fbca7be",
+          "name": "Ragtag Adventurers — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rLTS8a8TsZ1mqMgAP6H1HL2aTPjKRp3A",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rLTS8a8TsZ1mqMgAP6H1HL2aTPjKRp3A&sz=w640",
+          "sizeBytes": 4609614,
+          "sha256": "45B3FEFB893A6350F515B0CEDAA1645EFCAF2B13A9CDBA559BB497304AA014F5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ragtag Adventurers — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01004CD01039A000",
+      "title": "Technosphere",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004CD01039A000.jpg",
+      "variants": [
+        {
+          "id": "v_746c9855",
+          "name": "TECHNOSPHERE RELOAD — TECHNOSPHERE RELOAD - alph",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CCMhiYQf0u5UktwGPb8SgVYS3mcU06Qe",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CCMhiYQf0u5UktwGPb8SgVYS3mcU06Qe&sz=w640",
+          "sizeBytes": 5417692,
+          "sha256": "C318145C593D1B85107C2A4907C635462BCF1B8A89931B5350512C7CD9D9ECDA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | TECHNOSPHERE RELOAD — TECHNOSPHERE RELOA"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D5800DECA000",
+      "title": "Asemblance",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D5800DECA000.jpg",
+      "variants": [
+        {
+          "id": "v_ecc7d678",
+          "name": "Asemblance: Oversight — Asemblance: Oversight Tr",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1v3pwcWBjotDB6YMIvuRUfTgOTICJZqiJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1v3pwcWBjotDB6YMIvuRUfTgOTICJZqiJ&sz=w640",
+          "sizeBytes": 3757727,
+          "sha256": "ACF2C360F229D9F67E1C529222D473D4C8302F59F37F1D7BFACC111E7887E0FA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Asemblance: Oversight — Asemblance: Over"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FA201757E000",
+      "title": "Summer Days",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FA201757E000.jpg",
+      "variants": [
+        {
+          "id": "v_1c156bde",
+          "name": "Sunflowers Summer Days",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GzvAUcY6hcejJXsh9ArUbP9PH5SLaABB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GzvAUcY6hcejJXsh9ArUbP9PH5SLaABB&sz=w640",
+          "sizeBytes": 1667079,
+          "sha256": "315BB37C3A3108A5A184DB65B4045BEA0093FCF9159E3F4851604A05051C04B5",
+          "durationSec": 24.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Sunflowers Summer Days"
+        }
+      ]
+    },
+    {
+      "titleId": "01004A900C352000",
+      "title": "Pizza Titan Ultra",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004A900C352000.jpg",
+      "variants": [
+        {
+          "id": "v_f1e907ab",
+          "name": "Pizza Titan Ultra — Pizza Titan Ultra Action Tra",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17gBcxr3sVE5bIZ1DXnY5wiQXz6-z5bAf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17gBcxr3sVE5bIZ1DXnY5wiQXz6-z5bAf&sz=w640",
+          "sizeBytes": 5565960,
+          "sha256": "C9A5A22639C73FB37A0A17DE7C19FED0DA3B80A6BEDC91D5D148886354757835",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Pizza Titan Ultra — Pizza Titan Ultra Ac"
+        }
+      ]
+    },
+    {
+      "titleId": "010006F01AA34000",
+      "title": "Kuroi Tsubasa",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010006F01AA34000.jpg",
+      "variants": [
+        {
+          "id": "v_b888494a",
+          "name": "Kuroi Tsubasa — Kuroi Tsubasa Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=137BF4Z8MctsdKKH1_nVDnPRMDAro3OnN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=137BF4Z8MctsdKKH1_nVDnPRMDAro3OnN&sz=w640",
+          "sizeBytes": 5096720,
+          "sha256": "731E3B2C3F18AC46B581A91A238E678AC8B9AB266F86593F5594DAAF844EC923",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kuroi Tsubasa — Kuroi Tsubasa Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E16015E20000",
+      "title": "Jade Order",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E16015E20000.jpg",
+      "variants": [
+        {
+          "id": "v_f4ab5e99",
+          "name": "Jade Order — Jade Order - Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nIKM75c6avrRqPOO6ya-KkuA7V6u6nHn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nIKM75c6avrRqPOO6ya-KkuA7V6u6nHn&sz=w640",
+          "sizeBytes": 4918868,
+          "sha256": "3A763CB61CF7C4C1A8ABE1AEF0BE0BAC8730A4B7C5669CAC72803AAA492B2254",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Jade Order — Jade Order - Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 5363,
-  "totalVariants": 6787,
-  "lastUpdated": "2026-11-10T15:18:53.090163+00:00"
+  "totalGames": 5373,
+  "totalVariants": 6797,
+  "lastUpdated": "2026-11-10T15:23:10.694391+00:00"
 }
