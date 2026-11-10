@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T08:10:15.903205+00:00",
+  "updatedAt": "2026-11-10T08:13:18.165065+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -135168,9 +135168,269 @@
           "notes": "Switch 720p 30fps H264 | Tristia:restore — Trailer"
         }
       ]
+    },
+    {
+      "titleId": "01005EF016580000",
+      "title": "Svoboda 1945 Liberation",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005EF016580000.jpg",
+      "variants": [
+        {
+          "id": "v_589b1fc6",
+          "name": "Svoboda 1945: Liberation — Teaser",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jmbSqKmdxQHCRCXd8PN0kQA0Nq7Yc_UN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jmbSqKmdxQHCRCXd8PN0kQA0Nq7Yc_UN&sz=w640",
+          "sizeBytes": 5576434,
+          "sha256": "4A0986C372A70DE1EB384E947FB50BAF8E49B411D48BB56985C0AF998AF03474",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Svoboda 1945: Liberation — Teaser"
+        }
+      ]
+    },
+    {
+      "titleId": "010010B0195EE000",
+      "title": "Titanium Hound",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010010B0195EE000.jpg",
+      "variants": [
+        {
+          "id": "v_2b7902c3",
+          "name": "Titanium Hound — Titanium Hound",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LfhS-mESNBt1mvueyqEuz10MoWiDPd_7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LfhS-mESNBt1mvueyqEuz10MoWiDPd_7&sz=w640",
+          "sizeBytes": 5063280,
+          "sha256": "1545A6FCE4AF3E88C786AA33F2A02062A73D53AD37B0D0C182FBD075DCF59F90",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Titanium Hound — Titanium Hound"
+        }
+      ]
+    },
+    {
+      "titleId": "01007DB016D96000",
+      "title": "To Hell with the Ugly",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007DB016D96000.jpg",
+      "variants": [
+        {
+          "id": "v_0b1d6483",
+          "name": "To Hell With The Ugly — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14jCuWnnh4Ftfo7JXyUhT7aTdZyr1uwPE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14jCuWnnh4Ftfo7JXyUhT7aTdZyr1uwPE&sz=w640",
+          "sizeBytes": 5471446,
+          "sha256": "4BC13EE7675DFDC2AFD21CABB11DD71ED6F14681665F6D28C24184B783270776",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | To Hell With The Ugly — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010082F016152000",
+      "title": "The Tartarus Key",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010082F016152000.jpg",
+      "variants": [
+        {
+          "id": "v_d90041b5",
+          "name": "The Tartarus Key — The Tartarus Key - Release Da",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VDo7N9ybLpK_GmGAHbL3Li633euLZnWl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VDo7N9ybLpK_GmGAHbL3Li633euLZnWl&sz=w640",
+          "sizeBytes": 5508495,
+          "sha256": "C97495DBBC9DDF1287037E915F41370E9DD273CC568626E9B923A433BD64FCF7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Tartarus Key — The Tartarus Key - Re"
+        }
+      ]
+    },
+    {
+      "titleId": "0100699012DF6000",
+      "title": "Match Three: Pirates! Heir to Davy Jones",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100699012DF6000.jpg",
+      "variants": [
+        {
+          "id": "v_bccfd637",
+          "name": "Match Three Pirates! Heir to Davy Jones — Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17aO3CeO4kTIxCrobpSkyjiyU3nk3JEct",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17aO3CeO4kTIxCrobpSkyjiyU3nk3JEct&sz=w640",
+          "sizeBytes": 5213178,
+          "sha256": "E9F243CA61F1B2B1AE8CB03CB551F9DAC6C674273916B8053BE7AEAC1D1AAD3F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Match Three Pirates! Heir to Davy Jones "
+        }
+      ]
+    },
+    {
+      "titleId": "0100C56025AAA000",
+      "title": "Projected Dreams",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C56025AAA000.jpg",
+      "variants": [
+        {
+          "id": "v_be3ebd33",
+          "name": "Projected Dreams — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17mJPgkocWhkAwHn3i3XxY4BYJBbWSbUw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17mJPgkocWhkAwHn3i3XxY4BYJBbWSbUw&sz=w640",
+          "sizeBytes": 5477363,
+          "sha256": "621DAE4E12FF290E5F176D4FAE07BCCF3C05B61A4CCF0368B972A5235B958765",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Projected Dreams — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AED01BB3A000",
+      "title": "The Shape of Things",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AED01BB3A000.jpg",
+      "variants": [
+        {
+          "id": "v_48b59ebe",
+          "name": "The Shape of Things — Official Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10-6bb2BNxtgd4s2yTTKZ8RuhJ_G2KQhK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10-6bb2BNxtgd4s2yTTKZ8RuhJ_G2KQhK&sz=w640",
+          "sizeBytes": 5203054,
+          "sha256": "A04086FC9658526C2C6EB285EB867C75E46503CE40E4A25E73F25821EBF189D2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Shape of Things — Official Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100ADC014CDE000",
+      "title": "The Last Worker",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100ADC014CDE000.jpg",
+      "variants": [
+        {
+          "id": "v_6c16de58",
+          "name": "The Last Worker — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13GXnFQG7Wlte0awdKseq6-LAgok4l72S",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13GXnFQG7Wlte0awdKseq6-LAgok4l72S&sz=w640",
+          "sizeBytes": 4476435,
+          "sha256": "85802B4F355434411C109A5C9E78DE706D51DA4DB87124D5E3F666941569640F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Last Worker — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010003601B1C0000",
+      "title": "The Excrawlers",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010003601B1C0000.jpg",
+      "variants": [
+        {
+          "id": "v_dbc9b8d3",
+          "name": "The Excrawlers — THE EXCRAWLERS mini trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Mxsc5_vJBbVdpC1BAAtjbsTJnONj80a3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Mxsc5_vJBbVdpC1BAAtjbsTJnONj80a3&sz=w640",
+          "sizeBytes": 5164057,
+          "sha256": "41EA11BBB83EE4D91E118EB821BD3CEA349C60F2FBDCB15AA5F97BAFD38B86F2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Excrawlers — THE EXCRAWLERS mini tra"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C5F018972000",
+      "title": "Terminal Velocity Boosted edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C5F018972000.jpg",
+      "variants": [
+        {
+          "id": "v_9a4741b4",
+          "name": "Terminal Velocity™: Boosted Edition — Terminal V",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ztJjpLG0dWXaHgqFQhqW194Xttjk1ozm",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ztJjpLG0dWXaHgqFQhqW194Xttjk1ozm&sz=w640",
+          "sizeBytes": 4699087,
+          "sha256": "327F9AC847B0A9878C1505B04D2B1054EB2D61C6DB8E9E1EFAB5772C6FA0A3A1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Terminal Velocity™: Boosted Edition — Te"
+        }
+      ]
     }
   ],
-  "totalGames": 4143,
-  "totalVariants": 5567,
-  "lastUpdated": "2026-11-10T08:10:15.903205+00:00"
+  "totalGames": 4153,
+  "totalVariants": 5577,
+  "lastUpdated": "2026-11-10T08:13:18.165065+00:00"
 }
