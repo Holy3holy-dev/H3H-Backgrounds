@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T13:18:14.183400+00:00",
+  "updatedAt": "2026-11-10T13:22:01.910650+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -158828,9 +158828,269 @@
           "notes": "Switch 720p 30fps H264 | Red Crow Mysteries: Legion — Red Crow My"
         }
       ]
+    },
+    {
+      "titleId": "0100C06015FF8000",
+      "title": "Winkeltje the Little Shop",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C06015FF8000.jpg",
+      "variants": [
+        {
+          "id": "v_d27f9692",
+          "name": "Winkeltje: The Little Shop — Winkeltje Release T",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1X14P3DJbJINTV0LhKvP3C1MYUaGl_xG_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1X14P3DJbJINTV0LhKvP3C1MYUaGl_xG_&sz=w640",
+          "sizeBytes": 5316555,
+          "sha256": "3637DFA30877638484BC0D543D0F9A2056032ADE56F70FF789F980119CC0CBC3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Winkeltje: The Little Shop — Winkeltje R"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C10012EFC000",
+      "title": "War Titans",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C10012EFC000.jpg",
+      "variants": [
+        {
+          "id": "v_57443a1e",
+          "name": "World Titans War — WORLD TITANS WAR V0.3",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12df0tm-tUBxO5GZ8XiNKRYOit9fBi6JS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12df0tm-tUBxO5GZ8XiNKRYOit9fBi6JS&sz=w640",
+          "sizeBytes": 5348902,
+          "sha256": "E51343C1B2EE30C9477534745AE2A004362102C44CB42241D1802191224C0292",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | World Titans War — WORLD TITANS WAR V0.3"
+        }
+      ]
+    },
+    {
+      "titleId": "01005160151EE000",
+      "title": "Lambs on the road: The Beginning",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005160151EE000.jpg",
+      "variants": [
+        {
+          "id": "v_3f80ec95",
+          "name": "Lambs on the road : The beginning — Gameplay",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1h997eqNmF9c2pdXa9r5l8LeAVkG0A4G7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1h997eqNmF9c2pdXa9r5l8LeAVkG0A4G7&sz=w640",
+          "sizeBytes": 5435719,
+          "sha256": "9AFAABFC113135333B87BADEE150DFA7CC35264937B867EA3430ED145AC98CE9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lambs on the road : The beginning — Game"
+        }
+      ]
+    },
+    {
+      "titleId": "0100346020880000",
+      "title": "Hynpytol",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100346020880000.jpg",
+      "variants": [
+        {
+          "id": "v_4b88db84",
+          "name": "HYNPYTOL — HYNPYTOL Trailer (ENG)",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OPvqDPk3c6sXx6i09YjHVthxtU0c1hYY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OPvqDPk3c6sXx6i09YjHVthxtU0c1hYY&sz=w640",
+          "sizeBytes": 5248867,
+          "sha256": "8763834CDE30E463B3D2E905C5B375346AC168400A6AE711E1795E17D4FB7BBB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | HYNPYTOL — HYNPYTOL Trailer (ENG)"
+        }
+      ]
+    },
+    {
+      "titleId": "01002D401D88C000",
+      "title": "Wander Hero",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002D401D88C000.jpg",
+      "variants": [
+        {
+          "id": "v_da828ad5",
+          "name": "Wander Hero — pv",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1x3_TIKU2PHb_OrpsFHndoXEn4W1-S-Sx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1x3_TIKU2PHb_OrpsFHndoXEn4W1-S-Sx&sz=w640",
+          "sizeBytes": 5229638,
+          "sha256": "E96701E838E40777EC3023F094EB6F88F655CC8709BC41AF6C34142A74604BA1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wander Hero — pv"
+        }
+      ]
+    },
+    {
+      "titleId": "01005F900902A000",
+      "title": "Crush Your Enemies",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005F900902A000.jpg",
+      "variants": [
+        {
+          "id": "v_14b3b19e",
+          "name": "Crush Your Enemies — Crush Your Enemies - Launch",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mj-fHuWea3dflKAwvK9hwgICJRoTP0tv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mj-fHuWea3dflKAwvK9hwgICJRoTP0tv&sz=w640",
+          "sizeBytes": 5338060,
+          "sha256": "666CEFCC02FE854AEDEEF41D7E96111B652CA4B61DA816FBAED359A384EEFCF0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Crush Your Enemies — Crush Your Enemies "
+        }
+      ]
+    },
+    {
+      "titleId": "01004DB00935A000",
+      "title": "Alteric",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004DB00935A000.jpg",
+      "variants": [
+        {
+          "id": "v_bf0ef73e",
+          "name": "Alteric — Alteric release trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1O4jdgjVnUGOvZVZUJR_akyKyqGn9riKM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1O4jdgjVnUGOvZVZUJR_akyKyqGn9riKM&sz=w640",
+          "sizeBytes": 5450583,
+          "sha256": "0585261B8ABA4B40B080E87A768B133BC97622A0F7393E25F73D1888D676B173",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Alteric — Alteric release trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010098901AE98000",
+      "title": "Avia Corporation",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010098901AE98000.jpg",
+      "variants": [
+        {
+          "id": "v_4e964d64",
+          "name": "Avia corporation — trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gpF4G5qlZmjv0C1zLlHCbn9S-_q7eTM5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gpF4G5qlZmjv0C1zLlHCbn9S-_q7eTM5&sz=w640",
+          "sizeBytes": 4288417,
+          "sha256": "713DFEBC47FD3298C55B34308B421115FC190F03F5B6DDA41B89B503FC85F002",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Avia corporation — trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D16017CFE000",
+      "title": "Kofi Quest",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D16017CFE000.jpg",
+      "variants": [
+        {
+          "id": "v_b9b9b13d",
+          "name": "Kofi Quest — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_jOhKh-7J81dAB0Itc2mP9fpW9NcpwGP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_jOhKh-7J81dAB0Itc2mP9fpW9NcpwGP&sz=w640",
+          "sizeBytes": 5335787,
+          "sha256": "670249DC08C5EC2638F1A079A29D76ABE0F07AB4F0B2E158DFE708C91921BB1B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kofi Quest — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01002A0012A0A000",
+      "title": "Chinese Parents",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002A0012A0A000.jpg",
+      "variants": [
+        {
+          "id": "v_59b4808e",
+          "name": "Chinese Parents — trailer_en",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LpdxTG7lMH4nMbRYOjildhpRRSXnv5g3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LpdxTG7lMH4nMbRYOjildhpRRSXnv5g3&sz=w640",
+          "sizeBytes": 4490291,
+          "sha256": "DDCAA22D3476233803DE63AF9E9E2133EA5FC01DB90E802152118F473E03A1A5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Chinese Parents — trailer_en"
+        }
+      ]
     }
   ],
-  "totalGames": 5053,
-  "totalVariants": 6477,
-  "lastUpdated": "2026-11-10T13:18:14.183400+00:00"
+  "totalGames": 5063,
+  "totalVariants": 6487,
+  "lastUpdated": "2026-11-10T13:22:01.910650+00:00"
 }
