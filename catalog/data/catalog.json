@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T05:56:25.078873+00:00",
+  "updatedAt": "2026-11-10T05:59:42.833620+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -123988,9 +123988,269 @@
           "notes": "Switch 720p 30fps H264 | Crystal Crisis — Launch Trailer"
         }
       ]
+    },
+    {
+      "titleId": "010007D01D27C000",
+      "title": "The Tales of Bayun",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010007D01D27C000.jpg",
+      "variants": [
+        {
+          "id": "v_902ae3f3",
+          "name": "The Tales of Bayun — Bayun Official Demo Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19rK6akhsta8o0YxyvXQrVDMTfmxd7YwG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19rK6akhsta8o0YxyvXQrVDMTfmxd7YwG&sz=w640",
+          "sizeBytes": 4965907,
+          "sha256": "66C2CDB5C4451555C6C56720CD2B077638BD467BE1328682E4970FEB7BBE6B3E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Tales of Bayun — Bayun Official Demo"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CBD01569C000",
+      "title": "The Rewinder",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CBD01569C000.jpg",
+      "variants": [
+        {
+          "id": "v_8082a16f",
+          "name": "The Rewinder — 最终预告en",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CxEjsUaTSDY3VaEqinCVm_CmY_Gr2ZHP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CxEjsUaTSDY3VaEqinCVm_CmY_Gr2ZHP&sz=w640",
+          "sizeBytes": 3524095,
+          "sha256": "7123D4A9609A3466F3B3AB2EAD8CA1A6C0EBA2CAFF90BCE438E177AC2079534F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Rewinder — 最终预告en"
+        }
+      ]
+    },
+    {
+      "titleId": "010033300AC1A000",
+      "title": "The Mooseman",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010033300AC1A000.jpg",
+      "variants": [
+        {
+          "id": "v_06f054f4",
+          "name": "The Mooseman — Steam Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZfTTeD_CN1JW8PPb7CMsOpr3wNXkIFJX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZfTTeD_CN1JW8PPb7CMsOpr3wNXkIFJX&sz=w640",
+          "sizeBytes": 4585869,
+          "sha256": "CCA6E1E4B3891B51302AD91BCC39C8979750302484DD21ECDB3D2CEF5230860C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Mooseman — Steam Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100213020D04000",
+      "title": "Sonokuni",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100213020D04000.jpg",
+      "variants": [
+        {
+          "id": "v_2032e518",
+          "name": "SONOKUNI — Out Now Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BhH6r4kGbI9ztAq23qTEzBoGlCKuI2yj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BhH6r4kGbI9ztAq23qTEzBoGlCKuI2yj&sz=w640",
+          "sizeBytes": 5407785,
+          "sha256": "D3BFE94FDC12813BA91506CEE225A529DE1B97E2D400BB09CB0E4D074D999D55",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | SONOKUNI — Out Now Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E000092B2000",
+      "title": "One Eyed Kutkh",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E000092B2000.jpg",
+      "variants": [
+        {
+          "id": "v_ea9499a8",
+          "name": "One Eyed Kutkh — One Eyed Kutkh - Release Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14XGjerZpZrV4DM_mcrOHf5Q22ZuNvLsL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14XGjerZpZrV4DM_mcrOHf5Q22ZuNvLsL&sz=w640",
+          "sizeBytes": 4341827,
+          "sha256": "E99B65C09124AB7A03759E20A9C7B561121B50F68ED9F366A6C986AB6489D9B3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | One Eyed Kutkh — One Eyed Kutkh - Releas"
+        }
+      ]
+    },
+    {
+      "titleId": "0100211005E94000",
+      "title": "Mulaka",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100211005E94000.jpg",
+      "variants": [
+        {
+          "id": "v_75085e0a",
+          "name": "Mulaka — Mulaka - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fjz3yFfawuHJZpi-nXatgjb8Hab9MBtD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fjz3yFfawuHJZpi-nXatgjb8Hab9MBtD&sz=w640",
+          "sizeBytes": 5577897,
+          "sha256": "C311BDA5BC46EA6F2BE5C5BB6FA4CC357E40203ACEE32D1ECE6F6887C0CA9A57",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mulaka — Mulaka - Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01008B801471C000",
+      "title": "Inked a Tale of Love",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008B801471C000.jpg",
+      "variants": [
+        {
+          "id": "v_226115fe",
+          "name": "Inked: A Tale of Love — Inked New Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1c9el1HGpJZ8V3b8ldINaSzRYpdW_1KNy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1c9el1HGpJZ8V3b8ldINaSzRYpdW_1KNy&sz=w640",
+          "sizeBytes": 5263988,
+          "sha256": "8B229B523304DFCC3EF93BAF983B1851D5C10FEACD1650C78192512811395D25",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Inked: A Tale of Love — Inked New Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CDC01E42C000",
+      "title": "Guayota",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CDC01E42C000.jpg",
+      "variants": [
+        {
+          "id": "v_cd83eb2e",
+          "name": "Guayota — Launch Trailer [EN]",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Y64r2q7we948l8EwtDTQZL-TuxA8eg2R",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Y64r2q7we948l8EwtDTQZL-TuxA8eg2R&sz=w640",
+          "sizeBytes": 5271945,
+          "sha256": "1B095EBCA345597D5106B0E986AAD458918F9F9F5C8521416BD228151FED26D5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Guayota — Launch Trailer [EN]"
+        }
+      ]
+    },
+    {
+      "titleId": "010019201938A000",
+      "title": "El Shaddai Ascension of the Metatron HD Remaster",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010019201938A000.jpg",
+      "variants": [
+        {
+          "id": "v_c3079b8d",
+          "name": "El Shaddai ASCENSION OF THE METATRON HD Remaster",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Kko2FZqkFcnxB6TQh1MDuI0b-hRadT0v",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Kko2FZqkFcnxB6TQh1MDuI0b-hRadT0v&sz=w640",
+          "sizeBytes": 3249883,
+          "sha256": "543CF07C4EDDF711A2AAD141E1D1292BEF1C9118907B0F9CDD4C315EE399C4C1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | El Shaddai ASCENSION OF THE METATRON HD "
+        }
+      ]
+    },
+    {
+      "titleId": "01002BD00983E000",
+      "title": "Burly Men at Sea",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002BD00983E000.jpg",
+      "variants": [
+        {
+          "id": "v_330406eb",
+          "name": "Burly Men at Sea — Burly Men at Sea Trailer 2018",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bpbBLMej-sMAeIxjS_48g-vHBlAz9Q-x",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bpbBLMej-sMAeIxjS_48g-vHBlAz9Q-x&sz=w640",
+          "sizeBytes": 3824642,
+          "sha256": "591A9AC46C16765005B9FF1E0FA300D5EC676AFCAAD1C6DE8DFF2E8F4DEAD333",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Burly Men at Sea — Burly Men at Sea Trai"
+        }
+      ]
     }
   ],
-  "totalGames": 3713,
-  "totalVariants": 5137,
-  "lastUpdated": "2026-11-10T05:56:25.078873+00:00"
+  "totalGames": 3723,
+  "totalVariants": 5147,
+  "lastUpdated": "2026-11-10T05:59:42.833620+00:00"
 }
