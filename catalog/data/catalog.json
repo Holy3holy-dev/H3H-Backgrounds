@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T12:39:07.095148+00:00",
+  "updatedAt": "2026-11-10T12:43:04.543337+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -156228,9 +156228,269 @@
           "notes": "Switch 720p 30fps H264 | Moonless Moon — ローンチトレーラー"
         }
       ]
+    },
+    {
+      "titleId": "01002E700F958000",
+      "title": "Brunswick Pro Billiards",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002E700F958000.jpg",
+      "variants": [
+        {
+          "id": "v_03a3ebd7",
+          "name": "Brunswick Pro Billiards — Brunswick Pro Billiard",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1T4HXoQsqy_M7XuL1d9XzMIHvj-nFQa1i",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1T4HXoQsqy_M7XuL1d9XzMIHvj-nFQa1i&sz=w640",
+          "sizeBytes": 5211891,
+          "sha256": "27F4BC9B1C4E8A2D89DF25CDB13BB85CE997EE66423A0DF6CAD2CD3AAA7F597E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Brunswick Pro Billiards — Brunswick Pro "
+        }
+      ]
+    },
+    {
+      "titleId": "0100E1E01523A000",
+      "title": "The Sundew",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E1E01523A000.jpg",
+      "variants": [
+        {
+          "id": "v_94dfddfd",
+          "name": "The Sundew — Launch Trailer - EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ruT9goVeRmvwPiRDBicGI3dr_R7STPNC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ruT9goVeRmvwPiRDBicGI3dr_R7STPNC&sz=w640",
+          "sizeBytes": 4546083,
+          "sha256": "EA5761ED23C5F621BD277769E2B67E115D0043834DC130DC132331373595E93F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Sundew — Launch Trailer - EN"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B4701816C000",
+      "title": "Watch",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B4701816C000.jpg",
+      "variants": [
+        {
+          "id": "v_99ec7025",
+          "name": "Watch_Dogs® 2 — Story trailer - EXP",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Zetg6gQaJk2faVvBxf-3UfF4vIC_M4Nt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Zetg6gQaJk2faVvBxf-3UfF4vIC_M4Nt&sz=w640",
+          "sizeBytes": 5194304,
+          "sha256": "E847F984A315EEB66BB1B9F6761872A7F649EE6FE56FAB6AB7F14FB8B20F2BD0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Watch_Dogs® 2 — Story trailer - EXP"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EB601D77C000",
+      "title": "Doll Explorer",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EB601D77C000.jpg",
+      "variants": [
+        {
+          "id": "v_e626210a",
+          "name": "Doll Explorer — 2nd Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1uC46-8PZokMEw6k-ELHkMd6HvpnpfabL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1uC46-8PZokMEw6k-ELHkMd6HvpnpfabL&sz=w640",
+          "sizeBytes": 4974708,
+          "sha256": "9177502188B83794A5FE049D3C265BC66B9BB189DFA06018C88891468019263F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Doll Explorer — 2nd Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100954010F76000",
+      "title": "Whitestone",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100954010F76000.jpg",
+      "variants": [
+        {
+          "id": "v_ac96c377",
+          "name": "Whitestone — Combat Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1y_eoVHGjeJQ34CH5UNMNNWqZkMX0s9Id",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1y_eoVHGjeJQ34CH5UNMNNWqZkMX0s9Id&sz=w640",
+          "sizeBytes": 8419809,
+          "sha256": "795A53D7BCDFB0D179E7FEF2497CC19B2A0F260AFEFD7FF5C63A5A3316DA40CD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Whitestone — Combat Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A4B014F72000",
+      "title": "Growbot",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A4B014F72000.jpg",
+      "variants": [
+        {
+          "id": "v_f53860c7",
+          "name": "Growbot — Growbot Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1y2izGnEKoru-7pgxJCXq2ekcGFkN1Eus",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1y2izGnEKoru-7pgxJCXq2ekcGFkN1Eus&sz=w640",
+          "sizeBytes": 5335058,
+          "sha256": "13582CB4C3264575B8C7E3F0267676E509F6A6DFBFF69D4700FE721ECBD4D739",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Growbot — Growbot Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01007E401D8FA000",
+      "title": "Epic Dumpster Bear 1.5 DX Dumpster Fire Rebirth",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007E401D8FA000.jpg",
+      "variants": [
+        {
+          "id": "v_0a427e84",
+          "name": "Epic Dumpster Bear 1.5 DX: Dumpster Fire Rebirth",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GFb4dWIeXWzi1yCYgO6WOZCB167IIZje",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GFb4dWIeXWzi1yCYgO6WOZCB167IIZje&sz=w640",
+          "sizeBytes": 4263370,
+          "sha256": "D93CFCE29A9991FDCC368A26EB31AC74AC173269026957F3D276CCC51B081054",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Epic Dumpster Bear 1.5 DX: Dumpster Fire"
+        }
+      ]
+    },
+    {
+      "titleId": "0100442015FDA000",
+      "title": "Stilstand",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100442015FDA000.jpg",
+      "variants": [
+        {
+          "id": "v_5c7eb440",
+          "name": "Stilstand — Release trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1h7925LZ_hy2JihEu0_FKdzyogVmXKVPk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1h7925LZ_hy2JihEu0_FKdzyogVmXKVPk&sz=w640",
+          "sizeBytes": 5119047,
+          "sha256": "AD8A28EAA8128EFAA38D54E4BD5C4D63BFA34E4474EAA33D0B6D99AEB9119D60",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Stilstand — Release trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B40013CF2000",
+      "title": "Gohome",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B40013CF2000.jpg",
+      "variants": [
+        {
+          "id": "v_bdbceb8b",
+          "name": "GOHOME — forJapanease",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SokOflcsGVPRM3qWtPwO1EC3zhNoVdWZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SokOflcsGVPRM3qWtPwO1EC3zhNoVdWZ&sz=w640",
+          "sizeBytes": 5128982,
+          "sha256": "7AF75E8BEC962129ADDD7B6536020A5604C1D275A69F36F9BF455152B59171A3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | GOHOME — forJapanease"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AFE00E882000",
+      "title": "Laraan",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AFE00E882000.jpg",
+      "variants": [
+        {
+          "id": "v_a7146191",
+          "name": "Laraan — Laraan Steam Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TltCniPu54vKfkCTPcFMNVkVr3CF6bSZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TltCniPu54vKfkCTPcFMNVkVr3CF6bSZ&sz=w640",
+          "sizeBytes": 5202250,
+          "sha256": "D4E2A72E3DEEF0FF696B13968D34AB6F0595F5A4323362A224CD304A6AE4724D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Laraan — Laraan Steam Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 4953,
-  "totalVariants": 6377,
-  "lastUpdated": "2026-11-10T12:39:07.095148+00:00"
+  "totalGames": 4963,
+  "totalVariants": 6387,
+  "lastUpdated": "2026-11-10T12:43:04.543337+00:00"
 }
