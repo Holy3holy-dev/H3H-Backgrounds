@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T21:04:26Z",
+  "updatedAt": "2026-11-10T21:05:26Z",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -11708,7 +11708,37 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 01004D4158500000_Max_Payne_1.mp4"
+          "notes": "Google Drive: 01004D4158500000_Max_Payne_1.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1lcxZ2RjVlxsEV6PMSkbW_lSbQ7UkIyku",
+          "iconSizeBytes": 82265,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
+        },
+        {
+          "id": "icon-01004d4158500000",
+          "name": "4IFIR Иконка: Max Payne",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lcxZ2RjVlxsEV6PMSkbW_lSbQ7UkIyku",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1lcxZ2RjVlxsEV6PMSkbW_lSbQ7UkIyku",
+          "sizeBytes": 82265,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1lcxZ2RjVlxsEV6PMSkbW_lSbQ7UkIyku",
+          "iconSizeBytes": 82265,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -169791,6 +169821,6 @@
     }
   ],
   "totalGames": 5418,
-  "totalVariants": 6891,
-  "lastUpdated": "2026-11-10T21:04:26Z"
+  "totalVariants": 6892,
+  "lastUpdated": "2026-11-10T21:05:26Z"
 }
