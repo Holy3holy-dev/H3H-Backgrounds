@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T10:50:18.958740+00:00",
+  "updatedAt": "2026-11-10T10:53:53.486441+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -148168,9 +148168,269 @@
           "notes": "Switch 720p 30fps H264 | Squiggle Drop — Trailer"
         }
       ]
+    },
+    {
+      "titleId": "01004310229EE000",
+      "title": "Welcome to Hanwell",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004310229EE000.jpg",
+      "variants": [
+        {
+          "id": "v_0e416958",
+          "name": "Welcome to Hanwell — Welcome to Hanwell: Launch ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yhrzIrN87aQt3cD91E5F27PPTdir3kJI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yhrzIrN87aQt3cD91E5F27PPTdir3kJI&sz=w640",
+          "sizeBytes": 5245212,
+          "sha256": "4D27CB815FB41FB3359BEFAB8C49B7F0CE1A7A1165C8AE27B3F426B49BFB7752",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Welcome to Hanwell — Welcome to Hanwell:"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DF9013AD4000",
+      "title": "Clocker",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DF9013AD4000.jpg",
+      "variants": [
+        {
+          "id": "v_312ab876",
+          "name": "Clocker — Clocker_gameplay_EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1H14WEJRJIG1zj88TAWolN2_aFYyFKoyX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1H14WEJRJIG1zj88TAWolN2_aFYyFKoyX&sz=w640",
+          "sizeBytes": 5439459,
+          "sha256": "B05A546517495B4E6BF07438580D4AA82D518520F75458CE43C721ECC3968DC8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Clocker — Clocker_gameplay_EN"
+        }
+      ]
+    },
+    {
+      "titleId": "01003BE020754000",
+      "title": "Monster Survivors",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003BE020754000.jpg",
+      "variants": [
+        {
+          "id": "v_f5f908bd",
+          "name": "Monster Survivors — Official Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1505w7eY_WatSFHf9gs5-iTC2FI3fUpSE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1505w7eY_WatSFHf9gs5-iTC2FI3fUpSE&sz=w640",
+          "sizeBytes": 5377925,
+          "sha256": "CFD2091E8062F10422F7E861DC1474A322C771569E5EC34FAC83ACE9DDEE5899",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Monster Survivors — Official Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01004A301E8BA000",
+      "title": "Reaper Survivors",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004A301E8BA000.jpg",
+      "variants": [
+        {
+          "id": "v_049f15b3",
+          "name": "The Reaper Survivors — Good Reaper",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lxeQA1CVnOYX4nUZQrVcs5hRAVXMdJyA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lxeQA1CVnOYX4nUZQrVcs5hRAVXMdJyA&sz=w640",
+          "sizeBytes": 5321445,
+          "sha256": "47E42B0B8830901AF8CC0CAC14212D15EBC47C22654DB1758B981D20BC246D6D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Reaper Survivors — Good Reaper"
+        }
+      ]
+    },
+    {
+      "titleId": "010018E01DC96000",
+      "title": "Downfall",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010018E01DC96000.jpg",
+      "variants": [
+        {
+          "id": "v_7d978ae1",
+          "name": "Downfall MMORPG — Downfall MMORPG Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1y-fI5LT3FufcadA6D2cKAv6fubJVYSgN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1y-fI5LT3FufcadA6D2cKAv6fubJVYSgN&sz=w640",
+          "sizeBytes": 5272213,
+          "sha256": "8E84BF80B4B60228401DAE7FBDA5E17520EA063E4BF91C3D5B8B7C92F2BAA5E4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Downfall MMORPG — Downfall MMORPG Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "01006DC0225AE000",
+      "title": "Dagger Froggy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006DC0225AE000.jpg",
+      "variants": [
+        {
+          "id": "v_deeb7f66",
+          "name": "Dagger Froggy — Trailer Final",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1foD1XBRGz-SfD42FlFAbqkUEFXNOTOri",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1foD1XBRGz-SfD42FlFAbqkUEFXNOTOri&sz=w640",
+          "sizeBytes": 5033649,
+          "sha256": "90FA0A436E95D8029779DB1B8647E27CB685BB770C519E18D211C8E01138F4FC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dagger Froggy — Trailer Final"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F5701F62E000",
+      "title": "Malignant Survivors",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F5701F62E000.jpg",
+      "variants": [
+        {
+          "id": "v_7f1aafcf",
+          "name": "Malignant Survivors — Skeleton King",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1h1SwpQKNshe8pmytctJTgW-jOeiDJv-g",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1h1SwpQKNshe8pmytctJTgW-jOeiDJv-g&sz=w640",
+          "sizeBytes": 5509112,
+          "sha256": "B27D3C615A85E0710A18ACDB97B7D252FF5D27E16FEFD786ED77FDE764C5D48D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Malignant Survivors — Skeleton King"
+        }
+      ]
+    },
+    {
+      "titleId": "010029A01E5F2000",
+      "title": "Sky Survivors",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010029A01E5F2000.jpg",
+      "variants": [
+        {
+          "id": "v_04904c33",
+          "name": "Sky Survivors — Full Release 2",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1F52CPWPGG30gWUa8V2rFormAn_Qi0rxa",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1F52CPWPGG30gWUa8V2rFormAn_Qi0rxa&sz=w640",
+          "sizeBytes": 4981181,
+          "sha256": "8B02C70D84CA76712746011AE74824354D4004291CAC43E533DD941708ED8CAB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sky Survivors — Full Release 2"
+        }
+      ]
+    },
+    {
+      "titleId": "01003F901A0CA000",
+      "title": "Petit Petit Petit",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003F901A0CA000.jpg",
+      "variants": [
+        {
+          "id": "v_486ce02f",
+          "name": "Petit Petit Petit — Demo_PetitPetitPetit_en",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18XQlRxdqjkkj9DeG5AIxPYBTToDZd7Zt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18XQlRxdqjkkj9DeG5AIxPYBTToDZd7Zt&sz=w640",
+          "sizeBytes": 4336996,
+          "sha256": "D908E6F7FE830A73BE68DD66587FA70BFA3CAC95C8F55503A69A285BB85F2342",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Petit Petit Petit — Demo_PetitPetitPetit"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DF9022E0E000",
+      "title": "CybeRage",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DF9022E0E000.jpg",
+      "variants": [
+        {
+          "id": "v_1f3eafe6",
+          "name": "CybeRage — CybeRage | Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1V3f34FO998B-dvnK31QzVxQSH4YC2CuS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1V3f34FO998B-dvnK31QzVxQSH4YC2CuS&sz=w640",
+          "sizeBytes": 5558405,
+          "sha256": "257742BE54128CB43F75E619CEE70C6C05739DB0DD1CE862326C214977C209A9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | CybeRage — CybeRage | Gameplay Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 4643,
-  "totalVariants": 6067,
-  "lastUpdated": "2026-11-10T10:50:18.958740+00:00"
+  "totalGames": 4653,
+  "totalVariants": 6077,
+  "lastUpdated": "2026-11-10T10:53:53.486441+00:00"
 }
