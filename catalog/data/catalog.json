@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T20:58:08Z",
+  "updatedAt": "2026-11-10T20:59:16Z",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -10142,7 +10142,37 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 01007BB017812000_Half_Life_2.mp4"
+          "notes": "Google Drive: 01007BB017812000_Half_Life_2.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1KJgJt6P-oQm8YlQBa93f0xRO79V738Lg",
+          "iconSizeBytes": 86075,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
+        },
+        {
+          "id": "icon-01007bb017812000",
+          "name": "4IFIR Иконка: Half-Life 2: неофициальный LayeredFS-мод для Portal [LFS Mod.][RUS/ENG]",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KJgJt6P-oQm8YlQBa93f0xRO79V738Lg",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1KJgJt6P-oQm8YlQBa93f0xRO79V738Lg",
+          "sizeBytes": 86075,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1KJgJt6P-oQm8YlQBa93f0xRO79V738Lg",
+          "iconSizeBytes": 86075,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -10167,7 +10197,13 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 010077B00E046000_Spyro_Reignited.mp4"
+          "notes": "Google Drive: 010077B00E046000_Spyro_Reignited.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1twGrzAN89GrV9ieLhqdcwe540xMqqDEF",
+          "iconSizeBytes": 291321,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
         },
         {
           "id": "var-11dJ2-RE",
@@ -10204,6 +10240,30 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Hunter The Cheetah Spyro The Dragon | ЗВУК"
+        },
+        {
+          "id": "icon-010077b00e046000",
+          "name": "4IFIR Иконка: Spyro Reignited Trilogy [NSP][RUS (Mod.)/ENG]",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1twGrzAN89GrV9ieLhqdcwe540xMqqDEF",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1twGrzAN89GrV9ieLhqdcwe540xMqqDEF",
+          "sizeBytes": 291321,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1twGrzAN89GrV9ieLhqdcwe540xMqqDEF",
+          "iconSizeBytes": 291321,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -10542,7 +10602,13 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 010075101EF84000_Stray.mp4"
+          "notes": "Google Drive: 010075101EF84000_Stray.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1XSdycW_aqXeuy7OhIIlPb5H6ittfeqtp",
+          "iconSizeBytes": 189270,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
         },
         {
           "id": "v_526a432c",
@@ -10615,6 +10681,30 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Lonely Cat In The Rain Stray | ЗВУК"
+        },
+        {
+          "id": "icon-010075101ef84000",
+          "name": "4IFIR Иконка: Stray [NSZ][RUS/Multi14]",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XSdycW_aqXeuy7OhIIlPb5H6ittfeqtp",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1XSdycW_aqXeuy7OhIIlPb5H6ittfeqtp",
+          "sizeBytes": 189270,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1XSdycW_aqXeuy7OhIIlPb5H6ittfeqtp",
+          "iconSizeBytes": 189270,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -169461,6 +169551,6 @@
     }
   ],
   "totalGames": 5418,
-  "totalVariants": 6880,
-  "lastUpdated": "2026-11-10T20:58:08Z"
+  "totalVariants": 6883,
+  "lastUpdated": "2026-11-10T20:59:16Z"
 }
