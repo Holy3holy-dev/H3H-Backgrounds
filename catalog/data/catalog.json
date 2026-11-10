@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T07:52:18.960295+00:00",
+  "updatedAt": "2026-11-10T07:55:29.749217+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -133868,9 +133868,269 @@
           "notes": "Switch 720p 30fps H264 | Home Safety Hotline — HSH Release Date T"
         }
       ]
+    },
+    {
+      "titleId": "0100A71018440000",
+      "title": "Underdungeon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A71018440000.jpg",
+      "variants": [
+        {
+          "id": "v_939daf7d",
+          "name": "UnderDungeon — reveal_trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1N1_RfzkAyhJj7xVGA37-iyIR8lqXSz0B",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1N1_RfzkAyhJj7xVGA37-iyIR8lqXSz0B&sz=w640",
+          "sizeBytes": 4869111,
+          "sha256": "BD78E022FCF7ECBE2CCFB50E5F9F6C255AE4C608F1B18A177B8275FB8B8EAB1C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | UnderDungeon — reveal_trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C8A023910000",
+      "title": "The Aquarium Does Not Dance",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C8A023910000.jpg",
+      "variants": [
+        {
+          "id": "v_b9bf1122",
+          "name": "The Aquarium does not dance — PV",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1teKOqM4NzIR-3Fj2aYtox8cTv_rckZKt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1teKOqM4NzIR-3Fj2aYtox8cTv_rckZKt&sz=w640",
+          "sizeBytes": 5102656,
+          "sha256": "B503AD869835ED52280E2A3E034744B57CB90D52064753A91F9C0BE583063AFC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Aquarium does not dance — PV"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D11022B68000",
+      "title": "Girls Made Pudding",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D11022B68000.jpg",
+      "variants": [
+        {
+          "id": "v_1afb7b33",
+          "name": "GIRLS MADE PUDDING — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LlXixE0fFdm56oAH4YNgV5o5o9i8cr0M",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LlXixE0fFdm56oAH4YNgV5o5o9i8cr0M&sz=w640",
+          "sizeBytes": 4490115,
+          "sha256": "36221F114DC5752AF757A04C2489871CE52A1D63FAFE04CE911744D4BE15BA42",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | GIRLS MADE PUDDING — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E70014562000",
+      "title": "Epic Chef",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E70014562000.jpg",
+      "variants": [
+        {
+          "id": "v_940c5ab1",
+          "name": "Epic Chef — Epic Chef - Accolades Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1YAPEyJ-Kx8uTS9S4E435uWnkWP-c8Jvg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1YAPEyJ-Kx8uTS9S4E435uWnkWP-c8Jvg&sz=w640",
+          "sizeBytes": 5629081,
+          "sha256": "A07C4A0AF0C59674213A91CD96CA9D3FBEDF363B21B54F28A6B6213B2DB75365",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Epic Chef — Epic Chef - Accolades Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "0100161009E5C000",
+      "title": "MX Nitro Unleashed",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100161009E5C000.jpg",
+      "variants": [
+        {
+          "id": "v_352d73d8",
+          "name": "MX Nitro: Unleashed — MX Nitro Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17h4TtmS-oTPub7Ta2sIPdks9-w2DqHr1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17h4TtmS-oTPub7Ta2sIPdks9-w2DqHr1&sz=w640",
+          "sizeBytes": 5633144,
+          "sha256": "94DCE6B296593A9EEC384FCDA4E04122E38F330C3DFFB6BFA6B7F578561DAC7A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | MX Nitro: Unleashed — MX Nitro Launch Tr"
+        }
+      ]
+    },
+    {
+      "titleId": "010008A021BF4000",
+      "title": "Coneru Dimension Girl",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010008A021BF4000.jpg",
+      "variants": [
+        {
+          "id": "v_ec9b968f",
+          "name": "CONERU -DIMENSION GIRL- — CONERU_A_en",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pf_Oo2-dYBnAg2vcK2xNSwRQa6o7-oJH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pf_Oo2-dYBnAg2vcK2xNSwRQa6o7-oJH&sz=w640",
+          "sizeBytes": 4998072,
+          "sha256": "18B29B91F964A53CED222D9E7639B00AA1EDA4823AC650183FFCF5FB257965EA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | CONERU -DIMENSION GIRL- — CONERU_A_en"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A8B01EB22000",
+      "title": "Ginger the Tooth Fairy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A8B01EB22000.jpg",
+      "variants": [
+        {
+          "id": "v_20770db0",
+          "name": "Ginger - The Tooth Fairy — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KXPU0ImP1Vumt3X9DzppfJkbU7GZB2-Z",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KXPU0ImP1Vumt3X9DzppfJkbU7GZB2-Z&sz=w640",
+          "sizeBytes": 5218768,
+          "sha256": "14A2CCC1CCAF1A599736DC115EE242F062372ED870F6E5B98CAC4E6C721948C4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ginger - The Tooth Fairy — Release Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "010006A01F1C6000",
+      "title": "Ghost Teen Escape from Limbo",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010006A01F1C6000.jpg",
+      "variants": [
+        {
+          "id": "v_ac8822bc",
+          "name": "Ghost Teen Escape from Limbo — Ghost Teen Escape",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1JZGfC6H4BxQEJyYdWzj1Bk-sGJaaWewp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1JZGfC6H4BxQEJyYdWzj1Bk-sGJaaWewp&sz=w640",
+          "sizeBytes": 5353114,
+          "sha256": "AA105272FA2BE3A835B01C66D6173277F7F9137F4FCCC822EC57527F37D78378",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ghost Teen Escape from Limbo — Ghost Tee"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DDE01620E000",
+      "title": "Frogsong",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DDE01620E000.jpg",
+      "variants": [
+        {
+          "id": "v_0f06eae7",
+          "name": "Frogsong — Frogsong Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1iQpg4ti8pp4cA1ErqUQJzIqY_6xVHEHX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1iQpg4ti8pp4cA1ErqUQJzIqY_6xVHEHX&sz=w640",
+          "sizeBytes": 5023970,
+          "sha256": "5C5FB26A16623C4B6D5E4F90FF7A85363268666ACA031DA1DA81B98BBB4B271C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Frogsong — Frogsong Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01005EC01FF54000",
+      "title": "Farlands Journey",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005EC01FF54000.jpg",
+      "variants": [
+        {
+          "id": "v_9630611d",
+          "name": "Farlands Journey — Farlands Journey - Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bjmgki4bw7sKVsVCUFRPimkwomAW_QnU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bjmgki4bw7sKVsVCUFRPimkwomAW_QnU&sz=w640",
+          "sizeBytes": 5590525,
+          "sha256": "C3B62C0354C34196774A0DF85D5BF0D191A135BFC7F57C29343ECFA13A334972",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Farlands Journey — Farlands Journey - Tr"
+        }
+      ]
     }
   ],
-  "totalGames": 4093,
-  "totalVariants": 5517,
-  "lastUpdated": "2026-11-10T07:52:18.960295+00:00"
+  "totalGames": 4103,
+  "totalVariants": 5527,
+  "lastUpdated": "2026-11-10T07:55:29.749217+00:00"
 }
