@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T05:39:11.616319+00:00",
+  "updatedAt": "2026-11-10T05:42:09.218942+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -122688,9 +122688,269 @@
           "notes": "Switch 720p 30fps H264 | Genetic Disaster — Genetic Disaster - Tr"
         }
       ]
+    },
+    {
+      "titleId": "010022C00E8D8000",
+      "title": "It's Raining Fists and Metal",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010022C00E8D8000.jpg",
+      "variants": [
+        {
+          "id": "v_6e2c3c42",
+          "name": "It's Raining Fists and Metal — It's Raining Fist",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vl5whP3v3RS2_im4Zd2HeNVQsiMaBYJt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vl5whP3v3RS2_im4Zd2HeNVQsiMaBYJt&sz=w640",
+          "sizeBytes": 5423903,
+          "sha256": "15F0F0C366646CAACB63B220DF5097AF51F1701B3745596121ED3D2FDD561B92",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | It's Raining Fists and Metal — It's Rain"
+        }
+      ]
+    },
+    {
+      "titleId": "010081601902E000",
+      "title": "Cyjin the Cyborg Ninja",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010081601902E000.jpg",
+      "variants": [
+        {
+          "id": "v_8b0b2781",
+          "name": "Cyjin: The Cyborg Ninja — Full Launch Trailer Cy",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VCM8o8X36PTHow7iMjHluQ-0gVmJruQ-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VCM8o8X36PTHow7iMjHluQ-0gVmJruQ-&sz=w640",
+          "sizeBytes": 5222603,
+          "sha256": "2B1795BCD130382E649BE0A18EC6F2EBC9B995327467AF262872F8A22739EE3B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cyjin: The Cyborg Ninja — Full Launch Tr"
+        }
+      ]
+    },
+    {
+      "titleId": "010029D01AC4C000",
+      "title": "Ninja or Die Shadow of the Sun",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010029D01AC4C000.jpg",
+      "variants": [
+        {
+          "id": "v_99a968b9",
+          "name": "Ninja or Die: Shadow of the Sun — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1STtFdb3nFHmtQi2TJ7kbRUYc7308vx6S",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1STtFdb3nFHmtQi2TJ7kbRUYc7308vx6S&sz=w640",
+          "sizeBytes": 5531126,
+          "sha256": "FCCFC3AE640F5999B5DFF88047C43CDD209E62DCF17D39ED1572A9CCAC434545",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ninja or Die: Shadow of the Sun — Launch"
+        }
+      ]
+    },
+    {
+      "titleId": "01007E30176E6000",
+      "title": "Samurai Bringer",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007E30176E6000.jpg",
+      "variants": [
+        {
+          "id": "v_50b3c430",
+          "name": "Samurai Bringer — Release Trailer EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ItaL9qVle4ZMO4tV64SWAguaZfeEFFBf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ItaL9qVle4ZMO4tV64SWAguaZfeEFFBf&sz=w640",
+          "sizeBytes": 5114087,
+          "sha256": "63C87D52D6A9761961056615A22A22FB6AFD1815D4633D6952551DC4F153CE2B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Samurai Bringer — Release Trailer EN"
+        }
+      ]
+    },
+    {
+      "titleId": "0100900023DBE000",
+      "title": "Samurai Academy Paws of Fury",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100900023DBE000.jpg",
+      "variants": [
+        {
+          "id": "v_3f4db70a",
+          "name": "Samurai Academy: Paws of Fury — Samurai Academy:",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_9TLzSiEDIWCgPcxS9v4Vv76PULI_daL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_9TLzSiEDIWCgPcxS9v4Vv76PULI_daL&sz=w640",
+          "sizeBytes": 5694561,
+          "sha256": "0F4F6393E25DB9865E0C7D70E3806F6B1D036D100BFBEF783C15925D7CE42A3A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Samurai Academy: Paws of Fury — Samurai "
+        }
+      ]
+    },
+    {
+      "titleId": "01000EB0181B0000",
+      "title": "McPixel 3",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000EB0181B0000.jpg",
+      "variants": [
+        {
+          "id": "v_3cb82b1b",
+          "name": "McPixel 3 — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UxuOizLDZQfkZd_wrC6R8Cz-8qbHssUm",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UxuOizLDZQfkZd_wrC6R8Cz-8qbHssUm&sz=w640",
+          "sizeBytes": 4803984,
+          "sha256": "9FC41AD5E4C5E6235E2FF78D3B33FAD2877D1346E24765D26C8937A183E20BB6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | McPixel 3 — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010015B012E0C000",
+      "title": "Disc Room",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010015B012E0C000.jpg",
+      "variants": [
+        {
+          "id": "v_cd292f55",
+          "name": "Disc Room — Developer Video",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xEfuHGPBNuMB8GA7VoBC2IYHHW5ORgOX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xEfuHGPBNuMB8GA7VoBC2IYHHW5ORgOX&sz=w640",
+          "sizeBytes": 4998072,
+          "sha256": "46B57947C5C09C4A9B9E0A6FB65C251B09E72A0AB24B6636E80364D9975E11C1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Disc Room — Developer Video"
+        }
+      ]
+    },
+    {
+      "titleId": "010042F01686C000",
+      "title": "Terracotta",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010042F01686C000.jpg",
+      "variants": [
+        {
+          "id": "v_84e1ed53",
+          "name": "Terracotta - Shards of Doom — Anouncement Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17LHwkYwNPQ-i2BCmOtV1yrYIM56VnsuB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17LHwkYwNPQ-i2BCmOtV1yrYIM56VnsuB&sz=w640",
+          "sizeBytes": 3495379,
+          "sha256": "0F48FF3FDAA843709F55C6A6739666BA954B3844D55E8396218ACC5A0AB95A31",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Terracotta - Shards of Doom — Anouncemen"
+        }
+      ]
+    },
+    {
+      "titleId": "0100250021752000",
+      "title": "Vessels of Decay",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100250021752000.jpg",
+      "variants": [
+        {
+          "id": "v_06e7cbe8",
+          "name": "Vessels of Decay — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11AEnO9ISgih1EZacROPviPZ5vmZIu1Ki",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11AEnO9ISgih1EZacROPviPZ5vmZIu1Ki&sz=w640",
+          "sizeBytes": 5502509,
+          "sha256": "417EC3536C01BB2DD83AB92DB459C785E07886844151AC4013E02BD3971FFD85",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Vessels of Decay — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F130115EC000",
+      "title": "Help Will Come Tomorrow",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F130115EC000.jpg",
+      "variants": [
+        {
+          "id": "v_ec80901d",
+          "name": "Help Will Come Tomorrow — Help Will Come Tomorro",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1M3f1_y-h5664szpZc3dlrGTNjS6uWNzr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1M3f1_y-h5664szpZc3dlrGTNjS6uWNzr&sz=w640",
+          "sizeBytes": 1881192,
+          "sha256": "9135AD8FD40ED7E18FB99B3679546C32311A3137C8FDB88F589617C457EAD6EB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Help Will Come Tomorrow — Help Will Come"
+        }
+      ]
     }
   ],
-  "totalGames": 3663,
-  "totalVariants": 5087,
-  "lastUpdated": "2026-11-10T05:39:11.616319+00:00"
+  "totalGames": 3673,
+  "totalVariants": 5097,
+  "lastUpdated": "2026-11-10T05:42:09.218942+00:00"
 }
