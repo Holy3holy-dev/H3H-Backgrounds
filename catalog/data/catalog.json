@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T06:09:50.480604+00:00",
+  "updatedAt": "2026-11-10T06:12:59.999574+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -125028,9 +125028,269 @@
           "notes": "Switch 720p 30fps H264 | Space Scavenger — Release Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100E2F022E04000",
+      "title": "Leftovers KO",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E2F022E04000.jpg",
+      "variants": [
+        {
+          "id": "v_8ba5e30a",
+          "name": "Leftovers KO! — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1n1lgGi97MEXYAy-APG-LBuyT70NDng5A",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1n1lgGi97MEXYAy-APG-LBuyT70NDng5A&sz=w640",
+          "sizeBytes": 4830398,
+          "sha256": "46696E1B22B42836E80705235F0B5A9A9F44823D31673C09FD3DAB219D300DC7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Leftovers KO! — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010000401313A000",
+      "title": "Demong Hunter",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010000401313A000.jpg",
+      "variants": [
+        {
+          "id": "v_e6c0f204",
+          "name": "Demong Hunter — Demong Hunter",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OEtjEf7Cr8-lomoS61gIfp-yf3Eh6v_t",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OEtjEf7Cr8-lomoS61gIfp-yf3Eh6v_t&sz=w640",
+          "sizeBytes": 5289227,
+          "sha256": "B26F4918915CC070C6FDC8769FA0F45CC79D2ECF92CC1D12CE4ED801399872C0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Demong Hunter — Demong Hunter"
+        }
+      ]
+    },
+    {
+      "titleId": "010023001A1BC000",
+      "title": "Rytmos",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010023001A1BC000.jpg",
+      "variants": [
+        {
+          "id": "v_6cda2db4",
+          "name": "Rytmos — Extra content trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_hypTZlGMDiizkmkyM0rF0bPDqtsw8Zt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_hypTZlGMDiizkmkyM0rF0bPDqtsw8Zt&sz=w640",
+          "sizeBytes": 5368793,
+          "sha256": "8C0E7B3F56819384A4987FB478FDB11443A8944212B7CA2AAE06FEF724BFA54D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rytmos — Extra content trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AA0012DFA000",
+      "title": "Lumote the Mastermote Chronicles",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AA0012DFA000.jpg",
+      "variants": [
+        {
+          "id": "v_284c01af",
+          "name": "Lumote: The Mastermote Chronicles — Accolades Tr",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pXX-nJp3Y8Nz9UZn74zMi7klj878cN1x",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pXX-nJp3Y8Nz9UZn74zMi7klj878cN1x&sz=w640",
+          "sizeBytes": 5174242,
+          "sha256": "0492A228AB5F5E04741D159E09578D71DF8135A46B0252801CCF4395E747A0EF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lumote: The Mastermote Chronicles — Acco"
+        }
+      ]
+    },
+    {
+      "titleId": "01009EE00E91E000",
+      "title": "Some Distant Memory",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009EE00E91E000.jpg",
+      "variants": [
+        {
+          "id": "v_cad0ee3d",
+          "name": "Some Distant Memory — Release Date Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GVTT7pCIu6ZrR8sTOCIcEBbXDJC-dYnD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GVTT7pCIu6ZrR8sTOCIcEBbXDJC-dYnD&sz=w640",
+          "sizeBytes": 4998974,
+          "sha256": "074DCD8A4AC6E7BE6E40714030C675B9E407E81C253118A7B3B19D84A8FAF3A2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Some Distant Memory — Release Date Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "0100438014C2C000",
+      "title": "Dwerve",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100438014C2C000.jpg",
+      "variants": [
+        {
+          "id": "v_8a2f36c3",
+          "name": "Dwerve: Prologue — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OFI1pNNUetCs1A3Ad5lQGzVK_arka3XT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OFI1pNNUetCs1A3Ad5lQGzVK_arka3XT&sz=w640",
+          "sizeBytes": 5041483,
+          "sha256": "2D303AD847824DD0897DF4F5F08777984B2301E5719C49BD9C88EAC65C47DDA3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dwerve: Prologue — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010074F8A32FD000",
+      "title": "Amazing Princess Sarah",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010074F8A32FD000.jpg",
+      "variants": [
+        {
+          "id": "v_34550cd3",
+          "name": "Amazing Princess Sarah — Amazing Princess Sarah ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1uN3WXjBrL_xFA7WV0j1Tgsg48yNg-E1d",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1uN3WXjBrL_xFA7WV0j1Tgsg48yNg-E1d&sz=w640",
+          "sizeBytes": 2898890,
+          "sha256": "11B6D5640A45C5E820DD00AB9D2FC670403D5AAE0AF24AC1166740EA51A3C608",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Amazing Princess Sarah — Amazing Princes"
+        }
+      ]
+    },
+    {
+      "titleId": "010049B01D39E000",
+      "title": "Caligo",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010049B01D39E000.jpg",
+      "variants": [
+        {
+          "id": "v_3d2bd32a",
+          "name": "Blu Caligo — Blu Caligo - Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18HX_ELSfDIERXLkptWfP6XqW0Vb7rF7k",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18HX_ELSfDIERXLkptWfP6XqW0Vb7rF7k&sz=w640",
+          "sizeBytes": 11684918,
+          "sha256": "3E796D397087E69BDFBF211F7917D7D6CD4B96A14AC824DD072EA0B22F2F3831",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Blu Caligo — Blu Caligo - Gameplay Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "0100811021AC0000",
+      "title": "Is this Game Trying to Kill Me",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100811021AC0000.jpg",
+      "variants": [
+        {
+          "id": "v_560cb80e",
+          "name": "Is this Game Trying to Kill Me? — Is this Game T",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cLpmscwpJRLrbw3RaKurFBqPGYr7ZNn0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cLpmscwpJRLrbw3RaKurFBqPGYr7ZNn0&sz=w640",
+          "sizeBytes": 5246243,
+          "sha256": "303EECEBD66CAEA99DDCAE123827D5F70A2FBED81F741D719871136E5FE5DE49",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Is this Game Trying to Kill Me? — Is thi"
+        }
+      ]
+    },
+    {
+      "titleId": "010056800B534000",
+      "title": "Super Inefficient Golf",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010056800B534000.jpg",
+      "variants": [
+        {
+          "id": "v_5db93143",
+          "name": "Super Inefficient Golf — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1v2vt8BPJ3tc2eTkfmZKDF27Ct4wv2DiN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1v2vt8BPJ3tc2eTkfmZKDF27Ct4wv2DiN&sz=w640",
+          "sizeBytes": 5360970,
+          "sha256": "C83D00780E2E7647C1FF8806233F2ECAC01D53C67E6AFD7CE393CF3C96EFC9A9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Super Inefficient Golf — Gameplay Traile"
+        }
+      ]
     }
   ],
-  "totalGames": 3753,
-  "totalVariants": 5177,
-  "lastUpdated": "2026-11-10T06:09:50.480604+00:00"
+  "totalGames": 3763,
+  "totalVariants": 5187,
+  "lastUpdated": "2026-11-10T06:12:59.999574+00:00"
 }
