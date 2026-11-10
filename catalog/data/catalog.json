@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T07:22:30.347041+00:00",
+  "updatedAt": "2026-11-10T07:25:31.214732+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -131268,9 +131268,269 @@
           "notes": "Switch 720p 30fps H264 | Harmony: The Fall of Reverie — Accolades"
         }
       ]
+    },
+    {
+      "titleId": "010068702430C000",
+      "title": "Mamon King",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010068702430C000.jpg",
+      "variants": [
+        {
+          "id": "v_168ebf4c",
+          "name": "Mamon King — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pifsv2bgbsmPLXIVCAk88idG-9pxhjd1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pifsv2bgbsmPLXIVCAk88idG-9pxhjd1&sz=w640",
+          "sizeBytes": 5061575,
+          "sha256": "69D657910A90C55F9A39A62787354B8C7495711680B2BA79C9D9EA302FED11A6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mamon King — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D5701E9DC000",
+      "title": "Maliki Poison of the Past",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D5701E9DC000.jpg",
+      "variants": [
+        {
+          "id": "v_49336352",
+          "name": "Maliki : Poison Of The Past — Release Trailer - ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XnGWWR5XlNw5BdRhNVaoQ_UMWTvXBNij",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XnGWWR5XlNw5BdRhNVaoQ_UMWTvXBNij&sz=w640",
+          "sizeBytes": 4867999,
+          "sha256": "3979E685AB27E67EBA0DFDBB20E62F4B17D75C2F6321556E890F2E8363CCBFAB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Maliki : Poison Of The Past — Release Tr"
+        }
+      ]
+    },
+    {
+      "titleId": "01001F502242A000",
+      "title": "Luminaria Dark Echoes",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001F502242A000.jpg",
+      "variants": [
+        {
+          "id": "v_2053b93b",
+          "name": "Luminaria: Dark Echoes — Final Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17prPvEjNsRai_1iBQCqGg_NyevxcNq3N",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17prPvEjNsRai_1iBQCqGg_NyevxcNq3N&sz=w640",
+          "sizeBytes": 5435084,
+          "sha256": "A87E0C23B1E7B15619B43CBF39DF994B4FAA06C03538F315EDC7485E05A410AE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Luminaria: Dark Echoes — Final Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100863023140000",
+      "title": "Knight's Night",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100863023140000.jpg",
+      "variants": [
+        {
+          "id": "v_17fc871f",
+          "name": "Knight's Night! — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pPM_R3B8xM8jGskPWBVVmqW3gp82Cpaq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pPM_R3B8xM8jGskPWBVVmqW3gp82Cpaq&sz=w640",
+          "sizeBytes": 5125535,
+          "sha256": "780D433FC496175AE0A3B442E2BBB00017790BFBBD4B1489E2F8D0A454DD189E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Knight's Night! — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C5501BF24000",
+      "title": "Downward Enhanced edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C5501BF24000.jpg",
+      "variants": [
+        {
+          "id": "v_d19b8949",
+          "name": "Downward: Enhanced Edition — Enhanced Release Tr",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1EMf7XS0H4W03TaLPYOXiGMkRIgXajqdK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1EMf7XS0H4W03TaLPYOXiGMkRIgXajqdK&sz=w640",
+          "sizeBytes": 5561396,
+          "sha256": "D0D971E2C496BF5C474DD9069A7436C1837F55511DB7F78EFCEB5E02D7AFD1E8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Downward: Enhanced Edition — Enhanced Re"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D9B0216D0000",
+      "title": "JustAxe",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D9B0216D0000.jpg",
+      "variants": [
+        {
+          "id": "v_9de332cf",
+          "name": "JustAxe — Final eng",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HEA01Oi9YtnggoQ398FWbPXXFo-LlMx7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HEA01Oi9YtnggoQ398FWbPXXFo-LlMx7&sz=w640",
+          "sizeBytes": 5064629,
+          "sha256": "E4A118B24014F51A1990093C93405BB74698379DE8CBB7A26FD7C9559CBFB4C3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | JustAxe — Final eng"
+        }
+      ]
+    },
+    {
+      "titleId": "01001070208A2000",
+      "title": "Hyper Team Recon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001070208A2000.jpg",
+      "variants": [
+        {
+          "id": "v_9720fc5d",
+          "name": "Hyper Team Recon — HTR Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BGCFd7lpFkdYthx3GhzzHwMAy1W4O6G5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BGCFd7lpFkdYthx3GhzzHwMAy1W4O6G5&sz=w640",
+          "sizeBytes": 4926314,
+          "sha256": "E476912AB2A30C3A396B1C94603AEDD011D7C6051AEBB587FD2B68DCAA307591",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hyper Team Recon — HTR Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100592020666000",
+      "title": "Girlfriend from Hell",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100592020666000.jpg",
+      "variants": [
+        {
+          "id": "v_0f54a39d",
+          "name": "Girlfriend from Hell — Girlfriend from hell 2",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pKtZskwVgdbEqvJvpWxpOZeEoiZ4crWJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pKtZskwVgdbEqvJvpWxpOZeEoiZ4crWJ&sz=w640",
+          "sizeBytes": 5228458,
+          "sha256": "3F2472DA8335751E799ADDD163AD244D33458F4A329E06E25AEB48E44DC22EB0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Girlfriend from Hell — Girlfriend from h"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C7302061C000",
+      "title": "Forgotten Fields",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C7302061C000.jpg",
+      "variants": [
+        {
+          "id": "v_d42b30b4",
+          "name": "Forgotten Fields — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1l5ytGNeOjRZJee2YzeIGAwdUfkMQi6Rv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1l5ytGNeOjRZJee2YzeIGAwdUfkMQi6Rv&sz=w640",
+          "sizeBytes": 5234683,
+          "sha256": "FE076F669ABD93B46A7DB22B7AF2B797DD0D8EB87F3BD5B11B28EAB4C584FB1C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Forgotten Fields — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DCF01CDDA000",
+      "title": "Dokapon Sword of Fury",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DCF01CDDA000.jpg",
+      "variants": [
+        {
+          "id": "v_fc27bb5e",
+          "name": "DOKAPON! Sword of Fury — DOKAPON! -Sword of Fury",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1e9lesql6RGW9kjhd20kSam39LlYdKVEq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1e9lesql6RGW9kjhd20kSam39LlYdKVEq&sz=w640",
+          "sizeBytes": 5530290,
+          "sha256": "075631362F56972B22A968F3659D0D9F64359A1BEB5B3DC24A4348B08680FBB8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | DOKAPON! Sword of Fury — DOKAPON! -Sword"
+        }
+      ]
     }
   ],
-  "totalGames": 3993,
-  "totalVariants": 5417,
-  "lastUpdated": "2026-11-10T07:22:30.347041+00:00"
+  "totalGames": 4003,
+  "totalVariants": 5427,
+  "lastUpdated": "2026-11-10T07:25:31.214732+00:00"
 }
