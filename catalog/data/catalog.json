@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T05:08:08.791780+00:00",
+  "updatedAt": "2026-11-10T05:11:07.927046+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -120088,9 +120088,269 @@
           "notes": "Switch 720p 30fps H264 | Erra: Exordium — Erra: Exordium - Teaser"
         }
       ]
+    },
+    {
+      "titleId": "0100D080166F8000",
+      "title": "Transient Extended edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D080166F8000.jpg",
+      "variants": [
+        {
+          "id": "v_41f629d8",
+          "name": "Transient: Extended Edition — Transient Extended",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18ISkfhIK1Z9wiriyvxnf42buNW0yNN12",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18ISkfhIK1Z9wiriyvxnf42buNW0yNN12&sz=w640",
+          "sizeBytes": 5513253,
+          "sha256": "DB7364EA3B84EB14F50049AD5E408FF1262D2E0A5F1493D4A49571C556C59FFE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Transient: Extended Edition — Transient "
+        }
+      ]
+    },
+    {
+      "titleId": "01000A701D080000",
+      "title": "Terminal 81",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000A701D080000.jpg",
+      "variants": [
+        {
+          "id": "v_60a95e22",
+          "name": "Terminal 81 — Mini Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oaWCHNl_rOjKxcDSwOOj860TzYwDKA6u",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oaWCHNl_rOjKxcDSwOOj860TzYwDKA6u&sz=w640",
+          "sizeBytes": 5690147,
+          "sha256": "180D8523488212C3B95496CA3D3C185E6E5B973BA07EC615BEE73AB841E05114",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Terminal 81 — Mini Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A5700C0B2000",
+      "title": "Gray Dawn",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A5700C0B2000.jpg",
+      "variants": [
+        {
+          "id": "v_128598a8",
+          "name": "Gray Dawn — Gray Dawn Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_klOJKuZDxSAD-tbCAuGbvKtu1EHa_cu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_klOJKuZDxSAD-tbCAuGbvKtu1EHa_cu&sz=w640",
+          "sizeBytes": 3018235,
+          "sha256": "00BB25C01709DF3E7E37F01A8EE68D9D33119BDA4B26F7A374ABB7E085A37E5A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Gray Dawn — Gray Dawn Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A3501A88A000",
+      "title": "Mothered",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A3501A88A000.jpg",
+      "variants": [
+        {
+          "id": "v_4f684662",
+          "name": "MOTHERED - A ROLE-PLAYING HORROR GAME — MOTHERED",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eb8YXWDKryfn9kzy2Y8s3zsy8tuXjNb3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eb8YXWDKryfn9kzy2Y8s3zsy8tuXjNb3&sz=w640",
+          "sizeBytes": 5528756,
+          "sha256": "0968CC1126D011EEAAABBBE6664297A08E921AB320E688F5909832CB6685B71C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | MOTHERED - A ROLE-PLAYING HORROR GAME — "
+        }
+      ]
+    },
+    {
+      "titleId": "0100074010E74000",
+      "title": "Silver Chains",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100074010E74000.jpg",
+      "variants": [
+        {
+          "id": "v_311759ad",
+          "name": "Silver Chains — Silver Chains - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Iy4HLQVCLeKSPJdYTwC1V2QP3lWlCcZk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Iy4HLQVCLeKSPJdYTwC1V2QP3lWlCcZk&sz=w640",
+          "sizeBytes": 5081304,
+          "sha256": "1A04046318C16E7095C89A5F0E70C1060BB9555E93FF5F3109A2F42061C0E1BD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Silver Chains — Silver Chains - Launch T"
+        }
+      ]
+    },
+    {
+      "titleId": "010058000A576000",
+      "title": "The Town of Light",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010058000A576000.jpg",
+      "variants": [
+        {
+          "id": "v_deef9f9f",
+          "name": "The Town of Light — The Town of Light - Quotes",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12GYRIfioFT8lGF1UBRzUE2-GER30aKSb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12GYRIfioFT8lGF1UBRzUE2-GER30aKSb&sz=w640",
+          "sizeBytes": 5396691,
+          "sha256": "0C1A8F88F83F51820E386C5761FE74F27975B188BCAA19D53DE536C20704FAF3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Town of Light — The Town of Light - "
+        }
+      ]
+    },
+    {
+      "titleId": "01006340193A4000",
+      "title": "Voodoo Detective",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006340193A4000.jpg",
+      "variants": [
+        {
+          "id": "v_206e194a",
+          "name": "Voodoo Detective — Voodoo Detective Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rVpHwYwpKrbr9jW2LGeeXASAMsucGfuD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rVpHwYwpKrbr9jW2LGeeXASAMsucGfuD&sz=w640",
+          "sizeBytes": 4010755,
+          "sha256": "FE89E67AB4CB889F2374027A98490D0330B2D8F2225A0501E1E65FA2E23FD756",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Voodoo Detective — Voodoo Detective Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EBD015AD8000",
+      "title": "The Wild Case",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EBD015AD8000.jpg",
+      "variants": [
+        {
+          "id": "v_7db25d81",
+          "name": "The Wild Case — The Wild Case trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Z00uETQeYIh_nojHYAKNhqFHwkjGcqvs",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Z00uETQeYIh_nojHYAKNhqFHwkjGcqvs&sz=w640",
+          "sizeBytes": 4078979,
+          "sha256": "B5756195653F578442267AB056154077260891254416866BB90A0BD1E4C2CB42",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Wild Case — The Wild Case trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100515015592000",
+      "title": "Dexter Stardust Adventures in Outer Space",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100515015592000.jpg",
+      "variants": [
+        {
+          "id": "v_5d8f74a9",
+          "name": "Dexter Stardust : Adventures in Outer Space — Ma",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Zfpx4hP4odjzQghbuCkgK_6W45iB6BxW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Zfpx4hP4odjzQghbuCkgK_6W45iB6BxW&sz=w640",
+          "sizeBytes": 4634764,
+          "sha256": "2240246F1903C0EBD0C1531F7DCA4F9E075BCE140BC385282A1FD6166B4C6B34",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dexter Stardust : Adventures in Outer Sp"
+        }
+      ]
+    },
+    {
+      "titleId": "010025C014798000",
+      "title": "Fire Ungh’s Quest",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010025C014798000.jpg",
+      "variants": [
+        {
+          "id": "v_b9099997",
+          "name": "Fire: Ungh’s Quest — Fire Trailer ENG",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lNrz43fL-28ZMlNjpqCqHRlx4A6UKysp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lNrz43fL-28ZMlNjpqCqHRlx4A6UKysp&sz=w640",
+          "sizeBytes": 5654514,
+          "sha256": "0935B1D636BF8BE091BB1803772279F48F950E0540F8DF8B5FDBEF5C5A5C6819",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fire: Ungh’s Quest — Fire Trailer ENG"
+        }
+      ]
     }
   ],
-  "totalGames": 3563,
-  "totalVariants": 4987,
-  "lastUpdated": "2026-11-10T05:08:08.791780+00:00"
+  "totalGames": 3573,
+  "totalVariants": 4997,
+  "lastUpdated": "2026-11-10T05:11:07.927046+00:00"
 }
