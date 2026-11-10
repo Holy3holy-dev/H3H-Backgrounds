@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T04:59:16.950923+00:00",
+  "updatedAt": "2026-11-10T05:02:14.405915+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -119308,9 +119308,269 @@
           "notes": "Switch 720p 30fps H264 | Tangledeep - Legend of Shara — Release T"
         }
       ]
+    },
+    {
+      "titleId": "01006C000DC8A000",
+      "title": "Skelly Selest",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006C000DC8A000.jpg",
+      "variants": [
+        {
+          "id": "v_4ce5df50",
+          "name": "Skelly Selest — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xGDFvjm6ZrkhDmfn7ZiRTL9aVcqwPZV_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xGDFvjm6ZrkhDmfn7ZiRTL9aVcqwPZV_&sz=w640",
+          "sizeBytes": 5121603,
+          "sha256": "72D16F6A1078EBEBB0C7EE947ADBAAA923F60BB974D49290B4CFAEC4E30A6D12",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Skelly Selest — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01002C60178C4000",
+      "title": "Swordship",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002C60178C4000.jpg",
+      "variants": [
+        {
+          "id": "v_64a863db",
+          "name": "Swordship — Swordship - Accolades trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=135EDh_oWdIwW6WTWw_17fxFuMFhf7Wdx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=135EDh_oWdIwW6WTWw_17fxFuMFhf7Wdx&sz=w640",
+          "sizeBytes": 5530042,
+          "sha256": "D9F06033CDA0E23E99231334EF8DF80C2BD53B2FED6F4B97056B3FBE2FD53FE3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Swordship — Swordship - Accolades traile"
+        }
+      ]
+    },
+    {
+      "titleId": "01001DE005012000",
+      "title": "Quest of Dungeons",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001DE005012000.jpg",
+      "variants": [
+        {
+          "id": "v_30a1927d",
+          "name": "Quest of Dungeons — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11T0MJ4sSdOku5FJUbLU2nE4MdVpvrfHJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11T0MJ4sSdOku5FJUbLU2nE4MdVpvrfHJ&sz=w640",
+          "sizeBytes": 869041,
+          "sha256": "793030159FB9BD99240649B9FC2A7FF6F25CFC4D5C5BE2FF199303CB7DCD91E6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Quest of Dungeons — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D1D00ACB8000",
+      "title": "Three Fourths Home: Extended Edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D1D00ACB8000.jpg",
+      "variants": [
+        {
+          "id": "v_a467c822",
+          "name": "Three Fourths Home: Extended Edition — Three Fou",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dP6zpH-kRiDPk1UJgNfgZV7n4BXbMxGj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dP6zpH-kRiDPk1UJgNfgZV7n4BXbMxGj&sz=w640",
+          "sizeBytes": 4879431,
+          "sha256": "6856F8AF9412887906AF986BC5AE7EA4FDA2B718BB59D7AC5CD6E885A38F41DE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Three Fourths Home: Extended Edition — T"
+        }
+      ]
+    },
+    {
+      "titleId": "01001D500EB90000",
+      "title": "Omen Exitio Plague",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001D500EB90000.jpg",
+      "variants": [
+        {
+          "id": "v_bf660f68",
+          "name": "Omen Exitio: Plague — Chinese Release Trailer EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12relv4Wv5TrcoZV5i9LoKg0AJXZpJC1M",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12relv4Wv5TrcoZV5i9LoKg0AJXZpJC1M&sz=w640",
+          "sizeBytes": 4974408,
+          "sha256": "EA7C7EF3523A7498551838D21B0373A0E37CA688E7ADB8440B58E06929B5492C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Omen Exitio: Plague — Chinese Release Tr"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EFE00E1DC000",
+      "title": "Headliner Novinews",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EFE00E1DC000.jpg",
+      "variants": [
+        {
+          "id": "v_cdaa5ce2",
+          "name": "Headliner: NoviNews — Headliner: NoviNews Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1D7H530HRddD3iUfLts413TtGd8n-mWPE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1D7H530HRddD3iUfLts413TtGd8n-mWPE&sz=w640",
+          "sizeBytes": 5298670,
+          "sha256": "0F340E7C1FAB12D8B1F7DBF4802819B7D5F3DCF1235616CC35DD2C549C904403",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Headliner: NoviNews — Headliner: NoviNew"
+        }
+      ]
+    },
+    {
+      "titleId": "010043200F874000",
+      "title": "NekoMiko",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010043200F874000.jpg",
+      "variants": [
+        {
+          "id": "v_755bd498",
+          "name": "NekoMiko — nekomiko_playmovie01",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bwU0FmVFeTnWxJnDofzn6g14X_5vz6dI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bwU0FmVFeTnWxJnDofzn6g14X_5vz6dI&sz=w640",
+          "sizeBytes": 5370850,
+          "sha256": "F5FBE18E77D19F0BDA07FD9EE5298F9819955A3559506B2C7C5DDB3A5C5E9633",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | NekoMiko — nekomiko_playmovie01"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EEA00E3EA000",
+      "title": "One Way Ticket",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EEA00E3EA000.jpg",
+      "variants": [
+        {
+          "id": "v_18eef0aa",
+          "name": "One-Way Ticket  / 单程票 — One-way Ticket · 单程票",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_zCqM7noeNi2q9an03R0-vZLbr098OI7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_zCqM7noeNi2q9an03R0-vZLbr098OI7&sz=w640",
+          "sizeBytes": 3257704,
+          "sha256": "3F13F681F38D6209EBFB52B76206B6DCE5EBE05B35ABAA1BA6A482AFA370CE2A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | One-Way Ticket  / 单程票 — One-way Ticket ·"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E3A023E62000",
+      "title": "Ozymandias Bronze Age Empire Sim",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E3A023E62000.jpg",
+      "variants": [
+        {
+          "id": "v_fcc6dcf5",
+          "name": "Ozymandias: Bronze Age Empire Sim — Release date",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1uC1taU7cSVv-5fdn7sIv7AfB5vnXEAov",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1uC1taU7cSVv-5fdn7sIv7AfB5vnXEAov&sz=w640",
+          "sizeBytes": 5345386,
+          "sha256": "0D40937CA52753D59413026F7273357F816CAB16CED30ECB169B771CC2DF5BA7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ozymandias: Bronze Age Empire Sim — Rele"
+        }
+      ]
+    },
+    {
+      "titleId": "0100802012890000",
+      "title": "Songs for a Hero: Definitive Edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100802012890000.jpg",
+      "variants": [
+        {
+          "id": "v_5991f7aa",
+          "name": "Songs for a Hero - Definitive Edition — Songs fo",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14bPJvnRBJNytMv_xEpWUg1c4Vhu24F87",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14bPJvnRBJNytMv_xEpWUg1c4Vhu24F87&sz=w640",
+          "sizeBytes": 5639365,
+          "sha256": "E2CC329821E7A60627A823F9DD19D4489F61458AB792906940B6F0544179C386",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Songs for a Hero - Definitive Edition — "
+        }
+      ]
     }
   ],
-  "totalGames": 3533,
-  "totalVariants": 4957,
-  "lastUpdated": "2026-11-10T04:59:16.950923+00:00"
+  "totalGames": 3543,
+  "totalVariants": 4967,
+  "lastUpdated": "2026-11-10T05:02:14.405915+00:00"
 }
