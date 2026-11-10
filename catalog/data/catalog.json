@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T07:01:40.774351+00:00",
+  "updatedAt": "2026-11-10T07:04:43.379579+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -129448,9 +129448,269 @@
           "notes": "Switch 720p 30fps H264 | Tobla - Divine Path — Trailer - Release "
         }
       ]
+    },
+    {
+      "titleId": "0100A1B01B3C2000",
+      "title": "Wild Legion",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A1B01B3C2000.jpg",
+      "variants": [
+        {
+          "id": "v_eb985c3d",
+          "name": "Wild Legion — Demo is Available!",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Vox2YcD4MLdB4Gf0BcLT3CWAcRD-e8fC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Vox2YcD4MLdB4Gf0BcLT3CWAcRD-e8fC&sz=w640",
+          "sizeBytes": 4917800,
+          "sha256": "1C06A2EB175988BCC3A09CE92E3F5F1E70ED7F020889D4A5A4918001DB0D692E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wild Legion — Demo is Available!"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FA501AFFE000",
+      "title": "Whispike Survivors",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FA501AFFE000.jpg",
+      "variants": [
+        {
+          "id": "v_ba09fbc6",
+          "name": "Whispike Survivors - Sword of the Necromancer — ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PMm0iPCYZcYogcGMk8CEzcYvKyN1z14b",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PMm0iPCYZcYogcGMk8CEzcYvKyN1z14b&sz=w640",
+          "sizeBytes": 5244287,
+          "sha256": "E9254AABCD0C5229CDE680C617998B15983EBE8815683E8250D020ADDC3DE32C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Whispike Survivors - Sword of the Necrom"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B6D0207E2000",
+      "title": "Sanya",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B6D0207E2000.jpg",
+      "variants": [
+        {
+          "id": "v_940b3bca",
+          "name": "SANYA — SANYA TRAILER",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XAZqa7W8P4zUhjPz-SotDIis7NH9ofWe",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XAZqa7W8P4zUhjPz-SotDIis7NH9ofWe&sz=w640",
+          "sizeBytes": 5486449,
+          "sha256": "A0E1F495151610756E19E44BD27DD6803405B89D12948D9A53FCE29A8371044E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | SANYA — SANYA TRAILER"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FC300F4A4000",
+      "title": "Fly Punch Boom",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FC300F4A4000.jpg",
+      "variants": [
+        {
+          "id": "v_af22772c",
+          "name": "Fly Punch Boom! — Song trailer (demo out now)",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1YVMzHqkQQXf0U4SqvEkaeep6GroIIAo3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1YVMzHqkQQXf0U4SqvEkaeep6GroIIAo3&sz=w640",
+          "sizeBytes": 5127600,
+          "sha256": "8B4D5F201A95FF15C9A4F6D803E300583B2BA969FFE93B5B10C1DCD90523967C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fly Punch Boom! — Song trailer (demo out"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C0F0020E8000",
+      "title": "Snake Pass",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C0F0020E8000.jpg",
+      "variants": [
+        {
+          "id": "v_1acc630d",
+          "name": "Snake Pass — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fIAxvxlRc9NUdthyrbsfvGisPPOpuIuc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fIAxvxlRc9NUdthyrbsfvGisPPOpuIuc&sz=w640",
+          "sizeBytes": 4771440,
+          "sha256": "B8C49AC6207AE62193CF259209E9BC79C8FE264E6A1675C3F42C710AF9574676",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Snake Pass — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DD30191DC000",
+      "title": "She Wants Me Dead",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DD30191DC000.jpg",
+      "variants": [
+        {
+          "id": "v_228d1e9a",
+          "name": "She Wants Me Dead — Love/Hate Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mGrZkE2XJCtWhU5UASF_VUm4AwaO6Mfw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mGrZkE2XJCtWhU5UASF_VUm4AwaO6Mfw&sz=w640",
+          "sizeBytes": 5417435,
+          "sha256": "7AC950E5C5B52A4593B76BB0E8DC610CB9FCF1EE387774025EB06B0C3069AD74",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | She Wants Me Dead — Love/Hate Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F97015D46000",
+      "title": "BATS Bloodsucker Anti-Terror Squad",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F97015D46000.jpg",
+      "variants": [
+        {
+          "id": "v_319589dd",
+          "name": "BATS: Bloodsucker Anti-Terror Squad — BATS Dated",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1aop3WIZ15Gv0PJMGLRWALWc5s8w8iVcv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1aop3WIZ15Gv0PJMGLRWALWc5s8w8iVcv&sz=w640",
+          "sizeBytes": 5372844,
+          "sha256": "DD25FA2BC38E991A99585CFB4712CA300FFC90A3A7717463C37E6E32AB84C4A1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | BATS: Bloodsucker Anti-Terror Squad — BA"
+        }
+      ]
+    },
+    {
+      "titleId": "0100474022FBC000",
+      "title": "Ritual of Raven",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100474022FBC000.jpg",
+      "variants": [
+        {
+          "id": "v_263b4a32",
+          "name": "Ritual of Raven — Ritual of Raven - Launch Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yRNXg5JP_bYBeXFtoH73lDrb9Bt-UAtc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yRNXg5JP_bYBeXFtoH73lDrb9Bt-UAtc&sz=w640",
+          "sizeBytes": 4944691,
+          "sha256": "BE61D2E3156635931A0F69518A3CC015FE5AF8612E10145795834C92F6EA16EA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ritual of Raven — Ritual of Raven - Laun"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FE301A2B4000",
+      "title": "PJ Masks Power Heroes: Mighty Alliance",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FE301A2B4000.jpg",
+      "variants": [
+        {
+          "id": "v_aaf86907",
+          "name": "PJ Masks Power Heroes: Mighty Alliance — Launch ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15X-Ku2csHjMld0OUnJN8Cxev-PWbgPv6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15X-Ku2csHjMld0OUnJN8Cxev-PWbgPv6&sz=w640",
+          "sizeBytes": 5454842,
+          "sha256": "7A4F9315A6DF36B9E7D27E60C32C18C87438825CC7CD685B86C11EBF94A52613",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | PJ Masks Power Heroes: Mighty Alliance —"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C5F00F446000",
+      "title": "Kawaii Deathu Desu",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C5F00F446000.jpg",
+      "variants": [
+        {
+          "id": "v_4202d190",
+          "name": "Kawaii Deathu Desu — Update Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wYQLPhTpWJsijgriCqr_f_8qrdOZiksh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wYQLPhTpWJsijgriCqr_f_8qrdOZiksh&sz=w640",
+          "sizeBytes": 5223564,
+          "sha256": "416167BF56472CBA48E7743462110166A86EB634BACC9453452BEB97D4C198CA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kawaii Deathu Desu — Update Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 3923,
-  "totalVariants": 5347,
-  "lastUpdated": "2026-11-10T07:01:40.774351+00:00"
+  "totalGames": 3933,
+  "totalVariants": 5357,
+  "lastUpdated": "2026-11-10T07:04:43.379579+00:00"
 }
