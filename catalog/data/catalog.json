@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T13:55:43.047643+00:00",
+  "updatedAt": "2026-11-10T13:59:22.715636+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -161428,9 +161428,269 @@
           "notes": "Switch 720p 30fps H264 | The Sealed Ampoule — English PV"
         }
       ]
+    },
+    {
+      "titleId": "01002E4011924000",
+      "title": "Dininho Adventures",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002E4011924000.jpg",
+      "variants": [
+        {
+          "id": "v_91ef6460",
+          "name": "Dininho Adventures: Definitive Edition — Dininho",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oIRDEKd-WIgYZXDHwN2MCEnP6LMBa5oX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oIRDEKd-WIgYZXDHwN2MCEnP6LMBa5oX&sz=w640",
+          "sizeBytes": 4156276,
+          "sha256": "22580101236BF97C8E6183225A3CCBA4B32C53A8BC0C297698875955EF2E5E6A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dininho Adventures: Definitive Edition —"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C7F0198F6000",
+      "title": "Sucker for Love First Date",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C7F0198F6000.jpg",
+      "variants": [
+        {
+          "id": "v_4a6cc527",
+          "name": "Sucker for Love: First Date — Sucker for Love: F",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1p0UAwcqmOFEv-ltg56xLtvcifFVhFdoj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1p0UAwcqmOFEv-ltg56xLtvcifFVhFdoj&sz=w640",
+          "sizeBytes": 5080702,
+          "sha256": "1D9A9232BDB2436323952CEA4E2B965BF38189C37BB322A711AFF98D5D76270A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sucker for Love: First Date — Sucker for"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D7001453A000",
+      "title": "Skellboy Refractured",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D7001453A000.jpg",
+      "variants": [
+        {
+          "id": "v_da306560",
+          "name": "Skellboy Refractured — Skellboy Refractured Laun",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bX6rGjBrRXa4N88kkhUz6TiljFHwGtwW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bX6rGjBrRXa4N88kkhUz6TiljFHwGtwW&sz=w640",
+          "sizeBytes": 5221361,
+          "sha256": "07E849115F9D8CF4DC9B364F3389D1E0DAF45548502383DC76961FAAFE60DAB2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Skellboy Refractured — Skellboy Refractu"
+        }
+      ]
+    },
+    {
+      "titleId": "010071800B4B2000",
+      "title": "Your Toy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010071800B4B2000.jpg",
+      "variants": [
+        {
+          "id": "v_4ea742c9",
+          "name": "Your Toy — 官网用全英文全平台YourToy",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eozy5ckNK-U_4T7JRAsh9MzIsYL8u1CH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eozy5ckNK-U_4T7JRAsh9MzIsYL8u1CH&sz=w640",
+          "sizeBytes": 4240898,
+          "sha256": "0965921710298300A0078D25857FEA9647B2DE9EFE6D26DB53315D4CDB3A9FE0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Your Toy — 官网用全英文全平台YourToy"
+        }
+      ]
+    },
+    {
+      "titleId": "01005090167C6000",
+      "title": "Guild of Ascension",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005090167C6000.jpg",
+      "variants": [
+        {
+          "id": "v_3b24849b",
+          "name": "Guild of Ascension — ReleaseDateTrailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MnyWuUFWiZodVedehfvhy-8nxeRKbcnH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MnyWuUFWiZodVedehfvhy-8nxeRKbcnH&sz=w640",
+          "sizeBytes": 5537424,
+          "sha256": "D2946F17F4C20823893644E1ACFB830CEAB310CDEEBAF1E96CFE0A5B321FCDA7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Guild of Ascension — ReleaseDateTrailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100322004844000",
+      "title": "Embers of Mirrim",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100322004844000.jpg",
+      "variants": [
+        {
+          "id": "v_d28d8eac",
+          "name": "Embers of Mirrim — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ba1jsTRu5KqOPMMyOKeqSRUEa1Qeyt1e",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ba1jsTRu5KqOPMMyOKeqSRUEa1Qeyt1e&sz=w640",
+          "sizeBytes": 4400117,
+          "sha256": "9ADBB3D7B6F3EA0BDA55A4CDD4E6A00B8AE9C0101D2F7162E237E71984DD5F56",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Embers of Mirrim — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BEB010F2A000",
+      "title": "Torn Tales Rebound Edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BEB010F2A000.jpg",
+      "variants": [
+        {
+          "id": "v_dc5fe038",
+          "name": "Torn Tales: Rebound Edition — Torn Tales Rebound",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hDgFygj5eSCt82ibXTukL21shp-Mu5PL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hDgFygj5eSCt82ibXTukL21shp-Mu5PL&sz=w640",
+          "sizeBytes": 4863785,
+          "sha256": "C41DFFA5FD7DAEE8264613D24B9D5739D8F9783C981EF3C61F91752FEA2CF5ED",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Torn Tales: Rebound Edition — Torn Tales"
+        }
+      ]
+    },
+    {
+      "titleId": "010051A011AD8000",
+      "title": "Poopdie",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010051A011AD8000.jpg",
+      "variants": [
+        {
+          "id": "v_0f96280c",
+          "name": "Poopdie — Poopdie - Trailer 2019",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MUtcgDBS9k1BTUFZVEG2ST6n2Kpii9z8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MUtcgDBS9k1BTUFZVEG2ST6n2Kpii9z8&sz=w640",
+          "sizeBytes": 5149859,
+          "sha256": "2887F710F6D3B24A31BF9E59727AA734E5BD9D48528A63CED24F650CDD179B42",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Poopdie — Poopdie - Trailer 2019"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F770045CA000",
+      "title": "Time Recoil",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F770045CA000.jpg",
+      "variants": [
+        {
+          "id": "v_15049965",
+          "name": "Time Recoil — Time Recoil v4",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1JATEZ9Icco1Z_u38eFBWDacIn8fejCUj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1JATEZ9Icco1Z_u38eFBWDacIn8fejCUj&sz=w640",
+          "sizeBytes": 5486856,
+          "sha256": "C1C76EA96B53C7D53831256998045F8A78E15A2FC96FD9A24DA6034E9AE59FC0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Time Recoil — Time Recoil v4"
+        }
+      ]
+    },
+    {
+      "titleId": "010012B01A216000",
+      "title": "Chemically Bonded",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010012B01A216000.jpg",
+      "variants": [
+        {
+          "id": "v_a16896fe",
+          "name": "Chemically Bonded — Official Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=103XLTNpNIKlEv__e2Xz0yKSE_fO8TJUl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=103XLTNpNIKlEv__e2Xz0yKSE_fO8TJUl&sz=w640",
+          "sizeBytes": 5370884,
+          "sha256": "8F86A709C0E9EBD65EBF6A22975AE1D470B6260C3CC53E136BBDF85DFFA59075",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Chemically Bonded — Official Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 5153,
-  "totalVariants": 6577,
-  "lastUpdated": "2026-11-10T13:55:43.047643+00:00"
+  "totalGames": 5163,
+  "totalVariants": 6587,
+  "lastUpdated": "2026-11-10T13:59:22.715636+00:00"
 }
