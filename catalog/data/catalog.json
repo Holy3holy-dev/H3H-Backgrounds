@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T06:12:59.999574+00:00",
+  "updatedAt": "2026-11-10T06:16:13.319581+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -125288,9 +125288,269 @@
           "notes": "Switch 720p 30fps H264 | Super Inefficient Golf — Gameplay Traile"
         }
       ]
+    },
+    {
+      "titleId": "0100662008632000",
+      "title": "Spy Chameleon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100662008632000.jpg",
+      "variants": [
+        {
+          "id": "v_43f5cd24",
+          "name": "Spy Chameleon - RGB Agent — Spy Chameleon : RGB ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1l_PxrIacbrOuCTeFO1r4hwrXDhNiA9BX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1l_PxrIacbrOuCTeFO1r4hwrXDhNiA9BX&sz=w640",
+          "sizeBytes": 5301035,
+          "sha256": "1687C6ACF393BE63346EEE194F87459E7A2E921A1F5CEE08C8D3635455A4D2CD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Spy Chameleon - RGB Agent — Spy Chameleo"
+        }
+      ]
+    },
+    {
+      "titleId": "010068A018CC6000",
+      "title": "Victory Heat Rally",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010068A018CC6000.jpg",
+      "variants": [
+        {
+          "id": "v_9737f039",
+          "name": "Victory Heat Rally — Victory Heat Rally | Consol",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tCyGZMAIivHeXunSaLKwprnWeMyq0IdO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tCyGZMAIivHeXunSaLKwprnWeMyq0IdO&sz=w640",
+          "sizeBytes": 5139330,
+          "sha256": "B200DE470FB9D23CC1FD5F4249F6F06BC231C1540D65E442AFCCEAFC67444147",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Victory Heat Rally — Victory Heat Rally "
+        }
+      ]
+    },
+    {
+      "titleId": "01008A401F736000",
+      "title": "Hot Rod Mayhem",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008A401F736000.jpg",
+      "variants": [
+        {
+          "id": "v_cdf2442b",
+          "name": "Hot Rod Mayhem — Hot Rod Mayhem Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cY6O4VD43Q126_l0oTQS2GvnIKNkVHzy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cY6O4VD43Q126_l0oTQS2GvnIKNkVHzy&sz=w640",
+          "sizeBytes": 5501087,
+          "sha256": "1310FD58DAC5400A4E417C5BE8B43A2342FD49910DDBB7727A34CA0F2182A969",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hot Rod Mayhem — Hot Rod Mayhem Launch T"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D5A01C4D0000",
+      "title": "Cybertrash Statyx",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D5A01C4D0000.jpg",
+      "variants": [
+        {
+          "id": "v_075f1219",
+          "name": "Cybertrash STATYX — Cybertrash STATYX - Steam Re",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19ePmPrAB_jT6X4V2_iy1GwRosMU3R2NZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19ePmPrAB_jT6X4V2_iy1GwRosMU3R2NZ&sz=w640",
+          "sizeBytes": 5145009,
+          "sha256": "8DB4153F0BE31CDC64203817A53DB381A7C4E48B3201E2B8816A7242251DC6B9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cybertrash STATYX — Cybertrash STATYX - "
+        }
+      ]
+    },
+    {
+      "titleId": "01004B90183A4000",
+      "title": "Timberman The Big Adventure",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004B90183A4000.jpg",
+      "variants": [
+        {
+          "id": "v_a07aeceb",
+          "name": "Timberman: The Big Adventure — Main Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HH6jClA13uUmb5NtFl5mXN0wQHbptU57",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HH6jClA13uUmb5NtFl5mXN0wQHbptU57&sz=w640",
+          "sizeBytes": 5264981,
+          "sha256": "FD434FCD59F07FBF125E4D67B95A018744642FD0FEBA9278EA97A285ACE4D4CE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Timberman: The Big Adventure — Main Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B18001D8E000",
+      "title": "Little Inferno",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B18001D8E000.jpg",
+      "variants": [
+        {
+          "id": "v_fbb5b99b",
+          "name": "Little Inferno — Little Inferno Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vnAk-G97XtjALnvAA7BQT8sihzIo-ZCl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vnAk-G97XtjALnvAA7BQT8sihzIo-ZCl&sz=w640",
+          "sizeBytes": 4915837,
+          "sha256": "6B7149A1A5C02E1537F69476D122F67037ACA71BD6068A210F409CF93DE1F68C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Little Inferno — Little Inferno Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100220018450000",
+      "title": "Chicken Journey",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100220018450000.jpg",
+      "variants": [
+        {
+          "id": "v_224c5a80",
+          "name": "Chicken Journey — Chicken Journey Release Date T",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IFJ_5iN-GGupW4PHWKgfBe525cr7lVNZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IFJ_5iN-GGupW4PHWKgfBe525cr7lVNZ&sz=w640",
+          "sizeBytes": 2504864,
+          "sha256": "1DBAAC8CC71BC04D9B7153A5A1B617DC3568D2121D5ACD8244DCDC785570FACF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Chicken Journey — Chicken Journey Releas"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B7A015362000",
+      "title": "Tandem A Tale of Shadows",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B7A015362000.jpg",
+      "variants": [
+        {
+          "id": "v_393c31fb",
+          "name": "Tandem: A Tale of Shadows — Launch trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1giCmvbxJ2fGYTWVI4iao8ivGV9Tq39wQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1giCmvbxJ2fGYTWVI4iao8ivGV9Tq39wQ&sz=w640",
+          "sizeBytes": 5393181,
+          "sha256": "187758EEBC1F0C7290FA6C6C5B5300D0082B77732D27A925533B6B70846C4706",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tandem: A Tale of Shadows — Launch trail"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DAA01B108000",
+      "title": "One More Gate a Wakfu Legend Complete edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DAA01B108000.jpg",
+      "variants": [
+        {
+          "id": "v_4e2b0edb",
+          "name": "One More Gate : A Wakfu Legend — Animated Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13qlo5uLVJOGL_01qwxzqBYpaRr3BZiXo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13qlo5uLVJOGL_01qwxzqBYpaRr3BZiXo&sz=w640",
+          "sizeBytes": 4617380,
+          "sha256": "DA6446DB200C5D6B810D39F041EA0D3B69AB53D82EAA49B76AD899572B47EA27",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | One More Gate : A Wakfu Legend — Animate"
+        }
+      ]
+    },
+    {
+      "titleId": "01009FB01BABC000",
+      "title": "Yuuna and the Haunted Hot Springs the Thrilling Steamy Maze",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009FB01BABC000.jpg",
+      "variants": [
+        {
+          "id": "v_57c1c8fb",
+          "name": "Yuuna and the Haunted Hot Springs The Thrilling ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pZPJW3DPt8Z8upY0xUNV1plm-8-QTJG6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pZPJW3DPt8Z8upY0xUNV1plm-8-QTJG6&sz=w640",
+          "sizeBytes": 5079256,
+          "sha256": "CF64DEF9162E0D17D0F83B16522BD62893F08B1D77B4FA5C5119EB628E503071",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Yuuna and the Haunted Hot Springs The Th"
+        }
+      ]
     }
   ],
-  "totalGames": 3763,
-  "totalVariants": 5187,
-  "lastUpdated": "2026-11-10T06:12:59.999574+00:00"
+  "totalGames": 3773,
+  "totalVariants": 5197,
+  "lastUpdated": "2026-11-10T06:16:13.319581+00:00"
 }
