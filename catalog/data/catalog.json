@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T09:09:18.887923+00:00",
+  "updatedAt": "2026-11-10T09:12:36.261228+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -140108,9 +140108,269 @@
           "notes": "Switch 720p 30fps H264 | Concealed Intent — Release Trailer"
         }
       ]
+    },
+    {
+      "titleId": "010042000CA02000",
+      "title": "Super Life of Pixel",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010042000CA02000.jpg",
+      "variants": [
+        {
+          "id": "v_877137da",
+          "name": "Super Life of Pixel — Super Life of Pixel",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PBK6c2xnPCKNq8nFg-Lre_V1b74q-BSW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PBK6c2xnPCKNq8nFg-Lre_V1b74q-BSW&sz=w640",
+          "sizeBytes": 4677407,
+          "sha256": "907A65EE68C7EEA97EE5C8403B7B99500E4D73DCF363923BB8D6002253164AB0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Super Life of Pixel — Super Life of Pixe"
+        }
+      ]
+    },
+    {
+      "titleId": "01008D10115C2000",
+      "title": "Hermitage Strange Case Files",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008D10115C2000.jpg",
+      "variants": [
+        {
+          "id": "v_afa422e8",
+          "name": "Hermitage: Strange Case Files — Official Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CX3EVaeoOW_4_1f_vicDghxm0M4BqNZ4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CX3EVaeoOW_4_1f_vicDghxm0M4BqNZ4&sz=w640",
+          "sizeBytes": 5088981,
+          "sha256": "94305632FCA068FEA250FFD34D398C5AC2E2D08CB27FEF9BCDDBC135BFF297A2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hermitage: Strange Case Files — Official"
+        }
+      ]
+    },
+    {
+      "titleId": "0100276018002000",
+      "title": "Chenso Club",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100276018002000.jpg",
+      "variants": [
+        {
+          "id": "v_1d5647ea",
+          "name": "Chenso Club — CC_Steam_Launch_Trailer_OutNow_60s",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14_Hp6dwiQQ13kbx8MIQPZXU8w5rDwHx5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14_Hp6dwiQQ13kbx8MIQPZXU8w5rDwHx5&sz=w640",
+          "sizeBytes": 5067757,
+          "sha256": "947197E2EA9229F183EED84FD8F3DD6CB88E8D65E6780B215801067317F6FDDB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Chenso Club — CC_Steam_Launch_Trailer_Ou"
+        }
+      ]
+    },
+    {
+      "titleId": "01007650184FA000",
+      "title": "Colossal Cave",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007650184FA000.jpg",
+      "variants": [
+        {
+          "id": "v_7e939d33",
+          "name": "Colossal Cave — Colossal Cave Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dHhNZOSXplrCQ1bQ-rgcro5-NevmxfS8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dHhNZOSXplrCQ1bQ-rgcro5-NevmxfS8&sz=w640",
+          "sizeBytes": 5315653,
+          "sha256": "137D548E1AC1B996F3FA216DCDE4C88C15034265F97181BDF4D2E06AEC6CFB15",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Colossal Cave — Colossal Cave Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EB901AE40000",
+      "title": "Chronicles of 2 Heroes: Amaterasu's Wrath",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EB901AE40000.jpg",
+      "variants": [
+        {
+          "id": "v_a0450561",
+          "name": "Chronicles of 2 Heroes: Amaterasu's Wrath — Upda",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1YjDQTYGiDuzRNievVb8mUf0LpZ_hA_WR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1YjDQTYGiDuzRNievVb8mUf0LpZ_hA_WR&sz=w640",
+          "sizeBytes": 4844590,
+          "sha256": "27839F13E381CE5BD8740E9018C2F50AE29605CE940C9668B20927794F142F90",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Chronicles of 2 Heroes: Amaterasu's Wrat"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DCC01376E000",
+      "title": "Super Mombo Quest",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DCC01376E000.jpg",
+      "variants": [
+        {
+          "id": "v_088e835e",
+          "name": "Super Mombo Quest — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1sAw_fszi1nxm6Z7wLMV2xsV_tuvUKr7u",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1sAw_fszi1nxm6Z7wLMV2xsV_tuvUKr7u&sz=w640",
+          "sizeBytes": 4599307,
+          "sha256": "5524ADA6B00B8D986A72C19C25C9165A1DC0963ED43D746B325FD4FD09A9A2F8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Super Mombo Quest — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010079F018508000",
+      "title": "Castle of the Underdogs Ep.1",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010079F018508000.jpg",
+      "variants": [
+        {
+          "id": "v_96e4ca24",
+          "name": "Castle of the Underdogs : Episode 1 — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1scC0eLC1ObTiymiaUNX4Hk6NlOmTNRVw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1scC0eLC1ObTiymiaUNX4Hk6NlOmTNRVw&sz=w640",
+          "sizeBytes": 5589485,
+          "sha256": "D94B2E6CE3C4BBF3FD51C9B85AF6C594AA15C06CA08C8D5386A98B0E2AA8C510",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Castle of the Underdogs : Episode 1 — Tr"
+        }
+      ]
+    },
+    {
+      "titleId": "01006D801A45A000",
+      "title": "Bumballon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006D801A45A000.jpg",
+      "variants": [
+        {
+          "id": "v_b028aa95",
+          "name": "Bumballon — Trailer Bumballon",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11bJD-N4mniJ1nO8YO7AZw3tMQO50CIFd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11bJD-N4mniJ1nO8YO7AZw3tMQO50CIFd&sz=w640",
+          "sizeBytes": 5204984,
+          "sha256": "446F275315E39DAF6FCBED83429D944D3479854034C38B005B7FC4C058CA94A1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bumballon — Trailer Bumballon"
+        }
+      ]
+    },
+    {
+      "titleId": "010013A01B100000",
+      "title": "Boo Party",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010013A01B100000.jpg",
+      "variants": [
+        {
+          "id": "v_252a39ba",
+          "name": "Boo Party — Mr Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xw-oXIUUm4u8_LvjrNVkdxevoDZIHtbL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xw-oXIUUm4u8_LvjrNVkdxevoDZIHtbL&sz=w640",
+          "sizeBytes": 5611906,
+          "sha256": "C2FE06E64709A60309C4964604855F70308DC197C6C5F8D62976628C81AC30B1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Boo Party — Mr Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01008C001A070000",
+      "title": "Bone's Cafe",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008C001A070000.jpg",
+      "variants": [
+        {
+          "id": "v_45871bd4",
+          "name": "Bone's Cafe — Trailer5",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10mSc7vU90TnkqgrRf5ZUcHZ-grqcd-S2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10mSc7vU90TnkqgrRf5ZUcHZ-grqcd-S2&sz=w640",
+          "sizeBytes": 4701599,
+          "sha256": "E25AFA1EAF757752AB3E0FE9F564B4FDFBAD94DD2EB4BE23E9F6412FF909E1E3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bone's Cafe — Trailer5"
+        }
+      ]
     }
   ],
-  "totalGames": 4333,
-  "totalVariants": 5757,
-  "lastUpdated": "2026-11-10T09:09:18.887923+00:00"
+  "totalGames": 4343,
+  "totalVariants": 5767,
+  "lastUpdated": "2026-11-10T09:12:36.261228+00:00"
 }
