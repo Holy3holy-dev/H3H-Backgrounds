@@ -389,7 +389,8 @@ InstallResult Installer::installVariant(
     const std::string& tempFilePath,
     const std::string& expectedSha256,
     uint64_t expectedSizeBytes,
-    bool createBackup
+    bool createBackup,
+    bool makeActive
 ) {
     InstallResult result;
     std::error_code ec;
@@ -474,8 +475,22 @@ uint64_t actualSize = fs::file_size(tempFilePath, ec);
         getNextAvailableCoverPath(coversDir, normTitleId, &nextIndex);
         if (nextIndex <= 0) nextIndex = 1;
 
-        // Move existing active cover to TITLEID_N.mp4
         fs::path altPath = fs::path(coversDir) / Config::getCoverVariantFileName(normTitleId, nextIndex);
+
+        if (!makeActive) {
+            // Save directly into additional slot #nextIndex, keeping current active TITLEID.mp4 untouched
+            fs::rename(tempFilePath, altPath, ec);
+            if (ec) {
+                fs::copy_file(tempFilePath, altPath, fs::copy_options::overwrite_existing, ec);
+                fs::remove(tempFilePath, ec);
+            }
+            result.success = true;
+            result.installedPath = altPath.string();
+            result.message = "Видеофон добавлен в дополнительный слот #" + std::to_string(nextIndex);
+            return result;
+        }
+
+        // Move existing active cover to TITLEID_N.mp4
         fs::rename(existingCoverPath, altPath, ec);
         if (ec) {
             fs::copy_file(existingCoverPath, altPath, fs::copy_options::overwrite_existing, ec);

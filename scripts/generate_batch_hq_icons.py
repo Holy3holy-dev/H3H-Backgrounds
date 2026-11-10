@@ -16,6 +16,9 @@ import time
 import shutil
 import argparse
 import subprocess
+
+sys.stdout.reconfigure(encoding='utf-8', line_buffering=True)
+sys.stderr.reconfigure(encoding='utf-8', line_buffering=True)
 from pathlib import Path
 from typing import Optional, Tuple, List
 
@@ -26,6 +29,8 @@ sys.path.insert(0, str(PROJECT_ROOT / "studio"))
 from tg_bot.bot import get_gdrive_auth
 from tg_bot.config import GDRIVE_ICONS_FOLDER_ID
 from h3h_studio.core.google_drive import GoogleDriveClient
+from h3h_studio.core.github_publisher import GitHubPublisher
+from tg_bot.config import detect_local_proxy
 
 STAGE_720P_DIR = Path(r"H:\h3h_stage\720p")
 TMP_ICONS_DIR = PROJECT_ROOT / "tmp" / "batch_hq_icons"
@@ -55,18 +60,18 @@ def find_source_video(title_id: str, game_variants: list, local_files_map: dict)
                     return local_files_map[v_cand]
     return None
 
-def download_video_chunk(url: str, dest_path: Path, max_bytes: int = 3500000) -> bool:
+def download_full_video(url: str, dest_path: Path) -> bool:
     try:
         import requests
-        headers = {"User-Agent": "Mozilla/5.0", "Range": f"bytes=0-{max_bytes}"}
-        r = requests.get(url, headers=headers, timeout=12, stream=True)
-        if r.status_code in [200, 206]:
-            with open(dest_path, "wb") as f:
-                for chunk in r.iter_content(chunk_size=65536):
-                    f.write(chunk)
-            return dest_path.exists() and dest_path.stat().st_size >= 100000
+        with requests.get(url, stream=True, timeout=25) as r:
+            if r.status_code == 200:
+                with open(dest_path, "wb") as f_out:
+                    for chunk in r.iter_content(chunk_size=512*1024):
+                        if chunk:
+                            f_out.write(chunk)
+                return dest_path.exists() and dest_path.stat().st_size >= 100000
     except Exception as e:
-        print(f"    [!] Chunk download failed: {e}")
+        print(f"    [!] Video download failed: {e}")
     return False
 
 def transcode_hq_video_icon(src_video: Path, out_mp4: Path, duration_sec: float = 4.0) -> bool:
@@ -75,7 +80,6 @@ def transcode_hq_video_icon(src_video: Path, out_mp4: Path, duration_sec: float 
     
     cmd = [
         "ffmpeg", "-y", "-nostdin",
-        "-stream_loop", "-1",
         "-ss", "0.5",
         "-i", str(src_video),
         "-t", str(duration_sec),
@@ -92,6 +96,8 @@ def transcode_hq_video_icon(src_video: Path, out_mp4: Path, duration_sec: float 
         str(out_mp4)
     ]
     res = subprocess.run(cmd, capture_output=True, text=True)
+    if res.returncode != 0:
+        print(f"    [!] FFmpeg error (code {res.returncode}):\n" + "\n".join(res.stderr.splitlines()[-8:]))
     return res.returncode == 0 and out_mp4.exists() and out_mp4.stat().st_size >= 50000
 
 def run_batch(batch_size: int = 50) -> int:
@@ -153,7 +159,7 @@ def run_batch(batch_size: int = 50) -> int:
             if var_url:
                 print(f"  [*] Downloading video sample from Google Drive...")
                 temp_src = TMP_ICONS_DIR / f"{tid}_sample.mp4"
-                if download_video_chunk(var_url, temp_src):
+                if download_full_video(var_url, temp_src):
                     src_file = temp_src
                     print(f"  [+] Sample downloaded ({temp_src.stat().st_size // 1024} KB)")
 
@@ -243,17 +249,36 @@ def run_batch(batch_size: int = 50) -> int:
         now_iso = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
         cat_data["updatedAt"] = now_iso
         cat_data["lastUpdated"] = now_iso
-        CATALOG_PATH.write_text(json.dumps(cat_data, indent=2, ensure_ascii=False), encoding="utf-8")
+        with open(CATALOG_PATH, "w", encoding="utf-8") as f:
+            json.dump(cat_data, f, indent=2, ensure_ascii=False)
         print(f"\n[+] Saved catalog.json with +{processed_count} new HQ video icons!")
 
-        # Sync with upstream to avoid parallel conflicts
-        subprocess.run(["git", "pull", "--rebase", "origin", "main"], check=False)
-        # Commit and push to git
-        subprocess.run(["git", "add", "catalog/data/catalog.json"], check=False)
+        # Sync and push with authenticated GitHub token
+        gh_token, _ = GitHubPublisher.get_stored_credentials()
+        local_proxy = detect_local_proxy()
+        repo_url = f"https://x-access-token:{gh_token}@github.com/Holy3holy-dev/H3H-Backgrounds.git" if gh_token else "origin"
+        git_env = os.environ.copy()
+        git_env["GIT_EDITOR"] = ":"
+        git_env["GIT_TERMINAL_PROMPT"] = "0"
+        if local_proxy:
+            git_env["http_proxy"] = local_proxy
+            git_env["https_proxy"] = local_proxy
+
+        subprocess.run(["git", "pull", "--rebase", repo_url, "main"], env=git_env, check=False)
+        subprocess.run([sys.executable, str(PROJECT_ROOT / "scripts" / "build_min_catalog.py")], check=False)
+        subprocess.run([
+            "git", "add",
+            "catalog/data/catalog.json",
+            "catalog/data/catalog.min.json",
+            "catalog/data/catalog.min.json.gz"
+        ], check=False)
         msg = f"feat(icons): add {processed_count} high-quality 4IFIR video icons (Lanczos 1.2M) [skip render] [skip ci]"
-        subprocess.run(["git", "commit", "-m", msg], check=False)
-        subprocess.run(["git", "push", "origin", "main"], check=False)
-        print(f"[+] Pushed to GitHub main: {msg}")
+        subprocess.run(["git", "commit", "-m", msg], env=git_env, check=False)
+        res_push = subprocess.run(["git", "push", repo_url, "HEAD:refs/heads/main"], env=git_env, capture_output=True, text=True)
+        if res_push.returncode == 0:
+            print(f"[+] Pushed to GitHub main: {msg}")
+        else:
+            print(f"[-] Git push notice: {res_push.stderr}")
 
     return processed_count
 

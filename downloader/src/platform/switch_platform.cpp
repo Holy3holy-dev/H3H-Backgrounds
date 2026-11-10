@@ -14,6 +14,7 @@
 #include <chrono>
 #include <filesystem>
 #include <mutex>
+#include <zlib.h>
 #include "core/json.hpp"
 
 namespace h3h {
@@ -419,14 +420,20 @@ public:
             return false;
         }
 
-        // Build list of candidate endpoints (primary requested URL + CDN mirror fallbacks)
+        // Build list of candidate endpoints (Turbo Gzip/Min index first + CDN mirror fallbacks)
         std::vector<std::string> endpoints;
-        endpoints.push_back(url);
         if (url == Config::DEFAULT_CATALOG_URL) {
+            endpoints.push_back(Config::DEFAULT_CATALOG_MIN_GZ_URL);
+            endpoints.push_back(Config::CATALOG_MIN_MIRROR_CDN);
+            endpoints.push_back(Config::DEFAULT_CATALOG_MIN_URL);
+            endpoints.push_back(url);
             endpoints.push_back(Config::CATALOG_MIRROR_CDN);
             endpoints.push_back(Config::CATALOG_MIRROR_FASTLY);
-        } else if (url.find("version.json") != std::string::npos) {
-            endpoints.push_back(Config::VERSION_CHECK_MIRROR_CDN);
+        } else {
+            endpoints.push_back(url);
+            if (url.find("version.json") != std::string::npos) {
+                endpoints.push_back(Config::VERSION_CHECK_MIRROR_CDN);
+            }
         }
 
         std::string lastFailureReason;
@@ -479,6 +486,37 @@ public:
             if (responseBuffer.empty()) {
                 lastFailureReason = "Пустой ответ сервера";
                 continue;
+            }
+
+            // Transparently inflate binary .gz payload if server returned raw gzip magic (0x1F 0x8B)
+            if (responseBuffer.size() >= 2 &&
+                static_cast<unsigned char>(responseBuffer[0]) == 0x1F &&
+                static_cast<unsigned char>(responseBuffer[1]) == 0x8B) {
+                z_stream zs{};
+                if (inflateInit2(&zs, 16 + MAX_WBITS) == Z_OK) {
+                    zs.next_in = reinterpret_cast<Bytef*>(responseBuffer.data());
+                    zs.avail_in = static_cast<uInt>(responseBuffer.size());
+                    std::string decompressed;
+                    decompressed.reserve(responseBuffer.size() * 4);
+                    char chunk[65536];
+                    int zret = Z_OK;
+                    while (zret == Z_OK) {
+                        zs.next_out = reinterpret_cast<Bytef*>(chunk);
+                        zs.avail_out = sizeof(chunk);
+                        zret = inflate(&zs, 0);
+                        size_t have = sizeof(chunk) - zs.avail_out;
+                        if (have > 0) {
+                            decompressed.append(chunk, have);
+                        }
+                    }
+                    inflateEnd(&zs);
+                    if (zret == Z_STREAM_END && !decompressed.empty()) {
+                        responseBuffer = std::move(decompressed);
+                    } else {
+                        lastFailureReason = "Ошибка распаковки сжатого индекса (.gz)";
+                        continue;
+                    }
+                }
             }
 
             // Quick check: does the response look like JSON?

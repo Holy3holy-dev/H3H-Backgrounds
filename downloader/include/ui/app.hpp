@@ -39,12 +39,34 @@ enum class CatalogViewMode {
 
 enum class CatalogSortMode {
     Default = 0,
-    Alphabetical = 1,
-    VariantsCount = 2,
+    InstalledOnly = 1,
+    IconsOnly = 2,
     AudioOnly = 3,
-    IconsOnly = 4,
-    InstalledOnly = 5,
-    FavoritesOnly = 6
+    Fps60Only = 4,
+    FavoritesOnly = 5,
+    Alphabetical = 6,
+    VariantsCount = 7
+};
+
+enum class ActionSheetCmd {
+    InstallCombo = 0,
+    AppendNewSlot = 1,
+    FullscreenPreview = 2,
+    CycleActiveSlot = 3,
+    DeleteExtraSlots = 4,
+    LinkForwarderToCatalog = 5,
+    AssignToAnotherGame = 6,
+    ToggleFavorite = 7,
+    OpenLocalRecordings = 8,
+    DeleteInstalled = 9,
+    InstallNewGamesPack = 10
+};
+
+struct ActionSheetItem {
+    ActionSheetCmd cmd;
+    std::string label;
+    std::string badge;
+    Color accent{0x00, 0xF0, 0xFF, 0xFF};
 };
 
 struct StorageStats {
@@ -107,6 +129,26 @@ public:
     void queueDownload(const InstalledTitle& title, const Variant& variant);
     void queueDownloadIconOnly(const InstalledTitle& title, const Variant& variant);
     void queueDownloadCoverOnly(const InstalledTitle& title, const Variant& variant);
+    void queueDownloadAppendSlot(const InstalledTitle& title, const Variant& variant);
+    void queueComboPack(const InstalledTitle& targetGame, const GameCatalogEntry& sourceEntry, int preferredCoverIdx = 0);
+
+    // Unified Controls, Action Sheet, Alpha Jump & Ideas 1-6
+    void switchGlobalTab(int delta);
+    void jumpAlphabetical(int dir);
+    void openActionSheetForCurrentContext();
+    void closeActionSheet();
+    void executeActionSheetSelection();
+    void renderActionSheet();
+    void rebuildMyGamesFilter();
+    void openMyGamesKeyboard();
+    void startForwarderLinkSearch(const InstalledTitle& game);
+    void cancelForwarderLinkMode();
+    void executeActivateCoverSlot(const std::string& titleId, int slotIndex);
+    void loadAppSettings();
+    void saveAppSettings();
+    void detectNewInstalledGamesOnBoot();
+    void runAutoCoverRotationOnBoot();
+    void installAllNewlyDetectedGames();
 
     void executeRestoreBackup(const std::string& titleId);
     void executeDeleteCover(const std::string& titleId);
@@ -466,6 +508,7 @@ private:
     bool m_collectionPreviewIconMode{false};
     GameCatalogEntry m_collectionEntry;
     std::string m_collectionTitleId;
+    std::string m_collectionMediaTitleId;
     std::string m_collectionGameName;
     std::vector<Variant> m_collectionVariants;
     int m_collectionSelectedIndex{0};
@@ -513,6 +556,28 @@ private:
 
     // Feature 7: Batch Selection
     std::set<std::string> m_batchSelectedTitleIds;
+
+    // Unified Action Sheet [X], Alpha-Jump, MyGames Filter/Search, Forwarder Link & Auto-Rotation (v1.5.0)
+    bool m_isActionSheetOpen{false};
+    uint32_t m_actionSheetOpenedAt{0};
+    std::string m_actionSheetTitle;
+    std::string m_actionSheetSubtitle;
+    std::vector<ActionSheetItem> m_actionSheetItems;
+    int m_actionSheetSelectedIndex{0};
+
+    std::string m_alphaJumpText;
+    int m_alphaJumpFrames{0};
+    uint32_t m_lastRightStickTime{0};
+
+    std::string m_myGamesSearchQuery;
+    int m_myGamesFilterMode{0}; // 0: All, 1: With Cover, 2: Missing Cover, 3: New on Console
+    std::vector<int> m_filteredMyGamesIndices;
+
+    std::string m_linkingTargetTitleId;
+    std::string m_linkingTargetGameName;
+
+    std::set<std::string> m_newlyDetectedTitleIds;
+    bool m_autoRotateCoversOnBoot{true};
 
     // Capacitive Touchscreen state
     bool m_touchDown{false};

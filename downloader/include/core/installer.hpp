@@ -72,7 +72,8 @@ public:
         const std::string& tempFilePath,
         const std::string& expectedSha256,
         uint64_t expectedSizeBytes,
-        bool createBackup = true
+        bool createBackup = true,
+        bool makeActive = true
     );
 
     // Restores an existing backup (.bak) to active cover (.mp4)

@@ -835,6 +835,7 @@ bool App::init() {
 #endif
 
     m_sysInfo = m_platform->getSystemInfo();
+    loadAppSettings();
     sanitizeThumbCache();
 
     renderBootSplash("Загрузка базы каталога видеофонов и иконок...", 50.0);
@@ -850,6 +851,8 @@ bool App::init() {
     renderBootSplash("Сканирование установленных игр Nintendo Switch...", 80.0);
 
     refreshInstalledGames();
+    detectNewInstalledGamesOnBoot();
+    runAutoCoverRotationOnBoot();
     rebuildCatalogFilter();
 
     m_videoIconsCatalog.clear();
@@ -910,6 +913,7 @@ bool App::init() {
 
 void App::shutdown() {
     saveFavorites();
+    saveAppSettings();
     m_cancelQueue.store(true);
     if (m_queueThread.joinable()) {
         m_queueThread.join();
@@ -1090,6 +1094,7 @@ void App::refreshInstalledGames() {
             }
         }
     }
+    rebuildMyGamesFilter();
 }
 
 void App::fetchRemoteCatalog() {
@@ -1380,13 +1385,13 @@ void App::update() {
     float targetIcoY = 136.0f + static_cast<float>(std::clamp(m_videoIconsSelectedIndex - m_videoIconsScrollOffset, 0, 4)) * 98.0f;
     m_smoothVideoIconsSelY += (targetIcoY - m_smoothVideoIconsSelY) * 0.30f;
 
-    float targetMyGamesY = 105.0f + static_cast<float>(std::clamp(m_myGamesSelectedIndex - m_myGamesScrollOffset, 0, 7)) * 66.0f;
+    float targetMyGamesY = 122.0f + static_cast<float>(std::clamp(m_myGamesSelectedIndex - m_myGamesScrollOffset, 0, 6)) * 66.0f;
     m_smoothMyGamesSelY += (targetMyGamesY - m_smoothMyGamesSelY) * 0.30f;
 
     float targetDlY = 160.0f + static_cast<float>(std::clamp(m_downloadsSelectedIndex - m_downloadsScrollOffset, 0, 4)) * 94.0f;
     m_smoothDownloadsSelY += (targetDlY - m_smoothDownloadsSelY) * 0.30f;
 
-    float targetSettingsY = 236.0f + static_cast<float>(std::clamp(m_settingsSelectedIndex, 0, 6)) * 54.0f;
+    float targetSettingsY = 232.0f + static_cast<float>(std::clamp(m_settingsSelectedIndex, 0, 7)) * 47.0f;
     m_smoothSettingsSelY += (targetSettingsY - m_smoothSettingsSelY) * 0.30f;
 
     // 9. Update non-blocking preview workers & 70x70 row mini-thumbnails prefetcher
@@ -1927,7 +1932,8 @@ void App::processSingleDownloadTask(int taskIdx) {
         currentTask.tempFilePath,
         currentTask.variant.sha256,
         currentTask.variant.sizeBytes,
-        true
+        true,
+        !currentTask.appendAsNewSlot
     );
 
     // If variant includes a 4IFIR video icon (and coverOnly is false), download and install it as well
@@ -1956,11 +1962,13 @@ void App::processSingleDownloadTask(int taskIdx) {
         std::lock_guard<std::mutex> lock(m_queueMutex);
         if (taskIdx >= 0 && taskIdx < static_cast<int>(m_downloadQueue.size())) {
             if (res.success) {
-                InstalledRegistry::instance().setVariantId(
-                    m_platform->getAppDirectory(),
-                    currentTask.titleId,
-                    currentTask.variant.id
-                );
+                if (!currentTask.appendAsNewSlot) {
+                    InstalledRegistry::instance().setVariantId(
+                        m_platform->getAppDirectory(),
+                        currentTask.titleId,
+                        currentTask.variant.id
+                    );
+                }
                 m_downloadQueue[taskIdx].state = TaskState::Completed;
                 m_downloadQueue[taskIdx].progressPercent = 100.0;
             } else {
@@ -2063,10 +2071,99 @@ void App::queueDownload(const InstalledTitle& title, const Variant& variant) {
         std::lock_guard<std::mutex> lock(m_queueMutex);
         m_downloadQueue.push_back(std::move(task));
     }
+    m_newlyDetectedTitleIds.erase(title.titleId);
     m_statusNotification = (m_language == Language::Russian)
         ? ("Добавлено в очередь: " + title.name + " (" + variant.name + ")")
         : ("Added to queue: " + title.name + " (" + variant.name + ")");
     m_notificationFramesRemaining = 180;
+}
+
+void App::queueDownloadAppendSlot(const InstalledTitle& title, const Variant& variant) {
+    int nextSlotIdx = 0;
+    std::string nextSlotPath = Installer::getNextAvailableCoverPath(m_platform->getCoversDirectory(), title.titleId, &nextSlotIdx);
+
+    DownloadTask task;
+    task.id = title.titleId + "_" + variant.id + "_slot" + std::to_string(nextSlotIdx);
+    task.titleId = title.titleId;
+    task.gameTitle = title.name;
+    task.variant = variant;
+    task.coverOnly = true;
+    task.appendAsNewSlot = (nextSlotIdx > 0);
+    task.tempFilePath = m_platform->getCoversDirectory() + "/" + Config::getTempCoverFileName(title.titleId);
+    task.targetFilePath = nextSlotPath;
+    task.backupFilePath = m_platform->getCoversDirectory() + "/" + Config::getBackupCoverFileName(title.titleId);
+    task.state = TaskState::Pending;
+    task.totalBytes = variant.sizeBytes;
+
+    {
+        std::lock_guard<std::mutex> lock(m_queueMutex);
+        m_downloadQueue.push_back(std::move(task));
+    }
+    m_newlyDetectedTitleIds.erase(title.titleId);
+    m_statusNotification = (m_language == Language::Russian)
+        ? ("В очередь (Слот #" + std::to_string(nextSlotIdx + 1) + "): " + title.name)
+        : ("Queued into Slot #" + std::to_string(nextSlotIdx + 1) + ": " + title.name);
+    m_notificationFramesRemaining = 180;
+}
+
+void App::queueComboPack(const InstalledTitle& targetGame, const GameCatalogEntry& sourceEntry, int preferredCoverIdx) {
+    auto covers = getCoverVariants(sourceEntry);
+    auto icons = getUniqueIconVariants(sourceEntry);
+
+    bool queuedCover = false;
+    bool queuedIcon = false;
+
+    if (!covers.empty()) {
+        int cIdx = std::clamp(preferredCoverIdx, 0, static_cast<int>(covers.size()) - 1);
+        Variant covVar = covers[cIdx];
+        if (!icons.empty() && covVar.iconUrl.empty()) {
+            covVar.hasIcon = true;
+            covVar.iconUrl = icons[0].iconUrl;
+            covVar.iconSizeBytes = icons[0].iconSizeBytes;
+        }
+        queueDownload(targetGame, covVar);
+        queuedCover = true;
+        queuedIcon = covVar.hasIcon && !covVar.iconUrl.empty();
+    }
+
+    if (!queuedIcon && !icons.empty()) {
+        queueDownloadIconOnly(targetGame, icons[0]);
+        queuedIcon = true;
+    }
+
+    m_newlyDetectedTitleIds.erase(targetGame.titleId);
+    if (queuedCover && queuedIcon) {
+        m_statusNotification = tr("КОМБО в очереди (Фон + HQ-иконка): ", "COMBO queued (Cover + HQ Icon): ") + targetGame.name;
+    } else if (queuedCover) {
+        m_statusNotification = tr("В очереди (Видеофон): ", "Queued (Video Cover): ") + targetGame.name;
+    } else if (queuedIcon) {
+        m_statusNotification = tr("В очереди (HQ-иконка): ", "Queued (HQ Icon): ") + targetGame.name;
+    }
+    m_notificationFramesRemaining = 180;
+}
+
+void App::executeActivateCoverSlot(const std::string& titleId, int slotIndex) {
+    if (slotIndex <= 0) return;
+    m_videoPlayer.close();
+    std::this_thread::sleep_for(std::chrono::milliseconds(20));
+    if (Installer::switchActiveCover(m_platform->getCoversDirectory(), titleId, slotIndex)) {
+        m_statusNotification = tr("Активирован слот видеофона #", "Activated cover slot #") + std::to_string(slotIndex + 1);
+        m_notificationFramesRemaining = 150;
+        for (auto& g : m_installedGames) {
+            if (g.titleId == titleId) {
+                g.installedCoverVariants = Installer::findInstalledCoverVariants(m_platform->getCoversDirectory(), titleId);
+                g.installedCoversCount = static_cast<int>(g.installedCoverVariants.size());
+                for (const auto& var : g.installedCoverVariants) {
+                    if (var.isActive) {
+                        g.installedCoverPath = var.filePath;
+                        g.installedCoverSizeBytes = var.sizeBytes;
+                        break;
+                    }
+                }
+                break;
+            }
+        }
+    }
 }
 
 void App::executeRestoreBackup(const std::string& titleId) {
@@ -2217,6 +2314,17 @@ void App::handleInput() {
                     onButtonPress(16 /* BUTTON_ZR */);
                     m_lastTriggerTime = now;
                 }
+            } else if (event.caxis.axis == SDL_CONTROLLER_AXIS_RIGHTY) {
+                uint32_t now = SDL_GetTicks();
+                if (now - m_lastRightStickTime > 170) {
+                    if (event.caxis.value > 18000) {
+                        onButtonPress(18 /* RSTICK_DOWN -> Alpha Jump +1 */);
+                        m_lastRightStickTime = now;
+                    } else if (event.caxis.value < -18000) {
+                        onButtonPress(17 /* RSTICK_UP -> Alpha Jump -1 */);
+                        m_lastRightStickTime = now;
+                    }
+                }
             }
         } else if (event.type == SDL_MOUSEWHEEL) {
             if (event.wheel.y > 0) {
@@ -2302,6 +2410,8 @@ void App::handleInput() {
                 case SDLK_EQUALS:
                 case SDLK_PLUS:
                 case SDLK_p:      onButtonPress(SDL_CONTROLLER_BUTTON_START); break; // Plus (Update NRO)
+                case SDLK_PAGEUP:   onButtonPress(17); break; // Alpha Jump Up
+                case SDLK_PAGEDOWN: onButtonPress(18); break; // Alpha Jump Down
                 default: break;
             }
         }
@@ -2518,6 +2628,33 @@ void App::onButtonPress(int button) {
         return;
     }
 
+    // Unified Glass Action Sheet [X] Modal Handler
+    if (m_isActionSheetOpen && m_activeDialog == DialogType::None) {
+        if (SDL_GetTicks() - m_actionSheetOpenedAt < 120) {
+            return;
+        }
+        if (button == 1 /* B */ || button == 2 /* X */) {
+            closeActionSheet();
+            return;
+        }
+        int itemCount = static_cast<int>(m_actionSheetItems.size());
+        if (itemCount > 0) {
+            if (button == 11 /* UP */) {
+                m_actionSheetSelectedIndex = (m_actionSheetSelectedIndex <= 0) ? (itemCount - 1) : (m_actionSheetSelectedIndex - 1);
+                return;
+            }
+            if (button == 12 /* DOWN */) {
+                m_actionSheetSelectedIndex = (m_actionSheetSelectedIndex + 1) % itemCount;
+                return;
+            }
+            if (button == 0 /* A - Execute Action */) {
+                executeActionSheetSelection();
+                return;
+            }
+        }
+        return;
+    }
+
     // Collection Browser Modal Handler (Browse variants by name with static + live mini-previews)
     if (m_isCollectionBrowserOpen && m_activeDialog == DialogType::None && !m_isFullscreenPreview && !m_isGamePickerOpen) {
         if (SDL_GetTicks() - m_collectionOpenedAt < 150) {
@@ -2622,6 +2759,10 @@ void App::onButtonPress(int button) {
                     queueDownloadIconOnly(targetGame, chosenVar);
                     m_statusNotification = tr("Иконка добавлена в загрузки: ", "Queued icon download: ") + m_collectionGameName;
                     m_notificationFramesRemaining = 120;
+                    if (!m_linkingTargetTitleId.empty()) {
+                        cancelForwarderLinkMode();
+                        closeCollectionBrowser();
+                    }
                     return;
                 }
                 bool isInstalled = false;
@@ -2649,6 +2790,10 @@ void App::onButtonPress(int button) {
                         : ("Game " + gName + " is not installed yet.\n\nPre-install video cover '" + chosenVar.name + "' to recordings/covers?");
                 }
                 m_dialogFocus = (m_collectionPreviewIconMode && chosenVar.hasIcon) ? 1 : 0;
+                if (!m_linkingTargetTitleId.empty()) {
+                    cancelForwarderLinkMode();
+                    closeCollectionBrowser();
+                }
             }
             return;
         }
@@ -2979,10 +3124,44 @@ void App::onButtonPress(int button) {
         return;
     }
 
-    // Standard Nintendo Switch [B] button
+    // =========================================================================
+    // ЖЕСТКОЕ ПРАВИЛО КНОПОК ВЕЗДЕ (v1.5.0 Global Unified Control Contract)
+    // =========================================================================
+    // 1. Правый стик Вверх/Вниз (17 / 18) -> Алфавитный турбо-прыжок A–Z
+    if (button == 17) {
+        jumpAlphabetical(-1);
+        return;
+    }
+    if (button == 18) {
+        jumpAlphabetical(1);
+        return;
+    }
+
+    // 2. [L] / [R] (9 / 10) -> ВСЕГДА глобальное переключение вкладок без исключений!
+    if (button == 9 /* LEFTSHOULDER (L) */) {
+        switchGlobalTab(-1);
+        return;
+    }
+    if (button == 10 /* RIGHTSHOULDER (R) */) {
+        switchGlobalTab(1);
+        return;
+    }
+
+    // 3. [+] PLUS (6) -> ВСЕГДА системная проверка и установка OTA-обновления NRO
+    if (button == 6 /* START (+) */) {
+        updateApplicationNro();
+        return;
+    }
+
+    // 4. [B] (1) -> Назад / Выход на Главную / Отмена привязки форвардера
     if (button == 1 /* B - Back */) {
         if (m_activeTab == Tab::MyGames && m_myGamesActivePane == MyGamesPane::VariantsList) {
             m_myGamesActivePane = MyGamesPane::GamesList;
+            return;
+        }
+        if (m_activeTab == Tab::Catalog && !m_linkingTargetTitleId.empty()) {
+            cancelForwarderLinkMode();
+            m_activeTab = Tab::MyGames;
             return;
         }
         if (m_activeTab != Tab::Home) {
@@ -2993,64 +3172,12 @@ void App::onButtonPress(int button) {
             m_activeTab = Tab::Home;
             return;
         }
+        m_running = false;
+        return;
     }
 
-    // Tab switching with Shoulder buttons (L/R) - Active in Home, MyGames, Downloads, Settings
-    if (m_activeTab != Tab::Catalog) {
-        if (button == 9 /* LEFTSHOULDER */) {
-            uint32_t now = SDL_GetTicks();
-            if (now - m_lastTabSwitchTime > 150) {
-                if (m_activeTab == Tab::Home) {
-                    m_homeFocusedTile = (m_homeFocusedTile == 0) ? 4 : m_homeFocusedTile - 1;
-                } else {
-                    if (m_activeTab == Tab::VideoIcons) {
-                        m_cancelCollectionThumb.store(true);
-                        m_videoPlayer.close();
-                    }
-                    int tabInt = static_cast<int>(m_activeTab);
-                    tabInt = (tabInt <= 1) ? 5 : tabInt - 1;
-                    m_activeTab = static_cast<Tab>(tabInt);
-                    if (m_activeTab == Tab::VideoIcons) {
-                        rebuildVideoIconsFilter();
-                        m_videoIconDockDirty = true;
-                        m_lastVideoIconMoveTime = SDL_GetTicks();
-                    }
-                }
-                m_lastTabSwitchTime = now;
-            }
-            return;
-        }
-        if (button == 10 /* RIGHTSHOULDER */) {
-            uint32_t now = SDL_GetTicks();
-            if (now - m_lastTabSwitchTime > 150) {
-                if (m_activeTab == Tab::Home) {
-                    m_homeFocusedTile = (m_homeFocusedTile == 4) ? 0 : m_homeFocusedTile + 1;
-                } else {
-                    if (m_activeTab == Tab::VideoIcons) {
-                        m_cancelCollectionThumb.store(true);
-                        m_videoPlayer.close();
-                    }
-                    int tabInt = static_cast<int>(m_activeTab);
-                    tabInt = (tabInt >= 5) ? 1 : tabInt + 1;
-                    m_activeTab = static_cast<Tab>(tabInt);
-                    if (m_activeTab == Tab::VideoIcons) {
-                        rebuildVideoIconsFilter();
-                        m_videoIconDockDirty = true;
-                        m_lastVideoIconMoveTime = SDL_GetTicks();
-                    }
-                }
-                m_lastTabSwitchTime = now;
-            }
-            return;
-        }
-    }
-
-    // View-specific input handling
+    // 5. Обработка вкладок по единому контракту (A = Основное, X = Шторка действий, Y = Поиск, - = Фильтр, ZL/ZR = ±8)
     if (m_activeTab == Tab::Home) {
-        if (button == 1 /* B - Exit to hbmenu */) {
-            m_running = false;
-            return;
-        }
         if (button == 13 /* DPAD_LEFT */) {
             m_homeFocusedTile = (m_homeFocusedTile == 0) ? 4 : m_homeFocusedTile - 1;
             return;
@@ -3073,6 +3200,7 @@ void App::onButtonPress(int button) {
                     break;
                 case 2:
                     m_activeTab = Tab::MyGames;
+                    rebuildMyGamesFilter();
                     break;
                 case 3:
                     m_activeTab = Tab::Downloads;
@@ -3083,20 +3211,25 @@ void App::onButtonPress(int button) {
             }
             return;
         }
-        if (button == 3 /* Y - Install all missing */) {
-            installAllMissing();
+        if (button == 3 /* Y - Всегда Поиск -> переход в Каталог и клавиатура */) {
+            m_activeTab = Tab::Catalog;
+            openCatalogKeyboard();
             return;
         }
-        if (button == 2 /* X - Refresh */) {
-            fetchRemoteCatalog();
+        if (button == 2 /* X - Единая шторка действий или Обновить базу */) {
+            if (!m_newlyDetectedTitleIds.empty() || getMissingCoversCount() > 0) {
+                openActionSheetForCurrentContext();
+            } else {
+                fetchRemoteCatalog();
+            }
             return;
         }
-        if (button == 4 /* MINUS (-) */) {
-            checkForUpdates(true);
-            return;
-        }
-        if (button == 6 /* START (+) - Integrity Check */) {
-            runIntegrityCheck();
+        if (button == 4 /* MINUS (-) - Установить все недостающие */) {
+            if (!m_newlyDetectedTitleIds.empty()) {
+                installAllNewlyDetectedGames();
+            } else {
+                installAllMissing();
+            }
             return;
         }
         return;
@@ -3113,11 +3246,6 @@ void App::onButtonPress(int button) {
             m_videoIconDockDirty = true;
             m_lastVideoIconMoveTime = SDL_GetTicks();
         };
-        if (button == 1 /* B - Back to Home */) {
-            m_videoPlayer.close();
-            m_activeTab = Tab::Home;
-            return;
-        }
         if (button == 11 /* DPAD_UP */) {
             if (m_videoIconsSelectedIndex > 0) {
                 m_videoIconsSelectedIndex--;
@@ -3162,16 +3290,16 @@ void App::onButtonPress(int button) {
             }
             return;
         }
-        if (button == 15 /* ZL - Page Up 5 */) {
-            m_videoIconsSelectedIndex = std::max(0, m_videoIconsSelectedIndex - 5);
-            m_videoIconsScrollOffset = std::max(0, m_videoIconsScrollOffset - 5);
+        if (button == 15 /* ZL - Page Up 8 */) {
+            m_videoIconsSelectedIndex = std::max(0, m_videoIconsSelectedIndex - 8);
+            m_videoIconsScrollOffset = std::max(0, m_videoIconsScrollOffset - 8);
             notifyVideoIconFocusChanged();
             return;
         }
-        if (button == 16 /* ZR - Page Down 5 */) {
+        if (button == 16 /* ZR - Page Down 8 */) {
             if (total > 0) {
-                m_videoIconsSelectedIndex = std::min(total - 1, m_videoIconsSelectedIndex + 5);
-                m_videoIconsScrollOffset = std::min(std::max(0, total - 5), m_videoIconsScrollOffset + 5);
+                m_videoIconsSelectedIndex = std::min(total - 1, m_videoIconsSelectedIndex + 8);
+                m_videoIconsScrollOffset = std::min(std::max(0, total - 5), m_videoIconsScrollOffset + 8);
                 notifyVideoIconFocusChanged();
             }
             return;
@@ -3196,79 +3324,66 @@ void App::onButtonPress(int button) {
             }
             return;
         }
-        if (button == 2 /* X - Fullscreen Switch Home Screen Preview */) {
-            if (m_videoIconsSelectedIndex >= 0 && m_videoIconsSelectedIndex < total) {
-                const auto& entry = m_filteredVideoIcons[m_videoIconsSelectedIndex];
-                int vIdx = getSelectedVideoIconVariantIndex(entry);
-                openFullscreenVideoIconPreview(entry, vIdx);
-            }
+        if (button == 2 /* X - Единая шторка действий [X] */) {
+            openActionSheetForCurrentContext();
             return;
         }
-        if (button == 3 /* Y - Search keyboard */) {
+        if (button == 3 /* Y - Всегда Поиск */) {
             openVideoIconsKeyboard();
             return;
         }
-        if (button == 4 /* MINUS (-) - Filter toggle */) {
+        if (button == 4 /* MINUS (-) - Всегда Фильтр */) {
             m_videoIconsFilterMode = (m_videoIconsFilterMode + 1) % 3;
             rebuildVideoIconsFilter();
             notifyVideoIconFocusChanged();
             return;
         }
-        if (button == 6 /* START (+) - Delete installed video icon */) {
-            if (m_videoIconsSelectedIndex >= 0 && m_videoIconsSelectedIndex < total) {
-                const auto& entry = m_filteredVideoIcons[m_videoIconsSelectedIndex];
-                if (isIconInstalled(entry.titleId)) {
-                    executeDeleteIcon(entry.titleId);
-                }
-            }
-            return;
-        }
         return;
     } else if (m_activeTab == Tab::MyGames) {
-        // Feature 3: [+] (START) or L3 (Left Stick click) opens 4IFIR SD Recordings browser immediately
-        if (button == 6 /* START (+) */ || button == 7 /* SDL_CONTROLLER_BUTTON_LEFTSTICK (L3) */) {
-            if (!m_installedGames.empty()) {
-                int idx = std::clamp(m_myGamesSelectedIndex, 0, static_cast<int>(m_installedGames.size()) - 1);
-                const auto& g = m_installedGames[idx];
-                openRecordingsBrowser(g.titleId, g.name);
-                return;
-            } else {
-                m_statusNotification = "Нет установленных игр для привязки";
-                m_notificationFramesRemaining = 120;
-                return;
-            }
+        if (m_filteredMyGamesIndices.empty() && m_myGamesFilterMode == 0 && m_myGamesSearchQuery.empty()) {
+            rebuildMyGamesFilter();
         }
-        // [-] (MINUS) restores .bak backup if available for selected game
+        int filteredCount = static_cast<int>(m_filteredMyGamesIndices.size());
+
+        // [Y] - Всегда Поиск (экранная клавиатура по Моим играм)
+        if (button == 3 /* Y */) {
+            openMyGamesKeyboard();
+            return;
+        }
+
+        // [-] (MINUS) - Всегда переключение чип-фильтра (Все / С фоном / Без фона / Новинки ★)
         if (button == 4 /* MINUS (-) */) {
-            if (!m_installedGames.empty()) {
-                int idx = std::clamp(m_myGamesSelectedIndex, 0, static_cast<int>(m_installedGames.size()) - 1);
-                const auto& g = m_installedGames[idx];
-                if (g.installedCoversCount > 1) {
-                    executeCycleNextCover(g.titleId);
-                    return;
-                } else if (g.hasBackup) {
-                    m_pendingActionTitleId = g.titleId;
-                    m_activeDialog = DialogType::ConfirmRestore;
-                    m_dialogOpenedAt = SDL_GetTicks();
-                    m_dialogTitle = "Восстановление резервной копии (.bak)";
-                    m_dialogMessage = "Восстановить предыдущий видеофон из резервной копии для игры " + g.name + "?";
-                    m_dialogFocus = 0;
-                    return;
-                }
+            m_myGamesFilterMode = (m_myGamesFilterMode + 1) % 4;
+            if (m_myGamesFilterMode == 3 && m_newlyDetectedTitleIds.empty()) {
+                m_myGamesFilterMode = 0;
             }
+            rebuildMyGamesFilter();
+            const char* fNamesRu[4] = {"Все игры", "С видеофоном", "Без видеофона", "Новинки на консоли ★"};
+            const char* fNamesEn[4] = {"All Games", "With Cover", "Missing Cover", "New on Console ★"};
+            m_statusNotification = std::string(tr("Фильтр игр: ", "Games Filter: ")) +
+                (m_language == Language::English ? fNamesEn[m_myGamesFilterMode] : fNamesRu[m_myGamesFilterMode]);
+            m_notificationFramesRemaining = 90;
+            return;
+        }
+
+        // [X] - Всегда единая шторка контекстных действий!
+        if (button == 2 /* X */) {
+            openActionSheetForCurrentContext();
+            return;
+        }
+
+        // [L3] - Быстрый доступ к записям 4IFIR на SD
+        if (button == 7 /* L3 */ && filteredCount > 0) {
+            int realIdx = m_filteredMyGamesIndices[std::clamp(m_myGamesSelectedIndex, 0, filteredCount - 1)];
+            const auto& g = m_installedGames[realIdx];
+            openRecordingsBrowser(g.titleId, g.name);
             return;
         }
 
         if (m_myGamesActivePane == MyGamesPane::GamesList) {
-            // LEFT COLUMN: Games List navigation
-            if (button == 1 /* B - Back to Home */) {
-                m_activeTab = Tab::Home;
-                return;
-            }
-            if (button == 8 /* R3 - Toggle Batch Selection */) {
-                if (m_myGamesSelectedIndex >= 0 && m_myGamesSelectedIndex < static_cast<int>(m_installedGames.size())) {
-                    toggleBatchSelection(m_installedGames[m_myGamesSelectedIndex].titleId);
-                }
+            if (button == 8 /* R3 - Toggle Batch Selection */ && filteredCount > 0) {
+                int realIdx = m_filteredMyGamesIndices[std::clamp(m_myGamesSelectedIndex, 0, filteredCount - 1)];
+                toggleBatchSelection(m_installedGames[realIdx].titleId);
                 return;
             }
             if (button == 11 /* DPAD_UP */) {
@@ -3278,217 +3393,121 @@ void App::onButtonPress(int button) {
                     m_variantScrollOffset = 0;
                 }
             } else if (button == 12 /* DPAD_DOWN */) {
-                if (m_myGamesSelectedIndex + 1 < static_cast<int>(m_installedGames.size())) {
+                if (m_myGamesSelectedIndex + 1 < filteredCount) {
                     m_myGamesSelectedIndex++;
                     m_selectedVariantIndex = 0;
                     m_variantScrollOffset = 0;
                 }
-            } else if (button == 15 /* ZL - Fast Page Up 10 */) {
-                m_myGamesSelectedIndex = std::max(0, m_myGamesSelectedIndex - 10);
+            } else if (button == 15 /* ZL - Page Up 8 */) {
+                m_myGamesSelectedIndex = std::max(0, m_myGamesSelectedIndex - 8);
                 m_selectedVariantIndex = 0;
                 m_variantScrollOffset = 0;
                 return;
-            } else if (button == 16 /* ZR - Fast Page Down 10 */) {
-                if (!m_installedGames.empty()) {
-                    m_myGamesSelectedIndex = std::min(static_cast<int>(m_installedGames.size()) - 1, m_myGamesSelectedIndex + 10);
+            } else if (button == 16 /* ZR - Page Down 8 */) {
+                if (filteredCount > 0) {
+                    m_myGamesSelectedIndex = std::min(filteredCount - 1, m_myGamesSelectedIndex + 8);
                     m_selectedVariantIndex = 0;
                     m_variantScrollOffset = 0;
                 }
                 return;
-            } else if (button == 14 /* DPAD_RIGHT */ || button == 0 /* A */) {
-                // Move focus to right variants column or open collection browser
-                if (m_myGamesSelectedIndex >= 0 && m_myGamesSelectedIndex < static_cast<int>(m_installedGames.size())) {
-                    const auto& g = m_installedGames[m_myGamesSelectedIndex];
-                    if (g.titleId == "0000000000000000" || g.catalogEntry.variants.size() > 8) {
-                        openCollectionBrowser(g.catalogEntry);
-                    } else if (g.hasCatalogMatch && !g.catalogEntry.variants.empty()) {
-                        m_myGamesActivePane = MyGamesPane::VariantsList;
-                        m_selectedVariantIndex = 0;
-                    } else {
-                        m_statusNotification = (m_language == Language::Russian)
-                            ? "Для этой игры пока нет видеофонов в каталоге"
-                            : "No video themes available for this game yet";
-                        m_notificationFramesRemaining = 120;
-                    }
-                }
-            } else if (button == 2 /* X - Fullscreen Preview or Open Catalog */) {
-                if (m_myGamesSelectedIndex >= 0 && m_myGamesSelectedIndex < static_cast<int>(m_installedGames.size())) {
-                    const auto& g = m_installedGames[m_myGamesSelectedIndex];
-                    if (g.hasCatalogMatch && !g.catalogEntry.variants.empty()) {
-                        openFullscreenPreviewForGame(g, m_selectedVariantIndex);
-                    } else {
-                        m_activeTab = Tab::Catalog;
-                    }
-                }
-            } else if (button == 3 /* Y - Delete Cover/Icon or Install Missing */) {
-                if (m_myGamesSelectedIndex >= 0 && m_myGamesSelectedIndex < static_cast<int>(m_installedGames.size())) {
-                    const auto& g = m_installedGames[m_myGamesSelectedIndex];
-                    if (g.hasInstalledCover || g.hasInstalledIcon) {
-                        m_pendingActionTitleId = g.titleId;
-                        m_activeDialog = DialogType::ConfirmDelete;
-                        m_dialogOpenedAt = SDL_GetTicks();
-                        if (g.hasInstalledCover && g.hasInstalledIcon) {
-                            m_dialogTitle = "Удаление фона и видеоиконки";
-                            m_dialogMessage = "Выберите, что удалить для игры " + g.name + ":\n[A] Фон + Иконка   |   [X] Только иконку   |   [Y] Только фон";
-                        } else if (g.hasInstalledCover) {
-                            m_dialogTitle = "Удаление активного фона";
-                            m_dialogMessage = "Удалить установленный видеофон для игры " + g.name + "?\n\n(Фон будет удалён с консоли, а варианты в каталоге останутся доступны для повторной установки в любой момент)";
-                        } else {
-                            m_dialogTitle = "Удаление видеоиконки";
-                            m_dialogMessage = "Удалить установленную видеоиконку 4IFIR (256x256) для игры " + g.name + "?";
-                        }
-                        m_dialogFocus = 0;
-                    } else {
-                        installAllMissing();
-                    }
+            } else if ((button == 14 /* DPAD_RIGHT */ || button == 0 /* A */) && filteredCount > 0) {
+                int realIdx = m_filteredMyGamesIndices[std::clamp(m_myGamesSelectedIndex, 0, filteredCount - 1)];
+                const auto& g = m_installedGames[realIdx];
+                if (g.titleId == "0000000000000000" || g.catalogEntry.variants.size() > 8) {
+                    openCollectionBrowser(g.catalogEntry);
+                } else if (g.hasCatalogMatch && !g.catalogEntry.variants.empty()) {
+                    m_myGamesActivePane = MyGamesPane::VariantsList;
+                    m_selectedVariantIndex = 0;
+                } else if (button == 0) {
+                    // Идея 2: Обратная привязка кастомного форвардера/репака через умный поиск в Каталоге
+                    startForwarderLinkSearch(g);
                 }
             }
-        } else if (m_myGamesActivePane == MyGamesPane::VariantsList) {
-            // RIGHT COLUMN: Variants navigation
-            if (m_myGamesSelectedIndex >= 0 && m_myGamesSelectedIndex < static_cast<int>(m_installedGames.size())) {
-                const auto& g = m_installedGames[m_myGamesSelectedIndex];
-                int vCount = static_cast<int>(g.catalogEntry.variants.size());
-                if (button == 11 /* DPAD_UP */) {
-                    if (m_selectedVariantIndex > 0) {
-                        m_selectedVariantIndex--;
-                        if (m_selectedVariantIndex < m_variantScrollOffset) {
-                            m_variantScrollOffset = m_selectedVariantIndex;
-                        }
+        } else if (m_myGamesActivePane == MyGamesPane::VariantsList && filteredCount > 0) {
+            int realIdx = m_filteredMyGamesIndices[std::clamp(m_myGamesSelectedIndex, 0, filteredCount - 1)];
+            const auto& g = m_installedGames[realIdx];
+            int vCount = static_cast<int>(g.catalogEntry.variants.size());
+            if (button == 11 /* DPAD_UP */) {
+                if (m_selectedVariantIndex > 0) {
+                    m_selectedVariantIndex--;
+                    if (m_selectedVariantIndex < m_variantScrollOffset) {
+                        m_variantScrollOffset = m_selectedVariantIndex;
                     }
-                } else if (button == 12 /* DPAD_DOWN */) {
-                    if (m_selectedVariantIndex + 1 < vCount) {
-                        m_selectedVariantIndex++;
-                        if (m_selectedVariantIndex >= m_variantScrollOffset + 4) {
-                            m_variantScrollOffset = m_selectedVariantIndex - 4 + 1;
-                        }
+                }
+            } else if (button == 12 /* DPAD_DOWN */) {
+                if (m_selectedVariantIndex + 1 < vCount) {
+                    m_selectedVariantIndex++;
+                    if (m_selectedVariantIndex >= m_variantScrollOffset + 4) {
+                        m_variantScrollOffset = m_selectedVariantIndex - 4 + 1;
                     }
-                } else if (button == 13 /* DPAD_LEFT */ || button == 1 /* B */) {
-                    // Return focus back to left games column
-                    m_myGamesActivePane = MyGamesPane::GamesList;
-                } else if (button == 0 /* A - Install Variant */) {
-                    const auto& selV = g.catalogEntry.variants[m_selectedVariantIndex];
-                    bool isPureIcon = (selV.id.rfind("icon-", 0) == 0) || (selV.width == 256 && selV.height == 256);
-                    if (isPureIcon) {
-                        queueDownloadIconOnly(g, selV);
-                        m_statusNotification = tr("Видеоиконка добавлена в загрузки: ", "Queued icon download: ") + g.name;
-                        m_notificationFramesRemaining = 120;
-                    } else {
-                        m_pendingActionTitleId = g.titleId;
-                        m_pendingActionVariant = selV;
-                        m_activeDialog = DialogType::ConfirmInstall;
-                        m_dialogOpenedAt = SDL_GetTicks();
-                        m_dialogTitle = getStrings(m_language).confirmInstallTitle;
-                        m_dialogMessage = (m_language == Language::Russian)
-                            ? ("Установить вариант '" + m_pendingActionVariant.name + "' (" + styleToString(m_pendingActionVariant.style) + ") для " + g.name + "?")
-                            : ("Install variant '" + m_pendingActionVariant.name + "' (" + styleToString(m_pendingActionVariant.style) + ") for " + g.name + "?");
-                        m_dialogFocus = 0;
+                }
+            } else if (button == 15 /* ZL */) {
+                m_selectedVariantIndex = std::max(0, m_selectedVariantIndex - 4);
+                m_variantScrollOffset = std::min(m_variantScrollOffset, m_selectedVariantIndex);
+            } else if (button == 16 /* ZR */) {
+                if (vCount > 0) {
+                    m_selectedVariantIndex = std::min(vCount - 1, m_selectedVariantIndex + 4);
+                    if (m_selectedVariantIndex >= m_variantScrollOffset + 4) {
+                        m_variantScrollOffset = m_selectedVariantIndex - 3;
                     }
-                } else if (button == 2 /* X - Fullscreen Preview */) {
-                    const auto& selV = g.catalogEntry.variants[m_selectedVariantIndex];
-                    bool isPureIcon = (selV.id.rfind("icon-", 0) == 0) || (selV.width == 256 && selV.height == 256);
-                    if (isPureIcon) {
-                        auto uIcons = getUniqueIconVariants(g.catalogEntry);
-                        int icoIdx = 0;
-                        std::string wantUrl = !selV.iconUrl.empty() ? selV.iconUrl : selV.url;
-                        for (size_t k = 0; k < uIcons.size(); ++k) {
-                            if (uIcons[k].iconUrl == wantUrl || uIcons[k].id == selV.id) {
-                                icoIdx = static_cast<int>(k);
-                                break;
-                            }
-                        }
-                        openFullscreenVideoIconPreview(g.catalogEntry, icoIdx);
-                    } else {
-                        openFullscreenPreviewForGame(g, m_selectedVariantIndex);
-                    }
-                } else if (button == 3 /* Y - Delete */) {
-                    if (g.hasInstalledCover || g.hasInstalledIcon) {
-                        m_pendingActionTitleId = g.titleId;
-                        m_activeDialog = DialogType::ConfirmDelete;
-                        m_dialogOpenedAt = SDL_GetTicks();
-                        if (g.hasInstalledCover && g.hasInstalledIcon) {
-                            m_dialogTitle = "Удаление фона и видеоиконки";
-                            m_dialogMessage = "Выберите, что удалить для игры " + g.name + ":\n[A] Фон + Иконка   |   [X] Только иконку   |   [Y] Только фон";
-                        } else if (g.hasInstalledCover) {
-                            m_dialogTitle = "Удаление активного фона";
-                            m_dialogMessage = "Удалить установленный видеофон для игры " + g.name + "?\n\n(Фон будет удалён с консоли, а варианты в каталоге останутся доступны для повторной установки в любой момент)";
-                        } else {
-                            m_dialogTitle = "Удаление видеоиконки";
-                            m_dialogMessage = "Удалить установленную видеоиконку 4IFIR (256x256) для игры " + g.name + "?";
-                        }
-                        m_dialogFocus = 0;
-                    }
+                }
+            } else if (button == 13 /* DPAD_LEFT */) {
+                m_myGamesActivePane = MyGamesPane::GamesList;
+            } else if (button == 0 /* A - Install Variant */ && vCount > 0) {
+                const auto& selV = g.catalogEntry.variants[std::clamp(m_selectedVariantIndex, 0, vCount - 1)];
+                bool isPureIcon = (selV.id.rfind("icon-", 0) == 0) || (selV.width == 256 && selV.height == 256);
+                if (isPureIcon) {
+                    queueDownloadIconOnly(g, selV);
+                    m_statusNotification = tr("Видеоиконка добавлена в загрузки: ", "Queued icon download: ") + g.name;
+                    m_notificationFramesRemaining = 120;
+                } else {
+                    m_pendingActionTitleId = g.titleId;
+                    m_pendingActionVariant = selV;
+                    m_activeDialog = DialogType::ConfirmInstall;
+                    m_dialogOpenedAt = SDL_GetTicks();
+                    m_dialogTitle = getStrings(m_language).confirmInstallTitle;
+                    m_dialogMessage = (m_language == Language::Russian)
+                        ? ("Установить вариант '" + m_pendingActionVariant.name + "' (" + styleToString(m_pendingActionVariant.style) + ") для " + g.name + "?")
+                        : ("Install variant '" + m_pendingActionVariant.name + "' (" + styleToString(m_pendingActionVariant.style) + ") for " + g.name + "?");
+                    m_dialogFocus = 0;
                 }
             }
         }
     } else if (m_activeTab == Tab::Catalog) {
         int totalGames = static_cast<int>(m_filteredCatalogGames.size());
 
-        // [B] - Back to Home dashboard
-        if (button == 1 /* B */) {
-            m_activeTab = Tab::Home;
-            return;
-        }
-
-        // [L] - Switch to "Весь каталог" tab
-        if (button == 9 /* L / LEFTSHOULDER */ || button == 7 /* L3 */) {
-            if (m_catalogSortMode == CatalogSortMode::FavoritesOnly) {
-                m_catalogSortMode = CatalogSortMode::Default;
-                m_activeCategoryName = "Весь каталог";
-                m_catalogSelectedIndex = 0;
-                m_catalogScrollOffset = 0;
-                rebuildCatalogFilter();
-                m_statusNotification = "Каталог: Весь каталог";
-                m_notificationFramesRemaining = 90;
-            }
-            return;
-        }
-
-        // [R] - Switch to "Избранное" tab
-        if (button == 10 /* R / RIGHTSHOULDER */ || button == 8 /* R3 */) {
-            if (m_catalogSortMode != CatalogSortMode::FavoritesOnly) {
-                m_catalogSortMode = CatalogSortMode::FavoritesOnly;
-                m_activeCategoryName = "Избранное";
-                m_catalogSelectedIndex = 0;
-                m_catalogScrollOffset = 0;
-                rebuildCatalogFilter();
-                m_statusNotification = "Каталог: Избранное";
-                m_notificationFramesRemaining = 90;
-            }
-            return;
-        }
-
-        // [X] - Cycle Sort Mode
+        // [X] - Всегда единая шторка контекстных действий!
         if (button == 2 /* X */) {
-            cycleCatalogSortMode();
+            openActionSheetForCurrentContext();
             return;
         }
 
-        // [Y] - Open Horizon Software Keyboard for Search
+        // [Y] - Всегда Поиск (экранная клавиатура)
         if (button == 3 /* Y */) {
             openCatalogKeyboard();
             return;
         }
 
-        // [-] (Minus) - Toggle Favorite for selected game
+        // [-] (Minus) - Всегда переключение чип-фильтров (Идея 6)
         if (button == 4 /* MINUS */) {
-            if (totalGames > 0 && m_catalogSelectedIndex >= 0 && m_catalogSelectedIndex < totalGames) {
-                const auto& curGame = m_filteredCatalogGames[m_catalogSelectedIndex];
-                if (!curGame.variants.empty()) {
-                    bool wasFav = hasGameFavorites(curGame.titleId);
-                    if (wasFav) {
-                        for (const auto& v : curGame.variants) {
-                            m_favoriteKeys.erase(curGame.titleId + ":" + v.id);
-                            m_favoriteKeys.erase(v.id);
-                        }
-                        m_statusNotification = "Удалено из избранного: " + curGame.title;
-                    } else {
-                        m_favoriteKeys.insert(curGame.titleId + ":" + curGame.variants[0].id);
-                        m_statusNotification = "Добавлено в избранное ★: " + curGame.title;
-                    }
-                    m_notificationFramesRemaining = 90;
-                    saveFavorites();
-                    rebuildCatalogFilter();
-                }
+            cycleCatalogSortMode();
+            return;
+        }
+
+        // [R3] - Быстрый хоткей Избранного
+        if (button == 8 /* R3 */ && totalGames > 0 && m_catalogSelectedIndex >= 0 && m_catalogSelectedIndex < totalGames) {
+            const auto& curGame = m_filteredCatalogGames[m_catalogSelectedIndex];
+            if (!curGame.variants.empty()) {
+                toggleFavoriteVariant(curGame.titleId, curGame.variants[0]);
+            }
+            return;
+        }
+
+        // [L3] - Быстрый полноэкранный просмотр
+        if (button == 7 /* L3 */ && totalGames > 0 && m_catalogSelectedIndex >= 0 && m_catalogSelectedIndex < totalGames) {
+            const auto& curGame = m_filteredCatalogGames[m_catalogSelectedIndex];
+            if (!curGame.variants.empty()) {
+                openFullscreenPreviewForCatalogGame(curGame, 0);
             }
             return;
         }
@@ -3511,30 +3530,16 @@ void App::onButtonPress(int button) {
             return;
         }
 
-        // [ZL] - Quick Fullscreen Preview (opens Icon preview if IconsOnly filter is active, else Cover preview)
+        // [ZL] / [ZR] - Быстрый постраничный скролл ±8 по Жесткому правилу
         if (button == 15 /* ZL */) {
-            if (totalGames > 0 && m_catalogSelectedIndex >= 0 && m_catalogSelectedIndex < totalGames) {
-                const auto& curGame = m_filteredCatalogGames[m_catalogSelectedIndex];
-                if (!curGame.variants.empty()) {
-                    if (m_catalogSortMode == CatalogSortMode::IconsOnly && !getUniqueIconVariants(curGame).empty()) {
-                        openFullscreenVideoIconPreview(curGame, 0);
-                    } else {
-                        openFullscreenPreviewForCatalogGame(curGame, 0);
-                    }
-                }
-            }
+            m_catalogSelectedIndex = std::max(0, m_catalogSelectedIndex - 8);
+            m_catalogScrollOffset = std::max(0, m_catalogScrollOffset - 8);
             return;
         }
-
-        // [ZR] - Direct Video Icon 256x256 Preview for the selected Catalog game (if it has an icon)
         if (button == 16 /* ZR */) {
-            if (totalGames > 0 && m_catalogSelectedIndex >= 0 && m_catalogSelectedIndex < totalGames) {
-                const auto& curGame = m_filteredCatalogGames[m_catalogSelectedIndex];
-                if (!getUniqueIconVariants(curGame).empty()) {
-                    openFullscreenVideoIconPreview(curGame, 0);
-                } else if (!curGame.variants.empty()) {
-                    openFullscreenPreviewForCatalogGame(curGame, 0);
-                }
+            if (totalGames > 0) {
+                m_catalogSelectedIndex = std::min(totalGames - 1, m_catalogSelectedIndex + 8);
+                m_catalogScrollOffset = std::min(std::max(0, totalGames - 5), m_catalogScrollOffset + 8);
             }
             return;
         }
@@ -3548,10 +3553,7 @@ void App::onButtonPress(int button) {
         }
         return;
     } else if (m_activeTab == Tab::Downloads) {
-        if (button == 1 /* B - Back to Home */) {
-            m_activeTab = Tab::Home;
-            return;
-        } else if (button == 0 /* A - Retry selected failed task or all failed tasks */) {
+        if (button == 0 /* A - Retry selected failed task or all failed tasks */) {
             std::lock_guard<std::mutex> lock(m_queueMutex);
             int qSize = static_cast<int>(m_downloadQueue.size());
             int retried = 0;
@@ -3624,69 +3626,72 @@ void App::onButtonPress(int button) {
                     m_downloadsScrollOffset = m_downloadsSelectedIndex - 4;
                 }
             }
-        } else if (button == 15 /* ZL - Fast Page Up 5 */) {
-            m_downloadsSelectedIndex = std::max(0, m_downloadsSelectedIndex - 5);
-            m_downloadsScrollOffset = std::max(0, m_downloadsScrollOffset - 5);
-        } else if (button == 16 /* ZR - Fast Page Down 5 */) {
+        } else if (button == 15 /* ZL - Page Up 8 */) {
+            m_downloadsSelectedIndex = std::max(0, m_downloadsSelectedIndex - 8);
+            m_downloadsScrollOffset = std::max(0, m_downloadsScrollOffset - 8);
+        } else if (button == 16 /* ZR - Page Down 8 */) {
             int qSize = 0;
             {
                 std::lock_guard<std::mutex> lock(m_queueMutex);
                 qSize = static_cast<int>(m_downloadQueue.size());
             }
             if (qSize > 0) {
-                m_downloadsSelectedIndex = std::min(qSize - 1, m_downloadsSelectedIndex + 5);
+                m_downloadsSelectedIndex = std::min(qSize - 1, m_downloadsSelectedIndex + 8);
                 int maxOff = std::max(0, qSize - 5);
-                m_downloadsScrollOffset = std::min(maxOff, m_downloadsScrollOffset + 5);
+                m_downloadsScrollOffset = std::min(maxOff, m_downloadsScrollOffset + 8);
             }
-        } else if (button == 3 /* Y - Install all missing */) {
-            installAllMissing();
+        } else if (button == 3 /* Y - Search in Catalog */) {
+            m_activeTab = Tab::Catalog;
+            openCatalogKeyboard();
         }
     } else if (m_activeTab == Tab::Settings) {
-        if (button == 1 /* B - Back to Home */) {
-            m_activeTab = Tab::Home;
-            return;
-        } else if (button == 11 /* DPAD_UP */) {
+        if (button == 11 /* DPAD_UP */) {
             if (m_settingsSelectedIndex > 0) m_settingsSelectedIndex--;
         } else if (button == 12 /* DPAD_DOWN */) {
-            if (m_settingsSelectedIndex < 6) m_settingsSelectedIndex++;
+            if (m_settingsSelectedIndex < 7) m_settingsSelectedIndex++;
         } else if (button == 0 /* A - Activate Selected Setting */) {
             switch (m_settingsSelectedIndex) {
                 case 0: // Check & Update NRO
                     updateApplicationNro();
                     break;
-                case 1: // Refresh Catalog
+                case 1: // Refresh Catalog (Turbo .gz)
                     fetchRemoteCatalog();
                     break;
-                case 2: // Clear thumbnail previews cache
+                case 2: // Идея 4: Toggle Auto-Rotation of Multi-Cover Slots on Boot
+                    m_autoRotateCoversOnBoot = !m_autoRotateCoversOnBoot;
+                    saveAppSettings();
+                    m_statusNotification = m_autoRotateCoversOnBoot
+                        ? tr("Авто-ротация слотов при входе: ВКЛ", "Auto-rotate cover slots on boot: ON")
+                        : tr("Авто-ротация слотов при входе: ВЫКЛ", "Auto-rotate cover slots on boot: OFF");
+                    m_notificationFramesRemaining = 120;
+                    break;
+                case 3: // Clear thumbnail previews cache
                     clearThumbnailCache();
                     break;
-                case 3: // Clear video player cache
+                case 4: // Clear video player cache
                     clearVideoPreviewCache();
                     break;
-                case 4: // Clear Local Catalog Cache (cache.json)
+                case 5: // Clear Local Catalog Cache (cache.json)
                     m_catalogManager.loadFromJsonString("{\"schemaVersion\":1,\"updatedAt\":\"\",\"games\":[]}", m_statusNotification);
                     refreshInstalledGames();
                     m_statusNotification = getStrings(m_language).cacheClearedMsg;
                     m_notificationFramesRemaining = 120;
                     break;
-                case 5: // Integrity check
+                case 6: // Integrity check
                     runIntegrityCheck();
                     break;
-                case 6: // Toggle Language
+                case 7: // Toggle Language
                     m_language = (m_language == Language::Russian) ? Language::English : Language::Russian;
+                    saveAppSettings();
                     m_statusNotification = (m_language == Language::Russian) ? "Язык интерфейса: Русский" : "Interface language: English";
                     m_notificationFramesRemaining = 120;
                     break;
             }
-        } else if (button == 2 /* X - Clear Cache */) {
-            m_catalogManager.loadFromJsonString("{\"schemaVersion\":1,\"updatedAt\":\"\",\"games\":[]}", m_statusNotification);
-            refreshInstalledGames();
-            m_statusNotification = getStrings(m_language).cacheClearedMsg;
-            m_notificationFramesRemaining = 120;
-        } else if (button == 3 /* Y - Refresh Catalog */) {
+        } else if (button == 2 /* X - Refresh Catalog */) {
             fetchRemoteCatalog();
-        } else if (button == 6 /* START / Plus - Update App NRO */) {
-            updateApplicationNro();
+        } else if (button == 3 /* Y - Search Catalog */) {
+            m_activeTab = Tab::Catalog;
+            openCatalogKeyboard();
         }
     }
 }
@@ -3728,9 +3733,24 @@ void App::render() {
     if (m_isGamePickerOpen) {
         renderGamePicker();
     }
+    if (m_isActionSheetOpen) {
+        renderActionSheet();
+    }
 
     if (m_activeDialog != DialogType::None) {
         renderDialog();
+    }
+
+    // Alpha-Jump (Right Stick A–Z) Glass HUD Overlay
+    if (m_alphaJumpFrames > 0) {
+        int aw = 148, ah = 148;
+        int ax = (Theme::SCREEN_WIDTH - aw) / 2;
+        int ay = (Theme::SCREEN_HEIGHT - ah) / 2 - 20;
+        drawRoundedRect(ax, ay, aw, ah, 28, {0x09, 0x11, 0x1E, 0xEE});
+        drawNeonRoundedOutline(ax, ay, aw, ah, 28, 3);
+        drawTextCentered(m_alphaJumpText, Theme::SCREEN_WIDTH / 2, ay + 34, Theme::COLOR_FOCUS_CYAN, 48);
+        drawTextCentered(tr("АЛФАВИТ R↕", "A–Z JUMP R↕"), Theme::SCREEN_WIDTH / 2, ay + 112, Theme::COLOR_TEXT_MUTED, 11);
+        m_alphaJumpFrames--;
     }
 
     // Status notification overlay
@@ -3780,9 +3800,40 @@ void App::renderHeader() {
     drawTextCentered(tagText, nxX + nxW / 2, 24, Theme::COLOR_BG_BASE, 12);
 
     std::string verText = "v" + std::string(Config::APP_VERSION);
-    drawText(verText, nxX + nxW + 10, 24, Theme::COLOR_TEXT_MUTED, 13);
+    drawText(verText, nxX + nxW + 8, 24, Theme::COLOR_TEXT_MUTED, 12);
 
-    // Variant D: Live Active Download Pill in Header (visible from any tab when downloading)
+    // Global Unified Top Tab Strip: [L] Главная | Каталог | Иконки | Мои игры | Загрузки | Настройки [R]
+    const char* tabLabelsRu[6] = {"Главная", "Каталог", "Иконки", "Мои игры", "Загрузки", "Настройки"};
+    const char* tabLabelsEn[6] = {"Home", "Catalog", "Icons", "My Games", "Queue", "Settings"};
+    int stripStartX = 310;
+    int stripY = 16;
+    drawRoundedRect(stripStartX, stripY + 4, 24, 24, 5, {0x16, 0x20, 0x32, 0xEE});
+    drawRoundedOutline(stripStartX, stripY + 4, 24, 24, 5, Theme::COLOR_FOCUS_CYAN, Theme::COLOR_FOCUS_CYAN, 1);
+    drawTextCentered("L", stripStartX + 12, stripY + 9, Theme::COLOR_FOCUS_CYAN, 11);
+
+    int tCurX = stripStartX + 28;
+    int tItemW = 82;
+    int tGap = 4;
+    for (int ti = 0; ti < 6; ++ti) {
+        bool isCur = (static_cast<int>(m_activeTab) == ti);
+        drawRoundedRect(tCurX, stripY, tItemW, 32, 8, isCur ? Theme::COLOR_FOCUS_FILL : Color{0x10, 0x17, 0x26, 0xCC});
+        if (isCur) {
+            drawNeonRoundedOutline(tCurX, stripY, tItemW, 32, 8, 2);
+        } else {
+            drawRoundedOutline(tCurX, stripY, tItemW, 32, 8, Theme::COLOR_BORDER, Theme::COLOR_BORDER, 1);
+        }
+        const char* lbl = (m_language == Language::English) ? tabLabelsEn[ti] : tabLabelsRu[ti];
+        drawTextCentered(lbl, tCurX + tItemW / 2, stripY + 9, isCur ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_MUTED, 11, tItemW - 6);
+        if (ti == 3 && !m_newlyDetectedTitleIds.empty()) {
+            drawCircle(tCurX + tItemW - 7, stripY + 7, 4, Theme::COLOR_WARNING, true);
+        }
+        tCurX += tItemW + tGap;
+    }
+    drawRoundedRect(tCurX, stripY + 4, 24, 24, 5, {0x16, 0x20, 0x32, 0xEE});
+    drawRoundedOutline(tCurX, stripY + 4, 24, 24, 5, Theme::COLOR_FOCUS_CYAN, Theme::COLOR_FOCUS_CYAN, 1);
+    drawTextCentered("R", tCurX + 12, stripY + 9, Theme::COLOR_FOCUS_CYAN, 11);
+
+    // Live Active Download status or Catalog + New Games indicator on the right (x = 890..1244)
     bool hasActiveDownload = false;
     double activePct = 0.0;
     double activeSpeedKb = 0.0;
@@ -3800,14 +3851,15 @@ void App::renderHeader() {
             }
         }
     }
+
     if (hasActiveDownload) {
-        int pillX = 485;
-        int pillY = 16;
-        int pillW = 280;
-        int pillH = 32;
-        drawRoundedRect(pillX, pillY, pillW, pillH, 8, {0x0E, 0x17, 0x26, 0xF2});
-        drawNeonRoundedOutline(pillX, pillY, pillW, pillH, 8, 1);
-        drawLoadingSpinner(pillX + 18, pillY + 16, 6, Theme::COLOR_FOCUS_CYAN);
+        int pillX = 944;
+        int pillY = 10;
+        int pillW = 300;
+        int pillH = 24;
+        drawRoundedRect(pillX, pillY, pillW, pillH, 6, {0x0E, 0x17, 0x26, 0xF2});
+        drawNeonRoundedOutline(pillX, pillY, pillW, pillH, 6, 1);
+        drawLoadingSpinner(pillX + 14, pillY + 12, 5, Theme::COLOR_FOCUS_CYAN);
         char dlBuf[96];
         if (activeSpeedKb >= 1024.0) {
             std::snprintf(dlBuf, sizeof(dlBuf), "%s %d%% (%.1f MB/s) [%d]",
@@ -3818,19 +3870,18 @@ void App::renderHeader() {
                           tr("Загрузка:", "DL:"),
                           static_cast<int>(activePct), static_cast<int>(activeSpeedKb), pendingTotal);
         }
-        drawText(dlBuf, pillX + 32, pillY + 8, Theme::COLOR_FOCUS_CYAN, 11, pillW - 40);
+        drawText(dlBuf, pillX + 26, pillY + 5, Theme::COLOR_FOCUS_CYAN, 11, pillW - 32);
+    } else if (!m_newlyDetectedTitleIds.empty()) {
+        std::string newBadge = tr("★ Новинки на консоли: ", "★ New on Console: ") + std::to_string(m_newlyDetectedTitleIds.size());
+        drawTextRight(newBadge, 1244, 13, Theme::COLOR_WARNING, 12);
+    } else {
+        size_t catGames = m_catalogManager.getGamesCount();
+        size_t catIcons = m_videoIconsCatalog.size();
+        std::string metaLine1 = (m_language == Language::Russian)
+            ? ("База: " + std::to_string(catGames) + " игр • " + std::to_string(catIcons) + " HQ-иконок")
+            : ("DB: " + std::to_string(catGames) + " games • " + std::to_string(catIcons) + " HQ icons");
+        drawTextRight(metaLine1, 1244, 13, Theme::COLOR_TEXT_SECONDARY, 12);
     }
-
-    // Right Side Metadata
-    size_t catGames = m_catalogManager.getGamesCount();
-    size_t catIcons = m_videoIconsCatalog.size();
-    std::string dateStr = m_catalogManager.getUpdatedAt();
-    if (dateStr.size() >= 10) dateStr = dateStr.substr(0, 10);
-    else dateStr = "28.10.2026";
-
-    std::string metaLine1 = (m_language == Language::Russian)
-        ? ("Каталог: " + std::to_string(catGames) + " игр (" + std::to_string(catIcons) + " иконок) • Обновлен: " + dateStr)
-        : ("Catalog: " + std::to_string(catGames) + " games (" + std::to_string(catIcons) + " icons) • Updated: " + dateStr);
 
     double freeSdGb = static_cast<double>(m_sysInfo.freeStorageBytes) / (1024.0 * 1024.0 * 1024.0);
     double totalSdGb = static_cast<double>(m_sysInfo.totalStorageBytes) / (1024.0 * 1024.0 * 1024.0);
@@ -3839,18 +3890,15 @@ void App::renderHeader() {
         freeSdGb = 49.2;
     }
     char sdBuf[128];
-    std::snprintf(sdBuf, sizeof(sdBuf), "SD: %.1f GB / %.1f GB • 4IFIR HEVC", freeSdGb, totalSdGb);
-    std::string metaLine2 = sdBuf;
-
-    drawTextRight(metaLine1, 1244, 14, Theme::COLOR_TEXT_SECONDARY, 13);
-    drawTextRight(metaLine2, 1244, 36, Theme::COLOR_TEXT_MUTED, 12);
+    std::snprintf(sdBuf, sizeof(sdBuf), "SD: %.1f / %.1f GB • [+] OTA", freeSdGb, totalSdGb);
+    drawTextRight(sdBuf, 1244, 37, Theme::COLOR_TEXT_MUTED, 11);
 }
 
 void App::renderFooter() {
     const auto& s = getStrings(m_language);
     (void)s;
 
-    // Bottom Bar Background (matching TorrentShopNX Footer)
+    // Bottom Bar Background
     drawRect(0, 665, Theme::SCREEN_WIDTH, 55, Theme::COLOR_STATUS_BAR_BG);
     drawRect(0, 665, Theme::SCREEN_WIDTH, 1, Theme::COLOR_BORDER);
 
@@ -3858,85 +3906,70 @@ void App::renderFooter() {
     int battX = 30;
     drawRoundedRect(battX, 683, 30, 16, 3, {0x1C, 0x24, 0x33, 0xFF});
     drawRoundedOutline(battX, 683, 30, 16, 3, Theme::COLOR_TEXT_MUTED, Theme::COLOR_TEXT_MUTED, 1);
-    drawRoundedRect(battX + 30, 687, 3, 8, 1, Theme::COLOR_TEXT_MUTED); // nub
+    drawRoundedRect(battX + 30, 687, 3, 8, 1, Theme::COLOR_TEXT_MUTED);
     int fillW = std::clamp((m_sysInfo.batteryPercent * 26) / 100, 2, 26);
     Color battCol = (m_sysInfo.batteryPercent < 20) ? Theme::COLOR_DANGER : (m_sysInfo.batteryPercent < 50 ? Theme::COLOR_WARNING : Theme::COLOR_SUCCESS);
     drawRoundedRect(battX + 2, 685, fillW, 12, 2, battCol);
 
     std::string battStr = std::to_string(m_sysInfo.batteryPercent) + "%";
     drawText(battStr, battX + 38, 683, Theme::COLOR_TEXT_PRIMARY, 13);
-    int curLeftX = battX + 38 + measureTextWidth(battStr, 13) + 16;
+    int curLeftX = battX + 38 + measureTextWidth(battStr, 13) + 14;
 
-    // Crisp Vector Wi-Fi Status
     drawWifiIcon(curLeftX + 6, 691, m_sysInfo.isNetworkConnected ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_MUTED);
     curLeftX += 18;
 
-    std::string netStr = m_sysInfo.isNetworkConnected ? tr("Онлайн", "Online") : tr("Автономно", "Offline");
+    std::string netStr = m_sysInfo.isNetworkConnected ? tr("Онлайн", "Online") : tr("Офлайн", "Offline");
     drawText(netStr, curLeftX, 683, m_sysInfo.isNetworkConnected ? Theme::COLOR_SUCCESS : Theme::COLOR_TEXT_MUTED, 13);
-    curLeftX += measureTextWidth(netStr, 13) + 18;
+    curLeftX += measureTextWidth(netStr, 13) + 14;
 
-    // Digital Clock
     std::time_t now = std::time(nullptr);
     std::tm* tmLocal = std::localtime(&now);
     char timeBuf[32];
     if (tmLocal) {
-        std::strftime(timeBuf, sizeof(timeBuf), "%H:%M:%S", tmLocal);
+        std::strftime(timeBuf, sizeof(timeBuf), "%H:%M", tmLocal);
     } else {
-        std::snprintf(timeBuf, sizeof(timeBuf), "14:33:44");
+        std::snprintf(timeBuf, sizeof(timeBuf), "14:33");
     }
     drawText(timeBuf, curLeftX, 683, Theme::COLOR_TEXT_PRIMARY, 14);
 
-    // Right: Circular Joy-Con Button Badges laid out from right to left
-    int curRightX = 1244;
+    // Right: Unified Strict Button Contract Prompts (Identical muscle memory across tabs!)
+    int curRightX = 1248;
     auto drawPrompt = [&](const std::string& key, const std::string& label, Color badgeCol = Theme::COLOR_TEXT_PRIMARY) {
-        int labelW = measureTextWidth(label, 13);
-        int itemW = 22 + 8 + labelW;
+        int labelW = measureTextWidth(label, 12);
+        int itemW = 22 + 6 + labelW;
         int itemX = curRightX - itemW;
         drawButtonBadge(itemX, 682, key, label, badgeCol);
-        curRightX = itemX - 20;
+        curRightX = itemX - 16;
     };
 
     if (m_activeTab == Tab::Home) {
         drawPrompt("A", tr("Открыть", "Open"), Theme::COLOR_FOCUS_CYAN);
         drawPrompt("B", tr("Выход", "Exit"), Theme::COLOR_TEXT_MUTED);
-        drawPrompt("Y", tr("Установить все", "Install All"), Theme::COLOR_FOCUS_PINK);
-        drawPrompt("X", tr("Обновить базу", "Refresh DB"), Theme::COLOR_TEXT_PRIMARY);
-        drawPrompt("+", tr("Проверка SD", "Verify SD"), Theme::COLOR_TEXT_PRIMARY);
-    } else if (m_activeTab == Tab::VideoIcons) {
-        drawPrompt("A", tr("Установить", "Install"), Theme::COLOR_FOCUS_CYAN);
-        drawPrompt("B", tr("Назад", "Back"), Theme::COLOR_TEXT_MUTED);
-        drawPrompt("X", tr("На весь экран", "Fullscreen"), Theme::COLOR_FOCUS_CYAN);
-        drawPrompt("◄/►", tr("Вариант", "Variant"), Theme::COLOR_FOCUS_PINK);
-        drawPrompt("Y", tr("Поиск", "Search"), Theme::COLOR_TEXT_PRIMARY);
-        drawPrompt("-", tr("Фильтр", "Filter"), Theme::COLOR_TEXT_PRIMARY);
-        if (m_videoIconsSelectedIndex >= 0 && m_videoIconsSelectedIndex < static_cast<int>(m_filteredVideoIcons.size())) {
-            if (isIconInstalled(m_filteredVideoIcons[m_videoIconsSelectedIndex].titleId)) {
-                drawPrompt("+", tr("Удалить", "Delete"), Theme::COLOR_DANGER);
-            }
-        }
-    } else if (m_activeTab == Tab::Catalog) {
-        drawPrompt("A", tr("Выбрать", "Select"), Theme::COLOR_FOCUS_CYAN);
-        drawPrompt("B", tr("Назад", "Back"), Theme::COLOR_TEXT_MUTED);
-        drawPrompt("ZL", tr("Просмотр", "Preview"), Theme::COLOR_FOCUS_CYAN);
-        drawPrompt("-", tr("В избр. ★", "Fav ★"), Theme::COLOR_FOCUS_PINK);
+        drawPrompt("X", !m_newlyDetectedTitleIds.empty() ? tr("Меню [★]", "Actions [★]") : tr("Обновить базу", "Refresh DB"), Theme::COLOR_FOCUS_CYAN);
+        drawPrompt("Y", tr("Поиск", "Search"), Theme::COLOR_FOCUS_PINK);
+        drawPrompt("-", !m_newlyDetectedTitleIds.empty() ? tr("Новинки ★", "Install New ★") : tr("Все недостающие", "Install Missing"), Theme::COLOR_WARNING);
         drawPrompt("L/R", tr("Разделы", "Tabs"), Theme::COLOR_FOCUS_CYAN);
-        drawPrompt("Y", tr("Поиск", "Search"), Theme::COLOR_TEXT_PRIMARY);
-        drawPrompt("X", tr("Сортировка", "Sort"), Theme::COLOR_TEXT_PRIMARY);
-    } else if (m_activeTab == Tab::MyGames) {
-        drawPrompt("A", tr("Выбрать", "Select"), Theme::COLOR_FOCUS_CYAN);
+    } else if (m_activeTab == Tab::Catalog || m_activeTab == Tab::VideoIcons || m_activeTab == Tab::MyGames) {
+        drawPrompt("A", (m_activeTab == Tab::VideoIcons) ? tr("Установить", "Install") : tr("Выбрать", "Select"), Theme::COLOR_FOCUS_CYAN);
         drawPrompt("B", tr("Назад", "Back"), Theme::COLOR_TEXT_MUTED);
-        drawPrompt("Y", tr("Удалить", "Delete"), Theme::COLOR_DANGER);
-        drawPrompt("X", tr("Видео", "Video"), Theme::COLOR_FOCUS_CYAN);
-        drawPrompt("+", tr("Записи SD", "SD Clips"), Theme::COLOR_FOCUS_CYAN);
+        drawPrompt("X", tr("Действия", "Actions"), Theme::COLOR_FOCUS_PINK);
+        drawPrompt("Y", tr("Поиск", "Search"), Theme::COLOR_FOCUS_CYAN);
+        drawPrompt("-", tr("Фильтр", "Filter"), Theme::COLOR_TEXT_PRIMARY);
+        drawPrompt("R↕", tr("А–Я", "A–Z"), Theme::COLOR_WARNING);
+        drawPrompt("L/R", tr("Разделы", "Tabs"), Theme::COLOR_FOCUS_CYAN);
     } else if (m_activeTab == Tab::Downloads) {
         drawPrompt("A", tr("Повторить", "Retry"), Theme::COLOR_FOCUS_CYAN);
         drawPrompt("B", tr("Назад", "Back"), Theme::COLOR_TEXT_MUTED);
-        drawPrompt("-", tr("Убрать", "Remove"), Theme::COLOR_FOCUS_PINK);
-        drawPrompt("Y", tr("Все недостающие", "All Missing"), Theme::COLOR_TEXT_PRIMARY);
         drawPrompt("X", tr("Очистить", "Clear"), Theme::COLOR_DANGER);
+        drawPrompt("Y", tr("Поиск", "Search"), Theme::COLOR_FOCUS_CYAN);
+        drawPrompt("-", tr("Убрать", "Remove"), Theme::COLOR_FOCUS_PINK);
+        drawPrompt("L/R", tr("Разделы", "Tabs"), Theme::COLOR_FOCUS_CYAN);
     } else if (m_activeTab == Tab::Settings) {
         drawPrompt("A", tr("Применить", "Apply"), Theme::COLOR_FOCUS_CYAN);
         drawPrompt("B", tr("Назад", "Back"), Theme::COLOR_TEXT_MUTED);
+        drawPrompt("X", tr("Обновить базу", "Refresh DB"), Theme::COLOR_FOCUS_PINK);
+        drawPrompt("+", tr("Обновить NRO", "Update NRO"), Theme::COLOR_WARNING);
+        drawPrompt("L/R", tr("Разделы", "Tabs"), Theme::COLOR_FOCUS_CYAN);
     }
 }
 
@@ -4047,34 +4080,61 @@ void App::renderTabHome() {
         Color borderCol;
         Color fillCol;
     };
-    PillData pData[3] = {
-        {tr("Весь каталог (", "All Catalog (") + std::to_string(totalCatAll) + ")", Theme::COLOR_FOCUS_CYAN, Theme::COLOR_FOCUS_FILL},
-        {tr("Избранное (", "Favorites (") + std::to_string(totalFavAll) + ")", Theme::COLOR_FOCUS_PINK, Color{0xEC, 0x48, 0x99, 0x24}},
-        {tr("Поиск [Y]", "Search [Y]"), Theme::COLOR_FOCUS_CYAN, Theme::COLOR_FOCUS_FILL}
-    };
+    std::vector<PillData> pData;
+    if (!m_newlyDetectedTitleIds.empty()) {
+        pData.push_back({tr("★ Новинки (", "★ New Games (") + std::to_string(m_newlyDetectedTitleIds.size()) + ") [-]",
+                         Theme::COLOR_WARNING, Color{0xF5, 0x9E, 0x0B, 0x2A}});
+    }
+    pData.push_back({tr("Каталог (", "Catalog (") + std::to_string(totalCatAll) + ")", Theme::COLOR_FOCUS_CYAN, Theme::COLOR_FOCUS_FILL});
+    pData.push_back({tr("Избранное (", "Favorites (") + std::to_string(totalFavAll) + ")", Theme::COLOR_FOCUS_PINK, Color{0xEC, 0x48, 0x99, 0x24}});
+    pData.push_back({tr("Поиск [Y]", "Search [Y]"), Theme::COLOR_FOCUS_CYAN, Theme::COLOR_FOCUS_FILL});
 
     int curPillX = sc2X + 22;
-    for (int p = 0; p < 3; ++p) {
-        int pw = measureTextWidth(pData[p].label, 11) + 20;
+    for (size_t p = 0; p < pData.size(); ++p) {
+        int pw = measureTextWidth(pData[p].label, 11) + 18;
+        if (curPillX + pw > sc2X + cardW - 18) break;
         drawRoundedRect(curPillX, subY + 64, pw, 26, 6, pData[p].fillCol);
         drawRoundedOutline(curPillX, subY + 64, pw, 26, 6, pData[p].borderCol, pData[p].borderCol, 1);
         drawTextCentered(pData[p].label, curPillX + pw / 2, subY + 70, pData[p].borderCol, 11);
-        curPillX += pw + 10;
+        curPillX += pw + 8;
     }
 
-    drawText(tr("(A) Открыть раздел • (X) Обновить базу • (Y) Установить все недостающие",
-                "(A) Open section • (X) Refresh catalog • (Y) Install all missing"),
-             sc2X + 22, subY + 136, Theme::COLOR_FOCUS_CYAN, 12, cardW - 44);
+    drawText(tr("(L/R) Вкладки • (A) Открыть • (X) Действия / База • (Y) Поиск • (-) Авто-комбо",
+                "(L/R) Tabs • (A) Open • (X) Actions / DB • (Y) Search • (-) Auto-Combo"),
+             sc2X + 22, subY + 136, Theme::COLOR_FOCUS_CYAN, 11, cardW - 44);
 }
 
 void App::renderTabMyGames() {
+    if (m_filteredMyGamesIndices.empty() && m_myGamesFilterMode == 0 && m_myGamesSearchQuery.empty() && !m_installedGames.empty()) {
+        rebuildMyGamesFilter();
+    }
 
     // Left List Pane (450px wide) - 4IFIR Cyber-Glass Container
     drawGlassCard(30, 80, 450, 570, false, false);
 
-    const int visibleCount = 8;
-    int totalCount = static_cast<int>(m_installedGames.size());
+    // Compact Search [Y] + Filter [-] Bar at top of Left Pane (y = 86..114)
+    bool hasMgSearch = !m_myGamesSearchQuery.empty();
+    drawRoundedRect(38, 86, 226, 28, 7, hasMgSearch ? Theme::COLOR_FOCUS_FILL : Color{0x12, 0x19, 0x28, 0xEE});
+    drawRoundedOutline(38, 86, 226, 28, 7, hasMgSearch ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_BORDER, hasMgSearch ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_BORDER, 1);
+    std::string mgSearchTxt = hasMgSearch
+        ? (std::string("[Y] ") + m_myGamesSearchQuery)
+        : tr("[Y] Поиск моих игр...", "[Y] Search my games...");
+    drawText(mgSearchTxt, 48, 93, hasMgSearch ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_MUTED, 11, 206);
 
+    const char* mgFiltShortRu[4] = {"[-] Все", "[-] С фоном", "[-] Без фона", "[-] Новинки ★"};
+    const char* mgFiltShortEn[4] = {"[-] All", "[-] Covered", "[-] Missing", "[-] New ★"};
+    std::string mgFiltStr = (m_language == Language::English) ? mgFiltShortEn[m_myGamesFilterMode % 4] : mgFiltShortRu[m_myGamesFilterMode % 4];
+    Color mgFiltCol = (m_myGamesFilterMode == 3) ? Theme::COLOR_WARNING : (m_myGamesFilterMode > 0 ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY);
+    drawRoundedRect(270, 86, 132, 28, 7, (m_myGamesFilterMode > 0) ? Theme::COLOR_FOCUS_FILL : Color{0x12, 0x19, 0x28, 0xEE});
+    drawRoundedOutline(270, 86, 132, 28, 7, mgFiltCol, mgFiltCol, 1);
+    drawTextCentered(mgFiltStr, 270 + 66, 93, mgFiltCol, 11, 124);
+
+    const int visibleCount = 7;
+    int totalCount = static_cast<int>(m_filteredMyGamesIndices.size());
+
+    if (m_myGamesSelectedIndex >= totalCount) {
+        m_myGamesSelectedIndex = std::max(0, totalCount - 1);
+    }
     if (m_myGamesSelectedIndex < m_myGamesScrollOffset) {
         m_myGamesScrollOffset = m_myGamesSelectedIndex;
     }
@@ -4083,40 +4143,50 @@ void App::renderTabMyGames() {
     }
 
     if (totalCount > 0) {
-        std::string posStr = std::to_string(m_myGamesSelectedIndex + 1) + " / " + std::to_string(totalCount);
-        drawText(posStr, 380, 86, Theme::COLOR_FOCUS_CYAN, 12);
+        std::string posStr = std::to_string(m_myGamesSelectedIndex + 1) + "/" + std::to_string(totalCount);
+        drawTextRight(posStr, 470, 93, Theme::COLOR_FOCUS_CYAN, 11);
+    } else {
+        drawTextCentered(tr("Игры не найдены", "No games match filter"), 255, 290, Theme::COLOR_TEXT_MUTED, 14);
+        drawTextCentered(tr("Нажмите [-] или [Y] для сброса", "Press [-] or [Y] to reset"), 255, 318, Theme::COLOR_FOCUS_CYAN, 12);
     }
 
-    int startY = 105;
+    int startY = 122;
     int endIdx = std::min(totalCount, m_myGamesScrollOffset + visibleCount);
     for (int i = m_myGamesScrollOffset; i < endIdx; ++i) {
         bool isSelected = (i == m_myGamesSelectedIndex);
-        const auto& game = m_installedGames[i];
+        int realIdx = m_filteredMyGamesIndices[i];
+        const auto& game = m_installedGames[realIdx];
+        bool isNewGame = (m_newlyDetectedTitleIds.count(game.titleId) > 0);
 
-        // 4IFIR Card with neon outline on focus
         bool isFocused = (m_myGamesActivePane == MyGamesPane::GamesList && isSelected);
         drawGlassCard(35, startY, 440, 60, isFocused, isSelected);
 
-        drawText(game.name, 48, startY + 10, isSelected ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 15, 265);
-        drawText(game.titleId, 48, startY + 34, Theme::COLOR_TEXT_MUTED, 12, 265);
+        std::string dispName = isNewGame ? ("★ " + game.name) : game.name;
+        drawText(dispName, 48, startY + 10, isSelected ? Theme::COLOR_FOCUS_CYAN : (isNewGame ? Theme::COLOR_WARNING : Theme::COLOR_TEXT_PRIMARY), 14, 268);
+        std::string subTid = game.titleId + (game.installedCoversCount > 1 ? (" • " + std::to_string(game.installedCoversCount) + " слота") : "");
+        drawText(subTid, 48, startY + 34, Theme::COLOR_TEXT_MUTED, 11, 268);
 
         // Status pill: Cover & Video Icon
         if (game.hasInstalledCover && game.hasInstalledIcon) {
-            drawRect(330, startY + 18, 135, 24, {0x10, 0xB9, 0x81, 0x33});
-            drawRectOutline(330, startY + 18, 135, 24, Theme::COLOR_SUCCESS, 1);
-            drawText("ФОН + ИКОНКА", 342, startY + 23, Theme::COLOR_SUCCESS, 11);
+            drawRoundedRect(330, startY + 18, 135, 24, 5, {0x10, 0xB9, 0x81, 0x33});
+            drawRoundedOutline(330, startY + 18, 135, 24, 5, Theme::COLOR_SUCCESS, Theme::COLOR_SUCCESS, 1);
+            drawTextCentered(tr("ФОН + ИКОНКА", "COMBO ACTIVE"), 330 + 67, startY + 23, Theme::COLOR_SUCCESS, 10);
         } else if (game.hasInstalledCover) {
-            drawRect(370, startY + 18, 95, 24, {0x10, 0xB9, 0x81, 0x22});
-            drawRectOutline(370, startY + 18, 95, 24, Theme::COLOR_SUCCESS, 1);
-            drawText("ФОН ЕСТЬ", 380, startY + 23, Theme::COLOR_SUCCESS, 11);
+            drawRoundedRect(365, startY + 18, 100, 24, 5, {0x10, 0xB9, 0x81, 0x22});
+            drawRoundedOutline(365, startY + 18, 100, 24, 5, Theme::COLOR_SUCCESS, Theme::COLOR_SUCCESS, 1);
+            drawTextCentered(tr("ФОН ЕСТЬ", "COVER ON"), 365 + 50, startY + 23, Theme::COLOR_SUCCESS, 10);
         } else if (game.hasInstalledIcon) {
-            drawRect(355, startY + 18, 110, 24, {0x0E, 0x74, 0x90, 0x33});
-            drawRectOutline(355, startY + 18, 110, 24, Theme::COLOR_FOCUS_CYAN, 1);
-            drawText("ИКОНКА ЕСТЬ", 366, startY + 23, Theme::COLOR_FOCUS_CYAN, 11);
+            drawRoundedRect(355, startY + 18, 110, 24, 5, {0x0E, 0x74, 0x90, 0x33});
+            drawRoundedOutline(355, startY + 18, 110, 24, 5, Theme::COLOR_FOCUS_CYAN, Theme::COLOR_FOCUS_CYAN, 1);
+            drawTextCentered(tr("ИКОНКА 1:1", "ICON ON"), 355 + 55, startY + 23, Theme::COLOR_FOCUS_CYAN, 10);
+        } else if (!game.hasCatalogMatch) {
+            drawRoundedRect(350, startY + 18, 115, 24, 5, {0xF5, 0x9E, 0x0B, 0x22});
+            drawRoundedOutline(350, startY + 18, 115, 24, 5, Theme::COLOR_WARNING, Theme::COLOR_WARNING, 1);
+            drawTextCentered(tr("ПРИВЯЗАТЬ", "LINK [A]"), 350 + 57, startY + 23, Theme::COLOR_WARNING, 10);
         } else {
-            drawRect(370, startY + 18, 95, 24, {0x28, 0x33, 0x47, 0x55});
-            drawRectOutline(370, startY + 18, 95, 24, Theme::COLOR_BORDER, 1);
-            drawText("НЕТ ФОНА", 384, startY + 23, Theme::COLOR_TEXT_MUTED, 11);
+            drawRoundedRect(370, startY + 18, 95, 24, 5, {0x28, 0x33, 0x47, 0x55});
+            drawRoundedOutline(370, startY + 18, 95, 24, 5, Theme::COLOR_BORDER, Theme::COLOR_BORDER, 1);
+            drawTextCentered(tr("НЕТ ФОНА", "NO COVER"), 370 + 47, startY + 23, Theme::COLOR_TEXT_MUTED, 10);
         }
 
         startY += 66;
@@ -4131,90 +4201,77 @@ void App::renderTabMyGames() {
     // Right Details Pane (750px wide) - 4IFIR Cyber-Glass Container
     drawGlassCard(500, 80, 750, 570, false, false);
 
-    if (m_myGamesSelectedIndex >= 0 && m_myGamesSelectedIndex < static_cast<int>(m_installedGames.size())) {
-        const auto& selGame = m_installedGames[m_myGamesSelectedIndex];
+    if (totalCount > 0 && m_myGamesSelectedIndex >= 0 && m_myGamesSelectedIndex < totalCount) {
+        int realSelIdx = m_filteredMyGamesIndices[m_myGamesSelectedIndex];
+        const auto& selGame = m_installedGames[realSelIdx];
 
-        drawText(selGame.name, 530, 110, Theme::COLOR_TEXT_PRIMARY, 22, 410);
-        drawText("Title ID: " + selGame.titleId + "  |  " + selGame.author, 530, 145, Theme::COLOR_TEXT_MUTED, 14, 410);
+        drawText(selGame.name, 530, 102, Theme::COLOR_TEXT_PRIMARY, 21, 510);
+        drawText("Title ID: " + selGame.titleId + "  |  " + selGame.author, 530, 134, Theme::COLOR_TEXT_MUTED, 13, 510);
 
-        // Status details (with multi-cover support)
+        // Unified [X] Action Sheet Button at Top-Right of Right Pane (x = 1055, y = 102, w = 170, h = 42)
+        drawRoundedRect(1055, 102, 170, 42, 10, Color{0xEC, 0x48, 0x99, 0x26});
+        drawRoundedOutline(1055, 102, 170, 42, 10, Theme::COLOR_FOCUS_PINK, Theme::COLOR_FOCUS_PINK, 2);
+        drawTextCentered(tr("[X] Действия ▾", "[X] Actions ▾"), 1055 + 85, 115, Theme::COLOR_FOCUS_PINK, 13);
+
+        // Status details
         std::string coverInfo;
         if (selGame.hasInstalledCover && selGame.hasInstalledIcon) {
-            std::string covSub = (selGame.installedCoversCount > 1)
-                ? (std::to_string(selGame.installedCoversCount) + " видеофона (активный + " + std::to_string(selGame.installedCoversCount - 1) + " доп.)")
-                : ("Видеофон (" + std::to_string(selGame.installedCoverSizeBytes / 1024) + " KB)");
-            coverInfo = "Активно: " + covSub + " + Иконка 4IFIR (" + std::to_string(selGame.installedIconSizeBytes / 1024) + " KB)";
+            coverInfo = tr("Активно: Видеофон (", "Active: Cover (") + std::to_string(selGame.installedCoverSizeBytes / 1024) +
+                        " KB) + HQ-иконка 256x256 (" + std::to_string(selGame.installedIconSizeBytes / 1024) + " KB)";
         } else if (selGame.hasInstalledCover) {
-            if (selGame.installedCoversCount > 1) {
-                coverInfo = "Активный фон: " + Config::getTargetCoverFileName(selGame.titleId) + "  |  Всего: " + std::to_string(selGame.installedCoversCount) + " видеофона ([-] Сменить фон)";
-            } else {
-                coverInfo = "Активный видеофон: " + Config::getTargetCoverFileName(selGame.titleId) + " (" + std::to_string(selGame.installedCoverSizeBytes / 1024) + " KB)";
-            }
+            coverInfo = tr("Активный видеофон: ", "Active cover: ") + Config::getTargetCoverFileName(selGame.titleId) +
+                        " (" + std::to_string(selGame.installedCoverSizeBytes / 1024) + " KB)";
         } else if (selGame.hasInstalledIcon) {
-            coverInfo = "Активно на консоли: Иконка 4IFIR (" + std::to_string(selGame.installedIconSizeBytes / 1024) + " KB, без видеофона)";
+            coverInfo = tr("Активна только HQ-иконка 256x256 (", "Active HQ Icon 256x256 (") + std::to_string(selGame.installedIconSizeBytes / 1024) + " KB)";
         } else {
-            coverInfo = "Видеофон и видеоиконка не установлены";
+            coverInfo = tr("Оформление пока не установлено на консоль", "No video cover or icon installed yet");
         }
-        drawText(coverInfo, 530, 175, (selGame.hasInstalledCover || selGame.hasInstalledIcon) ? Theme::COLOR_SUCCESS : Theme::COLOR_WARNING, 14);
+        drawText(coverInfo, 530, 164, (selGame.hasInstalledCover || selGame.hasInstalledIcon) ? Theme::COLOR_SUCCESS : Theme::COLOR_WARNING, 13, 690);
 
-        // Prominent Action Buttons (positioned below status, safe from top-right Tesla monitor HUD)
-        if (selGame.hasInstalledCover && selGame.hasInstalledIcon) {
-            drawRect(530, 202, 185, 32, {0xEF, 0x44, 0x44, 0x33});
-            drawRectOutline(530, 202, 185, 32, Theme::COLOR_DANGER, 1);
-            drawText("[Y] Удалить фон", 545, 210, Theme::COLOR_DANGER, 13);
-
-            drawRect(725, 202, 190, 32, {0x0E, 0x74, 0x90, 0x33});
-            drawRectOutline(725, 202, 190, 32, Theme::COLOR_FOCUS_CYAN, 1);
-            drawText("[Y] Удалить иконку", 735, 210, Theme::COLOR_FOCUS_CYAN, 12);
-
-            if (selGame.hasBackup) {
-                drawRect(925, 202, 140, 32, Theme::COLOR_BG_ELEVATED);
-                drawRectOutline(925, 202, 140, 32, Theme::COLOR_ACCENT, 1);
-                drawText("[-] Копия", 940, 210, Theme::COLOR_ACCENT, 12);
-            }
-
-            drawGlassCard(1075, 202, 150, 32, true, false);
-            drawText("[+] Записи (SD)", 1088, 210, Theme::COLOR_FOCUS_CYAN, 12);
-        } else if (selGame.hasInstalledCover) {
-            drawRect(530, 202, 230, 32, {0xEF, 0x44, 0x44, 0x33});
-            drawRectOutline(530, 202, 230, 32, Theme::COLOR_DANGER, 1);
-            drawText("[Y] Удалить активный фон", 545, 210, Theme::COLOR_DANGER, 13);
-
-            if (selGame.hasBackup) {
-                drawRect(770, 202, 230, 32, Theme::COLOR_BG_ELEVATED);
-                drawRectOutline(770, 202, 230, 32, Theme::COLOR_ACCENT, 1);
-                drawText("[-] Восстановить (.bak)", 785, 210, Theme::COLOR_ACCENT, 13);
-            }
-
-            drawGlassCard(1015, 202, 210, 32, true, false);
-            drawText("[+] Записи 4IFIR (SD)", 1030, 210, Theme::COLOR_FOCUS_CYAN, 13);
-        } else if (selGame.hasInstalledIcon) {
-            drawRect(530, 202, 230, 32, {0x0E, 0x74, 0x90, 0x33});
-            drawRectOutline(530, 202, 230, 32, Theme::COLOR_FOCUS_CYAN, 1);
-            drawText("[Y] Удалить иконку", 545, 210, Theme::COLOR_FOCUS_CYAN, 13);
-
-            drawGlassCard(1015, 202, 210, 32, true, false);
-            drawText("[+] Записи 4IFIR (SD)", 1030, 210, Theme::COLOR_FOCUS_CYAN, 13);
-        } else {
-            drawGlassCard(1015, 202, 210, 32, true, false);
-            drawText("[+] Записи 4IFIR (SD)", 1030, 210, Theme::COLOR_FOCUS_CYAN, 13);
-            int missing = getMissingCoversCount();
-            if (missing > 0) {
-                drawRect(530, 202, 250, 32, Theme::COLOR_BG_ELEVATED);
-                drawRectOutline(530, 202, 250, 32, Theme::COLOR_ACCENT, 1);
-                drawText("[Y] Установить все (" + std::to_string(missing) + ")", 545, 210, Theme::COLOR_ACCENT, 13);
+        // Идея 4: Визуальная полоса слотов ротации видеофонов (y = 194, h = 34)
+        int slotX = 530;
+        int slotY = 194;
+        if (selGame.installedCoversCount > 0) {
+            int maxDrawSlots = std::min(4, selGame.installedCoversCount);
+            for (int sIdx = 0; sIdx < maxDrawSlots; ++sIdx) {
+                const auto& scv = selGame.installedCoverVariants[sIdx];
+                bool activeSlot = scv.isActive;
+                std::string sLabel = activeSlot
+                    ? (tr("★ Слот #1: Активен", "★ Slot #1: Active"))
+                    : (tr("Слот #", "Slot #") + std::to_string(scv.index + 1));
+                int sw = measureTextWidth(sLabel, 11) + 22;
+                drawRoundedRect(slotX, slotY, sw, 32, 8, activeSlot ? Color{0x10, 0xB9, 0x81, 0x33} : Color{0x14, 0x1D, 0x2E, 0xEE});
+                drawRoundedOutline(slotX, slotY, sw, 32, 8, activeSlot ? Theme::COLOR_SUCCESS : Theme::COLOR_FOCUS_CYAN, activeSlot ? Theme::COLOR_SUCCESS : Theme::COLOR_FOCUS_CYAN, 1);
+                drawTextCentered(sLabel, slotX + sw / 2, slotY + 9, activeSlot ? Theme::COLOR_SUCCESS : Theme::COLOR_FOCUS_CYAN, 11);
+                slotX += sw + 8;
             }
         }
+        // [+ В новый слот] / [Записи SD] pills
+        if (selGame.hasCatalogMatch && !getCoverVariants(selGame.catalogEntry).empty()) {
+            std::string addSlotLbl = tr("+ В новый слот [X]", "+ Add Slot [X]");
+            int asW = measureTextWidth(addSlotLbl, 11) + 20;
+            if (slotX + asW <= 1070) {
+                drawRoundedRect(slotX, slotY, asW, 32, 8, Theme::COLOR_FOCUS_FILL);
+                drawRoundedOutline(slotX, slotY, asW, 32, 8, Theme::COLOR_FOCUS_CYAN, Theme::COLOR_FOCUS_CYAN, 1);
+                drawTextCentered(addSlotLbl, slotX + asW / 2, slotY + 9, Theme::COLOR_FOCUS_CYAN, 11);
+                slotX += asW + 8;
+            }
+        }
+        std::string sdClipLbl = tr("[L3] Записи SD", "[L3] SD Clips");
+        int sdW = measureTextWidth(sdClipLbl, 11) + 18;
+        drawRoundedRect(1225 - sdW, slotY, sdW, 32, 8, Color{0x14, 0x1D, 0x2E, 0xEE});
+        drawRoundedOutline(1225 - sdW, slotY, sdW, 32, 8, Theme::COLOR_BORDER, Theme::COLOR_BORDER, 1);
+        drawTextCentered(sdClipLbl, 1225 - sdW / 2, slotY + 9, Theme::COLOR_TEXT_SECONDARY, 11);
 
-        // Available variants from catalog (concise header to avoid collision with hints)
+        // Available variants from catalog
         int totalVariants = selGame.hasCatalogMatch ? static_cast<int>(selGame.catalogEntry.variants.size()) : 0;
-        std::string varHeader = "Варианты (" + std::to_string(totalVariants) + "):";
-        drawText(varHeader, 530, 248, Theme::COLOR_TEXT_PRIMARY, 16);
+        std::string varHeader = tr("Варианты в базе (", "Catalog Variants (") + std::to_string(totalVariants) + "):";
+        drawText(varHeader, 530, 244, Theme::COLOR_TEXT_PRIMARY, 15);
 
         if (m_myGamesActivePane == MyGamesPane::VariantsList) {
-            drawText("[B] К играм   |   [X] На весь экран", 870, 250, Theme::COLOR_FOCUS_CYAN, 12);
+            drawTextRight(tr("[B] К списку игр  •  [X] Комбо / Новый слот / Превью", "[B] Games  •  [X] Combo / Slot / Preview"), 1225, 246, Theme::COLOR_FOCUS_CYAN, 12);
         } else {
-            drawText("[A] К вариантам   |   [X] На весь экран", 870, 250, Theme::COLOR_TEXT_MUTED, 12);
+            drawTextRight(tr("[A] Выбрать вариант  •  [X] Все действия", "[A] Select  •  [X] All Actions"), 1225, 246, Theme::COLOR_TEXT_MUTED, 12);
         }
 
         if (totalVariants > 0) {
@@ -4226,121 +4283,89 @@ void App::renderTabMyGames() {
                 m_variantScrollOffset = m_selectedVariantIndex - visibleVariants + 1;
             }
 
-            // Scroll indicator ABOVE
-            if (m_variantScrollOffset > 0) {
-                drawText("^ Еще варианты выше (D-Pad Влево)", 780, 252, Theme::COLOR_FOCUS_CYAN, 12);
-            }
-
-            int vY = 280;
+            int vY = 276;
             int endVIdx = std::min(totalVariants, m_variantScrollOffset + visibleVariants);
             for (int vIdx = m_variantScrollOffset; vIdx < endVIdx; ++vIdx) {
                 const auto& v = selGame.catalogEntry.variants[vIdx];
                 bool isVarSelected = (vIdx == m_selectedVariantIndex);
-
-                // 4IFIR Cyber-Glass variant card
                 bool isVarFocused = (m_myGamesActivePane == MyGamesPane::VariantsList && isVarSelected);
-                drawGlassCard(525, vY, 700, 72, isVarFocused, isVarSelected);
+                drawGlassCard(525, vY, 700, 74, isVarFocused, isVarSelected);
 
-                // Variant Title & Style (bounded so it never overlaps install button)
                 std::string vTitle = std::to_string(vIdx + 1) + ". " + v.name + " (" + styleToString(v.style) + ")";
-                if (v.hasIcon) {
-                    vTitle += "  [Иконка]";
-                }
-                drawText(vTitle, 545, vY + 12, isVarSelected ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 16, 450);
+                drawText(vTitle, 545, vY + 12, isVarSelected ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 15, 430);
 
-                // Tech Specs Line (Width capped at 230 to avoid overlap with badges)
+                double mb = static_cast<double>(v.sizeBytes) / (1024.0 * 1024.0);
+                char szBuf[16];
+                if (mb >= 0.1) snprintf(szBuf, sizeof(szBuf), "%.1f MB", mb);
+                else snprintf(szBuf, sizeof(szBuf), "~3.5 MB");
                 std::string meta = std::to_string(v.width) + "x" + std::to_string(v.height) + " @" +
-                                   std::to_string(static_cast<int>(v.fps)) + "fps  |  " +
-                                   ([&]() {
-                    double mb = static_cast<double>(v.sizeBytes) / (1024.0 * 1024.0);
-                    char buf[16];
-                    if (mb >= 0.1) snprintf(buf, sizeof(buf), "%.1f MB", mb);
-                    else snprintf(buf, sizeof(buf), "~3.5 MB");
-                    return std::string(buf);
-                })();
-                drawText(meta, 545, vY + 41, Theme::COLOR_TEXT_MUTED, 12, 230);
+                                   std::to_string(static_cast<int>(v.fps)) + "fps • " + std::string(szBuf);
+                drawText(meta, 545, vY + 42, Theme::COLOR_TEXT_MUTED, 12, 220);
 
-                // Badges row: Active on console, Audio, and Video Icon
-                int vBadgeX = 720;
+                int vBadgeX = 740;
                 bool isActiveOnConsole = (selGame.hasInstalledCover && v.id == selGame.installedVariantId);
                 if (isActiveOnConsole) {
-                    drawRect(vBadgeX, vY + 38, 92, 22, {0x10, 0xB9, 0x81, 0x44});
-                    drawRectOutline(vBadgeX, vY + 38, 92, 22, Theme::COLOR_SUCCESS, 1);
-                    drawText("УСТАНОВЛЕН", vBadgeX + 8, vY + 43, Theme::COLOR_SUCCESS, 10);
-                    vBadgeX += 98;
+                    drawRoundedRect(vBadgeX, vY + 39, 88, 22, 4, {0x10, 0xB9, 0x81, 0x44});
+                    drawRoundedOutline(vBadgeX, vY + 39, 88, 22, 4, Theme::COLOR_SUCCESS, Theme::COLOR_SUCCESS, 1);
+                    drawTextCentered(tr("АКТИВЕН", "ACTIVE"), vBadgeX + 44, vY + 44, Theme::COLOR_SUCCESS, 10);
+                    vBadgeX += 94;
                 }
-
-                // Audio Status Pill
                 if (v.hasAudio) {
-                    drawRect(vBadgeX, vY + 38, 62, 22, {0x10, 0xB9, 0x81, 0x33});
-                    drawRectOutline(vBadgeX, vY + 38, 62, 22, Theme::COLOR_SUCCESS, 1);
-                    drawText("ЗВУК", vBadgeX + 15, vY + 43, Theme::COLOR_SUCCESS, 10);
-                    vBadgeX += 68;
-                } else {
-                    drawRect(vBadgeX, vY + 38, 78, 22, Theme::COLOR_MUTED_BADGE_FILL);
-                    drawRectOutline(vBadgeX, vY + 38, 78, 22, Theme::COLOR_BORDER, 1);
-                    drawText("БЕЗ ЗВУКА", vBadgeX + 9, vY + 43, Theme::COLOR_TEXT_MUTED, 10);
-                    vBadgeX += 84;
+                    drawRoundedRect(vBadgeX, vY + 39, 58, 22, 4, {0x10, 0xB9, 0x81, 0x33});
+                    drawRoundedOutline(vBadgeX, vY + 39, 58, 22, 4, Theme::COLOR_SUCCESS, Theme::COLOR_SUCCESS, 1);
+                    drawTextCentered(tr("ЗВУК", "AUDIO"), vBadgeX + 29, vY + 44, Theme::COLOR_SUCCESS, 10);
+                    vBadgeX += 64;
                 }
-
-                // Video Icon Status Pill (prominent cyan when present, muted when absent)
                 if (v.hasIcon) {
-                    drawRect(vBadgeX, vY + 38, 72, 22, Theme::COLOR_ICON_BADGE_FILL);
-                    drawRectOutline(vBadgeX, vY + 38, 72, 22, Theme::COLOR_ICON_BADGE, 1);
-                    drawText("ИКОНКА", vBadgeX + 11, vY + 43, Theme::COLOR_ICON_BADGE, 10);
-                } else {
-                    drawRect(vBadgeX, vY + 38, 86, 22, Theme::COLOR_MUTED_BADGE_FILL);
-                    drawRectOutline(vBadgeX, vY + 38, 86, 22, Theme::COLOR_BORDER, 1);
-                    drawText("БЕЗ ИКОНКИ", vBadgeX + 9, vY + 43, Theme::COLOR_TEXT_MUTED, 10);
+                    drawRoundedRect(vBadgeX, vY + 39, 72, 22, 4, Theme::COLOR_ICON_BADGE_FILL);
+                    drawRoundedOutline(vBadgeX, vY + 39, 72, 22, 4, Theme::COLOR_ICON_BADGE, Theme::COLOR_ICON_BADGE, 1);
+                    drawTextCentered("256x256", vBadgeX + 36, vY + 44, Theme::COLOR_ICON_BADGE, 10);
                 }
 
-                // Install / Reinstall Button (Interactive touch zone)
-                bool isFocused = (m_myGamesActivePane == MyGamesPane::VariantsList && isVarSelected);
-                Color btnFill = isFocused ? Theme::COLOR_FOCUS_FILL : (isVarSelected ? Color{0x00, 0x55, 0x77, 0x33} : Color{0x15, 0x20, 0x30, 0x55});
-                Color btnBorder = (isFocused || isVarSelected) ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_BORDER;
-                Color btnTextCol = (isFocused || isVarSelected) ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_MUTED;
+                Color btnFill = isVarFocused ? Theme::COLOR_FOCUS_FILL : Color{0x15, 0x20, 0x30, 0x88};
+                Color btnBorder = (isVarFocused || isVarSelected) ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_BORDER;
+                Color btnTextCol = (isVarFocused || isVarSelected) ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY;
 
                 if (v.hasIcon) {
-                    drawRect(980, vY + 18, 125, 36, btnFill);
-                    drawRectOutline(980, vY + 18, 125, 36, btnBorder, 1);
-                    std::string btnText = isActiveOnConsole ? "[A] Фон" : "[A] Всё";
-                    drawText(btnText, 995, vY + 27, btnTextCol, 13);
+                    drawRoundedRect(980, vY + 19, 125, 36, 8, btnFill);
+                    drawRoundedOutline(980, vY + 19, 125, 36, 8, btnBorder, btnBorder, 1);
+                    drawTextCentered(tr("[A] Комбо", "[A] Combo"), 980 + 62, vY + 29, btnTextCol, 12);
 
-                    Color icoBtnFill = {0x0E, 0x74, 0x90, 0x33};
-                    drawRect(1115, vY + 18, 95, 36, icoBtnFill);
-                    drawRectOutline(1115, vY + 18, 95, 36, Theme::COLOR_FOCUS_CYAN, 1);
-                    drawText("[A] Иконка", 1125, vY + 27, Theme::COLOR_FOCUS_CYAN, 12);
+                    drawRoundedRect(1112, vY + 19, 98, 36, 8, {0x0E, 0x74, 0x90, 0x33});
+                    drawRoundedOutline(1112, vY + 19, 98, 36, 8, Theme::COLOR_FOCUS_CYAN, Theme::COLOR_FOCUS_CYAN, 1);
+                    drawTextCentered(tr("Иконка", "Icon"), 1112 + 49, vY + 29, Theme::COLOR_FOCUS_CYAN, 12);
                 } else {
-                    drawRect(1005, vY + 18, 205, 36, btnFill);
-                    drawRectOutline(1005, vY + 18, 205, 36, btnBorder, 1);
-                    std::string btnText = isActiveOnConsole ? "[A] Переустановить" : "[A] Установить";
-                    drawText(btnText, 1025, vY + 27, btnTextCol, 13);
+                    drawRoundedRect(1005, vY + 19, 205, 36, 8, btnFill);
+                    drawRoundedOutline(1005, vY + 19, 205, 36, 8, btnBorder, btnBorder, 1);
+                    drawTextCentered(isActiveOnConsole ? tr("[A] Переустановить", "[A] Reinstall") : tr("[A] Установить", "[A] Install"),
+                                     1005 + 102, vY + 29, btnTextCol, 12);
                 }
 
-                vY += 80;
+                vY += 82;
             }
 
-            // Scroll indicator BELOW
             if (endVIdx < totalVariants) {
-                std::string belowStr = "v Еще варианты ниже: " + std::to_string(totalVariants - endVIdx) + " шт. (D-Pad Вправо)";
-                drawText(belowStr, 720, vY + 6, Theme::COLOR_FOCUS_PINK, 12);
+                std::string belowStr = tr("▼ Еще вариантов: ", "▼ More variants: ") + std::to_string(totalVariants - endVIdx);
+                drawTextCentered(belowStr, 875, vY + 2, Theme::COLOR_FOCUS_PINK, 12);
             }
         } else {
-            drawText((m_language == Language::Russian
-                ? "Прямых вариантов для этой игры пока нет в каталоге."
-                : "No direct variants found for this game in the catalog."),
-                530, 290, Theme::COLOR_TEXT_MUTED, 14);
+            // Идея 2: Карточка обратной привязки кастомного форвардера / репака к любой игре из базы
+            drawRoundedRect(530, 286, 690, 178, 16, {0x12, 0x1A, 0x2B, 0xF2});
+            drawRoundedOutline(530, 286, 690, 178, 16, Theme::COLOR_WARNING, Theme::COLOR_FOCUS_CYAN, 2);
+            drawText(tr("Нестандартный Title ID (кастомный форвардер, порт или репак)",
+                        "Custom Title ID (Homebrew Forwarder, Port or Repack)"),
+                     554, 306, Theme::COLOR_WARNING, 16, 640);
+            drawText(tr("Нажмите [A], чтобы автоматически найти эту игру по названию в каталоге",
+                        "Press [A] to auto-search this game by name in the catalog and bind"),
+                     554, 338, Theme::COLOR_TEXT_PRIMARY, 13, 640);
+            drawText(tr("и привязать любой видеофон + HQ-иконку 256x256 прямо к этому ярлыку!",
+                        "any video cover + 256x256 HQ icon directly to this Title ID!"),
+                     554, 360, Theme::COLOR_TEXT_MUTED, 13, 640);
 
-            drawText((m_language == Language::Russian
-                ? "Вы можете привязать ЛЮБОЙ видеофон из каталога:"
-                : "You can assign ANY video theme from the catalog:"),
-                530, 318, Theme::COLOR_FOCUS_CYAN, 13);
-
-            drawGlassCard(530, 350, 480, 56, true, false);
-            std::string catBtnText = Config::isAfterDark()
-                ? (m_language == Language::Russian ? "[X] Открыть каталог After Dark" : "[X] Open After Dark Catalog")
-                : (m_language == Language::Russian ? "[X] Открыть онлайн-каталог" : "[X] Open Online Catalog");
-            drawText(catBtnText, 555, 368, Theme::COLOR_FOCUS_CYAN, 16);
+            drawRoundedRect(554, 398, 460, 46, 10, Theme::COLOR_FOCUS_FILL);
+            drawNeonRoundedOutline(554, 398, 460, 46, 10, 2);
+            drawTextCentered(tr("[A] Найти в базе и привязать к этому Title ID", "[A] Find in Catalog & Bind to Title ID"),
+                             554 + 230, 413, Theme::COLOR_FOCUS_CYAN, 14);
         }
     }
 }
@@ -4587,11 +4612,11 @@ void App::renderTabVideoIcons() {
                          dockX + dockW / 2, tileY + 324, Theme::COLOR_TEXT_MUTED, 11);
     }
 
-    // Dock Action Buttons: [X] На весь экран and [A] Установить
+    // Dock Action Buttons: [X] Действия ▾ and [A] Установить
     int bY = dockY + dockH - 52;
-    drawRoundedRect(dockX + 18, bY, 182, 38, 8, {0x14, 0x1E, 0x30, 0xEE});
-    drawRoundedOutline(dockX + 18, bY, 182, 38, 8, Theme::COLOR_FOCUS_CYAN, Theme::COLOR_FOCUS_CYAN, 1);
-    drawTextCentered(tr("[X] На весь экран", "[X] Fullscreen"), dockX + 18 + 91, bY + 11, Theme::COLOR_FOCUS_CYAN, 12);
+    drawRoundedRect(dockX + 18, bY, 182, 38, 8, {0xEC, 0x48, 0x99, 0x24});
+    drawRoundedOutline(dockX + 18, bY, 182, 38, 8, Theme::COLOR_FOCUS_PINK, Theme::COLOR_FOCUS_PINK, 1);
+    drawTextCentered(tr("[X] Действия ▾", "[X] Actions ▾"), dockX + 18 + 91, bY + 11, Theme::COLOR_FOCUS_PINK, 12);
 
     drawRoundedRect(dockX + 214, bY, 182, 38, 8, Theme::COLOR_FOCUS_FILL);
     drawNeonRoundedOutline(dockX + 214, bY, 182, 38, 8, 2);
@@ -4603,81 +4628,87 @@ void App::renderTabCatalog() {
     drawGlassCard(30, 74, 1220, 576, false, false);
 
     bool isFavTab = (m_catalogSortMode == CatalogSortMode::FavoritesOnly);
-    size_t totalCatGames = m_catalogManager.getGamesCount();
-    size_t totalFavorites = m_favoriteKeys.size();
 
-    // 1. Top Bar: Segment Tabs, Search Bar, Filter/Sort Pill, Back Button (y=82, h=38)
-    // Segment Tab 1: [L] Весь каталог
-    std::string tab1Text = tr("[L] Весь каталог (", "[L] All Catalog (") + std::to_string(totalCatGames) + ")";
-    int t1W = measureTextWidth(tab1Text, 13) + 24;
-    drawRoundedRect(50, 82, t1W, 38, 10, !isFavTab ? Theme::COLOR_FOCUS_FILL : Theme::COLOR_PILL_BG);
-    if (!isFavTab) {
-        drawNeonRoundedOutline(50, 82, t1W, 38, 10, 2);
-    } else {
-        drawRoundedOutline(50, 82, t1W, 38, 10, Theme::COLOR_BORDER, Theme::COLOR_BORDER, 1);
+    // Идея 6: Полоса быстрых чип-фильтров Каталога [-] + Поле поиска [Y] справа (y = 82, h = 36)
+    struct FilterChip {
+        CatalogSortMode mode;
+        const char* ru;
+        const char* en;
+    };
+    const FilterChip chips[7] = {
+        {CatalogSortMode::Default,       "Все",         "All"},
+        {CatalogSortMode::InstalledOnly, "На консоли",  "Installed"},
+        {CatalogSortMode::IconsOnly,     "256x256",     "256x256"},
+        {CatalogSortMode::AudioOnly,     "Звук ♪",      "Audio ♪"},
+        {CatalogSortMode::Fps60Only,     "60 FPS",      "60 FPS"},
+        {CatalogSortMode::FavoritesOnly, "Избр. ★",     "Fav ★"},
+        {CatalogSortMode::Alphabetical,  "А–Я",         "A–Z"}
+    };
+
+    // [-] Badge on the left of chip strip
+    drawRoundedRect(46, 85, 28, 30, 6, {0x16, 0x20, 0x32, 0xEE});
+    drawRoundedOutline(46, 85, 28, 30, 6, Theme::COLOR_FOCUS_CYAN, Theme::COLOR_FOCUS_CYAN, 1);
+    drawTextCentered("-", 60, 91, Theme::COLOR_FOCUS_CYAN, 14);
+
+    int chipX = 80;
+    for (int ci = 0; ci < 7; ++ci) {
+        bool active = (m_catalogSortMode == chips[ci].mode);
+        const char* clbl = (m_language == Language::English) ? chips[ci].en : chips[ci].ru;
+        int cw = measureTextWidth(clbl, 11) + 20;
+        Color activeAccent = (chips[ci].mode == CatalogSortMode::FavoritesOnly || chips[ci].mode == CatalogSortMode::IconsOnly)
+            ? Theme::COLOR_FOCUS_PINK
+            : Theme::COLOR_FOCUS_CYAN;
+        drawRoundedRect(chipX, 83, cw, 34, 9, active
+            ? (activeAccent.r > 0x80 ? Color{0xEC, 0x48, 0x99, 0x2A} : Theme::COLOR_FOCUS_FILL)
+            : Theme::COLOR_PILL_BG);
+        drawRoundedOutline(chipX, 83, cw, 34, 9, active ? activeAccent : Theme::COLOR_BORDER, active ? activeAccent : Theme::COLOR_BORDER, active ? 2 : 1);
+        drawTextCentered(clbl, chipX + cw / 2, 93, active ? activeAccent : Theme::COLOR_TEXT_MUTED, 11);
+        chipX += cw + 6;
     }
-    drawTextCentered(tab1Text, 50 + t1W / 2, 91, !isFavTab ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_MUTED, 13);
 
-    // Segment Tab 2: [R] Избранное
-    std::string tab2Text = tr("[R] Избранное (", "[R] Favorites (") + std::to_string(totalFavorites) + ")";
-    int t2W = measureTextWidth(tab2Text, 13) + 24;
-    int t2X = 50 + t1W + 10;
-    drawRoundedRect(t2X, 82, t2W, 38, 10, isFavTab ? Color{0xEC, 0x48, 0x99, 0x24} : Theme::COLOR_PILL_BG);
-    if (isFavTab) {
-        drawRoundedOutline(t2X, 82, t2W, 38, 10, Theme::COLOR_FOCUS_PINK, Theme::COLOR_FOCUS_PINK, 2);
-    } else {
-        drawRoundedOutline(t2X, 82, t2W, 38, 10, Theme::COLOR_BORDER, Theme::COLOR_BORDER, 1);
-    }
-    drawTextCentered(tab2Text, t2X + t2W / 2, 91, isFavTab ? Theme::COLOR_FOCUS_PINK : Theme::COLOR_TEXT_MUTED, 13);
-
-    // Interactive Search Bar (x=465, y=82, w=420, h=38)
+    // Interactive Search Bar on the Right (x = 765, y = 82, w = 465, h = 36)
     bool hasSearch = !m_catalogSearchQuery.empty();
-    drawGlassCard(465, 82, 420, 38, hasSearch, false);
-    drawSearchIcon(482, 101, hasSearch ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_MUTED);
+    drawGlassCard(765, 82, 465, 36, hasSearch, false);
+    drawSearchIcon(783, 100, hasSearch ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_MUTED);
     std::string searchLabel = hasSearch
         ? (tr("Поиск: ", "Search: ") + m_catalogSearchQuery)
-        : tr("Поиск по названию игры или TitleID...", "Search by game title or TitleID...");
-    drawText(searchLabel, 498, 92, hasSearch ? Theme::COLOR_TEXT_PRIMARY : Theme::COLOR_TEXT_MUTED, 13, 290);
-    drawRoundedRect(805, 88, 72, 26, 6, Theme::COLOR_FOCUS_FILL);
-    drawRoundedOutline(805, 88, 72, 26, 6, Theme::COLOR_FOCUS_CYAN, Theme::COLOR_FOCUS_CYAN, 1);
-    drawTextCentered(tr("[Y] Поиск", "[Y] Search"), 841, 93, Theme::COLOR_FOCUS_CYAN, 11);
+        : tr("Поиск по игре или TitleID...", "Search game or TitleID...");
+    drawText(searchLabel, 798, 91, hasSearch ? Theme::COLOR_TEXT_PRIMARY : Theme::COLOR_TEXT_MUTED, 12, 335);
+    drawRoundedRect(1144, 87, 78, 26, 6, Theme::COLOR_FOCUS_FILL);
+    drawRoundedOutline(1144, 87, 78, 26, 6, Theme::COLOR_FOCUS_CYAN, Theme::COLOR_FOCUS_CYAN, 1);
+    drawTextCentered(tr("[Y] Поиск", "[Y] Search"), 1183, 93, Theme::COLOR_FOCUS_CYAN, 11);
 
-    // Sort / Filter Chip button (x=895, y=82, w=180, h=38)
-    std::string sortStr = tr("[X] Фильтр: ", "[X] Filter: ");
-    switch (m_catalogSortMode) {
-        case CatalogSortMode::Alphabetical: sortStr += tr("А-Я", "A-Z"); break;
-        case CatalogSortMode::VariantsCount: sortStr += tr("Варианты", "Variants"); break;
-        case CatalogSortMode::AudioOnly: sortStr += tr("Звук ♪", "Audio ♪"); break;
-        case CatalogSortMode::IconsOnly: sortStr += tr("256x256", "256x256"); break;
-        case CatalogSortMode::InstalledOnly: sortStr += tr("На консоли", "Installed"); break;
-        case CatalogSortMode::FavoritesOnly: sortStr += tr("Избранное ★", "Favorites ★"); break;
-        default: sortStr += tr("Все", "All"); break;
+    // Идея 2: Баннер режима обратной привязки кастомного форвардера
+    bool isLinkingForwarder = !m_linkingTargetTitleId.empty();
+    if (isLinkingForwarder) {
+        drawRoundedRect(50, 123, 1180, 28, 7, {0xF5, 0x9E, 0x0B, 0x2C});
+        drawRoundedOutline(50, 123, 1180, 28, 7, Theme::COLOR_WARNING, Theme::COLOR_WARNING, 1);
+        std::string bindMsg = tr("⚡ ПРИВЯЗКА К ИГРЕ: ", "⚡ BINDING TO: ") + m_linkingTargetGameName +
+                              " [" + m_linkingTargetTitleId + "]  —  " +
+                              tr("выберите любую игру ниже ([A] или [X])  •  [B] Отмена",
+                                 "pick any catalog game below ([A] or [X])  •  [B] Cancel");
+        drawTextCentered(bindMsg, 640, 130, Theme::COLOR_WARNING, 11, 1150);
     }
-    drawPillButton(895, 82, 180, 38, sortStr, m_catalogSortMode != CatalogSortMode::Default, Theme::COLOR_FOCUS_CYAN);
-
-    // Back to Home button (x=1085, y=82, w=145, h=38)
-    drawPillButton(1085, 82, 145, 38, tr("(B) На главную", "(B) Home"), false, Theme::COLOR_TEXT_MUTED);
 
     // 2. Games List Area
     int totalFiltered = static_cast<int>(m_filteredCatalogGames.size());
     if (totalFiltered == 0) {
         if (isFavTab) {
-            // Elegant empty state for Favorites
             drawRoundedRect(490, 200, 300, 240, 24, {0x14, 0x1A, 0x28, 0xFF});
             drawRoundedOutline(490, 200, 300, 240, 24, Theme::COLOR_FOCUS_PINK, Theme::COLOR_FOCUS_PINK, 2);
             drawTextCentered("★", 640, 245, Theme::COLOR_FOCUS_PINK, 36);
             drawTextCentered(tr("Избранное пусто", "Favorites is Empty"), 640, 295, Theme::COLOR_TEXT_PRIMARY, 18);
-            drawTextCentered(tr("Нажмите [-] на любой игре в каталоге,", "Press [-] on any game in the catalog"), 640, 330, Theme::COLOR_TEXT_MUTED, 13);
+            drawTextCentered(tr("Нажмите [X] -> В избранное ★ на любой игре,", "Press [X] -> Favorite ★ on any game"), 640, 330, Theme::COLOR_TEXT_MUTED, 13);
             drawTextCentered(tr("чтобы добавить её в быстрый доступ", "to add it to your quick favorites"), 640, 350, Theme::COLOR_TEXT_MUTED, 13);
-            drawPillButton(540, 380, 200, 36, tr("[L] Открыть весь каталог", "[L] Open Full Catalog"), true, Theme::COLOR_FOCUS_CYAN);
+            drawPillButton(540, 380, 200, 36, tr("[-] Сбросить фильтр", "[-] Reset Filter"), true, Theme::COLOR_FOCUS_CYAN);
         } else {
             drawTextCentered(tr("Игры по вашему запросу не найдены", "No games found matching your filter"), 640, 320, Theme::COLOR_TEXT_MUTED, 16);
-            drawTextCentered(tr("Нажмите [Y] для изменения поиска или [X] для смены фильтра", "Press [Y] to change search or [X] to cycle filter"), 640, 355, Theme::COLOR_FOCUS_CYAN, 13);
+            drawTextCentered(tr("Нажмите [Y] для изменения поиска или [-] для смены чип-фильтра", "Press [Y] to change search or [-] to cycle filter chip"), 640, 355, Theme::COLOR_FOCUS_CYAN, 13);
         }
         return;
     }
 
-    const int visibleCount = 5;
+    const int visibleCount = isLinkingForwarder ? 4 : 5;
     if (m_catalogSelectedIndex < m_catalogScrollOffset) {
         m_catalogScrollOffset = m_catalogSelectedIndex;
     }
@@ -4685,7 +4716,7 @@ void App::renderTabCatalog() {
         m_catalogScrollOffset = m_catalogSelectedIndex - visibleCount + 1;
     }
 
-    int y = 136;
+    int y = isLinkingForwarder ? 158 : 136;
     int endIdx = std::min(totalFiltered, m_catalogScrollOffset + visibleCount);
     for (int i = m_catalogScrollOffset; i < endIdx; ++i) {
         const auto& game = m_filteredCatalogGames[i];
@@ -4694,7 +4725,7 @@ void App::renderTabCatalog() {
 
         drawGlassCard(50, y, 1180, 88, isFocused, isFocused);
 
-        // Cartridge / Auto-Loading 70x70 Cover Preview Box (Variant A)
+        // Cartridge / Auto-Loading 70x70 Cover Preview Box
         int boxX = 64;
         int boxY = y + 9;
         drawRoundedRect(boxX, boxY, 70, 70, 12, {0x14, 0x1A, 0x28, 0xFF});
@@ -4717,7 +4748,6 @@ void App::renderTabCatalog() {
             SDL_Rect dst{boxX + 2, boxY + 2, 66, 66};
             SDL_RenderCopy(m_renderer, rowThumbTex, nullptr, &dst);
         } else {
-            // Draw mini cartridge symbol inside box while loading or offline
             drawRoundedRect(boxX + 22, boxY + 16, 26, 38, 4, {0x26, 0x32, 0x48, 0xFF});
             drawRoundedRect(boxX + 24, boxY + 18, 22, 10, 2, isFav ? Theme::COLOR_FOCUS_PINK : Theme::COLOR_FOCUS_CYAN);
             drawRoundedRect(boxX + 24, boxY + 31, 22, 20, 2, {0x0E, 0x14, 0x22, 0xFF});
@@ -4726,11 +4756,11 @@ void App::renderTabCatalog() {
 
         // Info Column
         int infoX = boxX + 86;
-        drawText(game.title, infoX, y + 14, isFocused ? (isFav ? Theme::COLOR_FOCUS_PINK : Theme::COLOR_FOCUS_CYAN) : Theme::COLOR_TEXT_PRIMARY, 16, 600);
+        std::string dispTitle = (isFav ? "★ " : "") + game.title;
+        drawText(dispTitle, infoX, y + 14, isFocused ? (isFav ? Theme::COLOR_FOCUS_PINK : Theme::COLOR_FOCUS_CYAN) : Theme::COLOR_TEXT_PRIMARY, 16, 690);
 
-        // Subline: TitleID + Publisher
         std::string pubText = game.publisher.empty() ? "Nintendo Switch" : game.publisher;
-        drawText(game.titleId + "  |  " + pubText, infoX, y + 42, Theme::COLOR_TEXT_MUTED, 12);
+        drawText(game.titleId + "  |  " + pubText, infoX, y + 42, Theme::COLOR_TEXT_MUTED, 12, 315);
 
         // Badges: Cover Variants count & Video Icon
         int vCount = static_cast<int>(covVars.size());
@@ -4744,35 +4774,30 @@ void App::renderTabCatalog() {
         auto gameIcons = getUniqueIconVariants(game);
         if (!gameIcons.empty()) {
             curBadgeX += vBadgeW + 8;
-            std::string icoBadgeStr = "[ZR] 256x256 (" + std::to_string(gameIcons.size()) + ")";
+            std::string icoBadgeStr = "HQ 256x256 (" + std::to_string(gameIcons.size()) + ")";
             int icoBadgeW = measureTextWidth(icoBadgeStr, 11) + 16;
             drawRoundedRect(curBadgeX, y + 42, icoBadgeW, 22, 4, Color{0xEC, 0x48, 0x99, 0x2E});
             drawRoundedOutline(curBadgeX, y + 42, icoBadgeW, 22, 4, Theme::COLOR_FOCUS_PINK, Theme::COLOR_FOCUS_PINK, 1);
             drawTextCentered(icoBadgeStr, curBadgeX + icoBadgeW / 2, y + 46, Theme::COLOR_FOCUS_PINK, 11);
         }
 
-        // Action Buttons on Right
-        // 1. Favorite toggle button: [-] В избр. (x=805, y=y+25, w=115, h=38)
-        drawRoundedRect(805, y + 25, 115, 38, 8, isFav ? Color{0xEC, 0x48, 0x99, 0x24} : Color{0x14, 0x1E, 0x30, 0xDD});
-        drawRoundedOutline(805, y + 25, 115, 38, 8, isFav ? Theme::COLOR_FOCUS_PINK : Theme::COLOR_BORDER, isFav ? Theme::COLOR_FOCUS_PINK : Theme::COLOR_BORDER, 1);
-        drawTextCentered(isFav ? tr("[-] В избр. ★", "[-] Fav ★") : tr("[-] В избр.", "[-] Fav"), 805 + 57, y + 36, isFav ? Theme::COLOR_FOCUS_PINK : Theme::COLOR_TEXT_MUTED, 12);
+        // Unified Action Buttons on Right: [X] Действия ▾ (x=910, w=150) & [A] Выбрать (x=1070, w=145)
+        drawRoundedRect(910, y + 25, 150, 38, 8, isFocused ? Color{0xEC, 0x48, 0x99, 0x24} : Color{0x14, 0x1E, 0x30, 0xDD});
+        drawRoundedOutline(910, y + 25, 150, 38, 8, isFocused ? Theme::COLOR_FOCUS_PINK : Theme::COLOR_BORDER, isFocused ? Theme::COLOR_FOCUS_PINK : Theme::COLOR_BORDER, 1);
+        drawTextCentered(tr("[X] Действия ▾", "[X] Actions ▾"), 910 + 75, y + 36, isFocused ? Theme::COLOR_FOCUS_PINK : Theme::COLOR_TEXT_SECONDARY, 12);
 
-        // 2. Quick Preview button: [ZL] Просмотр (x=930, y=y+25, w=135, h=38)
-        drawRoundedRect(930, y + 25, 135, 38, 8, Color{0x14, 0x1E, 0x30, 0xDD});
-        drawRoundedOutline(930, y + 25, 135, 38, 8, Theme::COLOR_BORDER, Theme::COLOR_BORDER, 1);
-        drawTextCentered(tr("[ZL] Просмотр", "[ZL] Preview"), 930 + 67, y + 36, Theme::COLOR_TEXT_PRIMARY, 12);
-
-        // 3. Select Themes button: [A] Выбрать (x=1075, y=y+25, w=140, h=38)
-        drawRoundedRect(1075, y + 25, 140, 38, 8, isFocused ? Theme::COLOR_FOCUS_FILL : Color{0x18, 0x22, 0x34, 0xEE});
-        drawNeonRoundedOutline(1075, y + 25, 140, 38, 8, isFocused ? 2 : 1);
-        drawTextCentered(tr("[A] Выбрать", "[A] Select"), 1075 + 70, y + 36, Theme::COLOR_FOCUS_CYAN, 13);
+        drawRoundedRect(1070, y + 25, 145, 38, 8, isFocused ? Theme::COLOR_FOCUS_FILL : Color{0x18, 0x22, 0x34, 0xEE});
+        drawNeonRoundedOutline(1070, y + 25, 145, 38, 8, isFocused ? 2 : 1);
+        drawTextCentered(isLinkingForwarder ? tr("[A] Привязать", "[A] Bind") : tr("[A] Выбрать", "[A] Select"),
+                         1070 + 72, y + 36, isLinkingForwarder ? Theme::COLOR_WARNING : Theme::COLOR_FOCUS_CYAN, 13);
 
         y += 98;
     }
 
     // Smooth 60 FPS neon selection indicator bar on the left of Catalog list
     if (totalFiltered > 0) {
-        int barY = static_cast<int>(std::round(m_smoothCatalogSelY)) + 12;
+        int baseOff = isLinkingForwarder ? 22 : 0;
+        int barY = static_cast<int>(std::round(m_smoothCatalogSelY)) + 12 + baseOff;
         drawRoundedRect(44, barY, 5, 64, 2, isFavTab ? Theme::COLOR_FOCUS_PINK : Theme::COLOR_FOCUS_CYAN);
     }
 }
@@ -4961,7 +4986,7 @@ void App::renderTabSettings() {
     drawText(thBuf, 630, 185, Theme::COLOR_FOCUS_CYAN, 13);
     drawText(vcBuf, 920, 185, Theme::COLOR_FOCUS_PINK, 13);
 
-    // Settings list options (7 rows)
+    // Settings list options (8 rows including Idea 4: Auto-Rotate Cover Slots on Boot)
     struct SettingRow {
         std::string title;
         std::string desc;
@@ -4972,12 +4997,16 @@ void App::renderTabSettings() {
     std::vector<SettingRow> rows = {
         {tr("Обновление приложения (NRO)", "Update Application (NRO)"),
          (m_language == Language::Russian)
-             ? (std::string("Проверить и установить новую версию ") + Config::APP_NAME + " с GitHub")
-             : (std::string("Check and install the latest ") + Config::APP_NAME + " release from GitHub"),
+             ? (std::string("Проверить и установить новую версию ") + Config::APP_NAME + " с GitHub [+]")
+             : (std::string("Check and install the latest ") + Config::APP_NAME + " release from GitHub [+]"),
          std::string("v") + Config::APP_VERSION + " [A]", Theme::COLOR_FOCUS_CYAN},
-        {tr("Обновление каталога видеофонов", "Update Video Backgrounds Catalog"),
-         tr("Загрузить новейший каталог игр и обложек без обновления NRO", "Download the newest game & cover catalog without updating NRO"),
-         "GitHub Releases [A]", Theme::COLOR_FOCUS_CYAN},
+        {tr("Турбо-обновление каталога (.gz)", "Turbo Catalog Update (.gz)"),
+         tr("Загрузить сжатый индекс catalog.min.json.gz (~0.8 MB вместо 6.9 MB)", "Download compressed catalog.min.json.gz (~0.8 MB instead of 6.9 MB)"),
+         "GitHub CDN [A]", Theme::COLOR_FOCUS_CYAN},
+        {tr("Авто-ротация слотов видеофонов при входе", "Auto-Rotate Multi-Cover Slots on Boot"),
+         tr("Автоматически менять активный фон при запуске для игр с 2+ установленными слотами", "Automatically cycle active cover on boot for games with 2+ installed slots"),
+         m_autoRotateCoversOnBoot ? tr("ВКЛЮЧЕНО [A]", "ENABLED [A]") : tr("ВЫКЛЮЧЕНО [A]", "DISABLED [A]"),
+         m_autoRotateCoversOnBoot ? Theme::COLOR_SUCCESS : Theme::COLOR_TEXT_MUTED},
         {tr("Очистить кэш мини-превью (галерея)", "Clear Thumbnail Cache (Gallery)"),
          tr("Удалить сохраненные миниатюры обложек (thumbs/) для освобождения места", "Delete cached cover & icon thumbnails (thumbs/) to free SD space"),
          tr("[A] Очистить", "[A] Clear"), Theme::COLOR_FOCUS_PINK},
@@ -4986,7 +5015,7 @@ void App::renderTabSettings() {
          tr("[A] Очистить", "[A] Clear"), Theme::COLOR_FOCUS_PINK},
         {tr("Очистить локальный кэш каталога", "Reset Local Catalog Cache"),
          tr("Сбросить локальный файл cache.json и пересканировать игры", "Reset local cache.json and rescan installed games"),
-         tr("[A / X] Сброс", "[A / X] Reset"), Theme::COLOR_WARNING},
+         tr("[A] Сброс", "[A] Reset"), Theme::COLOR_WARNING},
         {tr("Проверка целостности фонов и иконок", "Verify Covers & Icons Integrity"),
          tr("Сканирование установленных видеофонов и видеоиконок на битые файлы", "Scan installed video covers and icons for corrupted files"),
          tr("[A] Сканировать", "[A] Scan"), Theme::COLOR_FOCUS_CYAN},
@@ -4995,29 +5024,29 @@ void App::renderTabSettings() {
          (m_language == Language::Russian ? "Русский [A]" : "English [A]"), Theme::COLOR_TEXT_PRIMARY}
     };
 
-    int rowY = 236;
+    int rowY = 232;
     for (size_t i = 0; i < rows.size(); ++i) {
         bool isFocused = (static_cast<int>(i) == m_settingsSelectedIndex);
 
         if (isFocused) {
-            drawRect(50, rowY, 1180, 48, Theme::COLOR_FOCUS_FILL);
-            drawNeonGradientOutline(50, rowY, 1180, 48, 2);
+            drawRect(50, rowY, 1180, 42, Theme::COLOR_FOCUS_FILL);
+            drawNeonGradientOutline(50, rowY, 1180, 42, 2);
         } else {
-            drawRect(50, rowY, 1180, 48, Theme::COLOR_BG_SURFACE);
-            drawRectOutline(50, rowY, 1180, 48, Theme::COLOR_BORDER, 1);
+            drawRect(50, rowY, 1180, 42, Theme::COLOR_BG_SURFACE);
+            drawRectOutline(50, rowY, 1180, 42, Theme::COLOR_BORDER, 1);
         }
 
-        drawText(rows[i].title, 75, rowY + 7, isFocused ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 15, 850);
-        drawText(rows[i].desc, 75, rowY + 28, Theme::COLOR_TEXT_MUTED, 11, 850);
+        drawText(rows[i].title, 75, rowY + 5, isFocused ? Theme::COLOR_FOCUS_CYAN : Theme::COLOR_TEXT_PRIMARY, 14, 850);
+        drawText(rows[i].desc, 75, rowY + 24, Theme::COLOR_TEXT_MUTED, 11, 850);
 
-        drawText(rows[i].value, 940, rowY + 14, rows[i].valColor, 14, 270);
+        drawText(rows[i].value, 940, rowY + 12, rows[i].valColor, 13, 270);
 
-        rowY += 54;
+        rowY += 47;
     }
 
     // Smooth 60 FPS neon selection indicator bar on the left of Settings rows
-    int sBarY = static_cast<int>(std::round(m_smoothSettingsSelY)) + 6;
-    drawRoundedRect(44, sBarY, 5, 36, 2, Theme::COLOR_FOCUS_CYAN);
+    int sBarY = static_cast<int>(std::round(m_smoothSettingsSelY)) + 5;
+    drawRoundedRect(44, sBarY, 5, 32, 2, Theme::COLOR_FOCUS_CYAN);
 
     // Bottom Help Banner
     drawRect(50, 622, 1180, 32, Theme::COLOR_BG_BASE);
@@ -6463,8 +6492,14 @@ void App::openCollectionBrowser(const GameCatalogEntry& entry) {
     }
     if (covVars.empty()) return;
     m_collectionEntry = entry;
-    m_collectionTitleId = entry.titleId;
-    m_collectionGameName = entry.title;
+    m_collectionMediaTitleId = entry.titleId;
+    if (!m_linkingTargetTitleId.empty()) {
+        m_collectionTitleId = m_linkingTargetTitleId;
+        m_collectionGameName = m_linkingTargetGameName + " <- " + entry.title;
+    } else {
+        m_collectionTitleId = entry.titleId;
+        m_collectionGameName = entry.title;
+    }
     m_collectionVariants = covVars;
     m_collectionSelectedIndex = 0;
     m_collectionScrollOffset = 0;
@@ -6505,9 +6540,10 @@ void App::loadCollectionThumbnail(const Variant& variant) {
 
     bool isPureIcon = (variant.id.rfind("icon-", 0) == 0) || (variant.width == 256 && variant.height == 256);
     bool showAsIcon = isPureIcon || (m_collectionPreviewIconMode && variant.hasIcon && !variant.iconUrl.empty());
+    const std::string& mediaTid = m_collectionMediaTitleId.empty() ? m_collectionTitleId : m_collectionMediaTitleId;
     std::string cacheKey = showAsIcon
-        ? ("icon_" + m_collectionTitleId + "_" + variant.id)
-        : (m_collectionTitleId + "_" + variant.id);
+        ? ("icon_" + mediaTid + "_" + variant.id)
+        : (mediaTid + "_" + variant.id);
     m_collectionCurrentThumbVariantId = cacheKey;
 
     std::string thumbDir = m_platform->getAppDirectory() + "/thumbs";
@@ -6537,7 +6573,7 @@ void App::loadCollectionThumbnail(const Variant& variant) {
     }
 
     // 2. Load validated static thumbnail if cached on disk (or in m_rowThumbTextures)
-    bool hasCachedThumb = (findCachedThumbTexture(m_collectionTitleId, variant, showAsIcon) != nullptr);
+    bool hasCachedThumb = (findCachedThumbTexture(mediaTid, variant, showAsIcon) != nullptr);
     if (std::filesystem::exists(thumbFile, ec) && validateImageFile(thumbFile)) {
         m_collectionThumbTexture = loadTextureFromFile(m_renderer, thumbFile);
         if (!m_collectionThumbTexture) {
@@ -6829,9 +6865,10 @@ void App::renderCollectionBrowser() {
         drawNeonRoundedOutline(dst.x - 3, dst.y - 3, dst.w + 6, dst.h + 6, 12, 2);
     }
 
+    const std::string& mediaTid = m_collectionMediaTitleId.empty() ? m_collectionTitleId : m_collectionMediaTitleId;
     SDL_Texture* activeCollTex = m_collectionThumbTexture;
     if (!activeCollTex && hasSelVar) {
-        activeCollTex = findCachedThumbTexture(m_collectionTitleId, m_collectionVariants[m_collectionSelectedIndex], showCollIconMode);
+        activeCollTex = findCachedThumbTexture(mediaTid, m_collectionVariants[m_collectionSelectedIndex], showCollIconMode);
     }
 
     if (!m_isFullscreenPreview && m_videoPlayer.isPlaying()) {
@@ -7030,6 +7067,18 @@ void App::rebuildCatalogFilter() {
             if (!hasIco) continue;
         }
 
+        // 3.2 Smooth 60 FPS Only filter (Idea 6)
+        if (m_catalogSortMode == CatalogSortMode::Fps60Only) {
+            bool has60 = false;
+            for (const auto& v : g.variants) {
+                if (v.fps >= 50.0) {
+                    has60 = true;
+                    break;
+                }
+            }
+            if (!has60) continue;
+        }
+
         // 4. Favorites Only filter
         if (m_catalogSortMode == CatalogSortMode::FavoritesOnly) {
             if (!hasGameFavorites(g.titleId)) {
@@ -7059,19 +7108,20 @@ void App::rebuildCatalogFilter() {
 }
 
 void App::cycleCatalogSortMode() {
-    int nextMode = (static_cast<int>(m_catalogSortMode) + 1) % 7;
+    int nextMode = (static_cast<int>(m_catalogSortMode) + 1) % 8;
     m_catalogSortMode = static_cast<CatalogSortMode>(nextMode);
     rebuildCatalogFilter();
 
     std::string modeDesc;
     switch (m_catalogSortMode) {
-        case CatalogSortMode::Default: modeDesc = "Сортировка: По умолчанию"; break;
-        case CatalogSortMode::Alphabetical: modeDesc = "Сортировка: По алфавиту (А-Я)"; break;
-        case CatalogSortMode::VariantsCount: modeDesc = "Сортировка: По кол-ву фонов (v)"; break;
-        case CatalogSortMode::AudioOnly: modeDesc = "Фильтр: Только со звуком [ЗВУК]"; break;
-        case CatalogSortMode::IconsOnly: modeDesc = "Фильтр: Только с видеоиконками [ИКОНКА]"; break;
-        case CatalogSortMode::InstalledOnly: modeDesc = "Фильтр: Только установленные игры"; break;
-        case CatalogSortMode::FavoritesOnly: modeDesc = "Фильтр: [*] Только избранное"; break;
+        case CatalogSortMode::Default: modeDesc = tr("Фильтр: Все игры", "Filter: All Games"); break;
+        case CatalogSortMode::InstalledOnly: modeDesc = tr("Фильтр: Установленные на консоли", "Filter: Installed on Console"); break;
+        case CatalogSortMode::IconsOnly: modeDesc = tr("Фильтр: С HQ-иконками 256x256", "Filter: With 256x256 HQ Icons"); break;
+        case CatalogSortMode::AudioOnly: modeDesc = tr("Фильтр: Только со звуком ♪", "Filter: With Audio ♪"); break;
+        case CatalogSortMode::Fps60Only: modeDesc = tr("Фильтр: Плавные 60 FPS", "Filter: Smooth 60 FPS"); break;
+        case CatalogSortMode::FavoritesOnly: modeDesc = tr("Фильтр: ★ Избранное", "Filter: ★ Favorites"); break;
+        case CatalogSortMode::Alphabetical: modeDesc = tr("Сортировка: По алфавиту (А–Я)", "Sort: Alphabetical (A–Z)"); break;
+        case CatalogSortMode::VariantsCount: modeDesc = tr("Сортировка: По кол-ву вариантов", "Sort: By Variants Count"); break;
     }
     m_statusNotification = modeDesc;
     m_notificationFramesRemaining = 120;
@@ -7482,6 +7532,25 @@ void App::handleTouchTap(int mx, int my) {
                 return;
             }
 
+            // If Unified Glass Action Sheet [X] is open, handle touch taps on items or outside to close
+            if (m_isActionSheetOpen) {
+                int sx = 790, sy = 72, sw = 460, sh = 576;
+                if (mx < sx || mx > sx + sw || my < sy || my > sy + sh) {
+                    closeActionSheet();
+                } else {
+                    int itemStartY = 156;
+                    int itemStep = 50;
+                    if (my >= itemStartY && mx >= sx + 18 && mx <= sx + sw - 18) {
+                        int clickedIdx = (my - itemStartY) / itemStep;
+                        if (clickedIdx >= 0 && clickedIdx < static_cast<int>(m_actionSheetItems.size())) {
+                            m_actionSheetSelectedIndex = clickedIdx;
+                            executeActionSheetSelection();
+                        }
+                    }
+                }
+                return;
+            }
+
             // If Fullscreen Preview is active, handle touch HUD buttons and swipe/taps
             if (m_isFullscreenPreview) {
                 int hudX = 40;
@@ -7601,6 +7670,43 @@ void App::handleTouchTap(int mx, int my) {
                 return;
             }
 
+            // Global Top Header Bar: [L] 6 Tabs [R] + [+] OTA (y in [8, 56])
+            if (my >= 8 && my <= 56) {
+                if (mx >= 305 && mx <= 336) {
+                    switchGlobalTab(-1);
+                    return;
+                } else if (mx >= 338 && mx <= 850) {
+                    int ti = (mx - 338) / 86;
+                    if (ti >= 0 && ti <= 5 && static_cast<Tab>(ti) != m_activeTab) {
+                        if (m_activeTab == Tab::VideoIcons) {
+                            m_videoPlayer.close();
+                            m_videoIconDockDirty = false;
+                            m_collectionTransferQueued = false;
+                            m_cancelCollectionThumb.store(true);
+                        }
+                        m_activeTab = static_cast<Tab>(ti);
+                        if (ti >= 1 && ti <= 5) m_homeFocusedTile = ti - 1;
+                        if (m_activeTab == Tab::VideoIcons) {
+                            rebuildVideoIconsFilter();
+                            m_videoIconDockDirty = true;
+                            m_lastVideoIconMoveTime = SDL_GetTicks();
+                        } else if (m_activeTab == Tab::MyGames) {
+                            rebuildMyGamesFilter();
+                        } else if (m_activeTab == Tab::Catalog && m_filteredCatalogGames.empty() && m_catalogSearchQuery.empty()) {
+                            rebuildCatalogFilter();
+                        }
+                        m_tabTransitionAlpha = 140.0f;
+                    }
+                    return;
+                } else if (mx >= 852 && mx <= 886) {
+                    switchGlobalTab(1);
+                    return;
+                } else if (mx >= 1130 && mx <= 1255) {
+                    onButtonPress(6 /* + OTA Update */);
+                    return;
+                }
+            }
+
             // Home Tab: 5x Dashboard Tiles at y in [100, 320]
             if (m_activeTab == Tab::Home && my >= 100 && my <= 320 && mx >= 40 && mx <= 1240) {
                 int tileW = 225, tileGap = 14;
@@ -7617,7 +7723,11 @@ void App::handleTouchTap(int mx, int my) {
             }
             // Home Tab: Bottom Summary Panel click (y in [368, 626])
             else if (m_activeTab == Tab::Home && my >= 368 && my <= 626 && mx >= 48 && mx <= 1232) {
-                onButtonPress(0 /* A - Activate selected tile */);
+                if (!m_newlyDetectedTitleIds.empty() && mx >= 630 && mx <= 830 && my >= 425 && my <= 465) {
+                    installAllNewlyDetectedGames();
+                } else {
+                    onButtonPress(0 /* A - Activate selected tile */);
+                }
             }
             // VideoIcons Tab: Search Bar click (x in [280, 910], y in [82, 120])
             else if (m_activeTab == Tab::VideoIcons && mx >= 280 && mx <= 910 && my >= 82 && my <= 120) {
@@ -7639,15 +7749,15 @@ void App::handleTouchTap(int mx, int my) {
                     if (mx >= 295 && mx <= 470 && m_filteredVideoIcons[clickedIdx].variants.size() > 1) {
                         onButtonPress(14 /* DPAD_RIGHT - Next icon variant */);
                     }
-                    // Tap on [A] Установить / АКТИВНА [+] button (x in [645, 800])
+                    // Tap on [A] Установить / АКТИВНА button (x in [645, 800])
                     else if (mx >= 645 && mx <= 800) {
                         if (isIconInstalled(m_filteredVideoIcons[clickedIdx].titleId)) {
-                            onButtonPress(6 /* + - Delete installed video icon */);
+                            openActionSheetForCurrentContext();
                         } else {
                             onButtonPress(0 /* A - Install */);
                         }
                     } else if (wasSelected) {
-                        onButtonPress(2 /* X - Fullscreen Preview on second tap */);
+                        openFullscreenVideoIconPreview(m_filteredVideoIcons[clickedIdx], getSelectedVideoIconVariantIndex(m_filteredVideoIcons[clickedIdx]));
                     }
                 }
             }
@@ -7656,83 +7766,115 @@ void App::handleTouchTap(int mx, int my) {
                 int dockX = 818, dockY = 136, dockW = 414, dockH = 480;
                 int bY = dockY + dockH - 52;
                 // Tap on 256x256 live tile -> Fullscreen preview
-                if (my >= dockY + 50 && my <= dockY + 315) {
-                    onButtonPress(2 /* X - Fullscreen Preview */);
+                if (my >= dockY + 50 && my <= dockY + 315 && !m_filteredVideoIcons.empty()) {
+                    const auto& selE = m_filteredVideoIcons[std::clamp(m_videoIconsSelectedIndex, 0, static_cast<int>(m_filteredVideoIcons.size()) - 1)];
+                    openFullscreenVideoIconPreview(selE, getSelectedVideoIconVariantIndex(selE));
                 }
                 // Tap on variant switcher pill in dock (y in [504, 542])
                 else if (my >= dockY + 365 && my <= dockY + 405) {
                     if (mx < dockX + dockW / 2) onButtonPress(13 /* DPAD_LEFT */);
                     else onButtonPress(14 /* DPAD_RIGHT */);
                 }
-                // Tap on [X] На весь экран button in dock
+                // Tap on [X] Действия ▾ button in dock
                 else if (my >= bY && my <= bY + 40 && mx >= dockX + 18 && mx <= dockX + 200) {
-                    onButtonPress(2 /* X - Fullscreen Preview */);
+                    onButtonPress(2 /* X - Action Sheet */);
                 }
                 // Tap on [A] Установить button in dock
                 else if (my >= bY && my <= bY + 40 && mx >= dockX + 214 && mx <= dockX + 396) {
                     onButtonPress(0 /* A - Install */);
                 }
             }
-            // Catalog Tab: Top bar and list items
+            // Catalog Tab: Filter Chips [-], Search Bar [Y], Forwarder Banner, and Game Rows
             else if (m_activeTab == Tab::Catalog) {
-                // Top Tab 1: [L] Весь каталог (x in [50, 275], y in [74, 122])
-                if (mx >= 50 && mx <= 275 && my >= 74 && my <= 122) {
-                    onButtonPress(9 /* L - Весь каталог */);
+                // Idea 6: Clickable Filter Chips Strip (x in [46, 758], y in [78, 120])
+                if (mx >= 46 && mx <= 758 && my >= 78 && my <= 120) {
+                    if (mx < 80) {
+                        cycleCatalogSortMode();
+                    } else {
+                        struct ChipHit {
+                            CatalogSortMode mode;
+                            const char* ru;
+                            const char* en;
+                        };
+                        const ChipHit chips[7] = {
+                            {CatalogSortMode::Default,       "Все",         "All"},
+                            {CatalogSortMode::InstalledOnly, "На консоли",  "Installed"},
+                            {CatalogSortMode::IconsOnly,     "256x256",     "256x256"},
+                            {CatalogSortMode::AudioOnly,     "Звук ♪",      "Audio ♪"},
+                            {CatalogSortMode::Fps60Only,     "60 FPS",      "60 FPS"},
+                            {CatalogSortMode::FavoritesOnly, "Избр. ★",     "Fav ★"},
+                            {CatalogSortMode::Alphabetical,  "А–Я",         "A–Z"}
+                        };
+                        int chipX = 80;
+                        bool matchedChip = false;
+                        for (int ci = 0; ci < 7; ++ci) {
+                            const char* clbl = (m_language == Language::English) ? chips[ci].en : chips[ci].ru;
+                            int cw = measureTextWidth(clbl, 11) + 20;
+                            if (mx >= chipX && mx <= chipX + cw + 4) {
+                                m_catalogSortMode = chips[ci].mode;
+                                rebuildCatalogFilter();
+                                matchedChip = true;
+                                break;
+                            }
+                            chipX += cw + 6;
+                        }
+                        if (!matchedChip) {
+                            cycleCatalogSortMode();
+                        }
+                    }
                 }
-                // Top Tab 2: [R] Избранное (x in [276, 460], y in [74, 122])
-                else if (mx >= 276 && mx <= 460 && my >= 74 && my <= 122) {
-                    onButtonPress(10 /* R - Избранное */);
-                }
-                // Search Bar (x in [465, 885], y in [74, 122])
-                else if (mx >= 465 && mx <= 885 && my >= 74 && my <= 122) {
+                // Search Bar [Y] on the right (x in [765, 1235], y in [78, 120])
+                else if (mx >= 765 && mx <= 1235 && my >= 78 && my <= 120) {
                     onButtonPress(3 /* Y - Open Search Keyboard */);
                 }
-                // Sort Mode Button (x in [895, 1075], y in [74, 122])
-                else if (mx >= 895 && mx <= 1075 && my >= 74 && my <= 122) {
-                    onButtonPress(2 /* X - Cycle Sort */);
+                // Forwarder Linking Banner tap -> cancel if tapped on right edge
+                else if (!m_linkingTargetTitleId.empty() && my >= 122 && my <= 153 && mx >= 980 && mx <= 1230) {
+                    cancelForwarderLinkMode();
                 }
-                // Back to Home Button (x in [1085, 1235], y in [74, 122])
-                else if (mx >= 1085 && mx <= 1235 && my >= 74 && my <= 122) {
-                    onButtonPress(1 /* B - Back to Home */);
+                // Empty Favorites Reset Pill
+                else if (m_filteredCatalogGames.empty() && m_catalogSortMode == CatalogSortMode::FavoritesOnly &&
+                         mx >= 540 && mx <= 740 && my >= 375 && my <= 420) {
+                    m_catalogSortMode = CatalogSortMode::Default;
+                    rebuildCatalogFilter();
                 }
-                // Click on Game row items (y in [136, 630])
-                else if (mx >= 50 && mx <= 1230 && my >= 136 && my <= 630) {
-                    int clickedIdx = m_catalogScrollOffset + (my - 136) / 98;
-                    int totalGames = static_cast<int>(m_filteredCatalogGames.size());
-                    if (clickedIdx >= 0 && clickedIdx < totalGames) {
-                        bool wasSelected = (m_catalogSelectedIndex == clickedIdx);
-                        m_catalogSelectedIndex = clickedIdx;
-                        // Click on pink [ZR] 256x256 Icon badge (x in [560, 795]) -> open Video Icon Preview directly!
-                        if (mx >= 560 && mx <= 795 && !getUniqueIconVariants(m_filteredCatalogGames[clickedIdx]).empty()) {
-                            onButtonPress(16 /* ZR - Video Icon Preview */);
-                        }
-                        // Click on Favorite button [-] (x in [805, 920])
-                        else if (mx >= 805 && mx <= 920) {
-                            onButtonPress(4 /* Minus - Toggle Favorite */);
-                        }
-                        // Click on Preview button [ZL] (x in [930, 1065])
-                        else if (mx >= 930 && mx <= 1065) {
-                            onButtonPress(15 /* ZL - Preview */);
-                        }
-                        // Click on Select button [A] (x in [1075, 1220]) or double-tap on row
-                        else if ((mx >= 1075 && mx <= 1220) || wasSelected) {
-                            onButtonPress(0 /* A - Open Collection Browser */);
+                // Click on Game row items
+                else {
+                    int yBase = m_linkingTargetTitleId.empty() ? 136 : 158;
+                    if (mx >= 50 && mx <= 1230 && my >= yBase && my <= 635) {
+                        int clickedIdx = m_catalogScrollOffset + (my - yBase) / 98;
+                        int totalGames = static_cast<int>(m_filteredCatalogGames.size());
+                        if (clickedIdx >= 0 && clickedIdx < totalGames) {
+                            bool wasSelected = (m_catalogSelectedIndex == clickedIdx);
+                            m_catalogSelectedIndex = clickedIdx;
+                            // Click on [X] Действия ▾ button (x in [910, 1062])
+                            if (mx >= 910 && mx <= 1062) {
+                                onButtonPress(2 /* X - Open Action Sheet */);
+                            }
+                            // Click on [A] Выбрать / Привязать button (x in [1068, 1220]) or second tap on row
+                            else if ((mx >= 1068 && mx <= 1220) || wasSelected) {
+                                onButtonPress(0 /* A - Select / Bind */);
+                            }
                         }
                     }
                 }
             }
             else if (m_activeTab == Tab::MyGames) {
-                // Left Column: Games list item selection (x in [30, 480], y in [105, 640])
-                if (mx >= 30 && mx <= 480 && my >= 105 && my <= 640) {
-                    int clickedIdx = m_myGamesScrollOffset + (my - 105) / 66;
-                    if (clickedIdx >= 0 && clickedIdx < static_cast<int>(m_installedGames.size())) {
+                if (m_filteredMyGamesIndices.empty() && m_myGamesFilterMode == 0 && m_myGamesSearchQuery.empty() && !m_installedGames.empty()) {
+                    rebuildMyGamesFilter();
+                }
+                // Left Pane Top: Search [Y] (x in [35, 266]) & Filter [-] (x in [268, 408]) at y in [82, 118]
+                if (my >= 82 && my <= 118 && mx >= 35 && mx <= 266) {
+                    openMyGamesKeyboard();
+                }
+                else if (my >= 82 && my <= 118 && mx >= 268 && mx <= 408) {
+                    onButtonPress(4 /* Minus - Cycle MyGames Filter */);
+                }
+                // Left Column: Games list item selection (x in [30, 480], y in [122, 588])
+                else if (mx >= 30 && mx <= 480 && my >= 122 && my <= 588) {
+                    int clickedIdx = m_myGamesScrollOffset + (my - 122) / 66;
+                    if (clickedIdx >= 0 && clickedIdx < static_cast<int>(m_filteredMyGamesIndices.size())) {
                         if (m_myGamesSelectedIndex == clickedIdx) {
-                            const auto& g = m_installedGames[clickedIdx];
-                            if (g.titleId == "0000000000000000" || g.catalogEntry.variants.size() > 8) {
-                                openCollectionBrowser(g.catalogEntry);
-                            } else if (g.hasCatalogMatch && !g.catalogEntry.variants.empty()) {
-                                m_myGamesActivePane = MyGamesPane::VariantsList;
-                            }
+                            onButtonPress(0 /* A - Focus Variants or Forwarder Link Search */);
                         } else {
                             m_myGamesSelectedIndex = clickedIdx;
                             m_selectedVariantIndex = 0;
@@ -7741,50 +7883,52 @@ void App::handleTouchTap(int mx, int my) {
                         }
                     }
                 }
-                // Right Column Action buttons at y in [200, 240]
-                else if (my >= 200 && my <= 240) {
-                    if (m_myGamesSelectedIndex >= 0 && m_myGamesSelectedIndex < static_cast<int>(m_installedGames.size())) {
-                        const auto& selGame = m_installedGames[m_myGamesSelectedIndex];
-                        if (selGame.hasInstalledCover && selGame.hasInstalledIcon) {
-                            if (mx >= 530 && mx <= 720) {
-                                executeDeleteCover(selGame.titleId);
-                            } else if (mx >= 725 && mx <= 920) {
-                                executeDeleteIcon(selGame.titleId);
-                            } else if (mx >= 925 && mx <= 1070 && selGame.hasBackup) {
-                                executeRestoreBackup(selGame.titleId);
-                            } else if (mx >= 1075 && mx <= 1225) {
-                                openRecordingsBrowser(selGame.titleId, selGame.name);
-                            }
-                        } else if (selGame.hasInstalledCover) {
-                            if (mx >= 530 && mx <= 760) {
-                                onButtonPress(3 /* Y - Delete */);
-                            } else if (mx >= 770 && mx <= 1000 && selGame.hasBackup) {
-                                executeRestoreBackup(selGame.titleId);
-                            } else if (mx >= 1015 && mx <= 1225) {
-                                openRecordingsBrowser(selGame.titleId, selGame.name);
-                            }
-                        } else if (selGame.hasInstalledIcon) {
-                            if (mx >= 530 && mx <= 760) {
-                                executeDeleteIcon(selGame.titleId);
-                            } else if (mx >= 1015 && mx <= 1225) {
-                                openRecordingsBrowser(selGame.titleId, selGame.name);
-                            }
+                // Right Column Top-Right: [X] Действия ▾ Button (x in [1050, 1230], y in [98, 148])
+                else if (mx >= 1050 && mx <= 1230 && my >= 98 && my <= 148) {
+                    openActionSheetForCurrentContext();
+                }
+                // Right Column Slot Strip (y in [190, 230], x in [530, 1228])
+                else if (my >= 190 && my <= 230 && mx >= 530 && mx <= 1228) {
+                    if (m_myGamesSelectedIndex >= 0 && m_myGamesSelectedIndex < static_cast<int>(m_filteredMyGamesIndices.size())) {
+                        const auto& selGame = m_installedGames[m_filteredMyGamesIndices[m_myGamesSelectedIndex]];
+                        std::string sdClipLbl = tr("[L3] Записи SD", "[L3] SD Clips");
+                        int sdW = measureTextWidth(sdClipLbl, 11) + 18;
+                        if (mx >= 1225 - sdW) {
+                            openRecordingsBrowser(selGame.titleId, selGame.name);
                         } else {
-                            if (mx >= 530 && mx <= 780 && getMissingCoversCount() > 0) {
-                                installAllMissing();
-                            } else if (mx >= 1015 && mx <= 1225) {
-                                openRecordingsBrowser(selGame.titleId, selGame.name);
+                            int slotX = 530;
+                            bool hitSlot = false;
+                            int maxDrawSlots = std::min(4, selGame.installedCoversCount);
+                            for (int sIdx = 0; sIdx < maxDrawSlots; ++sIdx) {
+                                const auto& scv = selGame.installedCoverVariants[sIdx];
+                                std::string sLabel = scv.isActive
+                                    ? (tr("★ Слот #1: Активен", "★ Slot #1: Active"))
+                                    : (tr("Слот #", "Slot #") + std::to_string(scv.index + 1));
+                                int sw = measureTextWidth(sLabel, 11) + 22;
+                                if (mx >= slotX && mx <= slotX + sw) {
+                                    if (!scv.isActive) {
+                                        executeActivateCoverSlot(selGame.titleId, scv.index);
+                                    } else if (selGame.installedCoversCount > 1) {
+                                        executeCycleNextCover(selGame.titleId);
+                                    }
+                                    hitSlot = true;
+                                    break;
+                                }
+                                slotX += sw + 8;
+                            }
+                            if (!hitSlot) {
+                                openActionSheetForCurrentContext();
                             }
                         }
                     }
                 }
-                // Right Column Variant Cards (y in [280, 600])
-                else if (mx >= 525 && mx <= 1225 && my >= 280 && my <= 600) {
-                    if (m_myGamesSelectedIndex >= 0 && m_myGamesSelectedIndex < static_cast<int>(m_installedGames.size())) {
-                        const auto& selGame = m_installedGames[m_myGamesSelectedIndex];
+                // Right Column Variant Cards or Forwarder Link Card (y in [276, 608])
+                else if (mx >= 525 && mx <= 1225 && my >= 276 && my <= 608) {
+                    if (m_myGamesSelectedIndex >= 0 && m_myGamesSelectedIndex < static_cast<int>(m_filteredMyGamesIndices.size())) {
+                        const auto& selGame = m_installedGames[m_filteredMyGamesIndices[m_myGamesSelectedIndex]];
                         int totalV = selGame.hasCatalogMatch ? static_cast<int>(selGame.catalogEntry.variants.size()) : 0;
                         if (totalV > 0) {
-                            int vClicked = m_variantScrollOffset + (my - 280) / 80;
+                            int vClicked = m_variantScrollOffset + (my - 276) / 82;
                             if (vClicked >= 0 && vClicked < totalV) {
                                 m_selectedVariantIndex = vClicked;
                                 m_myGamesActivePane = MyGamesPane::VariantsList;
@@ -7806,9 +7950,9 @@ void App::handleTouchTap(int mx, int my) {
                                 }
                             }
                         } else {
-                            // No direct variants: "Открыть каталог" button at x in [530, 1010], y in [350, 410]
-                            if (mx >= 530 && mx <= 1010 && my >= 350 && my <= 410) {
-                                m_activeTab = Tab::Catalog;
+                            // Idea 2: Forwarder Link Button at x in [550, 1020], y in [392, 450]
+                            if (mx >= 540 && mx <= 1030 && my >= 286 && my <= 466) {
+                                startForwarderLinkSearch(selGame);
                             }
                         }
                     }
@@ -7816,20 +7960,8 @@ void App::handleTouchTap(int mx, int my) {
             }
             // Downloads Tab: interactive touch controls
             else if (m_activeTab == Tab::Downloads) {
-                // Footer action buttons at y in [660, 720]
-                if (my >= 660 && my <= 720) {
-                    if (mx >= 130 && mx <= 310) {
-                        onButtonPress(0 /* A - Retry failed */);
-                    } else if (mx >= 350 && mx <= 500) {
-                        onButtonPress(2 /* X - Clear */);
-                    } else if (mx >= 510 && mx <= 740) {
-                        onButtonPress(3 /* Y - Install all missing */);
-                    } else if (mx >= 750 && mx <= 860) {
-                        onButtonPress(1 /* B - Back */);
-                    }
-                }
                 // Tapping directly on a download row selects it, or retries/removes if already selected: y in [160, 640]
-                else if (my >= 160 && my <= 640 && mx >= 60 && mx <= 1220) {
+                if (my >= 160 && my <= 640 && mx >= 60 && mx <= 1220) {
                     int clickedIdx = m_downloadsScrollOffset + (my - 160) / 94;
                     std::lock_guard<std::mutex> lock(m_queueMutex);
                     if (clickedIdx >= 0 && clickedIdx < static_cast<int>(m_downloadQueue.size())) {
@@ -7843,17 +7975,13 @@ void App::handleTouchTap(int mx, int my) {
                     }
                 }
             }
-            // Settings Tab: interactive setting rows at y in [230, 615]
+            // Settings Tab: interactive setting rows (8 rows at y = 232, step = 47)
             else if (m_activeTab == Tab::Settings && mx >= 50 && mx <= 1230 && my >= 230 && my <= 615) {
-                int clickedRow = (my - 236) / 54;
-                if (clickedRow >= 0 && clickedRow <= 6) {
+                int clickedRow = (my - 232) / 47;
+                if (clickedRow >= 0 && clickedRow <= 7) {
                     m_settingsSelectedIndex = clickedRow;
                     onButtonPress(0 /* A - Activate Setting */);
                 }
-            }
-            // Footer bar click on refresh: y in [660, 720]
-            else if (my >= 660 && mx >= 1050) {
-                onButtonPress(4 /* Minus / Refresh */);
             }
 }
 
@@ -7907,15 +8035,15 @@ void App::handleTouchDrag(int startX, int startY, int deltaY) {
                 m_downloadsScrollOffset++;
             }
         } else if (m_activeTab == Tab::MyGames && startX >= 30 && startX <= 480) {
-            if (m_myGamesScrollOffset + 8 < static_cast<int>(m_installedGames.size())) {
+            if (m_myGamesScrollOffset + 7 < static_cast<int>(m_filteredMyGamesIndices.size())) {
                 m_myGamesScrollOffset++;
                 if (m_myGamesSelectedIndex < m_myGamesScrollOffset) {
                     m_myGamesSelectedIndex = m_myGamesScrollOffset;
                 }
             }
         } else if (m_activeTab == Tab::MyGames && startX >= 500 && startX <= 1250) {
-            if (m_myGamesSelectedIndex >= 0 && m_myGamesSelectedIndex < static_cast<int>(m_installedGames.size())) {
-                const auto& selGame = m_installedGames[m_myGamesSelectedIndex];
+            if (m_myGamesSelectedIndex >= 0 && m_myGamesSelectedIndex < static_cast<int>(m_filteredMyGamesIndices.size())) {
+                const auto& selGame = m_installedGames[m_filteredMyGamesIndices[m_myGamesSelectedIndex]];
                 int totalV = selGame.hasCatalogMatch ? static_cast<int>(selGame.catalogEntry.variants.size()) : 0;
                 if (m_variantScrollOffset + 4 < totalV) {
                     m_variantScrollOffset++;
@@ -7972,8 +8100,8 @@ void App::handleTouchDrag(int startX, int startY, int deltaY) {
         } else if (m_activeTab == Tab::MyGames && startX >= 30 && startX <= 480) {
             if (m_myGamesScrollOffset > 0) {
                 m_myGamesScrollOffset--;
-                if (m_myGamesSelectedIndex >= m_myGamesScrollOffset + 8) {
-                    m_myGamesSelectedIndex = m_myGamesScrollOffset + 7;
+                if (m_myGamesSelectedIndex >= m_myGamesScrollOffset + 7) {
+                    m_myGamesSelectedIndex = m_myGamesScrollOffset + 6;
                 }
             }
         } else if (m_activeTab == Tab::MyGames && startX >= 500 && startX <= 1250) {
@@ -8001,6 +8129,12 @@ void App::handleTouchSwipe(int startX, int startY, int endX, int endY) {
         } else if (diffY > 80) {
             // Swiped Down -> Close Preview
             closeFullscreenPreview();
+        }
+    } else if (!m_isCollectionBrowserOpen && !m_isGamePickerOpen && !m_isRecordingsBrowserOpen &&
+               !m_isActionSheetOpen && m_activeDialog == DialogType::None) {
+        if (std::abs(diffX) > 95 && std::abs(diffX) > std::abs(diffY) * 2) {
+            // Global horizontal finger swipe across sections (same as L/R)
+            switchGlobalTab(diffX < 0 ? 1 : -1);
         }
     }
 }
@@ -8488,6 +8622,803 @@ void App::openFullscreenVideoIconPreview(const GameCatalogEntry& entry, int vari
 void App::checkForUpdates(bool manualTrigger) {
     (void)manualTrigger;
     updateApplicationNro();
+}
+
+// =========================================================================================
+// v1.5.0: Жесткое правило кнопок везде + Стеклянная шторка действий [X] + Идеи 1–6
+// =========================================================================================
+
+void App::switchGlobalTab(int delta) {
+    if (m_isActionSheetOpen) {
+        closeActionSheet();
+    }
+    if (m_activeTab == Tab::VideoIcons) {
+        m_videoPlayer.close();
+        m_videoIconDockDirty = false;
+        m_collectionTransferQueued = false;
+        m_cancelCollectionThumb.store(true);
+    }
+
+    int cur = static_cast<int>(m_activeTab);
+    int next = (cur + delta) % 6;
+    if (next < 0) next += 6;
+    m_activeTab = static_cast<Tab>(next);
+
+    if (next >= 1 && next <= 5) {
+        m_homeFocusedTile = next - 1;
+    }
+
+    if (m_activeTab == Tab::Catalog) {
+        if (m_filteredCatalogGames.empty() && m_catalogSearchQuery.empty() && m_catalogSortMode == CatalogSortMode::Default) {
+            rebuildCatalogFilter();
+        }
+    } else if (m_activeTab == Tab::VideoIcons) {
+        rebuildVideoIconsFilter();
+        m_videoIconDockDirty = true;
+#ifdef HAS_SDL2
+        m_lastVideoIconMoveTime = SDL_GetTicks();
+#endif
+    } else if (m_activeTab == Tab::MyGames) {
+        rebuildMyGamesFilter();
+    }
+
+    m_tabTransitionAlpha = 140.0f;
+}
+
+void App::jumpAlphabetical(int dir) {
+    auto extractBucket = [](const std::string& rawTitle) -> std::string {
+        size_t i = 0;
+        while (i < rawTitle.size()) {
+            unsigned char c = static_cast<unsigned char>(rawTitle[i]);
+            if (c <= 0x20 || c == '[' || c == '(' || c == '"' || c == '\'' || c == '-' || c == '_') {
+                ++i;
+                continue;
+            }
+            if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z')) {
+                char up = static_cast<char>(std::toupper(c));
+                return std::string(1, up);
+            }
+            if (c >= '0' && c <= '9') {
+                return "0-9";
+            }
+            // UTF-8 Cyrillic 2-byte character (0xD0 / 0xD1)
+            if ((c == 0xD0 || c == 0xD1) && i + 1 < rawTitle.size()) {
+                return rawTitle.substr(i, 2);
+            }
+            // Skip decorative UTF-8 symbols like ★ (0xE2 0x98 0x85)
+            if (c >= 0xE0 && i + 2 < rawTitle.size()) {
+                i += 3;
+                continue;
+            }
+            return "#";
+        }
+        return "#";
+    };
+
+    int step = (dir >= 0) ? 1 : -1;
+
+    if (m_activeTab == Tab::Catalog && !m_filteredCatalogGames.empty()) {
+        int n = static_cast<int>(m_filteredCatalogGames.size());
+        int cur = std::clamp(m_catalogSelectedIndex, 0, n - 1);
+        std::string curB = extractBucket(m_filteredCatalogGames[cur].title);
+        int idx = cur;
+        for (int k = 0; k < n; ++k) {
+            idx = (idx + step + n) % n;
+            std::string b = extractBucket(m_filteredCatalogGames[idx].title);
+            if (b != curB) {
+                m_catalogSelectedIndex = idx;
+                m_catalogScrollOffset = std::clamp(idx - 1, 0, std::max(0, n - 5));
+                m_alphaJumpText = b;
+                m_alphaJumpFrames = 52;
+                return;
+            }
+        }
+        m_alphaJumpText = curB;
+        m_alphaJumpFrames = 40;
+    } else if (m_activeTab == Tab::VideoIcons && !m_filteredVideoIcons.empty()) {
+        int n = static_cast<int>(m_filteredVideoIcons.size());
+        int cur = std::clamp(m_videoIconsSelectedIndex, 0, n - 1);
+        std::string curB = extractBucket(m_filteredVideoIcons[cur].title);
+        int idx = cur;
+        for (int k = 0; k < n; ++k) {
+            idx = (idx + step + n) % n;
+            std::string b = extractBucket(m_filteredVideoIcons[idx].title);
+            if (b != curB) {
+                m_videoIconsSelectedIndex = idx;
+                m_videoIconsScrollOffset = std::clamp(idx - 1, 0, std::max(0, n - 5));
+                m_videoIconDockDirty = true;
+#ifdef HAS_SDL2
+                m_lastVideoIconMoveTime = SDL_GetTicks();
+#endif
+                m_alphaJumpText = b;
+                m_alphaJumpFrames = 52;
+                return;
+            }
+        }
+        m_alphaJumpText = curB;
+        m_alphaJumpFrames = 40;
+    } else if (m_activeTab == Tab::MyGames && !m_filteredMyGamesIndices.empty()) {
+        int n = static_cast<int>(m_filteredMyGamesIndices.size());
+        int cur = std::clamp(m_myGamesSelectedIndex, 0, n - 1);
+        std::string curB = extractBucket(m_installedGames[m_filteredMyGamesIndices[cur]].name);
+        int idx = cur;
+        for (int k = 0; k < n; ++k) {
+            idx = (idx + step + n) % n;
+            std::string b = extractBucket(m_installedGames[m_filteredMyGamesIndices[idx]].name);
+            if (b != curB) {
+                m_myGamesSelectedIndex = idx;
+                m_myGamesScrollOffset = std::clamp(idx - 1, 0, std::max(0, n - 7));
+                m_selectedVariantIndex = 0;
+                m_variantScrollOffset = 0;
+                m_alphaJumpText = b;
+                m_alphaJumpFrames = 52;
+                return;
+            }
+        }
+        m_alphaJumpText = curB;
+        m_alphaJumpFrames = 40;
+    }
+}
+
+void App::openActionSheetForCurrentContext() {
+    m_actionSheetItems.clear();
+    m_actionSheetSelectedIndex = 0;
+
+    if (m_activeTab == Tab::Catalog) {
+        if (m_filteredCatalogGames.empty()) return;
+        int idx = std::clamp(m_catalogSelectedIndex, 0, static_cast<int>(m_filteredCatalogGames.size()) - 1);
+        const auto& entry = m_filteredCatalogGames[idx];
+        auto covs = getCoverVariants(entry);
+        auto icons = getUniqueIconVariants(entry);
+        bool isFav = hasGameFavorites(entry.titleId);
+
+        m_actionSheetTitle = entry.title;
+        m_actionSheetSubtitle = !m_linkingTargetTitleId.empty()
+            ? (tr("Привязка к: ", "Binding to: ") + m_linkingTargetGameName + " [" + m_linkingTargetTitleId + "]")
+            : ("Title ID: " + entry.titleId + " • " + std::to_string(covs.size()) + tr(" фонов, ", " covers, ") + std::to_string(icons.size()) + " HQ");
+
+        m_actionSheetItems.push_back({ActionSheetCmd::InstallCombo,
+            !m_linkingTargetTitleId.empty()
+                ? tr("Привязать Комбо (Фон + Иконка)", "Bind Combo (Cover + HQ Icon)")
+                : tr("Комбо-установка (Фон + HQ-иконка)", "Install Combo (Cover + HQ Icon)"),
+            "1-КЛИК", Theme::COLOR_FOCUS_CYAN});
+
+        if (!covs.empty()) {
+            m_actionSheetItems.push_back({ActionSheetCmd::AppendNewSlot,
+                tr("Добавить в новый слот ротации", "Append to New Rotation Slot"),
+                "+СЛОТ", Theme::COLOR_FOCUS_PINK});
+        }
+
+        m_actionSheetItems.push_back({ActionSheetCmd::FullscreenPreview,
+            tr("Живое превью на весь экран", "Fullscreen Live Video Preview"),
+            "LIVE", Theme::COLOR_SUCCESS});
+
+        m_actionSheetItems.push_back({ActionSheetCmd::AssignToAnotherGame,
+            tr("Назначить на любую другую игру...", "Assign to Another Installed Game..."),
+            "PICK", Theme::COLOR_WARNING});
+
+        m_actionSheetItems.push_back({ActionSheetCmd::ToggleFavorite,
+            isFav ? tr("Убрать из избранного ★", "Remove from Favorites ★") : tr("Добавить в избранное ★", "Add to Favorites ★"),
+            "★", Color{0xFF, 0xD7, 0x00, 0xFF}});
+    } else if (m_activeTab == Tab::VideoIcons) {
+        if (m_filteredVideoIcons.empty()) return;
+        int idx = std::clamp(m_videoIconsSelectedIndex, 0, static_cast<int>(m_filteredVideoIcons.size()) - 1);
+        const auto& entry = m_filteredVideoIcons[idx];
+        bool inst = isIconInstalled(entry.titleId);
+        bool isFav = hasGameFavorites(entry.titleId);
+
+        m_actionSheetTitle = entry.title;
+        m_actionSheetSubtitle = "256x256 HQ Icon • " + entry.titleId;
+
+        m_actionSheetItems.push_back({ActionSheetCmd::FullscreenPreview,
+            tr("Живое превью 256x256 на весь экран", "Fullscreen 256x256 Live Preview"),
+            "LIVE", Theme::COLOR_SUCCESS});
+
+        m_actionSheetItems.push_back({ActionSheetCmd::InstallCombo,
+            tr("Комбо-установка (Иконка + Видеофон)", "Install Combo (Icon + Video Cover)"),
+            "1-КЛИК", Theme::COLOR_FOCUS_CYAN});
+
+        m_actionSheetItems.push_back({ActionSheetCmd::AssignToAnotherGame,
+            tr("Назначить иконку на другую игру...", "Assign Icon to Another Game..."),
+            "PICK", Theme::COLOR_WARNING});
+
+        m_actionSheetItems.push_back({ActionSheetCmd::ToggleFavorite,
+            isFav ? tr("Убрать из избранного ★", "Remove from Favorites ★") : tr("Добавить в избранное ★", "Add to Favorites ★"),
+            "★", Color{0xFF, 0xD7, 0x00, 0xFF}});
+
+        if (inst) {
+            m_actionSheetItems.push_back({ActionSheetCmd::DeleteInstalled,
+                tr("Удалить установленную HQ-иконку", "Delete Installed HQ Video Icon"),
+                "DEL", Theme::COLOR_DANGER});
+        }
+    } else if (m_activeTab == Tab::MyGames) {
+        if (m_filteredMyGamesIndices.empty()) return;
+        int idx = std::clamp(m_myGamesSelectedIndex, 0, static_cast<int>(m_filteredMyGamesIndices.size()) - 1);
+        const auto& selGame = m_installedGames[m_filteredMyGamesIndices[idx]];
+
+        m_actionSheetTitle = selGame.name;
+        m_actionSheetSubtitle = "Title ID: " + selGame.titleId + " • " +
+                                std::to_string(selGame.installedCoversCount) + tr(" слот(ов)", " slot(s)");
+
+        if (selGame.hasCatalogMatch && !selGame.catalogEntry.variants.empty()) {
+            m_actionSheetItems.push_back({ActionSheetCmd::InstallCombo,
+                tr("Комбо-установка (Фон + HQ-иконка)", "Install Combo (Cover + HQ Icon)"),
+                "1-КЛИК", Theme::COLOR_FOCUS_CYAN});
+
+            if (!getCoverVariants(selGame.catalogEntry).empty()) {
+                m_actionSheetItems.push_back({ActionSheetCmd::AppendNewSlot,
+                    tr("Добавить вариант в новый слот ротации", "Append Variant to New Rotation Slot"),
+                    "+СЛОТ", Theme::COLOR_FOCUS_PINK});
+            }
+
+            m_actionSheetItems.push_back({ActionSheetCmd::FullscreenPreview,
+                tr("Живое превью на весь экран", "Fullscreen Live Video Preview"),
+                "LIVE", Theme::COLOR_SUCCESS});
+        }
+
+        m_actionSheetItems.push_back({ActionSheetCmd::LinkForwarderToCatalog,
+            tr("Найти в базе и привязать к этому Title ID", "Find in Catalog & Bind to Title ID"),
+            "LINK", Theme::COLOR_WARNING});
+
+        if (selGame.installedCoversCount > 1) {
+            m_actionSheetItems.push_back({ActionSheetCmd::CycleActiveSlot,
+                tr("Переключить активный слот видеофона", "Cycle Active Video Cover Slot"),
+                "СЛОТ", Theme::COLOR_FOCUS_CYAN});
+            m_actionSheetItems.push_back({ActionSheetCmd::DeleteExtraSlots,
+                tr("Удалить доп. слоты (оставить основной)", "Delete Extra Slots (Keep Primary)"),
+                "CLEAN", Theme::COLOR_FOCUS_PINK});
+        }
+
+        m_actionSheetItems.push_back({ActionSheetCmd::OpenLocalRecordings,
+            tr("Установить свой клип с SD-карты", "Install Custom Clip from SD Card"),
+            "SD", Theme::COLOR_TEXT_PRIMARY});
+
+        if (!m_newlyDetectedTitleIds.empty()) {
+            m_actionSheetItems.push_back({ActionSheetCmd::InstallNewGamesPack,
+                tr("Оформить все новинки консоли", "Auto-Combo All New Console Games"),
+                "★ " + std::to_string(m_newlyDetectedTitleIds.size()), Theme::COLOR_WARNING});
+        }
+
+        if (selGame.hasInstalledCover || selGame.hasInstalledIcon) {
+            m_actionSheetItems.push_back({ActionSheetCmd::DeleteInstalled,
+                tr("Удалить установленное оформление...", "Delete Installed Cover / Icon..."),
+                "DEL", Theme::COLOR_DANGER});
+        }
+    } else if (m_activeTab == Tab::Home && !m_newlyDetectedTitleIds.empty()) {
+        m_actionSheetTitle = tr("Умный детектор новинок", "New Console Games Detector");
+        m_actionSheetSubtitle = tr("Обнаружено новых игр на консоли: ", "Newly detected titles: ") +
+                                std::to_string(m_newlyDetectedTitleIds.size());
+        m_actionSheetItems.push_back({ActionSheetCmd::InstallNewGamesPack,
+            tr("Установить Комбо (Фон + Иконка) на новинки", "Install Combo Pack for All New Games"),
+            "1-КЛИК", Theme::COLOR_WARNING});
+    }
+
+    if (m_actionSheetItems.empty()) return;
+
+    m_isActionSheetOpen = true;
+#ifdef HAS_SDL2
+    m_actionSheetOpenedAt = SDL_GetTicks();
+#endif
+}
+
+void App::closeActionSheet() {
+    m_isActionSheetOpen = false;
+    m_actionSheetItems.clear();
+}
+
+void App::executeActionSheetSelection() {
+    if (m_actionSheetSelectedIndex < 0 || m_actionSheetSelectedIndex >= static_cast<int>(m_actionSheetItems.size())) {
+        closeActionSheet();
+        return;
+    }
+    ActionSheetCmd cmd = m_actionSheetItems[m_actionSheetSelectedIndex].cmd;
+    closeActionSheet();
+
+    if (cmd == ActionSheetCmd::InstallNewGamesPack) {
+        installAllNewlyDetectedGames();
+        return;
+    }
+
+    if (m_activeTab == Tab::Catalog && !m_filteredCatalogGames.empty()) {
+        int idx = std::clamp(m_catalogSelectedIndex, 0, static_cast<int>(m_filteredCatalogGames.size()) - 1);
+        const auto& entry = m_filteredCatalogGames[idx];
+
+        InstalledTitle targetGame;
+        bool isLinking = !m_linkingTargetTitleId.empty();
+        std::string targetTid = isLinking ? m_linkingTargetTitleId : entry.titleId;
+        bool foundInstalled = false;
+        for (const auto& ig : m_installedGames) {
+            if (ig.titleId == targetTid) {
+                targetGame = ig;
+                foundInstalled = true;
+                break;
+            }
+        }
+        if (!foundInstalled) {
+            targetGame.titleId = targetTid;
+            targetGame.name = isLinking ? m_linkingTargetGameName : entry.title;
+            targetGame.hasCatalogMatch = true;
+            targetGame.catalogEntry = entry;
+        }
+
+        if (cmd == ActionSheetCmd::InstallCombo) {
+            queueComboPack(targetGame, entry, 0);
+            if (isLinking) cancelForwarderLinkMode();
+        } else if (cmd == ActionSheetCmd::AppendNewSlot) {
+            auto covs = getCoverVariants(entry);
+            if (!covs.empty()) {
+                int pickIdx = (targetGame.installedCoversCount > 0)
+                    ? (targetGame.installedCoversCount % static_cast<int>(covs.size()))
+                    : 0;
+                queueDownloadAppendSlot(targetGame, covs[pickIdx]);
+                if (isLinking) cancelForwarderLinkMode();
+            }
+        } else if (cmd == ActionSheetCmd::FullscreenPreview) {
+            openFullscreenPreviewForCatalogGame(entry, 0);
+        } else if (cmd == ActionSheetCmd::AssignToAnotherGame) {
+            auto covs = getCoverVariants(entry);
+            if (!covs.empty()) {
+                openGamePicker(covs[0], entry.title);
+            } else if (!entry.variants.empty()) {
+                openGamePicker(entry.variants[0], entry.title);
+            }
+        } else if (cmd == ActionSheetCmd::ToggleFavorite) {
+            if (!entry.variants.empty()) {
+                toggleFavoriteVariant(entry.titleId, entry.variants[0]);
+            }
+        }
+    } else if (m_activeTab == Tab::VideoIcons && !m_filteredVideoIcons.empty()) {
+        int idx = std::clamp(m_videoIconsSelectedIndex, 0, static_cast<int>(m_filteredVideoIcons.size()) - 1);
+        const auto& entry = m_filteredVideoIcons[idx];
+        int vIdx = getSelectedVideoIconVariantIndex(entry);
+
+        if (cmd == ActionSheetCmd::FullscreenPreview) {
+            openFullscreenVideoIconPreview(entry, vIdx);
+        } else if (cmd == ActionSheetCmd::InstallCombo) {
+            InstalledTitle targetGame;
+            bool found = false;
+            for (const auto& ig : m_installedGames) {
+                if (ig.titleId == entry.titleId) { targetGame = ig; found = true; break; }
+            }
+            if (!found) {
+                targetGame.titleId = entry.titleId;
+                targetGame.name = entry.title;
+                targetGame.hasCatalogMatch = true;
+            }
+            const auto* fullCat = m_catalogManager.findByTitleId(entry.titleId);
+            if (fullCat) {
+                queueComboPack(targetGame, *fullCat, 0);
+            } else if (!entry.variants.empty()) {
+                queueDownloadIconOnly(targetGame, entry.variants[vIdx]);
+            }
+        } else if (cmd == ActionSheetCmd::AssignToAnotherGame) {
+            if (!entry.variants.empty()) {
+                Variant icoVar = entry.variants[vIdx];
+                if (icoVar.id.rfind("icon-", 0) != 0) icoVar.id = "icon-" + icoVar.id;
+                openGamePicker(icoVar, entry.title);
+            }
+        } else if (cmd == ActionSheetCmd::ToggleFavorite) {
+            if (!entry.variants.empty()) {
+                toggleFavoriteVariant(entry.titleId, entry.variants[vIdx]);
+            }
+        } else if (cmd == ActionSheetCmd::DeleteInstalled) {
+            executeDeleteIcon(entry.titleId);
+        }
+    } else if (m_activeTab == Tab::MyGames && !m_filteredMyGamesIndices.empty()) {
+        int idx = std::clamp(m_myGamesSelectedIndex, 0, static_cast<int>(m_filteredMyGamesIndices.size()) - 1);
+        const auto& selGame = m_installedGames[m_filteredMyGamesIndices[idx]];
+        int vIdx = std::clamp(m_selectedVariantIndex, 0, std::max(0, static_cast<int>(selGame.catalogEntry.variants.size()) - 1));
+
+        if (cmd == ActionSheetCmd::InstallCombo) {
+            queueComboPack(selGame, selGame.catalogEntry, vIdx);
+        } else if (cmd == ActionSheetCmd::AppendNewSlot) {
+            auto covs = getCoverVariants(selGame.catalogEntry);
+            if (!covs.empty()) {
+                int cIdx = std::clamp(vIdx, 0, static_cast<int>(covs.size()) - 1);
+                queueDownloadAppendSlot(selGame, covs[cIdx]);
+            }
+        } else if (cmd == ActionSheetCmd::FullscreenPreview) {
+            openFullscreenPreviewForGame(selGame, vIdx);
+        } else if (cmd == ActionSheetCmd::LinkForwarderToCatalog) {
+            startForwarderLinkSearch(selGame);
+        } else if (cmd == ActionSheetCmd::CycleActiveSlot) {
+            executeCycleNextCover(selGame.titleId);
+        } else if (cmd == ActionSheetCmd::DeleteExtraSlots) {
+            m_videoPlayer.close();
+            for (int s = selGame.installedCoversCount - 1; s >= 1; --s) {
+                Installer::deleteCoverVariant(m_platform->getCoversDirectory(), selGame.titleId, selGame.installedCoverVariants[s].index);
+            }
+            refreshInstalledGames();
+            rebuildMyGamesFilter();
+            m_statusNotification = tr("Доп. слоты очищены (оставлен основной фон)", "Extra cover slots removed (primary kept)");
+            m_notificationFramesRemaining = 120;
+        } else if (cmd == ActionSheetCmd::OpenLocalRecordings) {
+            openRecordingsBrowser(selGame.titleId, selGame.name);
+        } else if (cmd == ActionSheetCmd::DeleteInstalled) {
+            m_pendingActionTitleId = selGame.titleId;
+            m_activeDialog = DialogType::ConfirmDelete;
+#ifdef HAS_SDL2
+            m_dialogOpenedAt = SDL_GetTicks();
+#endif
+            m_dialogFocus = 0;
+            m_dialogTitle = tr("Удаление оформления", "Delete Installed Media");
+            m_dialogMessage = tr("Удалить установленное видеооформление для игры ", "Delete installed video media for ") + selGame.name + "?";
+        }
+    }
+}
+
+void App::renderActionSheet() {
+#ifdef HAS_SDL2
+    if (!m_isActionSheetOpen || m_actionSheetItems.empty()) return;
+
+    // Dim backdrop
+    drawRect(0, 0, Theme::SCREEN_WIDTH, Theme::SCREEN_HEIGHT, {0x03, 0x07, 0x11, 0xCC});
+
+    int sx = 790;
+    int sy = 72;
+    int sw = 460;
+    int sh = 576;
+
+    drawGlassCard(sx, sy, sw, sh, true, true);
+    drawNeonRoundedOutline(sx, sy, sw, sh, 16, 2);
+
+    // Header badge + Title + Subtitle
+    drawRoundedRect(sx + 20, sy + 16, 138, 22, 5, {0xEC, 0x48, 0x99, 0x2E});
+    drawRoundedOutline(sx + 20, sy + 16, 138, 22, 5, Theme::COLOR_FOCUS_PINK, Theme::COLOR_FOCUS_PINK, 1);
+    drawTextCentered(tr("[X] МЕНЮ ДЕЙСТВИЙ", "[X] ACTION SHEET"), sx + 20 + 69, sy + 20, Theme::COLOR_FOCUS_PINK, 10);
+
+    drawText(m_actionSheetTitle, sx + 20, sy + 46, Theme::COLOR_TEXT_PRIMARY, 16, sw - 40);
+    drawText(m_actionSheetSubtitle, sx + 20, sy + 68, Theme::COLOR_TEXT_MUTED, 11, sw - 40);
+    drawRect(sx + 20, sy + 90, sw - 40, 1, Theme::COLOR_BORDER);
+
+    int itemY = 156;
+    int itemH = 42;
+    for (size_t i = 0; i < m_actionSheetItems.size(); ++i) {
+        bool sel = (static_cast<int>(i) == m_actionSheetSelectedIndex);
+        const auto& item = m_actionSheetItems[i];
+
+        drawRoundedRect(sx + 18, itemY, sw - 36, itemH, 10,
+                        sel ? Theme::COLOR_FOCUS_FILL : Color{0x10, 0x17, 0x26, 0xDD});
+        if (sel) {
+            drawRoundedOutline(sx + 18, itemY, sw - 36, itemH, 10, item.accent, Theme::COLOR_FOCUS_CYAN, 2);
+            drawRoundedRect(sx + 22, itemY + 8, 4, itemH - 16, 2, item.accent);
+        } else {
+            drawRoundedOutline(sx + 18, itemY, sw - 36, itemH, 10, Theme::COLOR_BORDER, Theme::COLOR_BORDER, 1);
+        }
+
+        int badgeW = measureTextWidth(item.badge, 10) + 18;
+        drawText(item.label, sx + 34, itemY + 13, sel ? Theme::COLOR_TEXT_PRIMARY : Theme::COLOR_TEXT_SECONDARY, 13, sw - 74 - badgeW);
+
+        int bx = sx + sw - 28 - badgeW;
+        drawRoundedRect(bx, itemY + 9, badgeW, 24, 6, {item.accent.r, item.accent.g, item.accent.b, 0x28});
+        drawRoundedOutline(bx, itemY + 9, badgeW, 24, 6, item.accent, item.accent, 1);
+        drawTextCentered(item.badge, bx + badgeW / 2, itemY + 14, item.accent, 10);
+
+        itemY += 50;
+    }
+
+    // Footer hint inside Action Sheet
+    int fy = sy + sh - 42;
+    drawRect(sx + 20, fy - 8, sw - 40, 1, Theme::COLOR_BORDER);
+    drawTextCentered(tr("[▲/▼] Выбор   •   [A] Выполнить   •   [B / X] Закрыть",
+                        "[▲/▼] Select   •   [A] Execute   •   [B / X] Close"),
+                     sx + sw / 2, fy + 4, Theme::COLOR_TEXT_MUTED, 11, sw - 30);
+#endif
+}
+
+void App::rebuildMyGamesFilter() {
+    m_filteredMyGamesIndices.clear();
+    std::string q = utf8ToLower(m_myGamesSearchQuery);
+
+    for (int i = 0; i < static_cast<int>(m_installedGames.size()); ++i) {
+        const auto& g = m_installedGames[i];
+        // Always keep 4IFIR system menu entry accessible in "All" when not searching
+        if (m_myGamesFilterMode == 1 && !g.hasInstalledCover && !g.hasInstalledIcon) {
+            continue;
+        }
+        if (m_myGamesFilterMode == 2 && (g.hasInstalledCover || g.titleId == "0000000000000000")) {
+            continue;
+        }
+        if (m_myGamesFilterMode == 3 && m_newlyDetectedTitleIds.count(g.titleId) == 0) {
+            continue;
+        }
+
+        if (!q.empty()) {
+            std::string nLow = utf8ToLower(g.name);
+            std::string tLow = utf8ToLower(g.titleId);
+            if (nLow.find(q) == std::string::npos && tLow.find(q) == std::string::npos) {
+                continue;
+            }
+        }
+        m_filteredMyGamesIndices.push_back(i);
+    }
+
+    if (m_myGamesSelectedIndex >= static_cast<int>(m_filteredMyGamesIndices.size())) {
+        m_myGamesSelectedIndex = std::max(0, static_cast<int>(m_filteredMyGamesIndices.size()) - 1);
+    }
+    m_myGamesScrollOffset = 0;
+}
+
+void App::openMyGamesKeyboard() {
+#ifdef __SWITCH__
+    SwkbdConfig kbd;
+    char textBuf[256] = {0};
+    if (!m_myGamesSearchQuery.empty()) {
+        strncpy(textBuf, m_myGamesSearchQuery.c_str(), sizeof(textBuf) - 1);
+    }
+
+    Result rc = swkbdCreate(&kbd, 0);
+    if (R_SUCCEEDED(rc)) {
+        swkbdConfigMakePresetDefault(&kbd);
+        swkbdConfigSetHeaderText(&kbd, "Поиск среди установленных игр на Switch");
+        swkbdConfigSetGuideText(&kbd, "Введите часть названия игры или Title ID");
+        swkbdConfigSetOkButtonText(&kbd, "Найти");
+        swkbdConfigSetInitialText(&kbd, textBuf);
+        swkbdConfigSetStringLenMax(&kbd, 64);
+
+        rc = swkbdShow(&kbd, textBuf, sizeof(textBuf));
+        if (R_SUCCEEDED(rc)) {
+            m_myGamesSearchQuery = std::string(textBuf);
+            while (!m_myGamesSearchQuery.empty() && std::isspace(static_cast<unsigned char>(m_myGamesSearchQuery.back()))) {
+                m_myGamesSearchQuery.pop_back();
+            }
+            while (!m_myGamesSearchQuery.empty() && std::isspace(static_cast<unsigned char>(m_myGamesSearchQuery.front()))) {
+                m_myGamesSearchQuery.erase(m_myGamesSearchQuery.begin());
+            }
+            rebuildMyGamesFilter();
+        }
+        swkbdClose(&kbd);
+    }
+#else
+    m_myGamesSearchQuery.clear();
+    rebuildMyGamesFilter();
+#endif
+}
+
+void App::startForwarderLinkSearch(const InstalledTitle& game) {
+    if (game.titleId.empty() || game.titleId == "0000000000000000") return;
+
+    m_linkingTargetTitleId = game.titleId;
+    m_linkingTargetGameName = game.name;
+
+    // Clean brackets, version suffixes and noise from forwarder / port title for smart auto-search
+    std::string clean;
+    bool inBracket = false;
+    for (char c : game.name) {
+        if (c == '[' || c == '(' || c == '{') { inBracket = true; continue; }
+        if (c == ']' || c == ')' || c == '}') { inBracket = false; continue; }
+        if (!inBracket) {
+            if (c == '_' || c == '-' || c == ':' || c == '|') {
+                clean.push_back(' ');
+            } else {
+                clean.push_back(c);
+            }
+        }
+    }
+    // Collapse multiple spaces and keep first 2 meaningful words for broad match
+    std::vector<std::string> words;
+    std::string curW;
+    for (char c : clean) {
+        if (std::isspace(static_cast<unsigned char>(c))) {
+            if (!curW.empty()) {
+                std::string low = utf8ToLower(curW);
+                if (low != "switch" && low != "port" && low != "nsp" && low != "mod" && low != "ru" && low != "rus") {
+                    words.push_back(curW);
+                }
+                curW.clear();
+            }
+        } else {
+            curW.push_back(c);
+        }
+    }
+    if (!curW.empty()) {
+        std::string low = utf8ToLower(curW);
+        if (low != "switch" && low != "port" && low != "nsp" && low != "mod" && low != "ru" && low != "rus") {
+            words.push_back(curW);
+        }
+    }
+
+    std::string autoQuery;
+    for (size_t i = 0; i < std::min<size_t>(2, words.size()); ++i) {
+        if (i > 0) autoQuery += " ";
+        autoQuery += words[i];
+    }
+
+    m_catalogSortMode = CatalogSortMode::Default;
+    m_catalogSearchQuery = autoQuery;
+    rebuildCatalogFilter();
+    if (m_filteredCatalogGames.empty() && !words.empty()) {
+        m_catalogSearchQuery = words[0];
+        rebuildCatalogFilter();
+    }
+    if (m_filteredCatalogGames.empty()) {
+        m_catalogSearchQuery.clear();
+        rebuildCatalogFilter();
+    }
+
+    m_activeTab = Tab::Catalog;
+    m_homeFocusedTile = 0;
+    m_tabTransitionAlpha = 140.0f;
+    m_statusNotification = tr("Выберите любую игру в базе ([A] или [X]) для привязки к ", "Select any catalog game ([A] or [X]) to bind to ") + game.name;
+    m_notificationFramesRemaining = 180;
+}
+
+void App::cancelForwarderLinkMode() {
+    if (m_linkingTargetTitleId.empty()) return;
+    m_linkingTargetTitleId.clear();
+    m_linkingTargetGameName.clear();
+    m_statusNotification = tr("Режим привязки форвардера завершен", "Forwarder binding mode closed");
+    m_notificationFramesRemaining = 90;
+}
+
+void App::loadAppSettings() {
+    if (!m_platform) return;
+    std::string path = m_platform->getAppDirectory() + "/settings.json";
+    std::error_code ec;
+    if (!std::filesystem::exists(path, ec)) return;
+
+    std::ifstream ifs(path);
+    if (!ifs.is_open()) return;
+    try {
+        nlohmann::json j;
+        ifs >> j;
+        if (j.contains("autoRotateCoversOnBoot") && j["autoRotateCoversOnBoot"].is_boolean()) {
+            m_autoRotateCoversOnBoot = j["autoRotateCoversOnBoot"].get<bool>();
+        }
+        if (j.contains("language") && j["language"].is_string()) {
+            std::string lang = j["language"].get<std::string>();
+            m_language = (lang == "en") ? Language::English : Language::Russian;
+        }
+    } catch (...) {}
+}
+
+void App::saveAppSettings() {
+    if (!m_platform) return;
+    std::string appDir = m_platform->getAppDirectory();
+    std::error_code ec;
+    std::filesystem::create_directories(appDir, ec);
+
+    nlohmann::json j;
+    j["version"] = 1;
+    j["autoRotateCoversOnBoot"] = m_autoRotateCoversOnBoot;
+    j["language"] = (m_language == Language::English) ? "en" : "ru";
+
+    std::string path = appDir + "/settings.json";
+    std::string tmp = path + ".tmp";
+    std::ofstream ofs(tmp);
+    if (ofs.is_open()) {
+        ofs << j.dump(2);
+        ofs.flush();
+        ofs.close();
+        std::filesystem::rename(tmp, path, ec);
+    }
+}
+
+void App::detectNewInstalledGamesOnBoot() {
+    if (!m_platform) return;
+    m_newlyDetectedTitleIds.clear();
+
+    std::string appDir = m_platform->getAppDirectory();
+    std::string knownPath = appDir + "/known_titles.json";
+    std::error_code ec;
+    std::filesystem::create_directories(appDir, ec);
+
+    std::set<std::string> previousKnown;
+    bool hadKnownFile = std::filesystem::exists(knownPath, ec);
+    if (hadKnownFile) {
+        std::ifstream ifs(knownPath);
+        if (ifs.is_open()) {
+            try {
+                nlohmann::json j;
+                ifs >> j;
+                if (j.contains("titles") && j["titles"].is_array()) {
+                    for (const auto& item : j["titles"]) {
+                        if (item.is_string()) {
+                            previousKnown.insert(item.get<std::string>());
+                        }
+                    }
+                }
+            } catch (...) {}
+        }
+    }
+
+    if (hadKnownFile) {
+        for (const auto& g : m_installedGames) {
+            if (g.titleId == "0000000000000000" || g.titleId.empty()) continue;
+            if (previousKnown.count(g.titleId) == 0) {
+                m_newlyDetectedTitleIds.insert(g.titleId);
+            }
+        }
+    } else {
+        // First run of v1.5.0: highlight uncovered installed games that have ready 4IFIR covers/icons
+        for (const auto& g : m_installedGames) {
+            if (g.titleId == "0000000000000000" || g.titleId.empty()) continue;
+            if (!g.hasInstalledCover && !g.hasInstalledIcon && g.hasCatalogMatch && m_newlyDetectedTitleIds.size() < 12) {
+                m_newlyDetectedTitleIds.insert(g.titleId);
+            }
+        }
+    }
+
+    // Save current snapshot of installed Title IDs for next launch comparison
+    nlohmann::json outJ;
+    outJ["version"] = 1;
+    outJ["titles"] = nlohmann::json::array();
+    for (const auto& g : m_installedGames) {
+        if (!g.titleId.empty() && g.titleId != "0000000000000000") {
+            outJ["titles"].push_back(g.titleId);
+        }
+    }
+    std::string tmp = knownPath + ".tmp";
+    std::ofstream ofs(tmp);
+    if (ofs.is_open()) {
+        ofs << outJ.dump(2);
+        ofs.flush();
+        ofs.close();
+        std::filesystem::rename(tmp, knownPath, ec);
+    }
+
+    if (!m_newlyDetectedTitleIds.empty()) {
+        m_statusNotification = tr("★ Обнаружены неоформленные игры на консоли: ", "★ Detected new games on console: ") +
+                               std::to_string(m_newlyDetectedTitleIds.size()) +
+                               tr(" шт. — нажмите [-] на Главной для Комбо-установки!", " — press [-] on Home for 1-Click Combo!");
+        m_notificationFramesRemaining = 220;
+    }
+}
+
+void App::runAutoCoverRotationOnBoot() {
+    if (!m_autoRotateCoversOnBoot || !m_platform) return;
+
+    int rotatedCount = 0;
+    std::string covDir = m_platform->getCoversDirectory();
+    uint32_t seed = static_cast<uint32_t>(std::time(nullptr));
+
+    for (const auto& g : m_installedGames) {
+        if (g.titleId.empty() || g.titleId == "0000000000000000") continue;
+        if (g.installedCoversCount > 1) {
+            std::vector<int> nonActiveIndices;
+            for (const auto& cv : g.installedCoverVariants) {
+                if (!cv.isActive && cv.index > 0) {
+                    nonActiveIndices.push_back(cv.index);
+                }
+            }
+            if (!nonActiveIndices.empty()) {
+                int pick = nonActiveIndices[(seed + static_cast<uint32_t>(rotatedCount)) % nonActiveIndices.size()];
+                if (Installer::switchActiveCover(covDir, g.titleId, pick)) {
+                    rotatedCount++;
+                }
+            }
+        }
+    }
+
+    if (rotatedCount > 0) {
+        refreshInstalledGames();
+        rebuildMyGamesFilter();
+    }
+}
+
+void App::installAllNewlyDetectedGames() {
+    if (m_newlyDetectedTitleIds.empty()) return;
+
+    int queuedGames = 0;
+    for (const auto& g : m_installedGames) {
+        if (m_newlyDetectedTitleIds.count(g.titleId) > 0 && g.hasCatalogMatch && !g.catalogEntry.variants.empty()) {
+            queueComboPack(g, g.catalogEntry, 0);
+            queuedGames++;
+        }
+    }
+
+    m_newlyDetectedTitleIds.clear();
+    if (queuedGames > 0) {
+        m_activeTab = Tab::Downloads;
+        m_homeFocusedTile = 3;
+        m_statusNotification = tr("★ Комбо-установка запущена для новинок: ", "★ Queued Combo Pack for new games: ") +
+                               std::to_string(queuedGames) + tr(" шт.", " titles");
+        m_notificationFramesRemaining = 180;
+    } else {
+        m_statusNotification = tr("Для новых игр пока нет прямых совпадений — используйте привязку в «Моих играх»",
+                                  "No direct matches for new games — use Forwarder Link in My Games");
+        m_notificationFramesRemaining = 160;
+    }
 }
 
 } // namespace ui

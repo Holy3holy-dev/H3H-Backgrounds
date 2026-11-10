@@ -148,6 +148,7 @@ struct DownloadTask {
 
     bool iconOnly{false};
     bool coverOnly{false};
+    bool appendAsNewSlot{false};
 };
 
 struct SystemInfo {
