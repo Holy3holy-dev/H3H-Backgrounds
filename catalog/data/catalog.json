@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T05:52:51.780796+00:00",
+  "updatedAt": "2026-11-10T05:56:25.078873+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -123728,9 +123728,269 @@
           "notes": "Switch 720p 30fps H264 | Cat Survivors — Cat Survivors Trailer"
         }
       ]
+    },
+    {
+      "titleId": "01009E401A372000",
+      "title": "Lords of Exile",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009E401A372000.jpg",
+      "variants": [
+        {
+          "id": "v_051d37d0",
+          "name": "Lords of Exile — Lords of Exile - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qrI4LFYzRmiYLEquVr4xS4MZNN1exn7n",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qrI4LFYzRmiYLEquVr4xS4MZNN1exn7n&sz=w640",
+          "sizeBytes": 4660433,
+          "sha256": "B3795C93CF8E2DC5A04CDB47C64F7D51B8C2EFC06F3AE4A8DED64D9C3C0CD16D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lords of Exile — Lords of Exile - Launch"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B9401989A000",
+      "title": "Tents and Trees",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B9401989A000.jpg",
+      "variants": [
+        {
+          "id": "v_1ba25b6e",
+          "name": "Tents and Trees — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1A9-ZhucxGgBHqXajV66poYnwvmcMufAc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1A9-ZhucxGgBHqXajV66poYnwvmcMufAc&sz=w640",
+          "sizeBytes": 3860734,
+          "sha256": "433522D7FAA3832670835D33B5BE01D487C464B9758E28762B20938D9C75757C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tents and Trees — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BCA00843A000",
+      "title": "Trailblazers",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BCA00843A000.jpg",
+      "variants": [
+        {
+          "id": "v_7559b295",
+          "name": "Super Trailblazers — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14924OWp6dAVF-NdKrTILkSm_-Kd2VvxC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14924OWp6dAVF-NdKrTILkSm_-Kd2VvxC&sz=w640",
+          "sizeBytes": 1998763,
+          "sha256": "2EAF3EE10F9FE45FCFBDA165D47D502E0BC45647AAABCD90FC050609495B8CEB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Super Trailblazers — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FB7019ADE000",
+      "title": "Kanon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FB7019ADE000.jpg",
+      "variants": [
+        {
+          "id": "v_9c18d3d2",
+          "name": "Kanon — Kanon English",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12jGqOKYtOVUTYBSLEaMQca5xh_SdQi_u",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12jGqOKYtOVUTYBSLEaMQca5xh_SdQi_u&sz=w640",
+          "sizeBytes": 3985033,
+          "sha256": "B65E2A26FD9D026272613B799383D2F9A26B3FB640903052B829CEB93602F228",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kanon — Kanon English"
+        }
+      ]
+    },
+    {
+      "titleId": "01006B1011B9E000",
+      "title": "80's Overdrive",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006B1011B9E000.jpg",
+      "variants": [
+        {
+          "id": "v_e4262c62",
+          "name": "80's OVERDRIVE — Main Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bXOfe8AJlhq8BsVqDLkJYy1qe_lKD2Nb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bXOfe8AJlhq8BsVqDLkJYy1qe_lKD2Nb&sz=w640",
+          "sizeBytes": 5074962,
+          "sha256": "409316F3439D97FBEA62F8AE3F18BD4891E18DA7DE6061241BD7F1C1FD4A0A8B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 80's OVERDRIVE — Main Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010035301766A000",
+      "title": "Operation Wolf Returns First Mission",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010035301766A000.jpg",
+      "variants": [
+        {
+          "id": "v_60993f7d",
+          "name": "Operation Wolf Returns: First Mission — Operatio",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yJ4sXuSqh-rG3D2RVsAi1783iWLFp84L",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yJ4sXuSqh-rG3D2RVsAi1783iWLFp84L&sz=w640",
+          "sizeBytes": 5144739,
+          "sha256": "2CA64F2DB4EB95F9D0AAFADE5DFD8995C3594882861CCD8C91F9AD20C2F6AD2D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Operation Wolf Returns: First Mission — "
+        }
+      ]
+    },
+    {
+      "titleId": "0100423009358000",
+      "title": "Death Road to Canada",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100423009358000.jpg",
+      "variants": [
+        {
+          "id": "v_7cbef860",
+          "name": "Death Road to Canada — Life on the Death Road",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HzX0go4gGyOCUgakaiBFm_fTaD-H4bQf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HzX0go4gGyOCUgakaiBFm_fTaD-H4bQf&sz=w640",
+          "sizeBytes": 5434924,
+          "sha256": "77F335CF8AC53A3F851F411F48A94EFC75B86D434EBDABEF4FB178CD39F29ED5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Death Road to Canada — Life on the Death"
+        }
+      ]
+    },
+    {
+      "titleId": "01006C301B7C2000",
+      "title": "Dr. Fetus' Mean Meat Machine",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006C301B7C2000.jpg",
+      "variants": [
+        {
+          "id": "v_99cccff6",
+          "name": "Dr. Fetus' Mean Meat Machine — Dr. Fetus' Mean M",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ufrpOEYGXLETpWvuvekYzOCkBoXzhOr1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ufrpOEYGXLETpWvuvekYzOCkBoXzhOr1&sz=w640",
+          "sizeBytes": 4775402,
+          "sha256": "4BC8AAFF07161B5A33529827EA5E2B6A595FBB03E365860DE11D0566C0962B7D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dr. Fetus' Mean Meat Machine — Dr. Fetus"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A09025938000",
+      "title": "Ariana and the Elder Codex",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A09025938000.jpg",
+      "variants": [
+        {
+          "id": "v_4316654f",
+          "name": "Ariana and the Elder Codex — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NPfmCleN7xqZ0cCOSua7FZzGpG2LoM4T",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NPfmCleN7xqZ0cCOSua7FZzGpG2LoM4T&sz=w640",
+          "sizeBytes": 4169197,
+          "sha256": "D79A3A0D175F5C83BB32CF709806DCA7601777CB3275AFA85511C310BD01AAD6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ariana and the Elder Codex — Gameplay Tr"
+        }
+      ]
+    },
+    {
+      "titleId": "0100972008234000",
+      "title": "Crystal Crisis",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100972008234000.jpg",
+      "variants": [
+        {
+          "id": "v_1b1bf7d4",
+          "name": "Crystal Crisis — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13smpRBRYEAZa-MzNqC6ciVoKxhulntWE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13smpRBRYEAZa-MzNqC6ciVoKxhulntWE&sz=w640",
+          "sizeBytes": 5287363,
+          "sha256": "1D6B49EE229215BD28C09BF5B11065612AC8EAF8B15DA758FC1BDD8DCF99C37E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Crystal Crisis — Launch Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 3703,
-  "totalVariants": 5127,
-  "lastUpdated": "2026-11-10T05:52:51.780796+00:00"
+  "totalGames": 3713,
+  "totalVariants": 5137,
+  "lastUpdated": "2026-11-10T05:56:25.078873+00:00"
 }
