@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T10:04:02.912140+00:00",
+  "updatedAt": "2026-11-10T10:07:06.106267+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -144788,9 +144788,269 @@
           "notes": "Switch 720p 30fps H264 | Holy Potatoes! What the Hell?! — Holy Po"
         }
       ]
+    },
+    {
+      "titleId": "010067A00D35E000",
+      "title": "Gigantic Army",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010067A00D35E000.jpg",
+      "variants": [
+        {
+          "id": "v_f448bb3c",
+          "name": "GIGANTIC ARMY — GIGANTIC ARMY PV",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15wqsPQDQeckx_6V2XfJSzgsxSfxDrSXn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15wqsPQDQeckx_6V2XfJSzgsxSfxDrSXn&sz=w640",
+          "sizeBytes": 3484825,
+          "sha256": "094E38EBA47E69D6ABD41252A1EB2BCDA1470E2081A990CF29EAEC3E6A3765EA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | GIGANTIC ARMY — GIGANTIC ARMY PV"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A50018D38000",
+      "title": "Pulling no Punches",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A50018D38000.jpg",
+      "variants": [
+        {
+          "id": "v_0065b754",
+          "name": "Pulling No Punches — Launch Trailer - English",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tEIxNOC0fjrJb_3MZgvOKATvdvJlga84",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tEIxNOC0fjrJb_3MZgvOKATvdvJlga84&sz=w640",
+          "sizeBytes": 5167821,
+          "sha256": "79CB5D9F0875450A53D0D145CA36EBCA71870931C50E28015FB1DAAA25FF30C2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Pulling No Punches — Launch Trailer - En"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F7300BD8E000",
+      "title": "Double Cross",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F7300BD8E000.jpg",
+      "variants": [
+        {
+          "id": "v_b93aed12",
+          "name": "Double Cross — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1U9FY9BSXFutOq8aDL-4CKcfLymBciyUW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1U9FY9BSXFutOq8aDL-4CKcfLymBciyUW&sz=w640",
+          "sizeBytes": 5272617,
+          "sha256": "56B79A1B8DB05DD39C5D7B70CF707FE1B657F2C905C47DFA2BE686844F712EAD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Double Cross — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010027700FD2E000",
+      "title": "Decay of Logos",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010027700FD2E000.jpg",
+      "variants": [
+        {
+          "id": "v_b5976089",
+          "name": "Decay of Logos — Decay of Logos - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NWVOfpVTi3WQaZQoAg2lUi9LcS2baO5q",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NWVOfpVTi3WQaZQoAg2lUi9LcS2baO5q&sz=w640",
+          "sizeBytes": 3017945,
+          "sha256": "5414A9C36911600D5DD84BEE7347CF364EE0596C3ABE420A6F8611205A5DA33C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Decay of Logos — Decay of Logos - Launch"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BEB01C3BE000",
+      "title": "Train Traffic Manager",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BEB01C3BE000.jpg",
+      "variants": [
+        {
+          "id": "v_5bd53467",
+          "name": "Train Traffic Manager — Train Traffic Manager Re",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NQDlEzjHu5qo0mrZMasInS_tku9putY0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NQDlEzjHu5qo0mrZMasInS_tku9putY0&sz=w640",
+          "sizeBytes": 5465988,
+          "sha256": "FBEB8CD39490C32BC52C7EE3B7A03494346596EF5E1BB0644C91F643A8C03C17",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Train Traffic Manager — Train Traffic Ma"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FDB01AF54000",
+      "title": "Techno Banter",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FDB01AF54000.jpg",
+      "variants": [
+        {
+          "id": "v_63ec304c",
+          "name": "Techno Banter — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TlUnMfYGZ36FuzJTffuSvPpuFtTNazZ8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TlUnMfYGZ36FuzJTffuSvPpuFtTNazZ8&sz=w640",
+          "sizeBytes": 4813606,
+          "sha256": "B8F99758661AED3734361A34568D56CC6BAB3210B16E15A1F050610C4936BCEF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Techno Banter — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01001A900F862000",
+      "title": "Skelattack",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001A900F862000.jpg",
+      "variants": [
+        {
+          "id": "v_ec91779c",
+          "name": "Skelattack — Skelattack Accolade Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1f5qzpFuHucKkIMxQbkGKZfIjtDyhz7eD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1f5qzpFuHucKkIMxQbkGKZfIjtDyhz7eD&sz=w640",
+          "sizeBytes": 4539482,
+          "sha256": "BEB7E354284375E877C8F3D0A3EF2D325E08EC757182005230B04669F6DD39BE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Skelattack — Skelattack Accolade Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01002F1005F3C000",
+      "title": "Away: Journey To The Unexpected",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002F1005F3C000.jpg",
+      "variants": [
+        {
+          "id": "v_2787904e",
+          "name": "AWAY: Journey to the Unexpected — Gameplay Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13Ivh3dSUbp-faba-gfYecNohTzsW7P0k",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13Ivh3dSUbp-faba-gfYecNohTzsW7P0k&sz=w640",
+          "sizeBytes": 5390734,
+          "sha256": "16C47BD6FC304D32592A58A591FCE6ED0282A926C8089109A612F10641DACB31",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | AWAY: Journey to the Unexpected — Gamepl"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AA800DA42000",
+      "title": "Automachef",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AA800DA42000.jpg",
+      "variants": [
+        {
+          "id": "v_7eadfa19",
+          "name": "Automachef — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1u-CIFE64GrewMe4qvm6IHQuL_9zHW0ks",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1u-CIFE64GrewMe4qvm6IHQuL_9zHW0ks&sz=w640",
+          "sizeBytes": 5366644,
+          "sha256": "0933E4FF1B1D5A6A1A8278380D4F24168AADBE7D107A925CC5C92ADC8EC5F614",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Automachef — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010042100BAA6000",
+      "title": "Valthirian Arc Hero School Story",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010042100BAA6000.jpg",
+      "variants": [
+        {
+          "id": "v_508782fc",
+          "name": "Valthirian Arc: Hero School Story — Valthirian A",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1386a0gq3jpjSbWAsqkgn9ksr_1m039f7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1386a0gq3jpjSbWAsqkgn9ksr_1m039f7&sz=w640",
+          "sizeBytes": 5412777,
+          "sha256": "D39B3F9394E59607AC4A3F17F25BFF892B972879956166B0B4A74AB9EF11AF23",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Valthirian Arc: Hero School Story — Valt"
+        }
+      ]
     }
   ],
-  "totalGames": 4513,
-  "totalVariants": 5937,
-  "lastUpdated": "2026-11-10T10:04:02.912140+00:00"
+  "totalGames": 4523,
+  "totalVariants": 5947,
+  "lastUpdated": "2026-11-10T10:07:06.106267+00:00"
 }
