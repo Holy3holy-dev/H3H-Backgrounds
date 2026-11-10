@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T07:34:17.282894+00:00",
+  "updatedAt": "2026-11-10T07:37:19.428693+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -132308,9 +132308,269 @@
           "notes": "Switch 720p 30fps H264 | Tiny Witch — Tiny Witch - Trailer"
         }
       ]
+    },
+    {
+      "titleId": "010074901A702000",
+      "title": "Fragment's Note",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010074901A702000.jpg",
+      "variants": [
+        {
+          "id": "v_a0e6a3a7",
+          "name": "Fragment's Note+ — Fragment's Note+ (EN)",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16lcINJH8BIQBcNyKUhZ5dVX130DF4Hjr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16lcINJH8BIQBcNyKUhZ5dVX130DF4Hjr&sz=w640",
+          "sizeBytes": 2984809,
+          "sha256": "6084AF5E435D99136A75A1EE3E50689DEFB3D48DA99ABF1699176E4A7EB73AF3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fragment's Note+ — Fragment's Note+ (EN)"
+        }
+      ]
+    },
+    {
+      "titleId": "01005AF021654000",
+      "title": "Cooking Companions",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005AF021654000.jpg",
+      "variants": [
+        {
+          "id": "v_d935c43a",
+          "name": "Cooking Companions — Cooking Companions Consoles",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11Eu3dw0VqLNYVJ6hgD9tTqk_35lXoA5m",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11Eu3dw0VqLNYVJ6hgD9tTqk_35lXoA5m&sz=w640",
+          "sizeBytes": 5292482,
+          "sha256": "594317ADD084DA27D42EF784256BD2CDB508BF7BDC8E59F07225D4631C0E6BB4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cooking Companions — Cooking Companions "
+        }
+      ]
+    },
+    {
+      "titleId": "0100FC9017F08000",
+      "title": "Togges",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FC9017F08000.jpg",
+      "variants": [
+        {
+          "id": "v_0b602ccb",
+          "name": "Togges — Togges - Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SxJ6uz8F-g-dxRnDL_bKwMA4QCSVjRh3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SxJ6uz8F-g-dxRnDL_bKwMA4QCSVjRh3&sz=w640",
+          "sizeBytes": 5588018,
+          "sha256": "DA41C413CEB7C8213013E3A438EB74DA3BE55AE5C4950CFC056963D70ECB8615",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Togges — Togges - Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01007BA0164D8000",
+      "title": "Aloof",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007BA0164D8000.jpg",
+      "variants": [
+        {
+          "id": "v_4e1532eb",
+          "name": "Aloof — Release trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bGenoZEDonxnISZuNf7NMOizQG_BW1p0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bGenoZEDonxnISZuNf7NMOizQG_BW1p0&sz=w640",
+          "sizeBytes": 5365624,
+          "sha256": "3443064E7E115CD7DA8F0E57D0C87F6E73EE4DC6C2904869472C708BB2AD4E73",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Aloof — Release trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100186016478000",
+      "title": "A Long Journey to an Uncertain End",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100186016478000.jpg",
+      "variants": [
+        {
+          "id": "v_1f9aea53",
+          "name": "A Long Journey to an Uncertain End — Launch Trai",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SDTO6zUsXyYFaHJtdE8-WImlu4erFwAz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SDTO6zUsXyYFaHJtdE8-WImlu4erFwAz&sz=w640",
+          "sizeBytes": 5363277,
+          "sha256": "ABF8C8E5F8662701450F56BA20B6742308C0CA417349F9AAB75A5568FD622A90",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | A Long Journey to an Uncertain End — Lau"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C1E01CDEE000",
+      "title": "Raccoo Venture",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C1E01CDEE000.jpg",
+      "variants": [
+        {
+          "id": "v_b78b3945",
+          "name": "Raccoo Venture — Raccoo Venture",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CHp4PKM5iUXszAOO0whw41-8QsAxA-uc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CHp4PKM5iUXszAOO0whw41-8QsAxA-uc&sz=w640",
+          "sizeBytes": 5404161,
+          "sha256": "67FF7F76D6C8C5E60DA220B4C729700A5734ADAA90BDE73A97E98B0D90E313A6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Raccoo Venture — Raccoo Venture"
+        }
+      ]
+    },
+    {
+      "titleId": "010002600E17A000",
+      "title": "Maitetsu Pure Station",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010002600E17A000.jpg",
+      "variants": [
+        {
+          "id": "v_aa834dfb",
+          "name": "Maitetsu:Pure Station — OP1简体版",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1JOdgrKL0L75cShZ5QLyChtqyQ2KrndVL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1JOdgrKL0L75cShZ5QLyChtqyQ2KrndVL&sz=w640",
+          "sizeBytes": 5444715,
+          "sha256": "669D002632F8545F0A20C3307CEDE7592052D6CF1110F08D6753AEA8BD83CDC5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Maitetsu:Pure Station — OP1简体版"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A0A018D3A000",
+      "title": "Frogun Deluxe edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A0A018D3A000.jpg",
+      "variants": [
+        {
+          "id": "v_5a535996",
+          "name": "Frogun Encore — GC Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Akf_8j8x9G2uMeNDC-v-Qe0iT_KNMfLn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Akf_8j8x9G2uMeNDC-v-Qe0iT_KNMfLn&sz=w640",
+          "sizeBytes": 5485880,
+          "sha256": "4CB431412D8A3F96D4EC2CA6C0D44239EFC921067AE33F4283166ECDFE83BB6D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Frogun Encore — GC Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C7600F654000",
+      "title": "Juicy Realm",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C7600F654000.jpg",
+      "variants": [
+        {
+          "id": "v_509e760b",
+          "name": "Juicy Realm — JR _3.0",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1F_B2AfkyedUM535eFkrTHNVVlzP9A3jm",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1F_B2AfkyedUM535eFkrTHNVVlzP9A3jm&sz=w640",
+          "sizeBytes": 5534757,
+          "sha256": "57A4FE9D1E77CC91BEBE08F4742C02AFB7AE55773D8A0690D6337F5B4B0BC72F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Juicy Realm — JR _3.0"
+        }
+      ]
+    },
+    {
+      "titleId": "010082501DAF2000",
+      "title": "Hero of Fate",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010082501DAF2000.jpg",
+      "variants": [
+        {
+          "id": "v_54acb5e1",
+          "name": "Hero of Fate — PV",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15qPXKZQLFV0Xwg75tx8TLIDl7v7NFwxI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15qPXKZQLFV0Xwg75tx8TLIDl7v7NFwxI&sz=w640",
+          "sizeBytes": 4970286,
+          "sha256": "0BEE9542FE5C5D7A929143CBD9F8428811D162367BF91CFBD226F26FA626E691",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hero of Fate — PV"
+        }
+      ]
     }
   ],
-  "totalGames": 4033,
-  "totalVariants": 5457,
-  "lastUpdated": "2026-11-10T07:34:17.282894+00:00"
+  "totalGames": 4043,
+  "totalVariants": 5467,
+  "lastUpdated": "2026-11-10T07:37:19.428693+00:00"
 }
