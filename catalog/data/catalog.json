@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T10:10:11.447190+00:00",
+  "updatedAt": "2026-11-10T10:13:16.596440+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -145308,9 +145308,269 @@
           "notes": "Switch 720p 30fps H264 | Terrifier: The ARTcade Game — Launch Tra"
         }
       ]
+    },
+    {
+      "titleId": "0100CDC00C40A000",
+      "title": "Omensight Definitive edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CDC00C40A000.jpg",
+      "variants": [
+        {
+          "id": "v_3fbbfc43",
+          "name": "Omensight: Definitive Edition — Omensight - Laun",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XJwU6y0Rs2nck9-Mc6S8sas_Ln9yB5U_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XJwU6y0Rs2nck9-Mc6S8sas_Ln9yB5U_&sz=w640",
+          "sizeBytes": 3625259,
+          "sha256": "0B8F7DFEC327F177A52690B5E2205B7408812D3B19C12A6B15DF69FB2775BC14",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Omensight: Definitive Edition — Omensigh"
+        }
+      ]
+    },
+    {
+      "titleId": "01005F4009112000",
+      "title": "Nightmare Boy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005F4009112000.jpg",
+      "variants": [
+        {
+          "id": "v_3fd5eff8",
+          "name": "Nightmare Boy — Final Nightmare Boy Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Jt7emkTK4CROsudlqiyA2tMyYDfYINK3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Jt7emkTK4CROsudlqiyA2tMyYDfYINK3&sz=w640",
+          "sizeBytes": 7739227,
+          "sha256": "16A8F9B443ED156660E4AFB48511A7A443A3AF245E6D76AA22FE762727FC1307",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Nightmare Boy — Final Nightmare Boy Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B78006CCA000",
+      "title": "Neo Atlas 1469",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B78006CCA000.jpg",
+      "variants": [
+        {
+          "id": "v_40b2bedd",
+          "name": "Neo ATLAS 1469 — Neo ATLAS 1469 Opening Movie",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ho0QnT54_-xwEtqqWmg6A59FUZU_2dXQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ho0QnT54_-xwEtqqWmg6A59FUZU_2dXQ&sz=w640",
+          "sizeBytes": 4968905,
+          "sha256": "D560EE549F11A5085D57B182365F0CE78703E7FE270590AA472A23DD5675F8EB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Neo ATLAS 1469 — Neo ATLAS 1469 Opening "
+        }
+      ]
+    },
+    {
+      "titleId": "010031600ACF4000",
+      "title": "Path to Mnemosyne",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010031600ACF4000.jpg",
+      "variants": [
+        {
+          "id": "v_f7540f18",
+          "name": "Path to Mnemosyne — Path to Mnemosyne - Teaser t",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Sc73Xvx85Pg6wengcdsN9gA5XxkHMRIo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Sc73Xvx85Pg6wengcdsN9gA5XxkHMRIo&sz=w640",
+          "sizeBytes": 4242810,
+          "sha256": "B75EC4B733FEE2CA0646BDB2A3F5D8B000E7242CF27AABFC1CDEC4DB31EEDB11",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Path to Mnemosyne — Path to Mnemosyne - "
+        }
+      ]
+    },
+    {
+      "titleId": "0100CC7009196000",
+      "title": "Masters of Anima",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CC7009196000.jpg",
+      "variants": [
+        {
+          "id": "v_d82841c9",
+          "name": "Masters of Anima — Masters of Anima - Accolades ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ur10mxxTaI6dQs5ANY3qNK82UQ6CPxSn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ur10mxxTaI6dQs5ANY3qNK82UQ6CPxSn&sz=w640",
+          "sizeBytes": 5598390,
+          "sha256": "85E955473804EDDFEEB2A137C690B6833F14B174A56AF924CAB56CCE944F29F0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Masters of Anima — Masters of Anima - Ac"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C2700E338000",
+      "title": "Heroland",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C2700E338000.jpg",
+      "variants": [
+        {
+          "id": "v_25a489e6",
+          "name": "Heroland — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1N5CQie92PQjd2l7Md_xz2UULljqwE8yi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1N5CQie92PQjd2l7Md_xz2UULljqwE8yi&sz=w640",
+          "sizeBytes": 5109098,
+          "sha256": "5B2C6A5ED446D4A8C8A2D481CB2D01F72D18F0DF667A3804F5F5256605B3D0D3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Heroland — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010007700D4AC000",
+      "title": "The Forbidden Arts",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010007700D4AC000.jpg",
+      "variants": [
+        {
+          "id": "v_b8db0c6b",
+          "name": "The Forbidden Arts — Gameplay Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1f8sJt0iT-As4a0mWzFz2oX3K7dDYRbb_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1f8sJt0iT-As4a0mWzFz2oX3K7dDYRbb_&sz=w640",
+          "sizeBytes": 5182944,
+          "sha256": "526D640C698294660B8BFBFC9B159CD805BE1801E25B87C23F5A21C3E5C996AE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Forbidden Arts — Gameplay Launch Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "01006600193C2000",
+      "title": "Paradise Marsh",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006600193C2000.jpg",
+      "variants": [
+        {
+          "id": "v_3cb4b3e9",
+          "name": "Paradise Marsh — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Zv8SHK6kjyKkCBrO_xBqh7kVCIX4ZEfv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Zv8SHK6kjyKkCBrO_xBqh7kVCIX4ZEfv&sz=w640",
+          "sizeBytes": 5625409,
+          "sha256": "F31B321AD928E7810D4103DC97ACF602D64BA64C15B3EB9B284B746EB0C45938",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Paradise Marsh — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100093022F5C000",
+      "title": "Charming Hearts",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100093022F5C000.jpg",
+      "variants": [
+        {
+          "id": "v_26c379ae",
+          "name": "Charming Hearts — 怦然心动的她们-轻科幻真人互动恋爱影游-6月14日正式发售",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1humsievfnTLvKyNVV2nHu7gE8GC89JCv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1humsievfnTLvKyNVV2nHu7gE8GC89JCv&sz=w640",
+          "sizeBytes": 5209476,
+          "sha256": "0AE5EBE246F91BAAFE523FA37ECD46405DC57C60C3CB57EF5F41E2D8B46EDB2E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Charming Hearts — 怦然心动的她们-轻科幻真人互动恋爱影游-6月"
+        }
+      ]
+    },
+    {
+      "titleId": "010085F00B93A000",
+      "title": "Western 1849 Reloaded",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010085F00B93A000.jpg",
+      "variants": [
+        {
+          "id": "v_b317a09c",
+          "name": "Western 1849 Reloaded — Western 1849 Reloaded Ga",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1x_7T6qZXQ0ZTDSeJhMOhWmFqQQaCECRv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1x_7T6qZXQ0ZTDSeJhMOhWmFqQQaCECRv&sz=w640",
+          "sizeBytes": 5228400,
+          "sha256": "FFEC6AC0A3D1C20A3A7813B0FAA4A781836110DA66BE3989AC3684471D072C82",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Western 1849 Reloaded — Western 1849 Rel"
+        }
+      ]
     }
   ],
-  "totalGames": 4533,
-  "totalVariants": 5957,
-  "lastUpdated": "2026-11-10T10:10:11.447190+00:00"
+  "totalGames": 4543,
+  "totalVariants": 5967,
+  "lastUpdated": "2026-11-10T10:13:16.596440+00:00"
 }
