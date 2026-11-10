@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T04:53:16.579344+00:00",
+  "updatedAt": "2026-11-10T04:56:15.241899+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -118788,9 +118788,269 @@
           "notes": "Switch 720p 30fps H264 | Dosa Divas — Dosa Divas - Launch Trailer"
         }
       ]
+    },
+    {
+      "titleId": "010065D014E0A000",
+      "title": "Dollhouse",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010065D014E0A000.jpg",
+      "variants": [
+        {
+          "id": "v_f6b28cd9",
+          "name": "HAUNTED: Escape the Dollhouse — Haunted Announce",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Yub_9yJDoOiJcVdNYgp-f-xZkv51Pi9o",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Yub_9yJDoOiJcVdNYgp-f-xZkv51Pi9o&sz=w640",
+          "sizeBytes": 4938259,
+          "sha256": "0E11B6C416F90C7F685F8BCA824356706EE4545E986E63AC4DE2279B0608B993",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | HAUNTED: Escape the Dollhouse — Haunted "
+        }
+      ]
+    },
+    {
+      "titleId": "0100250018710000",
+      "title": "Children of Silentown",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100250018710000.jpg",
+      "variants": [
+        {
+          "id": "v_b80d18bc",
+          "name": "Children of Silentown — OUTNOW_EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tMNnMCsSsbLtPnygthIz0UeZgyMsLsE8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tMNnMCsSsbLtPnygthIz0UeZgyMsLsE8&sz=w640",
+          "sizeBytes": 4639750,
+          "sha256": "E752F80ADE00E2A15206F3B3B6680122D2C4FBB71C2BC797557C659EB18DE448",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Children of Silentown — OUTNOW_EN"
+        }
+      ]
+    },
+    {
+      "titleId": "010069100B7F1000",
+      "title": "The Caligula Effect: Overdose",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010069100B7F1000.jpg",
+      "variants": [
+        {
+          "id": "v_69a37d73",
+          "name": "The Caligula Effect: Overdose — The Caligula Eff",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vPMcrWUMYfAmFEGj22m_-_HrUgjmuVn9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vPMcrWUMYfAmFEGj22m_-_HrUgjmuVn9&sz=w640",
+          "sizeBytes": 3428937,
+          "sha256": "91E99844FCDC104CC3C9C1FF8037608C8FA2D528079FEEA3F6A7038FE0C06566",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Caligula Effect: Overdose — The Cali"
+        }
+      ]
+    },
+    {
+      "titleId": "0100ADB0183A6000",
+      "title": "A Winding Path",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100ADB0183A6000.jpg",
+      "variants": [
+        {
+          "id": "v_5e81d02c",
+          "name": "A Winding Path — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vgZB7ysjyv7AMEYben8WPipsA0WlV-xi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vgZB7ysjyv7AMEYben8WPipsA0WlV-xi&sz=w640",
+          "sizeBytes": 4958964,
+          "sha256": "7C33DBD6C7DDFDCBB25D376852E8B997F3BECF93DB7A8F34A6B76ACF26EE50EE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | A Winding Path — Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01003DE00C95E000",
+      "title": "Mary Skelter 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003DE00C95E000.jpg",
+      "variants": [
+        {
+          "id": "v_b825d3ed",
+          "name": "Mary Skelter 2 — Mary Skelter 2 Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1R5G6gA8KYnQIVLvbLP1vHW7BbzBP9_6N",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1R5G6gA8KYnQIVLvbLP1vHW7BbzBP9_6N&sz=w640",
+          "sizeBytes": 2983858,
+          "sha256": "82E276D6898D41E0D788B4EBEDDB3EBD4C28C295F41A58A653D3D49AEE38C22B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mary Skelter 2 — Mary Skelter 2 Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E7500BF84000",
+      "title": "Legrand Legacy Tale of the Fatebounds",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E7500BF84000.jpg",
+      "variants": [
+        {
+          "id": "v_73ceea9e",
+          "name": "LEGRAND LEGACY: Tale of the Fatebounds — Legrand",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xBGkCvp-8rNaUSJckYsSexlqPtKrzX5E",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xBGkCvp-8rNaUSJckYsSexlqPtKrzX5E&sz=w640",
+          "sizeBytes": 5005059,
+          "sha256": "06F3B1CFC6AF0193C1225B33AA4CE801F659E5816B038666D47535C09B220B3B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | LEGRAND LEGACY: Tale of the Fatebounds —"
+        }
+      ]
+    },
+    {
+      "titleId": "0100600020CA4000",
+      "title": "Echoes of the Plum Grove",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100600020CA4000.jpg",
+      "variants": [
+        {
+          "id": "v_274c936c",
+          "name": "Echoes of the Plum Grove — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Bod4Vz9T9fTcKyuHYZdQAA3CLF8-UnqR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Bod4Vz9T9fTcKyuHYZdQAA3CLF8-UnqR&sz=w640",
+          "sizeBytes": 5225894,
+          "sha256": "FC94B9361298476E03650EC522DB4168C25CB220B0FEB6D08EF9247C18E205C8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Echoes of the Plum Grove — Launch Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A49012D10000",
+      "title": "Street Outlaws 2 Winner Takes All",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A49012D10000.jpg",
+      "variants": [
+        {
+          "id": "v_8dc9e825",
+          "name": "Street Outlaws 2: Winner Takes All — Street Outl",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OS_TXCpfavkRsPMKmL0w8NJLMJB8T_S7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OS_TXCpfavkRsPMKmL0w8NJLMJB8T_S7&sz=w640",
+          "sizeBytes": 3843712,
+          "sha256": "01B6F7F5C4784A60776C7FEB155CFB9AA5065483A8888BF84BBC5C46BFE6B0E7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Street Outlaws 2: Winner Takes All — Str"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F3C021D4E000",
+      "title": "Art Heist",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F3C021D4E000.jpg",
+      "variants": [
+        {
+          "id": "v_906479af",
+          "name": "Art Heist — Art Heist Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1uC6Jxs1OMiZZc8UriGUtWgblPBrU-97D",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1uC6Jxs1OMiZZc8UriGUtWgblPBrU-97D&sz=w640",
+          "sizeBytes": 5373869,
+          "sha256": "5B684DD0EEDF6B4FE7018FA33B7F720E24E913B6638D74B6CE406DD36DC069FB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Art Heist — Art Heist Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CC3014C74000",
+      "title": "Spirits of Xanadu",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CC3014C74000.jpg",
+      "variants": [
+        {
+          "id": "v_f3437ff0",
+          "name": "Spirits of Xanadu — Spirits of Xanadu trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1o3yexmDrmemKz31dEEKLJnbBfWEc9dph",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1o3yexmDrmemKz31dEEKLJnbBfWEc9dph&sz=w640",
+          "sizeBytes": 4891277,
+          "sha256": "60DE9C5D2E15E22F50641154D4482091DB0586D8C4ED40422795F7A4C0BD60C6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Spirits of Xanadu — Spirits of Xanadu tr"
+        }
+      ]
     }
   ],
-  "totalGames": 3513,
-  "totalVariants": 4937,
-  "lastUpdated": "2026-11-10T04:53:16.579344+00:00"
+  "totalGames": 3523,
+  "totalVariants": 4947,
+  "lastUpdated": "2026-11-10T04:56:15.241899+00:00"
 }
