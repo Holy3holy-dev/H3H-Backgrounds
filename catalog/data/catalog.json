@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T21:06:24Z",
+  "updatedAt": "2026-11-10T21:07:24Z",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -11818,7 +11818,37 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 01004C3444320000_Left_4_Dead_2.mp4"
+          "notes": "Google Drive: 01004C3444320000_Left_4_Dead_2.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1CxVC2fpYrSPiBQyPxKKzWbv6FUfeImxU",
+          "iconSizeBytes": 103716,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
+        },
+        {
+          "id": "icon-01004c3444320000",
+          "name": "4IFIR Иконка: Left 4 Dead 2",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CxVC2fpYrSPiBQyPxKKzWbv6FUfeImxU",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1CxVC2fpYrSPiBQyPxKKzWbv6FUfeImxU",
+          "sizeBytes": 103716,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1CxVC2fpYrSPiBQyPxKKzWbv6FUfeImxU",
+          "iconSizeBytes": 103716,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -169851,6 +169881,6 @@
     }
   ],
   "totalGames": 5418,
-  "totalVariants": 6893,
-  "lastUpdated": "2026-11-10T21:06:24Z"
+  "totalVariants": 6894,
+  "lastUpdated": "2026-11-10T21:07:24Z"
 }
