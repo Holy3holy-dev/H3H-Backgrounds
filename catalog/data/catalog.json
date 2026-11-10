@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T02:14:59.702909+00:00",
+  "updatedAt": "2026-11-10T02:17:55.282829+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -105268,9 +105268,269 @@
           "notes": "Switch 720p 30fps H264 | Toy Soldiers: HD — Toy Soldiers HD Steam"
         }
       ]
+    },
+    {
+      "titleId": "01009A4023168000",
+      "title": "Clawpunk",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009A4023168000.jpg",
+      "variants": [
+        {
+          "id": "v_660c4eed",
+          "name": "CLAWPUNK — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1frojYuhyBT7uW2Dzwcv_BCoKkjNU85YW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1frojYuhyBT7uW2Dzwcv_BCoKkjNU85YW&sz=w640",
+          "sizeBytes": 5483053,
+          "sha256": "83FE29B2E45DCC49CC11D725944F9D6AB054A1530B55184FF37C11B60FDBA397",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | CLAWPUNK — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01000C8017718000",
+      "title": "Drill Deal Oil Tycoon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000C8017718000.jpg",
+      "variants": [
+        {
+          "id": "v_104e9521",
+          "name": "Drill Deal – Oil Tycoon — NO UT",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1uM-uB9VDSDJWkAJP7UmpyFX-_fdte6Pr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1uM-uB9VDSDJWkAJP7UmpyFX-_fdte6Pr&sz=w640",
+          "sizeBytes": 5571298,
+          "sha256": "8A75F3536606FA7B81F5689B61F234B6CEC1C7D84D4813620C4B108DB8C3C2DC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Drill Deal – Oil Tycoon — NO UT"
+        }
+      ]
+    },
+    {
+      "titleId": "0100198A02A99000",
+      "title": "Record of Agarest War",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100198A02A99000.jpg",
+      "variants": [
+        {
+          "id": "v_a63343b0",
+          "name": "Record of Agarest War Mariage — Agarest Mariage ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mJCRprRG8FS1OCGxUP0PhrNPHIhcLEFS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mJCRprRG8FS1OCGxUP0PhrNPHIhcLEFS&sz=w640",
+          "sizeBytes": 5419907,
+          "sha256": "E651BC749DBA7BA3647FB549B27EDA0AD364DB5A3A07C12DF23EF1C5AD9C7C03",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Record of Agarest War Mariage — Agarest "
+        }
+      ]
+    },
+    {
+      "titleId": "01005100195B2000",
+      "title": "It's Kooky",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005100195B2000.jpg",
+      "variants": [
+        {
+          "id": "v_c4347072",
+          "name": "It's Kooky — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1boAR_Sf-oI2eKWA05W4Qqa-W--_dwSfT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1boAR_Sf-oI2eKWA05W4Qqa-W--_dwSfT&sz=w640",
+          "sizeBytes": 5190588,
+          "sha256": "78F56B6CCF7134A07B1B0AA3CD59C0C3553199868628CDA2737CA50B1383FE42",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | It's Kooky — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010094501B6C8000",
+      "title": "A Building Full of Cats",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010094501B6C8000.jpg",
+      "variants": [
+        {
+          "id": "v_447e5dad",
+          "name": "A Building Full of Cats — Launch",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_SpK5FmC_TANpfzcekbfEAVjJ_L6nAGf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_SpK5FmC_TANpfzcekbfEAVjJ_L6nAGf&sz=w640",
+          "sizeBytes": 5086215,
+          "sha256": "961DB9A9159D96456332C05206DC16BAA8243093F4F6CB8DFCFAE3C4DCBB384C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | A Building Full of Cats — Launch"
+        }
+      ]
+    },
+    {
+      "titleId": "010054901911A000",
+      "title": "Tinkertown",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010054901911A000.jpg",
+      "variants": [
+        {
+          "id": "v_ba43f6f8",
+          "name": "Tinkertown — Tinkertown - Full Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rA0NwecsjSudfTzxfarL8zwvXk7u8wiC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rA0NwecsjSudfTzxfarL8zwvXk7u8wiC&sz=w640",
+          "sizeBytes": 5393643,
+          "sha256": "735FA35F6544AA3DDEE354E42606D2F1229228BD877BAEE7E584D1EE662C4350",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tinkertown — Tinkertown - Full Release T"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C8D01F9FA000",
+      "title": "Popucom",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C8D01F9FA000.jpg",
+      "variants": [
+        {
+          "id": "v_0a259bfa",
+          "name": "POPUCOM — release PV",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wAcFL-HDyfIw7TgMTRcFKJVCOjScI8DJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wAcFL-HDyfIw7TgMTRcFKJVCOjScI8DJ&sz=w640",
+          "sizeBytes": 3548481,
+          "sha256": "74FCBC8B3E510B5F1EC1CB133AB9CB6A66AB6B4D7C2A5198F066DD56A0C14F21",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | POPUCOM — release PV"
+        }
+      ]
+    },
+    {
+      "titleId": "01007430122D0000",
+      "title": "Shiren the Wanderer The Tower of Fortune and the Dice of Fate",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007430122D0000.jpg",
+      "variants": [
+        {
+          "id": "v_3372944f",
+          "name": "Shiren the Wanderer: The Tower of Fortune and th",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kWkLoUOGMESfPI_jwONoqVMrZlHa_UoQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kWkLoUOGMESfPI_jwONoqVMrZlHa_UoQ&sz=w640",
+          "sizeBytes": 4871625,
+          "sha256": "73A789031F9A9BAFBC3A78C71CE83F29A65EC71E26128AD3CD28912ACE55C6F1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Shiren the Wanderer: The Tower of Fortun"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E20012952000",
+      "title": "Card Shark",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E20012952000.jpg",
+      "variants": [
+        {
+          "id": "v_6d00e636",
+          "name": "Card Shark — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kISy49B6CHbcF1MhSYH9kL_UGWZRwzoz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kISy49B6CHbcF1MhSYH9kL_UGWZRwzoz&sz=w640",
+          "sizeBytes": 4965351,
+          "sha256": "8C32F2A2ECF54A0C259FFE3D3C44BDDFF613E60A7C5826BCCF783C9591621085",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Card Shark — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BF800DFAC000",
+      "title": "Dungeon Defenders Awakened",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BF800DFAC000.jpg",
+      "variants": [
+        {
+          "id": "v_be0af4c9",
+          "name": "Dungeon Defenders: Awakened — DD:A The Lycan's K",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mN0kS5UcmxIoMyPd_qClEA7rZNW_WFuf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mN0kS5UcmxIoMyPd_qClEA7rZNW_WFuf&sz=w640",
+          "sizeBytes": 3888732,
+          "sha256": "2668CF90D56D3FDED5512F963E5263C5B4982A987BA62ED736AFA085DDE74B1D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dungeon Defenders: Awakened — DD:A The L"
+        }
+      ]
     }
   ],
-  "totalGames": 2993,
-  "totalVariants": 4417,
-  "lastUpdated": "2026-11-10T02:14:59.702909+00:00"
+  "totalGames": 3003,
+  "totalVariants": 4427,
+  "lastUpdated": "2026-11-10T02:17:55.282829+00:00"
 }
