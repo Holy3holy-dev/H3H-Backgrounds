@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T00:59:35.524249+00:00",
+  "updatedAt": "2026-11-10T01:02:38.914196+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -99808,9 +99808,269 @@
           "notes": "Switch 720p 30fps H264 | KnifeBoy Rebooted — KnifeBoy Rebooted"
         }
       ]
+    },
+    {
+      "titleId": "01005B10214E4000",
+      "title": "Jumper Jon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005B10214E4000.jpg",
+      "variants": [
+        {
+          "id": "v_979e8117",
+          "name": "Jumper Jon — Steam Announcement",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1W-5J5XM5OhYgoh9LHe9Yq6o75LTN_UnC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1W-5J5XM5OhYgoh9LHe9Yq6o75LTN_UnC&sz=w640",
+          "sizeBytes": 5493751,
+          "sha256": "D73970ADE4A10AF917B31294A5954E34965D48400A156F7FED39BAD5AF639F14",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Jumper Jon — Steam Announcement"
+        }
+      ]
+    },
+    {
+      "titleId": "010091300FFA0000",
+      "title": "Grizzland",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010091300FFA0000.jpg",
+      "variants": [
+        {
+          "id": "v_0f9e7dd8",
+          "name": "Grizzland — Grizzland Steam Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vgCweo-2WmXvhl6Ei54W2OCHt9ndLWxt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vgCweo-2WmXvhl6Ei54W2OCHt9ndLWxt&sz=w640",
+          "sizeBytes": 7040701,
+          "sha256": "9AFFFFD74BBB49BFAD1E9CB91391C53C5C66A7C7D5EC287DCB6866D47EC6BB8B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Grizzland — Grizzland Steam Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010082201B00C000",
+      "title": "Ak Xolotl",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010082201B00C000.jpg",
+      "variants": [
+        {
+          "id": "v_1135c1ec",
+          "name": "AK-xolotl: Together — AK-xolotl CO-OP Update Tra",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1n_j_Huvh_r44rVrGU8mkjmLln_kNWPtM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1n_j_Huvh_r44rVrGU8mkjmLln_kNWPtM&sz=w640",
+          "sizeBytes": 5151253,
+          "sha256": "91D05F2F6B266A9B7414756205B6F441D7DFBA2B3D87477DD1C8636588A4A9CC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | AK-xolotl: Together — AK-xolotl CO-OP Up"
+        }
+      ]
+    },
+    {
+      "titleId": "01005A5011A44000",
+      "title": "Nexomon Extinction",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005A5011A44000.jpg",
+      "variants": [
+        {
+          "id": "v_f8ba5132",
+          "name": "Nexomon: Extinction — RPG Adventure",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gIvXNwHRykfinCZbayx2bYm8sD3ddmhc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gIvXNwHRykfinCZbayx2bYm8sD3ddmhc&sz=w640",
+          "sizeBytes": 5289006,
+          "sha256": "2C3F1DC1331B7BD774729F4C6A46C3244B8AB8AF7AAA233B94B6411C3F1C0ECD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Nexomon: Extinction — RPG Adventure"
+        }
+      ]
+    },
+    {
+      "titleId": "01007FB010DC8000",
+      "title": "Paradise Killer",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007FB010DC8000.jpg",
+      "variants": [
+        {
+          "id": "v_2eabef91",
+          "name": "Paradise Killer — Update Trailer - Available Now",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tKkp28dfWPh4NOmBnXweGlHRwgQPiJXi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tKkp28dfWPh4NOmBnXweGlHRwgQPiJXi&sz=w640",
+          "sizeBytes": 5363470,
+          "sha256": "9E06ABA1D72DF6DC277D2D215285FCA1C7C1A48D5F76F0B4202552F4DB22BDA3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Paradise Killer — Update Trailer - Avail"
+        }
+      ]
+    },
+    {
+      "titleId": "01002290253B4000",
+      "title": "Dustland Delivery",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002290253B4000.jpg",
+      "variants": [
+        {
+          "id": "v_d74c0e55",
+          "name": "Dustland Delivery — Dustland Delivery 1.0 Previe",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zD3xsF4PmhCi33xwYhngAy_iFqwXoQhf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zD3xsF4PmhCi33xwYhngAy_iFqwXoQhf&sz=w640",
+          "sizeBytes": 5081122,
+          "sha256": "05DF89B589FEC7C3820F601B8609C541F3E75F9CA1FA2D2BB79B6C0F92E230B2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dustland Delivery — Dustland Delivery 1."
+        }
+      ]
+    },
+    {
+      "titleId": "0100E54024086000",
+      "title": "Bloodshed",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E54024086000.jpg",
+      "variants": [
+        {
+          "id": "v_0d499da2",
+          "name": "Bloodshed — Full Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rA7GBmQtYnqRNfsbIrURjwML1TXWXXG3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rA7GBmQtYnqRNfsbIrURjwML1TXWXXG3&sz=w640",
+          "sizeBytes": 5575984,
+          "sha256": "B09828D7B579383983C9DD445E13285679658096173E1609A3E583DBFD4D93D8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bloodshed — Full Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010048802017A000",
+      "title": "Amedama",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010048802017A000.jpg",
+      "variants": [
+        {
+          "id": "v_172aa9ba",
+          "name": "AMEDAMA — AMEDAMA_Trailer_EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tU0r8_9dJZgexr95XauMthKiQYLQI1qz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tU0r8_9dJZgexr95XauMthKiQYLQI1qz&sz=w640",
+          "sizeBytes": 5375588,
+          "sha256": "84700B36D25D9F2B18546C08697AC498252078123D4F87DA5829957FC338DDB5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | AMEDAMA — AMEDAMA_Trailer_EN"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CFA024B18000",
+      "title": "The Good Old Days",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CFA024B18000.jpg",
+      "variants": [
+        {
+          "id": "v_7acc2d8b",
+          "name": "THE GOOD OLD DAYS — Trailer_EN_03",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Qjp8IrEbBnRenaF5RbZtWCvE8e3kiU0y",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Qjp8IrEbBnRenaF5RbZtWCvE8e3kiU0y&sz=w640",
+          "sizeBytes": 5473393,
+          "sha256": "C9FE7A2E2806D0A3ADC2AFB02BD4FFE307F0FE00176A38855FA7127BE7A6E046",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | THE GOOD OLD DAYS — Trailer_EN_03"
+        }
+      ]
+    },
+    {
+      "titleId": "01002F300D9CE000",
+      "title": "Distrust",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002F300D9CE000.jpg",
+      "variants": [
+        {
+          "id": "v_f8990ece",
+          "name": "Distrust: Polar Survival — coop_trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1L0qfuk3poXAOO53tDkAe7A5vkbPIwJzp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1L0qfuk3poXAOO53tDkAe7A5vkbPIwJzp&sz=w640",
+          "sizeBytes": 5338824,
+          "sha256": "24EB1BBE367828EB7EFA0BC0D339E29ADD253234334A6D4761B716EA022514FE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Distrust: Polar Survival — coop_trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 2783,
-  "totalVariants": 4207,
-  "lastUpdated": "2026-11-10T00:59:35.524249+00:00"
+  "totalGames": 2793,
+  "totalVariants": 4217,
+  "lastUpdated": "2026-11-10T01:02:38.914196+00:00"
 }
