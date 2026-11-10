@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T10:00:40.560911+00:00",
+  "updatedAt": "2026-11-10T10:04:02.912140+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -144528,9 +144528,269 @@
           "notes": "Switch 720p 30fps H264 | Octahedron: Transfixed Edition — ESRB EN"
         }
       ]
+    },
+    {
+      "titleId": "010015500F186000",
+      "title": "Lanternium",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010015500F186000.jpg",
+      "variants": [
+        {
+          "id": "v_ec344087",
+          "name": "Lanternium — Gameplay trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1W4JJnCLGMWqGl4xRx2U-cSDpCCvZll5M",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1W4JJnCLGMWqGl4xRx2U-cSDpCCvZll5M&sz=w640",
+          "sizeBytes": 5227025,
+          "sha256": "A66DCC8DED04DF8E57F5A14570839951ABF3F88ABCD4BF90AB1CB63CC1C891BF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lanternium — Gameplay trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010091700D826000",
+      "title": "Raiders of the North Sea",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010091700D826000.jpg",
+      "variants": [
+        {
+          "id": "v_592edee6",
+          "name": "Raiders of the North Sea — RaidersOfTheNorthSea_",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ORUBtNpqIfh4LVGs2SXI7NMrOkiIwdFS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ORUBtNpqIfh4LVGs2SXI7NMrOkiIwdFS&sz=w640",
+          "sizeBytes": 5206875,
+          "sha256": "D777142816F20D6B90B9D14DEE342FDF7E9058808FC705B8EAB09C1629683EC8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Raiders of the North Sea — RaidersOfTheN"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C3A00BB76000",
+      "title": "Fimbul",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C3A00BB76000.jpg",
+      "variants": [
+        {
+          "id": "v_52a7457b",
+          "name": "Fimbul's Gemboree — Fimbul's Gemboree Gameplay T",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11zbpVIctD0BJ7cJFkSXYEQM2M_MLzTOY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11zbpVIctD0BJ7cJFkSXYEQM2M_MLzTOY&sz=w640",
+          "sizeBytes": 5301491,
+          "sha256": "737A164A9ADC8FF86DA47649E7CD7B80D3D82AE069E4B418C5C4D1C2CA3512E7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fimbul's Gemboree — Fimbul's Gemboree Ga"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A9500C606000",
+      "title": "Ghoulboy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A9500C606000.jpg",
+      "variants": [
+        {
+          "id": "v_046c7c2b",
+          "name": "Ghoulboy - Dark Sword of Goblin — En yeni ps4",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nY8fhHbk6PDaGGU-ZElBxO2Hw34g_BVk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nY8fhHbk6PDaGGU-ZElBxO2Hw34g_BVk&sz=w640",
+          "sizeBytes": 5194641,
+          "sha256": "4C64D5DB7A2BF34C24AC9B6FF153F3BFA0E06A1135C51DAF0B42184D0BBA28A2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ghoulboy - Dark Sword of Goblin — En yen"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C41009E1A000",
+      "title": "Mimpi Dreams",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C41009E1A000.jpg",
+      "variants": [
+        {
+          "id": "v_a1307864",
+          "name": "Mimpi Dreams — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1E9JNVU1XLYUxghzZWtgzspCgi1LNPqmR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1E9JNVU1XLYUxghzZWtgzspCgi1LNPqmR&sz=w640",
+          "sizeBytes": 5181227,
+          "sha256": "DBE9BE22A3505D64A5F0302579B9459B446B4A2AE3AFF663BBA667B0F1756F5F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mimpi Dreams — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F61022CBA000",
+      "title": "Hogtie",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F61022CBA000.jpg",
+      "variants": [
+        {
+          "id": "v_61b23118",
+          "name": "Hogtie — Hogtie - Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wmtV33iJuqvEHp7IBHlW-pvhO7s4749e",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wmtV33iJuqvEHp7IBHlW-pvhO7s4749e&sz=w640",
+          "sizeBytes": 5286151,
+          "sha256": "24838F7046EFCAAE1C53578AFF386F4B1D7DB5ECDC72EC1672DA3027762A43BE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hogtie — Hogtie - Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010042E015C40000",
+      "title": "Draw Rider Remake",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010042E015C40000.jpg",
+      "variants": [
+        {
+          "id": "v_4ecd0911",
+          "name": "Draw Rider Remake — Draw Rider Remake - Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15WZGy1DoJjYZIu6DbdYQjVElpChl977c",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15WZGy1DoJjYZIu6DbdYQjVElpChl977c&sz=w640",
+          "sizeBytes": 5149439,
+          "sha256": "05BAB158B81CFA85BAD4080260FF558C2AEA080F64110B55777CE47DD3561ACA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Draw Rider Remake — Draw Rider Remake - "
+        }
+      ]
+    },
+    {
+      "titleId": "0100F6B01188E000",
+      "title": "Little Big Workshop",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F6B01188E000.jpg",
+      "variants": [
+        {
+          "id": "v_d2ed2bd2",
+          "name": "Little Big Workshop — Announcement Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vh0xT2Cf78r2slfcdLBYh0Hkev73b_bL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vh0xT2Cf78r2slfcdLBYh0Hkev73b_bL&sz=w640",
+          "sizeBytes": 4554433,
+          "sha256": "09C86E708D7DBCD82451243224615D8202D61775D7B188D28722CB9430BB39CB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Little Big Workshop — Announcement Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "01006EA00D892000",
+      "title": "Hyperforma",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006EA00D892000.jpg",
+      "variants": [
+        {
+          "id": "v_d320531d",
+          "name": "Hyperforma — Hyperforma - Release Trailer (Eng)",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IBHW24ZuGzySLDJzuBcrcTk-P9oZRurb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IBHW24ZuGzySLDJzuBcrcTk-P9oZRurb&sz=w640",
+          "sizeBytes": 5028060,
+          "sha256": "D8C0BCE81451A8EC3003B5D527726B997B2869D1265AEACA6B08D7B487130382",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hyperforma — Hyperforma - Release Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "010096B009E12000",
+      "title": "Holy Potatoes! What The Hell?!",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010096B009E12000.jpg",
+      "variants": [
+        {
+          "id": "v_e670a953",
+          "name": "Holy Potatoes! What the Hell?! — Holy Potatoes! ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1n5r3TgopF3zYqkj6D7rVtzcPivjQN-hI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1n5r3TgopF3zYqkj6D7rVtzcPivjQN-hI&sz=w640",
+          "sizeBytes": 4888805,
+          "sha256": "E51950DD925DE206507B4F4436915C4A2BF67A9435DD3B407FFF29A7939B1F00",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Holy Potatoes! What the Hell?! — Holy Po"
+        }
+      ]
     }
   ],
-  "totalGames": 4503,
-  "totalVariants": 5927,
-  "lastUpdated": "2026-11-10T10:00:40.560911+00:00"
+  "totalGames": 4513,
+  "totalVariants": 5937,
+  "lastUpdated": "2026-11-10T10:04:02.912140+00:00"
 }
