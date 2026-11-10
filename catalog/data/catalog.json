@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T00:18:37.842539+00:00",
+  "updatedAt": "2026-11-10T00:21:33.238242+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -96168,9 +96168,269 @@
           "notes": "Switch 720p 30fps H264 | Teenage Mutant Ninja Turtles: Tactical T"
         }
       ]
+    },
+    {
+      "titleId": "01003C60225CA000",
+      "title": "Ninja Ming",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003C60225CA000.jpg",
+      "variants": [
+        {
+          "id": "v_0c358a60",
+          "name": "Ninja Ming — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10mSgQQfgw0VTVxRrIgDdws42hLcdFbMQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10mSgQQfgw0VTVxRrIgDdws42hLcdFbMQ&sz=w640",
+          "sizeBytes": 5287889,
+          "sha256": "6A7BA542E73E457277B305CB4C3271F607DF5C38DAC8A388BC926226FD2BD7A0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ninja Ming — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01005CB01F4AC000",
+      "title": "The Last Ninja Collection",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005CB01F4AC000.jpg",
+      "variants": [
+        {
+          "id": "v_81d4341a",
+          "name": "The Last Ninja Collection + Bonus Games — Last N",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SWmoL3UF9Q5teMj83Oqqct9GtrgrcMMm",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SWmoL3UF9Q5teMj83Oqqct9GtrgrcMMm&sz=w640",
+          "sizeBytes": 5515736,
+          "sha256": "0233EB43424160DDE140A8F238A2F31457BC01F382246BBD76061F08914B78C6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Last Ninja Collection + Bonus Games "
+        }
+      ]
+    },
+    {
+      "titleId": "0100A8401AEF4000",
+      "title": "Mugen Souls Z",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A8401AEF4000.jpg",
+      "variants": [
+        {
+          "id": "v_6564cf88",
+          "name": "Mugen Souls Z — Mugen Souls Z",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1j_b5pkDxEET5_JHuD99df6XFDAKCxCYu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1j_b5pkDxEET5_JHuD99df6XFDAKCxCYu&sz=w640",
+          "sizeBytes": 4273809,
+          "sha256": "FD633DC4E4405F4A640F30FF2FCADCFEF8B2483E765C7C0C3F6EB3009CB1607C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mugen Souls Z — Mugen Souls Z"
+        }
+      ]
+    },
+    {
+      "titleId": "01002350196EA000",
+      "title": "Shinobi Non Grata",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002350196EA000.jpg",
+      "variants": [
+        {
+          "id": "v_d2a8e65c",
+          "name": "SHINOBI NON GRATA — Trailer final",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BGgvSEQN7iyzcsa9XhNYRCypR003hWha",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BGgvSEQN7iyzcsa9XhNYRCypR003hWha&sz=w640",
+          "sizeBytes": 5582431,
+          "sha256": "02AC44DDA59AB72B3F9F238D540D307C52C08A167AD5E230FFF3EA26AE0CBB87",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | SHINOBI NON GRATA — Trailer final"
+        }
+      ]
+    },
+    {
+      "titleId": "01009B4017556000",
+      "title": "Jumanji Wild Adventures",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009B4017556000.jpg",
+      "variants": [
+        {
+          "id": "v_3940960f",
+          "name": "Jumanji: Wild Adventures — Launch Trailer ESRB",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13ubWQHj1jTOENqDwJyX_XSWroEl_m8_Y",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13ubWQHj1jTOENqDwJyX_XSWroEl_m8_Y&sz=w640",
+          "sizeBytes": 5351164,
+          "sha256": "5A836EE20F7046BF18A06EC00E45D886EE367576B6909F8A58460578F78BE2E4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Jumanji: Wild Adventures — Launch Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "010074E0162D6000",
+      "title": "Vengeful Heart",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010074E0162D6000.jpg",
+      "variants": [
+        {
+          "id": "v_c64832f1",
+          "name": "Vengeful Heart — Vengeful Heart Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1c_SUW-C6uoRdQAxaMHIXcoSRjNFldkOY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1c_SUW-C6uoRdQAxaMHIXcoSRjNFldkOY&sz=w640",
+          "sizeBytes": 5324364,
+          "sha256": "61772DAAC2D99155B4765F2E56C1696EEC2F7356137E533E21C2BA211A35BB15",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Vengeful Heart — Vengeful Heart Launch T"
+        }
+      ]
+    },
+    {
+      "titleId": "010027F00AD6C000",
+      "title": "SNK Heroines: Tag Team Frenzy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010027F00AD6C000.jpg",
+      "variants": [
+        {
+          "id": "v_98c282ca",
+          "name": "SNK HEROINES Tag Team Frenzy — SNK HEROINES Tag ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BQ5eXh3xXHnA4hcZV1vu7bptBIHs4uEu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BQ5eXh3xXHnA4hcZV1vu7bptBIHs4uEu&sz=w640",
+          "sizeBytes": 5274808,
+          "sha256": "65EB9BB4345C9C5B714DA22F560D4203EE3837CE01C34823D8E7CAC45DD13C3D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | SNK HEROINES Tag Team Frenzy — SNK HEROI"
+        }
+      ]
+    },
+    {
+      "titleId": "01006C30266F0000",
+      "title": "Seafrog",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006C30266F0000.jpg",
+      "variants": [
+        {
+          "id": "v_b947ebb1",
+          "name": "Seafrog — Official Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PnOTUH7Qv7FqEqtAFbMbXU_lQu7xOJBC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PnOTUH7Qv7FqEqtAFbMbXU_lQu7xOJBC&sz=w640",
+          "sizeBytes": 5410111,
+          "sha256": "75F9AB200B35CB497554821D16197EFDABF9CD5FF1700DD50E89D8515D5EAD5A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Seafrog — Official Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010032600F064000",
+      "title": "Lord Winklebottom Investigates",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010032600F064000.jpg",
+      "variants": [
+        {
+          "id": "v_581c203b",
+          "name": "Lord Winklebottom Investigates — Launch date tra",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jYl0RO6U2ofCOzgNlY4B5KJeBzxa6t3J",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jYl0RO6U2ofCOzgNlY4B5KJeBzxa6t3J&sz=w640",
+          "sizeBytes": 5047743,
+          "sha256": "71250816471B315602734E54E5FA5DA80E9D3C6DF0BC1E464E6372D2E4301441",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lord Winklebottom Investigates — Launch "
+        }
+      ]
+    },
+    {
+      "titleId": "0100E7A019246000",
+      "title": "Library of Ruina",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E7A019246000.jpg",
+      "variants": [
+        {
+          "id": "v_fb33cb30",
+          "name": "Library Of Ruina — LOR OP",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NI-yXPUZbseReMjV7mHlo8Cbe1Xcs8v7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NI-yXPUZbseReMjV7mHlo8Cbe1Xcs8v7&sz=w640",
+          "sizeBytes": 4660034,
+          "sha256": "010712033DE0849ABCD97C8DDD23D0DEE3CA834C0DC118766506EBDEC5F0274D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Library Of Ruina — LOR OP"
+        }
+      ]
     }
   ],
-  "totalGames": 2643,
-  "totalVariants": 4067,
-  "lastUpdated": "2026-11-10T00:18:37.842539+00:00"
+  "totalGames": 2653,
+  "totalVariants": 4077,
+  "lastUpdated": "2026-11-10T00:21:33.238242+00:00"
 }
