@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T07:13:55.749872+00:00",
+  "updatedAt": "2026-11-10T07:16:44.199782+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -130488,9 +130488,269 @@
           "notes": "Switch 720p 30fps H264 | THE ENIGMA MACHINE — THE ENIGMA MACHINE "
         }
       ]
+    },
+    {
+      "titleId": "01005CD00F85A000",
+      "title": "Underhero",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005CD00F85A000.jpg",
+      "variants": [
+        {
+          "id": "v_cc1fba2b",
+          "name": "Underhero — Underhero Trailer #2",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OGst2mgwBLJKj2B11XLDD52Qk7ujCXx0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OGst2mgwBLJKj2B11XLDD52Qk7ujCXx0&sz=w640",
+          "sizeBytes": 4271067,
+          "sha256": "EC1896BE494D3F49F913200EEB21C5FCCE5B8D565D26CCEDEB32B6B866FF6A46",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Underhero — Underhero Trailer #2"
+        }
+      ]
+    },
+    {
+      "titleId": "010011300D52A000",
+      "title": "Pixel Devil and the Broken Cartridge",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010011300D52A000.jpg",
+      "variants": [
+        {
+          "id": "v_14887aa3",
+          "name": "Pixel Devil and the Broken Cartridge — Pixel Dev",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FxzST54olIe02zE3oElAPfCYDV6y99qt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FxzST54olIe02zE3oElAPfCYDV6y99qt&sz=w640",
+          "sizeBytes": 5219826,
+          "sha256": "B952C901E5DFF67E7D52DC17F9F8DA83D36A94751253516ADD3F68B42E9AA515",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Pixel Devil and the Broken Cartridge — P"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FC101B0CC000",
+      "title": "Garlic",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FC101B0CC000.jpg",
+      "variants": [
+        {
+          "id": "v_c1950597",
+          "name": "Garlic Builder — Garlic Builder",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1z96I_h7mSFZ5Lj5bCXZBBpCkQEHdar8W",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1z96I_h7mSFZ5Lj5bCXZBBpCkQEHdar8W&sz=w640",
+          "sizeBytes": 5156584,
+          "sha256": "1AFE63BC55F961DBFCD4DDA9FF7D4DDEF126DDD8153F2CA3E904EFDDA33FCDEB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Garlic Builder — Garlic Builder"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D7F00EC64000",
+      "title": "Overlanders",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D7F00EC64000.jpg",
+      "variants": [
+        {
+          "id": "v_5b492744",
+          "name": "Overlanders — NEW OFFICIAL TRAILER",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ssGFLr-e6U9OBC5CMWzAH0M_xQOs7j1j",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ssGFLr-e6U9OBC5CMWzAH0M_xQOs7j1j&sz=w640",
+          "sizeBytes": 5304763,
+          "sha256": "9D007CFA30E3DAC5ADBB26E456A49E88C6C4FB80C501BD1FD80962C960B70201",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Overlanders — NEW OFFICIAL TRAILER"
+        }
+      ]
+    },
+    {
+      "titleId": "01000540139F6000",
+      "title": "Speed Limit",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000540139F6000.jpg",
+      "variants": [
+        {
+          "id": "v_f4e7d813",
+          "name": "Speed Limit — Speed Limit Penny And Dime Edition",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AlV-Tz1xdfBvBxv2TmK3RgEirvPMDLXn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AlV-Tz1xdfBvBxv2TmK3RgEirvPMDLXn&sz=w640",
+          "sizeBytes": 4216307,
+          "sha256": "0C4C766775B6189F373783E39ED1EB90D3C4253B1EEB4F2C2C6ABDC44116E149",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Speed Limit — Speed Limit Penny And Dime"
+        }
+      ]
+    },
+    {
+      "titleId": "01008ED0087A4000",
+      "title": "The Adventure Pals",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008ED0087A4000.jpg",
+      "variants": [
+        {
+          "id": "v_17878381",
+          "name": "The Adventure Pals — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16cCIVfyXmix4lCmOdhBtDfSlp9swNIxE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16cCIVfyXmix4lCmOdhBtDfSlp9swNIxE&sz=w640",
+          "sizeBytes": 4624102,
+          "sha256": "BAAB6AA28A978B1B349A3FBA649DF452E9B6FE55843D4584474FC5CF3EB5077E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Adventure Pals — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BD4011FFE000",
+      "title": "Witcheye",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BD4011FFE000.jpg",
+      "variants": [
+        {
+          "id": "v_449e11d9",
+          "name": "Witcheye — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HZ-HUiqlqXn0CrICvVRrLazv8rS0Es5C",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HZ-HUiqlqXn0CrICvVRrLazv8rS0Es5C&sz=w640",
+          "sizeBytes": 4912274,
+          "sha256": "AB8906371E08728B95D35559EECE432C82C8F47849B3FD97486E35848F8245FB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Witcheye — Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01000DD015FA6000",
+      "title": "Strike Team Gladius",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000DD015FA6000.jpg",
+      "variants": [
+        {
+          "id": "v_a57c13c8",
+          "name": "Strike Team Gladius — Strike Team Gladius Gamepl",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IvuypdoHTTfRQ3nFaduwyDMxw8DxoLf6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IvuypdoHTTfRQ3nFaduwyDMxw8DxoLf6&sz=w640",
+          "sizeBytes": 5227877,
+          "sha256": "136040531B294D448921427A37AE4A6406C0B8238A89922D5850D7C3380CDF8A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Strike Team Gladius — Strike Team Gladiu"
+        }
+      ]
+    },
+    {
+      "titleId": "01000ED015DA4000",
+      "title": "One More Island",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000ED015DA4000.jpg",
+      "variants": [
+        {
+          "id": "v_4e3d4a24",
+          "name": "One More Island — Launch Trailer 5/16/22",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nT07qmekBaex0YNxCM4klcm8ZIiTRZYq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nT07qmekBaex0YNxCM4klcm8ZIiTRZYq&sz=w640",
+          "sizeBytes": 5239239,
+          "sha256": "590EACBC2244E29911B8454077A965E8D6319CA2F4BA3E20CE9E2253E050B0A9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | One More Island — Launch Trailer 5/16/22"
+        }
+      ]
+    },
+    {
+      "titleId": "01001D4023C60000",
+      "title": "Day of the Shell",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001D4023C60000.jpg",
+      "variants": [
+        {
+          "id": "v_f2d6e621",
+          "name": "Day of the Shell — Release Date Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_EuKcGsVxz1QA8CWKNuxlJgQVtMiXsub",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_EuKcGsVxz1QA8CWKNuxlJgQVtMiXsub&sz=w640",
+          "sizeBytes": 5301386,
+          "sha256": "939C41659062A088E38E17EB89FAE670E603F056E847046F2FEBE92D7C0C4E4E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Day of the Shell — Release Date Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 3963,
-  "totalVariants": 5387,
-  "lastUpdated": "2026-11-10T07:13:55.749872+00:00"
+  "totalGames": 3973,
+  "totalVariants": 5397,
+  "lastUpdated": "2026-11-10T07:16:44.199782+00:00"
 }
