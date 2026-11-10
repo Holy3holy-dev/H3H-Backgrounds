@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T11:38:24.318623+00:00",
+  "updatedAt": "2026-11-10T11:41:36.815815+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -151808,9 +151808,269 @@
           "notes": "Switch 720p 30fps H264 | Dragon Eclipse — RELEASE TRAILER 1.0"
         }
       ]
+    },
+    {
+      "titleId": "0100E4300C278000",
+      "title": "Hell is Other Demons",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E4300C278000.jpg",
+      "variants": [
+        {
+          "id": "v_48764105",
+          "name": "Hell is Other Demons — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZcbJ_pv_Og61KxxGQLKCUNXlUhXvU9BC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZcbJ_pv_Og61KxxGQLKCUNXlUhXvU9BC&sz=w640",
+          "sizeBytes": 5265242,
+          "sha256": "704B57749BCEF37A035B4B87AD84E424899EF689852BE50AFC3C7F4589129EA1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hell is Other Demons — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010095F010568000",
+      "title": "The Wanderer Frankenstein's Creature",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010095F010568000.jpg",
+      "variants": [
+        {
+          "id": "v_54cd875f",
+          "name": "The Wanderer: Frankenstein’s Creature — Release ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CH_orPT41kbioeG8zwf7iMGrFaatYTeV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CH_orPT41kbioeG8zwf7iMGrFaatYTeV&sz=w640",
+          "sizeBytes": 5342070,
+          "sha256": "B9477D36377A86F55F851288EEDF9CED71EC1A7F798F9AA74CC7101FCDDDE2BE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Wanderer: Frankenstein’s Creature — "
+        }
+      ]
+    },
+    {
+      "titleId": "0100E71016CE6000",
+      "title": "Idol Manager",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E71016CE6000.jpg",
+      "variants": [
+        {
+          "id": "v_ddabfc69",
+          "name": "Idol Manager — New Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ypz5jFnkEEriXmh3vVX8vOfWvyO8vcHn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ypz5jFnkEEriXmh3vVX8vOfWvyO8vcHn&sz=w640",
+          "sizeBytes": 4636819,
+          "sha256": "FC084749EAB04479BAC7807E9368540BA0AB280D9B62C99BAECC93B7775F10A7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Idol Manager — New Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A1E019E1A000",
+      "title": "Under the Warehouse",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A1E019E1A000.jpg",
+      "variants": [
+        {
+          "id": "v_206a594f",
+          "name": "Under The Warehouse — Under The Warehouse",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1j-mT5_-PvExuVVqwWHPw4yMfVo9Phv9R",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1j-mT5_-PvExuVVqwWHPw4yMfVo9Phv9R&sz=w640",
+          "sizeBytes": 4182347,
+          "sha256": "A785FDBFE44451E831C6A999731C4159509C24402699592129D91BA5E677E998",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Under The Warehouse — Under The Warehous"
+        }
+      ]
+    },
+    {
+      "titleId": "010015C01EE2A000",
+      "title": "Mezmeratu",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010015C01EE2A000.jpg",
+      "variants": [
+        {
+          "id": "v_892f98d0",
+          "name": "Mezmeratu — MEZMERATU! A PROSCIUTTO RELEASE TRAI",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1J9xEz5yMBHokiTfJ9wQkGkb8gi2BQZpZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1J9xEz5yMBHokiTfJ9wQkGkb8gi2BQZpZ&sz=w640",
+          "sizeBytes": 5244569,
+          "sha256": "E0550843712B16A06693DA7285E3F590A654BF03B076EF73DDB29A3BDD4C0019",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mezmeratu — MEZMERATU! A PROSCIUTTO RELE"
+        }
+      ]
+    },
+    {
+      "titleId": "0100504012A20000",
+      "title": "PixelJunk Scrappers Deluxe",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100504012A20000.jpg",
+      "variants": [
+        {
+          "id": "v_a586430c",
+          "name": "PixelJunk™ Scrappers Deluxe — PixelJunk Scrapper",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ne-1NUT3DdoESkSZze8jHIRF11DzfugI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ne-1NUT3DdoESkSZze8jHIRF11DzfugI&sz=w640",
+          "sizeBytes": 5289195,
+          "sha256": "8C6F0595C1514AECCD9CEF35297ECFCCEAE94357E48911856036C842F688A712",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | PixelJunk™ Scrappers Deluxe — PixelJunk "
+        }
+      ]
+    },
+    {
+      "titleId": "0100092021B2D000",
+      "title": "Hungry Meem",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100092021B2D000.jpg",
+      "variants": [
+        {
+          "id": "v_3bb127dc",
+          "name": "Hungry Meem — 2nd Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18L7JnAO0na1sJILs1JmEmnlEfESgB9ZU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18L7JnAO0na1sJILs1JmEmnlEfESgB9ZU&sz=w640",
+          "sizeBytes": 5055882,
+          "sha256": "76DE0036EA7D7A835C987D30E3057778AD18692F08412C259858501EBC9F39C5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hungry Meem — 2nd Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010052B00B194000",
+      "title": "Lumini",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010052B00B194000.jpg",
+      "variants": [
+        {
+          "id": "v_de573256",
+          "name": "Lumini — Lumini: Announcement Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OQ7vfoReO1P_iVVhdalPrroWXfMFXtw8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OQ7vfoReO1P_iVVhdalPrroWXfMFXtw8&sz=w640",
+          "sizeBytes": 5347496,
+          "sha256": "B320E8338AD4C8570EA47375B6F7E4A9E84ADD7112F96D5FF32D421286851898",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lumini — Lumini: Announcement Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100558017FD8000",
+      "title": "Light Fairytale",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100558017FD8000.jpg",
+      "variants": [
+        {
+          "id": "v_4c485613",
+          "name": "Light Fairytale Episode 1 — Theme-Song Anime",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1p92JpGdfery1Naki9CG---wDj07_WvB5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1p92JpGdfery1Naki9CG---wDj07_WvB5&sz=w640",
+          "sizeBytes": 5053157,
+          "sha256": "337D954213D3EF2041DB0FABAAD8C6E530E7C6CCB50DC5E7E24F62C747B9E940",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Light Fairytale Episode 1 — Theme-Song A"
+        }
+      ]
+    },
+    {
+      "titleId": "01000810151FA000",
+      "title": "LiEat",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000810151FA000.jpg",
+      "variants": [
+        {
+          "id": "v_25c9cb1c",
+          "name": "LiEat — Playism_LiEat_Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ztMEGviCf1NNjdxri177Y8P-VyJMse9D",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ztMEGviCf1NNjdxri177Y8P-VyJMse9D&sz=w640",
+          "sizeBytes": 5316901,
+          "sha256": "BECF8E7A6589596F3DC868458E1D9756851621C33FD042D58760282F8ECA4A21",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | LiEat — Playism_LiEat_Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 4783,
-  "totalVariants": 6207,
-  "lastUpdated": "2026-11-10T11:38:24.318623+00:00"
+  "totalGames": 4793,
+  "totalVariants": 6217,
+  "lastUpdated": "2026-11-10T11:41:36.815815+00:00"
 }
