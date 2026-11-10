@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T10:07:06.106267+00:00",
+  "updatedAt": "2026-11-10T10:10:11.447190+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -145048,9 +145048,269 @@
           "notes": "Switch 720p 30fps H264 | Valthirian Arc: Hero School Story — Valt"
         }
       ]
+    },
+    {
+      "titleId": "010041C00A68C000",
+      "title": "The Spectrum Retreat",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010041C00A68C000.jpg",
+      "variants": [
+        {
+          "id": "v_ef9d4e56",
+          "name": "The Spectrum Retreat — The Spectrum Retreat - La",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ME-6qu1k1BOAyuhRxAevleHD-Iquq7ZV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ME-6qu1k1BOAyuhRxAevleHD-Iquq7ZV&sz=w640",
+          "sizeBytes": 4815276,
+          "sha256": "9EF21BFEBE98875E6DC9C6BF0C4C526A3947E46891B4EEAC48F845AF90C5E3EF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Spectrum Retreat — The Spectrum Retr"
+        }
+      ]
+    },
+    {
+      "titleId": "01001E3012CC2000",
+      "title": "Suicide Guy Collection",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001E3012CC2000.jpg",
+      "variants": [
+        {
+          "id": "v_fe76ad5a",
+          "name": "Suicide Guy — Suicide Guy - Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ErPImzeeCAwerps_U2r_Qa_drTQmeHZo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ErPImzeeCAwerps_U2r_Qa_drTQmeHZo&sz=w640",
+          "sizeBytes": 5462807,
+          "sha256": "6A9F8D798EA555361414A53B2B6EBD15951D08A5B9226F481661F793E46E5279",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Suicide Guy — Suicide Guy - Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BD2009A1C000",
+      "title": "Damsel",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BD2009A1C000.jpg",
+      "variants": [
+        {
+          "id": "v_290dddf8",
+          "name": "蓝宝石般的被害妄想少女/Damsel with persecutory delusion — 蓝",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XfETtHZ5oh8VqbrQy1a7GYwGcenwGzzj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XfETtHZ5oh8VqbrQy1a7GYwGcenwGzzj&sz=w640",
+          "sizeBytes": 4033307,
+          "sha256": "0C4B07252D3F70544352FC140DEEBFFAE7F11AF6B45897E3D60F058D7B4B8B17",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 蓝宝石般的被害妄想少女/Damsel with persecutory delu"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D7000AE6A000",
+      "title": "Star Story The Horizon Escape",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D7000AE6A000.jpg",
+      "variants": [
+        {
+          "id": "v_61c707d0",
+          "name": "Star Story: The Horizon Escape — Star Story: The",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GaDnLNbPVG-UNRweQSWaXjxFUGIyfqGS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GaDnLNbPVG-UNRweQSWaXjxFUGIyfqGS&sz=w640",
+          "sizeBytes": 5526065,
+          "sha256": "64AA66FEC356B5C9FCDAB1BACF9C6949EA0F49DADE7019551837D3105045AB08",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Star Story: The Horizon Escape — Star St"
+        }
+      ]
+    },
+    {
+      "titleId": "0100ADF00CB64000",
+      "title": "Snow Battle Princess Sayuki",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100ADF00CB64000.jpg",
+      "variants": [
+        {
+          "id": "v_5d900bef",
+          "name": "Snow Battle Princess SAYUKI | 雪ん娘大旋風 — Snow Batt",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IEQ-lLs8X_RKAeWVbof9LOgOntG0HSb7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IEQ-lLs8X_RKAeWVbof9LOgOntG0HSb7&sz=w640",
+          "sizeBytes": 5411813,
+          "sha256": "ACBCC731EF90B81BE111C8251E7B85A36407983A4479C637FE089AD573C9C3EE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Snow Battle Princess SAYUKI | 雪ん娘大旋風 — S"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F0000869C000",
+      "title": "Saturday Morning RPG",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F0000869C000.jpg",
+      "variants": [
+        {
+          "id": "v_9f16bbb9",
+          "name": "Saturday Morning RPG — Saturday Morning RPG Trai",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1YDGNKs8VGTxoQ5BXvtu24pXa0YWUt_Yk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1YDGNKs8VGTxoQ5BXvtu24pXa0YWUt_Yk&sz=w640",
+          "sizeBytes": 4914964,
+          "sha256": "29C4B1F2DB091A94231E345C9EFC949FF6426AED1F1CAE9AC51A954C9C6F7C64",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Saturday Morning RPG — Saturday Morning "
+        }
+      ]
+    },
+    {
+      "titleId": "01006B0014CAA000",
+      "title": "Swords and Souls Neverseen",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006B0014CAA000.jpg",
+      "variants": [
+        {
+          "id": "v_16a3293f",
+          "name": "Swords & Souls: Neverseen — Swords & Souls: Neve",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1c-xP5c6BFla1cffc2w6KpuiTeyaRkIZC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1c-xP5c6BFla1cffc2w6KpuiTeyaRkIZC&sz=w640",
+          "sizeBytes": 5513255,
+          "sha256": "A00643FCA5CFCD867DDB2DDE56D8DCE0C9116A94CB06FD9E193ECC66DBCC6E1A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Swords & Souls: Neverseen — Swords & Sou"
+        }
+      ]
+    },
+    {
+      "titleId": "01002B00117FC000",
+      "title": "Pinku Kult Hex Mortis",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002B00117FC000.jpg",
+      "variants": [
+        {
+          "id": "v_146dbc6d",
+          "name": "Pinku Kult Hex Mortis — Trailer_story",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QTqhhpv4iZjF9_6BQIOANazenL-HYGxb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QTqhhpv4iZjF9_6BQIOANazenL-HYGxb&sz=w640",
+          "sizeBytes": 4833194,
+          "sha256": "9E678F36B714CBA0BD3A3E00DD0835D6E9BF16A032A8A232CAD4DA6D7D062E99",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Pinku Kult Hex Mortis — Trailer_story"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E3701F1AE000",
+      "title": "Cat's Request",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E3701F1AE000.jpg",
+      "variants": [
+        {
+          "id": "v_22a69795",
+          "name": "Cat's Request — Cat's Request gameplay",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16mEyUmQ_Qat_xZh2ncxtfxdl372xl_hb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16mEyUmQ_Qat_xZh2ncxtfxdl372xl_hb&sz=w640",
+          "sizeBytes": 5360127,
+          "sha256": "F7E201341F2D4C3B4D7D4ECBA0D0FC8FEFDBF9E3CE05F5D0110584746E05B3D0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cat's Request — Cat's Request gameplay"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D2F023288000",
+      "title": "Terrifier the Artcade Game",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D2F023288000.jpg",
+      "variants": [
+        {
+          "id": "v_4ebb0c78",
+          "name": "Terrifier: The ARTcade Game — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ATFQWadBE_2ZGCGG9sLvoAs69GIMUaSu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ATFQWadBE_2ZGCGG9sLvoAs69GIMUaSu&sz=w640",
+          "sizeBytes": 4807403,
+          "sha256": "84E980D05993C00492CA39BD93222A483772F509106D1784332816AF16382FDE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Terrifier: The ARTcade Game — Launch Tra"
+        }
+      ]
     }
   ],
-  "totalGames": 4523,
-  "totalVariants": 5947,
-  "lastUpdated": "2026-11-10T10:07:06.106267+00:00"
+  "totalGames": 4533,
+  "totalVariants": 5957,
+  "lastUpdated": "2026-11-10T10:10:11.447190+00:00"
 }
