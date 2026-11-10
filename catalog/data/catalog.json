@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T13:29:10.134157+00:00",
+  "updatedAt": "2026-11-10T13:33:07.893307+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -159608,9 +159608,269 @@
           "notes": "Switch 720p 30fps H264 | Funtasia — Launch Trailer 9/29/22"
         }
       ]
+    },
+    {
+      "titleId": "0100F3B010F56000",
+      "title": "Rogue Robots",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F3B010F56000.jpg",
+      "variants": [
+        {
+          "id": "v_11d5bbc8",
+          "name": "Rogue Robots — Rogue Robots Announcement Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZwdIuMgdoUjFEGR2lTZ3oKVgkM2oywU4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZwdIuMgdoUjFEGR2lTZ3oKVgkM2oywU4&sz=w640",
+          "sizeBytes": 5416031,
+          "sha256": "5BC75EE4401F6038A7F35B1A5E2EB2765FF8ECC20182CB97703FBA445F0F91D4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rogue Robots — Rogue Robots Announcement"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F3F015016000",
+      "title": "The Magnificent Trufflepigs",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F3F015016000.jpg",
+      "variants": [
+        {
+          "id": "v_fda2eb9a",
+          "name": "The Magnificent Trufflepigs — Teaser Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pwuS_a4S7YdKNJXS7NULZx05th87mUgo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pwuS_a4S7YdKNJXS7NULZx05th87mUgo&sz=w640",
+          "sizeBytes": 5357443,
+          "sha256": "89B5DF700EA13C086149C1D61BCC4B77A8768EA75A798F53C19C11511AD41090",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Magnificent Trufflepigs — Teaser Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "01003A0016DE2000",
+      "title": "Dieselpunk Wars",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003A0016DE2000.jpg",
+      "variants": [
+        {
+          "id": "v_7f519129",
+          "name": "Dieselpunk Wars — Dieselpunk Wars release traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GjhQseHCN7zGRwMOJl5BZZJr8Iw2mXVC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GjhQseHCN7zGRwMOJl5BZZJr8Iw2mXVC&sz=w640",
+          "sizeBytes": 5527479,
+          "sha256": "F916C15A4CEF15F3423E2828FE766E1C0BF8B2CC871503A6779CA7023E4B1CDB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dieselpunk Wars — Dieselpunk Wars releas"
+        }
+      ]
+    },
+    {
+      "titleId": "010026500DAA8000",
+      "title": "Robbie Swifthand and the Orb of Mysteries",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010026500DAA8000.jpg",
+      "variants": [
+        {
+          "id": "v_912449f9",
+          "name": "Robbie Swifthand and the Orb of Mysteries — Robb",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AY8VHca-Io8DZmLRNIAoLJEuSNadf2X1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AY8VHca-Io8DZmLRNIAoLJEuSNadf2X1&sz=w640",
+          "sizeBytes": 5452184,
+          "sha256": "695F8B099C3C60FDAA55FDE8E079ABE0DD85743511AB37CBCF138A871387BC0B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Robbie Swifthand and the Orb of Mysterie"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C160071B8000",
+      "title": "Waking Violet",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C160071B8000.jpg",
+      "variants": [
+        {
+          "id": "v_3020a5f5",
+          "name": "Waking Violet — Waking Violet trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QNo31nVHm9I59Pq-L7_MFz7uQ-fjeOml",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QNo31nVHm9I59Pq-L7_MFz7uQ-fjeOml&sz=w640",
+          "sizeBytes": 3561808,
+          "sha256": "DCE4703505ADF3541829DED3E7A26D252B7F064B1619EB9585BE693290BB6B9A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Waking Violet — Waking Violet trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B5C014AC6000",
+      "title": "Infernal Radiation",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B5C014AC6000.jpg",
+      "variants": [
+        {
+          "id": "v_e0a3194c",
+          "name": "Infernal Radiation — Infernal Radiation Trailer ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1L9eh4pDIsQzGrhuWYFMRMsdsd83cPSPV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1L9eh4pDIsQzGrhuWYFMRMsdsd83cPSPV&sz=w640",
+          "sizeBytes": 5220102,
+          "sha256": "3B168F1C471403A5F5E202D6B8DEF2D453CA01CC9E9616F675D00551D11AB542",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Infernal Radiation — Infernal Radiation "
+        }
+      ]
+    },
+    {
+      "titleId": "0100C7600E77E000",
+      "title": "Wizards Wand of Epicosity",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C7600E77E000.jpg",
+      "variants": [
+        {
+          "id": "v_b1b7473b",
+          "name": "Wizards: Wand of Epicosity — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mT1uWX4RfgnTPaAmcCxZTUUUMG8CfFMb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mT1uWX4RfgnTPaAmcCxZTUUUMG8CfFMb&sz=w640",
+          "sizeBytes": 3569345,
+          "sha256": "DAF33E85779D3050CE6DEADA78BC9A81E0F5A48F1A747187A1439F2216F96722",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wizards: Wand of Epicosity — Launch Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "010000F013E10000",
+      "title": "Pineview Drive",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010000F013E10000.jpg",
+      "variants": [
+        {
+          "id": "v_b4bbbae3",
+          "name": "Pineview Drive — Scarecrow - The 8 Letters Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1sM0fVsR5fiMp3tv1-LZD6JVxqCe9jEwa",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1sM0fVsR5fiMp3tv1-LZD6JVxqCe9jEwa&sz=w640",
+          "sizeBytes": 5336446,
+          "sha256": "5BCD735AFC6B9F81722ADDFB00225B77D9EE632A409D37ED74ABB1898C0417B2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Pineview Drive — Scarecrow - The 8 Lette"
+        }
+      ]
+    },
+    {
+      "titleId": "010087601886C000",
+      "title": "Ignatius",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010087601886C000.jpg",
+      "variants": [
+        {
+          "id": "v_51b102e1",
+          "name": "Ignatius — Ignatius",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dGSB0-R11M931vjaOAY_ioUxZmlQ02e-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dGSB0-R11M931vjaOAY_ioUxZmlQ02e-&sz=w640",
+          "sizeBytes": 4733545,
+          "sha256": "3631033BD2FE6ED75DED25C2EF8FAB89D7A507C1A87163DF57AFC275A8C17132",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ignatius — Ignatius"
+        }
+      ]
+    },
+    {
+      "titleId": "010071D00F156000",
+      "title": "Rez Plz",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010071D00F156000.jpg",
+      "variants": [
+        {
+          "id": "v_d51a3717",
+          "name": "REZ PLZ — REZ PLZ Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18VPmBeGRruc5ajr8dzFjSEGZyRwGxuO3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18VPmBeGRruc5ajr8dzFjSEGZyRwGxuO3&sz=w640",
+          "sizeBytes": 5012749,
+          "sha256": "67ABA582C9FAD413422FC2E300ACCBC148703B48384F0EAC23B1C6DD776F70CD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | REZ PLZ — REZ PLZ Release Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 5083,
-  "totalVariants": 6507,
-  "lastUpdated": "2026-11-10T13:29:10.134157+00:00"
+  "totalGames": 5093,
+  "totalVariants": 6517,
+  "lastUpdated": "2026-11-10T13:33:07.893307+00:00"
 }
