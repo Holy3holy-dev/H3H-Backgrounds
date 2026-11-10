@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T10:35:16.455570+00:00",
+  "updatedAt": "2026-11-10T10:38:52.649831+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -147128,9 +147128,269 @@
           "notes": "Switch 720p 30fps H264 | Cross the Moon — Cross the Moon Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100013012E4E000",
+      "title": "Legends of Talia Arcadia",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100013012E4E000.jpg",
+      "variants": [
+        {
+          "id": "v_3403d4d1",
+          "name": "Legends of Talia: Arcadia — Legends of Talia: Ar",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1F50hv1gb-Z0QaHkWW723PKj6aaTKu4FE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1F50hv1gb-Z0QaHkWW723PKj6aaTKu4FE&sz=w640",
+          "sizeBytes": 5018496,
+          "sha256": "436EFDF9675B45B59EE2908CEA186BB07F9F03AA55D153EE0DA804ADF6A9202A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Legends of Talia: Arcadia — Legends of T"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E9B01243C000",
+      "title": "Forest Guardian",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E9B01243C000.jpg",
+      "variants": [
+        {
+          "id": "v_e054d6c8",
+          "name": "Guardian of The Forest",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IbmDJC5ZZ_K42xiiljxou_Tih9AtFgI5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IbmDJC5ZZ_K42xiiljxou_Tih9AtFgI5&sz=w640",
+          "sizeBytes": 2580551,
+          "sha256": "7606A4C5EEFE09D4E76C40247E7B07002E82F7FB9588E00C960A95A46DEDD716",
+          "durationSec": 24.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Guardian of The Forest"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D4A02241A000",
+      "title": "Zero Sum Heart",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D4A02241A000.jpg",
+      "variants": [
+        {
+          "id": "v_c5e6c249",
+          "name": "Zero-Sum Heart — Tralier_en",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_YMLeORmnJHMN2w9CbLx3nbJIMZZsyp7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_YMLeORmnJHMN2w9CbLx3nbJIMZZsyp7&sz=w640",
+          "sizeBytes": 5374474,
+          "sha256": "09B4589FC7BB6C7C5F3BB97B295BD56D304C0301248205214097A77C19883C5F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Zero-Sum Heart — Tralier_en"
+        }
+      ]
+    },
+    {
+      "titleId": "0100926013600000",
+      "title": "Dungeon Nightmares I-II Collection",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100926013600000.jpg",
+      "variants": [
+        {
+          "id": "v_b0900a0f",
+          "name": "Ergastulum: Dungeon Nightmares III — New Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bqxCN7N4yWXIgm0EMdGSBRG95y8ib4qt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bqxCN7N4yWXIgm0EMdGSBRG95y8ib4qt&sz=w640",
+          "sizeBytes": 4942023,
+          "sha256": "930609E2206A2E79D569468A6ADE9A7C570AE899CA3CE86A57016BE30EFEB284",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ergastulum: Dungeon Nightmares III — New"
+        }
+      ]
+    },
+    {
+      "titleId": "010042401436C000",
+      "title": "Beast Breaker",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010042401436C000.jpg",
+      "variants": [
+        {
+          "id": "v_9dd89267",
+          "name": "Beast Breaker — Release Date Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17xl5gDuGGaD7GKV7DSxGDekAZpUX2a_w",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17xl5gDuGGaD7GKV7DSxGDekAZpUX2a_w&sz=w640",
+          "sizeBytes": 5227777,
+          "sha256": "DACB2507C0FFB2A7F189336731824F60FBDC20C901F76CFC3B687082497E7577",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Beast Breaker — Release Date Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100197011BFE000",
+      "title": "Pity Pit",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100197011BFE000.jpg",
+      "variants": [
+        {
+          "id": "v_4857d4e3",
+          "name": "Pity Pit — Pity Pit Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GEUpcXRsMBHa3DnECfQydjHmHB3WM4Ds",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GEUpcXRsMBHa3DnECfQydjHmHB3WM4Ds&sz=w640",
+          "sizeBytes": 5413135,
+          "sha256": "5077128CBBF113C957AA9D5629384CD7C5A97CD7ACB7BF656E0841A26ACDCA2F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Pity Pit — Pity Pit Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AE001E256000",
+      "title": "Last Time I Saw You",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AE001E256000.jpg",
+      "variants": [
+        {
+          "id": "v_8e18cdad",
+          "name": "Last Time I Saw You — Last Time I Saw You - Acco",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zldo4vtQ3xgkK8xwSyIpM0MFwKtEULtS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zldo4vtQ3xgkK8xwSyIpM0MFwKtEULtS&sz=w640",
+          "sizeBytes": 5584169,
+          "sha256": "84F9BF967E9B05184204BDAB0663BDCEE475A507F6E5FAE4F8F35A3518B62C9D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Last Time I Saw You — Last Time I Saw Yo"
+        }
+      ]
+    },
+    {
+      "titleId": "010038400CD96000",
+      "title": "Spartan Fist",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010038400CD96000.jpg",
+      "variants": [
+        {
+          "id": "v_376e1c4a",
+          "name": "Spartan Fist — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Oy8lmXwEQHutju3rqzU02hfcjBQOhrg4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Oy8lmXwEQHutju3rqzU02hfcjBQOhrg4&sz=w640",
+          "sizeBytes": 5689186,
+          "sha256": "15DA47544BCFCC1AFEC9BBB32AA7560995B50312B0CD03ECF2DE6EEEE83B1FD3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Spartan Fist — Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010039100DACC000",
+      "title": "Strike Force War on Terror",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010039100DACC000.jpg",
+      "variants": [
+        {
+          "id": "v_de3f8bdb",
+          "name": "Strike Force - War on Terror — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12OVRWUrxDZ0XRxOIkLjA0qx9-VnnqB1T",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12OVRWUrxDZ0XRxOIkLjA0qx9-VnnqB1T&sz=w640",
+          "sizeBytes": 5577894,
+          "sha256": "62C3A9A062C39C77F9CF24AE5B4FCC710756B5187914FD3236DE8FBEF431967E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Strike Force - War on Terror — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C7C00F77C000",
+      "title": "This Strange Realm of Mine",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C7C00F77C000.jpg",
+      "variants": [
+        {
+          "id": "v_41f52a6e",
+          "name": "This Strange Realm Of Mine — This Strange Realm ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fkB_oGCxC6A6XeJpdQ6Ysy5OhWgyM5XA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fkB_oGCxC6A6XeJpdQ6Ysy5OhWgyM5XA&sz=w640",
+          "sizeBytes": 5454703,
+          "sha256": "34A20586D258CDEC4580F4B86FE3D011A828E185741D83AB4416DB89B85FB765",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | This Strange Realm Of Mine — This Strang"
+        }
+      ]
     }
   ],
-  "totalGames": 4603,
-  "totalVariants": 6027,
-  "lastUpdated": "2026-11-10T10:35:16.455570+00:00"
+  "totalGames": 4613,
+  "totalVariants": 6037,
+  "lastUpdated": "2026-11-10T10:38:52.649831+00:00"
 }
