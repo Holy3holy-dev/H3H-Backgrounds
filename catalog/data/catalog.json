@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T21:00:26Z",
+  "updatedAt": "2026-11-10T21:01:32Z",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -11329,7 +11329,37 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 0100582010AE0000_Crysis_Remastered.mp4"
+          "notes": "Google Drive: 0100582010AE0000_Crysis_Remastered.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=18XGZAcARmOn5FpC8AlUCbik9h9DJ9SxS",
+          "iconSizeBytes": 227173,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
+        },
+        {
+          "id": "icon-0100582010ae0000",
+          "name": "4IFIR Иконка: Crysis 1 / 2 / 3 Remastered [NSZ][RUS/Multi8]",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18XGZAcARmOn5FpC8AlUCbik9h9DJ9SxS",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=18XGZAcARmOn5FpC8AlUCbik9h9DJ9SxS",
+          "sizeBytes": 227173,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=18XGZAcARmOn5FpC8AlUCbik9h9DJ9SxS",
+          "iconSizeBytes": 227173,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -11379,7 +11409,37 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 0100534D36340000_Super_Mario_64.mp4"
+          "notes": "Google Drive: 0100534D36340000_Super_Mario_64.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1WYx1xyyw4d2-3oE94l41KOqJhgL30O3V",
+          "iconSizeBytes": 197914,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
+        },
+        {
+          "id": "icon-0100534d36340000",
+          "name": "4IFIR Иконка: Super Mario 64 (Native Port)",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WYx1xyyw4d2-3oE94l41KOqJhgL30O3V",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1WYx1xyyw4d2-3oE94l41KOqJhgL30O3V",
+          "sizeBytes": 197914,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1WYx1xyyw4d2-3oE94l41KOqJhgL30O3V",
+          "iconSizeBytes": 197914,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -169641,6 +169701,6 @@
     }
   ],
   "totalGames": 5418,
-  "totalVariants": 6886,
-  "lastUpdated": "2026-11-10T21:00:26Z"
+  "totalVariants": 6888,
+  "lastUpdated": "2026-11-10T21:01:32Z"
 }
