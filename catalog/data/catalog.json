@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T08:43:12.657491+00:00",
+  "updatedAt": "2026-11-10T08:46:17.661786+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -138028,9 +138028,269 @@
           "notes": "Switch 720p 30fps H264 | Egglien — Launch"
         }
       ]
+    },
+    {
+      "titleId": "010069001B820000",
+      "title": "EarthX",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010069001B820000.jpg",
+      "variants": [
+        {
+          "id": "v_c2eebf3a",
+          "name": "EarthX 2 — Early Access Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TDOzeph6WR2__iYQyPRRSEsENMssO8tc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TDOzeph6WR2__iYQyPRRSEsENMssO8tc&sz=w640",
+          "sizeBytes": 5499181,
+          "sha256": "AF76048756724DB497E9EB05DCFC97B43BA37C3207BB472FF4705350FE672C86",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | EarthX 2 — Early Access Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01009B6019CF0000",
+      "title": "Dyadic",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009B6019CF0000.jpg",
+      "variants": [
+        {
+          "id": "v_cf9afd59",
+          "name": "Dyadic — Dyadic Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12UUFOdeWGNAF1OXo_Vk4KvtrL0She8MK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12UUFOdeWGNAF1OXo_Vk4KvtrL0She8MK&sz=w640",
+          "sizeBytes": 5675173,
+          "sha256": "D94ED940CAC53096901FBA43F9EAFCD59E5372D84BD4FE7B098E0DE72547ADD6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dyadic — Dyadic Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010059D00BCAE000",
+      "title": "Swords & Soldiers",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010059D00BCAE000.jpg",
+      "variants": [
+        {
+          "id": "v_90f36fff",
+          "name": "Swords and Soldiers 2 Shawarmageddon — Out Now!",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1JXt7cxdOUiRzskQFhPfYfqJ089RXppQu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1JXt7cxdOUiRzskQFhPfYfqJ089RXppQu&sz=w640",
+          "sizeBytes": 5323466,
+          "sha256": "9F86D640734A7C6EA2C9EE017FB1810C0B88A30964C96F00F2CC14F27BB6C939",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Swords and Soldiers 2 Shawarmageddon — O"
+        }
+      ]
+    },
+    {
+      "titleId": "01000CD0171D8000",
+      "title": "Itadaki Smash",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000CD0171D8000.jpg",
+      "variants": [
+        {
+          "id": "v_438faaaf",
+          "name": "Itadaki Smash — Itadaki Smash Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ysqyRMOULti8RY38iQiCnuA2WpEBtLdP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ysqyRMOULti8RY38iQiCnuA2WpEBtLdP&sz=w640",
+          "sizeBytes": 5375465,
+          "sha256": "5CC595CB803995F891E297B64E4891B0A4A364BD5EA4C4BF25075D2925F98C7D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Itadaki Smash — Itadaki Smash Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01005F7011950000",
+      "title": "ScourgeBringer",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005F7011950000.jpg",
+      "variants": [
+        {
+          "id": "v_595f8e31",
+          "name": "ScourgeBringer — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tI2BDsCZcmIz8L8GUXYBP-jaAt9rN8Mi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tI2BDsCZcmIz8L8GUXYBP-jaAt9rN8Mi&sz=w640",
+          "sizeBytes": 5239272,
+          "sha256": "895A5E3FABD9D3E9F858C248CB00DD586DD718D9948B06DD94D0C4D0AB60CDD7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | ScourgeBringer — Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010088E00B816000",
+      "title": "Riot Civil Unrest",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010088E00B816000.jpg",
+      "variants": [
+        {
+          "id": "v_dda7f495",
+          "name": "RIOT: Civil Unrest — 2019 Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-4nfd3ONcTc0LFD6C6YL_04BIKDkLDQT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-4nfd3ONcTc0LFD6C6YL_04BIKDkLDQT&sz=w640",
+          "sizeBytes": 4807146,
+          "sha256": "C8F3A1608D39AC5698331BF6EE9FC7C664173FE1F749304C72D7FD868EE417E2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | RIOT: Civil Unrest — 2019 Gameplay Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "010086901425C000",
+      "title": "The Colonists",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010086901425C000.jpg",
+      "variants": [
+        {
+          "id": "v_1a36ef23",
+          "name": "The Colonists — The Colonists - Out Now",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1i65i6OnqGrAtZp73pArNviNYpBR6N5K4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1i65i6OnqGrAtZp73pArNviNYpBR6N5K4&sz=w640",
+          "sizeBytes": 3812326,
+          "sha256": "8B8632EE4A7DD94E76C03F5813717CEE2C3B1E423769AF7ED930D848708455BA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Colonists — The Colonists - Out Now"
+        }
+      ]
+    },
+    {
+      "titleId": "0100727015970000",
+      "title": "Mutropolis",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100727015970000.jpg",
+      "variants": [
+        {
+          "id": "v_26b206a5",
+          "name": "Mutropolis — Mutropolis trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1YzLrpB648WXFvXp7sF3u8Q6FNNcoh-X3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1YzLrpB648WXFvXp7sF3u8Q6FNNcoh-X3&sz=w640",
+          "sizeBytes": 5562339,
+          "sha256": "1C9328331C7260151EEB10C65F1CDB51270A8D57A66D52ADC0A37350DAC30685",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mutropolis — Mutropolis trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01001730152B0000",
+      "title": "Plunder Panic",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001730152B0000.jpg",
+      "variants": [
+        {
+          "id": "v_7a42b1c9",
+          "name": "Plunder Panic — GamePlay",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XuwV8elRi6aHOEnpaR4D47_8p0siV3mQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XuwV8elRi6aHOEnpaR4D47_8p0siV3mQ&sz=w640",
+          "sizeBytes": 5433309,
+          "sha256": "85DF72E3C3812BF764A6E76F3E21434AC31D63563180BB97381F4C32DD11AF43",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Plunder Panic — GamePlay"
+        }
+      ]
+    },
+    {
+      "titleId": "010007401287E000",
+      "title": "Big Bobby Car the Big Race",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010007401287E000.jpg",
+      "variants": [
+        {
+          "id": "v_e667829f",
+          "name": "BIG-Bobby-Car – The Big Race — BIG-Bobby-Car – T",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11NeXSJoT86YYT6v6iwyYkSRdf3UpEQPt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11NeXSJoT86YYT6v6iwyYkSRdf3UpEQPt&sz=w640",
+          "sizeBytes": 5395629,
+          "sha256": "B4F990D476105F82BDF67F4D3CEC153D78E666E58175BC5AA9F23ED68DABB594",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | BIG-Bobby-Car – The Big Race — BIG-Bobby"
+        }
+      ]
     }
   ],
-  "totalGames": 4253,
-  "totalVariants": 5677,
-  "lastUpdated": "2026-11-10T08:43:12.657491+00:00"
+  "totalGames": 4263,
+  "totalVariants": 5687,
+  "lastUpdated": "2026-11-10T08:46:17.661786+00:00"
 }
