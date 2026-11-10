@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T08:22:30.963651+00:00",
+  "updatedAt": "2026-11-10T08:25:25.610249+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -136208,9 +136208,269 @@
           "notes": "Switch 720p 30fps H264 | What Remains of Edith Finch — What Remai"
         }
       ]
+    },
+    {
+      "titleId": "0100FD101C028000",
+      "title": "Raid on Taihoku",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FD101C028000.jpg",
+      "variants": [
+        {
+          "id": "v_7f5db729",
+          "name": "Raid on Taihoku — trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ywh1Qi66SPTzFyOwyihqPjc78Yh6TcPd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ywh1Qi66SPTzFyOwyihqPjc78Yh6TcPd&sz=w640",
+          "sizeBytes": 4015294,
+          "sha256": "AEDBC12244A8286B9808C2D4683F7387BBE9F712D4098FE22EFD444BE4F340C2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Raid on Taihoku — trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010034901ACBA000",
+      "title": "The Vale Shadow of the Crown",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010034901ACBA000.jpg",
+      "variants": [
+        {
+          "id": "v_6fd33e91",
+          "name": "The Vale: Shadow of the Crown — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-jk8pR1yDRgWtiXs8NuRh13JWVp5bLIz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-jk8pR1yDRgWtiXs8NuRh13JWVp5bLIz&sz=w640",
+          "sizeBytes": 5237814,
+          "sha256": "746C26267B2BE53C82B19541EAFD9EC750E90D7CC8DC2356CBDEE216D24600AA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Vale: Shadow of the Crown — Launch T"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AE00191C4000",
+      "title": "Picontier",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AE00191C4000.jpg",
+      "variants": [
+        {
+          "id": "v_87b55192",
+          "name": "Picontier / ピコンティア — Picontier_EA_20201108_PV_ve",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fZbCWEQP1QAJhYAaAWFiZxa1wwcEDyki",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fZbCWEQP1QAJhYAaAWFiZxa1wwcEDyki&sz=w640",
+          "sizeBytes": 2923773,
+          "sha256": "DDE865345F2EB827410432A2556B3E8C17F41A61D57AF3DB2A181F876CCD3E21",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Picontier / ピコンティア — Picontier_EA_202011"
+        }
+      ]
+    },
+    {
+      "titleId": "01003D70182C0000",
+      "title": "Perseverance Complete edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003D70182C0000.jpg",
+      "variants": [
+        {
+          "id": "v_e0db8e7b",
+          "name": "Perseverance: Part 1 — Perseverance: Part 1 - Re",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1JN02PqVmJgwuO2eoGrs-N9o1_gUsMI0N",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1JN02PqVmJgwuO2eoGrs-N9o1_gUsMI0N&sz=w640",
+          "sizeBytes": 4674017,
+          "sha256": "8BCDABF09D60292FA396835DA0E501448BDE634D33315DBE07524EF1931AF708",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Perseverance: Part 1 — Perseverance: Par"
+        }
+      ]
+    },
+    {
+      "titleId": "01002A601ACD4000",
+      "title": "Passpartout The Starving Artist",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002A601ACD4000.jpg",
+      "variants": [
+        {
+          "id": "v_29e18f46",
+          "name": "Passpartout: The Starving Artist — Passpartout T",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1haKttDQlR-cTYBzTnnHfgwvSIo3qe_XV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1haKttDQlR-cTYBzTnnHfgwvSIo3qe_XV&sz=w640",
+          "sizeBytes": 5494960,
+          "sha256": "DDE528D372F443CED1AC1129B73712E109222465F6DB81B789DE707C564FF999",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Passpartout: The Starving Artist — Passp"
+        }
+      ]
+    },
+    {
+      "titleId": "010082A01ACE8000",
+      "title": "Paperman Adventure Delivered",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010082A01ACE8000.jpg",
+      "variants": [
+        {
+          "id": "v_b9049e8d",
+          "name": "Paperman: Adventure Delivered — Paperman: Advent",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vtB7jVVLla4GJTf4MNWqdpi9thpmcYNr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vtB7jVVLla4GJTf4MNWqdpi9thpmcYNr&sz=w640",
+          "sizeBytes": 5369739,
+          "sha256": "BE15F62400FE88281FB3DAEE7C82B35E5C5C894D172D876A6E1A8E68F4E9390C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Paperman: Adventure Delivered — Paperman"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C3701CEB0000",
+      "title": "Orbital Cargo Division",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C3701CEB0000.jpg",
+      "variants": [
+        {
+          "id": "v_7ccd39d5",
+          "name": "Orbital Cargo Division — Teaser",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tIYWl7sc8zvhhOb6dduiqYEjzeNqFOSX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tIYWl7sc8zvhhOb6dduiqYEjzeNqFOSX&sz=w640",
+          "sizeBytes": 5340458,
+          "sha256": "999189C9D33AEC224721842CAD250F9C33EEB87413F0C5C5994BC95FB9476940",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Orbital Cargo Division — Teaser"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F7F01BD72000",
+      "title": "On Rusty Trails",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F7F01BD72000.jpg",
+      "variants": [
+        {
+          "id": "v_b93304c7",
+          "name": "On Rusty Trails — On Rusty Trails - Release Trai",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qdYtoXiCCBOo28Cx70lT0iERwOKVofTX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qdYtoXiCCBOo28Cx70lT0iERwOKVofTX&sz=w640",
+          "sizeBytes": 4715859,
+          "sha256": "974F5A1DC6E19917C3EF203C124055618553AC38758E359B739E9221008197F4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | On Rusty Trails — On Rusty Trails - Rele"
+        }
+      ]
+    },
+    {
+      "titleId": "0100409016490000",
+      "title": "Omen of Sorrow",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100409016490000.jpg",
+      "variants": [
+        {
+          "id": "v_fec1a2a8",
+          "name": "Omen of Sorrow — Steam Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1o0rE5qu-HQ0aa0N6tS0keTFy54axd1K2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1o0rE5qu-HQ0aa0N6tS0keTFy54axd1K2&sz=w640",
+          "sizeBytes": 5431278,
+          "sha256": "41D480F1D9C837F64B30BA15B973DDE706D939924FAC1898C2D2AE7512BE7950",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Omen of Sorrow — Steam Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A350188F8000",
+      "title": "Omegabot",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A350188F8000.jpg",
+      "variants": [
+        {
+          "id": "v_e0ed364e",
+          "name": "OmegaBot — OmegaBot Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NKnT9XiAP__IUcroYamk6022dMRRyCIN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NKnT9XiAP__IUcroYamk6022dMRRyCIN&sz=w640",
+          "sizeBytes": 5424803,
+          "sha256": "0B3A888C2B2C089E0DDF3E7EDCC959E90D980860C96FB7C45132F05462E7DCBA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | OmegaBot — OmegaBot Gameplay Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 4183,
-  "totalVariants": 5607,
-  "lastUpdated": "2026-11-10T08:22:30.963651+00:00"
+  "totalGames": 4193,
+  "totalVariants": 5617,
+  "lastUpdated": "2026-11-10T08:25:25.610249+00:00"
 }
