@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T04:07:57.169325+00:00",
+  "updatedAt": "2026-11-10T04:11:01.326477+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -114888,9 +114888,269 @@
           "notes": "Switch 720p 30fps H264 | Touken Ranbu Warriors — 220524_Launch_EN"
         }
       ]
+    },
+    {
+      "titleId": "010016A00AEC0000",
+      "title": "Warriors Orochi 4",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010016A00AEC0000.jpg",
+      "variants": [
+        {
+          "id": "v_f208cf17",
+          "name": "WARRIORS OROCHI 4 — Ultimate_movie_launch_Steam",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yOOqiZh9ueCW0BJBqGPJGFELWjuEA8X8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yOOqiZh9ueCW0BJBqGPJGFELWjuEA8X8&sz=w640",
+          "sizeBytes": 5119717,
+          "sha256": "CE414BCF394692E2D6826E3EC257670F98E7C5868A9F51481DB98F5F9F73C748",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | WARRIORS OROCHI 4 — Ultimate_movie_launc"
+        }
+      ]
+    },
+    {
+      "titleId": "010036001778C000",
+      "title": "Potato Flowers in Full Bloom",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010036001778C000.jpg",
+      "variants": [
+        {
+          "id": "v_6835e70f",
+          "name": "Potato Flowers in Full Bloom — PotatoFactory_En",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1H-J1rdqbd9eudNEIB7VqzPPvXXz8Gg2e",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1H-J1rdqbd9eudNEIB7VqzPPvXXz8Gg2e&sz=w640",
+          "sizeBytes": 5408583,
+          "sha256": "7C8D0F0EA94642CA922590D422DF0C13121234007F334B56F0E9BA24069EED40",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Potato Flowers in Full Bloom — PotatoFac"
+        }
+      ]
+    },
+    {
+      "titleId": "01002BD00CB86000",
+      "title": "Panty Party",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002BD00CB86000.jpg",
+      "variants": [
+        {
+          "id": "v_3a23c15f",
+          "name": "Panty Party — PANTY PART Trailer - I must find t",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gpI7fZrsdWxySN8X3t8K8SNLaexh3wKg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gpI7fZrsdWxySN8X3t8K8SNLaexh3wKg&sz=w640",
+          "sizeBytes": 5194498,
+          "sha256": "9523D0FF57218D64EBB85143C85AD7B9062F737026A140F2113506482241544E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Panty Party — PANTY PART Trailer - I mus"
+        }
+      ]
+    },
+    {
+      "titleId": "01002E90191FA000",
+      "title": "Overloop",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002E90191FA000.jpg",
+      "variants": [
+        {
+          "id": "v_7ea11ac9",
+          "name": "Hotel Overloop — Hotel Overloop - Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tC41Yqm8ccKBJudtWAUyjKx09oNzu9Zn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tC41Yqm8ccKBJudtWAUyjKx09oNzu9Zn&sz=w640",
+          "sizeBytes": 5222388,
+          "sha256": "86BB9F41CDD42A197915CF4B73A75BD56632DD043014A9EAF7B5F96B65BBCDB1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hotel Overloop — Hotel Overloop - Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "01009A902207A000",
+      "title": "Fairy Tail Dungeons",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009A902207A000.jpg",
+      "variants": [
+        {
+          "id": "v_3fed4fd0",
+          "name": "FAIRY TAIL: DUNGEONS — MajorUpdate_EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZDsfLwn9EDq2w5sDBT4K8H6BRUiUjW4E",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZDsfLwn9EDq2w5sDBT4K8H6BRUiUjW4E&sz=w640",
+          "sizeBytes": 5398468,
+          "sha256": "7639C2DFB8E09613DC937FA5BD1E2FC3223A5D7DD109F164179BB0056CC32C07",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | FAIRY TAIL: DUNGEONS — MajorUpdate_EN"
+        }
+      ]
+    },
+    {
+      "titleId": "010047401EA8E000",
+      "title": "Deliver Us the Moon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010047401EA8E000.jpg",
+      "variants": [
+        {
+          "id": "v_3dc7478a",
+          "name": "Deliver Us The Moon — RTX Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bH6udmCxFPA_yQcRHD6oesBWcucSr2we",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bH6udmCxFPA_yQcRHD6oesBWcucSr2we&sz=w640",
+          "sizeBytes": 4394129,
+          "sha256": "AB29E425DE128394448DDC693EEC5BBA7D12418EAE83033F65262F4522FFDA05",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Deliver Us The Moon — RTX Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D5F022232000",
+      "title": "Pilo and the Holobook",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D5F022232000.jpg",
+      "variants": [
+        {
+          "id": "v_8a32054c",
+          "name": "Pilo and the Holobook — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Gdtdq30Sd7tWK13MtoW2_tUCQe3UVraS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Gdtdq30Sd7tWK13MtoW2_tUCQe3UVraS&sz=w640",
+          "sizeBytes": 5467082,
+          "sha256": "DD588277BD19A100E1C5BCCCA807B7969AE7B84DA8A73BCD29904621B2DE7DEE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Pilo and the Holobook — Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010034800FB60000",
+      "title": "Spaceland",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010034800FB60000.jpg",
+      "variants": [
+        {
+          "id": "v_002e30b7",
+          "name": "Spaceland: Sci-Fi Indie Tactics — Pre-launch Tra",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KfGEUocIB4ZuRfrztlHwFxWlEtzrp7EQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KfGEUocIB4ZuRfrztlHwFxWlEtzrp7EQ&sz=w640",
+          "sizeBytes": 5146490,
+          "sha256": "1C616C12E1882382679C8F09CFE82E8EF87285071DB6F2197C661C059CDD7D37",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Spaceland: Sci-Fi Indie Tactics — Pre-la"
+        }
+      ]
+    },
+    {
+      "titleId": "010052D00B754000",
+      "title": "The Lost Light of Sisu",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010052D00B754000.jpg",
+      "variants": [
+        {
+          "id": "v_ccbeab1f",
+          "name": "The Lost Light of Sisu — Release Trailer - ESRB",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1sx0rq3-kT2uSYwZdPZqnZ73DhEwfnheG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1sx0rq3-kT2uSYwZdPZqnZ73DhEwfnheG&sz=w640",
+          "sizeBytes": 5195895,
+          "sha256": "DDA289DC5553F4B5E510E3EFE4D38A1614A518F3AFA57F6D57EDF158C0722271",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Lost Light of Sisu — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010034D010E78000",
+      "title": "Tharsis",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010034D010E78000.jpg",
+      "variants": [
+        {
+          "id": "v_8ebae315",
+          "name": "Tharsis — Tharsis Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-X8Zm1pLpr1fR-lvUC7EGyPKEVC49cn9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-X8Zm1pLpr1fR-lvUC7EGyPKEVC49cn9&sz=w640",
+          "sizeBytes": 5393457,
+          "sha256": "B677E4C2F73F68094EA290FD647D430BFC75436CC7155FBE2D96C45B3C54B2AD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tharsis — Tharsis Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 3363,
-  "totalVariants": 4787,
-  "lastUpdated": "2026-11-10T04:07:57.169325+00:00"
+  "totalGames": 3373,
+  "totalVariants": 4797,
+  "lastUpdated": "2026-11-10T04:11:01.326477+00:00"
 }
