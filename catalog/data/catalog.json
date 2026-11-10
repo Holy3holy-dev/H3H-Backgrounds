@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T04:25:53.400105+00:00",
+  "updatedAt": "2026-11-10T04:28:44.598984+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -116448,9 +116448,269 @@
           "notes": "Switch 720p 30fps H264 | MAKOTO WAKAIDO’s Case Files TRILOGY DELU"
         }
       ]
+    },
+    {
+      "titleId": "01007EF013CA0000",
+      "title": "Port Royale 4",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007EF013CA0000.jpg",
+      "variants": [
+        {
+          "id": "v_ac82e679",
+          "name": "Port Royale 4 — Port Royale 4 - Roadmap US",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ayfjScyzoLhnAnSv2VLwnFj2WClbgiiH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ayfjScyzoLhnAnSv2VLwnFj2WClbgiiH&sz=w640",
+          "sizeBytes": 5362032,
+          "sha256": "F081EA5BED800A0C24AB3F8605763831DFD074C091FE42AD2FE780F975B478AD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Port Royale 4 — Port Royale 4 - Roadmap "
+        }
+      ]
+    },
+    {
+      "titleId": "0100068018ECC000",
+      "title": "Remorse the List",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100068018ECC000.jpg",
+      "variants": [
+        {
+          "id": "v_588878e5",
+          "name": "Remorse: The List — Remorse: The List - Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12n1stNKCLhYWGQxWa5DRkBUP_94CSy39",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12n1stNKCLhYWGQxWa5DRkBUP_94CSy39&sz=w640",
+          "sizeBytes": 5136315,
+          "sha256": "CA39D6A58F446FD785A809F8614FC89AAD30CAB0C7DB7BEEA7834C461AE3E0B8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Remorse: The List — Remorse: The List - "
+        }
+      ]
+    },
+    {
+      "titleId": "01006B0014590000",
+      "title": "Beautiful Desolation",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006B0014590000.jpg",
+      "variants": [
+        {
+          "id": "v_4c0a0b6c",
+          "name": "BEAUTIFUL DESOLATION — Gameplay",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vQcQJFBQJYNdLmgq_VC-CrJe897gOFEM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vQcQJFBQJYNdLmgq_VC-CrJe897gOFEM&sz=w640",
+          "sizeBytes": 5174866,
+          "sha256": "ACD0724CC826B3E7D8E1E9BFD9CADEA26573EB49D1F2B5BA6FAF35134DA2408D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | BEAUTIFUL DESOLATION — Gameplay"
+        }
+      ]
+    },
+    {
+      "titleId": "01003D601DB00000",
+      "title": "Tales from Candleforth",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003D601DB00000.jpg",
+      "variants": [
+        {
+          "id": "v_3c5ec936",
+          "name": "Tales from Candleforth — DATE REVEAL TRAILER",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18pbZ5bKptZgdgWIKDjhp4XifHsKivqr0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18pbZ5bKptZgdgWIKDjhp4XifHsKivqr0&sz=w640",
+          "sizeBytes": 4727183,
+          "sha256": "A2F565F902A1E158C76508D3D85319F5E6726F7AEED9BD7F29151A6980C15D6D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tales from Candleforth — DATE REVEAL TRA"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EB000C818000",
+      "title": "The Padre",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EB000C818000.jpg",
+      "variants": [
+        {
+          "id": "v_150815f9",
+          "name": "The Padre — Gameplay",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cLGNGMJKTdOEZrZaB8Q9K2Y0buUE9XMl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cLGNGMJKTdOEZrZaB8Q9K2Y0buUE9XMl&sz=w640",
+          "sizeBytes": 4912241,
+          "sha256": "A76353D86D4F456ABBC5ED6CA9220F2206EA28D2F3C3296ED133E14B08BFE69B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Padre — Gameplay"
+        }
+      ]
+    },
+    {
+      "titleId": "01001950137D8000",
+      "title": "The Hong Kong Massacre",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001950137D8000.jpg",
+      "variants": [
+        {
+          "id": "v_64cf8cf2",
+          "name": "The Hong Kong Massacre — The Hong Kong Massacre ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PhF51FgTRGKvwJi-uVYhRDWGwMI92Y7q",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PhF51FgTRGKvwJi-uVYhRDWGwMI92Y7q&sz=w640",
+          "sizeBytes": 5270253,
+          "sha256": "1390BBF2467DAB676267A923984D1BA15602C95787533A09370E37CB07876B66",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Hong Kong Massacre — The Hong Kong M"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BAB00E8C0000",
+      "title": "Langrisser I and II",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BAB00E8C0000.jpg",
+      "variants": [
+        {
+          "id": "v_28019788",
+          "name": "Langrisser I & II — Langrisser I & II - Comparis",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wSV1fOCM9eBeGAI1_w2TA9vlu5p2EtcB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wSV1fOCM9eBeGAI1_w2TA9vlu5p2EtcB&sz=w640",
+          "sizeBytes": 4586715,
+          "sha256": "EF60140244340A35E721EE5108E14B367F79FAEC58ECF7E9D8161A4E1E4599AE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Langrisser I & II — Langrisser I & II - "
+        }
+      ]
+    },
+    {
+      "titleId": "01004450181D8000",
+      "title": "Criminal Expert",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004450181D8000.jpg",
+      "variants": [
+        {
+          "id": "v_9ac687a9",
+          "name": "Criminal Expert — Criminal Expert Gameplay",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VynPd-zjwSAxbdgJcznTUfHC9JUkGfSa",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VynPd-zjwSAxbdgJcznTUfHC9JUkGfSa&sz=w640",
+          "sizeBytes": 4824643,
+          "sha256": "04328D9FB1988424F480A8073E7E125B04608C1BF705E60B0C1515F38C471A1C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Criminal Expert — Criminal Expert Gamepl"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B410040F2000",
+      "title": "Dead Synchronicity Tomorrow Comes Today",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B410040F2000.jpg",
+      "variants": [
+        {
+          "id": "v_f50a15e9",
+          "name": "Dead Synchronicity: Tomorrow Comes Today — Dead ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17pvglUtTJEW9graLAYLoTnPCsouIuZWZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17pvglUtTJEW9graLAYLoTnPCsouIuZWZ&sz=w640",
+          "sizeBytes": 2855527,
+          "sha256": "B9D5C2A806A1A3F17DF2B13F758102B128AEB3F1EAD355D2FE258B0C3940ADB8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dead Synchronicity: Tomorrow Comes Today"
+        }
+      ]
+    },
+    {
+      "titleId": "010085B01388A000",
+      "title": "The Legend of Heroes: Ao no Kiseki Kai",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010085B01388A000.jpg",
+      "variants": [
+        {
+          "id": "v_87fb7e17",
+          "name": "The Legend of Heroes: Ao no Kiseki KAI — Game Pl",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fl6dWY7zcwkG8sU-B_f7Y4h5jtkx2wHo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fl6dWY7zcwkG8sU-B_f7Y4h5jtkx2wHo&sz=w640",
+          "sizeBytes": 4428160,
+          "sha256": "BA97239CC99F646321C59A15433A1FE67D11DDFB91176E47E730A5E0797C03A2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Legend of Heroes: Ao no Kiseki KAI —"
+        }
+      ]
     }
   ],
-  "totalGames": 3423,
-  "totalVariants": 4847,
-  "lastUpdated": "2026-11-10T04:25:53.400105+00:00"
+  "totalGames": 3433,
+  "totalVariants": 4857,
+  "lastUpdated": "2026-11-10T04:28:44.598984+00:00"
 }
