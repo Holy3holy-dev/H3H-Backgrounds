@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T03:22:57.738374+00:00",
+  "updatedAt": "2026-11-10T03:26:12.785079+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -110988,9 +110988,269 @@
           "notes": "Switch 720p 30fps H264 | JUMANJI: The Video Game — Launch Trailer"
         }
       ]
+    },
+    {
+      "titleId": "01003AD0123A2000",
+      "title": "Good Night Knight",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003AD0123A2000.jpg",
+      "variants": [
+        {
+          "id": "v_36eada4f",
+          "name": "Good Night, Knight — 2021.02.25",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zJoYzy3R0qw2Kky_PD01ANOQqwOlOXzp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zJoYzy3R0qw2Kky_PD01ANOQqwOlOXzp&sz=w640",
+          "sizeBytes": 5437973,
+          "sha256": "6D17BCFF6DD46A396E0F22E093225AA54F944FC9039048D13CCD745BF34721EC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Good Night, Knight — 2021.02.25"
+        }
+      ]
+    },
+    {
+      "titleId": "010088500D5EE000",
+      "title": "Koral",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010088500D5EE000.jpg",
+      "variants": [
+        {
+          "id": "v_c09d00af",
+          "name": "Koral — Teaser Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=149vgOTQyLGr6o3vuifdELIb-gk8a3tt6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=149vgOTQyLGr6o3vuifdELIb-gk8a3tt6&sz=w640",
+          "sizeBytes": 4373107,
+          "sha256": "FD7F27F9698479D7DDE449B33D08A10BB099A9C61EADCD0E29AEC699A7919371",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Koral — Teaser Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01001E500EA16000",
+      "title": "Path of Sin: Greed",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001E500EA16000.jpg",
+      "variants": [
+        {
+          "id": "v_1f68f2a9",
+          "name": "Path of Sin: Greed — Path of Sin: Greed",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1saifVAlBry-BN67aaqwMyG8weLrqbtqe",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1saifVAlBry-BN67aaqwMyG8weLrqbtqe&sz=w640",
+          "sizeBytes": 5294353,
+          "sha256": "9CE2394A7238A21C2ACC973A382D630B7CA02081EA3891D64688C5E1BC426DA8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Path of Sin: Greed — Path of Sin: Greed"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A73017E08000",
+      "title": "Eventide: Slavic Fable",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A73017E08000.jpg",
+      "variants": [
+        {
+          "id": "v_a96b2319",
+          "name": "Eventide: Slavic Fable — Eventide: Slavic Fable",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dpG9otOG-mUD-l9beTzDZbbKVzTqDyEl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dpG9otOG-mUD-l9beTzDZbbKVzTqDyEl&sz=w640",
+          "sizeBytes": 5305828,
+          "sha256": "5B003DFA7494B6DAFDE75970AD6E3D1D22C31617807BFE954E2D586185E95E74",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Eventide: Slavic Fable — Eventide: Slavi"
+        }
+      ]
+    },
+    {
+      "titleId": "0100068010226000",
+      "title": "Dreamwalker: Never Fall Asleep",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100068010226000.jpg",
+      "variants": [
+        {
+          "id": "v_f282ef74",
+          "name": "Dreamwalker: Never Fall Asleep — Dreamwalker: Ne",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15eGKbjf-Q-2lnb1Z_GcjcqDv8Z--KIyk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15eGKbjf-Q-2lnb1Z_GcjcqDv8Z--KIyk&sz=w640",
+          "sizeBytes": 5267786,
+          "sha256": "800119133FEA2BE08A201769B9764EC32891FD13AC7928AF45CED5729B1A6C0B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dreamwalker: Never Fall Asleep — Dreamwa"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A1B00C8CC000",
+      "title": "King's Heir: Rise to the Throne",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A1B00C8CC000.jpg",
+      "variants": [
+        {
+          "id": "v_e46415bc",
+          "name": "King's Heir: Rise to the Throne — King's Heir: R",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16C8xODu6PsKKWYAZ7WFs-KTO1JStP0Pu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16C8xODu6PsKKWYAZ7WFs-KTO1JStP0Pu&sz=w640",
+          "sizeBytes": 4971131,
+          "sha256": "45AFE8DE50B8564D4B08C3A2E2899C7ACF1EDEAFD1A97A88708E92E946FC9509",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | King's Heir: Rise to the Throne — King's"
+        }
+      ]
+    },
+    {
+      "titleId": "010056000BA1C000",
+      "title": "Fobia",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010056000BA1C000.jpg",
+      "variants": [
+        {
+          "id": "v_647b18c8",
+          "name": "Fobia - St. Dinfna Hotel — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Y_lxZaOjG6oyuGNgQXtFpmeu4rvbbune",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Y_lxZaOjG6oyuGNgQXtFpmeu4rvbbune&sz=w640",
+          "sizeBytes": 4624038,
+          "sha256": "D36FE50D70E97EB400956BEF7AF3195064E38831CCB8F1643C44031E5D6FC7EE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fobia - St. Dinfna Hotel — Launch Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CFC00A1D8000",
+      "title": "Wild Guns Reloaded",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CFC00A1D8000.jpg",
+      "variants": [
+        {
+          "id": "v_b5abd033",
+          "name": "Wild Guns Reloaded — Trailer_01",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_ErjlZWOwLeIxL9M9evKnsiqJAKVUt8r",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_ErjlZWOwLeIxL9M9evKnsiqJAKVUt8r&sz=w640",
+          "sizeBytes": 5148838,
+          "sha256": "A640298261067DBCA010C0E208A885F5B570600ED0A81E59AF8346685CEA9686",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wild Guns Reloaded — Trailer_01"
+        }
+      ]
+    },
+    {
+      "titleId": "010021100DF22000",
+      "title": "Telling Lies",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010021100DF22000.jpg",
+      "variants": [
+        {
+          "id": "v_609c9a36",
+          "name": "Telling Lies — Telling Lies | Accolades Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IaTDwLHvwdusDuntyxtOxcA8aIh6JYxk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IaTDwLHvwdusDuntyxtOxcA8aIh6JYxk&sz=w640",
+          "sizeBytes": 5051311,
+          "sha256": "D365FF7C3C55AEA32C176C9FE89A961AFDF1BA6BEDA87E893ACBA3BF2A5E36B8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Telling Lies — Telling Lies | Accolades "
+        }
+      ]
+    },
+    {
+      "titleId": "0100BB5015AA8000",
+      "title": "Dating Life: Miley x Emily",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BB5015AA8000.jpg",
+      "variants": [
+        {
+          "id": "v_6a79d307",
+          "name": "Dating Life: Miley X Emily — Teaser Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zH1E3oeUrM5-bRCPJxv2TlElVH_bGrUU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zH1E3oeUrM5-bRCPJxv2TlElVH_bGrUU&sz=w640",
+          "sizeBytes": 5325778,
+          "sha256": "85FF984162AF55966D4929E1DA1640DA27C60EBACF2103F2F4CC62119A572792",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dating Life: Miley X Emily — Teaser Trai"
+        }
+      ]
     }
   ],
-  "totalGames": 3213,
-  "totalVariants": 4637,
-  "lastUpdated": "2026-11-10T03:22:57.738374+00:00"
+  "totalGames": 3223,
+  "totalVariants": 4647,
+  "lastUpdated": "2026-11-10T03:26:12.785079+00:00"
 }
