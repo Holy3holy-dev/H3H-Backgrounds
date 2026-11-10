@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T07:37:19.428693+00:00",
+  "updatedAt": "2026-11-10T07:40:20.561125+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -132568,9 +132568,269 @@
           "notes": "Switch 720p 30fps H264 | Hero of Fate — PV"
         }
       ]
+    },
+    {
+      "titleId": "0100A1201AEF0000",
+      "title": "Slime Girl Smoothies",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A1201AEF0000.jpg",
+      "variants": [
+        {
+          "id": "v_1af269e3",
+          "name": "Slime Girl Smoothies — Slime Girl Smoothies Fina",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ajDbq-qDPHB4tF8l8qNhrIhGViyWhvar",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ajDbq-qDPHB4tF8l8qNhrIhGViyWhvar&sz=w640",
+          "sizeBytes": 4687384,
+          "sha256": "515DFF5BD58D896671E9C723D9C587C9594CBE25DADEF8D2DC2600EB786B77A2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Slime Girl Smoothies — Slime Girl Smooth"
+        }
+      ]
+    },
+    {
+      "titleId": "01004CA01B77E000",
+      "title": "Heavenly Bodies",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004CA01B77E000.jpg",
+      "variants": [
+        {
+          "id": "v_cd287b5d",
+          "name": "Heavenly Bodies — Four Player Update",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13XLd06yzz8vn3WQpWp-SjIs5AXugnxG-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13XLd06yzz8vn3WQpWp-SjIs5AXugnxG-&sz=w640",
+          "sizeBytes": 5191859,
+          "sha256": "043050B8B12E7DBBA82C6CFBD5F6F682CBBACEAC39103B04E4E4AE5936F100FC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Heavenly Bodies — Four Player Update"
+        }
+      ]
+    },
+    {
+      "titleId": "010004D017F72000",
+      "title": "Tamarak Trail",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010004D017F72000.jpg",
+      "variants": [
+        {
+          "id": "v_a14433a4",
+          "name": "Tamarak Trail — Tamarak Trail Steam Next Fest 20",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BKsITgkaK5Lb-05LTIBOZoBhpATEZhoM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BKsITgkaK5Lb-05LTIBOZoBhpATEZhoM&sz=w640",
+          "sizeBytes": 5463096,
+          "sha256": "BEE3691C862E459893DB9DE148B87ACB394E448D35B24B15B64B2AE277BAD2A6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tamarak Trail — Tamarak Trail Steam Next"
+        }
+      ]
+    },
+    {
+      "titleId": "01007E501D458000",
+      "title": "Spirit Mancer",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007E501D458000.jpg",
+      "variants": [
+        {
+          "id": "v_ad62db4e",
+          "name": "Spirit Mancer — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XS7b7eLJvolb_-is5MFyobtrcTPR_Qkr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XS7b7eLJvolb_-is5MFyobtrcTPR_Qkr&sz=w640",
+          "sizeBytes": 5332404,
+          "sha256": "A774DABCB464B4EC4F11B618C1E495567E161954FF1B92E6C9B08EAEBEE0091A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Spirit Mancer — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A59016D3E000",
+      "title": "Sophia the Traveler",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A59016D3E000.jpg",
+      "variants": [
+        {
+          "id": "v_bccfc743",
+          "name": "Sophia the Traveler — Sophia the Traveler_final",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_BoHkAr8sSx1dsg3sz-bFPBJaagFy0mc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_BoHkAr8sSx1dsg3sz-bFPBJaagFy0mc&sz=w640",
+          "sizeBytes": 4802858,
+          "sha256": "A81130CE3F096EE641366B84AA179F9C67CAA2C794D9D1B30693B6B22B15543C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sophia the Traveler — Sophia the Travele"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AB501EEB4000",
+      "title": "Slam and Roll",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AB501EEB4000.jpg",
+      "variants": [
+        {
+          "id": "v_821c1cd9",
+          "name": "Slam and Roll — Gameplay trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1T4Y0cWX6DFUO-YxHv6tCIIZiCIehptuk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1T4Y0cWX6DFUO-YxHv6tCIIZiCIehptuk&sz=w640",
+          "sizeBytes": 5449925,
+          "sha256": "3B1A812C3B5A4F5983690680BD3A031DDAE40F251D816ADD40F22BCC5CCFCAA7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Slam and Roll — Gameplay trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010010701CFD8000",
+      "title": "Skeler Boy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010010701CFD8000.jpg",
+      "variants": [
+        {
+          "id": "v_044ed05c",
+          "name": "SKELER BOY — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1k9hLtSlUboaXhVsMurJN4w47_bfCza8I",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1k9hLtSlUboaXhVsMurJN4w47_bfCza8I&sz=w640",
+          "sizeBytes": 5371293,
+          "sha256": "E6E89617FAB7B94431F961561C8FBB74F977E73076E11F6F3041DFBC723D5460",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | SKELER BOY — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A59020CFE000",
+      "title": "Servonauts",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A59020CFE000.jpg",
+      "variants": [
+        {
+          "id": "v_ec4aaa55",
+          "name": "Servonauts — Servonauts | Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NjFU9rC0_Si1TG6bf9_pBQRJTR2GR2mp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NjFU9rC0_Si1TG6bf9_pBQRJTR2GR2mp&sz=w640",
+          "sizeBytes": 5307115,
+          "sha256": "23262EFC61754FE6F8D621468AC9734C8F44F312C57C2BE944E73E518A2C1D56",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Servonauts — Servonauts | Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FBE01A304000",
+      "title": "Seasonspree",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FBE01A304000.jpg",
+      "variants": [
+        {
+          "id": "v_64fb2e16",
+          "name": "Seasonspree — Seasonspree release trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dwhIR6_A_cpIOaGffx9JoP3WEUyDFiJ_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dwhIR6_A_cpIOaGffx9JoP3WEUyDFiJ_&sz=w640",
+          "sizeBytes": 5112524,
+          "sha256": "5CB6D34837959F4648B2AE87FE7DA03ADEAC8E8C411E81F5007F7982E9D62689",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Seasonspree — Seasonspree release traile"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A85019228000",
+      "title": "Ruff Ghanor",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A85019228000.jpg",
+      "variants": [
+        {
+          "id": "v_12a024d8",
+          "name": "Ruff Ghanor — Ruff Ghanor - English Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16YDwhPMxFK1jSQZ-OHNz5VfMLWwktSBb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16YDwhPMxFK1jSQZ-OHNz5VfMLWwktSBb&sz=w640",
+          "sizeBytes": 3156416,
+          "sha256": "07C32C83ACECB823C3842BCBB3FCA6DC75F905B06AC1CECA537FFFC80A69ABFE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ruff Ghanor — Ruff Ghanor - English Trai"
+        }
+      ]
     }
   ],
-  "totalGames": 4043,
-  "totalVariants": 5467,
-  "lastUpdated": "2026-11-10T07:37:19.428693+00:00"
+  "totalGames": 4053,
+  "totalVariants": 5477,
+  "lastUpdated": "2026-11-10T07:40:20.561125+00:00"
 }
