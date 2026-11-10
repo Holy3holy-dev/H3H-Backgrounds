@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T02:50:31.218375+00:00",
+  "updatedAt": "2026-11-10T02:53:29.020851+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -108128,9 +108128,269 @@
           "notes": "Switch 720p 30fps H264 | The Legend of Nayuta: Boundless Trails —"
         }
       ]
+    },
+    {
+      "titleId": "0100F38015B86000",
+      "title": "My Little Pony a Maretime Bay Adventure",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F38015B86000.jpg",
+      "variants": [
+        {
+          "id": "v_89837572",
+          "name": "MY LITTLE PONY: A Maretime Bay Adventure — Tráil",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TmW2qRgggJhV7f3dOR-RNkQM74Plpjdf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TmW2qRgggJhV7f3dOR-RNkQM74Plpjdf&sz=w640",
+          "sizeBytes": 5609705,
+          "sha256": "34C76E228A95072CE94D21D64A1B3E181D91B52E98EC87550746F28408B5FEA5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | MY LITTLE PONY: A Maretime Bay Adventure"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C9001384E000",
+      "title": "Hotel Transylvania Scary Tale Adventures",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C9001384E000.jpg",
+      "variants": [
+        {
+          "id": "v_209f9740",
+          "name": "Hotel Transylvania: Scary-Tale Adventures — Hote",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=191OEyWYUnobVHSqfCzzUURc5DDJ2V5T2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=191OEyWYUnobVHSqfCzzUURc5DDJ2V5T2&sz=w640",
+          "sizeBytes": 5571277,
+          "sha256": "41174CFF9867F8C9AC609D4FEE5C7E3999E9ECAC1416D0AF4DFA1ABD6485C473",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hotel Transylvania: Scary-Tale Adventure"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FE901BF98000",
+      "title": "River Tails Stronger Together",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FE901BF98000.jpg",
+      "variants": [
+        {
+          "id": "v_338484e3",
+          "name": "River Tails: Stronger Together — Final Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xzT6QdWyRQRmFsDngG9NlW7x-QRcmC9g",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xzT6QdWyRQRmFsDngG9NlW7x-QRcmC9g&sz=w640",
+          "sizeBytes": 4251729,
+          "sha256": "C3DF311C5380D041E4B38702913CF2033D0E213F6247BE9688BA362D30E592DC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | River Tails: Stronger Together — Final T"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AFE0147A0000",
+      "title": "Blind Fate Edo no Yami",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AFE0147A0000.jpg",
+      "variants": [
+        {
+          "id": "v_2c53e883",
+          "name": "Blind Fate: Edo no Yami — Release Trailer EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10uNVieIWzvN5LNCeKWJzpKOwd6ce3Nmv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10uNVieIWzvN5LNCeKWJzpKOwd6ce3Nmv&sz=w640",
+          "sizeBytes": 5486690,
+          "sha256": "69E405644A09A260A50E7FC36ABCFA650C343B7BC20B95B31B271A37D9DAD48E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Blind Fate: Edo no Yami — Release Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "010067900B9C4000",
+      "title": "Degrees of Separation",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010067900B9C4000.jpg",
+      "variants": [
+        {
+          "id": "v_b6eaa4ff",
+          "name": "Degrees of Separation — Degrees of Separation | ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_09ACg2SjDF6uv8YRZyhR9xHczKz3ABl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_09ACg2SjDF6uv8YRZyhR9xHczKz3ABl&sz=w640",
+          "sizeBytes": 11297608,
+          "sha256": "C8347AE80E2F4EBF95DC9945FBE7BA254F663541EDFA7ED0D05B65315268EB1C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Degrees of Separation — Degrees of Separ"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DD4018F44000",
+      "title": "Micro Mages Maker",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DD4018F44000.jpg",
+      "variants": [
+        {
+          "id": "v_1934fce9",
+          "name": "Micro Mages Maker — Micro Mages Maker - Launch T",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NxsqDv71Vc3D8Uxt2nVQsa9-OoNvtJKf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NxsqDv71Vc3D8Uxt2nVQsa9-OoNvtJKf&sz=w640",
+          "sizeBytes": 5419547,
+          "sha256": "5BF41358421485869B15D3807F4F5E76CB77061A1582C2B9008335F9A1E58A4E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Micro Mages Maker — Micro Mages Maker - "
+        }
+      ]
+    },
+    {
+      "titleId": "0100B21027092000",
+      "title": "Middle Evil the Priest",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B21027092000.jpg",
+      "variants": [
+        {
+          "id": "v_9d74853b",
+          "name": "Middle Evil: The Priest — Middle Evil: The Pries",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1M0_LgRLo16wlLRuJ650yuBlGg4flFT9U",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1M0_LgRLo16wlLRuJ650yuBlGg4flFT9U&sz=w640",
+          "sizeBytes": 5238190,
+          "sha256": "A886B03D3353C32387BB8D1F882A553AE115DDEDA69C83BE3B10F8654575AAD7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Middle Evil: The Priest — Middle Evil: T"
+        }
+      ]
+    },
+    {
+      "titleId": "01004550100CC000",
+      "title": "Bomber Crew",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004550100CC000.jpg",
+      "variants": [
+        {
+          "id": "v_d4496f1b",
+          "name": "Bomber Crew — USAAF - IF BASE GAME OWNED",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jL_SNuOlZlKcBrCNXdMFtLxx4jMs1bSd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jL_SNuOlZlKcBrCNXdMFtLxx4jMs1bSd&sz=w640",
+          "sizeBytes": 5418742,
+          "sha256": "534B8CFB83DA88A05FC19704AB5FC7A7F3625D5955F6876B206E3824FEB739A6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bomber Crew — USAAF - IF BASE GAME OWNED"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FFB01889E000",
+      "title": "Keeper's Toll",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FFB01889E000.jpg",
+      "variants": [
+        {
+          "id": "v_9f0e2885",
+          "name": "Keeper's Toll — Full Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vZThZg-fJuSekgt4ipCauBBwcTqAqWGU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vZThZg-fJuSekgt4ipCauBBwcTqAqWGU&sz=w640",
+          "sizeBytes": 5198419,
+          "sha256": "AB0BEB4270AC2297248AE06C754DE389B9CDC8E5C728788B87FCD9B5FCABD969",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Keeper's Toll — Full Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D4D00F8F2000",
+      "title": "Half Past Fate Romantic Distancing",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D4D00F8F2000.jpg",
+      "variants": [
+        {
+          "id": "v_86718935",
+          "name": "Half Past Fate: Romantic Distancing — Half Past ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nelF_pbm1poaPG4nP5anRBQTmmKmznFr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nelF_pbm1poaPG4nP5anRBQTmmKmznFr&sz=w640",
+          "sizeBytes": 5316938,
+          "sha256": "27F162FC8B217492F3C68672626AB1D90E974328A65E29D49EF1A095F765FE13",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Half Past Fate: Romantic Distancing — Ha"
+        }
+      ]
     }
   ],
-  "totalGames": 3103,
-  "totalVariants": 4527,
-  "lastUpdated": "2026-11-10T02:50:31.218375+00:00"
+  "totalGames": 3113,
+  "totalVariants": 4537,
+  "lastUpdated": "2026-11-10T02:53:29.020851+00:00"
 }
