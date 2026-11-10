@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T13:41:26.005961+00:00",
+  "updatedAt": "2026-11-10T13:45:00.488241+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -160388,9 +160388,269 @@
           "notes": "Switch 720p 30fps H264 | Kharon's Crypt - Even Death May Die — Kh"
         }
       ]
+    },
+    {
+      "titleId": "01006FC017976000",
+      "title": "Will Die Alone",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006FC017976000.jpg",
+      "variants": [
+        {
+          "id": "v_d37cf2f3",
+          "name": "Will Die Alone — Will Die Alone - Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Hu92UWlHUv91wsXtZMxtoEGlG60VapXJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Hu92UWlHUv91wsXtZMxtoEGlG60VapXJ&sz=w640",
+          "sizeBytes": 2140223,
+          "sha256": "70193E4D7E79647526EF9E8B087113460D84FF6BC345DABB50575B4515E80CEB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Will Die Alone — Will Die Alone - Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "0100777018812000",
+      "title": "Marmoset",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100777018812000.jpg",
+      "variants": [
+        {
+          "id": "v_b97d238b",
+          "name": "Marmoset Hexels 3 — Hexels 3 | Discover the Grid",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1EDBE8IgumkEstv6lBN-wLGUle-7zEZS3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1EDBE8IgumkEstv6lBN-wLGUle-7zEZS3&sz=w640",
+          "sizeBytes": 3940306,
+          "sha256": "E822EAC17F7727DCFBBF109561874EFAA3269DC88E5BFB4003A966C3FD7485E2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Marmoset Hexels 3 — Hexels 3 | Discover "
+        }
+      ]
+    },
+    {
+      "titleId": "0100C20013196000",
+      "title": "OctaFight",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C20013196000.jpg",
+      "variants": [
+        {
+          "id": "v_9e88a628",
+          "name": "OctaFight — OctaFight - Announcement Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1s7nhchmkmto3v5Qz_x01eVQFdYRTFphd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1s7nhchmkmto3v5Qz_x01eVQFdYRTFphd&sz=w640",
+          "sizeBytes": 5153658,
+          "sha256": "BDCF632B9EA3EF08779C438961211F91CB4315CCBC7684147B3C5CB13E9FB14A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | OctaFight — OctaFight - Announcement Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "010027F0181EE000",
+      "title": "Wild Romance",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010027F0181EE000.jpg",
+      "variants": [
+        {
+          "id": "v_9955837d",
+          "name": "Wild Romance — Wild_Romance_PV01",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13lO-ZAOXz7cmMS0xChsyPeRz7_veFh8I",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13lO-ZAOXz7cmMS0xChsyPeRz7_veFh8I&sz=w640",
+          "sizeBytes": 5345722,
+          "sha256": "982853F054D25F46890AA565FAD69D04D7F4076FFEB1B339C2619CC36E3BBF1F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wild Romance — Wild_Romance_PV01"
+        }
+      ]
+    },
+    {
+      "titleId": "010040001C1D6000",
+      "title": "Wild Seas",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010040001C1D6000.jpg",
+      "variants": [
+        {
+          "id": "v_609783cd",
+          "name": "Wild Seas — Wild Seas Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14XPHGfOnUhO51i-eKVXmRhRjaQZ3GxgQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14XPHGfOnUhO51i-eKVXmRhRjaQZ3GxgQ&sz=w640",
+          "sizeBytes": 5263051,
+          "sha256": "AD659755C7330F47AEA3FBB4E6885629C2561B8DECCE8F3FAD560EA034D74A21",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wild Seas — Wild Seas Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D4B010DCA000",
+      "title": "Dune Sea",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D4B010DCA000.jpg",
+      "variants": [
+        {
+          "id": "v_a6fb5f1a",
+          "name": "Dune Sea — Neon Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qM9odCqA8bpvIIZrmQGV1R8RcDHp_OYj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qM9odCqA8bpvIIZrmQGV1R8RcDHp_OYj&sz=w640",
+          "sizeBytes": 5555919,
+          "sha256": "235EDF3AEB6CCE07AC0E7A2AD51DC9BBAC727812AE41A1E183E70A8E27A2D1EF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dune Sea — Neon Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100759010EC8000",
+      "title": "A Street Cat's Tale",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100759010EC8000.jpg",
+      "variants": [
+        {
+          "id": "v_e92fb139",
+          "name": "A Street Cat's Tale — streetcat_EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LmUhok1_6UvhnzbK64JAOXPHlM3-Ye9C",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LmUhok1_6UvhnzbK64JAOXPHlM3-Ye9C&sz=w640",
+          "sizeBytes": 5284737,
+          "sha256": "A880514554F661A70FCB9C06FF6246ECD03B9A2D50A6769D8F6D0905E820754E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | A Street Cat's Tale — streetcat_EN"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DBC00BD5A000",
+      "title": "Dragon Audit",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DBC00BD5A000.jpg",
+      "variants": [
+        {
+          "id": "v_947472c3",
+          "name": "Dragon Audit — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Lh2ouRDuB5D_yeQfW47ueVJBaPlzv7ZB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Lh2ouRDuB5D_yeQfW47ueVJBaPlzv7ZB&sz=w640",
+          "sizeBytes": 5082915,
+          "sha256": "39CAB7D6D114021FC6ED0434A4031FADE69DA719A834B88A55AC52DE98353166",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dragon Audit — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DEC00B2BC000",
+      "title": "The Midnight Sanctuary",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DEC00B2BC000.jpg",
+      "variants": [
+        {
+          "id": "v_9b1249dc",
+          "name": "The Midnight Sanctuary — The Midnight Sanctuary ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16JS3X2g0i54V0nexQIeJCi4jsqHP2oQT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16JS3X2g0i54V0nexQIeJCi4jsqHP2oQT&sz=w640",
+          "sizeBytes": 5031804,
+          "sha256": "959839DEF7A78F9C0F75B0BB48EBE306FCBD37FA18FD3BB5571966536D18D86C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Midnight Sanctuary — The Midnight Sa"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F780103E6000",
+      "title": "The Forgotten Land",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F780103E6000.jpg",
+      "variants": [
+        {
+          "id": "v_87574399",
+          "name": "The Forgotten Land — TFL: Trailer EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1U2nJnjplS3FE_nHq2qb4OGTjTmbt3Eie",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1U2nJnjplS3FE_nHq2qb4OGTjTmbt3Eie&sz=w640",
+          "sizeBytes": 5181968,
+          "sha256": "74F47FF9A8242E8A282FCF0DA69DAC5B0DA89EED8B0F26704F0E28CDB9F2387D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Forgotten Land — TFL: Trailer EN"
+        }
+      ]
     }
   ],
-  "totalGames": 5113,
-  "totalVariants": 6537,
-  "lastUpdated": "2026-11-10T13:41:26.005961+00:00"
+  "totalGames": 5123,
+  "totalVariants": 6547,
+  "lastUpdated": "2026-11-10T13:45:00.488241+00:00"
 }
