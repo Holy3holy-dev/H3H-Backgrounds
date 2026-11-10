@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T03:29:06.552200+00:00",
+  "updatedAt": "2026-11-10T03:32:03.341826+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -111508,9 +111508,269 @@
           "notes": "Switch 720p 30fps H264 | Mechanic 8230: Escape from Ilgrot — Mech"
         }
       ]
+    },
+    {
+      "titleId": "01007E601DAD8000",
+      "title": "God of Light Remastered",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007E601DAD8000.jpg",
+      "variants": [
+        {
+          "id": "v_83dc5ff9",
+          "name": "God of Light: Remastered — God of Light: Remaste",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17KEphCO6pIEmYqSLGNoJI-XYfyMxJ6Up",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17KEphCO6pIEmYqSLGNoJI-XYfyMxJ6Up&sz=w640",
+          "sizeBytes": 4224917,
+          "sha256": "9A0401CDA2B37A01EF752B340123724941DA66C0B01B47438E6DD60F91D3D3D5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | God of Light: Remastered — God of Light:"
+        }
+      ]
+    },
+    {
+      "titleId": "010017301007E000",
+      "title": "Story of Seasons: Pioneers of Olive Town",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010017301007E000.jpg",
+      "variants": [
+        {
+          "id": "v_96d5797b",
+          "name": "STORY OF SEASONS: Pioneers of Olive Town — Launc",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ck73_fsnOSgW8JHWgNJvDgttl0BjBsIt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ck73_fsnOSgW8JHWgNJvDgttl0BjBsIt&sz=w640",
+          "sizeBytes": 4216445,
+          "sha256": "5EBEE82615E0CC60A19EE0A9C46EF8AA38479DAE3AD7964E18E46A4812E1B9C6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | STORY OF SEASONS: Pioneers of Olive Town"
+        }
+      ]
+    },
+    {
+      "titleId": "010036C01E244000",
+      "title": "Selfloss",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010036C01E244000.jpg",
+      "variants": [
+        {
+          "id": "v_2d2c4652",
+          "name": "Selfloss — Selfloss - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1W9HmXwsgDnk431Lg610N7w51jANqqNRi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1W9HmXwsgDnk431Lg610N7w51jANqqNRi&sz=w640",
+          "sizeBytes": 5386001,
+          "sha256": "5628A516FE255AA75AA79DEA4EEEA7CED2E982AAF794F94914245AD97D09A0E9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Selfloss — Selfloss - Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010063F019CB2000",
+      "title": "Looking for Aliens",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010063F019CB2000.jpg",
+      "variants": [
+        {
+          "id": "v_922175ba",
+          "name": "Looking for Aliens — Looking for Aliens (Steam T",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Vl8sl4bT9tfBqOKZ7z2Y-vrytZq74P_1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Vl8sl4bT9tfBqOKZ7z2Y-vrytZq74P_1&sz=w640",
+          "sizeBytes": 5402847,
+          "sha256": "3CDE8B8CB5A5D17952E101FF7B8752FCB48EEF126B2A225FCEA22D10A3703FC3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Looking for Aliens — Looking for Aliens "
+        }
+      ]
+    },
+    {
+      "titleId": "010012E01C9C8000",
+      "title": "Room of Depression",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010012E01C9C8000.jpg",
+      "variants": [
+        {
+          "id": "v_56279536",
+          "name": "Room of Depression — t01EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mtxvOz1S9h4tZXuml49q0GyPy3zlC8Dg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mtxvOz1S9h4tZXuml49q0GyPy3zlC8Dg&sz=w640",
+          "sizeBytes": 5180790,
+          "sha256": "AC4C67ED62162AC1FF7D242A3EB7F77AB796C6826E21BB35F9AE0CFE69425160",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Room of Depression — t01EN"
+        }
+      ]
+    },
+    {
+      "titleId": "01009A80203EA000",
+      "title": "Miniatures",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009A80203EA000.jpg",
+      "variants": [
+        {
+          "id": "v_7991264e",
+          "name": "My Little Miniatures — V1.0 宣传片",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wOsWvipI4OuHE_YnYC_9kJnaTQYJWd4m",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wOsWvipI4OuHE_YnYC_9kJnaTQYJWd4m&sz=w640",
+          "sizeBytes": 4678474,
+          "sha256": "B327EBFE81FD296EB9431F7942490B3BFC8317A10250BA595D677556428E3ADB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | My Little Miniatures — V1.0 宣传片"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FFA01ACA8000",
+      "title": "Sentimental Death Loop",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FFA01ACA8000.jpg",
+      "variants": [
+        {
+          "id": "v_ff27b10b",
+          "name": "Sentimental Death Loop — PV_EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LvfhUiy3aWhCAGiW8VFO5fqZhApClm97",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LvfhUiy3aWhCAGiW8VFO5fqZhApClm97&sz=w640",
+          "sizeBytes": 5129854,
+          "sha256": "D0ADF4CC41D9C416846A373A6CD994752D252B131D98F9C7C1F0C1F15669085B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sentimental Death Loop — PV_EN"
+        }
+      ]
+    },
+    {
+      "titleId": "010052501C55E000",
+      "title": "Tamashii",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010052501C55E000.jpg",
+      "variants": [
+        {
+          "id": "v_54847ca9",
+          "name": "TAMASHII — Tamashii trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bUFEbPirOng4m4OEzWpNmAzGR9ITuPaB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bUFEbPirOng4m4OEzWpNmAzGR9ITuPaB&sz=w640",
+          "sizeBytes": 4716431,
+          "sha256": "0296771968172ADC2037A4CCE79EC76CFF48EFB3065DEC9A5BE4BFEC8D74AA2A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | TAMASHII — Tamashii trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100113008262000",
+      "title": "Masquerada: Songs and Shadows",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100113008262000.jpg",
+      "variants": [
+        {
+          "id": "v_5a9da699",
+          "name": "Masquerada: Songs and Shadows — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lLLptpZJ7VdDfRv_wnWOMQoviJP-xTRF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lLLptpZJ7VdDfRv_wnWOMQoviJP-xTRF&sz=w640",
+          "sizeBytes": 5575402,
+          "sha256": "F0C04A91F4482E2AAC9F74910BC30212DC9E7C12F314EE00754AF5CC2C79875C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Masquerada: Songs and Shadows — Gameplay"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C3D01CE38000",
+      "title": "The World After",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C3D01CE38000.jpg",
+      "variants": [
+        {
+          "id": "v_a4b16c76",
+          "name": "The World After — Official trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FBVwAWkbB2nJl05k2tKJAYEHlrt8eaR3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FBVwAWkbB2nJl05k2tKJAYEHlrt8eaR3&sz=w640",
+          "sizeBytes": 5407885,
+          "sha256": "2F3F82820D1B4377995B1B4F38D63BD46A9DC6AF7B82A66FBA57C03A7B8C1B36",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The World After — Official trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 3233,
-  "totalVariants": 4657,
-  "lastUpdated": "2026-11-10T03:29:06.552200+00:00"
+  "totalGames": 3243,
+  "totalVariants": 4667,
+  "lastUpdated": "2026-11-10T03:32:03.341826+00:00"
 }
