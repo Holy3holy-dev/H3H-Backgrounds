@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T15:27:23.064948+00:00",
+  "updatedAt": "2026-11-10T15:32:00.161492+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -167408,9 +167408,269 @@
           "notes": "Switch 720p 30fps H264 | BeeFense BeeMastered — Trailer"
         }
       ]
+    },
+    {
+      "titleId": "010024A00C854000",
+      "title": "Mimic Hunter",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010024A00C854000.jpg",
+      "variants": [
+        {
+          "id": "v_087b598e",
+          "name": "Mimic Hunter — Short Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1EL53wWP4kjxWeTTPqZ2Xw29ZqHfdEJxS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1EL53wWP4kjxWeTTPqZ2Xw29ZqHfdEJxS&sz=w640",
+          "sizeBytes": 5465204,
+          "sha256": "997AE4585AA126191465C57DF4D435CCEDF096EBB47182C2C257EA953DC9C4C4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mimic Hunter — Short Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01004B001058C000",
+      "title": "Zero Strain",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004B001058C000.jpg",
+      "variants": [
+        {
+          "id": "v_d9f0118c",
+          "name": "Zero Strain — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nuvD6IBRO0DLoMid-ASwHgmKyRKX7ySs",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nuvD6IBRO0DLoMid-ASwHgmKyRKX7ySs&sz=w640",
+          "sizeBytes": 5475972,
+          "sha256": "99CA484F214EBC45ABB5DD54417CF1E40AB8A2112C051E83C58F0198B409E781",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Zero Strain — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010017B0102A8000",
+      "title": "Emma Lost in Memories",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010017B0102A8000.jpg",
+      "variants": [
+        {
+          "id": "v_fba08606",
+          "name": "EMMA: Lost in Memories — EMMA: Lost in Memories ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OypOd86akAXx5dtr4vP3Hylm2ppnr8qA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OypOd86akAXx5dtr4vP3Hylm2ppnr8qA&sz=w640",
+          "sizeBytes": 3713482,
+          "sha256": "F47EF4CC6053131D21DD7B7CFB8907123221A9CF3BB5A62C978FB80B534AE344",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | EMMA: Lost in Memories — EMMA: Lost in M"
+        }
+      ]
+    },
+    {
+      "titleId": "01009D4011BFC000",
+      "title": "Many Faces",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009D4011BFC000.jpg",
+      "variants": [
+        {
+          "id": "v_bad5846f",
+          "name": "Many Faces — Many Faces Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14qUY7iWmiawvgbc1ZmSPvTNAtXfCq8CY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14qUY7iWmiawvgbc1ZmSPvTNAtXfCq8CY&sz=w640",
+          "sizeBytes": 5021273,
+          "sha256": "A4ED7F402CA22A213E7840C5EBC66587F54656BBE45245C4D14D95A0B671AD49",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Many Faces — Many Faces Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010024C01242E000",
+      "title": "Gerty",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010024C01242E000.jpg",
+      "variants": [
+        {
+          "id": "v_02652e46",
+          "name": "Gerty — Gerty Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1exvZzY7ZiBv664HQ1N5v1Yq3bhYDjZD0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1exvZzY7ZiBv664HQ1N5v1Yq3bhYDjZD0&sz=w640",
+          "sizeBytes": 5296931,
+          "sha256": "9B69034C33559D4B321D4C3DCEEBA5EB5636660A27C2C0D53187FAAB93B4109A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Gerty — Gerty Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010068000D9F2000",
+      "title": "Noble Armada Lost Worlds",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010068000D9F2000.jpg",
+      "variants": [
+        {
+          "id": "v_35835437",
+          "name": "Noble Armada: Lost Worlds — Debut Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Z8U9cWHC3qqQpCjuYGDKSet2Lc2LUEGL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Z8U9cWHC3qqQpCjuYGDKSet2Lc2LUEGL&sz=w640",
+          "sizeBytes": 5431415,
+          "sha256": "5A0490C5F822E800DBDB2A69F20D620C35786D2D258C794003793EF7D00A4FE2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Noble Armada: Lost Worlds — Debut Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "010080000D8CA000",
+      "title": "Reverse Crawl",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010080000D8CA000.jpg",
+      "variants": [
+        {
+          "id": "v_cf9df569",
+          "name": "Reverse Crawl — Reverse Crawl Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VtsfRDSApzI2LiFxCdqo3x-FDwfXb_qD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VtsfRDSApzI2LiFxCdqo3x-FDwfXb_qD&sz=w640",
+          "sizeBytes": 5464999,
+          "sha256": "E9BC482C786A51BED2DCC178643722F290FD945C5605239719E493D24863B123",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Reverse Crawl — Reverse Crawl Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01006C3011C56000",
+      "title": "Feathery Ears",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006C3011C56000.jpg",
+      "variants": [
+        {
+          "id": "v_ba5fee71",
+          "name": "Feathery Ears 羽耳 — Feathery Ears 羽耳 GAMEPLAY",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mcpb-8AS0S1hw9jtxDIHlJSNd2CxVqxs",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mcpb-8AS0S1hw9jtxDIHlJSNd2CxVqxs&sz=w640",
+          "sizeBytes": 4914543,
+          "sha256": "50D6C1203B804E84EFD67B27624F38D307C9E8856EBFD79A624735D338FAC536",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Feathery Ears 羽耳 — Feathery Ears 羽耳 GAME"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E5500D294000",
+      "title": "Mon Amour",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E5500D294000.jpg",
+      "variants": [
+        {
+          "id": "v_47dee40b",
+          "name": "Mon Amour — Trailer_English",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VhV219KpO0kjroTgdIMmHMv5Pc4PJ5pb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VhV219KpO0kjroTgdIMmHMv5Pc4PJ5pb&sz=w640",
+          "sizeBytes": 2316083,
+          "sha256": "C0E8A3B1ADAE9CF1159EF1E2CA4C7044355684680B74B25DE56E9A3D7C7232CE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mon Amour — Trailer_English"
+        }
+      ]
+    },
+    {
+      "titleId": "010092E00E7F4000",
+      "title": "Deleveled",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010092E00E7F4000.jpg",
+      "variants": [
+        {
+          "id": "v_f9847feb",
+          "name": "Deleveled — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ew2Qun6E2S2RpT47SdGr6luz8kEoncuQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ew2Qun6E2S2RpT47SdGr6luz8kEoncuQ&sz=w640",
+          "sizeBytes": 5208236,
+          "sha256": "8DD2CD967BEFCF11E35A7295E8FABA8309F08B07B26CB24A59F2985C94D5DAD9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Deleveled — Launch Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 5383,
-  "totalVariants": 6807,
-  "lastUpdated": "2026-11-10T15:27:23.064948+00:00"
+  "totalGames": 5393,
+  "totalVariants": 6817,
+  "lastUpdated": "2026-11-10T15:32:00.161492+00:00"
 }
