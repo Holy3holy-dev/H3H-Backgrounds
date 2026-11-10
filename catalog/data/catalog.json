@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T10:42:32.693164+00:00",
+  "updatedAt": "2026-11-10T10:46:35.677044+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -147648,9 +147648,269 @@
           "notes": "Switch 720p 30fps H264 | The Innsmouth Case — Release Trailer"
         }
       ]
+    },
+    {
+      "titleId": "010022301531E000",
+      "title": "MouseBot Escape from CatLab",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010022301531E000.jpg",
+      "variants": [
+        {
+          "id": "v_3e206718",
+          "name": "MouseBot: Escape from CatLab — Official Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1E8eB76wleR_MRBNSpCZLm3X3KWP3EHK4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1E8eB76wleR_MRBNSpCZLm3X3KWP3EHK4&sz=w640",
+          "sizeBytes": 5093201,
+          "sha256": "8CFB7F9A68E2F009B5EE3FDAF3312FE1A34560D79A809C014F2C3452B29BAD2D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | MouseBot: Escape from CatLab — Official "
+        }
+      ]
+    },
+    {
+      "titleId": "0100E12013D74000",
+      "title": "Into A Dream",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E12013D74000.jpg",
+      "variants": [
+        {
+          "id": "v_87a03354",
+          "name": "Into A Dream — Into A Dream - Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zk25_bUdzs2L-JPTdaMCbufKSPqoomwT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zk25_bUdzs2L-JPTdaMCbufKSPqoomwT&sz=w640",
+          "sizeBytes": 5236335,
+          "sha256": "B9A7A809F1F9CF16CC98DFC35FA072E4DA483930D6628D021DE547B71921DA08",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Into A Dream — Into A Dream - Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01008DB017F68000",
+      "title": "Atari Mania",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008DB017F68000.jpg",
+      "variants": [
+        {
+          "id": "v_b27e975a",
+          "name": "Atari Mania — Atari Mania Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gsWThpT_4JxZXXn4aMUljRvhsymwG4WN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gsWThpT_4JxZXXn4aMUljRvhsymwG4WN&sz=w640",
+          "sizeBytes": 3974966,
+          "sha256": "4B21F229A9164E760ABAD769BF55258453D3270B98B96D80F657D2ACB0C5CF32",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Atari Mania — Atari Mania Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010089F02186E000",
+      "title": "Mosa Lina",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010089F02186E000.jpg",
+      "variants": [
+        {
+          "id": "v_d031ebec",
+          "name": "Mosa Lina — Second Layer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IqYsAiXVOF_mMTB9CqWLhS-_RhcVILdg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IqYsAiXVOF_mMTB9CqWLhS-_RhcVILdg&sz=w640",
+          "sizeBytes": 5388227,
+          "sha256": "50F8531022410D3E259B2A1C8B73CC2C6194E1088AA1561AE051165AC30B7CA8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mosa Lina — Second Layer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FF70134BA000",
+      "title": "Kowloon High School Chronicle",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FF70134BA000.jpg",
+      "variants": [
+        {
+          "id": "v_e27aa5fe",
+          "name": "Kowloon High-School Chronicle — PlayMovie",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RASihkWrQ_PfM9wZGhE-6HieBvS6C9ZJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RASihkWrQ_PfM9wZGhE-6HieBvS6C9ZJ&sz=w640",
+          "sizeBytes": 5008099,
+          "sha256": "A5467647F3F49915FA3B42B8365E756E55AC591217D0785FD61FC648FF34C88D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kowloon High-School Chronicle — PlayMovi"
+        }
+      ]
+    },
+    {
+      "titleId": "01008EF00C900000",
+      "title": "The Journey Down: Trilogy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008EF00C900000.jpg",
+      "variants": [
+        {
+          "id": "v_a98bd84b",
+          "name": "The Journey Down: Chapter Three — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AIJ1SRDhHTI8kHFhY2RJ8ZrJWG_YiubM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AIJ1SRDhHTI8kHFhY2RJ8ZrJWG_YiubM&sz=w640",
+          "sizeBytes": 5480794,
+          "sha256": "74AEB0D6FD0870EA7BE902F19ECD9CD6B5E32FAB71AAA471C96EE4230D92D13E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Journey Down: Chapter Three — Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B4401F1BA000",
+      "title": "Once Again",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B4401F1BA000.jpg",
+      "variants": [
+        {
+          "id": "v_69b52b53",
+          "name": "Once Again — Once Again - Official Launch Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17Db_IP4RNjVibJxuV2MpHSXcFGZcWlDT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17Db_IP4RNjVibJxuV2MpHSXcFGZcWlDT&sz=w640",
+          "sizeBytes": 4389176,
+          "sha256": "9A24D6FF2D80873194650A481FF7A01BD55ED5E59750DA5DA7AFC4F503E10B58",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Once Again — Once Again - Official Launc"
+        }
+      ]
+    },
+    {
+      "titleId": "01008DB0233C8000",
+      "title": "Ratshaker",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008DB0233C8000.jpg",
+      "variants": [
+        {
+          "id": "v_090a9552",
+          "name": "RATSHAKER™ — RatshakerOfficialPCTrailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zQ0Xc0efyTK1T2drORBwp2A1yLfDIFYV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zQ0Xc0efyTK1T2drORBwp2A1yLfDIFYV&sz=w640",
+          "sizeBytes": 5486393,
+          "sha256": "05D27D6A51639FEE0FC9E39DB2DBDCAAB256F638E283C2528B9938FF82B4AFC9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | RATSHAKER™ — RatshakerOfficialPCTrailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01005CD011474000",
+      "title": "Bug Academy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005CD011474000.jpg",
+      "variants": [
+        {
+          "id": "v_f74f5532",
+          "name": "Bug Academy — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14FHgvIIVdKSNZN44N13jSJv2020E6v98",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14FHgvIIVdKSNZN44N13jSJv2020E6v98&sz=w640",
+          "sizeBytes": 5318886,
+          "sha256": "E0D4078195191AFD77A670F603CCC97A0B1AD4A0CA02E4F6FE3A8AD0E55FF986",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bug Academy — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DB001724E000",
+      "title": "Monster Hunter Rise Sunbreak",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DB001724E000.jpg",
+      "variants": [
+        {
+          "id": "v_3eb8fd2b",
+          "name": "Monster Hunter Rise: Sunbreak — 59_MHRise-SB_PV3",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wj6Xhq_ORq6JQWZ9_e6pAkF7uyAlwmJy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wj6Xhq_ORq6JQWZ9_e6pAkF7uyAlwmJy&sz=w640",
+          "sizeBytes": 4887797,
+          "sha256": "6699D3B75D2EAB205F9EB7B77C2B06DF119D101AFA38F3B464DEE8290F2737E2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Monster Hunter Rise: Sunbreak — 59_MHRis"
+        }
+      ]
     }
   ],
-  "totalGames": 4623,
-  "totalVariants": 6047,
-  "lastUpdated": "2026-11-10T10:42:32.693164+00:00"
+  "totalGames": 4633,
+  "totalVariants": 6057,
+  "lastUpdated": "2026-11-10T10:46:35.677044+00:00"
 }
