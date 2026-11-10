@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T14:32:53.958123+00:00",
+  "updatedAt": "2026-11-10T14:36:53.849932+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -164028,9 +164028,269 @@
           "notes": "Switch 720p 30fps H264 | Drunk Woodcutter — Cinematic Trailer (19"
         }
       ]
+    },
+    {
+      "titleId": "01007400180A4000",
+      "title": "Bricky to Me",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007400180A4000.jpg",
+      "variants": [
+        {
+          "id": "v_a4877862",
+          "name": "Bricky to Me — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1H3S4g70x4Efe19kpFPkSeuH6U6xK6Bla",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1H3S4g70x4Efe19kpFPkSeuH6U6xK6Bla&sz=w640",
+          "sizeBytes": 5389813,
+          "sha256": "D97667778421630D9DFDAF5777A7BC09B7C04C9E6A22621EEE7984CEF70008E6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bricky to Me — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D7C01115E000",
+      "title": "Keen One Girl Army",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D7C01115E000.jpg",
+      "variants": [
+        {
+          "id": "v_843aaa6b",
+          "name": "Keen: One Girl Army — Keen Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11fuvKYE7D5WbDsQDvMxwosIYiRP2wuJW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11fuvKYE7D5WbDsQDvMxwosIYiRP2wuJW&sz=w640",
+          "sizeBytes": 5206305,
+          "sha256": "B086428029CD74EDFA7B89E02BDC8914E09515C4476B67E2E3BBBFCDC7177D39",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Keen: One Girl Army — Keen Launch Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C8C00FA10000",
+      "title": "Serious Scramblers",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C8C00FA10000.jpg",
+      "variants": [
+        {
+          "id": "v_43e105f4",
+          "name": "Serious Scramblers — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TAS8r6jx58dypVXRpfSEKme-qozT79zW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TAS8r6jx58dypVXRpfSEKme-qozT79zW&sz=w640",
+          "sizeBytes": 5263242,
+          "sha256": "A9B0B603551CB21D94B3AD517C91BD8BDB48F531DD023A9175DF2E97567C1578",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Serious Scramblers — Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010015A0110AC000",
+      "title": "Fairy Knights",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010015A0110AC000.jpg",
+      "variants": [
+        {
+          "id": "v_1422db71",
+          "name": "Fairy Knights — Fairy Knights_EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=154_kL7fnauzKf2J5rUIw8Y_in2KhS2V9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=154_kL7fnauzKf2J5rUIw8Y_in2KhS2V9&sz=w640",
+          "sizeBytes": 4916887,
+          "sha256": "744475741FA25AECBF17FD501F4A08E0339419FDD966210A5985DFFDEE273CD9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fairy Knights — Fairy Knights_EN"
+        }
+      ]
+    },
+    {
+      "titleId": "01005D10133B8000",
+      "title": "Killer Chambers",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005D10133B8000.jpg",
+      "variants": [
+        {
+          "id": "v_636fb267",
+          "name": "Killer Chambers — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15n7t9_geXSX7cI7ipuXcw5-Uo5JL5Bt1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15n7t9_geXSX7cI7ipuXcw5-Uo5JL5Bt1&sz=w640",
+          "sizeBytes": 5108276,
+          "sha256": "2C65D8E7852625A0DD5BDFF170F248CB12C3558737BB584F8A62A929B94EDCC8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Killer Chambers — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100297013C7C000",
+      "title": "Operation Zeta",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100297013C7C000.jpg",
+      "variants": [
+        {
+          "id": "v_144c1219",
+          "name": "Operation Zeta — Oz Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KzcLG55iMu_BFdrqM_IDcymSs2vi7u0W",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KzcLG55iMu_BFdrqM_IDcymSs2vi7u0W&sz=w640",
+          "sizeBytes": 5213957,
+          "sha256": "54D84088B33BE05D31481F1894D6F8BE609DC1B71B0FFA432A592EAFB95CD682",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Operation Zeta — Oz Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D1D013536000",
+      "title": "Crossbow Bloodnight",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D1D013536000.jpg",
+      "variants": [
+        {
+          "id": "v_537023c4",
+          "name": "CROSSBOW: Bloodnight — CROSSBOW: Bloodnight - Hu",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KfAkvMw7D0OnKInVxvE9M80KkfDK9dXG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KfAkvMw7D0OnKInVxvE9M80KkfDK9dXG&sz=w640",
+          "sizeBytes": 5373085,
+          "sha256": "A6084D2CAE9B7E81BF0D3DEB5F565FB111417EDA4F24A43B014B586C8CA1F8FF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | CROSSBOW: Bloodnight — CROSSBOW: Bloodni"
+        }
+      ]
+    },
+    {
+      "titleId": "010041D00DEB2000",
+      "title": "Amoeba Battle",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010041D00DEB2000.jpg",
+      "variants": [
+        {
+          "id": "v_320c4cf5",
+          "name": "Amoeba Battle: Microscopic RTS Action — Amoeba B",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14f8qg4SjuMOZuyKklme21hXyJ2tlagMZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14f8qg4SjuMOZuyKklme21hXyJ2tlagMZ&sz=w640",
+          "sizeBytes": 4792131,
+          "sha256": "DA6154C31F39D87A73EA2E634B5DFF5DF8371F4311E60C9D61B8531D24572C4E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Amoeba Battle: Microscopic RTS Action — "
+        }
+      ]
+    },
+    {
+      "titleId": "0100AB700FE02000",
+      "title": "Profane",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AB700FE02000.jpg",
+      "variants": [
+        {
+          "id": "v_d21ee19f",
+          "name": "Dawnsbury Days - The Profane Barrier — The Profa",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oCtqWRjlubB7QgbtBrmJu71lDGSGi__X",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oCtqWRjlubB7QgbtBrmJu71lDGSGi__X&sz=w640",
+          "sizeBytes": 5477393,
+          "sha256": "91C1AEDE2CB5D8864EBF60FE03799B8B4907A17A10E084CF15C4C36900B3C94F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dawnsbury Days - The Profane Barrier — T"
+        }
+      ]
+    },
+    {
+      "titleId": "010096100E230000",
+      "title": "Corridor Z",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010096100E230000.jpg",
+      "variants": [
+        {
+          "id": "v_7986f6d4",
+          "name": "Corridor Z — Corridor Z PC Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ilxls7sObSNLwcTQgzhhbjjiPycCdL8q",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ilxls7sObSNLwcTQgzhhbjjiPycCdL8q&sz=w640",
+          "sizeBytes": 5215442,
+          "sha256": "578F69400F020A9656FD7B47952C1E845842EBAEA1875B2C0820E26B22FE6F2B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Corridor Z — Corridor Z PC Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 5253,
-  "totalVariants": 6677,
-  "lastUpdated": "2026-11-10T14:32:53.958123+00:00"
+  "totalGames": 5263,
+  "totalVariants": 6687,
+  "lastUpdated": "2026-11-10T14:36:53.849932+00:00"
 }
