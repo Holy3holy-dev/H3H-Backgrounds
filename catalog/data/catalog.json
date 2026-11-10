@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T09:06:09.330514+00:00",
+  "updatedAt": "2026-11-10T09:09:18.887923+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -139848,9 +139848,269 @@
           "notes": "Switch 720p 30fps H264 | Evolution Board Game — Release Trailer"
         }
       ]
+    },
+    {
+      "titleId": "01001D0003B96000",
+      "title": "Inversus Deluxe",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001D0003B96000.jpg",
+      "variants": [
+        {
+          "id": "v_9ba909e9",
+          "name": "INVERSUS Deluxe — INVERSUS Deluxe Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kBeGnEVvINyZPkBh2BO6DZwCjEtBkXZn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kBeGnEVvINyZPkBh2BO6DZwCjEtBkXZn&sz=w640",
+          "sizeBytes": 5402845,
+          "sha256": "DEF46145AC0722D211E0545E609C9593A39C85F57636BE8024E3D277B7309C1F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | INVERSUS Deluxe — INVERSUS Deluxe Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DF3009730000",
+      "title": "Catastronauts",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DF3009730000.jpg",
+      "variants": [
+        {
+          "id": "v_9609f70a",
+          "name": "Catastronauts — Catastronauts Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16IOCLuIDETe1ckGOYsYsd7v8hIzENsAI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16IOCLuIDETe1ckGOYsYsd7v8hIzENsAI&sz=w640",
+          "sizeBytes": 5233119,
+          "sha256": "B3CACB906F8BB53CBEE0C26DFB76F8DE67606ECED54574D64C6EBD397AFE3415",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Catastronauts — Catastronauts Release Tr"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D6A01AF64000",
+      "title": "The Master's Pupil",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D6A01AF64000.jpg",
+      "variants": [
+        {
+          "id": "v_774e3763",
+          "name": "The Master's Pupil — The Master's Pupil Release ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PkkJX5rFe4XysZedHSiLha97saXuPYDg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PkkJX5rFe4XysZedHSiLha97saXuPYDg&sz=w640",
+          "sizeBytes": 5329280,
+          "sha256": "80A19D586754EEFACB6A208719CE438BD67EBD2DF60E0212D4CEFAE52B2CC52D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Master's Pupil — The Master's Pupil "
+        }
+      ]
+    },
+    {
+      "titleId": "01002AD013C52000",
+      "title": "Relicta",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002AD013C52000.jpg",
+      "variants": [
+        {
+          "id": "v_475f4893",
+          "name": "Relicta — Accolades trailer ESRB",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14EsYsXs4G-q9j-rGqqznB7iacxUehz6b",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14EsYsXs4G-q9j-rGqqznB7iacxUehz6b&sz=w640",
+          "sizeBytes": 5080112,
+          "sha256": "2C8ECDDE33624C3829456983ADBA3EE657AF53AD9D747FAE0FEB7E1B19FC73F1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Relicta — Accolades trailer ESRB"
+        }
+      ]
+    },
+    {
+      "titleId": "0100046017F14000",
+      "title": "Forklift Extreme",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100046017F14000.jpg",
+      "variants": [
+        {
+          "id": "v_ecf5941a",
+          "name": "Forklift Extreme: Deluxe Edition — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1piMI92QjhNahUYaNih3yhKiBw_2jJywy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1piMI92QjhNahUYaNih3yhKiBw_2jJywy&sz=w640",
+          "sizeBytes": 5223000,
+          "sha256": "87FBD77BB4D01C6A724F636E7246EC9DABFC675DAD3C6003A7257B2FB596E23E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Forklift Extreme: Deluxe Edition — Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D23023210000",
+      "title": "Teeny Tiny Trains the Enchanted Attic",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D23023210000.jpg",
+      "variants": [
+        {
+          "id": "v_8520d47c",
+          "name": "Teeny Tiny Trains - The Enchanted Attic — Welcom",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FDnpkgRgJySsli8g1PFYpaP1FkrKFIv9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FDnpkgRgJySsli8g1PFYpaP1FkrKFIv9&sz=w640",
+          "sizeBytes": 4254567,
+          "sha256": "B54EBEAE82E0C80329BD9946D27F035931F8CE490844018BFB3CC6AB96E006F3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Teeny Tiny Trains - The Enchanted Attic "
+        }
+      ]
+    },
+    {
+      "titleId": "010097E01E8EA000",
+      "title": "Tales from Toyotoki: Arrival of the Witch",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010097E01E8EA000.jpg",
+      "variants": [
+        {
+          "id": "v_c2488d58",
+          "name": "Tales from Toyotoki: Arrival of the Witch (The w",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bESnU4IR3O5Vs64to8ILTEnPwCSlxn6w",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bESnU4IR3O5Vs64to8ILTEnPwCSlxn6w&sz=w640",
+          "sizeBytes": 5353836,
+          "sha256": "E810AF1D3D18C6E21C1AE110278D736D0387F54EDB6C2D918EBF8317928995CA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tales from Toyotoki: Arrival of the Witc"
+        }
+      ]
+    },
+    {
+      "titleId": "01002F401D67C000",
+      "title": "Amairo Chocolate",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002F401D67C000.jpg",
+      "variants": [
+        {
+          "id": "v_fdf9aba7",
+          "name": "Amairo Chocolate — Gameplay",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Z-MDVNH14C69k7buCfY6tJifRXDQboTX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Z-MDVNH14C69k7buCfY6tJifRXDQboTX&sz=w640",
+          "sizeBytes": 3924787,
+          "sha256": "84317A479CAC16643036DEE3B0DDC4CA1778888CEA7D30F3E1F150BF8F182058",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Amairo Chocolate — Gameplay"
+        }
+      ]
+    },
+    {
+      "titleId": "010047F012BE2000",
+      "title": "Abyss of The Sacrifice",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010047F012BE2000.jpg",
+      "variants": [
+        {
+          "id": "v_ed8060fd",
+          "name": "ABYSS OF THE SACRIFICE — OP",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_6bNgLtEaA8kjWjCYv7w7KPKFioi82_R",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_6bNgLtEaA8kjWjCYv7w7KPKFioi82_R&sz=w640",
+          "sizeBytes": 5486903,
+          "sha256": "DB3DA638DFF93BA1EB4AA91B236871FC851ED43DDAD3297EDC2C7BEE54402B92",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | ABYSS OF THE SACRIFICE — OP"
+        }
+      ]
+    },
+    {
+      "titleId": "010007CB067B2000",
+      "title": "Concealed",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010007CB067B2000.jpg",
+      "variants": [
+        {
+          "id": "v_9da12ec0",
+          "name": "Concealed Intent — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AdDknmGJoBDV-gjtESYFMEgEoBNyAvkS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AdDknmGJoBDV-gjtESYFMEgEoBNyAvkS&sz=w640",
+          "sizeBytes": 5169776,
+          "sha256": "C7F64895F82713956808BCDA6185E90C69F5F5AD7C388F599EEE939E73628B66",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Concealed Intent — Release Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 4323,
-  "totalVariants": 5747,
-  "lastUpdated": "2026-11-10T09:06:09.330514+00:00"
+  "totalGames": 4333,
+  "totalVariants": 5757,
+  "lastUpdated": "2026-11-10T09:09:18.887923+00:00"
 }
