@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T05:23:23.919475+00:00",
+  "updatedAt": "2026-11-10T05:26:21.698128+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -121388,9 +121388,269 @@
           "notes": "Switch 720p 30fps H264 | Freak Crossing — 1st Trailer English"
         }
       ]
+    },
+    {
+      "titleId": "01007EF01D4F2000",
+      "title": "Vividlope",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007EF01D4F2000.jpg",
+      "variants": [
+        {
+          "id": "v_074856ee",
+          "name": "VIVIDLOPE — Update 1.4 Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VVIssE4_hI2qMQgLJCZi4tTqvDPrHl-6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VVIssE4_hI2qMQgLJCZi4tTqvDPrHl-6&sz=w640",
+          "sizeBytes": 5577664,
+          "sha256": "9496099D5EE48ABC3011C75DE80080D758AB12A49DEE5996699337A8978E78BD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | VIVIDLOPE — Update 1.4 Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100946025488000",
+      "title": "Trials of Randoom",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100946025488000.jpg",
+      "variants": [
+        {
+          "id": "v_34735a3f",
+          "name": "Trials Of Randoom — Trialls Of Randoom Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HL5cCUYrBBcTqN5tpTdTuf8sswmODClg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HL5cCUYrBBcTqN5tpTdTuf8sswmODClg&sz=w640",
+          "sizeBytes": 5018458,
+          "sha256": "FE02D3B4A174DF214BF62BF982005027DE259AC86E426D95E68D7324B34C8018",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Trials Of Randoom — Trialls Of Randoom T"
+        }
+      ]
+    },
+    {
+      "titleId": "010037D00DBDC000",
+      "title": "Yu-No a Girl Who Chants Love At The Bound Of This World",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010037D00DBDC000.jpg",
+      "variants": [
+        {
+          "id": "v_b5f33481",
+          "name": "YU-NO: A girl who chants love at the bound of th",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1n5b8M9HxEvD1A73y1wMxgNoM3tDe1HZq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1n5b8M9HxEvD1A73y1wMxgNoM3tDe1HZq&sz=w640",
+          "sizeBytes": 5344936,
+          "sha256": "F512224E5F8CACA097986EDAD151E915812217192E13066BD41EF2BFB55DF137",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | YU-NO: A girl who chants love at the bou"
+        }
+      ]
+    },
+    {
+      "titleId": "01002AA01C7C2000",
+      "title": "Great Ambition of the Slimes",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002AA01C7C2000.jpg",
+      "variants": [
+        {
+          "id": "v_409bd27c",
+          "name": "Great Ambition of the SLIMES — TRAILER_EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1O-9dCU5WJhYOj2dKOgdUDiuInrgh7DLL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1O-9dCU5WJhYOj2dKOgdUDiuInrgh7DLL&sz=w640",
+          "sizeBytes": 5221509,
+          "sha256": "C2862A62D7A4FF7A84CA0610DAACD83B17D66769EE52F890BA363977888F3637",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Great Ambition of the SLIMES — TRAILER_E"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C5C02484A000",
+      "title": "Sedap a Culinary Adventure",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C5C02484A000.jpg",
+      "variants": [
+        {
+          "id": "v_f714a4f4",
+          "name": "SEDAP! A Culinary Adventure — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1u4g7xog75v8sU_xvIozwoAS3ZBpUSjmc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1u4g7xog75v8sU_xvIozwoAS3ZBpUSjmc&sz=w640",
+          "sizeBytes": 5288194,
+          "sha256": "C4B769A6945214D95DEDF084E01C7E853AB9645D729CB720DE3177D9AAF841D3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | SEDAP! A Culinary Adventure — Launch Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D5B0266DA000",
+      "title": "Xmas Survivors",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D5B0266DA000.jpg",
+      "variants": [
+        {
+          "id": "v_580a070d",
+          "name": "Xmas Survivors — Xmas Survivors Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=128kZ6ddtgT_Rpn_RcrKDUC9iBls0GD6R",
+          "previewUrl": "https://drive.google.com/thumbnail?id=128kZ6ddtgT_Rpn_RcrKDUC9iBls0GD6R&sz=w640",
+          "sizeBytes": 5564918,
+          "sha256": "C224E446A05BBFB5274811D497E3F2D2F41EB841A22D0FAB72293D863E2A0D22",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Xmas Survivors — Xmas Survivors Gameplay"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FD200A45A000",
+      "title": "Spheroids",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FD200A45A000.jpg",
+      "variants": [
+        {
+          "id": "v_239682bd",
+          "name": "Spheroids — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kcb1T-N2oHhdGgS5auakAIu782S9QiwO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kcb1T-N2oHhdGgS5auakAIu782S9QiwO&sz=w640",
+          "sizeBytes": 4429884,
+          "sha256": "54D9FE3AC94A328BED934CBEC542A91BA9D028581D390E32749F673964AF59EF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Spheroids — Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01001DC018566000",
+      "title": "Super Chicken Jumper",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001DC018566000.jpg",
+      "variants": [
+        {
+          "id": "v_d1868cb1",
+          "name": "SUPER CHICKEN JUMPER — Super Chicken Jumper Offi",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18xQuw0YHLVmJE0xmbAhKzQZ4KUbCnBWS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18xQuw0YHLVmJE0xmbAhKzQZ4KUbCnBWS&sz=w640",
+          "sizeBytes": 5171186,
+          "sha256": "97AC388364F0594227604DC67F9B40F92563FF89552934D3DC08D341BBD33C56",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | SUPER CHICKEN JUMPER — Super Chicken Jum"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D54024B24000",
+      "title": "Neko Nin Exheart",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D54024B24000.jpg",
+      "variants": [
+        {
+          "id": "v_d32703d7",
+          "name": "NEKO-NIN exHeart — OP",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XZNypw2dw4sJ_DGL4KBCPB1suWMs_EbN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XZNypw2dw4sJ_DGL4KBCPB1suWMs_EbN&sz=w640",
+          "sizeBytes": 5171984,
+          "sha256": "1F63E639EA631734E1117908A124AD9910456F7DD76B991B57023079E8D9B149",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | NEKO-NIN exHeart — OP"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E710214E7000",
+      "title": "Vault of the Void",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E710214E7000.jpg",
+      "variants": [
+        {
+          "id": "v_f4c85863",
+          "name": "Vault of the Void — Mobile Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11naTZ2Qsx-LIzxvsCtD0e9iL6a1CQFUa",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11naTZ2Qsx-LIzxvsCtD0e9iL6a1CQFUa&sz=w640",
+          "sizeBytes": 11462197,
+          "sha256": "AA2526FF815A99B46A222960160B2816B2629FD841103B2BA3365C1EC828AF7F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Vault of the Void — Mobile Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 3613,
-  "totalVariants": 5037,
-  "lastUpdated": "2026-11-10T05:23:23.919475+00:00"
+  "totalGames": 3623,
+  "totalVariants": 5047,
+  "lastUpdated": "2026-11-10T05:26:21.698128+00:00"
 }
