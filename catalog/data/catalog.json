@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T02:29:49.558988+00:00",
+  "updatedAt": "2026-11-10T02:32:53.212948+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -106568,9 +106568,269 @@
           "notes": "Switch 720p 30fps H264 | Slayers X: Terminal Aftermath: Vengance "
         }
       ]
+    },
+    {
+      "titleId": "0100D4702160A000",
+      "title": "Duck Detective: The Secret Salami",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D4702160A000.jpg",
+      "variants": [
+        {
+          "id": "v_c2fc1bd9",
+          "name": "Duck Detective: The Secret Salami — Date Announc",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1esBjIAY4-B6gdgo1lrt4Ep4ZNCs3uIMH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1esBjIAY4-B6gdgo1lrt4Ep4ZNCs3uIMH&sz=w640",
+          "sizeBytes": 5171748,
+          "sha256": "66500BBE4093A1DCE029322CA2C4F5D1735E6CF8BCE6B4ADE5A1901261CE43B8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Duck Detective: The Secret Salami — Date"
+        }
+      ]
+    },
+    {
+      "titleId": "010001401F532000",
+      "title": "Neptunia Riders vs Dogoos",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010001401F532000.jpg",
+      "variants": [
+        {
+          "id": "v_03503724",
+          "name": "Neptunia Riders VS Dogoos — Gameplay Overview",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1d2pd5hsiAykWdbOUBqVX_CzcLrou5rAD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1d2pd5hsiAykWdbOUBqVX_CzcLrou5rAD&sz=w640",
+          "sizeBytes": 5649279,
+          "sha256": "5D62BEFB1042CD70FD2B1BA155B1188B1242AF024560D21BC524B1AFFFF9CE57",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Neptunia Riders VS Dogoos — Gameplay Ove"
+        }
+      ]
+    },
+    {
+      "titleId": "01001C701AE34000",
+      "title": "Mia and the Dragon Princess",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001C701AE34000.jpg",
+      "variants": [
+        {
+          "id": "v_22d55143",
+          "name": "Mia and the Dragon Princess — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_C14twGLFkOTtjNM2-kkvZZhfAkh-bYU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_C14twGLFkOTtjNM2-kkvZZhfAkh-bYU&sz=w640",
+          "sizeBytes": 4236770,
+          "sha256": "1AE5673A932382A3585365F9225C21219A6F6C5F1E927CECF19DD12A29A847EA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mia and the Dragon Princess — Launch Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E7A018076000",
+      "title": "The Gallery",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E7A018076000.jpg",
+      "variants": [
+        {
+          "id": "v_c45a4dcd",
+          "name": "The Gallery — The Gallery | Official Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Zch-e66WmuZHEypU9XfyU8YkC-YH0ICV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Zch-e66WmuZHEypU9XfyU8YkC-YH0ICV&sz=w640",
+          "sizeBytes": 5305247,
+          "sha256": "9554A1F046BAD1F8464F72468BC447B8029E067ED6BAC31EC6440C739B8C2CD6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Gallery — The Gallery | Official Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "01001A30175C4000",
+      "title": "Who Pressed Mute on Uncle Marcus",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001A30175C4000.jpg",
+      "variants": [
+        {
+          "id": "v_b3c91b3d",
+          "name": "Who Pressed Mute on Uncle Marcus? — Main Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1J7bt-K2VspSbJW9JCG9sXxHiPoqeRInS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1J7bt-K2VspSbJW9JCG9sXxHiPoqeRInS&sz=w640",
+          "sizeBytes": 5309331,
+          "sha256": "A4DEAEEA7B6A3798F418C07E6AAFFE1A331DA621B905F2171AB618CED9D571CD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Who Pressed Mute on Uncle Marcus? — Main"
+        }
+      ]
+    },
+    {
+      "titleId": "01009F8015E94000",
+      "title": "Bloodshore",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009F8015E94000.jpg",
+      "variants": [
+        {
+          "id": "v_6792205c",
+          "name": "Bloodshore — Bloodshore - Main Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UqkJaNR3y2H2yhyHLI6ggXn1Ecq4o8go",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UqkJaNR3y2H2yhyHLI6ggXn1Ecq4o8go&sz=w640",
+          "sizeBytes": 5636536,
+          "sha256": "0B02798B62FCE57A710A7DF88E7F646406F8274BD5596FBA9769B673EF2E5B6E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bloodshore — Bloodshore - Main Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100669011998000",
+      "title": "Dark Nights with Poe and Munro",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100669011998000.jpg",
+      "variants": [
+        {
+          "id": "v_2ac4f3d8",
+          "name": "Dark Nights with Poe and Munro — Episodes Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ewg2WsAG4NO2B8DDZVyBUB8qjUrrqG6v",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ewg2WsAG4NO2B8DDZVyBUB8qjUrrqG6v&sz=w640",
+          "sizeBytes": 5279901,
+          "sha256": "1A9C37E5B3EDF94582207CA71FDE3D29A9A6E3676437DECF185D9CB16156C9E0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dark Nights with Poe and Munro — Episode"
+        }
+      ]
+    },
+    {
+      "titleId": "01001B40086E2000",
+      "title": "The Bunker",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001B40086E2000.jpg",
+      "variants": [
+        {
+          "id": "v_d0a501b9",
+          "name": "The Bunker — The Bunker - Story Trailer 2018",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZxV9rStToBviUaI57FeKG_xWdZWkj4Ec",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZxV9rStToBviUaI57FeKG_xWdZWkj4Ec&sz=w640",
+          "sizeBytes": 5373811,
+          "sha256": "8E9AE6E0A3B8338A0C3D90C34C73EB0600F26CCBC0D21BAACB4B06E9D6ED7E6A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Bunker — The Bunker - Story Trailer "
+        }
+      ]
+    },
+    {
+      "titleId": "01001FF00BEE8000",
+      "title": "The Shapeshifting Detective",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001FF00BEE8000.jpg",
+      "variants": [
+        {
+          "id": "v_439aabd0",
+          "name": "The Shapeshifting Detective — Shapeshifting - La",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZaykQ318uElQdqxKwwbEZPdJEnZXoAb0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZaykQ318uElQdqxKwwbEZPdJEnZXoAb0&sz=w640",
+          "sizeBytes": 4882806,
+          "sha256": "7B792C40E08A4761DD86D1B606666EC06576D6CEE5448065432F7911D2501118",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Shapeshifting Detective — Shapeshift"
+        }
+      ]
+    },
+    {
+      "titleId": "01000320110C2000",
+      "title": "She Sees Red",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000320110C2000.jpg",
+      "variants": [
+        {
+          "id": "v_8f9b945f",
+          "name": "She Sees Red - Interactive Movie — She Sees Red ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12QBkLZ-T85tEGpbZF8uwhvi8D3hFVStg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12QBkLZ-T85tEGpbZF8uwhvi8D3hFVStg&sz=w640",
+          "sizeBytes": 4280387,
+          "sha256": "0EBBFFBF0014F9691601BA370514FDAC403E0B3F1BC4AB2327B6392B1E2AEEEC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | She Sees Red - Interactive Movie — She S"
+        }
+      ]
     }
   ],
-  "totalGames": 3043,
-  "totalVariants": 4467,
-  "lastUpdated": "2026-11-10T02:29:49.558988+00:00"
+  "totalGames": 3053,
+  "totalVariants": 4477,
+  "lastUpdated": "2026-11-10T02:32:53.212948+00:00"
 }
