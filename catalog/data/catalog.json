@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T11:21:40.638031+00:00",
+  "updatedAt": "2026-11-10T11:25:07.590923+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -150508,9 +150508,269 @@
           "notes": "Switch 720p 30fps H264 | Words of Wisdom — Words of Wisdom"
         }
       ]
+    },
+    {
+      "titleId": "010031B018F68000",
+      "title": "Runout",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010031B018F68000.jpg",
+      "variants": [
+        {
+          "id": "v_210f4860",
+          "name": "RUNOUT — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TCAaITywXqbFZbsfSRHPnTzZ6qLKCEio",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TCAaITywXqbFZbsfSRHPnTzZ6qLKCEio&sz=w640",
+          "sizeBytes": 5429499,
+          "sha256": "92B0E8AA22FDA9A1E79D30AA0E9BE8F6E5B79C9B8942F435FB5DC20FC0D4F664",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | RUNOUT — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01001BB013EAA000",
+      "title": "Tetragon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001BB013EAA000.jpg",
+      "variants": [
+        {
+          "id": "v_061b647e",
+          "name": "Tetragon — Announcement Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ze3I0DiAZOfblzUjwW0E3x7c1ERy8wQb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ze3I0DiAZOfblzUjwW0E3x7c1ERy8wQb&sz=w640",
+          "sizeBytes": 4999732,
+          "sha256": "7867DC7F4B9CCEE8460CA2FF855330A64CC7DAFD459484C5EF730DD8A503298C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tetragon — Announcement Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010077600BE3A000",
+      "title": "SolSeraph",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010077600BE3A000.jpg",
+      "variants": [
+        {
+          "id": "v_be535e3b",
+          "name": "SolSeraph — Sol_Announcement_US",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Oct9zmn_0_Zljq3XwFEtD6OiOpxziUVR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Oct9zmn_0_Zljq3XwFEtD6OiOpxziUVR&sz=w640",
+          "sizeBytes": 4991855,
+          "sha256": "385A3915A2C617E6909ACF6755DE7793D3BEB6A0A1D2DADF0EBD8BF6382BDBE6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | SolSeraph — Sol_Announcement_US"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CD900FB24000",
+      "title": "Wartile Complete edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CD900FB24000.jpg",
+      "variants": [
+        {
+          "id": "v_9f7f4813",
+          "name": "WARTILE — Intro Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Oc-ES2-MJHKEJj-kKMU36AnPoJCj8kKl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Oc-ES2-MJHKEJj-kKMU36AnPoJCj8kKl&sz=w640",
+          "sizeBytes": 5359918,
+          "sha256": "1832DD5A16EEEDE91DCB07608939EA9482015DE6DC2E8A76E57A0047FC72BDD6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | WARTILE — Intro Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01004C100FA84000",
+      "title": "Draw Chilly",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004C100FA84000.jpg",
+      "variants": [
+        {
+          "id": "v_22188e38",
+          "name": "DRAW CHILLY — Main Trailer ENG",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wWF3_-J4mC2-Is7EPo5VYJwW8gadWAUm",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wWF3_-J4mC2-Is7EPo5VYJwW8gadWAUm&sz=w640",
+          "sizeBytes": 5543822,
+          "sha256": "D35C877A67BDC0B01E9FE252F8159CF1637F335FA8EFDAE9A60AEED8CBC4275D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | DRAW CHILLY — Main Trailer ENG"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D3B0174B0000",
+      "title": "Gav-Gav Odyssey",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D3B0174B0000.jpg",
+      "variants": [
+        {
+          "id": "v_8005ed51",
+          "name": "Gav-Gav Odyssey — Gav-Gav Odyssey трейлер",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=115_8hKr5e90Ax_ie0RcNAGjKv8zWh3TK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=115_8hKr5e90Ax_ie0RcNAGjKv8zWh3TK&sz=w640",
+          "sizeBytes": 4666549,
+          "sha256": "B311439799AC52ACEDBC60C56EA2AD765643B2F0D3BEA4289518DC03D203F983",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Gav-Gav Odyssey — Gav-Gav Odyssey трейле"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B8C014824000",
+      "title": "Henosis",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B8C014824000.jpg",
+      "variants": [
+        {
+          "id": "v_36471976",
+          "name": "Henosis™ — Official trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jwR8sEjvW6dK1qwa0MdFt7ceAzPKVoav",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jwR8sEjvW6dK1qwa0MdFt7ceAzPKVoav&sz=w640",
+          "sizeBytes": 4658595,
+          "sha256": "5788371028F16A985F43E47C37394CB0C74369CEB4E2DDFC41F6C1ED03810BFC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Henosis™ — Official trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010018D013CAA000",
+      "title": "Super Magbot",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010018D013CAA000.jpg",
+      "variants": [
+        {
+          "id": "v_4f7b0d68",
+          "name": "Super Magbot — Accolades Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rO_fUuCt43IEuOamDr9VpfYPSzTsSvFS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rO_fUuCt43IEuOamDr9VpfYPSzTsSvFS&sz=w640",
+          "sizeBytes": 5243160,
+          "sha256": "36F7D461F6F807FFAB44694C09D72D0B5EA4BF6F5FCBA24FD002D8713478B77A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Super Magbot — Accolades Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F4D01CB04000",
+      "title": "Ravva and the Cyclops Curse",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F4D01CB04000.jpg",
+      "variants": [
+        {
+          "id": "v_d5094ffc",
+          "name": "Ravva and the Cyclops Curse — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1iq9mZW9d7OJ42nBZXs1sas2ptzW7zxCc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1iq9mZW9d7OJ42nBZXs1sas2ptzW7zxCc&sz=w640",
+          "sizeBytes": 5425233,
+          "sha256": "E67BDDC8055C1D67F6981D06BEDD15926F7EEC4FE25179C191396E88D322ABE1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ravva and the Cyclops Curse — Gameplay T"
+        }
+      ]
+    },
+    {
+      "titleId": "010039F0185C8000",
+      "title": "Eyra the Crow Maiden",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010039F0185C8000.jpg",
+      "variants": [
+        {
+          "id": "v_68a3120f",
+          "name": "Eyra: The Crow Maiden — Eyra: The Crow Maiden",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=138Qd9zZzOppwzOkyGBypYX5dI2NoCjYG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=138Qd9zZzOppwzOkyGBypYX5dI2NoCjYG&sz=w640",
+          "sizeBytes": 5005177,
+          "sha256": "2847C72B3FFFB6910FC23CFF4EA54CE3A49CB752759204D288F71B13E38FBEEB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Eyra: The Crow Maiden — Eyra: The Crow M"
+        }
+      ]
     }
   ],
-  "totalGames": 4733,
-  "totalVariants": 6157,
-  "lastUpdated": "2026-11-10T11:21:40.638031+00:00"
+  "totalGames": 4743,
+  "totalVariants": 6167,
+  "lastUpdated": "2026-11-10T11:25:07.590923+00:00"
 }
