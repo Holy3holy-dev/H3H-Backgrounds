@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T04:47:05.849699+00:00",
+  "updatedAt": "2026-11-10T04:50:11.561680+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -118268,9 +118268,269 @@
           "notes": "Switch 720p 30fps H264 | Fairune Collection — FairuneCollection_s"
         }
       ]
+    },
+    {
+      "titleId": "0100BAE01EEA0000",
+      "title": "Varlet",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BAE01EEA0000.jpg",
+      "variants": [
+        {
+          "id": "v_a63b4320",
+          "name": "VARLET — “Role Playing” SINSEIKI × TSUMITOBATSU",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SJTELz9ErWFa9rnBAf8b5wU6ZiuL4Txx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SJTELz9ErWFa9rnBAf8b5wU6ZiuL4Txx&sz=w640",
+          "sizeBytes": 5276072,
+          "sha256": "FA116B3DB5B388D782F19CF4364B1CD2128534F6AFF6D3E322E6B68684FB9142",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | VARLET — “Role Playing” SINSEIKI × TSUMI"
+        }
+      ]
+    },
+    {
+      "titleId": "01009AD00BFD0000",
+      "title": "When Ski Lifts Go Wrong",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009AD00BFD0000.jpg",
+      "variants": [
+        {
+          "id": "v_feaae43a",
+          "name": "When Ski Lifts Go Wrong — When Ski Lifts Go Wron",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XmPH-KoDRCb1t9WtuSsXewNsKA1Pvpdu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XmPH-KoDRCb1t9WtuSsXewNsKA1Pvpdu&sz=w640",
+          "sizeBytes": 5659379,
+          "sha256": "8CA0818189A3EDBF62D10B676E5C9AF70C0F089CC441A56D4D61BA3CA2382467",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | When Ski Lifts Go Wrong — When Ski Lifts"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A250093DE000",
+      "title": "Typoman",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A250093DE000.jpg",
+      "variants": [
+        {
+          "id": "v_f988ab79",
+          "name": "Typoman — Typoman Steam Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kzEr8i_L89lUe3VyxX2jP7rrJjqb2raj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kzEr8i_L89lUe3VyxX2jP7rrJjqb2raj&sz=w640",
+          "sizeBytes": 3375923,
+          "sha256": "4CDDE0A1175B07AEB596084EF26F59A7E99F943683D89FBFE03DB9AB8E5090AC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Typoman — Typoman Steam Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010023E008702000",
+      "title": "Spiral Splatter",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010023E008702000.jpg",
+      "variants": [
+        {
+          "id": "v_0cdc5892",
+          "name": "Spiral Splatter — STEAM Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LhXHGR6OTWrADACmOnT5Fwmx8YMpc85A",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LhXHGR6OTWrADACmOnT5Fwmx8YMpc85A&sz=w640",
+          "sizeBytes": 5502863,
+          "sha256": "F697990D50FFF9A860007E2FB41914DC6EF6019B0CE45B671EF354286816CB05",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Spiral Splatter — STEAM Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01002C100FBB6000",
+      "title": "Dude Stop",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002C100FBB6000.jpg",
+      "variants": [
+        {
+          "id": "v_7269e46a",
+          "name": "Dude, Stop — Dude, Stop - Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cFSlq5Hn38GFTxT3Wedw-zuSylEGZURS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cFSlq5Hn38GFTxT3Wedw-zuSylEGZURS&sz=w640",
+          "sizeBytes": 3727049,
+          "sha256": "FBC0766A1CAC2F78586E275E3710D2141D1325FB1BADDE31E9ED212DA6DDCAC8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dude, Stop — Dude, Stop - Release Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CCB00CBA8000",
+      "title": "Gabbuchi",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CCB00CBA8000.jpg",
+      "variants": [
+        {
+          "id": "v_618c805c",
+          "name": "Gabbuchi — Gabbuchi Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gc2MNxtunvds2W0syKZooD6KU-uN2zKu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gc2MNxtunvds2W0syKZooD6KU-uN2zKu&sz=w640",
+          "sizeBytes": 1970711,
+          "sha256": "428B2CD5D05F3928A27809F2AEE29A9A7C5809BE6259FB055BBF5E67F60CF45F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Gabbuchi — Gabbuchi Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C00005E38000",
+      "title": "Dustoff Heli Rescue 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C00005E38000.jpg",
+      "variants": [
+        {
+          "id": "v_45385e8b",
+          "name": "Dustoff Heli Rescue 2 — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-CUsY3wwQdSdrII2f1Ig5pHymu9syTuQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-CUsY3wwQdSdrII2f1Ig5pHymu9syTuQ&sz=w640",
+          "sizeBytes": 5242355,
+          "sha256": "4A60766E6DF2595ACC285B9A26970976B1B17F5E713E460DA1F54E319C4850EE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dustoff Heli Rescue 2 — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01008E6006502000",
+      "title": "Aegis Defenders",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008E6006502000.jpg",
+      "variants": [
+        {
+          "id": "v_23bf6e92",
+          "name": "Aegis Defenders — Steam Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15piRTQE9SkdRJ_egMFzf64sns9WrvTye",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15piRTQE9SkdRJ_egMFzf64sns9WrvTye&sz=w640",
+          "sizeBytes": 5330355,
+          "sha256": "A96BA14BF84C099AE5BB813DC26E294E6D175533AD3EB6131BA6732811737E6B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Aegis Defenders — Steam Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DA50128BE000",
+      "title": "Epistory Typing Chronicles",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DA50128BE000.jpg",
+      "variants": [
+        {
+          "id": "v_3cae21b9",
+          "name": "Epistory - Typing Chronicles — Epistory Release ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GQbXkgaKBg33rDgnAPOzaTMeXvk6bMvq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GQbXkgaKBg33rDgnAPOzaTMeXvk6bMvq&sz=w640",
+          "sizeBytes": 5444599,
+          "sha256": "76A3DA755C476E40A9C13C75B9F3BCD15BFFE9A2D180B6549FB8E582A47E32F1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Epistory - Typing Chronicles — Epistory "
+        }
+      ]
+    },
+    {
+      "titleId": "01002DF01715C000",
+      "title": "Celestian Tales: Realms Beyond",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002DF01715C000.jpg",
+      "variants": [
+        {
+          "id": "v_77de6dde",
+          "name": "Celestian Tales: Realms Beyond — Celestian Tales",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13kXV9f5m3aLPZldLmkeJ2ySozFU-e852",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13kXV9f5m3aLPZldLmkeJ2ySozFU-e852&sz=w640",
+          "sizeBytes": 4895462,
+          "sha256": "D30B800405D719982AC7AEE425945FF96093336D313217BB6243C6CA98B472F4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Celestian Tales: Realms Beyond — Celesti"
+        }
+      ]
     }
   ],
-  "totalGames": 3493,
-  "totalVariants": 4917,
-  "lastUpdated": "2026-11-10T04:47:05.849699+00:00"
+  "totalGames": 3503,
+  "totalVariants": 4927,
+  "lastUpdated": "2026-11-10T04:50:11.561680+00:00"
 }
