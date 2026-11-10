@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T05:48:48.558032+00:00",
+  "updatedAt": "2026-11-10T05:52:51.780796+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -123468,9 +123468,269 @@
           "notes": "Switch 720p 30fps H264 | Dice Legacy — DiceLegacy-AccoladesTraile"
         }
       ]
+    },
+    {
+      "titleId": "0100AE100DAFA000",
+      "title": "Steam Tactics",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AE100DAFA000.jpg",
+      "variants": [
+        {
+          "id": "v_0669ae07",
+          "name": "Steam Tactics — Steam Tactics gameplay trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Q3BeeOa3pj0FBzJ8GXU7ejtwnubKWE7D",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Q3BeeOa3pj0FBzJ8GXU7ejtwnubKWE7D&sz=w640",
+          "sizeBytes": 5521679,
+          "sha256": "531CED8EAD9CCF042F93D55AEB80B6965E9B980408DEB66418A09B44AE88319D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Steam Tactics — Steam Tactics gameplay t"
+        }
+      ]
+    },
+    {
+      "titleId": "010090F013A32000",
+      "title": "Dark Grim Mariupolis",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010090F013A32000.jpg",
+      "variants": [
+        {
+          "id": "v_10eb5a6e",
+          "name": "Dark Grim Mariupolis — Dark Grim Mariupolis teas",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rJxtrZi2IlKoNswBhAGjfKFJ8vWOYuMG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rJxtrZi2IlKoNswBhAGjfKFJ8vWOYuMG&sz=w640",
+          "sizeBytes": 4951250,
+          "sha256": "247FCFB4C859A5FBAFF76E85D944C8BCC66739B1CFDDEABD120D1B5A6CCB40DE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dark Grim Mariupolis — Dark Grim Mariupo"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CBD012FB6000",
+      "title": "All Walls Must Fall",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CBD012FB6000.jpg",
+      "variants": [
+        {
+          "id": "v_ff032681",
+          "name": "All Walls Must Fall - A Tech-Noir Tactics Game —",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17PuTAqspN0NgJIQDzSDcG7ZRM3u0sMST",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17PuTAqspN0NgJIQDzSDcG7ZRM3u0sMST&sz=w640",
+          "sizeBytes": 5227030,
+          "sha256": "753A881E3AA3CEA29AFBAEC1444931FEE2A731C05F76AE644D66C0D15C40D275",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | All Walls Must Fall - A Tech-Noir Tactic"
+        }
+      ]
+    },
+    {
+      "titleId": "010008A014F0A000",
+      "title": "We Are OFK",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010008A014F0A000.jpg",
+      "variants": [
+        {
+          "id": "v_f9581faf",
+          "name": "We Are OFK — Reveal Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13wgMI88B7xLvkXwzYXTEp6i_MTEFSnMD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13wgMI88B7xLvkXwzYXTEp6i_MTEFSnMD&sz=w640",
+          "sizeBytes": 5365828,
+          "sha256": "6ACCC9131A74349D2D9EABD89F699113EB5AB14A32199433229B7CC11CF230A9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | We Are OFK — Reveal Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DC7013F14000",
+      "title": "Alfred Hitchcock Vertigo",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DC7013F14000.jpg",
+      "variants": [
+        {
+          "id": "v_2607d617",
+          "name": "Alfred Hitchcock - Vertigo — Story Trailer - Alf",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Z-S49zYpUMfeaiACiJ_1nLC1938llRNM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Z-S49zYpUMfeaiACiJ_1nLC1938llRNM&sz=w640",
+          "sizeBytes": 4619373,
+          "sha256": "6A21C89346C9F96E620682E0613D373C4B909F049BC5E2F6155EBB55A6A46191",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Alfred Hitchcock - Vertigo — Story Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "010029401F8B4000",
+      "title": "Above Snakes",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010029401F8B4000.jpg",
+      "variants": [
+        {
+          "id": "v_652137a0",
+          "name": "Above Snakes — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10U2Xok8KKjjF3IpmwMnqZ0TMGK5YJL5Y",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10U2Xok8KKjjF3IpmwMnqZ0TMGK5YJL5Y&sz=w640",
+          "sizeBytes": 5480149,
+          "sha256": "BF29D8DF74073A4657DAA43367493751F05F5DB686A5AFDBCA65ACB330C0C4C8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Above Snakes — Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100482015D95000",
+      "title": "Concordia Digital edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100482015D95000.jpg",
+      "variants": [
+        {
+          "id": "v_6ccb3086",
+          "name": "Concordia: Digital Edition — Concordia: Digital ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1s-DHqluCtMo-EKlEM9mqRMeXb0nU9wSo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1s-DHqluCtMo-EKlEM9mqRMeXb0nU9wSo&sz=w640",
+          "sizeBytes": 5175181,
+          "sha256": "C807EA94F0CEFCB84EDE2FC952CA42CCFD94CF5FA92218CCA0EBB78BEF3F888B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Concordia: Digital Edition — Concordia: "
+        }
+      ]
+    },
+    {
+      "titleId": "0100446017CFA000",
+      "title": "Whisker Waters",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100446017CFA000.jpg",
+      "variants": [
+        {
+          "id": "v_0158a1b6",
+          "name": "Whisker Waters — Whiser Waters - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=169CAzxGvBfKyKBaVmY3wnW0IIHY_jTQO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=169CAzxGvBfKyKBaVmY3wnW0IIHY_jTQO&sz=w640",
+          "sizeBytes": 5017428,
+          "sha256": "9B9A1E00BDE0B5A3B5E51D2EF53CAE76328A5D664ED2A0443E537D5677AF28DC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Whisker Waters — Whiser Waters - Launch "
+        }
+      ]
+    },
+    {
+      "titleId": "01009A000C35C000",
+      "title": "Garden Paws",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009A000C35C000.jpg",
+      "variants": [
+        {
+          "id": "v_ef3fa10d",
+          "name": "Garden Paws — Garden Paws Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1E8IruCjZ2A6hZFDpcEMlncZ-dE8SRsR8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1E8IruCjZ2A6hZFDpcEMlncZ-dE8SRsR8&sz=w640",
+          "sizeBytes": 5456394,
+          "sha256": "8707D9E3D8C609A83449B9BCD373352E84B8ADE0CB7CC3C612DDB9362E460D7E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Garden Paws — Garden Paws Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CD101E1F2000",
+      "title": "Cat Survivors",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CD101E1F2000.jpg",
+      "variants": [
+        {
+          "id": "v_4d439fc3",
+          "name": "Cat Survivors — Cat Survivors Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xKfevInoNGYYdMqXv5lzRoTGb8mb4Ssu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xKfevInoNGYYdMqXv5lzRoTGb8mb4Ssu&sz=w640",
+          "sizeBytes": 5432066,
+          "sha256": "CE9DCAF7D525D8E1CCCA31733E0974D77F64DBD00A6DC05EAEC98C5FDE28AC34",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cat Survivors — Cat Survivors Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 3693,
-  "totalVariants": 5117,
-  "lastUpdated": "2026-11-10T05:48:48.558032+00:00"
+  "totalGames": 3703,
+  "totalVariants": 5127,
+  "lastUpdated": "2026-11-10T05:52:51.780796+00:00"
 }
