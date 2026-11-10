@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T02:17:55.282829+00:00",
+  "updatedAt": "2026-11-10T02:20:47.082490+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -105528,9 +105528,269 @@
           "notes": "Switch 720p 30fps H264 | Dungeon Defenders: Awakened — DD:A The L"
         }
       ]
+    },
+    {
+      "titleId": "0100FFE011F0A000",
+      "title": "Mask of Mists",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FFE011F0A000.jpg",
+      "variants": [
+        {
+          "id": "v_22f5b725",
+          "name": "Mask of Mists — Mask of Mists - Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ouXKHAVAzHZtxDsdcGvbf6tIvBFfLXlQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ouXKHAVAzHZtxDsdcGvbf6tIvBFfLXlQ&sz=w640",
+          "sizeBytes": 5581446,
+          "sha256": "763EB78760EE1348CFC20CF7C701D7E78C6F743AD10044CBA967D2B00D00F60D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mask of Mists — Mask of Mists - Release "
+        }
+      ]
+    },
+    {
+      "titleId": "01009E401F938000",
+      "title": "Legendary Hoplite",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009E401F938000.jpg",
+      "variants": [
+        {
+          "id": "v_1269731f",
+          "name": "Legendary Hoplite — Legendary Hoplite Major Upda",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SeYdAvGiq5KhQG7GzzPMnyLcCPIWa6Pe",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SeYdAvGiq5KhQG7GzzPMnyLcCPIWa6Pe&sz=w640",
+          "sizeBytes": 5501188,
+          "sha256": "8B816BA711DCA59F348E0FA0385985E5E2D20BB31D9D1A776AA6F6B395206BB0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Legendary Hoplite — Legendary Hoplite Ma"
+        }
+      ]
+    },
+    {
+      "titleId": "010021F004270000",
+      "title": "Spelunker Party",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010021F004270000.jpg",
+      "variants": [
+        {
+          "id": "v_4089af96",
+          "name": "Spelunker Party! — ESRB EN Launch Spelunker Part",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ivYsgjycIzYiETzqeDOm3FVOVFVcuk83",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ivYsgjycIzYiETzqeDOm3FVOVFVcuk83&sz=w640",
+          "sizeBytes": 4679021,
+          "sha256": "C3671C85DD16243ECF0C50477CF3F034A9B6216B5FE16B8D02DB06CB7228193B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Spelunker Party! — ESRB EN Launch Spelun"
+        }
+      ]
+    },
+    {
+      "titleId": "010095701381A000",
+      "title": "Spelunker HD Deluxe",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010095701381A000.jpg",
+      "variants": [
+        {
+          "id": "v_04f0d94f",
+          "name": "Spelunker Party! — ESRB EN Launch Spelunker Part",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1K1j7Pesa9cgaAIHH88AYQ_DYG-u5MCFM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1K1j7Pesa9cgaAIHH88AYQ_DYG-u5MCFM&sz=w640",
+          "sizeBytes": 4679021,
+          "sha256": "C3671C85DD16243ECF0C50477CF3F034A9B6216B5FE16B8D02DB06CB7228193B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Spelunker Party! — ESRB EN Launch Spelun"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A8200C372000",
+      "title": "Headsnatchers",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A8200C372000.jpg",
+      "variants": [
+        {
+          "id": "v_16cd6cd5",
+          "name": "Headsnatchers — Out Now Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wt7wQXyW78TQvBT8Ft9gRODs8nh0QSaF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wt7wQXyW78TQvBT8Ft9gRODs8nh0QSaF&sz=w640",
+          "sizeBytes": 5576820,
+          "sha256": "8B6281974114E640873A3A65C9F2DDFE80D29B8D8EDEE036264878328B8166C5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Headsnatchers — Out Now Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010066C01366E000",
+      "title": "Doctor Who The Edge of Reality",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010066C01366E000.jpg",
+      "variants": [
+        {
+          "id": "v_1ff280e8",
+          "name": "Doctor Who: The Edge of Reality — Doctor Who: Th",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1aYmMyfhn5gMJcomQjOSAekuLBgnkUiZn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1aYmMyfhn5gMJcomQjOSAekuLBgnkUiZn&sz=w640",
+          "sizeBytes": 5053057,
+          "sha256": "91184E7D4C619EAAF0AE63FDE508CE6C195066F733B0DCF7071AE5F0D8335DDB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Doctor Who: The Edge of Reality — Doctor"
+        }
+      ]
+    },
+    {
+      "titleId": "010027F0128EB000",
+      "title": "Who Wants to Be a Millionaire Deluxe",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010027F0128EB000.jpg",
+      "variants": [
+        {
+          "id": "v_6813cad4",
+          "name": "Who Wants To Be A Millionaire — TRAILER GER",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Xt3NBJAdSD_knH8Hhz_ENZnTmpFVoymf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Xt3NBJAdSD_knH8Hhz_ENZnTmpFVoymf&sz=w640",
+          "sizeBytes": 4125597,
+          "sha256": "971503F47AEF947BEE60E3546279A81A8F068BC3624F7508829C0D93ACA4CFB5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Who Wants To Be A Millionaire — TRAILER "
+        }
+      ]
+    },
+    {
+      "titleId": "0100BD9015B54000",
+      "title": "Cobra Kai 2 Dojos Rising",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BD9015B54000.jpg",
+      "variants": [
+        {
+          "id": "v_8fcff3dd",
+          "name": "Cobra Kai 2: Dojos Rising — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1e8X6cirCfQKAUG_uaEK9F4PkiGtzP6Tc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1e8X6cirCfQKAUG_uaEK9F4PkiGtzP6Tc&sz=w640",
+          "sizeBytes": 4521752,
+          "sha256": "E93387C2FE253D9BBCA663B825E77E1A49BEE815081634AF6534B86401310023",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cobra Kai 2: Dojos Rising — Launch Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "01005790110F0000",
+      "title": "Cobra Kai The Karate Kid Saga Continues",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005790110F0000.jpg",
+      "variants": [
+        {
+          "id": "v_e8753e8d",
+          "name": "Cobra Kai: The Karate Kid Saga Continues — Cobra",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cHYb3JccZB1b6ZLG9TKQp19qs8MKV24a",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cHYb3JccZB1b6ZLG9TKQp19qs8MKV24a&sz=w640",
+          "sizeBytes": 4323554,
+          "sha256": "CF684277672E99E3307F8474FDCED58876AE19210746C5CB760EC6118E3C6C3C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cobra Kai: The Karate Kid Saga Continues"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C9200A9C2000",
+      "title": "Carcassonne",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C9200A9C2000.jpg",
+      "variants": [
+        {
+          "id": "v_bc7ac167",
+          "name": "Carcassonne - Tiles & Tactics — Trailer EN 2019",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10KasB9XXfolO9_QlR0yIMr_JPCffcqiN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10KasB9XXfolO9_QlR0yIMr_JPCffcqiN&sz=w640",
+          "sizeBytes": 5084261,
+          "sha256": "12176432257558CBD8CA7BE693E4EE45D61ABAF3B36ECE041836DBC286ECA79D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Carcassonne - Tiles & Tactics — Trailer "
+        }
+      ]
     }
   ],
-  "totalGames": 3003,
-  "totalVariants": 4427,
-  "lastUpdated": "2026-11-10T02:17:55.282829+00:00"
+  "totalGames": 3013,
+  "totalVariants": 4437,
+  "lastUpdated": "2026-11-10T02:20:47.082490+00:00"
 }
