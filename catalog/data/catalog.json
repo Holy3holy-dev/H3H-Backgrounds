@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T10:53:53.486441+00:00",
+  "updatedAt": "2026-11-10T10:57:41.600081+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -148428,9 +148428,269 @@
           "notes": "Switch 720p 30fps H264 | CybeRage — CybeRage | Gameplay Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100F3601B0FE000",
+      "title": "Zombie Soup Deluxe",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F3601B0FE000.jpg",
+      "variants": [
+        {
+          "id": "v_0a80914d",
+          "name": "Zombie Soup — EA Launch-EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1i9lhiSsIdo2LY7_mG6Z2qAfy26jPBSOS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1i9lhiSsIdo2LY7_mG6Z2qAfy26jPBSOS&sz=w640",
+          "sizeBytes": 5472608,
+          "sha256": "D72D9071A53346773201F1F8DA508E37E1BED7225BEA02A89372554B97939C46",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Zombie Soup — EA Launch-EN"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F0401C2BC000",
+      "title": "Soul Stalker",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F0401C2BC000.jpg",
+      "variants": [
+        {
+          "id": "v_a3aa823d",
+          "name": "Soul Stalker — 1.4 Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Lj7PYojY3THcx0g9O8nDW6tz0i97TJ5A",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Lj7PYojY3THcx0g9O8nDW6tz0i97TJ5A&sz=w640",
+          "sizeBytes": 5583034,
+          "sha256": "26EA906FEF3D453824F043DB2D5D4B137CFFA5AF9E565E2798CDAB8F2173957C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Soul Stalker — 1.4 Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EFA022DD0000",
+      "title": "Parry Nightmare",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EFA022DD0000.jpg",
+      "variants": [
+        {
+          "id": "v_5cb232f3",
+          "name": "Parry Nightmare — ParryNightmare_StoryPV_en",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=135VZkWF59N1v4XmCU0lgLTka32r9uwwl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=135VZkWF59N1v4XmCU0lgLTka32r9uwwl&sz=w640",
+          "sizeBytes": 4936490,
+          "sha256": "E9DBE96E0267DCDE70D2730A52E1DF5CC0001A9E119376319024301DF39C51C8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Parry Nightmare — ParryNightmare_StoryPV"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C1E019BFE000",
+      "title": "Cavity Busters",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C1E019BFE000.jpg",
+      "variants": [
+        {
+          "id": "v_7fae1b7c",
+          "name": "Cavity Busters — Cavity Busters Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17rQg4gfJ3rnY3q_9cXwt_TwM7dmu1SVh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17rQg4gfJ3rnY3q_9cXwt_TwM7dmu1SVh&sz=w640",
+          "sizeBytes": 5225260,
+          "sha256": "84A2F6376F6B498DA1DA792EC639F08D2E1E717FDFAA3CF40BC1382DE1D370CE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cavity Busters — Cavity Busters Launch T"
+        }
+      ]
+    },
+    {
+      "titleId": "01001B601E566000",
+      "title": "Akatsuki Lord of the Dawn",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001B601E566000.jpg",
+      "variants": [
+        {
+          "id": "v_6ae32dd7",
+          "name": "Akatsuki: Lord of the Dawn — Akatsuki : Lord of ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nqjwf1sFhIiW0QYdrg1w-i6XNPCJcYBD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nqjwf1sFhIiW0QYdrg1w-i6XNPCJcYBD&sz=w640",
+          "sizeBytes": 5141418,
+          "sha256": "9448D34C0B3691A3B8201E4E00DF7B54AD9B7310FAF12B996E22D17F71C31EA8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Akatsuki: Lord of the Dawn — Akatsuki : "
+        }
+      ]
+    },
+    {
+      "titleId": "0100110015A86000",
+      "title": "The Dead Tree of Ranchiuna",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100110015A86000.jpg",
+      "variants": [
+        {
+          "id": "v_55657937",
+          "name": "The Dead Tree of Ranchiuna — TDToR Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tWVYP6ySX0SvAa1cnH4Oz7glJFT6PyYZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tWVYP6ySX0SvAa1cnH4Oz7glJFT6PyYZ&sz=w640",
+          "sizeBytes": 5547323,
+          "sha256": "01ABC76210476A6DF71F479EED324C6BF65892089BD592576BCFECD048BD5C50",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Dead Tree of Ranchiuna — TDToR Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DA400E07E000",
+      "title": "Radiation Island",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DA400E07E000.jpg",
+      "variants": [
+        {
+          "id": "v_25a046e1",
+          "name": "Radiation Island — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RGJ4xIXeDaGZ-f3apOo9x-7GHvHQ-agH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RGJ4xIXeDaGZ-f3apOo9x-7GHvHQ-agH&sz=w640",
+          "sizeBytes": 5541016,
+          "sha256": "537DAE8895D58DCE91AAAD7283DB9215F88AAE855E66A64A44EB3BE33DFAEAF2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Radiation Island — Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A9C021D98000",
+      "title": "Love Live Nijigasaki High School Idol Club Tokimeki Roadmap to Future",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A9C021D98000.jpg",
+      "variants": [
+        {
+          "id": "v_39019c17",
+          "name": "Love Live! Nijigasaki High School Idol Club TOKI",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kG5Ix_cfYPdgxuehbEYjLy7Mc6228GJW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kG5Ix_cfYPdgxuehbEYjLy7Mc6228GJW&sz=w640",
+          "sizeBytes": 5423755,
+          "sha256": "130137F26D8C2D762D451EC88BC2F1DEEFC8476E8CCD8E69ED4249DF045D6671",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Love Live! Nijigasaki High School Idol C"
+        }
+      ]
+    },
+    {
+      "titleId": "010059F012984000",
+      "title": "Make a Killing",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010059F012984000.jpg",
+      "variants": [
+        {
+          "id": "v_eaea7e34",
+          "name": "How To Make A Killing — Cinematic Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1sQ9PAxe4pRbcCJNYuNzsoNIU6KOWGcgQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1sQ9PAxe4pRbcCJNYuNzsoNIU6KOWGcgQ&sz=w640",
+          "sizeBytes": 5325456,
+          "sha256": "553FDFAD9CFB7FABDB13D972A99D9C737D49A19362B9381B8912F4EEA3CC8FAA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | How To Make A Killing — Cinematic Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "01004A601CDAE000",
+      "title": "What the Duck",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004A601CDAE000.jpg",
+      "variants": [
+        {
+          "id": "v_e7e1da4b",
+          "name": "What The Duck — What The Duck - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QQMt-VZkxDLEJ58Y-mWZm6sOHnKyV53V",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QQMt-VZkxDLEJ58Y-mWZm6sOHnKyV53V&sz=w640",
+          "sizeBytes": 5372434,
+          "sha256": "FA3357493BE282A768FBBD5AAC6BE6C4F8C04F12B00CE99737DDD242F573B875",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | What The Duck — What The Duck - Launch T"
+        }
+      ]
     }
   ],
-  "totalGames": 4653,
-  "totalVariants": 6077,
-  "lastUpdated": "2026-11-10T10:53:53.486441+00:00"
+  "totalGames": 4663,
+  "totalVariants": 6087,
+  "lastUpdated": "2026-11-10T10:57:41.600081+00:00"
 }
