@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T03:08:04.732563+00:00",
+  "updatedAt": "2026-11-10T03:11:00.321280+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -109688,9 +109688,269 @@
           "notes": "Switch 720p 30fps H264 | Super Box Delivery: Beyond the Horizon —"
         }
       ]
+    },
+    {
+      "titleId": "010001F0145A8000",
+      "title": "Isolomus",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010001F0145A8000.jpg",
+      "variants": [
+        {
+          "id": "v_273fafee",
+          "name": "Isolomus — Isolomus Teaser",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KmPNDjoxHs-VFiljiJo8J9xnP_CH17HH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KmPNDjoxHs-VFiljiJo8J9xnP_CH17HH&sz=w640",
+          "sizeBytes": 4957506,
+          "sha256": "1AF32F5A5F2D53AE067D9262133105642AE64D7523C9AA0A8D54A6320C7ED471",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Isolomus — Isolomus Teaser"
+        }
+      ]
+    },
+    {
+      "titleId": "01002F800FD12000",
+      "title": "Strange Telephone",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002F800FD12000.jpg",
+      "variants": [
+        {
+          "id": "v_3649b0a4",
+          "name": "Strange Telephone — Strange Telephone Trailer ve",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GhOXRFqDg_-DQKWUC_4pPhosDx4dzSLV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GhOXRFqDg_-DQKWUC_4pPhosDx4dzSLV&sz=w640",
+          "sizeBytes": 5318734,
+          "sha256": "2E640383D6EF02C661ECF0FFFCFE72A3EF637F5E6A44BF0BD4AFEBA10ACEFF7B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Strange Telephone — Strange Telephone Tr"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A6801D3EE000",
+      "title": "Witch's Rhythm Puzzle",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A6801D3EE000.jpg",
+      "variants": [
+        {
+          "id": "v_0efe3518",
+          "name": "Witch's Rhythm Puzzle — PV1",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1H7XowLHVnoQ4jFo6ROK5eSKwiFGLq0RI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1H7XowLHVnoQ4jFo6ROK5eSKwiFGLq0RI&sz=w640",
+          "sizeBytes": 5125557,
+          "sha256": "87956F4D4C7AF8A22EE9490CD5015AF2BA2C9C45642ADFB396509B8B735AC975",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Witch's Rhythm Puzzle — PV1"
+        }
+      ]
+    },
+    {
+      "titleId": "01008A7018472000",
+      "title": "Bat Boy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008A7018472000.jpg",
+      "variants": [
+        {
+          "id": "v_b5b82b0c",
+          "name": "Bat Boy — DANGEN Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AyTWxwk6Ya5eLaxBt7-oO25a2xQAUWEr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AyTWxwk6Ya5eLaxBt7-oO25a2xQAUWEr&sz=w640",
+          "sizeBytes": 5236312,
+          "sha256": "EB2D9F5F9F2EC76371380BDAEDAE064C9695DC01017CA7F09F8C4B5143ED67AB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bat Boy — DANGEN Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01004B5019FA0000",
+      "title": "Dungeons of Aether",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004B5019FA0000.jpg",
+      "variants": [
+        {
+          "id": "v_144d698f",
+          "name": "Dungeons of Aether — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1M6LZEs7ZI9fb0cwdoIpvZNBP2qtA3fTI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1M6LZEs7ZI9fb0cwdoIpvZNBP2qtA3fTI&sz=w640",
+          "sizeBytes": 2137530,
+          "sha256": "FBBD06CA1AE12A4C296263A15C69C673269051E651EC5409D7349C760542FDF6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dungeons of Aether — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010095901A090000",
+      "title": "Bright Lights of Svetlov",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010095901A090000.jpg",
+      "variants": [
+        {
+          "id": "v_80b1a28b",
+          "name": "Bright Lights of Svetlov — Bright Lights of Svet",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ET85cZyAJlZI30dxCTxp5eU8LgwoZEFa",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ET85cZyAJlZI30dxCTxp5eU8LgwoZEFa&sz=w640",
+          "sizeBytes": 5530974,
+          "sha256": "06EBB840B06E7489D119D756CC5191F969A4E19FED23DF0FA29A4BBEBFB62BF4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bright Lights of Svetlov — Bright Lights"
+        }
+      ]
+    },
+    {
+      "titleId": "01005E101AF5C000",
+      "title": "Bilkins' Folly",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005E101AF5C000.jpg",
+      "variants": [
+        {
+          "id": "v_7ab4cf58",
+          "name": "Bilkins' Folly — \"Out Now!\" Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1x9CJKYsV1vkQsn7EG8arTCDcggsEpScA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1x9CJKYsV1vkQsn7EG8arTCDcggsEpScA&sz=w640",
+          "sizeBytes": 5325131,
+          "sha256": "519A5F547F368A816E1E8A190CE9CD9E7D2A9AD3C580D9C98E5702FE70B0BFB9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bilkins' Folly — \"Out Now!\" Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01003BD00CAAE000",
+      "title": "Wolfenstein: Youngblood",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003BD00CAAE000.jpg",
+      "variants": [
+        {
+          "id": "v_fbace479",
+          "name": "Wolfenstein: Youngblood — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1znA3VxseAu7BlRQFGRRxOMZYspuMwSki",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1znA3VxseAu7BlRQFGRRxOMZYspuMwSki&sz=w640",
+          "sizeBytes": 5608815,
+          "sha256": "B8A69A3197062031F7F696A31DB44B3584CB4EC3BF3A1B0129DB0BEC02BE9F72",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wolfenstein: Youngblood — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010005E01E5E6000",
+      "title": "Hero's Hour",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010005E01E5E6000.jpg",
+      "variants": [
+        {
+          "id": "v_ba233ed0",
+          "name": "Hero's Hour — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oZb-igoaXw3pa4lLHFiOO4RyC80KiZev",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oZb-igoaXw3pa4lLHFiOO4RyC80KiZev&sz=w640",
+          "sizeBytes": 5506209,
+          "sha256": "1933F4430B4C3C6AA0E45E29809BFF5C3CF30969AD3502FAB511B89305680546",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hero's Hour — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A390221B0000",
+      "title": "The Renovator Origins",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A390221B0000.jpg",
+      "variants": [
+        {
+          "id": "v_88e6fc6f",
+          "name": "The Renovator: Origins — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pL8GvRBnzioXHp13ScE073hrQt4kSzVC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pL8GvRBnzioXHp13ScE073hrQt4kSzVC&sz=w640",
+          "sizeBytes": 4936672,
+          "sha256": "8BE6173293F55A05453FD057AFA4A3359EDCE617FFFBD27252C5002A4C47D5C8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Renovator: Origins — Release Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 3163,
-  "totalVariants": 4587,
-  "lastUpdated": "2026-11-10T03:08:04.732563+00:00"
+  "totalGames": 3173,
+  "totalVariants": 4597,
+  "lastUpdated": "2026-11-10T03:11:00.321280+00:00"
 }
