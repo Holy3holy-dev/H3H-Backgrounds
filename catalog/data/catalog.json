@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T00:10:11.952152+00:00",
+  "updatedAt": "2026-11-10T00:13:02.983358+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -95388,9 +95388,269 @@
           "notes": "Switch 720p 30fps H264 | Into the Emberlands — Launch Trailer"
         }
       ]
+    },
+    {
+      "titleId": "01005DE024C34000",
+      "title": "Leap Year",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005DE024C34000.jpg",
+      "variants": [
+        {
+          "id": "v_9bb3b3e4",
+          "name": "Leap Year — Available Now",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KIOhSzF8uJ08sEflOfPzE2xIQTgMiJuI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KIOhSzF8uJ08sEflOfPzE2xIQTgMiJuI&sz=w640",
+          "sizeBytes": 4762385,
+          "sha256": "2834F5E553325DC370BB39818F11FE51E32EDC3DD36A2EB686DB61D0C763BA88",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Leap Year — Available Now"
+        }
+      ]
+    },
+    {
+      "titleId": "01003F1021598000",
+      "title": "Little Rocket Lab",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003F1021598000.jpg",
+      "variants": [
+        {
+          "id": "v_b1453f39",
+          "name": "Little Rocket Lab — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1p-4TEyctwrhsmTPg4nu5nqnxqkLU2uZM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1p-4TEyctwrhsmTPg4nu5nqnxqkLU2uZM&sz=w640",
+          "sizeBytes": 4607139,
+          "sha256": "444FD78561D32332A1A460998DD46B2E0A9B18C48A04A8DE18B21CFC2C2CF6C3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Little Rocket Lab — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010095A019DDC000",
+      "title": "Salamander County Public Television",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010095A019DDC000.jpg",
+      "variants": [
+        {
+          "id": "v_ae201f64",
+          "name": "Salamander County Public Television — Salamander",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1erAOVQF2SxHdRCxP5vuUdu7KT7lLkwbQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1erAOVQF2SxHdRCxP5vuUdu7KT7lLkwbQ&sz=w640",
+          "sizeBytes": 5372939,
+          "sha256": "648AF7ADEF17F8297C78F947291A0372E35E3D9EEC4485DD1F5BB90AC9D18994",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Salamander County Public Television — Sa"
+        }
+      ]
+    },
+    {
+      "titleId": "01001B10068EC000",
+      "title": "Urban Trial Playground",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001B10068EC000.jpg",
+      "variants": [
+        {
+          "id": "v_ee962d7d",
+          "name": "Urban Trial Playground — Urban Trial Playground",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rochNnpY5eygcmg2Hyw3EwsHacLW8tQU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rochNnpY5eygcmg2Hyw3EwsHacLW8tQU&sz=w640",
+          "sizeBytes": 5160979,
+          "sha256": "87600AF4B7A74C279F4D20003029D3F2E42FAE345C0C39FABF1E5ADE12B19F2D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Urban Trial Playground — Urban Trial Pla"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A030247A2000",
+      "title": "Calamity Angels Special Delivery",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A030247A2000.jpg",
+      "variants": [
+        {
+          "id": "v_c41012be",
+          "name": "Calamity Angels: Special Delivery — Gameplay Ove",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17-sscV-xweOPiiutZ3doL6kQkpLTiquZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17-sscV-xweOPiiutZ3doL6kQkpLTiquZ&sz=w640",
+          "sizeBytes": 5372332,
+          "sha256": "38F4FECBA8DE60A91DCB7A61598D74AF1432E11145BD3F8933BE6A20D159C764",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Calamity Angels: Special Delivery — Game"
+        }
+      ]
+    },
+    {
+      "titleId": "010058A02438E000",
+      "title": "Maid Cafe on Electric Street",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010058A02438E000.jpg",
+      "variants": [
+        {
+          "id": "v_a8955ab5",
+          "name": "Maid Cafe on Electric Street — Maid Cafe on Elec",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18Revj-DI904q7hz5swustN9gFcM8sjzM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18Revj-DI904q7hz5swustN9gFcM8sjzM&sz=w640",
+          "sizeBytes": 5253490,
+          "sha256": "B5960820C5250FAD32FA1FA13521C687D7419FB2D608DAE5EE727AE06EE99074",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Maid Cafe on Electric Street — Maid Cafe"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A40025FEC000",
+      "title": "Kingdom's Return Time Eating Fruit and the Ancient Monster",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A40025FEC000.jpg",
+      "variants": [
+        {
+          "id": "v_4edcd794",
+          "name": "Kingdom's Return: Time-Eating Fruit and the Anci",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ta4jSE4VhFDuZziz2E42sL7-AD27vnvX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ta4jSE4VhFDuZziz2E42sL7-AD27vnvX&sz=w640",
+          "sizeBytes": 5310376,
+          "sha256": "CC54F7B2DBA98D15108E7A065F1EF1A51172DFC7A71B6911C9FB649721868B7F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kingdom's Return: Time-Eating Fruit and "
+        }
+      ]
+    },
+    {
+      "titleId": "01003C001B046000",
+      "title": "Talk to Strangers",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003C001B046000.jpg",
+      "variants": [
+        {
+          "id": "v_9eb6acbe",
+          "name": "Talk to Strangers — Talk to Strangers Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16Nd2uUIz7GKu7Qbzq_ZbQ-mkaZ4yhFPd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16Nd2uUIz7GKu7Qbzq_ZbQ-mkaZ4yhFPd&sz=w640",
+          "sizeBytes": 4588610,
+          "sha256": "8BCECB4FF30CCBFCF38D6778141FAF79BAC8B259F3F7FC536CE0623398DA3FAC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Talk to Strangers — Talk to Strangers Tr"
+        }
+      ]
+    },
+    {
+      "titleId": "01003C80205A6000",
+      "title": "Girls of the Tower",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003C80205A6000.jpg",
+      "variants": [
+        {
+          "id": "v_0fe275ae",
+          "name": "Girls of The Tower — DLC2 PV",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1uEozIa-Iz7awqVGv_zsfZkaSk9k5hPv3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1uEozIa-Iz7awqVGv_zsfZkaSk9k5hPv3&sz=w640",
+          "sizeBytes": 4952456,
+          "sha256": "4DFB641BF05DA461DF31F8D8D65EE652D3EB6392EDE95CA623B30D23F8040271",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Girls of The Tower — DLC2 PV"
+        }
+      ]
+    },
+    {
+      "titleId": "01003CD01299E000",
+      "title": "Rims Racing",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003CD01299E000.jpg",
+      "variants": [
+        {
+          "id": "v_337023c3",
+          "name": "RiMS Racing — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CJGaaGRQ3T1r80QbD2zDZ-A79JlSe6Th",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CJGaaGRQ3T1r80QbD2zDZ-A79JlSe6Th&sz=w640",
+          "sizeBytes": 5377695,
+          "sha256": "4BD71F6047BDA7E802B50FABE8815D26BF53CED8FEF15444D8BBC13852279DD0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | RiMS Racing — Launch Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 2613,
-  "totalVariants": 4037,
-  "lastUpdated": "2026-11-10T00:10:11.952152+00:00"
+  "totalGames": 2623,
+  "totalVariants": 4047,
+  "lastUpdated": "2026-11-10T00:13:02.983358+00:00"
 }
