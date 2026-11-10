@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T01:59:52.580295+00:00",
+  "updatedAt": "2026-11-10T02:03:02.672872+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -103968,9 +103968,269 @@
           "notes": "Switch 720p 30fps H264 | Mediterranea Inferno — Launch Trailer"
         }
       ]
+    },
+    {
+      "titleId": "01008DC022A94000",
+      "title": "Angry Video Game Nerd 8 Bit",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008DC022A94000.jpg",
+      "variants": [
+        {
+          "id": "v_85809878",
+          "name": "Angry Video Game Nerd 8-bit — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oPbkm71FT-eoFtfqnJcmHJzuRRiV2-or",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oPbkm71FT-eoFtfqnJcmHJzuRRiV2-or&sz=w640",
+          "sizeBytes": 5434939,
+          "sha256": "92F7BA38FC263A734FB5E9F4A731FBD0B556FED8618C00E1E26999751FB7745D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Angry Video Game Nerd 8-bit — Gameplay T"
+        }
+      ]
+    },
+    {
+      "titleId": "010033F01AD2E000",
+      "title": "Wizardry: Proving Grounds of the Mad Overlord",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010033F01AD2E000.jpg",
+      "variants": [
+        {
+          "id": "v_8206420c",
+          "name": "Wizardry: Proving Grounds of the Mad Overlord — ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BHTUUQKrhCDWWxh4fF8Lm8XlfONLEy7x",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BHTUUQKrhCDWWxh4fF8Lm8XlfONLEy7x&sz=w640",
+          "sizeBytes": 4923560,
+          "sha256": "BB18FEA951BA68DC4C359933C4F652CC8B3529A3B065A62DC09935318CA43524",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wizardry: Proving Grounds of the Mad Ove"
+        }
+      ]
+    },
+    {
+      "titleId": "010036F013A40000",
+      "title": "Abyss: The Wraiths of Eden",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010036F013A40000.jpg",
+      "variants": [
+        {
+          "id": "v_12878051",
+          "name": "Abyss: The Wraiths of Eden — Abyss: The Wraiths ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1beqiDGf8zb9e7yEHKLN9bkvw1_GmBVfr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1beqiDGf8zb9e7yEHKLN9bkvw1_GmBVfr&sz=w640",
+          "sizeBytes": 9323709,
+          "sha256": "2B533ACB4E8EFE74E5C12A6A1B59217AA34580DD3235EFEB03F9F517A8AC7BA8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Abyss: The Wraiths of Eden — Abyss: The "
+        }
+      ]
+    },
+    {
+      "titleId": "01009A70110F8000",
+      "title": "Forgotten Memories Remastered edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009A70110F8000.jpg",
+      "variants": [
+        {
+          "id": "v_1700f2c8",
+          "name": "Forgotten Memories — trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rdPhDZ-K3MbSonk0T5GOGNRWhysAneFm",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rdPhDZ-K3MbSonk0T5GOGNRWhysAneFm&sz=w640",
+          "sizeBytes": 5255468,
+          "sha256": "CDAF37F8D59140EE65AEE00CBEAE8F3FB4BEC988AF9B012AAFB77D05BE541EAA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Forgotten Memories — trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A5E014196000",
+      "title": "Misc a Tiny Tale",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A5E014196000.jpg",
+      "variants": [
+        {
+          "id": "v_8e1d92a9",
+          "name": "Misc. A Tiny Tale — Misc. A Tiny Tale - Overview",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LfJbRLqJdA31ZnSZsJRFbcwMOn1GGys7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LfJbRLqJdA31ZnSZsJRFbcwMOn1GGys7&sz=w640",
+          "sizeBytes": 5327386,
+          "sha256": "5BE2374B28F7F2F881322495DEDE0C1BA8C193EA61DD348FDC1D73CB71E78561",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Misc. A Tiny Tale — Misc. A Tiny Tale - "
+        }
+      ]
+    },
+    {
+      "titleId": "0100ED60242DE000",
+      "title": "Horror Tale: 1 Kidnapper",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100ED60242DE000.jpg",
+      "variants": [
+        {
+          "id": "v_0443dd1b",
+          "name": "Horror Tale 1: Kidnapper — Horror Tale 1",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1I5jdf1fnnC0IzN704kH6Wj24ziorqs_4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1I5jdf1fnnC0IzN704kH6Wj24ziorqs_4&sz=w640",
+          "sizeBytes": 5549734,
+          "sha256": "4AFB92D9EA04B22E4678C18DB4DD13E6DC29782ECB3A9711DDB128408BC975BD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Horror Tale 1: Kidnapper — Horror Tale 1"
+        }
+      ]
+    },
+    {
+      "titleId": "01001B6010D58000",
+      "title": "Yoga Master",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001B6010D58000.jpg",
+      "variants": [
+        {
+          "id": "v_c1d1e782",
+          "name": "YOGA MASTER — Update 2.0 Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tghtdBxPJ2Aagh4s05baCWmMLOok1Spw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tghtdBxPJ2Aagh4s05baCWmMLOok1Spw&sz=w640",
+          "sizeBytes": 5467557,
+          "sha256": "B47A620967DAD7EE840C5AC2598845A8F201A6BB587026F3539E052152E76144",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | YOGA MASTER — Update 2.0 Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DBE00C554000",
+      "title": "Bubsy Paws on Fire",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DBE00C554000.jpg",
+      "variants": [
+        {
+          "id": "v_a3cf2916",
+          "name": "Bubsy: Paws on Fire! — Bubsy: Paws on Fire! Trai",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yuTBOjqO_hHhR6yciBZYjWMoS2HIkB1M",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yuTBOjqO_hHhR6yciBZYjWMoS2HIkB1M&sz=w640",
+          "sizeBytes": 4649897,
+          "sha256": "0CCA88C645687D69A6B5DB6F1D81F52A678E80D5045691DAFF4AFD1BF2604C22",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bubsy: Paws on Fire! — Bubsy: Paws on Fi"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F01021D0A000",
+      "title": "Bubsy in the Purrfect collection",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F01021D0A000.jpg",
+      "variants": [
+        {
+          "id": "v_7bffb7af",
+          "name": "Bubsy in: The Purrfect Collection — Bubsy in: Th",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BXmeHZqswfrX2AiDB_WV4Aq1uW5NGsTR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BXmeHZqswfrX2AiDB_WV4Aq1uW5NGsTR&sz=w640",
+          "sizeBytes": 5066202,
+          "sha256": "C3D5E64B062C11F39EE32466B54FF141B4C5253EEDB30118F8F681E305B80BD4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bubsy in: The Purrfect Collection — Bubs"
+        }
+      ]
+    },
+    {
+      "titleId": "0100166017170000",
+      "title": "Welcome to Elk",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100166017170000.jpg",
+      "variants": [
+        {
+          "id": "v_2f077cb0",
+          "name": "Welcome to Elk — Glorified Gif",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Quf92qSAvKb9hj5DZPPFwIdM2PgbQugs",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Quf92qSAvKb9hj5DZPPFwIdM2PgbQugs&sz=w640",
+          "sizeBytes": 5550960,
+          "sha256": "3D48E827CB0B0ACAAB8F491A6214A78C365E4ADE55B56E6F2608B400F3DB8061",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Welcome to Elk — Glorified Gif"
+        }
+      ]
     }
   ],
-  "totalGames": 2943,
-  "totalVariants": 4367,
-  "lastUpdated": "2026-11-10T01:59:52.580295+00:00"
+  "totalGames": 2953,
+  "totalVariants": 4377,
+  "lastUpdated": "2026-11-10T02:03:02.672872+00:00"
 }
