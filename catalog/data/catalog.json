@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T10:31:37.666599+00:00",
+  "updatedAt": "2026-11-10T10:35:16.455570+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -146868,9 +146868,269 @@
           "notes": "Switch 720p 30fps H264 | Lotus Reverie: First Nexus — Lotus Rever"
         }
       ]
+    },
+    {
+      "titleId": "0100E3701A870000",
+      "title": "Love on Leave",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E3701A870000.jpg",
+      "variants": [
+        {
+          "id": "v_3dc675ca",
+          "name": "Love on Leave — PV_EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1JJeEOx2lfUvzn4f5tAweWNac4Vz0QXGK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1JJeEOx2lfUvzn4f5tAweWNac4Vz0QXGK&sz=w640",
+          "sizeBytes": 5087327,
+          "sha256": "72F6D747AF51206132BCAE72A8144EE8FC08D3F99B6B1BE36C9516EB30B0C1A3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Love on Leave — PV_EN"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A9201A166000",
+      "title": "A Matter of Principle",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A9201A166000.jpg",
+      "variants": [
+        {
+          "id": "v_9ce0f54a",
+          "name": "A Matter of Principle — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cLTZe3vdgMu0IMZ7DJRyrZNdxmV234T8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cLTZe3vdgMu0IMZ7DJRyrZNdxmV234T8&sz=w640",
+          "sizeBytes": 5364608,
+          "sha256": "B825143DB55A8AF1141754218A9DF0B12BE20396682DB3BE25CE811BF2739704",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | A Matter of Principle — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01003EB01CFC6000",
+      "title": "Heads Will Roll Reforged",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003EB01CFC6000.jpg",
+      "variants": [
+        {
+          "id": "v_1035af28",
+          "name": "Heads Will Roll: Reforged — Revenge of the Black",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MjW4rOauERZVjzyf6BG_8GtHsiX0-ivZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MjW4rOauERZVjzyf6BG_8GtHsiX0-ivZ&sz=w640",
+          "sizeBytes": 5390429,
+          "sha256": "F47701B6782347D04EC8EC23090B8543D44C5A529AD124E35F972E03D7EA7335",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Heads Will Roll: Reforged — Revenge of t"
+        }
+      ]
+    },
+    {
+      "titleId": "010076301E23A000",
+      "title": "Looking Up I See Only a Ceiling",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010076301E23A000.jpg",
+      "variants": [
+        {
+          "id": "v_f0f01626",
+          "name": "Looking Up I See Only A Ceiling — Looking Up I S",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pCtlgi-NDbyIaXVkg7YZ6cSdAl1dwqtZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pCtlgi-NDbyIaXVkg7YZ6cSdAl1dwqtZ&sz=w640",
+          "sizeBytes": 4554079,
+          "sha256": "E37164B203AF35186F4A59B7145F951E20A2C53FF6F01BBCECBCE0F3462666F6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Looking Up I See Only A Ceiling — Lookin"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A9B01D4AE000",
+      "title": "Hatsumira From the Future Undying",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A9B01D4AE000.jpg",
+      "variants": [
+        {
+          "id": "v_2d3514c0",
+          "name": "Hatsumira -from the future undying- — Hatsumira ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ssLWsHTH75AU5KsYh0dWC9JT3gToovJw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ssLWsHTH75AU5KsYh0dWC9JT3gToovJw&sz=w640",
+          "sizeBytes": 4976222,
+          "sha256": "22A698A183E745761E3E5420652BDA33474B1A23704ED53DDFD6A6771BA4E5CC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hatsumira -from the future undying- — Ha"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DAA021544000",
+      "title": "The Medical Examination Diary Teamwork in Paradise Complete edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DAA021544000.jpg",
+      "variants": [
+        {
+          "id": "v_7c1ff6c7",
+          "name": "The medical examination diary: Teamwork in Parad",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kOs_vc-qbzVBZ5Qr3h71JA5oXHbjXDWi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kOs_vc-qbzVBZ5Qr3h71JA5oXHbjXDWi&sz=w640",
+          "sizeBytes": 5289725,
+          "sha256": "22192434099DAB4E58C272EE740B38BACBC1EC903F205368C15FBA6A4BDA3304",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The medical examination diary: Teamwork "
+        }
+      ]
+    },
+    {
+      "titleId": "0100B4F019A68000",
+      "title": "Dorakone",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B4F019A68000.jpg",
+      "variants": [
+        {
+          "id": "v_3dd6803e",
+          "name": "DoraKone — DoraKone gameplay trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Yz6IP0Q8mySfhfZgob5VOvdbeZWlrCq9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Yz6IP0Q8mySfhfZgob5VOvdbeZWlrCq9&sz=w640",
+          "sizeBytes": 3286142,
+          "sha256": "2AC3B7A167FADEFC1F913264CFA2ADE25C48FD6F613E96E1718DF3ED9E1CAF8D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | DoraKone — DoraKone gameplay trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01005430163C4000",
+      "title": "Divination",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005430163C4000.jpg",
+      "variants": [
+        {
+          "id": "v_5459ebab",
+          "name": "DIVINATION — Main",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zn_kqVnEjWhRcQl54hbo1qerVRk7aN_0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zn_kqVnEjWhRcQl54hbo1qerVRk7aN_0&sz=w640",
+          "sizeBytes": 4926116,
+          "sha256": "9EAD56E16079C6521F76BA33201A2611D1B142916AFE5FAF0366272E7FB7F83E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | DIVINATION — Main"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E94017978000",
+      "title": "A Sketchbook About Her Sun",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E94017978000.jpg",
+      "variants": [
+        {
+          "id": "v_5e10bd5d",
+          "name": "A Sketchbook About Her Sun — A Sketchbook About ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DGzkHlJ-0hsnrJaqWGZa8l3BRYcgiX6f",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DGzkHlJ-0hsnrJaqWGZa8l3BRYcgiX6f&sz=w640",
+          "sizeBytes": 4535978,
+          "sha256": "103D95E9A429C09F3FD3513F83AF51A2B1CCE8E33A06D2A6E02754996D7F9648",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | A Sketchbook About Her Sun — A Sketchboo"
+        }
+      ]
+    },
+    {
+      "titleId": "0100946014BBC000",
+      "title": "Cross the Moon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100946014BBC000.jpg",
+      "variants": [
+        {
+          "id": "v_38b81d46",
+          "name": "Cross the Moon — Cross the Moon Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IxDgYsZVIDAJ0ajV8NKL_UYe0ceGBf_h",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IxDgYsZVIDAJ0ajV8NKL_UYe0ceGBf_h&sz=w640",
+          "sizeBytes": 5296936,
+          "sha256": "4D89EFA6D09B54CF2B7ADFA4CF7C0CBB6C5D1B47E9F6E891813FC58A7747BF50",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cross the Moon — Cross the Moon Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 4593,
-  "totalVariants": 6017,
-  "lastUpdated": "2026-11-10T10:31:37.666599+00:00"
+  "totalGames": 4603,
+  "totalVariants": 6027,
+  "lastUpdated": "2026-11-10T10:35:16.455570+00:00"
 }
