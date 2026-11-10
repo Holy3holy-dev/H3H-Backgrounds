@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T03:35:06.518842+00:00",
+  "updatedAt": "2026-11-10T03:38:14.881679+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -112028,9 +112028,269 @@
           "notes": "Switch 720p 30fps H264 | Super Cyborg — Super Cyborg trailer"
         }
       ]
+    },
+    {
+      "titleId": "01002DE00E5D0000",
+      "title": "Metaloid Origin",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002DE00E5D0000.jpg",
+      "variants": [
+        {
+          "id": "v_36c80d12",
+          "name": "Metaloid : Origin — Metaloid:Origin Launch Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14oB9PkutHoO1da4Exa0PocxAtCK86jLt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14oB9PkutHoO1da4Exa0PocxAtCK86jLt&sz=w640",
+          "sizeBytes": 5013172,
+          "sha256": "61A176BCD82189D4C26F8C4A1FB11BF9F9825CC020D30D622EDC780B6C66351A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Metaloid : Origin — Metaloid:Origin Laun"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B190163A2000",
+      "title": "Queeny Army",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B190163A2000.jpg",
+      "variants": [
+        {
+          "id": "v_e1846848",
+          "name": "Queeny Army 2 — Queeny Army 2 Reveal Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16SLyx_n67D3e-nHFA_7XxT3UyIwAqz7w",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16SLyx_n67D3e-nHFA_7XxT3UyIwAqz7w&sz=w640",
+          "sizeBytes": 5080643,
+          "sha256": "88DF6856F7DA9AB8E950E8969B49672B2800E69F5B4A01DE7BD6A7578A422CF6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Queeny Army 2 — Queeny Army 2 Reveal Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "01001FB012114000",
+      "title": "Weapon of Choice DX",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001FB012114000.jpg",
+      "variants": [
+        {
+          "id": "v_5fb35bd2",
+          "name": "Weapon of Choice DX — Weapon of Choice",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XsyOudWCvgLyohFv5IOwvGskABmtj3Ot",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XsyOudWCvgLyohFv5IOwvGskABmtj3Ot&sz=w640",
+          "sizeBytes": 5437971,
+          "sha256": "0263E1F665DD8F64E9CADF15AD6082D2D55D288B6252CCA1FFCDAC49AD85C82B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Weapon of Choice DX — Weapon of Choice"
+        }
+      ]
+    },
+    {
+      "titleId": "01002E6013ED8000",
+      "title": "Boom Blaster",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002E6013ED8000.jpg",
+      "variants": [
+        {
+          "id": "v_d00d2a5c",
+          "name": "Boom Blaster — 2-trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CT4k5ka7RlC8XncpIW0cXvcPk0FJ6oxN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CT4k5ka7RlC8XncpIW0cXvcPk0FJ6oxN&sz=w640",
+          "sizeBytes": 12037151,
+          "sha256": "B401EF118AC443964E296804E70FC24B59F8CA43F193A5989DC0AEB251896528",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Boom Blaster — 2-trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FF9003F10000",
+      "title": "Splasher",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FF9003F10000.jpg",
+      "variants": [
+        {
+          "id": "v_3c510156",
+          "name": "Splasher — Splasher Consoles Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-8YMhHCvZ2W_t8UbhsH91hk0MdV5i6HA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-8YMhHCvZ2W_t8UbhsH91hk0MdV5i6HA&sz=w640",
+          "sizeBytes": 11538666,
+          "sha256": "1EC45941E0B2362BA790A637DDECDA05F9FA7AC195333C8523584AE4148EC546",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Splasher — Splasher Consoles Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B0101265C000",
+      "title": "The Otterman Empire",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B0101265C000.jpg",
+      "variants": [
+        {
+          "id": "v_5cb43c7b",
+          "name": "The Otterman Empire — The Otterman Empire: Onlin",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QzJOP5CLYVgspn9Ma_gvylxAugR7Sqyi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QzJOP5CLYVgspn9Ma_gvylxAugR7Sqyi&sz=w640",
+          "sizeBytes": 5300414,
+          "sha256": "B1B30464C940835BB097B3418005B7FE25BBBF0A89688EDE62DC797D41F847A5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Otterman Empire — The Otterman Empir"
+        }
+      ]
+    },
+    {
+      "titleId": "010018F010CD2000",
+      "title": "Fracter",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010018F010CD2000.jpg",
+      "variants": [
+        {
+          "id": "v_5d3044d4",
+          "name": "FRACTER — FRACTER PC Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tV7-ixrGh0Z6E3evf-_XaAnrBdTwO1FJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tV7-ixrGh0Z6E3evf-_XaAnrBdTwO1FJ&sz=w640",
+          "sizeBytes": 5218188,
+          "sha256": "00097CDA9EAC3C5F3C82FD882DE5986A2C0C958C6175070C5FE2E71B1CF78FA4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | FRACTER — FRACTER PC Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100879019212000",
+      "title": "Clunky Hero",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100879019212000.jpg",
+      "variants": [
+        {
+          "id": "v_4a5637b7",
+          "name": "Clunky Hero — Clunky Hero - Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Zb2MYrxs2t3179itWVIS9vQYalCLGwAN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Zb2MYrxs2t3179itWVIS9vQYalCLGwAN&sz=w640",
+          "sizeBytes": 5240048,
+          "sha256": "B7DBBEA7A519190F9F0B584D939D5C0D520F176E5DB2EAF87544A2EE704E33BE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Clunky Hero — Clunky Hero - Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BA200C378000",
+      "title": "Way of the Passive Fist",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BA200C378000.jpg",
+      "variants": [
+        {
+          "id": "v_485b0671",
+          "name": "Way of the Passive Fist — Way of the Passive Fis",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pdr0YvWrtsEQpVPQaTn14rpPzUevBAhk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pdr0YvWrtsEQpVPQaTn14rpPzUevBAhk&sz=w640",
+          "sizeBytes": 4954988,
+          "sha256": "68572931064924EBB84DFEB8D1094B42FBD1D51FC6CB7EC31AB741EE82722385",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Way of the Passive Fist — Way of the Pas"
+        }
+      ]
+    },
+    {
+      "titleId": "010043100BFFA000",
+      "title": "Samurai Riot Definitive edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010043100BFFA000.jpg",
+      "variants": [
+        {
+          "id": "v_449b5f1c",
+          "name": "Samurai Riot Definitive Edition — Samurai Riot -",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ttRWO2FURXszmsQx1wLdNyQLWvHf_hi7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ttRWO2FURXszmsQx1wLdNyQLWvHf_hi7&sz=w640",
+          "sizeBytes": 5304364,
+          "sha256": "B7B033CE5997E4BEB5B84F6DF5A8A3B00AD2B4763FAA0D95B8423A194C67C887",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Samurai Riot Definitive Edition — Samura"
+        }
+      ]
     }
   ],
-  "totalGames": 3253,
-  "totalVariants": 4677,
-  "lastUpdated": "2026-11-10T03:35:06.518842+00:00"
+  "totalGames": 3263,
+  "totalVariants": 4687,
+  "lastUpdated": "2026-11-10T03:38:14.881679+00:00"
 }
