@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T12:23:55.026392+00:00",
+  "updatedAt": "2026-11-10T12:27:36.480547+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -155188,9 +155188,269 @@
           "notes": "Switch 720p 30fps H264 | Mushroom Heroes — Trailer"
         }
       ]
+    },
+    {
+      "titleId": "010012101541C000",
+      "title": "Caffeine Victoria's Legacy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010012101541C000.jpg",
+      "variants": [
+        {
+          "id": "v_0235a055",
+          "name": "Caffeine: Victoria's Legacy — Caffeine: Victoria",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17WeYBOkxVgFPa2BY0tKOfwzK83st31J6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17WeYBOkxVgFPa2BY0tKOfwzK83st31J6&sz=w640",
+          "sizeBytes": 4855725,
+          "sha256": "2791B95B7F69788AC6C88F155B6C15B4D099B5353DFBDFF7B481DCE7B249BDF5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Caffeine: Victoria's Legacy — Caffeine: "
+        }
+      ]
+    },
+    {
+      "titleId": "0100DA101C854000",
+      "title": "Jubilee",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DA101C854000.jpg",
+      "variants": [
+        {
+          "id": "v_d2a008b2",
+          "name": "Jubilee — Jubilee Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IHRglNht0xIrsFwkCQQcuKBdjXtDIN9O",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IHRglNht0xIrsFwkCQQcuKBdjXtDIN9O&sz=w640",
+          "sizeBytes": 5278319,
+          "sha256": "EF680D04E926862D4A310FDB736EC15D9DBA754F717CA84D70205D2CB21CC019",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Jubilee — Jubilee Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010023100B19A000",
+      "title": "Super Dungeon Tactics",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010023100B19A000.jpg",
+      "variants": [
+        {
+          "id": "v_4b24b43f",
+          "name": "Super Dungeon Tactics — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kOENzfnIolB8unHuhUbALHL5jOUBsDNO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kOENzfnIolB8unHuhUbALHL5jOUBsDNO&sz=w640",
+          "sizeBytes": 5172468,
+          "sha256": "A0D2FF35086CDD1A2977322548FC09F382439E943BEDE0EAEBB757E434EEB7A1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Super Dungeon Tactics — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F6E016EE8000",
+      "title": "Shishi Timeless Prelude",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F6E016EE8000.jpg",
+      "variants": [
+        {
+          "id": "v_fc9478f5",
+          "name": "Shishi : Timeless Prelude — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bved3r8u1IYyinvFvss4nHixi_6JdNsa",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bved3r8u1IYyinvFvss4nHixi_6JdNsa&sz=w640",
+          "sizeBytes": 5598504,
+          "sha256": "665B44B0EB1CAB1F62747BF6259E81B05D7FC6B0AE81AF333102203E070D1DF9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Shishi : Timeless Prelude — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100423013306000",
+      "title": "A Good Snowman is Hard to Build",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100423013306000.jpg",
+      "variants": [
+        {
+          "id": "v_51de9127",
+          "name": "A Good Snowman Is Hard To Build — Release",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1R_eSHvD1m_TJMwwENAehwiWv0J44e-aG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1R_eSHvD1m_TJMwwENAehwiWv0J44e-aG&sz=w640",
+          "sizeBytes": 4126452,
+          "sha256": "F5B7D6C62CEA1212F427BC0E55304505CD40523735E19D1C7BE982747627BA70",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | A Good Snowman Is Hard To Build — Releas"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B14021C90000",
+      "title": "Bob the Elementalist",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B14021C90000.jpg",
+      "variants": [
+        {
+          "id": "v_7c87dd5d",
+          "name": "Bob the Elementalist — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-FFoT_3U41zOnOe_bEtedYHKpikSo39i",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-FFoT_3U41zOnOe_bEtedYHKpikSo39i&sz=w640",
+          "sizeBytes": 5368335,
+          "sha256": "EE454F9442EB4007140883418B0C06E7B0074444CD979208AEEB4F8086355F05",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bob the Elementalist — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F8D016700000",
+      "title": "Little Bug",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F8D016700000.jpg",
+      "variants": [
+        {
+          "id": "v_97327332",
+          "name": "Little Bug — Little Bug - Now Available",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1s7yO3TcfT4rikk1PipO7MJDkIYoIu-sR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1s7yO3TcfT4rikk1PipO7MJDkIYoIu-sR&sz=w640",
+          "sizeBytes": 5174906,
+          "sha256": "F6EB9AAA2590515AFDB0716B52D0783201FBDC4D2BEA82FD554788BB8FE7B11D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Little Bug — Little Bug - Now Available"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B5001D0E6000",
+      "title": "Wet Steps",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B5001D0E6000.jpg",
+      "variants": [
+        {
+          "id": "v_0a7d605f",
+          "name": "Wet steps — trailer1",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1u-PAaboInTOpD6K2qT7FzzRzpzoJJo6p",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1u-PAaboInTOpD6K2qT7FzzRzpzoJJo6p&sz=w640",
+          "sizeBytes": 5261810,
+          "sha256": "8D25B12CAF7268BB286749095ECB35CCF1D78D5D56DB6008383709AFD9A5481E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wet steps — trailer1"
+        }
+      ]
+    },
+    {
+      "titleId": "010029E00C780000",
+      "title": "Azure Saga Pathfinder Deluxe edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010029E00C780000.jpg",
+      "variants": [
+        {
+          "id": "v_10497810",
+          "name": "Azure Saga: Pathfinder — Azure Saga: Pathfinder ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1C-NTDLAcQhGp9eCSccPi2s5Ks_3G42gy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1C-NTDLAcQhGp9eCSccPi2s5Ks_3G42gy&sz=w640",
+          "sizeBytes": 5052915,
+          "sha256": "5E07C8E0275C1D6B7F62229C160E728B4603931BF82774320FB994872595C7F8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Azure Saga: Pathfinder — Azure Saga: Pat"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BBB01C7FE000",
+      "title": "Blade Jumper",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BBB01C7FE000.jpg",
+      "variants": [
+        {
+          "id": "v_5b3cefde",
+          "name": "Blade Jumper — Blade Jumper Official Trailer1",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yMr6H_L8hmRXsgYLGaaPdR9at-_A8rkr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yMr6H_L8hmRXsgYLGaaPdR9at-_A8rkr&sz=w640",
+          "sizeBytes": 2228695,
+          "sha256": "90BC73EA76566180E010C44ADD35CE437F18B627946C9A4D63B98FF51818199D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Blade Jumper — Blade Jumper Official Tra"
+        }
+      ]
     }
   ],
-  "totalGames": 4913,
-  "totalVariants": 6337,
-  "lastUpdated": "2026-11-10T12:23:55.026392+00:00"
+  "totalGames": 4923,
+  "totalVariants": 6347,
+  "lastUpdated": "2026-11-10T12:27:36.480547+00:00"
 }
