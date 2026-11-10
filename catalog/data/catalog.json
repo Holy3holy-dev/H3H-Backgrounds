@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T11:35:16.322091+00:00",
+  "updatedAt": "2026-11-10T11:38:24.318623+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -151548,9 +151548,269 @@
           "notes": "Switch 720p 30fps H264 | Battle Planet - Judgement Day — Battle P"
         }
       ]
+    },
+    {
+      "titleId": "01003350102E2000",
+      "title": "Barbarous Tavern of Emyr",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003350102E2000.jpg",
+      "variants": [
+        {
+          "id": "v_ad0d7363",
+          "name": "Barbarous - Tavern Of Emyr — Trailer EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1STJ8ff_Rs67aXle9pqQyKjvu_qZPAbem",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1STJ8ff_Rs67aXle9pqQyKjvu_qZPAbem&sz=w640",
+          "sizeBytes": 4942943,
+          "sha256": "E8ED8BEB9A728FC31DD3BA256E293838BE85B93F5FF0DE4A267648EC6DADAE38",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Barbarous - Tavern Of Emyr — Trailer EN"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CC1010464000",
+      "title": "Nowhere Prophet",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CC1010464000.jpg",
+      "variants": [
+        {
+          "id": "v_f5b05c37",
+          "name": "Nowhere Prophet — Nowhere Prophet Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-Kt3nuMOy5Rn48RkEU1pMkspulIOXrm4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-Kt3nuMOy5Rn48RkEU1pMkspulIOXrm4&sz=w640",
+          "sizeBytes": 5405023,
+          "sha256": "F45B9CDFF59AB7073FB0318CDFB8BCAFFBA7A05A0E62F289011330669A7C8703",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Nowhere Prophet — Nowhere Prophet Launch"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A58023058000",
+      "title": "No Sun to Worship",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A58023058000.jpg",
+      "variants": [
+        {
+          "id": "v_8e818f87",
+          "name": "No Sun To Worship — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NHJe_t4pDgVhXhndGf6Cslddvg88A7hB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NHJe_t4pDgVhXhndGf6Cslddvg88A7hB&sz=w640",
+          "sizeBytes": 5438072,
+          "sha256": "8E40EB4F6D497C993FAB34C91572D264E342624AECFEFCE9CDED9DD82A422E79",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | No Sun To Worship — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01004B4002B6A000",
+      "title": "Runner3",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004B4002B6A000.jpg",
+      "variants": [
+        {
+          "id": "v_9f26343c",
+          "name": "Runner3 — Runner3 Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hcjBG8iBBobtarCPt3KLAXkqPboZaHtW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hcjBG8iBBobtarCPt3KLAXkqPboZaHtW&sz=w640",
+          "sizeBytes": 4920148,
+          "sha256": "B60FB19BEB261CA8673DB35D2E93A8AA77FC14BBE508C3F85BCB1F338F2539DE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Runner3 — Runner3 Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C200163DE000",
+      "title": "Lynn The Girl Drawn on Puzzles",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C200163DE000.jpg",
+      "variants": [
+        {
+          "id": "v_ce759893",
+          "name": "Lynn , The Girl Drawn On Puzzles — Lynn Official",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MEzzJQjcSvkFs8u85mqPNz7bajyWE-rj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MEzzJQjcSvkFs8u85mqPNz7bajyWE-rj&sz=w640",
+          "sizeBytes": 5031234,
+          "sha256": "73BEFF81E131CF8FCF6427A958F4BE1A5ABD60640BBB1DFA0995DF5C3AC458CC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lynn , The Girl Drawn On Puzzles — Lynn "
+        }
+      ]
+    },
+    {
+      "titleId": "01008560110C6000",
+      "title": "Apsulov End of Gods",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008560110C6000.jpg",
+      "variants": [
+        {
+          "id": "v_2753258f",
+          "name": "Apsulov: End of Gods — Apsulov: End of Gods - An",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=112LvyyghNlUH27uVoMAAqdnIbJZBNQ8k",
+          "previewUrl": "https://drive.google.com/thumbnail?id=112LvyyghNlUH27uVoMAAqdnIbJZBNQ8k&sz=w640",
+          "sizeBytes": 5155591,
+          "sha256": "E6ACAADFB59948A8E9D87D69900AA9CFB93E675C4638876B4F966B8EC3D9E980",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Apsulov: End of Gods — Apsulov: End of G"
+        }
+      ]
+    },
+    {
+      "titleId": "0100ADF014C2A000",
+      "title": "Emily Archer and the Curse of Tutankhamun",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100ADF014C2A000.jpg",
+      "variants": [
+        {
+          "id": "v_4a36cf93",
+          "name": "Emily Archer and the Curse of Tutankhamun — Emil",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Y5m5RFOVcwy2yfdacD3ytbpVjdvzPfas",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Y5m5RFOVcwy2yfdacD3ytbpVjdvzPfas&sz=w640",
+          "sizeBytes": 4544224,
+          "sha256": "9E7C1563D825BE674D38EFB805339C4F25614B9E9E591CEEFC53DB02FB1830EB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Emily Archer and the Curse of Tutankhamu"
+        }
+      ]
+    },
+    {
+      "titleId": "010006C024060000",
+      "title": "Noah's Dilemma",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010006C024060000.jpg",
+      "variants": [
+        {
+          "id": "v_d9f856f1",
+          "name": "Noah's Dilemma — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1K5W0fdM3gdnxbjy7o58PwJDOjdqh_f6D",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1K5W0fdM3gdnxbjy7o58PwJDOjdqh_f6D&sz=w640",
+          "sizeBytes": 5302835,
+          "sha256": "7E60457BCB60434A450BAC702CD1C5DC9CC2F67762FFEA80685725563857F67A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Noah's Dilemma — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01005F4021AF2000",
+      "title": "Bunny Battle Nemesis",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005F4021AF2000.jpg",
+      "variants": [
+        {
+          "id": "v_487b0708",
+          "name": "Bunny Battle Nemesis — Bunny Battle Nemesis Trai",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TcO9t4CuuKBzNVzCGxxfzPd8IB7hlNgu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TcO9t4CuuKBzNVzCGxxfzPd8IB7hlNgu&sz=w640",
+          "sizeBytes": 4740232,
+          "sha256": "29DEA17B6FB18AECB4C9133D9F9F56E1CD40369EE3FE3A4718A81350DF915CC3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bunny Battle Nemesis — Bunny Battle Neme"
+        }
+      ]
+    },
+    {
+      "titleId": "01003920217F8000",
+      "title": "Dragon Eclipse",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003920217F8000.jpg",
+      "variants": [
+        {
+          "id": "v_babd49fe",
+          "name": "Dragon Eclipse — RELEASE TRAILER 1.0",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Z4R2uTxz2xyBho3BC3jcvbjZ_zf-IZZS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Z4R2uTxz2xyBho3BC3jcvbjZ_zf-IZZS&sz=w640",
+          "sizeBytes": 5564918,
+          "sha256": "1F9432C7472537F4C57660E9A9E9D6F8179AE7926C002323F82840BE46131B52",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dragon Eclipse — RELEASE TRAILER 1.0"
+        }
+      ]
     }
   ],
-  "totalGames": 4773,
-  "totalVariants": 6197,
-  "lastUpdated": "2026-11-10T11:35:16.322091+00:00"
+  "totalGames": 4783,
+  "totalVariants": 6207,
+  "lastUpdated": "2026-11-10T11:38:24.318623+00:00"
 }
