@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T00:56:37.138314+00:00",
+  "updatedAt": "2026-11-10T00:59:35.524249+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -99548,9 +99548,269 @@
           "notes": "Switch 720p 30fps H264 | PowerSlave Exhumed — PowerSlave Exhumed "
         }
       ]
+    },
+    {
+      "titleId": "010065100E7DA000",
+      "title": "Paradox Soul",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010065100E7DA000.jpg",
+      "variants": [
+        {
+          "id": "v_232fcb5e",
+          "name": "Paradox Soul — Paradox Soul",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dQhXSNgfxMQtye7wlPH-2-y_lBJ6Kc9p",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dQhXSNgfxMQtye7wlPH-2-y_lBJ6Kc9p&sz=w640",
+          "sizeBytes": 2938143,
+          "sha256": "94C1394E0BAE3C2E0C9851D2E729518903439DEA9770CA304B54DDB350B14C2A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Paradox Soul — Paradox Soul"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F970140EA000",
+      "title": "Overlord Escape from Nazarick",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F970140EA000.jpg",
+      "variants": [
+        {
+          "id": "v_e3073c98",
+          "name": "OVERLORD: ESCAPE FROM NAZARICK — 20211215",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UWrS1A7D43lIF-Z44TPKC-AjtycNB-ez",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UWrS1A7D43lIF-Z44TPKC-AjtycNB-ez&sz=w640",
+          "sizeBytes": 5558807,
+          "sha256": "ED4868C713DB385B533DC2BA197297C535469384AB0224AF07D07BB0805745B3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | OVERLORD: ESCAPE FROM NAZARICK — 2021121"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CCF00F5BC000",
+      "title": "Outpost Delta",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CCF00F5BC000.jpg",
+      "variants": [
+        {
+          "id": "v_7090c799",
+          "name": "Outpost Delta — ESRB English Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1l1_LNft6KbUh6tpaDp_SdMwNVMs63V3w",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1l1_LNft6KbUh6tpaDp_SdMwNVMs63V3w&sz=w640",
+          "sizeBytes": 4142103,
+          "sha256": "058844417ED383C84D5FDBE382CA9353BED0BCCA2BD27F952C79164336FC1E4C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Outpost Delta — ESRB English Launch Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B8900EFA6000",
+      "title": "Outbuddies DX",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B8900EFA6000.jpg",
+      "variants": [
+        {
+          "id": "v_b8544bb9",
+          "name": "OUTBUDDIES DX — OUTBUDDIES DX - Update Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ESM2ptz83CHCG_Rss121M7QSKAMbbqqm",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ESM2ptz83CHCG_Rss121M7QSKAMbbqqm&sz=w640",
+          "sizeBytes": 5267013,
+          "sha256": "C884BA861B42FF57B990F61C6CF20C321B47952889260A6534695F38EFD4E036",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | OUTBUDDIES DX — OUTBUDDIES DX - Update T"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AC001986C000",
+      "title": "Orcen Axe",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AC001986C000.jpg",
+      "variants": [
+        {
+          "id": "v_443b68e1",
+          "name": "Orcen Axe — Orcen Axe Trailer #1",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1C_2EoD4e_oPTvwAevoPhDTmWTEtokjS8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1C_2EoD4e_oPTvwAevoPhDTmWTEtokjS8&sz=w640",
+          "sizeBytes": 5479722,
+          "sha256": "761A55CD548300AF5D348EDF02A197DFE4BF91A0A6715508CC64FB1C7CBBBD1A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Orcen Axe — Orcen Axe Trailer #1"
+        }
+      ]
+    },
+    {
+      "titleId": "010066202271C000",
+      "title": "Momibosu",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010066202271C000.jpg",
+      "variants": [
+        {
+          "id": "v_8c2d8f08",
+          "name": "MOMIBOSU — 英語Final",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IV3ulY5I65y9Axgc0gtPBLqsPuljJkbn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IV3ulY5I65y9Axgc0gtPBLqsPuljJkbn&sz=w640",
+          "sizeBytes": 5190785,
+          "sha256": "8B744CB59DE13CC0D956352D52323A8F72C6C799CADDD0E240B0F36CCAF5924C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | MOMIBOSU — 英語Final"
+        }
+      ]
+    },
+    {
+      "titleId": "010064A020352000",
+      "title": "The 40th Anniversary edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010064A020352000.jpg",
+      "variants": [
+        {
+          "id": "v_67ea4032",
+          "name": "Montezuma's Revenge - The 40th Anniversary Editi",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ElQglnkl4jZw2b_CNEinruSUrkt_RVDR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ElQglnkl4jZw2b_CNEinruSUrkt_RVDR&sz=w640",
+          "sizeBytes": 4650336,
+          "sha256": "F534F6FDC4D67950A6FA6E070E49657B6513C7CE8576610C914011779DEC23A9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Montezuma's Revenge - The 40th Anniversa"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B490203C4000",
+      "title": "Lone Fungus",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B490203C4000.jpg",
+      "variants": [
+        {
+          "id": "v_ed4cc38d",
+          "name": "Lone Fungus — 1.1",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11F-sNCcExPNWoJ3DGGbu7e0Cb4u--694",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11F-sNCcExPNWoJ3DGGbu7e0Cb4u--694&sz=w640",
+          "sizeBytes": 5287049,
+          "sha256": "6B99F832DDA985BB413F432ECF061F3A492858964BA6D1055AE27B373EB45C3C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lone Fungus — 1.1"
+        }
+      ]
+    },
+    {
+      "titleId": "01006C3017146000",
+      "title": "Lila's Sky Ark",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006C3017146000.jpg",
+      "variants": [
+        {
+          "id": "v_70afa298",
+          "name": "Lila’s Sky Ark — Launch",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FtXBUlRC7p7zd-iUQSoEdRJhaR0WCgtO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FtXBUlRC7p7zd-iUQSoEdRJhaR0WCgtO&sz=w640",
+          "sizeBytes": 5318527,
+          "sha256": "177D836990D6C73E86BE61E21393343BFE8DD8CB004DE96206E972811666B955",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lila’s Sky Ark — Launch"
+        }
+      ]
+    },
+    {
+      "titleId": "010011D00F540000",
+      "title": "KnifeBoy Rebooted",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010011D00F540000.jpg",
+      "variants": [
+        {
+          "id": "v_3224b222",
+          "name": "KnifeBoy Rebooted — KnifeBoy Rebooted",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ka_tP4gJA033OEGDLph3gnViKWrmBNuD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ka_tP4gJA033OEGDLph3gnViKWrmBNuD&sz=w640",
+          "sizeBytes": 5274971,
+          "sha256": "DA2198913203DED5D75A996F9D5C60F890CE5BF75DDDC1882CCA6023B0308DDE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | KnifeBoy Rebooted — KnifeBoy Rebooted"
+        }
+      ]
     }
   ],
-  "totalGames": 2773,
-  "totalVariants": 4197,
-  "lastUpdated": "2026-11-10T00:56:37.138314+00:00"
+  "totalGames": 2783,
+  "totalVariants": 4207,
+  "lastUpdated": "2026-11-10T00:59:35.524249+00:00"
 }
