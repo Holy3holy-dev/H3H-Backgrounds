@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T04:13:55.819275+00:00",
+  "updatedAt": "2026-11-10T04:16:59.405297+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -115408,9 +115408,269 @@
           "notes": "Switch 720p 30fps H264 | Cauldron Lake Alan Wake 2"
         }
       ]
+    },
+    {
+      "titleId": "01000410251A8000",
+      "title": "Redex",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000410251A8000.jpg",
+      "variants": [
+        {
+          "id": "v_01e5b2bc",
+          "name": "RedEx — RedEx Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xKYadpZSq-vXNtVNn_fqgKqS9nd0jnHu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xKYadpZSq-vXNtVNn_fqgKqS9nd0jnHu&sz=w640",
+          "sizeBytes": 5288405,
+          "sha256": "2EE19016D6B3F8E9EB0F8FE42DFDF82720758BA04B89666C8B08446EF93E3E0A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | RedEx — RedEx Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01002C10270EE000",
+      "title": "Wrack Reclamation",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002C10270EE000.jpg",
+      "variants": [
+        {
+          "id": "v_3a7361d9",
+          "name": "Wrack: Reclamation — Launch",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yDYVKeafYayDoz6Wv3LVu959ScVzDPAu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yDYVKeafYayDoz6Wv3LVu959ScVzDPAu&sz=w640",
+          "sizeBytes": 5435782,
+          "sha256": "F7B0A7CF18CDC2871FF8E208AA75148E169DA564EF5356925C5E22DF21E3D867",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wrack: Reclamation — Launch"
+        }
+      ]
+    },
+    {
+      "titleId": "01009AC01A9A6000",
+      "title": "Stellar Wanderer DX",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009AC01A9A6000.jpg",
+      "variants": [
+        {
+          "id": "v_2624e1ff",
+          "name": "Stellar Wanderer DX — Announcement Trailer (Engl",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1M0ygnYb0OJ2DOD4mbwdSKt8JPQms7Z9p",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1M0ygnYb0OJ2DOD4mbwdSKt8JPQms7Z9p&sz=w640",
+          "sizeBytes": 5352942,
+          "sha256": "243C1979B6963AB5DC1B02B633D155B87D2D3F8659F18D25E4205B19FE6D9C90",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Stellar Wanderer DX — Announcement Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "01009730256E2000",
+      "title": "Bean Beasts",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009730256E2000.jpg",
+      "variants": [
+        {
+          "id": "v_7723fce2",
+          "name": "Bean Beasts — Full Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AhMXAQcJjdlFNvEheYekji51PJgKNtzC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AhMXAQcJjdlFNvEheYekji51PJgKNtzC&sz=w640",
+          "sizeBytes": 5459502,
+          "sha256": "37C528ED2F9DC92668CB323DDDD55408B52895D6FD4DB20631D001298F10F544",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bean Beasts — Full Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F86025940000",
+      "title": "Mystic Explorer",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F86025940000.jpg",
+      "variants": [
+        {
+          "id": "v_a9d5ee81",
+          "name": "Mystic Explorer — 秘境探险者-发售-英文",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1JH14PCSurm4QIBr1-ICkgTgl2P16yKpQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1JH14PCSurm4QIBr1-ICkgTgl2P16yKpQ&sz=w640",
+          "sizeBytes": 5192761,
+          "sha256": "32DD04F488FA761A0787683DA6897EBD1B8F086B5F443C350D5DAE9966E3125B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mystic Explorer — 秘境探险者-发售-英文"
+        }
+      ]
+    },
+    {
+      "titleId": "010078E026790000",
+      "title": "ChildStory",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010078E026790000.jpg",
+      "variants": [
+        {
+          "id": "v_d57b2adb",
+          "name": "ChildStory — ChildStory | Official Launch Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17A6o6DM3uMjjgLiESAagG4-GO8F-hpH5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17A6o6DM3uMjjgLiESAagG4-GO8F-hpH5&sz=w640",
+          "sizeBytes": 4512552,
+          "sha256": "CECA7B4869602EBB35CF8CA8487620118FCB8E7EB9FB6217511E0B80C3B0C0A9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | ChildStory — ChildStory | Official Launc"
+        }
+      ]
+    },
+    {
+      "titleId": "01003F6022228000",
+      "title": "Spellcaster University",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003F6022228000.jpg",
+      "variants": [
+        {
+          "id": "v_0f8295a2",
+          "name": "Spellcaster University — Spellcaster University ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12j82w9ysLnH4W4cZCsz8iToIqc5-3F5-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12j82w9ysLnH4W4cZCsz8iToIqc5-3F5-&sz=w640",
+          "sizeBytes": 4225293,
+          "sha256": "152650F29C53EC783C90F6B59F7241CA05622AFD5C3B07F263366C28BABF6FDB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Spellcaster University — Spellcaster Uni"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AF9017F8E000",
+      "title": "SpiritTea",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AF9017F8E000.jpg",
+      "variants": [
+        {
+          "id": "v_b9bdd7aa",
+          "name": "Spirittea — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ng5dAGptJWvUCqpkLKJQW3Qtn_G2LoNC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ng5dAGptJWvUCqpkLKJQW3Qtn_G2LoNC&sz=w640",
+          "sizeBytes": 4815343,
+          "sha256": "452302EFDB9E6645A38A68E0EE7BB0A00E343296DB5CCD553DB3BB68903762B0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Spirittea — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C4A027536000",
+      "title": "Reptilian Rising",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C4A027536000.jpg",
+      "variants": [
+        {
+          "id": "v_fdab79bc",
+          "name": "Reptilian Rising — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mf9zAmVvSZXifQU--QIprnUl8wV3g6-n",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mf9zAmVvSZXifQU--QIprnUl8wV3g6-n&sz=w640",
+          "sizeBytes": 5342037,
+          "sha256": "1A0F0B1746A1FB4E2C0A96D4D0C5B5ED9D34798DA1C082C73C15A804D0F540C3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Reptilian Rising — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010020F025048000",
+      "title": "Dunkadillo",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010020F025048000.jpg",
+      "variants": [
+        {
+          "id": "v_22852fa8",
+          "name": "Dunkadillo — Dunkadillo Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14cfHoRIu48itkmlyEzG3Fu7IxrmqoatR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14cfHoRIu48itkmlyEzG3Fu7IxrmqoatR&sz=w640",
+          "sizeBytes": 5184073,
+          "sha256": "44DEE90B04D7EE685992617129A407C4A392C4FA3F0277C48D75518874FB8965",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dunkadillo — Dunkadillo Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 3383,
-  "totalVariants": 4807,
-  "lastUpdated": "2026-11-10T04:13:55.819275+00:00"
+  "totalGames": 3393,
+  "totalVariants": 4817,
+  "lastUpdated": "2026-11-10T04:16:59.405297+00:00"
 }
