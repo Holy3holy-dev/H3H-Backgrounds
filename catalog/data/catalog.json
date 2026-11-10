@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T06:03:05.558277+00:00",
+  "updatedAt": "2026-11-10T06:06:25.086340+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -124508,9 +124508,269 @@
           "notes": "Switch 720p 30fps H264 | The Pale Beyond — Launch Trailer"
         }
       ]
+    },
+    {
+      "titleId": "010061B01E202000",
+      "title": "The Alchemist of Ars Magna",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010061B01E202000.jpg",
+      "variants": [
+        {
+          "id": "v_0fc562a6",
+          "name": "The Alchemist of Ars Magna — PV(English)",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17ebPKOOCQm2-1Ig2RbhnkkoPI9QhF4zI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17ebPKOOCQm2-1Ig2RbhnkkoPI9QhF4zI&sz=w640",
+          "sizeBytes": 5140405,
+          "sha256": "8DFD7F94879B7A1080FE4645E123911B7A66A5129EF647D5BB7C797AD58CC413",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Alchemist of Ars Magna — PV(English)"
+        }
+      ]
+    },
+    {
+      "titleId": "01005650218EC000",
+      "title": "Goosebumps: Terror in Little Creek",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005650218EC000.jpg",
+      "variants": [
+        {
+          "id": "v_ebb2a7d1",
+          "name": "Goosebumps: Terror in Little Creek — Launch Trai",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZDPO8GQVfPtQdmqA8XfNg0wzUMXxjN2H",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZDPO8GQVfPtQdmqA8XfNg0wzUMXxjN2H&sz=w640",
+          "sizeBytes": 5401740,
+          "sha256": "3353B71FA5B0A76126C7AC809A56291C268B205414B3FD5C98517071AE57D082",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Goosebumps: Terror in Little Creek — Lau"
+        }
+      ]
+    },
+    {
+      "titleId": "0100962024296000",
+      "title": "Camper Van Make it Home",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100962024296000.jpg",
+      "variants": [
+        {
+          "id": "v_dee47f96",
+          "name": "Camper Van: Make it Home — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Jq1lEmy0y1rfnWfxARVUg_b1fbaxsN2X",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Jq1lEmy0y1rfnWfxARVUg_b1fbaxsN2X&sz=w640",
+          "sizeBytes": 5317467,
+          "sha256": "7C613DE723D60EB5E6F73E72576872CC73A92B1FED88CCC899CF6D65CA65DF73",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Camper Van: Make it Home — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F3D008436000",
+      "title": "Hiragana Pixel Party",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F3D008436000.jpg",
+      "variants": [
+        {
+          "id": "v_e29722a0",
+          "name": "Hiragana Pixel Party — Main Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15V1IBLcSEgH8d1X-Rvhal5LI2f_isQsb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15V1IBLcSEgH8d1X-Rvhal5LI2f_isQsb&sz=w640",
+          "sizeBytes": 5003913,
+          "sha256": "E856E9DA5005B342430C7D6554F2160CCFFFAFB5ABC8392713E3AFC9AC482EEF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hiragana Pixel Party — Main Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100659FF1404000",
+      "title": "LoFi Ping Pong",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100659FF1404000.jpg",
+      "variants": [
+        {
+          "id": "v_dc59f6a4",
+          "name": "Lofi Ping Pong — Trailer#4",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pk_5NU_bj7nxuxnWtWwqvIT9ocgjRs0u",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pk_5NU_bj7nxuxnWtWwqvIT9ocgjRs0u&sz=w640",
+          "sizeBytes": 5419880,
+          "sha256": "14EA25BA46598AFF029CFE2396E1D5BAA2B16D9DBBF9E15EE8F7F4EB9EBFFC81",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lofi Ping Pong — Trailer#4"
+        }
+      ]
+    },
+    {
+      "titleId": "010057D01BA78000",
+      "title": "Giant Wishes",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010057D01BA78000.jpg",
+      "variants": [
+        {
+          "id": "v_e72a670e",
+          "name": "Giant Wishes — Official Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ywL-6HgqGVXwjUYTCU_QcLnMJVHjK4Aj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ywL-6HgqGVXwjUYTCU_QcLnMJVHjK4Aj&sz=w640",
+          "sizeBytes": 4053361,
+          "sha256": "9338491F9902C6FB70D10162F76440C201ADFC99F387082E42EE83398B3EF834",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Giant Wishes — Official Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A2100BFCE000",
+      "title": "Hell Warders",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A2100BFCE000.jpg",
+      "variants": [
+        {
+          "id": "v_16dc9e00",
+          "name": "Hell Warders — Out Now - English",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Yq078kiZtikETUF3LL6FkB7p8xufx5L_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Yq078kiZtikETUF3LL6FkB7p8xufx5L_&sz=w640",
+          "sizeBytes": 5386169,
+          "sha256": "DCCD7111F30BD40EBEF51E4D3A212DF8EF4B865F3ADFFB0996FE78730EFCFACD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hell Warders — Out Now - English"
+        }
+      ]
+    },
+    {
+      "titleId": "010039E01CEEC000",
+      "title": "Super Alloy Ranger",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010039E01CEEC000.jpg",
+      "variants": [
+        {
+          "id": "v_a639e576",
+          "name": "Super Alloy Ranger — Super Alloy Ranger _PV_EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eZ7P1_B5IUHv4fTlDckJ3Q0K9HKS33t6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eZ7P1_B5IUHv4fTlDckJ3Q0K9HKS33t6&sz=w640",
+          "sizeBytes": 4548936,
+          "sha256": "D5505A73AA0C9FA6E3E49D6BBE43E6AEC4D124233B1C0160AEB884D9D556E5D0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Super Alloy Ranger — Super Alloy Ranger "
+        }
+      ]
+    },
+    {
+      "titleId": "0100112003B8A000",
+      "title": "Slime-San",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100112003B8A000.jpg",
+      "variants": [
+        {
+          "id": "v_091e43e3",
+          "name": "Slime-san: Superslime Edition — Slime-san: Main ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1k3S2Vu0dWw-ior6ttTT6gAROChDdreIA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1k3S2Vu0dWw-ior6ttTT6gAROChDdreIA&sz=w640",
+          "sizeBytes": 5055658,
+          "sha256": "0F40A084A4EE2CE18F0762EC0E341649CE7198ABDE3FA9A894EEEA5C70C83A55",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Slime-san: Superslime Edition — Slime-sa"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D4A018AAC000",
+      "title": "Lunark",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D4A018AAC000.jpg",
+      "variants": [
+        {
+          "id": "v_444978ba",
+          "name": "LUNARK — Trailer - Release",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hjLn3dPBkqgmWp_fRtOL0Jm2xFbtsEVL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hjLn3dPBkqgmWp_fRtOL0Jm2xFbtsEVL&sz=w640",
+          "sizeBytes": 5202434,
+          "sha256": "0BC75DA2ED20A004135E137ABFBEBCE63892747524F309CEEFB3FA530678C4EF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | LUNARK — Trailer - Release"
+        }
+      ]
     }
   ],
-  "totalGames": 3733,
-  "totalVariants": 5157,
-  "lastUpdated": "2026-11-10T06:03:05.558277+00:00"
+  "totalGames": 3743,
+  "totalVariants": 5167,
+  "lastUpdated": "2026-11-10T06:06:25.086340+00:00"
 }
