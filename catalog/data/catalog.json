@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T09:12:36.261228+00:00",
+  "updatedAt": "2026-11-10T09:15:43.656741+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -140368,9 +140368,269 @@
           "notes": "Switch 720p 30fps H264 | Bone's Cafe — Trailer5"
         }
       ]
+    },
+    {
+      "titleId": "010009501A22E000",
+      "title": "Belle Boomerang",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010009501A22E000.jpg",
+      "variants": [
+        {
+          "id": "v_590b6769",
+          "name": "Belle Boomerang — Belle Boomerang - Gameplay tra",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fVnMcz01SJHSTcSbHzpRrFMYxMPefwLZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fVnMcz01SJHSTcSbHzpRrFMYxMPefwLZ&sz=w640",
+          "sizeBytes": 5063544,
+          "sha256": "3D85576B961FACE1999A1FC8B1886331A6E25F4A7E80ADE866438263617F3552",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Belle Boomerang — Belle Boomerang - Game"
+        }
+      ]
+    },
+    {
+      "titleId": "010074F01C326000",
+      "title": "Before the Night",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010074F01C326000.jpg",
+      "variants": [
+        {
+          "id": "v_21b28533",
+          "name": "Before The Night — animatedTrailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xUNG82Mxk5lCPQG8AYDhBj47BUGG3YNq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xUNG82Mxk5lCPQG8AYDhBj47BUGG3YNq&sz=w640",
+          "sizeBytes": 5322502,
+          "sha256": "B562AE1EFA82E3990AADA52CC7EB650596AC8E2A494DCDF1FC08010F791A6D90",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Before The Night — animatedTrailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C1901C444000",
+      "title": "Anthology of Fear",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C1901C444000.jpg",
+      "variants": [
+        {
+          "id": "v_3c814022",
+          "name": "Anthology of Fear — Anthology of Fear - Official",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Jk7L0CTxw_2GHv0hwusELt95Ew_HBope",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Jk7L0CTxw_2GHv0hwusELt95Ew_HBope&sz=w640",
+          "sizeBytes": 5435815,
+          "sha256": "4CFBA4B8E5C4FCA221BAD8A8344F7BC92C6418A8FE711033212756B24E7A63BA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Anthology of Fear — Anthology of Fear - "
+        }
+      ]
+    },
+    {
+      "titleId": "010059F019A42000",
+      "title": "Another Crusade",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010059F019A42000.jpg",
+      "variants": [
+        {
+          "id": "v_a7e2b61f",
+          "name": "Another Crusade — Micro Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NR15JYqZrC3BPyuaEBf24CGaiVIMArPv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NR15JYqZrC3BPyuaEBf24CGaiVIMArPv&sz=w640",
+          "sizeBytes": 5181568,
+          "sha256": "989EF1FEDD875856AED7445CAA585588F79DD07D5F7F931D6F6A0FBE792AF487",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Another Crusade — Micro Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01002BB01B8B6000",
+      "title": "Annalynn",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002BB01B8B6000.jpg",
+      "variants": [
+        {
+          "id": "v_4e4d5c72",
+          "name": "Annalynn MD — Demo Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oKFPmtiTVO-LwbfyapooQMSi5KjlbvFv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oKFPmtiTVO-LwbfyapooQMSi5KjlbvFv&sz=w640",
+          "sizeBytes": 5061512,
+          "sha256": "2EAADF0BF069413F64DAD4794CB341231F5806EBCDCF2D55864F170B881AF987",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Annalynn MD — Demo Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E24018B68000",
+      "title": "Alpha Particle",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E24018B68000.jpg",
+      "variants": [
+        {
+          "id": "v_ef6e59d6",
+          "name": "Alpha Particle — Alpha Particle Steam trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bs82OLN-VXPY-LwKV_NQGdajVh6EU7ed",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bs82OLN-VXPY-LwKV_NQGdajVh6EU7ed&sz=w640",
+          "sizeBytes": 5484444,
+          "sha256": "EF49E843D8B9FB1F7C6DFB8A78DE5BECD8EB1DC399B2DB03B75160689A230349",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Alpha Particle — Alpha Particle Steam tr"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A7401CCEA000",
+      "title": "Alien Death Mob",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A7401CCEA000.jpg",
+      "variants": [
+        {
+          "id": "v_beed5504",
+          "name": "Alien Death Mob — New 60s Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1YHOQTKdSb79qtxGzJTqLiDAu8jP2lnny",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1YHOQTKdSb79qtxGzJTqLiDAu8jP2lnny&sz=w640",
+          "sizeBytes": 5568389,
+          "sha256": "3E2864779C8E3C733636EC8A1EEFF42F76DEDAF1A35E26D5C95717A049ECB21C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Alien Death Mob — New 60s Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010060101A6E0000",
+      "title": "Alekon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010060101A6E0000.jpg",
+      "variants": [
+        {
+          "id": "v_a317b574",
+          "name": "Alekon — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BHjVjwj906kV9DZNK7dAcFOX_qe2r0kb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BHjVjwj906kV9DZNK7dAcFOX_qe2r0kb&sz=w640",
+          "sizeBytes": 5555167,
+          "sha256": "10F90C62A2B5E1FB51355E59E166CF5DB0952A560FB22FDF89D78992FFEA39BF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Alekon — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01002430155DA000",
+      "title": "Derpy Conga",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002430155DA000.jpg",
+      "variants": [
+        {
+          "id": "v_147fc187",
+          "name": "Derpy Conga — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1J3wj7PWoO-Xe7MJBOVyWBlvgvnbVFiJp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1J3wj7PWoO-Xe7MJBOVyWBlvgvnbVFiJp&sz=w640",
+          "sizeBytes": 5666127,
+          "sha256": "F9179AE9CF449C0CC9002DE61096D646DDC20351C89DA924F277C71A96A02329",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Derpy Conga — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B53015A5E000",
+      "title": "Witchcrafty",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B53015A5E000.jpg",
+      "variants": [
+        {
+          "id": "v_f7745eb1",
+          "name": "Witchcrafty — Witchcrafty Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1T68y_9gcooI9q7TI8Bp6tWP6GhNeUGzZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1T68y_9gcooI9q7TI8Bp6tWP6GhNeUGzZ&sz=w640",
+          "sizeBytes": 5189688,
+          "sha256": "67F467D4C4ED6F9BB33B5DFBD020B86521D970FF6901C0CAF74511E6A57EA099",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Witchcrafty — Witchcrafty Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 4343,
-  "totalVariants": 5767,
-  "lastUpdated": "2026-11-10T09:12:36.261228+00:00"
+  "totalGames": 4353,
+  "totalVariants": 5777,
+  "lastUpdated": "2026-11-10T09:15:43.656741+00:00"
 }
