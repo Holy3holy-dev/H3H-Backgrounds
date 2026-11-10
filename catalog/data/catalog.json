@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T14:14:02.304711+00:00",
+  "updatedAt": "2026-11-10T14:17:34.897559+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -162728,9 +162728,269 @@
           "notes": "Switch 720p 30fps H264 | Sockventure — Sockventure - TextTrailer"
         }
       ]
+    },
+    {
+      "titleId": "0100ED427535A000",
+      "title": "Seeds of Resilience",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100ED427535A000.jpg",
+      "variants": [
+        {
+          "id": "v_ef41610f",
+          "name": "Seeds of Resilience — trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BiwiBIPfWZF2xplCAILyMH8pcYs2Q9Vh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BiwiBIPfWZF2xplCAILyMH8pcYs2Q9Vh&sz=w640",
+          "sizeBytes": 10536783,
+          "sha256": "A2DC8ED29BCEAB42FA7392B69DA263723544C13D404CEF96BE7AFA69FEAEAD41",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Seeds of Resilience — trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01000E201649E000",
+      "title": "Running on Magic",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000E201649E000.jpg",
+      "variants": [
+        {
+          "id": "v_1c2aedea",
+          "name": "Running on Magic — ROM Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LMoz0xDOebqWZmPv3v_OTmV1fPeHdutN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LMoz0xDOebqWZmPv3v_OTmV1fPeHdutN&sz=w640",
+          "sizeBytes": 5390614,
+          "sha256": "E2C7DE87F7A1D4918EB489B517BC4557F21FD51B54E3D1346102E0FA5557AA37",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Running on Magic — ROM Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AD601B084000",
+      "title": "Road Builder",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AD601B084000.jpg",
+      "variants": [
+        {
+          "id": "v_251100f3",
+          "name": "Road Builder — Road Builder - Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14C2VGEz5L3Q4paxOQpqnYLyBbg6-dRR8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14C2VGEz5L3Q4paxOQpqnYLyBbg6-dRR8&sz=w640",
+          "sizeBytes": 4780742,
+          "sha256": "843C92BDF38F43079AADA43B4E0D218A01A2ADCFA9D5BD922F89ED4F654CA019",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Road Builder — Road Builder - Gameplay T"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F5501483C000",
+      "title": "Rift Adventure",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F5501483C000.jpg",
+      "variants": [
+        {
+          "id": "v_b40e9fb9",
+          "name": "Rift Adventure — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oLUlWWAJCb4TyEOPzFI-FjnUVjw85wvM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oLUlWWAJCb4TyEOPzFI-FjnUVjw85wvM&sz=w640",
+          "sizeBytes": 4646240,
+          "sha256": "9EA5AF5E754D51C82907F669D769A7AE8F6F86F58710130B4E6BB8CABC8E5362",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rift Adventure — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100802011A2A000",
+      "title": "Retrograde Arena",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100802011A2A000.jpg",
+      "variants": [
+        {
+          "id": "v_2561d8e4",
+          "name": "Retrograde Arena — Retrograde Arena Early Access",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HGcvfG51mACRpiETWb8-80tDrNOVf5lE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HGcvfG51mACRpiETWb8-80tDrNOVf5lE&sz=w640",
+          "sizeBytes": 5484314,
+          "sha256": "AE18512E5BF8411AB56B6CD0DE636B4CC9C9652FE71A631B3AB7537327B75504",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Retrograde Arena — Retrograde Arena Earl"
+        }
+      ]
+    },
+    {
+      "titleId": "0100298013CC0000",
+      "title": "Raspberry Mash",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100298013CC0000.jpg",
+      "variants": [
+        {
+          "id": "v_246a6b72",
+          "name": "RASPBERRY MASH — RASPBERRYMASH_Trailer_en",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yLP-ktc9pco5MQ-UZd4wwUlPYPD1DPbV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yLP-ktc9pco5MQ-UZd4wwUlPYPD1DPbV&sz=w640",
+          "sizeBytes": 4434807,
+          "sha256": "5E31FDEDB5449DB526FD404C9E9A8821102B5FCDBAEBA8D1A17E18FEF0CEE631",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | RASPBERRY MASH — RASPBERRYMASH_Trailer_e"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CDE0168F8000",
+      "title": "Rainbow Yggdrasil",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CDE0168F8000.jpg",
+      "variants": [
+        {
+          "id": "v_da64272b",
+          "name": "Rainbow Yggdrasil — Rainbow Yggdrasil English",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MuaWYXVmixYTGEyo8T7svcS4Qp0NeRDW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MuaWYXVmixYTGEyo8T7svcS4Qp0NeRDW&sz=w640",
+          "sizeBytes": 5347319,
+          "sha256": "FC974081F2C2197E103FAD538D85B1AC1951073FCC2FACB7AA1DC7F6B629C857",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rainbow Yggdrasil — Rainbow Yggdrasil En"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BE801360E000",
+      "title": "Dungeons & Bombs",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BE801360E000.jpg",
+      "variants": [
+        {
+          "id": "v_c546a56d",
+          "name": "Dungeons & Bombs — DungeonsAndBombs Release Trai",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ftwdAQhuoVyVYTH1k9SrHJ6ND4PVOUXi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ftwdAQhuoVyVYTH1k9SrHJ6ND4PVOUXi&sz=w640",
+          "sizeBytes": 5194353,
+          "sha256": "E8EA49055364E153CB1B87092336BCFD6626228FFB77CC9F9117848B383BE363",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dungeons & Bombs — DungeonsAndBombs Rele"
+        }
+      ]
+    },
+    {
+      "titleId": "01008DA012EC0000",
+      "title": "Shakes on a Plane",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008DA012EC0000.jpg",
+      "variants": [
+        {
+          "id": "v_21bf4697",
+          "name": "Shakes on a Plane — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Qk0lIILqNoQz9xoTeSlhkrldz2c_PvlG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Qk0lIILqNoQz9xoTeSlhkrldz2c_PvlG&sz=w640",
+          "sizeBytes": 5544904,
+          "sha256": "509709F623CF1A10F57354FA239F15E4433983EC319A5C59C6CF4C1521D31A47",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Shakes on a Plane — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010099F015372000",
+      "title": "May's Mysteries: The Secret of Dragonville",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010099F015372000.jpg",
+      "variants": [
+        {
+          "id": "v_f21f0616",
+          "name": "May's Mysteries: The Secret of Dragonville Remas",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=175tIMbpDlMdr3_xCHO0p35G70AM4PH7b",
+          "previewUrl": "https://drive.google.com/thumbnail?id=175tIMbpDlMdr3_xCHO0p35G70AM4PH7b&sz=w640",
+          "sizeBytes": 5418664,
+          "sha256": "0B2CBD2D9C2E3B4F3F797840A3AD05E40D4CBC622F8558D9ADA8D95D85AD2C0A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | May's Mysteries: The Secret of Dragonvil"
+        }
+      ]
     }
   ],
-  "totalGames": 5203,
-  "totalVariants": 6627,
-  "lastUpdated": "2026-11-10T14:14:02.304711+00:00"
+  "totalGames": 5213,
+  "totalVariants": 6637,
+  "lastUpdated": "2026-11-10T14:17:34.897559+00:00"
 }
