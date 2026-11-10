@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T09:36:33.089857+00:00",
+  "updatedAt": "2026-11-10T09:39:30.354312+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -142448,9 +142448,269 @@
           "notes": "Switch 720p 30fps H264 | APICO — Honeycore Update!"
         }
       ]
+    },
+    {
+      "titleId": "010073A01401A000",
+      "title": "Anuchard",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010073A01401A000.jpg",
+      "variants": [
+        {
+          "id": "v_ffcf4811",
+          "name": "Anuchard — ANU Launch Trailer 4/21",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eAIclCraz86BFS5wvvS6iDynh7K6l0eP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eAIclCraz86BFS5wvvS6iDynh7K6l0eP&sz=w640",
+          "sizeBytes": 5585139,
+          "sha256": "A175BC405E7866FEB74448E0D91C85C136A00737DAFEE41CFA317E38C9EFBC16",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Anuchard — ANU Launch Trailer 4/21"
+        }
+      ]
+    },
+    {
+      "titleId": "010055701AFB4000",
+      "title": "Air Twister",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010055701AFB4000.jpg",
+      "variants": [
+        {
+          "id": "v_f575d72c",
+          "name": "Air Twister — Air Twister Trailer - ESRB",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UlLYoC-gyap0tTqTDwRRkHAge-UUc_j5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UlLYoC-gyap0tTqTDwRRkHAge-UUc_j5&sz=w640",
+          "sizeBytes": 3201966,
+          "sha256": "536611CC8CBCBD44B91F1AB6555D82FA6C9AADCEFB7CDB19E55C3ABC379972A4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Air Twister — Air Twister Trailer - ESRB"
+        }
+      ]
+    },
+    {
+      "titleId": "01009CA01555E000",
+      "title": "Abyss Memory: Fallen Angel and the Path of Magic",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009CA01555E000.jpg",
+      "variants": [
+        {
+          "id": "v_45ad142c",
+          "name": "Abyss Memory Fallen Angel and the Path of Magic ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1obom6Tb54W0h0035WckNtyP-aI0zMsIj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1obom6Tb54W0h0035WckNtyP-aI0zMsIj&sz=w640",
+          "sizeBytes": 4987312,
+          "sha256": "57285EA58E1619A18624731FA58986C2BED1C4E38F902331AEB35A2FDEF35064",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Abyss Memory Fallen Angel and the Path o"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C2F01B1AE000",
+      "title": "A Perfect Day",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C2F01B1AE000.jpg",
+      "variants": [
+        {
+          "id": "v_71411a7b",
+          "name": "A Perfect Day — A Perfect Day Millennium Edition",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RaKSwXnKU-BNI3g9bT6zuRQdJ4cA4Gse",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RaKSwXnKU-BNI3g9bT6zuRQdJ4cA4Gse&sz=w640",
+          "sizeBytes": 3967057,
+          "sha256": "7B31896CCFE0E0B89C9FFF2F1EA43D2FCD717F4EDC36FD803CDDB1EF5FDB23BD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | A Perfect Day — A Perfect Day Millennium"
+        }
+      ]
+    },
+    {
+      "titleId": "010085500B29A000",
+      "title": "Yet Another Zombie Defense HD",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010085500B29A000.jpg",
+      "variants": [
+        {
+          "id": "v_61795557",
+          "name": "Yet Another Zombie Defense HD — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fznfBLhY80E8TZw6D4hn857IM_uVwxZa",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fznfBLhY80E8TZw6D4hn857IM_uVwxZa&sz=w640",
+          "sizeBytes": 4895786,
+          "sha256": "3717360BEF9D2E6C12B3E82D01731B54C8275BF873666B7D34B3C92B8F494A8E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Yet Another Zombie Defense HD — Launch T"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D1600EEBC000",
+      "title": "Littlewood",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D1600EEBC000.jpg",
+      "variants": [
+        {
+          "id": "v_18922fdf",
+          "name": "Littlewood — Littlewood Trailer v1.0",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_5Tz88jXLCDeTMGb3MvswyVNpYI-IOAi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_5Tz88jXLCDeTMGb3MvswyVNpYI-IOAi&sz=w640",
+          "sizeBytes": 4975638,
+          "sha256": "973019B94B8D671EA8F39D27B7AD65CE9857989A2E193BA4D4E76E6EA0A933E9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Littlewood — Littlewood Trailer v1.0"
+        }
+      ]
+    },
+    {
+      "titleId": "010061900F896000",
+      "title": "The Eternal Castle",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010061900F896000.jpg",
+      "variants": [
+        {
+          "id": "v_2d824b71",
+          "name": "The Eternal Castle [REMASTERED] — The Eternal Ca",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vsWskPgfqtRpKFtFCP7CKk5w760uZpck",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vsWskPgfqtRpKFtFCP7CKk5w760uZpck&sz=w640",
+          "sizeBytes": 5541642,
+          "sha256": "D4E3665A4B8153B9F9264E292B560797563AAEE947002A125576A12CF429EE11",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Eternal Castle [REMASTERED] — The Et"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A8A00E462000",
+      "title": "Real Drift Racing",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A8A00E462000.jpg",
+      "variants": [
+        {
+          "id": "v_69f9d3f7",
+          "name": "REAL CAR Offroad Racing Drift — Trailer V3",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CnuGnJoQAyh_R5dl10g_0BENQD0zYTEg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CnuGnJoQAyh_R5dl10g_0BENQD0zYTEg&sz=w640",
+          "sizeBytes": 5633801,
+          "sha256": "2E7F40331CA293DA67D5B2301998A4C2A087A7C250EE461CF4A1255F09B58ADE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | REAL CAR Offroad Racing Drift — Trailer "
+        }
+      ]
+    },
+    {
+      "titleId": "010043C012DB4000",
+      "title": "The Unexpected Quest",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010043C012DB4000.jpg",
+      "variants": [
+        {
+          "id": "v_469238c7",
+          "name": "The Unexpected Quest — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KbT729sVRWnnMUHovXKXp0yWMq5iUiaQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KbT729sVRWnnMUHovXKXp0yWMq5iUiaQ&sz=w640",
+          "sizeBytes": 5428524,
+          "sha256": "CF227E88D4F23288DB741CFC337C2411C3DF127DF3BB95810282F426E7268D9B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Unexpected Quest — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CEA01A712000",
+      "title": "Pine a Story of Loss",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CEA01A712000.jpg",
+      "variants": [
+        {
+          "id": "v_7c4b9821",
+          "name": "Pine: A Story of Loss — Out Now Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VsMrMNasOKb7QXE2dYGFXLW5Y6-aITt0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VsMrMNasOKb7QXE2dYGFXLW5Y6-aITt0&sz=w640",
+          "sizeBytes": 5264521,
+          "sha256": "8807A57687F77035367D61E96AD060B0938F66C7EDB16B385B6E92C16B22E22D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Pine: A Story of Loss — Out Now Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 4423,
-  "totalVariants": 5847,
-  "lastUpdated": "2026-11-10T09:36:33.089857+00:00"
+  "totalGames": 4433,
+  "totalVariants": 5857,
+  "lastUpdated": "2026-11-10T09:39:30.354312+00:00"
 }
