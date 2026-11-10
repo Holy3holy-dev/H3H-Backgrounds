@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T20:56:57Z",
+  "updatedAt": "2026-11-10T20:58:08Z",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -9445,7 +9445,37 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 01009AA000FAA000_Sonic_Mania.mp4"
+          "notes": "Google Drive: 01009AA000FAA000_Sonic_Mania.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1SZDGDA-W_zOMK0MoOw_h7C-PewTwRcpu",
+          "iconSizeBytes": 499091,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
+        },
+        {
+          "id": "icon-01009aa000faa000",
+          "name": "4IFIR Иконка: Sonic Mania Plus [NSP][RUS (Mod.)/ENG]",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SZDGDA-W_zOMK0MoOw_h7C-PewTwRcpu",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1SZDGDA-W_zOMK0MoOw_h7C-PewTwRcpu",
+          "sizeBytes": 499091,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1SZDGDA-W_zOMK0MoOw_h7C-PewTwRcpu",
+          "iconSizeBytes": 499091,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -9470,7 +9500,37 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 010096F00FF22000_Borderlands_2.mp4"
+          "notes": "Google Drive: 010096F00FF22000_Borderlands_2.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1J5er43_keKfUueVjZFLbpKhasAzcoUzt",
+          "iconSizeBytes": 392139,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
+        },
+        {
+          "id": "icon-010096f00ff22000",
+          "name": "4IFIR Иконка: Borderlands 2 GOTY [RePack][NSZ][RUS (Voice Mod.)]",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1J5er43_keKfUueVjZFLbpKhasAzcoUzt",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1J5er43_keKfUueVjZFLbpKhasAzcoUzt",
+          "sizeBytes": 392139,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1J5er43_keKfUueVjZFLbpKhasAzcoUzt",
+          "iconSizeBytes": 392139,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -9883,7 +9943,13 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 010080B00AD66000_Undertale_Ruins.mp4"
+          "notes": "Google Drive: 010080B00AD66000_Undertale_Ruins.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1dgo3p50ixuliqCP-AhdF8eIns8v6rIJC",
+          "iconSizeBytes": 147113,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
         },
         {
           "id": "v_b1bfa898",
@@ -10028,6 +10094,30 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Waterfall Undertale Landscape | ЗВУК"
+        },
+        {
+          "id": "icon-010080b00ad66000",
+          "name": "4IFIR Иконка: Undertale [NSP][RUS (Mod.)/ENG]",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dgo3p50ixuliqCP-AhdF8eIns8v6rIJC",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1dgo3p50ixuliqCP-AhdF8eIns8v6rIJC",
+          "sizeBytes": 147113,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1dgo3p50ixuliqCP-AhdF8eIns8v6rIJC",
+          "iconSizeBytes": 147113,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -169371,6 +169461,6 @@
     }
   ],
   "totalGames": 5418,
-  "totalVariants": 6877,
-  "lastUpdated": "2026-11-10T20:56:57Z"
+  "totalVariants": 6880,
+  "lastUpdated": "2026-11-10T20:58:08Z"
 }
