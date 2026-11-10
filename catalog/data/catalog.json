@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T12:46:57.851607+00:00",
+  "updatedAt": "2026-11-10T12:50:26.520456+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -156748,9 +156748,269 @@
           "notes": "Switch 720p 30fps H264 | Elliot Quest — Launch Trailer"
         }
       ]
+    },
+    {
+      "titleId": "01000ED00F64E000",
+      "title": "A Winter's Daydream",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000ED00F64E000.jpg",
+      "variants": [
+        {
+          "id": "v_7098c3f0",
+          "name": "A Winter's Daydream — final-trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ggy-Hmg_vJAF92_mxZ5opwL8MQ1uXrti",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ggy-Hmg_vJAF92_mxZ5opwL8MQ1uXrti&sz=w640",
+          "sizeBytes": 5254346,
+          "sha256": "DBCCC2FD52F4905E5371EFF341854547C8EE646878A5398C91EA2602E01019F8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | A Winter's Daydream — final-trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100810013072000",
+      "title": "Rascal's Escape",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100810013072000.jpg",
+      "variants": [
+        {
+          "id": "v_1d32ad9c",
+          "name": "Rascal's Escape — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1L-7ABAX6PPE1LZFkoliq02MWyH_gq0H2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1L-7ABAX6PPE1LZFkoliq02MWyH_gq0H2&sz=w640",
+          "sizeBytes": 4852636,
+          "sha256": "7AF013D43672489BB2955489A3CB0E9CB2012CA967657DC9F5DACF3F6108C273",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rascal's Escape — Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01007B701AF40000",
+      "title": "Skyhook",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007B701AF40000.jpg",
+      "variants": [
+        {
+          "id": "v_739b0108",
+          "name": "Skyhook — Skyhook Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pDB1OEmigAzEp1oGo8DwEInRo49bv6yg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pDB1OEmigAzEp1oGo8DwEInRo49bv6yg&sz=w640",
+          "sizeBytes": 5389995,
+          "sha256": "A49ADE8B4010599E3C983AE33522FE785839D1D1A12EF57F7019D6D02BA569F8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Skyhook — Skyhook Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01005860122C4000",
+      "title": "The Flower Collectors",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005860122C4000.jpg",
+      "variants": [
+        {
+          "id": "v_876eb57a",
+          "name": "The Flower Collectors — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ssMXm8Nx38U9-kkDX4ufdDMY3-LbB1kH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ssMXm8Nx38U9-kkDX4ufdDMY3-LbB1kH&sz=w640",
+          "sizeBytes": 5279870,
+          "sha256": "DDF34CF889BE633819D520654DF741D9EE048266AD035496EC0248E4D04391C2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Flower Collectors — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010048600CC16000",
+      "title": "Real Heroes: Firefighter",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010048600CC16000.jpg",
+      "variants": [
+        {
+          "id": "v_1b49dde6",
+          "name": "Real Heroes: Firefighter HD — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TTUVQEbnJ1-9jpj-Ff6z1iJxv3o4nNBl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TTUVQEbnJ1-9jpj-Ff6z1iJxv3o4nNBl&sz=w640",
+          "sizeBytes": 4488427,
+          "sha256": "A7EDE8AC2D253D8C5D9723D6848319A30AD40961CE78DDAF3629E224D3462E78",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Real Heroes: Firefighter HD — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01009D000AF3A000",
+      "title": "Gelly Break",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009D000AF3A000.jpg",
+      "variants": [
+        {
+          "id": "v_7f4ddabd",
+          "name": "Gelly Break Deluxe — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1z0uaOtKsTLKCE8uclUmdeHH0kpf603Yq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1z0uaOtKsTLKCE8uclUmdeHH0kpf603Yq&sz=w640",
+          "sizeBytes": 5061240,
+          "sha256": "5995C85E314A73882AECA510F229C074E7FADB8405CC2AE96AA3B5A43AA95663",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Gelly Break Deluxe — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01002C400ADC0000",
+      "title": "Lost King's Lullaby",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002C400ADC0000.jpg",
+      "variants": [
+        {
+          "id": "v_f70890fc",
+          "name": "Lost King's Lullaby — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WZnxObVm59yF1IQ2UW7q2IwdjWzbO3K_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WZnxObVm59yF1IQ2UW7q2IwdjWzbO3K_&sz=w640",
+          "sizeBytes": 5484342,
+          "sha256": "3ECA0C40638AE4DC575A248511F61020E727B53ECBF02F12E4263C2F91DA1103",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lost King's Lullaby — Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AE7010434000",
+      "title": "Beyond Enemy Lines Remastered Edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AE7010434000.jpg",
+      "variants": [
+        {
+          "id": "v_98723828",
+          "name": "Beyond Enemy Lines - Remastered Edition — Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1h2VgLz1L5Okm2uSPWJIyoiw2SCx8Fet9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1h2VgLz1L5Okm2uSPWJIyoiw2SCx8Fet9&sz=w640",
+          "sizeBytes": 5410803,
+          "sha256": "8D30CFF1963298231A110BD19636ADB4DC1823E64447A77E18B4F76C859E885B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Beyond Enemy Lines - Remastered Edition "
+        }
+      ]
+    },
+    {
+      "titleId": "0100B2D018154000",
+      "title": "Legendary Heroes",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B2D018154000.jpg",
+      "variants": [
+        {
+          "id": "v_6635c84e",
+          "name": "Legendary Heroes — Legendary_versão_final",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16WjBGFt3l7_BtTj1dM-9vmDy6VnDFVf6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16WjBGFt3l7_BtTj1dM-9vmDy6VnDFVf6&sz=w640",
+          "sizeBytes": 4470499,
+          "sha256": "4254D75D46488A1247D0ABFFB7ADCDC695E2263C9D814964D3CF2F73A201DF90",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Legendary Heroes — Legendary_versão_fina"
+        }
+      ]
+    },
+    {
+      "titleId": "010081001B516000",
+      "title": "Placid Plastic Duck Simulator",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010081001B516000.jpg",
+      "variants": [
+        {
+          "id": "v_90209cfb",
+          "name": "Placid Plastic Duck Simulator — Placid Plastic D",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15HmICzZZwxpJlzXAI2oNYQ_dImAxw_45",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15HmICzZZwxpJlzXAI2oNYQ_dImAxw_45&sz=w640",
+          "sizeBytes": 5188716,
+          "sha256": "BFD37542D574EB6796E1B590013E01611D70399379CB4EB591B7052BE2B5A24A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Placid Plastic Duck Simulator — Placid P"
+        }
+      ]
     }
   ],
-  "totalGames": 4973,
-  "totalVariants": 6397,
-  "lastUpdated": "2026-11-10T12:46:57.851607+00:00"
+  "totalGames": 4983,
+  "totalVariants": 6407,
+  "lastUpdated": "2026-11-10T12:50:26.520456+00:00"
 }
