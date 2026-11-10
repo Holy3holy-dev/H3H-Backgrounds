@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T07:55:29.749217+00:00",
+  "updatedAt": "2026-11-10T07:58:29.022727+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -134128,9 +134128,269 @@
           "notes": "Switch 720p 30fps H264 | Farlands Journey — Farlands Journey - Tr"
         }
       ]
+    },
+    {
+      "titleId": "01002190193A8000",
+      "title": "Exophobia",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002190193A8000.jpg",
+      "variants": [
+        {
+          "id": "v_fc67c1d4",
+          "name": "Exophobia — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=183p-PjtA24gf7iy6EaIp-kg5XoO7RPje",
+          "previewUrl": "https://drive.google.com/thumbnail?id=183p-PjtA24gf7iy6EaIp-kg5XoO7RPje&sz=w640",
+          "sizeBytes": 5620036,
+          "sha256": "D4E4B1DDF563709E44C8B80CE343A15276B76C287C81FC21FAF5E20B57282958",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Exophobia — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01006E401E9EA000",
+      "title": "Exographer",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006E401E9EA000.jpg",
+      "variants": [
+        {
+          "id": "v_1f856764",
+          "name": "Exographer — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Z_GS1tRqJGKSBUd0ceuRTS6raBFutqBm",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Z_GS1tRqJGKSBUd0ceuRTS6raBFutqBm&sz=w640",
+          "sizeBytes": 5399249,
+          "sha256": "BF6B3DF6400BD2CACF075E89E479C2F50F93C00215493F62B14151626E22A0D8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Exographer — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D9A005ED6000",
+      "title": "Another Life Adventure WorldNeverland: Daily life in the Elnea Kingdom",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D9A005ED6000.jpg",
+      "variants": [
+        {
+          "id": "v_16216693",
+          "name": "WorldNeverland - Daily Life in the Elnea Kingdom",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RnHa5KcFS9u3gM4SxpCpqiN3g3D5TMNG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RnHa5KcFS9u3gM4SxpCpqiN3g3D5TMNG&sz=w640",
+          "sizeBytes": 4809861,
+          "sha256": "22515F834F115AEAEA76607D69C5138279A586E0D7AF138B1F8DCF3AA3EA80B7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | WorldNeverland - Daily Life in the Elnea"
+        }
+      ]
+    },
+    {
+      "titleId": "01005FE01E171000",
+      "title": "Elrentaros Wanderings",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005FE01E171000.jpg",
+      "variants": [
+        {
+          "id": "v_8d2612dc",
+          "name": "Elrentaros Wanderings — リアセカイ情報解禁映像",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ovLXKOatOp7pv4yyoq0KpLFlaeBAz-RN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ovLXKOatOp7pv4yyoq0KpLFlaeBAz-RN&sz=w640",
+          "sizeBytes": 5428168,
+          "sha256": "0C141EA39010259422F02B3AC71E3186672DFB760D8B1BF1E563A9E443F7A992",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Elrentaros Wanderings — リアセカイ情報解禁映像"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C5901FF02000",
+      "title": "EcoGnomix",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C5901FF02000.jpg",
+      "variants": [
+        {
+          "id": "v_5f6fc9b8",
+          "name": "EcoGnomix — 30 second gameplay",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16fXxTm3Vw5eUhjlTgKo5K-us_VnJFvz9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16fXxTm3Vw5eUhjlTgKo5K-us_VnJFvz9&sz=w640",
+          "sizeBytes": 5563709,
+          "sha256": "0573FDBB35BEB4CBFC850C05F83DFF778513C585EECE1D453C73A83D75118F4B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | EcoGnomix — 30 second gameplay"
+        }
+      ]
+    },
+    {
+      "titleId": "010076001F5DA000",
+      "title": "Diesel Legacy the Brazen Age",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010076001F5DA000.jpg",
+      "variants": [
+        {
+          "id": "v_e269b263",
+          "name": "Diesel Legacy: The Brazen Age — Diesel Legacy - ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zS0xiP4nSqwtat-f9g0gGJGOF1MQJAvc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zS0xiP4nSqwtat-f9g0gGJGOF1MQJAvc&sz=w640",
+          "sizeBytes": 5058340,
+          "sha256": "7C89B1ED2D8F0FACC50D78A588CD69D2C5A1E9C285EAC4752A0DA30E3D62CFBF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Diesel Legacy: The Brazen Age — Diesel L"
+        }
+      ]
+    },
+    {
+      "titleId": "01008AA01F60C000",
+      "title": "Deathchron",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008AA01F60C000.jpg",
+      "variants": [
+        {
+          "id": "v_4fc0d2b0",
+          "name": "Deathchron — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vNxmNpz7iOY-P4hRhnTs4-bBHA7GVGeE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vNxmNpz7iOY-P4hRhnTs4-bBHA7GVGeE&sz=w640",
+          "sizeBytes": 5516759,
+          "sha256": "33371B34B3571B00BE5EBA6CD8AA3193BAD4F404B376AD19DBECDE7B47FB36B8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Deathchron — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FC601BB7C000",
+      "title": "Death Trick Double Blind",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FC601BB7C000.jpg",
+      "variants": [
+        {
+          "id": "v_4c4bc02e",
+          "name": "Death Trick: Double Blind — Out Now Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1H2amthy1EK3F1g_TIODe2jlMPGLe6DZS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1H2amthy1EK3F1g_TIODe2jlMPGLe6DZS&sz=w640",
+          "sizeBytes": 5229344,
+          "sha256": "28F9160B0AF09156C79B90E0D0AAD12C9C4E51EBAC8B95B95F1DB730A1924468",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Death Trick: Double Blind — Out Now Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EC301AB04000",
+      "title": "Death of a Wish",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EC301AB04000.jpg",
+      "variants": [
+        {
+          "id": "v_52facf6e",
+          "name": "Death of a Wish — Death of a Wish - Release Date",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zpj4itusI1V8eH9MuOga0sLCjmiP33IJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zpj4itusI1V8eH9MuOga0sLCjmiP33IJ&sz=w640",
+          "sizeBytes": 5146407,
+          "sha256": "515CDA04DB1AA1CF312DAE7E6219C5110E989DEECD72634D354D1B3F308A366F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Death of a Wish — Death of a Wish - Rele"
+        }
+      ]
+    },
+    {
+      "titleId": "01002DB01F85E000",
+      "title": "Death Noodle Delivery",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002DB01F85E000.jpg",
+      "variants": [
+        {
+          "id": "v_0b94602a",
+          "name": "Death Noodle Delivery — Gameplay Trailer Death N",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11y7aXrQsr5Eg1x31TX5ZvizqtJRCd9CC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11y7aXrQsr5Eg1x31TX5ZvizqtJRCd9CC&sz=w640",
+          "sizeBytes": 4872753,
+          "sha256": "42DD55D2B59CE31E35AB8DEE23C5F9C9ED44F1699FAFB60B8F2B13C23E3C74E6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Death Noodle Delivery — Gameplay Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 4103,
-  "totalVariants": 5527,
-  "lastUpdated": "2026-11-10T07:55:29.749217+00:00"
+  "totalGames": 4113,
+  "totalVariants": 5537,
+  "lastUpdated": "2026-11-10T07:58:29.022727+00:00"
 }
