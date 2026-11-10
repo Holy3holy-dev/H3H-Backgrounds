@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T06:31:47.913713+00:00",
+  "updatedAt": "2026-11-10T06:34:37.551028+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -126848,9 +126848,269 @@
           "notes": "Switch 720p 30fps H264 | Ambidextro — Launch trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100C5102050C000",
+      "title": "Aidan in Danger",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C5102050C000.jpg",
+      "variants": [
+        {
+          "id": "v_dfbe951c",
+          "name": "Aidan in Danger — Aidan in Danger Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VxJFIY78ovv1w9hV7UZiJVfJ5TQ1PE-R",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VxJFIY78ovv1w9hV7UZiJVfJ5TQ1PE-R&sz=w640",
+          "sizeBytes": 5024695,
+          "sha256": "17BDABE66626CF42652574908CE91A0F59BF67A7F4E0CA02E1F774A9449107FD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Aidan in Danger — Aidan in Danger Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "01002B5012004000",
+      "title": "Adventures of Pip",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002B5012004000.jpg",
+      "variants": [
+        {
+          "id": "v_a324c1b2",
+          "name": "Adventures of Pip — Adventures of Pip - 2024 Tra",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pcrdvuqo5_eKMD9e2UElq4OnaCWwQ94c",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pcrdvuqo5_eKMD9e2UElq4OnaCWwQ94c&sz=w640",
+          "sizeBytes": 5166425,
+          "sha256": "2DC2894D953846BAA9F99FD3B70B4093A28F3491BE671E17D585E0D0A2C37F33",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Adventures of Pip — Adventures of Pip - "
+        }
+      ]
+    },
+    {
+      "titleId": "01002DE018098000",
+      "title": "Dropsy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002DE018098000.jpg",
+      "variants": [
+        {
+          "id": "v_c2e86275",
+          "name": "Dropsy — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hSNkMlNsETsMo7epB3eNk_GmDUehsNbS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hSNkMlNsETsMo7epB3eNk_GmDUehsNbS&sz=w640",
+          "sizeBytes": 5182070,
+          "sha256": "D396ECC7E93061647BC127D4AA4B828CEFBF5446BA7B1781E39F35A844E69FEC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dropsy — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010076E0145A6000",
+      "title": "Faraday Protocol",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010076E0145A6000.jpg",
+      "variants": [
+        {
+          "id": "v_7a14d1b5",
+          "name": "Faraday Protocol — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eIHYox0kJ_iDj8VUTz5fqTnFDyEpFSnZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eIHYox0kJ_iDj8VUTz5fqTnFDyEpFSnZ&sz=w640",
+          "sizeBytes": 4910471,
+          "sha256": "2B606CC5EA898F44B0AFE7F81E8419F336CE360ED54F2E05E6C77D32F16DBB58",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Faraday Protocol — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01001B301A174000",
+      "title": "Arcana of Paradise the Tower",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001B301A174000.jpg",
+      "variants": [
+        {
+          "id": "v_dc46cb41",
+          "name": "Arcana of Paradise —The Tower— — ハテナの塔 Launch PV",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nF1vpsU0SoZfoDYrKEHcmH0PtPtW6FwT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nF1vpsU0SoZfoDYrKEHcmH0PtPtW6FwT&sz=w640",
+          "sizeBytes": 4938665,
+          "sha256": "20CBB5D3F16061D681612E312CF91AD9E1DE6A264C86E7E173E5FFBD86701715",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Arcana of Paradise —The Tower— — ハテナの塔 L"
+        }
+      ]
+    },
+    {
+      "titleId": "01000F6010D62000",
+      "title": "Phantom Breaker Omnia",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000F6010D62000.jpg",
+      "variants": [
+        {
+          "id": "v_0e7c19f0",
+          "name": "Phantom Breaker: Omnia — Spicy Edition Release T",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Euv7goUlWPmaRsKgML8ph7iMu_lYye0O",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Euv7goUlWPmaRsKgML8ph7iMu_lYye0O&sz=w640",
+          "sizeBytes": 5256620,
+          "sha256": "FEFBF3128CB83C9720246B25FCA56D1DE70F8691DC42D2A09E17315906033F80",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Phantom Breaker: Omnia — Spicy Edition R"
+        }
+      ]
+    },
+    {
+      "titleId": "01005D800E022000",
+      "title": "Where the Water Tastes Like Wine",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005D800E022000.jpg",
+      "variants": [
+        {
+          "id": "v_86cc7a50",
+          "name": "Where the Water Tastes Like Wine — Accolades Tra",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1t72ALWx-ntzijKK5gB622TPHB8OXxkpy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1t72ALWx-ntzijKK5gB622TPHB8OXxkpy&sz=w640",
+          "sizeBytes": 5236407,
+          "sha256": "ED4D72D5A9FA25832B26BFAA74D6D7B71567FF8DB12992E04E09C4F543E5959F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Where the Water Tastes Like Wine — Accol"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A1C00359C000",
+      "title": "Towerfall",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A1C00359C000.jpg",
+      "variants": [
+        {
+          "id": "v_11fbfc63",
+          "name": "TowerFall Ascension — TowerFall Ascension",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1i7Foqf5y1Fbbv_lR4OUNX0qUC26dlYS3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1i7Foqf5y1Fbbv_lR4OUNX0qUC26dlYS3&sz=w640",
+          "sizeBytes": 3829193,
+          "sha256": "A10ECD451D66F86C4A2468C0C00809E70F3139C44402442CA54F8A1A3D8B48C3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | TowerFall Ascension — TowerFall Ascensio"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F1601EF78000",
+      "title": "UFO Robot Grendizer The Feast of the Wolves",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F1601EF78000.jpg",
+      "variants": [
+        {
+          "id": "v_79923d3a",
+          "name": "UFO ROBOT GRENDIZER – The Feast of the Wolves — ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vVxhozyJQQcThuTFolaRH31KobkUifZL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vVxhozyJQQcThuTFolaRH31KobkUifZL&sz=w640",
+          "sizeBytes": 4890571,
+          "sha256": "8006040D83E63CB8DF0F3B9F25FDFF38FD38F0212D905CF83F07398DD5B5CC87",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | UFO ROBOT GRENDIZER – The Feast of the W"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B06017686000",
+      "title": "Unsouled",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B06017686000.jpg",
+      "variants": [
+        {
+          "id": "v_d556b08b",
+          "name": "Unsouled — Unsouled Official Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rFtkB9YonKOlOHu4spin8CotV6Fc9eJL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rFtkB9YonKOlOHu4spin8CotV6Fc9eJL&sz=w640",
+          "sizeBytes": 4308970,
+          "sha256": "E15EC71ADBAB91A032B22AA088152A2F0FC04281ED464825371FFF3638D7AD37",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Unsouled — Unsouled Official Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 3823,
-  "totalVariants": 5247,
-  "lastUpdated": "2026-11-10T06:31:47.913713+00:00"
+  "totalGames": 3833,
+  "totalVariants": 5257,
+  "lastUpdated": "2026-11-10T06:34:37.551028+00:00"
 }
