@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T13:10:55.599876+00:00",
+  "updatedAt": "2026-11-10T13:14:35.593549+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -158308,9 +158308,269 @@
           "notes": "Switch 720p 30fps H264 | Madness Beverage — Madness Beverage Offi"
         }
       ]
+    },
+    {
+      "titleId": "0100A0E005E42000",
+      "title": "Light Fingers",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A0E005E42000.jpg",
+      "variants": [
+        {
+          "id": "v_ccb4184b",
+          "name": "Light Fingers — Light Fingers Steam - Available ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ii94jL_lQq8T9Sl5V8up5k5GjxPtQez6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ii94jL_lQq8T9Sl5V8up5k5GjxPtQez6&sz=w640",
+          "sizeBytes": 5164654,
+          "sha256": "68056A4E98FE6B0143825A3FE83B60820215CDE173920A9E3F0F63FECB030607",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Light Fingers — Light Fingers Steam - Av"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F2C014C4A000",
+      "title": "BugVasion TD",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F2C014C4A000.jpg",
+      "variants": [
+        {
+          "id": "v_c39e94dc",
+          "name": "Bugvasion TD — Supercharged Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11yt1Hr3yFcHJTKHsa8rU4aG8kIG_UByo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11yt1Hr3yFcHJTKHsa8rU4aG8kIG_UByo&sz=w640",
+          "sizeBytes": 5140312,
+          "sha256": "ECF0916B38AF21E2632DF27FE24A3C9AEC56768D5CD36196074E1112F4539A4C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bugvasion TD — Supercharged Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01003C000D84C000",
+      "title": "Golem Gates",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003C000D84C000.jpg",
+      "variants": [
+        {
+          "id": "v_25ffee2b",
+          "name": "Golem Gates — Accolades Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18wpgnVfOkZP1lb93wakePybP1LJ-j3Qe",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18wpgnVfOkZP1lb93wakePybP1LJ-j3Qe&sz=w640",
+          "sizeBytes": 5249615,
+          "sha256": "9A3999763DC53CF397403467B0BC1996E3209C116AFE7C4FF60D73A3659149F0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Golem Gates — Accolades Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010081D0100F0000",
+      "title": "Rhythm of the Gods",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010081D0100F0000.jpg",
+      "variants": [
+        {
+          "id": "v_b4c30744",
+          "name": "Rhythm of the Gods — Rhythm of the Gods Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xrTYtRQPuvR4Pe6TbzWiJWwkpzazQ-8F",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xrTYtRQPuvR4Pe6TbzWiJWwkpzazQ-8F&sz=w640",
+          "sizeBytes": 5033500,
+          "sha256": "C331BAE5B9951539B4D1300D6A9F38335D7A8F39BB55EAF25652D6448EE54D82",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rhythm of the Gods — Rhythm of the Gods "
+        }
+      ]
+    },
+    {
+      "titleId": "0100197018C56000",
+      "title": "Crowalt: Traces of the Lost Colony",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100197018C56000.jpg",
+      "variants": [
+        {
+          "id": "v_a6017b77",
+          "name": "Crowalt: Traces of the Lost Colony — Gameplay Tr",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1m8w1A_SnSdejx6j_8vIVb8rsIkXM91ir",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1m8w1A_SnSdejx6j_8vIVb8rsIkXM91ir&sz=w640",
+          "sizeBytes": 5274595,
+          "sha256": "AB55B77E2250E5C2836C0666AD9BAC04FDFBA60ACC61A1AE4C5FCE2AD3685AE5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Crowalt: Traces of the Lost Colony — Gam"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B1E01AB7A000",
+      "title": "Venice 2089",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B1E01AB7A000.jpg",
+      "variants": [
+        {
+          "id": "v_47e70152",
+          "name": "Venice 2089 — Venice 2089 Final Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Gz6B4mxaRE4-3P3CxZYFsIVFnE5vmVP6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Gz6B4mxaRE4-3P3CxZYFsIVFnE5vmVP6&sz=w640",
+          "sizeBytes": 5370729,
+          "sha256": "DF48F222426D09C11D1BF943FC25B9C680DA39E2BD95B1288D549364862BF31F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Venice 2089 — Venice 2089 Final Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010026B006802000",
+      "title": "A Duel Hand Disaster Trackher",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010026B006802000.jpg",
+      "variants": [
+        {
+          "id": "v_0f8016eb",
+          "name": "A Duel Hand Disaster: Trackher — How To Disaster",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BdKdsMt20OPkeSOd-vTS-Zid9yWCs0Ng",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BdKdsMt20OPkeSOd-vTS-Zid9yWCs0Ng&sz=w640",
+          "sizeBytes": 3701248,
+          "sha256": "C5C83A5C6CDFB039481AB22A1369C3C6FE13F52518FDC8D20087ECFBABDCFA8B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | A Duel Hand Disaster: Trackher — How To "
+        }
+      ]
+    },
+    {
+      "titleId": "010015601EDC8000",
+      "title": "50 Pinch Barrage",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010015601EDC8000.jpg",
+      "variants": [
+        {
+          "id": "v_17a4f8fa",
+          "name": "50 Pinch Barrage!! — steam_pv_en",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DJiZwO8xSEXVlI2aA78vJkq01ocaYlVb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DJiZwO8xSEXVlI2aA78vJkq01ocaYlVb&sz=w640",
+          "sizeBytes": 5244303,
+          "sha256": "51D8F3D0FA53A6419C05CD8EF7043090D99CDC162C0ED52B6E0CADFA684F248B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 50 Pinch Barrage!! — steam_pv_en"
+        }
+      ]
+    },
+    {
+      "titleId": "010061E00E05E000",
+      "title": "Ciel Fledge A Daughter Raising Simulator",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010061E00E05E000.jpg",
+      "variants": [
+        {
+          "id": "v_a2825e58",
+          "name": "Ciel Fledge: A Daughter Raising Simulator — Ciel",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=179rfo6TFlQGS6cKmvkgcvvVFrc93Osyg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=179rfo6TFlQGS6cKmvkgcvvVFrc93Osyg&sz=w640",
+          "sizeBytes": 5031216,
+          "sha256": "B33D0FE034AC403BDAD7ECAE5991C5845740FFDC5A32DEAB6402F7A570024F0B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ciel Fledge: A Daughter Raising Simulato"
+        }
+      ]
+    },
+    {
+      "titleId": "0100944018702000",
+      "title": "Kaichu the Kaiju Dating Sim",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100944018702000.jpg",
+      "variants": [
+        {
+          "id": "v_ea48fe61",
+          "name": "Kaichu - The Kaiju Dating Sim — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oftrrayEwRfKnwDz4s1SSZbX5I2JhI1o",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oftrrayEwRfKnwDz4s1SSZbX5I2JhI1o&sz=w640",
+          "sizeBytes": 4997519,
+          "sha256": "D00B1AAA8E54C1D0643A6CF372B7E9AADF475BD7065E8D86D22C8A0D97D4201E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kaichu - The Kaiju Dating Sim — Gameplay"
+        }
+      ]
     }
   ],
-  "totalGames": 5033,
-  "totalVariants": 6457,
-  "lastUpdated": "2026-11-10T13:10:55.599876+00:00"
+  "totalGames": 5043,
+  "totalVariants": 6467,
+  "lastUpdated": "2026-11-10T13:14:35.593549+00:00"
 }
