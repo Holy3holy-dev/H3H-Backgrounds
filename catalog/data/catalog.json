@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T15:00:32.837449+00:00",
+  "updatedAt": "2026-11-10T15:04:38.315637+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -165848,9 +165848,269 @@
           "notes": "Switch 720p 30fps H264 | Evolings — Launch Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100AEC010052000",
+      "title": "Biolab Wars",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AEC010052000.jpg",
+      "variants": [
+        {
+          "id": "v_fd512b7a",
+          "name": "Biolab Wars — Gamaplay em cortes rápidos",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1f_rqqA1CSuKMuphuqnZssbCUD4N4NFWP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1f_rqqA1CSuKMuphuqnZssbCUD4N4NFWP&sz=w640",
+          "sizeBytes": 5159531,
+          "sha256": "625F3F5CA47EEBCD93E20AF3B13E6356197DACF84624C35559F4AC745A2B5DBD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Biolab Wars — Gamaplay em cortes rápidos"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F58016212000",
+      "title": "Shinrai Broken Beyond Despair",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F58016212000.jpg",
+      "variants": [
+        {
+          "id": "v_cdcf6e0b",
+          "name": "SHINRAI - Broken Beyond Despair — SHINRAI - Brok",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SVYvcx7fqBOUc2BcjGseJyg_AgRR-kPZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SVYvcx7fqBOUc2BcjGseJyg_AgRR-kPZ&sz=w640",
+          "sizeBytes": 2822096,
+          "sha256": "62C4A5407317BA0816F84D5A8460E93661EBF26D75D5DAE9E8ED71FCB4997404",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | SHINRAI - Broken Beyond Despair — SHINRA"
+        }
+      ]
+    },
+    {
+      "titleId": "01001AA00BADC000",
+      "title": "Esports Life Tycoon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001AA00BADC000.jpg",
+      "variants": [
+        {
+          "id": "v_0fbbebe0",
+          "name": "Esports Life Tycoon — Full Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yFx0z5wN88pnt6GRZrm7XWtIzOuBCsau",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yFx0z5wN88pnt6GRZrm7XWtIzOuBCsau&sz=w640",
+          "sizeBytes": 5476968,
+          "sha256": "DF0E90AB7A72DCCA227644C259A88846DC73F5F054FB10C7E1FCDDD16DB87ED3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Esports Life Tycoon — Full Launch Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "010052D0129E4000",
+      "title": "This is the Zodiac Speaking",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010052D0129E4000.jpg",
+      "variants": [
+        {
+          "id": "v_9302b83b",
+          "name": "This is the Zodiac Speaking — MOUNT DIABLO",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1--Hvs5rjLSpmfob5zqtpWpOzyAtyKPv2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1--Hvs5rjLSpmfob5zqtpWpOzyAtyKPv2&sz=w640",
+          "sizeBytes": 5176091,
+          "sha256": "6608972AD40334506D332DC82AB790020504F460CC83639728852C04BDFD669D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | This is the Zodiac Speaking — MOUNT DIAB"
+        }
+      ]
+    },
+    {
+      "titleId": "010044F0199E0000",
+      "title": "Hamster on Rails",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010044F0199E0000.jpg",
+      "variants": [
+        {
+          "id": "v_6cd4f93a",
+          "name": "Hamster on Rails — HamsterOnRailsTeaser",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zug426VfD6NhpsQ46ZpHHGAikAVi8nMT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zug426VfD6NhpsQ46ZpHHGAikAVi8nMT&sz=w640",
+          "sizeBytes": 4595752,
+          "sha256": "DB6703DF2391A840B53500AD3DB67CAFC8AE9BE297BFA3B97342B207E5AE2B19",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hamster on Rails — HamsterOnRailsTeaser"
+        }
+      ]
+    },
+    {
+      "titleId": "01005EE01C12C000",
+      "title": "Wetory",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005EE01C12C000.jpg",
+      "variants": [
+        {
+          "id": "v_94e7ed30",
+          "name": "Wetory — Wetory(New Trailer)",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GUGBqg1pAp4imlhHrrmQBoTbeptCOQL9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GUGBqg1pAp4imlhHrrmQBoTbeptCOQL9&sz=w640",
+          "sizeBytes": 5185551,
+          "sha256": "31407D90263E3495F4B7E2CBB4BA0468E6F81B8880CA1261B3EF03B1F2E77F08",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wetory — Wetory(New Trailer)"
+        }
+      ]
+    },
+    {
+      "titleId": "01002A2013648000",
+      "title": "Rift Racoon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002A2013648000.jpg",
+      "variants": [
+        {
+          "id": "v_97081489",
+          "name": "Rift Racoon — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1J4SfGMwcjUSOz3_FY_pfdfKntr-plO4E",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1J4SfGMwcjUSOz3_FY_pfdfKntr-plO4E&sz=w640",
+          "sizeBytes": 5249252,
+          "sha256": "442AF79574FEE3C73069BDAAF4AC867BB9DC0FB30D991098F422AFCE9DFF6382",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rift Racoon — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010087D01BCB0000",
+      "title": "Rifter",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010087D01BCB0000.jpg",
+      "variants": [
+        {
+          "id": "v_cc0f6eca",
+          "name": "Void Rifter XR — Void Rifter XR",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ms3iz-y4fFc0HKT-ItMmZcCgtIDBQvnW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ms3iz-y4fFc0HKT-ItMmZcCgtIDBQvnW&sz=w640",
+          "sizeBytes": 5357404,
+          "sha256": "1C663F1DDC7D3DF9B0917FBF3198412ADC8323C00EA3DDFEE512E4577E33D2A6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Void Rifter XR — Void Rifter XR"
+        }
+      ]
+    },
+    {
+      "titleId": "0100484014C12000",
+      "title": "Super UFO Fighter",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100484014C12000.jpg",
+      "variants": [
+        {
+          "id": "v_5b85a717",
+          "name": "SUPER UFO FIGHTER — Trailer_English",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rZIm1oIcss_RGE3YZiIgZ4kc24lilyHK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rZIm1oIcss_RGE3YZiIgZ4kc24lilyHK&sz=w640",
+          "sizeBytes": 5611217,
+          "sha256": "6C6A670E2866AE4944745CFA5AE9DD9FBE5DADDB092367ED6C48CF7BB8AC6E82",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | SUPER UFO FIGHTER — Trailer_English"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A49012F5C000",
+      "title": "Crashnauts",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A49012F5C000.jpg",
+      "variants": [
+        {
+          "id": "v_56c71263",
+          "name": "Crashnauts — Crashnauts Gameplay",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11cOm9dKkGm4zNmzVRz7u8pNeX9rm1sfM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11cOm9dKkGm4zNmzVRz7u8pNeX9rm1sfM&sz=w640",
+          "sizeBytes": 4820954,
+          "sha256": "46AD3A2FBF481E1122F6B6BEE079221BD14A36B4D422C98A0BE4B74DD6BDE52C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Crashnauts — Crashnauts Gameplay"
+        }
+      ]
     }
   ],
-  "totalGames": 5323,
-  "totalVariants": 6747,
-  "lastUpdated": "2026-11-10T15:00:32.837449+00:00"
+  "totalGames": 5333,
+  "totalVariants": 6757,
+  "lastUpdated": "2026-11-10T15:04:38.315637+00:00"
 }
