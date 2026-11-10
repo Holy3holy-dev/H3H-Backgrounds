@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T14:10:21.012265+00:00",
+  "updatedAt": "2026-11-10T14:14:02.304711+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -162468,9 +162468,269 @@
           "notes": "Switch 720p 30fps H264 | To The Top, Mammoth! — To The Top, Mammu"
         }
       ]
+    },
+    {
+      "titleId": "010082301754C000",
+      "title": "Inukari Chase of Deception",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010082301754C000.jpg",
+      "variants": [
+        {
+          "id": "v_0fbe5fb4",
+          "name": "Inukari - Chase of Deception — Inukari Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1049pSxPK4s_GSp0X-LBdlC7_HIznZZzu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1049pSxPK4s_GSp0X-LBdlC7_HIznZZzu&sz=w640",
+          "sizeBytes": 3635805,
+          "sha256": "2DADB51B5DCD264CAAF1884DB16476D38FE1D02198D27D49D08B2E4FB3155B6C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Inukari - Chase of Deception — Inukari T"
+        }
+      ]
+    },
+    {
+      "titleId": "01000AD0174B6000",
+      "title": "Adios",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000AD0174B6000.jpg",
+      "variants": [
+        {
+          "id": "v_1bf5d72a",
+          "name": "Adios — Adios Final Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1YuHiThYJs_I9Ztf68WiimtTZ2QJvEP15",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1YuHiThYJs_I9Ztf68WiimtTZ2QJvEP15&sz=w640",
+          "sizeBytes": 5407603,
+          "sha256": "6BE316B9F3416C68C117BCCC8C9117AE3EC19181A7D5A45697E925653905C27A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Adios — Adios Final Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EDC01B3F4000",
+      "title": "Roomie Romance",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EDC01B3F4000.jpg",
+      "variants": [
+        {
+          "id": "v_580a816a",
+          "name": "Roomie Romance — Promo Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1v8huggrCb3c8awPLZ-7Io5kTuvzLHqD1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1v8huggrCb3c8awPLZ-7Io5kTuvzLHqD1&sz=w640",
+          "sizeBytes": 5448942,
+          "sha256": "55992E7EFCA863FD5BBECFCBB4EB3100D451F32F19F146B6376DA234E3C160A1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Roomie Romance — Promo Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FC2012680000",
+      "title": "World for Two",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FC2012680000.jpg",
+      "variants": [
+        {
+          "id": "v_8cb305a1",
+          "name": "World for Two — Announcement Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Revwl572SXhYPrN4ey9jJtdWnfPw_Dk2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Revwl572SXhYPrN4ey9jJtdWnfPw_Dk2&sz=w640",
+          "sizeBytes": 5557744,
+          "sha256": "C99AF16184022885CDBE5904312BFC6EE4E2AD7DA9B2BB579ABD7EDA078269DC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | World for Two — Announcement Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100120018F4C000",
+      "title": "Work from Home",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100120018F4C000.jpg",
+      "variants": [
+        {
+          "id": "v_d855d1d9",
+          "name": "The Most Boring Life Ever 2 - Work From Home — R",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LOtdvPV6wLTH97GsEUUYygRB0Ze6RvYK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LOtdvPV6wLTH97GsEUUYygRB0Ze6RvYK&sz=w640",
+          "sizeBytes": 3348996,
+          "sha256": "3AF78E8DB33AE0576CA2640E6032EE790937824788D82DE81A5676C7EB15139D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Most Boring Life Ever 2 - Work From "
+        }
+      ]
+    },
+    {
+      "titleId": "010071B017DD6000",
+      "title": "There will be No Turkey this Christmas",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010071B017DD6000.jpg",
+      "variants": [
+        {
+          "id": "v_ea219896",
+          "name": "There Will Be No Turkey This Christmas — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1g7Vs4T6hx9B6KtH19xWypKDy6OuYiT2A",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1g7Vs4T6hx9B6KtH19xWypKDy6OuYiT2A&sz=w640",
+          "sizeBytes": 4482151,
+          "sha256": "F6E1674DF096443676C78DCD6B22C50BEA49061290E7B67614552E9BC096982B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | There Will Be No Turkey This Christmas —"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FEE0175FA000",
+      "title": "The Galactic Junkers",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FEE0175FA000.jpg",
+      "variants": [
+        {
+          "id": "v_65893dbd",
+          "name": "The Galactic Junkers — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bRXKo3CAdAMo4YZekzF27ltOKJCrKNu-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bRXKo3CAdAMo4YZekzF27ltOKJCrKNu-&sz=w640",
+          "sizeBytes": 4994240,
+          "sha256": "61698AB305565F027D302475B77B88118C11A339ED9761D1CB6272ED2EE69118",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Galactic Junkers — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010030900D9A6000",
+      "title": "Super Crush KO",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010030900D9A6000.jpg",
+      "variants": [
+        {
+          "id": "v_46fb6360",
+          "name": "Super Crush KO — Super Crush KO - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FtlGUx1wKKN_x0wDUN6FfA6LZJ1OSzAl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FtlGUx1wKKN_x0wDUN6FfA6LZJ1OSzAl&sz=w640",
+          "sizeBytes": 5306955,
+          "sha256": "2A3B12888333F6BCBB4C60B6F893EBE125E92FCF62FF9F36C3788DB5D6F062C1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Super Crush KO — Super Crush KO - Launch"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F1B016DBE000",
+      "title": "Space Raiders in Space",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F1B016DBE000.jpg",
+      "variants": [
+        {
+          "id": "v_c1e97a08",
+          "name": "Space Raiders in Space — Space Raiders in Space ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1x--E6CQ1_VUmHKtZJNTftwr-uY6xbokq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1x--E6CQ1_VUmHKtZJNTftwr-uY6xbokq&sz=w640",
+          "sizeBytes": 5097337,
+          "sha256": "5C4D4DF2B88ACF6EE77FC5846A359AFCB43792A45BF425C94D9BF34438C2117C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Space Raiders in Space — Space Raiders i"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E0D015DE6000",
+      "title": "Sockventure",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E0D015DE6000.jpg",
+      "variants": [
+        {
+          "id": "v_a0209f07",
+          "name": "Sockventure — Sockventure - TextTrailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14xXkJspsMAMLELvkzTh1o6oPlqOcsxs4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14xXkJspsMAMLELvkzTh1o6oPlqOcsxs4&sz=w640",
+          "sizeBytes": 5309945,
+          "sha256": "011804AB03C70C53564FC9C199DB4040FBB13096BDF85C956E782B56A15B169C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sockventure — Sockventure - TextTrailer"
+        }
+      ]
     }
   ],
-  "totalGames": 5193,
-  "totalVariants": 6617,
-  "lastUpdated": "2026-11-10T14:10:21.012265+00:00"
+  "totalGames": 5203,
+  "totalVariants": 6627,
+  "lastUpdated": "2026-11-10T14:14:02.304711+00:00"
 }
