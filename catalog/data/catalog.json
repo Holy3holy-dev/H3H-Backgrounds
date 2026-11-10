@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T02:56:20.500393+00:00",
+  "updatedAt": "2026-11-10T02:59:13.968715+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -108648,9 +108648,269 @@
           "notes": "Switch 720p 30fps H264 | Hammer Kid — Hammer Kid (Gameplay Traile"
         }
       ]
+    },
+    {
+      "titleId": "0100C32018824000",
+      "title": "Machi Koro with Everyone",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C32018824000.jpg",
+      "variants": [
+        {
+          "id": "v_f70e36d5",
+          "name": "MACHI KORO With Everyone — Do you know MACHI KOR",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VH3Mvv88TfVpuiGKyPsdo3eNdRVNUa-B",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VH3Mvv88TfVpuiGKyPsdo3eNdRVNUa-B&sz=w640",
+          "sizeBytes": 5419229,
+          "sha256": "CF9A7F8D9D9CD7FABE1AE46259C94FCD469EBC2F1A9540E6A6F1735C86DAB002",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | MACHI KORO With Everyone — Do you know M"
+        }
+      ]
+    },
+    {
+      "titleId": "010064B01857C000",
+      "title": "We Need to go Deeper",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010064B01857C000.jpg",
+      "variants": [
+        {
+          "id": "v_f893383b",
+          "name": "We Need To Go Deeper — v1.0 Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1l4dTaqmekGBp-xSCkHIxP9crEvWv1CL0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1l4dTaqmekGBp-xSCkHIxP9crEvWv1CL0&sz=w640",
+          "sizeBytes": 5487788,
+          "sha256": "838A3E6E19AD06946A64D199DC221CA1E2BBFC12D9432466CC4A73E89915562A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | We Need To Go Deeper — v1.0 Launch Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "0100ECB01AFCA000",
+      "title": "Warriors of the Nile 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100ECB01AFCA000.jpg",
+      "variants": [
+        {
+          "id": "v_e824eb24",
+          "name": "Warriors of the Nile 2 — pv-en",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=109ZSCRtdhjrqpSbpLPk3Q00r823AuIBt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=109ZSCRtdhjrqpSbpLPk3Q00r823AuIBt&sz=w640",
+          "sizeBytes": 5537380,
+          "sha256": "B697C85106399D9E091A7A5D0799DFF5132B118AE7AA2B30947C8C19CFF5C420",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Warriors of the Nile 2 — pv-en"
+        }
+      ]
+    },
+    {
+      "titleId": "010088D013CE0000",
+      "title": "Vaporum Lockdown",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010088D013CE0000.jpg",
+      "variants": [
+        {
+          "id": "v_3a9f024b",
+          "name": "Vaporum: Lockdown — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lRhA0l9-1WdTmdwC5Yn8oh5cXuj-7fOd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lRhA0l9-1WdTmdwC5Yn8oh5cXuj-7fOd&sz=w640",
+          "sizeBytes": 5354903,
+          "sha256": "0E26D8B475726DD5B55FA716EA17C3F331DE5ED0CF2C5261FA4AFF495235C69F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Vaporum: Lockdown — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010030F00CA1E000",
+      "title": "Vaporum",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010030F00CA1E000.jpg",
+      "variants": [
+        {
+          "id": "v_6cc11717",
+          "name": "Vaporum: Lockdown — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nugMqtqAb6tG-3wLyWARNvoJPGN5PWde",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nugMqtqAb6tG-3wLyWARNvoJPGN5PWde&sz=w640",
+          "sizeBytes": 5354903,
+          "sha256": "0E26D8B475726DD5B55FA716EA17C3F331DE5ED0CF2C5261FA4AFF495235C69F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Vaporum: Lockdown — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01005A700CC3C000",
+      "title": "Mana Spark",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005A700CC3C000.jpg",
+      "variants": [
+        {
+          "id": "v_6fb5cc5a",
+          "name": "Mana Spark — Mana Spark - Forgotten Crypts Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Sk7MU_UXNph1BHxSSNKAK_Fgjqt1oOPA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Sk7MU_UXNph1BHxSSNKAK_Fgjqt1oOPA&sz=w640",
+          "sizeBytes": 5073096,
+          "sha256": "C822CDCCA13A02C66EABD36BC04166F363B62ADFDAFBEF2DB71FAAABF82895B3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mana Spark — Mana Spark - Forgotten Cryp"
+        }
+      ]
+    },
+    {
+      "titleId": "0100614013DC0000",
+      "title": "PJ Masks Heroes of The Night",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100614013DC0000.jpg",
+      "variants": [
+        {
+          "id": "v_4665ad32",
+          "name": "PJ MASKS: HEROES OF THE NIGHT — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HKoFVFGoabEBmgnYg9RRaXVBsQ62EQat",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HKoFVFGoabEBmgnYg9RRaXVBsQ62EQat&sz=w640",
+          "sizeBytes": 5448893,
+          "sha256": "9F39A691B0ED0BFA5CFC3A8D82CFFC70068E7F1EFEFB03B45EF41D0F684C9EC4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | PJ MASKS: HEROES OF THE NIGHT — Launch T"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CF401A248000",
+      "title": "Soulvars",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CF401A248000.jpg",
+      "variants": [
+        {
+          "id": "v_7638e354",
+          "name": "SOULVARS — 202209 PV (EN)",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1uoxJX5C7lrDTQ6AqBVnR3lVwcuQrlMUT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1uoxJX5C7lrDTQ6AqBVnR3lVwcuQrlMUT&sz=w640",
+          "sizeBytes": 4971006,
+          "sha256": "CE37CE691B2AE5A7C8E1AAC601DE9E534B9906E03D494ECC012CCC49EDD91724",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | SOULVARS — 202209 PV (EN)"
+        }
+      ]
+    },
+    {
+      "titleId": "010028001F2D4000",
+      "title": "Beneath Oresa",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010028001F2D4000.jpg",
+      "variants": [
+        {
+          "id": "v_e515c282",
+          "name": "Beneath Oresa — Full Release Announcement Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1opNZMZ8p_-Pf1yFiE7XFszeHj94RfgV3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1opNZMZ8p_-Pf1yFiE7XFszeHj94RfgV3&sz=w640",
+          "sizeBytes": 5267150,
+          "sha256": "16468F70E16DC8E96C44EA0D568CDEA96072B95BC9479AE9CBE1D1C2F4E47972",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Beneath Oresa — Full Release Announcemen"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F6B012092000",
+      "title": "Mokoko X",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F6B012092000.jpg",
+      "variants": [
+        {
+          "id": "v_aafa0859",
+          "name": "Mokoko X — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kY9S1fZ60wNKjNsQ7HU2AAVLX52eZIsY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kY9S1fZ60wNKjNsQ7HU2AAVLX52eZIsY&sz=w640",
+          "sizeBytes": 5186530,
+          "sha256": "5CB4725A82BCEC0BEB3821D039BAB8B80BE3E12EE869298A9F6B6F612513FAF1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mokoko X — Gameplay Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 3123,
-  "totalVariants": 4547,
-  "lastUpdated": "2026-11-10T02:56:20.500393+00:00"
+  "totalGames": 3133,
+  "totalVariants": 4557,
+  "lastUpdated": "2026-11-10T02:59:13.968715+00:00"
 }
