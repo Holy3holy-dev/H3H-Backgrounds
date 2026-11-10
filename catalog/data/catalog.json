@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T03:38:14.881679+00:00",
+  "updatedAt": "2026-11-10T03:41:24.253921+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -112288,9 +112288,269 @@
           "notes": "Switch 720p 30fps H264 | Samurai Riot Definitive Edition — Samura"
         }
       ]
+    },
+    {
+      "titleId": "0100C7D00E730000",
+      "title": "Fight N Rage",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C7D00E730000.jpg",
+      "variants": [
+        {
+          "id": "v_3e9ba23c",
+          "name": "Fight'N Rage — Announcement",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SYDmOq76WyfDjBmD-C5zF3eM8sJBJYr1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SYDmOq76WyfDjBmD-C5zF3eM8sJBJYr1&sz=w640",
+          "sizeBytes": 5618692,
+          "sha256": "896DA7E3D7A1955F6F6061DCE34B36078644B21401D77F39FC70D69E600DDA62",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fight'N Rage — Announcement"
+        }
+      ]
+    },
+    {
+      "titleId": "01004B201FC18000",
+      "title": "Tempopo",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004B201FC18000.jpg",
+      "variants": [
+        {
+          "id": "v_f33a67d6",
+          "name": "Tempopo — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1POJaohl04OA_Zq5rKgeGgcyOJZ6t0WQV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1POJaohl04OA_Zq5rKgeGgcyOJZ6t0WQV&sz=w640",
+          "sizeBytes": 5269475,
+          "sha256": "02903625A5FCB1C7D73DB58514AAB8F2E394A4B50CC577D768DE6F77CD14EC8F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tempopo — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01003E3013BE4000",
+      "title": "Myastere Ruins of Deazniff",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003E3013BE4000.jpg",
+      "variants": [
+        {
+          "id": "v_c5249618",
+          "name": "Myastere -Ruins of Deazniff- — 【公式PV】『ミアステール～デズニ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1EmfLYWMZpsPwbqaaOQdPzU0zhljqz3PC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1EmfLYWMZpsPwbqaaOQdPzU0zhljqz3PC&sz=w640",
+          "sizeBytes": 5385448,
+          "sha256": "E01DF352CA88CC2BA68F41048013AA7985D1A3296A51991E61FB0D61ADB01998",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Myastere -Ruins of Deazniff- — 【公式PV】『ミア"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AA3015C36000",
+      "title": "The Battle of Polytopia",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AA3015C36000.jpg",
+      "variants": [
+        {
+          "id": "v_6a048a82",
+          "name": "The Battle of Polytopia — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nZ0k5e_wWHaRRj84Q5seWURiT3eQYnOC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nZ0k5e_wWHaRRj84Q5seWURiT3eQYnOC&sz=w640",
+          "sizeBytes": 5264171,
+          "sha256": "D27173C04C9EBBAFCAD728F56D4E832EC2D9B8183F9A848A9E0AEFDCD03DE161",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Battle of Polytopia — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010008501AC06000",
+      "title": "Curse Crackers for Whom the Belle Toils",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010008501AC06000.jpg",
+      "variants": [
+        {
+          "id": "v_0f619838",
+          "name": "Curse Crackers: For Whom the Belle Toils — Relea",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14tCYbBQythUIe2WlSjqTZT4_yTuxNkcJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14tCYbBQythUIe2WlSjqTZT4_yTuxNkcJ&sz=w640",
+          "sizeBytes": 5093167,
+          "sha256": "3350EE29465F833E434863DB596414C774B9002BC6346D1E526FFE285A62E536",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Curse Crackers: For Whom the Belle Toils"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B7000D89E000",
+      "title": "Knights and Bikes",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B7000D89E000.jpg",
+      "variants": [
+        {
+          "id": "v_71d1e295",
+          "name": "Knights And Bikes — Knights and Bikes - Launch T",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TBXVwKB-wBAbgcHP8XstewbfbWqPQjgI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TBXVwKB-wBAbgcHP8XstewbfbWqPQjgI&sz=w640",
+          "sizeBytes": 12176279,
+          "sha256": "B9333995C72AC7BBD9438E8802C9170F3ECF87133C5240EB8A7F762D4DD57909",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Knights And Bikes — Knights and Bikes - "
+        }
+      ]
+    },
+    {
+      "titleId": "010088A01C628000",
+      "title": "Crystal Project",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010088A01C628000.jpg",
+      "variants": [
+        {
+          "id": "v_5f8ee670",
+          "name": "Crystal Project — Crystal Project Release Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TSH_GeYIK3R_xoEju1FuWM6cFnAqa4BY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TSH_GeYIK3R_xoEju1FuWM6cFnAqa4BY&sz=w640",
+          "sizeBytes": 5415232,
+          "sha256": "8963060CBD2C955FFD92A416AB2A5455D5A0184F143FF9DACD479AEFA02550B4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Crystal Project — Crystal Project Releas"
+        }
+      ]
+    },
+    {
+      "titleId": "010036B0113DA000",
+      "title": "Over the Alps",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010036B0113DA000.jpg",
+      "variants": [
+        {
+          "id": "v_9ec0f2df",
+          "name": "Over the Alps — Over the Alps - Coming Soon Trai",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17UlqA9rQOy0mRSzdNWaqOl_AQUdiENtE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17UlqA9rQOy0mRSzdNWaqOl_AQUdiENtE&sz=w640",
+          "sizeBytes": 5401710,
+          "sha256": "EDA9CDAB4A18473F62FB7FB057C400FAA23AA5C1491483E3D428EB1A93BC6FB4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Over the Alps — Over the Alps - Coming S"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B27010436000",
+      "title": "Wanderlust Travel Stories",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B27010436000.jpg",
+      "variants": [
+        {
+          "id": "v_ef6015f4",
+          "name": "Wanderlust: Travel Stories — Wanderlust: Travel ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HnxsBILX5cC7CuCWrWM3C5ec_kJ6FeNe",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HnxsBILX5cC7CuCWrWM3C5ec_kJ6FeNe&sz=w640",
+          "sizeBytes": 5551831,
+          "sha256": "F21F66DC67C10D589FA0A12EFB794D56C4374205EFD74DC2788D078E2CAF6982",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wanderlust: Travel Stories — Wanderlust:"
+        }
+      ]
+    },
+    {
+      "titleId": "01007E5019ABA000",
+      "title": "A Highland Song",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007E5019ABA000.jpg",
+      "variants": [
+        {
+          "id": "v_27c9147a",
+          "name": "A Highland Song — Official trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1e1zkqKywHYNGZQglKqghAGCUAh0gXnVY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1e1zkqKywHYNGZQglKqghAGCUAh0gXnVY&sz=w640",
+          "sizeBytes": 5501250,
+          "sha256": "F9ECF3006EC05FA30A47ED734A82E5E7BB0974B6B89B7DDB3A6871A7F5D3AB4C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | A Highland Song — Official trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 3263,
-  "totalVariants": 4687,
-  "lastUpdated": "2026-11-10T03:38:14.881679+00:00"
+  "totalGames": 3273,
+  "totalVariants": 4697,
+  "lastUpdated": "2026-11-10T03:41:24.253921+00:00"
 }
