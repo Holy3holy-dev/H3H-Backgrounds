@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T06:46:23.968246+00:00",
+  "updatedAt": "2026-11-10T06:49:29.806749+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -128148,9 +128148,269 @@
           "notes": "Switch 720p 30fps H264 | Cube Life: Island Survival — Cube Life: "
         }
       ]
+    },
+    {
+      "titleId": "01003BA0197A6000",
+      "title": "A Maiden Astrologer Divines the Future",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003BA0197A6000.jpg",
+      "variants": [
+        {
+          "id": "v_49597033",
+          "name": "A Maiden Astrologer Divines the Future — PV_en",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FK-XCcJxAvvGTIS3QxU9uCLCiMT1N-Fx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FK-XCcJxAvvGTIS3QxU9uCLCiMT1N-Fx&sz=w640",
+          "sizeBytes": 4109607,
+          "sha256": "0D84E27A82639F95DA253EFC33718387E7C20EC5135D1D65E49DACCC9F2C8DCD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | A Maiden Astrologer Divines the Future —"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B80010C48000",
+      "title": "Astrologaster",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B80010C48000.jpg",
+      "variants": [
+        {
+          "id": "v_52473582",
+          "name": "Astrologaster — Astrologaster Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SgxIrd-sJwF9NCNvmJvsH6jFy_syWdFK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SgxIrd-sJwF9NCNvmJvsH6jFy_syWdFK&sz=w640",
+          "sizeBytes": 5439332,
+          "sha256": "DDCEAE8B4056A83AD7CAD428B0B6062050419563610C4B5A9FB6DAB8DBF9DAAD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Astrologaster — Astrologaster Launch Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C8300FA90000",
+      "title": "Save Koch",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C8300FA90000.jpg",
+      "variants": [
+        {
+          "id": "v_ee634b9d",
+          "name": "Save Koch — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1E_MhSVunLB9J4n1D8a9MPFR667QM3LRj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1E_MhSVunLB9J4n1D8a9MPFR667QM3LRj&sz=w640",
+          "sizeBytes": 4714326,
+          "sha256": "EE15BA27A338A8154410635D7C97FB17450B3B7BF74645A9681AA053969CF5B6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Save Koch — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010006A01A15A000",
+      "title": "Archetype Arcadia",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010006A01A15A000.jpg",
+      "variants": [
+        {
+          "id": "v_64ade9b4",
+          "name": "Archetype Arcadia — Archetype Arcadia - Release ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ccwx7xLHhag3P397ey-2eND8SQ1gNd4s",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ccwx7xLHhag3P397ey-2eND8SQ1gNd4s&sz=w640",
+          "sizeBytes": 5584533,
+          "sha256": "574DBDB153412EF6507407B278A0995D8C4F9B70A7AF610FCA424914BB8C0293",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Archetype Arcadia — Archetype Arcadia - "
+        }
+      ]
+    },
+    {
+      "titleId": "01007C300E74C000",
+      "title": "Aground",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007C300E74C000.jpg",
+      "variants": [
+        {
+          "id": "v_8e79e590",
+          "name": "Aground Zero — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UvnrFY3EwaPiMemrdQznSy1YKPNlrLjh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UvnrFY3EwaPiMemrdQznSy1YKPNlrLjh&sz=w640",
+          "sizeBytes": 5340792,
+          "sha256": "C10B9B89DE98848274F5EB5F9D5BABC880AF4F17B91AF57B4AAA58F80F0A9821",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Aground Zero — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01007DE013A48000",
+      "title": "Golden Force",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007DE013A48000.jpg",
+      "variants": [
+        {
+          "id": "v_046ee94f",
+          "name": "Golden Force — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14N3QT1Idbohxf2iys2YK2Bu-aZxvtJTO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14N3QT1Idbohxf2iys2YK2Bu-aZxvtJTO&sz=w640",
+          "sizeBytes": 5429118,
+          "sha256": "9B5A4222A51D55C8EEADBB70909FFD17730E6A0932430D4CC0773DCE8064FF5B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Golden Force — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E4700E040000",
+      "title": "Ages of Mages: The Last Keeper",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E4700E040000.jpg",
+      "variants": [
+        {
+          "id": "v_92091618",
+          "name": "Ages of Mages: The last keeper — Launch trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ru3DE-INQVFFR8NwMyY7n14uwLCGBQKp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ru3DE-INQVFFR8NwMyY7n14uwLCGBQKp&sz=w640",
+          "sizeBytes": 3862459,
+          "sha256": "2D089AADAA1DA317BBECD886625422F3BA2164759F9A68E2ABC0A4FB9BE077B5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ages of Mages: The last keeper — Launch "
+        }
+      ]
+    },
+    {
+      "titleId": "0100156011032000",
+      "title": "Ageless",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100156011032000.jpg",
+      "variants": [
+        {
+          "id": "v_b2cf160f",
+          "name": "Ageless — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fa3DEl3WSPowrLlgUvI8AjVGu4ux5n8k",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fa3DEl3WSPowrLlgUvI8AjVGu4ux5n8k&sz=w640",
+          "sizeBytes": 5277526,
+          "sha256": "E7EDC6A654F130A00EBC992CC404EDD0FB74106B8D63DEABD6B5E1A3FD859E3C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ageless — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CD40104DE000",
+      "title": "Actual Sunlight",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CD40104DE000.jpg",
+      "variants": [
+        {
+          "id": "v_da01ec1f",
+          "name": "Actual Sunlight — Actual Sunlight - Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mVwkrnx6GQ6BRm4lKN4-29kfDDSLhrNl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mVwkrnx6GQ6BRm4lKN4-29kfDDSLhrNl&sz=w640",
+          "sizeBytes": 5315791,
+          "sha256": "1E77E8222BD80C0C8069BF553CF54E20CC51FC868DAB14407B336F0CF7DDB58F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Actual Sunlight — Actual Sunlight - Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A0400DDE0000",
+      "title": "Aer Memories of Old",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A0400DDE0000.jpg",
+      "variants": [
+        {
+          "id": "v_1a8ebbd3",
+          "name": "AER Memories of Old — AER Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jeIm7mRI38Pz6ZLgi-88QvCJA2lDQZvA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jeIm7mRI38Pz6ZLgi-88QvCJA2lDQZvA&sz=w640",
+          "sizeBytes": 5222445,
+          "sha256": "59CDC3BC135A43508F3AD351A0A27275669B6310E574B3F822D568302AD0A820",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | AER Memories of Old — AER Release Traile"
+        }
+      ]
     }
   ],
-  "totalGames": 3873,
-  "totalVariants": 5297,
-  "lastUpdated": "2026-11-10T06:46:23.968246+00:00"
+  "totalGames": 3883,
+  "totalVariants": 5307,
+  "lastUpdated": "2026-11-10T06:49:29.806749+00:00"
 }
