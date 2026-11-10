@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T09:15:43.656741+00:00",
+  "updatedAt": "2026-11-10T09:18:48.734011+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -140628,9 +140628,269 @@
           "notes": "Switch 720p 30fps H264 | Witchcrafty — Witchcrafty Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100D940022F6000",
+      "title": "Tiny Barbarian DX",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D940022F6000.jpg",
+      "variants": [
+        {
+          "id": "v_bad54169",
+          "name": "Tiny Barbarian DX — Ultimate Workout Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mG7dJe0gNYGoPyUIL-dk22GDAceYNE83",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mG7dJe0gNYGoPyUIL-dk22GDAceYNE83&sz=w640",
+          "sizeBytes": 5126842,
+          "sha256": "A401783D9702544E732A1A0A5A406C4BB7D622B63E8D497FF14B721F871D302E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tiny Barbarian DX — Ultimate Workout Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F010146F2000",
+      "title": "Hindsight",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F010146F2000.jpg",
+      "variants": [
+        {
+          "id": "v_1bec3757",
+          "name": "Detective Hindsight — First Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_T0SCKIYANLnH7pRurI9olVgUz1CEUT0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_T0SCKIYANLnH7pRurI9olVgUz1CEUT0&sz=w640",
+          "sizeBytes": 4807052,
+          "sha256": "E155D28453914DE665B2E89A62898E276469D1D02989FB1F8E337578D30C75B4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Detective Hindsight — First Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C37022D7E000",
+      "title": "Hyperspaced",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C37022D7E000.jpg",
+      "variants": [
+        {
+          "id": "v_64fbdae8",
+          "name": "Hyperspaced — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FlzHoTMCKkJ2nJvxyzgmK467pYE3ioYc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FlzHoTMCKkJ2nJvxyzgmK467pYE3ioYc&sz=w640",
+          "sizeBytes": 5212383,
+          "sha256": "94574D4BA7D901CFB8A49D7DA99108BD89AA297FDCAFC82C1DECFB8147F0293A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hyperspaced — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010087201951E000",
+      "title": "Afterthought",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010087201951E000.jpg",
+      "variants": [
+        {
+          "id": "v_8aa3194d",
+          "name": "Afterthought — Final Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kHH3kU6Dns7zYX0Z1z-hvc_6AiI8WB7F",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kHH3kU6Dns7zYX0Z1z-hvc_6AiI8WB7F&sz=w640",
+          "sizeBytes": 5442894,
+          "sha256": "F1719C94ED71D0802FB65E1146AD9BDF51461AE98BC9452DE983759AAFD09F0C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Afterthought — Final Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F6001B738000",
+      "title": "A Tiny Sticker Tale",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F6001B738000.jpg",
+      "variants": [
+        {
+          "id": "v_38b2de16",
+          "name": "A Tiny Sticker Tale — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PWMDSUfO7bnCYRR5frYxV2EpHfzy17Uh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PWMDSUfO7bnCYRR5frYxV2EpHfzy17Uh&sz=w640",
+          "sizeBytes": 5197513,
+          "sha256": "6C13A4594EF64C52FFB11CA43A3A59BA39FE6DD68FB0B6D725F6CD00977A35AD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | A Tiny Sticker Tale — Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01007FC0170FE000",
+      "title": "Zorro the Chronicles",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007FC0170FE000.jpg",
+      "variants": [
+        {
+          "id": "v_d1fa391c",
+          "name": "Zorro The Chronicles — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1y9wSSG7lzExYMgDRH4eBJgvJ02ILJRqb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1y9wSSG7lzExYMgDRH4eBJgvJ02ILJRqb&sz=w640",
+          "sizeBytes": 5318249,
+          "sha256": "4A68226781D13ED950C69F2A8AEDD42C791FADDF5922753E833F3577C8926BC7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Zorro The Chronicles — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100207007EB2000",
+      "title": "Smoke and Sacrifice",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100207007EB2000.jpg",
+      "variants": [
+        {
+          "id": "v_22bdb94b",
+          "name": "Smoke and Sacrifice — Out Now - Steam Edit",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ykVNZus5U0i7h4iiPUZI0CsZUJXCsRV-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ykVNZus5U0i7h4iiPUZI0CsZUJXCsRV-&sz=w640",
+          "sizeBytes": 5170126,
+          "sha256": "D38BEBF22C9E53905F517549FFAB487D81CFC022101597CDCC610120ED455866",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Smoke and Sacrifice — Out Now - Steam Ed"
+        }
+      ]
+    },
+    {
+      "titleId": "01001F7014F14000",
+      "title": "Tokoyo Tower of Perpetuity",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001F7014F14000.jpg",
+      "variants": [
+        {
+          "id": "v_6816ba1a",
+          "name": "TOKOYO: The Tower of Perpetuity — Release Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cIZGadFiIKE9lgGA2uXab0FmK1iFd9l8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cIZGadFiIKE9lgGA2uXab0FmK1iFd9l8&sz=w640",
+          "sizeBytes": 4929268,
+          "sha256": "A3E454A1276094D1CE8828DD32F30CF9ED12FC1B2FB1FB8407059BD98F9DF369",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | TOKOYO: The Tower of Perpetuity — Releas"
+        }
+      ]
+    },
+    {
+      "titleId": "01005F10162CA000",
+      "title": "Time on Frog Island",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005F10162CA000.jpg",
+      "variants": [
+        {
+          "id": "v_80db52f2",
+          "name": "Time on Frog Island — Accolade Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SOE2EcQKSUDBB2uAz63xefOYRdcBLmIr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SOE2EcQKSUDBB2uAz63xefOYRdcBLmIr&sz=w640",
+          "sizeBytes": 5044746,
+          "sha256": "E1ECD2AA7DEC722055EA9B71573BC70560366B5304C13518A034AC98BD4CA875",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Time on Frog Island — Accolade Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A06011A48000",
+      "title": "Unreal Life",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A06011A48000.jpg",
+      "variants": [
+        {
+          "id": "v_28c199a2",
+          "name": "UNREAL LIFE — リリース予告EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hjTYItBDVIrQggBKGTuRabEI5sj222Zy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hjTYItBDVIrQggBKGTuRabEI5sj222Zy&sz=w640",
+          "sizeBytes": 4896996,
+          "sha256": "10518E474E368CA8FCCE0089373408E057F4F3AF673D737F54D8E7AB722A3CB9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | UNREAL LIFE — リリース予告EN"
+        }
+      ]
     }
   ],
-  "totalGames": 4353,
-  "totalVariants": 5777,
-  "lastUpdated": "2026-11-10T09:15:43.656741+00:00"
+  "totalGames": 4363,
+  "totalVariants": 5787,
+  "lastUpdated": "2026-11-10T09:18:48.734011+00:00"
 }
