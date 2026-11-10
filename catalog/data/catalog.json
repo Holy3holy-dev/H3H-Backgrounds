@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T13:59:22.715636+00:00",
+  "updatedAt": "2026-11-10T14:03:21.858552+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -161688,9 +161688,269 @@
           "notes": "Switch 720p 30fps H264 | Chemically Bonded — Official Trailer"
         }
       ]
+    },
+    {
+      "titleId": "01003BE00ECAE000",
+      "title": "Catch a Duck",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003BE00ECAE000.jpg",
+      "variants": [
+        {
+          "id": "v_91f8e2b6",
+          "name": "Catch a Duck — Catch a Duck - Trailer FHD",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ud8BpUV4lj-edHKQ3wan4HpXrCJJBl1d",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ud8BpUV4lj-edHKQ3wan4HpXrCJJBl1d&sz=w640",
+          "sizeBytes": 4889167,
+          "sha256": "6DEB3DCEB3A2319938808C18B88A85A9C0EA23EEFEA829F93808155256DD9F72",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Catch a Duck — Catch a Duck - Trailer FH"
+        }
+      ]
+    },
+    {
+      "titleId": "010036401F8CE000",
+      "title": "Shinjuku Soumei",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010036401F8CE000.jpg",
+      "variants": [
+        {
+          "id": "v_3d1da1aa",
+          "name": "SHINJUKU SOUMEI — 新宿葬命キャラPV4（Triangle）_EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OwZm5q8UlvC1gQ-be9K7a6oDYn8l-7vi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OwZm5q8UlvC1gQ-be9K7a6oDYn8l-7vi&sz=w640",
+          "sizeBytes": 5380809,
+          "sha256": "16423BE95555501246E894601B0F604DD43EA0FECF9F1323FB8B1458B2F277F5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | SHINJUKU SOUMEI — 新宿葬命キャラPV4（Triangle）_E"
+        }
+      ]
+    },
+    {
+      "titleId": "0100680016472000",
+      "title": "Cabin Fever",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100680016472000.jpg",
+      "variants": [
+        {
+          "id": "v_7eaecb53",
+          "name": "Cabin Fever — Mallory Trailer (Subtitled)",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13IjMd34sNie1ur9t_Fe2CZgfSHf9MAam",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13IjMd34sNie1ur9t_Fe2CZgfSHf9MAam&sz=w640",
+          "sizeBytes": 5270135,
+          "sha256": "B6136DD7B5DA408466FB76A538AAA76D727078D49E8D47AD745A971762C44C5C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cabin Fever — Mallory Trailer (Subtitled"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A4A016B1A000",
+      "title": "Life in Willowdale Farm Adventures",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A4A016B1A000.jpg",
+      "variants": [
+        {
+          "id": "v_66649077",
+          "name": "Life in Willowdale: Farm Adventures — Life in Wi",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WqSmiWYx5RL1WEUeaJWbYX5y6gxTOxJY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WqSmiWYx5RL1WEUeaJWbYX5y6gxTOxJY&sz=w640",
+          "sizeBytes": 5483231,
+          "sha256": "9DEF4A7DD0749DE3EA8C62A82D94768E3036610B43A4FF4DCAE51154600C978B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Life in Willowdale: Farm Adventures — Li"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BA100E160000",
+      "title": "Crypt of the Serpent King",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BA100E160000.jpg",
+      "variants": [
+        {
+          "id": "v_daeb0a28",
+          "name": "Crypt of the Serpent King — Crypt of the Serpent",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=122vKfljMGFf288D6dI8o1ixV38yJjN6_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=122vKfljMGFf288D6dI8o1ixV38yJjN6_&sz=w640",
+          "sizeBytes": 4976771,
+          "sha256": "EBA8A8F10A2BCDFA26D7DB821C5E26226FCC953E65DEFF451601139A6FBCAB9D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Crypt of the Serpent King — Crypt of the"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A05013B5A000",
+      "title": "Ping Redux",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A05013B5A000.jpg",
+      "variants": [
+        {
+          "id": "v_5e960335",
+          "name": "PING REDUX — PING REDUX Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1aKPN4Up870rIi5tnsyItibHz8L2AFMK2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1aKPN4Up870rIi5tnsyItibHz8L2AFMK2&sz=w640",
+          "sizeBytes": 5228368,
+          "sha256": "A564CF3F8615F67C9872EC2F117D2649D51BE0E5BABABFDDED8E6C8FF3830B52",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | PING REDUX — PING REDUX Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010032200EC9C000",
+      "title": "Runestone Keeper",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010032200EC9C000.jpg",
+      "variants": [
+        {
+          "id": "v_7ee15d37",
+          "name": "Runestone Keeper — Runestone Keeper Release Trai",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dVH-wgLDmrU4PT-4p4y-uIovBIxeiJgQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dVH-wgLDmrU4PT-4p4y-uIovBIxeiJgQ&sz=w640",
+          "sizeBytes": 5198993,
+          "sha256": "FB76823F988DF96024220E9D32D156613880B06DD5233FEEE988A2864E3AA2EA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Runestone Keeper — Runestone Keeper Rele"
+        }
+      ]
+    },
+    {
+      "titleId": "010087D008D64000",
+      "title": "Bingo",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010087D008D64000.jpg",
+      "variants": [
+        {
+          "id": "v_1fb5d890",
+          "name": "Bingo Betty — Bingo Bety - Gameplay Trailer 2 / ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nbmMGacJ5MB9PbkMHHJ-Bd6tJGMnw7gl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nbmMGacJ5MB9PbkMHHJ-Bd6tJGMnw7gl&sz=w640",
+          "sizeBytes": 5339586,
+          "sha256": "EEFB6F64A00B55023F59C90505FF49B2094C946C8153003974275CE8F4058F5A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bingo Betty — Bingo Bety - Gameplay Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "010008C018F96000",
+      "title": "Bem Feito",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010008C018F96000.jpg",
+      "variants": [
+        {
+          "id": "v_9b11d3b9",
+          "name": "Bem Feito — TRAILER FINAL - EN/US",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1B_VVpCjUonsX_gSOqwxuUg_x1HR961Zx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1B_VVpCjUonsX_gSOqwxuUg_x1HR961Zx&sz=w640",
+          "sizeBytes": 4967897,
+          "sha256": "BDC7C3D02E4EF114193E220B9EC9354EA80647FAF6DFCC6765C35AD335490320",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bem Feito — TRAILER FINAL - EN/US"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F6F014CB6000",
+      "title": "Beatus Creation Solitaire",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F6F014CB6000.jpg",
+      "variants": [
+        {
+          "id": "v_38b2dcac",
+          "name": "Beatus Creation Solitaire — 1st Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xA97VeW77PNDSRSIHTpJU4XssO56iIb2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xA97VeW77PNDSRSIHTpJU4XssO56iIb2&sz=w640",
+          "sizeBytes": 3462155,
+          "sha256": "79303217887A702A1ECF9D8DB17D2CDAD0F4DFA20D9CC461B9B2DCDD8EDAF3B7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Beatus Creation Solitaire — 1st Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 5163,
-  "totalVariants": 6587,
-  "lastUpdated": "2026-11-10T13:59:22.715636+00:00"
+  "totalGames": 5173,
+  "totalVariants": 6597,
+  "lastUpdated": "2026-11-10T14:03:21.858552+00:00"
 }
