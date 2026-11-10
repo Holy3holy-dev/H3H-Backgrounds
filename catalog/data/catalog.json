@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T11:48:40.672717+00:00",
+  "updatedAt": "2026-11-10T11:52:11.821338+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -152588,9 +152588,269 @@
           "notes": "Switch 720p 30fps H264 | Empire of Angels IV — EOA_ENG"
         }
       ]
+    },
+    {
+      "titleId": "010045101288A000",
+      "title": "Quantum Replica",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010045101288A000.jpg",
+      "variants": [
+        {
+          "id": "v_d18ed503",
+          "name": "Quantum Replica — Full Platform Launch",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10keMUEYvqU1pfdYqlaO9H6uKtdwrMzOA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10keMUEYvqU1pfdYqlaO9H6uKtdwrMzOA&sz=w640",
+          "sizeBytes": 5399970,
+          "sha256": "D8ABCC176A9A59398DC50BEC8F1A188FC12AE6DECA3B5CE22F99ED1EAA966DD3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Quantum Replica — Full Platform Launch"
+        }
+      ]
+    },
+    {
+      "titleId": "0100681011B56000",
+      "title": "Struggling",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100681011B56000.jpg",
+      "variants": [
+        {
+          "id": "v_22997238",
+          "name": "Struggling — ESRB_Launch_Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cMgJGV6W-H347K6Hg6Y3pNrcKlwW91N_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cMgJGV6W-H347K6Hg6Y3pNrcKlwW91N_&sz=w640",
+          "sizeBytes": 4728833,
+          "sha256": "327B3B52E48EF7F8ED660A844F24443BAA670B68528393B24C1F4065C350BDF8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Struggling — ESRB_Launch_Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E8C019B36000",
+      "title": "Simona's Requiem",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E8C019B36000.jpg",
+      "variants": [
+        {
+          "id": "v_0b5b26a3",
+          "name": "Simona's Requiem — Story Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_HGfMOMwZUZwzlfO1GWIAtIsgDSc49bB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_HGfMOMwZUZwzlfO1GWIAtIsgDSc49bB&sz=w640",
+          "sizeBytes": 4952828,
+          "sha256": "702E1A0D201F1307018A90FD03CA6CC706BA20E888D4BC861450EAE3A7D0C189",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Simona's Requiem — Story Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01007130135E2000",
+      "title": "Savage Halloween",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007130135E2000.jpg",
+      "variants": [
+        {
+          "id": "v_ce748f8e",
+          "name": "Savage Halloween — Launch Trailer 01",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12yPleQG8vDfHjOVoz2cwRp3mspj9WZnT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12yPleQG8vDfHjOVoz2cwRp3mspj9WZnT&sz=w640",
+          "sizeBytes": 5098927,
+          "sha256": "DC9DC5EEE0AF3DAAA4537673B575C5B31D9897DDFDA9FAD752A1ADF287409E48",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Savage Halloween — Launch Trailer 01"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E7D021666000",
+      "title": "Golden Warden",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E7D021666000.jpg",
+      "variants": [
+        {
+          "id": "v_430c10c8",
+          "name": "Golden Warden — Second Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1T1YUH3CVV4L9aRfTsQnLvtKSlIHGTCFF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1T1YUH3CVV4L9aRfTsQnLvtKSlIHGTCFF&sz=w640",
+          "sizeBytes": 5332632,
+          "sha256": "5E135A9D8DE6B1F020909875F27D7C60E6F94F34FFCD6BBA89C88D2661F440A5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Golden Warden — Second Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01002DB01ABEC000",
+      "title": "The Ramsey",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002DB01ABEC000.jpg",
+      "variants": [
+        {
+          "id": "v_36a2b65f",
+          "name": "The Ramsey — Tha Ramsey Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MzX5iJYcMH7WUlUZXFi26UG_H1J7D_IC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MzX5iJYcMH7WUlUZXFi26UG_H1J7D_IC&sz=w640",
+          "sizeBytes": 5056565,
+          "sha256": "1082B7F061CBE30DF840BBF3529EAB27BEB5049AC3E2B6ACD872B18E4491B3B3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Ramsey — Tha Ramsey Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010072601922C000",
+      "title": "Xiaomei and the Flame Dragon's Fist",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010072601922C000.jpg",
+      "variants": [
+        {
+          "id": "v_9b7fc29a",
+          "name": "Xiaomei and the Flame Dragon's Fist — pv1",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19VfBDymOEMEtMnkFYP-ZiSjjzUQXpRG7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19VfBDymOEMEtMnkFYP-ZiSjjzUQXpRG7&sz=w640",
+          "sizeBytes": 4111325,
+          "sha256": "67859CF48BBBFAFDB682023A52C3D98CEA1CA54A793CE672E35B93F0C2153400",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Xiaomei and the Flame Dragon's Fist — pv"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D8C017D4A000",
+      "title": "Martian Panic",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D8C017D4A000.jpg",
+      "variants": [
+        {
+          "id": "v_505b6c4c",
+          "name": "Martian Panic — Gameplay",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1P2XxnP-UY6b_NzE5c8S3bfrSj3DsKx4X",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1P2XxnP-UY6b_NzE5c8S3bfrSj3DsKx4X&sz=w640",
+          "sizeBytes": 5257151,
+          "sha256": "5D4FDD6DCCBE12E637BB94ADB8FB6A97552360C9615C1B48FE1869A2663301DA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Martian Panic — Gameplay"
+        }
+      ]
+    },
+    {
+      "titleId": "010048B01855A000",
+      "title": "Innocence Island",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010048B01855A000.jpg",
+      "variants": [
+        {
+          "id": "v_9fe8b8ff",
+          "name": "Innocence Island — Release trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1D298loTP7BaYoYxLTFrvIdPURHOPAop5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1D298loTP7BaYoYxLTFrvIdPURHOPAop5&sz=w640",
+          "sizeBytes": 5419541,
+          "sha256": "D871F91B0DD737B3DFD73A1696C4FE6F7A7DFF87E7AF2D4A639907C3CEB34AE6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Innocence Island — Release trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01008260145F2000",
+      "title": "Super Cable Boy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008260145F2000.jpg",
+      "variants": [
+        {
+          "id": "v_701099bd",
+          "name": "Super Cable Boy — Super Cable Boy - Teaser",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11btzJcD4kCvoHhS9QrveAO5jLz5iU321",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11btzJcD4kCvoHhS9QrveAO5jLz5iU321&sz=w640",
+          "sizeBytes": 5492221,
+          "sha256": "E2415DF30D10D1C420EA7B876B8F50AF06CD50F6869C0740FFE7465094423B38",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Super Cable Boy — Super Cable Boy - Teas"
+        }
+      ]
     }
   ],
-  "totalGames": 4813,
-  "totalVariants": 6237,
-  "lastUpdated": "2026-11-10T11:48:40.672717+00:00"
+  "totalGames": 4823,
+  "totalVariants": 6247,
+  "lastUpdated": "2026-11-10T11:52:11.821338+00:00"
 }
