@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T11:58:53.578553+00:00",
+  "updatedAt": "2026-11-10T12:02:06.275062+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -153368,9 +153368,269 @@
           "notes": "Switch 720p 30fps H264 | To Leave — Winter Sale Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100F7D00A1BC000",
+      "title": "No Thing",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F7D00A1BC000.jpg",
+      "variants": [
+        {
+          "id": "v_449a361e",
+          "name": "NO THING — NO THING - Trailer 01 v2",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ndB277NgRag8PmddLbDxhq7F41L2DiLa",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ndB277NgRag8PmddLbDxhq7F41L2DiLa&sz=w640",
+          "sizeBytes": 4777601,
+          "sha256": "08EA658962E3CFC629B17E6D3647B948321F0139DF0AAA104199C187FB1AB65F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | NO THING — NO THING - Trailer 01 v2"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EA6004516000",
+      "title": "Membrane",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EA6004516000.jpg",
+      "variants": [
+        {
+          "id": "v_ee8ba9f4",
+          "name": "The Membrane — The Membrane Demo Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vGHtJ7Od743tVPiLdTiS0xVBwNUJ6VjP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vGHtJ7Od743tVPiLdTiS0xVBwNUJ6VjP&sz=w640",
+          "sizeBytes": 5580545,
+          "sha256": "2D8ED297B790CD6F1C787073AE2B4820793130905812DA54091ED0E2FC108574",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Membrane — The Membrane Demo Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010088801230E000",
+      "title": "They Breathe",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010088801230E000.jpg",
+      "variants": [
+        {
+          "id": "v_f1b48e13",
+          "name": "They Breathe — Remaster Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AdOibSyKaZBKWal0AFw38TpmSafVAix2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AdOibSyKaZBKWal0AFw38TpmSafVAix2&sz=w640",
+          "sizeBytes": 4196639,
+          "sha256": "1804B70B68BCF46DD9576090413E7E062A9ADFF241799E1DBAA285F920F14E52",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | They Breathe — Remaster Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01008A300F61E000",
+      "title": "Medulla",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008A300F61E000.jpg",
+      "variants": [
+        {
+          "id": "v_4ab1e9ed",
+          "name": "Medulla — Medulla - Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1YGzwlYrb1mkgc0bn-q2BkPul7guJQ4-j",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1YGzwlYrb1mkgc0bn-q2BkPul7guJQ4-j&sz=w640",
+          "sizeBytes": 5059734,
+          "sha256": "CBBF0FD97547AAFDC059841663C2B8AE3D84A36A75AC4D1981621DC97722DF67",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Medulla — Medulla - Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100410012112000",
+      "title": "Explosionade DX",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100410012112000.jpg",
+      "variants": [
+        {
+          "id": "v_a1136337",
+          "name": "Explosionade DX — Explosionade",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OdfjWREAFItlF_YXnUO2NWtKyLTRoF98",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OdfjWREAFItlF_YXnUO2NWtKyLTRoF98&sz=w640",
+          "sizeBytes": 5153223,
+          "sha256": "556F4D217DE2E0056A2F99BAEF8F05CF2C876EE622264FF918E57FCAADB78891",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Explosionade DX — Explosionade"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E3301426E000",
+      "title": "Tux and Fanny",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E3301426E000.jpg",
+      "variants": [
+        {
+          "id": "v_679d35c0",
+          "name": "Tux and Fanny — Main Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=111dcoLBqhfi12E_xWBh4fvCnL7mFJI_L",
+          "previewUrl": "https://drive.google.com/thumbnail?id=111dcoLBqhfi12E_xWBh4fvCnL7mFJI_L&sz=w640",
+          "sizeBytes": 1924406,
+          "sha256": "7A0492412886CBBA8EEFEBF802F74191495F5FB20EC00CA3C671E26B9FC5A6BE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tux and Fanny — Main Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100ACB014104000",
+      "title": "Cosmic Top Secret",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100ACB014104000.jpg",
+      "variants": [
+        {
+          "id": "v_14df14b7",
+          "name": "Cosmic Top Secret — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qtKV3Yulxed_YWSE1sK-6QgQ6WJCMeF1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qtKV3Yulxed_YWSE1sK-6QgQ6WJCMeF1&sz=w640",
+          "sizeBytes": 5194473,
+          "sha256": "7803D3A4C0E7B4C5727B24BE6823BB9CEA6A51174A11CDB3A31C69D638B96573",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cosmic Top Secret — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010031F00B246000",
+      "title": "Everything",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010031F00B246000.jpg",
+      "variants": [
+        {
+          "id": "v_ee8ea0f3",
+          "name": "Date Everything! — Date Everything! Launch Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1v8sfT59rN94NdJO3Sgb6xr93k3iablfE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1v8sfT59rN94NdJO3Sgb6xr93k3iablfE&sz=w640",
+          "sizeBytes": 5514309,
+          "sha256": "1BFECB6C2EEAA3344C1BF1EADC0889ABBA57B847D8DC4BD14246324759696C50",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Date Everything! — Date Everything! Laun"
+        }
+      ]
+    },
+    {
+      "titleId": "0100463013246000",
+      "title": "Oneiros",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100463013246000.jpg",
+      "variants": [
+        {
+          "id": "v_278070f2",
+          "name": "Oneiros — Oneiros | Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KQF_hpt7iBUOW5Hqywhqfo1Tm8zPOTAj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KQF_hpt7iBUOW5Hqywhqfo1Tm8zPOTAj&sz=w640",
+          "sizeBytes": 5605675,
+          "sha256": "7B97FD3FCB5FB9469E1E62B0032F0B21CE97A74BA33614DE0AB80A80227D3901",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Oneiros — Oneiros | Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DA000D71A000",
+      "title": "Straimium Immortaly",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DA000D71A000.jpg",
+      "variants": [
+        {
+          "id": "v_fcf420d2",
+          "name": "Straimium Immortaly — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cu59VnWS3PnX7YaJxz_uvbfh2ORTwZ0p",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cu59VnWS3PnX7YaJxz_uvbfh2ORTwZ0p&sz=w640",
+          "sizeBytes": 5393616,
+          "sha256": "0F5EF88C06BBCCF457AB5324285D3BAB95353CD6BF1DB0E584CAD611AECCE95B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Straimium Immortaly — Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 4843,
-  "totalVariants": 6267,
-  "lastUpdated": "2026-11-10T11:58:53.578553+00:00"
+  "totalGames": 4853,
+  "totalVariants": 6277,
+  "lastUpdated": "2026-11-10T12:02:06.275062+00:00"
 }
