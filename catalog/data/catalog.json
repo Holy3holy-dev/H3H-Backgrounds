@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T03:56:15.305895+00:00",
+  "updatedAt": "2026-11-10T03:59:10.111990+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -113848,9 +113848,269 @@
           "notes": "Switch 720p 30fps H264 | A Little Golf Journey — A Little Golf Jo"
         }
       ]
+    },
+    {
+      "titleId": "0100BF1016A66000",
+      "title": "Armed to the Gears",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BF1016A66000.jpg",
+      "variants": [
+        {
+          "id": "v_a0b9ff75",
+          "name": "Armed to the Gears — Armed to the Gears Full Rel",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1P6AfPS2nscO8GPZfhqsSHca4MnBP8ByF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1P6AfPS2nscO8GPZfhqsSHca4MnBP8ByF&sz=w640",
+          "sizeBytes": 5476296,
+          "sha256": "AB622FA4974666056E8151A60B7462EBB1B20BF59A5022D2B515112F15E8E933",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Armed to the Gears — Armed to the Gears "
+        }
+      ]
+    },
+    {
+      "titleId": "0100AC5016808000",
+      "title": "Aspire Ina's Tale",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AC5016808000.jpg",
+      "variants": [
+        {
+          "id": "v_66c82883",
+          "name": "Aspire: Ina's Tale — Accolades_Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IXmdJ1nQ-XQSX_OLqBjvReoayQocBCfx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IXmdJ1nQ-XQSX_OLqBjvReoayQocBCfx&sz=w640",
+          "sizeBytes": 5656249,
+          "sha256": "9740F3EBF42068AB35FEC4A4F8C0046561C14AEAE5979E49CE6768207905BFEC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Aspire: Ina's Tale — Accolades_Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010055B01636A000",
+      "title": "Hoplegs",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010055B01636A000.jpg",
+      "variants": [
+        {
+          "id": "v_4194089c",
+          "name": "Hoplegs — Hoplegs Release Date Announcement",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ENkdx2B3WyGuYlNN7JkmKXKpB1UQn26x",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ENkdx2B3WyGuYlNN7JkmKXKpB1UQn26x&sz=w640",
+          "sizeBytes": 5205502,
+          "sha256": "170854C159A43D0CFA288274A2F7F7D6D3FF95D2AB55BF7F948AD05F20D96285",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hoplegs — Hoplegs Release Date Announcem"
+        }
+      ]
+    },
+    {
+      "titleId": "01000B70122A2000",
+      "title": "Disjunction",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000B70122A2000.jpg",
+      "variants": [
+        {
+          "id": "v_274cc4f7",
+          "name": "Disjunction — Disjunction - Accolades Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1O1d9qKmoC7pfG_luVTFr_Z9OUGsew8Mq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1O1d9qKmoC7pfG_luVTFr_Z9OUGsew8Mq&sz=w640",
+          "sizeBytes": 4991547,
+          "sha256": "25B22D735F3D2A84FBF5BCDDEC45D60681E535809AAFD84D3154FB50045F2D3D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Disjunction — Disjunction - Accolades Tr"
+        }
+      ]
+    },
+    {
+      "titleId": "010020A01209C000",
+      "title": "El Hijo a Wild West Tale",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010020A01209C000.jpg",
+      "variants": [
+        {
+          "id": "v_657ec841",
+          "name": "El Hijo - A Wild West Tale — El Hijo - A Wild We",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Njr4aqqxOHbEs6HDdjvYxdwBcgmMJNLl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Njr4aqqxOHbEs6HDdjvYxdwBcgmMJNLl&sz=w640",
+          "sizeBytes": 3844463,
+          "sha256": "50FC704FAFC754B02A4493007CB359918733EA70D194A7F8AFB8F5310AA64E36",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | El Hijo - A Wild West Tale — El Hijo - A"
+        }
+      ]
+    },
+    {
+      "titleId": "01005B801A82E000",
+      "title": "Worldless",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005B801A82E000.jpg",
+      "variants": [
+        {
+          "id": "v_0a275565",
+          "name": "Worldless — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12hU8Irg_h-WVXOopCHhNpfdMW6gEVLHn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12hU8Irg_h-WVXOopCHhNpfdMW6gEVLHn&sz=w640",
+          "sizeBytes": 5339060,
+          "sha256": "D8CAAC3CF6E5CB018D2B11D0BD5EF0E8211F334EE4496726145410E7E816262E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Worldless — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E40019B12000",
+      "title": "Witchtastic",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E40019B12000.jpg",
+      "variants": [
+        {
+          "id": "v_d196b7b2",
+          "name": "Witchtastic — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zW-RA-DAu2Sokix-sFTr_Xm2Y8WRJv2i",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zW-RA-DAu2Sokix-sFTr_Xm2Y8WRJv2i&sz=w640",
+          "sizeBytes": 5196860,
+          "sha256": "C64E097379F98E6865A6D1D88CC908981BC68097730000694B0B599D63FD9EB0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Witchtastic — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01007CD01AB70000",
+      "title": "Knight vs Giant the Broken Excalibur",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007CD01AB70000.jpg",
+      "variants": [
+        {
+          "id": "v_f8919303",
+          "name": "Knight vs Giant: The Broken Excalibur — Launch T",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VIwhi7VDN8yv7ONGYLtix_C3_SKKh2BM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VIwhi7VDN8yv7ONGYLtix_C3_SKKh2BM&sz=w640",
+          "sizeBytes": 5386144,
+          "sha256": "D5EE06560985706B44378CA6F55E81476BD363D2FC784A4C9B42AE63F69D4682",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Knight vs Giant: The Broken Excalibur — "
+        }
+      ]
+    },
+    {
+      "titleId": "01008E700CAAC000",
+      "title": "Istanbul Digital edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008E700CAAC000.jpg",
+      "variants": [
+        {
+          "id": "v_b5fa1d28",
+          "name": "Istanbul: Digital Edition — Istanbul: Digital Ed",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zVHjKK-g1WZdvGZXeMckcHKYdqrREiPG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zVHjKK-g1WZdvGZXeMckcHKYdqrREiPG&sz=w640",
+          "sizeBytes": 5525210,
+          "sha256": "671676F939D584D710CDB70B6F534CEC7F158574B5F19D5C8BCD6C7038EBF533",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Istanbul: Digital Edition — Istanbul: Di"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FD0014B76000",
+      "title": "There Is No Light: Enhanced edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FD0014B76000.jpg",
+      "variants": [
+        {
+          "id": "v_00d04f25",
+          "name": "There Is No Light: Enhanced Edition — Release Tr",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1R4s85ge-snvKoKMNpSGPKd-OB6kdw_TV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1R4s85ge-snvKoKMNpSGPKd-OB6kdw_TV&sz=w640",
+          "sizeBytes": 5003685,
+          "sha256": "45DEE45CA9C0EFE89535608E4F67540FA41CAE76BE7A1D4FD241CC86F6583D6C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | There Is No Light: Enhanced Edition — Re"
+        }
+      ]
     }
   ],
-  "totalGames": 3323,
-  "totalVariants": 4747,
-  "lastUpdated": "2026-11-10T03:56:15.305895+00:00"
+  "totalGames": 3333,
+  "totalVariants": 4757,
+  "lastUpdated": "2026-11-10T03:59:10.111990+00:00"
 }
