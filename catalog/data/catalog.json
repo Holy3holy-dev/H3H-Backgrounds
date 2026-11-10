@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T14:21:31.407522+00:00",
+  "updatedAt": "2026-11-10T14:24:40.612079+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -163248,9 +163248,269 @@
           "notes": "Switch 720p 30fps H264 | Invercity — Beta Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100C45101BF2000",
+      "title": "Host 714",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C45101BF2000.jpg",
+      "variants": [
+        {
+          "id": "v_c5b001bf",
+          "name": "Host 714 — Host 714 — Official Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11z6BCOSt65pV_aEkG6EvnJjS39TLYH8U",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11z6BCOSt65pV_aEkG6EvnJjS39TLYH8U&sz=w640",
+          "sizeBytes": 4243575,
+          "sha256": "7A98DA811917BC2901C3ECB3F81FDE4C27C61AD8CE2C533E1EBA0866D343CF61",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Host 714 — Host 714 — Official Launch Tr"
+        }
+      ]
+    },
+    {
+      "titleId": "010051801DF48000",
+      "title": "Gluck",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010051801DF48000.jpg",
+      "variants": [
+        {
+          "id": "v_376b0ede",
+          "name": "Gluck — 予告",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UL5664nFD96Kh2_NGMCBxB61Ic8GLvZl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UL5664nFD96Kh2_NGMCBxB61Ic8GLvZl&sz=w640",
+          "sizeBytes": 5165833,
+          "sha256": "0BE015E9432910BE03F8E73DBFBF5E8E6D923193E1048DA547F4642F75BCDB22",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Gluck — 予告"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D9A0159AE000",
+      "title": "Guns N' Runs",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D9A0159AE000.jpg",
+      "variants": [
+        {
+          "id": "v_385ec21f",
+          "name": "Guns N' Runs — Guns N' Runs Reveal Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1F1pvDJzwQiNib2uOS67xHeU5y_1rQfcP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1F1pvDJzwQiNib2uOS67xHeU5y_1rQfcP&sz=w640",
+          "sizeBytes": 5029429,
+          "sha256": "45D8FD5D7E3D20E3A8015E83BB0CD770520B2995FCB6E5875514B542685BA12A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Guns N' Runs — Guns N' Runs Reveal Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "01003720104B6000",
+      "title": "Gold Crusader",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003720104B6000.jpg",
+      "variants": [
+        {
+          "id": "v_266126f5",
+          "name": "Gold Crusader Remastered Edition — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FFSLq-S6Bb0VsV6KMAjn3crRJtjDMQME",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FFSLq-S6Bb0VsV6KMAjn3crRJtjDMQME&sz=w640",
+          "sizeBytes": 5225892,
+          "sha256": "7CC9337812771DCDD9AA4CFB2E5A8866BE3356A7EB0F75E6F39300B9A907AF21",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Gold Crusader Remastered Edition — Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "01001F7016B5A000",
+      "title": "Glitchhikers the Spaces Between",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001F7016B5A000.jpg",
+      "variants": [
+        {
+          "id": "v_af7cd5d5",
+          "name": "Glitchhikers: The Spaces Between — Launch Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15lpwbBbeFFA6dShYow3dg8Lx0NVhe8SA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15lpwbBbeFFA6dShYow3dg8Lx0NVhe8SA&sz=w640",
+          "sizeBytes": 4797757,
+          "sha256": "35ACC7460A5873E40841102719A48746B8753A4215082097811AD537188C043C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Glitchhikers: The Spaces Between — Launc"
+        }
+      ]
+    },
+    {
+      "titleId": "010045300BE9A000",
+      "title": "Gemini",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010045300BE9A000.jpg",
+      "variants": [
+        {
+          "id": "v_9d968e22",
+          "name": "Gemini Rue — Gemini Rue Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1w9H1Rh5Za3P_DHzqCBcsqPTV_cPlRXR2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1w9H1Rh5Za3P_DHzqCBcsqPTV_cPlRXR2&sz=w640",
+          "sizeBytes": 2498795,
+          "sha256": "16DBFF69E908D23F8EB7C4792139E7F3473337385206920EB68DC7BC600C333E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Gemini Rue — Gemini Rue Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010065D017940000",
+      "title": "Garbage Pail Kids: Mad Mike and the Quest for Stale Gum",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010065D017940000.jpg",
+      "variants": [
+        {
+          "id": "v_e709d797",
+          "name": "Garbage Pail Kids: Mad Mike and the Quest for St",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1R4KoVaz9cIW1d47b9atmlQhGxIjUmPfP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1R4KoVaz9cIW1d47b9atmlQhGxIjUmPfP&sz=w640",
+          "sizeBytes": 4860722,
+          "sha256": "170EFDD0135E9849A3D8FC01C0B62089F71938CCD602592D1803AF6CEA911F2F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Garbage Pail Kids: Mad Mike and the Ques"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B5300B49A000",
+      "title": "Frost",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B5300B49A000.jpg",
+      "variants": [
+        {
+          "id": "v_cb97401b",
+          "name": "Hiyuki Frost Blade Wuthering Waves",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VusB-2-6_eV7x1H6VO2oecqQLcVUa3tU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VusB-2-6_eV7x1H6VO2oecqQLcVUa3tU&sz=w640",
+          "sizeBytes": 3063260,
+          "sha256": "3AFC6E5A5500FF6576EA0FC6D96437F29C81C272DD6693136A1EA063C943BFEB",
+          "durationSec": 24.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Hiyuki Frost Blade Wuthering Waves"
+        }
+      ]
+    },
+    {
+      "titleId": "010050F017AAC000",
+      "title": "Feral Flowers",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010050F017AAC000.jpg",
+      "variants": [
+        {
+          "id": "v_db192856",
+          "name": "Feral Flowers — Full trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TQA4MEO-Kh4V63Oe9dUh5k-t7zErjbmz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TQA4MEO-Kh4V63Oe9dUh5k-t7zErjbmz&sz=w640",
+          "sizeBytes": 5107330,
+          "sha256": "677018ACEAEEDEFCA1CBC4BB44C556B0EC0DBD628BE329677FC340651F568535",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Feral Flowers — Full trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D60018376000",
+      "title": "Extinction Eclipse",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D60018376000.jpg",
+      "variants": [
+        {
+          "id": "v_abfc57f9",
+          "name": "Extinction Eclipse — Gameplay trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1D3i5YmhdPKNcO3I8q_H9zykomv6zJ2o6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1D3i5YmhdPKNcO3I8q_H9zykomv6zJ2o6&sz=w640",
+          "sizeBytes": 5353789,
+          "sha256": "E20F0870C62D7FF68B3C986679C8BD5D419FAB0C4FCE47EB82AF8E3EC95AEC3F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Extinction Eclipse — Gameplay trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 5223,
-  "totalVariants": 6647,
-  "lastUpdated": "2026-11-10T14:21:31.407522+00:00"
+  "totalGames": 5233,
+  "totalVariants": 6657,
+  "lastUpdated": "2026-11-10T14:24:40.612079+00:00"
 }
