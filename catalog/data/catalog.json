@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T01:44:17.419356+00:00",
+  "updatedAt": "2026-11-10T01:53:29.375527+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -103188,9 +103188,269 @@
           "notes": "Switch 720p 30fps H264 | Fight of Animals — Fight of Animals 動物之鬪"
         }
       ]
+    },
+    {
+      "titleId": "0100F6701FED4000",
+      "title": "The Legend of Heroes: Trails Through Daybreak II",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F6701FED4000.jpg",
+      "variants": [
+        {
+          "id": "v_321427ea",
+          "name": "The Legend of Heroes: Trails through Daybreak II",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NGT6jtEyVPGyg32E-3aUvq-DC6zEH6ST",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NGT6jtEyVPGyg32E-3aUvq-DC6zEH6ST&sz=w640",
+          "sizeBytes": 4298806,
+          "sha256": "0AADAF54FC220D29407F8E415ACF06FE1A42DF0F2E1445D00ECBE6577AF3B8F3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Legend of Heroes: Trails through Day"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AEF02601C000",
+      "title": "Twin Shot Deluxe",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AEF02601C000.jpg",
+      "variants": [
+        {
+          "id": "v_c07d53a7",
+          "name": "Twin Shot Deluxe — Twin Shot Deluxe Preview",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fBHqeslqOoBSslsiB-ahAtPeBGoHfjVa",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fBHqeslqOoBSslsiB-ahAtPeBGoHfjVa&sz=w640",
+          "sizeBytes": 5455156,
+          "sha256": "23E0A2C57E18E2A9D21EC2D37FAE3E0E0A8D1CDA3C2A476CC4CE9B5192A91201",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Twin Shot Deluxe — Twin Shot Deluxe Prev"
+        }
+      ]
+    },
+    {
+      "titleId": "01003DD022640000",
+      "title": "Harvest Moon: Home Sweet Home Special edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003DD022640000.jpg",
+      "variants": [
+        {
+          "id": "v_b6a57c2b",
+          "name": "Harvest Moon®: Home Sweet Home Special Edition —",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1huCsnNTex_xF0wQasqv8C9UGp6DavBAp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1huCsnNTex_xF0wQasqv8C9UGp6DavBAp&sz=w640",
+          "sizeBytes": 4035288,
+          "sha256": "6D21ECF1833A6CCB525CBF03DE9F781AD2AFAC53170E05229FFF45B39CFDB17A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Harvest Moon®: Home Sweet Home Special E"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E4C00DE30000",
+      "title": "Ash of Gods: Redemption",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E4C00DE30000.jpg",
+      "variants": [
+        {
+          "id": "v_80f4c933",
+          "name": "Ash of Gods: Redemption — Ash of Gods Gameplay T",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=134zZHJlvrxzfsG8O6RDwCXkdiyaCoaM8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=134zZHJlvrxzfsG8O6RDwCXkdiyaCoaM8&sz=w640",
+          "sizeBytes": 2619953,
+          "sha256": "82C202B52F858B7ACFB97257211450D1E081806F4674563B391A0DB374E0560E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ash of Gods: Redemption — Ash of Gods Ga"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E9101405A000",
+      "title": "Wind Peaks",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E9101405A000.jpg",
+      "variants": [
+        {
+          "id": "v_01a1eeff",
+          "name": "Wind Peaks — Trailer 2024 EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1EBP8oB1mXoelQUVCRsKjYgMlLcu1dP6z",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1EBP8oB1mXoelQUVCRsKjYgMlLcu1dP6z&sz=w640",
+          "sizeBytes": 5330491,
+          "sha256": "0BB2A82DC331226C2377EEE4A056B79C3C959DC249FA5EEC2E7F837098DCF612",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wind Peaks — Trailer 2024 EN"
+        }
+      ]
+    },
+    {
+      "titleId": "010082601BD78000",
+      "title": "Long Gone Days",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010082601BD78000.jpg",
+      "variants": [
+        {
+          "id": "v_a113d2a2",
+          "name": "Long Gone Days — Long Gone Days Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZJp-IMZYGeTkY4dg5Z1J0iO4OhrkOgiz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZJp-IMZYGeTkY4dg5Z1J0iO4OhrkOgiz&sz=w640",
+          "sizeBytes": 4875443,
+          "sha256": "0B54DD84DED70B7ECF1C8F1F53B7B141904AD47D5ED8D1F7F1ECD40E7EBA9354",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Long Gone Days — Long Gone Days Launch T"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D28026E46000",
+      "title": "Fowl Damage",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D28026E46000.jpg",
+      "variants": [
+        {
+          "id": "v_df958d91",
+          "name": "Fowl Damage — Fowl Damage Announcement Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cTUkhXj6g9SA4PoTh2LyoV8SP_F4_tn6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cTUkhXj6g9SA4PoTh2LyoV8SP_F4_tn6&sz=w640",
+          "sizeBytes": 1014522,
+          "sha256": "836AC8B2E249A6DA2B5E3C8453DDA987B46F856DED702CBBB4B35EFBBD30B3FA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fowl Damage — Fowl Damage Announcement T"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C0D0262B4000",
+      "title": "Midnight Swamp",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C0D0262B4000.jpg",
+      "variants": [
+        {
+          "id": "v_32da1a80",
+          "name": "Midnight Swamp — Midnight Swamp - Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ghM1b7Sa_TRNL7sb0fslRnyqsM6f9Kiy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ghM1b7Sa_TRNL7sb0fslRnyqsM6f9Kiy&sz=w640",
+          "sizeBytes": 5152747,
+          "sha256": "D3B52DDCFDB0E83304942C280C00C195AB8D7AAA756FBBB9B334C5C2EFF67E25",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Midnight Swamp — Midnight Swamp - Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "01009A202621A000",
+      "title": "Perennial Dusk Kinsenka",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009A202621A000.jpg",
+      "variants": [
+        {
+          "id": "v_a8dea781",
+          "name": "Perennial Dusk -Kinsenka- — Perennial Dusk Kinse",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CHyTE6rgQs6PZmvUv09gmB-FDcGkJpLK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CHyTE6rgQs6PZmvUv09gmB-FDcGkJpLK&sz=w640",
+          "sizeBytes": 5298348,
+          "sha256": "25CDFBC692E1AF0E101EA4E894A131ABB74A879E47C0F05485181069F1460E38",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Perennial Dusk -Kinsenka- — Perennial Du"
+        }
+      ]
+    },
+    {
+      "titleId": "01008D7019DDE000",
+      "title": "Homebody",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008D7019DDE000.jpg",
+      "variants": [
+        {
+          "id": "v_9f22234a",
+          "name": "Homebody Hostess — PV_EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1V_m2zWhXYcUKKPeRHYnL2IGjD2RlIZqy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1V_m2zWhXYcUKKPeRHYnL2IGjD2RlIZqy&sz=w640",
+          "sizeBytes": 3635644,
+          "sha256": "EEF3FDE637EB3DD9B6E8E4F7C908305B4C5E2869F63C85941A60DD8D19DA53E2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Homebody Hostess — PV_EN"
+        }
+      ]
     }
   ],
-  "totalGames": 2913,
-  "totalVariants": 4337,
-  "lastUpdated": "2026-11-10T01:44:17.419356+00:00"
+  "totalGames": 2923,
+  "totalVariants": 4347,
+  "lastUpdated": "2026-11-10T01:53:29.375527+00:00"
 }
