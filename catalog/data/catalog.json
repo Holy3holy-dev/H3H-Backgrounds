@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T23:58:19.056356+00:00",
+  "updatedAt": "2026-11-10T00:01:28.378408+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -94348,9 +94348,269 @@
           "notes": "Switch 720p 30fps H264 | Labyrinth of Galleria: The Moon Society "
         }
       ]
+    },
+    {
+      "titleId": "0100861012474000",
+      "title": "Frontline Zed",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100861012474000.jpg",
+      "variants": [
+        {
+          "id": "v_ca5af1ad",
+          "name": "Frontline Zed — Trailer Out Now",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hyvnlu0XKOYr5shpR-AYB6AMGiKXcfNX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hyvnlu0XKOYr5shpR-AYB6AMGiKXcfNX&sz=w640",
+          "sizeBytes": 5522299,
+          "sha256": "0B0633DFD714CC6E460B0675ADCED725A768B3A6E78439407C43482D1114241E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Frontline Zed — Trailer Out Now"
+        }
+      ]
+    },
+    {
+      "titleId": "010023E01D94E000",
+      "title": "Beyond the Ice Palace 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010023E01D94E000.jpg",
+      "variants": [
+        {
+          "id": "v_ba640fa1",
+          "name": "Beyond the Ice Palace 2 — Beyond the Ice Palace ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RdaZkmvYh44k5aWpCaKZxuGhepzoAP24",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RdaZkmvYh44k5aWpCaKZxuGhepzoAP24&sz=w640",
+          "sizeBytes": 5433826,
+          "sha256": "1624D5FC81B5813BEFC1B6BBF5A4901FA6349EF7442BA3ADEA192AA5B7A41C0F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Beyond the Ice Palace 2 — Beyond the Ice"
+        }
+      ]
+    },
+    {
+      "titleId": "010061C01831C000",
+      "title": "Gunbrella",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010061C01831C000.jpg",
+      "variants": [
+        {
+          "id": "v_b174764d",
+          "name": "Gunbrella — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fGDFz6G9VjgDofOxJxolp_vbXXxkplyC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fGDFz6G9VjgDofOxJxolp_vbXXxkplyC&sz=w640",
+          "sizeBytes": 5351817,
+          "sha256": "23F400B18B2591875E63EF96544DF3445D3A977604D95926C19C50F040B52FA1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Gunbrella — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010019B01EF56000",
+      "title": "Farewell North",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010019B01EF56000.jpg",
+      "variants": [
+        {
+          "id": "v_2b0de45b",
+          "name": "Farewell North — Farewell North Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OlSJ-NdCWyRvm4IAhjVv_zepOvzNsj4p",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OlSJ-NdCWyRvm4IAhjVv_zepOvzNsj4p&sz=w640",
+          "sizeBytes": 5239726,
+          "sha256": "E03F75D7F59075E14DCD794087483577094F814069875831F2808D83153E5EA7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Farewell North — Farewell North Release "
+        }
+      ]
+    },
+    {
+      "titleId": "01000D3019E24000",
+      "title": "Of Blades & Tails",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000D3019E24000.jpg",
+      "variants": [
+        {
+          "id": "v_a73f1461",
+          "name": "Of Blades & Tails — 1.0 Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1C0zfd7Xgep-KDokBvGspny8uPF0jMb2c",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1C0zfd7Xgep-KDokBvGspny8uPF0jMb2c&sz=w640",
+          "sizeBytes": 5560763,
+          "sha256": "59D38080689D456A45C0C7B6F732EFA020031FC2959AB470AC02C27C069E135A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Of Blades & Tails — 1.0 Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010013001BD62000",
+      "title": "Teenage Mutant Ninja Turtles Mutants Unleashed",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010013001BD62000.jpg",
+      "variants": [
+        {
+          "id": "v_ddce009a",
+          "name": "Teenage Mutant Ninja Turtles: Mutants Unleashed ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=140oTDL1xxaTN5n5hTadHyI_P1G434RW0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=140oTDL1xxaTN5n5hTadHyI_P1G434RW0&sz=w640",
+          "sizeBytes": 5591406,
+          "sha256": "E2C1613A7DE86998A04307F9525C4014E3C4EC6D35C61DC472CABC328A753EF0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Teenage Mutant Ninja Turtles: Mutants Un"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F5700C9A8000",
+      "title": "Mind Path to Thalamus",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F5700C9A8000.jpg",
+      "variants": [
+        {
+          "id": "v_e943769e",
+          "name": "MIND: Path to Thalamus Enhanced Edition — MIND: ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1alrcaS3CnMHKfzzpIUHYFQ69AmloKYoz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1alrcaS3CnMHKfzzpIUHYFQ69AmloKYoz&sz=w640",
+          "sizeBytes": 3477786,
+          "sha256": "36B9C843A2F3A0D46F0ADCDF0B0314CC771A46F25418F336E6C798944FCAC5D9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | MIND: Path to Thalamus Enhanced Edition "
+        }
+      ]
+    },
+    {
+      "titleId": "01008AF00A532000",
+      "title": "Bomb Chicken",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008AF00A532000.jpg",
+      "variants": [
+        {
+          "id": "v_43337f90",
+          "name": "Bomb Chicken — Bomb Chicken Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13-RLbLoCe65Bc-rKQ1LWDdprRO_z6CPD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13-RLbLoCe65Bc-rKQ1LWDdprRO_z6CPD&sz=w640",
+          "sizeBytes": 2922394,
+          "sha256": "B13CA11676C55958E6F4C7C49A4C77280A179177A0C2FAE18EB9604E8CD00F65",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bomb Chicken — Bomb Chicken Launch Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D8D0160C6000",
+      "title": "NeoGeo Pocket Color Selection Vol. 1-2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D8D0160C6000.jpg",
+      "variants": [
+        {
+          "id": "v_99683582",
+          "name": "NEOGEO POCKET COLOR SELECTION Vol.2 — NEOGEO POC",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kgSbFaU3nvcP3OFiOm6xkZCkBjdF5zJn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kgSbFaU3nvcP3OFiOm6xkZCkBjdF5zJn&sz=w640",
+          "sizeBytes": 5360426,
+          "sha256": "1E496F416001D5D7A49B89B8467FA9B7DA6E8DE9784DB3B7728C3123F967F263",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | NEOGEO POCKET COLOR SELECTION Vol.2 — NE"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DE000BBDA000",
+      "title": "Skydrift Infinity",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DE000BBDA000.jpg",
+      "variants": [
+        {
+          "id": "v_a66284d0",
+          "name": "Skydrift Infinity — Gameplay Trailer Skydrift In",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vbJ0sxm84AP40La9IwUB_Q1HcBpEcj1F",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vbJ0sxm84AP40La9IwUB_Q1HcBpEcj1F&sz=w640",
+          "sizeBytes": 5625591,
+          "sha256": "BF21F04C373622F3BD8F3EEFC06A876A682D9C5A003AA0D42581A09656D2FC04",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Skydrift Infinity — Gameplay Trailer Sky"
+        }
+      ]
     }
   ],
-  "totalGames": 2573,
-  "totalVariants": 3997,
-  "lastUpdated": "2026-11-09T23:58:19.056356+00:00"
+  "totalGames": 2583,
+  "totalVariants": 4007,
+  "lastUpdated": "2026-11-10T00:01:28.378408+00:00"
 }
