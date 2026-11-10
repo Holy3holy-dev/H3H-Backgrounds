@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T06:22:32.320662+00:00",
+  "updatedAt": "2026-11-10T06:25:37.400165+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -126068,9 +126068,269 @@
           "notes": "Switch 720p 30fps H264 | Time Loader — Release trailer_all platfo"
         }
       ]
+    },
+    {
+      "titleId": "010084A015FB2000",
+      "title": "A Memoir Blue",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010084A015FB2000.jpg",
+      "variants": [
+        {
+          "id": "v_7b38491b",
+          "name": "A Memoir Blue — A Memoir Blue - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hFA_OmBZwtnGXUZdhQyxmbIONE6PMrmF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hFA_OmBZwtnGXUZdhQyxmbIONE6PMrmF&sz=w640",
+          "sizeBytes": 4645674,
+          "sha256": "81EF1E0D4560395035E403876712EADB0BCDA67B17BAE1EE81545858DCE466BC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | A Memoir Blue — A Memoir Blue - Launch T"
+        }
+      ]
+    },
+    {
+      "titleId": "010050101127C000",
+      "title": "The Persistence",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010050101127C000.jpg",
+      "variants": [
+        {
+          "id": "v_a532b3ff",
+          "name": "The Persistence — The Persistence Enhanced Launc",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oN_LwoBT0pDvLj0xm7CLZDI7IkltUMLM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oN_LwoBT0pDvLj0xm7CLZDI7IkltUMLM&sz=w640",
+          "sizeBytes": 4752448,
+          "sha256": "396E84081E138931C6A79A75074353628C361B587AF63F5DE0BD8370CCFC7529",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Persistence — The Persistence Enhanc"
+        }
+      ]
+    },
+    {
+      "titleId": "010086000EBDE000",
+      "title": "Train Station Simulator",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010086000EBDE000.jpg",
+      "variants": [
+        {
+          "id": "v_eede77db",
+          "name": "Train Station Simulator — 0.9 upcoming features",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fLcPut8EXyZC7AsVziXiUheZOUlJ2hK_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fLcPut8EXyZC7AsVziXiUheZOUlJ2hK_&sz=w640",
+          "sizeBytes": 4925622,
+          "sha256": "A8A640019ABC44FB0875A0FEAF064ED6426526DABBF71FCE7362C8A5580C5AEE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Train Station Simulator — 0.9 upcoming f"
+        }
+      ]
+    },
+    {
+      "titleId": "010030F01A63A000",
+      "title": "Sclash",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010030F01A63A000.jpg",
+      "variants": [
+        {
+          "id": "v_ea7e5ca8",
+          "name": "Sclash — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10_IwzDYRixIIkT7Jt3kHnvNjKcY-e8Q0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10_IwzDYRixIIkT7Jt3kHnvNjKcY-e8Q0&sz=w640",
+          "sizeBytes": 5664041,
+          "sha256": "488AABE941B8FE556819248995EC14FF0B59112CF493810A2A04CF6C76003455",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sclash — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010023801A52A000",
+      "title": "Little Friends: Puppy Island",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010023801A52A000.jpg",
+      "variants": [
+        {
+          "id": "v_50ef70a8",
+          "name": "Little Friends: Puppy Island — Little Friends: P",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12VsSQFlGEAbNvVMBv4_dBs9t9V11XP8A",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12VsSQFlGEAbNvVMBv4_dBs9t9V11XP8A&sz=w640",
+          "sizeBytes": 5206080,
+          "sha256": "D94AC71D13358E4CE04F09372BCE1C0718C3DA6DDA10F0F84FD01FBB54837B6A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Little Friends: Puppy Island — Little Fr"
+        }
+      ]
+    },
+    {
+      "titleId": "01003FB01ACC4000",
+      "title": "Dude Where is My Beer",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003FB01ACC4000.jpg",
+      "variants": [
+        {
+          "id": "v_d88b3762",
+          "name": "Dude, Where Is My Beer? — Dude, Where Is My Beer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VLk_8uE-lxjHBPDznYmn67vMBnPVdWyf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VLk_8uE-lxjHBPDznYmn67vMBnPVdWyf&sz=w640",
+          "sizeBytes": 4401346,
+          "sha256": "4F4A83C2D7F8C5775A2BB02BBEAF22FCB4A5ECBC5ADCB2D022C96F76A79932D4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dude, Where Is My Beer? — Dude, Where Is"
+        }
+      ]
+    },
+    {
+      "titleId": "01006C1018D42000",
+      "title": "EchoBlade",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006C1018D42000.jpg",
+      "variants": [
+        {
+          "id": "v_d049d7ef",
+          "name": "EchoBlade — Trailer3",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HfzgrALuhY4CN2pVPk8h7MDtJ9QaxzZo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HfzgrALuhY4CN2pVPk8h7MDtJ9QaxzZo&sz=w640",
+          "sizeBytes": 5555841,
+          "sha256": "7FC3133BAE8B5C3E2D2D432C7147AEF2B2770C8C6A5D15A105726CE07F3DA483",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | EchoBlade — Trailer3"
+        }
+      ]
+    },
+    {
+      "titleId": "010032A008754000",
+      "title": "At Sundown Shots in the Dark",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010032A008754000.jpg",
+      "variants": [
+        {
+          "id": "v_0112f7c4",
+          "name": "AT SUNDOWN: Shots in the Dark — AT SUNDOWN: Shot",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10fbWxoNgB9xFEBzNScW0uiL5i8tsnP1s",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10fbWxoNgB9xFEBzNScW0uiL5i8tsnP1s&sz=w640",
+          "sizeBytes": 4146295,
+          "sha256": "803838F6C8DE4EE27CFA45CA7EC3964DA63F41DE7FFFE392A6AB1E5B68E38737",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | AT SUNDOWN: Shots in the Dark — AT SUNDO"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B7E0102E4000",
+      "title": "Drawngeon Dungeons of Ink and Paper",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B7E0102E4000.jpg",
+      "variants": [
+        {
+          "id": "v_ccb55b03",
+          "name": "Drawngeon: Dungeons of Ink and Paper — Drawngeon",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-0AOd3z16UvT8LD2zuW0c6R6iCiXgLfJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-0AOd3z16UvT8LD2zuW0c6R6iCiXgLfJ&sz=w640",
+          "sizeBytes": 5291071,
+          "sha256": "9D8054E1BCF1C23FC6EF5C2A3BDF116F2B3159855B8FE2BF8F53D48952D48B9A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Drawngeon: Dungeons of Ink and Paper — D"
+        }
+      ]
+    },
+    {
+      "titleId": "01009BF00E7D2000",
+      "title": "Synthetik Ultimate",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009BF00E7D2000.jpg",
+      "variants": [
+        {
+          "id": "v_c19ee9dd",
+          "name": "SYNTHETIK 2 — Update20",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1w0UOcBzcfvUq1P-L08eIdcf8sDlRPFRI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1w0UOcBzcfvUq1P-L08eIdcf8sDlRPFRI&sz=w640",
+          "sizeBytes": 5713877,
+          "sha256": "7822EA1CDC89FC5B763A9857CCE64302755BA57AE56B7C643CB14F3BD11D7A58",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | SYNTHETIK 2 — Update20"
+        }
+      ]
     }
   ],
-  "totalGames": 3793,
-  "totalVariants": 5217,
-  "lastUpdated": "2026-11-10T06:22:32.320662+00:00"
+  "totalGames": 3803,
+  "totalVariants": 5227,
+  "lastUpdated": "2026-11-10T06:25:37.400165+00:00"
 }
