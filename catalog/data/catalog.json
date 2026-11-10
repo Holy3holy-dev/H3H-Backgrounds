@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T04:19:53.253859+00:00",
+  "updatedAt": "2026-11-10T04:23:00.603486+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -115928,9 +115928,269 @@
           "notes": "Switch 720p 30fps H264 | GNOSIA — Trailer-EN"
         }
       ]
+    },
+    {
+      "titleId": "0100E9D016226000",
+      "title": "The Dark Side of the Moon an Interactive FMV Thriller",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E9D016226000.jpg",
+      "variants": [
+        {
+          "id": "v_236f08ce",
+          "name": "The Dark Side of the Moon: An Interactive FMV Th",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fvnBS9Nfm2BfHvQzBkdWdCM1co122epu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fvnBS9Nfm2BfHvQzBkdWdCM1co122epu&sz=w640",
+          "sizeBytes": 5003620,
+          "sha256": "3A5197D501449FDCB23824AA467EDC0475B3042E647EE4385A2BCDFEE0A0D338",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Dark Side of the Moon: An Interactiv"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CA201683E000",
+      "title": "Lacuna",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CA201683E000.jpg",
+      "variants": [
+        {
+          "id": "v_ce98f430",
+          "name": "Lacuna: Prologue — Prologue Trailer EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hQjCCRxf6689ET73ly2g7L8xCLzOzDeo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hQjCCRxf6689ET73ly2g7L8xCLzOzDeo&sz=w640",
+          "sizeBytes": 5167646,
+          "sha256": "B5F24536445C2BDF337F242CF1D1BE19E8918CE47DB7058AB8BEDD099CB8869E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lacuna: Prologue — Prologue Trailer EN"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E7700C284000",
+      "title": "My Memory of Us",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E7700C284000.jpg",
+      "variants": [
+        {
+          "id": "v_8fa3c220",
+          "name": "My Memory of Us — Short gameplay",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nSkpFof7YJxXc1BrmvN3aFWQwWkmLP5I",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nSkpFof7YJxXc1BrmvN3aFWQwWkmLP5I&sz=w640",
+          "sizeBytes": 5485735,
+          "sha256": "69CDC972C51E1693EDE4CFEFC265777EE097926052419FCB844D7919A29B173B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | My Memory of Us — Short gameplay"
+        }
+      ]
+    },
+    {
+      "titleId": "01007EB00D208000",
+      "title": "The Shrouded Isle",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007EB00D208000.jpg",
+      "variants": [
+        {
+          "id": "v_4ebb9a31",
+          "name": "The Shrouded Isle — Updated Sunken Sins",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1J8DsRNftGDJKkUQQjItAEXUnZgHRSy6E",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1J8DsRNftGDJKkUQQjItAEXUnZgHRSy6E&sz=w640",
+          "sizeBytes": 4922195,
+          "sha256": "3BA272860E00BD264EF9F4B68382087F45816C91D954D235B24F1641A7167432",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Shrouded Isle — Updated Sunken Sins"
+        }
+      ]
+    },
+    {
+      "titleId": "010039A008E76000",
+      "title": "ChromaGun",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010039A008E76000.jpg",
+      "variants": [
+        {
+          "id": "v_3e85e798",
+          "name": "ChromaGun — ChromaGun Anniversary",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18iVM9GBSuO7UxjgGcnNxTbjY3zrVjE0q",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18iVM9GBSuO7UxjgGcnNxTbjY3zrVjE0q&sz=w640",
+          "sizeBytes": 1618403,
+          "sha256": "E750528F7076E99A286877B9D10C86ADF17305347004CCB007611B2F43CAD3DE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | ChromaGun — ChromaGun Anniversary"
+        }
+      ]
+    },
+    {
+      "titleId": "010072500D52E000",
+      "title": "Strike Suit Zero: Director's Cut",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010072500D52E000.jpg",
+      "variants": [
+        {
+          "id": "v_a8d28d8a",
+          "name": "Strike Suit Zero: Director's Cut — Strike Suit Z",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11o9mGRdshsxBulJN4cogr92lVncE3Chn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11o9mGRdshsxBulJN4cogr92lVncE3Chn&sz=w640",
+          "sizeBytes": 5084615,
+          "sha256": "BB2D1A86A2600F8181945EE0C700F7265045762697892D907D6711CBEDF86B1B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Strike Suit Zero: Director's Cut — Strik"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F18020F6C000",
+      "title": "Vanity Fair the Pursuit",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F18020F6C000.jpg",
+      "variants": [
+        {
+          "id": "v_688cffb5",
+          "name": "Vanity Fair: The Pursuit — 名利游戏",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fzeq_I16xQojprdP_vHyaEXXGu81bpgg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fzeq_I16xQojprdP_vHyaEXXGu81bpgg&sz=w640",
+          "sizeBytes": 5147000,
+          "sha256": "CE0480FF75AA4A0855EAA7F807346BB33A2C951BCFBA6062372983A6FAC323C8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Vanity Fair: The Pursuit — 名利游戏"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FFE0241AD000",
+      "title": "Knowledge or Know Lady",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FFE0241AD000.jpg",
+      "variants": [
+        {
+          "id": "v_2ae05d3a",
+          "name": "Knowledge, or know Lady — lsp_pv",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1v_WScUHyUdq7JmFi_Y_SzbM0Fr4eJasI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1v_WScUHyUdq7JmFi_Y_SzbM0Fr4eJasI&sz=w640",
+          "sizeBytes": 5506350,
+          "sha256": "53A3F37D1779A859C9792765E93CDC2E6D330FBA8B2DD235687736721A7B37E4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Knowledge, or know Lady — lsp_pv"
+        }
+      ]
+    },
+    {
+      "titleId": "01005AD00B91A000",
+      "title": "Never Give Up",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005AD00B91A000.jpg",
+      "variants": [
+        {
+          "id": "v_72f08d1e",
+          "name": "Never Give Up — Never Give Up Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1v4AgsLcJsp6kd-8abZiDHaZjO1G5F17N",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1v4AgsLcJsp6kd-8abZiDHaZjO1G5F17N&sz=w640",
+          "sizeBytes": 4751816,
+          "sha256": "1F1331036C7E4E4CA97A7FACD58B6AD53B0C31D90AF1FE730151A53328D7F14C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Never Give Up — Never Give Up Launch Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "010007300DE1E000",
+      "title": "Monaco: What's Yours Is Mine Complete edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010007300DE1E000.jpg",
+      "variants": [
+        {
+          "id": "v_2ab72db0",
+          "name": "Monaco: What's Yours Is Mine — Monaco Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XpaffIbBHW1hMqMk6G2aYqfZNhduvjQF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XpaffIbBHW1hMqMk6G2aYqfZNhduvjQF&sz=w640",
+          "sizeBytes": 5317168,
+          "sha256": "487FC40A82B0A9CF509847E077866F570E469009373FC083EFB207BAF95E0B1F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Monaco: What's Yours Is Mine — Monaco Tr"
+        }
+      ]
     }
   ],
-  "totalGames": 3403,
-  "totalVariants": 4827,
-  "lastUpdated": "2026-11-10T04:19:53.253859+00:00"
+  "totalGames": 3413,
+  "totalVariants": 4837,
+  "lastUpdated": "2026-11-10T04:23:00.603486+00:00"
 }
