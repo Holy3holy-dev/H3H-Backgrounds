@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T02:12:02.453031+00:00",
+  "updatedAt": "2026-11-10T02:14:59.702909+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -105008,9 +105008,269 @@
           "notes": "Switch 720p 30fps H264 | Disaster Band — Disaster Band - Update T"
         }
       ]
+    },
+    {
+      "titleId": "01006D501D14A000",
+      "title": "Terra Nil",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006D501D14A000.jpg",
+      "variants": [
+        {
+          "id": "v_130c0cdd",
+          "name": "Terra Nil — Heatwave",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OOuC81cF0uWQjqeS7u-VZZTQD2HdFg3J",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OOuC81cF0uWQjqeS7u-VZZTQD2HdFg3J&sz=w640",
+          "sizeBytes": 5254400,
+          "sha256": "BA907E57565E3A6EE044E9381F380A11287A26AF298F164736B5B672040B99C7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Terra Nil — Heatwave"
+        }
+      ]
+    },
+    {
+      "titleId": "010001400E474000",
+      "title": "Subdivision Infinity DX",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010001400E474000.jpg",
+      "variants": [
+        {
+          "id": "v_df69d20a",
+          "name": "Subdivision Infinity DX — Subdivision Infinity g",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ucW6bEwpYQBHsn2G0B0uBNeT-yddvNpV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ucW6bEwpYQBHsn2G0B0uBNeT-yddvNpV&sz=w640",
+          "sizeBytes": 5689351,
+          "sha256": "BDD7187C44B2FF756F0428727037E473A18FD7A92EAC443E5D21D824D66B5B03",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Subdivision Infinity DX — Subdivision In"
+        }
+      ]
+    },
+    {
+      "titleId": "010020700DE04000",
+      "title": "Bear With Me The Lost Robots",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010020700DE04000.jpg",
+      "variants": [
+        {
+          "id": "v_7b9fe4b0",
+          "name": "Bear With Me: The Lost Robots — E3 2019 Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kxixEVnbqSwy_ltoR5_brlrkkeljMEE0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kxixEVnbqSwy_ltoR5_brlrkkeljMEE0&sz=w640",
+          "sizeBytes": 5236876,
+          "sha256": "B06E886208B4552902BDAF0AC22ED07D894ED5E6F187882304502CCA88D83F62",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bear With Me: The Lost Robots — E3 2019 "
+        }
+      ]
+    },
+    {
+      "titleId": "010040F01198C000",
+      "title": "Trenches",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010040F01198C000.jpg",
+      "variants": [
+        {
+          "id": "v_6d51bc04",
+          "name": "Stickman Trenches — Stickman Trenches New Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1i2sV9MJPo0TKC_URHK6MmO5uZ9SJlBsP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1i2sV9MJPo0TKC_URHK6MmO5uZ9SJlBsP&sz=w640",
+          "sizeBytes": 4634679,
+          "sha256": "68A0FF90C9E85F77C289DF957EB5AE7DB9A1D06277F44A13F8376EA56FB7E60D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Stickman Trenches — Stickman Trenches Ne"
+        }
+      ]
+    },
+    {
+      "titleId": "01002F80186D6000",
+      "title": "The Pinball Wizard",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002F80186D6000.jpg",
+      "variants": [
+        {
+          "id": "v_902d3a5a",
+          "name": "The Pinball Wizard — The Pinball Wizard (Announc",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FNLh_eRPSKQr10LjrVJf28G6hJyey0QI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FNLh_eRPSKQr10LjrVJf28G6hJyey0QI&sz=w640",
+          "sizeBytes": 5221100,
+          "sha256": "0AB92F6AEF51C6329518A450E02C70DBB15C0AE60DAC3CDE6773F451C3251701",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Pinball Wizard — The Pinball Wizard "
+        }
+      ]
+    },
+    {
+      "titleId": "01004D501113C000",
+      "title": "Going Under",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004D501113C000.jpg",
+      "variants": [
+        {
+          "id": "v_42a13b42",
+          "name": "Going Under — Working From Home Update Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1EqOyDuryPPLwi0lEejRr-tIeMW3EZr_Z",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1EqOyDuryPPLwi0lEejRr-tIeMW3EZr_Z&sz=w640",
+          "sizeBytes": 2800597,
+          "sha256": "106E122B45364047577C69EA8654DA230AE82B654964993F6B8470AC3D579321",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Going Under — Working From Home Update T"
+        }
+      ]
+    },
+    {
+      "titleId": "010065C00CD98000",
+      "title": "Bot Vice",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010065C00CD98000.jpg",
+      "variants": [
+        {
+          "id": "v_5af15280",
+          "name": "Bot Vice — Bot Vice Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=144stXq-1qHLiEqQi8Y2L5m2SJgw60efi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=144stXq-1qHLiEqQi8Y2L5m2SJgw60efi&sz=w640",
+          "sizeBytes": 5409567,
+          "sha256": "1011A0738F30B1B24F9458B3DECB73802FB6E683EDC5E676A8006228C4DB7A7A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bot Vice — Bot Vice Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01002FF00F460000",
+      "title": "Warhammer Quest 2 The End Times",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002FF00F460000.jpg",
+      "variants": [
+        {
+          "id": "v_f5e74b80",
+          "name": "Warhammer Quest 2: The End Times (Classic) — WQ2",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ew44s1mGI2p-awjGoqod1FSzs8YNj2qb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ew44s1mGI2p-awjGoqod1FSzs8YNj2qb&sz=w640",
+          "sizeBytes": 5269842,
+          "sha256": "61C1D3C6ED1B333910A6CC9D7ACF16D39E59087980DEB26B3785D63AF85267B2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Warhammer Quest 2: The End Times (Classi"
+        }
+      ]
+    },
+    {
+      "titleId": "010040900AF46000",
+      "title": "Ikenfell",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010040900AF46000.jpg",
+      "variants": [
+        {
+          "id": "v_c8d7f290",
+          "name": "Ikenfell — Ikenfell - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VEjf7M1lnE9svHJP0oFCWcl0I1cqCufV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VEjf7M1lnE9svHJP0oFCWcl0I1cqCufV&sz=w640",
+          "sizeBytes": 5047070,
+          "sha256": "63383C5AB55BA66D7C2506D8330794B417A071F763F5E114B893B16845C72B77",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ikenfell — Ikenfell - Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01004680126BC000",
+      "title": "Toy Soldiers HD",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004680126BC000.jpg",
+      "variants": [
+        {
+          "id": "v_98c3ebb3",
+          "name": "Toy Soldiers: HD — Toy Soldiers HD Steam Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_9QqNFXHcJApvxFvIXmy3YVHB-hZCMp3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_9QqNFXHcJApvxFvIXmy3YVHB-hZCMp3&sz=w640",
+          "sizeBytes": 5256812,
+          "sha256": "B3518398ACC1E0FE8245B94672631641105BDFCDEEEE8BFAB90013FF522F67C8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Toy Soldiers: HD — Toy Soldiers HD Steam"
+        }
+      ]
     }
   ],
-  "totalGames": 2983,
-  "totalVariants": 4407,
-  "lastUpdated": "2026-11-10T02:12:02.453031+00:00"
+  "totalGames": 2993,
+  "totalVariants": 4417,
+  "lastUpdated": "2026-11-10T02:14:59.702909+00:00"
 }
