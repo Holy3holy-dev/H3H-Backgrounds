@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T04:44:04.910162+00:00",
+  "updatedAt": "2026-11-10T04:47:05.849699+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -118008,9 +118008,269 @@
           "notes": "Switch 720p 30fps H264 | Motorsport Manager — MM_Asset_Update_Tra"
         }
       ]
+    },
+    {
+      "titleId": "010053502435A000",
+      "title": "ShapeHero Factory",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010053502435A000.jpg",
+      "variants": [
+        {
+          "id": "v_6aead3fb",
+          "name": "ShapeHero Factory — FullRelease-after_en",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15IiaKKFZUWyqulKEWKcpAU__wWDil5rh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15IiaKKFZUWyqulKEWKcpAU__wWDil5rh&sz=w640",
+          "sizeBytes": 5173900,
+          "sha256": "F0E544176D358D9C3B218A2D4F8B52BC1468B720903973B40340D62B74431EC9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | ShapeHero Factory — FullRelease-after_en"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E09009600000",
+      "title": "Ibb and Obb",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E09009600000.jpg",
+      "variants": [
+        {
+          "id": "v_8b79e27a",
+          "name": "ibb & obb — ibb & obb Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18fbSzRrVNBd95qPrf7smbdSpXiksRsX9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18fbSzRrVNBd95qPrf7smbdSpXiksRsX9&sz=w640",
+          "sizeBytes": 5465839,
+          "sha256": "3A9B8B91DE020C4EF59D87CD464255B447A6172615D7C065665658A7753D76EC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | ibb & obb — ibb & obb Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D6401A9E6000",
+      "title": "Alice Sisters",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D6401A9E6000.jpg",
+      "variants": [
+        {
+          "id": "v_82b4e7fe",
+          "name": "Alice Sisters — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14SnTIuDZXqtRlaUOS2-6RClBs1ejli-S",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14SnTIuDZXqtRlaUOS2-6RClBs1ejli-S&sz=w640",
+          "sizeBytes": 5400001,
+          "sha256": "37CFC94CEA41E325A3D6DC58744F00A7F8BCE9CCDFDC7F9E9D50DD99A43B4169",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Alice Sisters — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C5000F294000",
+      "title": "Battle Brothers",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C5000F294000.jpg",
+      "variants": [
+        {
+          "id": "v_f9bb6281",
+          "name": "Battle Brothers — Announcement Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KtsshDRERNUAspFwDUMsFOukD2SV-jBg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KtsshDRERNUAspFwDUMsFOukD2SV-jBg&sz=w640",
+          "sizeBytes": 5209241,
+          "sha256": "03078ED39BD9DC98138D8592F7CF0CE9E29222420A71DD424366339A821955CA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Battle Brothers — Announcement Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010020500BD98000",
+      "title": "King's Bird",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010020500BD98000.jpg",
+      "variants": [
+        {
+          "id": "v_7f1ba4b5",
+          "name": "The King's Bird — The King's Bird Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UyilyC4VjbDyLUZe84SEanoQvr4p28zA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UyilyC4VjbDyLUZe84SEanoQvr4p28zA&sz=w640",
+          "sizeBytes": 4850392,
+          "sha256": "723E4F0F498AF5B0ABD40C64C9925D75FD3EE65F0344A07814ED69171A41FA54",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The King's Bird — The King's Bird Launch"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DCA011262000",
+      "title": "Mr. Driller DrillLand",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DCA011262000.jpg",
+      "variants": [
+        {
+          "id": "v_87e574fb",
+          "name": "Mr. DRILLER DrillLand — Mr Driller DrillLand Tra",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=122ZDoCiSaK_pupW1vVXR11BNMwaGi3_6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=122ZDoCiSaK_pupW1vVXR11BNMwaGi3_6&sz=w640",
+          "sizeBytes": 4398276,
+          "sha256": "D1894829D1FF00884ABF19DF874BD2708CDD43BBA50DABFC61EA7889174F2B98",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mr. DRILLER DrillLand — Mr Driller Drill"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E5001FB58000",
+      "title": "Cricket Jae's Really Peculiar Game",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E5001FB58000.jpg",
+      "variants": [
+        {
+          "id": "v_736bd923",
+          "name": "Cricket: Jae's Really Peculiar Game — Launch Tra",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_qm2eaVsPazJ9_R6d0I9AgMl-2PCWJzj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_qm2eaVsPazJ9_R6d0I9AgMl-2PCWJzj&sz=w640",
+          "sizeBytes": 5386101,
+          "sha256": "8579F5AB902447D84EEB94F85933817070A4E74ED605AE81F0114E9A4DEBB6DC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cricket: Jae's Really Peculiar Game — La"
+        }
+      ]
+    },
+    {
+      "titleId": "0100711022E24000",
+      "title": "Lynked Banner of the Spark",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100711022E24000.jpg",
+      "variants": [
+        {
+          "id": "v_5bd05254",
+          "name": "Lynked: Banner of the Spark — FGS Trailer - EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OGKDH8L0B1t93ydee_-AI0nHT-Cchrcs",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OGKDH8L0B1t93ydee_-AI0nHT-Cchrcs&sz=w640",
+          "sizeBytes": 5601273,
+          "sha256": "CD8D11F44A122729FF15FE0306C11F71207E72FC879043D5F1172D9D19F4ADB4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lynked: Banner of the Spark — FGS Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "01009E20141AC000",
+      "title": "Sol Cresta",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009E20141AC000.jpg",
+      "variants": [
+        {
+          "id": "v_ebde1be2",
+          "name": "SOL CRESTA — Launch Trailer EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AUDosdeUYII5WVxeFbdFHYGfhOZI_owb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AUDosdeUYII5WVxeFbdFHYGfhOZI_owb&sz=w640",
+          "sizeBytes": 3974060,
+          "sha256": "B7E0E0FEF395A4E23523C16D44A32D95C30AF2C544AFBFBACCFC100725D27137",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | SOL CRESTA — Launch Trailer EN"
+        }
+      ]
+    },
+    {
+      "titleId": "01008A6009758000",
+      "title": "Fairune Collection: Fairune",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008A6009758000.jpg",
+      "variants": [
+        {
+          "id": "v_4d92383f",
+          "name": "Fairune Collection — FairuneCollection_steam_201",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_wwWjsjJdWyZTAR2A0qehlbOXyF5qIya",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_wwWjsjJdWyZTAR2A0qehlbOXyF5qIya&sz=w640",
+          "sizeBytes": 4853227,
+          "sha256": "D7C89A3F0FD8F94DB8AE268CD06C93A9DFA4475A96A38747BE1570B1D21265B3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fairune Collection — FairuneCollection_s"
+        }
+      ]
     }
   ],
-  "totalGames": 3483,
-  "totalVariants": 4907,
-  "lastUpdated": "2026-11-10T04:44:04.910162+00:00"
+  "totalGames": 3493,
+  "totalVariants": 4917,
+  "lastUpdated": "2026-11-10T04:47:05.849699+00:00"
 }
