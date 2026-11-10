@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T20:53:00Z",
+  "updatedAt": "2026-11-10T20:54:31Z",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -6187,7 +6187,13 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Classic M3 GTR Cutscene Intro"
+          "notes": "Classic M3 GTR Cutscene Intro",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1NalVlCgVn91keg_y-XON89SAR_PU4mBP",
+          "iconSizeBytes": 104705,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
         },
         {
           "id": "var-mw-blacklist",
@@ -6278,6 +6284,30 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "SteamGridDB Animated Hero: NFS MW: City Skyline Neon"
+        },
+        {
+          "id": "icon-0100000000000001",
+          "name": "4IFIR Иконка: Need for Speed: Most Wanted",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NalVlCgVn91keg_y-XON89SAR_PU4mBP",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1NalVlCgVn91keg_y-XON89SAR_PU4mBP",
+          "sizeBytes": 104705,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1NalVlCgVn91keg_y-XON89SAR_PU4mBP",
+          "iconSizeBytes": 104705,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -6302,7 +6332,37 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 010029B0118E8000_NFS_Most_Wanted.mp4"
+          "notes": "Google Drive: 010029B0118E8000_NFS_Most_Wanted.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1vC6qh_6k49tEi-gPj6CfRbsZloC_bfYC",
+          "iconSizeBytes": 369229,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
+        },
+        {
+          "id": "icon-010029b0118e8000",
+          "name": "4IFIR Иконка: Need for Speed Hot Pursuit Remastered (NFS:HP) [NSZ][RUS/Multi9]",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vC6qh_6k49tEi-gPj6CfRbsZloC_bfYC",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1vC6qh_6k49tEi-gPj6CfRbsZloC_bfYC",
+          "sizeBytes": 369229,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1vC6qh_6k49tEi-gPj6CfRbsZloC_bfYC",
+          "iconSizeBytes": 369229,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -6327,7 +6387,37 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 01002EF01A316000_Brotato_New_Dawn.mp4"
+          "notes": "Google Drive: 01002EF01A316000_Brotato_New_Dawn.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1gUrUwOsejv1SooO_o1ErB2nQan8VdPpc",
+          "iconSizeBytes": 112657,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
+        },
+        {
+          "id": "icon-01002ef01a316000",
+          "name": "4IFIR Иконка: Brotato + DLC Abyssal Terrors [NSZ][RUS/Multi10]",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gUrUwOsejv1SooO_o1ErB2nQan8VdPpc",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1gUrUwOsejv1SooO_o1ErB2nQan8VdPpc",
+          "sizeBytes": 112657,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1gUrUwOsejv1SooO_o1ErB2nQan8VdPpc",
+          "iconSizeBytes": 112657,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -6352,7 +6442,37 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 0100B61019056000_Vampire_Survivors.mp4"
+          "notes": "Google Drive: 0100B61019056000_Vampire_Survivors.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1jYN_MYJQEsS-mnXF76R7zJgTcMaH6N8w",
+          "iconSizeBytes": 806495,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
+        },
+        {
+          "id": "icon-0100b61019056000",
+          "name": "4IFIR Иконка: Vampire Survivors",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jYN_MYJQEsS-mnXF76R7zJgTcMaH6N8w",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1jYN_MYJQEsS-mnXF76R7zJgTcMaH6N8w",
+          "sizeBytes": 806495,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1jYN_MYJQEsS-mnXF76R7zJgTcMaH6N8w",
+          "iconSizeBytes": 806495,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -6910,7 +7030,37 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 03DB117EE17B6000.mp4"
+          "notes": "Google Drive: 03DB117EE17B6000.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=14RoNvUzbm57jL5kfDpNctehF2VeB8iT4",
+          "iconSizeBytes": 100536,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
+        },
+        {
+          "id": "icon-03db117ee17b6000",
+          "name": "4IFIR Иконка: Switch Homebrew Forwarder / Title (03DB117EE17B6000)",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14RoNvUzbm57jL5kfDpNctehF2VeB8iT4",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=14RoNvUzbm57jL5kfDpNctehF2VeB8iT4",
+          "sizeBytes": 100536,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=14RoNvUzbm57jL5kfDpNctehF2VeB8iT4",
+          "iconSizeBytes": 100536,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -7092,7 +7242,37 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 0100FA10115F8000_Republic_Commando.mp4"
+          "notes": "Google Drive: 0100FA10115F8000_Republic_Commando.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1H-WniG8hUS60VpHCTM6oX9gLbi6FDkwH",
+          "iconSizeBytes": 177395,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
+        },
+        {
+          "id": "icon-0100fa10115f8000",
+          "name": "4IFIR Иконка: Star Wars Republic Commando [NSZ][RUS (Mod.)/ENG]",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1H-WniG8hUS60VpHCTM6oX9gLbi6FDkwH",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1H-WniG8hUS60VpHCTM6oX9gLbi6FDkwH",
+          "sizeBytes": 177395,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1H-WniG8hUS60VpHCTM6oX9gLbi6FDkwH",
+          "iconSizeBytes": 177395,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -7117,7 +7297,13 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 0100F7E00C70E000_Hogwarts_Legacy.mp4"
+          "notes": "Google Drive: 0100F7E00C70E000_Hogwarts_Legacy.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1qKAAVW5NulXb-_UmBX74bypLcfiv9DD5",
+          "iconSizeBytes": 51749,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
         },
         {
           "id": "v_e8184f99",
@@ -7172,6 +7358,30 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Hogwarts Legacy | ЗВУК"
+        },
+        {
+          "id": "icon-0100f7e00c70e000",
+          "name": "4IFIR Иконка: Hogwarts Legacy (Хогвартс. Наследие) [RePack][NSP][RUS (Voice Mod.)]",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qKAAVW5NulXb-_UmBX74bypLcfiv9DD5",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1qKAAVW5NulXb-_UmBX74bypLcfiv9DD5",
+          "sizeBytes": 51749,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1qKAAVW5NulXb-_UmBX74bypLcfiv9DD5",
+          "iconSizeBytes": 51749,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -168891,6 +169101,6 @@
     }
   ],
   "totalGames": 5418,
-  "totalVariants": 6861,
-  "lastUpdated": "2026-11-10T20:53:00Z"
+  "totalVariants": 6868,
+  "lastUpdated": "2026-11-10T20:54:31Z"
 }
