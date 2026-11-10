@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T07:49:23.082678+00:00",
+  "updatedAt": "2026-11-10T07:52:18.960295+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -133608,9 +133608,269 @@
           "notes": "Switch 720p 30fps H264 | Magical Delicacy — Release Date Trailer"
         }
       ]
+    },
+    {
+      "titleId": "010009301DC10000",
+      "title": "Magical Bakery",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010009301DC10000.jpg",
+      "variants": [
+        {
+          "id": "v_ae4903a9",
+          "name": "Magical Bakery — Magical Bakery - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AT2vYN2nh8CfEBb8ZMeoLgxWRjWlIxvS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AT2vYN2nh8CfEBb8ZMeoLgxWRjWlIxvS&sz=w640",
+          "sizeBytes": 5215576,
+          "sha256": "4B2D93AB5F099E04F58DC30A5A0356DB25FB38689A87024395D6C9324C98A902",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Magical Bakery — Magical Bakery - Launch"
+        }
+      ]
+    },
+    {
+      "titleId": "0100ED601B876000",
+      "title": "Lysfanga the Time Shift Warrior",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100ED601B876000.jpg",
+      "variants": [
+        {
+          "id": "v_27d0dbbb",
+          "name": "Lysfanga: The Time Shift Warrior — Launch Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1x7tnkZ1VNqi9AveIFDXfjd7PW5aQJSh4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1x7tnkZ1VNqi9AveIFDXfjd7PW5aQJSh4&sz=w640",
+          "sizeBytes": 5647773,
+          "sha256": "B31C6609949DA0233B89AA967013A0EFDD2A0DF4F4720A3B2CAF04C4B7E5E5BA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lysfanga: The Time Shift Warrior — Launc"
+        }
+      ]
+    },
+    {
+      "titleId": "01009F901B458000",
+      "title": "Lunar Lander Beyond",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009F901B458000.jpg",
+      "variants": [
+        {
+          "id": "v_70aec342",
+          "name": "Lunar Lander Beyond — Lunar Lander Beyond - Laun",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Htv84fxaXHDB5GU2I-iQk6rzTU_GpnDw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Htv84fxaXHDB5GU2I-iQk6rzTU_GpnDw&sz=w640",
+          "sizeBytes": 4109451,
+          "sha256": "08ED7AD3D298756CE9BC7F91BDEF76DCAA7360581149121EC5F810774BEB5907",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lunar Lander Beyond — Lunar Lander Beyon"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C7601CD2E000",
+      "title": "Let's Revolution",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C7601CD2E000.jpg",
+      "variants": [
+        {
+          "id": "v_adb44df6",
+          "name": "Let's! Revolution! — Game Overview",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10w5LNEbL_eg8VGQFGrF5XaaFgfV9yE4j",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10w5LNEbL_eg8VGQFGrF5XaaFgfV9yE4j&sz=w640",
+          "sizeBytes": 5413583,
+          "sha256": "3DFE4969388D286F99A96574A2811A9EECB4BE503742DFADF2A4F8639911EF7A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Let's! Revolution! — Game Overview"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D1E019C72000",
+      "title": "Last Night of Winter",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D1E019C72000.jpg",
+      "variants": [
+        {
+          "id": "v_1a4a24f6",
+          "name": "Last Night of Winter — Last Night of Winter Trai",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OIoGCxk0gABnW1doy-hLnWlTHEmAW46T",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OIoGCxk0gABnW1doy-hLnWlTHEmAW46T&sz=w640",
+          "sizeBytes": 5055666,
+          "sha256": "2E4F77C78BFAA258D5E14D91791DE3F86B138A94AC8FFD4ECC61B02E4A8ADB62",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Last Night of Winter — Last Night of Win"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FB901472C000",
+      "title": "Knights of the Rogue Dungeon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FB901472C000.jpg",
+      "variants": [
+        {
+          "id": "v_b2809ad0",
+          "name": "Knights of the Rogue Dungeon — Accolades",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=146b2_i0SeHAPgz0KiljnnAyN2eTm9AYv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=146b2_i0SeHAPgz0KiljnnAyN2eTm9AYv&sz=w640",
+          "sizeBytes": 5369392,
+          "sha256": "C97033DFE61EDC1CA7854104BFA2D1173EC0685CF6AF3484ECBE45CA2E533DEB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Knights of the Rogue Dungeon — Accolades"
+        }
+      ]
+    },
+    {
+      "titleId": "010097801C4C2000",
+      "title": "Kitten Hero",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010097801C4C2000.jpg",
+      "variants": [
+        {
+          "id": "v_4e78fbe5",
+          "name": "Kitten Hero — Trailer 1",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17vGn7X3lDYAIlTiYpZ_bJN6bSdM4CTHE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17vGn7X3lDYAIlTiYpZ_bJN6bSdM4CTHE&sz=w640",
+          "sizeBytes": 4900154,
+          "sha256": "24B0D2CD7459153D7BDC1D338F4203BAE4B25AEC0E5F85572221671EC7502099",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kitten Hero — Trailer 1"
+        }
+      ]
+    },
+    {
+      "titleId": "010047801EB9C000",
+      "title": "Kamaeru a Frog Refuge",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010047801EB9C000.jpg",
+      "variants": [
+        {
+          "id": "v_98cb1878",
+          "name": "Kamaeru: A Frog Refuge — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hgZrjpY77K-UnaMeEDi8BetsgABGC44l",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hgZrjpY77K-UnaMeEDi8BetsgABGC44l&sz=w640",
+          "sizeBytes": 4994230,
+          "sha256": "79A88C52057AA0C3AD4FD39FEF14EB49767D5C940DE0F94C225960B0620DE25C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kamaeru: A Frog Refuge — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01009C801A516000",
+      "title": "Isolated",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009C801A516000.jpg",
+      "variants": [
+        {
+          "id": "v_f13ac63c",
+          "name": "Isolated Room — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1b0-ydTftVddtGHPRJP2skQXb1ur-5VTz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1b0-ydTftVddtGHPRJP2skQXb1ur-5VTz&sz=w640",
+          "sizeBytes": 4639165,
+          "sha256": "03EA5E37974964FF2364F0EA6D9FF855B05EEE48D1F455AE7586A5F0E4B7CF82",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Isolated Room — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010044A01FBE4000",
+      "title": "Home Safety Hotline",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010044A01FBE4000.jpg",
+      "variants": [
+        {
+          "id": "v_91852d00",
+          "name": "Home Safety Hotline — HSH Release Date Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Rew6YGtRsii7Y2dCyDzXuElnsApf8ylA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Rew6YGtRsii7Y2dCyDzXuElnsApf8ylA&sz=w640",
+          "sizeBytes": 5182861,
+          "sha256": "897EB77BB463D752A12BF9AF96E54646077CD59004A4822B19868DB4A0336568",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Home Safety Hotline — HSH Release Date T"
+        }
+      ]
     }
   ],
-  "totalGames": 4083,
-  "totalVariants": 5507,
-  "lastUpdated": "2026-11-10T07:49:23.082678+00:00"
+  "totalGames": 4093,
+  "totalVariants": 5517,
+  "lastUpdated": "2026-11-10T07:52:18.960295+00:00"
 }
