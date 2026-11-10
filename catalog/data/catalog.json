@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T02:47:32.536156+00:00",
+  "updatedAt": "2026-11-10T02:50:31.218375+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -107868,9 +107868,269 @@
           "notes": "Switch 720p 30fps H264 | Neon Blood — Neon Blood Launch Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100BA101712A000",
+      "title": "Ooblets",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BA101712A000.jpg",
+      "variants": [
+        {
+          "id": "v_38b4f2d3",
+          "name": "Ooblets — Ooblets Trailer 2023",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1u8E-RCiAdel5yC4z9AynSmBo6xcB_jSp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1u8E-RCiAdel5yC4z9AynSmBo6xcB_jSp&sz=w640",
+          "sizeBytes": 5600483,
+          "sha256": "C87AB01FF867EAE907670DE61E6B4D565A5B94517360DBE52B26A43653C0FF8E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ooblets — Ooblets Trailer 2023"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CCE01FF74000",
+      "title": "Cook For Love",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CCE01FF74000.jpg",
+      "variants": [
+        {
+          "id": "v_9bc57823",
+          "name": "Cook For Love — Cook For Love - Teaser",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xd5ZbFv7nnz0mWBrWgh1rhBVspDsewNZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xd5ZbFv7nnz0mWBrWgh1rhBVspDsewNZ&sz=w640",
+          "sizeBytes": 5275078,
+          "sha256": "552FDB8D4573AF14AB614F1D92249319285F870CA98BC02E42DB1AE5B5D1261D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cook For Love — Cook For Love - Teaser"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D8500A692000",
+      "title": "Night Trap 25th Anniversary Edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D8500A692000.jpg",
+      "variants": [
+        {
+          "id": "v_f797fcc0",
+          "name": "Night Trap - 25th Anniversary Edition — Announce",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dCO46BSmgRSDgvQJ5msy9HQZX16M9GGD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dCO46BSmgRSDgvQJ5msy9HQZX16M9GGD&sz=w640",
+          "sizeBytes": 3842099,
+          "sha256": "C242615F64360A3891626C6FB91CA038BA5F3B64560BFBBE7AC16D2BA2506233",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Night Trap - 25th Anniversary Edition — "
+        }
+      ]
+    },
+    {
+      "titleId": "0100D36013BDC000",
+      "title": "Corpse Killer 25th Anniversary edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D36013BDC000.jpg",
+      "variants": [
+        {
+          "id": "v_056f59e1",
+          "name": "Corpse Killer - 25th Anniversary Edition — Annou",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SuP9sckAJJ71i-0akGDJZIkiLyA9UzVV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SuP9sckAJJ71i-0akGDJZIkiLyA9UzVV&sz=w640",
+          "sizeBytes": 5108998,
+          "sha256": "9BBE3F210E3A9F8BF81420305D8B1E829D9D1E3F018A3DA6A389C2DDF7056E10",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Corpse Killer - 25th Anniversary Edition"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FC000EE10000",
+      "title": "Double Switch 25th Anniversary Edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FC000EE10000.jpg",
+      "variants": [
+        {
+          "id": "v_b88f2e53",
+          "name": "Double Switch - 25th Anniversary Edition — Avail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19Qqx2s6G6puRYnXmMtKQTWSJeyXbFD5B",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19Qqx2s6G6puRYnXmMtKQTWSJeyXbFD5B&sz=w640",
+          "sizeBytes": 5118734,
+          "sha256": "504468D08BF5FC81332E55116181A0033E0D7541A77CD87456F165A1EB86A79D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Double Switch - 25th Anniversary Edition"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D9A01A278000",
+      "title": "Skinny and Franko Fists of Violence",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D9A01A278000.jpg",
+      "variants": [
+        {
+          "id": "v_2e38aae3",
+          "name": "Skinny & Franko: Fists of Violence — S&F: FoV Tr",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lZux946bxVi7J5P1j_qzdL4RpUXLFT2U",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lZux946bxVi7J5P1j_qzdL4RpUXLFT2U&sz=w640",
+          "sizeBytes": 5103713,
+          "sha256": "BBD4420034664AC09BEBF17207373E0464E32D9FFAEF111EE9FC8ADA50103EA6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Skinny & Franko: Fists of Violence — S&F"
+        }
+      ]
+    },
+    {
+      "titleId": "01009BE014CA6000",
+      "title": "Cat Cafe Manager",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009BE014CA6000.jpg",
+      "variants": [
+        {
+          "id": "v_b0b518e4",
+          "name": "Cat Cafe Manager — CCM Launch Trailer 4/15",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Uy-mgtZ9zitWlJQ3zxqiNnl3IlndVwhg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Uy-mgtZ9zitWlJQ3zxqiNnl3IlndVwhg&sz=w640",
+          "sizeBytes": 5354977,
+          "sha256": "072F0FB3E7D463EF17721A6037B2351A587CB917774BD5CB6D88406557936D69",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cat Cafe Manager — CCM Launch Trailer 4/"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C970269E0000",
+      "title": "MotionRec",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C970269E0000.jpg",
+      "variants": [
+        {
+          "id": "v_88904b2d",
+          "name": "MotionRec — TrailerEN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KHSnm6WxbzkeKwgGPx9kFPLcyVzg4xne",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KHSnm6WxbzkeKwgGPx9kFPLcyVzg4xne&sz=w640",
+          "sizeBytes": 3751746,
+          "sha256": "2E47834244A853057C0B160FCCA7B9386EEB5611EF971083C962B0036CA122EA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | MotionRec — TrailerEN"
+        }
+      ]
+    },
+    {
+      "titleId": "01009F301D746000",
+      "title": "Rise of the Golden Idol",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009F301D746000.jpg",
+      "variants": [
+        {
+          "id": "v_217b4a32",
+          "name": "The Rise of the Golden Idol — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DiiUbPSOB2oKeTQ1sq8TyqNKaKIITQTL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DiiUbPSOB2oKeTQ1sq8TyqNKaKIITQTL&sz=w640",
+          "sizeBytes": 5394117,
+          "sha256": "00BA7A22138DD3559203DA989806B51F54DA64DDBED80CD5B472EDE1AE916FFA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Rise of the Golden Idol — Launch Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "01009C901ACEE000",
+      "title": "The Legend of Nayuta: Boundless Trails",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009C901ACEE000.jpg",
+      "variants": [
+        {
+          "id": "v_24e0291d",
+          "name": "The Legend of Nayuta: Boundless Trails — PV04 - ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10Kc8pHSACqqC_xbcmbniUbHTdjRu_XWs",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10Kc8pHSACqqC_xbcmbniUbHTdjRu_XWs&sz=w640",
+          "sizeBytes": 4366720,
+          "sha256": "4620288542BA5845EB78C57B90B21A2949DD49CDE9117BDF429315CEA3A63068",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Legend of Nayuta: Boundless Trails —"
+        }
+      ]
     }
   ],
-  "totalGames": 3093,
-  "totalVariants": 4517,
-  "lastUpdated": "2026-11-10T02:47:32.536156+00:00"
+  "totalGames": 3103,
+  "totalVariants": 4527,
+  "lastUpdated": "2026-11-10T02:50:31.218375+00:00"
 }
