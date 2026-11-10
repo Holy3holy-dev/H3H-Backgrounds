@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T08:57:18.604274+00:00",
+  "updatedAt": "2026-11-10T09:00:27.708571+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -139068,9 +139068,269 @@
           "notes": "Switch 720p 30fps H264 | BIT.TRIP Presents... Runner2: Future Leg"
         }
       ]
+    },
+    {
+      "titleId": "0100BAD013B6E000",
+      "title": "Radio Commander",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BAD013B6E000.jpg",
+      "variants": [
+        {
+          "id": "v_002a4fc5",
+          "name": "Radio Commander: Vietnam '64 — Radio Commander T",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16qhpFDPAm9eQmbmuQod1yr4aKzVjdQ0s",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16qhpFDPAm9eQmbmuQod1yr4aKzVjdQ0s&sz=w640",
+          "sizeBytes": 5340923,
+          "sha256": "E4F4D17A1EA1176D99CEAD9BF97BE857B625125B15D11FE1104D814A9AD1B072",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Radio Commander: Vietnam '64 — Radio Com"
+        }
+      ]
+    },
+    {
+      "titleId": "010039600E7AC000",
+      "title": "Attack of the Toy Tanks",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010039600E7AC000.jpg",
+      "variants": [
+        {
+          "id": "v_790231d0",
+          "name": "Attack of the Toy Tanks — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1USngT31Ij3wNcjGl7kt4ILWz_p1ppyfc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1USngT31Ij3wNcjGl7kt4ILWz_p1ppyfc&sz=w640",
+          "sizeBytes": 4412128,
+          "sha256": "6B4DAD6D5B1C68D4C48F8791C59C5079F36300CE96A9ECD8F644E6297638458C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Attack of the Toy Tanks — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100336016172000",
+      "title": "Repentant",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100336016172000.jpg",
+      "variants": [
+        {
+          "id": "v_aedcd3cc",
+          "name": "Repentant — Repentant Teaser",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Zdq9sYeVtohzch4opQKAt7FWkcqKJdav",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Zdq9sYeVtohzch4opQKAt7FWkcqKJdav&sz=w640",
+          "sizeBytes": 5142741,
+          "sha256": "CC343D267916102ED6FDFE2930432965ABB9A53C76034881F93BED177762C244",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Repentant — Repentant Teaser"
+        }
+      ]
+    },
+    {
+      "titleId": "01005D501A5FE000",
+      "title": "Decarnation",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005D501A5FE000.jpg",
+      "variants": [
+        {
+          "id": "v_427eb8eb",
+          "name": "Decarnation — Decarnation is Out Now!",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15eXnI6F35ehG1AcyAfnhHfb0bRSQJpmu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15eXnI6F35ehG1AcyAfnhHfb0bRSQJpmu&sz=w640",
+          "sizeBytes": 5132647,
+          "sha256": "1E376E2F4DDAB9369FCA392CD0D9F0986290C550AB2056EFFC2826CB8E3869FF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Decarnation — Decarnation is Out Now!"
+        }
+      ]
+    },
+    {
+      "titleId": "010076000F6B8000",
+      "title": "Home Sheep Home Farmageddon Party edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010076000F6B8000.jpg",
+      "variants": [
+        {
+          "id": "v_1d1333e2",
+          "name": "Home Sheep Home: Farmageddon Party Edition — Hom",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1C9kZuuzneT39-KrxWHa3VHLFFbnvxorF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1C9kZuuzneT39-KrxWHa3VHLFFbnvxorF&sz=w640",
+          "sizeBytes": 5162367,
+          "sha256": "CDB102D5D92A4093877C857A9063B7527F234C77E4CC232FF2AA4996B2FFEA5C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Home Sheep Home: Farmageddon Party Editi"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DB500B17C000",
+      "title": "Solstice Chronicles MIA",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DB500B17C000.jpg",
+      "variants": [
+        {
+          "id": "v_e42ee63a",
+          "name": "Solstice Chronicles: MIA — SCMIA Launch trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18jKzlKW6P7TdNA82dVnS0cMG6X1rxJGa",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18jKzlKW6P7TdNA82dVnS0cMG6X1rxJGa&sz=w640",
+          "sizeBytes": 5171973,
+          "sha256": "3E587511D187B5F55B2D7EA273AAC7F632C68AB9EBB9E9A257847AD14B5251F7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Solstice Chronicles: MIA — SCMIA Launch "
+        }
+      ]
+    },
+    {
+      "titleId": "0100D5D00DAF2000",
+      "title": "Story of a Gladiator",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D5D00DAF2000.jpg",
+      "variants": [
+        {
+          "id": "v_e0c40ab5",
+          "name": "Story of a Gladiator — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qlfSWdcuSpsSVM33RJ9WNHcXPIcQYl7c",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qlfSWdcuSpsSVM33RJ9WNHcXPIcQYl7c&sz=w640",
+          "sizeBytes": 5053397,
+          "sha256": "1E340F81F976204BCBA39024FE20C980CF07EDA5C7381BA47FE3D0701A379949",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Story of a Gladiator — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01008D101AB22000",
+      "title": "Demonic Supremacy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008D101AB22000.jpg",
+      "variants": [
+        {
+          "id": "v_d00baf5c",
+          "name": "Demonic Supremacy — Release trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13BOr0_oenRmYWaUEBQ7P6XxqRRIT7d3W",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13BOr0_oenRmYWaUEBQ7P6XxqRRIT7d3W&sz=w640",
+          "sizeBytes": 5552143,
+          "sha256": "4450BDEAB27ADEB94878D8A19951A80624ECDFE3A9221C48A494493C285A271B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Demonic Supremacy — Release trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F230145E2000",
+      "title": "Dance of Death Du Lac & Fey",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F230145E2000.jpg",
+      "variants": [
+        {
+          "id": "v_583ed2c0",
+          "name": "Dance of Death: Du Lac & Fey — Dance of Death: D",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pKqNCawv36jidl_vJ9yRgHyF8x1TMccn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pKqNCawv36jidl_vJ9yRgHyF8x1TMccn&sz=w640",
+          "sizeBytes": 5471717,
+          "sha256": "809DF66605EACE15CA9D231F4969D22D2ED673DE7A754925B1EC0788C8C5F787",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dance of Death: Du Lac & Fey — Dance of "
+        }
+      ]
+    },
+    {
+      "titleId": "010011101B7BE000",
+      "title": "CyberTD",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010011101B7BE000.jpg",
+      "variants": [
+        {
+          "id": "v_4911db3b",
+          "name": "CyberTD — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1quLtxiPNCmmBaA01mxAnWVVo6LThCA1a",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1quLtxiPNCmmBaA01mxAnWVVo6LThCA1a&sz=w640",
+          "sizeBytes": 5413586,
+          "sha256": "E52DE547BBBB5C6700DEA85B1863387D2FFBB19B38D3F830E30A800C910F016C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | CyberTD — Gameplay Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 4293,
-  "totalVariants": 5717,
-  "lastUpdated": "2026-11-10T08:57:18.604274+00:00"
+  "totalGames": 4303,
+  "totalVariants": 5727,
+  "lastUpdated": "2026-11-10T09:00:27.708571+00:00"
 }
