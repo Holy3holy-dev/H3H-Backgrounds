@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T20:54:31Z",
+  "updatedAt": "2026-11-10T20:55:42Z",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -7588,7 +7588,37 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 0100E8000D5B8000_Devil_May_Cry_3.mp4"
+          "notes": "Google Drive: 0100E8000D5B8000_Devil_May_Cry_3.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1IzuMJWhx4AKrj7sPrKW65HEau1xizkb_",
+          "iconSizeBytes": 271465,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
+        },
+        {
+          "id": "icon-0100e8000d5b8000",
+          "name": "4IFIR Иконка: Devil May Cry / DMC 2 / Devil May Cry 3 Special Edition [NSZ][RUS (Mod.)/ENG]",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IzuMJWhx4AKrj7sPrKW65HEau1xizkb_",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1IzuMJWhx4AKrj7sPrKW65HEau1xizkb_",
+          "sizeBytes": 271465,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1IzuMJWhx4AKrj7sPrKW65HEau1xizkb_",
+          "iconSizeBytes": 271465,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -7613,7 +7643,13 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 0100E65002BB8000_Stardew_Valley.mp4"
+          "notes": "Google Drive: 0100E65002BB8000_Stardew_Valley.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1wc3_ON2BSesC_ZHHo7U_nTtli3j7_N5a",
+          "iconSizeBytes": 257791,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
         },
         {
           "id": "var-1MrvTjAz",
@@ -7650,6 +7686,30 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Stardew Valley Bus | ЗВУК"
+        },
+        {
+          "id": "icon-0100e65002bb8000",
+          "name": "4IFIR Иконка: Stardew Valley [NSZ][RUS/Multi7]",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wc3_ON2BSesC_ZHHo7U_nTtli3j7_N5a",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1wc3_ON2BSesC_ZHHo7U_nTtli3j7_N5a",
+          "sizeBytes": 257791,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1wc3_ON2BSesC_ZHHo7U_nTtli3j7_N5a",
+          "iconSizeBytes": 257791,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -7674,7 +7734,13 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 0100E1700C31C000_Gris.mp4"
+          "notes": "Google Drive: 0100E1700C31C000_Gris.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1OTWhveFSX3e2ZY_DPvo5IjV2qWUZzT-K",
+          "iconSizeBytes": 294795,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
         },
         {
           "id": "v_b333d344",
@@ -7747,6 +7813,30 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Griseo Honkai Impact 3rd"
+        },
+        {
+          "id": "icon-0100e1700c31c000",
+          "name": "4IFIR Иконка: Gris [NSZ][RUS/Multi7]",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OTWhveFSX3e2ZY_DPvo5IjV2qWUZzT-K",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1OTWhveFSX3e2ZY_DPvo5IjV2qWUZzT-K",
+          "sizeBytes": 294795,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1OTWhveFSX3e2ZY_DPvo5IjV2qWUZzT-K",
+          "iconSizeBytes": 294795,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -7771,7 +7861,37 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 0100DD30110CC000_Enter_the_Gungeon.mp4"
+          "notes": "Google Drive: 0100DD30110CC000_Enter_the_Gungeon.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1sYQqB5aGiDJdwObvP7fCZhHlSELhj8_J",
+          "iconSizeBytes": 131074,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
+        },
+        {
+          "id": "icon-0100dd30110cc000",
+          "name": "4IFIR Иконка: Enter the Gungeon / Exit the Gungeon [NSZ][RUS/Multi10]",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1sYQqB5aGiDJdwObvP7fCZhHlSELhj8_J",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1sYQqB5aGiDJdwObvP7fCZhHlSELhj8_J",
+          "sizeBytes": 131074,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1sYQqB5aGiDJdwObvP7fCZhHlSELhj8_J",
+          "iconSizeBytes": 131074,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -8249,7 +8369,13 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 0100D71004694000_Minecraft_Panorama.mp4"
+          "notes": "Google Drive: 0100D71004694000_Minecraft_Panorama.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1kZu1TCjtmTfFqjAywxqVM4clJghd0HBj",
+          "iconSizeBytes": 285861,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
         },
         {
           "id": "v_cf87079e",
@@ -8862,6 +8988,30 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Cherry Blossom Haven Minecraft"
+        },
+        {
+          "id": "icon-0100d71004694000",
+          "name": "4IFIR Иконка: Minecraft [NSP][RUS/Multi11]",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kZu1TCjtmTfFqjAywxqVM4clJghd0HBj",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1kZu1TCjtmTfFqjAywxqVM4clJghd0HBj",
+          "sizeBytes": 285861,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1kZu1TCjtmTfFqjAywxqVM4clJghd0HBj",
+          "iconSizeBytes": 285861,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -169101,6 +169251,6 @@
     }
   ],
   "totalGames": 5418,
-  "totalVariants": 6868,
-  "lastUpdated": "2026-11-10T20:54:31Z"
+  "totalVariants": 6873,
+  "lastUpdated": "2026-11-10T20:55:42Z"
 }
