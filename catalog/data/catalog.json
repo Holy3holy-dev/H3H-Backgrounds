@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T08:40:15.253745+00:00",
+  "updatedAt": "2026-11-10T08:43:12.657491+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -137768,9 +137768,269 @@
           "notes": "Switch 720p 30fps H264 | Frank and Drake — Accolade Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100638016E26000",
+      "title": "Almost My Floor",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100638016E26000.jpg",
+      "variants": [
+        {
+          "id": "v_d55dd69a",
+          "name": "Almost My Floor — release trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CpWb2P0sSbJKqLQ3pvGMVYaRSCMv4fym",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CpWb2P0sSbJKqLQ3pvGMVYaRSCMv4fym&sz=w640",
+          "sizeBytes": 4822195,
+          "sha256": "3E8659BFA3956311B672A93C763DB21196A956DA8EBAA1E26F35401833F6BECB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Almost My Floor — release trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A2E01082E000",
+      "title": "A Place for the Unwilling",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A2E01082E000.jpg",
+      "variants": [
+        {
+          "id": "v_206bfdeb",
+          "name": "A Place for the Unwilling — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1I84ur6_O2YlPLKNhVLOawfrivJAM56UC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1I84ur6_O2YlPLKNhVLOawfrivJAM56UC&sz=w640",
+          "sizeBytes": 4646539,
+          "sha256": "C4618242768BDC170C24A7F3B6FB7B47560DA1FD9375E5A1B9799EAC1298556B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | A Place for the Unwilling — Launch Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "010046301503E000",
+      "title": "A Guidebook of Babel",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010046301503E000.jpg",
+      "variants": [
+        {
+          "id": "v_b0d55b5c",
+          "name": "A Guidebook of Babel — Trailer_Intro_PC_english",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1E7dWBbQ_cYFYUKpDIM46wrONmw0ScKmh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1E7dWBbQ_cYFYUKpDIM46wrONmw0ScKmh&sz=w640",
+          "sizeBytes": 5331292,
+          "sha256": "5206B956D4EC66601244C44B9CFA98C769EBABB7E3FB5840227D85F209B52763",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | A Guidebook of Babel — Trailer_Intro_PC_"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CD501401E000",
+      "title": "A Day Without Me",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CD501401E000.jpg",
+      "variants": [
+        {
+          "id": "v_9b93566f",
+          "name": "A Day Without Me — Steam Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kcUiulNM4Tr6UfC5U5vrRSxLlm3UHaqi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kcUiulNM4Tr6UfC5U5vrRSxLlm3UHaqi&sz=w640",
+          "sizeBytes": 4171781,
+          "sha256": "396B166F472FD23B59FA0FCB83C3F25187488190A635CEE5DA9A6B01133B890F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | A Day Without Me — Steam Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01008AF0160C4000",
+      "title": "A Boy and His Blob",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008AF0160C4000.jpg",
+      "variants": [
+        {
+          "id": "v_4c8c35bb",
+          "name": "A Boy and His Blob — A Boy and His Blob",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VilzogQPzdHRJbHxAU3PlG91pEcI7IDN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VilzogQPzdHRJbHxAU3PlG91pEcI7IDN&sz=w640",
+          "sizeBytes": 4860421,
+          "sha256": "26A1885A50AEF21BBE9289C2C48B06585EA34E31F809516FEB1EC269576AC426",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | A Boy and His Blob — A Boy and His Blob"
+        }
+      ]
+    },
+    {
+      "titleId": "010089D017A0A000",
+      "title": "Soccer Story",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010089D017A0A000.jpg",
+      "variants": [
+        {
+          "id": "v_a15afdd2",
+          "name": "Soccer Story — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SweGJrUoDZRkLiWqy1WbAYgJYcz4lfDz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SweGJrUoDZRkLiWqy1WbAYgJYcz4lfDz&sz=w640",
+          "sizeBytes": 5475222,
+          "sha256": "E39DC24B45ED259FD4BA7905B498CBE5DAFD88152F044B2457F0481901D8FE93",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Soccer Story — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010058C016092000",
+      "title": "For a Vast Future",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010058C016092000.jpg",
+      "variants": [
+        {
+          "id": "v_acc09dd7",
+          "name": "For a Vast Future — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10Fk1ijB4AMhziw-YfQ4R3T6OIaPoeCsv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10Fk1ijB4AMhziw-YfQ4R3T6OIaPoeCsv&sz=w640",
+          "sizeBytes": 5301868,
+          "sha256": "4B80C04E075A623B2A9412B5A9ABC95FCD0D83D13AB6BDCDE0C145D572060DF6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | For a Vast Future — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010079801CF12000",
+      "title": "Fireball Wizard",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010079801CF12000.jpg",
+      "variants": [
+        {
+          "id": "v_3e854597",
+          "name": "Fireball Wizard — Fireball Wizard Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=113W7tp_AxMpSkIVwAQHccn--y-weFXrF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=113W7tp_AxMpSkIVwAQHccn--y-weFXrF&sz=w640",
+          "sizeBytes": 5038159,
+          "sha256": "8C75D3D0C1142DF70E03218710D31A460EB7D36DEB2CBDA727C69BB069630A2C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fireball Wizard — Fireball Wizard Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "010096201B80E000",
+      "title": "Evil Wizard",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010096201B80E000.jpg",
+      "variants": [
+        {
+          "id": "v_a71fb4b7",
+          "name": "Evil Wizard — Available NOW Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-5uUzccX8w36MZx9-LqsIMiVHf0UwfHK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-5uUzccX8w36MZx9-LqsIMiVHf0UwfHK&sz=w640",
+          "sizeBytes": 5501493,
+          "sha256": "BE00C9D1A5B6370B47604344589DA878F12A5C0FEFD1A3BE7EB3E9EFF07D8821",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Evil Wizard — Available NOW Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E29019F56000",
+      "title": "Egglien",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E29019F56000.jpg",
+      "variants": [
+        {
+          "id": "v_4117a304",
+          "name": "Egglien — Launch",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GfMEPycliRfqEqD8g66EpJq8JsTEiTLt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GfMEPycliRfqEqD8g66EpJq8JsTEiTLt&sz=w640",
+          "sizeBytes": 5177365,
+          "sha256": "2F08D6561D5C4692DC7EEC18DC370A54666AAE4243A1692569655CF249CF7AE6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Egglien — Launch"
+        }
+      ]
     }
   ],
-  "totalGames": 4243,
-  "totalVariants": 5667,
-  "lastUpdated": "2026-11-10T08:40:15.253745+00:00"
+  "totalGames": 4253,
+  "totalVariants": 5677,
+  "lastUpdated": "2026-11-10T08:43:12.657491+00:00"
 }
