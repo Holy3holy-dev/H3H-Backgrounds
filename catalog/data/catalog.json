@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T10:16:39.244685+00:00",
+  "updatedAt": "2026-11-10T10:20:00.297770+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -145828,9 +145828,269 @@
           "notes": "Switch 720p 30fps H264 | One Way Heroics Plus — One Way Heroics P"
         }
       ]
+    },
+    {
+      "titleId": "0100AB600ACB4000",
+      "title": "Demetrios The Big Cynical Adventure",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AB600ACB4000.jpg",
+      "variants": [
+        {
+          "id": "v_c94ebaaa",
+          "name": "Demetrios - The BIG Cynical Adventure — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mKJS15FYqAIo-qWPEMmLMyQ8EVL-JDfB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mKJS15FYqAIo-qWPEMmLMyQ8EVL-JDfB&sz=w640",
+          "sizeBytes": 5307081,
+          "sha256": "07B166041A2E7E4FEFAAF0E961B627C853621C6EC09D20C85A9FB9009A64723F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Demetrios - The BIG Cynical Adventure — "
+        }
+      ]
+    },
+    {
+      "titleId": "01002310064B4000",
+      "title": "Of Mice and Sand Revised",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002310064B4000.jpg",
+      "variants": [
+        {
+          "id": "v_cbbda9e2",
+          "name": "OF MICE AND SAND -REVISED- — OF MICE AND SAND -R",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1U_OYgJj6-2IhEKg0Q5br0Ey41_jhMfhX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1U_OYgJj6-2IhEKg0Q5br0Ey41_jhMfhX&sz=w640",
+          "sizeBytes": 4428438,
+          "sha256": "E9AF86B244D441E353A827B09A183D081DF465E9DD0E13E0E4AAD064EEE9704D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | OF MICE AND SAND -REVISED- — OF MICE AND"
+        }
+      ]
+    },
+    {
+      "titleId": "01008E700F952000",
+      "title": "Skelittle A Giant Party",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008E700F952000.jpg",
+      "variants": [
+        {
+          "id": "v_31661ba9",
+          "name": "Skelittle: A Giant Party!! — Trailer PC Novembre",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1iJMb0obEXuPtHMJktQjf-UM1unfXSAX-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1iJMb0obEXuPtHMJktQjf-UM1unfXSAX-&sz=w640",
+          "sizeBytes": 4895102,
+          "sha256": "78D8A293BEC7611686648EABD982937E8D5D7B290EDFAD723A2BD34E11284F43",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Skelittle: A Giant Party!! — Trailer PC "
+        }
+      ]
+    },
+    {
+      "titleId": "01000B7012D7E000",
+      "title": "The Uncertain Last Quiet Day",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000B7012D7E000.jpg",
+      "variants": [
+        {
+          "id": "v_21116a0a",
+          "name": "The Uncertain: Last Quiet Day — The Uncertain: S",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Xxr2oZnlbJcWvtqR-V20LP54L1NrOYv_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Xxr2oZnlbJcWvtqR-V20LP54L1NrOYv_&sz=w640",
+          "sizeBytes": 3990091,
+          "sha256": "CE7EB4A6A83425C87EBD5D593FF94801EA71A5DF216C17FE188A1301E355EC6F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Uncertain: Last Quiet Day — The Unce"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D6F01EC7C000",
+      "title": "Space Routine",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D6F01EC7C000.jpg",
+      "variants": [
+        {
+          "id": "v_ecbeafc0",
+          "name": "Space Routine — Space Routine Teaser Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-oxp7yzT7HBK--immKZyzBfIO8zhZGjU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-oxp7yzT7HBK--immKZyzBfIO8zhZGjU&sz=w640",
+          "sizeBytes": 5528799,
+          "sha256": "B01067FE27E79DE882759CA90BB19DE793BF90D7EEBB443B7D73E95A3DB39C88",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Space Routine — Space Routine Teaser Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "01001E40198F0000",
+      "title": "Shanghai Summer",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001E40198F0000.jpg",
+      "variants": [
+        {
+          "id": "v_be39dd26",
+          "name": "Shanghai Summer — Shanghai-Summer-EN-0312",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=191ZbsGQMY8qmLmW_kan_oYEQWvEmQbAV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=191ZbsGQMY8qmLmW_kan_oYEQWvEmQbAV&sz=w640",
+          "sizeBytes": 5125573,
+          "sha256": "CCA937826D09A29BF52DD329318E9B7A3543DBC1ECED262E69C88830D43586B5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Shanghai Summer — Shanghai-Summer-EN-031"
+        }
+      ]
+    },
+    {
+      "titleId": "010031F006E76000",
+      "title": "Pato Box",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010031F006E76000.jpg",
+      "variants": [
+        {
+          "id": "v_3fe09a04",
+          "name": "Pato Box — Pato Box Arcade Mode",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SN8bnVAiaYOZJIFbJY_YRNN6bghSowc2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SN8bnVAiaYOZJIFbJY_YRNN6bghSowc2&sz=w640",
+          "sizeBytes": 4819075,
+          "sha256": "50637BD78C0DCAC54F77FA181E9ED00A67CD154444FEFED80AE31095E81E1954",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Pato Box — Pato Box Arcade Mode"
+        }
+      ]
+    },
+    {
+      "titleId": "010076D0122A8000",
+      "title": "Spinch",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010076D0122A8000.jpg",
+      "variants": [
+        {
+          "id": "v_8519ec1b",
+          "name": "Spinch — Announcement Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ddsjHJsNRo3Rl3OhU7FlcrPCMBlmSN7d",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ddsjHJsNRo3Rl3OhU7FlcrPCMBlmSN7d&sz=w640",
+          "sizeBytes": 4709983,
+          "sha256": "3B33A809FD566380925FFCA765E430081FC8F000E1F5CC041A1A91F823DB850F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Spinch — Announcement Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01004CB018EE6000",
+      "title": "Maggie the Magnet",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004CB018EE6000.jpg",
+      "variants": [
+        {
+          "id": "v_274d6ba5",
+          "name": "Maggie the Magnet — Maggie the Magnet (Steam Tra",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FBTMPCVwajtE0mueiHRUsms054p9kyZX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FBTMPCVwajtE0mueiHRUsms054p9kyZX&sz=w640",
+          "sizeBytes": 5395245,
+          "sha256": "22D0ED84388EA9761CA38FBC733691558B7FD4FE9594F8696293FF1B0F278D56",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Maggie the Magnet — Maggie the Magnet (S"
+        }
+      ]
+    },
+    {
+      "titleId": "0100642023D7C000",
+      "title": "Mind over Magnet",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100642023D7C000.jpg",
+      "variants": [
+        {
+          "id": "v_05f4fbad",
+          "name": "Mind Over Magnet — Mind Over Magnet Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vNg4oytV3TQUmHzdAb1fgesoqo6MP594",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vNg4oytV3TQUmHzdAb1fgesoqo6MP594&sz=w640",
+          "sizeBytes": 5507817,
+          "sha256": "5D6160925C06D83B8847663655060755A7696B3BFE7214E445EB219B4356A48F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mind Over Magnet — Mind Over Magnet Trai"
+        }
+      ]
     }
   ],
-  "totalGames": 4553,
-  "totalVariants": 5977,
-  "lastUpdated": "2026-11-10T10:16:39.244685+00:00"
+  "totalGames": 4563,
+  "totalVariants": 5987,
+  "lastUpdated": "2026-11-10T10:20:00.297770+00:00"
 }
