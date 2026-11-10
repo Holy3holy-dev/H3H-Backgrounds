@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T11:05:01.346800+00:00",
+  "updatedAt": "2026-11-10T11:08:18.860136+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -149208,9 +149208,269 @@
           "notes": "Switch 720p 30fps H264 | Saint Maker - Horror Visual Novel — Sain"
         }
       ]
+    },
+    {
+      "titleId": "0100FE50169BC000",
+      "title": "Teamfight Manager",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FE50169BC000.jpg",
+      "variants": [
+        {
+          "id": "v_78598b96",
+          "name": "Teamfight Manager 2 — Teamfight Manager2 Gamepla",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zVgZxOplSOLnWg5xnJM-EatGMyd0oLkJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zVgZxOplSOLnWg5xnJM-EatGMyd0oLkJ&sz=w640",
+          "sizeBytes": 4271614,
+          "sha256": "22DEA0F96D8A391421E83AE898B5D27C6B3D5DF241F4FCBF1F6A501DEBEA5E95",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Teamfight Manager 2 — Teamfight Manager2"
+        }
+      ]
+    },
+    {
+      "titleId": "0100164017A40000",
+      "title": "Harlow",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100164017A40000.jpg",
+      "variants": [
+        {
+          "id": "v_81510152",
+          "name": "Harlow — Harlow Gameplay",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hbs2Y6tWtbSe-Uzw38iS7ldxEKRqeC4Y",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hbs2Y6tWtbSe-Uzw38iS7ldxEKRqeC4Y&sz=w640",
+          "sizeBytes": 5433828,
+          "sha256": "616FDB1CEDAC6CD0E4E92ABEFA5B390134FC7ECB644F5720D1A6E58585179C79",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Harlow — Harlow Gameplay"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B7E0161FC000",
+      "title": "The Bear and The Admiral",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B7E0161FC000.jpg",
+      "variants": [
+        {
+          "id": "v_74860680",
+          "name": "The Bear And The Admiral — The Bear And The Admi",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17Le5Mdu6NwLP6_mhh-xWxP9QcMQ59mrg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17Le5Mdu6NwLP6_mhh-xWxP9QcMQ59mrg&sz=w640",
+          "sizeBytes": 5256749,
+          "sha256": "D2B52223164E254F273DF95E4EA49626DCF28DD9E206105CDCFF0C965A63B889",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Bear And The Admiral — The Bear And "
+        }
+      ]
+    },
+    {
+      "titleId": "010000D016FC2000",
+      "title": "Space Warlord Organ Trading Simulator",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010000D016FC2000.jpg",
+      "variants": [
+        {
+          "id": "v_045d6c77",
+          "name": "Space Warlord Organ Trading Simulator — The Game",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1g7H4Y5EcWglT44UUEVAo5xSJ7E0XD96K",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1g7H4Y5EcWglT44UUEVAo5xSJ7E0XD96K&sz=w640",
+          "sizeBytes": 4591645,
+          "sha256": "B645AAACBD4AFA8E1E307F646B50077DBCDCA8CB6807E02678D4993FB816C012",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Space Warlord Organ Trading Simulator — "
+        }
+      ]
+    },
+    {
+      "titleId": "010011001458E000",
+      "title": "Crumble",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010011001458E000.jpg",
+      "variants": [
+        {
+          "id": "v_89223113",
+          "name": "Apple Crumble — Date Announce Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qEbccTF9_awClL1S0GN4z6X0iVk0ThHn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qEbccTF9_awClL1S0GN4z6X0iVk0ThHn&sz=w640",
+          "sizeBytes": 5480168,
+          "sha256": "F228E9687D3DE863184ECB641ECCDC0D18CC9A2E764705561FD48534A9781A9E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Apple Crumble — Date Announce Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100526018ED2000",
+      "title": "Maze Blaze",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100526018ED2000.jpg",
+      "variants": [
+        {
+          "id": "v_8de18df9",
+          "name": "Maze Blaze — Maze Blaze Gameply Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ohLkHB8UmGUnMKiVLD3-vPhABlJRDh1w",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ohLkHB8UmGUnMKiVLD3-vPhABlJRDh1w&sz=w640",
+          "sizeBytes": 5176301,
+          "sha256": "0E9E23E54A9B9D9F9787FB849A85A8EE7402C7803F53ED6F373BFA10DB6BC1C5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Maze Blaze — Maze Blaze Gameply Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E7F00FFB8000",
+      "title": "Resolutiion",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E7F00FFB8000.jpg",
+      "variants": [
+        {
+          "id": "v_ccb60d7d",
+          "name": "Resolutiion — Release Date Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18uxj7rTCV2ng0JPv7vRSYnPphytWlY4u",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18uxj7rTCV2ng0JPv7vRSYnPphytWlY4u&sz=w640",
+          "sizeBytes": 5237169,
+          "sha256": "8CD8BCFD7A29D0E046598EA85EE2652D061F582EFD4BD1115B2941925E20229F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Resolutiion — Release Date Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010099701A462000",
+      "title": "Protodroid Delta",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010099701A462000.jpg",
+      "variants": [
+        {
+          "id": "v_25d89b8d",
+          "name": "Protodroid DeLTA — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13Wnisd43BlAXSQz_-InzIu0aBrUfwfKo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13Wnisd43BlAXSQz_-InzIu0aBrUfwfKo&sz=w640",
+          "sizeBytes": 4108839,
+          "sha256": "203A08560BDE200E37AB271F43DB839B2AE26D574E218DADFC9DB3957AB3A451",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Protodroid DeLTA — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010080F0099FC000",
+      "title": "Semblance",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010080F0099FC000.jpg",
+      "variants": [
+        {
+          "id": "v_7922256a",
+          "name": "Semblance — Semblance - Animated Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XCamqZHAhAEmSs7pOAIkBu6khy5WNiGf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XCamqZHAhAEmSs7pOAIkBu6khy5WNiGf&sz=w640",
+          "sizeBytes": 5349951,
+          "sha256": "C52B80E8AA0914DCA3D60D600333A49E83C6EC47DD2867F1CCCA09CFFCB55078",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Semblance — Semblance - Animated Launch "
+        }
+      ]
+    },
+    {
+      "titleId": "0100818018144000",
+      "title": "Ruggnar",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100818018144000.jpg",
+      "variants": [
+        {
+          "id": "v_08062120",
+          "name": "Ruggnar — Date announcement",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oULjlazULY5KfajVJxj-sOqC79v5hKok",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oULjlazULY5KfajVJxj-sOqC79v5hKok&sz=w640",
+          "sizeBytes": 5358718,
+          "sha256": "05642703E4440B12B5BFE9ADAF7111A8CE396D90F1715AEF77984C64705CDCC6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ruggnar — Date announcement"
+        }
+      ]
     }
   ],
-  "totalGames": 4683,
-  "totalVariants": 6107,
-  "lastUpdated": "2026-11-10T11:05:01.346800+00:00"
+  "totalGames": 4693,
+  "totalVariants": 6117,
+  "lastUpdated": "2026-11-10T11:08:18.860136+00:00"
 }
