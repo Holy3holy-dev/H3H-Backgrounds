@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T11:18:16.116835+00:00",
+  "updatedAt": "2026-11-10T11:21:40.638031+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -150248,9 +150248,269 @@
           "notes": "Switch 720p 30fps H264 | 100animalease — first trailer_en"
         }
       ]
+    },
+    {
+      "titleId": "010084A0163F0000",
+      "title": "Beat Souls",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010084A0163F0000.jpg",
+      "variants": [
+        {
+          "id": "v_dc782e3a",
+          "name": "Beat Souls — launch_trailer_en",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SA-fhS3rzKsYBhy2TKBaHYnwJR_-OElv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SA-fhS3rzKsYBhy2TKBaHYnwJR_-OElv&sz=w640",
+          "sizeBytes": 4102972,
+          "sha256": "8390A27F072BE8CE6DB669259C79F93EE61E4675DE5E2A41B89C2DF4EAEB9250",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Beat Souls — launch_trailer_en"
+        }
+      ]
+    },
+    {
+      "titleId": "01001E200F2F8000",
+      "title": "Grimshade",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001E200F2F8000.jpg",
+      "variants": [
+        {
+          "id": "v_ec4a3d8e",
+          "name": "Grimshade — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14WWY99cYC03gunmMelDzMSv2W6eYbB9B",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14WWY99cYC03gunmMelDzMSv2W6eYbB9B&sz=w640",
+          "sizeBytes": 5431955,
+          "sha256": "6D679EAB9F6D2F1FAC2BDDFF0641B1EDDB04AC37660425DCB04138F579D1D155",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Grimshade — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010079101828E000",
+      "title": "Super Perils of Baking",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010079101828E000.jpg",
+      "variants": [
+        {
+          "id": "v_41206121",
+          "name": "Super Perils of Baking — Super Perils of Baking",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1P9i-i9IYUd6kOflASZdcZP5Y4sOSFSFB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1P9i-i9IYUd6kOflASZdcZP5Y4sOSFSFB&sz=w640",
+          "sizeBytes": 5178293,
+          "sha256": "32B125F579609B2B0A682C7A737D54601D586B992B9FCF0FC5134BB14AC978FF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Super Perils of Baking — Super Perils of"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D8102120A000",
+      "title": "Makis Adventure",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D8102120A000.jpg",
+      "variants": [
+        {
+          "id": "v_138f05b4",
+          "name": "Makis Adventure — Makis Adventure Official Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eESldfN6uBOPo22i79Y0nLMqzpO8wMbG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eESldfN6uBOPo22i79Y0nLMqzpO8wMbG&sz=w640",
+          "sizeBytes": 5474302,
+          "sha256": "3B98535840BC7776C6C09DDEF46A3E49446D52DCB41223D593B2CD84F5238FD9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Makis Adventure — Makis Adventure Offici"
+        }
+      ]
+    },
+    {
+      "titleId": "01004FB01BD32000",
+      "title": "Shuyan Saga",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004FB01BD32000.jpg",
+      "variants": [
+        {
+          "id": "v_c363c813",
+          "name": "Shuyan Saga™ — Shuyan Saga New Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BJjdkmNCk8m6R163kKGo4RjWKGYWDrxD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BJjdkmNCk8m6R163kKGo4RjWKGYWDrxD&sz=w640",
+          "sizeBytes": 4829050,
+          "sha256": "8C8C7B3D07D06B02A4735101381B1DEA3A344834D5550CA361E8ED4E77F10338",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Shuyan Saga™ — Shuyan Saga New Launch Tr"
+        }
+      ]
+    },
+    {
+      "titleId": "01005A600BE60000",
+      "title": "Fall of Light Darkest Edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005A600BE60000.jpg",
+      "variants": [
+        {
+          "id": "v_23cb4a8f",
+          "name": "Fall of Light: Darkest Edition — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NJaSNLPFe_hDac7EjVen74sOd_oa19jJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NJaSNLPFe_hDac7EjVen74sOd_oa19jJ&sz=w640",
+          "sizeBytes": 5096885,
+          "sha256": "70380B8CCF3587D2E4C17FFE4F43C9C365007A90B38B1D9808FE8DB715D70F1B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fall of Light: Darkest Edition — Launch "
+        }
+      ]
+    },
+    {
+      "titleId": "0100700006EF6000",
+      "title": "Mushroom Wars 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100700006EF6000.jpg",
+      "variants": [
+        {
+          "id": "v_62e8f099",
+          "name": "Mushroom Wars 2 — Mushroom Wars 2 Steam Launch T",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IP5cdtw5BXti9iX-JkVYYGKC9kWAhOCN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IP5cdtw5BXti9iX-JkVYYGKC9kWAhOCN&sz=w640",
+          "sizeBytes": 5275776,
+          "sha256": "BE56EAF1AE73A21528196CD22E73B9DDB329784D93D0113A3DEEF500E5747DED",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mushroom Wars 2 — Mushroom Wars 2 Steam "
+        }
+      ]
+    },
+    {
+      "titleId": "0100739018A1C000",
+      "title": "Mechs v Kaijus Tower Defense",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100739018A1C000.jpg",
+      "variants": [
+        {
+          "id": "v_0a47dcc0",
+          "name": "Mechs V Kaijus - Tower Defense — The Kaiju Wars",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_we2LW7C2Z0Eq0p6_pScnrawNRzYJhT2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_we2LW7C2Z0Eq0p6_pScnrawNRzYJhT2&sz=w640",
+          "sizeBytes": 5273986,
+          "sha256": "BC85231713F5E3EBC2CDEB62AEA28964C7B4AD49714F38BE930A2153750A2333",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mechs V Kaijus - Tower Defense — The Kai"
+        }
+      ]
+    },
+    {
+      "titleId": "01003BC018126000",
+      "title": "Kaiju Wars",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003BC018126000.jpg",
+      "variants": [
+        {
+          "id": "v_e4d95fcd",
+          "name": "Kaiju Wars — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-F1DBgbJbMnxNqP5igYgUNK9cA5Ddrhi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-F1DBgbJbMnxNqP5igYgUNK9cA5Ddrhi&sz=w640",
+          "sizeBytes": 5475635,
+          "sha256": "B2CC1753878CD1C3067194E1169309AE63A26C7C41971AD238A7BA4AB3427774",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kaiju Wars — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B7F01BC9A000",
+      "title": "Words of Wisdom",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B7F01BC9A000.jpg",
+      "variants": [
+        {
+          "id": "v_f4232a3a",
+          "name": "Words of Wisdom — Words of Wisdom",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OEWY1XJ0WQdHQ-gcBrDAEs8M4YcPFrfM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OEWY1XJ0WQdHQ-gcBrDAEs8M4YcPFrfM&sz=w640",
+          "sizeBytes": 5385694,
+          "sha256": "09840C6AA93FFCC122FB6D76A3631EDFC04E77D0ED86E216D74745DBAAD9CDE4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Words of Wisdom — Words of Wisdom"
+        }
+      ]
     }
   ],
-  "totalGames": 4723,
-  "totalVariants": 6147,
-  "lastUpdated": "2026-11-10T11:18:16.116835+00:00"
+  "totalGames": 4733,
+  "totalVariants": 6157,
+  "lastUpdated": "2026-11-10T11:21:40.638031+00:00"
 }
