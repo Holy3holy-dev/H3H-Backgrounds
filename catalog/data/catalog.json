@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T04:50:11.561680+00:00",
+  "updatedAt": "2026-11-10T04:53:16.579344+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -118528,9 +118528,269 @@
           "notes": "Switch 720p 30fps H264 | Celestian Tales: Realms Beyond — Celesti"
         }
       ]
+    },
+    {
+      "titleId": "0100B0401A3E0000",
+      "title": "Tallowmere 2 Curse of the Kittens",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B0401A3E0000.jpg",
+      "variants": [
+        {
+          "id": "v_26a70cd3",
+          "name": "Tallowmere 2: Curse of the Kittens — Tallowmere ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qocLqerkPVK29hD3rq1TyM5ciiJN_VYh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qocLqerkPVK29hD3rq1TyM5ciiJN_VYh&sz=w640",
+          "sizeBytes": 5267131,
+          "sha256": "FA8610F8A45AEC0A7D2BF861A4071117D3D4458D0D2AC058137F3EFC87354D21",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tallowmere 2: Curse of the Kittens — Tal"
+        }
+      ]
+    },
+    {
+      "titleId": "010046600CCA4000",
+      "title": "Kotodama: The 7 Mysteries of Fujisawa",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010046600CCA4000.jpg",
+      "variants": [
+        {
+          "id": "v_9de0beec",
+          "name": "Kotodama: The 7 Mysteries of Fujisawa — Kotodama",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mEa9b72ioJwVsKCsTdg6CwWu1CTQ8cqm",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mEa9b72ioJwVsKCsTdg6CwWu1CTQ8cqm&sz=w640",
+          "sizeBytes": 5480936,
+          "sha256": "8E2785A05E473666D28FC186DAE66C3B24A34F3A238B9B93B81FF7270721FAB3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kotodama: The 7 Mysteries of Fujisawa — "
+        }
+      ]
+    },
+    {
+      "titleId": "0100BE50042F6000",
+      "title": "Yono and the Celestial Elephants",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BE50042F6000.jpg",
+      "variants": [
+        {
+          "id": "v_4a395f41",
+          "name": "Yono and the Celestial Elephants — Yono Launch T",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Hu8G9Tpi7bLGgBieHzFeYuz1g9rN_78t",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Hu8G9Tpi7bLGgBieHzFeYuz1g9rN_78t&sz=w640",
+          "sizeBytes": 5284810,
+          "sha256": "C5C0F7C629E3244870B64686BD08C04F5E73137E66F25E674F7B718F8290E001",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Yono and the Celestial Elephants — Yono "
+        }
+      ]
+    },
+    {
+      "titleId": "01000E8009E1C000",
+      "title": "Shift Quantum",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000E8009E1C000.jpg",
+      "variants": [
+        {
+          "id": "v_f363059f",
+          "name": "Shift Quantum - A Cyber Noir Puzzle Platformer —",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1JucDyxISWKsniwjoTW-LaMDTm0lv9I28",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1JucDyxISWKsniwjoTW-LaMDTm0lv9I28&sz=w640",
+          "sizeBytes": 5360283,
+          "sha256": "735A7FF6608447E0C4831895C004A1FC03D1D57200B3BA1651E4216D56201EDF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Shift Quantum - A Cyber Noir Puzzle Plat"
+        }
+      ]
+    },
+    {
+      "titleId": "01007D9007792000",
+      "title": "Shadow Bug",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007D9007792000.jpg",
+      "variants": [
+        {
+          "id": "v_619b611b",
+          "name": "Shadow Bug — Shadow Bug Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1db3tmtvd5WjLcXFs8FgeUtYw0jVSYXb0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1db3tmtvd5WjLcXFs8FgeUtYw0jVSYXb0&sz=w640",
+          "sizeBytes": 5520377,
+          "sha256": "09BD1FCA0C802572A18CEF4BBB8C615F345F11F44375B7335D0E9883AC8DAB1E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Shadow Bug — Shadow Bug Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01000FA010340000",
+      "title": "Melbits World",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000FA010340000.jpg",
+      "variants": [
+        {
+          "id": "v_853420c8",
+          "name": "Melbits™ World — BA Novembre 2019",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1uT6XnUCLKnef7bM4Mybv6AVhGO9qe54a",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1uT6XnUCLKnef7bM4Mybv6AVhGO9qe54a&sz=w640",
+          "sizeBytes": 4882236,
+          "sha256": "14B4F5D98F67D38EC461843DF5DA862585579F0627F6BC7E733F9EF845BAC992",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Melbits™ World — BA Novembre 2019"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DA900B67A000",
+      "title": "Human Resource Machine",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DA900B67A000.jpg",
+      "variants": [
+        {
+          "id": "v_2ea31580",
+          "name": "Human Resource Machine — Human Resource Machine ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Rnh1b7Y8b8ueTiL5aFgeOCZtuCTayQ-4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Rnh1b7Y8b8ueTiL5aFgeOCZtuCTayQ-4&sz=w640",
+          "sizeBytes": 5483324,
+          "sha256": "62EE9B8FBE471D1358C24D7577CEC892E58DDF6651750FE6A6F6CE9FB8DD3D98",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Human Resource Machine — Human Resource "
+        }
+      ]
+    },
+    {
+      "titleId": "01007A1012852000",
+      "title": "Cecconoid",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007A1012852000.jpg",
+      "variants": [
+        {
+          "id": "v_bf29b784",
+          "name": "Cecconoid — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1q9BAIB7e9qE-kOaWJFxFSy8mi0YeQs0g",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1q9BAIB7e9qE-kOaWJFxFSy8mi0YeQs0g&sz=w640",
+          "sizeBytes": 5247015,
+          "sha256": "12F016A35C3FF2386A4CA4F14C542F773255C98231331AC1515EF5BD1ECE24E1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cecconoid — Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D35019004000",
+      "title": "Once Upon a Jester",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D35019004000.jpg",
+      "variants": [
+        {
+          "id": "v_dfb1c853",
+          "name": "Once Upon a Jester — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1b22TlaRep9zzMTUosO8V2NGQBgesbSK1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1b22TlaRep9zzMTUosO8V2NGQBgesbSK1&sz=w640",
+          "sizeBytes": 5132971,
+          "sha256": "33BAC3EDD89A6E4B30AFA04FFB8C605F158DE87E381D35CFF5607A4787469F87",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Once Upon a Jester — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01000AC023AFA000",
+      "title": "Dosa Divas",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000AC023AFA000.jpg",
+      "variants": [
+        {
+          "id": "v_90d92559",
+          "name": "Dosa Divas — Dosa Divas - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17H1txhP4PqC1c9_gTiv1aOpL9lgbGZ3S",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17H1txhP4PqC1c9_gTiv1aOpL9lgbGZ3S&sz=w640",
+          "sizeBytes": 5659075,
+          "sha256": "BC949EBDFE2211609C14F277BB6ED21FFB964F6F412B67DCD160D8694907ACD4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dosa Divas — Dosa Divas - Launch Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 3503,
-  "totalVariants": 4927,
-  "lastUpdated": "2026-11-10T04:50:11.561680+00:00"
+  "totalGames": 3513,
+  "totalVariants": 4937,
+  "lastUpdated": "2026-11-10T04:53:16.579344+00:00"
 }
