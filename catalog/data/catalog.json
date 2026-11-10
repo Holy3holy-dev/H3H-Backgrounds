@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T02:41:32.055698+00:00",
+  "updatedAt": "2026-11-10T02:44:29.489858+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -107348,9 +107348,269 @@
           "notes": "Switch 720p 30fps H264 | Trollhunters: Defenders of Arcadia — Tro"
         }
       ]
+    },
+    {
+      "titleId": "0100CA584B72C000",
+      "title": "Amanatsu Perfect edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CA584B72C000.jpg",
+      "variants": [
+        {
+          "id": "v_f117a8b3",
+          "name": "AMANATSU ~Perfect Edition~ — AMANATSU ~Perfect E",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1q9bFg9tggOMjmmvREu769wgK9vvaIVqj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1q9bFg9tggOMjmmvREu769wgK9vvaIVqj&sz=w640",
+          "sizeBytes": 5416475,
+          "sha256": "5EA9C0A975358FB82F6515F4068A4AF237823BD19E06BD34B65F58C07D4CD2B3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | AMANATSU ~Perfect Edition~ — AMANATSU ~P"
+        }
+      ]
+    },
+    {
+      "titleId": "01002E4021FB4000",
+      "title": "Octo's Balloon Challenge",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002E4021FB4000.jpg",
+      "variants": [
+        {
+          "id": "v_edec754c",
+          "name": "Octo's Balloon Challenge — Octo's Balloon Challe",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ra8ufG2UAACvPD6R1RMnCZjJQ3BAkj4H",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ra8ufG2UAACvPD6R1RMnCZjJQ3BAkj4H&sz=w640",
+          "sizeBytes": 4303554,
+          "sha256": "71DBFDA5022F82C31704AC6579D5F90D64F0C4C0832C518ACD289C24CC8C6489",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Octo's Balloon Challenge — Octo's Balloo"
+        }
+      ]
+    },
+    {
+      "titleId": "010055D01C8D4000",
+      "title": "Hot Wheels Monster Trucks Stunt Mayhem",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010055D01C8D4000.jpg",
+      "variants": [
+        {
+          "id": "v_8268c939",
+          "name": "Hot Wheels Monster Trucks: Stunt Mayhem™ — Launc",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1704zBwOqVLoS60w_h3Ul5dtBuTkG6d2Z",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1704zBwOqVLoS60w_h3Ul5dtBuTkG6d2Z&sz=w640",
+          "sizeBytes": 5235012,
+          "sha256": "5076D6036FF43CE94903C516F27A362A2EB927EB72B710D5532891AEA88EA3CF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hot Wheels Monster Trucks: Stunt Mayhem™"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D62012832000",
+      "title": "Delivery from the Pain",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D62012832000.jpg",
+      "variants": [
+        {
+          "id": "v_0b20b480",
+          "name": "Delivery From The Pain -  Big brother's legend /",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1iQO1XEV23f8d2-QcsXr7UMdQUqZSflJ8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1iQO1XEV23f8d2-QcsXr7UMdQUqZSflJ8&sz=w640",
+          "sizeBytes": 5263003,
+          "sha256": "76E8794F2C978EBF4EEC3C5B16ED264228F63996B519210860535414C6A592ED",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Delivery From The Pain -  Big brother's "
+        }
+      ]
+    },
+    {
+      "titleId": "010077000F620000",
+      "title": "Arcade Spirits The New Challengers",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010077000F620000.jpg",
+      "variants": [
+        {
+          "id": "v_7b8350e0",
+          "name": "Arcade Spirits: The New Challengers — Arcade Spi",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16VoEmntPKVxV5pkkGwZD9OAJ2KoW-xGq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16VoEmntPKVxV5pkkGwZD9OAJ2KoW-xGq&sz=w640",
+          "sizeBytes": 4907966,
+          "sha256": "CEF06BBE240E67E77C2E5DAD464246C76211AD0947FDBA70C9A7855A1D16EB65",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Arcade Spirits: The New Challengers — Ar"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AD700CBBE000",
+      "title": "Shadows of Adam",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AD700CBBE000.jpg",
+      "variants": [
+        {
+          "id": "v_428c5e0c",
+          "name": "Shadows of Adam — Shadows of Adam - Official Tra",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UphUSmevpnvVctLOCEfH0ilkH30KFAm-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UphUSmevpnvVctLOCEfH0ilkH30KFAm-&sz=w640",
+          "sizeBytes": 5389694,
+          "sha256": "C69E202B15CDB49A3B69E2929F98B177DA0F0133E6BDB1F3EAC3E9517C616A04",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Shadows of Adam — Shadows of Adam - Offi"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D950229F8000",
+      "title": "Lovish",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D950229F8000.jpg",
+      "variants": [
+        {
+          "id": "v_47aee316",
+          "name": "Lovish — Lovish - Release Date Trailer (EN)",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OUrtiJOsMzol9_qyPtcFzMQNoM8rMI8l",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OUrtiJOsMzol9_qyPtcFzMQNoM8rMI8l&sz=w640",
+          "sizeBytes": 5145475,
+          "sha256": "46BF75B9B63137A44088244633B4BFFCE53B3BA1F26E5C11C2339CC8D67BDD51",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lovish — Lovish - Release Date Trailer ("
+        }
+      ]
+    },
+    {
+      "titleId": "01002AA027086000",
+      "title": "Smash it Wild",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002AA027086000.jpg",
+      "variants": [
+        {
+          "id": "v_2e4978fb",
+          "name": "Smash it Wild: Tactical Volleyball Roguelike — R",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XdetzV6cw7JcdIC6QgwThxr14S1hvoJg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XdetzV6cw7JcdIC6QgwThxr14S1hvoJg&sz=w640",
+          "sizeBytes": 4910123,
+          "sha256": "9D3BBA6A47BBA151A4DAE4C822F257973382224E43F4C698A7B3674E71E3BBB8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Smash it Wild: Tactical Volleyball Rogue"
+        }
+      ]
+    },
+    {
+      "titleId": "0100530014438000",
+      "title": "Mary Skelter Finale",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100530014438000.jpg",
+      "variants": [
+        {
+          "id": "v_90951557",
+          "name": "Mary Skelter Finale — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gxiosDRKD40C5ggJmnz0RyXlRmlKRC9V",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gxiosDRKD40C5ggJmnz0RyXlRmlKRC9V&sz=w640",
+          "sizeBytes": 5536577,
+          "sha256": "C1BEE871144AD77889094D608577BE132E2C475411A52BA52F5DA42CF078A53E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mary Skelter Finale — Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010000902213C000",
+      "title": "Escape Site 13",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010000902213C000.jpg",
+      "variants": [
+        {
+          "id": "v_b1eb34bf",
+          "name": "ESCAPE SITE 13 — Trailer #1",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GAsL338ZaiYRZALCkITi0UXlpcPArnP8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GAsL338ZaiYRZALCkITi0UXlpcPArnP8&sz=w640",
+          "sizeBytes": 3550437,
+          "sha256": "1DB7D72B94EFD693968DB734E738891F69742EBFA17D6C3D624BD921A1A801DF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | ESCAPE SITE 13 — Trailer #1"
+        }
+      ]
     }
   ],
-  "totalGames": 3073,
-  "totalVariants": 4497,
-  "lastUpdated": "2026-11-10T02:41:32.055698+00:00"
+  "totalGames": 3083,
+  "totalVariants": 4507,
+  "lastUpdated": "2026-11-10T02:44:29.489858+00:00"
 }
