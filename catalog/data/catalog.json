@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T11:01:26.985772+00:00",
+  "updatedAt": "2026-11-10T11:05:01.346800+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -148948,9 +148948,269 @@
           "notes": "Switch 720p 30fps H264 | Infectra — trailer new"
         }
       ]
+    },
+    {
+      "titleId": "010007901A332000",
+      "title": "The World According to Girl",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010007901A332000.jpg",
+      "variants": [
+        {
+          "id": "v_0c075a24",
+          "name": "the World According to Girl — PV#2",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fxBz_5fHIfcsNdq3mfbQ3Wve5hYwxhc3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fxBz_5fHIfcsNdq3mfbQ3Wve5hYwxhc3&sz=w640",
+          "sizeBytes": 5515044,
+          "sha256": "DA0431BB46848831047D2D5AE9544E9885C4DA8D849F3E2469B0CA27F4BA928E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | the World According to Girl — PV#2"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BE7016BA6000",
+      "title": "Like No Other the Legend of the Twin Books",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BE7016BA6000.jpg",
+      "variants": [
+        {
+          "id": "v_c5284e70",
+          "name": "Like No Other: The Legend Of The Twin Books — Tr",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16hO883_m6CYLOmtpBPzb1IYyjdGXx27x",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16hO883_m6CYLOmtpBPzb1IYyjdGXx27x&sz=w640",
+          "sizeBytes": 4913913,
+          "sha256": "342ED89837730BD624014D4D73B0E53387122D6B7977F36E451D04C99953A66A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Like No Other: The Legend Of The Twin Bo"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E6400BCE8000",
+      "title": "Sublevel Zero Redux",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E6400BCE8000.jpg",
+      "variants": [
+        {
+          "id": "v_b247fd6b",
+          "name": "Sublevel Zero Redux — Redux Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1B9r5q0kZUEdqBgQN2BiYbtxFrTqtPTxu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1B9r5q0kZUEdqBgQN2BiYbtxFrTqtPTxu&sz=w640",
+          "sizeBytes": 5065496,
+          "sha256": "C433F720786B9DDAB3BA880534AA4BA73C1807480682E3A8291DA0F5E9D55336",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sublevel Zero Redux — Redux Launch Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "0100560013C44000",
+      "title": "Dual Souls the Last Bearer",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100560013C44000.jpg",
+      "variants": [
+        {
+          "id": "v_07fd416e",
+          "name": "Dual Souls: The Last Bearer — Update 3.3",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1d8hGuVr0QmVZQaJkrwTH4SE3lT_M9suE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1d8hGuVr0QmVZQaJkrwTH4SE3lT_M9suE&sz=w640",
+          "sizeBytes": 5218598,
+          "sha256": "8D1A68AAB546598FF2A9CE998D32A0A890282A75DAD56406485B1DDEB0B6EC92",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dual Souls: The Last Bearer — Update 3.3"
+        }
+      ]
+    },
+    {
+      "titleId": "01006E7013018000",
+      "title": "The Magister",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006E7013018000.jpg",
+      "variants": [
+        {
+          "id": "v_9e5590fb",
+          "name": "The Magister — The Magister | Release Date Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PjpbUqRb5tB7Nmc0nMOhG1uiXXHthtYq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PjpbUqRb5tB7Nmc0nMOhG1uiXXHthtYq&sz=w640",
+          "sizeBytes": 5153569,
+          "sha256": "E2A67F653498F410B971490E2EE2E037244A4684F2DC74BDEEF6FC585A4D0DDD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Magister — The Magister | Release Da"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BC20118EE000",
+      "title": "Exploding Kittens",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BC20118EE000.jpg",
+      "variants": [
+        {
+          "id": "v_957e3860",
+          "name": "Exploding Kittens® 2 — Exploding Kittens 2 Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pkiiR8bkT6rods3f4mhiXh74L13hGbhA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pkiiR8bkT6rods3f4mhiXh74L13hGbhA&sz=w640",
+          "sizeBytes": 4831912,
+          "sha256": "3A4DE3BD8B8D502C46C87C312712A25C3678730728B4D676FA6D8B459A0A4954",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Exploding Kittens® 2 — Exploding Kittens"
+        }
+      ]
+    },
+    {
+      "titleId": "010063D01AB34000",
+      "title": "Cattails Wildwood Story",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010063D01AB34000.jpg",
+      "variants": [
+        {
+          "id": "v_5e647a6d",
+          "name": "Cattails: Wildwood Story — Launch Gameplay Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1iY5mjE7Ul9kkrwOvDNhdBgHXDqtZL2y6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1iY5mjE7Ul9kkrwOvDNhdBgHXDqtZL2y6&sz=w640",
+          "sizeBytes": 5226648,
+          "sha256": "5D3C1A64328818E70BF5EF99C6F291E45573265F68FC8381BCAE6A86D1D8747F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cattails: Wildwood Story — Launch Gamepl"
+        }
+      ]
+    },
+    {
+      "titleId": "0100ED9017E0C000",
+      "title": "One Way The Elevator",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100ED9017E0C000.jpg",
+      "variants": [
+        {
+          "id": "v_cd4b7d35",
+          "name": "One Way: The Elevator — One Way: The Elevator",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1R0kCIeQVCSL3KFVRu8eyoApuBy2QwdWl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1R0kCIeQVCSL3KFVRu8eyoApuBy2QwdWl&sz=w640",
+          "sizeBytes": 4892698,
+          "sha256": "33F46E8A39F504A618A4AFB64E0CCAB28DA1FFD916FB40C1FD0C76B05483DEAB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | One Way: The Elevator — One Way: The Ele"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F52013A66000",
+      "title": "Charge Kid",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F52013A66000.jpg",
+      "variants": [
+        {
+          "id": "v_a5e137cb",
+          "name": "Charge Kid — charge-kid-trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Lq0pxeikQebipDnSGh8mbZPXEQ2mLVsK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Lq0pxeikQebipDnSGh8mbZPXEQ2mLVsK&sz=w640",
+          "sizeBytes": 4349063,
+          "sha256": "AA3F88F7385DFB45D94EB521B62278465A715394941C30DAC4316F1AC4729ADF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Charge Kid — charge-kid-trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100718019F30000",
+      "title": "Saint Maker",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100718019F30000.jpg",
+      "variants": [
+        {
+          "id": "v_33710c4d",
+          "name": "Saint Maker - Horror Visual Novel — Saint Maker ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CnnlD1fsJeAaWKdSAhMtOoN1jg3pRfYb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CnnlD1fsJeAaWKdSAhMtOoN1jg3pRfYb&sz=w640",
+          "sizeBytes": 1510746,
+          "sha256": "AED0160BE33CC99A97A566984888155CB46DEFE2A202EE363C569ABF8E0A20D2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Saint Maker - Horror Visual Novel — Sain"
+        }
+      ]
     }
   ],
-  "totalGames": 4673,
-  "totalVariants": 6097,
-  "lastUpdated": "2026-11-10T11:01:26.985772+00:00"
+  "totalGames": 4683,
+  "totalVariants": 6107,
+  "lastUpdated": "2026-11-10T11:05:01.346800+00:00"
 }
