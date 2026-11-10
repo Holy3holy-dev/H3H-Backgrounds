@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T14:17:34.897559+00:00",
+  "updatedAt": "2026-11-10T14:21:31.407522+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -162988,9 +162988,269 @@
           "notes": "Switch 720p 30fps H264 | May's Mysteries: The Secret of Dragonvil"
         }
       ]
+    },
+    {
+      "titleId": "010037A00F5E2000",
+      "title": "Wonder Blade",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010037A00F5E2000.jpg",
+      "variants": [
+        {
+          "id": "v_af84644c",
+          "name": "Wonder Blade — 1",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ORk_7NNEEoC9JKr7dRgZYGA7UCdFQs4_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ORk_7NNEEoC9JKr7dRgZYGA7UCdFQs4_&sz=w640",
+          "sizeBytes": 5571511,
+          "sha256": "FCC86265A1108D311D5572E908C508B2C828EA020DD7B9747DC7E7CA05BEA13C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wonder Blade — 1"
+        }
+      ]
+    },
+    {
+      "titleId": "010061100FA8E000",
+      "title": "Orbitblazers",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010061100FA8E000.jpg",
+      "variants": [
+        {
+          "id": "v_9d0fefeb",
+          "name": "Orbitblazers — Orbitblazers - Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vmf2BQN_21Kx_6EdcVVOIlgQhD_roz8u",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vmf2BQN_21Kx_6EdcVVOIlgQhD_roz8u&sz=w640",
+          "sizeBytes": 4496253,
+          "sha256": "2266A510601F71C734D75B79ABD0C2159B04B819E130A60573D60D36CA47C280",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Orbitblazers — Orbitblazers - Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01006F5013202000",
+      "title": "Off and On Again",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006F5013202000.jpg",
+      "variants": [
+        {
+          "id": "v_850d51b2",
+          "name": "OAOA - Off And On Again — Main Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Z0YvQUSMpQQqzdv0-5Z68Hl2Y3wlk9VP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Z0YvQUSMpQQqzdv0-5Z68Hl2Y3wlk9VP&sz=w640",
+          "sizeBytes": 5349351,
+          "sha256": "3B8C37C09C3207F06811AF115BBBAE68B85C1B40525DA151B20A732CF822198D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | OAOA - Off And On Again — Main Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010059900BA3C000",
+      "title": "Windscape",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010059900BA3C000.jpg",
+      "variants": [
+        {
+          "id": "v_7f2cae25",
+          "name": "Windscape — Windscape Release Date Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lwakdFFANKQB1jYekijwABWc4FHEfn2-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lwakdFFANKQB1jYekijwABWc4FHEfn2-&sz=w640",
+          "sizeBytes": 5510317,
+          "sha256": "38AF09C3798FB99E8F32BE4BBDE506A9356121737329BC11A644198268EA735F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Windscape — Windscape Release Date Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "0100013018030000",
+      "title": "My Divorce Story",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100013018030000.jpg",
+      "variants": [
+        {
+          "id": "v_2a193c16",
+          "name": "My Divorce Story — 영어",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=165Q_AfO4noKX4U8S_dLP32NBu30BDg4E",
+          "previewUrl": "https://drive.google.com/thumbnail?id=165Q_AfO4noKX4U8S_dLP32NBu30BDg4E&sz=w640",
+          "sizeBytes": 3218184,
+          "sha256": "5B372D3E2EB9649846D2171470F8A4086576F21E7126125E9CE3D0C070BFB5AA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | My Divorce Story — 영어"
+        }
+      ]
+    },
+    {
+      "titleId": "010083A017C4A000",
+      "title": "Mixolumia",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010083A017C4A000.jpg",
+      "variants": [
+        {
+          "id": "v_5271eaa2",
+          "name": "Mixolumia — Mixolumia 2022 Update Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lWnZCdEBfUM5WDiWvzuSkCcthK8cpm54",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lWnZCdEBfUM5WDiWvzuSkCcthK8cpm54&sz=w640",
+          "sizeBytes": 5350214,
+          "sha256": "6303BC10227C744226507D36FC0406D2E8317F1E4DCAF86D930C226E20E1AC45",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mixolumia — Mixolumia 2022 Update Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BAA00CDFA000",
+      "title": "Mahjong Stories: Vampire Romance",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BAA00CDFA000.jpg",
+      "variants": [
+        {
+          "id": "v_086c5206",
+          "name": "Mahjong Stories: Vampire Romance — MahjongStorie",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AxAoCcLubk3zqvxxi_ucH6Jbua0Fkp0W",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AxAoCcLubk3zqvxxi_ucH6Jbua0Fkp0W&sz=w640",
+          "sizeBytes": 4747156,
+          "sha256": "C70346C333ABF33B9264350B4DAC803679CD97C856541AC9E5863A395028E095",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mahjong Stories: Vampire Romance — Mahjo"
+        }
+      ]
+    },
+    {
+      "titleId": "010015201ACB0000",
+      "title": "Light of Life",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010015201ACB0000.jpg",
+      "variants": [
+        {
+          "id": "v_2765fd76",
+          "name": "Light of Life — Trailer Light of Life",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mesAJp7abwu-Pg2xjCL0XyBbXN_cG01m",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mesAJp7abwu-Pg2xjCL0XyBbXN_cG01m&sz=w640",
+          "sizeBytes": 4930983,
+          "sha256": "3C6C3B0F81F4874B6B7B8548B5A12F6F5626F971E942B63FB1DB46B7CDC15754",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Light of Life — Trailer Light of Life"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BE3013A38000",
+      "title": "Landflix Odyssey",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BE3013A38000.jpg",
+      "variants": [
+        {
+          "id": "v_4fba8347",
+          "name": "Landflix Odyssey — Announcement trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oKfjnc2_caUGNDktOhC8maXcN7AfDnKi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oKfjnc2_caUGNDktOhC8maXcN7AfDnKi&sz=w640",
+          "sizeBytes": 5151942,
+          "sha256": "26DDFD4D45552EACA1BC4F357F450EDD47483C857EEB08D0841A3536F16AEFDC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Landflix Odyssey — Announcement trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01004EB01A772000",
+      "title": "Invercity",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004EB01A772000.jpg",
+      "variants": [
+        {
+          "id": "v_f83bd148",
+          "name": "Invercity — Beta Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nVJg5FXnHXsPe0-L1zcWnRaEGJfh7516",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nVJg5FXnHXsPe0-L1zcWnRaEGJfh7516&sz=w640",
+          "sizeBytes": 3902431,
+          "sha256": "5C22054D6457095F4CD774ED960049C20AF4B35718829FABFBC15678C90E372D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Invercity — Beta Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 5213,
-  "totalVariants": 6637,
-  "lastUpdated": "2026-11-10T14:17:34.897559+00:00"
+  "totalGames": 5223,
+  "totalVariants": 6647,
+  "lastUpdated": "2026-11-10T14:21:31.407522+00:00"
 }
