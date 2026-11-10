@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T01:35:13.409661+00:00",
+  "updatedAt": "2026-11-10T01:40:23.882168+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -102668,9 +102668,269 @@
           "notes": "Switch 720p 30fps H264 | Yoko & Yuki: Dr. Rat's Revenge — Yoko & "
         }
       ]
+    },
+    {
+      "titleId": "010086501F826000",
+      "title": "Loddlenaut",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010086501F826000.jpg",
+      "variants": [
+        {
+          "id": "v_79ec19c1",
+          "name": "Loddlenaut — Goddles Update Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1YIlG4dXXSDSlUQiuLdodwS4u_JyCWSgP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1YIlG4dXXSDSlUQiuLdodwS4u_JyCWSgP&sz=w640",
+          "sizeBytes": 5245125,
+          "sha256": "48712B09BA4D91708516ED704E342DB7400E94765A926E6E7B4A677EC3376DF2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Loddlenaut — Goddles Update Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01008900212BA000",
+      "title": "LunarLux",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008900212BA000.jpg",
+      "variants": [
+        {
+          "id": "v_6b5325ad",
+          "name": "LunarLux — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wYkwxgUj3cGxhOggFPBn7oFgRxtfbxla",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wYkwxgUj3cGxhOggFPBn7oFgRxtfbxla&sz=w640",
+          "sizeBytes": 5403131,
+          "sha256": "49F89A58D5C646753B13BB833636195CDC7240BF23837F97710B41D5541789F6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | LunarLux — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01002D601F6C6000",
+      "title": "Keylocker",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002D601F6C6000.jpg",
+      "variants": [
+        {
+          "id": "v_a32840d6",
+          "name": "Keylocker | Turn Based Cyberpunk Action — Publis",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WxlBBnmxRD-ZE0g4btbTTzf6on1UQPp8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WxlBBnmxRD-ZE0g4btbTTzf6on1UQPp8&sz=w640",
+          "sizeBytes": 5354759,
+          "sha256": "6CB52F3D1653919A1994228B76A29E4B16B48A06452D84A31F1CE24CF7DB25FF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Keylocker | Turn Based Cyberpunk Action "
+        }
+      ]
+    },
+    {
+      "titleId": "01007BB0253C8000",
+      "title": "Chainstaff",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007BB0253C8000.jpg",
+      "variants": [
+        {
+          "id": "v_c2279059",
+          "name": "ChainStaff — Launch Date + Gameplay",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eEl7yZ40b3NwaH9nX-RZWdmFia_orFFK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eEl7yZ40b3NwaH9nX-RZWdmFia_orFFK&sz=w640",
+          "sizeBytes": 5672139,
+          "sha256": "DD842E5BF55D364CE84C8FFEC08C099694AA3E66F7AF673679B4F7DE42155AAF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | ChainStaff — Launch Date + Gameplay"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D5B00D6DA000",
+      "title": "Type Rider",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D5B00D6DA000.jpg",
+      "variants": [
+        {
+          "id": "v_e6500174",
+          "name": "Type:Rider — Type:Rider Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Fj4-kBPpMh3FCzUickmJB1VNUGCi5tns",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Fj4-kBPpMh3FCzUickmJB1VNUGCi5tns&sz=w640",
+          "sizeBytes": 5443497,
+          "sha256": "1B92DDCC0AD795D92A9C381EE3C7ACCB77E3D7343DBAB0B176C32314E2C491E5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Type:Rider — Type:Rider Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010047401F744000",
+      "title": "Arsene Lupin Once a Thief",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010047401F744000.jpg",
+      "variants": [
+        {
+          "id": "v_1a8acde8",
+          "name": "Arsene Lupin - Once a Thief — Arsene Lupin - Onc",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rdW_i8DlJds4L8GIiRtv6Wd9UrO2nMIL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rdW_i8DlJds4L8GIiRtv6Wd9UrO2nMIL&sz=w640",
+          "sizeBytes": 5367341,
+          "sha256": "D9B81E2A5712ECBE70B72DE18981766916B0BAE23E0AB9F7F309CD2BB05C8EE3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Arsene Lupin - Once a Thief — Arsene Lup"
+        }
+      ]
+    },
+    {
+      "titleId": "0100371013B3E000",
+      "title": "Shadowrun Trilogy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100371013B3E000.jpg",
+      "variants": [
+        {
+          "id": "v_40ddbaaf",
+          "name": "Shadowrun Returns — Shadowrun Returns Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1T49WgsFF7CllS2M3_vdKaF0UWuT0pSBX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1T49WgsFF7CllS2M3_vdKaF0UWuT0pSBX&sz=w640",
+          "sizeBytes": 2499939,
+          "sha256": "791751962EB936EF625520C408F089BBF0E3BCBE2409B6D1B7E9785BF13877A2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Shadowrun Returns — Shadowrun Returns Tr"
+        }
+      ]
+    },
+    {
+      "titleId": "0100379013A62000",
+      "title": "Very Very Valet",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100379013A62000.jpg",
+      "variants": [
+        {
+          "id": "v_ab4ae0c8",
+          "name": "Very Very Valet — Steam Trailer V2",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1s9uAATRCt2G5QjRlIAHJT-sq7Nz0w0Js",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1s9uAATRCt2G5QjRlIAHJT-sq7Nz0w0Js&sz=w640",
+          "sizeBytes": 5353849,
+          "sha256": "971549461A9559931F4C73109C79480AF9FF1703C374872ED92DE4420B2C085A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Very Very Valet — Steam Trailer V2"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F2C0181C4000",
+      "title": "Railgrade",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F2C0181C4000.jpg",
+      "variants": [
+        {
+          "id": "v_839e3802",
+          "name": "RAILGRADE — RAILGRADE Store Game Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14WYOwpd2r303-RsBKtzx2tKoXJcHlQq_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14WYOwpd2r303-RsBKtzx2tKoXJcHlQq_&sz=w640",
+          "sizeBytes": 5593701,
+          "sha256": "3089BF730247E566C17B71F82AB8433BF66CF66B9B9E6253A3C0FFEEA7C26E8B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | RAILGRADE — RAILGRADE Store Game Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F61013456000",
+      "title": "Surviving the Aftermath",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F61013456000.jpg",
+      "variants": [
+        {
+          "id": "v_a7e6927b",
+          "name": "Surviving the Aftermath — Surviving the Aftermat",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NXO9SrLABwIE9RckPFrsn3Nm9NsX1_Tu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NXO9SrLABwIE9RckPFrsn3Nm9NsX1_Tu&sz=w640",
+          "sizeBytes": 4659279,
+          "sha256": "7C24942630BF18E0D567D22FC4E5AC300022452904A127ACE80C954329F07FC3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Surviving the Aftermath — Surviving the "
+        }
+      ]
     }
   ],
-  "totalGames": 2893,
-  "totalVariants": 4317,
-  "lastUpdated": "2026-11-10T01:35:13.409661+00:00"
+  "totalGames": 2903,
+  "totalVariants": 4327,
+  "lastUpdated": "2026-11-10T01:40:23.882168+00:00"
 }
