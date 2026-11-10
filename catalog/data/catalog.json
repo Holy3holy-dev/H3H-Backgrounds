@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T14:40:35.465845+00:00",
+  "updatedAt": "2026-11-10T14:44:32.417009+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -164548,9 +164548,269 @@
           "notes": "Switch 720p 30fps H264 | The mysterious Case of Dr. Jekyll and Mr"
         }
       ]
+    },
+    {
+      "titleId": "01005E3008452000",
+      "title": "Hindsight 20-20 Wrath of the Raakshasa",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005E3008452000.jpg",
+      "variants": [
+        {
+          "id": "v_4573c309",
+          "name": "Hindsight 20/20 - Wrath of the Raakshasa — Hinds",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LSqjsYEuw7ZPAQGCxyjX4TVpf0DGfOzd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LSqjsYEuw7ZPAQGCxyjX4TVpf0DGfOzd&sz=w640",
+          "sizeBytes": 5000653,
+          "sha256": "BBDF895B92542BAECA27BFD38A3AD308994A73D0C3144D5AA1132716A07693DA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hindsight 20/20 - Wrath of the Raakshasa"
+        }
+      ]
+    },
+    {
+      "titleId": "010075E013AEC000",
+      "title": "Backpack Twins",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010075E013AEC000.jpg",
+      "variants": [
+        {
+          "id": "v_b677ae80",
+          "name": "Backpack Twins — Backpack Twins Final Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gYRtqvdHWQ1ezOJ8XRAIFHxzRugu0KqV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gYRtqvdHWQ1ezOJ8XRAIFHxzRugu0KqV&sz=w640",
+          "sizeBytes": 5347423,
+          "sha256": "E880F18805DD1A3D5E4D2BD9CFB98EF2A23D745CB78B5A93D05865F866A510C1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Backpack Twins — Backpack Twins Final Tr"
+        }
+      ]
+    },
+    {
+      "titleId": "0100556019700000",
+      "title": "Sissa's Path",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100556019700000.jpg",
+      "variants": [
+        {
+          "id": "v_18cf12a3",
+          "name": "Sissa's Path — Sissa's Path Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18b17mX2fpoOxf4Uv_bt_NlfHsQckcfd8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18b17mX2fpoOxf4Uv_bt_NlfHsQckcfd8&sz=w640",
+          "sizeBytes": 4899025,
+          "sha256": "B2A4ECA8ED526F7B1B6D966859E53117756220BC9AB0D2D448BD80CFF53C06E9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sissa's Path — Sissa's Path Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01005BF01A3EC000",
+      "title": "Disaster Detective Saiga an Indescribable Mystery",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005BF01A3EC000.jpg",
+      "variants": [
+        {
+          "id": "v_ccbf52f8",
+          "name": "Disaster Detective Saiga: An Indescribable Myste",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TY7Kb68XJjee-16SKy3kU4hVYGpWbUTa",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TY7Kb68XJjee-16SKy3kU4hVYGpWbUTa&sz=w640",
+          "sizeBytes": 4751878,
+          "sha256": "0269C963A760AFA7924B6DC1A1ED797247B1A7BA39F54887455F3255E11DA955",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Disaster Detective Saiga: An Indescribab"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A60016C56000",
+      "title": "Kargast",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A60016C56000.jpg",
+      "variants": [
+        {
+          "id": "v_21a1bcce",
+          "name": "Kargast — Final_Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1w16W-EWwv-DnVZQx8lKQ_OlW-IkUgW2N",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1w16W-EWwv-DnVZQx8lKQ_OlW-IkUgW2N&sz=w640",
+          "sizeBytes": 5692779,
+          "sha256": "4C9AD30229C736F9660D8C9C299290566264A801DD931DE3F04544B01D9CBD08",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kargast — Final_Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D6B010DC0000",
+      "title": "Cyber Complex",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D6B010DC0000.jpg",
+      "variants": [
+        {
+          "id": "v_7d9a7cb4",
+          "name": "Cyber Complex — Cyber Complex Official Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15dQ-i9Kgnanw8qfRTBBiklAMHYoAvBRY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15dQ-i9Kgnanw8qfRTBBiklAMHYoAvBRY&sz=w640",
+          "sizeBytes": 5349147,
+          "sha256": "540FC450B0BBDDF62CB3623EF310679DE6B552085AD7D8F7C74FC9B70CBDE1EC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cyber Complex — Cyber Complex Official T"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C2601927C000",
+      "title": "LogiKing",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C2601927C000.jpg",
+      "variants": [
+        {
+          "id": "v_bee40580",
+          "name": "LogiKing — en",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1aki6oViHUWP8jCmaNtvvr9Yn4DLrd2-c",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1aki6oViHUWP8jCmaNtvvr9Yn4DLrd2-c&sz=w640",
+          "sizeBytes": 5458913,
+          "sha256": "A0994F56157FF3B410839DFE71A65227D0480EA26FEAF730678B9E7D6C9F2113",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | LogiKing — en"
+        }
+      ]
+    },
+    {
+      "titleId": "01000CE01AF88000",
+      "title": "Fishing Vacation",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000CE01AF88000.jpg",
+      "variants": [
+        {
+          "id": "v_3cc7bbe7",
+          "name": "Fishing Vacation — Fishing Vacation Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15PqJANKoumAHkwVzw05EWa8R2JC4bwgJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15PqJANKoumAHkwVzw05EWa8R2JC4bwgJ&sz=w640",
+          "sizeBytes": 3886314,
+          "sha256": "E4A41ECC93358DEEAE0D24FCAC79ACA8F10AA68C71A51CDFC36EBBEC6455E65B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fishing Vacation — Fishing Vacation Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "01003DF01B0C8000",
+      "title": "ChronoBreach Ultra",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003DF01B0C8000.jpg",
+      "variants": [
+        {
+          "id": "v_801543a4",
+          "name": "ChronoBreach Ultra — ChronoBreach Ultra Launch T",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bLP4ZheGQdfOGj_1I6IALnAJSp0DUdVO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bLP4ZheGQdfOGj_1I6IALnAJSp0DUdVO&sz=w640",
+          "sizeBytes": 5501146,
+          "sha256": "3DBC9D59EE2831B422C093C65C8A8B2F11F26DB027CBA5EC2B38C08296A03ECA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | ChronoBreach Ultra — ChronoBreach Ultra "
+        }
+      ]
+    },
+    {
+      "titleId": "0100CA401C820000",
+      "title": "Undemon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CA401C820000.jpg",
+      "variants": [
+        {
+          "id": "v_eeaae183",
+          "name": "UNDEMON — UNDEMON_Trailer_1_kr",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Z5JDzJnMi-LXGKkpLLwrkDMITZl7qFzT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Z5JDzJnMi-LXGKkpLLwrkDMITZl7qFzT&sz=w640",
+          "sizeBytes": 4851443,
+          "sha256": "45A6D281732AAF75DBAAFBAB8550FD8A4C993819D6A4C3720D480234DD68ABD2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | UNDEMON — UNDEMON_Trailer_1_kr"
+        }
+      ]
     }
   ],
-  "totalGames": 5273,
-  "totalVariants": 6697,
-  "lastUpdated": "2026-11-10T14:40:35.465845+00:00"
+  "totalGames": 5283,
+  "totalVariants": 6707,
+  "lastUpdated": "2026-11-10T14:44:32.417009+00:00"
 }
