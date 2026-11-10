@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T15:42:12.676426+00:00",
+  "updatedAt": "2026-11-10T20:46:20Z",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -379,7 +379,37 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 01001AE005166000.mp4"
+          "notes": "Google Drive: 01001AE005166000.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1xwOlDh_4szhVMMcOMOhtg6tGVWZTYtnN",
+          "iconSizeBytes": 290712,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
+        },
+        {
+          "id": "icon-01001ae005166000",
+          "name": "4IFIR Иконка: Worms WMD [NSZ][RUS/Multi6]",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xwOlDh_4szhVMMcOMOhtg6tGVWZTYtnN",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1xwOlDh_4szhVMMcOMOhtg6tGVWZTYtnN",
+          "sizeBytes": 290712,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1xwOlDh_4szhVMMcOMOhtg6tGVWZTYtnN",
+          "iconSizeBytes": 290712,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -168321,6 +168351,6 @@
     }
   ],
   "totalGames": 5418,
-  "totalVariants": 6842,
-  "lastUpdated": "2026-11-10T15:42:12.676426+00:00"
+  "totalVariants": 6843,
+  "lastUpdated": "2026-11-10T20:46:20Z"
 }
