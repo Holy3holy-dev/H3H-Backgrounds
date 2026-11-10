@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T13:45:00.488241+00:00",
+  "updatedAt": "2026-11-10T13:48:24.692193+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -160648,9 +160648,269 @@
           "notes": "Switch 720p 30fps H264 | The Forgotten Land — TFL: Trailer EN"
         }
       ]
+    },
+    {
+      "titleId": "010090C014D3C000",
+      "title": "Rogue Explorer",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010090C014D3C000.jpg",
+      "variants": [
+        {
+          "id": "v_13344264",
+          "name": "Rogue Explorer — rogue-explorer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yzfYbQL74fIqZKEGOuQU128JX6QIn48M",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yzfYbQL74fIqZKEGOuQU128JX6QIn48M&sz=w640",
+          "sizeBytes": 4541173,
+          "sha256": "263ADE9A386CE8C38F5DC065F43A45562DC4BB5EB165A68D4F6540DA17FF7A6A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rogue Explorer — rogue-explorer"
+        }
+      ]
+    },
+    {
+      "titleId": "010046D01431C000",
+      "title": "A Pretty Odd Bunny",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010046D01431C000.jpg",
+      "variants": [
+        {
+          "id": "v_0965c3c8",
+          "name": "A Pretty Odd Bunny — A Pretty Odd Bunny Launch T",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ndOA_CokxtKZ05neP9n0Ad3jGYOFX_8m",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ndOA_CokxtKZ05neP9n0Ad3jGYOFX_8m&sz=w640",
+          "sizeBytes": 4743871,
+          "sha256": "E353ECA6C43E3A26427395F8F88A186D4E66F5C1658506A7CCDA1A56165BB559",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | A Pretty Odd Bunny — A Pretty Odd Bunny "
+        }
+      ]
+    },
+    {
+      "titleId": "010018301A6C2000",
+      "title": "Last Escape Dead Complex",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010018301A6C2000.jpg",
+      "variants": [
+        {
+          "id": "v_19939b19",
+          "name": "Last Escape: Dead Complex — Teaser Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jvBEwSfqz5_PVGgGhSn0ezR03-JgYtSK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jvBEwSfqz5_PVGgGhSn0ezR03-JgYtSK&sz=w640",
+          "sizeBytes": 5363646,
+          "sha256": "4E5CDF3F04BA3BFCD1B3F5853732BEE27E389A9001377646D0478D0BED5E234C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Last Escape: Dead Complex — Teaser Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "010087C014FD4000",
+      "title": "Fates of Ort",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010087C014FD4000.jpg",
+      "variants": [
+        {
+          "id": "v_c4e95749",
+          "name": "Fates of Ort — Fates of Ort - trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18vKFWuEF4QZvynamc0bBPs8ZEpgc0IU_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18vKFWuEF4QZvynamc0bBPs8ZEpgc0IU_&sz=w640",
+          "sizeBytes": 5302489,
+          "sha256": "B93F9AC661118C08807A1C16AE293B953B70F11D66E800947D9890E055960484",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fates of Ort — Fates of Ort - trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010016701A572000",
+      "title": "Some Some Convenience Store",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010016701A572000.jpg",
+      "variants": [
+        {
+          "id": "v_77b04a44",
+          "name": "Some Some Convenience Store — pven",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ir4qF43az5a5Amdth51H9NigNfITKKUF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ir4qF43az5a5Amdth51H9NigNfITKKUF&sz=w640",
+          "sizeBytes": 3918736,
+          "sha256": "BD569FB390DCC307EA63E02D5D1E1F83C915B02BB138F1AEBF1A026401A46407",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Some Some Convenience Store — pven"
+        }
+      ]
+    },
+    {
+      "titleId": "0100726013C06000",
+      "title": "Contract Killers",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100726013C06000.jpg",
+      "variants": [
+        {
+          "id": "v_ea811b2d",
+          "name": "Contract Killers — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1r3N87QQiZor_B2IZkLH63acTxiN1OnyU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1r3N87QQiZor_B2IZkLH63acTxiN1OnyU&sz=w640",
+          "sizeBytes": 5446180,
+          "sha256": "83B6B595DAA03E6D24F4201200C4BCE32A780E3D4C9749D1094FF72F9C8B34F6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Contract Killers — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C77018F90000",
+      "title": "City Wars Tokyo Reign",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C77018F90000.jpg",
+      "variants": [
+        {
+          "id": "v_06f98d55",
+          "name": "CITY WARS: TOKYO REIGN — City Wars: Tokyo reign ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UDMj1Xlt6ZPZTMmfLwIoNhV97xOPah5v",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UDMj1Xlt6ZPZTMmfLwIoNhV97xOPah5v&sz=w640",
+          "sizeBytes": 5155462,
+          "sha256": "120FADA25EDDEF844CD9F837DE042E4BB23B65C1D59A863268F5CEB15BA4F038",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | CITY WARS: TOKYO REIGN — City Wars: Toky"
+        }
+      ]
+    },
+    {
+      "titleId": "010052701C204000",
+      "title": "Jorel's Brother and The Most Important Game of the Galaxy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010052701C204000.jpg",
+      "variants": [
+        {
+          "id": "v_0592e4dc",
+          "name": "Jorel’s Brother and The Most Important Game of t",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16ENZ4yOZDRd0jiIN-AlLM-ouadp26aE-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16ENZ4yOZDRd0jiIN-AlLM-ouadp26aE-&sz=w640",
+          "sizeBytes": 5242403,
+          "sha256": "2BB0F528A39C9868EF3D4E8033C25CEB7359F0F0C9468F0C26C4164F18319E6B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Jorel’s Brother and The Most Important G"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AFF00F938000",
+      "title": "Metaverse Keeper",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AFF00F938000.jpg",
+      "variants": [
+        {
+          "id": "v_1b014857",
+          "name": "Metaverse Keeper / 元能失控 — Trailer_20190410_EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1J9Xe75jmHJDVTzEpFO2UhiLN649y2YxX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1J9Xe75jmHJDVTzEpFO2UhiLN649y2YxX&sz=w640",
+          "sizeBytes": 5128160,
+          "sha256": "369CB748DB322A0945CAA3E21A13C1D18A64C2CCDDCB008F5B3ECD796659D674",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Metaverse Keeper / 元能失控 — Trailer_201904"
+        }
+      ]
+    },
+    {
+      "titleId": "0100700013364000",
+      "title": "Guild of Darksteel",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100700013364000.jpg",
+      "variants": [
+        {
+          "id": "v_60014429",
+          "name": "Guild of Darksteel — Guild of Darksteel Release ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18vqi_QYzTM1kZRlgkXBiN_bgANIBdrny",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18vqi_QYzTM1kZRlgkXBiN_bgANIBdrny&sz=w640",
+          "sizeBytes": 4995376,
+          "sha256": "8E9ABEAB6C7DFDD4108934A6F8BD1D2184B6BB6FE14D005221EB92D0F77D8427",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Guild of Darksteel — Guild of Darksteel "
+        }
+      ]
     }
   ],
-  "totalGames": 5123,
-  "totalVariants": 6547,
-  "lastUpdated": "2026-11-10T13:45:00.488241+00:00"
+  "totalGames": 5133,
+  "totalVariants": 6557,
+  "lastUpdated": "2026-11-10T13:48:24.692193+00:00"
 }
