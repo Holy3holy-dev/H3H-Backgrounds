@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T07:04:43.379579+00:00",
+  "updatedAt": "2026-11-10T07:07:47.127775+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -129708,9 +129708,269 @@
           "notes": "Switch 720p 30fps H264 | Kawaii Deathu Desu — Update Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100CFD016122000",
+      "title": "Mail Time",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CFD016122000.jpg",
+      "variants": [
+        {
+          "id": "v_79206635",
+          "name": "Mail Time — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QBEDdSW3A9JpXneFJ12fYW6bHGHy-VZc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QBEDdSW3A9JpXneFJ12fYW6bHGHy-VZc&sz=w640",
+          "sizeBytes": 5220755,
+          "sha256": "CAF97955FBC37CB6BC42514A8A60014DA6329985934B465950CCD17C2A8C2F03",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mail Time — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CA4022140000",
+      "title": "City of Springs",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CA4022140000.jpg",
+      "variants": [
+        {
+          "id": "v_48969c0b",
+          "name": "City of Springs — Cinematic Teaser Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fXVMgQIGhEHevuk0iXgX8ClodTwaIn3p",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fXVMgQIGhEHevuk0iXgX8ClodTwaIn3p&sz=w640",
+          "sizeBytes": 5556052,
+          "sha256": "2A2B3B8F715E7332E25918B53A68621843D06CD40366265BF3F5D18ADDD36C63",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | City of Springs — Cinematic Teaser Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "010035901701A000",
+      "title": "Hamster Playground",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010035901701A000.jpg",
+      "variants": [
+        {
+          "id": "v_5d9cab55",
+          "name": "Hamster Playground — Date Reveal Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1aFjwxbnH7BDKFsCW_NDtiKQTOuTsVEEJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1aFjwxbnH7BDKFsCW_NDtiKQTOuTsVEEJ&sz=w640",
+          "sizeBytes": 5444837,
+          "sha256": "A21EC51F4C0111EB698848B01D8850B9CE4BE9D52123D1372EF250F244FBD181",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hamster Playground — Date Reveal Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01001CC012CC4000",
+      "title": "Teratopia",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001CC012CC4000.jpg",
+      "variants": [
+        {
+          "id": "v_77e0e360",
+          "name": "Teratopia — Teratopia Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Z4OPD0vPOkWY1t7bjrtqAjI7ffLI2izf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Z4OPD0vPOkWY1t7bjrtqAjI7ffLI2izf&sz=w640",
+          "sizeBytes": 5226870,
+          "sha256": "75B86D0886346FCDAF425F654A944E1AF028AB1F972AA0D1081F7CA52FF79C5F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Teratopia — Teratopia Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01006DB00D970000",
+      "title": "OMG! Zombies",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006DB00D970000.jpg",
+      "variants": [
+        {
+          "id": "v_94fe5b5a",
+          "name": "OMG Zombies! — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SGVnFgs7W2zR8cTcgqewQRijNQJNoXoR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SGVnFgs7W2zR8cTcgqewQRijNQJNoXoR&sz=w640",
+          "sizeBytes": 2228551,
+          "sha256": "D182789C1EFA5A7B8FFA3F056C7F616F7183A1DF6FC8490D6EC8D23CBF04EBB7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | OMG Zombies! — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01006FA012FE0000",
+      "title": "Cthulhu Saves Christmas",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006FA012FE0000.jpg",
+      "variants": [
+        {
+          "id": "v_b14aea3f",
+          "name": "Cthulhu Saves Christmas — General Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BU27qBYdG2p4ti8OP5szQEyJr6SaYTOj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BU27qBYdG2p4ti8OP5szQEyJr6SaYTOj&sz=w640",
+          "sizeBytes": 5216218,
+          "sha256": "F3C45517FE18929F8BB7649E9BA5470CE6C10D50813010EA6D2B21F70283BAD2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cthulhu Saves Christmas — General Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B8901AE88000",
+      "title": "Daydream Forgotten Sorrow",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B8901AE88000.jpg",
+      "variants": [
+        {
+          "id": "v_d93bf182",
+          "name": "Daydream: Forgotten Sorrow — Daydream: Forgotten",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SOAYLAsXjxEPNETFtk2MF9TvRdQTmM1d",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SOAYLAsXjxEPNETFtk2MF9TvRdQTmM1d&sz=w640",
+          "sizeBytes": 5157762,
+          "sha256": "CCE0DADAA307CF25CECF08568966B5F1B2B6AC6996AC513BAB11ADB682FF9D26",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Daydream: Forgotten Sorrow — Daydream: F"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C0A021B5C000",
+      "title": "Wind Story",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C0A021B5C000.jpg",
+      "variants": [
+        {
+          "id": "v_b1fe6e31",
+          "name": "Wind Story — WindStory3",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ALeOKz0PQhHybyAuk6GWLBBdPUMQrmpg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ALeOKz0PQhHybyAuk6GWLBBdPUMQrmpg&sz=w640",
+          "sizeBytes": 5086307,
+          "sha256": "D329DEBB735229F018531C39467E3364B0A0673B17FD8E63B1080BA371308E62",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wind Story — WindStory3"
+        }
+      ]
+    },
+    {
+      "titleId": "01008770214BA000",
+      "title": "Vinebound Tangled Together",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008770214BA000.jpg",
+      "variants": [
+        {
+          "id": "v_96c497d4",
+          "name": "Vinebound: Tangled Together — Vinebound: Tangled",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vvxM211H3vOoWsBwlkJMPcXWC8U3zyMM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vvxM211H3vOoWsBwlkJMPcXWC8U3zyMM&sz=w640",
+          "sizeBytes": 5300538,
+          "sha256": "EDF0DA85A808AE2FAE6C0BE30EEE0424C613C92902C6326F29763DBF5C59DE80",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Vinebound: Tangled Together — Vinebound:"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C6C010AE4000",
+      "title": "Clive 'N' Wrench",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C6C010AE4000.jpg",
+      "variants": [
+        {
+          "id": "v_102710cd",
+          "name": "Clive 'N' Wrench — Clive 'N' Wrench - Out Now",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AozWdMDATwuhXUlHEqOwo9ZZTcewHZOG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AozWdMDATwuhXUlHEqOwo9ZZTcewHZOG&sz=w640",
+          "sizeBytes": 5406518,
+          "sha256": "29083255568756B6D9953BB58FE77B59AA6543886B231B1865E43A5631B362CC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Clive 'N' Wrench — Clive 'N' Wrench - Ou"
+        }
+      ]
     }
   ],
-  "totalGames": 3933,
-  "totalVariants": 5357,
-  "lastUpdated": "2026-11-10T07:04:43.379579+00:00"
+  "totalGames": 3943,
+  "totalVariants": 5367,
+  "lastUpdated": "2026-11-10T07:07:47.127775+00:00"
 }
