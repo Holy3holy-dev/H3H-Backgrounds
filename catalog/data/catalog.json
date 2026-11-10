@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T11:44:52.213836+00:00",
+  "updatedAt": "2026-11-10T11:48:40.672717+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -152328,9 +152328,269 @@
           "notes": "Switch 720p 30fps H264 | Weeping Willow - Detective Visual Novel "
         }
       ]
+    },
+    {
+      "titleId": "010088C0162BC000",
+      "title": "The Bonfire Forsaken Lands",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010088C0162BC000.jpg",
+      "variants": [
+        {
+          "id": "v_6c309600",
+          "name": "The Bonfire: Forsaken Lands — The Bonfire: Forsa",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Do7yQGBFuABqWo9zig1WSbVhbwLS6gDM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Do7yQGBFuABqWo9zig1WSbVhbwLS6gDM&sz=w640",
+          "sizeBytes": 5285034,
+          "sha256": "94DD37634B9B19A86EE49A1C33F36C39C9B16BDFCC7B2021028ABAC5618F72BF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Bonfire: Forsaken Lands — The Bonfir"
+        }
+      ]
+    },
+    {
+      "titleId": "0100396012844000",
+      "title": "Research and Destroy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100396012844000.jpg",
+      "variants": [
+        {
+          "id": "v_a561593e",
+          "name": "RESEARCH and DESTROY — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_KaZrTlPK4DN_xrWrHlkLHn7-LAsV6ib",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_KaZrTlPK4DN_xrWrHlkLHn7-LAsV6ib&sz=w640",
+          "sizeBytes": 4813851,
+          "sha256": "E372A1A37ED94839ECD07B4E49AE2CD92068091D41234AE7A40B2E9370816419",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | RESEARCH and DESTROY — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010069F01D436000",
+      "title": "Starlight Drifter",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010069F01D436000.jpg",
+      "variants": [
+        {
+          "id": "v_f027eed0",
+          "name": "Starlight Drifter — New Promo",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LEEKqHmwJg8N-W6frmyiDXdEw54er5gp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LEEKqHmwJg8N-W6frmyiDXdEw54er5gp&sz=w640",
+          "sizeBytes": 5290658,
+          "sha256": "F57ACF2504F65A071154C34534168B6ABFECF7009E06657427D5A52F685729BE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Starlight Drifter — New Promo"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FDB0092B4000",
+      "title": "Where Are My Friends?",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FDB0092B4000.jpg",
+      "variants": [
+        {
+          "id": "v_ab9a06fc",
+          "name": "Where Are My Friends? — Where Are My Friends?",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vOmb2K3f_BZrUxBKiwACOcd4_GcrUP5o",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vOmb2K3f_BZrUxBKiwACOcd4_GcrUP5o&sz=w640",
+          "sizeBytes": 5483720,
+          "sha256": "860AEF560ACBAFEE722E0B96B2337FCD3468E47F5132258D16CD4F496A1E5C4D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Where Are My Friends? — Where Are My Fri"
+        }
+      ]
+    },
+    {
+      "titleId": "01003740178AA000",
+      "title": "Table of Tales the Crooked Crown",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003740178AA000.jpg",
+      "variants": [
+        {
+          "id": "v_50a3a05c",
+          "name": "Table of Tales: The Crooked Crown — Table of Tal",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1itNjcNZLUUHsH4nLlq-vTct9AXS3rONs",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1itNjcNZLUUHsH4nLlq-vTct9AXS3rONs&sz=w640",
+          "sizeBytes": 5352433,
+          "sha256": "3BF9B1963E2E90C3FFBD3AB7A283B3AC764BA9392FC9A2C0F69C8457F33B5D6C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Table of Tales: The Crooked Crown — Tabl"
+        }
+      ]
+    },
+    {
+      "titleId": "01005D1022B50000",
+      "title": "Train Plus",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005D1022B50000.jpg",
+      "variants": [
+        {
+          "id": "v_4eded7da",
+          "name": "Train Plus Japan Drive Western Japan Trains! Rap",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1EBPOPs5z_HvhCOHZuhUuZ1tn14A9vKD_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1EBPOPs5z_HvhCOHZuhUuZ1tn14A9vKD_&sz=w640",
+          "sizeBytes": 5144394,
+          "sha256": "B0A9EC6AD1C59AE2C615BC9A58A547BC2E5499497B756447E0337F4D9D14AEFB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Train Plus Japan Drive Western Japan Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "01005E201530E000",
+      "title": "Monobot",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005E201530E000.jpg",
+      "variants": [
+        {
+          "id": "v_984373ad",
+          "name": "默途 Monobot — Trailer - en",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dxxtNXYj8Zlz4RvBWn8-X0b799VNQjII",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dxxtNXYj8Zlz4RvBWn8-X0b799VNQjII&sz=w640",
+          "sizeBytes": 4638569,
+          "sha256": "803565C29B25856EF4BB7F63FB429C69ABB40F59814D1573E956B8201161B249",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 默途 Monobot — Trailer - en"
+        }
+      ]
+    },
+    {
+      "titleId": "010056601A70A000",
+      "title": "Eden's Last Sunrise",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010056601A70A000.jpg",
+      "variants": [
+        {
+          "id": "v_57ec3991",
+          "name": "Eden's Last Sunrise — Pre-Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DtmOVbWyEIm2SUidcWRE7U09ltHfG3cn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DtmOVbWyEIm2SUidcWRE7U09ltHfG3cn&sz=w640",
+          "sizeBytes": 5374679,
+          "sha256": "80F4E9B35AE931C2A7973DAB1BC442B4867C6064ED41BC57D97A80B097534785",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Eden's Last Sunrise — Pre-Release Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "0100486016806000",
+      "title": "What Lies in the Multiverse",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100486016806000.jpg",
+      "variants": [
+        {
+          "id": "v_bba0759e",
+          "name": "What Lies in the Multiverse — Accolades Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZAIn_3cIbYY_RNDnfZOe1sIWm7oe9XEH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZAIn_3cIbYY_RNDnfZOe1sIWm7oe9XEH&sz=w640",
+          "sizeBytes": 5554266,
+          "sha256": "0656CA6F6894E69E43F61F8B929850D1BAE37805EC89EE16A1CF45A9E521FACF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | What Lies in the Multiverse — Accolades "
+        }
+      ]
+    },
+    {
+      "titleId": "0100D1A01460A000",
+      "title": "Empire of Angels IV",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D1A01460A000.jpg",
+      "variants": [
+        {
+          "id": "v_4aba15f8",
+          "name": "Empire of Angels IV — EOA_ENG",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BSreHoFkagw2Tb8ZmvU5gFvZK0g7XQxq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BSreHoFkagw2Tb8ZmvU5gFvZK0g7XQxq&sz=w640",
+          "sizeBytes": 4776655,
+          "sha256": "0F7B3CAC988E9230FB5663190C1C4180128067E5F32172C01AF46491823C9BA2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Empire of Angels IV — EOA_ENG"
+        }
+      ]
     }
   ],
-  "totalGames": 4803,
-  "totalVariants": 6227,
-  "lastUpdated": "2026-11-10T11:44:52.213836+00:00"
+  "totalGames": 4813,
+  "totalVariants": 6237,
+  "lastUpdated": "2026-11-10T11:48:40.672717+00:00"
 }
