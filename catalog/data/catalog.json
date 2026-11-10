@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T12:43:04.543337+00:00",
+  "updatedAt": "2026-11-10T12:46:57.851607+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -156488,9 +156488,269 @@
           "notes": "Switch 720p 30fps H264 | Laraan — Laraan Steam Trailer"
         }
       ]
+    },
+    {
+      "titleId": "010068301606C000",
+      "title": "The Kids We Were",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010068301606C000.jpg",
+      "variants": [
+        {
+          "id": "v_8566d22f",
+          "name": "The Kids We Were — game trailer EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1b7WQMYjUsOgl2WxTiCMoxCsDEZ0JeGR9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1b7WQMYjUsOgl2WxTiCMoxCsDEZ0JeGR9&sz=w640",
+          "sizeBytes": 4700933,
+          "sha256": "7C68C81CEAF7AF6F7A052AFDE22EA71C23870497BFD866D653C3C7818C21B49A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Kids We Were — game trailer EN"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D1700ACFC000",
+      "title": "Flood of Light",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D1700ACFC000.jpg",
+      "variants": [
+        {
+          "id": "v_7fda3898",
+          "name": "Flood of Light — fol",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nd0atkT0z8CApwIAZVc2x-nPA8t7cpB_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nd0atkT0z8CApwIAZVc2x-nPA8t7cpB_&sz=w640",
+          "sizeBytes": 5608560,
+          "sha256": "44EBFBFA333FE2A5A5FF59338DD93E30FE7C97DB99327EA7246222A6FEB8EDF9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Flood of Light — fol"
+        }
+      ]
+    },
+    {
+      "titleId": "0100461013E50000",
+      "title": "Pako Caravan",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100461013E50000.jpg",
+      "variants": [
+        {
+          "id": "v_40d208af",
+          "name": "PAKO Caravan — PAKO Caravan Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NduzbuZnAk84jkmXh-kuLg7eFmqCt4Oq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NduzbuZnAk84jkmXh-kuLg7eFmqCt4Oq&sz=w640",
+          "sizeBytes": 5536687,
+          "sha256": "2005E7D8839790DB6E930430B87AA7863D462F8ECAF01A7E773D3B4C7D85E834",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | PAKO Caravan — PAKO Caravan Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01008C7017DD8000",
+      "title": "Robotry",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008C7017DD8000.jpg",
+      "variants": [
+        {
+          "id": "v_31b969b3",
+          "name": "Robotry! — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-B5at11hvamTpvWIOUBJOYjUAbI7PUwM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-B5at11hvamTpvWIOUBJOYjUAbI7PUwM&sz=w640",
+          "sizeBytes": 5303643,
+          "sha256": "9253517506E0A54AE6292B1115AE5B390CA8B5EB6D591200522EB6A91FF1510C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Robotry! — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BC401CEB8000",
+      "title": "Coffee Plis",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BC401CEB8000.jpg",
+      "variants": [
+        {
+          "id": "v_cde6cf21",
+          "name": "Coffee, Plis — Trailer Cofee,Plis #2",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SPycoa_0n-IQJs8mxpMGe5vxFeB00y5y",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SPycoa_0n-IQJs8mxpMGe5vxFeB00y5y&sz=w640",
+          "sizeBytes": 5332335,
+          "sha256": "40347D4EC0414CC37C13983FE1675451D896FB47FD8B0F26BD6C6D18C57A2BF3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Coffee, Plis — Trailer Cofee,Plis #2"
+        }
+      ]
+    },
+    {
+      "titleId": "010011B00910C000",
+      "title": "Kill The Bad Guy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010011B00910C000.jpg",
+      "variants": [
+        {
+          "id": "v_c20cc9b5",
+          "name": "Kill The Bad Guy — KTBG Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jrypi3DEucsaWgUNMe-AnQHlyzhQ_-ZK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jrypi3DEucsaWgUNMe-AnQHlyzhQ_-ZK&sz=w640",
+          "sizeBytes": 4645696,
+          "sha256": "A31380EB2AF7DFB47A855ECF8F5AB102507987C6BE399CF475298E4A137780BA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kill The Bad Guy — KTBG Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010026E00FEBE000",
+      "title": "Akuto Showdown",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010026E00FEBE000.jpg",
+      "variants": [
+        {
+          "id": "v_1e4530f9",
+          "name": "Akuto: Showdown — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1d467i1Ty9EyEITRSKtK2JK-S2w6hXb-0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1d467i1Ty9EyEITRSKtK2JK-S2w6hXb-0&sz=w640",
+          "sizeBytes": 4673916,
+          "sha256": "E509FC798E9A99E4B675123B3AB02A37CEDED059103281B87C987BA809F0DCFB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Akuto: Showdown — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01003FF009E60000",
+      "title": "Grab the Bottle",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003FF009E60000.jpg",
+      "variants": [
+        {
+          "id": "v_19661cff",
+          "name": "Grab the Bottle — Grab the Bottle Gameplay Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DR_L1nANCpeQt46DcUIpat02wvdiU_Qx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DR_L1nANCpeQt46DcUIpat02wvdiU_Qx&sz=w640",
+          "sizeBytes": 5388454,
+          "sha256": "005E0502CB7453E4511B2A786CF213E03A29D32AAB2007264A8BAA8306F0888A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Grab the Bottle — Grab the Bottle Gamepl"
+        }
+      ]
+    },
+    {
+      "titleId": "010037500C4DE000",
+      "title": "Worse Than Death",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010037500C4DE000.jpg",
+      "variants": [
+        {
+          "id": "v_278de5fb",
+          "name": "Worse Than Death — Gameplay Montage",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1p6CLkUXtKkg0fSyXchWu40xZBSM4ZZFp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1p6CLkUXtKkg0fSyXchWu40xZBSM4ZZFp&sz=w640",
+          "sizeBytes": 5059632,
+          "sha256": "7929E584136E56AC087639732EE481C205B0A5C91ABF618851394AAA252FFC26",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Worse Than Death — Gameplay Montage"
+        }
+      ]
+    },
+    {
+      "titleId": "0100128003A24000",
+      "title": "Elliot Quest",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100128003A24000.jpg",
+      "variants": [
+        {
+          "id": "v_5361e7fc",
+          "name": "Elliot Quest — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GJSMgPpIhsefNjhtm_USWr-80pE390f1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GJSMgPpIhsefNjhtm_USWr-80pE390f1&sz=w640",
+          "sizeBytes": 5005913,
+          "sha256": "CE3544CC3A03CEBECFA82BDCCEF54EFAEBA51EAC93A4517C210C85B05E08BBE9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Elliot Quest — Launch Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 4963,
-  "totalVariants": 6387,
-  "lastUpdated": "2026-11-10T12:43:04.543337+00:00"
+  "totalGames": 4973,
+  "totalVariants": 6397,
+  "lastUpdated": "2026-11-10T12:46:57.851607+00:00"
 }
