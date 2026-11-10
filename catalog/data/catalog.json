@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T01:29:07.886400+00:00",
+  "updatedAt": "2026-11-10T01:35:13.409661+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -102408,9 +102408,269 @@
           "notes": "Switch 720p 30fps H264 | Downwell — Gameplay Trailer"
         }
       ]
+    },
+    {
+      "titleId": "01003B701E442000",
+      "title": "Wild Bastards",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003B701E442000.jpg",
+      "variants": [
+        {
+          "id": "v_ab83ca1d",
+          "name": "Wild Bastards — Accolades Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Pa8Ke1zPpATgxcl4_RWTVtJQtjvdHJBT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Pa8Ke1zPpATgxcl4_RWTVtJQtjvdHJBT&sz=w640",
+          "sizeBytes": 5260123,
+          "sha256": "703332BBD63B57673DDD256A3BCAA44ECB7877BADE20683F86D6FAAB77BD2DEF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wild Bastards — Accolades Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100059012BAE000",
+      "title": "Crown Trick",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100059012BAE000.jpg",
+      "variants": [
+        {
+          "id": "v_ed4c6aff",
+          "name": "Crown Trick — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cD-MCdXYGiKRg-ylQsBDQoAdva3Eycor",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cD-MCdXYGiKRg-ylQsBDQoAdva3Eycor&sz=w640",
+          "sizeBytes": 2281258,
+          "sha256": "BE9B6C2159A3BAE380A20923B7489E03DF1218E07EA5A8055CC0C205913BA972",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Crown Trick — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E6901FAB6000",
+      "title": "Jupiter Hell",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E6901FAB6000.jpg",
+      "variants": [
+        {
+          "id": "v_4bb3c3a3",
+          "name": "Jupiter Hell — Jupiter Hell gameplay trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vxl3kjDh_igZrNH1rugeYA7TmJw6WH84",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vxl3kjDh_igZrNH1rugeYA7TmJw6WH84&sz=w640",
+          "sizeBytes": 5321439,
+          "sha256": "1198AC6656227DE3BF6B29DA046FB5B8A1155F4A86F5B65457D3D0C8CCC424F9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Jupiter Hell — Jupiter Hell gameplay tra"
+        }
+      ]
+    },
+    {
+      "titleId": "01004F900B838000",
+      "title": "Zombie Night Terror",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004F900B838000.jpg",
+      "variants": [
+        {
+          "id": "v_9a734a5e",
+          "name": "Zombie Night Terror — Zombie Night Terror - Laun",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1atF3HoRDX7KKj_0BP-kUZ4H7HrKcdZp1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1atF3HoRDX7KKj_0BP-kUZ4H7HrKcdZp1&sz=w640",
+          "sizeBytes": 5161938,
+          "sha256": "80972C4B29A7D8182FAEC3850F61F5AC87BEB58BAA107426FE62548BB61EB7BC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Zombie Night Terror — Zombie Night Terro"
+        }
+      ]
+    },
+    {
+      "titleId": "01005AC0068F6000",
+      "title": "Fear Effect Sedna",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005AC0068F6000.jpg",
+      "variants": [
+        {
+          "id": "v_2f09447e",
+          "name": "Fear Effect Sedna — ESRB EN Release Date Announc",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_Etzl99P0zj4HialPMQ8UbI8mLncd9gx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_Etzl99P0zj4HialPMQ8UbI8mLncd9gx&sz=w640",
+          "sizeBytes": 1217239,
+          "sha256": "C134A1A247A4E539D4F7BD20C7AF6DC8ACCC6F2374E240314C4272DF92F8820E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fear Effect Sedna — ESRB EN Release Date"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C2E01254C000",
+      "title": "Lunistice",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C2E01254C000.jpg",
+      "variants": [
+        {
+          "id": "v_bdca2d67",
+          "name": "Lunistice — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hYDWqNTFBDH3O0AiKAPHPp_USwnWu6qL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hYDWqNTFBDH3O0AiKAPHPp_USwnWu6qL&sz=w640",
+          "sizeBytes": 5420081,
+          "sha256": "848403A2478CA23E054F785F44774661DE31C065F47AD3DC35E088653280035B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lunistice — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DCF013740000",
+      "title": "Nickelodeon All-Star Brawl",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DCF013740000.jpg",
+      "variants": [
+        {
+          "id": "v_931a4d4f",
+          "name": "Nickelodeon All-Star Brawl 2 — Accolades Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1JuGMfVqUxC3_JR0QQjMaF3c74zhFygPz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1JuGMfVqUxC3_JR0QQjMaF3c74zhFygPz&sz=w640",
+          "sizeBytes": 5286745,
+          "sha256": "C82D4E8008FAB5347FD1FC30C4BABD244EE5BCDFCA5DC93D251A54AD2ED9C87E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Nickelodeon All-Star Brawl 2 — Accolades"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B410138C0000",
+      "title": "Unspottable",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B410138C0000.jpg",
+      "variants": [
+        {
+          "id": "v_2927a0d6",
+          "name": "Unspottable — Online Mode Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1udApSuqt67AXaToy8yoahc0C6NLWUHxu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1udApSuqt67AXaToy8yoahc0C6NLWUHxu&sz=w640",
+          "sizeBytes": 5414977,
+          "sha256": "51AA0AD2E3C1F0D97BE01F9A6D8076FA297C2A124A3E4520DEE41E2D76703782",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Unspottable — Online Mode Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C8B00D2BE000",
+      "title": "Radical Rabbit Stew",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C8B00D2BE000.jpg",
+      "variants": [
+        {
+          "id": "v_32379065",
+          "name": "Radical Rabbit Stew — RRS Accolades",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_qmbUGpl_EdGONL44DYosjVq1HCngG1d",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_qmbUGpl_EdGONL44DYosjVq1HCngG1d&sz=w640",
+          "sizeBytes": 5592369,
+          "sha256": "92FB009AAFBB392DE5C60623B929E7157C2F624A800578C98870668B87138788",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Radical Rabbit Stew — RRS Accolades"
+        }
+      ]
+    },
+    {
+      "titleId": "010008C014432000",
+      "title": "Yoko and Yuki Dr. Rat's Revenge",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010008C014432000.jpg",
+      "variants": [
+        {
+          "id": "v_8736b265",
+          "name": "Yoko & Yuki: Dr. Rat's Revenge — Yoko & Yuki",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TdbljEfh1Bzk1TtF6sX6KdfyLeMADxKB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TdbljEfh1Bzk1TtF6sX6KdfyLeMADxKB&sz=w640",
+          "sizeBytes": 4846407,
+          "sha256": "50151C36F1598DF329A8E123729808E59ECB8D8D3F10FE7EA06838F279AA9B74",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Yoko & Yuki: Dr. Rat's Revenge — Yoko & "
+        }
+      ]
     }
   ],
-  "totalGames": 2883,
-  "totalVariants": 4307,
-  "lastUpdated": "2026-11-10T01:29:07.886400+00:00"
+  "totalGames": 2893,
+  "totalVariants": 4317,
+  "lastUpdated": "2026-11-10T01:35:13.409661+00:00"
 }
