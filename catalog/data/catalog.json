@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T07:25:31.214732+00:00",
+  "updatedAt": "2026-11-10T07:28:25.064096+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -131528,9 +131528,269 @@
           "notes": "Switch 720p 30fps H264 | DOKAPON! Sword of Fury — DOKAPON! -Sword"
         }
       ]
+    },
+    {
+      "titleId": "01004C60209F4000",
+      "title": "Detective From the Crypt",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004C60209F4000.jpg",
+      "variants": [
+        {
+          "id": "v_d64934e1",
+          "name": "Detective From The Crypt — TrailerEn",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Tpd2PKzCCsJnyz3Y486PkQZkxfU82UAP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Tpd2PKzCCsJnyz3Y486PkQZkxfU82UAP&sz=w640",
+          "sizeBytes": 5377816,
+          "sha256": "A62C246447E98DBDE485E7DE2CCE754268CD3278B54FE2AEE801444084840E28",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Detective From The Crypt — TrailerEn"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F1502307A000",
+      "title": "CATO Buttered Cat",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F1502307A000.jpg",
+      "variants": [
+        {
+          "id": "v_3f6f4f66",
+          "name": "CATO: Buttered Cat — CATO: Buttered Cat丨Final Tr",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18zvO5PQJNvU92904H63E8cIpe6atGjWE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18zvO5PQJNvU92904H63E8cIpe6atGjWE&sz=w640",
+          "sizeBytes": 5294628,
+          "sha256": "ACE5550521504C90CC0F689DA9601E1626D2B3E2DC298413238C786B56DD3EE4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | CATO: Buttered Cat — CATO: Buttered Cat丨"
+        }
+      ]
+    },
+    {
+      "titleId": "010036F01706A000",
+      "title": "Grand Mountain Adventure Wonderlands",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010036F01706A000.jpg",
+      "variants": [
+        {
+          "id": "v_8f3bf09b",
+          "name": "Grand Mountain Adventure: Wonderlands — Trailer ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wQJSs3z3xO532Ayp22aiNjiC8ATJD04g",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wQJSs3z3xO532Ayp22aiNjiC8ATJD04g&sz=w640",
+          "sizeBytes": 4098936,
+          "sha256": "CC2AF947AE6D6FD17000C2A6EC0A29E65B128C6C4D1D8347ED23979F52562F3B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Grand Mountain Adventure: Wonderlands — "
+        }
+      ]
+    },
+    {
+      "titleId": "010070601C7E4000",
+      "title": "Bubble Ghost Remake",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010070601C7E4000.jpg",
+      "variants": [
+        {
+          "id": "v_b46fe58f",
+          "name": "Bubble Ghost Remake — Bubble Ghost Remake",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oQgJKw-EzeLBvJsQP7TVM2uTKEKalJfH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oQgJKw-EzeLBvJsQP7TVM2uTKEKalJfH&sz=w640",
+          "sizeBytes": 4248097,
+          "sha256": "114537FDDFDF65ADBBE4F2E03A203970AE913D4A94C5A4C460367DE4788200D4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bubble Ghost Remake — Bubble Ghost Remak"
+        }
+      ]
+    },
+    {
+      "titleId": "010048A021C40000",
+      "title": "Breakout Beyond",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010048A021C40000.jpg",
+      "variants": [
+        {
+          "id": "v_b4cdd6cc",
+          "name": "Breakout Beyond — Breakout Beyond - Launch Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10BTIbxAMlNcFCpbiEG0QRf_JLak4Rmd0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10BTIbxAMlNcFCpbiEG0QRf_JLak4Rmd0&sz=w640",
+          "sizeBytes": 5063082,
+          "sha256": "E40EAB6F4432F351CF0553D2D08F03C91F008065D569FDBA718B28B537864FB1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Breakout Beyond — Breakout Beyond - Laun"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B7C01D481000",
+      "title": "Boti Byteland Overclocked",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B7C01D481000.jpg",
+      "variants": [
+        {
+          "id": "v_741571e5",
+          "name": "Boti: Byteland Overclocked — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1P6ayRcbai1JyzTHaa1vvFF4oby0nF2eM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1P6ayRcbai1JyzTHaa1vvFF4oby0nF2eM&sz=w640",
+          "sizeBytes": 5386026,
+          "sha256": "A18B3FECE34CFC206F6C409DBC69E93E1B11C24BD852D2BFA01A4C5F54482A6C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Boti: Byteland Overclocked — Launch Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BF2019B98000",
+      "title": "Kizuna AI Touch the Beat",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BF2019B98000.jpg",
+      "variants": [
+        {
+          "id": "v_827d384c",
+          "name": "Kizuna AI - Touch the Beat! — Kizuna AI - Touch ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FA5HiZUXYPdvuHjUUuFCc_Gz8svUyTBC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FA5HiZUXYPdvuHjUUuFCc_Gz8svUyTBC&sz=w640",
+          "sizeBytes": 4692682,
+          "sha256": "A09C9B42F6BDBB02568D6FB7B82680E25F94435514BB437624820E6E5156F41C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kizuna AI - Touch the Beat! — Kizuna AI "
+        }
+      ]
+    },
+    {
+      "titleId": "01002BE01B9E2000",
+      "title": "Anomaly Collapse",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002BE01B9E2000.jpg",
+      "variants": [
+        {
+          "id": "v_349af9cd",
+          "name": "Anomaly Collapse — Launch Trailer EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Vwu8katenP0jZ10RRIinSM_uom3QYYwA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Vwu8katenP0jZ10RRIinSM_uom3QYYwA&sz=w640",
+          "sizeBytes": 5079344,
+          "sha256": "3975C48595ACA45621ADCB9B450BD83DA3B38ED33EFE41A48DE824C9E42DAE5F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Anomaly Collapse — Launch Trailer EN"
+        }
+      ]
+    },
+    {
+      "titleId": "010073601DF1A000",
+      "title": "Amber Isle",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010073601DF1A000.jpg",
+      "variants": [
+        {
+          "id": "v_fbb7aea6",
+          "name": "Amber Isle — Amber Isle - Out Now Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CkCf4DrspWcy8mR1__IKQYCYxFv2Dc81",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CkCf4DrspWcy8mR1__IKQYCYxFv2Dc81&sz=w640",
+          "sizeBytes": 5483388,
+          "sha256": "CEFD423B109BB2189574731B46F78957689A02F857072AF6D05371A5F0A182F6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Amber Isle — Amber Isle - Out Now Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "010038601E062000",
+      "title": "A Rite from the Stars: Remaster edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010038601E062000.jpg",
+      "variants": [
+        {
+          "id": "v_c5f8bf65",
+          "name": "A Rite from the Stars: Remaster Edition — ARftS ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1g-FvrADzlpvl4aSdCnALzQL2Y_VfCA_l",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1g-FvrADzlpvl4aSdCnALzQL2Y_VfCA_l&sz=w640",
+          "sizeBytes": 5400081,
+          "sha256": "EDB4E93F301FF628CEC7F49749C29D7B9F95FE11A023979CE589B010AF6E43DA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | A Rite from the Stars: Remaster Edition "
+        }
+      ]
     }
   ],
-  "totalGames": 4003,
-  "totalVariants": 5427,
-  "lastUpdated": "2026-11-10T07:25:31.214732+00:00"
+  "totalGames": 4013,
+  "totalVariants": 5437,
+  "lastUpdated": "2026-11-10T07:28:25.064096+00:00"
 }
