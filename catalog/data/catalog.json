@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T08:37:14.099965+00:00",
+  "updatedAt": "2026-11-10T08:40:15.253745+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -137508,9 +137508,269 @@
           "notes": "Switch 720p 30fps H264 | Haunted House — Haunted House - Announce"
         }
       ]
+    },
+    {
+      "titleId": "0100D5B017C82000",
+      "title": "Gunman Tales",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D5B017C82000.jpg",
+      "variants": [
+        {
+          "id": "v_e2ef55b9",
+          "name": "Gunman Tales — GunmanTales trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qjfYC0z-xO2xwugwj0yaaFTFLNIv7ldP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qjfYC0z-xO2xwugwj0yaaFTFLNIv7ldP&sz=w640",
+          "sizeBytes": 4660245,
+          "sha256": "B9368639AF95660C8BF9ACC845503FA3DB0A9498068FBCE81742CA5511090AEF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Gunman Tales — GunmanTales trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A5701AFC0000",
+      "title": "Gruta",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A5701AFC0000.jpg",
+      "variants": [
+        {
+          "id": "v_3dabaf3c",
+          "name": "La GRUTA — Teaser",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZyF5aV-rh_Q2H8zRI5tj78tLyxpykcXe",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZyF5aV-rh_Q2H8zRI5tj78tLyxpykcXe&sz=w640",
+          "sizeBytes": 5090307,
+          "sha256": "C4C9436F30487C81464F98F6D795EBB944AAF23CD66A442A522942E0ED679CA6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | La GRUTA — Teaser"
+        }
+      ]
+    },
+    {
+      "titleId": "01004CC01AE36000",
+      "title": "Growth",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004CC01AE36000.jpg",
+      "variants": [
+        {
+          "id": "v_77d1a2df",
+          "name": "Garbage Growth — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pzL3Vd49VuglJQmiNmdrnm04DuP7fBCL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pzL3Vd49VuglJQmiNmdrnm04DuP7fBCL&sz=w640",
+          "sizeBytes": 5446791,
+          "sha256": "059C4764B548F5B813D40DBAC0C8877A45E73F4452023E5FB5BFA51CC4B05989",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Garbage Growth — Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010099C01896C000",
+      "title": "Gripper",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010099C01896C000.jpg",
+      "variants": [
+        {
+          "id": "v_94e4f145",
+          "name": "Gripper — Gripper Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qyEYIwToDew7O0Dykf8oyRWRNkqBYOST",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qyEYIwToDew7O0Dykf8oyRWRNkqBYOST&sz=w640",
+          "sizeBytes": 5274917,
+          "sha256": "9A99336BCD2835DC0E6377C5116658961B76BA4EDA8B9A5D8680AC8A8A046AAE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Gripper — Gripper Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EC40181AC000",
+      "title": "Glitch Busters Stuck on You",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EC40181AC000.jpg",
+      "variants": [
+        {
+          "id": "v_12d7d012",
+          "name": "Glitch Busters: Stuck On You — Glitch Busters - ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vtn8BRcI3YjRzOxTFbDBTEsels2OFVCV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vtn8BRcI3YjRzOxTFbDBTEsels2OFVCV&sz=w640",
+          "sizeBytes": 5482565,
+          "sha256": "EB195DE5AD502F88A89BD7ACB956D366A2C31E2FDCB027742FBEDB1D9AD406E0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Glitch Busters: Stuck On You — Glitch Bu"
+        }
+      ]
+    },
+    {
+      "titleId": "01004B1019C7E000",
+      "title": "Ginnung",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004B1019C7E000.jpg",
+      "variants": [
+        {
+          "id": "v_7f7416aa",
+          "name": "Ginnung — Main Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Y5GUYqfqcLHZULlNt_LwxuVvMDHi0Dm-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Y5GUYqfqcLHZULlNt_LwxuVvMDHi0Dm-&sz=w640",
+          "sizeBytes": 5458822,
+          "sha256": "8130ED3E601C4B7EA705246E49AEEE5146C7F8A55F07272745F1C037B4D209D6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ginnung — Main Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010095D01C7D2000",
+      "title": "Geometric Sniper",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010095D01C7D2000.jpg",
+      "variants": [
+        {
+          "id": "v_cc2ef9c5",
+          "name": "Geometric Sniper — Trailler",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AFPuzuyShYmDF37-QPXgPLWj3AbBJ7YM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AFPuzuyShYmDF37-QPXgPLWj3AbBJ7YM&sz=w640",
+          "sizeBytes": 4438118,
+          "sha256": "72FF7CBDFDEC1FDA02D7634AE82F2ED6FF3DD4AF3EE271AFA2BC8E1E567BFD27",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Geometric Sniper — Trailler"
+        }
+      ]
+    },
+    {
+      "titleId": "010051301BEC8000",
+      "title": "Gensei Suikoden Plus",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010051301BEC8000.jpg",
+      "variants": [
+        {
+          "id": "v_2d152d83",
+          "name": "Gensei Suikoden Plus — GENSEISUIKODEN  PLUS for ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rniefZi6eYwtJWLHMxs5kjUCQYXyYYCt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rniefZi6eYwtJWLHMxs5kjUCQYXyYYCt&sz=w640",
+          "sizeBytes": 3498467,
+          "sha256": "4DEE53BF98B91AEA1CFB4DD6822B7F954E56003210AE9474C8BEDE8C88EA1387",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Gensei Suikoden Plus — GENSEISUIKODEN  P"
+        }
+      ]
+    },
+    {
+      "titleId": "01003FA0196D8000",
+      "title": "Frido",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003FA0196D8000.jpg",
+      "variants": [
+        {
+          "id": "v_97ad4d22",
+          "name": "Frido — Frido Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12RN6ddibX81KaZKRfcBKAFvSwd-5BNRs",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12RN6ddibX81KaZKRfcBKAFvSwd-5BNRs&sz=w640",
+          "sizeBytes": 5202381,
+          "sha256": "E5D76B50E4C6C30AC8514BA43EB99A5C7044C39CE184371729B2C836D293BA19",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Frido — Frido Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EAE019288000",
+      "title": "Frank and Drake",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EAE019288000.jpg",
+      "variants": [
+        {
+          "id": "v_9de3fbd4",
+          "name": "Frank and Drake — Accolade Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rsPKHHGGQEzpirg9UAFlvSEqUkv4ROgp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rsPKHHGGQEzpirg9UAFlvSEqUkv4ROgp&sz=w640",
+          "sizeBytes": 4630076,
+          "sha256": "F886F8B1C9569486CEF2ECB14DDB3C90A0062E97F88B2656EB3ED662B50FAA3C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Frank and Drake — Accolade Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 4233,
-  "totalVariants": 5657,
-  "lastUpdated": "2026-11-10T08:37:14.099965+00:00"
+  "totalGames": 4243,
+  "totalVariants": 5667,
+  "lastUpdated": "2026-11-10T08:40:15.253745+00:00"
 }
