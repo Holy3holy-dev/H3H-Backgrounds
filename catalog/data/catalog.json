@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T05:32:52.590637+00:00",
+  "updatedAt": "2026-11-10T05:35:57.824344+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -122168,9 +122168,269 @@
           "notes": "Switch 720p 30fps H264 | Wife Quest — Wife Quest - Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100ACC01BF92000",
+      "title": "Rogue Waters",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100ACC01BF92000.jpg",
+      "variants": [
+        {
+          "id": "v_f25c1df6",
+          "name": "Rogue Waters — Rogue Waters - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bXY1TJm8V9fYa7qIboDtlFl3I7UBgGY7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bXY1TJm8V9fYa7qIboDtlFl3I7UBgGY7&sz=w640",
+          "sizeBytes": 5696801,
+          "sha256": "894AA45A4DD198ABBDF95B320500179CCAAFD34971BFC004A56297E4445FF909",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rogue Waters — Rogue Waters - Launch Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "01009C901BFC6000",
+      "title": "Saga of the Moon Priestess",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009C901BFC6000.jpg",
+      "variants": [
+        {
+          "id": "v_f165012e",
+          "name": "Saga of the Moon Priestess — Saga of the Moon Pr",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IrnONKCZv4yiKqCg3xPRq1TGhW9hEyD9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IrnONKCZv4yiKqCg3xPRq1TGhW9hEyD9&sz=w640",
+          "sizeBytes": 5467099,
+          "sha256": "3A22DFCDB86FD6BB2318268CDC96739C63D7CD86F9E21EBEA193B724D9F6A21A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Saga of the Moon Priestess — Saga of the"
+        }
+      ]
+    },
+    {
+      "titleId": "010074300F7F6000",
+      "title": "Roundguard",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010074300F7F6000.jpg",
+      "variants": [
+        {
+          "id": "v_33204334",
+          "name": "Roundguard — Roundguard Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vmYt5WOwTZj33Ikm6Ok_MUFM4xZjRBp1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vmYt5WOwTZj33Ikm6Ok_MUFM4xZjRBp1&sz=w640",
+          "sizeBytes": 5291201,
+          "sha256": "5B1A51F3EEBB2C8FA996D259B4731205D7A7436B330913D8370DB904F67B5E0F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Roundguard — Roundguard Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EA10180AC000",
+      "title": "RPG Time the Legend of Wright",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EA10180AC000.jpg",
+      "variants": [
+        {
+          "id": "v_dfbf832c",
+          "name": "RPG Time: The Legend of Wright — 20220616_Steam_",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OIhqgNS_VlKKvkfuHEtyzHRxDpEWLd--",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OIhqgNS_VlKKvkfuHEtyzHRxDpEWLd--&sz=w640",
+          "sizeBytes": 5334191,
+          "sha256": "D056214B8F793D0B0D4C2C761C5683C14B6B1816FE38693520D03CDB378CEB7C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | RPG Time: The Legend of Wright — 2022061"
+        }
+      ]
+    },
+    {
+      "titleId": "010031D00A604000",
+      "title": "Songbringer",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010031D00A604000.jpg",
+      "variants": [
+        {
+          "id": "v_1dd65258",
+          "name": "Songbringer — Songbringer Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1u7j09S_IXI915_djgV6rQAwtsYcvb5XD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1u7j09S_IXI915_djgV6rQAwtsYcvb5XD&sz=w640",
+          "sizeBytes": 5289550,
+          "sha256": "2D81BB513D11415EFDBD16268B9E8A199EAD4784183399DB8A029BB9096667D5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Songbringer — Songbringer Release Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BB801B79C000",
+      "title": "Hauntii",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BB801B79C000.jpg",
+      "variants": [
+        {
+          "id": "v_0981d814",
+          "name": "Hauntii — Accolades Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1u2XkgxP8V7mBgVMzbX9dF7js_P-ThqNY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1u2XkgxP8V7mBgVMzbX9dF7js_P-ThqNY&sz=w640",
+          "sizeBytes": 5331888,
+          "sha256": "DE9D7E8B9EF231AD24A65C01D0B1753713B4543B5B787851C3297C06A63B5197",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hauntii — Accolades Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01007ED00C032000",
+      "title": "Sparklite",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007ED00C032000.jpg",
+      "variants": [
+        {
+          "id": "v_53bfea28",
+          "name": "Sparklite — Sparklite Accolades",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19zxH9z4e61n3U29LEApjiUj3K-T4qDxI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19zxH9z4e61n3U29LEApjiUj3K-T4qDxI&sz=w640",
+          "sizeBytes": 5192730,
+          "sha256": "B1FAADA47F8B61FC98CBAA8024C758EF0B3C5DB93DDBE8164ACDA3136BF71508",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sparklite — Sparklite Accolades"
+        }
+      ]
+    },
+    {
+      "titleId": "01004F20257AE000",
+      "title": "Revival Recolonization",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004F20257AE000.jpg",
+      "variants": [
+        {
+          "id": "v_503934e7",
+          "name": "Revival: Recolonization — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lalWs-4tPKGy0p_GVuod5sz8ZAdjAeze",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lalWs-4tPKGy0p_GVuod5sz8ZAdjAeze&sz=w640",
+          "sizeBytes": 5132211,
+          "sha256": "7E4CDF3FDBA2AE0D67A59DE223BACC204CAFE93238F00ECF269A0AE7DD280A22",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Revival: Recolonization — Release Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "010081E01A45C000",
+      "title": "Bang-On Balls Chronicles",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010081E01A45C000.jpg",
+      "variants": [
+        {
+          "id": "v_613515d2",
+          "name": "Bang-On Balls: Chronicles — Launch Gameplay Trai",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VWUxZjYu0NToD6kMZkGq7kHY_EEMw_qA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VWUxZjYu0NToD6kMZkGq7kHY_EEMw_qA&sz=w640",
+          "sizeBytes": 5505519,
+          "sha256": "6CD1610F630BA9C2506FF634EF931F8B727B4A835A795AA3F6A1A4C984310C7A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bang-On Balls: Chronicles — Launch Gamep"
+        }
+      ]
+    },
+    {
+      "titleId": "010022F01A016000",
+      "title": "Last Command",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010022F01A016000.jpg",
+      "variants": [
+        {
+          "id": "v_dc1e897e",
+          "name": "Last Command — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Al1ifZBWCMwVdUl8cfLvs0fLUk-rBS1y",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Al1ifZBWCMwVdUl8cfLvs0fLUk-rBS1y&sz=w640",
+          "sizeBytes": 4403463,
+          "sha256": "7B2CC6BAF22A1A496BA973C673B9C9AADCA7DC8866612584CF6A3D4CF9C005F3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Last Command — Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 3643,
-  "totalVariants": 5067,
-  "lastUpdated": "2026-11-10T05:32:52.590637+00:00"
+  "totalGames": 3653,
+  "totalVariants": 5077,
+  "lastUpdated": "2026-11-10T05:35:57.824344+00:00"
 }
