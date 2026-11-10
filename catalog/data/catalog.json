@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T14:56:48.810108+00:00",
+  "updatedAt": "2026-11-10T15:00:32.837449+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -165588,9 +165588,269 @@
           "notes": "Switch 720p 30fps H264 | UNABLES — UNABLES | Opening Sequence"
         }
       ]
+    },
+    {
+      "titleId": "010044500F3C2000",
+      "title": "The Mims Beginning",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010044500F3C2000.jpg",
+      "variants": [
+        {
+          "id": "v_9f428d76",
+          "name": "The Mims Beginning — Full Release - 18th of May ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oBsMGCsjqK4GYs3H_90AweMzNLy4T_RH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oBsMGCsjqK4GYs3H_90AweMzNLy4T_RH&sz=w640",
+          "sizeBytes": 5566174,
+          "sha256": "BE44F3E1CB17E4035477755A3C4CE5162F9DE1BAAF351A021447D817A4905DDF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Mims Beginning — Full Release - 18th"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EAD01AD76000",
+      "title": "Gastro Force",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EAD01AD76000.jpg",
+      "variants": [
+        {
+          "id": "v_ca43c31b",
+          "name": "Gastro Force — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1RfO2kYVODuDkMFgEgVwq-TDKrlhjwpSQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1RfO2kYVODuDkMFgEgVwq-TDKrlhjwpSQ&sz=w640",
+          "sizeBytes": 5566674,
+          "sha256": "6289CEAACE90E6FE34DA0C5770B01859A83E0FCEBB2015EA1514BF5EEAE5AFDF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Gastro Force — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100531011EF4000",
+      "title": "Her Majesty's Ship",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100531011EF4000.jpg",
+      "variants": [
+        {
+          "id": "v_1d5b8688",
+          "name": "Her Majesty's Ship — HMS Major Update",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1R50a23k9uMX92WtJlpTZG3zrRBHO8STy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1R50a23k9uMX92WtJlpTZG3zrRBHO8STy&sz=w640",
+          "sizeBytes": 5082222,
+          "sha256": "A5DFE4E3B2616F031C333DB2891B7ECAE037828A244B6904D0ACED1A415FA80C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Her Majesty's Ship — HMS Major Update"
+        }
+      ]
+    },
+    {
+      "titleId": "010065501D324000",
+      "title": "Freeride",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010065501D324000.jpg",
+      "variants": [
+        {
+          "id": "v_831b93dc",
+          "name": "FreakOut: Extreme Freeride — FreakOut Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XZd8OEVOdAr2UU1sPPw9P8WBFqApLbET",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XZd8OEVOdAr2UU1sPPw9P8WBFqApLbET&sz=w640",
+          "sizeBytes": 4510240,
+          "sha256": "F2B6426D70E1AD9E0AC31BBC7BE75063A3FAE0108C6FFD6D8A5A36FE6C3D18B3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | FreakOut: Extreme Freeride — FreakOut Tr"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AE701287E000",
+      "title": "Space Grunts",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AE701287E000.jpg",
+      "variants": [
+        {
+          "id": "v_10bf0ec4",
+          "name": "Space Grunts — Release trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BRoUYPFTfqclYwEO7bQuG73jr0ZeXIVd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BRoUYPFTfqclYwEO7bQuG73jr0ZeXIVd&sz=w640",
+          "sizeBytes": 5517345,
+          "sha256": "5B0D1A101484805FACBA6D59E043A9FE1708843F4596442D773358FAD420D5C6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Space Grunts — Release trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010047F013104000",
+      "title": "Outbreak",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010047F013104000.jpg",
+      "variants": [
+        {
+          "id": "v_247746dd",
+          "name": "Whisper Mountain Outbreak — Whisper Mountain Out",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14N9GaDkRh7c8qUxEdSpgvys9QtxJfrkr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14N9GaDkRh7c8qUxEdSpgvys9QtxJfrkr&sz=w640",
+          "sizeBytes": 5038314,
+          "sha256": "B4D1DBE63FF7B0003569E24A729DB5E0FC8065E27BB02D3F421DBE4EF1F33300",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Whisper Mountain Outbreak — Whisper Moun"
+        }
+      ]
+    },
+    {
+      "titleId": "01001B100C3D4000",
+      "title": "Planet RIX-13",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001B100C3D4000.jpg",
+      "variants": [
+        {
+          "id": "v_e2d71715",
+          "name": "Planet RIX-13 — Planet RIX-13 Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1a5d8ZbwO5CcjO6X5Ed1aNTdoF6zicHLD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1a5d8ZbwO5CcjO6X5Ed1aNTdoF6zicHLD&sz=w640",
+          "sizeBytes": 4926140,
+          "sha256": "147BB84EB55FA25D3CE63B1172B749FFB8D1995AE13D9C184366F93191A04992",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Planet RIX-13 — Planet RIX-13 Gameplay T"
+        }
+      ]
+    },
+    {
+      "titleId": "010045400D73E000",
+      "title": "Red Siren: Space Defense",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010045400D73E000.jpg",
+      "variants": [
+        {
+          "id": "v_5fdfeb7e",
+          "name": "Red Siren: Space Defense — Red Siren: Space Defe",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WnyV2XjM-KXAWCyHs1Q5Fio_n91NXs9L",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WnyV2XjM-KXAWCyHs1Q5Fio_n91NXs9L&sz=w640",
+          "sizeBytes": 4946680,
+          "sha256": "67AD6FAB63390C95324B7CC6EC8C8A35CFDCBE867FC66BFA1C3E4A6CD16E6A79",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Red Siren: Space Defense — Red Siren: Sp"
+        }
+      ]
+    },
+    {
+      "titleId": "0100013013F30000",
+      "title": "What Comes After",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100013013F30000.jpg",
+      "variants": [
+        {
+          "id": "v_6ef668d6",
+          "name": "What Comes After — Announcement 2",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rsrdHsQPlYyJy35CEqmKhsX9apich_mJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rsrdHsQPlYyJy35CEqmKhsX9apich_mJ&sz=w640",
+          "sizeBytes": 4919920,
+          "sha256": "2DFD385ED0DEC02C4FAA960040543B1C7CBBF6BFA553EF73B63127D0D6E9A973",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | What Comes After — Announcement 2"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F3101C34C000",
+      "title": "Evolings",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F3101C34C000.jpg",
+      "variants": [
+        {
+          "id": "v_bed8233e",
+          "name": "Evolings — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HlZlhIK-AJCm2xY2avH7ZIn1s-mKY_mc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HlZlhIK-AJCm2xY2avH7ZIn1s-mKY_mc&sz=w640",
+          "sizeBytes": 5268375,
+          "sha256": "E84A6DFBD8417195A47F5A9C6E31165E6FC1E8FB70ECF756D2B4C19A5CEB2255",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Evolings — Launch Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 5313,
-  "totalVariants": 6737,
-  "lastUpdated": "2026-11-10T14:56:48.810108+00:00"
+  "totalGames": 5323,
+  "totalVariants": 6747,
+  "lastUpdated": "2026-11-10T15:00:32.837449+00:00"
 }
