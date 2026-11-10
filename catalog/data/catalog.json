@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T12:05:34.385189+00:00",
+  "updatedAt": "2026-11-10T12:09:14.967945+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -153888,9 +153888,269 @@
           "notes": "Switch 720p 30fps H264 | God Damn The Garden — Official"
         }
       ]
+    },
+    {
+      "titleId": "010028701AB4E000",
+      "title": "Boreal Tenebrae Deluxe edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010028701AB4E000.jpg",
+      "variants": [
+        {
+          "id": "v_aa46f1c1",
+          "name": "Boreal Tenebrae Act 0: Sundowning — Boreal Teneb",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1E3U3zmCsf7DGFEcyuLBhB9VZfxC3Fj5I",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1E3U3zmCsf7DGFEcyuLBhB9VZfxC3Fj5I&sz=w640",
+          "sizeBytes": 5551627,
+          "sha256": "DDB9D1736F9EA7B00BDD8BF5C82496AE578C460645357375E7BEACCCFCC78793",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Boreal Tenebrae Act 0: Sundowning — Bore"
+        }
+      ]
+    },
+    {
+      "titleId": "010038E01A582000",
+      "title": "Vaccine Rebirth",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010038E01A582000.jpg",
+      "variants": [
+        {
+          "id": "v_6ed3d7a4",
+          "name": "Vaccine Rebirth — Vaccine Release",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VNdA9YEyfZ5oihuv1kZ_Q0dKDFLz5BnW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VNdA9YEyfZ5oihuv1kZ_Q0dKDFLz5BnW&sz=w640",
+          "sizeBytes": 5300058,
+          "sha256": "0C7AA97B72356CDC2C18C1C796AD996A30BD32E69EDBAAC2C674F920296DB253",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Vaccine Rebirth — Vaccine Release"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B2E0160E6000",
+      "title": "Nova 111",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B2E0160E6000.jpg",
+      "variants": [
+        {
+          "id": "v_34bd3dc7",
+          "name": "Nova-111 — Nova-111 - Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PYnf9H3w0s5OkvqlJ6rKkRx-p5e3wTpK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PYnf9H3w0s5OkvqlJ6rKkRx-p5e3wTpK&sz=w640",
+          "sizeBytes": 5733287,
+          "sha256": "3D3921AD456EBADE772E22FD88253150964B0B273B4844347CF072067EB5522F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Nova-111 — Nova-111 - Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010059E00BB08000",
+      "title": "Wand Wars",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010059E00BB08000.jpg",
+      "variants": [
+        {
+          "id": "v_76c14e48",
+          "name": "Wand Wars — Wand Wars Update Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wHSGJayRGTaJl1WO0sNW8IKogNfLUKcj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wHSGJayRGTaJl1WO0sNW8IKogNfLUKcj&sz=w640",
+          "sizeBytes": 5455697,
+          "sha256": "9C05355DB261EAA1A7B4A3B7B22123A342F4047A9EDF85EBA375B1415A119AC2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wand Wars — Wand Wars Update Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E19018C0E000",
+      "title": "Unichrome a 1 Bit Unicorn Adventure",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E19018C0E000.jpg",
+      "variants": [
+        {
+          "id": "v_997c2161",
+          "name": "Unichrome: A 1-Bit Unicorn Adventure — Coming th",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mcwrDRTA2SRwOjLfHZedqcT-4naFkvDK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mcwrDRTA2SRwOjLfHZedqcT-4naFkvDK&sz=w640",
+          "sizeBytes": 5323942,
+          "sha256": "DB8088A83F4479D23403F6B771A33869475EB3D46AD37C07705BC4C883EA1708",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Unichrome: A 1-Bit Unicorn Adventure — C"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E1801965E000",
+      "title": "Petite Adventure",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E1801965E000.jpg",
+      "variants": [
+        {
+          "id": "v_6a913546",
+          "name": "Petite Adventure — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HTl1pg2hE_1vC4QU8Ka_y048TBXZ4sGL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HTl1pg2hE_1vC4QU8Ka_y048TBXZ4sGL&sz=w640",
+          "sizeBytes": 5289495,
+          "sha256": "C346EB857C41ECD900FD3C29A4434A4D917B788FEED2EEF63CB64884EFC5F935",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Petite Adventure — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100939015968000",
+      "title": "Lone McLonegan: A Western Adventure",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100939015968000.jpg",
+      "variants": [
+        {
+          "id": "v_532bbee3",
+          "name": "Lone McLonegan : A Western Adventure — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1uyHHl-Sjc36cnCJsgiJYEpZYFv_wdK3M",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1uyHHl-Sjc36cnCJsgiJYEpZYFv_wdK3M&sz=w640",
+          "sizeBytes": 5112495,
+          "sha256": "5B29A3224D5D07B27319B7858D9C3EAAF79DAE06EF7B0B3D980799E90AFBFFB4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lone McLonegan : A Western Adventure — T"
+        }
+      ]
+    },
+    {
+      "titleId": "01009220117FE000",
+      "title": "Flewfie's Adventure",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009220117FE000.jpg",
+      "variants": [
+        {
+          "id": "v_30a17647",
+          "name": "Flewfie's Adventure — New Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VPzEWcsr4EK5g50CrXkcvNa2yAiisCi6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VPzEWcsr4EK5g50CrXkcvNa2yAiisCi6&sz=w640",
+          "sizeBytes": 5276700,
+          "sha256": "1B39349AEAAEA7F52672B6BE12623D53268201CC50BBBC74C640D3E6F597EE9D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Flewfie's Adventure — New Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010030A01B686000",
+      "title": "Subpar Pool",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010030A01B686000.jpg",
+      "variants": [
+        {
+          "id": "v_f7a67dda",
+          "name": "subpar pool — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AwBbKs-aNyFTOnHgGvOHpy7XoipHqKqH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AwBbKs-aNyFTOnHgGvOHpy7XoipHqKqH&sz=w640",
+          "sizeBytes": 5598220,
+          "sha256": "85BBDE1244C7C5C720944972A68822FB3948E8DA08BB101CBCE2946793D4D945",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | subpar pool — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D0E0139A0000",
+      "title": "Ryan's Rescue Squad",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D0E0139A0000.jpg",
+      "variants": [
+        {
+          "id": "v_c89325f6",
+          "name": "Ryan's Rescue Squad — Launch PEGI USK",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GMykJbnVh2J-iCccYJvLauHcxw8-j0Wb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GMykJbnVh2J-iCccYJvLauHcxw8-j0Wb&sz=w640",
+          "sizeBytes": 5537711,
+          "sha256": "31CD4D4B4048FF21844D8CF115F1A46CE7C834425672A8337E63C1416EC44883",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ryan's Rescue Squad — Launch PEGI USK"
+        }
+      ]
     }
   ],
-  "totalGames": 4863,
-  "totalVariants": 6287,
-  "lastUpdated": "2026-11-10T12:05:34.385189+00:00"
+  "totalGames": 4873,
+  "totalVariants": 6297,
+  "lastUpdated": "2026-11-10T12:09:14.967945+00:00"
 }
