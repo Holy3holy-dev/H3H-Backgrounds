@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T05:42:09.218942+00:00",
+  "updatedAt": "2026-11-10T05:45:38.404298+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -122948,9 +122948,269 @@
           "notes": "Switch 720p 30fps H264 | Help Will Come Tomorrow — Help Will Come"
         }
       ]
+    },
+    {
+      "titleId": "0100B8E00359E000",
+      "title": "Party Golf",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B8E00359E000.jpg",
+      "variants": [
+        {
+          "id": "v_e5667f77",
+          "name": "Party Golf — Party Golf Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qMksdJ0drCFNk0swGtSfN_jNadO66KWx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qMksdJ0drCFNk0swGtSfN_jNadO66KWx&sz=w640",
+          "sizeBytes": 4486932,
+          "sha256": "F2969070F45491D9B26E3E3B5CBBE299247E1565419FB47FD4E27A7817357FB3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Party Golf — Party Golf Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A3C215B22000",
+      "title": "Maid for Loving You",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A3C215B22000.jpg",
+      "variants": [
+        {
+          "id": "v_c3947057",
+          "name": "Maid for Loving You — Teaser",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eIWwSnqA-2-KKpr6fdjWToQ_ArY8HoHj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eIWwSnqA-2-KKpr6fdjWToQ_ArY8HoHj&sz=w640",
+          "sizeBytes": 3897992,
+          "sha256": "4A08103223890040AF3708379DE9FF7A7D7A7C09B12061DE69515A54031169E8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Maid for Loving You — Teaser"
+        }
+      ]
+    },
+    {
+      "titleId": "010089E01F5EA000",
+      "title": "Petit Island",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010089E01F5EA000.jpg",
+      "variants": [
+        {
+          "id": "v_f1c28b38",
+          "name": "Petit Island — Petit Island - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1c3FtnU8UXbEiazSfev7mib2ZBgGhp2sC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1c3FtnU8UXbEiazSfev7mib2ZBgGhp2sC&sz=w640",
+          "sizeBytes": 4991513,
+          "sha256": "406DEF24A79777E74AEE99F91BFBAA72A5E7DE8FA0B07D65214DFEA2B52219B6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Petit Island — Petit Island - Launch Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "010045902103C000",
+      "title": "Ruffy and the Riverside",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010045902103C000.jpg",
+      "variants": [
+        {
+          "id": "v_0f9be8db",
+          "name": "Ruffy and the Riverside — Trailer Future Games S",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16xGuvwzPTRo8TQu324fCaggg60aqMU-l",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16xGuvwzPTRo8TQu324fCaggg60aqMU-l&sz=w640",
+          "sizeBytes": 5355780,
+          "sha256": "A81080BE4276A9059228D1A8407F00DFBC4CF0496BED1DC839D64068C8C51FB0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ruffy and the Riverside — Trailer Future"
+        }
+      ]
+    },
+    {
+      "titleId": "0100576012B44000",
+      "title": "Darkside Detective a Fumble in the Dark",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100576012B44000.jpg",
+      "variants": [
+        {
+          "id": "v_221a58af",
+          "name": "The Darkside Detective: A Fumble in the Dark — 3",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rIb5N1AZxpzV9aSUnE_vX3_f-0_rF4TB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rIb5N1AZxpzV9aSUnE_vX3_f-0_rF4TB&sz=w640",
+          "sizeBytes": 5177802,
+          "sha256": "526844237F3A6829E5814E15DCCDF9272CC3CFAD77798DA3E2F2DD5AEBDF70DB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Darkside Detective: A Fumble in the "
+        }
+      ]
+    },
+    {
+      "titleId": "010041501005E000",
+      "title": "Interrogation You Will Be Deceived",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010041501005E000.jpg",
+      "variants": [
+        {
+          "id": "v_168bb988",
+          "name": "Interrogation: You will be deceived — Teaser Tra",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AjG_mkrKBVyNOdkbgK_P5KuE7_tKKRIK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AjG_mkrKBVyNOdkbgK_P5KuE7_tKKRIK&sz=w640",
+          "sizeBytes": 4613668,
+          "sha256": "952FFA2DF58BBCDD5CE75211F638F703658768926A8C5B96B1F97201B7CD7F95",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Interrogation: You will be deceived — Te"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CDB00BC94000",
+      "title": "A Case of Distrust",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CDB00BC94000.jpg",
+      "variants": [
+        {
+          "id": "v_4fc0e3fd",
+          "name": "A Case of Distrust — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lPUCW7XG3zjjs-ORcJyt5l6bSKvFWpKX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lPUCW7XG3zjjs-ORcJyt5l6bSKvFWpKX&sz=w640",
+          "sizeBytes": 5343303,
+          "sha256": "7A3289570DA6B3296C87A5E7F1C904DF62C252C92108C535076D9AFE6E44FFF1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | A Case of Distrust — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CF600F366000",
+      "title": "Lethis Path of Progress",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CF600F366000.jpg",
+      "variants": [
+        {
+          "id": "v_b8b93e66",
+          "name": "Lethis - Path of Progress — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZFbXj5SYXoTGxOjrxsgoKgE1SrHBYGlf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZFbXj5SYXoTGxOjrxsgoKgE1SrHBYGlf&sz=w640",
+          "sizeBytes": 4355043,
+          "sha256": "536B297A5C7B1E0CAB353F8E8DB8A63DFB543B5A2C7C3D1AAA6B8D5404FC4064",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lethis - Path of Progress — Release Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "01001A900D312000",
+      "title": "Another Sight",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001A900D312000.jpg",
+      "variants": [
+        {
+          "id": "v_1d386d1c",
+          "name": "Another Sight - Definitive Edition — Gameplay Tr",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jbznbcVl0WPL_KHnkxKw3qn6uKrzPtja",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jbznbcVl0WPL_KHnkxKw3qn6uKrzPtja&sz=w640",
+          "sizeBytes": 2275208,
+          "sha256": "69E0658BA43021C39DC65B431978AB88ABB825BA7CFFB95E740B25A247FCE19B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Another Sight - Definitive Edition — Gam"
+        }
+      ]
+    },
+    {
+      "titleId": "01008ED00DABC000",
+      "title": "Dry Drowning",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008ED00DABC000.jpg",
+      "variants": [
+        {
+          "id": "v_081de256",
+          "name": "Dry Drowning — Dry Drowning - OUT NOW Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18FX5c8sa-7vynobkcZbX9vhAyDRs7nVr",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18FX5c8sa-7vynobkcZbX9vhAyDRs7nVr&sz=w640",
+          "sizeBytes": 4728958,
+          "sha256": "B06320CDDA0E0172E966F756D4BAF0519D062B1E20A1A4327F069399662A0254",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dry Drowning — Dry Drowning - OUT NOW Tr"
+        }
+      ]
     }
   ],
-  "totalGames": 3673,
-  "totalVariants": 5097,
-  "lastUpdated": "2026-11-10T05:42:09.218942+00:00"
+  "totalGames": 3683,
+  "totalVariants": 5107,
+  "lastUpdated": "2026-11-10T05:45:38.404298+00:00"
 }
