@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T04:28:44.598984+00:00",
+  "updatedAt": "2026-11-10T04:31:53.788976+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -116708,9 +116708,269 @@
           "notes": "Switch 720p 30fps H264 | The Legend of Heroes: Ao no Kiseki KAI —"
         }
       ]
+    },
+    {
+      "titleId": "01005E5013862000",
+      "title": "The Legend of Heroes: Zero no Kiseki Kai",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005E5013862000.jpg",
+      "variants": [
+        {
+          "id": "v_381f5609",
+          "name": "The Legend of Heroes: Zero no Kiseki Kai — Game ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bBRZbmZzNUOZ0Hn9NGqsAQJQ-AAsMSR0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bBRZbmZzNUOZ0Hn9NGqsAQJQ-AAsMSR0&sz=w640",
+          "sizeBytes": 4314647,
+          "sha256": "EAC59B8D09E969CB9AE436CAA97918AD363CA3FF25964C3A514241EF262FF4A1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Legend of Heroes: Zero no Kiseki Kai"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B7501C46A000",
+      "title": "Arzette the Jewel of Faramore",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B7501C46A000.jpg",
+      "variants": [
+        {
+          "id": "v_2b65c8bd",
+          "name": "Arzette: The Jewel of Faramore — Arzette Accolad",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15TdL2gyw4vqj-lKeM3eB_94-RPPwyRr5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15TdL2gyw4vqj-lKeM3eB_94-RPPwyRr5&sz=w640",
+          "sizeBytes": 5047667,
+          "sha256": "48F28F46008B1F8607223737E8082E6DE88E62044809B35D1ED056E09AE318D2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Arzette: The Jewel of Faramore — Arzette"
+        }
+      ]
+    },
+    {
+      "titleId": "010047000E9AA000",
+      "title": "AO Tennis 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010047000E9AA000.jpg",
+      "variants": [
+        {
+          "id": "v_6c032499",
+          "name": "AO Tennis 2 — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1aj5gHX603vW3JM40YXUzs8_-dK1On5UX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1aj5gHX603vW3JM40YXUzs8_-dK1On5UX&sz=w640",
+          "sizeBytes": 5291375,
+          "sha256": "96A729F5EC56A8CCD1740A7F340C81B978C386829D78D7FB915C6C83346043B7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | AO Tennis 2 — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010018401EEA8000",
+      "title": "WitchSpring R",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010018401EEA8000.jpg",
+      "variants": [
+        {
+          "id": "v_8edc15e4",
+          "name": "WitchSpring R — WitchSpring R: The Follower's Fa",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eCsbWFsjecW6KFkNbaXSWDkuKIWIevZb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eCsbWFsjecW6KFkNbaXSWDkuKIWIevZb&sz=w640",
+          "sizeBytes": 5348247,
+          "sha256": "37980CF6035D9B6026E6EDFC48DB3748BE4623DA190D56E00EEDCFFD9074C888",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | WitchSpring R — WitchSpring R: The Follo"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C51014778000",
+      "title": "Arcadian Atlas",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C51014778000.jpg",
+      "variants": [
+        {
+          "id": "v_84731417",
+          "name": "Arcadian Atlas — Arcadian Atlas - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1L-bH2RcHAggbMb_WfUxdUNKwhRZrlijA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1L-bH2RcHAggbMb_WfUxdUNKwhRZrlijA&sz=w640",
+          "sizeBytes": 5501050,
+          "sha256": "3D359F12AE867D4F4B32139CC0417D429B878713BD81C7B52B0F1048D92D098C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Arcadian Atlas — Arcadian Atlas - Launch"
+        }
+      ]
+    },
+    {
+      "titleId": "01002BA00C7CE000",
+      "title": "The Savior's Gang",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002BA00C7CE000.jpg",
+      "variants": [
+        {
+          "id": "v_e3313345",
+          "name": "The Savior's Gang — Trailer | The Savior's Gang",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11wcVrBj9jelWFyD7xscqW1isDzHDugNl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11wcVrBj9jelWFyD7xscqW1isDzHDugNl&sz=w640",
+          "sizeBytes": 5598226,
+          "sha256": "5447902F8635D7717DB1DA72A9B1278EC03F2C7D98DAB967259F05DAD655083A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Savior's Gang — Trailer | The Savior"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F3B00CF32000",
+      "title": "Death Coming",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F3B00CF32000.jpg",
+      "variants": [
+        {
+          "id": "v_e27e1afe",
+          "name": "Death Coming/死神来了 — trial01_en",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yTiUmx10SHDtSMxh2firNFqj--GzW67I",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yTiUmx10SHDtSMxh2firNFqj--GzW67I&sz=w640",
+          "sizeBytes": 4606810,
+          "sha256": "A32F1EBD700BB83CD7360E16EB16EEB5CC8BCB7E06C28CEB62D1BC8B865D0C3E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Death Coming/死神来了 — trial01_en"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AFC00A680000",
+      "title": "Pitfall Planet",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AFC00A680000.jpg",
+      "variants": [
+        {
+          "id": "v_12aedfaf",
+          "name": "Pitfall Planet — Release Date Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Hk75grRrl1W4-WRw6rcfdAD0OQb8HnFp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Hk75grRrl1W4-WRw6rcfdAD0OQb8HnFp&sz=w640",
+          "sizeBytes": 5343002,
+          "sha256": "BC98C25997AA32C015AD2A579DE28236CFFB1FC15404C370CD94CF514A5A2988",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Pitfall Planet — Release Date Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B6E01056E000",
+      "title": "In Other Waters",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B6E01056E000.jpg",
+      "variants": [
+        {
+          "id": "v_14b36f3f",
+          "name": "In Other Waters — Out Now Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13SNciS9UEKE_bfHY405CMYWjCfPRETGf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13SNciS9UEKE_bfHY405CMYWjCfPRETGf&sz=w640",
+          "sizeBytes": 5188988,
+          "sha256": "8DDD1A48255F3114386977D49024E07496A49B2F1C32895EE1F9DD54E82F9007",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | In Other Waters — Out Now Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F760195F2000",
+      "title": "Fairy Fencer F Refrain Chord",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F760195F2000.jpg",
+      "variants": [
+        {
+          "id": "v_67de87f2",
+          "name": "Fairy Fencer F: Refrain Chord — Store Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1e0WB1uTEOC55RFalZmcG5_RIcm-GQ4Pv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1e0WB1uTEOC55RFalZmcG5_RIcm-GQ4Pv&sz=w640",
+          "sizeBytes": 4354630,
+          "sha256": "A76F1DAD699AF56D881F25AB2708B3EF6ADB5D226E8F3DA58C6CC617023590F3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fairy Fencer F: Refrain Chord — Store Tr"
+        }
+      ]
     }
   ],
-  "totalGames": 3433,
-  "totalVariants": 4857,
-  "lastUpdated": "2026-11-10T04:28:44.598984+00:00"
+  "totalGames": 3443,
+  "totalVariants": 4867,
+  "lastUpdated": "2026-11-10T04:31:53.788976+00:00"
 }
