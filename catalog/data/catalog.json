@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T21:01:32Z",
+  "updatedAt": "2026-11-10T21:02:28Z",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -11489,7 +11489,13 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 0100534832000000_Silent_Hill_2.mp4"
+          "notes": "Google Drive: 0100534832000000_Silent_Hill_2.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1e5xNFHXfdOUV7CEou2woPJkVWjuyw2u-",
+          "iconSizeBytes": 57489,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
         },
         {
           "id": "v_f756ebde",
@@ -11544,6 +11550,30 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Switch 720p 30fps H264 | Torii Red Spider Lily Silent Hill f"
+        },
+        {
+          "id": "icon-0100534832000000",
+          "name": "4IFIR Иконка: Silent Hill 2",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1e5xNFHXfdOUV7CEou2woPJkVWjuyw2u-",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1e5xNFHXfdOUV7CEou2woPJkVWjuyw2u-",
+          "sizeBytes": 57489,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1e5xNFHXfdOUV7CEou2woPJkVWjuyw2u-",
+          "iconSizeBytes": 57489,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -169701,6 +169731,6 @@
     }
   ],
   "totalGames": 5418,
-  "totalVariants": 6888,
-  "lastUpdated": "2026-11-10T21:01:32Z"
+  "totalVariants": 6889,
+  "lastUpdated": "2026-11-10T21:02:28Z"
 }
