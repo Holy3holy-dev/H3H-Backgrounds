@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T11:41:36.815815+00:00",
+  "updatedAt": "2026-11-10T11:44:52.213836+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -152068,9 +152068,269 @@
           "notes": "Switch 720p 30fps H264 | LiEat — Playism_LiEat_Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100529018A52000",
+      "title": "Lair Land Story",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100529018A52000.jpg",
+      "variants": [
+        {
+          "id": "v_fd1d694e",
+          "name": "Lair Land Story — PQube_Launch",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1w6lXXHBFRm9sniIv08LHhs-hB_4VTZx3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1w6lXXHBFRm9sniIv08LHhs-hB_4VTZx3&sz=w640",
+          "sizeBytes": 5346588,
+          "sha256": "A8DD9B42DD0BED0412D5064DFBC4AF59F9D1A117C338544A358AF5DD1C456ED2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lair Land Story — PQube_Launch"
+        }
+      ]
+    },
+    {
+      "titleId": "01004230123E0000",
+      "title": "More Dark",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004230123E0000.jpg",
+      "variants": [
+        {
+          "id": "v_df99b578",
+          "name": "More Dark — 1",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ugFpKFP2BuI-pDntThCAOu3ue6LwIOSp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ugFpKFP2BuI-pDntThCAOu3ue6LwIOSp&sz=w640",
+          "sizeBytes": 4518814,
+          "sha256": "42EAA8DB45251083DE415A3C142D912F6CC1010E0CF7F00B4572C28DD56CB8BD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | More Dark — 1"
+        }
+      ]
+    },
+    {
+      "titleId": "010035601B3C0000",
+      "title": "Blacksmith Hit",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010035601B3C0000.jpg",
+      "variants": [
+        {
+          "id": "v_3457ca23",
+          "name": "Heat 'n Hit: The Blacksmith Simulator — General ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1g4DCijeBkKmlq0mA7G4yScU4SXUMXhAn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1g4DCijeBkKmlq0mA7G4yScU4SXUMXhAn&sz=w640",
+          "sizeBytes": 5556726,
+          "sha256": "8763B1D95A2325EDEC79553E336E6FA626DA8C7E681D86688908886845CB5057",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Heat 'n Hit: The Blacksmith Simulator — "
+        }
+      ]
+    },
+    {
+      "titleId": "0100EF5008FC4000",
+      "title": "Nippon Marathon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EF5008FC4000.jpg",
+      "variants": [
+        {
+          "id": "v_2b19b787",
+          "name": "Nippon Marathon — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1D6QoZ0F9nFSwYvf1GDH3iss0igKa7Dje",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1D6QoZ0F9nFSwYvf1GDH3iss0igKa7Dje&sz=w640",
+          "sizeBytes": 5328427,
+          "sha256": "6842FD5F9719EF1B5CE4AFBF3115F164D005024516CF1A2CA70954C4BE4317AE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Nippon Marathon — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010011000E31A000",
+      "title": "Button Button Up",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010011000E31A000.jpg",
+      "variants": [
+        {
+          "id": "v_d51859f4",
+          "name": "Button Button Up! — 英文",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SGbWND8hW25QB1kat9kWQuTTwz8b6fOa",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SGbWND8hW25QB1kat9kWQuTTwz8b6fOa&sz=w640",
+          "sizeBytes": 5357569,
+          "sha256": "37E1500C5E50E218F83C17E350640DBCA4E4DDCB1521EEC48304E7C31425F278",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Button Button Up! — 英文"
+        }
+      ]
+    },
+    {
+      "titleId": "010097E30EB32000",
+      "title": "Summertime Madness",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010097E30EB32000.jpg",
+      "variants": [
+        {
+          "id": "v_49c68721",
+          "name": "Summertime Madness — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1met0UGGiZ2gZ1Jmv3gQEMH8mdiXAzH_b",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1met0UGGiZ2gZ1Jmv3gQEMH8mdiXAzH_b&sz=w640",
+          "sizeBytes": 4860127,
+          "sha256": "27321F77002D90CDFD564558FCD57AA3093AA697DA88E72D62F636E437174631",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Summertime Madness — Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DF300DE6A000",
+      "title": "Selma and the Wisp",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DF300DE6A000.jpg",
+      "variants": [
+        {
+          "id": "v_3ebf1aac",
+          "name": "Selma and the Wisp — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=105eIuufkI7Z9iMgRIV3KAumTZvaD9S84",
+          "previewUrl": "https://drive.google.com/thumbnail?id=105eIuufkI7Z9iMgRIV3KAumTZvaD9S84&sz=w640",
+          "sizeBytes": 3017754,
+          "sha256": "867681452CEDC8CCA286D72C812214C45DED2219A70333403C4BC3F2F43D0697",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Selma and the Wisp — Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010086E00BCB2000",
+      "title": "Retimed",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010086E00BCB2000.jpg",
+      "variants": [
+        {
+          "id": "v_be7688c4",
+          "name": "Retimed — Retimed Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1al9i81vH6xB4sXU_jZFB2pFjy3Xebfx8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1al9i81vH6xB4sXU_jZFB2pFjy3Xebfx8&sz=w640",
+          "sizeBytes": 5468351,
+          "sha256": "33E4729988A85F69A92DEEAD390CC0503EAA6F9B2D8FEF825C1A89E982E47139",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Retimed — Retimed Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01002F800CB16000",
+      "title": "Symphonic Rain",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002F800CB16000.jpg",
+      "variants": [
+        {
+          "id": "v_e2a9cdfb",
+          "name": "Symphonic Rain — Trailer_EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wU4AumnNOpD3waNBHxnnd97GHWImtlFD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wU4AumnNOpD3waNBHxnnd97GHWImtlFD&sz=w640",
+          "sizeBytes": 5197689,
+          "sha256": "175EC2922CECD86E104C18F4DFC7FBD5D410C360017494DF7B4757B42301A585",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Symphonic Rain — Trailer_EN"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E6A0126BE000",
+      "title": "Weeping Willow",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E6A0126BE000.jpg",
+      "variants": [
+        {
+          "id": "v_9ff27003",
+          "name": "Weeping Willow - Detective Visual Novel — traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1EJHI5bKYtTF5kRV3EJQQmIIgRfaNBeGb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1EJHI5bKYtTF5kRV3EJQQmIIgRfaNBeGb&sz=w640",
+          "sizeBytes": 5209023,
+          "sha256": "0D5FE1D402E11BA4AAD8F9B34AA448DD84ACF1A7656B1D0C64513C0AAF2C8F2C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Weeping Willow - Detective Visual Novel "
+        }
+      ]
     }
   ],
-  "totalGames": 4793,
-  "totalVariants": 6217,
-  "lastUpdated": "2026-11-10T11:41:36.815815+00:00"
+  "totalGames": 4803,
+  "totalVariants": 6227,
+  "lastUpdated": "2026-11-10T11:44:52.213836+00:00"
 }
