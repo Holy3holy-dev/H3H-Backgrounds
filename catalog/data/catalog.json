@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T08:25:25.610249+00:00",
+  "updatedAt": "2026-11-10T08:28:27.580264+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -136468,9 +136468,269 @@
           "notes": "Switch 720p 30fps H264 | OmegaBot — OmegaBot Gameplay Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100B20016186000",
+      "title": "Oaken",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B20016186000.jpg",
+      "variants": [
+        {
+          "id": "v_06e6199f",
+          "name": "Oaken Tower — Early Access Release Trailer EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BYKSJqSjedKfw_FieZOQaCTtL8AOCflz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BYKSJqSjedKfw_FieZOQaCTtL8AOCflz&sz=w640",
+          "sizeBytes": 5331232,
+          "sha256": "3DE4D4CE50DB62AF8494673D26193E55B6C82E2A8FBAB086172B032C89919872",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Oaken Tower — Early Access Release Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "010052001A2BA000",
+      "title": "Noob the Factionless",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010052001A2BA000.jpg",
+      "variants": [
+        {
+          "id": "v_058b7643",
+          "name": "Noob - The Factionless — Launch Trailer ENG",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Eiw9Zon9K7i45PdC2RnkoDCYvY8And7C",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Eiw9Zon9K7i45PdC2RnkoDCYvY8And7C&sz=w640",
+          "sizeBytes": 4501578,
+          "sha256": "7F212DC8C7CAA80A2451B5E01C5DE8AD16C0623C1B027CC318255488284B04BF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Noob - The Factionless — Launch Trailer "
+        }
+      ]
+    },
+    {
+      "titleId": "010045A01A39C000",
+      "title": "No Son of Mine",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010045A01A39C000.jpg",
+      "variants": [
+        {
+          "id": "v_ba4a4b07",
+          "name": "No Son Of Mine — No Son Of Mine - Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10DRK-ZbCMUUKSrgR01r1MHhZUXaIE7sx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10DRK-ZbCMUUKSrgR01r1MHhZUXaIE7sx&sz=w640",
+          "sizeBytes": 5106021,
+          "sha256": "18CF0D0CBF3F1E8E9AD854CBC7D1CA99263EE15CC8545AE70F814800D7B5C904",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | No Son Of Mine — No Son Of Mine - Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DA30189CA000",
+      "title": "NeverAwake",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DA30189CA000.jpg",
+      "variants": [
+        {
+          "id": "v_8cfed4a3",
+          "name": "NeverAwake — NeverAwake_LongPV_70sec_EN_Availabl",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1f3t9d2ULJ4knyeP6aqxHZVS4H0Z8LaCz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1f3t9d2ULJ4knyeP6aqxHZVS4H0Z8LaCz&sz=w640",
+          "sizeBytes": 5375423,
+          "sha256": "E420038B0077B262C98592A8C1A983E08933F8894FE3A43C8A2E59330E37BEC5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | NeverAwake — NeverAwake_LongPV_70sec_EN_"
+        }
+      ]
+    },
+    {
+      "titleId": "01007840167D2000",
+      "title": "Neon Blight",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007840167D2000.jpg",
+      "variants": [
+        {
+          "id": "v_c09cba5c",
+          "name": "Neon Blight — 1.1 Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NUXJ34Uh7_3IWD5cUKeeuDhTsaTymc4y",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NUXJ34Uh7_3IWD5cUKeeuDhTsaTymc4y&sz=w640",
+          "sizeBytes": 4878130,
+          "sha256": "F3AC2DE3192CCB65E21A9CCFD6B3BA7E830523468DE507ACF309582840AF0CDF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Neon Blight — 1.1 Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010080101759C000",
+      "title": "Nefasto's Misadventure: Meeting Noeroze",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010080101759C000.jpg",
+      "variants": [
+        {
+          "id": "v_4ecbf961",
+          "name": "Nefasto's Misadventure: Meeting Noeroze — Steam ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gXsfhRR7ulRVCpCmQ6inyQhBwCB8eD7S",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gXsfhRR7ulRVCpCmQ6inyQhBwCB8eD7S&sz=w640",
+          "sizeBytes": 4835227,
+          "sha256": "9B909563D0406146577118FFEBC21CB34D450ECB6DD7A86ACCF20924508358E7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Nefasto's Misadventure: Meeting Noeroze "
+        }
+      ]
+    },
+    {
+      "titleId": "0100A62019380000",
+      "title": "Necroboy Path to Evilship",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A62019380000.jpg",
+      "variants": [
+        {
+          "id": "v_106e863e",
+          "name": "NecroBoy : Path to Evilship — NecroBoy New movie",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lMZYb7gF9qSSkjpPN74LhKy6rJOCF2mh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lMZYb7gF9qSSkjpPN74LhKy6rJOCF2mh&sz=w640",
+          "sizeBytes": 5270074,
+          "sha256": "2D33999DA358F04A714460E46D04D1CFBECCF5BC5EB454EA85509BD6086BB28C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | NecroBoy : Path to Evilship — NecroBoy N"
+        }
+      ]
+    },
+    {
+      "titleId": "01005CB0182D2000",
+      "title": "Nadir a Grimdark Deckbuilder",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005CB0182D2000.jpg",
+      "variants": [
+        {
+          "id": "v_871a6a35",
+          "name": "Nadir: A Grimdark Deckbuilder — Nadir: Release T",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MYIMaZWoNAjWdcv37q_jZa14xp-1rm_u",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MYIMaZWoNAjWdcv37q_jZa14xp-1rm_u&sz=w640",
+          "sizeBytes": 5684255,
+          "sha256": "03B83E783DF75E6F511A34B65A9399F79D74DA272A69C9AF2B0880072D774E0D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Nadir: A Grimdark Deckbuilder — Nadir: R"
+        }
+      ]
+    },
+    {
+      "titleId": "01006CD0194DA000",
+      "title": "Mythargia",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006CD0194DA000.jpg",
+      "variants": [
+        {
+          "id": "v_d6a37834",
+          "name": "Mythargia — Official Announcement Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1N6VAWXldAUr3d48ISm71t-W-kkJfK92Q",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1N6VAWXldAUr3d48ISm71t-W-kkJfK92Q&sz=w640",
+          "sizeBytes": 5381713,
+          "sha256": "40C9D772E5554A91D7A1B0A8A16D8ED8BD9C89E2358367E1B8A66DA8D799D076",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mythargia — Official Announcement Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "0100405016F20000",
+      "title": "Murderous Muses",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100405016F20000.jpg",
+      "variants": [
+        {
+          "id": "v_1db8048d",
+          "name": "Murderous Muses — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_GAC_tUwCaLKnCtQLl-nqxuoAHDRg5Gl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_GAC_tUwCaLKnCtQLl-nqxuoAHDRg5Gl&sz=w640",
+          "sizeBytes": 5322494,
+          "sha256": "FEE9B50CE530D14418AF990E518448FAB161C2287879064AA688992260337CA0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Murderous Muses — Gameplay Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 4193,
-  "totalVariants": 5617,
-  "lastUpdated": "2026-11-10T08:25:25.610249+00:00"
+  "totalGames": 4203,
+  "totalVariants": 5627,
+  "lastUpdated": "2026-11-10T08:28:27.580264+00:00"
 }
