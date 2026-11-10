@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T02:35:54.583335+00:00",
+  "updatedAt": "2026-11-10T02:41:32.055698+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -107088,9 +107088,269 @@
           "notes": "Switch 720p 30fps H264 | Rescue Ops: Wildfire — Rescue Ops: Wildf"
         }
       ]
+    },
+    {
+      "titleId": "0100C01013302000",
+      "title": "A Monster's Expedition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C01013302000.jpg",
+      "variants": [
+        {
+          "id": "v_9c3b81b4",
+          "name": "A Monster's Expedition — Museum Expansion update",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1LagMr6mn0tXzIjs56cY0JlEAx9n5Ax12",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1LagMr6mn0tXzIjs56cY0JlEAx9n5Ax12&sz=w640",
+          "sizeBytes": 4937147,
+          "sha256": "1CB2C4C597E4A6F1F2331DD023F7ADF3D0051A08853F399A3DFFE6115C08AF15",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | A Monster's Expedition — Museum Expansio"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D4901A8D4000",
+      "title": "Deserted",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D4901A8D4000.jpg",
+      "variants": [
+        {
+          "id": "v_19842078",
+          "name": "Deserted Island — newVersion",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XP5Wy1B_KrrtAR_PDDbxEt5TkcnFm8Cz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XP5Wy1B_KrrtAR_PDDbxEt5TkcnFm8Cz&sz=w640",
+          "sizeBytes": 4921155,
+          "sha256": "58EA9E8E125C8C008654D9A461B3E4CA921BF109F8A80839C0F0D0E0DA0FC32D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Deserted Island — newVersion"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A8B00F0B4000",
+      "title": "Hypercharge Unboxed",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A8B00F0B4000.jpg",
+      "variants": [
+        {
+          "id": "v_e49f6130",
+          "name": "HYPERCHARGE: Unboxed — 2025_09_11_SteamStore_Tra",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1V3LwcAiITE15sfEdIei4iWkg8Xc7R1DE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1V3LwcAiITE15sfEdIei4iWkg8Xc7R1DE&sz=w640",
+          "sizeBytes": 5510644,
+          "sha256": "D65A858DEB73FB6829AF8AE3698610A2B93D2762F1835D125A6D64EBF8424A29",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | HYPERCHARGE: Unboxed — 2025_09_11_SteamS"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E98006F22000",
+      "title": "Bad North",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E98006F22000.jpg",
+      "variants": [
+        {
+          "id": "v_a7090cf1",
+          "name": "Bad North: Jotunn Edition — Bad North: Jotunn Ed",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19a9hDEdY-D6AtcB7Vg54XpnmqSXQRk4e",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19a9hDEdY-D6AtcB7Vg54XpnmqSXQRk4e&sz=w640",
+          "sizeBytes": 5416814,
+          "sha256": "1E68012A4921B7F1D57F1A021BF94D72F88ED2823EDBC69EDDB654629137B36D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bad North: Jotunn Edition — Bad North: J"
+        }
+      ]
+    },
+    {
+      "titleId": "010076D017DAA000",
+      "title": "The Spirit and the Mouse",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010076D017DAA000.jpg",
+      "variants": [
+        {
+          "id": "v_6843b0c9",
+          "name": "The Spirit and the Mouse — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1m4snYTrZo911OiVJZVj0-MucwVadmk9u",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1m4snYTrZo911OiVJZVj0-MucwVadmk9u&sz=w640",
+          "sizeBytes": 5524792,
+          "sha256": "BD81B892900497BC8347CE05E2A27A009519C95F99A33829FD35DCA1ACACDDC0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Spirit and the Mouse — Gameplay Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "010033C014666000",
+      "title": "Cooking Simulator Pizza",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010033C014666000.jpg",
+      "variants": [
+        {
+          "id": "v_2e064a31",
+          "name": "Cooking Simulator - Pizza — Pizza - Launch Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QXucT4i6VkKWGfMXqd4QVSdSypTKJd3O",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QXucT4i6VkKWGfMXqd4QVSdSypTKJd3O&sz=w640",
+          "sizeBytes": 5353543,
+          "sha256": "645D4270A388C212A4AE28860B9301848A470090AA092AE16FE3DA0BE6566FDB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cooking Simulator - Pizza — Pizza - Laun"
+        }
+      ]
+    },
+    {
+      "titleId": "01000CA014CA0000",
+      "title": "Overboard",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000CA014CA0000.jpg",
+      "variants": [
+        {
+          "id": "v_3a93ce50",
+          "name": "Prinny Party: Going Overboard! — Announcement",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AXA-i4v4MkGkpVppuXB3jkdl42p9Pl9g",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AXA-i4v4MkGkpVppuXB3jkdl42p9Pl9g&sz=w640",
+          "sizeBytes": 5235741,
+          "sha256": "45954EAFEDA2C1700370A960B13CC969356F6B70D880526A0EB00D445D56D5B3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Prinny Party: Going Overboard! — Announc"
+        }
+      ]
+    },
+    {
+      "titleId": "010026101B3EE000",
+      "title": "Elasto Mania Remastered",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010026101B3EE000.jpg",
+      "variants": [
+        {
+          "id": "v_07de3254",
+          "name": "Elasto Mania Remastered — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1V2142ffO7j_gcgTuq3lN4khlYwgPvSkM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1V2142ffO7j_gcgTuq3lN4khlYwgPvSkM&sz=w640",
+          "sizeBytes": 4884034,
+          "sha256": "463C04E7D010699F7E6626ADDD74DEAAC41E8905AFF99A0DE85D58A06E28FC88",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Elasto Mania Remastered — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010067F017FF6000",
+      "title": "Goetia 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010067F017FF6000.jpg",
+      "variants": [
+        {
+          "id": "v_c0d5639d",
+          "name": "Goetia 2 — Trailer Release",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1v8GiXwrbN25KkMlifLFXMQQxbHUUU3xb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1v8GiXwrbN25KkMlifLFXMQQxbHUUU3xb&sz=w640",
+          "sizeBytes": 4155148,
+          "sha256": "C738313B69C68DBC78E3907599ACEBB3052F935D391FD191D8F154B742DB94B0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Goetia 2 — Trailer Release"
+        }
+      ]
+    },
+    {
+      "titleId": "0100145011008000",
+      "title": "Trollhunters Defenders of Arcadia",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100145011008000.jpg",
+      "variants": [
+        {
+          "id": "v_93da85f8",
+          "name": "Trollhunters: Defenders of Arcadia — Trollhunter",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12EIu-ZUp3tdXb9iFC1THyi2PpqJWHYGm",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12EIu-ZUp3tdXb9iFC1THyi2PpqJWHYGm&sz=w640",
+          "sizeBytes": 5436274,
+          "sha256": "9BAF5280450B9FEB90F92B06DC34C81AAC592D81AD31F5681C69B78E2B8A8B99",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Trollhunters: Defenders of Arcadia — Tro"
+        }
+      ]
     }
   ],
-  "totalGames": 3063,
-  "totalVariants": 4487,
-  "lastUpdated": "2026-11-10T02:35:54.583335+00:00"
+  "totalGames": 3073,
+  "totalVariants": 4497,
+  "lastUpdated": "2026-11-10T02:41:32.055698+00:00"
 }
