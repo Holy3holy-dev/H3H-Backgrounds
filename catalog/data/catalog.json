@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T09:39:30.354312+00:00",
+  "updatedAt": "2026-11-10T09:42:38.850819+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -142708,9 +142708,269 @@
           "notes": "Switch 720p 30fps H264 | Pine: A Story of Loss — Out Now Trailer"
         }
       ]
+    },
+    {
+      "titleId": "01008B200D748000",
+      "title": "Tardy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008B200D748000.jpg",
+      "variants": [
+        {
+          "id": "v_512c1bef",
+          "name": "Tardy — Trailer 2",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yqcy-6SJmABnc-l33W6KzXzS_I5oniG1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yqcy-6SJmABnc-l33W6KzXzS_I5oniG1&sz=w640",
+          "sizeBytes": 4723107,
+          "sha256": "51D2B4599794E5037EFBA63C2472028037F25B831F23F0ECD4F3E4560DD77098",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tardy — Trailer 2"
+        }
+      ]
+    },
+    {
+      "titleId": "010087200289A000",
+      "title": "Riverbond",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010087200289A000.jpg",
+      "variants": [
+        {
+          "id": "v_a60dd52f",
+          "name": "Riverbond — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cGpOXxOxzFR5ykXuqXNIcxrBho7us6hk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cGpOXxOxzFR5ykXuqXNIcxrBho7us6hk&sz=w640",
+          "sizeBytes": 5643877,
+          "sha256": "F1D2B8A919E272738AE66DB47C52DA1074F55153205BCE811E0F0C0B0B664EDF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Riverbond — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E84014C72000",
+      "title": "Connection Haunted",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E84014C72000.jpg",
+      "variants": [
+        {
+          "id": "v_ad779cbe",
+          "name": "Connection Haunted — Connection Haunted - Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15SXMZFoqhoxFDzR2-xP1dPJYbPDbDM1u",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15SXMZFoqhoxFDzR2-xP1dPJYbPDbDM1u&sz=w640",
+          "sizeBytes": 5258398,
+          "sha256": "E4152AF0F9BBCFB059EA34178D329285FD570D2D4BE4B52295CF447E54FB0793",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Connection Haunted — Connection Haunted "
+        }
+      ]
+    },
+    {
+      "titleId": "0100B55012216000",
+      "title": "Toolboy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B55012216000.jpg",
+      "variants": [
+        {
+          "id": "v_adcaa788",
+          "name": "Toolboy — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1US9VtEuYHY_W-4rLvpO0ty52ume4oQMd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1US9VtEuYHY_W-4rLvpO0ty52ume4oQMd&sz=w640",
+          "sizeBytes": 5481165,
+          "sha256": "FCB5585CFE81FD040E9133AD0C37F75F4AD3922225036928217E83B19CE55DEB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Toolboy — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C1C00D01C000",
+      "title": "Symmetry",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C1C00D01C000.jpg",
+      "variants": [
+        {
+          "id": "v_863b068d",
+          "name": "Museum of Symmetry — Museum of Symmetry_dramaLin",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SjnPh-0-syHu3aILI421IAM6y1E2fZgF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SjnPh-0-syHu3aILI421IAM6y1E2fZgF&sz=w640",
+          "sizeBytes": 5501905,
+          "sha256": "607247CF90B72F2B02658DE12B40AE28F357A2F82588AD036040EB50185B9FED",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Museum of Symmetry — Museum of Symmetry_"
+        }
+      ]
+    },
+    {
+      "titleId": "01004360045C8000",
+      "title": "Lichtspeer Double Speer edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004360045C8000.jpg",
+      "variants": [
+        {
+          "id": "v_25331ea7",
+          "name": "Lichtspeer: Double Speer Edition — Double Speer ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1A4qlQd_66axZbGLgHHM1z6-B3kHF2vG5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1A4qlQd_66axZbGLgHHM1z6-B3kHF2vG5&sz=w640",
+          "sizeBytes": 5172301,
+          "sha256": "0D158AFE5B568E5FA72573042DE8000C54404B0BB6840469299944F0DEEBC965",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lichtspeer: Double Speer Edition — Doubl"
+        }
+      ]
+    },
+    {
+      "titleId": "0100057011E50000",
+      "title": "Zengeon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100057011E50000.jpg",
+      "variants": [
+        {
+          "id": "v_4da19ada",
+          "name": "Zengeon — 游戏更新展示2",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pkzJcuor-UWEkvinsaWJyZUDshUOFMwS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pkzJcuor-UWEkvinsaWJyZUDshUOFMwS&sz=w640",
+          "sizeBytes": 5487984,
+          "sha256": "169DA6056EFA6EE83207A4BED89AC59DFBDDAE1B009A28C8DDEFAE1CBD792AA5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Zengeon — 游戏更新展示2"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F8F014080000",
+      "title": "The Sisters Party of the Year",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F8F014080000.jpg",
+      "variants": [
+        {
+          "id": "v_a46a2ae2",
+          "name": "The Sisters - Party of the Year — Trailer - The ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1e2zefyUDgAQXEkFQ9IENn5EHwlhHup-z",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1e2zefyUDgAQXEkFQ9IENn5EHwlhHup-z&sz=w640",
+          "sizeBytes": 5245295,
+          "sha256": "4737DB415F9DC4EC2C764E080C55D26F7CC2C95405E08CBC4EECB884519AAAEA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Sisters - Party of the Year — Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "0100BFE014476000",
+      "title": "Sunblaze",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BFE014476000.jpg",
+      "variants": [
+        {
+          "id": "v_1cf5b716",
+          "name": "Sunblaze — Launch trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Vf3ifUV0WDoTo3eR0byahI-yH4zIbQum",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Vf3ifUV0WDoTo3eR0byahI-yH4zIbQum&sz=w640",
+          "sizeBytes": 4524679,
+          "sha256": "50DF21F7C6C73251D6B6DC113FB7A044BB646CEEE5DBB55EDBB1F12CE47BEE27",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sunblaze — Launch trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010000E0145BA000",
+      "title": "Stonefly",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010000E0145BA000.jpg",
+      "variants": [
+        {
+          "id": "v_c1ded117",
+          "name": "Stonefly — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1E1WXDkBAUYGaKrPKw6A0nehYBXVYpRwa",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1E1WXDkBAUYGaKrPKw6A0nehYBXVYpRwa&sz=w640",
+          "sizeBytes": 5333518,
+          "sha256": "FCB7FB67DFFC77FD07F27A2909F4231A416F9072C410AB1A38320C4693CF137A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Stonefly — Release Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 4433,
-  "totalVariants": 5857,
-  "lastUpdated": "2026-11-10T09:39:30.354312+00:00"
+  "totalGames": 4443,
+  "totalVariants": 5867,
+  "lastUpdated": "2026-11-10T09:42:38.850819+00:00"
 }
