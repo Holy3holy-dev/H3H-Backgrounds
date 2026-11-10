@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T09:48:39.399787+00:00",
+  "updatedAt": "2026-11-10T09:51:31.354802+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -143488,9 +143488,269 @@
           "notes": "Switch 720p 30fps H264 | Angry Alligator — Angry Alligator - Laun"
         }
       ]
+    },
+    {
+      "titleId": "0100895013EE0000",
+      "title": "Always Sometimes Monsters",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100895013EE0000.jpg",
+      "variants": [
+        {
+          "id": "v_2b0fd2d8",
+          "name": "Always Sometimes Monsters — Always Sometimes Mon",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-JwPp06lUzr17hTBHqJ73LH5D-jdlods",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-JwPp06lUzr17hTBHqJ73LH5D-jdlods&sz=w640",
+          "sizeBytes": 5186755,
+          "sha256": "3D37A8F39F493D07787B8C6EA57BC2A3CF6A52B9B8CAA49A23F3FDA18A30FD51",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Always Sometimes Monsters — Always Somet"
+        }
+      ]
+    },
+    {
+      "titleId": "010056F0186D0000",
+      "title": "Alterity Experience",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010056F0186D0000.jpg",
+      "variants": [
+        {
+          "id": "v_8ff111eb",
+          "name": "ALTERITY EXPERIENCE — ALTERITY EXPERIENCE - Offi",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Vcx4nYr_op4vCgw2x-G4A5vUcYmY_W52",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Vcx4nYr_op4vCgw2x-G4A5vUcYmY_W52&sz=w640",
+          "sizeBytes": 3494773,
+          "sha256": "5EEB7B6A7705F9EF00A1D0D0BACF26C30AE7C839CC0F186ED0E351C3BB7F7F64",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | ALTERITY EXPERIENCE — ALTERITY EXPERIENC"
+        }
+      ]
+    },
+    {
+      "titleId": "010010500390C000",
+      "title": "Zero Zero Zero Zero",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010010500390C000.jpg",
+      "variants": [
+        {
+          "id": "v_2c18c06b",
+          "name": "Lone Blade At Sunset Phantom Blade Zero",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14qjH1wg2jnmA44zHgRit6KXh6nUMpDjQ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14qjH1wg2jnmA44zHgRit6KXh6nUMpDjQ&sz=w640",
+          "sizeBytes": 1497683,
+          "sha256": "551B9B5944E0A16D88A17A6E6D871C494A9BA066786B7622F3FF6BBE0E7EF204",
+          "durationSec": 24.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Lone Blade At Sunset Phantom Blade Zero"
+        }
+      ]
+    },
+    {
+      "titleId": "010054900F51A000",
+      "title": "Warborn",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010054900F51A000.jpg",
+      "variants": [
+        {
+          "id": "v_7236d7cb",
+          "name": "Avadon 3: The Warborn — Avadon 3 Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ynJ2m9RkNmYFOYHDmulGbLcYAuFE6DKK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ynJ2m9RkNmYFOYHDmulGbLcYAuFE6DKK&sz=w640",
+          "sizeBytes": 5220909,
+          "sha256": "60B24A5FAAB58D2B53072E43741A2A9057EC7EEDFCF8A3DCEA37F7B7987116BC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Avadon 3: The Warborn — Avadon 3 Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010051800E922000",
+      "title": "The Dark Crystal Age of Resistance Tactics",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010051800E922000.jpg",
+      "variants": [
+        {
+          "id": "v_09940ce7",
+          "name": "The Dark Crystal: Age of Resistance Tactics — La",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1703D6KKmAQFhkvgpZJ3NPkrpQg7Ggj8x",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1703D6KKmAQFhkvgpZJ3NPkrpQg7Ggj8x&sz=w640",
+          "sizeBytes": 4248138,
+          "sha256": "521A9D7F219213D9331156C240203C048DABA543BA50FF492FF4990BDB65798D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Dark Crystal: Age of Resistance Tact"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A5A00B2AA000",
+      "title": "The Bluecoats North and South",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A5A00B2AA000.jpg",
+      "variants": [
+        {
+          "id": "v_d81d461e",
+          "name": "The Bluecoats: North & South — The Bluecoats - N",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1u-2NebnZ3wAED5oIaI1I3d22a9d0LehR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1u-2NebnZ3wAED5oIaI1I3d22a9d0LehR&sz=w640",
+          "sizeBytes": 4671991,
+          "sha256": "61F467581D15CB553644BA5ADBF1E50A095247A4230316B4520BB4CD75DC4727",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Bluecoats: North & South — The Bluec"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D8400DAF0000",
+      "title": "Synaptic Drive",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D8400DAF0000.jpg",
+      "variants": [
+        {
+          "id": "v_9e16463e",
+          "name": "SYNAPTIC DRIVE — Synaptic Drive trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VBCJTRoDCXX9xl5cIzx_njzRd2t-SuIK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VBCJTRoDCXX9xl5cIzx_njzRd2t-SuIK&sz=w640",
+          "sizeBytes": 5112501,
+          "sha256": "30D5BADF000175AC3ABF6FD29B2FB9E1081B0EC01FEEA99861914051937817C3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | SYNAPTIC DRIVE — Synaptic Drive trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010010D011E1C000",
+      "title": "Slide Stars",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010010D011E1C000.jpg",
+      "variants": [
+        {
+          "id": "v_59e40c03",
+          "name": "Slide Stars — Announcement Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hdgYozaE3kyf0sw_Mb-HNBMjzkT28nxX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hdgYozaE3kyf0sw_Mb-HNBMjzkT28nxX&sz=w640",
+          "sizeBytes": 4660149,
+          "sha256": "CC29B8D0FF3882BCC07AC1B951CC475A375F2A7413DC71E08557C8F0103177B0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Slide Stars — Announcement Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D7B011654000",
+      "title": "Skully",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D7B011654000.jpg",
+      "variants": [
+        {
+          "id": "v_db367eda",
+          "name": "Skully Pinball — BA Skully",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WmLZ-kUaO5lkkWyeR16gNsijmUN5CJac",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WmLZ-kUaO5lkkWyeR16gNsijmUN5CJac&sz=w640",
+          "sizeBytes": 5263123,
+          "sha256": "1200965443A671ADA0F2877BEE8E68D572560A4694C85FD0ED3A411252CA39FF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Skully Pinball — BA Skully"
+        }
+      ]
+    },
+    {
+      "titleId": "010045D01273A000",
+      "title": "Reflection of Mine",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010045D01273A000.jpg",
+      "variants": [
+        {
+          "id": "v_bb5d3ecc",
+          "name": "Reflection of Mine — Reflection of Mine - Early ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZvMX-B_RAiZh9oYqakcF2ckoLUo0DBln",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZvMX-B_RAiZh9oYqakcF2ckoLUo0DBln&sz=w640",
+          "sizeBytes": 4355531,
+          "sha256": "9C771BA0BF4B530680E8FDA7FAC7A97CCDF175E3A38514645726B6302DB6F62D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Reflection of Mine — Reflection of Mine "
+        }
+      ]
     }
   ],
-  "totalGames": 4463,
-  "totalVariants": 5887,
-  "lastUpdated": "2026-11-10T09:48:39.399787+00:00"
+  "totalGames": 4473,
+  "totalVariants": 5897,
+  "lastUpdated": "2026-11-10T09:51:31.354802+00:00"
 }
