@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T02:05:55.429352+00:00",
+  "updatedAt": "2026-11-10T02:08:53.343217+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -104488,9 +104488,269 @@
           "notes": "Switch 720p 30fps H264 | Niffelheim — MainTrailer_1010001"
         }
       ]
+    },
+    {
+      "titleId": "01005880213D4000",
+      "title": "Super Technos World River City and Technos Arcade Classics",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005880213D4000.jpg",
+      "variants": [
+        {
+          "id": "v_e718206e",
+          "name": "Super Technos World: River City & Technos Arcade",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dv0cEpf6GVp0FnNM2bhyA8I6tAjxB5Oz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dv0cEpf6GVp0FnNM2bhyA8I6tAjxB5Oz&sz=w640",
+          "sizeBytes": 5424801,
+          "sha256": "CF841147E267F33B8F422E70D4A9E2B164A24612492AEE2C7EA28772AFD37A39",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Super Technos World: River City & Techno"
+        }
+      ]
+    },
+    {
+      "titleId": "01003A600D8FC000",
+      "title": "A Fold Apart",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003A600D8FC000.jpg",
+      "variants": [
+        {
+          "id": "v_b469402e",
+          "name": "A Fold Apart — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZaImAiaSnxR5oS0rETQAQ90Nu7JwRou2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZaImAiaSnxR5oS0rETQAQ90Nu7JwRou2&sz=w640",
+          "sizeBytes": 4720957,
+          "sha256": "AA4417349BB0BEADA71550A9FE8D61D15C31D2053EF8E58854591FF8418725F1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | A Fold Apart — Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010028F01B941000",
+      "title": "Pinball M",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010028F01B941000.jpg",
+      "variants": [
+        {
+          "id": "v_4cda473f",
+          "name": "Pinball FX Midnight — Pinball FX Midnight | Trai",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xkPsQmRlTFoG7casrWqsFz5IZycZZbZw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xkPsQmRlTFoG7casrWqsFz5IZycZZbZw&sz=w640",
+          "sizeBytes": 4561686,
+          "sha256": "D6BB057B33E72F75F1680744A9116E8A863236ED92852889AF8132C215A44709",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Pinball FX Midnight — Pinball FX Midnigh"
+        }
+      ]
+    },
+    {
+      "titleId": "0100562018716000",
+      "title": "The Captain",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100562018716000.jpg",
+      "variants": [
+        {
+          "id": "v_8c418b60",
+          "name": "The Captain — The Captain - Game trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1YHVBzGJPOeAeV0RO720Xh51M6x7ymktb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1YHVBzGJPOeAeV0RO720Xh51M6x7ymktb&sz=w640",
+          "sizeBytes": 5117590,
+          "sha256": "46D6E968FBCC28191B92D1B7C70C891281940FDB1E9A4C35FA44D54BDD0B2D6F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Captain — The Captain - Game trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01005A5016428000",
+      "title": "Mech Armada",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005A5016428000.jpg",
+      "variants": [
+        {
+          "id": "v_c39d4e6e",
+          "name": "Mech Armada — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1f4ZEjK0_OWM9hscGNG5l2kCBOz-GOcvm",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1f4ZEjK0_OWM9hscGNG5l2kCBOz-GOcvm&sz=w640",
+          "sizeBytes": 5132319,
+          "sha256": "08C7E79502A46726461EA566D506AB39843DA27B708BD4639DD298E04044BC92",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mech Armada — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C7400CFB4000",
+      "title": "AI: The Somnium Files",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C7400CFB4000.jpg",
+      "variants": [
+        {
+          "id": "v_d33b29a3",
+          "name": "AI: The Somnium Files — Investigation Trailer (E",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-by_RucclW2DyS0KQwCWB-idyS4I4hbA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-by_RucclW2DyS0KQwCWB-idyS4I4hbA&sz=w640",
+          "sizeBytes": 4015321,
+          "sha256": "11085471165069575CCCAA83ED0189F1DEC7FA8EC12F562E79270BA08BC83DAD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | AI: The Somnium Files — Investigation Tr"
+        }
+      ]
+    },
+    {
+      "titleId": "01009B700D0B8000",
+      "title": "Undead Horde 2 Necropolis",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009B700D0B8000.jpg",
+      "variants": [
+        {
+          "id": "v_ef2ee044",
+          "name": "Undead Horde 2: Necropolis — Undead Horde 2 Trai",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1iMgSqFpE_RMRkFQeHm0Y163wEgo6OhW1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1iMgSqFpE_RMRkFQeHm0Y163wEgo6OhW1&sz=w640",
+          "sizeBytes": 5310274,
+          "sha256": "1BD0E3FD6C2284E0FDD340A9AA5A9E6F2E27F09578E462E90642076C1262D68F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Undead Horde 2: Necropolis — Undead Hord"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CF800C810000",
+      "title": "Coffee Crisis",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CF800C810000.jpg",
+      "variants": [
+        {
+          "id": "v_5f2dae48",
+          "name": "Coffee Crisis — Coffee Crisis Update Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pVVbFB4nI5AgXEiIF8tbKA2xptmdCK-T",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pVVbFB4nI5AgXEiIF8tbKA2xptmdCK-T&sz=w640",
+          "sizeBytes": 5420851,
+          "sha256": "A4C84284A113798668BFCEF7620CFC972740DC9E727161392A8070A835EA58E6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Coffee Crisis — Coffee Crisis Update Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "01008EF020C98000",
+      "title": "Vengeance Hunters",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008EF020C98000.jpg",
+      "variants": [
+        {
+          "id": "v_ccdd08d4",
+          "name": "Vengeance Hunters — Candy Showcase",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16tU_NTNJHyGfVHR2RlBhhcBvYqdI4vwS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16tU_NTNJHyGfVHR2RlBhhcBvYqdI4vwS&sz=w640",
+          "sizeBytes": 5218329,
+          "sha256": "7BDDACB9F9D036A220D83AF3E8501D09A95E26F332603BD6440A8A50BCFE55D9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Vengeance Hunters — Candy Showcase"
+        }
+      ]
+    },
+    {
+      "titleId": "010010701C504000",
+      "title": "Democracy 4",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010010701C504000.jpg",
+      "variants": [
+        {
+          "id": "v_3aa401a1",
+          "name": "Democracy 4 — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bXElmSUNAT5jUjQ60MamtwH557Gf0MDy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bXElmSUNAT5jUjQ60MamtwH557Gf0MDy&sz=w640",
+          "sizeBytes": 4698714,
+          "sha256": "48F81AA858FEF4898E03AF5E6D76CFDF46C0CE73719259D7670C6817C6091C93",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Democracy 4 — Release Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 2963,
-  "totalVariants": 4387,
-  "lastUpdated": "2026-11-10T02:05:55.429352+00:00"
+  "totalGames": 2973,
+  "totalVariants": 4397,
+  "lastUpdated": "2026-11-10T02:08:53.343217+00:00"
 }
