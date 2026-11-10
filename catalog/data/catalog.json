@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T15:36:51.301613+00:00",
+  "updatedAt": "2026-11-10T15:40:24.454987+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -167928,9 +167928,269 @@
           "notes": "Switch 720p 30fps H264 | EARTHLOCK 2 — EARTHLOCK 2 - Cinematic Tr"
         }
       ]
+    },
+    {
+      "titleId": "01007EC010B48000",
+      "title": "Rainswept",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007EC010B48000.jpg",
+      "variants": [
+        {
+          "id": "v_a99f0034",
+          "name": "Rainswept — Rainswept Accolades Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cJqdtYvJrBf00Rt0Q59omWYqOXZNTQbB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cJqdtYvJrBf00Rt0Q59omWYqOXZNTQbB&sz=w640",
+          "sizeBytes": 5613717,
+          "sha256": "103EA4DA1359B768B262F3CC2D50A2704D63DC7115B5461E75CB99EA5AD45276",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rainswept — Rainswept Accolades Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B00B51240000",
+      "title": "Grand Theft Auto IV",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B00B51240000.jpg",
+      "variants": [
+        {
+          "id": "v_871fdd6a",
+          "name": "Lola Del Rio Grand Theft Auto IV",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-BCH0lppoHptv1uT9EpU4WlQVdJUYc6w",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-BCH0lppoHptv1uT9EpU4WlQVdJUYc6w&sz=w640",
+          "sizeBytes": 376335,
+          "sha256": "EB970CAD2C463B8B5169B051AB5873C941294D964278271581A2FAFD037653EE",
+          "durationSec": 24.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lola Del Rio Grand Theft Auto IV"
+        }
+      ]
+    },
+    {
+      "titleId": "010000000000100B",
+      "title": "RetroArch",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010000000000100B.jpg",
+      "variants": [
+        {
+          "id": "v_2a96b4c8",
+          "name": "RetroArch — RetroArch",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WDXdy94IfjGVq3Q677VOkpSZrsYcMfi3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WDXdy94IfjGVq3Q677VOkpSZrsYcMfi3&sz=w640",
+          "sizeBytes": 2547027,
+          "sha256": "5AAE4E944A286870EEC9F5467CF9A98C38FEF8B5D068E67C1A8C334A111EDE2C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | RetroArch — RetroArch"
+        }
+      ]
+    },
+    {
+      "titleId": "0100000000001003",
+      "title": "PPSSPP",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100000000001003.jpg",
+      "variants": [
+        {
+          "id": "v_249b5b02",
+          "name": "RetroArch - PPSSPP — Intro",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1EIvkLYVfr528cuWN1LEuv6877uqHISMZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1EIvkLYVfr528cuWN1LEuv6877uqHISMZ&sz=w640",
+          "sizeBytes": 5586577,
+          "sha256": "E9C36749DA0166C97AC997F1622DF863B2CF41D9A8A9DD455B549EB76B9E5137",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | RetroArch - PPSSPP — Intro"
+        }
+      ]
+    },
+    {
+      "titleId": "0100000000001004",
+      "title": "Chiaki",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100000000001004.jpg",
+      "variants": [
+        {
+          "id": "v_f4e4691e",
+          "name": "Blue Archive Chiaki Swimsuit",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ctBMksI7tBdpvjcA87bVV0r0136HBRy9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ctBMksI7tBdpvjcA87bVV0r0136HBRy9&sz=w640",
+          "sizeBytes": 2017173,
+          "sha256": "90B9376A3A987F20C103C21F536919FC3F94A3472BCE6CF04A76A7F15443653B",
+          "durationSec": 24.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Blue Archive Chiaki Swimsuit"
+        }
+      ]
+    },
+    {
+      "titleId": "0100000000001007",
+      "title": "Daybreak",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100000000001007.jpg",
+      "variants": [
+        {
+          "id": "v_8260e653",
+          "name": "Gateway To Daybreak",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PKchXvn3NVlIZa-LRIfuyOGBcw6GnARF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PKchXvn3NVlIZa-LRIfuyOGBcw6GnARF&sz=w640",
+          "sizeBytes": 664748,
+          "sha256": "306728DD8D9100602CB51F242053536461ABA109E5B9060F72EC91DD6496D8BF",
+          "durationSec": 24.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Gateway To Daybreak"
+        }
+      ]
+    },
+    {
+      "titleId": "0100888000001001",
+      "title": "Half-Life",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100888000001001.jpg",
+      "variants": [
+        {
+          "id": "v_0d7666f6",
+          "name": "Half-Life 2 — Half-Life 2 Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1H21elKtzg8RnmF6kS8NsBjLWYWI_TsVV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1H21elKtzg8RnmF6kS8NsBjLWYWI_TsVV&sz=w640",
+          "sizeBytes": 5251119,
+          "sha256": "C0A09AF892964FF04FC987CCD9D9E80768073966E1740B106DFD6ECD052A0033",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Half-Life 2 — Half-Life 2 Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100888000001002",
+      "title": "Portal",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100888000001002.jpg",
+      "variants": [
+        {
+          "id": "v_1b4dbc49",
+          "name": "Rick And Morty Green Portal",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1swfp8zhOIpBep4qEqUJHDVnMdFWBJiBd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1swfp8zhOIpBep4qEqUJHDVnMdFWBJiBd&sz=w640",
+          "sizeBytes": 1478948,
+          "sha256": "C4627738136EF5B254BC8B6458006713AF11F35D423F28ADCDA5CFB66A0AE5BD",
+          "durationSec": 24.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rick And Morty Green Portal"
+        }
+      ]
+    },
+    {
+      "titleId": "0100888000001005",
+      "title": "The Elder Scrolls III: Morrowind",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100888000001005.jpg",
+      "variants": [
+        {
+          "id": "v_c3a91487",
+          "name": "The Elder Scrolls III: Morrowind® Game of the Ye",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oSA-Q7XqLMrYqXUNi3upW2IYjhievMIV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oSA-Q7XqLMrYqXUNi3upW2IYjhievMIV&sz=w640",
+          "sizeBytes": 3092246,
+          "sha256": "51CC67255E3E627049CCB4FA5EF6DF26676D90C8FFB184E2444D45619FD258D9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Elder Scrolls III: Morrowind® Game o"
+        }
+      ]
+    },
+    {
+      "titleId": "0100888000001006",
+      "title": "Fallout 1",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100888000001006.jpg",
+      "variants": [
+        {
+          "id": "v_6cf5e627",
+          "name": "T-51 Power Armor Fallout 76",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nW59vQvfTKIwtN3CRkhNsao_QC7KJJqB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nW59vQvfTKIwtN3CRkhNsao_QC7KJJqB&sz=w640",
+          "sizeBytes": 753314,
+          "sha256": "0A0D6636195F8F5E7BA907271005A426A52C84206F62BBE60CCAFDBEFFE47D51",
+          "durationSec": 24.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | T-51 Power Armor Fallout 76"
+        }
+      ]
     }
   ],
-  "totalGames": 5403,
-  "totalVariants": 6827,
-  "lastUpdated": "2026-11-10T15:36:51.301613+00:00"
+  "totalGames": 5413,
+  "totalVariants": 6837,
+  "lastUpdated": "2026-11-10T15:40:24.454987+00:00"
 }
