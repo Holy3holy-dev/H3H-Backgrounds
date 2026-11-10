@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T07:28:25.064096+00:00",
+  "updatedAt": "2026-11-10T07:31:20.042045+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -131788,9 +131788,269 @@
           "notes": "Switch 720p 30fps H264 | A Rite from the Stars: Remaster Edition "
         }
       ]
+    },
+    {
+      "titleId": "010032800D740000",
+      "title": "Mosaic",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010032800D740000.jpg",
+      "variants": [
+        {
+          "id": "v_3caf6972",
+          "name": "Mega Mosaic — Pre-release trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hZPvbP-jvBBpLz-rNI72KIOvoOVigVPF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hZPvbP-jvBBpLz-rNI72KIOvoOVigVPF&sz=w640",
+          "sizeBytes": 5438724,
+          "sha256": "B79C0E69B33B09D1B19241D00F8B38780E8DFDD5377D6A17A4EEAF5E75881D78",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mega Mosaic — Pre-release trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01008EC020CBA000",
+      "title": "Wand Project",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008EC020CBA000.jpg",
+      "variants": [
+        {
+          "id": "v_d60ee8ea",
+          "name": "Project WAND: Festival Of Futas — Festival of Fu",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xTd0o9ZlJH5znVhFy1St7Jy7ttbpFN4V",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xTd0o9ZlJH5znVhFy1St7Jy7ttbpFN4V&sz=w640",
+          "sizeBytes": 5229857,
+          "sha256": "988A722DB60F79AFF75EB3FA3B79A131ABC03EF737A5694C3D675A1E93CF352F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Project WAND: Festival Of Futas — Festiv"
+        }
+      ]
+    },
+    {
+      "titleId": "010025901C0F4000",
+      "title": "Ynglet",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010025901C0F4000.jpg",
+      "variants": [
+        {
+          "id": "v_81ca6a8f",
+          "name": "Ynglet: Prologue — Ynglet Announcement Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=165uy26kPAkqr94l6RCaIZVc_SlielcsD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=165uy26kPAkqr94l6RCaIZVc_SlielcsD&sz=w640",
+          "sizeBytes": 4471294,
+          "sha256": "EB8AFA466B432348EE81740861A275F421D1620C7503862CD274B74388B19ACE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ynglet: Prologue — Ynglet Announcement T"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B5601F082000",
+      "title": "Trust No One",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B5601F082000.jpg",
+      "variants": [
+        {
+          "id": "v_3aa50bbc",
+          "name": "Trust No One — Trust No One Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kr8IRJ0Ar9c72VqpKSS2Hxc5NCtZs3jR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kr8IRJ0Ar9c72VqpKSS2Hxc5NCtZs3jR&sz=w640",
+          "sizeBytes": 4077277,
+          "sha256": "83012649A0AFAF6E12D0AD0EB471A962DD4BD573E1CABD70F7632CEA38412995",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Trust No One — Trust No One Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01006D101D94A000",
+      "title": "UFO Henfield",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006D101D94A000.jpg",
+      "variants": [
+        {
+          "id": "v_017c6d25",
+          "name": "UFO: Henfield — LaunchGameplayTrailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yRwR54mycfwGfJwTa07LbxLnh9wm2AzG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yRwR54mycfwGfJwTa07LbxLnh9wm2AzG&sz=w640",
+          "sizeBytes": 5354371,
+          "sha256": "3D0C7CC41F5C39BD20B8F6CAFB4BE51023FA52689845BCDEBC5F61E001C943F8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | UFO: Henfield — LaunchGameplayTrailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01007D301B994000",
+      "title": "Universe For Sale",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007D301B994000.jpg",
+      "variants": [
+        {
+          "id": "v_fe145db9",
+          "name": "Universe For Sale — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nii6uSkUNAA0FOYUW1u1DO53Llb_Q4iB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nii6uSkUNAA0FOYUW1u1DO53Llb_Q4iB&sz=w640",
+          "sizeBytes": 5276469,
+          "sha256": "7CFE16469095D4791F36A316A6D275A3E48E0CB82B72CA41A3903D59B7E24F03",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Universe For Sale — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DF701E8BE000",
+      "title": "The Lullaby of Life",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DF701E8BE000.jpg",
+      "variants": [
+        {
+          "id": "v_9f50584e",
+          "name": "The Lullaby of Life — Gameplay - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pQWj4tUdH3oZY6TV9iUB4_s84yMiA7Mi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pQWj4tUdH3oZY6TV9iUB4_s84yMiA7Mi&sz=w640",
+          "sizeBytes": 4514427,
+          "sha256": "3AA9020E6C357474ADE55F9480BEF4B143B28B52254469BA829193F3FC4BAC83",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Lullaby of Life — Gameplay - Launch "
+        }
+      ]
+    },
+    {
+      "titleId": "010030001ED18000",
+      "title": "The Ouroboros King",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010030001ED18000.jpg",
+      "variants": [
+        {
+          "id": "v_1cde2bdd",
+          "name": "The Ouroboros King — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gl_oTx15SYNpAdoonzj5ESeTI4sKlJ2r",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gl_oTx15SYNpAdoonzj5ESeTI4sKlJ2r&sz=w640",
+          "sizeBytes": 5451121,
+          "sha256": "5CFCEB1EADC7249B6F73E5886E25B65B2E3666BD06716F857384B4784FC405C1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Ouroboros King — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01003ED0208D8000",
+      "title": "Tokyo Psychodemic",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003ED0208D8000.jpg",
+      "variants": [
+        {
+          "id": "v_1dfe2b6c",
+          "name": "TOKYO PSYCHODEMIC — LaunchPV_01",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IVXpMyvjG5nkO00Oa8_9uZA6Xyue4cjg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IVXpMyvjG5nkO00Oa8_9uZA6Xyue4cjg&sz=w640",
+          "sizeBytes": 5190483,
+          "sha256": "429B43018E5DFD39E1C57336BE9F3C2EC8103DF4EA933CFE6D55F930C895482B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | TOKYO PSYCHODEMIC — LaunchPV_01"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F49020508000",
+      "title": "Tales From The Arcade Fartmania",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F49020508000.jpg",
+      "variants": [
+        {
+          "id": "v_e4d08007",
+          "name": "Tales From The Arcade: Fartmania — Fartmania Gam",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1k4_EeFbkaCSRfbC69IgwQaaah6Pjt9j3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1k4_EeFbkaCSRfbC69IgwQaaah6Pjt9j3&sz=w640",
+          "sizeBytes": 5556575,
+          "sha256": "B2DB35F49A57462D3C2F58D7E3A942858D1995415FFCFF2DD1F0B0263B8B6EE8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tales From The Arcade: Fartmania — Fartm"
+        }
+      ]
     }
   ],
-  "totalGames": 4013,
-  "totalVariants": 5437,
-  "lastUpdated": "2026-11-10T07:28:25.064096+00:00"
+  "totalGames": 4023,
+  "totalVariants": 5447,
+  "lastUpdated": "2026-11-10T07:31:20.042045+00:00"
 }
