@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T12:02:06.275062+00:00",
+  "updatedAt": "2026-11-10T12:05:34.385189+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -153628,9 +153628,269 @@
           "notes": "Switch 720p 30fps H264 | Straimium Immortaly — Trailer"
         }
       ]
+    },
+    {
+      "titleId": "01006E900B6EC000",
+      "title": "Jack N Jill DX",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006E900B6EC000.jpg",
+      "variants": [
+        {
+          "id": "v_1df5aff0",
+          "name": "Jack N' Jill DX — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fSvVuIUCLVNBHbifZF59YNPR7ehA5IjW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fSvVuIUCLVNBHbifZF59YNPR7ehA5IjW&sz=w640",
+          "sizeBytes": 4713210,
+          "sha256": "83876E7806FC901EF49692A98320D4AE3709CBA97E462DA040255BA0BEC97A3C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Jack N' Jill DX — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010080F018046000",
+      "title": "Him & Her Collection",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010080F018046000.jpg",
+      "variants": [
+        {
+          "id": "v_17ebd387",
+          "name": "Him & Her Collection — Him&Her -  Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xB1EXdaqr6_fO8bs4_CGaTgiaGxJvfK1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xB1EXdaqr6_fO8bs4_CGaTgiaGxJvfK1&sz=w640",
+          "sizeBytes": 4834013,
+          "sha256": "0F59EF09548AABC9F91E582B6203AF9C8284420E6D6053D6B30F4BA03C59BE15",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Him & Her Collection — Him&Her -  Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "010045F00D56C000",
+      "title": "Ovivo",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010045F00D56C000.jpg",
+      "variants": [
+        {
+          "id": "v_b57b63d7",
+          "name": "OVIVO — OVIVO Release trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BxjhVUIrl98R-CMTKW7R_v1I1K9b4pwN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BxjhVUIrl98R-CMTKW7R_v1I1K9b4pwN&sz=w640",
+          "sizeBytes": 5136941,
+          "sha256": "AF667B50370A77A10180145A13E14D708BED2DF531E005DD79003A10A8EEF8B7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | OVIVO — OVIVO Release trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D3201EBC4000",
+      "title": "Cryptrio",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D3201EBC4000.jpg",
+      "variants": [
+        {
+          "id": "v_48d08d2a",
+          "name": "Cryptrio — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1f-ZqbdmhFjBTblYftLLegh34MviYMYeS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1f-ZqbdmhFjBTblYftLLegh34MviYMYeS&sz=w640",
+          "sizeBytes": 4542729,
+          "sha256": "1E594F79E626F2C7886B0B8B7C42490915B0FA0A6C1B2491D1B890E5FCDB24D8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cryptrio — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A8E00DB92000",
+      "title": "Gyro Boss DX",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A8E00DB92000.jpg",
+      "variants": [
+        {
+          "id": "v_8cbad43b",
+          "name": "Gyro Boss DX — Gyro Boss DX Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1JZT-nRbc0rbjk7UlE8VUKl3yiTAkbCXu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1JZT-nRbc0rbjk7UlE8VUKl3yiTAkbCXu&sz=w640",
+          "sizeBytes": 4409437,
+          "sha256": "DBF5521D8B87D508E8F10C61B0275CC3858D6F6271E9E65634D6416AB706D1D8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Gyro Boss DX — Gyro Boss DX Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B7E01234E000",
+      "title": "Hotel Sowls",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B7E01234E000.jpg",
+      "variants": [
+        {
+          "id": "v_06734d95",
+          "name": "Hotel Sowls — Hotel Sowls Trailer EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_H06i5S5jqMP9re6IUFu-iRKdY7ojLP5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_H06i5S5jqMP9re6IUFu-iRKdY7ojLP5&sz=w640",
+          "sizeBytes": 4944334,
+          "sha256": "1C1159643B5FE0D1900A35E4A109FEEC089EEB653FA3300C0453AC720FE43A4B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hotel Sowls — Hotel Sowls Trailer EN"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F7900D8A4000",
+      "title": "Cruel Bands Career",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F7900D8A4000.jpg",
+      "variants": [
+        {
+          "id": "v_70a42162",
+          "name": "Cruel Bands Career — Cruel Bands Career Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1z4hXDLH_srRlzjsuL---ks1iphf4_6fP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1z4hXDLH_srRlzjsuL---ks1iphf4_6fP&sz=w640",
+          "sizeBytes": 4943068,
+          "sha256": "7933AF331B18B0DE4F65DCC2A2CD9B73EF5AC96EDA7E1833F81EB69BB0F59645",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cruel Bands Career — Cruel Bands Career "
+        }
+      ]
+    },
+    {
+      "titleId": "0100C5F016414000",
+      "title": "Breakneck City",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C5F016414000.jpg",
+      "variants": [
+        {
+          "id": "v_aa473adf",
+          "name": "Breakneck City — Breakneck City Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jTg5_eriRw9NLxGx7EkVXcTrCwyGSQNi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jTg5_eriRw9NLxGx7EkVXcTrCwyGSQNi&sz=w640",
+          "sizeBytes": 5300671,
+          "sha256": "5BA9ABD9DEB4613ACDA937C152427B47369BC8DFF9488FE84A51D80F7B9B39AB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Breakneck City — Breakneck City Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C0F023668000",
+      "title": "Superation",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C0F023668000.jpg",
+      "variants": [
+        {
+          "id": "v_c4f4da95",
+          "name": "Superation — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qS2jQm2O-6LEx8ZXMbsUfRoTssd_jEZf",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qS2jQm2O-6LEx8ZXMbsUfRoTssd_jEZf&sz=w640",
+          "sizeBytes": 5186322,
+          "sha256": "EE4346ED1ADF86E3D22154BA667C7CDF1A4661311F4F70E0B10C3E66F06EDEC8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Superation — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01005ED018EAA000",
+      "title": "God Damn the Garden",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005ED018EAA000.jpg",
+      "variants": [
+        {
+          "id": "v_9dea3061",
+          "name": "God Damn The Garden — Official",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19QiiCltuft3Ja_C9RTwImlgJpOvzJ192",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19QiiCltuft3Ja_C9RTwImlgJpOvzJ192&sz=w640",
+          "sizeBytes": 4936527,
+          "sha256": "035E40512BB2B453D651200AEF561A6344672601FD6C65A66BE958DCCAD1F5F3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | God Damn The Garden — Official"
+        }
+      ]
     }
   ],
-  "totalGames": 4853,
-  "totalVariants": 6277,
-  "lastUpdated": "2026-11-10T12:02:06.275062+00:00"
+  "totalGames": 4863,
+  "totalVariants": 6287,
+  "lastUpdated": "2026-11-10T12:05:34.385189+00:00"
 }
