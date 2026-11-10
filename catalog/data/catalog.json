@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T05:14:08.864718+00:00",
+  "updatedAt": "2026-11-10T05:17:22.536474+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -120608,9 +120608,269 @@
           "notes": "Switch 720p 30fps H264 | Boxville 2 — Boxville 2 trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100320020BDE000",
+      "title": "Boxville 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100320020BDE000.jpg",
+      "variants": [
+        {
+          "id": "v_c23de682",
+          "name": "Boxville 2 — Boxville 2 trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZXn2fsufvQVAVs96fBZOPKFCIxHTAqeT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZXn2fsufvQVAVs96fBZOPKFCIxHTAqeT&sz=w640",
+          "sizeBytes": 5348791,
+          "sha256": "8A59EC1D276D07E06D2FE14AEB4B714E11CCBBF88C22EB6B63BD16421C165A19",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Boxville 2 — Boxville 2 trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E800213AA000",
+      "title": "Mini Golf Simulator",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E800213AA000.jpg",
+      "variants": [
+        {
+          "id": "v_3fd672b6",
+          "name": "Mini Golf Simulator — Official Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OLLxspxqKPPlJrl6nZA67fH1rSY-Wfxc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OLLxspxqKPPlJrl6nZA67fH1rSY-Wfxc&sz=w640",
+          "sizeBytes": 5359632,
+          "sha256": "C8BE042238484997AE362A9059493DE23A05EBDCBE3F666F5BA716033E62DCCC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mini Golf Simulator — Official Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EBA0144C0000",
+      "title": "World of One",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EBA0144C0000.jpg",
+      "variants": [
+        {
+          "id": "v_e6ae5778",
+          "name": "World of One — Action",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-dX03NajbcZiSvtzalzN4pU3aqrg2XDc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-dX03NajbcZiSvtzalzN4pU3aqrg2XDc&sz=w640",
+          "sizeBytes": 5227218,
+          "sha256": "41E3B72B7DECAC40C7A2C0C6DC89E084130CDE280C723B8336F4705FB5F20F91",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | World of One — Action"
+        }
+      ]
+    },
+    {
+      "titleId": "01007CD014C52000",
+      "title": "Darker Skies",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007CD014C52000.jpg",
+      "variants": [
+        {
+          "id": "v_e339393e",
+          "name": "Darker Skies: Remastered for PC — Darker Skies S",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MT2kMwk0zGyPKxyYiPCPyXYvKGlSJZjJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MT2kMwk0zGyPKxyYiPCPyXYvKGlSJZjJ&sz=w640",
+          "sizeBytes": 5129453,
+          "sha256": "8BD3B08B02C9FBCAB09978AC52D7A0C61AEF1EAF366F625CAAB9FBF864BEB5CA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Darker Skies: Remastered for PC — Darker"
+        }
+      ]
+    },
+    {
+      "titleId": "0100187011F8E000",
+      "title": "RoboPhobik",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100187011F8E000.jpg",
+      "variants": [
+        {
+          "id": "v_44107ab7",
+          "name": "RoboPhobik — RoboPhobik Accolade Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nTm2js4t7sEwsbSDgOEDpGU2P2lkPF_j",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nTm2js4t7sEwsbSDgOEDpGU2P2lkPF_j&sz=w640",
+          "sizeBytes": 5487733,
+          "sha256": "385E8914FDB6025C973610C1031BD2BE3165D008E6FA701FBF38C37571FC5769",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | RoboPhobik — RoboPhobik Accolade Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C1E0135E0000",
+      "title": "Mighty Fight Federation",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C1E0135E0000.jpg",
+      "variants": [
+        {
+          "id": "v_1e0a8676",
+          "name": "Mighty Fight Federation — Mighty Fight Federatio",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SndlZlurLFJg4mjCwVI95BPi1fkdhf5Q",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SndlZlurLFJg4mjCwVI95BPi1fkdhf5Q&sz=w640",
+          "sizeBytes": 5551774,
+          "sha256": "A3D2B27A416F570E66E945FDACBA1164E17DB11BF69BF58EA139DE9EEB38FCDC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mighty Fight Federation — Mighty Fight F"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EAF00E32E000",
+      "title": "Bacon Man",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EAF00E32E000.jpg",
+      "variants": [
+        {
+          "id": "v_967bd803",
+          "name": "Bacon Man: An Adventure — Bacon Man Steam Launch",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KXsbVCKkUkm-oJlZhlDGLajq0GNvISMz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KXsbVCKkUkm-oJlZhlDGLajq0GNvISMz&sz=w640",
+          "sizeBytes": 5438326,
+          "sha256": "5AB7951A66A08017124D1E4437F46A2C6E5EA39C1C4064B0737DFBACE4D11DC2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bacon Man: An Adventure — Bacon Man Stea"
+        }
+      ]
+    },
+    {
+      "titleId": "0100391015642000",
+      "title": "Trifox",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100391015642000.jpg",
+      "variants": [
+        {
+          "id": "v_fc962658",
+          "name": "Trifox — Accolades Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bDmyRIwiCOEHA5IunneMZGA9eL7n1W1X",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bDmyRIwiCOEHA5IunneMZGA9eL7n1W1X&sz=w640",
+          "sizeBytes": 5324058,
+          "sha256": "95C0EAFDFCF0934BD803314CF1FBE987D957AF86A767737ECE4207FAC89F8446",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Trifox — Accolades Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01009DE014D6E000",
+      "title": "Metallic Child",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009DE014D6E000.jpg",
+      "variants": [
+        {
+          "id": "v_0bb0ea24",
+          "name": "METALLIC CHILD — PV_EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1C82tbhOL3tKVKXbU5rzALT1Z8z7yOhAO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1C82tbhOL3tKVKXbU5rzALT1Z8z7yOhAO&sz=w640",
+          "sizeBytes": 5306464,
+          "sha256": "8E847BBBEEFC22A7400BEAFB709D16ECCFA77339D010EC8BE8A1FF842D33B900",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | METALLIC CHILD — PV_EN"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D940063A0000",
+      "title": "MXGP3 The Official Motocross",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D940063A0000.jpg",
+      "variants": [
+        {
+          "id": "v_ca1e92c6",
+          "name": "MXGP3 - The Official Motocross Videogame — MXGP3",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ABA3oeMVSlWOfam8uYCxNuVyvGg35gjW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ABA3oeMVSlWOfam8uYCxNuVyvGg35gjW&sz=w640",
+          "sizeBytes": 5085549,
+          "sha256": "B76D7A765845079025DDD4E4A1325D84D4E45FE1329A2FA4FBCE99B55B1100A2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | MXGP3 - The Official Motocross Videogame"
+        }
+      ]
     }
   ],
-  "totalGames": 3583,
-  "totalVariants": 5007,
-  "lastUpdated": "2026-11-10T05:14:08.864718+00:00"
+  "totalGames": 3593,
+  "totalVariants": 5017,
+  "lastUpdated": "2026-11-10T05:17:22.536474+00:00"
 }
