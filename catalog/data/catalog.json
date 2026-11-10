@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T20:46:20Z",
+  "updatedAt": "2026-11-10T20:51:16Z",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -591,7 +591,37 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 01004200189F4000.mp4"
+          "notes": "Google Drive: 01004200189F4000.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1qEBAHvs8GdwBTxJydJTTyVHaTQCBls8y",
+          "iconSizeBytes": 419515,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
+        },
+        {
+          "id": "icon-01004200189f4000",
+          "name": "4IFIR Иконка: Factorio [NSP][RUS/Multi11]",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qEBAHvs8GdwBTxJydJTTyVHaTQCBls8y",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1qEBAHvs8GdwBTxJydJTTyVHaTQCBls8y",
+          "sizeBytes": 419515,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1qEBAHvs8GdwBTxJydJTTyVHaTQCBls8y",
+          "iconSizeBytes": 419515,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -616,7 +646,37 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 010051F0207B2000.mp4"
+          "notes": "Google Drive: 010051F0207B2000.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=189MnwEpspuzxkoGyNQ9SbQcs5hZ3nXsX",
+          "iconSizeBytes": 98306,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
+        },
+        {
+          "id": "icon-010051f0207b2000",
+          "name": "4IFIR Иконка: Tomodachi Life: Living the Dream [Mod/Port] [NSP][ENG]",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=189MnwEpspuzxkoGyNQ9SbQcs5hZ3nXsX",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=189MnwEpspuzxkoGyNQ9SbQcs5hZ3nXsX",
+          "sizeBytes": 98306,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=189MnwEpspuzxkoGyNQ9SbQcs5hZ3nXsX",
+          "iconSizeBytes": 98306,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -1063,7 +1123,37 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 01006BD001E06000.mp4"
+          "notes": "Google Drive: 01006BD001E06000.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1woXTLPY-nNuPJGGz9szsDpEyNUFwisGX",
+          "iconSizeBytes": 339324,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
+        },
+        {
+          "id": "icon-01006bd001e06000",
+          "name": "4IFIR Иконка: Minecraft Nintendo Switch edition + 38 DLC [NSP][RUS/Multi9]",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1woXTLPY-nNuPJGGz9szsDpEyNUFwisGX",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1woXTLPY-nNuPJGGz9szsDpEyNUFwisGX",
+          "sizeBytes": 339324,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1woXTLPY-nNuPJGGz9szsDpEyNUFwisGX",
+          "iconSizeBytes": 339324,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -1978,7 +2068,13 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 0100750001C70000.mp4"
+          "notes": "Google Drive: 0100750001C70000.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1u6gx3yM0SzfKuhbO3dS-sANzjzphWYew",
+          "iconSizeBytes": 96689,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
         },
         {
           "id": "v_f0d571f1",
@@ -2015,6 +2111,30 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Kingdom Hearts III | ЗВУК"
+        },
+        {
+          "id": "icon-0100750001c70000",
+          "name": "4IFIR Иконка: Duck Game [NSP][ENG]",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1u6gx3yM0SzfKuhbO3dS-sANzjzphWYew",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1u6gx3yM0SzfKuhbO3dS-sANzjzphWYew",
+          "sizeBytes": 96689,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1u6gx3yM0SzfKuhbO3dS-sANzjzphWYew",
+          "iconSizeBytes": 96689,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -2376,7 +2496,37 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 0100EA6014BB8000.mp4"
+          "notes": "Google Drive: 0100EA6014BB8000.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1U8IvDwAtBAxq0jtATMxJy16THJ5Z2z0Y",
+          "iconSizeBytes": 537238,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
+        },
+        {
+          "id": "icon-0100ea6014bb8000",
+          "name": "4IFIR Иконка: Just Dance JD Legacy Mod (1400+ песен Decades of Hits, Unlimited, Now, 2026 и др.) [NSP][ENG]",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1U8IvDwAtBAxq0jtATMxJy16THJ5Z2z0Y",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1U8IvDwAtBAxq0jtATMxJy16THJ5Z2z0Y",
+          "sizeBytes": 537238,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1U8IvDwAtBAxq0jtATMxJy16THJ5Z2z0Y",
+          "iconSizeBytes": 537238,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -2786,7 +2936,37 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 0100FD8022DAA000.mp4"
+          "notes": "Google Drive: 0100FD8022DAA000.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1k5lHJ_mb6qDe9-zwSMSnDLB54fRm5jQ5",
+          "iconSizeBytes": 468797,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
+        },
+        {
+          "id": "icon-0100fd8022daa000",
+          "name": "4IFIR Иконка: Super Mario Galaxy 2 (Switch Native Port) [NSP][RUS/Multi]",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1k5lHJ_mb6qDe9-zwSMSnDLB54fRm5jQ5",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1k5lHJ_mb6qDe9-zwSMSnDLB54fRm5jQ5",
+          "sizeBytes": 468797,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1k5lHJ_mb6qDe9-zwSMSnDLB54fRm5jQ5",
+          "iconSizeBytes": 468797,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -2986,7 +3166,37 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 0100C0D400000000_Call_of_Duty_4_MW.mp4"
+          "notes": "Google Drive: 0100C0D400000000_Call_of_Duty_4_MW.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1r8FRf34VffpzzDXp4hm-hf36MGEZrHbN",
+          "iconSizeBytes": 245271,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
+        },
+        {
+          "id": "icon-0100c0d400000000",
+          "name": "4IFIR Иконка: Call of Duty 4: Modern Warfare",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1r8FRf34VffpzzDXp4hm-hf36MGEZrHbN",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1r8FRf34VffpzzDXp4hm-hf36MGEZrHbN",
+          "sizeBytes": 245271,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1r8FRf34VffpzzDXp4hm-hf36MGEZrHbN",
+          "iconSizeBytes": 245271,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -3121,7 +3331,37 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 0100416004C00000_DOOM_2016.mp4"
+          "notes": "Google Drive: 0100416004C00000_DOOM_2016.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1uTbfY0MfJIrBVm5-LEiqZuBBfNqYalKN",
+          "iconSizeBytes": 81314,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
+        },
+        {
+          "id": "icon-0100416004c00000",
+          "name": "4IFIR Иконка: Doom (2017) [NSZ][RUS/Multi7]",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1uTbfY0MfJIrBVm5-LEiqZuBBfNqYalKN",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1uTbfY0MfJIrBVm5-LEiqZuBBfNqYalKN",
+          "sizeBytes": 81314,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1uTbfY0MfJIrBVm5-LEiqZuBBfNqYalKN",
+          "iconSizeBytes": 81314,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -3285,7 +3525,13 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 010099A00BC1E000_Resident_Evil_4.mp4"
+          "notes": "Google Drive: 010099A00BC1E000_Resident_Evil_4.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1S0Gy07czi60HNGz7ci3lM0wgwen3GPmz",
+          "iconSizeBytes": 75130,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
         },
         {
           "id": "v_fe6937b3",
@@ -3574,6 +3820,30 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Welcome To Raccoon City Resident Evil "
+        },
+        {
+          "id": "icon-010099a00bc1e000",
+          "name": "4IFIR Иконка: Resident Evil 4 (Обитель зла 4) [NSP][RUS (Voice+Text Mod.)]",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1S0Gy07czi60HNGz7ci3lM0wgwen3GPmz",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1S0Gy07czi60HNGz7ci3lM0wgwen3GPmz",
+          "sizeBytes": 75130,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1S0Gy07czi60HNGz7ci3lM0wgwen3GPmz",
+          "iconSizeBytes": 75130,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -3598,7 +3868,37 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 0100DBF01000A000_Burnout_Paradise.mp4"
+          "notes": "Google Drive: 0100DBF01000A000_Burnout_Paradise.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1wF0wCEfhTjolvcfPxjYrrWY_sCuEo85I",
+          "iconSizeBytes": 93872,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
+        },
+        {
+          "id": "icon-0100dbf01000a000",
+          "name": "4IFIR Иконка: Burnout Paradise Remastered [NSZ][RUS (Mod.+Voice)/ENG]",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wF0wCEfhTjolvcfPxjYrrWY_sCuEo85I",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1wF0wCEfhTjolvcfPxjYrrWY_sCuEo85I",
+          "sizeBytes": 93872,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1wF0wCEfhTjolvcfPxjYrrWY_sCuEo85I",
+          "iconSizeBytes": 93872,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -168351,6 +168651,6 @@
     }
   ],
   "totalGames": 5418,
-  "totalVariants": 6843,
-  "lastUpdated": "2026-11-10T20:46:20Z"
+  "totalVariants": 6853,
+  "lastUpdated": "2026-11-10T20:51:16Z"
 }
