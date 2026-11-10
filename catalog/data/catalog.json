@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T20:51:16Z",
+  "updatedAt": "2026-11-10T20:53:00Z",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -3923,7 +3923,13 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 0100D4900E82C000_Metro_2033_Redux.mp4"
+          "notes": "Google Drive: 0100D4900E82C000_Metro_2033_Redux.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=13gJYSrzOwfQzuiDu_2GAkjmFGwJcqZWz",
+          "iconSizeBytes": 142800,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
         },
         {
           "id": "var-16nR8nDp",
@@ -3960,6 +3966,30 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 0100D4900E82C000_Metro_2033.mp4"
+        },
+        {
+          "id": "icon-0100d4900e82c000",
+          "name": "4IFIR Иконка: Metro Redux: Metro 2033 / Metro: Last Light (Метро 2033: Луч надежды / Метро 2033: Возвращение) [NSZ][RUS/Multi7]",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13gJYSrzOwfQzuiDu_2GAkjmFGwJcqZWz",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=13gJYSrzOwfQzuiDu_2GAkjmFGwJcqZWz",
+          "sizeBytes": 142800,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=13gJYSrzOwfQzuiDu_2GAkjmFGwJcqZWz",
+          "iconSizeBytes": 142800,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -4285,7 +4315,13 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 0100D560102C8000_BioShock_Rapture.mp4"
+          "notes": "Google Drive: 0100D560102C8000_BioShock_Rapture.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1qAB6IHJCL9fB2f5-un6bnJkHQRbn_crK",
+          "iconSizeBytes": 119268,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
         },
         {
           "id": "var-1Gb0OBIQ",
@@ -4340,6 +4376,30 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 0100D560102C8000_BioShock_Infinite.mp4"
+        },
+        {
+          "id": "icon-0100d560102c8000",
+          "name": "4IFIR Иконка: BioShock The Collection: BioShock / BioShock 2 / BioShock Infinite [NSZ][ENG]",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qAB6IHJCL9fB2f5-un6bnJkHQRbn_crK",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1qAB6IHJCL9fB2f5-un6bnJkHQRbn_crK",
+          "sizeBytes": 119268,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1qAB6IHJCL9fB2f5-un6bnJkHQRbn_crK",
+          "iconSizeBytes": 119268,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -4611,7 +4671,13 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 01000A10041EA000_TES_Skyrim.mp4"
+          "notes": "Google Drive: 01000A10041EA000_TES_Skyrim.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1GWWpoQ_qpvCwldUdj6lc2wE686IXUj82",
+          "iconSizeBytes": 268612,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
         },
         {
           "id": "var-1GHMa4lg",
@@ -4720,6 +4786,30 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Joker Persona 5 Royal"
+        },
+        {
+          "id": "icon-01000a10041ea000",
+          "name": "4IFIR Иконка: TES 5 The Elder Scrolls V: Skyrim Anniversary Edition – Special Edition + Dawnguard, Hearthfire, Dragonborn [NSZ][RUS/Multi6]",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GWWpoQ_qpvCwldUdj6lc2wE686IXUj82",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1GWWpoQ_qpvCwldUdj6lc2wE686IXUj82",
+          "sizeBytes": 268612,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1GWWpoQ_qpvCwldUdj6lc2wE686IXUj82",
+          "iconSizeBytes": 268612,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -4744,7 +4834,37 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 0100366014020000_GTA_Vice_City.mp4"
+          "notes": "Google Drive: 0100366014020000_GTA_Vice_City.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1p-L8URyuQ66c_5mjE2y7rWb9Yo-gotMn",
+          "iconSizeBytes": 119027,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
+        },
+        {
+          "id": "icon-0100366014020000",
+          "name": "4IFIR Иконка: Grand Theft Auto: Vice City",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1p-L8URyuQ66c_5mjE2y7rWb9Yo-gotMn",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1p-L8URyuQ66c_5mjE2y7rWb9Yo-gotMn",
+          "sizeBytes": 119027,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1p-L8URyuQ66c_5mjE2y7rWb9Yo-gotMn",
+          "iconSizeBytes": 119027,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -4904,7 +5024,37 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 0100554732000000_NFS_Underground_2.mp4"
+          "notes": "Google Drive: 0100554732000000_NFS_Underground_2.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1mkc5fxv7yMZ0p0De2joOTjZ7byrzXCQq",
+          "iconSizeBytes": 83393,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
+        },
+        {
+          "id": "icon-0100554732000000",
+          "name": "4IFIR Иконка: Need for Speed: Underground 2 (UG2)",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mkc5fxv7yMZ0p0De2joOTjZ7byrzXCQq",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1mkc5fxv7yMZ0p0De2joOTjZ7byrzXCQq",
+          "sizeBytes": 83393,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1mkc5fxv7yMZ0p0De2joOTjZ7byrzXCQq",
+          "iconSizeBytes": 83393,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -4929,7 +5079,37 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 0100000000000005_Elden_Ring_Ranni.mp4"
+          "notes": "Google Drive: 0100000000000005_Elden_Ring_Ranni.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1K8IqQda9RDuLwzi1Qff_OykpqpJqsqwu",
+          "iconSizeBytes": 240814,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
+        },
+        {
+          "id": "icon-0100000000000005",
+          "name": "4IFIR Иконка: Need for Speed: Carbon (Homebrew Port)",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1K8IqQda9RDuLwzi1Qff_OykpqpJqsqwu",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1K8IqQda9RDuLwzi1Qff_OykpqpJqsqwu",
+          "sizeBytes": 240814,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1K8IqQda9RDuLwzi1Qff_OykpqpJqsqwu",
+          "iconSizeBytes": 240814,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -4954,7 +5134,13 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 0100A00019DE0000_Hades_2_Princess.mp4"
+          "notes": "Google Drive: 0100A00019DE0000_Hades_2_Princess.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1nAF7ubr8hpvNGGiHrx44wgWGKIDP1DS8",
+          "iconSizeBytes": 207280,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
         },
         {
           "id": "var-1DClf6nk",
@@ -4991,6 +5177,30 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "Google Drive: 0100A00019DE0000_Hades.mp4"
+        },
+        {
+          "id": "icon-0100a00019de0000",
+          "name": "4IFIR Иконка: Hades II (2) [RePack][NSZ][RUS (Voice Mod.)]",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nAF7ubr8hpvNGGiHrx44wgWGKIDP1DS8",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1nAF7ubr8hpvNGGiHrx44wgWGKIDP1DS8",
+          "sizeBytes": 207280,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1nAF7ubr8hpvNGGiHrx44wgWGKIDP1DS8",
+          "iconSizeBytes": 207280,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -5832,7 +6042,13 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Classic M3 GTR Cutscene Intro"
+          "notes": "Classic M3 GTR Cutscene Intro",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1xoo26G2_IcEKXnwDz4lyfHM68tuHhv8t",
+          "iconSizeBytes": 104705,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
         },
         {
           "id": "var-mw-blacklist",
@@ -5923,6 +6139,30 @@
           "fps": 30.0,
           "hasAudio": false,
           "notes": "SteamGridDB Animated Hero: NFS MW: City Skyline Neon"
+        },
+        {
+          "id": "icon-01004d5700000000",
+          "name": "4IFIR Иконка: Need for Speed: Most Wanted",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xoo26G2_IcEKXnwDz4lyfHM68tuHhv8t",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1xoo26G2_IcEKXnwDz4lyfHM68tuHhv8t",
+          "sizeBytes": 104705,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1xoo26G2_IcEKXnwDz4lyfHM68tuHhv8t",
+          "iconSizeBytes": 104705,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -168651,6 +168891,6 @@
     }
   ],
   "totalGames": 5418,
-  "totalVariants": 6853,
-  "lastUpdated": "2026-11-10T20:51:16Z"
+  "totalVariants": 6861,
+  "lastUpdated": "2026-11-10T20:53:00Z"
 }
