@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T14:06:46.067585+00:00",
+  "updatedAt": "2026-11-10T14:10:21.012265+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -162208,9 +162208,269 @@
           "notes": "Switch 720p 30fps H264 | The Long Gate — Launch Trailer"
         }
       ]
+    },
+    {
+      "titleId": "01001F900B78C000",
+      "title": "Supermash",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001F900B78C000.jpg",
+      "variants": [
+        {
+          "id": "v_3b31b833",
+          "name": "SuperMash — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qnMBOJ2bYzVZ63wsN1b97tRqg1I5fzSH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qnMBOJ2bYzVZ63wsN1b97tRqg1I5fzSH&sz=w640",
+          "sizeBytes": 5372098,
+          "sha256": "3676C2980A11F03E12C2CC90D10934078E20B2388C5C9E0D626E05128A052B92",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | SuperMash — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01008C901266E000",
+      "title": "Adverse",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008C901266E000.jpg",
+      "variants": [
+        {
+          "id": "v_e407b173",
+          "name": "Adverse Effects — Adverse Effects Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ybW8DV6u-UKHhSHZDhb9my5GzJ4TRrgD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ybW8DV6u-UKHhSHZDhb9my5GzJ4TRrgD&sz=w640",
+          "sizeBytes": 5293089,
+          "sha256": "40A1F8C0B8C8131C28F78E4C944CD872934C98632ED461E58529EA12296D3D4A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Adverse Effects — Adverse Effects Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "010067A014106000",
+      "title": "A Night at the Races",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010067A014106000.jpg",
+      "variants": [
+        {
+          "id": "v_6bf989d8",
+          "name": "A Night at the Races — Reveal Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1sTJR3t7gEox84FIP_Tta7dzPjW7wpqdd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1sTJR3t7gEox84FIP_Tta7dzPjW7wpqdd&sz=w640",
+          "sizeBytes": 3397757,
+          "sha256": "B422E8FD3969EA51C0CA5ACA0AD51887E6601CD40E9362235BFCB872011CC643",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | A Night at the Races — Reveal Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D24013466000",
+      "title": "Dreamo",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D24013466000.jpg",
+      "variants": [
+        {
+          "id": "v_af2ab864",
+          "name": "DREAMO VR — Gameplay trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1r7_cRKCCDa6gvmgJHmJD0rwHKRndn-L2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1r7_cRKCCDa6gvmgJHmJD0rwHKRndn-L2&sz=w640",
+          "sizeBytes": 3933565,
+          "sha256": "040FA92DC58E0C3FA09644B522AE76B7B0EEFF152F7B3648AABD161C4A0952A1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | DREAMO VR — Gameplay trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010068400ABB6000",
+      "title": "Rogue Singularity",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010068400ABB6000.jpg",
+      "variants": [
+        {
+          "id": "v_676c18d2",
+          "name": "Rogue Singularity — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QtYbxpjXQEO5RDFQ5nfjPGuhjyBHMbVW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QtYbxpjXQEO5RDFQ5nfjPGuhjyBHMbVW&sz=w640",
+          "sizeBytes": 5658149,
+          "sha256": "596B68276B52339F574C9B8BB826A43A69A304C90CF32CEDFCC095CCAB6BB793",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rogue Singularity — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010084500EA2E000",
+      "title": "Spacejacked",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010084500EA2E000.jpg",
+      "variants": [
+        {
+          "id": "v_582d607d",
+          "name": "Spacejacked — Spacejacked Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dL5md0UDTsIU_9LGKwpfWptYuZsa0DHp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dL5md0UDTsIU_9LGKwpfWptYuZsa0DHp&sz=w640",
+          "sizeBytes": 3887178,
+          "sha256": "5AC06E510C47C396F9B381DAB6794D41F3380E310E55C7BAE30FACC1F1AE6E61",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Spacejacked — Spacejacked Gameplay Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "0100ED301196A000",
+      "title": "Undead Darlings",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100ED301196A000.jpg",
+      "variants": [
+        {
+          "id": "v_efb9bf60",
+          "name": "Undead Darlings ~no cure for love~ — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1msy2F4URkb8VmbPJwW7VaFWmhyIdv4Kw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1msy2F4URkb8VmbPJwW7VaFWmhyIdv4Kw&sz=w640",
+          "sizeBytes": 5378004,
+          "sha256": "E841AD89244B56B21BE5621BD7CEA8D711FEF0F9A58B2A97CCA44452D8C4BCF6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Undead Darlings ~no cure for love~ — Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "010066800E9F8000",
+      "title": "The Childs Sight",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010066800E9F8000.jpg",
+      "variants": [
+        {
+          "id": "v_a9dccbce",
+          "name": "The Childs Sight — The Child Sight Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UeOfdaZbymY_ue8a49r33yHkv4evPB-F",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UeOfdaZbymY_ue8a49r33yHkv4evPB-F&sz=w640",
+          "sizeBytes": 4898789,
+          "sha256": "DEBB321AC8AB84C18CFEA58ED151499C155190FEB7B3AD41B19BEE951F416D08",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Childs Sight — The Child Sight Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "010049F019906000",
+      "title": "Fluffy Horde",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010049F019906000.jpg",
+      "variants": [
+        {
+          "id": "v_b61abdb6",
+          "name": "Fluffy Horde — Fluffy Horde Offiicial Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Tz1Ntag2Tb6-WLfhs21pY9I7DFgYizPc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Tz1Ntag2Tb6-WLfhs21pY9I7DFgYizPc&sz=w640",
+          "sizeBytes": 4793533,
+          "sha256": "A77011FCAECD15F59EBEA162A670D84D94DF70FC31A47756D208D17FE4F78F26",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fluffy Horde — Fluffy Horde Offiicial Tr"
+        }
+      ]
+    },
+    {
+      "titleId": "0100421013760000",
+      "title": "To the Top Mammoth",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100421013760000.jpg",
+      "variants": [
+        {
+          "id": "v_b82a4a04",
+          "name": "To The Top, Mammoth! — To The Top, Mammuth!",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FtTG69nYMe1satQbfbQl1274ybGiyqVW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FtTG69nYMe1satQbfbQl1274ybGiyqVW&sz=w640",
+          "sizeBytes": 5220538,
+          "sha256": "07A30A8D801A28C7BC4D6A6E6E4D108E0EDF43DD659E4B356A7CC642C322CF3C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | To The Top, Mammoth! — To The Top, Mammu"
+        }
+      ]
     }
   ],
-  "totalGames": 5183,
-  "totalVariants": 6607,
-  "lastUpdated": "2026-11-10T14:06:46.067585+00:00"
+  "totalGames": 5193,
+  "totalVariants": 6617,
+  "lastUpdated": "2026-11-10T14:10:21.012265+00:00"
 }
