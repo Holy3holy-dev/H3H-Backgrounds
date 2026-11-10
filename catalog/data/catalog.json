@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T02:32:53.212948+00:00",
+  "updatedAt": "2026-11-10T02:35:54.583335+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -106828,9 +106828,269 @@
           "notes": "Switch 720p 30fps H264 | She Sees Red - Interactive Movie — She S"
         }
       ]
+    },
+    {
+      "titleId": "010044000F7F2000",
+      "title": "Windbound",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010044000F7F2000.jpg",
+      "variants": [
+        {
+          "id": "v_ee65eb80",
+          "name": "Windbound — Mural trailer ESRB",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fuIzNoyyWlEDsf7h6v1ASPUvSlMhgsHB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fuIzNoyyWlEDsf7h6v1ASPUvSlMhgsHB&sz=w640",
+          "sizeBytes": 4911558,
+          "sha256": "BC7A4B7A2E263E531099E3DAD2ABC8FD76A031ACD0B80A52F9834771FBCA3954",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Windbound — Mural trailer ESRB"
+        }
+      ]
+    },
+    {
+      "titleId": "010033D0253FC000",
+      "title": "Bulb Boy 2 Jar of Despair",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010033D0253FC000.jpg",
+      "variants": [
+        {
+          "id": "v_28a56fe9",
+          "name": "Bulb Boy 2: Jar of Despair — Bulb Boy 2: Jar of ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wvnOcc7G1iTQrYSFggzQNTJ5KOeXRLcC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wvnOcc7G1iTQrYSFggzQNTJ5KOeXRLcC&sz=w640",
+          "sizeBytes": 5047387,
+          "sha256": "5B580459E086B549D92FE625888FA6E7A223661D00D920D6099724BBD8FEE1F5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bulb Boy 2: Jar of Despair — Bulb Boy 2:"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FEA01A7EC000",
+      "title": "Neodori Forever",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FEA01A7EC000.jpg",
+      "variants": [
+        {
+          "id": "v_f0d3594e",
+          "name": "Neodori Forever — Neodori Forever 2023 trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1JxN3gYFydafJFFi5Gv_Ou7DutZeDK1_y",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1JxN3gYFydafJFFi5Gv_Ou7DutZeDK1_y&sz=w640",
+          "sizeBytes": 5152904,
+          "sha256": "61B330B9C11DB24F7A63BC85F8CFE9C18F3E64A22EA9A116E76EF0F72DAF0516",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Neodori Forever — Neodori Forever 2023 t"
+        }
+      ]
+    },
+    {
+      "titleId": "0100789024AA2000",
+      "title": "Battle Suit Aces",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100789024AA2000.jpg",
+      "variants": [
+        {
+          "id": "v_92409163",
+          "name": "Battle Suit Aces — Roguelite Deckbuilder Update",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fcZCQ2Yvv98rVlxOCLmi_0CckAY3xQz4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fcZCQ2Yvv98rVlxOCLmi_0CckAY3xQz4&sz=w640",
+          "sizeBytes": 5303670,
+          "sha256": "F3924D8A6FC4F4C9227B3965723F90315010C70658F78CA3700B9E65EAA9F9FE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Battle Suit Aces — Roguelite Deckbuilder"
+        }
+      ]
+    },
+    {
+      "titleId": "01009DF015776000",
+      "title": "Star Trek Prodigy Supernova",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009DF015776000.jpg",
+      "variants": [
+        {
+          "id": "v_5b02f820",
+          "name": "Star Trek Prodigy: Supernova — Star Trek Prodigy",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oNS_W2d88RLerVatxvNnx2BO-up0elJB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oNS_W2d88RLerVatxvNnx2BO-up0elJB&sz=w640",
+          "sizeBytes": 5368228,
+          "sha256": "9DF3C5AFAF575951BB9C6487347C8BDE17BC1AA60305C8AC2A0B0FBAAE87E8A5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Star Trek Prodigy: Supernova — Star Trek"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E3C01971E000",
+      "title": "Railway Empire 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E3C01971E000.jpg",
+      "variants": [
+        {
+          "id": "v_503e86c8",
+          "name": "Railway Empire 2 — Accolades Trailer UK",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=142hBqO5iKG8DuSpbAAtGM68uaGxnzYzY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=142hBqO5iKG8DuSpbAAtGM68uaGxnzYzY&sz=w640",
+          "sizeBytes": 4694320,
+          "sha256": "3D50CF5F0E9FD16D8D903538245356E75F9183456C33A5069A6FA617F6263748",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Railway Empire 2 — Accolades Trailer UK"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DC301F3F8000",
+      "title": "Gimmick Special edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DC301F3F8000.jpg",
+      "variants": [
+        {
+          "id": "v_94a7520c",
+          "name": "Gimmick! Special Edition — Gimmick! Special Edit",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OuyVZIhVK8-Kbxs2NpSFMe_JNjeC4I3m",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OuyVZIhVK8-Kbxs2NpSFMe_JNjeC4I3m&sz=w640",
+          "sizeBytes": 5254773,
+          "sha256": "0FF1B566EBB7F14E9F54B81C7D401C215C65D59E15AEC95286699F8D3AB8CC23",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Gimmick! Special Edition — Gimmick! Spec"
+        }
+      ]
+    },
+    {
+      "titleId": "0100AE201E80A000",
+      "title": "Rack and Slay",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AE201E80A000.jpg",
+      "variants": [
+        {
+          "id": "v_8c7033a5",
+          "name": "Rack and Slay — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OW1BXIb3WUCpFFcWOeiQRoZmPHudj4Nj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OW1BXIb3WUCpFFcWOeiQRoZmPHudj4Nj&sz=w640",
+          "sizeBytes": 5434544,
+          "sha256": "4185B04C5190D16B8844181DD70BEBF5FEC109B50EE39CDC81051B898CA6DDB2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rack and Slay — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01000D60168A0000",
+      "title": "Chinatown Detective Agency",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000D60168A0000.jpg",
+      "variants": [
+        {
+          "id": "v_23e46ccf",
+          "name": "Chinatown Detective Agency — Chinatown Detective",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=12eTSpV7cWCsT5t2uKu24_UCvCWwAktwu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=12eTSpV7cWCsT5t2uKu24_UCvCWwAktwu&sz=w640",
+          "sizeBytes": 3054085,
+          "sha256": "EDE0901D3BB8278ED9B565A6CF994D967970FD978989462678647646D93D6692",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Chinatown Detective Agency — Chinatown D"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D9D011E3C000",
+      "title": "Wildfire",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D9D011E3C000.jpg",
+      "variants": [
+        {
+          "id": "v_2b85fef1",
+          "name": "Rescue Ops: Wildfire — Rescue Ops: Wildfire - De",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1iI4TwdDuqAbQbQxZX8jLnSkZekPvwuaE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1iI4TwdDuqAbQbQxZX8jLnSkZekPvwuaE&sz=w640",
+          "sizeBytes": 5351185,
+          "sha256": "AA22CFBCCC7BC9B2CC3C58ABD0FC9E2BC093C05B6067A5CA57B85759E232FB8C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rescue Ops: Wildfire — Rescue Ops: Wildf"
+        }
+      ]
     }
   ],
-  "totalGames": 3053,
-  "totalVariants": 4477,
-  "lastUpdated": "2026-11-10T02:32:53.212948+00:00"
+  "totalGames": 3063,
+  "totalVariants": 4487,
+  "lastUpdated": "2026-11-10T02:35:54.583335+00:00"
 }
