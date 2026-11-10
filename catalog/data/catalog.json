@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T08:49:12.093965+00:00",
+  "updatedAt": "2026-11-10T08:54:22.145958+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -138548,9 +138548,269 @@
           "notes": "Switch 720p 30fps H264 | The Dark Prophecy — The Prophecy - trail"
         }
       ]
+    },
+    {
+      "titleId": "01000CA018A54000",
+      "title": "Cleo a Pirate's Tale",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000CA018A54000.jpg",
+      "variants": [
+        {
+          "id": "v_ec122a91",
+          "name": "Cleo - a pirate's tale — Cleo - a pirate's tale ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1QDGIn_NYfQPSE9hydVp4SPIlRihfS2eL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1QDGIn_NYfQPSE9hydVp4SPIlRihfS2eL&sz=w640",
+          "sizeBytes": 5466197,
+          "sha256": "056B684A5278C02F1CC8C7FF9D9590A97BE900A054D2EDEEB3811ABE808B143E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cleo - a pirate's tale — Cleo - a pirate"
+        }
+      ]
+    },
+    {
+      "titleId": "010026A013DD6000",
+      "title": "Sumatra Fate of Yandi",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010026A013DD6000.jpg",
+      "variants": [
+        {
+          "id": "v_0858f281",
+          "name": "Sumatra: Fate of Yandi — Sumatra: Fate of Yandi ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CvnK7Cso_QBdWDb3xk0PaBnbzcCQDH_x",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CvnK7Cso_QBdWDb3xk0PaBnbzcCQDH_x&sz=w640",
+          "sizeBytes": 5466782,
+          "sha256": "9919EF3CF4CDB2E029F4ED936B38F2E6805AD9DE36E7B884DEA7968ABF4FB38A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sumatra: Fate of Yandi — Sumatra: Fate o"
+        }
+      ]
+    },
+    {
+      "titleId": "010092601020A000",
+      "title": "While True learn",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010092601020A000.jpg",
+      "variants": [
+        {
+          "id": "v_5c009dd1",
+          "name": "while True: learn() — WTL Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1YuHbF0s0Q4i1C10MM1YAZSdYhTKQrVCl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1YuHbF0s0Q4i1C10MM1YAZSdYhTKQrVCl&sz=w640",
+          "sizeBytes": 4340867,
+          "sha256": "A8651F37680DB811507E42CE9B4D723447B13A5C08B3FA407D161B3CD0D1A79E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | while True: learn() — WTL Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010052B003A38000",
+      "title": "The Long Reach",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010052B003A38000.jpg",
+      "variants": [
+        {
+          "id": "v_46b50a4b",
+          "name": "The Long Reach — Official Teaser Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10UuQ1vp0BIxCad2Ja9854hfILiKzxuTS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10UuQ1vp0BIxCad2Ja9854hfILiKzxuTS&sz=w640",
+          "sizeBytes": 4965901,
+          "sha256": "E7F0CA388C67D2B0B7C25AE92C73469C02B51DEB94605B034D2D1011240B5625",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Long Reach — Official Teaser Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100262011494000",
+      "title": "Blackwind",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100262011494000.jpg",
+      "variants": [
+        {
+          "id": "v_5f482e28",
+          "name": "Blackwind — Blackwind Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IB9kAAZUiaB29-14N7vjhxwPLGMDI_V1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IB9kAAZUiaB29-14N7vjhxwPLGMDI_V1&sz=w640",
+          "sizeBytes": 5391837,
+          "sha256": "6AB0634CD6AF5939704EF01976D5F5F56016355262D6AA654F9758557998AE60",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Blackwind — Blackwind Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A610167C4000",
+      "title": "Dungeon Munchies",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A610167C4000.jpg",
+      "variants": [
+        {
+          "id": "v_dad491a0",
+          "name": "Dungeon Munchies — Released",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1B3oYtopvrWRNwQ9A9MfzQA0WP0CdtJcX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1B3oYtopvrWRNwQ9A9MfzQA0WP0CdtJcX&sz=w640",
+          "sizeBytes": 5496686,
+          "sha256": "330D21CC88BC7069838DA68A9E2342DAC72F2088BFE26E7D6677773F848EDB9E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dungeon Munchies — Released"
+        }
+      ]
+    },
+    {
+      "titleId": "010092C013FB8000",
+      "title": "Boris the Rocket",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010092C013FB8000.jpg",
+      "variants": [
+        {
+          "id": "v_692f1a0a",
+          "name": "BORIS THE ROCKET 🚀 — BORIS THE ROCKET release tr",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1f6xxGeTfnyEPZB77NwKoZ-_5qP-wNRt7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1f6xxGeTfnyEPZB77NwKoZ-_5qP-wNRt7&sz=w640",
+          "sizeBytes": 3479287,
+          "sha256": "1E25077517AA0F790FEB396C751FCE0F374A72638C91DF59669F983418DCCD4C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | BORIS THE ROCKET 🚀 — BORIS THE ROCKET re"
+        }
+      ]
+    },
+    {
+      "titleId": "010035101F77E000",
+      "title": "Cats on Duty",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010035101F77E000.jpg",
+      "variants": [
+        {
+          "id": "v_2ea3c73c",
+          "name": "Cats on Duty — Cats on Duty — PC Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VrBJY1By4zn0k-as1QaK0paaAUkGk5kK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VrBJY1By4zn0k-as1QaK0paaAUkGk5kK&sz=w640",
+          "sizeBytes": 5119384,
+          "sha256": "C5DDAB3C2FDED3B2DFC3E65B7D7E6A68521AE12B11422B36294851D71552CB46",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cats on Duty — Cats on Duty — PC Launch "
+        }
+      ]
+    },
+    {
+      "titleId": "010005001B4DE000",
+      "title": "Undergrave",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010005001B4DE000.jpg",
+      "variants": [
+        {
+          "id": "v_c89addbb",
+          "name": "Undergrave — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XnG51UxCWcRWzsMi53yH5PZ6YkHShxd6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XnG51UxCWcRWzsMi53yH5PZ6YkHShxd6&sz=w640",
+          "sizeBytes": 5499911,
+          "sha256": "D22F49B8991CBABE3064AA2F234EFB17CC19755192D78DD46B49CD4E2A4D11D0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Undergrave — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01008EA01BF8C000",
+      "title": "Savage Age",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008EA01BF8C000.jpg",
+      "variants": [
+        {
+          "id": "v_af1a415e",
+          "name": "Savage Age — Savage Age Launch Trailer EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ClEbvyzjabbTEpnL_Q9ut9ZGZB3dtSw8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ClEbvyzjabbTEpnL_Q9ut9ZGZB3dtSw8&sz=w640",
+          "sizeBytes": 3875418,
+          "sha256": "17F9EFBECAD83371EECAB9C6C69D9E16D37E3CF8FE1ECAA1901ED6DA821E1E32",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Savage Age — Savage Age Launch Trailer E"
+        }
+      ]
     }
   ],
-  "totalGames": 4273,
-  "totalVariants": 5697,
-  "lastUpdated": "2026-11-10T08:49:12.093965+00:00"
+  "totalGames": 4283,
+  "totalVariants": 5707,
+  "lastUpdated": "2026-11-10T08:54:22.145958+00:00"
 }
