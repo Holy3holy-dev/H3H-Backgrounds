@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T05:29:20.191238+00:00",
+  "updatedAt": "2026-11-10T05:32:52.590637+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -121908,9 +121908,269 @@
           "notes": "Switch 720p 30fps H264 | Hyper Gunsport — Release Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100CEE019744000",
+      "title": "Sonority",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CEE019744000.jpg",
+      "variants": [
+        {
+          "id": "v_96481a22",
+          "name": "Sonority — GamesCom2021",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SiMmm5TRB0kkacVd7keMw1kqI9nd6nqu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SiMmm5TRB0kkacVd7keMw1kqI9nd6nqu&sz=w640",
+          "sizeBytes": 5090177,
+          "sha256": "7853817FD1B989E2BFB66113E4BBB52D38C8E1B9506BC9C838B840C7B9CC804C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sonority — GamesCom2021"
+        }
+      ]
+    },
+    {
+      "titleId": "01004FA01D2C6000",
+      "title": "Across the Obelisk",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004FA01D2C6000.jpg",
+      "variants": [
+        {
+          "id": "v_da7374b1",
+          "name": "Across the Obelisk — 1st Year Anniversary",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PACSQicXxWH1exrwt2SCNDRe35vQy_Cd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PACSQicXxWH1exrwt2SCNDRe35vQy_Cd&sz=w640",
+          "sizeBytes": 5088533,
+          "sha256": "FA6B4398FE27A6FA5CFDEB780454AC1286162F55737F39DE9EC0D71C34DB612B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Across the Obelisk — 1st Year Anniversar"
+        }
+      ]
+    },
+    {
+      "titleId": "010057C01330A000",
+      "title": "Bonfire Peaks",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010057C01330A000.jpg",
+      "variants": [
+        {
+          "id": "v_54cf4a55",
+          "name": "Bonfire Peaks — Bonfire Peaks Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1foRYJxLNTucDaop6R6do8w5kmjIctiOg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1foRYJxLNTucDaop6R6do8w5kmjIctiOg&sz=w640",
+          "sizeBytes": 5376333,
+          "sha256": "C3F74D6672EF433EEF2B623BB2A2FD9F00C6911B7294296A87E83776490DFEA5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bonfire Peaks — Bonfire Peaks Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C50007070000",
+      "title": "Ginger Beyond the Crystal",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C50007070000.jpg",
+      "variants": [
+        {
+          "id": "v_1bc8e793",
+          "name": "Ginger: Beyond the Crystal — Ginger Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CHOBuJb4zhR39bsHueiVXAHdfwui8CdN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CHOBuJb4zhR39bsHueiVXAHdfwui8CdN&sz=w640",
+          "sizeBytes": 5292527,
+          "sha256": "4CA7C01F3AA2B8C021B16B12594BC43A51BC892BC8C9D7BD5B4FEBD072B33EE1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ginger: Beyond the Crystal — Ginger Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DBA0169C2000",
+      "title": "Virtual Maid Streamer: Ramie",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DBA0169C2000.jpg",
+      "variants": [
+        {
+          "id": "v_238bfd94",
+          "name": "Virtual Maid Streamer Ramie — Ramie_PV_en",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BN9W5lyfKQqT6SBUah2FOIOFvCSrknNd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BN9W5lyfKQqT6SBUah2FOIOFvCSrknNd&sz=w640",
+          "sizeBytes": 5267231,
+          "sha256": "1D809343E6D820B4B698EC70BC3386063A8B1BB51C51C5441C1CFCB0F58C2069",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Virtual Maid Streamer Ramie — Ramie_PV_e"
+        }
+      ]
+    },
+    {
+      "titleId": "010015C016BEC000",
+      "title": "Our Battle Has Just Begun",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010015C016BEC000.jpg",
+      "variants": [
+        {
+          "id": "v_2a436bec",
+          "name": "Our Battle Has Just Begun! episode 1 — Our Battl",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1t4L2XW7qdAo1dXqEc2J7XJ_Ps8adpWav",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1t4L2XW7qdAo1dXqEc2J7XJ_Ps8adpWav&sz=w640",
+          "sizeBytes": 4350474,
+          "sha256": "7B96E877EACE2F17B7CCAD20AA1EC835F9C27BE23F1173CB0B29F07C8C42123E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Our Battle Has Just Begun! episode 1 — O"
+        }
+      ]
+    },
+    {
+      "titleId": "010006B018F48000",
+      "title": "Mythforce",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010006B018F48000.jpg",
+      "variants": [
+        {
+          "id": "v_3f133160",
+          "name": "MythForce — MythForce 1.2 Update Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19IWg49yKWFZP7xLBwSY0kPISwGEjiLBe",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19IWg49yKWFZP7xLBwSY0kPISwGEjiLBe&sz=w640",
+          "sizeBytes": 5383953,
+          "sha256": "8E5C31A1AADCA51BD79A86264F6C293346E86E3C1AB26A708DC736D0FB207A79",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | MythForce — MythForce 1.2 Update Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C9F00BC50000",
+      "title": "Realpolitiks",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C9F00BC50000.jpg",
+      "variants": [
+        {
+          "id": "v_4fe2776a",
+          "name": "Realpolitiks II — Realpolitiks II - Launch trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Sa9V9PbOeBTAEzC5WwVG1WmMSKM2Rt8f",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Sa9V9PbOeBTAEzC5WwVG1WmMSKM2Rt8f&sz=w640",
+          "sizeBytes": 4956703,
+          "sha256": "B49A780A1B8318D4811000912611410DF12DE7E5F67B868CD6E8C82E36016448",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Realpolitiks II — Realpolitiks II - Laun"
+        }
+      ]
+    },
+    {
+      "titleId": "01007600115CE000",
+      "title": "Chaos Code New sign of Catastrophe",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007600115CE000.jpg",
+      "variants": [
+        {
+          "id": "v_24609804",
+          "name": "CHAOS CODE -NEW SIGN OF CATASTROPHE- — Chaos Cod",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SDSDbwlBB_kKUV4-4ilgU99LkoRTu9Xk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SDSDbwlBB_kKUV4-4ilgU99LkoRTu9Xk&sz=w640",
+          "sizeBytes": 4939752,
+          "sha256": "761A522CE825C705519BA0F1F74A4C41EF98ACF6D44ACE702D1A9BC46C916AEF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | CHAOS CODE -NEW SIGN OF CATASTROPHE- — C"
+        }
+      ]
+    },
+    {
+      "titleId": "010082D014B98000",
+      "title": "Wife Quest",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010082D014B98000.jpg",
+      "variants": [
+        {
+          "id": "v_d84973c7",
+          "name": "Wife Quest — Wife Quest - Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1iUDOKBHDc1qDF2r59kVLZVOSz4Ylvbri",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1iUDOKBHDc1qDF2r59kVLZVOSz4Ylvbri&sz=w640",
+          "sizeBytes": 2580999,
+          "sha256": "917380EA66E84FC06852D56F0836F526B87CC6B9647438C883461314ADC4C522",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wife Quest — Wife Quest - Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 3633,
-  "totalVariants": 5057,
-  "lastUpdated": "2026-11-10T05:29:20.191238+00:00"
+  "totalGames": 3643,
+  "totalVariants": 5067,
+  "lastUpdated": "2026-11-10T05:32:52.590637+00:00"
 }
