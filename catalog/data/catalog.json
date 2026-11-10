@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T10:20:00.297770+00:00",
+  "updatedAt": "2026-11-10T10:23:38.611288+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -146088,9 +146088,269 @@
           "notes": "Switch 720p 30fps H264 | Mind Over Magnet — Mind Over Magnet Trai"
         }
       ]
+    },
+    {
+      "titleId": "01008BE01D308000",
+      "title": "Soviet Project",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008BE01D308000.jpg",
+      "variants": [
+        {
+          "id": "v_fe2eb2fe",
+          "name": "Bug Dolls: Soviet Project — Main",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ofpMWNRjbHpt172rPg5NLgC2zkMHXIG-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ofpMWNRjbHpt172rPg5NLgC2zkMHXIG-&sz=w640",
+          "sizeBytes": 5332842,
+          "sha256": "DB8C5DC8BBB0C0A8E991AC290B905DAACCECE1AEA37F8D8CB88585C54A6DB713",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bug Dolls: Soviet Project — Main"
+        }
+      ]
+    },
+    {
+      "titleId": "01005300128E2000",
+      "title": "Karma Knight",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005300128E2000.jpg",
+      "variants": [
+        {
+          "id": "v_e7e5044e",
+          "name": "Karma Knight — KarmaKnight_Trailer_200622",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1x_Ic0UFZsW8hMb5gnsSDVIuk6fdEduI4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1x_Ic0UFZsW8hMb5gnsSDVIuk6fdEduI4&sz=w640",
+          "sizeBytes": 5346624,
+          "sha256": "4C36D4B1ECF13CA10C4C738334F545F3543952D56308426DA728DC53FE9A15EF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Karma Knight — KarmaKnight_Trailer_20062"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C8F02354E000",
+      "title": "Candylands Journey",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C8F02354E000.jpg",
+      "variants": [
+        {
+          "id": "v_4229d8bf",
+          "name": "Candylands Journey — Candylands Journey - Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PBQuN_iwWh-wufUEHfydjYRjme3EQas4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PBQuN_iwWh-wufUEHfydjYRjme3EQas4&sz=w640",
+          "sizeBytes": 5422457,
+          "sha256": "497CDCA4D56158F1A1331FACB2671C56951E643BF5434483B52CD861DEBFE96D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Candylands Journey — Candylands Journey "
+        }
+      ]
+    },
+    {
+      "titleId": "010087902168E000",
+      "title": "Monoquous 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010087902168E000.jpg",
+      "variants": [
+        {
+          "id": "v_28fac68d",
+          "name": "Monoquous 2 — Monoquous 2 Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SR6G4pxRrzaZ3jvm9XrhDrlPuslZS_zb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SR6G4pxRrzaZ3jvm9XrhDrlPuslZS_zb&sz=w640",
+          "sizeBytes": 5441705,
+          "sha256": "B35AFAF21AD7CB5642087B2FFFAA22C229173C81A8E34AA206DB14EA68C752CC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Monoquous 2 — Monoquous 2 Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EBD016F1A000",
+      "title": "Clan O'Conall and the Crown of the Stag",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EBD016F1A000.jpg",
+      "variants": [
+        {
+          "id": "v_d2c074cf",
+          "name": "Clan O'Conall and the Crown of the Stag — Accola",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tVzhCBjCZ1pmaDuhjZzpTN8FWRpTWUhU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tVzhCBjCZ1pmaDuhjZzpTN8FWRpTWUhU&sz=w640",
+          "sizeBytes": 5394240,
+          "sha256": "49ED47EA05B0F12DD01C5698AE0189E7EC48024E6650E96FB8E2BA5B681E47FA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Clan O'Conall and the Crown of the Stag "
+        }
+      ]
+    },
+    {
+      "titleId": "0100FC700F942000",
+      "title": "Megabyte Punch",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FC700F942000.jpg",
+      "variants": [
+        {
+          "id": "v_3c385011",
+          "name": "Megabyte Punch — Release trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1enpDyuJQ6WJ7tD1eSPOIX74MTgvAvTiO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1enpDyuJQ6WJ7tD1eSPOIX74MTgvAvTiO&sz=w640",
+          "sizeBytes": 5153408,
+          "sha256": "45418AD101F3A993E2DE9B88155865FF59855721CEBE527D8DFEFAE3A53B184C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Megabyte Punch — Release trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100038019968000",
+      "title": "Subway Midnight",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100038019968000.jpg",
+      "variants": [
+        {
+          "id": "v_6061808a",
+          "name": "Subway Midnight — Subway Midnight Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1daB8ZPPV9ClTNb3KYxXCZy4-98nCHcFA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1daB8ZPPV9ClTNb3KYxXCZy4-98nCHcFA&sz=w640",
+          "sizeBytes": 5530702,
+          "sha256": "CE8ACA646AF4E1D44B4CD8F3F127B47F31D1F050312A57EE19EE1077475181ED",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Subway Midnight — Subway Midnight Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "01004E500DB3C000",
+      "title": "MouseCraft",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004E500DB3C000.jpg",
+      "variants": [
+        {
+          "id": "v_59801204",
+          "name": "MouseCraft — MouseCraft - Main Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TEEjQKsel-uyvg3Z0tokLB0ECNlimFeH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TEEjQKsel-uyvg3Z0tokLB0ECNlimFeH&sz=w640",
+          "sizeBytes": 3182835,
+          "sha256": "5EE64E920939E07EC32315DC0181085D6272A987E44A71A127804FDC56FD061D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | MouseCraft — MouseCraft - Main Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E8601AA1A000",
+      "title": "Bahnsen Knights",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E8601AA1A000.jpg",
+      "variants": [
+        {
+          "id": "v_502d9291",
+          "name": "Bahnsen Knights — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dmnE-yYqDzOWjYgDvydJEeStGeEoHKPW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dmnE-yYqDzOWjYgDvydJEeStGeEoHKPW&sz=w640",
+          "sizeBytes": 4533662,
+          "sha256": "7EFBF1289342B89A20F8F8C2A124DE5E8506FF4D4688122B7269253E67B79897",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bahnsen Knights — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01007850201E6000",
+      "title": "Neon Noodles",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007850201E6000.jpg",
+      "variants": [
+        {
+          "id": "v_d66dcb56",
+          "name": "Neon Noodles — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gbb_fHn3ngH9cOaCfkwgT-kqKkMoV_PH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gbb_fHn3ngH9cOaCfkwgT-kqKkMoV_PH&sz=w640",
+          "sizeBytes": 5300303,
+          "sha256": "C85D4416BC73056EBDEA64F5BC8B90271D0DADA2458EBA649F587E08CD141DF9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Neon Noodles — Launch Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 4563,
-  "totalVariants": 5987,
-  "lastUpdated": "2026-11-10T10:20:00.297770+00:00"
+  "totalGames": 4573,
+  "totalVariants": 5997,
+  "lastUpdated": "2026-11-10T10:23:38.611288+00:00"
 }
