@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T01:05:36.689243+00:00",
+  "updatedAt": "2026-11-10T01:08:37.387838+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -100328,9 +100328,269 @@
           "notes": "Switch 720p 30fps H264 | Terra Alia: The Language Discovery RPG —"
         }
       ]
+    },
+    {
+      "titleId": "01004F401BEBE000",
+      "title": "Song of Nunu",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004F401BEBE000.jpg",
+      "variants": [
+        {
+          "id": "v_b93b7623",
+          "name": "Song of Nunu: A League of Legends Story — Song o",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kYx1BXSS-84yG0KFAvTkFzAm7gmuunZ1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kYx1BXSS-84yG0KFAvTkFzAm7gmuunZ1&sz=w640",
+          "sizeBytes": 5414037,
+          "sha256": "246F98F78A8FD6212A0E77285056A0C0D77AB294A3F8C0E092A744DCB78C5D2F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Song of Nunu: A League of Legends Story "
+        }
+      ]
+    },
+    {
+      "titleId": "0100E1E014AFA000",
+      "title": "Space Commander: War and Trade",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E1E014AFA000.jpg",
+      "variants": [
+        {
+          "id": "v_6f2f9031",
+          "name": "Space Commander: War and Trade — trailer-en",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hUTlMg9-WxFyIQzx8QRb2hK9OFZit611",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hUTlMg9-WxFyIQzx8QRb2hK9OFZit611&sz=w640",
+          "sizeBytes": 5594292,
+          "sha256": "CDEB23B80C1F511FE6E5083861CFF723E22B2B1300582A6B0030A7DE2C52FF15",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Space Commander: War and Trade — trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010093D00CB22000",
+      "title": "Maneater",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010093D00CB22000.jpg",
+      "variants": [
+        {
+          "id": "v_aca27a49",
+          "name": "Maneater 2 — Maneater 2 - Announcement Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-NAdzqeQ-otRIzjKu4wznjNSTn-2M-B6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-NAdzqeQ-otRIzjKu4wznjNSTn-2M-B6&sz=w640",
+          "sizeBytes": 4405659,
+          "sha256": "AFFF2D824C335614B300B6A7717B84DB255DA33D2072C32560526D1BC54B1766",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Maneater 2 — Maneater 2 - Announcement T"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C9E00F54C000",
+      "title": "Air Missions Hind",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C9E00F54C000.jpg",
+      "variants": [
+        {
+          "id": "v_d63b709e",
+          "name": "Air Missions: HIND — Early Access launch trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wN2SsojIx9P9X9EHJnYWAFz0mptVrwlA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wN2SsojIx9P9X9EHJnYWAFz0mptVrwlA&sz=w640",
+          "sizeBytes": 3908573,
+          "sha256": "C886221992490269AD7C0832FDD2AB3843F9A9D0B5DB5453152F4BA6AD850AC3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Air Missions: HIND — Early Access launch"
+        }
+      ]
+    },
+    {
+      "titleId": "01008EB012608000",
+      "title": "My Diggy Dog 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008EB012608000.jpg",
+      "variants": [
+        {
+          "id": "v_5ca551b8",
+          "name": "My Diggy Dog 2 — Game play",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-esQD8yZyhN7lWCMN21mDRjU_S8cNJr2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-esQD8yZyhN7lWCMN21mDRjU_S8cNJr2&sz=w640",
+          "sizeBytes": 4861104,
+          "sha256": "5D9D72C9C7FDA746159323BA49414EE168E6E363FFE7644FCB317BB90806B1AF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | My Diggy Dog 2 — Game play"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B9801210A000",
+      "title": "Colt Canyon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B9801210A000.jpg",
+      "variants": [
+        {
+          "id": "v_6059b53a",
+          "name": "Colt Canyon — Colt Canyon - Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GBH17Fp0LnkBrRBeZqj2u2X6bLhCzQZV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GBH17Fp0LnkBrRBeZqj2u2X6bLhCzQZV&sz=w640",
+          "sizeBytes": 5107641,
+          "sha256": "FE2FFC5A2BDBFD4E2285F1772DC8BF1109925CC98465D113308E9C10648E3A3A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Colt Canyon — Colt Canyon - Gameplay Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "0100901014412000",
+      "title": "From Shadows",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100901014412000.jpg",
+      "variants": [
+        {
+          "id": "v_24ab016a",
+          "name": "From Shadows — Release trailer (EN)",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pXSXqlt72rMSZQT5dLIxi--urW9Xf7OY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pXSXqlt72rMSZQT5dLIxi--urW9Xf7OY&sz=w640",
+          "sizeBytes": 5361401,
+          "sha256": "58D7132C970A2FB7EDA8E43F4550883FEB741ED7C17AF564DD300F4C6FBD15E6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | From Shadows — Release trailer (EN)"
+        }
+      ]
+    },
+    {
+      "titleId": "01000DB017C84000",
+      "title": "Flat Kingdom Paper's Cut Edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000DB017C84000.jpg",
+      "variants": [
+        {
+          "id": "v_2ded34d1",
+          "name": "Flat Kingdom Paper's Cut Edition — Paper's Cut E",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18tcsqu-rGYUzOpvQ-BunsicWeIj6Doc0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18tcsqu-rGYUzOpvQ-BunsicWeIj6Doc0&sz=w640",
+          "sizeBytes": 5543036,
+          "sha256": "D64EDCCE8FB09791B518D38B8F03939FB5C5714A2BFAD5F07FB4113E73EA99AC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Flat Kingdom Paper's Cut Edition — Paper"
+        }
+      ]
+    },
+    {
+      "titleId": "010092901203A000",
+      "title": "Escape From Tethys",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010092901203A000.jpg",
+      "variants": [
+        {
+          "id": "v_1a3ef9fd",
+          "name": "Escape From Tethys — Escape From Tethys Release ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1GsBTjSY_DgztPXSE2PoY7tQ_It6XoJuP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1GsBTjSY_DgztPXSE2PoY7tQ_It6XoJuP&sz=w640",
+          "sizeBytes": 5424292,
+          "sha256": "02A19444716C91BF3D46194A99FDA401157CBA2DA157E0293681475321DFEFB6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Escape From Tethys — Escape From Tethys "
+        }
+      ]
+    },
+    {
+      "titleId": "0100B3C00ECC8000",
+      "title": "Depths of Sanity",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B3C00ECC8000.jpg",
+      "variants": [
+        {
+          "id": "v_a66a10fa",
+          "name": "Depths of Sanity — Depths of Sanity - Steam Revi",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rZNDf-8BtrcfgEQPtF1iKHqlzV_MDQFv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rZNDf-8BtrcfgEQPtF1iKHqlzV_MDQFv&sz=w640",
+          "sizeBytes": 5308166,
+          "sha256": "3F2C3BAC57EB6E41A3E441B493968B133ACD53ED07E6AD8D25764E0A74D6C28C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Depths of Sanity — Depths of Sanity - St"
+        }
+      ]
     }
   ],
-  "totalGames": 2803,
-  "totalVariants": 4227,
-  "lastUpdated": "2026-11-10T01:05:36.689243+00:00"
+  "totalGames": 2813,
+  "totalVariants": 4237,
+  "lastUpdated": "2026-11-10T01:08:37.387838+00:00"
 }
