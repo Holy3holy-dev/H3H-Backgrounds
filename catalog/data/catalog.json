@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T07:31:20.042045+00:00",
+  "updatedAt": "2026-11-10T07:34:17.282894+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -132048,9 +132048,269 @@
           "notes": "Switch 720p 30fps H264 | Tales From The Arcade: Fartmania — Fartm"
         }
       ]
+    },
+    {
+      "titleId": "010012501E8D6000",
+      "title": "Tell Me Your Story",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010012501E8D6000.jpg",
+      "variants": [
+        {
+          "id": "v_6a9e47fb",
+          "name": "Tell Me Your Story — Demo Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ax_Wzb_36-dhbIfado-fvXkekpeE5JPk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ax_Wzb_36-dhbIfado-fvXkekpeE5JPk&sz=w640",
+          "sizeBytes": 5487041,
+          "sha256": "B29EB41641D3596590CD3926D817E978A6B126FBCDC0B8ACF477D255F3A288D6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tell Me Your Story — Demo Gameplay Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "01005660195F4000",
+      "title": "Tenderfoot Tactics",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005660195F4000.jpg",
+      "variants": [
+        {
+          "id": "v_3cdbcb2d",
+          "name": "Tenderfoot Tactics — Release",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1S8kV7Jw8af9ZnxdocZT_hpOGG26O6d7n",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1S8kV7Jw8af9ZnxdocZT_hpOGG26O6d7n&sz=w640",
+          "sizeBytes": 5478963,
+          "sha256": "3900C2A10B1303400E21284F8CC3B128205E0FF22EA62286E3F0B286C9379360",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tenderfoot Tactics — Release"
+        }
+      ]
+    },
+    {
+      "titleId": "010059F0195F0000",
+      "title": "Teppo and the Secret Ancient City",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010059F0195F0000.jpg",
+      "variants": [
+        {
+          "id": "v_8b85d73a",
+          "name": "Teppo and The Secret Ancient City — Main Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UhCmz0ICUWNVe9mmOeAnm31yd4gt8jMy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UhCmz0ICUWNVe9mmOeAnm31yd4gt8jMy&sz=w640",
+          "sizeBytes": 5408290,
+          "sha256": "87CA6635E45553FB8DD1A8EA1F03AF0A40D4C74E64E894AD4EE084D518D67DFF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Teppo and The Secret Ancient City — Main"
+        }
+      ]
+    },
+    {
+      "titleId": "010055301E952000",
+      "title": "Terra Memoria",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010055301E952000.jpg",
+      "variants": [
+        {
+          "id": "v_b7ec6803",
+          "name": "Terra Memoria — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1N6pfWgMuz_scw5UPNMBw6UeO6DaiQY87",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1N6pfWgMuz_scw5UPNMBw6UeO6DaiQY87&sz=w640",
+          "sizeBytes": 5388321,
+          "sha256": "C097BE453A4A17F1F8ED64D6D97F2E58863749C1071D20E9DEECB4B71DF2F88A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Terra Memoria — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010062E01DB20000",
+      "title": "The Bunny Graveyard",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010062E01DB20000.jpg",
+      "variants": [
+        {
+          "id": "v_01717db3",
+          "name": "The Bunny Graveyard — Official Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1EQs8KUxb7iL4byTJBtGHz6vZZQ5uBdzV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1EQs8KUxb7iL4byTJBtGHz6vZZQ5uBdzV&sz=w640",
+          "sizeBytes": 5110447,
+          "sha256": "83294F96FA99E4F0BF70FA190B45E972C866BD39531916962D8DE82C69BFC668",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Bunny Graveyard — Official Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C0501D712000",
+      "title": "Stick to the Plan",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C0501D712000.jpg",
+      "variants": [
+        {
+          "id": "v_d1625acb",
+          "name": "Stick to the Plan — Official Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1U_UrlUj1PhK53r81eWw025H0qHTSzmEj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1U_UrlUj1PhK53r81eWw025H0qHTSzmEj&sz=w640",
+          "sizeBytes": 5419989,
+          "sha256": "24B2618D51F3CF013A334059790FE784143EB5BBE365F1E30EB6548C712BB5C4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Stick to the Plan — Official Launch Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "010093001DFF2000",
+      "title": "StormEdge",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010093001DFF2000.jpg",
+      "variants": [
+        {
+          "id": "v_09771b70",
+          "name": "StormEdge — StormEdge | 2024",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19m8fX5zNTfzDoKzOtXJaAKOh8mY_lZu1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19m8fX5zNTfzDoKzOtXJaAKOh8mY_lZu1&sz=w640",
+          "sizeBytes": 5178957,
+          "sha256": "BB431A85D6AD59BC7C853F7057CFD9B25E49BBDAED820804C4AEE7607E2F736D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | StormEdge — StormEdge | 2024"
+        }
+      ]
+    },
+    {
+      "titleId": "010065B01B942000",
+      "title": "Corponation the Sorting Process",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010065B01B942000.jpg",
+      "variants": [
+        {
+          "id": "v_227a5d2b",
+          "name": "CorpoNation: The Sorting Process — CorpoNation: ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10Ts8YLfJb3pw5jsOden6wEea6I1LoRQT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10Ts8YLfJb3pw5jsOden6wEea6I1LoRQT&sz=w640",
+          "sizeBytes": 4371496,
+          "sha256": "5D5A134371965A0D976CCB295C2CC7512C741F8FB80C534628B886BCD3E5CD20",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | CorpoNation: The Sorting Process — Corpo"
+        }
+      ]
+    },
+    {
+      "titleId": "0100635006C32000",
+      "title": "Pankapu",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100635006C32000.jpg",
+      "variants": [
+        {
+          "id": "v_d0e8cea0",
+          "name": "Pankapu — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1byotQK0V8Zk7_lsUQ-Mtcqs9FG9fYoLK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1byotQK0V8Zk7_lsUQ-Mtcqs9FG9fYoLK&sz=w640",
+          "sizeBytes": 5580568,
+          "sha256": "608477AED6F4E034DF03D5164DCDE738A15358F4E006B23F35AF9E752C4AB963",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Pankapu — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CD30248D4000",
+      "title": "Tiny Witch",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CD30248D4000.jpg",
+      "variants": [
+        {
+          "id": "v_e59ef504",
+          "name": "Tiny Witch — Tiny Witch - Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zpjLbeREh6Iyj55BkiIhp4hrOLoFc7pb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zpjLbeREh6Iyj55BkiIhp4hrOLoFc7pb&sz=w640",
+          "sizeBytes": 5140249,
+          "sha256": "59BAA8E0C8FF4040A59B246D50F07D10425208FF675273848C750ECF586BEA12",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tiny Witch — Tiny Witch - Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 4023,
-  "totalVariants": 5447,
-  "lastUpdated": "2026-11-10T07:31:20.042045+00:00"
+  "totalGames": 4033,
+  "totalVariants": 5457,
+  "lastUpdated": "2026-11-10T07:34:17.282894+00:00"
 }
