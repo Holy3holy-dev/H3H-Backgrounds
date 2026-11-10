@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T09:45:32.823891+00:00",
+  "updatedAt": "2026-11-10T09:48:39.399787+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -143228,9 +143228,269 @@
           "notes": "Switch 720p 30fps H264 | Gods Will Fall — release ESRB"
         }
       ]
+    },
+    {
+      "titleId": "0100DBA011136000",
+      "title": "Forward To The Sky",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DBA011136000.jpg",
+      "variants": [
+        {
+          "id": "v_06908e80",
+          "name": "Forward to the Sky — Forward to the Sky",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kB1hOZ991NHO_Vp1gsepldXAMs3mpPRc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kB1hOZ991NHO_Vp1gsepldXAMs3mpPRc&sz=w640",
+          "sizeBytes": 11472370,
+          "sha256": "87608C9E42067772E80F0DF3BC19C1CA3E51C6FEE3DA823B7781A99499D0D35B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Forward to the Sky — Forward to the Sky"
+        }
+      ]
+    },
+    {
+      "titleId": "0100193013AD0000",
+      "title": "Evertried",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100193013AD0000.jpg",
+      "variants": [
+        {
+          "id": "v_333a430c",
+          "name": "Evertried — Evertried - Release Date Trailer (EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Q1EjL5u8hNmszORsUc0VZ2RPO0JzsMdO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Q1EjL5u8hNmszORsUc0VZ2RPO0JzsMdO&sz=w640",
+          "sizeBytes": 5279818,
+          "sha256": "5CE589833858980D5CCC232EBE411E4CCC686A092858CAB4FDF23FCD4061236B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Evertried — Evertried - Release Date Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EB9014722000",
+      "title": "Cyberhive",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EB9014722000.jpg",
+      "variants": [
+        {
+          "id": "v_23a98188",
+          "name": "HAWA:99 - Cyberhive — trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KuPJcRRIbzW-_a9xdEyQNHSQV6PE972V",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KuPJcRRIbzW-_a9xdEyQNHSQV6PE972V&sz=w640",
+          "sizeBytes": 4197813,
+          "sha256": "511583921FFBE2B121CAE3456A3CA2D3AF69F3CF4E8F5474D868CEBA61444230",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | HAWA:99 - Cyberhive — trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CE5014026000",
+      "title": "Curved Space",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CE5014026000.jpg",
+      "variants": [
+        {
+          "id": "v_50891fe9",
+          "name": "Curved Space — Phantom Update",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BkLdnTYgG3YHNXQcaprC7WYeb2JS5L6f",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BkLdnTYgG3YHNXQcaprC7WYeb2JS5L6f&sz=w640",
+          "sizeBytes": 4959683,
+          "sha256": "2F2F2589C27947EEABBA865A048DF04FE61A8EE16C9C0A61F88AD9429F1CC455",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Curved Space — Phantom Update"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B0400EBC4000",
+      "title": "Cris Tales",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B0400EBC4000.jpg",
+      "variants": [
+        {
+          "id": "v_8690522e",
+          "name": "Cris Tales — Adri Update Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CN9t3azDJUWfeXxJZIO_f6QRcaPuFfVm",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CN9t3azDJUWfeXxJZIO_f6QRcaPuFfVm&sz=w640",
+          "sizeBytes": 4980520,
+          "sha256": "83D77024D84B8698210E1877BDF1D548670611955A74ABB1619D341AB47D1C45",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cris Tales — Adri Update Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EA501521A000",
+      "title": "Centipede: Recharged",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EA501521A000.jpg",
+      "variants": [
+        {
+          "id": "v_2e95967b",
+          "name": "Centipede: Recharged — Coming Soon Trailer 30-se",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1L6iaY5jHflxCy15vl_gjR1e4SloG15ZF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1L6iaY5jHflxCy15vl_gjR1e4SloG15ZF&sz=w640",
+          "sizeBytes": 5332048,
+          "sha256": "89522FF82554D4BE1113B23C7D8DB7AD12A0F4BBF1CE5544A70A9F0647EAF22E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Centipede: Recharged — Coming Soon Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C7001526C000",
+      "title": "Blitz Breaker",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C7001526C000.jpg",
+      "variants": [
+        {
+          "id": "v_13999d9b",
+          "name": "Blitz Breaker — Blitz Breaker - Trailer #1",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1m9Wuf2jOXmoOBJirhC3lZqsQYblvjMkM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1m9Wuf2jOXmoOBJirhC3lZqsQYblvjMkM&sz=w640",
+          "sizeBytes": 5042374,
+          "sha256": "96D13433C8F03817A37A872254C0DDCC2A4004F7C60A4D6DC7A689F394540DBD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Blitz Breaker — Blitz Breaker - Trailer "
+        }
+      ]
+    },
+    {
+      "titleId": "01004390255D6000",
+      "title": "The Days Without Gods",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004390255D6000.jpg",
+      "variants": [
+        {
+          "id": "v_518d7add",
+          "name": "The Days Without Gods — PV1",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1sxiQusMEAMVrqVvHlYX6ihjInNgRvr8o",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1sxiQusMEAMVrqVvHlYX6ihjInNgRvr8o&sz=w640",
+          "sizeBytes": 3974782,
+          "sha256": "4D52971E25E66293831C83E7E87E7FC88CF6D1572CD1C9D846D89A41EA08E90A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Days Without Gods — PV1"
+        }
+      ]
+    },
+    {
+      "titleId": "010052C025A40000",
+      "title": "Big Trouble in Little Chimney",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010052C025A40000.jpg",
+      "variants": [
+        {
+          "id": "v_a406a90b",
+          "name": "Big Trouble in Little Chimney — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TShkdWPXbvLOZcH-mIoIRWRy8yA3W4Dh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TShkdWPXbvLOZcH-mIoIRWRy8yA3W4Dh&sz=w640",
+          "sizeBytes": 5348797,
+          "sha256": "7E2D82D7976C24EBE442F6BD518C449F67EDC7D6E99D2B1EE75CE35864CE33B8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Big Trouble in Little Chimney — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A78012A76000",
+      "title": "Angry Alligator",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A78012A76000.jpg",
+      "variants": [
+        {
+          "id": "v_95f9ace2",
+          "name": "Angry Alligator — Angry Alligator - Launch Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XgawJo-ITk5-4zL_vHdaMgf5AE8m0Jsx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XgawJo-ITk5-4zL_vHdaMgf5AE8m0Jsx&sz=w640",
+          "sizeBytes": 3157442,
+          "sha256": "54F2E502032538742D3D60E82876222E284B13CAE74F526F15A6462F0395DCBC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Angry Alligator — Angry Alligator - Laun"
+        }
+      ]
     }
   ],
-  "totalGames": 4453,
-  "totalVariants": 5877,
-  "lastUpdated": "2026-11-10T09:45:32.823891+00:00"
+  "totalGames": 4463,
+  "totalVariants": 5887,
+  "lastUpdated": "2026-11-10T09:48:39.399787+00:00"
 }
