@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T03:05:03.572245+00:00",
+  "updatedAt": "2026-11-10T03:08:04.732563+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -109428,9 +109428,269 @@
           "notes": "Switch 720p 30fps H264 | Willy Morgan and the Curse of Bone Town "
         }
       ]
+    },
+    {
+      "titleId": "010096900A4D2000",
+      "title": "Clustertruck",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010096900A4D2000.jpg",
+      "variants": [
+        {
+          "id": "v_400c644d",
+          "name": "Clustertruck — Clustertruck Steam Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1H4sZeV9ilPXcTVB94fYSkvHUTZJjdMhn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1H4sZeV9ilPXcTVB94fYSkvHUTZJjdMhn&sz=w640",
+          "sizeBytes": 5341969,
+          "sha256": "2F0C6A503E36E229333C7741F97905C8083B83D7BE2BE0B8FFD290BE44302FFD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Clustertruck — Clustertruck Steam Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "010097D015936000",
+      "title": "The Hand of Merlin",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010097D015936000.jpg",
+      "variants": [
+        {
+          "id": "v_5ca54063",
+          "name": "The Hand of Merlin — The Hand of Merlin Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1AOBAC11hbah3-qHRjZxOs1SCEAMnWi-a",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1AOBAC11hbah3-qHRjZxOs1SCEAMnWi-a&sz=w640",
+          "sizeBytes": 5340743,
+          "sha256": "C6F5CFD5823D93BC0CA959776AFC622BA146ED294ADFF52980A4FE6CE348C921",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Hand of Merlin — The Hand of Merlin "
+        }
+      ]
+    },
+    {
+      "titleId": "010052A00942A000",
+      "title": "Gekido Kintaro's Revenge",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010052A00942A000.jpg",
+      "variants": [
+        {
+          "id": "v_c8c24e14",
+          "name": "Gekido Kintaro's Revenge — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tVolRpwr_ExHOr5A7qNULJWeSKbZYy_J",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tVolRpwr_ExHOr5A7qNULJWeSKbZYy_J&sz=w640",
+          "sizeBytes": 4854504,
+          "sha256": "F6E3F43F9423D2881CB8ED6B2658B5F511B0FDDCEB92BA80B8B16D739D229F4E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Gekido Kintaro's Revenge — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100750025286000",
+      "title": "Look Mum No Computer",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100750025286000.jpg",
+      "variants": [
+        {
+          "id": "v_803029e6",
+          "name": "Look Mum No Computer — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KqyQEnG7h3kOrPYOGOZ5YAEzJccxuHTP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KqyQEnG7h3kOrPYOGOZ5YAEzJccxuHTP&sz=w640",
+          "sizeBytes": 5298568,
+          "sha256": "73CB4E001E090A3A40E407B1647A4F2AE35C2D83EB6ED535B04C45435193DD95",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Look Mum No Computer — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010004301F38E000",
+      "title": "Rage of the Dragons Neo",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010004301F38E000.jpg",
+      "variants": [
+        {
+          "id": "v_0ddd5a2f",
+          "name": "Rage of the Dragons NEO — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16uBEzJcumPcAsnDjtnIwhWOSW1e_D_p3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16uBEzJcumPcAsnDjtnIwhWOSW1e_D_p3&sz=w640",
+          "sizeBytes": 3611673,
+          "sha256": "720F580B2C767FF02A78DEBE8871806BAFEA68199D60C51977905FDAF912B484",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rage of the Dragons NEO — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01002F0011DD4000",
+      "title": "Hardcore Mecha",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002F0011DD4000.jpg",
+      "variants": [
+        {
+          "id": "v_8b3badc6",
+          "name": "HARDCORE MECHA — 单人2号JP字幕",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19_PCIBda7GbNx8Z_hwVZo0shhQWTvjJV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19_PCIBda7GbNx8Z_hwVZo0shhQWTvjJV&sz=w640",
+          "sizeBytes": 5303119,
+          "sha256": "0122DF6E3A86EEE514985899BEED1BC7455EA86C86D078A0EA62B58D38953066",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | HARDCORE MECHA — 单人2号JP字幕"
+        }
+      ]
+    },
+    {
+      "titleId": "010068901FB04000",
+      "title": "Bloodless",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010068901FB04000.jpg",
+      "variants": [
+        {
+          "id": "v_3a97c765",
+          "name": "Bloodless Heart — Gameplay",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yscTbtrcbkAhMls32AeNmLQED4vZDRNZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yscTbtrcbkAhMls32AeNmLQED4vZDRNZ&sz=w640",
+          "sizeBytes": 4048888,
+          "sha256": "AAE93D78C0D15072FD56DB55A51C02C600B55B9597E6B3F3C5D5FDC32FACA413",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bloodless Heart — Gameplay"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D5701CE10000",
+      "title": "The Land Beneath Us",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D5701CE10000.jpg",
+      "variants": [
+        {
+          "id": "v_2498c3e2",
+          "name": "The Land Beneath Us — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BUbAZP9Nag4JUReiZZ2aje97mPOxbYBU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BUbAZP9Nag4JUReiZZ2aje97mPOxbYBU&sz=w640",
+          "sizeBytes": 5024834,
+          "sha256": "BBBC8745E8A864A2D00EF3981BA3219F42B74EB2B1B6DF05A78E3795860E1FBC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Land Beneath Us — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01008E502169E000",
+      "title": "Spell Disk",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008E502169E000.jpg",
+      "variants": [
+        {
+          "id": "v_400df707",
+          "name": "Spell Disk — Full Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1S2vV0oVQoatbUOGFeXXDhbxggTGburtz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1S2vV0oVQoatbUOGFeXXDhbxggTGburtz&sz=w640",
+          "sizeBytes": 5170507,
+          "sha256": "A01F154DBD884470F3CA219A6FC8A7F1AFAE20728BFA4B101C165EC1F0EEDFBA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Spell Disk — Full Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010065601AD7A000",
+      "title": "Super Box Delivery: Beyond the Horizon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010065601AD7A000.jpg",
+      "variants": [
+        {
+          "id": "v_d14b01e1",
+          "name": "Super Box Delivery: Beyond the Horizon — Super B",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1aJ1JKvEWm5gyKkmUL7IEaZ-o5oqoTvGj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1aJ1JKvEWm5gyKkmUL7IEaZ-o5oqoTvGj&sz=w640",
+          "sizeBytes": 5414987,
+          "sha256": "9B1BF7FEC491E4AD784205974A1D4F0F3AA838548699A53172DB8FDFA3CC23F8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Super Box Delivery: Beyond the Horizon —"
+        }
+      ]
     }
   ],
-  "totalGames": 3153,
-  "totalVariants": 4577,
-  "lastUpdated": "2026-11-10T03:05:03.572245+00:00"
+  "totalGames": 3163,
+  "totalVariants": 4587,
+  "lastUpdated": "2026-11-10T03:08:04.732563+00:00"
 }
