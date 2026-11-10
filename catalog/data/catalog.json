@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T11:25:07.590923+00:00",
+  "updatedAt": "2026-11-10T11:28:34.851599+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -150768,9 +150768,269 @@
           "notes": "Switch 720p 30fps H264 | Eyra: The Crow Maiden — Eyra: The Crow M"
         }
       ]
+    },
+    {
+      "titleId": "010035E00C1AE000",
+      "title": "Battle of Kings",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010035E00C1AE000.jpg",
+      "variants": [
+        {
+          "id": "v_c36eb495",
+          "name": "Battle of Kings — Trailer ENG",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1-yKoVJRgrLSi_R88BdQ3vnsNiL9PAoL4",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1-yKoVJRgrLSi_R88BdQ3vnsNiL9PAoL4&sz=w640",
+          "sizeBytes": 5166053,
+          "sha256": "3F40D1CA8CF01AF1DA1DFB681750CBBE32EA19356F20BB24E449CD5DAF370DF3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Battle of Kings — Trailer ENG"
+        }
+      ]
+    },
+    {
+      "titleId": "010020C01CE26000",
+      "title": "Firebird",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010020C01CE26000.jpg",
+      "variants": [
+        {
+          "id": "v_21194923",
+          "name": "Forts - Firebird — Forts - Firebird DLC Launch D",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1d5Q9-zqAdzWqNreYuahHxFAqS5dKlvaP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1d5Q9-zqAdzWqNreYuahHxFAqS5dKlvaP&sz=w640",
+          "sizeBytes": 5310149,
+          "sha256": "BD3DE5D040A42333415DB30828F43E7CA514B9DEC4EC96B401431D52A6472817",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Forts - Firebird — Forts - Firebird DLC "
+        }
+      ]
+    },
+    {
+      "titleId": "010052B01A7D4000",
+      "title": "Axis Football 2023",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010052B01A7D4000.jpg",
+      "variants": [
+        {
+          "id": "v_128d1ed0",
+          "name": "Axis Football 2023 — Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pASOkb8m81mGea1vzvRqhRvm5QZW9n4V",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pASOkb8m81mGea1vzvRqhRvm5QZW9n4V&sz=w640",
+          "sizeBytes": 4723432,
+          "sha256": "8327B2D1C93A36D02FA85F4E570939021F0DCCC378C82CAF48A3919E5A23FDBA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Axis Football 2023 — Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100172019E30000",
+      "title": "Sandream",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100172019E30000.jpg",
+      "variants": [
+        {
+          "id": "v_d90ec2eb",
+          "name": "Sandream — Sandream3",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14nYJx4WvDKby_pZPQcTlpOHDpA956uvm",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14nYJx4WvDKby_pZPQcTlpOHDpA956uvm&sz=w640",
+          "sizeBytes": 3584733,
+          "sha256": "F50CAF95F6ED76450CEFEA893270A7EE530FE3EF5DA3E40B1B985AF88FE3C672",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sandream — Sandream3"
+        }
+      ]
+    },
+    {
+      "titleId": "010003900E46A000",
+      "title": "Super Dodgeball Beats",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010003900E46A000.jpg",
+      "variants": [
+        {
+          "id": "v_8a0f73a5",
+          "name": "Super Dodgeball Beats — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1iIsCMy6uyMGUJnElBVkXS8W552HEBIm5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1iIsCMy6uyMGUJnElBVkXS8W552HEBIm5&sz=w640",
+          "sizeBytes": 5412378,
+          "sha256": "FDF44957022E70C7D65D93CF626F84A3B3CC15DDBC2BD95280F0CFDC7D124C64",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Super Dodgeball Beats — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A8701AFE4000",
+      "title": "The Spy Who Shot Me",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A8701AFE4000.jpg",
+      "variants": [
+        {
+          "id": "v_7f10e62c",
+          "name": "The spy who shot me™ — The Spy Who Shot Me - v0 ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1t1i6gUIQBHYzF22BC2ZVleuuXVPsQdIF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1t1i6gUIQBHYzF22BC2ZVleuuXVPsQdIF&sz=w640",
+          "sizeBytes": 5391262,
+          "sha256": "645EFA7681551698752382464C0ADC85477C8B9EC2347F3E544FEFD2779BAAAC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The spy who shot me™ — The Spy Who Shot "
+        }
+      ]
+    },
+    {
+      "titleId": "0100E8D0175EC000",
+      "title": "Ultimate ADOM Caverns of Chaos",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E8D0175EC000.jpg",
+      "variants": [
+        {
+          "id": "v_e3a50bf6",
+          "name": "Ultimate ADOM - Caverns of Chaos — Ultimate ADOM",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hgmEBcfB9N0vNQoKO1pOHebsTE5llraj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hgmEBcfB9N0vNQoKO1pOHebsTE5llraj&sz=w640",
+          "sizeBytes": 4962954,
+          "sha256": "C1C798EB1469B38B9723E4AB1DF92F42DB2E8FF1396430641E3C3AEDA487437E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ultimate ADOM - Caverns of Chaos — Ultim"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EFB01272E000",
+      "title": "BFF or Die",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EFB01272E000.jpg",
+      "variants": [
+        {
+          "id": "v_44cefc04",
+          "name": "BFF or Die — BFF or Die: Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19Vqi5rEVfc0J4SiTIN3K-qLAZ3WRdgNA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19Vqi5rEVfc0J4SiTIN3K-qLAZ3WRdgNA&sz=w640",
+          "sizeBytes": 5188973,
+          "sha256": "77C07CA9DAE44479D7CC80858CE1E015E6638400C1B7099CEA3391C942F93F40",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | BFF or Die — BFF or Die: Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01006C201DC9C000",
+      "title": "Matchmaker Agency",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006C201DC9C000.jpg",
+      "variants": [
+        {
+          "id": "v_7d3832c6",
+          "name": "Matchmaker Agency — general_trailer_en",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dDeX7MPHFHibTGSw7D-zKS-hW6ZPQhvl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dDeX7MPHFHibTGSw7D-zKS-hW6ZPQhvl&sz=w640",
+          "sizeBytes": 5222053,
+          "sha256": "9AC62FA06DC3F76D0A6E14113D03FAEF4348A5F029E5CEE9A767D3782D8B1486",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Matchmaker Agency — general_trailer_en"
+        }
+      ]
+    },
+    {
+      "titleId": "01007C7006AEE000",
+      "title": "Tactics V: Obsidian Brigade",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007C7006AEE000.jpg",
+      "variants": [
+        {
+          "id": "v_d2ea4e31",
+          "name": "Tactics V: \"Obsidian Brigade\" — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FZx5A-K-xz1mx-a6FhE_BnrAszyz9FBI",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FZx5A-K-xz1mx-a6FhE_BnrAszyz9FBI&sz=w640",
+          "sizeBytes": 2659742,
+          "sha256": "55B1FEE1F441517284947F52109791A694C69611BFDFE488DA565C93826AEDA2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tactics V: \"Obsidian Brigade\" — Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 4743,
-  "totalVariants": 6167,
-  "lastUpdated": "2026-11-10T11:25:07.590923+00:00"
+  "totalGames": 4753,
+  "totalVariants": 6177,
+  "lastUpdated": "2026-11-10T11:28:34.851599+00:00"
 }
