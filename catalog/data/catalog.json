@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T06:34:37.551028+00:00",
+  "updatedAt": "2026-11-10T06:37:33.675210+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -127108,9 +127108,269 @@
           "notes": "Switch 720p 30fps H264 | Unsouled — Unsouled Official Trailer"
         }
       ]
+    },
+    {
+      "titleId": "01007860152EE000",
+      "title": "Dead Effect 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007860152EE000.jpg",
+      "variants": [
+        {
+          "id": "v_57952e83",
+          "name": "Dead Effect 2 — Dead Effect 2 Official Release T",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Vw49EKLHZYSyFQaEa2B_3jKI7MhEtSg9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Vw49EKLHZYSyFQaEa2B_3jKI7MhEtSg9&sz=w640",
+          "sizeBytes": 4635874,
+          "sha256": "29FE2B99A9D5C2F30CBDADD5DAA7290F715883DB4F1060DA1C68104E0AF6FDD9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dead Effect 2 — Dead Effect 2 Official R"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A4C011F2C000",
+      "title": "Pile Up Box by Box",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A4C011F2C000.jpg",
+      "variants": [
+        {
+          "id": "v_773a7069",
+          "name": "Pile Up! Box by Box — Pile up! // Release Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18JsvAjQtzf0G7EXx84QHOolEgPAXTECG",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18JsvAjQtzf0G7EXx84QHOolEgPAXTECG&sz=w640",
+          "sizeBytes": 5598772,
+          "sha256": "5FB233D2634E982B69AEC5DE4A77AD9EB904A35A0FAC7E71A92FFFE6C1E17F5E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Pile Up! Box by Box — Pile up! // Releas"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CF3016BBE000",
+      "title": "MotoGP 22",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CF3016BBE000.jpg",
+      "variants": [
+        {
+          "id": "v_052a7125",
+          "name": "MotoGP™22 — MotoGP™22 - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1JVmqPbjp3lJwq5hcTakeaQdNl-2KKW7a",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1JVmqPbjp3lJwq5hcTakeaQdNl-2KKW7a&sz=w640",
+          "sizeBytes": 5461363,
+          "sha256": "44A42E69D2F4F12053FDEBBA81596152F2DE42E1EF5DAE236AAD1D74DA2F2FFB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | MotoGP™22 — MotoGP™22 - Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100725011796000",
+      "title": "Rogue Lords",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100725011796000.jpg",
+      "variants": [
+        {
+          "id": "v_d5c808b3",
+          "name": "Rogue Lords — Accolades Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WU7-uGPfd_YsK6ohBkydHMD-A7pr4jDk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WU7-uGPfd_YsK6ohBkydHMD-A7pr4jDk&sz=w640",
+          "sizeBytes": 5254184,
+          "sha256": "01C49B1ACAD6FAAC263413F7D6F22728E46A6B61390CF58C7FBE4D9C827FE4DC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rogue Lords — Accolades Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01001B80099F6000",
+      "title": "Dracula's Legacy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001B80099F6000.jpg",
+      "variants": [
+        {
+          "id": "v_588d39e4",
+          "name": "Dracula's Legacy — Dracula's Legacy",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cyYSmEnOA6LRYV6d63tDDqxcJ_Hl0lwC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cyYSmEnOA6LRYV6d63tDDqxcJ_Hl0lwC&sz=w640",
+          "sizeBytes": 5125608,
+          "sha256": "FEA65EA607C210435BAF23AEF3631834543507A138BD0740DD829E2915B1713F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dracula's Legacy — Dracula's Legacy"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F6C01B966000",
+      "title": "Animal Trail Girlish Square",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F6C01B966000.jpg",
+      "variants": [
+        {
+          "id": "v_ad255b35",
+          "name": "Animal Trail ☆ Girlish Square — PV (English)",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kizTnjVdeI_RO2mle-sgWy3x1zF6PNuY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kizTnjVdeI_RO2mle-sgWy3x1zF6PNuY&sz=w640",
+          "sizeBytes": 4886682,
+          "sha256": "A7F8A04B67EBC26C9840DD15F6EFA251ABAF5DA30250FC64394CA12DCB014F76",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Animal Trail ☆ Girlish Square — PV (Engl"
+        }
+      ]
+    },
+    {
+      "titleId": "010044600FDF0000",
+      "title": "Marooners",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010044600FDF0000.jpg",
+      "variants": [
+        {
+          "id": "v_1520318b",
+          "name": "Marooners — Free Expansion",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VGVBf3iWYxHS2NrjsJfUEPCumXEB5jX-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VGVBf3iWYxHS2NrjsJfUEPCumXEB5jX-&sz=w640",
+          "sizeBytes": 5130809,
+          "sha256": "BE04CA87600388A5F569CC5892D87862C854A841CFAA37DA9B6200D9AE6A33E5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Marooners — Free Expansion"
+        }
+      ]
+    },
+    {
+      "titleId": "01008D201F4E4000",
+      "title": "Kill the Crows",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008D201F4E4000.jpg",
+      "variants": [
+        {
+          "id": "v_af2619fb",
+          "name": "Kill The Crows — Kill the Crows",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZbC_qKEbQHMexi0lXXAmEJnx2cOGP-yz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZbC_qKEbQHMexi0lXXAmEJnx2cOGP-yz&sz=w640",
+          "sizeBytes": 4893297,
+          "sha256": "51DE5919D2FBBD9AE6E773B8F101A924D0D38CF507B45F4D75CC858C746504D6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Kill The Crows — Kill the Crows"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A260094EE000",
+      "title": "Fallen Legion Rise to Glory",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A260094EE000.jpg",
+      "variants": [
+        {
+          "id": "v_99fa90c4",
+          "name": "Fallen Legion: Rise to Glory — Fallen_Legion_Cec",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hQGwXKhWffom7vq5al5eFevmDv_65REO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hQGwXKhWffom7vq5al5eFevmDv_65REO&sz=w640",
+          "sizeBytes": 5137053,
+          "sha256": "E3A372B384C6E2A023D5517EE98336AB960893D88D83016225736D46F29A8045",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Fallen Legion: Rise to Glory — Fallen_Le"
+        }
+      ]
+    },
+    {
+      "titleId": "010014001DC5A000",
+      "title": "Luck be a Landlord",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010014001DC5A000.jpg",
+      "variants": [
+        {
+          "id": "v_f636bb3b",
+          "name": "Luck be a Landlord — Luck be a Landlord - v1.0 R",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16lpr_Yy5jKdf5qoncUP_P_Z0iArs8ANj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16lpr_Yy5jKdf5qoncUP_P_Z0iArs8ANj&sz=w640",
+          "sizeBytes": 3633631,
+          "sha256": "87CF6D9DD722B1B365EEE68F5EAC9619952FD8428E24F0816EADBA26539FEA71",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Luck be a Landlord — Luck be a Landlord "
+        }
+      ]
     }
   ],
-  "totalGames": 3833,
-  "totalVariants": 5257,
-  "lastUpdated": "2026-11-10T06:34:37.551028+00:00"
+  "totalGames": 3843,
+  "totalVariants": 5267,
+  "lastUpdated": "2026-11-10T06:37:33.675210+00:00"
 }
