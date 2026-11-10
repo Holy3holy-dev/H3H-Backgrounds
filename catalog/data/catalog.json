@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T06:25:37.400165+00:00",
+  "updatedAt": "2026-11-10T06:28:51.550940+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -126328,9 +126328,269 @@
           "notes": "Switch 720p 30fps H264 | SYNTHETIK 2 — Update20"
         }
       ]
+    },
+    {
+      "titleId": "0100D8C01535C000",
+      "title": "Mind Scanners",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D8C01535C000.jpg",
+      "variants": [
+        {
+          "id": "v_0c9f5de3",
+          "name": "Mind Scanners — Mind Scanners Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1yyYHvkQXY4jiCEEanMLi-z42NqeSrD6L",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1yyYHvkQXY4jiCEEanMLi-z42NqeSrD6L&sz=w640",
+          "sizeBytes": 5328235,
+          "sha256": "433CB825DF76956081C855ECC68CEBC9CCA0191FA212A1C981CBB631DFF4A0B6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mind Scanners — Mind Scanners Launch Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "010044801AF5E000",
+      "title": "Drop System Breach",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010044801AF5E000.jpg",
+      "variants": [
+        {
+          "id": "v_30cf7c73",
+          "name": "DROP - System Breach — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10uDARywF07upOVwQP3ASuZnkYl9zJ9t1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10uDARywF07upOVwQP3ASuZnkYl9zJ9t1&sz=w640",
+          "sizeBytes": 5401950,
+          "sha256": "2DC9140A6D62B5ED6CED2394225D7FA85B448484B73E40C04231242DE83A8083",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | DROP - System Breach — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01000FD00D5CC000",
+      "title": "Pig Eat Ball",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000FD00D5CC000.jpg",
+      "variants": [
+        {
+          "id": "v_ff42f26a",
+          "name": "Pig Eat Ball — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dUJedO3cqgj0UrAoxW9Wf_W96SsBXsDc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dUJedO3cqgj0UrAoxW9Wf_W96SsBXsDc&sz=w640",
+          "sizeBytes": 5081789,
+          "sha256": "E5D4663D238545099CC0336871C699F2187A1F81C7A4341C786F10EF8B39AC27",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Pig Eat Ball — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C490142F0000",
+      "title": "Train Ride Simulator",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C490142F0000.jpg",
+      "variants": [
+        {
+          "id": "v_b7d6d9bb",
+          "name": "Train Ride Simulator — Trailer (english)",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1EHdjIeNQgemw0b_1FHmMJLitZow5oTUj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1EHdjIeNQgemw0b_1FHmMJLitZow5oTUj&sz=w640",
+          "sizeBytes": 5109564,
+          "sha256": "E8DEADF9932E002713B050E8879A0CAE345ECC6CA2D83F9D7F91C276BB502946",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Train Ride Simulator — Trailer (english)"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A32017D1E000",
+      "title": "Vzerthos the Heir of Thunder",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A32017D1E000.jpg",
+      "variants": [
+        {
+          "id": "v_4460336e",
+          "name": "Vzerthos: The Heir of Thunder — Vzerthos: The He",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CtmIB0oTfllDVdhNgzPTw_UkYpm8RDey",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CtmIB0oTfllDVdhNgzPTw_UkYpm8RDey&sz=w640",
+          "sizeBytes": 5060495,
+          "sha256": "A19AB64BAEB801DAB1A514BB93686E096C5DDAF3268D6AD8681BD5F85692CC2B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Vzerthos: The Heir of Thunder — Vzerthos"
+        }
+      ]
+    },
+    {
+      "titleId": "0100749013DCE000",
+      "title": "The Solitaire Conspiracy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100749013DCE000.jpg",
+      "variants": [
+        {
+          "id": "v_ebeb943c",
+          "name": "The Solitaire Conspiracy — Gameplay",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=124klrGi3AuslpZ9vADDccGtXRYdSi__l",
+          "previewUrl": "https://drive.google.com/thumbnail?id=124klrGi3AuslpZ9vADDccGtXRYdSi__l&sz=w640",
+          "sizeBytes": 4593536,
+          "sha256": "AEAAAF59F0724B69E9D6A911410E01178E88B00FD96C6F1B32E06E8F21E3C458",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Solitaire Conspiracy — Gameplay"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A34012CCA000",
+      "title": "Zombies Ate My Neighbors & and Ghoul Patrol",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A34012CCA000.jpg",
+      "variants": [
+        {
+          "id": "v_b8a2e5dc",
+          "name": "Zombies Ate My Neighbors and Ghoul Patrol — ZAMN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1p224ls9NknTWVeVPHOi8HVEB4j1LgqEh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1p224ls9NknTWVeVPHOi8HVEB4j1LgqEh&sz=w640",
+          "sizeBytes": 5351344,
+          "sha256": "D9F151B7B24C4DC3787CD6EB16B8CBB90210E97A036C4C7B524815B0BFCEAE43",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Zombies Ate My Neighbors and Ghoul Patro"
+        }
+      ]
+    },
+    {
+      "titleId": "010007901467A000",
+      "title": "The Last Friend",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010007901467A000.jpg",
+      "variants": [
+        {
+          "id": "v_708dd7ad",
+          "name": "The Last Friend — The Last Friend Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fQLxJ-mJNh-EEE0xnvzb4W6LD-e_myG5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fQLxJ-mJNh-EEE0xnvzb4W6LD-e_myG5&sz=w640",
+          "sizeBytes": 4244229,
+          "sha256": "B4DD96AD6174F1EA0B8F8F9A889470D784A65A6EF36547DFB6BA111E2B61BC4C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Last Friend — The Last Friend Launch"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C6001EFDE000",
+      "title": "Frogue",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C6001EFDE000.jpg",
+      "variants": [
+        {
+          "id": "v_625b6e0f",
+          "name": "FROGUE — Release Date Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VcF8jP4gb5Zps-Jj0X9jCPgSDcgmfeGY",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VcF8jP4gb5Zps-Jj0X9jCPgSDcgmfeGY&sz=w640",
+          "sizeBytes": 5353628,
+          "sha256": "FD5327AAACD9851D81325D4ECB4A260A9A7243F9FDD6B8CDF4F78DA3ACA96396",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | FROGUE — Release Date Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F9A01B0A3000",
+      "title": "Nobunaga's Ambition Awakening",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F9A01B0A3000.jpg",
+      "variants": [
+        {
+          "id": "v_e44fa64b",
+          "name": "NOBUNAGA'S AMBITION: Awakening — NOBUNAGA'S AMBI",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gidhurKjrcDViqHdj5QLZ4tgxONAye9z",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gidhurKjrcDViqHdj5QLZ4tgxONAye9z&sz=w640",
+          "sizeBytes": 5317737,
+          "sha256": "EDCB9D83C64BD29333729472B7FE7ECA593D1C973CF772C9EC164B83E92FDBA7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | NOBUNAGA'S AMBITION: Awakening — NOBUNAG"
+        }
+      ]
     }
   ],
-  "totalGames": 3803,
-  "totalVariants": 5227,
-  "lastUpdated": "2026-11-10T06:25:37.400165+00:00"
+  "totalGames": 3813,
+  "totalVariants": 5237,
+  "lastUpdated": "2026-11-10T06:28:51.550940+00:00"
 }
