@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T06:06:25.086340+00:00",
+  "updatedAt": "2026-11-10T06:09:50.480604+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -124768,9 +124768,269 @@
           "notes": "Switch 720p 30fps H264 | LUNARK — Trailer - Release"
         }
       ]
+    },
+    {
+      "titleId": "01007A301D276000",
+      "title": "Power Sink",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007A301D276000.jpg",
+      "variants": [
+        {
+          "id": "v_ec7ded79",
+          "name": "Power Sink — Release Date Reveal Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Od7klj_beNbi-8qsZEL9d20w4uZRryd0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Od7klj_beNbi-8qsZEL9d20w4uZRryd0&sz=w640",
+          "sizeBytes": 5656524,
+          "sha256": "2C721FA690DD1492C7530A90BADC4348A1A92634F75089F76E74C8B8D5A935E0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Power Sink — Release Date Reveal Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A8A013AB2000",
+      "title": "Hazel Sky",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A8A013AB2000.jpg",
+      "variants": [
+        {
+          "id": "v_c30077c6",
+          "name": "Hazel Sky — Accolades Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11FzE9JC9Id7YF-SAX7eYOA0ESbSXqNCq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11FzE9JC9Id7YF-SAX7eYOA0ESbSXqNCq&sz=w640",
+          "sizeBytes": 5390456,
+          "sha256": "930E7646D45B502061E8A5865D9527FDB3946CF1F8A8173615E35D05F29D7697",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hazel Sky — Accolades Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010026800FA88000",
+      "title": "Deep Diving Adventures",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010026800FA88000.jpg",
+      "variants": [
+        {
+          "id": "v_7372475c",
+          "name": "Deep Diving Adventures 2 — Official Teaser",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WYJWq1gfxjo-8qnV0VYYoUKxADqGOUBi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WYJWq1gfxjo-8qnV0VYYoUKxADqGOUBi&sz=w640",
+          "sizeBytes": 5551197,
+          "sha256": "7EBE73260AEC58579635F4357CC191F59DEC116CD41D2053EB60FE600EBA0AF3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Deep Diving Adventures 2 — Official Teas"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C550239B8000",
+      "title": "Bubblegum Galaxy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C550239B8000.jpg",
+      "variants": [
+        {
+          "id": "v_d5e2039c",
+          "name": "Bubblegum Galaxy — BBG Launch Trailer-EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NBQahOuLy-3ZFaJV81Y6JaI1sUQHF3RV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NBQahOuLy-3ZFaJV81Y6JaI1sUQHF3RV&sz=w640",
+          "sizeBytes": 5447984,
+          "sha256": "D64C5E7F9DDDCDF071F6FE26B63B2FC5809DD7237FF07072F36B0C5DB68D409F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bubblegum Galaxy — BBG Launch Trailer-EN"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FA400FF78000",
+      "title": "SkateBird",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FA400FF78000.jpg",
+      "variants": [
+        {
+          "id": "v_17ccb3b8",
+          "name": "SkateBIRD — Launch Day",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=153jCfCGjj3iLvLlDF_zHCcK5W3PANd73",
+          "previewUrl": "https://drive.google.com/thumbnail?id=153jCfCGjj3iLvLlDF_zHCcK5W3PANd73&sz=w640",
+          "sizeBytes": 5336503,
+          "sha256": "666470F7507C5AE414E225E6368AB63231323BAD9FA7B62FC04F6E8B6DBDF0E4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | SkateBIRD — Launch Day"
+        }
+      ]
+    },
+    {
+      "titleId": "010050900E1C6000",
+      "title": "Anarcute",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010050900E1C6000.jpg",
+      "variants": [
+        {
+          "id": "v_dcfa51c3",
+          "name": "Anarcute — Anarcute - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1bp7ngwvOcDMviAMmIRpOnPPBmXl72viL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1bp7ngwvOcDMviAMmIRpOnPPBmXl72viL&sz=w640",
+          "sizeBytes": 5568688,
+          "sha256": "1FAD2F8AD8C6AD83845A7FE6C15C4E9728303FE236F6666C85B7D78CC12AF838",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Anarcute — Anarcute - Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B7A01386E000",
+      "title": "Soundfall",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B7A01386E000.jpg",
+      "variants": [
+        {
+          "id": "v_106258a0",
+          "name": "Soundfall — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HZHF19ovE3x1lWfJPZVgzF8CMsCEjGxz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HZHF19ovE3x1lWfJPZVgzF8CMsCEjGxz&sz=w640",
+          "sizeBytes": 5049166,
+          "sha256": "DB90E1681BF654D2EE9EC0E239475B1AD3A069BFE23D0F875D97A53915758997",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Soundfall — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01003FC024AAE000",
+      "title": "Horror Night with Tung Tung Tung Sahur",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003FC024AAE000.jpg",
+      "variants": [
+        {
+          "id": "v_62f4c632",
+          "name": "Horror Night with Tung Tung Tung Sahur — Tung Tu",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1h0CKkxhlEnASbQvDWIihdvaJyvgLoaJC",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1h0CKkxhlEnASbQvDWIihdvaJyvgLoaJC&sz=w640",
+          "sizeBytes": 4486321,
+          "sha256": "82C4E574B16F3F6CE3E3873CC0A0EDADAC6AB63FAE4B8723CCDC3F652259936F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Horror Night with Tung Tung Tung Sahur —"
+        }
+      ]
+    },
+    {
+      "titleId": "010003C0099EE000",
+      "title": "Planet Alpha",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010003C0099EE000.jpg",
+      "variants": [
+        {
+          "id": "v_de8cab22",
+          "name": "PLANET ALPHA — Accolades Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wksd1TeSkyUn4ymbkKdOInTWCK7NJj9R",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wksd1TeSkyUn4ymbkKdOInTWCK7NJj9R&sz=w640",
+          "sizeBytes": 4596513,
+          "sha256": "8502E51F9AF2E78824C83EBD32E05C8B94FBB08AB08F4F6AADCA6A12525B3539",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | PLANET ALPHA — Accolades Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B37011E2C000",
+      "title": "Space Scavenger",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B37011E2C000.jpg",
+      "variants": [
+        {
+          "id": "v_3dc93e97",
+          "name": "Space Scavenger — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BRSO0kDyelkmSby7HbhuHs7hu9xn4veO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BRSO0kDyelkmSby7HbhuHs7hu9xn4veO&sz=w640",
+          "sizeBytes": 5010384,
+          "sha256": "69984D7F00448DEAFC2C7B88F9128979F521EAC4BA02A1E7A648369B973767C0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Space Scavenger — Release Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 3743,
-  "totalVariants": 5167,
-  "lastUpdated": "2026-11-10T06:06:25.086340+00:00"
+  "totalGames": 3753,
+  "totalVariants": 5177,
+  "lastUpdated": "2026-11-10T06:09:50.480604+00:00"
 }
