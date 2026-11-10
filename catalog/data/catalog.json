@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T09:18:48.734011+00:00",
+  "updatedAt": "2026-11-10T09:21:45.735898+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -140888,9 +140888,269 @@
           "notes": "Switch 720p 30fps H264 | UNREAL LIFE — リリース予告EN"
         }
       ]
+    },
+    {
+      "titleId": "0100EC2011A80000",
+      "title": "Luxar",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EC2011A80000.jpg",
+      "variants": [
+        {
+          "id": "v_5c6049f3",
+          "name": "LUXAR — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oiI6jgKD-z21FMx4ZFTBZysBVNSp9jAh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oiI6jgKD-z21FMx4ZFTBZysBVNSp9jAh&sz=w640",
+          "sizeBytes": 5318081,
+          "sha256": "C22EEFF4332E86A961A9B37F75B7357B20A93588A91C018A482FDEA7B6D314DF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | LUXAR — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010043C010AEA000",
+      "title": "Across the Grooves",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010043C010AEA000.jpg",
+      "variants": [
+        {
+          "id": "v_32585603",
+          "name": "Across the Grooves — Across the Grooves — Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XubmGr3wkjXXVLCqvRrd7HG2OTTVhXOe",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XubmGr3wkjXXVLCqvRrd7HG2OTTVhXOe&sz=w640",
+          "sizeBytes": 4958301,
+          "sha256": "E769D0D1BD906B98F3AB5C30B370C813260C263CE0EACCCB315802B2A40CA2ED",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Across the Grooves — Across the Grooves "
+        }
+      ]
+    },
+    {
+      "titleId": "0100FE1011400000",
+      "title": "AntVentor",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FE1011400000.jpg",
+      "variants": [
+        {
+          "id": "v_06d17838",
+          "name": "AntVentor — Gameplay trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lJM8rCRnNdCc33RboNpRbJxr_RjC7Qmk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lJM8rCRnNdCc33RboNpRbJxr_RjC7Qmk&sz=w640",
+          "sizeBytes": 5507996,
+          "sha256": "3EEA6DE2ED78ADEF1D2365A28A2941D84986C45C4DF2CFE93D54E2D98BC65D4D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | AntVentor — Gameplay trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100209019832000",
+      "title": "Saturnalia",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100209019832000.jpg",
+      "variants": [
+        {
+          "id": "v_289e56d7",
+          "name": "Saturnalia — Accolades",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pnZewk10xfQ2VkGZ4ggBD4SfX9PR4zhM",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pnZewk10xfQ2VkGZ4ggBD4SfX9PR4zhM&sz=w640",
+          "sizeBytes": 5395185,
+          "sha256": "40C38A2794E3832A2563D58899E642AB9C151632B7642157549BA11976FAC793",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Saturnalia — Accolades"
+        }
+      ]
+    },
+    {
+      "titleId": "0100FED01624C000",
+      "title": "The Quest for Excalibur Puy du Fou",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100FED01624C000.jpg",
+      "variants": [
+        {
+          "id": "v_540075e0",
+          "name": "The Quest For Excalibur - Puy Du Fou — Trailer U",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1E0boI6n9l72KuFJXf6IU2_HV8offF6uS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1E0boI6n9l72KuFJXf6IU2_HV8offF6uS&sz=w640",
+          "sizeBytes": 5113380,
+          "sha256": "FAA333AB401927772A3252AF31339BC9BC16F7617023AA287C9F7AF8F0D417BF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Quest For Excalibur - Puy Du Fou — T"
+        }
+      ]
+    },
+    {
+      "titleId": "010060E015FF2000",
+      "title": "The Company Man",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010060E015FF2000.jpg",
+      "variants": [
+        {
+          "id": "v_d5d89f1d",
+          "name": "The Company Man — The Company Man-Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1usvuQtdoUinnN9m9XSTS8Y4pTTicFg_1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1usvuQtdoUinnN9m9XSTS8Y4pTTicFg_1&sz=w640",
+          "sizeBytes": 5500352,
+          "sha256": "CDE2DDD24DC323793DD309F3ED9892FF47C169C29229132C92608C7F5A5CFFE8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Company Man — The Company Man-Launch"
+        }
+      ]
+    },
+    {
+      "titleId": "01002B60178B4000",
+      "title": "Tasomachi Behind the Twilight",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002B60178B4000.jpg",
+      "variants": [
+        {
+          "id": "v_71bf3f21",
+          "name": "TASOMACHI: Behind the Twilight — Tasomachi - Lau",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hQs246dIHEZnc1GorBst3dsqgWklLALL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hQs246dIHEZnc1GorBst3dsqgWklLALL&sz=w640",
+          "sizeBytes": 5274030,
+          "sha256": "F8EBD3F6E80FAFEF64EB756BBDAC33E1D582771994DAA4108D9A08F6408AA898",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | TASOMACHI: Behind the Twilight — Tasomac"
+        }
+      ]
+    },
+    {
+      "titleId": "010038A016E92000",
+      "title": "Oxide Room 104",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010038A016E92000.jpg",
+      "variants": [
+        {
+          "id": "v_282598f5",
+          "name": "Oxide Room 104 — Oxide Room 104 Trailer English",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1D8EFP8Jp3amHlm8M44yJPoXkHwYRQhQo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1D8EFP8Jp3amHlm8M44yJPoXkHwYRQhQo&sz=w640",
+          "sizeBytes": 5614760,
+          "sha256": "593855E5D06BA8E556790E634F06597CA08DC402CD19C66AFE8F6C8A353C342B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Oxide Room 104 — Oxide Room 104 Trailer "
+        }
+      ]
+    },
+    {
+      "titleId": "01001ED012E84000",
+      "title": "Onsen Master",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001ED012E84000.jpg",
+      "variants": [
+        {
+          "id": "v_cb479500",
+          "name": "Onsen Master — Onsen Master Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WT4KqqhdW1U-C_zQmqZOFwJ5ziR6rrvj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WT4KqqhdW1U-C_zQmqZOFwJ5ziR6rrvj&sz=w640",
+          "sizeBytes": 4236194,
+          "sha256": "82B6290E241B8BE23BB4A82C911B2CE33978CF496D22F02295F0121A374046B1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Onsen Master — Onsen Master Release Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "0100410016E82000",
+      "title": "No Place for Bravery",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100410016E82000.jpg",
+      "variants": [
+        {
+          "id": "v_b116cf2d",
+          "name": "No Place for Bravery — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1lBUUqeyrnyaOmoLNjCQwjo8K2EvfxA0E",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1lBUUqeyrnyaOmoLNjCQwjo8K2EvfxA0E&sz=w640",
+          "sizeBytes": 4544588,
+          "sha256": "0D3FE2584106BBB2DF1BEF74DFE0E1727C45B49C818B3113B1981B43B53B6CAE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | No Place for Bravery — Launch Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 4363,
-  "totalVariants": 5787,
-  "lastUpdated": "2026-11-10T09:18:48.734011+00:00"
+  "totalGames": 4373,
+  "totalVariants": 5797,
+  "lastUpdated": "2026-11-10T09:21:45.735898+00:00"
 }
