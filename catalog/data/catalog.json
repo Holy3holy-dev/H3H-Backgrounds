@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T02:53:29.020851+00:00",
+  "updatedAt": "2026-11-10T02:56:20.500393+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -108388,9 +108388,269 @@
           "notes": "Switch 720p 30fps H264 | Half Past Fate: Romantic Distancing — Ha"
         }
       ]
+    },
+    {
+      "titleId": "0100D5D00C6BE000",
+      "title": "Our World is Ended",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D5D00C6BE000.jpg",
+      "variants": [
+        {
+          "id": "v_c5dab607",
+          "name": "Our World Is Ended. — Our World is Ended - Launc",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wS-bhhjLRQUPOKreq_tiF16iJmBjZ-8H",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wS-bhhjLRQUPOKreq_tiF16iJmBjZ-8H&sz=w640",
+          "sizeBytes": 5348846,
+          "sha256": "1A26257169962DBA5BDCB43587406FAA5EB143E785B5C40B7425481781BF7827",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Our World Is Ended. — Our World is Ended"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F7101906A000",
+      "title": "The Last Spell",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F7101906A000.jpg",
+      "variants": [
+        {
+          "id": "v_caafd12b",
+          "name": "The Last Spell — TheLastSpell_Launch_trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kbBiU-PyglKOuIDA4-xi5XG4V7sp4dyb",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kbBiU-PyglKOuIDA4-xi5XG4V7sp4dyb&sz=w640",
+          "sizeBytes": 4669327,
+          "sha256": "34BD1D642E96667DC92193D1BB52F56C57A18636DF8150E0126089636D8A67B3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Last Spell — TheLastSpell_Launch_tra"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E4D00A690000",
+      "title": "PixelJunk Monsters 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E4D00A690000.jpg",
+      "variants": [
+        {
+          "id": "v_4323c4cd",
+          "name": "PixelJunk™ Monsters 2 — Announce Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18eWoz6emXFvEcLnDY6DClf8kutH2ZRI_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18eWoz6emXFvEcLnDY6DClf8kutH2ZRI_&sz=w640",
+          "sizeBytes": 1375947,
+          "sha256": "9E71CED1BB96381F8DCE5A92C6F61C3DCF7376B5DE9762C11972FB3617AE315C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | PixelJunk™ Monsters 2 — Announce Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01004E90149AA000",
+      "title": "Azure Striker Gunvolt 3",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004E90149AA000.jpg",
+      "variants": [
+        {
+          "id": "v_dc2f2aaf",
+          "name": "Azure Striker GUNVOLT 3 — Azure Striker GUNVOLT ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1z72bdNphwEDFvTLyzKq0X4yR8KiuoUoU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1z72bdNphwEDFvTLyzKq0X4yR8KiuoUoU&sz=w640",
+          "sizeBytes": 4486204,
+          "sha256": "79C78BBE057351AF2B107EA9DC09D2D2F67BC9F06AA0D95795FD48661A17F8C3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Azure Striker GUNVOLT 3 — Azure Striker "
+        }
+      ]
+    },
+    {
+      "titleId": "0100BF401539C000",
+      "title": "Let's Build a Zoo",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BF401539C000.jpg",
+      "variants": [
+        {
+          "id": "v_f0048065",
+          "name": "Let's Build a Zoo — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14PkS4WseURTJPg12-tGCzGXc8-TTvbQc",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14PkS4WseURTJPg12-tGCzGXc8-TTvbQc&sz=w640",
+          "sizeBytes": 5096084,
+          "sha256": "B0864E40CCB552F5F29CABA139428131BF67D641DB22BB9F76701F7D2DCFF313",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Let's Build a Zoo — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010036D014A7E000",
+      "title": "Undernauts Labyrinth of Yomi",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010036D014A7E000.jpg",
+      "variants": [
+        {
+          "id": "v_8fb238ab",
+          "name": "Undernauts: Labyrinth of Yomi — Undernauts: Laby",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15dVemIeKb0IqtWINZm2UcCPfbQ7UXs1i",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15dVemIeKb0IqtWINZm2UcCPfbQ7UXs1i&sz=w640",
+          "sizeBytes": 4625161,
+          "sha256": "74C59FD8C593B01C3CEAB6464DED9C4A836CDBF7EAEE7C329885590945AF99AD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Undernauts: Labyrinth of Yomi — Undernau"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A3C01EA2C000",
+      "title": "The Mildew Children",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A3C01EA2C000.jpg",
+      "variants": [
+        {
+          "id": "v_47425efe",
+          "name": "The Mildew Children — Russian Voiceover update",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BxLeKNtuwj4YyHkGRjBReIOiSVQwUi_0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BxLeKNtuwj4YyHkGRjBReIOiSVQwUi_0&sz=w640",
+          "sizeBytes": 4673550,
+          "sha256": "E82DCC4D8D0E715D7EA310DA6C450878DBE32C7428187D4A6B18CC0DBB863400",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Mildew Children — Russian Voiceover "
+        }
+      ]
+    },
+    {
+      "titleId": "010072E018A66000",
+      "title": "Deathwish Enforcers",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010072E018A66000.jpg",
+      "variants": [
+        {
+          "id": "v_bc341b40",
+          "name": "Deathwish Enforcers Special Edition — Deathwish ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zBF5a-TdCm0jFCuU0gHDuwAZffufwFxW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zBF5a-TdCm0jFCuU0gHDuwAZffufwFxW&sz=w640",
+          "sizeBytes": 5461785,
+          "sha256": "48CCF7E344A2E5EE64F760CD4703DF1FC7789510B406C43C78B169421F33C15C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Deathwish Enforcers Special Edition — De"
+        }
+      ]
+    },
+    {
+      "titleId": "010001701248C000",
+      "title": "Super Monkey Ball Banana Mania",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010001701248C000.jpg",
+      "variants": [
+        {
+          "id": "v_8a0f61db",
+          "name": "Super Monkey Ball Banana Mania — Launch Trailer ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ah5JxN-uWyx9Thq68Wm6bVKYUYv4JOvK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ah5JxN-uWyx9Thq68Wm6bVKYUYv4JOvK&sz=w640",
+          "sizeBytes": 5037244,
+          "sha256": "91964F2CF3ECB37294361FCA8248759EB239A86B4906DA430B09FE6E683C6FA8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Super Monkey Ball Banana Mania — Launch "
+        }
+      ]
+    },
+    {
+      "titleId": "01001CF016CCA000",
+      "title": "Hammer Kid",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001CF016CCA000.jpg",
+      "variants": [
+        {
+          "id": "v_ea84ddf9",
+          "name": "Hammer Kid — Hammer Kid (Gameplay Trailer)",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1353L6Otd5q9Y6o_0QarexYl-ef_2aECN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1353L6Otd5q9Y6o_0QarexYl-ef_2aECN&sz=w640",
+          "sizeBytes": 5259045,
+          "sha256": "4DCB4E3BA89ACF17634886E342637AA6F32B169C9EC4F58B775EE79719D23AAE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hammer Kid — Hammer Kid (Gameplay Traile"
+        }
+      ]
     }
   ],
-  "totalGames": 3113,
-  "totalVariants": 4537,
-  "lastUpdated": "2026-11-10T02:53:29.020851+00:00"
+  "totalGames": 3123,
+  "totalVariants": 4547,
+  "lastUpdated": "2026-11-10T02:56:20.500393+00:00"
 }
