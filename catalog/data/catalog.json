@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T12:58:21.141167+00:00",
+  "updatedAt": "2026-11-10T13:02:19.731002+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -157528,9 +157528,269 @@
           "notes": "Switch 720p 30fps H264 | Thief of Thieves — Thief of Thieves: Sea"
         }
       ]
+    },
+    {
+      "titleId": "0100E4C011304000",
+      "title": "The Unholy Society",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E4C011304000.jpg",
+      "variants": [
+        {
+          "id": "v_2565e9d0",
+          "name": "The Unholy Society — The Unholy Society - Gamepl",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hjNnbsqQ9_oEWT-MreP2tgCApwYDLE_X",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hjNnbsqQ9_oEWT-MreP2tgCApwYDLE_X&sz=w640",
+          "sizeBytes": 4199761,
+          "sha256": "F2FBFE133E805F1954C0E499EE3241BDECC3E34DCA572311B7EB7D76C2919E05",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Unholy Society — The Unholy Society "
+        }
+      ]
+    },
+    {
+      "titleId": "0100AAA00DD4C000",
+      "title": "Lucah Born of a Dream",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AAA00DD4C000.jpg",
+      "variants": [
+        {
+          "id": "v_61102d98",
+          "name": "Lucah: Born of a Dream — Lucah: Born of a Dream ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cJwCmdkAvIrBpnnAdZPbEPUxVQHt1dI5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cJwCmdkAvIrBpnnAdZPbEPUxVQHt1dI5&sz=w640",
+          "sizeBytes": 5598971,
+          "sha256": "939C7CF064C193CA1A83013F8D952FE33FFE3C92142FBFF5ED1BCFC8D7EF5865",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lucah: Born of a Dream — Lucah: Born of "
+        }
+      ]
+    },
+    {
+      "titleId": "0100BC400FB64000",
+      "title": "Balthazar's Dream",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100BC400FB64000.jpg",
+      "variants": [
+        {
+          "id": "v_acd288b9",
+          "name": "Balthazar's Dream — Balthazar's Dream Launch Tra",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1EqVXGwHX37eVg5XMp0tXlLZleMuaXppO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1EqVXGwHX37eVg5XMp0tXlLZleMuaXppO&sz=w640",
+          "sizeBytes": 5531155,
+          "sha256": "D4F77A1E29DFEFEA928EA077DD15A032A90EAA7182EACB6551AB79EBF9D5B112",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Balthazar's Dream — Balthazar's Dream La"
+        }
+      ]
+    },
+    {
+      "titleId": "010098A01B9A8000",
+      "title": "Sokoball Dreams",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010098A01B9A8000.jpg",
+      "variants": [
+        {
+          "id": "v_2d7e03ea",
+          "name": "Sokoball Dreams — Main",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1V-GOhIZ39gaD_YWviHh_h86buCYNAhoi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1V-GOhIZ39gaD_YWviHh_h86buCYNAhoi&sz=w640",
+          "sizeBytes": 5336097,
+          "sha256": "E634F0186E757DB7FFB3361FE6701F57A5D075B5BFDFC859F47401895F20F158",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sokoball Dreams — Main"
+        }
+      ]
+    },
+    {
+      "titleId": "010097E00ADC2000",
+      "title": "Feral Fury",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010097E00ADC2000.jpg",
+      "variants": [
+        {
+          "id": "v_9820ef3b",
+          "name": "Feral Fury — Feral Fury Steam Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1aSN8f-xQLYy6CmFIulefvzLkl-Xqpnek",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1aSN8f-xQLYy6CmFIulefvzLkl-Xqpnek&sz=w640",
+          "sizeBytes": 5174494,
+          "sha256": "5BDA142E7E0EB48F999D90D0C7EF0E3A8C965023B7A6A67DE0894E8AFE150D17",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Feral Fury — Feral Fury Steam Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B6701B15A000",
+      "title": "Your Computer Might be at Risk",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B6701B15A000.jpg",
+      "variants": [
+        {
+          "id": "v_848ad68d",
+          "name": "Your Computer Might Be At Risk — Your Computer M",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10JStN8rknxxlb83yaAcjUiwC4V__86LT",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10JStN8rknxxlb83yaAcjUiwC4V__86LT&sz=w640",
+          "sizeBytes": 5277645,
+          "sha256": "93E20E97CF3B22494445567B68E5DD908DD1D33601A0E39D05148B975659D7CD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Your Computer Might Be At Risk — Your Co"
+        }
+      ]
+    },
+    {
+      "titleId": "01000AE01C348000",
+      "title": "Colorful Boi",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000AE01C348000.jpg",
+      "variants": [
+        {
+          "id": "v_854a93b2",
+          "name": "Colorful Boi 2 — Colorful Boi 2 - Gameplay Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1A86gr-iwL5qbBsn9S8UsVCJ3fhGskKsj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1A86gr-iwL5qbBsn9S8UsVCJ3fhGskKsj&sz=w640",
+          "sizeBytes": 5178975,
+          "sha256": "9DC1F3FDD13961E67DBEC29CCB682D16950B2827CF2A6498CCA01B44549F52AF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Colorful Boi 2 — Colorful Boi 2 - Gamepl"
+        }
+      ]
+    },
+    {
+      "titleId": "01005D701264A000",
+      "title": "SpyHack",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005D701264A000.jpg",
+      "variants": [
+        {
+          "id": "v_93978a72",
+          "name": "SPYHACK: Episode 1 — spyhack final trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10IJ_WYh55V0mnyF4cddT0JkIRzToDNot",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10IJ_WYh55V0mnyF4cddT0JkIRzToDNot&sz=w640",
+          "sizeBytes": 5628803,
+          "sha256": "4606334F223DBA4A167E693949B07BBD182E07C24F332B78430574C0CDBE1556",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | SPYHACK: Episode 1 — spyhack final trail"
+        }
+      ]
+    },
+    {
+      "titleId": "01005F000CC18000",
+      "title": "Overwhelm",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005F000CC18000.jpg",
+      "variants": [
+        {
+          "id": "v_b5bc35c1",
+          "name": "OVERWHELM — OVERWHELM Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=176QvgNI13MUXAg0lBOKRJogP32wmyP1s",
+          "previewUrl": "https://drive.google.com/thumbnail?id=176QvgNI13MUXAg0lBOKRJogP32wmyP1s&sz=w640",
+          "sizeBytes": 5145856,
+          "sha256": "25100A83351E25B34367FA3B43CEE7FF2D0B015D8DF40B9C94A44145BC8ACDCF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | OVERWHELM — OVERWHELM Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D1700C732000",
+      "title": "Monster Slayers",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D1700C732000.jpg",
+      "variants": [
+        {
+          "id": "v_d224b7d9",
+          "name": "Monster Slayers — Monster Slayers - Update Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OhcVpJ2C_NTTkJ9bRITUR7X1ZEbBAFxB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OhcVpJ2C_NTTkJ9bRITUR7X1ZEbBAFxB&sz=w640",
+          "sizeBytes": 5042401,
+          "sha256": "134F87A639CEF5F0DC79A1B65A00BB7D5A01A13140B46B3DAFA3684FF9BB3414",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Monster Slayers — Monster Slayers - Upda"
+        }
+      ]
     }
   ],
-  "totalGames": 5003,
-  "totalVariants": 6427,
-  "lastUpdated": "2026-11-10T12:58:21.141167+00:00"
+  "totalGames": 5013,
+  "totalVariants": 6437,
+  "lastUpdated": "2026-11-10T13:02:19.731002+00:00"
 }
