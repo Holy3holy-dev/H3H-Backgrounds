@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T08:01:26.117680+00:00",
+  "updatedAt": "2026-11-10T08:07:10.975800+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -134648,9 +134648,269 @@
           "notes": "Switch 720p 30fps H264 | Can of Wormholes — Announcement trailer"
         }
       ]
+    },
+    {
+      "titleId": "010054C01A84E000",
+      "title": "Arcadia Colony",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010054C01A84E000.jpg",
+      "variants": [
+        {
+          "id": "v_f9038d5a",
+          "name": "Arcadia: Colony — Arcadia: Colony - Launch Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XTL4WiUXGavFbyq_RSrtqRQgFLY1xuxg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XTL4WiUXGavFbyq_RSrtqRQgFLY1xuxg&sz=w640",
+          "sizeBytes": 5227543,
+          "sha256": "AE7ACBA1DC1255F28BE80E67823CEFF00A833ECC2662FC1A3F900C8C05ED5023",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Arcadia: Colony — Arcadia: Colony - Laun"
+        }
+      ]
+    },
+    {
+      "titleId": "010079F01AF2A000",
+      "title": "Another Bar Game",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010079F01AF2A000.jpg",
+      "variants": [
+        {
+          "id": "v_4ec80bdd",
+          "name": "Another Bar Game — Another Bar Game Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19IfckSDXXdS8CUfujyzhejC674fzvZWo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19IfckSDXXdS8CUfujyzhejC674fzvZWo&sz=w640",
+          "sizeBytes": 5319572,
+          "sha256": "F10C1E79D789AD5B4881D1A0267694EE8C87236B5A6E8E4EE1F1C7BEB37DA4EA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Another Bar Game — Another Bar Game Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C53011600000",
+      "title": "Anarkade",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C53011600000.jpg",
+      "variants": [
+        {
+          "id": "v_83c4801e",
+          "name": "Anarkade — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Mu0QFydU9NiFndm4p8Pzf7oNIk0yHMLn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Mu0QFydU9NiFndm4p8Pzf7oNIk0yHMLn&sz=w640",
+          "sizeBytes": 4483901,
+          "sha256": "9D97BCEF8240DC2DC92A640D255B53E4CC8CD2085A0356CCF94EEBA14CFC55C5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Anarkade — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010072F01DC94000",
+      "title": "All You Need is Help",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010072F01DC94000.jpg",
+      "variants": [
+        {
+          "id": "v_06d22042",
+          "name": "All You Need is Help — All You Need is Help Rele",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=16KD00N3NoZhVGaL8ArVuCBZW-ezTQiP3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=16KD00N3NoZhVGaL8ArVuCBZW-ezTQiP3&sz=w640",
+          "sizeBytes": 3582238,
+          "sha256": "C93B65746AC0A0543A3ABD3D73097D653E716BE31CF68E27D124FFC346473D50",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | All You Need is Help — All You Need is H"
+        }
+      ]
+    },
+    {
+      "titleId": "010008B00D682000",
+      "title": "8-Bit Adventures 2",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010008B00D682000.jpg",
+      "variants": [
+        {
+          "id": "v_5cb5917b",
+          "name": "8-Bit Adventures 2 — 8-Bit Adventures 2 Official",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1mdErgRpUsR_kUYP00Yh9okKZrhM2Xcsj",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1mdErgRpUsR_kUYP00Yh9okKZrhM2Xcsj&sz=w640",
+          "sizeBytes": 5376909,
+          "sha256": "3F7981C2E1FEAC80E1983B26CA19164081EA9C126C25708911D5779761C7AB0F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 8-Bit Adventures 2 — 8-Bit Adventures 2 "
+        }
+      ]
+    },
+    {
+      "titleId": "01009B101466C000",
+      "title": "502's Arcade",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009B101466C000.jpg",
+      "variants": [
+        {
+          "id": "v_0bca8723",
+          "name": "502's Arcade — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jiKSiNT-ewAQzCZbQH2LGlWwzOcSDkby",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jiKSiNT-ewAQzCZbQH2LGlWwzOcSDkby&sz=w640",
+          "sizeBytes": 5219679,
+          "sha256": "24BD776EDE298482AF32122861A7430FA721590A645C9D0F6D4406986500B8B9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | 502's Arcade — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E55019A86000",
+      "title": "Yeah Fighting Girl",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E55019A86000.jpg",
+      "variants": [
+        {
+          "id": "v_d728f965",
+          "name": "Yeah！Fighting Girl — trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PL0TpDiTU9LkSggjjS8fpsljaBIMujyL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PL0TpDiTU9LkSggjjS8fpsljaBIMujyL&sz=w640",
+          "sizeBytes": 5421449,
+          "sha256": "7018A5B99D537FBE48868E52A6EBCAB81275361019F691021D87D2DDD7CD6597",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Yeah！Fighting Girl — trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C72019B10000",
+      "title": "Yonesawara Hospital",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C72019B10000.jpg",
+      "variants": [
+        {
+          "id": "v_888a7d68",
+          "name": "YONESAWARA HOSPITAL — YONESAWARA_LaunchTrailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1U76qQK63sTiSX_xAj_kr30g91fZP635Y",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1U76qQK63sTiSX_xAj_kr30g91fZP635Y&sz=w640",
+          "sizeBytes": 3818638,
+          "sha256": "970071A870B2EE3870C1D3B227CDDAD9DC612F7F38A9A06FC924F6462B7C8C20",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | YONESAWARA HOSPITAL — YONESAWARA_LaunchT"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DC801A272000",
+      "title": "Zoeti",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DC801A272000.jpg",
+      "variants": [
+        {
+          "id": "v_89372830",
+          "name": "Zoeti — ZO | Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19ysDDbAdwlw-eA6UAZu0cjCmVjegCiPU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19ysDDbAdwlw-eA6UAZu0cjCmVjegCiPU&sz=w640",
+          "sizeBytes": 5550874,
+          "sha256": "4AB15F443152DFE63AA5D5A53D0CB7BDFB0F6E1E6AD7BAB96714FF7B297EDD11",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Zoeti — ZO | Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010006401D48A000",
+      "title": "Zomborg",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010006401D48A000.jpg",
+      "variants": [
+        {
+          "id": "v_d23e788d",
+          "name": "Zomborg — Zomborg Original Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PJYXSj1oEguh1rvoI0pSFQwo9v9T6AUU",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PJYXSj1oEguh1rvoI0pSFQwo9v9T6AUU&sz=w640",
+          "sizeBytes": 5374026,
+          "sha256": "7E58CD646124C50C7D2CD12465B0238C0D5F65CE4B3E50529C4D66ECE078FD6A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Zomborg — Zomborg Original Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 4123,
-  "totalVariants": 5547,
-  "lastUpdated": "2026-11-10T08:01:26.117680+00:00"
+  "totalGames": 4133,
+  "totalVariants": 5557,
+  "lastUpdated": "2026-11-10T08:07:10.975800+00:00"
 }
