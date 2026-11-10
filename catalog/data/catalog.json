@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T12:54:30.213136+00:00",
+  "updatedAt": "2026-11-10T12:58:21.141167+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -157268,9 +157268,269 @@
           "notes": "Switch 720p 30fps H264 | Zeroptian Invasion — Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100AFA00DED4000",
+      "title": "Hookbots",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100AFA00DED4000.jpg",
+      "variants": [
+        {
+          "id": "v_711124e4",
+          "name": "Hookbots — Hookbots - Official Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wZ0IrGev7xUphE8IAzlOH0n62aLWXphz",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wZ0IrGev7xUphE8IAzlOH0n62aLWXphz&sz=w640",
+          "sizeBytes": 5497958,
+          "sha256": "585C29E52FB8720FE8AD691107F30CF850C9FB06565962327E0A7637BFA6D766",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hookbots — Hookbots - Official Release T"
+        }
+      ]
+    },
+    {
+      "titleId": "010039300B6A2000",
+      "title": "Xenogunner",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010039300B6A2000.jpg",
+      "variants": [
+        {
+          "id": "v_9b28eae8",
+          "name": "Xenogunner — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1haKMvnu9Dk5YVQuuQ5BUMPbcYyiaoDFV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1haKMvnu9Dk5YVQuuQ5BUMPbcYyiaoDFV&sz=w640",
+          "sizeBytes": 3927575,
+          "sha256": "14A4403A761DCFEA1B2F5C08DC1FF7C3B7C8F5487FBB17B4B06E24D3E30C62BA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Xenogunner — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100337016D98000",
+      "title": "How to Say Goodbye",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100337016D98000.jpg",
+      "variants": [
+        {
+          "id": "v_3a4d11be",
+          "name": "How to Say Goodbye — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15RWzt3Oz1d5vQuyzi7vy0evYYgW9hUt7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15RWzt3Oz1d5vQuyzi7vy0evYYgW9hUt7&sz=w640",
+          "sizeBytes": 5107233,
+          "sha256": "286659B0F226BA99A58BEADE6C16D7CD66D56BE5660F18693D02C639D5300310",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | How to Say Goodbye — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100074020D62000",
+      "title": "Glowpop",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100074020D62000.jpg",
+      "variants": [
+        {
+          "id": "v_58be5f26",
+          "name": "Glowpop — Glowpop Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1knFZK-mEDxfRe1bQVnZ4_uFtKM6AjGUy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1knFZK-mEDxfRe1bQVnZ4_uFtKM6AjGUy&sz=w640",
+          "sizeBytes": 4958088,
+          "sha256": "91AA2F89A6478E8F1D19D82F69E50288473613EC85D43A922F02EB998F518B69",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Glowpop — Glowpop Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100928005094000",
+      "title": "Soulblight",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100928005094000.jpg",
+      "variants": [
+        {
+          "id": "v_132b8b19",
+          "name": "Soulblight — Soulblight Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=14exo01DHZoupMYPvigbKs6_A89tO1k7V",
+          "previewUrl": "https://drive.google.com/thumbnail?id=14exo01DHZoupMYPvigbKs6_A89tO1k7V&sz=w640",
+          "sizeBytes": 5394614,
+          "sha256": "B2205BCABC31ACB2391BD5FA892F9E4A97BF8EA6AB2A6F49F73094B642478C9C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Soulblight — Soulblight Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01001F9018E9C000",
+      "title": "Smilemo",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001F9018E9C000.jpg",
+      "variants": [
+        {
+          "id": "v_0a8d4372",
+          "name": "Smilemo — 공식프로모션무비",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vIuJ1JuNC5U02d08EZAym5ngUfK73e4u",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vIuJ1JuNC5U02d08EZAym5ngUfK73e4u&sz=w640",
+          "sizeBytes": 4984979,
+          "sha256": "E0C03E81CFE4D4C4ADF0705F2FFC6E9A787EC9E523ADA29C6341E7E82B62ABE1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Smilemo — 공식프로모션무비"
+        }
+      ]
+    },
+    {
+      "titleId": "01003B200C6CA000",
+      "title": "Tyr Chains of Valhalla",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003B200C6CA000.jpg",
+      "variants": [
+        {
+          "id": "v_c9dbc020",
+          "name": "Tyr: Chains of Valhalla — Tyr: Chains of Valhall",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1YsP6t6WXhjd7aQPn7BpTvX3W_FNZgH2V",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1YsP6t6WXhjd7aQPn7BpTvX3W_FNZgH2V&sz=w640",
+          "sizeBytes": 4110081,
+          "sha256": "F872AC12B486E3A074048E05FA7D9643679C8E797C983E99FD3E764744DE861C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tyr: Chains of Valhalla — Tyr: Chains of"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D400100F8000",
+      "title": "Tonight We Riot",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D400100F8000.jpg",
+      "variants": [
+        {
+          "id": "v_f4b98213",
+          "name": "Tonight We Riot — SteamGOGSwitchTrailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1MQUX4iece-G_wntcRELnVPTeuPPcPKaP",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1MQUX4iece-G_wntcRELnVPTeuPPcPKaP&sz=w640",
+          "sizeBytes": 5125312,
+          "sha256": "238D451C68014A1D0516D9354D365EFB3B4BAC94A1BDC1A5F9F18FBD64B3A393",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Tonight We Riot — SteamGOGSwitchTrailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F0400351C000",
+      "title": "Astro Duel Deluxe",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F0400351C000.jpg",
+      "variants": [
+        {
+          "id": "v_27ae5d82",
+          "name": "Astro Duel — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1w6CyVSJNMgPHYSbciXgBCn7D5RPuts83",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1w6CyVSJNMgPHYSbciXgBCn7D5RPuts83&sz=w640",
+          "sizeBytes": 4403722,
+          "sha256": "7A295FA36E482A065B4C45AA23059741412C9578A926F76E899782B529FFF810",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Astro Duel — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CE700F62A000",
+      "title": "Thief of Thieves",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CE700F62A000.jpg",
+      "variants": [
+        {
+          "id": "v_f4b16fe6",
+          "name": "Thief of Thieves — Thief of Thieves: Season One ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_GuekZmLVsIpw4NYAiSemGmeh6xo5C00",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_GuekZmLVsIpw4NYAiSemGmeh6xo5C00&sz=w640",
+          "sizeBytes": 4172418,
+          "sha256": "D6E3EE1EE4618BC418A5DC64B25A9325932FBE538CE943174D3B85BA36DAAB5E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Thief of Thieves — Thief of Thieves: Sea"
+        }
+      ]
     }
   ],
-  "totalGames": 4993,
-  "totalVariants": 6417,
-  "lastUpdated": "2026-11-10T12:54:30.213136+00:00"
+  "totalGames": 5003,
+  "totalVariants": 6427,
+  "lastUpdated": "2026-11-10T12:58:21.141167+00:00"
 }
