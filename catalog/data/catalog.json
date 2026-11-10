@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T20:55:42Z",
+  "updatedAt": "2026-11-10T20:56:57Z",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -9061,7 +9061,13 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 0100C1301A9C2000_MGS3_Snake_Eater.mp4"
+          "notes": "Google Drive: 0100C1301A9C2000_MGS3_Snake_Eater.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=186wHlCVpyIRsVeZQ6KqKuW6lqslu9ACv",
+          "iconSizeBytes": 300868,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
         },
         {
           "id": "v_45e3e304",
@@ -9098,6 +9104,30 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Big Boss Naked Snake | ЗВУК"
+        },
+        {
+          "id": "icon-0100c1301a9c2000",
+          "name": "4IFIR Иконка: Metal Gear Solid: Master Collection Edition, Vol. 1 (MG / MGS / MGS 2: Sons of Liberty / MGS 3: Snake Eater / Snake's Revenge) [NSZ][ENG]",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=186wHlCVpyIRsVeZQ6KqKuW6lqslu9ACv",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=186wHlCVpyIRsVeZQ6KqKuW6lqslu9ACv",
+          "sizeBytes": 300868,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=186wHlCVpyIRsVeZQ6KqKuW6lqslu9ACv",
+          "iconSizeBytes": 300868,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -9122,7 +9152,37 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 0100C1300BBC6000_ABZU.mp4"
+          "notes": "Google Drive: 0100C1300BBC6000_ABZU.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1s6PXUkb9BnSY0Lx8XnxT2AjOL08LUj99",
+          "iconSizeBytes": 192516,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
+        },
+        {
+          "id": "icon-0100c1300bbc6000",
+          "name": "4IFIR Иконка: ABZU [NSP][RUS/Multi9]",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1s6PXUkb9BnSY0Lx8XnxT2AjOL08LUj99",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1s6PXUkb9BnSY0Lx8XnxT2AjOL08LUj99",
+          "sizeBytes": 192516,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1s6PXUkb9BnSY0Lx8XnxT2AjOL08LUj99",
+          "iconSizeBytes": 192516,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -9275,7 +9335,37 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 0100AAA1E1BE1000_Zelda_Twilight_Princess.mp4"
+          "notes": "Google Drive: 0100AAA1E1BE1000_Zelda_Twilight_Princess.mp4",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1oS1Ao-fUTYTrRT3wxgcUxNYls7iqK7ia",
+          "iconSizeBytes": 198983,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
+        },
+        {
+          "id": "icon-0100aaa1e1be1000",
+          "name": "4IFIR Иконка: The Legend of Zelda: Twilight Princess (порт TP Dusk/Dusklight) [NRO][RUS/Multi6]",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oS1Ao-fUTYTrRT3wxgcUxNYls7iqK7ia",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1oS1Ao-fUTYTrRT3wxgcUxNYls7iqK7ia",
+          "sizeBytes": 198983,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1oS1Ao-fUTYTrRT3wxgcUxNYls7iqK7ia",
+          "iconSizeBytes": 198983,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -9300,7 +9390,37 @@
           "height": 720,
           "fps": 30.0,
           "hasAudio": false,
-          "notes": "Google Drive: 0100A5C00D162000_Cuphead_Jazz.mp4 (Clean - no Windows taskbar)"
+          "notes": "Google Drive: 0100A5C00D162000_Cuphead_Jazz.mp4 (Clean - no Windows taskbar)",
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1vIraD-y0AdssXFPXPgbEaTTzA2rzQhvP",
+          "iconSizeBytes": 281984,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256
+        },
+        {
+          "id": "icon-0100a5c00d162000",
+          "name": "4IFIR Иконка: Cuphead + The Delicious Last Course DLC [NSZ][RUS/Multi10]",
+          "style": "4IFIR Dynamic Icon",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vIraD-y0AdssXFPXPgbEaTTzA2rzQhvP",
+          "previewUrl": "https://drive.google.com/uc?export=download&id=1vIraD-y0AdssXFPXPgbEaTTzA2rzQhvP",
+          "sizeBytes": 281984,
+          "sha256": "",
+          "durationSec": 4.0,
+          "author": "@4IFIR / H3H",
+          "codec": "h264",
+          "width": 256,
+          "height": 256,
+          "fps": 30.0,
+          "hasAudio": false,
+          "hasIcon": true,
+          "iconUrl": "https://drive.google.com/uc?export=download&id=1vIraD-y0AdssXFPXPgbEaTTzA2rzQhvP",
+          "iconSizeBytes": 281984,
+          "iconCodec": "h264",
+          "iconWidth": 256,
+          "iconHeight": 256,
+          "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
         }
       ]
     },
@@ -169251,6 +169371,6 @@
     }
   ],
   "totalGames": 5418,
-  "totalVariants": 6873,
-  "lastUpdated": "2026-11-10T20:55:42Z"
+  "totalVariants": 6877,
+  "lastUpdated": "2026-11-10T20:56:57Z"
 }
