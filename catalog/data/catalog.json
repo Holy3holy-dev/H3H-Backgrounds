@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T11:32:02.348482+00:00",
+  "updatedAt": "2026-11-10T11:35:16.322091+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -151288,9 +151288,269 @@
           "notes": "Switch 720p 30fps H264 | Swoon! Earth Escape — Swoon! Earth Escap"
         }
       ]
+    },
+    {
+      "titleId": "01005F400E644000",
+      "title": "Invisigun Reloaded",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005F400E644000.jpg",
+      "variants": [
+        {
+          "id": "v_f8bb4ea0",
+          "name": "Invisigun Reloaded — Invisigun Reloaded - Launch",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HjdImBmMpU_IuhHmxhWYwH_Dt7zmeAKi",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HjdImBmMpU_IuhHmxhWYwH_Dt7zmeAKi&sz=w640",
+          "sizeBytes": 3136184,
+          "sha256": "942295E5F76EEB22E6FC197F597C66DEEDF1C158388921F0FBE648427ABFED0E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Invisigun Reloaded — Invisigun Reloaded "
+        }
+      ]
+    },
+    {
+      "titleId": "01000D900E0F0000",
+      "title": "Dead Dungeon",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000D900E0F0000.jpg",
+      "variants": [
+        {
+          "id": "v_194182ab",
+          "name": "Dead Dungeon — Dead Dungeon - Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TW86dqHO60XA_cpyYoYXVzXkO_Gkv1JW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TW86dqHO60XA_cpyYoYXVzXkO_Gkv1JW&sz=w640",
+          "sizeBytes": 4732352,
+          "sha256": "982E3125912E473DBE66DE2AD5648ADE5A97A5F2974FF208D4E71B73A570B0C8",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Dead Dungeon — Dead Dungeon - Release Tr"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A46018E0A000",
+      "title": "Monmusu Gladiator",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A46018E0A000.jpg",
+      "variants": [
+        {
+          "id": "v_f252db35",
+          "name": "Monmusu Gladiator — ショートPV",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1d5pYJjSmNDApQ5tD8a1fygMV_1gnlZTX",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1d5pYJjSmNDApQ5tD8a1fygMV_1gnlZTX&sz=w640",
+          "sizeBytes": 5097798,
+          "sha256": "0C3C4B0854D2CAE13FA61E37C2BAB2B19239B0107E544029F42D663BB4595985",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Monmusu Gladiator — ショートPV"
+        }
+      ]
+    },
+    {
+      "titleId": "0100340015DDC000",
+      "title": "Guild of Dungeoneering Ultimate edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100340015DDC000.jpg",
+      "variants": [
+        {
+          "id": "v_150753f4",
+          "name": "Guild of Dungeoneering Ultimate Edition — Guild ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DoUIDRTHHJq54RERaR5XdJ-aN09i_67v",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DoUIDRTHHJq54RERaR5XdJ-aN09i_67v&sz=w640",
+          "sizeBytes": 5290745,
+          "sha256": "16BCAABF54522352AA018847FD7B454EDECBA88A3B79030F24EB22470367F37C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Guild of Dungeoneering Ultimate Edition "
+        }
+      ]
+    },
+    {
+      "titleId": "010065500ED96000",
+      "title": "Mystic Vale",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010065500ED96000.jpg",
+      "variants": [
+        {
+          "id": "v_b61b2ab7",
+          "name": "Mystic Vale — Mystic Vale 30sec Game Play Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=11vQfpyXkezlEFXS6xFl0HdmmYIvb3N90",
+          "previewUrl": "https://drive.google.com/thumbnail?id=11vQfpyXkezlEFXS6xFl0HdmmYIvb3N90&sz=w640",
+          "sizeBytes": 5047604,
+          "sha256": "932FB8DD3E6E074C3B2EB5610A8D23CA45B9A9B7B5413F9350A112DBBC25FD28",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mystic Vale — Mystic Vale 30sec Game Pla"
+        }
+      ]
+    },
+    {
+      "titleId": "010017901913A000",
+      "title": "Donut Dodo",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010017901913A000.jpg",
+      "variants": [
+        {
+          "id": "v_310765d3",
+          "name": "Donut Dodo — Trailer 1",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1nMne7DTnALsLl0DW98wuJQXlc4PW4Vpv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1nMne7DTnALsLl0DW98wuJQXlc4PW4Vpv&sz=w640",
+          "sizeBytes": 4993670,
+          "sha256": "32683A5F34AB7F8DAEA6393BA4AEE5601DC9F523A332997FB987C2099B8F2F82",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Donut Dodo — Trailer 1"
+        }
+      ]
+    },
+    {
+      "titleId": "010040B003E5E000",
+      "title": "Shephy",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010040B003E5E000.jpg",
+      "variants": [
+        {
+          "id": "v_c97d62f6",
+          "name": "Shephy — Shephy Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SwdlwRmb64InrKP4vZ8wxr7Ev0jChiJZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SwdlwRmb64InrKP4vZ8wxr7Ev0jChiJZ&sz=w640",
+          "sizeBytes": 4900543,
+          "sha256": "D8C48852A79665A780DB9975108749F5C84D73763CE4AD90417B5988ECB4CDA0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Shephy — Shephy Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01000CA013AF2000",
+      "title": "Rise of the Slime",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000CA013AF2000.jpg",
+      "variants": [
+        {
+          "id": "v_381f8214",
+          "name": "Rise of the Slime — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Zqyet3XXFYREtct2v8-aZaUXKbbDStYW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Zqyet3XXFYREtct2v8-aZaUXKbbDStYW&sz=w640",
+          "sizeBytes": 4973644,
+          "sha256": "CDDB8AAFCD3D16556018F1E030F635AF24CD47BC153A6F8B77AD66A42D4755C4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rise of the Slime — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B4C014466000",
+      "title": "Miracle Snack Shop",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B4C014466000.jpg",
+      "variants": [
+        {
+          "id": "v_5011361d",
+          "name": "Miracle Snack Shop — play",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1YgOESXZQty2IWFcDAlYZ6hHCgIqADg3Z",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1YgOESXZQty2IWFcDAlYZ6hHCgIqADg3Z&sz=w640",
+          "sizeBytes": 5021561,
+          "sha256": "F9812ED86AB894F9888F04BC39E44F53C10AA1D3BA6AB35C5E4C14EA477DBA62",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Miracle Snack Shop — play"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D2800EB40000",
+      "title": "Battle Planet Judgement Day",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D2800EB40000.jpg",
+      "variants": [
+        {
+          "id": "v_d89f889d",
+          "name": "Battle Planet - Judgement Day — Battle Planet - ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wMFuhZbWykbk_82KIy9buLgCcY1CevOm",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wMFuhZbWykbk_82KIy9buLgCcY1CevOm&sz=w640",
+          "sizeBytes": 5267117,
+          "sha256": "F5B2D0844D61580A8B2668AA51A1AD7FAF636AA1A5D807D9C489A182EA354851",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Battle Planet - Judgement Day — Battle P"
+        }
+      ]
     }
   ],
-  "totalGames": 4763,
-  "totalVariants": 6187,
-  "lastUpdated": "2026-11-10T11:32:02.348482+00:00"
+  "totalGames": 4773,
+  "totalVariants": 6197,
+  "lastUpdated": "2026-11-10T11:35:16.322091+00:00"
 }
