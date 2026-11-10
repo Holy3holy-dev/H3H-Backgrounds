@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T01:56:46.129811+00:00",
+  "updatedAt": "2026-11-10T01:59:52.580295+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -103708,9 +103708,269 @@
           "notes": "Switch 720p 30fps H264 | Crime Secrets: Crimson Lily — Crime Secr"
         }
       ]
+    },
+    {
+      "titleId": "010051A00E99E000",
+      "title": "Bug Fables the Everlasting Sapling",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010051A00E99E000.jpg",
+      "variants": [
+        {
+          "id": "v_48596964",
+          "name": "Bug Fables: The Everlasting Sapling — Update 1.2",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1I5-NdU1iRrdpwGs2ZV4TM-ZdymWdqqtt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1I5-NdU1iRrdpwGs2ZV4TM-ZdymWdqqtt&sz=w640",
+          "sizeBytes": 4937256,
+          "sha256": "C18DD68BDF6D46224B764A84BC1B395A60892B34BD3CEF970DD47AFABD7AFC30",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bug Fables: The Everlasting Sapling — Up"
+        }
+      ]
+    },
+    {
+      "titleId": "01002E900CF38000",
+      "title": "Maid of Sker",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002E900CF38000.jpg",
+      "variants": [
+        {
+          "id": "v_ff286044",
+          "name": "Maid of Sker — Maid of Sker Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1kVy5m6Eiv8dwRNUEkuzoqMQ6j5ZLI8uS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1kVy5m6Eiv8dwRNUEkuzoqMQ6j5ZLI8uS&sz=w640",
+          "sizeBytes": 5543284,
+          "sha256": "1F83799AFE464BB5396473720EF97222724D72AE4480ED82BBBCDF21AAE1FEC0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Maid of Sker — Maid of Sker Launch Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EBB0179C0000",
+      "title": "Charon's Staircase",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EBB0179C0000.jpg",
+      "variants": [
+        {
+          "id": "v_bb2e14f4",
+          "name": "Charon's Staircase — Launch Trailer ENG",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17NJVr0ZptsetoVAdzrIXdyfBmxXpIAzK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17NJVr0ZptsetoVAdzrIXdyfBmxXpIAzK&sz=w640",
+          "sizeBytes": 3806622,
+          "sha256": "71078644FBE94DA14D8D55F7CEDD0716CF01B9C23188D05C238ED1E6054A1997",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Charon's Staircase — Launch Trailer ENG"
+        }
+      ]
+    },
+    {
+      "titleId": "01008BE01E1C2000",
+      "title": "SaGa Emerald Beyond",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008BE01E1C2000.jpg",
+      "variants": [
+        {
+          "id": "v_69b78f87",
+          "name": "SaGa Emerald Beyond  — ESRB EN Launch",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DlzTMIFXpGkxXzeJ0-OAIFA8Oq94gwrd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DlzTMIFXpGkxXzeJ0-OAIFA8Oq94gwrd&sz=w640",
+          "sizeBytes": 4602981,
+          "sha256": "CFAE13126644A68245A0C1500A366430AD3A35A555B879F76FEB6F13BBA06C0D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | SaGa Emerald Beyond  — ESRB EN Launch"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C14016F6C000",
+      "title": "Big Hops",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C14016F6C000.jpg",
+      "variants": [
+        {
+          "id": "v_e62af2bc",
+          "name": "Big Hops Together — Big Hops Together",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Yc2IDI8l_W9tJ4sTOqUGbdKuTxUG_nsq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Yc2IDI8l_W9tJ4sTOqUGbdKuTxUG_nsq&sz=w640",
+          "sizeBytes": 5566667,
+          "sha256": "5CD8DF52CAC9D6CD2A17B98CC0A21C84D1F8B89933B9BB95027CB48525A28B69",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Big Hops Together — Big Hops Together"
+        }
+      ]
+    },
+    {
+      "titleId": "010005F016964000",
+      "title": "Circa Infinity Ultimate edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010005F016964000.jpg",
+      "variants": [
+        {
+          "id": "v_fbeb4bce",
+          "name": "Circa Infinity — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1KJoWlgwDmC_Xuhk3CnNRIE8BZw7ew-K_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1KJoWlgwDmC_Xuhk3CnNRIE8BZw7ew-K_&sz=w640",
+          "sizeBytes": 4941785,
+          "sha256": "EFF03280E520FAAC3D49A8D78681CBAE42E7555DE9ACE3B6ED010B780C65CBAD",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Circa Infinity — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C5700434C000",
+      "title": "Sky Rogue",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C5700434C000.jpg",
+      "variants": [
+        {
+          "id": "v_ec13b504",
+          "name": "Sky Rogue — Sky Rogue - 1.0 Laucnch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1NE8jNh_nGQ78DzOiSyBTNSZCKx642bxV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1NE8jNh_nGQ78DzOiSyBTNSZCKx642bxV&sz=w640",
+          "sizeBytes": 5273877,
+          "sha256": "4567765309B083D9155DDBF97BE1FF752AE6C03792C6366E7AA38ECFD8DA2B33",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sky Rogue — Sky Rogue - 1.0 Laucnch Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "0100984013406000",
+      "title": "Girl Genius Adventures in Castle Heterodyne",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100984013406000.jpg",
+      "variants": [
+        {
+          "id": "v_6fc9af2c",
+          "name": "Girl Genius: Adventures In Castle Heterodyne — T",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Q5f_rGsiwPlRaYFd3d5wh5ID2QPLzb1Z",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Q5f_rGsiwPlRaYFd3d5wh5ID2QPLzb1Z&sz=w640",
+          "sizeBytes": 5399886,
+          "sha256": "BD178FDCDA66980A35092F889B0F67C251F799A7302F969CF2EE994E596103E7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Girl Genius: Adventures In Castle Hetero"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DFC00405E000",
+      "title": "Wheels of Aurelia",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DFC00405E000.jpg",
+      "variants": [
+        {
+          "id": "v_ad9a9a90",
+          "name": "Wheels of Aurelia — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1IhSZP_dhQecc3-mmcflpRFm-Qbo0duPS",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1IhSZP_dhQecc3-mmcflpRFm-Qbo0duPS&sz=w640",
+          "sizeBytes": 5091045,
+          "sha256": "9EDA3352E486EB24FE007E482722640637D199D17F56C125145BC659210C4E3E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wheels of Aurelia — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C1201C4D8000",
+      "title": "Mediterranea Inferno",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C1201C4D8000.jpg",
+      "variants": [
+        {
+          "id": "v_a6a3adc6",
+          "name": "Mediterranea Inferno — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18x7UbyW-w6bGXhj0HHi_lAqd5J3Da6-5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18x7UbyW-w6bGXhj0HHi_lAqd5J3Da6-5&sz=w640",
+          "sizeBytes": 5335042,
+          "sha256": "D27B156F1412DC898D79E8AC06964A35B82BBCB7F7946E7BF8D4BC3ACF8400D3",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mediterranea Inferno — Launch Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 2933,
-  "totalVariants": 4357,
-  "lastUpdated": "2026-11-10T01:56:46.129811+00:00"
+  "totalGames": 2943,
+  "totalVariants": 4367,
+  "lastUpdated": "2026-11-10T01:59:52.580295+00:00"
 }
