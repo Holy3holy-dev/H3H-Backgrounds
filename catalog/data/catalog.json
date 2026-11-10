@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T10:57:41.600081+00:00",
+  "updatedAt": "2026-11-10T11:01:26.985772+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -148688,9 +148688,269 @@
           "notes": "Switch 720p 30fps H264 | What The Duck — What The Duck - Launch T"
         }
       ]
+    },
+    {
+      "titleId": "0100E0901E11A000",
+      "title": "Racine",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E0901E11A000.jpg",
+      "variants": [
+        {
+          "id": "v_0e96ebb7",
+          "name": "Racine — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1EZpfptiIDCYgrSPtZJ2PCwSRBM19gydF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1EZpfptiIDCYgrSPtZJ2PCwSRBM19gydF&sz=w640",
+          "sizeBytes": 5496274,
+          "sha256": "C5F9CBDA6CD8A38DE4C8B9B5E1AA5424CEEAEC77952563834E9BCE2A92DEBA14",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Racine — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100691013C46000",
+      "title": "Aria Chronicle",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100691013C46000.jpg",
+      "variants": [
+        {
+          "id": "v_f3ce2725",
+          "name": "ARIA CHRONICLE — PV_EN",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17jItBwYzm9azCgHrmGg3zIHO72xSJYtR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17jItBwYzm9azCgHrmGg3zIHO72xSJYtR&sz=w640",
+          "sizeBytes": 4314772,
+          "sha256": "CC2C6831D752FE5EBB23CA2C53FFD391B4F3CDA225E01EE20F91716A3F26FCA6",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | ARIA CHRONICLE — PV_EN"
+        }
+      ]
+    },
+    {
+      "titleId": "0100F85016E2C000",
+      "title": "Pnevmo Capsula Domiki",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100F85016E2C000.jpg",
+      "variants": [
+        {
+          "id": "v_f8934260",
+          "name": "Pnevmo-Capsula: Domiki — Pnevmo-Capsula: Domiki ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1c2tmvyEKrSrs0hICk4LM0SMhDHstKc_L",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1c2tmvyEKrSrs0hICk4LM0SMhDHstKc_L&sz=w640",
+          "sizeBytes": 5035700,
+          "sha256": "09DDF7C2E89EB0D03422986F74C2FAF0C4F44DD35771FBDDF721B16AE50F12AB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Pnevmo-Capsula: Domiki — Pnevmo-Capsula:"
+        }
+      ]
+    },
+    {
+      "titleId": "0100501019CFE000",
+      "title": "Space Gladiators",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100501019CFE000.jpg",
+      "variants": [
+        {
+          "id": "v_455ced2f",
+          "name": "Space Gladiators — Early Access Gameplay",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1fZEiVDXxwj0MIVWDmuxa4NoqGOmEecuo",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1fZEiVDXxwj0MIVWDmuxa4NoqGOmEecuo&sz=w640",
+          "sizeBytes": 5510265,
+          "sha256": "0B9A871D44B246847B77C139B8EA8D7D8FFD0F821135DCE394A84D0FB7BC8A9F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Space Gladiators — Early Access Gameplay"
+        }
+      ]
+    },
+    {
+      "titleId": "010047A01754E000",
+      "title": "League of Enthusiastic Losers",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010047A01754E000.jpg",
+      "variants": [
+        {
+          "id": "v_20148b8a",
+          "name": "League Of Enthusiastic Losers — League Of Enthus",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1gNVmL5cTP357jXXT4i8PQ35wbqWyAwEn",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1gNVmL5cTP357jXXT4i8PQ35wbqWyAwEn&sz=w640",
+          "sizeBytes": 4034670,
+          "sha256": "34B539F1A8133DFB4D92681D3DF01B7B50930BA12857D9B6190BE74AC740891D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | League Of Enthusiastic Losers — League O"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A2100F036000",
+      "title": "Youropa",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A2100F036000.jpg",
+      "variants": [
+        {
+          "id": "v_e862c08b",
+          "name": "Youropa — Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1tDXAS_oL7s18Zhm7dH-hZt9PF3F-BDZF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1tDXAS_oL7s18Zhm7dH-hZt9PF3F-BDZF&sz=w640",
+          "sizeBytes": 5444900,
+          "sha256": "9FE99E93AEA8D793E27501B8C25543025215860C890DE3E9C86DAB2D81B06759",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Youropa — Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A0F0180D6000",
+      "title": "Shattered Tale of the Forgotten King",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A0F0180D6000.jpg",
+      "variants": [
+        {
+          "id": "v_d80ca4ec",
+          "name": "Shattered - Tale of the Forgotten King — Officia",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wW1MvXUxgxLw7jPGacRCvaDtmAuTuieE",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wW1MvXUxgxLw7jPGacRCvaDtmAuTuieE&sz=w640",
+          "sizeBytes": 3602215,
+          "sha256": "54E0EC3D8BD86B3A107E222C02A8D8ADFB3667E6A339BBAEE8D685540CE6DF08",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Shattered - Tale of the Forgotten King —"
+        }
+      ]
+    },
+    {
+      "titleId": "01005F201038C000",
+      "title": "Never Again",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005F201038C000.jpg",
+      "variants": [
+        {
+          "id": "v_94e75180",
+          "name": "Never Again — Never Again Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1G4NOMHzHkA9iigeqSTi4Q_nn898AJxN5",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1G4NOMHzHkA9iigeqSTi4Q_nn898AJxN5&sz=w640",
+          "sizeBytes": 9675729,
+          "sha256": "8E39A0ACC3268E94547859A78907D2B4E7F23D53D273D9275298D5FD3B495979",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Never Again — Never Again Gameplay Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "010009C024F3E000",
+      "title": "Pogo Stadium",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010009C024F3E000.jpg",
+      "variants": [
+        {
+          "id": "v_825cc81a",
+          "name": "POGO Stadium — GamePV_250827",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1HytaK5WJ8Ry9EQUt6p88PxG6RD8xbZI3",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1HytaK5WJ8Ry9EQUt6p88PxG6RD8xbZI3&sz=w640",
+          "sizeBytes": 5337117,
+          "sha256": "8687757B860D2CBE7F4773F697A6B52BD9B0F74C7B6BAFB1441BF5B1567C240E",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | POGO Stadium — GamePV_250827"
+        }
+      ]
+    },
+    {
+      "titleId": "01004140132A8000",
+      "title": "Infectra",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01004140132A8000.jpg",
+      "variants": [
+        {
+          "id": "v_86ac4d34",
+          "name": "Infectra — trailer new",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Jal5ChPS8wuiWaekSvTdL301xg4H0w7R",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Jal5ChPS8wuiWaekSvTdL301xg4H0w7R&sz=w640",
+          "sizeBytes": 5437264,
+          "sha256": "D018232A80A0AB8823DA28192E1E1B8E3D77D11D244F1B71D64E70C584E6B4A1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Infectra — trailer new"
+        }
+      ]
     }
   ],
-  "totalGames": 4663,
-  "totalVariants": 6087,
-  "lastUpdated": "2026-11-10T10:57:41.600081+00:00"
+  "totalGames": 4673,
+  "totalVariants": 6097,
+  "lastUpdated": "2026-11-10T11:01:26.985772+00:00"
 }
