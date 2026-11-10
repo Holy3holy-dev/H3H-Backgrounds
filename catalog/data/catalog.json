@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T03:19:52.293527+00:00",
+  "updatedAt": "2026-11-10T03:22:57.738374+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -110728,9 +110728,269 @@
           "notes": "Switch 720p 30fps H264 | Odysseus Kosmos and his Robot Quest (Com"
         }
       ]
+    },
+    {
+      "titleId": "010084B021BF0000",
+      "title": "Bearnard",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010084B021BF0000.jpg",
+      "variants": [
+        {
+          "id": "v_7bdb051c",
+          "name": "Bearnard — Gameplay trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qnK7BgysV4fbEwd9DjKyVZ9qh6UdMbua",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qnK7BgysV4fbEwd9DjKyVZ9qh6UdMbua&sz=w640",
+          "sizeBytes": 5214088,
+          "sha256": "27C2E8E8E3FCAB7383937862C0B0D50755671327FD51AEC9A829E048294F432A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bearnard — Gameplay trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010007301AB9C000",
+      "title": "All of Us are Dead",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010007301AB9C000.jpg",
+      "variants": [
+        {
+          "id": "v_c014c37d",
+          "name": "All of Us Are Dead... — 지금우리학교는 티저",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=15I35OSTFOTReWzA3bo-QKTVipAxtBzkk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=15I35OSTFOTReWzA3bo-QKTVipAxtBzkk&sz=w640",
+          "sizeBytes": 4100444,
+          "sha256": "058055CCB4A451279695603A65FD8701A72A3C877359B2A5397F387A31E15C9C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | All of Us Are Dead... — 지금우리학교는 티저"
+        }
+      ]
+    },
+    {
+      "titleId": "010067F017FD2000",
+      "title": "Vesper Zero Light edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010067F017FD2000.jpg",
+      "variants": [
+        {
+          "id": "v_f938a9cb",
+          "name": "Vesper: Zero Light Edition — Announcement Traile",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jKB5dn9xbDXw11P4zSsoxjpLeao8IgnW",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jKB5dn9xbDXw11P4zSsoxjpLeao8IgnW&sz=w640",
+          "sizeBytes": 4359750,
+          "sha256": "DE5E3C44DD3A11315436BEC63778E71E140ACF7638B44C491B55E0A128230086",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Vesper: Zero Light Edition — Announcemen"
+        }
+      ]
+    },
+    {
+      "titleId": "01002B700F88A000",
+      "title": "Traffix",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01002B700F88A000.jpg",
+      "variants": [
+        {
+          "id": "v_9df858af",
+          "name": "Traffix — Traffix_01",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1OeGcjLUNK8Y_O7oPcCsmZcyQPeQgRitZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1OeGcjLUNK8Y_O7oPcCsmZcyQPeQgRitZ&sz=w640",
+          "sizeBytes": 4420645,
+          "sha256": "E82D30F18F9ABC0A6E5DB183945D573BD94435013B0765A8F5EA4E1C13E965EA",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Traffix — Traffix_01"
+        }
+      ]
+    },
+    {
+      "titleId": "010044C01DA9C000",
+      "title": "One Last Breath",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010044C01DA9C000.jpg",
+      "variants": [
+        {
+          "id": "v_b245efae",
+          "name": "One Last Breath — One Last Breath - Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DoHBFm-MgLGg-pUrufhEE1Vap8UtjZN6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DoHBFm-MgLGg-pUrufhEE1Vap8UtjZN6&sz=w640",
+          "sizeBytes": 3625501,
+          "sha256": "F2F5F236652BCC59C99ACEDE52B70C09775FF1ACAC46DF27495642DED60BC45A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | One Last Breath — One Last Breath - Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "010010A01BBF4000",
+      "title": "The Forest Quartet",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010010A01BBF4000.jpg",
+      "variants": [
+        {
+          "id": "v_05843a65",
+          "name": "The Forest Quartet — The Forest Quartet - Launch",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zH8f8_BgvLSazzUWe2kwrhQtYO2Rw59z",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zH8f8_BgvLSazzUWe2kwrhQtYO2Rw59z&sz=w640",
+          "sizeBytes": 5106598,
+          "sha256": "8E3CC067F83E1F24435A72ECBE1EB5FB7875D8568EAFC04B4FE898A6D5AF4435",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Forest Quartet — The Forest Quartet "
+        }
+      ]
+    },
+    {
+      "titleId": "01006F201E530000",
+      "title": "Lakeview Cabin Collection",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01006F201E530000.jpg",
+      "variants": [
+        {
+          "id": "v_75b80b83",
+          "name": "Lakeview Cabin Collection — Lakeview Cabin V tra",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1jKxRrcgfog6aRK7J03MqwgE4K8MzYNjx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1jKxRrcgfog6aRK7J03MqwgE4K8MzYNjx&sz=w640",
+          "sizeBytes": 5041879,
+          "sha256": "80014C7D86E8426E03F1B127EAA3459C4A542161A6A671544337AEE162131C60",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lakeview Cabin Collection — Lakeview Cab"
+        }
+      ]
+    },
+    {
+      "titleId": "01008A100A028000",
+      "title": "Fox N Forests",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01008A100A028000.jpg",
+      "variants": [
+        {
+          "id": "v_83cb629c",
+          "name": "FOX n FORESTS — Fox n FORESTS Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CJhV51sLx8cwMY6Z-M8dlLeDTdBb_rOZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CJhV51sLx8cwMY6Z-M8dlLeDTdBb_rOZ&sz=w640",
+          "sizeBytes": 5510411,
+          "sha256": "F99DAFAB6606689C7D9802B1A086A5634FD10B4827CD655F10AE6B37EBA016E9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | FOX n FORESTS — Fox n FORESTS Gameplay T"
+        }
+      ]
+    },
+    {
+      "titleId": "01005EA01F4A2000",
+      "title": "Kittens Kingdom of Cats",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005EA01F4A2000.jpg",
+      "variants": [
+        {
+          "id": "v_741cd67c",
+          "name": "Hidden Kittens: Kingdom of Cats — Hidden Kittens",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Pzx8qMykWzaROswbpUDzMPnLNsMeD1K0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Pzx8qMykWzaROswbpUDzMPnLNsMeD1K0&sz=w640",
+          "sizeBytes": 4984661,
+          "sha256": "8812A2A6529CAD4267CFD8BB7C6E6BF6269C1FAE3879814EB21BFD06C9C08153",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hidden Kittens: Kingdom of Cats — Hidden"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B4D00C76E000",
+      "title": "Jumanji The Video Game",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B4D00C76E000.jpg",
+      "variants": [
+        {
+          "id": "v_555982f0",
+          "name": "JUMANJI: The Video Game — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1zuMKVtqdGhq-C_NI82XMIBcyE7EqOuYg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1zuMKVtqdGhq-C_NI82XMIBcyE7EqOuYg&sz=w640",
+          "sizeBytes": 5587553,
+          "sha256": "87B868EE7FE8C3C9CDA077D087689B77AC095F99F47BFDB7AF2A5AC7A702AA34",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | JUMANJI: The Video Game — Launch Trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 3203,
-  "totalVariants": 4627,
-  "lastUpdated": "2026-11-10T03:19:52.293527+00:00"
+  "totalGames": 3213,
+  "totalVariants": 4637,
+  "lastUpdated": "2026-11-10T03:22:57.738374+00:00"
 }
