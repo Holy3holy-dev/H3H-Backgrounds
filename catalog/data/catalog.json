@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T09:57:35.251897+00:00",
+  "updatedAt": "2026-11-10T10:00:40.560911+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -144268,9 +144268,269 @@
           "notes": "Switch 720p 30fps H264 | Ary and the Secret of Seasons — Launch T"
         }
       ]
+    },
+    {
+      "titleId": "010099F00EF3E000",
+      "title": "Klaus",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010099F00EF3E000.jpg",
+      "variants": [
+        {
+          "id": "v_87cc2171",
+          "name": "Klaus Lee - Thunderballs — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1iJTDn-1NZuzDZT-KJq2dmABLL5VmeZa7",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1iJTDn-1NZuzDZT-KJq2dmABLL5VmeZa7&sz=w640",
+          "sizeBytes": 5216326,
+          "sha256": "839A59E96CFF91486D00B5DFAECE734F9D597A5606BE736EEA01DE3EDCEE0270",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Klaus Lee - Thunderballs — Release Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B2E00F13E000",
+      "title": "Shipped",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B2E00F13E000.jpg",
+      "variants": [
+        {
+          "id": "v_95239405",
+          "name": "Shipped — Shipped v2 trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=10cxLLRNqGAw06u1m9ZaYN5NeCifkDixV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=10cxLLRNqGAw06u1m9ZaYN5NeCifkDixV&sz=w640",
+          "sizeBytes": 5524079,
+          "sha256": "69815B302E51279CC0D87CB40258F96E67A5ED5ED4343DF2FA0C2DF87DA91862",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Shipped — Shipped v2 trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01003F800E87C000",
+      "title": "Wuppo Definitive edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003F800E87C000.jpg",
+      "variants": [
+        {
+          "id": "v_e920dc9e",
+          "name": "Wuppo: Definitive Edition — Wuppo Gameplay Trail",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pBXfLTTS8QKH5gQ_C1f8xeSnIO2hKayp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pBXfLTTS8QKH5gQ_C1f8xeSnIO2hKayp&sz=w640",
+          "sizeBytes": 5178476,
+          "sha256": "EC6ECA056E7C0C91058BCAB4D372D4FAAC65410E1648A0B703DCCC184AFFF2B7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wuppo: Definitive Edition — Wuppo Gamepl"
+        }
+      ]
+    },
+    {
+      "titleId": "010084D00A134000",
+      "title": "War Theatre",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010084D00A134000.jpg",
+      "variants": [
+        {
+          "id": "v_e4037201",
+          "name": "War Theatre — Gameplay Explanation",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1wx8ekD1HEeRr5NgKtn3Azx5aOqH5pDqg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1wx8ekD1HEeRr5NgKtn3Azx5aOqH5pDqg&sz=w640",
+          "sizeBytes": 5131039,
+          "sha256": "BD1F728D1D323098E8645507FF6D8EE05528AF3B1351DC68F1F98D0C46F08484",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | War Theatre — Gameplay Explanation"
+        }
+      ]
+    },
+    {
+      "titleId": "010045200D3A4000",
+      "title": "Unknown Fate",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010045200D3A4000.jpg",
+      "variants": [
+        {
+          "id": "v_995582f5",
+          "name": "Unknown Fate — Launch Trailer 6.9.2018",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hSJha2piAQxgdMn0f5Plzb4l_WeZNCHL",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hSJha2piAQxgdMn0f5Plzb4l_WeZNCHL&sz=w640",
+          "sizeBytes": 5560099,
+          "sha256": "3AB9136906F2C662CE898184F31DFC7254BDDEBFE8D65E38B96E1475142499D0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Unknown Fate — Launch Trailer 6.9.2018"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DAF00B620000",
+      "title": "Ultrawings",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DAF00B620000.jpg",
+      "variants": [
+        {
+          "id": "v_289448ea",
+          "name": "Ultrawings 2 — Ultrawings 2 SPECIAL Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13x26afVSRzc4l6sfjWLvBaZDZbfxbUN1",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13x26afVSRzc4l6sfjWLvBaZDZbfxbUN1&sz=w640",
+          "sizeBytes": 5302891,
+          "sha256": "445A8E70BB888DCCC07C01B281886482375EA22311E1306AB57CDF4162451B4B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ultrawings 2 — Ultrawings 2 SPECIAL Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "0100E6300D448000",
+      "title": "Truberbrook",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100E6300D448000.jpg",
+      "variants": [
+        {
+          "id": "v_0e012754",
+          "name": "Truberbrook / Trüberbrook — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=18ufKISsRVN5zwYOKQwTZ1rpICd8G4PT-",
+          "previewUrl": "https://drive.google.com/thumbnail?id=18ufKISsRVN5zwYOKQwTZ1rpICd8G4PT-&sz=w640",
+          "sizeBytes": 4533546,
+          "sha256": "65D25EBE3FF1CCD70E2B8C468BC5347868FAC39DF9028335A0AC5040A2778903",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Truberbrook / Trüberbrook — Launch Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "010000B00D800000",
+      "title": "The Church in the Darkness",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010000B00D800000.jpg",
+      "variants": [
+        {
+          "id": "v_1b485a99",
+          "name": "The Church in the Darkness ™ — Available Now Tra",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1PHN1npJceoh5wI0MBXpLsAwO8ULt-0_N",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1PHN1npJceoh5wI0MBXpLsAwO8ULt-0_N&sz=w640",
+          "sizeBytes": 5430770,
+          "sha256": "C6635A8B03A5AC0EA31DC67C111CBC13B5055A0BD48DF22B37DD0B66B95C0621",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Church in the Darkness ™ — Available"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D9B00DB5E000",
+      "title": "Super Cane Magic Zero",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D9B00DB5E000.jpg",
+      "variants": [
+        {
+          "id": "v_7e66a574",
+          "name": "Super Cane Magic ZERO - Legend of the Cane Cane ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1T7U2CE32J0bZpkUShPnyEOF47rpjDzYR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1T7U2CE32J0bZpkUShPnyEOF47rpjDzYR&sz=w640",
+          "sizeBytes": 5350448,
+          "sha256": "3FA6CB68968A26C21E6BD00A1FF9569C08C0FA9938591A3D0A51C6F490B12DBE",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Super Cane Magic ZERO - Legend of the Ca"
+        }
+      ]
+    },
+    {
+      "titleId": "010049100B93E000",
+      "title": "Octahedron Transfixed edition",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010049100B93E000.jpg",
+      "variants": [
+        {
+          "id": "v_e3740ea7",
+          "name": "Octahedron: Transfixed Edition — ESRB EN Launch ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1VINjYwCWUQpbOBrL9i0KgvIzwQPbTrEF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1VINjYwCWUQpbOBrL9i0KgvIzwQPbTrEF&sz=w640",
+          "sizeBytes": 3754637,
+          "sha256": "32512FABFE4170E091C2D4A35DB45EBD16E118B7FED177D2253F25A811A4663C",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Octahedron: Transfixed Edition — ESRB EN"
+        }
+      ]
     }
   ],
-  "totalGames": 4493,
-  "totalVariants": 5917,
-  "lastUpdated": "2026-11-10T09:57:35.251897+00:00"
+  "totalGames": 4503,
+  "totalVariants": 5927,
+  "lastUpdated": "2026-11-10T10:00:40.560911+00:00"
 }
