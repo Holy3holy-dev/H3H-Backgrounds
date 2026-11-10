@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T00:42:05.796377+00:00",
+  "updatedAt": "2026-11-10T00:44:53.140753+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -98248,9 +98248,269 @@
           "notes": "Switch 720p 30fps H264 | Red Filament — Teaser Trailer"
         }
       ]
+    },
+    {
+      "titleId": "0100160017A80000",
+      "title": "Hello Engineer",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100160017A80000.jpg",
+      "variants": [
+        {
+          "id": "v_98dbdf78",
+          "name": "Hello Engineer: Scrap Machines Constructor — Hel",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1vq7VRqeU8e5Oi27ykI7Xt2A63yoP2GBh",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1vq7VRqeU8e5Oi27ykI7Xt2A63yoP2GBh&sz=w640",
+          "sizeBytes": 5332602,
+          "sha256": "F7CD8464F901113640FDD24303B53360501370BA695203D266EAF92120D10B7D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hello Engineer: Scrap Machines Construct"
+        }
+      ]
+    },
+    {
+      "titleId": "010077A00CB58000",
+      "title": "Catlateral Damage Remeowstered",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010077A00CB58000.jpg",
+      "variants": [
+        {
+          "id": "v_602a85a3",
+          "name": "Catlateral Damage: Remeowstered — Release Announ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1EKjPOlO71Vwyb4XqHt1owlpQgp15jhht",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1EKjPOlO71Vwyb4XqHt1owlpQgp15jhht&sz=w640",
+          "sizeBytes": 5410461,
+          "sha256": "9A17B018A44C174D8D0F11664A503864B4D3AA29461EB7A805A57BFFE5C313E7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Catlateral Damage: Remeowstered — Releas"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DD10287EC000",
+      "title": "Bonnie Bear Saves Frogtime",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DD10287EC000.jpg",
+      "variants": [
+        {
+          "id": "v_e136718d",
+          "name": "Bonnie Bear Saves Frogtime — launch trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1B2IWaRZo-I0Db3TvMl5uND2F6XjYIKy2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1B2IWaRZo-I0Db3TvMl5uND2F6XjYIKy2&sz=w640",
+          "sizeBytes": 5084480,
+          "sha256": "1ACB0DD2BDB564E26E990E233A7FD626830DC997AACBA25E9206D433571D4446",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Bonnie Bear Saves Frogtime — launch trai"
+        }
+      ]
+    },
+    {
+      "titleId": "010039F00EF70000",
+      "title": "Monstrum",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010039F00EF70000.jpg",
+      "variants": [
+        {
+          "id": "v_073e8841",
+          "name": "Monstrum — Monstrum - Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eQcsZrZPOlHPxRizS9uAy_3-pNOSBxLq",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eQcsZrZPOlHPxRizS9uAy_3-pNOSBxLq&sz=w640",
+          "sizeBytes": 5534603,
+          "sha256": "E45AADDBF99E4578F963F54DACF6F04F95E1BCA51FE3572C1D73F7D7BB10B2F1",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Monstrum — Monstrum - Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "010017402313E000",
+      "title": "Jack Barau",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010017402313E000.jpg",
+      "variants": [
+        {
+          "id": "v_b3751c94",
+          "name": "Jack Barau — JackBarau_Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=191ng5ucRnS5QTUjTKxGcVARy6apgCA5N",
+          "previewUrl": "https://drive.google.com/thumbnail?id=191ng5ucRnS5QTUjTKxGcVARy6apgCA5N&sz=w640",
+          "sizeBytes": 4345200,
+          "sha256": "200BB988073747DEA041A65FD4DA46C1ED94485459EB3AF8597550E73BCB5463",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Jack Barau — JackBarau_Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01001B201A8E2000",
+      "title": "Volgarr the Viking II",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001B201A8E2000.jpg",
+      "variants": [
+        {
+          "id": "v_7cea9bc5",
+          "name": "Volgarr the Viking II — Volgarr the Viking II La",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1ZtvxTW4qJub3TyZ-RQ-w4gCM_mc8x4sD",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1ZtvxTW4qJub3TyZ-RQ-w4gCM_mc8x4sD&sz=w640",
+          "sizeBytes": 4929134,
+          "sha256": "496874AE6E16AC13E4F96ACD66C132F0704206BF6C2A219969BD7CEA49068600",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Volgarr the Viking II — Volgarr the Viki"
+        }
+      ]
+    },
+    {
+      "titleId": "0100EC901551C000",
+      "title": "Lamentum",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EC901551C000.jpg",
+      "variants": [
+        {
+          "id": "v_777515e6",
+          "name": "Lamentum — Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1F-UMY7IwcHKWrRxWPbQ-vufHcr76weT_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1F-UMY7IwcHKWrRxWPbQ-vufHcr76weT_&sz=w640",
+          "sizeBytes": 5081999,
+          "sha256": "4023ACA29F76887B4AC4A8FE0A51A67717AB0AC2769852D81E889959C406C170",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lamentum — Release Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D0302439A000",
+      "title": "Detective Dotson",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D0302439A000.jpg",
+      "variants": [
+        {
+          "id": "v_02861331",
+          "name": "Detective Dotson — Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DOzZpdxfg2lTAQwmq6fQw9DjAhdfnQZa",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DOzZpdxfg2lTAQwmq6fQw9DjAhdfnQZa&sz=w640",
+          "sizeBytes": 5016478,
+          "sha256": "277A7A48A3EB1039E41BE05BCE732D87D2EB6181920197484C525CBAB8BB7DA4",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Detective Dotson — Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01001B001C0E8000",
+      "title": "Ebenezer and the Invisible World",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001B001C0E8000.jpg",
+      "variants": [
+        {
+          "id": "v_221c1d7b",
+          "name": "Ebenezer and the Invisible World — Ebenezer and ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1TAEK6L7vySfAAGhklWRGutfBRmSJyJ4B",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1TAEK6L7vySfAAGhklWRGutfBRmSJyJ4B&sz=w640",
+          "sizeBytes": 5485429,
+          "sha256": "E1044DF0AC69E7FF858019B7743F857F094E1078FF17B372A3CCD4AF29608B38",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ebenezer and the Invisible World — Ebene"
+        }
+      ]
+    },
+    {
+      "titleId": "0100D9B00E22C000",
+      "title": "Rebel Cops",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100D9B00E22C000.jpg",
+      "variants": [
+        {
+          "id": "v_748ee845",
+          "name": "Rebel Cops — Explanation trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1SSzzDc3BNT1tsNDgHTCL9M_QXJE8Lkdv",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1SSzzDc3BNT1tsNDgHTCL9M_QXJE8Lkdv&sz=w640",
+          "sizeBytes": 4550132,
+          "sha256": "8EB6E5A32D2F9B83EF6E2F9AA62ED8BF1999D9099ECAA4A836040B2042526B7B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rebel Cops — Explanation trailer"
+        }
+      ]
     }
   ],
-  "totalGames": 2723,
-  "totalVariants": 4147,
-  "lastUpdated": "2026-11-10T00:42:05.796377+00:00"
+  "totalGames": 2733,
+  "totalVariants": 4157,
+  "lastUpdated": "2026-11-10T00:44:53.140753+00:00"
 }
