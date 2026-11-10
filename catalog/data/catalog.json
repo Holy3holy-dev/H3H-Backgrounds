@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T03:53:10.459313+00:00",
+  "updatedAt": "2026-11-10T03:56:15.305895+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -113588,9 +113588,269 @@
           "notes": "Switch 720p 30fps H264 | Taxi Driver - The Simulation — Trailer"
         }
       ]
+    },
+    {
+      "titleId": "010022A016250000",
+      "title": "Hokko Life",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/010022A016250000.jpg",
+      "variants": [
+        {
+          "id": "v_8bd318be",
+          "name": "Hokko Life — Hokko Life - Version 1.0/Full Launc",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1WdpKU83bPnVfzzmISg1UtUyO5quvzy-Q",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1WdpKU83bPnVfzzmISg1UtUyO5quvzy-Q&sz=w640",
+          "sizeBytes": 5565738,
+          "sha256": "978063B5DBBAD876C3C04045B23E7918C80F73AC3F5F2745E4A84F11F881ECFF",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Hokko Life — Hokko Life - Version 1.0/Fu"
+        }
+      ]
+    },
+    {
+      "titleId": "0100C3D00D1D4000",
+      "title": "Alternate Jake Hunter Daedalus The Awakening of Golden Jazz",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C3D00D1D4000.jpg",
+      "variants": [
+        {
+          "id": "v_1bb58f3f",
+          "name": "Alternate Jake Hunter: DAEDALUS The Awakening of",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1sHHyEmmmqecbNIif5YE-XAD2tX6yFB28",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1sHHyEmmmqecbNIif5YE-XAD2tX6yFB28&sz=w640",
+          "sizeBytes": 5206701,
+          "sha256": "521760CA6E4871B9454015ADAB6A993393172F1B07F3D34581F8429EE5A29325",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Alternate Jake Hunter: DAEDALUS The Awak"
+        }
+      ]
+    },
+    {
+      "titleId": "01005F3012748000",
+      "title": "Batbarian Testament of the Primordials",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005F3012748000.jpg",
+      "variants": [
+        {
+          "id": "v_fa6609f7",
+          "name": "Batbarian: Testament of the Primordials — Batbar",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1DQDZPRV1OSRHr_p7OqM-jI5ZkWPnSZS2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1DQDZPRV1OSRHr_p7OqM-jI5ZkWPnSZS2&sz=w640",
+          "sizeBytes": 5248138,
+          "sha256": "1B491573FD1F66A56900ADE6150BDD992582B5394071DF8284483C3E788B4119",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Batbarian: Testament of the Primordials "
+        }
+      ]
+    },
+    {
+      "titleId": "0100EE90180C8000",
+      "title": "Lemon Cake",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100EE90180C8000.jpg",
+      "variants": [
+        {
+          "id": "v_d103542d",
+          "name": "Lemon Cake — Launch",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1w3tkzEFUfzwlLRZ-FtIZKpzOiLE0jQtV",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1w3tkzEFUfzwlLRZ-FtIZKpzOiLE0jQtV&sz=w640",
+          "sizeBytes": 5220419,
+          "sha256": "80B5D5764CBC30E443B8C63DBCD34E35DBF8589B58DC29E54E4090094987F4E0",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Lemon Cake — Launch"
+        }
+      ]
+    },
+    {
+      "titleId": "0100886022C30000",
+      "title": "Leila",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100886022C30000.jpg",
+      "variants": [
+        {
+          "id": "v_3703fad7",
+          "name": "Leila — Leila - Official Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1x83AuKqEPvQMKS3rKDVLq52RovdJYQy6",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1x83AuKqEPvQMKS3rKDVLq52RovdJYQy6&sz=w640",
+          "sizeBytes": 5266946,
+          "sha256": "71B8558850384A764B3B9BE580B1308DC257004E5F318BA67F1FA5C91DB16138",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Leila — Leila - Official Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A6C0180DE000",
+      "title": "Retro Revengers",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A6C0180DE000.jpg",
+      "variants": [
+        {
+          "id": "v_72032a45",
+          "name": "Retro Revengers — Retro Revengers Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FkSUC6rOonQ1KDyNNXNTFJg-z84o-YPy",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FkSUC6rOonQ1KDyNNXNTFJg-z84o-YPy&sz=w640",
+          "sizeBytes": 5448373,
+          "sha256": "C8C28C8E4611DD6D889655BD87946BBF875E00D9C8B0B47C2515A1894AAF7E04",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Retro Revengers — Retro Revengers Traile"
+        }
+      ]
+    },
+    {
+      "titleId": "01001C9007614000",
+      "title": "Max: The Curse of Brotherhood",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001C9007614000.jpg",
+      "variants": [
+        {
+          "id": "v_2d0629d8",
+          "name": "Max: The Curse of Brotherhood — Max Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1k23LaoCR1xNUL6XWizo51udSMABsWIht",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1k23LaoCR1xNUL6XWizo51udSMABsWIht&sz=w640",
+          "sizeBytes": 5311147,
+          "sha256": "A3DF31F5B7BBB9E57E8097CA1EB47CBD7ACAE1B914715FE3C81FF262D1870680",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Max: The Curse of Brotherhood — Max Trai"
+        }
+      ]
+    },
+    {
+      "titleId": "0100CCC0153F6000",
+      "title": "Big Rumble Boxing Creed Champions",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100CCC0153F6000.jpg",
+      "variants": [
+        {
+          "id": "v_b283f315",
+          "name": "Big Rumble Boxing: Creed Champions — Big Rumble ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1oHSxYI2u6VeSIhH1bwkzEUzaiZ0esbrO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1oHSxYI2u6VeSIhH1bwkzEUzaiZ0esbrO&sz=w640",
+          "sizeBytes": 5389538,
+          "sha256": "A8F5D8621390B66462830BC979D051CB0938F433AAF0F16D825FE64D30DD0869",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Big Rumble Boxing: Creed Champions — Big"
+        }
+      ]
+    },
+    {
+      "titleId": "01001330155EC000",
+      "title": "Grapple Dogs Cosmic Canines",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01001330155EC000.jpg",
+      "variants": [
+        {
+          "id": "v_70bc6799",
+          "name": "Grapple Dogs: Cosmic Canines — Accolades Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_IySCHQWN40JUmrcfyelI-8EAghJbId0",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_IySCHQWN40JUmrcfyelI-8EAghJbId0&sz=w640",
+          "sizeBytes": 5399373,
+          "sha256": "55A3AA8A21CD7A55B9D0F209707493B0402E3EA8E094BE45159670E98A6D8FAB",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Grapple Dogs: Cosmic Canines — Accolades"
+        }
+      ]
+    },
+    {
+      "titleId": "0100DBD01543A000",
+      "title": "A Little Golf Journey",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100DBD01543A000.jpg",
+      "variants": [
+        {
+          "id": "v_8b0330b9",
+          "name": "A Little Golf Journey — A Little Golf Journey - ",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1H0YKDscD_PsmT_JMIqqgRLKv0zdPPuQZ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1H0YKDscD_PsmT_JMIqqgRLKv0zdPPuQZ&sz=w640",
+          "sizeBytes": 5366749,
+          "sha256": "9A40B92B2EFB38D814991158C2790AAF80491C6182AA23E999F0C2D85C5749EC",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | A Little Golf Journey — A Little Golf Jo"
+        }
+      ]
     }
   ],
-  "totalGames": 3313,
-  "totalVariants": 4737,
-  "lastUpdated": "2026-11-10T03:53:10.459313+00:00"
+  "totalGames": 3323,
+  "totalVariants": 4747,
+  "lastUpdated": "2026-11-10T03:56:15.305895+00:00"
 }
