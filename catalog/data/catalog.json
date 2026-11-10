@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T05:20:31.949780+00:00",
+  "updatedAt": "2026-11-10T05:23:23.919475+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -121128,9 +121128,269 @@
           "notes": "Switch 720p 30fps H264 | PixelJunk™ Eden 2 — Eden 2 Announce Trai"
         }
       ]
+    },
+    {
+      "titleId": "01003B401148E000",
+      "title": "Wurroom",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003B401148E000.jpg",
+      "variants": [
+        {
+          "id": "v_ce32cc92",
+          "name": "Wurroom — Wurroom",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1rtunoaJgsMrken6F60xZ3Zdu8tTCedEk",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1rtunoaJgsMrken6F60xZ3Zdu8tTCedEk&sz=w640",
+          "sizeBytes": 5333620,
+          "sha256": "D0D1608F3539025583B5D1223BD1BE753758FDB2B1FA0D3A11AFCE9FC71B9FF7",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wurroom — Wurroom"
+        }
+      ]
+    },
+    {
+      "titleId": "01005B00177F2000",
+      "title": "Floogen",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005B00177F2000.jpg",
+      "variants": [
+        {
+          "id": "v_b86895dc",
+          "name": "Floogen — Floogen May 2021 Release Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1O-cOVY7TvXC3vrjRn-Cln_UbDZQo5HvA",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1O-cOVY7TvXC3vrjRn-Cln_UbDZQo5HvA&sz=w640",
+          "sizeBytes": 5337690,
+          "sha256": "A9D0E4C6CE14CDF3C34B479A189F47B50C25783CD2CF287783A17549CC8F53A2",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Floogen — Floogen May 2021 Release Trail"
+        }
+      ]
+    },
+    {
+      "titleId": "0100B3901324A000",
+      "title": "Danger Gazers",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100B3901324A000.jpg",
+      "variants": [
+        {
+          "id": "v_3d964325",
+          "name": "Danger Gazers — Game Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Ta5XZVwoDA17myI8Afs_-Zo5wHiHP0Q2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Ta5XZVwoDA17myI8Afs_-Zo5wHiHP0Q2&sz=w640",
+          "sizeBytes": 5411608,
+          "sha256": "529D47A92872A517AECC75579E5FB30502E80468D0A6EA10591DC81AC1BD6D8F",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Danger Gazers — Game Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "01003A10208FA000",
+      "title": "Noctuary",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01003A10208FA000.jpg",
+      "variants": [
+        {
+          "id": "v_c7a6e4f1",
+          "name": "Noctuary — Noctuary | Gameplay Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1FBdR_LUsZufokCvjhOYNH0w3G7DaFRxg",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1FBdR_LUsZufokCvjhOYNH0w3G7DaFRxg&sz=w640",
+          "sizeBytes": 5026101,
+          "sha256": "54D82A2DA6AB0B0F15A46B046A2F2BBD982A48906BF29F016FA2213BDEBF7DE5",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Noctuary — Noctuary | Gameplay Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100170025ACA000",
+      "title": "Magic Rune Stone",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100170025ACA000.jpg",
+      "variants": [
+        {
+          "id": "v_74516779",
+          "name": "Magic Rune Stone — pvy2",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1UT6Ojql2RFMBHZF2vCzOFSgIFTXhnbw8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1UT6Ojql2RFMBHZF2vCzOFSgIFTXhnbw8&sz=w640",
+          "sizeBytes": 4603958,
+          "sha256": "D124791FC26DAB38853A9A2791EA51F34B56BC7114D422811E392C922917B92B",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Magic Rune Stone — pvy2"
+        }
+      ]
+    },
+    {
+      "titleId": "01009130156BA000",
+      "title": "Wildbus",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01009130156BA000.jpg",
+      "variants": [
+        {
+          "id": "v_f16cff88",
+          "name": "Wildbus — 1min",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1BFY2PNKPUE2pSzodWRH13ESaP-cwKJsm",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1BFY2PNKPUE2pSzodWRH13ESaP-cwKJsm&sz=w640",
+          "sizeBytes": 5270528,
+          "sha256": "50678370D255CB76C7B66F019148E8A6DA7B5B7317B17699D000EB7DB64EE98A",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Wildbus — 1min"
+        }
+      ]
+    },
+    {
+      "titleId": "01000F201542E000",
+      "title": "Filmechanism",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01000F201542E000.jpg",
+      "variants": [
+        {
+          "id": "v_056e87d3",
+          "name": "FILMECHANISM — filmechanism_award_steam",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1YJYpzE4UoNKHcFLKBSRk_-Qv6HxaM9bJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1YJYpzE4UoNKHcFLKBSRk_-Qv6HxaM9bJ&sz=w640",
+          "sizeBytes": 3711704,
+          "sha256": "54D41CDE044ECB60B12DE744CAF1302D11AA7032A666477F0240D24D32624303",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | FILMECHANISM — filmechanism_award_steam"
+        }
+      ]
+    },
+    {
+      "titleId": "01007A200F452000",
+      "title": "Book of Demons",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01007A200F452000.jpg",
+      "variants": [
+        {
+          "id": "v_bd111683",
+          "name": "Book of Demons — Early Access Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1d8NLDMJ93j8uSZ3rtbT7I3QftGf9rqev",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1d8NLDMJ93j8uSZ3rtbT7I3QftGf9rqev&sz=w640",
+          "sizeBytes": 5361315,
+          "sha256": "6D888DA497AA94DC8F7CBA1F0BE87AF5D01C806E6902662A61A9182212B6D542",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Book of Demons — Early Access Launch Tra"
+        }
+      ]
+    },
+    {
+      "titleId": "01005DC022150000",
+      "title": "Majotori",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/01005DC022150000.jpg",
+      "variants": [
+        {
+          "id": "v_ea38ec75",
+          "name": "Majotori — Majotori Launch Trailer",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1hGnhkV-H3qmzfyCE2PegP7rpHzYsbfNp",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1hGnhkV-H3qmzfyCE2PegP7rpHzYsbfNp&sz=w640",
+          "sizeBytes": 5183901,
+          "sha256": "BB8C2808E6758D6425BB6EEAAD3BF303B3464F9E264C31FBAD26F92120C0528D",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Majotori — Majotori Launch Trailer"
+        }
+      ]
+    },
+    {
+      "titleId": "0100A70016FEE000",
+      "title": "Freak Crossing",
+      "publisher": "Nintendo Switch",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100A70016FEE000.jpg",
+      "variants": [
+        {
+          "id": "v_54e99595",
+          "name": "Freak Crossing — 1st Trailer English",
+          "style": "Official Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1drPNO2SmCZBxl0LbuMXe_LWJFitfC9x8",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1drPNO2SmCZBxl0LbuMXe_LWJFitfC9x8&sz=w640",
+          "sizeBytes": 4681820,
+          "sha256": "07C1BBA95CAF77BCD60D409410F2BCE7436214376E07ED876B58E17F0323C0C9",
+          "durationSec": 24.0,
+          "author": "Steam Official HD",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Freak Crossing — 1st Trailer English"
+        }
+      ]
     }
   ],
-  "totalGames": 3603,
-  "totalVariants": 5027,
-  "lastUpdated": "2026-11-10T05:20:31.949780+00:00"
+  "totalGames": 3613,
+  "totalVariants": 5037,
+  "lastUpdated": "2026-11-10T05:23:23.919475+00:00"
 }
