@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T03:40:41.632411+00:00",
+  "updatedAt": "2026-11-11T03:41:24.571092+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -10292,6 +10292,42 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Ultra-HQ v2 (Lanczos + CAS 0.45 + Seamless xfade + High@Slow CRF 15)"
+        },
+        {
+          "id": "v_90b2b427",
+          "name": "The Ruins Undertale Pixel",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1dk7T8JxY-0YNZX8hW6xcoLots4-ujrOa",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1dk7T8JxY-0YNZX8hW6xcoLots4-ujrOa&sz=w640",
+          "sizeBytes": 1658134,
+          "sha256": "C1454FC958E15682EEC379E594F1FE475079FE68CBB0A98D19867CBA2F2E1F35",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Ruins Undertale Pixel"
+        },
+        {
+          "id": "v_781d4ccf",
+          "name": "Cliffs Shop Sunset Deltarune Pixel",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=13WKN2zqy4ne6lymCrRsPI0vV0K3PuGfO",
+          "previewUrl": "https://drive.google.com/thumbnail?id=13WKN2zqy4ne6lymCrRsPI0vV0K3PuGfO&sz=w640",
+          "sizeBytes": 826808,
+          "sha256": "D58E468BA9185F3CDEB95F9451996D9DC24135EBF9A444B7275A8860E928093C",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Cliffs Shop Sunset Deltarune Pixel"
         }
       ]
     },
@@ -174747,6 +174783,6 @@
     }
   ],
   "totalGames": 5418,
-  "totalVariants": 7060,
-  "lastUpdated": "2026-11-11T03:40:41.632411+00:00"
+  "totalVariants": 7062,
+  "lastUpdated": "2026-11-11T03:41:24.571092+00:00"
 }
