@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T03:38:05.659158+00:00",
+  "updatedAt": "2026-11-11T03:40:41.632411+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -7011,6 +7011,42 @@
           "iconCodec": "h264",
           "iconWidth": 256,
           "iconHeight": 256
+        },
+        {
+          "id": "v_ad86e342",
+          "name": "The Twins Terraria",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1aNKQczjTc67AxPhGljVrXgFO1POeqRVu",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1aNKQczjTc67AxPhGljVrXgFO1POeqRVu&sz=w640",
+          "sizeBytes": 1375995,
+          "sha256": "20AF7F7CF450A006AC6ECE0FB6C7B868A2E1B5F86075E831F6150E06E9E09795",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | The Twins Terraria"
+        },
+        {
+          "id": "v_5489cedd",
+          "name": "Stardust Dragon’s Summon Terraria",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Y5vYJXtdM4BQ898EZzePgxpGwB1CZbpt",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Y5vYJXtdM4BQ898EZzePgxpGwB1CZbpt&sz=w640",
+          "sizeBytes": 1120386,
+          "sha256": "6A9636C615457F45D9D93D14989BDF241806EA3309AD7DBE23781868D051E7E4",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Stardust Dragon’s Summon Terraria"
         }
       ]
     },
@@ -174711,6 +174747,6 @@
     }
   ],
   "totalGames": 5418,
-  "totalVariants": 7058,
-  "lastUpdated": "2026-11-11T03:38:05.659158+00:00"
+  "totalVariants": 7060,
+  "lastUpdated": "2026-11-11T03:40:41.632411+00:00"
 }
