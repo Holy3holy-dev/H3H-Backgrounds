@@ -125,12 +125,9 @@ def main() -> int:
     if res.stderr:
         print("Commit STDERR:", res.stderr)
 
-    print("[*] Синхронизация (pull --rebase) с веткой main...")
-    subprocess.run(["git", "pull", "--rebase", repo_url, "main"], cwd=str(PROJECT_ROOT), env=git_env, check=False)
-
     print("[*] Отправка в ветку main...")
     res_main = subprocess.run(["git", "push", repo_url, "HEAD:refs/heads/main"], cwd=str(PROJECT_ROOT), env=git_env, capture_output=True, text=True)
-    print("Main Push Exit:", res_main.returncode, res_main.stderr)
+    print("Main Push Exit:", res_main.returncode, res_main.stdout, res_main.stderr)
     if res_main.returncode != 0:
         print("[-] Ошибка отправки в main!")
         return 1
