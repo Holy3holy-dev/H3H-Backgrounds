@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T00:51:23Z",
+  "updatedAt": "2026-11-11T03:35:04.520879+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -18379,6 +18379,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Dark Knight Final Fantasy XIV"
+        },
+        {
+          "id": "v_365e4d85",
+          "name": "Vincent Valentine Final Fantasy VII Dirge Of ",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Wyq0CnpxJWlCTtIQI1LUunMV9_yeRryR",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Wyq0CnpxJWlCTtIQI1LUunMV9_yeRryR&sz=w640",
+          "sizeBytes": 2004874,
+          "sha256": "B34C7350DD9278ECADD779F671300CABE3533EFD7D8062A11CAAF6F414A52CA5",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Vincent Valentine Final Fantasy VII Di"
         }
       ]
     },
@@ -174603,6 +174621,6 @@
     }
   ],
   "totalGames": 5418,
-  "totalVariants": 7052,
-  "lastUpdated": "2026-11-11T00:51:23Z"
+  "totalVariants": 7053,
+  "lastUpdated": "2026-11-11T03:35:04.520879+00:00"
 }
