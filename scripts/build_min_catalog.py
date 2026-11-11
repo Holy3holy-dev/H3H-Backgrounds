@@ -6,6 +6,7 @@
 
 import gzip
 import json
+import shutil
 from pathlib import Path
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
@@ -13,6 +14,12 @@ SRC_CATALOG = ROOT_DIR / "catalog" / "data" / "catalog.json"
 MIN_CATALOG = ROOT_DIR / "catalog" / "data" / "catalog.min.json"
 GZ_CATALOG = ROOT_DIR / "catalog" / "data" / "catalog.min.json.gz"
 ROMFS_CATALOG = ROOT_DIR / "downloader" / "romfs" / "catalog.json"
+
+SRC_AD_CATALOG = ROOT_DIR / "catalog" / "data" / "catalog_after_dark.json"
+MIN_AD_CATALOG = ROOT_DIR / "catalog" / "data" / "catalog_after_dark.min.json"
+GZ_AD_CATALOG = ROOT_DIR / "catalog" / "data" / "catalog_after_dark.min.json.gz"
+ROMFS_AD_DIR = ROOT_DIR / "downloader" / "romfs_after_dark"
+ROMFS_AD_CATALOG = ROMFS_AD_DIR / "catalog.json"
 
 
 def minify_catalog_dict(data: dict) -> dict:
@@ -98,34 +105,59 @@ def minify_catalog_dict(data: dict) -> dict:
     }
 
 
-def build_min_catalog() -> None:
-    with open(SRC_CATALOG, "r", encoding="utf-8") as f:
+def _pack_single_catalog(src_path: Path, min_path: Path, gz_path: Path, romfs_cat_path: Path, label: str) -> None:
+    if not src_path.exists():
+        return
+    with open(src_path, "r", encoding="utf-8") as f:
         raw_data = json.load(f)
 
     minified = minify_catalog_dict(raw_data)
     payload = json.dumps(minified, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
 
-    with open(MIN_CATALOG, "wb") as f:
+    with open(min_path, "wb") as f:
         f.write(payload)
 
-    with gzip.open(GZ_CATALOG, "wb", compresslevel=9) as gf:
+    with gzip.open(gz_path, "wb", compresslevel=9) as gf:
         gf.write(payload)
 
-    # Обновляем встроенный офлайн-каталог romfs компактной версией для экономии RAM и размера NRO
-    ROMFS_CATALOG.parent.mkdir(parents=True, exist_ok=True)
-    with open(ROMFS_CATALOG, "wb") as rf:
+    romfs_cat_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(romfs_cat_path, "wb") as rf:
         rf.write(payload)
 
-    src_kb = SRC_CATALOG.stat().st_size / 1024
-    min_kb = MIN_CATALOG.stat().st_size / 1024
-    gz_kb = GZ_CATALOG.stat().st_size / 1024
+    src_kb = src_path.stat().st_size / 1024
+    min_kb = min_path.stat().st_size / 1024
+    gz_kb = gz_path.stat().st_size / 1024
     icons_total = sum(
         1 for g in minified["games"] if any(v.get("hasIcon") or v.get("iconUrl") for v in g["variants"])
     )
     print(
-        f"[+] Турбо-индекс собран: игр={len(minified['games'])}, с HQ-иконками={icons_total} | "
+        f"[+] Турбо-индекс [{label}] собран: игр={len(minified['games'])}, с HQ-иконками={icons_total} | "
         f"Исходный={src_kb:.1f} КБ -> Min={min_kb:.1f} КБ -> Gzip={gz_kb:.1f} КБ"
     )
+
+
+def sync_after_dark_romfs_assets() -> None:
+    """Синхронизирует иконки вкладок и шрифты из romfs в romfs_after_dark, не затрагивая catalog.json."""
+    base_romfs = ROOT_DIR / "downloader" / "romfs"
+    if not base_romfs.exists():
+        return
+    ROMFS_AD_DIR.mkdir(parents=True, exist_ok=True)
+    for item in base_romfs.iterdir():
+        if item.name == "catalog.json":
+            continue
+        dst = ROMFS_AD_DIR / item.name
+        if item.is_dir():
+            if dst.exists():
+                shutil.rmtree(dst)
+            shutil.copytree(item, dst)
+        else:
+            shutil.copy2(item, dst)
+
+
+def build_min_catalog() -> None:
+    _pack_single_catalog(SRC_CATALOG, MIN_CATALOG, GZ_CATALOG, ROMFS_CATALOG, "MAIN")
+    sync_after_dark_romfs_assets()
+    _pack_single_catalog(SRC_AD_CATALOG, MIN_AD_CATALOG, GZ_AD_CATALOG, ROMFS_AD_CATALOG, "AFTER_DARK")
 
 
 if __name__ == "__main__":

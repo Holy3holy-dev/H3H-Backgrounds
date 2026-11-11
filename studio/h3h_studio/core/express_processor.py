@@ -200,55 +200,96 @@ class ExpressProcessor:
         out_mp4: Path,
         out_thumb: Path,
         start_sec: float = 0.0,
-        dur_sec: float = 8.0,
+        dur_sec: float = 5.5,
         crop_pan_percent: float = 50.0,
         video_w: int = 1280,
         video_h: int = 720,
-        codec: str = "hevc",
+        codec: str = "h264",
         on_progress: Optional[Callable[[float, str], None]] = None
     ) -> bool:
         """
-        Crops and transcodes 1:1 square video icon to exact 4IFIR standard:
-        256x256 HEVC Main profile, 24fps, no audio.
-        crop_pan_percent: 0.0 = left edge, 50.0 = center, 100.0 = right edge.
+        Кадрирует и кодирует квадратную видеоиконку 1:1 по стандарту Ultra-HQ 4IFIR v2:
+        256x256, Lanczos + full_chroma_int + CAS (Contrast Adaptive Sharpen) + бесшовный цикл xfade,
+        H.264 High@4.1 (CRF 15, slow) или HEVC Main (CRF 18, medium), 30/60fps, без аудио.
+        crop_pan_percent: 0.0 = левый край, 50.0 = центр, 100.0 = правый край.
         """
         out_mp4.parent.mkdir(parents=True, exist_ok=True)
         out_thumb.parent.mkdir(parents=True, exist_ok=True)
 
         if on_progress:
-            on_progress(20.0, "Кадрирование и кодирование видеоиконки (256x256 HEVC)...")
+            on_progress(20.0, "Кадрирование и кодирование Ultra-HQ видеоиконки (256x256)...")
 
-        # Calculate crop rectangle
+        scale_enhance = (
+            "scale=256:256:flags=lanczos+accurate_rnd+full_chroma_int,"
+            "cas=0.45,"
+            "eq=saturation=1.08:contrast=1.03"
+        )
+
+        # Вычисление квадрата кадрирования
         if video_w > video_h:
             sq_size = video_h
             max_offset = video_w - video_h
             offset_x = int(max_offset * (max(0.0, min(100.0, crop_pan_percent)) / 100.0))
-            crop_filter = f"crop={sq_size}:{sq_size}:{offset_x}:0,scale=256:256:flags=lanczos,unsharp=3:3:0.6:3:3:0.0"
+            crop_base = f"crop={sq_size}:{sq_size}:{offset_x}:0,{scale_enhance}"
         elif video_h > video_w:
             sq_size = video_w
             max_offset = video_h - video_w
             offset_y = int(max_offset * (max(0.0, min(100.0, crop_pan_percent)) / 100.0))
-            crop_filter = f"crop={sq_size}:{sq_size}:0:{offset_y},scale=256:256:flags=lanczos,unsharp=3:3:0.6:3:3:0.0"
+            crop_base = f"crop={sq_size}:{sq_size}:0:{offset_y},{scale_enhance}"
         else:
-            crop_filter = "scale=256:256:flags=lanczos,unsharp=3:3:0.6:3:3:0.0"
+            crop_base = scale_enhance
+
+        clip_dur = max(2.5, float(dur_sec))
+        xfade_dur = 0.5 if clip_dur >= 3.5 else 0.0
+        is_hevc = codec.lower() in ("hevc", "h265")
 
         cmd = [
             "ffmpeg", "-y", "-nostdin",
             "-threads", "4",
+            "-stream_loop", "-1",
             "-ss", str(max(0.0, start_sec)),
-            "-t", str(max(1.0, dur_sec)),
+            "-t", f"{clip_dur:.2f}",
             "-i", str(src_vid),
-            "-vf", crop_filter,
-            "-r", "24",
-            "-pix_fmt", "yuv420p",
-            "-an",
-            "-c:v", "libx265",
-            "-preset", "ultrafast",
-            "-crf", "26",
-            "-tag:v", "hvc1",
-            "-movflags", "+faststart",
-            str(out_mp4)
         ]
+
+        if xfade_dur > 0:
+            main_dur = round(clip_dur - xfade_dur, 2)
+            fc = (
+                f"[0:v]{crop_base},fps=30,format=yuv420p,split=2[v0][v1];"
+                f"[v0]trim=0:{main_dur},setpts=PTS-STARTPTS[base];"
+                f"[v1]trim={main_dur}:{clip_dur:.2f},setpts=PTS-STARTPTS[tail];"
+                f"[tail][base]xfade=transition=fade:duration={xfade_dur}:offset=0[outv]"
+            )
+            cmd.extend(["-filter_complex", fc, "-map", "[outv]"])
+        else:
+            cmd.extend(["-vf", f"{crop_base},fps=30,format=yuv420p"])
+
+        cmd.append("-an")
+        if is_hevc:
+            cmd.extend([
+                "-c:v", "libx265",
+                "-preset", "medium",
+                "-crf", "18",
+                "-maxrate", "2400k",
+                "-bufsize", "4800k",
+                "-g", "30",
+                "-tag:v", "hvc1",
+            ])
+        else:
+            cmd.extend([
+                "-c:v", "libx264",
+                "-preset", "slow",
+                "-profile:v", "high",
+                "-level", "4.1",
+                "-crf", "15",
+                "-maxrate", "2800k",
+                "-bufsize", "5600k",
+                "-g", "30",
+                "-keyint_min", "15",
+                "-sc_threshold", "0",
+            ])
+
+        cmd.extend(["-movflags", "+faststart", str(out_mp4)])
 
         try:
             subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, timeout=120, check=True)

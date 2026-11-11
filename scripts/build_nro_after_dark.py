@@ -170,10 +170,12 @@ def build():
         print(res.stderr.encode('ascii', errors='replace').decode('ascii'))
         return 1
 
-    # Convert ELF to NRO
+    # Convert ELF to NRO (using dedicated romfs_after_dark with After Dark offline catalog!)
     target_nro = os.path.join(SRC_DIR, "H3H-AfterDark.nro")
     print(f"[*] Packaging to {target_nro}...")
-    romfs_dir = os.path.join(SRC_DIR, "romfs")
+    romfs_dir = os.path.join(SRC_DIR, "romfs_after_dark")
+    if not os.path.exists(romfs_dir):
+        romfs_dir = os.path.join(SRC_DIR, "romfs")
     icon_path = os.path.join(SRC_DIR, "icon_after_dark.jpg")
     if not os.path.exists(icon_path):
         icon_path = os.path.join(SRC_DIR, "icon.jpg")

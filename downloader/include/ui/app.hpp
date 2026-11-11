@@ -196,10 +196,12 @@ public:
     void renderCollectionBrowser();
     void loadCollectionThumbnail(const Variant& variant);
 
-    // Catalog Filtering, Sorting & Search
+    // Catalog Filtering, Sorting, Search & Live Split-Studio Dock
     void rebuildCatalogFilter();
     void openCatalogKeyboard();
     void cycleCatalogSortMode();
+    int getSelectedCatalogVariantIndex(const GameCatalogEntry& entry) const;
+    void loadCatalogDockPreview(const GameCatalogEntry& entry, const Variant& coverVar);
 
     // Feature: Video Icons Section (Stage 5)
     void rebuildVideoIconsFilter();
@@ -361,6 +363,10 @@ private:
     CatalogSortMode m_catalogSortMode{CatalogSortMode::Default};
     std::string m_catalogSearchQuery;
     std::vector<GameCatalogEntry> m_filteredCatalogGames;
+    std::map<std::string, int> m_catalogVariantIdx;
+    bool m_catalogDockDirty{false};
+    uint32_t m_lastCatalogMoveTime{0};
+    std::string m_catalogDockCurrentKey;
 
     // Video Icons State (Stage 5)
     std::vector<GameCatalogEntry> m_videoIconsCatalog;

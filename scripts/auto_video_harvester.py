@@ -1118,6 +1118,9 @@ class AutoVideoHarvester:
             with open(self.catalog_path, "w", encoding="utf-8") as cf:
                 json.dump(catalog, cf, ensure_ascii=False, indent=2)
 
+            # Пересобираем турбо-индексы .min.json и .min.json.gz для мгновенной загрузки на консоли
+            subprocess.run([sys.executable, str(PROJECT_ROOT / "scripts" / "build_min_catalog.py")], check=False)
+
             print(f"\n[+] Catalog updated: {catalog['totalGames']} games, {catalog['totalVariants']} variants.")
             print(f"[*] Pushing updates to GitHub branch '{self.branch}'...")
 
@@ -1134,7 +1137,16 @@ class AutoVideoHarvester:
             except Exception:
                 pass
 
-            subprocess.run(["git", "add", rel_cat, str(self.log_file.relative_to(PROJECT_ROOT))], check=True)
+            stage_list = [rel_cat, str(self.log_file.relative_to(PROJECT_ROOT))]
+            for extra_min in [
+                "catalog/data/catalog.min.json",
+                "catalog/data/catalog.min.json.gz",
+                "catalog/data/catalog_after_dark.min.json",
+                "catalog/data/catalog_after_dark.min.json.gz",
+            ]:
+                if (PROJECT_ROOT / extra_min).exists():
+                    stage_list.append(extra_min)
+            subprocess.run(["git", "add"] + stage_list, check=True)
             subprocess.run(["git", "commit", "-m", f"feat(harvest): automated batch harvest {harvested_count} {self.mode} video themes ({self.codec.upper()}) [skip render] [skip ci]"], env=git_env, check=True)
 
             for push_att in range(1, 4):
