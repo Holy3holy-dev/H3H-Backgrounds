@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T03:35:04.520879+00:00",
+  "updatedAt": "2026-11-11T03:36:37.240489+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -3844,6 +3844,42 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Ultra-HQ v2 (Lanczos + CAS 0.45 + Seamless xfade + High@Slow CRF 15)"
+        },
+        {
+          "id": "v_e268c620",
+          "name": "Resident Evil Requiem Monochrome",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_sldPJNO53Qd1lZz3dhHMkps97BN9YTl",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_sldPJNO53Qd1lZz3dhHMkps97BN9YTl&sz=w640",
+          "sizeBytes": 944235,
+          "sha256": "F3A99851B858A928E408AF80D8B6BA0F763B8754B2D047740339210648F90FB2",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Resident Evil Requiem Monochrome"
+        },
+        {
+          "id": "v_5db79132",
+          "name": "Ada Wong Key Resident Evil 4 Remake",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1_3FIMH_PX6tkyUf7MBubHBHUBOWTugqx",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1_3FIMH_PX6tkyUf7MBubHBHUBOWTugqx&sz=w640",
+          "sizeBytes": 879160,
+          "sha256": "7353044028D261B336208DDCA3756C5E66DD0B53C9516D9EB6F36F4AAE49E218",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Ada Wong Key Resident Evil 4 Remake"
         }
       ]
     },
@@ -174621,6 +174657,6 @@
     }
   ],
   "totalGames": 5418,
-  "totalVariants": 7053,
-  "lastUpdated": "2026-11-11T03:35:04.520879+00:00"
+  "totalVariants": 7055,
+  "lastUpdated": "2026-11-11T03:36:37.240489+00:00"
 }
