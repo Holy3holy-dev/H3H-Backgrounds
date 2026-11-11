@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T03:36:37.240489+00:00",
+  "updatedAt": "2026-11-11T03:37:13.898087+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -4327,6 +4327,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Moonlight Dark Knight Batman"
+        },
+        {
+          "id": "v_de0f513a",
+          "name": "Batman Overlooking Gotham From Wayne Tower",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1obAKrqUjsjYbbpLrwI2CM5HF2L3VSi5s",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1obAKrqUjsjYbbpLrwI2CM5HF2L3VSi5s&sz=w640",
+          "sizeBytes": 2283339,
+          "sha256": "3E390E347F46F99815ADB2EF3D828DF6D0648E4D66B40018502314A3ED794CFB",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Batman Overlooking Gotham From Wayne T"
         }
       ]
     },
@@ -174657,6 +174675,6 @@
     }
   ],
   "totalGames": 5418,
-  "totalVariants": 7055,
-  "lastUpdated": "2026-11-11T03:36:37.240489+00:00"
+  "totalVariants": 7056,
+  "lastUpdated": "2026-11-11T03:37:13.898087+00:00"
 }
