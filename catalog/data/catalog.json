@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T03:37:13.898087+00:00",
+  "updatedAt": "2026-11-11T03:38:05.659158+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -3501,6 +3501,42 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_2f573818",
+          "name": "Rick And Morty Green Portal",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1u7UT-TIgcULds2_KelI2kqVDXzcne6n_",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1u7UT-TIgcULds2_KelI2kqVDXzcne6n_&sz=w640",
+          "sizeBytes": 1573994,
+          "sha256": "7F15DD57A929B31B62FFC6EE7D9FDBDC4D9741E2F52CDA2B8DFE8E4349AF1FC2",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Rick And Morty Green Portal"
+        },
+        {
+          "id": "v_4e401a11",
+          "name": "Portal In The Snowy Street Minecraft",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=17533hPItvpYQLsaqt83gzQj2vkaUyWdd",
+          "previewUrl": "https://drive.google.com/thumbnail?id=17533hPItvpYQLsaqt83gzQj2vkaUyWdd&sz=w640",
+          "sizeBytes": 1183407,
+          "sha256": "AD7A8C6D037685767A910B9C68CF063AD8AF4A30CC55718862FA62FB63F7E2BD",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Portal In The Snowy Street Minecraft"
         }
       ]
     },
@@ -174675,6 +174711,6 @@
     }
   ],
   "totalGames": 5418,
-  "totalVariants": 7056,
-  "lastUpdated": "2026-11-11T03:37:13.898087+00:00"
+  "totalVariants": 7058,
+  "lastUpdated": "2026-11-11T03:38:05.659158+00:00"
 }
