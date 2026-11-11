@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "name": "H3H After Dark (18+) Official Catalog",
-  "updatedAt": "2026-11-11T00:48:19Z",
+  "updatedAt": "2026-11-11T03:28:36.883924+00:00",
   "totalGames": 93,
-  "totalVariants": 1647,
+  "totalVariants": 1648,
   "games": [
     {
       "titleId": "0000000000000000",
@@ -9615,6 +9615,24 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Ultra-HQ v2 (Lanczos + CAS 0.45 + Seamless xfade + High@Slow CRF 15)"
+        },
+        {
+          "id": "v_c270ea86",
+          "name": "Winter Night Gothic Castle",
+          "style": "Ecchi / Mature",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1m6TunJ8ItsKgERJZdJQw4jKbew5ST_hw",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1m6TunJ8ItsKgERJZdJQw4jKbew5ST_hw&sz=w640",
+          "sizeBytes": 4708310,
+          "sha256": "F9AE5E5829C538A7C498579BC1D23A00F113C660320CDF96C4BF482CC02636EE",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Winter Night Gothic Castle"
         }
       ]
     },
