@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T03:42:16.074524+00:00",
+  "updatedAt": "2026-11-11T03:42:55.941729+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -67848,6 +67848,42 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Sonic The Hedgehog"
+        },
+        {
+          "id": "v_aecabc13",
+          "name": "Sonic Explosion",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1qVWJmwbAzVlFlgGz0Zs5DMQ8zZGmlH34",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1qVWJmwbAzVlFlgGz0Zs5DMQ8zZGmlH34&sz=w640",
+          "sizeBytes": 2393485,
+          "sha256": "C159E95D26F438E427B786B5EB53F41507C03109E7F22D17E3CAAE108375401C",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sonic Explosion"
+        },
+        {
+          "id": "v_0038bbd9",
+          "name": "Sonic",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1xzxmtnun1VAexjb_8ZwW4OyiYkNsx7e2",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1xzxmtnun1VAexjb_8ZwW4OyiYkNsx7e2&sz=w640",
+          "sizeBytes": 1041465,
+          "sha256": "2E63038E00532CFE75981BE4990A85B2B8CF2877335D1FA44341DBCE7FE83056",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Sonic"
         }
       ]
     },
@@ -174801,6 +174837,6 @@
     }
   ],
   "totalGames": 5418,
-  "totalVariants": 7063,
-  "lastUpdated": "2026-11-11T03:42:16.074524+00:00"
+  "totalVariants": 7065,
+  "lastUpdated": "2026-11-11T03:42:55.941729+00:00"
 }
