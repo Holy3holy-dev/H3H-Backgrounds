@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T03:41:24.571092+00:00",
+  "updatedAt": "2026-11-11T03:42:16.074524+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -62118,6 +62118,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Celestia Ludenberg Danganronpa"
+        },
+        {
+          "id": "v_87b71af4",
+          "name": "Mukuro Ikusaba And Junko Enoshima Danganronpa",
+          "style": "Wallpaper Engine 60fps",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1eSblCRVLtxnvjxkPwWwlx4s_SdQsYvUB",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1eSblCRVLtxnvjxkPwWwlx4s_SdQsYvUB&sz=w640",
+          "sizeBytes": 3816470,
+          "sha256": "8B5105D27ECD8754793310D22CAA2B6EE38C484B5D2B9BB79033E4566855B4BE",
+          "durationSec": 28.0,
+          "author": "Wallpaper Engine / MoeWalls",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Mukuro Ikusaba And Junko Enoshima Dang"
         }
       ]
     },
@@ -174783,6 +174801,6 @@
     }
   ],
   "totalGames": 5418,
-  "totalVariants": 7062,
-  "lastUpdated": "2026-11-11T03:41:24.571092+00:00"
+  "totalVariants": 7063,
+  "lastUpdated": "2026-11-11T03:42:16.074524+00:00"
 }
