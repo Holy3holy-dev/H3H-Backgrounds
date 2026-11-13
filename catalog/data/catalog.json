@@ -71570,6 +71570,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Plants vs. Zombies™: Replanted — Plants "
+        },
+        {
+          "id": "var-we-5e6e2ad9",
+          "name": "PVZ ,plants vs zombies",
+          "style": "Wallpaper Engine Live",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1pl41JPg9-RSOHALeUqWgmQUq7ZTrt_BK",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1pl41JPg9-RSOHALeUqWgmQUq7ZTrt_BK&sz=w640",
+          "sizeBytes": 2415163,
+          "sha256": "99e194614e6c67ac66e6400c6a26d07a917ca11f17911560adea35902f9fd0f1",
+          "durationSec": 24.0,
+          "author": "Wallpaper Engine",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Wallpaper Engine: PVZ ,plants vs zombies"
         }
       ]
     },
@@ -179892,9 +179910,35 @@
           "notes": "Switch 720p 30fps H264 | Master Sword The Legend Of Zelda: Ocarin"
         }
       ]
+    },
+    {
+      "titleId": "0100C4C013688000",
+      "title": "Retrace Memories of Death",
+      "publisher": "Wallpaper Engine Community",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100C4C013688000.jpg",
+      "variants": [
+        {
+          "id": "var-we-9d302e28",
+          "name": "Faded Memories (Update)",
+          "style": "Wallpaper Engine Live",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1XnhPYfc2I9KIrp3Ctn1HOFlWbPBu3Daa",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1XnhPYfc2I9KIrp3Ctn1HOFlWbPBu3Daa&sz=w640",
+          "sizeBytes": 1386779,
+          "sha256": "526514279bff5f4d294d8cfbeb3730c0a906e509b5fa277ad5603c40a9dff819",
+          "durationSec": 24.0,
+          "author": "Wallpaper Engine",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Wallpaper Engine: Faded Memories (Update)"
+        }
+      ]
     }
   ],
-  "totalGames": 5418,
-  "totalVariants": 7235,
+  "totalGames": 5419,
+  "totalVariants": 7237,
   "lastUpdated": "2026-11-13T06:33:24Z"
 }
