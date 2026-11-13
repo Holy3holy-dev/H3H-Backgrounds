@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T07:07:59.652835+00:00",
+  "updatedAt": "2026-11-13T07:26:46.817725+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -9162,6 +9162,24 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 HQ Video Icon (Lanczos + Unsharp 1.2M)"
+        },
+        {
+          "id": "v_89495bd0",
+          "name": "Pirate Ship Golden Field Minecraft",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=19Sfkr2sc8JBEbWi5Zs-cp6p-1quk3VXF",
+          "previewUrl": "https://drive.google.com/thumbnail?id=19Sfkr2sc8JBEbWi5Zs-cp6p-1quk3VXF&sz=w640",
+          "sizeBytes": 4747541,
+          "sha256": "60DAD6A125CEA8FC297CA15857E8C1F0709EF766DAB50492AF79C5AFDE9F8661",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Switch 720p 30fps H264 | Pirate Ship Golden Field Minecraft | ЗВУК"
         }
       ]
     },
@@ -179841,6 +179859,6 @@
     }
   ],
   "totalGames": 5418,
-  "totalVariants": 7232,
+  "totalVariants": 7233,
   "lastUpdated": "2026-11-13T06:33:24Z"
 }
