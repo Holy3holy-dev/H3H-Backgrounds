@@ -86,6 +86,9 @@ class GoogleDriveHelper:
             # Try requests first
             try:
                 import requests
+                from tg_bot.config import detect_local_proxy
+                p_url = detect_local_proxy()
+                proxies = {"http": p_url, "https": p_url} if p_url else None
                 r = requests.post(
                     "https://oauth2.googleapis.com/token",
                     data={
@@ -94,6 +97,7 @@ class GoogleDriveHelper:
                         "refresh_token": refresh_token.strip(),
                         "grant_type": "refresh_token"
                     },
+                    proxies=proxies,
                     headers={"User-Agent": "H3H-Studio"},
                     timeout=15
                 )

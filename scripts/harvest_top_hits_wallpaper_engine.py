@@ -386,13 +386,21 @@ def harvest_top_hits():
             catalog["totalVariants"] = sum(len(g.get("variants", [])) for g in catalog["games"])
             cat_path.write_text(json.dumps(catalog, indent=2, ensure_ascii=False), encoding="utf-8")
 
+            # Пересобираем турбо-индексы .min.json и .min.json.gz
+            subprocess.run([sys.executable, str(PROJECT_ROOT / "scripts" / "build_min_catalog.py")], check=False)
+
             gh_token, _ = GitHubPublisher.get_stored_credentials()
             repo_url = f"https://x-access-token:{gh_token}@github.com/Holy3holy-dev/H3H-Backgrounds.git"
             git_env = os.environ.copy()
             git_env["GIT_EDITOR"] = ":"
             try:
                 subprocess.run(["git", "pull", "--rebase", repo_url, "main"], env=git_env, check=False, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-                subprocess.run(["git", "add", "catalog/data/catalog.json"], check=True)
+                stage_files = [
+                    "catalog/data/catalog.json",
+                    "catalog/data/catalog.min.json",
+                    "catalog/data/catalog.min.json.gz",
+                ]
+                subprocess.run(["git", "add"] + stage_files, check=True)
                 subprocess.run(["git", "commit", "-m", f"feat(tophits): add Wallpaper Engine live themes for {game_name} [skip render] [skip ci]"], env=git_env, check=True)
                 subprocess.run(["git", "push", repo_url, "HEAD:refs/heads/main"], check=True)
                 print(f"    [+] Pushed update for {game_name} to GitHub main!")

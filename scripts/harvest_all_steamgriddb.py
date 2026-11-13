@@ -21,7 +21,7 @@ from h3h_studio.core.google_drive import GoogleDriveClient
 OUTPUT_DIR = Path(r"e:\videofon\downloaded_official_backgrounds")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 FOLDER_ID = "1hI1klJ6t2ymVoBwGA6IzY79QMjp5dTJC"
-TOKEN = "ya29.a0AX07CmuycNHtflqEeffh6XtbRgDmkTxLMoFcfPfk7XbXeAhJYE0voc0R6FT8cKBJCb14bSwIIrkDiH6q4TVHqB2RlS_FJ1NDxvQR8aNUc6akfxSEW4l29zPbik7WjPDVBonvWDuczIavEbNQcCgCvMRKqSZBDArZbTCVsMqVn-9GrR43xyb7FzkVvTKUrksapAs8G3kaCgYKAbASARISFQHGX2Mit3ABcTJRFKxY6VHf_HLbow0206"
+TOKEN = ""
 DB_PATH = Path("studio/h3h_studio/data/switch_titles_db.json")
 
 client = SteamGridDBClient()
