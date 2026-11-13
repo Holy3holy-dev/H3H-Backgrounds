@@ -114120,6 +114120,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Zombie Night Terror — Zombie Night Terro"
+        },
+        {
+          "id": "var-we-836e535f",
+          "name": "Zombie-Invasion-Horror",
+          "style": "Wallpaper Engine Live",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1apqIMO06qkIo0S0vqKEcKXgOf9ua7wOH",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1apqIMO06qkIo0S0vqKEcKXgOf9ua7wOH&sz=w640",
+          "sizeBytes": 4555499,
+          "sha256": "3b437f75d65dd162ab7efaf195c39c622bf353ab9700b40dc6f8f78c2c2b8f0e",
+          "durationSec": 24.0,
+          "author": "Wallpaper Engine",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Wallpaper Engine: Zombie-Invasion-Horror"
         }
       ]
     },
@@ -177656,6 +177674,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | Rift Racoon — Release Trailer"
+        },
+        {
+          "id": "var-we-8f314491",
+          "name": "Racoon Meme",
+          "style": "Wallpaper Engine Live",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1p2z9z_ZWIeieXeyquf7MSzFM5h545a5Y",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1p2z9z_ZWIeieXeyquf7MSzFM5h545a5Y&sz=w640",
+          "sizeBytes": 998950,
+          "sha256": "c86c22a6044888b073cc2c951ed83dddf281df3c1951204a568494677ab9b6dd",
+          "durationSec": 24.0,
+          "author": "Wallpaper Engine",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Wallpaper Engine: Racoon Meme"
         }
       ]
     },
@@ -180050,9 +180086,35 @@
           "notes": "Wallpaper Engine: Frog & Mush Adventures (Night) by Abi Toads"
         }
       ]
+    },
+    {
+      "titleId": "0100084016206000",
+      "title": "Not Tonight Take Back Control edition Not Tonigh 2",
+      "publisher": "Wallpaper Engine Community",
+      "iconUrl": "https://raw.githubusercontent.com/Langegen/switch-game-collection/main/covers/0100084016206000.jpg",
+      "variants": [
+        {
+          "id": "var-we-d9574002",
+          "name": "Лада Гранта black edition 0878ko58",
+          "style": "Wallpaper Engine Live",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1Zfj7vr31ps-csDm3FULBCiprnGhFlqMN",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1Zfj7vr31ps-csDm3FULBCiprnGhFlqMN&sz=w640",
+          "sizeBytes": 6224544,
+          "sha256": "c1572e2adc3cd6f011f4437c35870e288e18248a8c12e37026b000d5fdc7b537",
+          "durationSec": 24.0,
+          "author": "Wallpaper Engine",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": true,
+          "notes": "Wallpaper Engine: Лада Гранта black edition 0878ko58"
+        }
+      ]
     }
   ],
-  "totalGames": 5422,
-  "totalVariants": 7242,
+  "totalGames": 5423,
+  "totalVariants": 7245,
   "lastUpdated": "2026-11-13T06:33:24Z"
 }
