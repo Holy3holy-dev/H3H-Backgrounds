@@ -437,19 +437,39 @@ class TitleIdResolver:
                 break
 
         scored: List[Tuple[str, str, float]] = []
+        q_tokens_set = set(q_tokens)
 
         for tid, clean_name, g_tokens in self.normalized_games:
             clean_lower = clean_name.lower()
             score = 0.0
 
             # Character match bonus
-            if char_bonus_game and char_bonus_game in clean_lower:
+            has_char_bonus = bool(char_bonus_game and char_bonus_game in clean_lower)
+            if has_char_bonus:
                 score += 50.0
 
             # Substring match
-            if norm_query in clean_lower:
+            has_substring = bool(norm_query in clean_lower)
+            if has_substring:
                 score += 40.0
-            
+
+            # Fast candidate pruning: if neither char, substring, nor any token matches, skip slow difflib
+            has_token_exact = bool(q_tokens_set.intersection(g_tokens))
+            if not (has_char_bonus or has_substring or has_token_exact):
+                # Check if any token has at least 3 common chars and similar length
+                possible = False
+                for qt in q_tokens:
+                    if len(qt) < 3:
+                        continue
+                    for gt in g_tokens:
+                        if abs(len(qt) - len(gt)) <= 2 and qt[0] == gt[0]:
+                            possible = True
+                            break
+                    if possible:
+                        break
+                if not possible:
+                    continue
+
             # Token matching with fuzzy typo tolerance
             for qt in q_tokens:
                 if qt in g_tokens:
@@ -463,8 +483,9 @@ class TitleIdResolver:
                         score += 6.0 * best_token_ratio
 
             # Whole-string sequence similarity bonus
-            full_ratio = difflib.SequenceMatcher(None, norm_query, clean_lower).ratio()
-            score += full_ratio * 20.0
+            if score > 0 or len(norm_query) > 5:
+                full_ratio = difflib.SequenceMatcher(None, norm_query, clean_lower).ratio()
+                score += full_ratio * 20.0
 
             if score >= 12.0:
                 scored.append((tid, clean_name, round(score, 2)))
