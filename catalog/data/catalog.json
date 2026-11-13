@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T06:33:24Z",
+  "updatedAt": "2026-11-13T07:07:59.652835+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -13331,6 +13331,24 @@
           "iconWidth": 256,
           "iconHeight": 256,
           "notes": "4IFIR 256x256 Video Icon (Atmospheric Cinematic Loop)"
+        },
+        {
+          "id": "v_77ebf302",
+          "name": "Lone Blade At Sunset Phantom Blade Zero",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1cGW6AzjF7XDPS4iG1Lfz_cZ6PIfHG3XJ",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1cGW6AzjF7XDPS4iG1Lfz_cZ6PIfHG3XJ&sz=w640",
+          "sizeBytes": 4670046,
+          "sha256": "BBD029BFBFC7BD04423023DB31B0713C4B31E7380697F85E96C1FFC8871BF9BE",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | Lone Blade At Sunset Phantom Blade Zero"
         }
       ]
     },
@@ -179823,6 +179841,6 @@
     }
   ],
   "totalGames": 5418,
-  "totalVariants": 7231,
+  "totalVariants": 7232,
   "lastUpdated": "2026-11-13T06:33:24Z"
 }
