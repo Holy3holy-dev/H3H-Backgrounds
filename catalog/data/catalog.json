@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T07:26:46.817725+00:00",
+  "updatedAt": "2026-11-13T11:05:40.212333+00:00",
   "games": [
     {
       "titleId": "0100000000010000",
@@ -2930,6 +2930,24 @@
           "fps": 30.0,
           "hasAudio": true,
           "notes": "Switch 720p 30fps H264 | The Legend of Zelda: Twilight Princess"
+        },
+        {
+          "id": "v_0a8c0d99",
+          "name": "The Blade Of Evil&#8217;s Bane The Legen",
+          "style": "Cinematic",
+          "version": "1.0",
+          "url": "https://drive.google.com/uc?export=download&id=1CZOOTLdz5d0Xa651qjeJsqPi3pr5pjk9",
+          "previewUrl": "https://drive.google.com/thumbnail?id=1CZOOTLdz5d0Xa651qjeJsqPi3pr5pjk9&sz=w640",
+          "sizeBytes": 4537100,
+          "sha256": "C17EB0D470C5D4A99B50174AC9460957E896A50E93BBBBD9C61AA72404EED24D",
+          "durationSec": 30.0,
+          "author": "MoeWalls / Community",
+          "codec": "h264",
+          "width": 1280,
+          "height": 720,
+          "fps": 30.0,
+          "hasAudio": false,
+          "notes": "Switch 720p 30fps H264 | The Blade Of Evil&#8217;s Bane The Legen"
         }
       ]
     },
@@ -180115,6 +180133,6 @@
     }
   ],
   "totalGames": 5423,
-  "totalVariants": 7245,
+  "totalVariants": 7246,
   "lastUpdated": "2026-11-13T06:33:24Z"
 }
