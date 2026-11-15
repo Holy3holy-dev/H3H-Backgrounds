@@ -230,22 +230,36 @@ def determine_destination(
     if r_low in ("mature", "questionable", "nsfw", "18+"):
         # Check if matches specific game in After Dark
         res = resolver.resolve(title)
-        if res:
+        if res and res[0] != "010000000000100D":
             return ("AFTER_DARK", res[0], res[1], f"Mature Wallpaper: {title}")
         return ("AFTER_DARK", "0000000000000000", "★ Коллекция After Dark (Свободный выбор)", f"Mature: {title}")
+
+    # Memes always go to After Dark Universal Collection
+    if "memes" in tag_str or "meme" in tag_str or "rick astley" in t_low or "rickroll" in t_low or "flexair" in t_low:
+        return ("AFTER_DARK", "0000000000000000", "★ Коллекция After Dark (Свободный выбор)", f"Meme: {title}")
 
     # 2. Check explicit Switch hits
     for kw, (tid, gname) in EXPLICIT_SWITCH_KEYWORDS.items():
         if kw in t_low:
             return ("MAIN", tid, gname, f"Wallpaper Engine: {title}")
 
+    # Common generic words that must not trigger a false-positive game match
+    GENERIC_WORDS = {
+        "forest", "snow", "rain", "city", "sky", "night", "cloud", "clouds", "space",
+        "mountain", "water", "road", "flower", "sunset", "light", "dance", "darkness",
+        "dream", "music", "world", "video", "adventure", "story", "collection", "remastered",
+        "memes", "meme", "anime", "landscape", "nature", "relaxing", "abstract", "animal",
+        "car", "speed", "classic", "style", "ambient", "lofi", "chill", "4k", "60fps", "hd"
+    }
+
     # 3. Fuzzy match against Switch database
     res = resolver.resolve(title)
     if res:
         tid, gname = res
-        # If it's a very confident clean match, route to Main
-        clean_g = gname.lower()
-        if any(w in t_low for w in clean_g.split() if len(w) > 4):
+        clean_words = [w for w in re.split(r"[^a-zA-Z0-9]+", gname.lower()) if len(w) > 3 and w not in GENERIC_WORDS]
+        matched_distinct_words = [w for w in clean_words if w in t_low]
+        # Must match at least 1 non-generic distinctive word of len >= 5 or 2 distinct words
+        if any(len(w) >= 6 for w in matched_distinct_words) or len(matched_distinct_words) >= 2:
             return ("MAIN", tid, gname, f"Wallpaper Engine: {title}")
 
     # 4. Memes, Anime, Landscapes, Abstract -> After Dark Universal Collection
@@ -322,12 +336,32 @@ def run_catalog_rebuild():
     subprocess.run([sys.executable, str(PROJECT_ROOT / "scripts" / "build_min_catalog.py")], check=True)
 
 def git_commit_and_push(commit_msg: str):
-    """Commits and pushes updated catalogs to GitHub."""
+    """Commits and pushes updated catalogs to GitHub using authenticated token."""
     print(f"[*] Committing changes: {commit_msg}")
     try:
-        subprocess.run(["git", "add", "catalog/data/"], cwd=str(PROJECT_ROOT), check=True)
-        subprocess.run(["git", "commit", "-m", commit_msg], cwd=str(PROJECT_ROOT), check=True)
-        subprocess.run(["git", "push", "origin", "main"], cwd=str(PROJECT_ROOT), check=True)
+        gh_token, _ = GitHubPublisher.get_stored_credentials()
+        if not gh_token:
+            from tg_bot.config import GITHUB_TOKEN
+            gh_token = GITHUB_TOKEN
+        repo_url = f"https://x-access-token:{gh_token}@github.com/Holy3holy-dev/H3H-Backgrounds.git"
+
+        git_env = os.environ.copy()
+        git_env["GIT_TERMINAL_PROMPT"] = "0"
+        git_env["GIT_EDITOR"] = ":"
+
+        stage_files = [
+            "catalog/data/catalog.json",
+            "catalog/data/catalog_after_dark.json",
+            "catalog/data/catalog.min.json",
+            "catalog/data/catalog.min.json.gz",
+            "catalog/data/catalog_after_dark.min.json",
+            "catalog/data/catalog_after_dark.min.json.gz",
+            "catalog/data/we_imported_items.json"
+        ]
+        valid_files = [f for f in stage_files if (PROJECT_ROOT / f).exists()]
+        subprocess.run(["git", "add"] + valid_files, cwd=str(PROJECT_ROOT), check=True)
+        subprocess.run(["git", "commit", "-m", commit_msg], cwd=str(PROJECT_ROOT), env=git_env, check=True)
+        subprocess.run(["git", "push", repo_url, "HEAD:refs/heads/main"], cwd=str(PROJECT_ROOT), env=git_env, check=True)
         print("[+] Successfully pushed to GitHub main!")
     except subprocess.CalledProcessError as e:
         print(f"[-] Git push warning: {e}")
