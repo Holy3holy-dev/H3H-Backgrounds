@@ -1,9 +1,9 @@
 {
-    "changelog":  "• Исправлена геометрия и отображение фирменной иконки Студии («Цветок Material You \u0026 Кисть») при применении иконпаков и тем\n• 62 кириллических шрифта (включая встроенный Kabel и шрифты со смартфонов Google Pixel, Samsung, iPhone, Xiaomi, Huawei, OnePlus, Nothing) с автообновляемым каталогом",
-    "bannerUrl":  "https://raw.githubusercontent.com/elementary/wallpapers/master/backgrounds/odin.jpg",
-    "versionName":  "2.2.5",
-    "versionCode":  58,
-    "apkSizeBytes":  4242278,
-    "catalogUrl":  "https://raw.githubusercontent.com/Holy3holy-dev/OriginOS-Studio/main/catalog.json",
-    "apkUrl":  "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.2.5/OriginOS-Studio-2.2.5.apk"
+    "versionCode": 59,
+    "versionName": "2.2.6",
+    "apkUrl": "https://raw.githubusercontent.com/Holy3holy-dev/OriginOS-Studio/main/OriginOS-Studio-2.2.6.apk",
+    "apkSizeBytes": 4250470,
+    "bannerUrl": "https://raw.githubusercontent.com/elementary/wallpapers/master/backgrounds/odin.jpg",
+    "catalogUrl": "https://raw.githubusercontent.com/Holy3holy-dev/OriginOS-Studio/main/catalog.json",
+    "changelog": "• Точечная замена значков приложений: встроенный менеджер во вкладке «Значки» с поиском по приложениям, выбором любой иконки из установленных иконпаков или сохранением родной стоковой иконки\n• В онлайн-каталог добавлен адаптивный иконпак Pix Material You Light/Dark (15 000+ значков)\n• В режиме «Авто (Из обоев)» значки теперь создаются в едином чистом однотонном стиле Material You (как во вкладке «Своё»)\n• Исправлено распознавание установленных иконпаков из каталога (Nothing, Pix Material You, Delta и др.) без повторного скачивания\n• Убран маленький кружок-бейдж приложения при создании отдельных значков-ярлыков (с сохранением иконки самой Студии)\n• При применении полной темы одновременно применяются и обои (рабочий стол + экран блокировки), и пакет значков\n• Добавлена нативная поддержка глобальных прошивок Vivo и iQOO (Funtouch OS 14–15 / Global OriginOS 5–6)"
 }
