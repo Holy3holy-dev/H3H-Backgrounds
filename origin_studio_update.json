@@ -1,9 +1,9 @@
 {
-    "versionCode": 67,
-    "versionName": "2.3.4",
-    "apkUrl": "https://raw.githubusercontent.com/Holy3holy-dev/OriginOS-Studio/main/OriginOS-Studio-2.3.4.apk",
-    "apkSizeBytes": 4287400,
+    "versionCode": 68,
+    "versionName": "2.3.5",
+    "apkUrl": "https://raw.githubusercontent.com/Holy3holy-dev/OriginOS-Studio/main/OriginOS-Studio-2.3.5.apk",
+    "apkSizeBytes": 4287334,
     "bannerUrl": "https://raw.githubusercontent.com/elementary/wallpapers/master/backgrounds/odin.jpg",
     "catalogUrl": "https://raw.githubusercontent.com/Holy3holy-dev/OriginOS-Studio/main/catalog.json",
-    "changelog": "• Прямая поддержка Global и РСТ прошивки OriginOS 6–7 (Vivo X300 РСТ V2515_RU, iQOO I2505_RU и др., com.bbk.theme 23.8.x / 24.0.x): автоопределение по ro.vivo.product.overseas=yes, прямой вызов новых экранов предпросмотра richui.ex.preview.ResPreviewOnline / ResPreviewDLOnline, отключение сетевой докачки стиля (needDownloadStyle = false, setHasPayed = true, setIsDiyComplete = true) и распаковка масок launcher/* в корень .itz\n• Исправлены живые системные значки (Часы, Календарь и Погода): все открытые 1x1 слои приведены к эталону прошивки 320x320, выровнены день недели и число месяца на Календаре, убрана лишняя полоска сверху\n• Полноразмерные значки без обрезки краёв: скорректирован viewport адаптивных и полноцветных иконок (72/108 как в оригинальном OriginOS), расширен диапазон размера значков до 85%..140%\n• Полная поддержка английского языка (RU / EN) и модуль удалённой диагностики прошивки во вкладке «Система»"
+    "changelog": "• Живой Календарь: исправлен тёмный режим — больше нет системного тёмно-синего фона с полоской и уехавших «втор»/числа (добавлены dark/calendar_bg_0/1 и dark/manifest)\n• Часы: вместо смещённых стрелок используются родные живые часы OriginOS, перекрашенные лаунчером под стиль значков\n• Material You: системные значки вроде «Файлов» больше не превращаются в «кружок в кружке» — силуэт переносится на весь значок\n• Папки внутри папок снова прозрачные после применения иконпака\n• Автоподбор цвета по обоям: берётся самый массовый цвет изображения, а не мелкий яркий акцент (фиолетовые обои больше не дают оранжевый)"
 }
