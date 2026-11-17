@@ -1,9 +1,9 @@
 {
-    "versionCode": 61,
-    "versionName": "2.2.8",
-    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.2.8/OriginOS-Studio-2.2.8.apk",
+    "versionCode": 62,
+    "versionName": "2.2.9",
+    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.2.9/OriginOS-Studio-2.2.9.apk",
     "apkSizeBytes": 4258662,
     "bannerUrl": "https://raw.githubusercontent.com/elementary/wallpapers/master/backgrounds/odin.jpg",
     "catalogUrl": "https://raw.githubusercontent.com/Holy3holy-dev/OriginOS-Studio/main/catalog.json",
-    "changelog": "• Исправлено добавление отдельных значков-ярлыков («Ярлыки отдельно»): устранена ошибка «Ошибка добавления» в лаунчере Vivo\n• Nothing Dot Matrix Pack переведён на встроенный матричный генератор светодиодных точек Nothing OS (28×28 белых точек на карбоновом фоне #121316 с красной точкой Nothing Red #D71921): теперь работает мгновенно для всех 100% установленных приложений без скачивания пустого IconGen.apk\n• Добавлены прямые ссылки загрузки APK для всех иконпаков онлайн-каталога в обход лимитов GitHub API\n• Устранены крупные нескруглённые квадраты на рабочем столе и Always-On Display (AOD) при уведомлениях\n• Полностью убраны белые квадратные рамки и сжатие на стоковых системных значках Vivo"
+    "changelog": "• Добавлен встроенный регулятор размера самих значков на рабочем столе (ползунок 85%–130% и быстрые пресеты: 90% Малый, 100% Стандарт, 112% Крупный, 122% Макс. — как «Самый большой» вариант из коробки в OriginOS)\n• Добавлен регулятор размера внутреннего рисунка (глифа) внутри значка (88% Компакт / 100% Стандарт / 114% Крупный)\n• Исправлено добавление отдельных значков-ярлыков («Ярлыки отдельно»)\n• Встроен матричный генератор Nothing Dot Matrix (28×28 светодиодных точек с красным индикатором Nothing Red #D71921) для 100% приложений\n• Исправлена геометрия значков на Always-On Display (AOD) и стоковых системных иконок Vivo"
 }
