@@ -1,9 +1,9 @@
 {
-    "versionCode": 66,
-    "versionName": "2.3.3",
-    "apkUrl": "https://raw.githubusercontent.com/Holy3holy-dev/OriginOS-Studio/main/OriginOS-Studio-2.3.3.apk",
-    "apkSizeBytes": 4287334,
+    "versionCode": 67,
+    "versionName": "2.3.4",
+    "apkUrl": "https://raw.githubusercontent.com/Holy3holy-dev/OriginOS-Studio/main/OriginOS-Studio-2.3.4.apk",
+    "apkSizeBytes": 4287400,
     "bannerUrl": "https://raw.githubusercontent.com/elementary/wallpapers/master/backgrounds/odin.jpg",
     "catalogUrl": "https://raw.githubusercontent.com/Holy3holy-dev/OriginOS-Studio/main/catalog.json",
-    "changelog": "• Адаптация под Global и РСТ прошивки OriginOS 6–7 (Vivo X300 РСТ и др., com.bbk.theme 24.0.0.1): прямой вызов новых экранов предпросмотра ResPreviewDLOnline / richui.ResPreviewOnline, отключение сетевой подгрузки стиля (needDownloadStyle = false) и распаковка масок launcher/* в корень .itz\n• Исправлены живые системные значки (Часы, Календарь и Погода): все открытые 1x1 слои приведены к эталону прошивки 320x320, выровнены день недели и число месяца на Календаре, убрана лишняя полоска сверху\n• Полноразмерные значки без обрезки краёв: скорректирован viewport адаптивных и полноцветных иконок (72/108 как в оригинальном OriginOS), расширен диапазон размера значков до 85%..140%\n• Полная поддержка английского языка (RU / EN) и модуль удалённой диагностики прошивки во вкладке «Система»"
+    "changelog": "• Прямая поддержка Global и РСТ прошивки OriginOS 6–7 (Vivo X300 РСТ V2515_RU, iQOO I2505_RU и др., com.bbk.theme 23.8.x / 24.0.x): автоопределение по ro.vivo.product.overseas=yes, прямой вызов новых экранов предпросмотра richui.ex.preview.ResPreviewOnline / ResPreviewDLOnline, отключение сетевой докачки стиля (needDownloadStyle = false, setHasPayed = true, setIsDiyComplete = true) и распаковка масок launcher/* в корень .itz\n• Исправлены живые системные значки (Часы, Календарь и Погода): все открытые 1x1 слои приведены к эталону прошивки 320x320, выровнены день недели и число месяца на Календаре, убрана лишняя полоска сверху\n• Полноразмерные значки без обрезки краёв: скорректирован viewport адаптивных и полноцветных иконок (72/108 как в оригинальном OriginOS), расширен диапазон размера значков до 85%..140%\n• Полная поддержка английского языка (RU / EN) и модуль удалённой диагностики прошивки во вкладке «Система»"
 }
