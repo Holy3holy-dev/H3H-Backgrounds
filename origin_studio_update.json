@@ -1,9 +1,9 @@
 {
-    "versionCode": 64,
-    "versionName": "2.3.1",
-    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.3.1/OriginOS-Studio-2.3.1.apk",
-    "apkSizeBytes": 4270950,
+    "versionCode": 65,
+    "versionName": "2.3.2",
+    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.3.2/OriginOS-Studio-2.3.2.apk",
+    "apkSizeBytes": 4287334,
     "bannerUrl": "https://raw.githubusercontent.com/elementary/wallpapers/master/backgrounds/odin.jpg",
     "catalogUrl": "https://raw.githubusercontent.com/Holy3holy-dev/OriginOS-Studio/main/catalog.json",
-    "changelog": "• Добавлен встроенный модуль удалённой диагностики прошивки (Global / РСТ / CN) и выгрузки системного пакета «Темы» (com.bbk.theme.apk + полный рефлексивный отчёт в .zip) во вкладке «Система»\n• Исправлен вылет приложения «Темы» (com.bbk.theme) при нажатии «Применить» на OriginOS 6 / OriginOS 5 (включая iQOO Z9 CN и другие модели)\n• Убран маленький кружок-пометка Студии в правом нижнем углу отдельных добавляемых ярлыков (при сохранении иконки самой Студии на рабочем столе)"
+    "changelog": "• Добавлена полная поддержка английского языка (Русский / English): автоопределение по языку системы, быстрый переключатель RU / EN в верхней шапке и выбор языка во вкладке «Система» (перевод всех экранов, диалогов и виджетов часов/календаря)\n• Встроен модуль удалённой диагностики прошивки (Global / РСТ / CN) и выгрузки системного пакета «Темы» (com.bbk.theme.apk + отчёт в .zip) во вкладке «Система»\n• Исправлен вылет приложения «Темы» (com.bbk.theme) при нажатии «Применить» на OriginOS 6 / OriginOS 5 (включая iQOO Z9 CN)\n• Убран маленький кружок-пометка Студии в правом нижнем углу отдельных добавляемых ярлыков"
 }
