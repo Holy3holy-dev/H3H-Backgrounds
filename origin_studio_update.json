@@ -1,9 +1,9 @@
 {
-    "changelog":  "• Новая адаптивная иконка «Цветок Material You \u0026 Кисть» с поддержкой монохромного слоя Monet (\u003cmonochrome\u003e)\n• Полная поддержка глобальных версий смартфонов Vivo и iQOO (Funtouch OS 14–15 и Global OriginOS 5–7)\n• 62 кириллических шрифта (Kabel, Google Pixel, Samsung, iPhone, Xiaomi, Huawei, OnePlus, Nothing) и автообновляемый облачный каталог",
+    "changelog":  "• Исправлена геометрия и отображение фирменной иконки Студии («Цветок Material You \u0026 Кисть») при применении иконпаков и тем\n• 62 кириллических шрифта (включая встроенный Kabel и шрифты со смартфонов Google Pixel, Samsung, iPhone, Xiaomi, Huawei, OnePlus, Nothing) с автообновляемым каталогом",
     "bannerUrl":  "https://raw.githubusercontent.com/elementary/wallpapers/master/backgrounds/odin.jpg",
-    "versionName":  "2.2.4",
-    "versionCode":  57,
-    "apkSizeBytes":  4266854,
+    "versionName":  "2.2.5",
+    "versionCode":  58,
+    "apkSizeBytes":  4242278,
     "catalogUrl":  "https://raw.githubusercontent.com/Holy3holy-dev/OriginOS-Studio/main/catalog.json",
-    "apkUrl":  "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.2.4/OriginOS-Studio-2.2.4.apk"
+    "apkUrl":  "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.2.5/OriginOS-Studio-2.2.5.apk"
 }
