@@ -1,9 +1,9 @@
 {
-    "versionCode": 63,
-    "versionName": "2.3.0",
-    "apkUrl": "https://raw.githubusercontent.com/Holy3holy-dev/OriginOS-Studio/main/OriginOS-Studio-2.3.0.apk",
-    "apkSizeBytes": 4262758,
+    "versionCode": 64,
+    "versionName": "2.3.1",
+    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.3.1/OriginOS-Studio-2.3.1.apk",
+    "apkSizeBytes": 4270950,
     "bannerUrl": "https://raw.githubusercontent.com/elementary/wallpapers/master/backgrounds/odin.jpg",
     "catalogUrl": "https://raw.githubusercontent.com/Holy3holy-dev/OriginOS-Studio/main/catalog.json",
-    "changelog": "• Исправлен вылет приложения «Темы» (com.bbk.theme) при нажатии «Применить» на OriginOS 6 / OriginOS 5 (включая iQOO Z9 CN и другие модели): объект ThemeItem теперь создаётся динамически через ClassLoader установленного системного магазина тем\n• Убран маленький кружок-пометка Студии в правом нижнем углу отдельных добавляемых ярлыков (через штатный мета-тег лаунчера Vivo launcher_shortcut_custom_component_icon с прозрачным слоем LaunchActivity2), при этом иконка самой Студии на рабочем столе сохранена\n• Встроен регулятор размера значков на рабочем столе (85%–130%, включая 122% «Самый большой» из коробки) и размера глифов"
+    "changelog": "• Добавлен встроенный модуль удалённой диагностики прошивки (Global / РСТ / CN) и выгрузки системного пакета «Темы» (com.bbk.theme.apk + полный рефлексивный отчёт в .zip) во вкладке «Система»\n• Исправлен вылет приложения «Темы» (com.bbk.theme) при нажатии «Применить» на OriginOS 6 / OriginOS 5 (включая iQOO Z9 CN и другие модели)\n• Убран маленький кружок-пометка Студии в правом нижнем углу отдельных добавляемых ярлыков (при сохранении иконки самой Студии на рабочем столе)"
 }
