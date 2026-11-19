@@ -1,9 +1,9 @@
 {
-    "versionCode": 89,
-    "versionName": "2.5.12",
-    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.5.12/OriginOS-Studio-2.5.12.apk",
+    "versionCode": 90,
+    "versionName": "2.5.13",
+    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.5.13/OriginOS-Studio-2.5.13.apk",
     "apkSizeBytes": 4312160,
     "bannerUrl": "https://raw.githubusercontent.com/elementary/wallpapers/master/backgrounds/odin.jpg",
     "catalogUrl": "https://raw.githubusercontent.com/Holy3holy-dev/OriginOS-Studio/main/catalog.json",
-    "changelog": "• Исправлена работа системного ползунка «📏 Размер значков» OriginOS/FuntouchOS на темах Студии: в launcher/iconsize.xml добавлен официальный флаг <originostheme>1</originostheme>, который снимает ограничение профиля unofficial в лаунчере Vivo (ранее на Global шаги были заморожены в 1.0×, а на CN урезаны до 50dp и едва заметного шага 1.019–1.057×).\n• Улучшена кнопка «📏 Размер значков»: исправлены запасные маршруты запуска на IconStyleDeformSetting, LauncherSettingsPreference и официальные Intent Action лаунчера Vivo, добавлен перевод подсказки на EN.\n• Важно: чтобы системный ползунок размера заработал, нажмите «⚡ Применить иконки на рабочий стол» один раз в версии 2.5.12, после чего откройте «📏 Размер значков»."
+    "changelog": "• Восстановлена прежняя геометрия иконок из v2.5.11: удалён тег <originostheme>1</originostheme> из launcher/iconsize.xml, который уменьшал базовый размер иконок на сетке 4×6 без реального эффекта системного ползунка.\n• Обновлены подсказки в разделе размера значков (убрано ложное обещание про системный ползунок размера, кнопка переименована в «⚙ Значки системы» для быстрого доступа к подписям и стилям лаунчера)."
 }
