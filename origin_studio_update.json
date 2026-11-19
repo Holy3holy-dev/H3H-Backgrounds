@@ -1,9 +1,9 @@
 {
-    "versionCode": 78,
-    "versionName": "2.5.1",
-    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.5.1/OriginOS-Studio-2.5.1.apk",
-    "apkSizeBytes": 4295526,
+    "versionCode": 79,
+    "versionName": "2.5.2",
+    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.5.2/OriginOS-Studio-2.5.2.apk",
+    "apkSizeBytes": 4299622,
     "bannerUrl": "https://raw.githubusercontent.com/elementary/wallpapers/master/backgrounds/odin.jpg",
     "catalogUrl": "https://raw.githubusercontent.com/Holy3holy-dev/OriginOS-Studio/main/catalog.json",
-    "changelog": "• Поддержка Global и РСТ прошивок (OriginOS 6–7 / Funtouch OS 15+): исправлено мгновенное закрытие системного окна тем (обход блокировки isSafeIntent через DLTheme и регистрацию в системных ContentProvider с числовым UID).\n• Своё фото для значка «как в OriginOS 7»: встроен полноэкранный интерактивный редактор произвольной обрезки, поворота и масштабирования внутри живого контура значка, без цветовых фильтров палитры и с мгновенным обновлением превью.\n• Исправлен обход CDN-кэша GitHub при проверке OTA-обновлений."
+    "changelog": "• Исправлены квадратные рамки у новых установленных приложений, системных ярлыков (например DNS) и отдельных ярлыков рабочего стола: восстановлена геометрия icon_bg_one..seven.png и icon_mask_two.png для IconRedrawManager лаунчера Vivo, а закреплённые ярлыки теперь всегда обрезаются по выбранной форме темы.\n• Исправлены живые иконки Календаря и Погоды: 1x1 подложки (включая тёмную тему) больше не превращаются в гигантские квадраты без маски, а текст дня недели и числа в Календаре центрируется без вылета за края на любых экранах.\n• Устранены ложные подмены иконок из сторонних APK-иконпаков (убран нечёткий подбор по случайным сегментам имени пакета).\n• Глобальные прошивки (com.bbk.theme v15–v24 Overseas): возврат стоковых иконок и шрифта переведён на прямой системный переход (id=1), убраны лишние ошибки провайдера БД, а при блокировке локальных .itz магазином тем Студия сохраняет файл в Download/OriginOS-Studio/ и предлагает прямой переход к «Ярлыки отдельно»."
 }
