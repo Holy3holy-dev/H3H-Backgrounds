@@ -1,9 +1,9 @@
 {
-    "versionCode": 90,
-    "versionName": "2.5.13",
-    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.5.13/OriginOS-Studio-2.5.13.apk",
-    "apkSizeBytes": 4312160,
+    "versionCode": 91,
+    "versionName": "2.5.14",
+    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.5.14/OriginOS-Studio-2.5.14.apk",
+    "apkSizeBytes": 4316256,
     "bannerUrl": "https://raw.githubusercontent.com/elementary/wallpapers/master/backgrounds/odin.jpg",
     "catalogUrl": "https://raw.githubusercontent.com/Holy3holy-dev/OriginOS-Studio/main/catalog.json",
-    "changelog": "• Восстановлена прежняя геометрия иконок из v2.5.11: удалён тег <originostheme>1</originostheme> из launcher/iconsize.xml, который уменьшал базовый размер иконок на сетке 4×6 без реального эффекта системного ползунка.\n• Обновлены подсказки в разделе размера значков (убрано ложное обещание про системный ползунок размера, кнопка переименована в «⚙ Значки системы» для быстрого доступа к подписям и стилям лаунчера)."
+    "changelog": "• Исправлена кнопка «Выбрать все / Снять выбор» в списке приложений (AppsActivity): корректно обновляет галочки и счётчик в заголовке.\n• Global Vivo / iQOO: в экране выбора приложений добавлен переключатель способа закрепления иконок — «✨ 1×1 без бейджа» (перетаскиванием из окна или через Виджеты, с предупреждением про кнопку «Добавить автоматически») и «⚡ Ярлыки (1 тап)».\n• Обновлён URI кнопки «Открыть Темы» под com.bbk.theme v23.8+ (themelocal://themehost) и улучшена диагностика совместимости: автоматическое определение реального системного лаунчера через CATEGORY_HOME и логирование шагов закрепления виджетов."
 }
