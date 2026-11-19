@@ -1,9 +1,9 @@
 {
-    "versionCode": 81,
-    "versionName": "2.5.4",
-    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.5.4/OriginOS-Studio-2.5.4.apk",
+    "versionCode": 82,
+    "versionName": "2.5.5",
+    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.5.5/OriginOS-Studio-2.5.5.apk",
     "apkSizeBytes": 4299622,
     "bannerUrl": "https://raw.githubusercontent.com/elementary/wallpapers/master/backgrounds/odin.jpg",
     "catalogUrl": "https://raw.githubusercontent.com/Holy3holy-dev/OriginOS-Studio/main/catalog.json",
-    "changelog": "• Исправлено несовпадение цвета у отдельных ярлыков рабочего стола («Ярлыки отдельно»): теперь закрепление и обновление ярлыков используют ту же активную палитру Студии (colorsForThemeExport), что и тема .itz, без отката на тёмную системную палитру при выключенном тумблере themed.icons.\n• Включает все исправления 2.5.2–2.5.3: прозрачный угловой бейдж ярлыков, исправленные маски icon_mask_two.png / icon_bg_one..seven.png (включая анимацию возврата из папок и скругление новых приложений/DNS), живые иконки Календаря и Погоды и точный подбор в сторонних иконпаках."
+    "changelog": "• Исправлена квадратная анимация возврата приложения в папку на увеличенных размерах иконок: launcher/iconsize.xml приведён к заводскому формату тем Vivo (убраны <supporticonraduischange>1</supporticonraduischange> и нестандартный <googlescale>, обнулявшие радиус скругления анимации в IconRedrawManager)."
 }
