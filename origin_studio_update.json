@@ -1,9 +1,9 @@
 {
-    "versionCode": 88,
-    "versionName": "2.5.11",
-    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.5.11/OriginOS-Studio-2.5.11.apk",
+    "versionCode": 89,
+    "versionName": "2.5.12",
+    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.5.12/OriginOS-Studio-2.5.12.apk",
     "apkSizeBytes": 4312160,
     "bannerUrl": "https://raw.githubusercontent.com/elementary/wallpapers/master/backgrounds/odin.jpg",
     "catalogUrl": "https://raw.githubusercontent.com/Holy3holy-dev/OriginOS-Studio/main/catalog.json",
-    "changelog": "• Global ROM (FuntouchOS / Global OriginOS): кнопка «Add to Home screen» в экране выбора приложений теперь автоматически закрепляет чистые 1×1 иконки через нативный диалог «Add automatically» (AppWidgetManager.requestPinAppWidget) полностью БЕЗ синего мини-значка в углу — больше не нужно перетаскивать виджеты вручную.\n• Прямое закрепление виджетов («Add automatically») теперь работает на Global ROM и на вкладке «Виджеты».\n• Полностью переведены на английский (EN) диалог «Global Vivo ROM» после Apply Icons и кнопки «Select all apps» в экране выбора приложений."
+    "changelog": "• Исправлена работа системного ползунка «📏 Размер значков» OriginOS/FuntouchOS на темах Студии: в launcher/iconsize.xml добавлен официальный флаг <originostheme>1</originostheme>, который снимает ограничение профиля unofficial в лаунчере Vivo (ранее на Global шаги были заморожены в 1.0×, а на CN урезаны до 50dp и едва заметного шага 1.019–1.057×).\n• Улучшена кнопка «📏 Размер значков»: исправлены запасные маршруты запуска на IconStyleDeformSetting, LauncherSettingsPreference и официальные Intent Action лаунчера Vivo, добавлен перевод подсказки на EN.\n• Важно: чтобы системный ползунок размера заработал, нажмите «⚡ Применить иконки на рабочий стол» один раз в версии 2.5.12, после чего откройте «📏 Размер значков»."
 }
