@@ -1,9 +1,9 @@
 {
-    "versionCode": 84,
-    "versionName": "2.5.7",
-    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.5.7/OriginOS-Studio-2.5.7.apk",
+    "versionCode": 86,
+    "versionName": "2.5.9",
+    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.5.9/OriginOS-Studio-2.5.9.apk",
     "apkSizeBytes": 4299622,
     "bannerUrl": "https://raw.githubusercontent.com/elementary/wallpapers/master/backgrounds/odin.jpg",
     "catalogUrl": "https://raw.githubusercontent.com/Holy3holy-dev/OriginOS-Studio/main/catalog.json",
-    "changelog": "• Исправлена квадратная обрезка углов в анимации возврата приложения в папку на увеличенных размерах иконок: внутренняя фигура иконки в холсте 240×240 теперь ограничена безопасным максимумом 172px (достаточный запас полей под 1.3× зум VivoLauncherFloatingIconView), а дополнительное увеличение при масштабе > 115% передаётся через <width>/<height>/<foldericonwidth> в launcher/iconsize.xml."
+    "changelog": "• Возвращена полноценная регулировка размера значков (85%–140%) в Студии и чистый заводской launcher/iconsize.xml (52×52 / 46×46).\n• Под ползунком размера добавлена подсказка: на 100% (Станд.) анимация возврата в папки идеально скруглённая (на увеличенных значениях >100% лаунчер Vivo при ~1.3× зуме в папках может на мгновение подрезать углы — для крупного размера без артефакта используйте «Стили на телефоне»).\n• Включает все исправления 2.5.2–2.5.4: скруглённые маски новых приложений и системных ярлыков (DNS), прозрачный бейдж и точный цвет отдельных ярлыков, исправленные живые Календарь и Погода, точный подбор в сторонних иконпаках."
 }
