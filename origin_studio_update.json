@@ -1,9 +1,9 @@
 {
-    "versionCode": 82,
-    "versionName": "2.5.5",
-    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.5.5/OriginOS-Studio-2.5.5.apk",
+    "versionCode": 83,
+    "versionName": "2.5.6",
+    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.5.6/OriginOS-Studio-2.5.6.apk",
     "apkSizeBytes": 4299622,
     "bannerUrl": "https://raw.githubusercontent.com/elementary/wallpapers/master/backgrounds/odin.jpg",
     "catalogUrl": "https://raw.githubusercontent.com/Holy3holy-dev/OriginOS-Studio/main/catalog.json",
-    "changelog": "• Исправлена квадратная анимация возврата приложения в папку на увеличенных размерах иконок: launcher/iconsize.xml приведён к заводскому формату тем Vivo (убраны <supporticonraduischange>1</supporticonraduischange> и нестандартный <googlescale>, обнулявшие радиус скругления анимации в IconRedrawManager)."
+    "changelog": "• Исправлена квадратная анимация возврата приложения в папку на увеличенных размерах иконок: в launcher/iconsize.xml добавлены явные теги радиуса скругления (variableiconminradius, variableiconmaxradius, defaultvariableiconradius, filletX, filletY), чтобы лаунчер Vivo (i4/a) не запускал пиксельный детектор по увеличенной маске, возвращавший 0 (острый квадрат)."
 }
