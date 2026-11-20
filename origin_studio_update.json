@@ -1,9 +1,9 @@
 {
-    "versionCode": 94,
-    "versionName": "2.6.2",
-    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.6.2/OriginOS-Studio-2.6.2.apk",
+    "versionCode": 95,
+    "versionName": "2.6.3",
+    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.6.3/OriginOS-Studio-2.6.3.apk",
     "apkSizeBytes": 4328976,
     "bannerUrl": "https://raw.githubusercontent.com/elementary/wallpapers/master/backgrounds/odin.jpg",
     "catalogUrl": "https://raw.githubusercontent.com/Holy3holy-dev/OriginOS-Studio/main/catalog.json",
-    "changelog": "• Исправлен рендер собственной иконки «Студии OriginOS» (и Beta) в режиме «💎 Жидкое стекло»: теперь она корректно перекрашивается в полупрозрачное стекло с прозрачным вырезом логотипа вместо сине-фиолетового градиента."
+    "changelog": "• Исправлены стартовые цвета в «Своих парах» (+): теперь диалог создания новой пары автоматически берёт палитру текущих обоев вместо жёстко зашитого фиолетового.\n• Исправлен рендер собственной иконки «Студии OriginOS» (и Beta) в режиме «💎 Жидкое стекло»: теперь она корректно перекрашивается в стекло с прозрачным вырезом логотипа."
 }
