@@ -1,9 +1,9 @@
 {
-    "versionCode": 95,
-    "versionName": "2.6.3",
-    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.6.3/OriginOS-Studio-2.6.3.apk",
-    "apkSizeBytes": 4328976,
+    "versionCode": 96,
+    "versionName": "2.6.4",
+    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.6.4/OriginOS-Studio-2.6.4.apk",
+    "apkSizeBytes": 4333072,
     "bannerUrl": "https://raw.githubusercontent.com/elementary/wallpapers/master/backgrounds/odin.jpg",
     "catalogUrl": "https://raw.githubusercontent.com/Holy3holy-dev/OriginOS-Studio/main/catalog.json",
-    "changelog": "• Исправлены стартовые цвета в «Своих парах» (+): теперь диалог создания новой пары автоматически берёт палитру текущих обоев вместо жёстко зашитого фиолетового.\n• Исправлен рендер собственной иконки «Студии OriginOS» (и Beta) в режиме «💎 Жидкое стекло»: теперь она корректно перекрашивается в стекло с прозрачным вырезом логотипа."
+    "changelog": "• Добавлена настройка «Цвет папок на рабочем столе» (3 режима):\n  — «Родной (OriginOS)» — разблокирует штатные цветные кружки «Цвет папки» в меню каждой папки на рабочем столе;\n  — «В цвет темы» — тонировка всех папок в тон палитры/обоев с выбором прозрачности (25% / 40% / 65% / 90%);\n  — «Свой цвет» — выбор любого цвета и прозрачности папок прямо в Студии."
 }
