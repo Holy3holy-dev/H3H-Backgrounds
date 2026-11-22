@@ -1,9 +1,9 @@
 {
-    "versionCode": 99,
-    "versionName": "2.7.2",
-    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.7.2/OriginOS-Studio-2.7.2.apk",
-    "apkSizeBytes": 4345535,
+    "versionCode": 100,
+    "versionName": "2.8.0",
+    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.8.0/OriginOS-Studio-2.8.0.apk",
+    "apkSizeBytes": 4468734,
     "bannerUrl": "https://raw.githubusercontent.com/elementary/wallpapers/master/backgrounds/odin.jpg",
     "catalogUrl": "https://raw.githubusercontent.com/Holy3holy-dev/OriginOS-Studio/main/catalog.json",
-    "changelog": "• Исправлена подмена и склеивание иконок у игр на общих движках (Unity, Supercell, Unreal Engine, Godot, Cocos2d-x, Flutter и др.) — теперь каждая игра на рабочем столе получает строго свою собственную иконку.\n• Исправлена точечная ручная замена значка для игр и приложений с несколькими точками запуска: выбранная вручную иконка теперь одинаково применяется и в настройках системы, и на рабочем столе OriginOS.\n• В облачный каталог шрифтов добавлен шрифт OPlus Sans / SysSans (ColorOS 15) с полной поддержкой кириллицы."
+    "changelog": "• Новый интерфейс «Мастерская»: главный хаб с наглядными карточками разделов («Иконки», «Темы», «Шрифты», «Виджеты»), живым превью рабочего стола, быстрыми вкладками настроек и обновлённой нижней навигацией («Студия», «Каталог», «Система»).\n• Новые виджеты на рабочий стол: «Погода 4 дня (4×2)», плеер «Сейчас играет (4×2)» и обновлённый макет виджета «Часы и восход солнца».\n• Улучшенный стиль «Жидкое стекло», встроенный генератор стеклянных обоев и обновлённая геометрия полноразмерных фигурных значков без рамки.\n• Расширенная кастомизация значков: создание иконок-монограмм (1–4 буквы), прямой импорт наборов из .itz/.zip и полное устранение подмены значков у игр на общих движках (Unity, Supercell, Unreal, Godot, Cocos2d-x, Flutter).\n• Расширена поддержка глобальных прошивок OriginOS и исправлена полярность цветов в разделе «Свои пары»."
 }
