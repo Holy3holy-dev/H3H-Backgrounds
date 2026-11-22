@@ -1,9 +1,9 @@
 {
-    "versionCode": 98,
-    "versionName": "2.7.1",
-    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.7.1/OriginOS-Studio-2.7.1.apk",
+    "versionCode": 99,
+    "versionName": "2.7.2",
+    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.7.2/OriginOS-Studio-2.7.2.apk",
     "apkSizeBytes": 4345535,
     "bannerUrl": "https://raw.githubusercontent.com/elementary/wallpapers/master/backgrounds/odin.jpg",
     "catalogUrl": "https://raw.githubusercontent.com/Holy3holy-dev/OriginOS-Studio/main/catalog.json",
-    "changelog": "• Исправлен баг в разделе «Свои пары»: выбранные цвета фона и символа больше не меняются местами при включённой тёмной или светлой системной теме.\n• Исправлена окраска многоцветных системных значков (включая «Альбомы») на тёмных палитрах — фон исходного значка теперь всегда ложится в цвет подложки, а детали — в цвет символа.\n• Поправлена вёрстка кнопок «Фон / Символ» в диалоге выбора цвета и сегментированных переключателей палитры без разрыва слов."
+    "changelog": "• Исправлена подмена и склеивание иконок у игр на общих движках (Unity, Supercell, Unreal Engine, Godot, Cocos2d-x, Flutter и др.) — теперь каждая игра на рабочем столе получает строго свою собственную иконку.\n• Исправлена точечная ручная замена значка для игр и приложений с несколькими точками запуска: выбранная вручную иконка теперь одинаково применяется и в настройках системы, и на рабочем столе OriginOS.\n• В облачный каталог шрифтов добавлен шрифт OPlus Sans / SysSans (ColorOS 15) с полной поддержкой кириллицы."
 }
