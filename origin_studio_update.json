@@ -1,9 +1,9 @@
 {
-    "versionCode": 102,
-    "versionName": "2.8.2",
-    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.8.2/OriginOS-Studio-2.8.2.apk",
-    "apkSizeBytes": 4468734,
+    "versionCode": 103,
+    "versionName": "2.8.3",
+    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.8.3/OriginOS-Studio-2.8.3.apk",
+    "apkSizeBytes": 4444158,
     "bannerUrl": "https://raw.githubusercontent.com/elementary/wallpapers/master/backgrounds/odin.jpg",
     "catalogUrl": "https://raw.githubusercontent.com/Holy3holy-dev/OriginOS-Studio/main/catalog.json",
-    "changelog": "• На главный экран Мастерской («Студия») и на первую вкладку «Система → Основное» возвращена прямая карточка и ссылка на Telegram-канал автора H3H (`https://t.me/holy3holy`).\n• Включает все исправления `2.8.1`: стабильный показ кнопки «Применить» на китайской OriginOS 6 / 7 (iQOO Z9 / Z9T CN и другие модели vivo / iQOO), приоритетную проверку региона прошивки `ro.vivo.product.overseas` и чистый парсинг названий при импорте `.itz`."
+    "changelog": "• Полностью удалена регистрация собственного лаунчера (`OriginHomeLauncherActivity` / `category.HOME`): все темы, иконки, шрифты и виджеты работают строго в стандартном системном лаунчере Vivo (`BBKLauncher2`).\n• На главный экран Мастерской («Студия») и на вкладку «Система → Основное» добавлена прямая карточка и ссылка на Telegram-канал автора H3H (`https://t.me/holy3holy`)."
 }
