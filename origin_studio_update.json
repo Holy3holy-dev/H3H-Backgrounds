@@ -1,9 +1,9 @@
 {
-    "versionCode": 103,
-    "versionName": "2.8.3",
-    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.8.3/OriginOS-Studio-2.8.3.apk",
-    "apkSizeBytes": 4444158,
+    "versionCode": 104,
+    "versionName": "2.8.4",
+    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.8.4/OriginOS-Studio-2.8.4.apk",
+    "apkSizeBytes": 4481022,
     "bannerUrl": "https://raw.githubusercontent.com/elementary/wallpapers/master/backgrounds/odin.jpg",
     "catalogUrl": "https://raw.githubusercontent.com/Holy3holy-dev/OriginOS-Studio/main/catalog.json",
-    "changelog": "• Полностью удалена регистрация собственного лаунчера (`OriginHomeLauncherActivity` / `category.HOME`): все темы, иконки, шрифты и виджеты работают строго в стандартном системном лаунчере Vivo (`BBKLauncher2`).\n• На главный экран Мастерской («Студия») и на вкладку «Система → Основное» добавлена прямая карточка и ссылка на Telegram-канал автора H3H (`https://t.me/holy3holy`)."
+    "changelog": "• В онлайн-каталог («Каталог → Иконпаки») добавлены 19 новых прямых наборов значков `.itz` для OriginOS с живыми миниатюрами и применением в 1 касание (`OneYou Adaptive` 36 400+, `Pix Material V2` 18 600+, серия `ColorOS 16 Dark / Mint / Red / Black / Blue / Violet`, `iGlass Color`, `iLiquid Dark`, `Black iOS 26`, `Material 3 Black & White`, `BlackUX`, `Whiux`, `Disco`, `HarmonyOS NEXT Dark`, `OneWhite UI 2`).\n• Новый потоковый движок импорта `.itz` и `.zip` (`ZIP64` с постоянным потреблением ОЗУ ~20–35 МБ и `largeHeap`): устранены ошибки нехватки памяти (`OutOfMemoryError`) и сбои `invalid LOC header` на крупных сторонних пакетах от 200 МБ до `1.66 ГБ`.\n• Точечный оверлей однострочных русских подписей для системного меню «Недавних» (`com.vivo.recents`) и сохранение штатной 100% ширины системного шрифта в остальном интерфейсе."
 }
