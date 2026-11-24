@@ -1,9 +1,9 @@
 {
-    "versionCode": 104,
-    "versionName": "2.8.4",
-    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.8.4/OriginOS-Studio-2.8.4.apk",
-    "apkSizeBytes": 4481022,
+    "versionCode": 105,
+    "versionName": "2.8.5",
+    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.8.5/OriginOS-Studio-2.8.5.apk",
+    "apkSizeBytes": 4489214,
     "bannerUrl": "https://raw.githubusercontent.com/elementary/wallpapers/master/backgrounds/odin.jpg",
     "catalogUrl": "https://raw.githubusercontent.com/Holy3holy-dev/OriginOS-Studio/main/catalog.json",
-    "changelog": "• В онлайн-каталог («Каталог → Иконпаки») добавлены 19 новых прямых наборов значков `.itz` для OriginOS с живыми миниатюрами и применением в 1 касание (`OneYou Adaptive` 36 400+, `Pix Material V2` 18 600+, серия `ColorOS 16 Dark / Mint / Red / Black / Blue / Violet`, `iGlass Color`, `iLiquid Dark`, `Black iOS 26`, `Material 3 Black & White`, `BlackUX`, `Whiux`, `Disco`, `HarmonyOS NEXT Dark`, `OneWhite UI 2`).\n• Новый потоковый движок импорта `.itz` и `.zip` (`ZIP64` с постоянным потреблением ОЗУ ~20–35 МБ и `largeHeap`): устранены ошибки нехватки памяти (`OutOfMemoryError`) и сбои `invalid LOC header` на крупных сторонних пакетах от 200 МБ до `1.66 ГБ`.\n• Точечный оверлей однострочных русских подписей для системного меню «Недавних» (`com.vivo.recents`) и сохранение штатной 100% ширины системного шрифта в остальном интерфейсе."
+    "changelog": "• Защита пользовательского шрифта при применении полных тем `.itz` (собранных и импортированных): системный менеджер тем больше не вызывает `AllFontApply` (модуль `0x73`) и не сбрасывает установленный шрифт на заводской китайский.\n• Обновлённая вкладка «Шрифты» с `TTF Fixer` и уменьшением меню карточек в «Недавних» без узких букв в Telegram: независимое управление системной ступенью `sp` Vivo (`80% / 90% / 100%`) и метриками `.ttf` при 100% круглой ширине глифов.\n• Сохранены все улучшения v2.8.4: 19 новых прямых `.itz` иконпаков в онлайн-каталоге и потоковый движок `ZIP64` для пакетов до `1.66 ГБ`."
 }
