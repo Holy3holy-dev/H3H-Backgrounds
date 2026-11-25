@@ -1,9 +1,9 @@
 {
-    "versionCode": 105,
-    "versionName": "2.8.5",
-    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.8.5/OriginOS-Studio-2.8.5.apk",
-    "apkSizeBytes": 4489214,
+    "versionCode": 106,
+    "versionName": "2.8.6",
+    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.8.6/OriginOS-Studio-2.8.6.apk",
+    "apkSizeBytes": 4501502,
     "bannerUrl": "https://raw.githubusercontent.com/elementary/wallpapers/master/backgrounds/odin.jpg",
     "catalogUrl": "https://raw.githubusercontent.com/Holy3holy-dev/OriginOS-Studio/main/catalog.json",
-    "changelog": "• Защита пользовательского шрифта при применении полных тем `.itz` (собранных и импортированных): системный менеджер тем больше не вызывает `AllFontApply` (модуль `0x73`) и не сбрасывает установленный шрифт на заводской китайский.\n• Обновлённая вкладка «Шрифты» с `TTF Fixer` и уменьшением меню карточек в «Недавних» без узких букв в Telegram: независимое управление системной ступенью `sp` Vivo (`80% / 90% / 100%`) и метриками `.ttf` при 100% круглой ширине глифов.\n• Сохранены все улучшения v2.8.4: 19 новых прямых `.itz` иконпаков в онлайн-каталоге и потоковый движок `ZIP64` для пакетов до `1.66 ГБ`."
+    "changelog": "• Меню карточек в «Недавних» (сетка 2×2 на OriginOS 7 CN): во вкладке «Темы» добавлен выбор между **«Оригинал 1 стр.»** (заводские названия *«Заблокировать / Разблокировать / О приложении / Разделенный экран / Маленькое окно»* ровно в одну строку круглым шрифтом без сужения букв в Telegram и других приложениях) и **«Короткие 16sp»** (*«Замок / Снять / Детали / 2 экрана / В окне»* крупным шрифтом), а также режим **«Выкл»**.\n• Активация модульного оверлея `/data/bbkcore/theme/com.vivo.recents` на китайских прошивках OriginOS 7 через числовой `themeId > 999` с полной защитой установленного пользовательского шрифта."
 }
