@@ -1,9 +1,9 @@
 {
-    "versionCode": 111,
-    "versionName": "2.8.11",
-    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.8.11/OriginOS-Studio-2.8.11.apk",
-    "apkSizeBytes": 4534270,
+    "versionCode": 112,
+    "versionName": "2.8.12",
+    "apkUrl": "https://github.com/Holy3holy-dev/OriginOS-Studio/releases/download/v2.8.12/OriginOS-Studio-2.8.12.apk",
+    "apkSizeBytes": 4538366,
     "bannerUrl": "https://raw.githubusercontent.com/elementary/wallpapers/master/backgrounds/odin.jpg",
     "catalogUrl": "https://raw.githubusercontent.com/Holy3holy-dev/OriginOS-Studio/main/catalog.json",
-    "changelog": "• **Идеальная калибровка сетки и чистота стекла на растянутых карточках (`1×2`, `2×1`, `2×2`):** выровнены пропорции вертикальных карточек `1×2` (без наезда на подписи сверху и снизу) и квадратных карточек `2×2` (в одну линию с `2×1`), добавлены плавные squircle-углы OriginOS и полностью убран тёмный фоновый ореол вокруг логотипа внутри «Стекла OriginOS».\n• **Перекраска растянутых карточек во всех стилях Студии и сторонних `.itz` паках** (включая докраску отсутствующих приложений в монохромных наборах)."
+    "changelog": "• **Исправлено применение тем и значков на китайских прошивках OriginOS 7 CN (`vivo X200 Pro` и др.):** добавлена запись параметров `iconStyle=\"2\"` и `iconRadius=\"1\"` в `content/config.xml` для всех режимов (полная тема со шторкой, значки с сохранением подписей меню «Недавних» и отдельный модуль «Недавних»), исключающая сброс значков на стоковые в `SystemStyleApply`.\n• **Ускорение сборки и открытия меню «Темы» в 25–30 раз:** внедрён быстрый lossless PNG-кодировщик с предсказателем `Paeth`, кэширование шаблонов растянутых карточек `1×2` / `2×1` / `2×2`, прямая упаковка без двойного сжатия и мгновенная подготовка папки темы без зависаний и холостых запусков `ResPreview`."
 }
